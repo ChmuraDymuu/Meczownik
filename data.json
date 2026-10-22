@@ -1,0 +1,4503 @@
+{
+ "updated": "2026-10-22T17:40:00+02:00",
+ "season": "2026/27",
+ "competition": "Ekstraklasa",
+ "currentRound": 12,
+ "note": "Źródła: ekstraklasa.org, FotMob, Sofascore, sportowefakty.wp.pl, gol24.pl, eska.pl, flashscore.pl, kluby. Numery koszulek i pozycje częściowo niedostępne.",
+ "teams": {
+  "LEG": {
+   "id": "LEG",
+   "short": "LEG",
+   "name": "Legia Warszawa",
+   "city": "Warszawa",
+   "col": "#0b6e3a",
+   "stadium": "Stadion Wojska Polskiego",
+   "capacity": 31103
+  },
+  "LPO": {
+   "id": "LPO",
+   "short": "LPO",
+   "name": "Lech Poznań",
+   "city": "Poznań",
+   "col": "#1b4fa0",
+   "stadium": "Enea Stadion",
+   "capacity": 42837
+  },
+  "GZA": {
+   "id": "GZA",
+   "short": "GZA",
+   "name": "Górnik Zabrze",
+   "city": "Zabrze",
+   "col": "#1c3f94",
+   "stadium": "Arena Zabrze (Stadion im. Ernesta Pohla)",
+   "capacity": 28236
+  },
+  "POG": {
+   "id": "POG",
+   "short": "POG",
+   "name": "Pogoń Szczecin",
+   "city": "Szczecin",
+   "col": "#7a1f3d",
+   "stadium": "Stadion im. Floriana Krygiera",
+   "capacity": 21163
+  },
+  "GKS": {
+   "id": "GKS",
+   "short": "GKS",
+   "name": "GKS Katowice",
+   "city": "Katowice",
+   "col": "#1f7a36",
+   "stadium": "Arena Katowice",
+   "capacity": 15048
+  },
+  "WIS": {
+   "id": "WIS",
+   "short": "WIS",
+   "name": "Wisła Kraków",
+   "city": "Kraków",
+   "col": "#c8102e",
+   "stadium": "Synerise Arena (Stadion im. Henryka Reymana)",
+   "capacity": 33326
+  },
+  "ZAG": {
+   "id": "ZAG",
+   "short": "ZAG",
+   "name": "KGHM Zagłębie Lubin",
+   "city": "Lubin",
+   "col": "#c25a0e",
+   "stadium": "KGHM Zagłębie Arena",
+   "capacity": 16068
+  },
+  "PIA": {
+   "id": "PIA",
+   "short": "PIA",
+   "name": "Piast Gliwice",
+   "city": "Gliwice",
+   "col": "#1d3f8f",
+   "stadium": "Stadion im. Piotra Wieczorka",
+   "capacity": 10037
+  },
+  "KOR": {
+   "id": "KOR",
+   "short": "KOR",
+   "name": "Korona Kielce",
+   "city": "Kielce",
+   "col": "#b5121b",
+   "stadium": "Exbud Arena",
+   "capacity": 15122
+  },
+  "WPL": {
+   "id": "WPL",
+   "short": "WPL",
+   "name": "Wisła Płock",
+   "city": "Płock",
+   "col": "#1565c0",
+   "stadium": "Orlen Stadion im. Kazimierza Górskiego",
+   "capacity": 15004
+  },
+  "CRA": {
+   "id": "CRA",
+   "short": "CRA",
+   "name": "Cracovia",
+   "city": "Kraków",
+   "col": "#a31621",
+   "stadium": "Stadion im. Józefa Piłsudskiego",
+   "capacity": 15016
+  },
+  "MOT": {
+   "id": "MOT",
+   "short": "MOT",
+   "name": "Motor Lublin",
+   "city": "Lublin",
+   "col": "#24408e",
+   "stadium": "Motor Lublin Arena",
+   "capacity": 15247
+  },
+  "JAG": {
+   "id": "JAG",
+   "short": "JAG",
+   "name": "Jagiellonia Białystok",
+   "city": "Białystok",
+   "col": "#9c1c1c",
+   "stadium": "Chorten Arena",
+   "capacity": 22432
+  },
+  "WID": {
+   "id": "WID",
+   "short": "WID",
+   "name": "Widzew Łódź",
+   "city": "Łódź",
+   "col": "#8e1220",
+   "stadium": "Stadion Widzewa",
+   "capacity": 18018
+  },
+  "WIE": {
+   "id": "WIE",
+   "short": "WIE",
+   "name": "Wieczysta Kraków",
+   "city": "Kraków",
+   "col": "#2b2b2b",
+   "stadium": "Synerise Arena (Stadion im. Henryka Reymana)",
+   "capacity": 33326
+  },
+  "RAD": {
+   "id": "RAD",
+   "short": "RAD",
+   "name": "Radomiak Radom",
+   "city": "Radom",
+   "col": "#2e7d32",
+   "stadium": "Stadion im. Braci Czachorów",
+   "capacity": 14440
+  },
+  "SLA": {
+   "id": "SLA",
+   "short": "SLA",
+   "name": "Śląsk Wrocław",
+   "city": "Wrocław",
+   "col": "#0f6b3b",
+   "stadium": "Tarczyński Arena",
+   "capacity": 42771
+  },
+  "RAK": {
+   "id": "RAK",
+   "short": "RAK",
+   "name": "Raków Częstochowa",
+   "city": "Częstochowa",
+   "col": "#8b1a2b",
+   "stadium": "Miejski Stadion Piłkarski Raków",
+   "capacity": 5500
+  }
+ },
+ "rounds": {
+  "11": [
+   {
+    "id": "2026-27-R11-WPL-RAD",
+    "date": "2026-10-19",
+    "time": "19:00",
+    "home": "WPL",
+    "away": "RAD",
+    "status": "ft",
+    "score": [
+     1,
+     0
+    ],
+    "attendance": 5014,
+    "officials": [
+     {
+      "r": "GŁ",
+      "role": "Sędzia główny",
+      "name": "Daniel Stefański",
+      "city": "Bydgoszcz"
+     }
+    ],
+    "staff": {
+     "home": [
+      [
+       "Trener",
+       "Adam Majewski"
+      ]
+     ],
+     "away": [
+      [
+       "Trener",
+       "John Carver"
+      ]
+     ]
+    },
+    "formation": {
+     "home": "3-4-3",
+     "away": "4-2-3-1"
+    },
+    "players": {
+     "home": [
+      [
+       12,
+       "Rafał Leszczyński",
+       "BR",
+       "",
+       true
+      ],
+      [
+       4,
+       "Marcus Haglind-Sangré",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       35,
+       "Marcin Kamiński",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       34,
+       "Afonso Silva",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       21,
+       "Žan Rogelj",
+       "PS",
+       "",
+       true
+      ],
+      [
+       18,
+       "Jurica Pršir",
+       "ŚP",
+       "",
+       true
+      ],
+      [
+       5,
+       "Sidnei Tavares",
+       "ŚP",
+       "",
+       true
+      ],
+      [
+       23,
+       "Patryk Kun",
+       "LS",
+       "",
+       true
+      ],
+      [
+       57,
+       "Samuel Akere",
+       "N",
+       "",
+       true
+      ],
+      [
+       20,
+       "Łukasz Sekulski",
+       "N",
+       "",
+       true
+      ],
+      [
+       19,
+       "Dion Gallapeni",
+       "N",
+       "",
+       true
+      ],
+      [
+       9,
+       "Deni Jurić",
+       "N",
+       "",
+       false
+      ],
+      [
+       7,
+       "Olaf Kobacki",
+       "N",
+       "",
+       false
+      ],
+      [
+       16,
+       "Fabian Hiszpański",
+       "ŚO",
+       "",
+       false
+      ],
+      [
+       88,
+       "Kyriakos Savvidis",
+       "ŚP",
+       "",
+       false
+      ]
+     ],
+     "away": [
+      [
+       1,
+       "Filip Majchrowicz",
+       "BR",
+       "",
+       true
+      ],
+      [
+       24,
+       "Zié Ouattara",
+       "PO",
+       "",
+       true
+      ],
+      [
+       14,
+       "Steve Kingue",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       72,
+       "Filip Koperski",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       13,
+       "Jan Grzesik",
+       "LO",
+       "",
+       true
+      ],
+      [
+       10,
+       "Roberto Alves",
+       "DP",
+       "",
+       true
+      ],
+      [
+       77,
+       "Christos Donis",
+       "DP",
+       "",
+       true
+      ],
+      [
+       90,
+       "Ronaldo Lumungo",
+       "PS",
+       "",
+       true
+      ],
+      [
+       27,
+       "Rafał Wolski",
+       "OP",
+       "",
+       true
+      ],
+      [
+       82,
+       "Luquinhas",
+       "LS",
+       "",
+       true
+      ],
+      [
+       80,
+       "Guilherme Luiz",
+       "N",
+       "",
+       true
+      ],
+      [
+       8,
+       "Ibrahima Camará",
+       "DP",
+       "",
+       false
+      ],
+      [
+       97,
+       "Conrado",
+       "LO",
+       "",
+       false
+      ],
+      [
+       11,
+       "Fernand Goure",
+       "N",
+       "",
+       false
+      ],
+      [
+       7,
+       "Ché Nunnely",
+       "PS",
+       "",
+       false
+      ],
+      [
+       28,
+       "Romário Baró",
+       "OP",
+       "",
+       false
+      ]
+     ]
+    },
+    "events": [
+     {
+      "m": 15,
+      "t": "goal",
+      "s_": "h",
+      "who": "Jurica Pršir"
+     },
+     {
+      "m": 30,
+      "t": "yc",
+      "s_": "a",
+      "who": "Steve Kingue"
+     },
+     {
+      "m": 59,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Deni Jurić",
+      "out": "Łukasz Sekulski"
+     },
+     {
+      "m": 62,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Ibrahima Camará",
+      "out": "Roberto Alves"
+     },
+     {
+      "m": 62,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Conrado",
+      "out": "Luquinhas"
+     },
+     {
+      "m": 62,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Fernand Goure",
+      "out": "Guilherme Luiz"
+     },
+     {
+      "m": 63,
+      "t": "yc",
+      "s_": "h",
+      "who": "Žan Rogelj"
+     },
+     {
+      "m": 68,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Ché Nunnely",
+      "out": "Ronaldo Lumungo"
+     },
+     {
+      "m": 70,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Olaf Kobacki",
+      "out": "Jurica Pršir"
+     },
+     {
+      "m": 70,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Fabian Hiszpański",
+      "out": "Samuel Akere"
+     },
+     {
+      "m": 83,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Kyriakos Savvidis",
+      "out": "Olaf Kobacki"
+     },
+     {
+      "m": 87,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Romário Baró",
+      "out": "Rafał Wolski"
+     }
+    ],
+    "teamStats": [
+     [
+      "Posiadanie %",
+      45.8,
+      54.2
+     ],
+     [
+      "xG",
+      0.46,
+      1.12
+     ],
+     [
+      "Strzały",
+      5,
+      16
+     ],
+     [
+      "Rzuty rożne",
+      2,
+      6
+     ],
+     [
+      "Faule",
+      18,
+      11
+     ],
+     [
+      "Spalone",
+      2,
+      1
+     ]
+    ],
+    "ind": {
+     "Rafał Leszczyński": {
+      "r": 7.6
+     },
+     "Marcus Haglind-Sangré": {
+      "r": 7.0
+     },
+     "Marcin Kamiński": {
+      "r": 7.2
+     },
+     "Afonso Silva": {
+      "r": 7.7
+     },
+     "Žan Rogelj": {
+      "r": 6.8
+     },
+     "Jurica Pršir": {
+      "r": 8.0
+     },
+     "Sidnei Tavares": {
+      "r": 7.1
+     },
+     "Patryk Kun": {
+      "r": 6.9
+     },
+     "Samuel Akere": {
+      "r": 6.7
+     },
+     "Łukasz Sekulski": {
+      "r": 6.6
+     },
+     "Dion Gallapeni": {
+      "r": 7.7
+     },
+     "Filip Majchrowicz": {
+      "r": 5.9
+     },
+     "Zié Ouattara": {
+      "r": 7.0
+     },
+     "Steve Kingue": {
+      "r": 5.8
+     },
+     "Filip Koperski": {
+      "r": 8.0
+     },
+     "Jan Grzesik": {
+      "r": 6.8
+     },
+     "Roberto Alves": {
+      "r": 6.6
+     },
+     "Christos Donis": {
+      "r": 7.5
+     },
+     "Ronaldo Lumungo": {
+      "r": 6.0
+     },
+     "Rafał Wolski": {
+      "r": 7.1
+     },
+     "Luquinhas": {
+      "r": 6.8
+     },
+     "Guilherme Luiz": {
+      "r": 5.8
+     }
+    }
+   },
+   {
+    "id": "2026-27-R11-LPO-KOR",
+    "date": "2026-10-18",
+    "time": "17:30",
+    "home": "LPO",
+    "away": "KOR",
+    "status": "ft",
+    "score": [
+     6,
+     1
+    ],
+    "attendance": 37407,
+    "officials": [
+     {
+      "r": "GŁ",
+      "role": "Sędzia główny",
+      "name": "Łukasz Kuźma"
+     }
+    ],
+    "staff": {
+     "home": [
+      [
+       "Trener",
+       "Niels Frederiksen"
+      ]
+     ],
+     "away": [
+      [
+       "Trener",
+       "Jacek Zieliński"
+      ]
+     ]
+    },
+    "formation": {
+     "home": "4-2-3-1",
+     "away": "4-2-3-1"
+    },
+    "players": {
+     "home": [
+      [
+       1,
+       "Mateusz Lis",
+       "BR",
+       "",
+       true
+      ],
+      [
+       2,
+       "Joel Pereira",
+       "PO",
+       "",
+       true
+      ],
+      [
+       72,
+       "Mateusz Skrzypczak",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       59,
+       "Terry Yegbe",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       15,
+       "Michał Gurgul",
+       "LO",
+       "",
+       true
+      ],
+      [
+       22,
+       "Radosław Murawski",
+       "DP",
+       "",
+       true
+      ],
+      [
+       43,
+       "Antoni Kozubal",
+       "DP",
+       "",
+       true
+      ],
+      [
+       10,
+       "Patrik Wålemark",
+       "PS",
+       "",
+       true
+      ],
+      [
+       21,
+       "Pablo Rodríguez",
+       "OP",
+       "",
+       true
+      ],
+      [
+       77,
+       "Luis Palma",
+       "LS",
+       "",
+       true
+      ],
+      [
+       9,
+       "Mikael Ishak",
+       "N",
+       "",
+       true
+      ],
+      [
+       90,
+       "Hubert Janyszka",
+       "ŚO",
+       "",
+       false
+      ],
+      [
+       5,
+       "Gustav Berggren",
+       "DP",
+       "",
+       false
+      ],
+      [
+       11,
+       "Daniel Håkans",
+       "PS",
+       "",
+       false
+      ],
+      [
+       24,
+       "Filip Jagiełło",
+       "OP",
+       "",
+       false
+      ],
+      [
+       7,
+       "Yannick Agnero",
+       "N",
+       "",
+       false
+      ]
+     ],
+     "away": [
+      [
+       1,
+       "Xavier Dziekoński",
+       "BR",
+       "",
+       true
+      ],
+      [
+       71,
+       "Wiktor Długosz",
+       "PO",
+       "",
+       true
+      ],
+      [
+       23,
+       "Slobodan Rubežić",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       2,
+       "Ariel Mosór",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       6,
+       "Marcel Pięczek",
+       "LO",
+       "",
+       true
+      ],
+      [
+       35,
+       "Kamil Jakubczyk",
+       "DP",
+       "",
+       true
+      ],
+      [
+       18,
+       "Patrik Hellebrand",
+       "DP",
+       "",
+       true
+      ],
+      [
+       30,
+       "Camilo Mena",
+       "PS",
+       "",
+       true
+      ],
+      [
+       32,
+       "Ondřej Lingr",
+       "OP",
+       "",
+       true
+      ],
+      [
+       19,
+       "Michael Ameyaw",
+       "LS",
+       "",
+       true
+      ],
+      [
+       14,
+       "Mariusz Stępiński",
+       "N",
+       "",
+       true
+      ],
+      [
+       8,
+       "Martin Remacle",
+       "OP",
+       "",
+       false
+      ],
+      [
+       11,
+       "Konrad Matuszewski",
+       "LO",
+       "",
+       false
+      ],
+      [
+       86,
+       "Simon Gustafson",
+       "DP",
+       "",
+       false
+      ],
+      [
+       22,
+       "Morgan Faßbender",
+       "LS",
+       "",
+       false
+      ],
+      [
+       99,
+       "Daniel Bąk",
+       "N",
+       "",
+       false
+      ]
+     ]
+    },
+    "events": [
+     {
+      "m": 4,
+      "t": "goal",
+      "s_": "h",
+      "who": "Patrik Wålemark",
+      "as": "Pablo Rodríguez"
+     },
+     {
+      "m": 6,
+      "t": "goal",
+      "s_": "h",
+      "who": "Pablo Rodríguez",
+      "as": "Joel Pereira"
+     },
+     {
+      "m": 23,
+      "t": "goal",
+      "s_": "h",
+      "who": "Mikael Ishak",
+      "as": "Pablo Rodríguez"
+     },
+     {
+      "m": 29,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Martin Remacle",
+      "out": "Ondřej Lingr"
+     },
+     {
+      "m": 45,
+      "s": "+2",
+      "t": "yc",
+      "s_": "h",
+      "who": "Radosław Murawski"
+     },
+     {
+      "m": 45,
+      "s": "+4",
+      "t": "goal",
+      "s_": "h",
+      "who": "Pablo Rodríguez",
+      "as": "Mikael Ishak"
+     },
+     {
+      "m": 46,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Konrad Matuszewski",
+      "out": "Marcel Pięczek"
+     },
+     {
+      "m": 46,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Simon Gustafson",
+      "out": "Kamil Jakubczyk"
+     },
+     {
+      "m": 46,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Morgan Faßbender",
+      "out": "Michael Ameyaw"
+     },
+     {
+      "m": 55,
+      "t": "goal",
+      "s_": "h",
+      "who": "Mikael Ishak",
+      "as": "Pablo Rodríguez"
+     },
+     {
+      "m": 57,
+      "t": "goal",
+      "s_": "a",
+      "who": "Camilo Mena",
+      "as": "Wiktor Długosz"
+     },
+     {
+      "m": 58,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Hubert Janyszka",
+      "out": "Terry Yegbe"
+     },
+     {
+      "m": 58,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Gustav Berggren",
+      "out": "Radosław Murawski"
+     },
+     {
+      "m": 58,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Daniel Håkans",
+      "out": "Patrik Wålemark"
+     },
+     {
+      "m": 61,
+      "t": "yc",
+      "s_": "h",
+      "who": "Pablo Rodríguez"
+     },
+     {
+      "m": 62,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Daniel Bąk",
+      "out": "Mariusz Stępiński"
+     },
+     {
+      "m": 68,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Filip Jagiełło",
+      "out": "Pablo Rodríguez"
+     },
+     {
+      "m": 72,
+      "t": "yc",
+      "s_": "a",
+      "who": "Daniel Bąk"
+     },
+     {
+      "m": 76,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Yannick Agnero",
+      "out": "Mikael Ishak"
+     },
+     {
+      "m": 85,
+      "t": "yc",
+      "s_": "a",
+      "who": "Slobodan Rubežić"
+     },
+     {
+      "m": 90,
+      "t": "yc",
+      "s_": "a",
+      "who": "Morgan Faßbender"
+     },
+     {
+      "m": 90,
+      "s": "+1",
+      "t": "goal",
+      "s_": "h",
+      "who": "Yannick Agnero",
+      "as": "Michał Gurgul"
+     }
+    ],
+    "teamStats": [
+     [
+      "Posiadanie %",
+      60.3,
+      39.7
+     ],
+     [
+      "xG",
+      2.24,
+      1.19
+     ],
+     [
+      "Strzały",
+      14,
+      15
+     ],
+     [
+      "Celne",
+      6,
+      5
+     ],
+     [
+      "Rzuty rożne",
+      5,
+      7
+     ],
+     [
+      "Faule",
+      13,
+      13
+     ],
+     [
+      "Spalone",
+      1,
+      2
+     ]
+    ],
+    "ind": {
+     "Mateusz Lis": {
+      "r": 7.4
+     },
+     "Joel Pereira": {
+      "r": 8.1
+     },
+     "Mateusz Skrzypczak": {
+      "r": 7.6
+     },
+     "Terry Yegbe": {
+      "r": 6.5
+     },
+     "Michał Gurgul": {
+      "r": 8.3
+     },
+     "Radosław Murawski": {
+      "r": 6.6
+     },
+     "Antoni Kozubal": {
+      "r": 7.7
+     },
+     "Patrik Wålemark": {
+      "r": 7.5
+     },
+     "Pablo Rodríguez": {
+      "r": 9.8
+     },
+     "Luis Palma": {
+      "r": 6.9
+     },
+     "Mikael Ishak": {
+      "r": 9.2
+     },
+     "Hubert Janyszka": {
+      "r": 6.2
+     },
+     "Gustav Berggren": {
+      "r": 6.5
+     },
+     "Daniel Håkans": {
+      "r": 6.8
+     },
+     "Filip Jagiełło": {
+      "r": 6.0
+     },
+     "Yannick Agnero": {
+      "r": 6.7
+     },
+     "Xavier Dziekoński": {
+      "r": 3.9
+     },
+     "Wiktor Długosz": {
+      "r": 5.6
+     },
+     "Slobodan Rubežić": {
+      "r": 5.1
+     },
+     "Ariel Mosór": {
+      "r": 5.1
+     },
+     "Marcel Pięczek": {
+      "r": 4.7
+     },
+     "Kamil Jakubczyk": {
+      "r": 5.5
+     },
+     "Patrik Hellebrand": {
+      "r": 6.6
+     },
+     "Camilo Mena": {
+      "r": 7.9
+     },
+     "Ondřej Lingr": {
+      "r": 5.8
+     },
+     "Michael Ameyaw": {
+      "r": 5.9
+     },
+     "Mariusz Stępiński": {
+      "r": 6.7
+     },
+     "Martin Remacle": {
+      "r": 6.8
+     },
+     "Konrad Matuszewski": {
+      "r": 6.2
+     },
+     "Simon Gustafson": {
+      "r": 6.0
+     },
+     "Morgan Faßbender": {
+      "r": 6.9
+     },
+     "Daniel Bąk": {
+      "r": 5.8
+     }
+    }
+   },
+   {
+    "id": "2026-27-R11-ZAG-JAG",
+    "date": "2026-10-18",
+    "time": "14:45",
+    "home": "ZAG",
+    "away": "JAG",
+    "status": "ft",
+    "score": [
+     1,
+     0
+    ],
+    "attendance": 6627,
+    "officials": [
+     {
+      "r": "GŁ",
+      "role": "Sędzia główny",
+      "name": "Jarosław Przybył"
+     }
+    ],
+    "staff": {
+     "home": [
+      [
+       "Trener",
+       "Leszek Ojrzyński"
+      ]
+     ],
+     "away": [
+      [
+       "Trener",
+       "Adrian Siemieniec"
+      ],
+      [
+       "Na ławce (trener zawieszony)",
+       "Mikołaj Łuczak"
+      ]
+     ]
+    },
+    "formation": {
+     "home": "3-4-2-1",
+     "away": "4-1-4-1"
+    },
+    "players": {
+     "home": [
+      [
+       33,
+       "Zlatan Alomerović",
+       "BR",
+       "",
+       true
+      ],
+      [
+       5,
+       "Aleks Ławniczak",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       25,
+       "Michał Nalepa",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       3,
+       "Roman Yakuba",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       13,
+       "Mateusz Grzybek",
+       "PS",
+       "",
+       true
+      ],
+      [
+       39,
+       "Filip Kocaba",
+       "ŚP",
+       "",
+       true
+      ],
+      [
+       8,
+       "Damian Dąbrowski",
+       "ŚP",
+       "",
+       true
+      ],
+      [
+       16,
+       "Josip Ćorluka",
+       "LS",
+       "",
+       true
+      ],
+      [
+       37,
+       "Sebastian Kerk",
+       "OP",
+       "",
+       true
+      ],
+      [
+       44,
+       "Marcel Reguła",
+       "OP",
+       "",
+       true
+      ],
+      [
+       18,
+       "Filip Szymczak",
+       "N",
+       "",
+       true
+      ],
+      [
+       6,
+       "David Čolina",
+       "PS",
+       "",
+       false
+      ],
+      [
+       7,
+       "Jakub Sypek",
+       "N",
+       "",
+       false
+      ],
+      [
+       20,
+       "Mateusz Dziewiątowski",
+       "OP",
+       "",
+       false
+      ],
+      [
+       4,
+       "Damian Michalski",
+       "ŚO",
+       "",
+       false
+      ]
+     ],
+     "away": [
+      [
+       50,
+       "Sławomir Abramowicz",
+       "BR",
+       "",
+       true
+      ],
+      [
+       3,
+       "Dušan Stojinović",
+       "PO",
+       "",
+       true
+      ],
+      [
+       5,
+       "Bernardo Vital",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       4,
+       "Yuki Kobayashi",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       20,
+       "Bartłomiej Wdowik",
+       "LO",
+       "",
+       true
+      ],
+      [
+       6,
+       "Taras Romanczuk",
+       "DP",
+       "",
+       true
+      ],
+      [
+       72,
+       "Kamil Jóźwiak",
+       "PS",
+       "",
+       true
+      ],
+      [
+       11,
+       "Jesús Imaz",
+       "ŚP",
+       "",
+       true
+      ],
+      [
+       19,
+       "Anders Klynge",
+       "ŚP",
+       "",
+       true
+      ],
+      [
+       7,
+       "Kajetan Szmyt",
+       "LS",
+       "",
+       true
+      ],
+      [
+       30,
+       "Ousmane Sow",
+       "N",
+       "",
+       true
+      ],
+      [
+       2,
+       "Cezary Polak",
+       "LO",
+       "",
+       false
+      ],
+      [
+       27,
+       "Rodrigo Conceição",
+       "PS",
+       "",
+       false
+      ],
+      [
+       9,
+       "Dimitris Rallis",
+       "N",
+       "",
+       false
+      ],
+      [
+       10,
+       "Jeremy Agbonifo",
+       "PO",
+       "",
+       false
+      ],
+      [
+       32,
+       "Aleksandar Ćirković",
+       "ŚO",
+       "",
+       false
+      ]
+     ]
+    },
+    "events": [
+     {
+      "m": 15,
+      "t": "yc",
+      "s_": "h",
+      "who": "Mateusz Grzybek"
+     },
+     {
+      "m": 46,
+      "t": "sub",
+      "s_": "h",
+      "inn": "David Čolina",
+      "out": "Mateusz Grzybek"
+     },
+     {
+      "m": 46,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Cezary Polak",
+      "out": "Bartłomiej Wdowik"
+     },
+     {
+      "m": 46,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Rodrigo Conceição",
+      "out": "Kamil Jóźwiak"
+     },
+     {
+      "m": 62,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Dimitris Rallis",
+      "out": "Ousmane Sow"
+     },
+     {
+      "m": 63,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Jakub Sypek",
+      "out": "Filip Szymczak"
+     },
+     {
+      "m": 69,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Jeremy Agbonifo",
+      "out": "Dušan Stojinović"
+     },
+     {
+      "m": 72,
+      "t": "var",
+      "s_": "h",
+      "kind": "Rzut karny (faul na Marcelu Regule)",
+      "fin": "Rzut karny"
+     },
+     {
+      "m": 77,
+      "t": "pen",
+      "s_": "h",
+      "who": "Sebastian Kerk",
+      "res": "Gol"
+     },
+     {
+      "m": 79,
+      "t": "yc",
+      "s_": "a",
+      "who": "Bernardo Vital"
+     },
+     {
+      "m": 83,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Mateusz Dziewiątowski",
+      "out": "Sebastian Kerk"
+     },
+     {
+      "m": 88,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Aleksandar Ćirković",
+      "out": "Bernardo Vital"
+     },
+     {
+      "m": 90,
+      "s": "+1",
+      "t": "yc",
+      "s_": "h",
+      "who": "Jakub Sypek"
+     },
+     {
+      "m": 90,
+      "s": "+6",
+      "t": "sub",
+      "s_": "h",
+      "inn": "Damian Michalski",
+      "out": "Josip Ćorluka"
+     }
+    ],
+    "teamStats": [
+     [
+      "Posiadanie %",
+      35.5,
+      64.5
+     ],
+     [
+      "xG",
+      1.93,
+      1.43
+     ],
+     [
+      "Strzały",
+      12,
+      15
+     ],
+     [
+      "Celne",
+      4,
+      3
+     ],
+     [
+      "Rzuty rożne",
+      5,
+      3
+     ],
+     [
+      "Faule",
+      11,
+      13
+     ],
+     [
+      "Spalone",
+      1,
+      2
+     ]
+    ],
+    "ind": {
+     "Zlatan Alomerović": {
+      "r": 7.7
+     },
+     "Aleks Ławniczak": {
+      "r": 7.4
+     },
+     "Michał Nalepa": {
+      "r": 7.8
+     },
+     "Roman Yakuba": {
+      "r": 8.3
+     },
+     "Mateusz Grzybek": {
+      "r": 6.7
+     },
+     "Filip Kocaba": {
+      "r": 7.1
+     },
+     "Damian Dąbrowski": {
+      "r": 7.3
+     },
+     "Josip Ćorluka": {
+      "r": 7.3
+     },
+     "Sebastian Kerk": {
+      "r": 7.8
+     },
+     "Marcel Reguła": {
+      "r": 7.8
+     },
+     "Filip Szymczak": {
+      "r": 6.1
+     },
+     "David Čolina": {
+      "r": 7.1
+     },
+     "Jakub Sypek": {
+      "r": 6.3
+     },
+     "Sławomir Abramowicz": {
+      "r": 6.8
+     },
+     "Dušan Stojinović": {
+      "r": 6.7
+     },
+     "Bernardo Vital": {
+      "r": 7.4
+     },
+     "Yuki Kobayashi": {
+      "r": 7.5
+     },
+     "Bartłomiej Wdowik": {
+      "r": 6.5
+     },
+     "Taras Romanczuk": {
+      "r": 7.0
+     },
+     "Kamil Jóźwiak": {
+      "r": 6.1
+     },
+     "Jesús Imaz": {
+      "r": 6.4
+     },
+     "Anders Klynge": {
+      "r": 6.6
+     },
+     "Kajetan Szmyt": {
+      "r": 7.2
+     },
+     "Ousmane Sow": {
+      "r": 5.8
+     },
+     "Cezary Polak": {
+      "r": 6.8
+     },
+     "Rodrigo Conceição": {
+      "r": 5.9
+     },
+     "Dimitris Rallis": {
+      "r": 5.7
+     },
+     "Jeremy Agbonifo": {
+      "r": 6.1
+     }
+    }
+   },
+   {
+    "id": "2026-27-R11-GZA-PIA",
+    "date": "2026-10-18",
+    "time": "12:15",
+    "home": "GZA",
+    "away": "PIA",
+    "status": "ft",
+    "score": [
+     1,
+     1
+    ],
+    "attendance": 27659,
+    "officials": [
+     {
+      "r": "GŁ",
+      "role": "Sędzia główny",
+      "name": "Patryk Gryckiewicz"
+     }
+    ],
+    "staff": {
+     "home": [
+      [
+       "Trener",
+       "Michal Gašparík"
+      ]
+     ],
+     "away": [
+      [
+       "Trener",
+       "Daniel Myśliwiec"
+      ]
+     ]
+    },
+    "formation": {
+     "home": "4-1-4-1",
+     "away": "4-4-2"
+    },
+    "players": {
+     "home": [
+      [
+       "",
+       "Philipp Schulze",
+       "BR",
+       "",
+       true
+      ],
+      [
+       "",
+       "Ondřej Zmrzlý",
+       "PO",
+       "",
+       true
+      ],
+      [
+       "",
+       "Rafał Janicki",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       "",
+       "Josema",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       "",
+       "Erik Janža",
+       "LO",
+       "",
+       true
+      ],
+      [
+       "",
+       "Malthe Højholt",
+       "DP",
+       "",
+       true
+      ],
+      [
+       "",
+       "Peter González",
+       "PS",
+       "",
+       true
+      ],
+      [
+       "",
+       "Paulo Bernardo",
+       "ŚP",
+       "",
+       true
+      ],
+      [
+       "",
+       "Kacper Urbański",
+       "ŚP",
+       "",
+       true
+      ],
+      [
+       "",
+       "Maksym Khlan",
+       "LS",
+       "",
+       true
+      ],
+      [
+       "",
+       "Sondre Liseth",
+       "N",
+       "",
+       true
+      ],
+      [
+       "",
+       "Erik Prekop",
+       "N",
+       "",
+       false
+      ],
+      [
+       "",
+       "Yvan Ikia Dimi",
+       "N",
+       "",
+       false
+      ],
+      [
+       "",
+       "Zeidane Inoussa",
+       "N",
+       "",
+       false
+      ],
+      [
+       "",
+       "Jarosław Kubicki",
+       "ŚP",
+       "",
+       false
+      ]
+     ],
+     "away": [
+      [
+       "",
+       "Domen Gril",
+       "BR",
+       "",
+       true
+      ],
+      [
+       "",
+       "Ema Twumasi",
+       "PO",
+       "",
+       true
+      ],
+      [
+       "",
+       "Juan Rivas",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       "",
+       "Jakub Czerwiński",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       "",
+       "Jakub Lewicki",
+       "LO",
+       "",
+       true
+      ],
+      [
+       "",
+       "Leandro Sanca",
+       "PS",
+       "",
+       true
+      ],
+      [
+       "",
+       "Jakub Łabojko",
+       "ŚP",
+       "",
+       true
+      ],
+      [
+       "",
+       "Quentin Boisgard",
+       "ŚP",
+       "",
+       true
+      ],
+      [
+       "",
+       "Hugo Vallejo",
+       "LS",
+       "",
+       true
+      ],
+      [
+       "",
+       "Andreas Katsantonis",
+       "N",
+       "",
+       true
+      ],
+      [
+       "",
+       "Samuel Ntamack",
+       "N",
+       "",
+       true
+      ],
+      [
+       "",
+       "Oskar Leśniak",
+       "ŚP",
+       "",
+       false
+      ],
+      [
+       "",
+       "Szczepan Mucha",
+       "N",
+       "",
+       false
+      ],
+      [
+       "",
+       "Elton Fikaj",
+       "N",
+       "",
+       false
+      ],
+      [
+       "",
+       "Oliwier Maziarz",
+       "N",
+       "",
+       false
+      ]
+     ]
+    },
+    "events": [
+     {
+      "m": 5,
+      "t": "goal",
+      "s_": "h",
+      "who": "Rafał Janicki",
+      "as": "Erik Janža"
+     },
+     {
+      "m": 7,
+      "t": "goal",
+      "s_": "a",
+      "who": "Hugo Vallejo",
+      "as": "Leandro Sanca"
+     },
+     {
+      "m": 60,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Erik Prekop",
+      "out": "Sondre Liseth"
+     },
+     {
+      "m": 68,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Oskar Leśniak",
+      "out": "Jakub Łabojko"
+     },
+     {
+      "m": 68,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Szczepan Mucha",
+      "out": "Andreas Katsantonis"
+     },
+     {
+      "m": 71,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Yvan Ikia Dimi",
+      "out": "Peter González"
+     },
+     {
+      "m": 71,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Zeidane Inoussa",
+      "out": "Maksym Khlan"
+     },
+     {
+      "m": 85,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Jarosław Kubicki",
+      "out": "Paulo Bernardo"
+     },
+     {
+      "m": 86,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Elton Fikaj",
+      "out": "Jakub Lewicki"
+     },
+     {
+      "m": 86,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Oliwier Maziarz",
+      "out": "Samuel Ntamack"
+     },
+     {
+      "m": 89,
+      "t": "yc",
+      "s_": "a",
+      "who": "Elton Fikaj"
+     }
+    ],
+    "teamStats": [
+     [
+      "Posiadanie %",
+      54,
+      46
+     ],
+     [
+      "xG",
+      2.85,
+      0.69
+     ],
+     [
+      "Strzały",
+      27,
+      10
+     ]
+    ],
+    "ind": {
+     "Erik Janža": {
+      "r": 8.5
+     },
+     "Rafał Janicki": {
+      "r": 8.5
+     },
+     "Malthe Højholt": {
+      "r": 8.0
+     },
+     "Paulo Bernardo": {
+      "r": 7.2
+     },
+     "Philipp Schulze": {
+      "r": 6.9
+     },
+     "Kacper Urbański": {
+      "r": 7.0
+     },
+     "Maksym Khlan": {
+      "r": 6.5
+     },
+     "Hugo Vallejo": {
+      "r": 7.8
+     },
+     "Quentin Boisgard": {
+      "r": 7.7
+     },
+     "Domen Gril": {
+      "r": 7.4
+     },
+     "Leandro Sanca": {
+      "r": 7.1
+     },
+     "Jakub Łabojko": {
+      "r": 7.0
+     },
+     "Samuel Ntamack": {
+      "r": 6.1
+     }
+    }
+   },
+   {
+    "id": "2026-27-R11-CRA-LEG",
+    "date": "2026-10-17",
+    "time": "20:15",
+    "home": "CRA",
+    "away": "LEG",
+    "status": "ft",
+    "score": [
+     1,
+     1
+    ],
+    "attendance": 14018,
+    "officials": [
+     {
+      "r": "GŁ",
+      "role": "Sędzia główny",
+      "name": "Piotr Lasyk",
+      "city": "Bytom"
+     }
+    ],
+    "staff": {
+     "home": [
+      [
+       "Trener",
+       "Bartosz Grzelak"
+      ]
+     ],
+     "away": [
+      [
+       "Trener",
+       "Marek Papszun"
+      ]
+     ]
+    },
+    "formation": {
+     "home": "4-2-3-1",
+     "away": "3-4-3"
+    },
+    "players": {
+     "home": [
+      [
+       "",
+       "Sebastian Madejski",
+       "BR",
+       "",
+       true
+      ],
+      [
+       "",
+       "Otar Kakabadze",
+       "PO",
+       "",
+       true
+      ],
+      [
+       "",
+       "Gustav Henriksson",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       "",
+       "Brahim Traoré",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       "",
+       "Vincent Burlet",
+       "LO",
+       "",
+       true
+      ],
+      [
+       "",
+       "Karol Knap",
+       "DP",
+       "",
+       true
+      ],
+      [
+       "",
+       "Amir Al-Ammari",
+       "DP",
+       "",
+       true
+      ],
+      [
+       "",
+       "Ajdin Hasić",
+       "PS",
+       "",
+       true
+      ],
+      [
+       "",
+       "Mateusz Klich",
+       "ŚP",
+       "",
+       true
+      ],
+      [
+       "",
+       "Martin Minchev",
+       "LS",
+       "",
+       true
+      ],
+      [
+       "",
+       "Lasse Nordås",
+       "N",
+       "",
+       true
+      ],
+      [
+       "",
+       "Mohamed Berte",
+       "ŚP",
+       "",
+       false
+      ],
+      [
+       "",
+       "Kahveh Zahiroleslam",
+       "N",
+       "",
+       false
+      ]
+     ],
+     "away": [
+      [
+       "",
+       "Otto Hindrich",
+       "BR",
+       "",
+       true
+      ],
+      [
+       "",
+       "Kamil Piątkowski",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       "",
+       "Rafał Augustyniak",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       "",
+       "Robert Deziel Junior",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       "",
+       "Paweł Wszołek",
+       "PS",
+       "",
+       true
+      ],
+      [
+       "",
+       "Wojciech Urbański",
+       "ŚP",
+       "",
+       true
+      ],
+      [
+       "",
+       "Bartosz Kapustka",
+       "ŚP",
+       "",
+       true
+      ],
+      [
+       "",
+       "Kacper Chodyna",
+       "LS",
+       "",
+       true
+      ],
+      [
+       "",
+       "Michal Sevcik",
+       "N",
+       "",
+       true
+      ],
+      [
+       "",
+       "Łukasz Zjawiński",
+       "N",
+       "",
+       true
+      ],
+      [
+       "",
+       "Rafał Adamski",
+       "N",
+       "",
+       true
+      ],
+      [
+       "",
+       "Arkadiusz Reca",
+       "LS",
+       "",
+       false
+      ],
+      [
+       "",
+       "Bohdan Vyunnyk",
+       "N",
+       "",
+       false
+      ],
+      [
+       "",
+       "Zoran Arsenić",
+       "ŚO",
+       "",
+       false
+      ],
+      [
+       "",
+       "Jan Kuchta",
+       "N",
+       "",
+       false
+      ],
+      [
+       "",
+       "Damian Szymański",
+       "ŚP",
+       "",
+       false
+      ]
+     ]
+    },
+    "events": [
+     {
+      "m": 26,
+      "t": "goal",
+      "s_": "a",
+      "who": "Michal Sevcik",
+      "as": "Paweł Wszołek"
+     },
+     {
+      "m": 39,
+      "t": "yc",
+      "s_": "a",
+      "who": "Paweł Wszołek"
+     },
+     {
+      "m": 39,
+      "t": "yc",
+      "s_": "h",
+      "who": "Vincent Burlet"
+     },
+     {
+      "m": 44,
+      "t": "goal",
+      "s_": "h",
+      "who": "Lasse Nordås",
+      "as": "Gustav Henriksson"
+     },
+     {
+      "m": 46,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Arkadiusz Reca",
+      "out": "Paweł Wszołek"
+     },
+     {
+      "m": 65,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Bohdan Vyunnyk",
+      "out": "Michal Sevcik"
+     },
+     {
+      "m": 82,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Zoran Arsenić",
+      "out": "Robert Deziel Junior"
+     },
+     {
+      "m": 82,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Jan Kuchta",
+      "out": "Łukasz Zjawiński"
+     },
+     {
+      "m": 85,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Kahveh Zahiroleslam",
+      "out": "Martin Minchev"
+     },
+     {
+      "m": 88,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Damian Szymański",
+      "out": "Bartosz Kapustka"
+     }
+    ],
+    "teamStats": [
+     [
+      "Posiadanie %",
+      52,
+      48
+     ],
+     [
+      "xG",
+      0.85,
+      0.9
+     ],
+     [
+      "Strzały",
+      14,
+      15
+     ]
+    ],
+    "ind": {
+     "Sebastian Madejski": {
+      "r": 6.6
+     },
+     "Otar Kakabadze": {
+      "r": 7.6
+     },
+     "Gustav Henriksson": {
+      "r": 7.7
+     },
+     "Brahim Traoré": {
+      "r": 7.2
+     },
+     "Vincent Burlet": {
+      "r": 7.2
+     },
+     "Karol Knap": {
+      "r": 7.2
+     },
+     "Amir Al-Ammari": {
+      "r": 7.4
+     },
+     "Ajdin Hasić": {
+      "r": 7.1
+     },
+     "Mateusz Klich": {
+      "r": 7.0
+     },
+     "Martin Minchev": {
+      "r": 6.9
+     },
+     "Lasse Nordås": {
+      "r": 7.7
+     },
+     "Otto Hindrich": {
+      "r": 6.8
+     },
+     "Kamil Piątkowski": {
+      "r": 7.9
+     },
+     "Rafał Augustyniak": {
+      "r": 7.1
+     },
+     "Robert Deziel Junior": {
+      "r": 7.6
+     },
+     "Paweł Wszołek": {
+      "r": 7.5
+     },
+     "Wojciech Urbański": {
+      "r": 7.5
+     },
+     "Bartosz Kapustka": {
+      "r": 6.8
+     },
+     "Kacper Chodyna": {
+      "r": 7.7
+     },
+     "Michal Sevcik": {
+      "r": 7.6
+     },
+     "Łukasz Zjawiński": {
+      "r": 6.2
+     },
+     "Rafał Adamski": {
+      "r": 6.4
+     },
+     "Mohamed Berte": {
+      "r": 6.0
+     },
+     "Arkadiusz Reca": {
+      "r": 6.2
+     },
+     "Bohdan Vyunnyk": {
+      "r": 6.3
+     }
+    }
+   },
+   {
+    "id": "2026-27-R11-GKS-POG",
+    "date": "2026-10-17",
+    "time": "17:30",
+    "home": "GKS",
+    "away": "POG",
+    "status": "ft",
+    "score": [
+     0,
+     1
+    ],
+    "attendance": 12178,
+    "officials": [
+     {
+      "r": "GŁ",
+      "role": "Sędzia główny",
+      "name": "Szymon Marciniak",
+      "city": "Płock"
+     }
+    ],
+    "staff": {
+     "home": [
+      [
+       "Trener",
+       "Rafał Górak"
+      ]
+     ],
+     "away": [
+      [
+       "Trener",
+       "Oscar García"
+      ]
+     ]
+    },
+    "formation": {
+     "home": "3-4-3",
+     "away": "4-4-2"
+    },
+    "players": {
+     "home": [
+      [
+       "",
+       "Gabriel Kobylak",
+       "BR",
+       "",
+       true
+      ],
+      [
+       "",
+       "Alan Czerwiński",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       "",
+       "Lukas Klemenz",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       "",
+       "Pau Resta",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       "",
+       "Marcin Wasielewski",
+       "PS",
+       "",
+       true
+      ],
+      [
+       "",
+       "Mateusz Kowalczyk",
+       "ŚP",
+       "",
+       true
+      ],
+      [
+       "",
+       "Kacper Łukasiak",
+       "ŚP",
+       "",
+       true
+      ],
+      [
+       "",
+       "Borja Galán",
+       "LS",
+       "",
+       true
+      ],
+      [
+       "",
+       "Marcel Wędrychowski",
+       "N",
+       "",
+       true
+      ],
+      [
+       "",
+       "Ilya Shkurin",
+       "N",
+       "",
+       true
+      ],
+      [
+       "",
+       "Bartosz Nowak",
+       "N",
+       "",
+       true
+      ],
+      [
+       "",
+       "Bartosz Wolski",
+       "ŚP",
+       "",
+       false
+      ],
+      [
+       "",
+       "Erik Jirka",
+       "N",
+       "",
+       false
+      ],
+      [
+       "",
+       "Mateusz Wdowiak",
+       "N",
+       "",
+       false
+      ],
+      [
+       "",
+       "Adam Zrelák",
+       "N",
+       "",
+       false
+      ]
+     ],
+     "away": [
+      [
+       "",
+       "Valentin Cojocaru",
+       "BR",
+       "",
+       true
+      ],
+      [
+       "",
+       "Alessandro Pio Riccio",
+       "PO",
+       "",
+       true
+      ],
+      [
+       "",
+       "Dimitrios Keramitsis",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       "",
+       "Attila Szalai",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       "",
+       "Benjamin Mendy",
+       "LO",
+       "",
+       true
+      ],
+      [
+       "",
+       "Darko Churlinov",
+       "PS",
+       "",
+       true
+      ],
+      [
+       "",
+       "Patryk Dziczek",
+       "ŚP",
+       "",
+       true
+      ],
+      [
+       "",
+       "Jan Biegański",
+       "ŚP",
+       "",
+       true
+      ],
+      [
+       "",
+       "Paul Mukairu",
+       "LS",
+       "",
+       true
+      ],
+      [
+       "",
+       "Maciej Wojciechowski",
+       "N",
+       "",
+       true
+      ],
+      [
+       "",
+       "Jordi Sánchez",
+       "N",
+       "",
+       true
+      ],
+      [
+       "",
+       "Kamil Grosicki",
+       "LS",
+       "",
+       false
+      ],
+      [
+       "",
+       "Lukas Willen",
+       "N",
+       "",
+       false
+      ],
+      [
+       "",
+       "Kellyn Acosta",
+       "ŚP",
+       "",
+       false
+      ],
+      [
+       "",
+       "Isaiah Eichie",
+       "PO",
+       "",
+       false
+      ],
+      [
+       "",
+       "Natan Ława",
+       "N",
+       "",
+       false
+      ]
+     ]
+    },
+    "events": [
+     {
+      "m": 51,
+      "t": "goal",
+      "s_": "a",
+      "who": "Jordi Sánchez",
+      "as": "Attila Szalai"
+     },
+     {
+      "m": 68,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Bartosz Wolski",
+      "out": "Mateusz Kowalczyk"
+     },
+     {
+      "m": 72,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Kamil Grosicki",
+      "out": "Darko Churlinov"
+     },
+     {
+      "m": 73,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Erik Jirka",
+      "out": "Marcin Wasielewski"
+     },
+     {
+      "m": 73,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Mateusz Wdowiak",
+      "out": "Marcel Wędrychowski"
+     },
+     {
+      "m": 82,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Lukas Willen",
+      "out": "Maciej Wojciechowski"
+     },
+     {
+      "m": 82,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Kellyn Acosta",
+      "out": "Jan Biegański"
+     },
+     {
+      "m": 83,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Isaiah Eichie",
+      "out": "Alessandro Pio Riccio"
+     },
+     {
+      "m": 84,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Adam Zrelák",
+      "out": "Alan Czerwiński"
+     },
+     {
+      "m": 87,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Natan Ława",
+      "out": "Jordi Sánchez"
+     }
+    ],
+    "teamStats": [
+     [
+      "Posiadanie %",
+      64,
+      36
+     ],
+     [
+      "xG",
+      1.4,
+      1.98
+     ],
+     [
+      "Strzały",
+      20,
+      14
+     ]
+    ],
+    "notes": "Żółte kartki otrzymali m.in. Lukas Klemenz i Jan Biegański (minuty niepotwierdzone).",
+    "ind": {
+     "Gabriel Kobylak": {
+      "r": 7.0
+     },
+     "Alan Czerwiński": {
+      "r": 6.9
+     },
+     "Lukas Klemenz": {
+      "r": 6.4
+     },
+     "Pau Resta": {
+      "r": 7.2
+     },
+     "Marcin Wasielewski": {
+      "r": 6.7
+     },
+     "Mateusz Kowalczyk": {
+      "r": 6.2
+     },
+     "Kacper Łukasiak": {
+      "r": 6.8
+     },
+     "Borja Galán": {
+      "r": 7.2
+     },
+     "Marcel Wędrychowski": {
+      "r": 6.9
+     },
+     "Ilya Shkurin": {
+      "r": 6.3
+     },
+     "Bartosz Nowak": {
+      "r": 7.0
+     },
+     "Bartosz Wolski": {
+      "r": 6.5
+     },
+     "Erik Jirka": {
+      "r": 6.3
+     },
+     "Mateusz Wdowiak": {
+      "r": 6.1
+     },
+     "Kamil Grosicki": {
+      "r": 6.8
+     },
+     "Valentin Cojocaru": {
+      "r": 8.0
+     },
+     "Alessandro Pio Riccio": {
+      "r": 7.1
+     },
+     "Dimitrios Keramitsis": {
+      "r": 7.3
+     },
+     "Attila Szalai": {
+      "r": 8.1
+     },
+     "Benjamin Mendy": {
+      "r": 8.2
+     },
+     "Darko Churlinov": {
+      "r": 6.9
+     },
+     "Patryk Dziczek": {
+      "r": 7.5
+     },
+     "Jan Biegański": {
+      "r": 7.5
+     },
+     "Paul Mukairu": {
+      "r": 7.0
+     },
+     "Maciej Wojciechowski": {
+      "r": 7.5
+     },
+     "Jordi Sánchez": {
+      "r": 7.9
+     }
+    }
+   },
+   {
+    "id": "2026-27-R11-MOT-SLA",
+    "date": "2026-10-17",
+    "time": "14:45",
+    "home": "MOT",
+    "away": "SLA",
+    "status": "ft",
+    "score": [
+     3,
+     2
+    ],
+    "attendance": 15200,
+    "officials": [
+     {
+      "r": "GŁ",
+      "role": "Sędzia główny",
+      "name": "Sebastian Krasny"
+     }
+    ],
+    "staff": {
+     "home": [
+      [
+       "Trener",
+       "Mariusz Misiura"
+      ]
+     ],
+     "away": [
+      [
+       "Trener",
+       "Ante Šimundža"
+      ]
+     ]
+    },
+    "players": {
+     "home": [
+      [
+       "",
+       "Gašper Tratnik",
+       "BR",
+       "",
+       true
+      ],
+      [
+       "",
+       "Kamil Lukoszek",
+       "PO",
+       "",
+       true
+      ],
+      [
+       "",
+       "Marek Bartoš",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       "",
+       "Tin Plavotić",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       "",
+       "Filip Luberecki",
+       "LO",
+       "",
+       true
+      ],
+      [
+       "",
+       "Yacine Bourhane",
+       "ŚP",
+       "",
+       true
+      ],
+      [
+       "",
+       "Christopher Simon",
+       "ŚP",
+       "",
+       true
+      ],
+      [
+       "",
+       "Rony Lopes",
+       "ŚP",
+       "",
+       true
+      ],
+      [
+       "",
+       "Makan Aïko",
+       "PS",
+       "",
+       true
+      ],
+      [
+       "",
+       "Karol Czubak",
+       "N",
+       "",
+       true
+      ],
+      [
+       "",
+       "Mbaye Ndiaye",
+       "LS",
+       "",
+       true
+      ],
+      [
+       "",
+       "Fábio Ronaldo",
+       "",
+       "",
+       false
+      ],
+      [
+       "",
+       "Thomas Santos",
+       "",
+       "",
+       false
+      ],
+      [
+       "",
+       "Alioune Tall",
+       "",
+       "",
+       false
+      ],
+      [
+       "",
+       "Paskal Meyer",
+       "",
+       "",
+       false
+      ]
+     ],
+     "away": [
+      [
+       "",
+       "Karol Niemczycki",
+       "BR",
+       "",
+       true
+      ],
+      [
+       "",
+       "Marc Llinares",
+       "PO",
+       "",
+       true
+      ],
+      [
+       "",
+       "Mariusz Malec",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       "",
+       "Lamine Ba",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       "",
+       "Yegor Matsenko",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       "",
+       "Alex Timossi Andersson",
+       "LO",
+       "",
+       true
+      ],
+      [
+       "",
+       "Eniss Shabani",
+       "ŚP",
+       "",
+       true
+      ],
+      [
+       "",
+       "Karol Linetty",
+       "ŚP",
+       "",
+       true
+      ],
+      [
+       "",
+       "Piotr Samiec-Talar",
+       "ŚP",
+       "",
+       true
+      ],
+      [
+       "",
+       "Luka Marjanac",
+       "N",
+       "",
+       true
+      ],
+      [
+       "",
+       "Przemysław Banaszak",
+       "N",
+       "",
+       true
+      ],
+      [
+       "",
+       "Malaly Dembélé",
+       "",
+       "",
+       false
+      ],
+      [
+       "",
+       "Ieltsin Camões",
+       "",
+       "",
+       false
+      ],
+      [
+       "",
+       "Jan Jurčec",
+       "",
+       "",
+       false
+      ],
+      [
+       "",
+       "Grzegorz Tomasiewicz",
+       "",
+       "",
+       false
+      ],
+      [
+       "",
+       "Adam Ciućka",
+       "",
+       "",
+       false
+      ]
+     ]
+    },
+    "events": [
+     {
+      "m": 11,
+      "t": "goal",
+      "s_": "a",
+      "who": "Przemysław Banaszak",
+      "as": "Piotr Samiec-Talar"
+     },
+     {
+      "m": 46,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Malaly Dembélé",
+      "out": "Luka Marjanac"
+     },
+     {
+      "m": 47,
+      "t": "var",
+      "s_": "h",
+      "kind": "Rzut karny",
+      "init": "Brak karnego",
+      "fin": "Rzut karny"
+     },
+     {
+      "m": 50,
+      "t": "pen",
+      "s_": "h",
+      "who": "Karol Czubak",
+      "res": "Obroniony"
+     },
+     {
+      "m": 61,
+      "t": "goal",
+      "s_": "h",
+      "who": "Makan Aïko",
+      "as": "Yacine Bourhane"
+     },
+     {
+      "m": 64,
+      "t": "yc",
+      "s_": "a",
+      "who": "Przemysław Banaszak"
+     },
+     {
+      "m": 66,
+      "t": "var",
+      "s_": "a",
+      "kind": "Bramka – możliwy spalony",
+      "init": "Spalony",
+      "fin": "Gol uznany"
+     },
+     {
+      "m": 66,
+      "t": "goal",
+      "s_": "a",
+      "who": "Malaly Dembélé",
+      "as": "Piotr Samiec-Talar"
+     },
+     {
+      "m": 71,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Fábio Ronaldo",
+      "out": "Kamil Lukoszek"
+     },
+     {
+      "m": 73,
+      "t": "yc",
+      "s_": "h",
+      "who": "Mbaye Ndiaye"
+     },
+     {
+      "m": 75,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Ieltsin Camões",
+      "out": "Przemysław Banaszak"
+     },
+     {
+      "m": 77,
+      "t": "goal",
+      "s_": "h",
+      "who": "Christopher Simon"
+     },
+     {
+      "m": 81,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Jan Jurčec",
+      "out": "Alex Timossi Andersson"
+     },
+     {
+      "m": 82,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Thomas Santos",
+      "out": "Makan Aïko"
+     },
+     {
+      "m": 83,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Alioune Tall",
+      "out": "Rony Lopes"
+     },
+     {
+      "m": 85,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Grzegorz Tomasiewicz",
+      "out": "Eniss Shabani"
+     },
+     {
+      "m": 85,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Adam Ciućka",
+      "out": "Piotr Samiec-Talar"
+     },
+     {
+      "m": 87,
+      "t": "yc",
+      "s_": "a",
+      "who": "Marc Llinares"
+     },
+     {
+      "m": 88,
+      "t": "var",
+      "s_": "h",
+      "kind": "Rzut karny (faul Llinaresa na Ndiaye)",
+      "init": "Brak karnego",
+      "fin": "Rzut karny"
+     },
+     {
+      "m": 90,
+      "s": "+2",
+      "t": "pen",
+      "s_": "h",
+      "who": "Yacine Bourhane",
+      "res": "Gol"
+     },
+     {
+      "m": 90,
+      "s": "+2",
+      "t": "yc",
+      "s_": "a",
+      "who": "Karol Niemczycki"
+     },
+     {
+      "m": 90,
+      "s": "+4",
+      "t": "sub",
+      "s_": "h",
+      "inn": "Paskal Meyer",
+      "out": "Christopher Simon"
+     },
+     {
+      "m": 90,
+      "s": "+10",
+      "t": "yc",
+      "s_": "h",
+      "who": "Karol Czubak"
+     }
+    ],
+    "teamStats": [
+     [
+      "Posiadanie %",
+      66,
+      34
+     ],
+     [
+      "xG",
+      4.96,
+      0.92
+     ],
+     [
+      "Strzały",
+      29,
+      6
+     ],
+     [
+      "Celne",
+      11,
+      3
+     ],
+     [
+      "Rzuty rożne",
+      10,
+      1
+     ],
+     [
+      "Faule",
+      12,
+      18
+     ],
+     [
+      "Spalone",
+      0,
+      1
+     ]
+    ]
+   },
+   {
+    "id": "2026-27-R11-WID-WIS",
+    "date": "2026-10-16",
+    "time": "20:30",
+    "home": "WID",
+    "away": "WIS",
+    "status": "ft",
+    "score": [
+     0,
+     0
+    ],
+    "attendance": 17492,
+    "officials": [
+     {
+      "r": "GŁ",
+      "role": "Sędzia główny",
+      "name": "Marcin Szczerbowicz",
+      "city": "Olsztyn"
+     }
+    ],
+    "staff": {
+     "home": [
+      [
+       "Trener",
+       "Mateusz Stolarski"
+      ]
+     ],
+     "away": [
+      [
+       "Trener",
+       "Mariusz Jop"
+      ]
+     ]
+    },
+    "formation": {
+     "home": "4-1-4-1",
+     "away": "4-2-3-1"
+    },
+    "players": {
+     "home": [
+      [
+       1,
+       "Bartłomiej Drągowski",
+       "BR",
+       "",
+       true
+      ],
+      [
+       70,
+       "Jusuf Gazibegović",
+       "PO",
+       "",
+       true
+      ],
+      [
+       25,
+       "Przemysław Wiśniewski",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       14,
+       "Ricardo Visus",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       3,
+       "Steve Kapuadi",
+       "LO",
+       "",
+       true
+      ],
+      [
+       5,
+       "Giannis Papanikolaou",
+       "DP",
+       "",
+       true
+      ],
+      [
+       7,
+       "Mariusz Fornalczyk",
+       "PS",
+       "",
+       true
+      ],
+      [
+       80,
+       "Dani Silva",
+       "ŚP",
+       "",
+       true
+      ],
+      [
+       10,
+       "Fran Álvarez",
+       "ŚP",
+       "",
+       true
+      ],
+      [
+       79,
+       "Stipe Biuk",
+       "LS",
+       "",
+       true
+      ],
+      [
+       28,
+       "Karol Świderski",
+       "N",
+       "",
+       true
+      ],
+      [
+       18,
+       "Lindon Selahi",
+       "",
+       "",
+       false
+      ],
+      [
+       6,
+       "Juljan Shehu",
+       "",
+       "",
+       false
+      ],
+      [
+       8,
+       "Emil Kornvig",
+       "",
+       "",
+       false
+      ],
+      [
+       19,
+       "Darian Males",
+       "",
+       "",
+       false
+      ],
+      [
+       90,
+       "Ioan Vermeșan",
+       "",
+       "",
+       false
+      ]
+     ],
+     "away": [
+      [
+       1,
+       "Marcel Łubik",
+       "BR",
+       "",
+       true
+      ],
+      [
+       34,
+       "Ruben Giger",
+       "PO",
+       "",
+       true
+      ],
+      [
+       6,
+       "Alan Uryga",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       29,
+       "Denis Grujčić",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       52,
+       "Jakub Krzyżanowski",
+       "LO",
+       "",
+       true
+      ],
+      [
+       41,
+       "Kacper Duda",
+       "DP",
+       "",
+       true
+      ],
+      [
+       12,
+       "James Igbekeme",
+       "DP",
+       "",
+       true
+      ],
+      [
+       2,
+       "Julian Lelieveld",
+       "PS",
+       "",
+       true
+      ],
+      [
+       10,
+       "Frederico Duarte",
+       "OP",
+       "",
+       true
+      ],
+      [
+       7,
+       "Julius Ertlthaler",
+       "LS",
+       "",
+       true
+      ],
+      [
+       9,
+       "Ángel Rodado",
+       "N",
+       "",
+       true
+      ],
+      [
+       8,
+       "Marc Carbó",
+       "",
+       "",
+       false
+      ],
+      [
+       27,
+       "Elie Youan",
+       "",
+       "",
+       false
+      ]
+     ]
+    },
+    "events": [
+     {
+      "m": 23,
+      "t": "yc",
+      "s_": "h",
+      "who": "Giannis Papanikolaou"
+     },
+     {
+      "m": 46,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Lindon Selahi",
+      "out": "Giannis Papanikolaou"
+     },
+     {
+      "m": 46,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Juljan Shehu",
+      "out": "Fran Álvarez"
+     },
+     {
+      "m": 48,
+      "t": "yc",
+      "s_": "h",
+      "who": "Mariusz Fornalczyk"
+     },
+     {
+      "m": 65,
+      "t": "var",
+      "s_": "a",
+      "kind": "Rzut karny (ręka Visusa)",
+      "init": "Brak karnego",
+      "fin": "Rzut karny"
+     },
+     {
+      "m": 66,
+      "t": "pen",
+      "s_": "a",
+      "who": "Ángel Rodado",
+      "res": "Niecelny"
+     },
+     {
+      "m": 67,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Emil Kornvig",
+      "out": "Dani Silva"
+     },
+     {
+      "m": 67,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Darian Males",
+      "out": "Mariusz Fornalczyk"
+     },
+     {
+      "m": 72,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Marc Carbó",
+      "out": "James Igbekeme"
+     },
+     {
+      "m": 72,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Elie Youan",
+      "out": "Julian Lelieveld"
+     },
+     {
+      "m": 75,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Ioan Vermeșan",
+      "out": "Karol Świderski"
+     },
+     {
+      "m": 90,
+      "s": "+1",
+      "t": "yc",
+      "s_": "h",
+      "who": "Lindon Selahi"
+     },
+     {
+      "m": 90,
+      "s": "+3",
+      "t": "yc",
+      "s_": "h",
+      "who": "Juljan Shehu"
+     }
+    ],
+    "teamStats": [
+     [
+      "Posiadanie %",
+      48,
+      52
+     ]
+    ]
+   },
+   {
+    "id": "2026-27-R11-WIE-RAK",
+    "date": "2026-10-16",
+    "time": "18:00",
+    "home": "WIE",
+    "away": "RAK",
+    "status": "ft",
+    "score": [
+     1,
+     2
+    ],
+    "attendance": 1807,
+    "officials": [
+     {
+      "r": "GŁ",
+      "role": "Sędzia główny",
+      "name": "Paweł Raczkowski",
+      "city": "Warszawa"
+     }
+    ],
+    "staff": {
+     "home": [
+      [
+       "Trener",
+       "Željko Kopić"
+      ]
+     ],
+     "away": [
+      [
+       "Trener",
+       "Tomasz Kaczmarek"
+      ]
+     ]
+    },
+    "formation": {
+     "home": "5-4-1",
+     "away": "4-2-3-1"
+    },
+    "notes": "Trener Wieczystej Željko Kopić odbywał karę zawieszenia i oglądał mecz z trybun.",
+    "players": {
+     "home": [
+      [
+       77,
+       "Mateusz Kochalski",
+       "BR",
+       "",
+       true
+      ],
+      [
+       4,
+       "Karol Fila",
+       "PO",
+       "",
+       true
+      ],
+      [
+       15,
+       "Ahmed Djermanović",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       16,
+       "Antonio Milić",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       55,
+       "Duje Dujmović",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       33,
+       "Kamil Pestka",
+       "LO",
+       "",
+       true
+      ],
+      [
+       19,
+       "José Antonio de la Rosa",
+       "PS",
+       "",
+       true
+      ],
+      [
+       10,
+       "Tobias Christensen",
+       "ŚP",
+       "",
+       true
+      ],
+      [
+       20,
+       "Mikkel Maigaard",
+       "ŚP",
+       "",
+       true
+      ],
+      [
+       12,
+       "Lucas Piazon",
+       "LS",
+       "",
+       true
+      ],
+      [
+       9,
+       "Efthymis Koulouris",
+       "N",
+       "",
+       true
+      ],
+      [
+       7,
+       "Lisandro Semedo",
+       "",
+       "",
+       false
+      ],
+      [
+       27,
+       "Matúš Vojtko",
+       "",
+       "",
+       false
+      ],
+      [
+       88,
+       "Christopher Lungoyi",
+       "",
+       "",
+       false
+      ],
+      [
+       21,
+       "Bartosz Białek",
+       "",
+       "",
+       false
+      ],
+      [
+       17,
+       "Kamil Dankowski",
+       "",
+       "",
+       false
+      ]
+     ],
+     "away": [
+      [
+       1,
+       "Kacper Trelowski",
+       "BR",
+       "",
+       true
+      ],
+      [
+       7,
+       "Fran Tudor",
+       "PO",
+       "",
+       true
+      ],
+      [
+       25,
+       "Bogdan Racovițan",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       4,
+       "Stratos Svarnas",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       26,
+       "Erick Otieno",
+       "LO",
+       "",
+       true
+      ],
+      [
+       6,
+       "Oskar Repka",
+       "DP",
+       "",
+       true
+      ],
+      [
+       23,
+       "Kacper Struski",
+       "DP",
+       "",
+       true
+      ],
+      [
+       21,
+       "Tomasz Pieńko",
+       "PS",
+       "",
+       true
+      ],
+      [
+       39,
+       "Isak Brusberg",
+       "OP",
+       "",
+       true
+      ],
+      [
+       11,
+       "Mahir Emreli",
+       "LS",
+       "",
+       true
+      ],
+      [
+       9,
+       "Patryk Makuch",
+       "N",
+       "",
+       true
+      ],
+      [
+       20,
+       "Jean Carlos Silva",
+       "",
+       "",
+       false
+      ],
+      [
+       80,
+       "Lamine Diaby-Fadiga",
+       "",
+       "",
+       false
+      ],
+      [
+       99,
+       "Adam Basse",
+       "",
+       "",
+       false
+      ],
+      [
+       3,
+       "Arvid Brorsson",
+       "",
+       "",
+       false
+      ],
+      [
+       19,
+       "Nils Zätterström",
+       "",
+       "",
+       false
+      ]
+     ]
+    },
+    "events": [
+     {
+      "m": 32,
+      "t": "yc",
+      "s_": "a",
+      "who": "Bogdan Racovițan"
+     },
+     {
+      "m": 56,
+      "t": "yc",
+      "s_": "a",
+      "who": "Stratos Svarnas"
+     },
+     {
+      "m": 58,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Lisandro Semedo",
+      "out": "José Antonio de la Rosa"
+     },
+     {
+      "m": 62,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Jean Carlos Silva",
+      "out": "Tomasz Pieńko"
+     },
+     {
+      "m": 62,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Lamine Diaby-Fadiga",
+      "out": "Isak Brusberg"
+     },
+     {
+      "m": 63,
+      "t": "yc",
+      "s_": "h",
+      "who": "Duje Dujmović"
+     },
+     {
+      "m": 65,
+      "t": "yc",
+      "s_": "h",
+      "who": "Antonio Milić"
+     },
+     {
+      "m": 67,
+      "t": "yc",
+      "s_": "h",
+      "who": "Kamil Pestka"
+     },
+     {
+      "m": 69,
+      "t": "goal",
+      "s_": "h",
+      "who": "Lisandro Semedo",
+      "as": "Efthymis Koulouris"
+     },
+     {
+      "m": 77,
+      "t": "var",
+      "s_": "a",
+      "kind": "Rzut karny (ręka Koulourisa)",
+      "init": "Brak karnego",
+      "fin": "Rzut karny"
+     },
+     {
+      "m": 79,
+      "t": "pen",
+      "s_": "a",
+      "who": "Lamine Diaby-Fadiga",
+      "res": "Gol"
+     },
+     {
+      "m": 80,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Matúš Vojtko",
+      "out": "Kamil Pestka"
+     },
+     {
+      "m": 80,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Christopher Lungoyi",
+      "out": "Efthymis Koulouris"
+     },
+     {
+      "m": 87,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Bartosz Białek",
+      "out": "Karol Fila"
+     },
+     {
+      "m": 87,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Adam Basse",
+      "out": "Mahir Emreli"
+     },
+     {
+      "m": 88,
+      "t": "goal",
+      "s_": "a",
+      "who": "Lamine Diaby-Fadiga",
+      "as": "Patryk Makuch"
+     },
+     {
+      "m": 88,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Kamil Dankowski",
+      "out": "Lucas Piazon"
+     },
+     {
+      "m": 90,
+      "s": "+1",
+      "t": "sub",
+      "s_": "a",
+      "inn": "Arvid Brorsson",
+      "out": "Patryk Makuch"
+     },
+     {
+      "m": 90,
+      "s": "+1",
+      "t": "sub",
+      "s_": "a",
+      "inn": "Nils Zätterström",
+      "out": "Erick Otieno"
+     }
+    ],
+    "teamStats": [
+     [
+      "Posiadanie %",
+      51,
+      49
+     ]
+    ]
+   }
+  ],
+  "12": [
+   {
+    "id": "2026-27-R12-MOT-ZAG",
+    "date": "2026-10-23",
+    "time": "18:00",
+    "home": "MOT",
+    "away": "ZAG",
+    "status": "ns",
+    "officials": [
+     {
+      "r": "GŁ",
+      "role": "Sędzia główny",
+      "name": "Mateusz Jenda",
+      "nat": "POL",
+      "city": "Warszawa"
+     },
+     {
+      "r": "VAR",
+      "role": "Sędzia VAR",
+      "name": "Szymon Marciniak",
+      "nat": "POL"
+     },
+     {
+      "r": "AVAR",
+      "role": "Asystent VAR",
+      "name": "Tomasz Marciniak",
+      "nat": "POL"
+     }
+    ]
+   },
+   {
+    "id": "2026-27-R12-WID-GZA",
+    "date": "2026-10-23",
+    "time": "20:30",
+    "home": "WID",
+    "away": "GZA",
+    "status": "ns",
+    "officials": [
+     {
+      "r": "GŁ",
+      "role": "Sędzia główny",
+      "name": "Karol Arys",
+      "nat": "POL",
+      "city": "Szczecin"
+     },
+     {
+      "r": "AS1",
+      "role": "Asystent 1",
+      "name": "Marek Arys",
+      "nat": "POL"
+     },
+     {
+      "r": "AS2",
+      "role": "Asystent 2",
+      "name": "Andrzej Zbytniewski",
+      "nat": "POL"
+     },
+     {
+      "r": "4.",
+      "role": "Sędzia techniczny",
+      "name": "Aleksander Borowiak",
+      "nat": "POL"
+     },
+     {
+      "r": "VAR",
+      "role": "Sędzia VAR",
+      "name": "Łukasz Kuźma",
+      "nat": "POL"
+     },
+     {
+      "r": "AVAR",
+      "role": "Asystent VAR",
+      "name": "Bartosz Heinig",
+      "nat": "POL"
+     }
+    ]
+   },
+   {
+    "id": "2026-27-R12-PIA-CRA",
+    "date": "2026-10-24",
+    "time": "12:15",
+    "home": "PIA",
+    "away": "CRA",
+    "status": "ns",
+    "officials": [
+     {
+      "r": "GŁ",
+      "role": "Sędzia główny",
+      "name": "Paweł Malec",
+      "nat": "POL",
+      "city": "Łódź"
+     },
+     {
+      "r": "VAR",
+      "role": "Sędzia VAR",
+      "name": "Paweł Raczkowski",
+      "nat": "POL"
+     },
+     {
+      "r": "AVAR",
+      "role": "Asystent VAR",
+      "name": "Piotr Rzucidło",
+      "nat": "POL"
+     }
+    ]
+   },
+   {
+    "id": "2026-27-R12-KOR-GKS",
+    "date": "2026-10-24",
+    "time": "14:45",
+    "home": "KOR",
+    "away": "GKS",
+    "status": "ns",
+    "officials": [
+     {
+      "r": "GŁ",
+      "role": "Sędzia główny",
+      "name": "Patryk Gryckiewicz",
+      "nat": "POL",
+      "city": "Toruń"
+     },
+     {
+      "r": "VAR",
+      "role": "Sędzia VAR",
+      "name": "Piotr Urban",
+      "nat": "POL"
+     },
+     {
+      "r": "AVAR",
+      "role": "Asystent VAR",
+      "name": "Albert Różycki",
+      "nat": "POL"
+     }
+    ]
+   },
+   {
+    "id": "2026-27-R12-POG-RAD",
+    "date": "2026-10-24",
+    "time": "17:30",
+    "home": "POG",
+    "away": "RAD",
+    "status": "ns",
+    "officials": [
+     {
+      "r": "GŁ",
+      "role": "Sędzia główny",
+      "name": "Bartosz Frankowski",
+      "nat": "POL",
+      "city": "Toruń"
+     },
+     {
+      "r": "VAR",
+      "role": "Sędzia VAR",
+      "name": "Paweł Pskit",
+      "nat": "POL"
+     },
+     {
+      "r": "AVAR",
+      "role": "Asystent VAR",
+      "name": "Michał Obukowicz",
+      "nat": "POL"
+     }
+    ]
+   },
+   {
+    "id": "2026-27-R12-WIS-RAK",
+    "date": "2026-10-24",
+    "time": "20:15",
+    "home": "WIS",
+    "away": "RAK",
+    "status": "ns",
+    "officials": [
+     {
+      "r": "GŁ",
+      "role": "Sędzia główny",
+      "name": "Tomasz Kwiatkowski",
+      "nat": "POL",
+      "city": "Warszawa"
+     },
+     {
+      "r": "VAR",
+      "role": "Sędzia VAR",
+      "name": "Mateusz Złotnicki",
+      "nat": "POL"
+     },
+     {
+      "r": "AVAR",
+      "role": "Asystent VAR",
+      "name": "Tomasz Listkiewicz",
+      "nat": "POL"
+     }
+    ]
+   },
+   {
+    "id": "2026-27-R12-SLA-WIE",
+    "date": "2026-10-25",
+    "time": "12:15",
+    "home": "SLA",
+    "away": "WIE",
+    "status": "ns",
+    "officials": [
+     {
+      "r": "GŁ",
+      "role": "Sędzia główny",
+      "name": "Mateusz Piszczelok",
+      "nat": "POL",
+      "city": "Katowice"
+     },
+     {
+      "r": "VAR",
+      "role": "Sędzia VAR",
+      "name": "Wojciech Myć",
+      "nat": "POL"
+     },
+     {
+      "r": "AVAR",
+      "role": "Asystent VAR",
+      "name": "Mateusz Jenda",
+      "nat": "POL"
+     }
+    ]
+   },
+   {
+    "id": "2026-27-R12-JAG-WPL",
+    "date": "2026-10-25",
+    "time": "14:45",
+    "home": "JAG",
+    "away": "WPL",
+    "status": "ns",
+    "officials": [
+     {
+      "r": "GŁ",
+      "role": "Sędzia główny",
+      "name": "Damian Kos",
+      "nat": "POL"
+     },
+     {
+      "r": "AS1",
+      "role": "Asystent 1",
+      "name": "Bartosz Heinig",
+      "nat": "POL"
+     },
+     {
+      "r": "AS2",
+      "role": "Asystent 2",
+      "name": "Dariusz Bohonos",
+      "nat": "POL"
+     },
+     {
+      "r": "4.",
+      "role": "Sędzia techniczny",
+      "name": "Filip Kaliszewski",
+      "nat": "POL"
+     },
+     {
+      "r": "VAR",
+      "role": "Sędzia VAR",
+      "name": "Kornel Paszkiewicz",
+      "nat": "POL"
+     },
+     {
+      "r": "AVAR",
+      "role": "Asystent VAR",
+      "name": "Adam Kupsik",
+      "nat": "POL"
+     }
+    ]
+   },
+   {
+    "id": "2026-27-R12-LEG-LPO",
+    "date": "2026-10-25",
+    "time": "17:30",
+    "home": "LEG",
+    "away": "LPO",
+    "status": "ns",
+    "officials": [
+     {
+      "r": "GŁ",
+      "role": "Sędzia główny",
+      "name": "Szymon Marciniak",
+      "nat": "POL",
+      "city": "Płock"
+     },
+     {
+      "r": "AS1",
+      "role": "Asystent 1",
+      "name": "Dawid Golis",
+      "nat": "POL"
+     },
+     {
+      "r": "AS2",
+      "role": "Asystent 2",
+      "name": "Sebastian Mucha",
+      "nat": "POL"
+     },
+     {
+      "r": "4.",
+      "role": "Sędzia techniczny",
+      "name": "Tomasz Marciniak",
+      "nat": "POL"
+     },
+     {
+      "r": "VAR",
+      "role": "Sędzia VAR",
+      "name": "Jarosław Przybył",
+      "nat": "POL"
+     },
+     {
+      "r": "AVAR",
+      "role": "Asystent VAR",
+      "name": "Szymon Łężny",
+      "nat": "POL"
+     }
+    ]
+   }
+  ],
+  "13": [
+   {
+    "id": "2026-27-R13-CRA-MOT",
+    "date": "2026-10-30",
+    "time": "18:00",
+    "home": "CRA",
+    "away": "MOT",
+    "status": "ns"
+   },
+   {
+    "id": "2026-27-R13-GZA-LEG",
+    "date": "2026-10-30",
+    "time": "20:30",
+    "home": "GZA",
+    "away": "LEG",
+    "status": "ns"
+   },
+   {
+    "id": "2026-27-R13-WPL-PIA",
+    "date": "2026-10-31",
+    "time": "12:15",
+    "home": "WPL",
+    "away": "PIA",
+    "status": "ns"
+   },
+   {
+    "id": "2026-27-R13-WIE-JAG",
+    "date": "2026-10-31",
+    "time": "14:45",
+    "home": "WIE",
+    "away": "JAG",
+    "status": "ns"
+   },
+   {
+    "id": "2026-27-R13-LPO-WIS",
+    "date": "2026-10-31",
+    "time": "17:30",
+    "home": "LPO",
+    "away": "WIS",
+    "status": "ns"
+   },
+   {
+    "id": "2026-27-R13-GKS-WID",
+    "date": "2026-10-31",
+    "time": "20:15",
+    "home": "GKS",
+    "away": "WID",
+    "status": "ns"
+   },
+   {
+    "id": "2026-27-R13-RAD-SLA",
+    "date": "2026-11-02",
+    "time": "18:00",
+    "home": "RAD",
+    "away": "SLA",
+    "status": "ns"
+   },
+   {
+    "id": "2026-27-R13-ZAG-KOR",
+    "date": "2026-11-02",
+    "time": "18:00",
+    "home": "ZAG",
+    "away": "KOR",
+    "status": "ns"
+   },
+   {
+    "id": "2026-27-R13-RAK-POG",
+    "date": "2026-11-02",
+    "time": "20:30",
+    "home": "RAK",
+    "away": "POG",
+    "status": "ns"
+   }
+  ]
+ }
+}
