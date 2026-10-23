@@ -1,9 +1,9 @@
 {
- "updated": "2026-10-22T17:40:00+02:00",
+ "updated": "2026-10-23T06:55:00+02:00",
  "season": "2026/27",
  "competition": "Ekstraklasa",
  "currentRound": 12,
- "note": "Źródła: ekstraklasa.org, FotMob, Sofascore, sportowefakty.wp.pl, gol24.pl, eska.pl, flashscore.pl, kluby. Numery koszulek i pozycje częściowo niedostępne.",
+ "note": "Źródła: ekstraklasa.org, 90minut.pl, Oddsportal, betexplorer, flashscore.pl (Superbet), blog LV BET, weszlo.com, polsatsport.pl, FotMob, Sofascore, kluby. Forma liczona z wyników ligowych (ostatnie 5). Godziny meczów 25.10 w czasie zimowym (CET). Numery koszulek i pozycje częściowo niedostępne.",
  "teams": {
   "LEG": {
    "id": "LEG",
@@ -4137,7 +4137,28 @@
       "name": "Tomasz Marciniak",
       "nat": "POL"
      }
-    ]
+    ],
+    "odds": {
+     "src": "Oddsportal 1X2 (stan na 23.10 ~06:45); BTTS: Superbet wg flashscore.pl (22.10)",
+     "1": 2.0,
+     "X": 3.6,
+     "2": 3.65,
+     "bttsY": 1.67
+    },
+    "info": {
+     "restDays": {
+      "home": 6,
+      "away": 5
+     },
+     "homeAway": "Ostatnio: Motor 3:2 ze Śląskiem (29 strzałów), Zagłębie 1:0 z Jagiellonią; trener Misiura (21.10): sytuacja zdrowotna Motoru „nie jest idealna” (bez nazwisk)",
+     "stakes": "środek tabeli (12. vs 7. miejsce)"
+    },
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Model i rynek mocno się rozjeżdżają (model wskazuje Zagłębie), brak danych o składach — zbyt duża niepewność."
+     ]
+    }
    },
    {
     "id": "2026-27-R12-WID-GZA",
@@ -4184,7 +4205,40 @@
       "name": "Bartosz Heinig",
       "nat": "POL"
      }
-    ]
+    ],
+    "odds": {
+     "src": "Oddsportal 1X2 (stan na 23.10 ~06:45); pozostałe rynki: LV BET (23.10)",
+     "1": 2.85,
+     "X": 3.45,
+     "2": 2.4,
+     "1X": 1.62,
+     "X2": 1.45,
+     "o25": 1.92,
+     "u25": 1.88,
+     "bttsY": 1.72,
+     "bttsN": 2.1
+    },
+    "info": {
+     "restDays": {
+      "home": 7,
+      "away": 5
+     },
+     "homeAway": "Górnik wygrał 4 z 5 ostatnich meczów wyjazdowych; Widzew bez zwycięstwa od 8 kolejek ligowych (10 meczów we wszystkich rozgrywkach); 3+ gole w 4 z 5 ostatnich meczów Widzewa",
+     "stakes": "Górnik broni pozycji lidera (1 pkt przed Lechem); Widzew 14. miejsce",
+     "h2h": [
+      "2026-03-22 WID 0:0 GZA",
+      "2025-09-21 GZA 3:2 WID",
+      "2025-04-27 GZA 0:0 WID",
+      "2024-10-27 WID 0:2 GZA",
+      "2024-02-25 WID 3:1 GZA"
+     ]
+    },
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Najbliżej wartości jest X2 (1,45 ≈ 69%), ale po zdjęciu marży rynek daje ok. 67%, a moja ocena ~70% — EV ok. +1%, za mało. Widzew bardzo często remisuje, Górnik stracił gola w 3 meczach z rzędu."
+     ]
+    }
    },
    {
     "id": "2026-27-R12-PIA-CRA",
@@ -4213,7 +4267,31 @@
       "name": "Piotr Rzucidło",
       "nat": "POL"
      }
-    ]
+    ],
+    "odds": {
+     "src": "Oddsportal 1X2 (stan na 22.10 ~18:00); poniżej 2,5: Superbet wg flashscore.pl",
+     "1": 2.6,
+     "X": 3.5,
+     "2": 2.55,
+     "u25": 2.05
+    },
+    "info": {
+     "restDays": {
+      "home": 6,
+      "away": 7
+     },
+     "homeAway": "Obie drużyny w 3 ostatnich meczach: remis, wygrana, porażka",
+     "stakes": "8. vs 11. miejsce",
+     "h2h": [
+      "7 z 10 ostatnich meczów bezpośrednich: poniżej 2,5 gola"
+     ]
+    },
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Model bramkowy daje Piastowi znacznie więcej niż rynek — rozbieżność zbyt duża, by jej ufać bez danych o składach. Poniżej 2,5 gola przy kursie 2,05 ma ujemne EV wg modelu."
+     ]
+    }
    },
    {
     "id": "2026-27-R12-KOR-GKS",
@@ -4242,7 +4320,27 @@
       "name": "Albert Różycki",
       "nat": "POL"
      }
-    ]
+    ],
+    "odds": {
+     "src": "Oddsportal 1X2 (stan na 22.10 ~18:00)",
+     "1": 2.1,
+     "X": 3.7,
+     "2": 3.1
+    },
+    "info": {
+     "restDays": {
+      "home": 6,
+      "away": 7
+     },
+     "homeAway": "Korona po porażce 1:6 w Poznaniu; GKS po porażce 0:1 z Pogonią u siebie",
+     "stakes": "9. vs 5. miejsce"
+    },
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Rynek faworyzuje Koronę, model GKS — brak kursów DNB, Korona często remisuje u siebie. Za mało pewności."
+     ]
+    }
    },
    {
     "id": "2026-27-R12-POG-RAD",
@@ -4271,7 +4369,63 @@
       "name": "Michał Obukowicz",
       "nat": "POL"
      }
-    ]
+    ],
+    "odds": {
+     "src": "Oddsportal 1X2 (stan na 22.10 ~18:00); pozostałe rynki: LV BET (22.10)",
+     "1": 1.76,
+     "X": 3.9,
+     "2": 4.2,
+     "1X": 1.25,
+     "X2": 2.1,
+     "o25": 1.65,
+     "u25": 2.25,
+     "bttsY": 1.62,
+     "bttsN": 2.27
+    },
+    "info": {
+     "injuries": {
+      "home": [],
+      "away": []
+     },
+     "restDays": {
+      "home": 7,
+      "away": 5
+     },
+     "homeAway": "Pogoń u siebie 3-2-1 (wg wyników sezonu); Radomiak 4 porażki z rzędu (11 straconych goli); Pogoń nie wygrała z Radomiakiem w 4 ostatnich meczach (ostatnia wygrana 16.02.2024)",
+     "stakes": "Pogoń (4.) goni czołówkę; Radomiak (16.) w strefie spadkowej",
+     "h2h": [
+      "2025-12-06 POG 2:2 RAD",
+      "2025-07-20 RAD 5:1 POG",
+      "2025-05-10 RAD 2:0 POG",
+      "2024-11-08 POG 0:1 RAD",
+      "2024-02-16 RAD 0:4 POG"
+     ]
+    },
+    "tip": {
+     "decision": "BET",
+     "market": "Obie strzelą – nie",
+     "odds": 2.27,
+     "prob": 0.5,
+     "ev": 0.135,
+     "rating": 6,
+     "risk": "średnie",
+     "reasons": [
+      "Pogoń straciła tylko 6 goli w 10 meczach (0,6/mecz) i wygrała 4 ostatnie mecze ligowe, 3 z nich bez straty gola.",
+      "Radomiak strzela 0,8 gola na mecz (9 w 11) i nie zdobył bramki w 3 z 5 ostatnich meczów ligowych.",
+      "W ostatnich 5 meczach ligowych zarówno Pogoni, jak i Radomiaka obie drużyny strzeliły tylko 2 razy.",
+      "Radomiak przegrał 4 mecze z rzędu (11 straconych goli) — gra głównie o ograniczenie strat.",
+      "Pogoń jest wyraźnym faworytem (kurs 1,76), więc najbardziej prawdopodobne scenariusze to wygrana Pogoni do zera.",
+      "Brak potwierdzonych poważnych absencji w obu zespołach (stan na 22.10)."
+     ],
+     "risks": [
+      "H2H przemawia przeciw: Radomiak strzelił Pogoni gola w 4 z 5 ostatnich meczów (m.in. 5:1 i 2:2).",
+      "Radomiak w 10. kolejce strzelił 2 gole Motorowi — potrafi trafić z kontry.",
+      "Składy nieznane; kursy BTTS tylko od jednego bukmachera (LV BET).",
+      "Mały wycinek sezonu (10–11 meczów) zwiększa niepewność oszacowania."
+     ],
+     "value": "Kurs 2,27 wycenia brak bramek obu drużyn na ok. 44%; moje szacunki (obrona Pogoni + słaby atak Radomiaka) dają ok. 50%.",
+     "stake": "konserwatywnie, 1% bankrollu"
+    }
    },
    {
     "id": "2026-27-R12-WIS-RAK",
@@ -4300,7 +4454,27 @@
       "name": "Tomasz Listkiewicz",
       "nat": "POL"
      }
-    ]
+    ],
+    "odds": {
+     "src": "Oddsportal 1X2 (stan na 23.10 ~06:45)",
+     "1": 1.8,
+     "X": 4.0,
+     "2": 3.8
+    },
+    "info": {
+     "restDays": {
+      "home": 8,
+      "away": 8
+     },
+     "homeAway": "Wisła u siebie 5-0-0 (10:3); Raków jedyną wyjazdową wygraną odniósł w Krakowie z Wieczystą",
+     "stakes": "Raków ostatni (6 pkt); nowy trener Rakowa Dawid Szwarga (od 21.10). Wisła bez gola w 2 ostatnich meczach"
+    },
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Wisła 5-0-0 u siebie, ale Raków właśnie zmienił trenera (Dawid Szwarga, 21.10) — efekt nowego trenera trudny do wyceny; przewaga przy kursie 1,76 zbyt mała."
+     ]
+    }
    },
    {
     "id": "2026-27-R12-SLA-WIE",
@@ -4329,7 +4503,28 @@
       "name": "Mateusz Jenda",
       "nat": "POL"
      }
-    ]
+    ],
+    "odds": {
+     "src": "Oddsportal 1X2 (stan na 22.10 ~18:00); ponad 2,5: Superbet wg flashscore.pl",
+     "1": 2.9,
+     "X": 3.7,
+     "2": 2.15,
+     "o25": 1.55
+    },
+    "info": {
+     "restDays": {
+      "home": 8,
+      "away": 9
+     },
+     "homeAway": "Śląsk 5 porażek z rzędu, 2+ stracone gole w 5 ostatnich meczach; Wieczysta 2 porażki z rzędu",
+     "stakes": "mecz dołu tabeli (17. vs 15.)"
+    },
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Ponad 2,5 gola wygląda logicznie, ale kurs 1,55 wycenia to na ok. 65% — tyle samo co model. Brak value."
+     ]
+    }
    },
    {
     "id": "2026-27-R12-JAG-WPL",
@@ -4375,7 +4570,30 @@
       "name": "Adam Kupsik",
       "nat": "POL"
      }
-    ]
+    ],
+    "odds": {
+     "src": "Oddsportal 1X2 (stan na 23.10 ~06:45)",
+     "1": 2.0,
+     "X": 3.6,
+     "2": 3.4
+    },
+    "info": {
+     "restDays": {
+      "home": 3,
+      "away": 6
+     },
+     "homeAway": "Jagiellonia 4 porażki ligowe z rzędu; w czwartek 22.10 przegrała u siebie 0:3 z Anderlechtem w Lidze Europy (pełna podstawowa jedenastka, m.in. Prelec, Jóźwiak, Abramowicz)",
+     "stakes": "Jagiellonia (13.) przy natężonym terminarzu pucharowym",
+     "h2h": [
+      "Ostatni mecz bezpośredni (w Białymstoku) wygrała Wisła Płock"
+     ]
+    },
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Jagiellonia gra 3 dni po meczu Ligi Europy i przegrała 4 ligowe mecze z rzędu — rotacja i zmęczenie niemożliwe do wyceny."
+     ]
+    }
    },
    {
     "id": "2026-27-R12-LEG-LPO",
@@ -4422,7 +4640,37 @@
       "name": "Szymon Łężny",
       "nat": "POL"
      }
-    ]
+    ],
+    "odds": {
+     "src": "Oddsportal 1X2 (stan na 23.10 ~06:45); BTTS: Superbet wg flashscore.pl (22.10)",
+     "1": 2.6,
+     "X": 3.5,
+     "2": 2.5,
+     "bttsY": 1.56
+    },
+    "info": {
+     "injuries": {
+      "home": [],
+      "away": [
+       "Wojciech Mońka (uraz z meczu z Leverkusen 15.10, stopień nieznany)"
+      ]
+     },
+     "homeAway": "Legia bez porażki w 14 meczach ligowych; Lech ostatnio w lidze 6:1, 4:1, 5:1; w czwartek 22.10 Lech zremisował 1:1 z Sunderlandem w Lidze Europy",
+     "stakes": "2. vs 3. miejsce — hit kolejki",
+     "h2h": [
+      "2026-04 LPO 4:0 LEG"
+     ],
+     "restDays": {
+      "home": 8,
+      "away": 3
+     }
+    },
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Obie strzelą 1,56 ≈ 64% — model daje ok. 59–63%. Kursy 1X2 wyrównane; Lech ma tylko 3 dni odpoczynku po Lidze Europy, Legia 8 — trudne do wyceny, brak przewagi."
+     ]
+    }
    }
   ],
   "13": [
@@ -4499,5 +4747,211 @@
     "status": "ns"
    }
   ]
- }
+ },
+ "table": [
+  {
+   "team": "GZA",
+   "p": 11,
+   "w": 8,
+   "d": 2,
+   "l": 1,
+   "gf": 20,
+   "ga": 10,
+   "pts": 26,
+   "form": "WWDWD"
+  },
+  {
+   "team": "LPO",
+   "p": 10,
+   "w": 8,
+   "d": 1,
+   "l": 1,
+   "gf": 27,
+   "ga": 9,
+   "pts": 25,
+   "form": "WLWWW"
+  },
+  {
+   "team": "LEG",
+   "p": 11,
+   "w": 6,
+   "d": 5,
+   "l": 0,
+   "gf": 22,
+   "ga": 9,
+   "pts": 23,
+   "form": "WDWWD"
+  },
+  {
+   "team": "POG",
+   "p": 10,
+   "w": 6,
+   "d": 3,
+   "l": 1,
+   "gf": 15,
+   "ga": 6,
+   "pts": 21,
+   "form": "DWWWW"
+  },
+  {
+   "team": "GKS",
+   "p": 11,
+   "w": 6,
+   "d": 0,
+   "l": 5,
+   "gf": 22,
+   "ga": 16,
+   "pts": 18,
+   "form": "LWWWL"
+  },
+  {
+   "team": "WIS",
+   "p": 11,
+   "w": 5,
+   "d": 3,
+   "l": 3,
+   "gf": 17,
+   "ga": 14,
+   "pts": 18,
+   "form": "DWWLD"
+  },
+  {
+   "team": "ZAG",
+   "p": 11,
+   "w": 5,
+   "d": 3,
+   "l": 3,
+   "gf": 13,
+   "ga": 13,
+   "pts": 18,
+   "form": "DWLLW"
+  },
+  {
+   "team": "PIA",
+   "p": 11,
+   "w": 5,
+   "d": 2,
+   "l": 4,
+   "gf": 19,
+   "ga": 17,
+   "pts": 17,
+   "form": "WWLWD"
+  },
+  {
+   "team": "KOR",
+   "p": 11,
+   "w": 4,
+   "d": 3,
+   "l": 4,
+   "gf": 13,
+   "ga": 18,
+   "pts": 15,
+   "form": "DWWLL"
+  },
+  {
+   "team": "WPL",
+   "p": 10,
+   "w": 4,
+   "d": 2,
+   "l": 4,
+   "gf": 10,
+   "ga": 15,
+   "pts": 14,
+   "form": "DWWLW"
+  },
+  {
+   "team": "CRA",
+   "p": 11,
+   "w": 3,
+   "d": 3,
+   "l": 5,
+   "gf": 13,
+   "ga": 16,
+   "pts": 12,
+   "form": "LLLWD"
+  },
+  {
+   "team": "MOT",
+   "p": 11,
+   "w": 3,
+   "d": 3,
+   "l": 5,
+   "gf": 15,
+   "ga": 19,
+   "pts": 12,
+   "form": "LLDWW"
+  },
+  {
+   "team": "JAG",
+   "p": 10,
+   "w": 4,
+   "d": 0,
+   "l": 6,
+   "gf": 13,
+   "ga": 17,
+   "pts": 12,
+   "form": "WLLLL"
+  },
+  {
+   "team": "WID",
+   "p": 11,
+   "w": 1,
+   "d": 7,
+   "l": 3,
+   "gf": 14,
+   "ga": 15,
+   "pts": 10,
+   "form": "DDDLD"
+  },
+  {
+   "team": "WIE",
+   "p": 11,
+   "w": 2,
+   "d": 2,
+   "l": 7,
+   "gf": 16,
+   "ga": 21,
+   "pts": 8,
+   "form": "LDWLL"
+  },
+  {
+   "team": "RAD",
+   "p": 11,
+   "w": 2,
+   "d": 2,
+   "l": 7,
+   "gf": 9,
+   "ga": 24,
+   "pts": 8,
+   "form": "DLLLL"
+  },
+  {
+   "team": "SLA",
+   "p": 11,
+   "w": 1,
+   "d": 3,
+   "l": 7,
+   "gf": 14,
+   "ga": 22,
+   "pts": 6,
+   "form": "LLLLL"
+  },
+  {
+   "team": "RAK",
+   "p": 11,
+   "w": 2,
+   "d": 0,
+   "l": 9,
+   "gf": 15,
+   "ga": 26,
+   "pts": 6,
+   "form": "LWLLW"
+  }
+ ],
+ "picks": [
+  {
+   "match": "2026-27-R12-POG-RAD",
+   "rank": 1
+  }
+ ]
 }

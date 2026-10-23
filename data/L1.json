@@ -1,0 +1,1430 @@
+{
+ "updated": "2026-10-23T06:45:00+02:00",
+ "season": "2026/27",
+ "competition": "Ligue 1",
+ "currentRound": 8,
+ "note": "Źródła: ligue1.com (obsady sędziowskie 8. kolejki), Footamax, Foot Mercato, Maxifoot, Eurosport/L'Équipe, Ogcnissa, t-online.de, foot01, Flashscore, Wincomparator, Oddschecker, The Football Faithful. Godziny w czasie polskim.",
+ "teams": {
+  "ANG": {
+   "id": "ANG",
+   "short": "ANG",
+   "name": "Angers SCO",
+   "city": "Angers",
+   "col": "#1a1a1a",
+   "stadium": "Stade Raymond-Kopa",
+   "capacity": 18752
+  },
+  "AUX": {
+   "id": "AUX",
+   "short": "AUX",
+   "name": "AJ Auxerre",
+   "city": "Auxerre",
+   "col": "#0b4ea2",
+   "stadium": "Stade de l'Abbé-Deschamps",
+   "capacity": 21379
+  },
+  "BRE": {
+   "id": "BRE",
+   "short": "BRE",
+   "name": "Stade Brestois",
+   "city": "Brest",
+   "col": "#b5121b",
+   "stadium": "Stade Francis-Le Blé",
+   "capacity": 15931
+  },
+  "HAV": {
+   "id": "HAV",
+   "short": "HAV",
+   "name": "Le Havre AC",
+   "city": "Hawr",
+   "col": "#1c3f6e",
+   "stadium": "Stade Océane",
+   "capacity": 25178
+  },
+  "LMA": {
+   "id": "LMA",
+   "short": "LMA",
+   "name": "Le Mans FC",
+   "city": "Le Mans",
+   "col": "#9e1b22",
+   "stadium": "Stade Marie-Marvingt",
+   "capacity": 25000
+  },
+  "LEN": {
+   "id": "LEN",
+   "short": "LEN",
+   "name": "RC Lens",
+   "city": "Lens",
+   "col": "#b8860b",
+   "stadium": "Stade Bollaert-Delelis",
+   "capacity": 37705
+  },
+  "LIL": {
+   "id": "LIL",
+   "short": "LIL",
+   "name": "Lille OSC",
+   "city": "Lille",
+   "col": "#a3171c",
+   "stadium": "Stade Pierre-Mauroy",
+   "capacity": 50186
+  },
+  "LOR": {
+   "id": "LOR",
+   "short": "LOR",
+   "name": "FC Lorient",
+   "city": "Lorient",
+   "col": "#c4561a",
+   "stadium": "Stade du Moustoir",
+   "capacity": 18890
+  },
+  "LYO": {
+   "id": "LYO",
+   "short": "LYO",
+   "name": "Olympique Lyon",
+   "city": "Lyon",
+   "col": "#14387f",
+   "stadium": "Groupama Stadium",
+   "capacity": 59186
+  },
+  "OLM": {
+   "id": "OLM",
+   "short": "OLM",
+   "name": "Olympique Marsylia",
+   "city": "Marsylia",
+   "col": "#1d6fa5",
+   "stadium": "Stade Vélodrome",
+   "capacity": 67394
+  },
+  "MON": {
+   "id": "MON",
+   "short": "MON",
+   "name": "AS Monaco",
+   "city": "Monako",
+   "col": "#c8102e",
+   "stadium": "Stade Louis II",
+   "capacity": 18523
+  },
+  "NIC": {
+   "id": "NIC",
+   "short": "NIC",
+   "name": "OGC Nice",
+   "city": "Nicea",
+   "col": "#7a0f1a",
+   "stadium": "Allianz Riviera",
+   "capacity": 35624
+  },
+  "PFC": {
+   "id": "PFC",
+   "short": "PFC",
+   "name": "Paris FC",
+   "city": "Paryż",
+   "col": "#13294b",
+   "stadium": "Stade Jean-Bouin",
+   "capacity": 20000
+  },
+  "PSG": {
+   "id": "PSG",
+   "short": "PSG",
+   "name": "Paris Saint-Germain",
+   "city": "Paryż",
+   "col": "#004170",
+   "stadium": "Parc des Princes",
+   "capacity": 47926
+  },
+  "REN": {
+   "id": "REN",
+   "short": "REN",
+   "name": "Stade Rennais",
+   "city": "Rennes",
+   "col": "#b0122a",
+   "stadium": "Roazhon Park",
+   "capacity": 29778
+  },
+  "STR": {
+   "id": "STR",
+   "short": "STR",
+   "name": "RC Strasbourg",
+   "city": "Strasburg",
+   "col": "#0059a8",
+   "stadium": "Stade de la Meinau",
+   "capacity": 29230
+  },
+  "TOU": {
+   "id": "TOU",
+   "short": "TOU",
+   "name": "Toulouse FC",
+   "city": "Tuluza",
+   "col": "#4b2a83",
+   "stadium": "Stadium de Toulouse",
+   "capacity": 33150
+  },
+  "TRO": {
+   "id": "TRO",
+   "short": "TRO",
+   "name": "ESTAC Troyes",
+   "city": "Troyes",
+   "col": "#1a4c95",
+   "stadium": "Stade de l'Aube",
+   "capacity": 20400
+  }
+ },
+ "table": [
+  {
+   "team": "LYO",
+   "p": 7,
+   "w": 4,
+   "d": 2,
+   "l": 1,
+   "gf": 13,
+   "ga": 5,
+   "pts": 14,
+   "form": "WDWLW"
+  },
+  {
+   "team": "PSG",
+   "p": 7,
+   "w": 4,
+   "d": 2,
+   "l": 1,
+   "gf": 14,
+   "ga": 9,
+   "pts": 14,
+   "form": "LWWWW"
+  },
+  {
+   "team": "PFC",
+   "p": 7,
+   "w": 4,
+   "d": 2,
+   "l": 1,
+   "gf": 12,
+   "ga": 7,
+   "pts": 14,
+   "form": "WDWLW"
+  },
+  {
+   "team": "LIL",
+   "p": 7,
+   "w": 4,
+   "d": 2,
+   "l": 1,
+   "gf": 10,
+   "ga": 5,
+   "pts": 14,
+   "form": "WWLWD"
+  },
+  {
+   "team": "MON",
+   "p": 7,
+   "w": 4,
+   "d": 2,
+   "l": 1,
+   "gf": 10,
+   "ga": 6,
+   "pts": 14,
+   "form": "WDWDL"
+  },
+  {
+   "team": "REN",
+   "p": 7,
+   "w": 4,
+   "d": 1,
+   "l": 2,
+   "gf": 15,
+   "ga": 14,
+   "pts": 13,
+   "form": "WWLWL"
+  },
+  {
+   "team": "LOR",
+   "p": 7,
+   "w": 3,
+   "d": 2,
+   "l": 2,
+   "gf": 7,
+   "ga": 6,
+   "pts": 11,
+   "form": "WDLWW"
+  },
+  {
+   "team": "LEN",
+   "p": 7,
+   "w": 3,
+   "d": 1,
+   "l": 3,
+   "gf": 14,
+   "ga": 11,
+   "pts": 10,
+   "form": "LDLWW"
+  },
+  {
+   "team": "OLM",
+   "p": 7,
+   "w": 3,
+   "d": 0,
+   "l": 4,
+   "gf": 14,
+   "ga": 10,
+   "pts": 9,
+   "form": "LLLWW"
+  },
+  {
+   "team": "BRE",
+   "p": 7,
+   "w": 2,
+   "d": 3,
+   "l": 2,
+   "gf": 13,
+   "ga": 10,
+   "pts": 9,
+   "form": "WLLWD"
+  },
+  {
+   "team": "TOU",
+   "p": 7,
+   "w": 2,
+   "d": 3,
+   "l": 2,
+   "gf": 12,
+   "ga": 11,
+   "pts": 9,
+   "form": "LDWDW"
+  },
+  {
+   "team": "AUX",
+   "p": 7,
+   "w": 3,
+   "d": 0,
+   "l": 4,
+   "gf": 11,
+   "ga": 17,
+   "pts": 9,
+   "form": "LWWLW"
+  },
+  {
+   "team": "NIC",
+   "p": 7,
+   "w": 2,
+   "d": 2,
+   "l": 3,
+   "gf": 6,
+   "ga": 9,
+   "pts": 8,
+   "form": "DLWWL"
+  },
+  {
+   "team": "STR",
+   "p": 7,
+   "w": 2,
+   "d": 1,
+   "l": 4,
+   "gf": 12,
+   "ga": 15,
+   "pts": 7,
+   "form": "WDLLL"
+  },
+  {
+   "team": "ANG",
+   "p": 7,
+   "w": 2,
+   "d": 1,
+   "l": 4,
+   "gf": 9,
+   "ga": 15,
+   "pts": 7,
+   "form": "LDWLL"
+  },
+  {
+   "team": "LMA",
+   "p": 7,
+   "w": 1,
+   "d": 3,
+   "l": 3,
+   "gf": 10,
+   "ga": 15,
+   "pts": 6,
+   "form": "DDWLL"
+  },
+  {
+   "team": "TRO",
+   "p": 7,
+   "w": 1,
+   "d": 1,
+   "l": 5,
+   "gf": 5,
+   "ga": 16,
+   "pts": 4,
+   "form": "LLLLL"
+  },
+  {
+   "team": "HAV",
+   "p": 7,
+   "w": 0,
+   "d": 2,
+   "l": 5,
+   "gf": 5,
+   "ga": 11,
+   "pts": 2,
+   "form": "LDLLL"
+  }
+ ],
+ "picks": [
+  {
+   "match": "L1-2026-27-R8-MON-LIL",
+   "rank": 1
+  },
+  {
+   "match": "L1-2026-27-R8-BRE-NIC",
+   "rank": 2
+  }
+ ],
+ "rounds": {
+  "7": [
+   {
+    "id": "L1-2026-27-R7-LMA-TOU",
+    "date": "2026-10-16",
+    "home": "LMA",
+    "away": "TOU",
+    "status": "ft",
+    "venue": {
+     "name": "Stade Marie-Marvingt",
+     "city": "Le Mans",
+     "capacity": 25000
+    },
+    "score": [
+     0,
+     3
+    ],
+    "events": [
+     {
+      "m": 46,
+      "t": "goal",
+      "s_": "a",
+      "who": "Jacen Russell-Rowe"
+     },
+     {
+      "m": 59,
+      "t": "goal",
+      "s_": "a",
+      "who": "Aron Dønnum"
+     },
+     {
+      "m": 87,
+      "t": "goal",
+      "s_": "a",
+      "who": "Casper Tengstedt"
+     }
+    ],
+    "notes": "Zdarzenia: tylko bramki (źródło: Footamax).",
+    "time": "20:45"
+   },
+   {
+    "id": "L1-2026-27-R7-STR-PSG",
+    "date": "2026-10-17",
+    "home": "STR",
+    "away": "PSG",
+    "status": "ft",
+    "venue": {
+     "name": "Stade de la Meinau",
+     "city": "Strasburg",
+     "capacity": 29230
+    },
+    "score": [
+     1,
+     3
+    ],
+    "events": [
+     {
+      "m": 17,
+      "t": "goal",
+      "s_": "h",
+      "who": "Giovanni Reyna"
+     },
+     {
+      "m": 77,
+      "t": "goal",
+      "s_": "a",
+      "who": "Ilya Zabarnyi"
+     },
+     {
+      "m": 85,
+      "t": "goal",
+      "s_": "a",
+      "who": "Ousmane Dembélé"
+     },
+     {
+      "m": 90,
+      "t": "goal",
+      "s_": "a",
+      "who": "Désiré Doué",
+      "s": "+3"
+     }
+    ],
+    "notes": "Zdarzenia: tylko bramki (źródło: Footamax).",
+    "time": "17:15"
+   },
+   {
+    "id": "L1-2026-27-R7-LIL-BRE",
+    "date": "2026-10-17",
+    "home": "LIL",
+    "away": "BRE",
+    "status": "ft",
+    "venue": {
+     "name": "Stade Pierre-Mauroy",
+     "city": "Lille",
+     "capacity": 50186
+    },
+    "score": [
+     1,
+     1
+    ],
+    "events": [
+     {
+      "m": 6,
+      "t": "goal",
+      "s_": "a",
+      "who": "Mama Baldé"
+     },
+     {
+      "m": 64,
+      "t": "pen",
+      "s_": "h",
+      "who": "Olivier Giroud",
+      "res": "Gol"
+     }
+    ],
+    "notes": "Zdarzenia: tylko bramki (źródło: Footamax).",
+    "time": "20:45"
+   },
+   {
+    "id": "L1-2026-27-R7-TRO-LEN",
+    "date": "2026-10-17",
+    "home": "TRO",
+    "away": "LEN",
+    "status": "ft",
+    "venue": {
+     "name": "Stade de l'Aube",
+     "city": "Troyes",
+     "capacity": 20400
+    },
+    "score": [
+     1,
+     3
+    ],
+    "events": [
+     {
+      "m": 13,
+      "t": "og",
+      "s_": "a",
+      "who": "Adrien Monfray"
+     },
+     {
+      "m": 27,
+      "t": "goal",
+      "s_": "h",
+      "who": "Timothé Nkada"
+     },
+     {
+      "m": 45,
+      "t": "goal",
+      "s_": "a",
+      "who": "Odsonne Édouard"
+     },
+     {
+      "m": 55,
+      "t": "goal",
+      "s_": "a",
+      "who": "Ruben Aguilar"
+     }
+    ],
+    "notes": "Zdarzenia: tylko bramki (źródło: Footamax).",
+    "time": "20:45"
+   },
+   {
+    "id": "L1-2026-27-R7-ANG-OLM",
+    "date": "2026-10-18",
+    "home": "ANG",
+    "away": "OLM",
+    "status": "ft",
+    "venue": {
+     "name": "Stade Raymond-Kopa",
+     "city": "Angers",
+     "capacity": 18752
+    },
+    "score": [
+     2,
+     5
+    ],
+    "events": [
+     {
+      "m": 14,
+      "t": "goal",
+      "s_": "h",
+      "who": "Lilian Raolisoa"
+     },
+     {
+      "m": 37,
+      "t": "goal",
+      "s_": "a",
+      "who": "Himad Abdelli"
+     },
+     {
+      "m": 43,
+      "t": "goal",
+      "s_": "a",
+      "who": "Nouhoum Kamissoko"
+     },
+     {
+      "m": 60,
+      "t": "goal",
+      "s_": "a",
+      "who": "Amine Gouiri"
+     },
+     {
+      "m": 75,
+      "t": "pen",
+      "s_": "h",
+      "who": "Amine El Ouazzani",
+      "res": "Gol"
+     },
+     {
+      "m": 83,
+      "t": "goal",
+      "s_": "a",
+      "who": "Amine Harit"
+     },
+     {
+      "m": 85,
+      "t": "goal",
+      "s_": "a",
+      "who": "Igor Paixão"
+     }
+    ],
+    "notes": "Zdarzenia: tylko bramki (źródło: Footamax).",
+    "time": "15:00"
+   },
+   {
+    "id": "L1-2026-27-R7-LOR-MON",
+    "date": "2026-10-18",
+    "home": "LOR",
+    "away": "MON",
+    "status": "ft",
+    "venue": {
+     "name": "Stade du Moustoir",
+     "city": "Lorient",
+     "capacity": 18890
+    },
+    "score": [
+     1,
+     0
+    ],
+    "events": [
+     {
+      "m": 61,
+      "t": "pen",
+      "s_": "h",
+      "who": "Noah Cadiou",
+      "res": "Gol"
+     }
+    ],
+    "notes": "Zdarzenia: tylko bramki (źródło: Footamax).",
+    "time": "17:15"
+   },
+   {
+    "id": "L1-2026-27-R7-PFC-REN",
+    "date": "2026-10-18",
+    "home": "PFC",
+    "away": "REN",
+    "status": "ft",
+    "venue": {
+     "name": "Stade Jean-Bouin",
+     "city": "Paryż",
+     "capacity": 20000
+    },
+    "score": [
+     4,
+     3
+    ],
+    "events": [
+     {
+      "m": 14,
+      "t": "goal",
+      "s_": "h",
+      "who": "Maxime Lopez"
+     },
+     {
+      "m": 29,
+      "t": "pen",
+      "s_": "a",
+      "who": "Esteban Lepaul",
+      "res": "Gol"
+     },
+     {
+      "m": 45,
+      "t": "goal",
+      "s_": "h",
+      "who": "Maxime Lopez"
+     },
+     {
+      "m": 74,
+      "t": "pen",
+      "s_": "a",
+      "who": "Esteban Lepaul",
+      "res": "Gol"
+     },
+     {
+      "m": 76,
+      "t": "goal",
+      "s_": "h",
+      "who": "Lassine Sinayoko"
+     },
+     {
+      "m": 88,
+      "t": "pen",
+      "s_": "a",
+      "who": "Esteban Lepaul",
+      "res": "Gol"
+     },
+     {
+      "m": 90,
+      "t": "pen",
+      "s_": "h",
+      "who": "Lassine Sinayoko",
+      "res": "Gol",
+      "s": "+7"
+     }
+    ],
+    "notes": "Zdarzenia: tylko bramki (źródło: Footamax).",
+    "time": "17:15"
+   },
+   {
+    "id": "L1-2026-27-R7-HAV-AUX",
+    "date": "2026-10-18",
+    "home": "HAV",
+    "away": "AUX",
+    "status": "ft",
+    "venue": {
+     "name": "Stade Océane",
+     "city": "Hawr",
+     "capacity": 25178
+    },
+    "score": [
+     1,
+     3
+    ],
+    "events": [
+     {
+      "m": 40,
+      "t": "goal",
+      "s_": "a",
+      "who": "Danny Namaso"
+     },
+     {
+      "m": 61,
+      "t": "goal",
+      "s_": "a",
+      "who": "Danny Namaso"
+     },
+     {
+      "m": 65,
+      "t": "goal",
+      "s_": "h",
+      "who": "Rayan Fofana"
+     },
+     {
+      "m": 79,
+      "t": "goal",
+      "s_": "a",
+      "who": "Romain Faivre"
+     }
+    ],
+    "notes": "Zdarzenia: tylko bramki (źródło: Footamax).",
+    "time": "17:15"
+   },
+   {
+    "id": "L1-2026-27-R7-LYO-NIC",
+    "date": "2026-10-18",
+    "home": "LYO",
+    "away": "NIC",
+    "status": "ft",
+    "venue": {
+     "name": "Groupama Stadium",
+     "city": "Lyon",
+     "capacity": 59186
+    },
+    "score": [
+     2,
+     1
+    ],
+    "events": [
+     {
+      "m": 18,
+      "t": "goal",
+      "s_": "a",
+      "who": "Elye Wahi"
+     },
+     {
+      "m": 33,
+      "t": "goal",
+      "s_": "h",
+      "who": "Pavel Šulc"
+     },
+     {
+      "m": 36,
+      "t": "goal",
+      "s_": "h",
+      "who": "Tanner Tessmann"
+     }
+    ],
+    "notes": "Zdarzenia: tylko bramki (źródło: Footamax).",
+    "time": "20:45"
+   }
+  ],
+  "8": [
+   {
+    "id": "L1-2026-27-R8-BRE-NIC",
+    "date": "2026-10-23",
+    "time": "20:45",
+    "home": "BRE",
+    "away": "NIC",
+    "status": "ns",
+    "venue": {
+     "name": "Stade Francis-Le Blé",
+     "city": "Brest",
+     "capacity": 15931
+    },
+    "odds": {
+     "src": "Oddschecker 1X2 (22.10.2026); 1X2 max, DC, O/U 2,5, BTTS: Wincomparator (najlepsze kursy, 22.10.2026)",
+     "1": 2.25,
+     "X": 3.6,
+     "2": 3.25,
+     "1X": 1.37,
+     "X2": 1.69,
+     "12": 1.35,
+     "o25": 1.9,
+     "u25": 2.23,
+     "bttsY": 1.57,
+     "bttsN": 2.4
+    },
+    "info": {
+     "injuries": {
+      "home": [
+       "Brendan Chardonnet",
+       "Raphaël Le Guen"
+      ],
+      "away": [
+       "Laurent Abergel",
+       "Moïse Bombito",
+       "Antoine Mendy",
+       "Ali Abdi (niepewny, czworogłowy)"
+      ]
+     },
+     "suspensions": {
+      "home": [],
+      "away": []
+     },
+     "restDays": {
+      "home": 6,
+      "away": 5
+     },
+     "homeAway": "Nice bez zwycięstwa na wyjeździe (0-0-3, 1 gol w 3 meczach), 8 porażek wyjazdowych od stycznia.",
+     "stakes": "Brest 10. (9 pkt), Nice 13. (8 pkt) — środek tabeli; Brest bez pucharów, pełny tydzień odpoczynku. Giovani Versini (BRE) wrócił do treningów. Sędzia: Guillaume Paradis."
+    },
+    "tip": {
+     "decision": "BET",
+     "market": "Wygrana Stade Brestois (1)",
+     "odds": 2.25,
+     "prob": 0.47,
+     "ev": 0.057,
+     "rating": 6,
+     "risk": "średnie",
+     "reasons": [
+      "Brest ma 2. najlepszą różnicę xG w lidze (+6,64), Nice jedną z najgorszych (-3,75) — rozjazd jakości szans znacznie większy niż w tabeli.",
+      "Nice 0-0-3 na wyjazdach z 1 golem, 8 porażek wyjazdowych od stycznia.",
+      "Nice popełnia najwięcej błędów prowadzących do strzału rywala (12 vs 4 Brestu).",
+      "Nice bez Abergela, Bombito i Mendy'ego — osłabiona oś środka pola i obrony.",
+      "Brest u siebie rozbił Angers 5:1, Mama Baldé strzelał w dwóch ostatnich meczach.",
+      "Kurs 2,25 ≈ 43% po zdjęciu marży; szacuję szansę Brestu na ok. 47%."
+     ],
+     "risks": [
+      "Brest bez Chardonneta i Le Guena.",
+      "Nice wygrało 2 z 4 ostatnich meczów ligowych (m.in. 2:1 z Lille) — forma nierówna, nie tylko słaba.",
+      "Mała przewaga (EV ok. +6%) — wrażliwa na kurs; poniżej 2,15 brak value."
+     ],
+     "value": "Kurs 2,25 (Oddschecker/DraftKings) wycenia Brest na 44% (ok. 43% bez marży), moja ocena 47%. Przy kursie Betclic 2,10 EV spada do ok. -1% — tylko przy ≥2,20. Aktualizacja 23.10: najlepszy kurs 2,31 (Wincomparator), średnio ok. 2,25 — value utrzymane.",
+     "stake": "0,5–1% bankrollu"
+    },
+    "officials": [
+     {
+      "r": "GŁ",
+      "role": "Sędzia główny",
+      "name": "Guillaume Paradis",
+      "nat": "FRA"
+     },
+     {
+      "r": "VAR",
+      "role": "Sędzia VAR",
+      "name": "Bastien Dechepy",
+      "nat": "FRA"
+     }
+    ]
+   },
+   {
+    "id": "L1-2026-27-R8-LEN-PFC",
+    "date": "2026-10-24",
+    "time": "20:45",
+    "home": "LEN",
+    "away": "PFC",
+    "status": "ns",
+    "venue": {
+     "name": "Stade Bollaert-Delelis",
+     "city": "Lens",
+     "capacity": 37705
+    },
+    "odds": {
+     "src": "Oddschecker 1X2 (stan na 22.10.2026); BTTS: Betclic; DNB2: LetsBet (-109)",
+     "1": 2.42,
+     "X": 3.75,
+     "2": 2.88,
+     "bttsY": 1.47,
+     "dnb2": 1.92
+    },
+    "info": {
+     "injuries": {
+      "home": [
+       "Maik Nawrocki",
+       "Abdallah Sima"
+      ],
+      "away": []
+     },
+     "homeAway": "Lens 2-0-1 u siebie; Paris FC 1 wygrana w 3 meczach wyjazdowych.",
+     "stakes": "Paris FC współlider (14 pkt), Lens 8. (10 pkt). Lens w środku tygodnia przegrał 0:3 w Brugii (LM)."
+    },
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Kursy odzwierciedlają realne szanse: Lens 3. w xG ligi, Paris FC najniższe xGA — przeciwne argumenty się znoszą.",
+      "Lens po porażce 0:3 w Brugii w LM — niepewna rotacja i świeżość.",
+      "BTTS po 1,47 (68%) bez marginesu bezpieczeństwa przy najlepszej obronie xGA rywala."
+     ]
+    },
+    "officials": [
+     {
+      "r": "GŁ",
+      "role": "Sędzia główny",
+      "name": "Mathieu Vernice",
+      "nat": "FRA"
+     },
+     {
+      "r": "VAR",
+      "role": "Sędzia VAR",
+      "name": "Nicolas Rainville",
+      "nat": "FRA"
+     }
+    ]
+   },
+   {
+    "id": "L1-2026-27-R8-MON-LIL",
+    "date": "2026-10-25",
+    "time": "15:00",
+    "home": "MON",
+    "away": "LIL",
+    "status": "ns",
+    "venue": {
+     "name": "Stade Louis II",
+     "city": "Monako",
+     "capacity": 18523
+    },
+    "odds": {
+     "src": "Oddschecker 1X2 (stan na 22.10.2026); U2,5: Betclic",
+     "1": 2.1,
+     "X": 3.6,
+     "2": 3.75,
+     "u25": 1.84
+    },
+    "info": {
+     "injuries": {
+      "home": [],
+      "away": []
+     },
+     "suspensions": {
+      "home": [],
+      "away": []
+     },
+     "restDays": {
+      "home": 3,
+      "away": 4
+     },
+     "homeAway": "Monaco przegrało 0:1 w Lorient i zremisowało 2:2 z Toulouse; Lille przegrało w lidze tylko w Nicei.",
+     "stakes": "Obie drużyny po 14 pkt w czołowej piątce. Monaco grało w czwartek z Freiburgiem (LK), Lille przegrało w środę 2:4 z Galatasaray (LM). Paris Brunner (MON) wraca po zawieszeniu."
+    },
+    "tip": {
+     "decision": "BET",
+     "market": "Poniżej 2,5 gola",
+     "odds": 1.84,
+     "prob": 0.58,
+     "ev": 0.067,
+     "rating": 6,
+     "risk": "średnie",
+     "reasons": [
+      "Monaco ma najniższe xG w lidze (7,89 w 7 meczach, ok. 1,1/mecz).",
+      "Lille straciło w lidze tylko 5 goli w 7 meczach, Berke Özer ma najlepszy % obron w lidze.",
+      "Lille nie strzeliło więcej niż 2 goli w 12 kolejnych meczach Ligue 1.",
+      "W 4 z 5 ostatnich ligowych meczów Lille padło poniżej 2,5 gola.",
+      "Oba zespoły grały w pucharach w środku tygodnia (Monaco w czwartek) — spodziewana rotacja i niższe tempo.",
+      "Model Poissona (λ łącznie ok. 2,2) daje ok. 60–62% na under; przyjmuję ostrożnie 58% vs 54% z kursu."
+     ],
+     "risks": [
+      "Lille straciło 4 gole z Galatasaray w środę — możliwy spadek formy defensywnej.",
+      "Monaco: w 3 z 5 ostatnich meczów ligowych padło 3+ gole.",
+      "Zmęczenie może też otworzyć mecz w końcówce."
+     ],
+     "value": "Kurs 1,84 = 54% implikowane; moja ocena 58% → EV ok. +7%.",
+     "stake": "0,5–1% bankrollu"
+    },
+    "officials": [
+     {
+      "r": "GŁ",
+      "role": "Sędzia główny",
+      "name": "François Letexier",
+      "nat": "FRA"
+     },
+     {
+      "r": "VAR",
+      "role": "Sędzia VAR",
+      "name": "Jérémie Pignard",
+      "nat": "FRA"
+     }
+    ]
+   },
+   {
+    "id": "L1-2026-27-R8-REN-STR",
+    "date": "2026-10-25",
+    "time": "17:15",
+    "home": "REN",
+    "away": "STR",
+    "status": "ns",
+    "venue": {
+     "name": "Roazhon Park",
+     "city": "Rennes",
+     "capacity": 29778
+    },
+    "odds": {
+     "src": "Oddschecker 1X2 (stan na 22.10.2026); O3,5 = 2,17 (BetRivers)",
+     "1": 1.75,
+     "X": 4.5,
+     "2": 4.2
+    },
+    "info": {
+     "homeAway": "Rennes bez porażki w 8 meczach na Roazhon Park (6W 2R), w lidze 3-1-0 u siebie. Strasbourg przegrał 3 z 4 ostatnich wyjazdów.",
+     "stakes": "Rennes 6. (13 pkt), Strasbourg 14. (7 pkt, 3 porażki z rzędu). Rennes zremisował w czwartek 2:2 z Juventusem w Turynie (LE)."
+    },
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Rennes gra w czwartek w Turynie — duże ryzyko rotacji przy 2,5 dniach odpoczynku.",
+      "Kurs 1,75 (57%) nie zostawia marginesu przy obronie Rennes tracącej 2 gole/mecz."
+     ]
+    },
+    "officials": [
+     {
+      "r": "GŁ",
+      "role": "Sędzia główny",
+      "name": "Ruddy Buquet",
+      "nat": "FRA"
+     },
+     {
+      "r": "VAR",
+      "role": "Sędzia VAR",
+      "name": "Benoît Millot",
+      "nat": "FRA"
+     }
+    ]
+   },
+   {
+    "id": "L1-2026-27-R8-OLM-HAV",
+    "date": "2026-10-25",
+    "time": "17:15",
+    "home": "OLM",
+    "away": "HAV",
+    "status": "ns",
+    "venue": {
+     "name": "Stade Vélodrome",
+     "city": "Marsylia",
+     "capacity": 67394
+    },
+    "odds": {
+     "src": "Oddschecker 1X2 (stan na 22.10.2026); handicap: Betclic",
+     "1": 1.62,
+     "X": 4.75,
+     "2": 5.5
+    },
+    "info": {
+     "homeAway": "Marsylia przegrała 2 z 3 ostatnich meczów u siebie w lidze, ale wygrała 2 ostatnie wyjazdy (2:0 w Troyes, 5:2 w Angers). Le Havre bez zwycięstwa (0-2-5), najgorsza skuteczność ligi (4,6%).",
+     "stakes": "Le Havre ostatnie (2 pkt). Marsylia przegrała w czwartek 0:1 w Grazu (LE, 3. porażka w LE). LFP proponowała przeniesienie meczu na 20:45 w razie przełożenia PSG–OL — bez zgody OM.",
+     "h2h": [
+      "Le Havre przegrało 11 kolejnych meczów z Marsylią"
+     ]
+    },
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Faworyt słusznie wyceniony (62%), ale Marsylia gra w czwartek w Grazu — rotacja i słaba forma domowa (2 porażki w 3).",
+      "Handicap -1,5 po 2,27 za mocno zależy od rozmiaru wygranej."
+     ]
+    },
+    "officials": [
+     {
+      "r": "GŁ",
+      "role": "Sędzia główny",
+      "name": "Clément Turpin",
+      "nat": "FRA"
+     },
+     {
+      "r": "VAR",
+      "role": "Sędzia VAR",
+      "name": "Nicolas Rainville",
+      "nat": "FRA"
+     }
+    ]
+   },
+   {
+    "id": "L1-2026-27-R8-AUX-LMA",
+    "date": "2026-10-25",
+    "time": "17:15",
+    "home": "AUX",
+    "away": "LMA",
+    "status": "ns",
+    "venue": {
+     "name": "Stade de l'Abbé-Deschamps",
+     "city": "Auxerre",
+     "capacity": 21379
+    },
+    "odds": {
+     "src": "Oddschecker 1X2 (stan na 22.10.2026); O/U i BTTS: Wincomparator (BetRivers O2,5: 1,75)",
+     "1": 2.2,
+     "X": 3.8,
+     "2": 3.7,
+     "o25": 1.6,
+     "u25": 2.05,
+     "bttsY": 1.5,
+     "bttsN": 2.18
+    },
+    "info": {
+     "restDays": {
+      "home": 7,
+      "away": 9
+     },
+     "homeAway": "Auxerre straciło najwięcej goli w lidze (17); Le Mans ma najwyższe xGA (16,75).",
+     "stakes": "Auxerre 12. (9 pkt), Le Mans 16. (6 pkt) — mecz o oddalenie się od strefy spadkowej. Ponad 2,5 gola w 6 z 7 meczów obu drużyn.",
+     "h2h": [
+      "2020-01-10 LMA 0:1 AUX (Ligue 2)",
+      "2019-08-02 AUX 2:0 LMA (Ligue 2)"
+     ]
+    },
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Over 2,5 to najlepszy rynek statystycznie (6/7 u obu), ale typowy kurs 1,60 (62,5%) odpowiada mojej ocenie ok. 60% — brak value.",
+      "Kurs 1,75 dostępny tylko u pojedynczego bukmachera — nie buduję typu na odstającej cenie."
+     ]
+    },
+    "officials": [
+     {
+      "r": "GŁ",
+      "role": "Sędzia główny",
+      "name": "Willy Delajod",
+      "nat": "FRA"
+     },
+     {
+      "r": "VAR",
+      "role": "Sędzia VAR",
+      "name": "Cyril Gringore",
+      "nat": "FRA"
+     }
+    ]
+   },
+   {
+    "id": "L1-2026-27-R8-ANG-LOR",
+    "date": "2026-10-25",
+    "time": "17:15",
+    "home": "ANG",
+    "away": "LOR",
+    "status": "ns",
+    "venue": {
+     "name": "Stade Raymond-Kopa",
+     "city": "Angers",
+     "capacity": 18752
+    },
+    "odds": {
+     "src": "Oddschecker 1X2 (stan na 22.10.2026)",
+     "1": 3.1,
+     "X": 3.4,
+     "2": 2.48
+    },
+    "info": {
+     "homeAway": "Angers straciło 10 goli w 2 ostatnich meczach (1:5 w Breście, 2:5 z Marsylią). Lorient wygrał dwa ostatnie mecze 1:0 (Paris FC, Monaco).",
+     "stakes": "Lorient 7. (11 pkt, tylko 6 straconych), Angers 15. (7 pkt)."
+    },
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Lorient faworytem, ale strzela mało (7 goli w 7 meczach) — wygrana wyjazdowa po 2,48 bez wyraźnej przewagi.",
+      "Under kuszący przy defensywie Lorient, ale brak wiarygodnego kursu."
+     ]
+    },
+    "officials": [
+     {
+      "r": "GŁ",
+      "role": "Sędzia główny",
+      "name": "Azzedine Souifi",
+      "nat": "FRA"
+     },
+     {
+      "r": "VAR",
+      "role": "Sędzia VAR",
+      "name": "Julien Schmitt",
+      "nat": "FRA"
+     }
+    ]
+   },
+   {
+    "id": "L1-2026-27-R8-TOU-TRO",
+    "date": "2026-10-25",
+    "time": "17:15",
+    "home": "TOU",
+    "away": "TRO",
+    "status": "ns",
+    "venue": {
+     "name": "Stadium de Toulouse",
+     "city": "Tuluza",
+     "capacity": 33150
+    },
+    "odds": {
+     "src": "Oddschecker 1X2 (stan na 22.10.2026)",
+     "1": 1.67,
+     "X": 4.2,
+     "2": 5.5
+    },
+    "info": {
+     "homeAway": "Toulouse 1 wygrana w 3 meczach u siebie; Troyes 5 porażek z rzędu, 16 straconych goli.",
+     "stakes": "Toulouse 11. (9 pkt), Troyes 17. (4 pkt). Casper Tengstedt 5 goli w 5 meczach."
+    },
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Toulouse słusznym faworytem, ale kurs 1,67 (~60% bez marży) zbliżony do mojej oceny (ok. 62%) — EV ok. +2%, za mało.",
+      "Słaby bilans Toulouse u siebie (1 wygrana w 3)."
+     ]
+    },
+    "officials": [
+     {
+      "r": "GŁ",
+      "role": "Sędzia główny",
+      "name": "Geoffrey Kubler",
+      "nat": "FRA"
+     },
+     {
+      "r": "VAR",
+      "role": "Sędzia VAR",
+      "name": "Marc Bollengier",
+      "nat": "FRA"
+     }
+    ]
+   },
+   {
+    "id": "L1-2026-27-R8-PSG-LYO",
+    "date": "2026-10-25",
+    "time": "20:45",
+    "home": "PSG",
+    "away": "LYO",
+    "status": "ns",
+    "venue": {
+     "name": "Parc des Princes",
+     "city": "Paryż",
+     "capacity": 47926
+    },
+    "odds": {
+     "src": "Oddschecker 1X2 (stan na 22.10.2026); BTTS: Betclic; O/U3,5: LetsBet",
+     "1": 1.48,
+     "X": 5.25,
+     "2": 6.5,
+     "bttsY": 1.48
+    },
+    "info": {
+     "injuries": {
+      "home": [
+       "Chwicza Kwaracchelia (zerwane więzadło krzyżowe)",
+       "Ousmane Dembélé (udo)",
+       "Marquinhos (udo)",
+       "Nuno Mendes (udo)"
+      ],
+      "away": [
+       "Lois Openda (noga)",
+       "Mohamed Ouedraogo"
+      ]
+     },
+     "suspensions": {
+      "home": [],
+      "away": [
+       "Keito Nakamura (czerwona kartka z Nice)"
+      ]
+     },
+     "homeAway": "PSG 4 wygrane ligowe z rzędu, najwyższe xG ligi (18,03). Lyon lider, najlepsza różnica bramek (+8), 5 straconych.",
+     "stakes": "Hit kolejki — 5 drużyn po 14 pkt. PSG pokonał Barcelonę 4:2 (LM); Lyon przegrał w czwartek 0:3 w Hoffenheim (LE). LFP odmówiła przełożenia meczu (stan na 22.10 wieczorem), ale arrêté prefekta może to zmienić."
+    },
+    "notes": "LFP 22.10 odrzuciła wniosek prefektury policji o przełożenie — mecz pozostaje w niedzielę 25.10 o 20:45. Decyzja nieostateczna: w razie zarządzenia prefekta mecz może zostać przesunięty na pon. 26.10.",
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Termin nadal niepewny (LFP odmówiła przełożenia, ale możliwe zarządzenie prefekta).",
+      "PSG bez Dembélé, Kwaracchelii, Marquinhosa i Nuno Mendesa — kurs 1,48 nie uwzględnia w pełni osłabień, ale też Lyon gra w czwartek.",
+      "Zbyt duża niepewność składów po obu stronach."
+     ]
+    },
+    "officials": [
+     {
+      "r": "GŁ",
+      "role": "Sędzia główny",
+      "name": "Jérôme Brisard",
+      "nat": "FRA"
+     },
+     {
+      "r": "VAR",
+      "role": "Sędzia VAR",
+      "name": "Bastien Dechepy",
+      "nat": "FRA"
+     }
+    ]
+   }
+  ],
+  "9": [
+   {
+    "id": "L1-2026-27-R9-HAV-PSG",
+    "date": "2026-10-30",
+    "time": "19:00",
+    "home": "HAV",
+    "away": "PSG",
+    "status": "ns",
+    "venue": {
+     "name": "Stade Océane",
+     "city": "Hawr",
+     "capacity": 25178
+    },
+    "notes": "Godzina wstępna (Oddschecker/Maxifoot), do potwierdzenia przez LFP."
+   },
+   {
+    "id": "L1-2026-27-R9-LIL-LEN",
+    "date": "2026-10-30",
+    "time": "21:05",
+    "home": "LIL",
+    "away": "LEN",
+    "status": "ns",
+    "venue": {
+     "name": "Stade Pierre-Mauroy",
+     "city": "Lille",
+     "capacity": 50186
+    },
+    "notes": "Godzina wstępna (Oddschecker/Maxifoot), do potwierdzenia przez LFP."
+   },
+   {
+    "id": "L1-2026-27-R9-NIC-REN",
+    "date": "2026-10-31",
+    "time": "17:15",
+    "home": "NIC",
+    "away": "REN",
+    "status": "ns",
+    "venue": {
+     "name": "Allianz Riviera",
+     "city": "Nicea",
+     "capacity": 35624
+    },
+    "notes": "Godzina wstępna (Oddschecker/Maxifoot), do potwierdzenia przez LFP."
+   },
+   {
+    "id": "L1-2026-27-R9-LOR-BRE",
+    "date": "2026-10-31",
+    "time": "20:45",
+    "home": "LOR",
+    "away": "BRE",
+    "status": "ns",
+    "venue": {
+     "name": "Stade du Moustoir",
+     "city": "Lorient",
+     "capacity": 18890
+    },
+    "notes": "Godzina wstępna (Oddschecker/Maxifoot), do potwierdzenia przez LFP."
+   },
+   {
+    "id": "L1-2026-27-R9-LYO-ANG",
+    "date": "2026-10-31",
+    "time": "20:45",
+    "home": "LYO",
+    "away": "ANG",
+    "status": "ns",
+    "venue": {
+     "name": "Groupama Stadium",
+     "city": "Lyon",
+     "capacity": 59186
+    },
+    "notes": "Godzina wstępna (Oddschecker/Maxifoot), do potwierdzenia przez LFP."
+   },
+   {
+    "id": "L1-2026-27-R9-TRO-LMA",
+    "date": "2026-10-31",
+    "time": "20:45",
+    "home": "TRO",
+    "away": "LMA",
+    "status": "ns",
+    "venue": {
+     "name": "Stade de l'Aube",
+     "city": "Troyes",
+     "capacity": 20400
+    },
+    "notes": "Godzina wstępna (Oddschecker/Maxifoot), do potwierdzenia przez LFP."
+   },
+   {
+    "id": "L1-2026-27-R9-STR-AUX",
+    "date": "2026-11-01",
+    "time": "15:00",
+    "home": "STR",
+    "away": "AUX",
+    "status": "ns",
+    "venue": {
+     "name": "Stade de la Meinau",
+     "city": "Strasburg",
+     "capacity": 29230
+    },
+    "notes": "Godzina wstępna (Oddschecker/Maxifoot), do potwierdzenia przez LFP."
+   },
+   {
+    "id": "L1-2026-27-R9-PFC-MON",
+    "date": "2026-11-01",
+    "time": "17:15",
+    "home": "PFC",
+    "away": "MON",
+    "status": "ns",
+    "venue": {
+     "name": "Stade Jean-Bouin",
+     "city": "Paryż",
+     "capacity": 20000
+    },
+    "notes": "Godzina wstępna (Oddschecker/Maxifoot), do potwierdzenia przez LFP."
+   },
+   {
+    "id": "L1-2026-27-R9-OLM-TOU",
+    "date": "2026-11-01",
+    "time": "20:45",
+    "home": "OLM",
+    "away": "TOU",
+    "status": "ns",
+    "venue": {
+     "name": "Stade Vélodrome",
+     "city": "Marsylia",
+     "capacity": 67394
+    },
+    "notes": "Godzina wstępna (Oddschecker/Maxifoot), do potwierdzenia przez LFP."
+   }
+  ]
+ }
+}

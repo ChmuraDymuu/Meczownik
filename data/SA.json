@@ -1,0 +1,1985 @@
+{
+ "updated": "2026-10-23T05:47:47+02:00",
+ "season": "2026/27",
+ "competition": "Serie A",
+ "currentRound": 8,
+ "note": "Źródła: Sky Sport (terminarz, wyniki, tabela, sędziowie 8. kolejki), Wikipedia (stadiony, trenerzy), Affaritaliani/OA Sport (strzelcy 7. kolejki), SOS Fanta/Calcio e Finanza (godziny), Oddsportal, RG.org, diretta.it (kursy, statystyki), fantacalcio-online.com (kontuzje), UEFA (puchary). 7. kolejka bez pełnych składów i statystyk. Godziny w czasie polskim (= włoskim).",
+ "teams": {
+  "ATA": {
+   "id": "ATA",
+   "short": "ATA",
+   "name": "Atalanta",
+   "city": "Bergamo",
+   "col": "#1a3d7c",
+   "stadium": "New Balance Arena",
+   "capacity": 23439
+  },
+  "BOL": {
+   "id": "BOL",
+   "short": "BOL",
+   "name": "Bologna",
+   "city": "Bolonia",
+   "col": "#1a2f48",
+   "stadium": "Stadio Renato Dall'Ara",
+   "capacity": 38279
+  },
+  "CAG": {
+   "id": "CAG",
+   "short": "CAG",
+   "name": "Cagliari",
+   "city": "Cagliari",
+   "col": "#7a1424",
+   "stadium": "Unipol Domus",
+   "capacity": 16416
+  },
+  "COM": {
+   "id": "COM",
+   "short": "COM",
+   "name": "Como",
+   "city": "Como",
+   "col": "#1b3d6d",
+   "stadium": "Stadio Giuseppe Sinigaglia",
+   "capacity": 13602
+  },
+  "FIO": {
+   "id": "FIO",
+   "short": "FIO",
+   "name": "Fiorentina",
+   "city": "Florencja",
+   "col": "#4b2a7b",
+   "stadium": "Stadio Artemio Franchi",
+   "capacity": 43118
+  },
+  "FRO": {
+   "id": "FRO",
+   "short": "FRO",
+   "name": "Frosinone",
+   "city": "Frosinone",
+   "col": "#123d8a",
+   "stadium": "Stadio Benito Stirpe",
+   "capacity": 16227
+  },
+  "GEN": {
+   "id": "GEN",
+   "short": "GEN",
+   "name": "Genoa",
+   "city": "Genua",
+   "col": "#8b1a2b",
+   "stadium": "Stadio Luigi Ferraris",
+   "capacity": 33205
+  },
+  "INT": {
+   "id": "INT",
+   "short": "INT",
+   "name": "Inter Mediolan",
+   "city": "Mediolan",
+   "col": "#0a2a6b",
+   "stadium": "Stadio Giuseppe Meazza",
+   "capacity": 75710
+  },
+  "JUV": {
+   "id": "JUV",
+   "short": "JUV",
+   "name": "Juventus",
+   "city": "Turyn",
+   "col": "#1a1a1a",
+   "stadium": "Allianz Stadium",
+   "capacity": 41507
+  },
+  "LAZ": {
+   "id": "LAZ",
+   "short": "LAZ",
+   "name": "Lazio Rzym",
+   "city": "Rzym",
+   "col": "#1d5f8f",
+   "stadium": "Stadio Olimpico",
+   "capacity": 70634
+  },
+  "LEC": {
+   "id": "LEC",
+   "short": "LEC",
+   "name": "Lecce",
+   "city": "Lecce",
+   "col": "#9c1b1f",
+   "stadium": "Stadio Via del Mare",
+   "capacity": 30354
+  },
+  "MIL": {
+   "id": "MIL",
+   "short": "MIL",
+   "name": "AC Milan",
+   "city": "Mediolan",
+   "col": "#9b0f15",
+   "stadium": "San Siro",
+   "capacity": 75710
+  },
+  "MON": {
+   "id": "MON",
+   "short": "MON",
+   "name": "Monza",
+   "city": "Monza",
+   "col": "#a3141c",
+   "stadium": "Stadio Brianteo",
+   "capacity": 17102
+  },
+  "NAP": {
+   "id": "NAP",
+   "short": "NAP",
+   "name": "SSC Napoli",
+   "city": "Neapol",
+   "col": "#0b5aa8",
+   "stadium": "Stadio Diego Armando Maradona",
+   "capacity": 54732
+  },
+  "PAR": {
+   "id": "PAR",
+   "short": "PAR",
+   "name": "Parma",
+   "city": "Parma",
+   "col": "#14306b",
+   "stadium": "Stadio Ennio Tardini",
+   "capacity": 22352
+  },
+  "ROM": {
+   "id": "ROM",
+   "short": "ROM",
+   "name": "AS Roma",
+   "city": "Rzym",
+   "col": "#8b1a2e",
+   "stadium": "Stadio Olimpico",
+   "capacity": 70634
+  },
+  "SAS": {
+   "id": "SAS",
+   "short": "SAS",
+   "name": "Sassuolo",
+   "city": "Sassuolo",
+   "col": "#0b6b3a",
+   "stadium": "Mapei Stadium – Città del Tricolore",
+   "capacity": 21515
+  },
+  "TOR": {
+   "id": "TOR",
+   "short": "TOR",
+   "name": "Torino",
+   "city": "Turyn",
+   "col": "#7a1f1f",
+   "stadium": "Stadio Olimpico Grande Torino",
+   "capacity": 28177
+  },
+  "UDI": {
+   "id": "UDI",
+   "short": "UDI",
+   "name": "Udinese",
+   "city": "Udine",
+   "col": "#222222",
+   "stadium": "Bluenergy Stadium",
+   "capacity": 25132
+  },
+  "VEN": {
+   "id": "VEN",
+   "short": "VEN",
+   "name": "Venezia",
+   "city": "Wenecja",
+   "col": "#14522b",
+   "stadium": "Stadio Pier Luigi Penzo",
+   "capacity": 12048
+  }
+ },
+ "table": [
+  {
+   "team": "INT",
+   "p": 7,
+   "w": 6,
+   "d": 1,
+   "l": 0,
+   "gf": 21,
+   "ga": 9,
+   "pts": 19,
+   "form": "WWDWW"
+  },
+  {
+   "team": "LAZ",
+   "p": 7,
+   "w": 6,
+   "d": 1,
+   "l": 0,
+   "gf": 14,
+   "ga": 4,
+   "pts": 19,
+   "form": "WDWWW"
+  },
+  {
+   "team": "ROM",
+   "p": 7,
+   "w": 5,
+   "d": 2,
+   "l": 0,
+   "gf": 16,
+   "ga": 3,
+   "pts": 17,
+   "form": "WWDDW"
+  },
+  {
+   "team": "MIL",
+   "p": 7,
+   "w": 4,
+   "d": 3,
+   "l": 0,
+   "gf": 14,
+   "ga": 7,
+   "pts": 15,
+   "form": "DDWDW"
+  },
+  {
+   "team": "COM",
+   "p": 7,
+   "w": 4,
+   "d": 2,
+   "l": 1,
+   "gf": 12,
+   "ga": 7,
+   "pts": 14,
+   "form": "WWLDW"
+  },
+  {
+   "team": "FRO",
+   "p": 7,
+   "w": 4,
+   "d": 1,
+   "l": 2,
+   "gf": 13,
+   "ga": 9,
+   "pts": 13,
+   "form": "WDWLW"
+  },
+  {
+   "team": "CAG",
+   "p": 7,
+   "w": 4,
+   "d": 1,
+   "l": 2,
+   "gf": 6,
+   "ga": 7,
+   "pts": 13,
+   "form": "WWWDL"
+  },
+  {
+   "team": "JUV",
+   "p": 7,
+   "w": 3,
+   "d": 2,
+   "l": 2,
+   "gf": 9,
+   "ga": 8,
+   "pts": 11,
+   "form": "DLWDL"
+  },
+  {
+   "team": "NAP",
+   "p": 7,
+   "w": 3,
+   "d": 1,
+   "l": 3,
+   "gf": 10,
+   "ga": 7,
+   "pts": 10,
+   "form": "LWDWL"
+  },
+  {
+   "team": "TOR",
+   "p": 7,
+   "w": 3,
+   "d": 1,
+   "l": 3,
+   "gf": 10,
+   "ga": 9,
+   "pts": 10,
+   "form": "WLDWW"
+  },
+  {
+   "team": "ATA",
+   "p": 7,
+   "w": 3,
+   "d": 0,
+   "l": 4,
+   "gf": 10,
+   "ga": 11,
+   "pts": 9,
+   "form": "LLLWL"
+  },
+  {
+   "team": "LEC",
+   "p": 7,
+   "w": 3,
+   "d": 0,
+   "l": 4,
+   "gf": 9,
+   "ga": 12,
+   "pts": 9,
+   "form": "LWLLW"
+  },
+  {
+   "team": "SAS",
+   "p": 7,
+   "w": 2,
+   "d": 2,
+   "l": 3,
+   "gf": 12,
+   "ga": 14,
+   "pts": 8,
+   "form": "DWLDL"
+  },
+  {
+   "team": "MON",
+   "p": 7,
+   "w": 2,
+   "d": 1,
+   "l": 4,
+   "gf": 13,
+   "ga": 15,
+   "pts": 7,
+   "form": "DLWLW"
+  },
+  {
+   "team": "BOL",
+   "p": 7,
+   "w": 1,
+   "d": 2,
+   "l": 4,
+   "gf": 6,
+   "ga": 10,
+   "pts": 5,
+   "form": "DLDWL"
+  },
+  {
+   "team": "UDI",
+   "p": 7,
+   "w": 1,
+   "d": 1,
+   "l": 5,
+   "gf": 9,
+   "ga": 16,
+   "pts": 4,
+   "form": "LLLLL"
+  },
+  {
+   "team": "GEN",
+   "p": 7,
+   "w": 1,
+   "d": 1,
+   "l": 5,
+   "gf": 5,
+   "ga": 13,
+   "pts": 4,
+   "form": "LDLWL"
+  },
+  {
+   "team": "FIO",
+   "p": 7,
+   "w": 1,
+   "d": 1,
+   "l": 5,
+   "gf": 8,
+   "ga": 17,
+   "pts": 4,
+   "form": "LWDLL"
+  },
+  {
+   "team": "PAR",
+   "p": 7,
+   "w": 1,
+   "d": 1,
+   "l": 5,
+   "gf": 4,
+   "ga": 13,
+   "pts": 4,
+   "form": "DLWLL"
+  },
+  {
+   "team": "VEN",
+   "p": 7,
+   "w": 1,
+   "d": 0,
+   "l": 6,
+   "gf": 6,
+   "ga": 16,
+   "pts": 3,
+   "form": "LLLLW"
+  }
+ ],
+ "picks": [
+  {
+   "match": "SA-2026-27-R8-TOR-MON",
+   "rank": 1
+  }
+ ],
+ "rounds": {
+  "7": [
+   {
+    "id": "SA-2026-27-R7-FRO-SAS",
+    "date": "2026-10-16",
+    "time": "20:45",
+    "home": "FRO",
+    "away": "SAS",
+    "status": "ft",
+    "score": [
+     4,
+     2
+    ],
+    "events": [
+     {
+      "m": 9,
+      "t": "goal",
+      "s_": "h",
+      "who": "Calò"
+     },
+     {
+      "m": 15,
+      "t": "goal",
+      "s_": "a",
+      "who": "Domenico Berardi"
+     }
+    ],
+    "notes": "Strzelcy: Calò 9', Antonio Raimondo 3 gole (w tym dwa w ciągu czterech minut); dla Sassuolo Berardi 15', Thorstvedt (przed przerwą). Minuty części goli niepodane – oś czasu niekompletna.",
+    "venue": {
+     "name": "Stadio Benito Stirpe",
+     "city": "Frosinone",
+     "capacity": 16227
+    },
+    "staff": {
+     "home": [
+      [
+       "Trener",
+       "Massimiliano Alvini"
+      ]
+     ],
+     "away": [
+      [
+       "Trener",
+       "Alberto Aquilani"
+      ]
+     ]
+    }
+   },
+   {
+    "id": "SA-2026-27-R7-VEN-NAP",
+    "date": "2026-10-17",
+    "time": "15:00",
+    "home": "VEN",
+    "away": "NAP",
+    "status": "ft",
+    "score": [
+     1,
+     0
+    ],
+    "events": [
+     {
+      "m": 49,
+      "t": "goal",
+      "s_": "h",
+      "who": "Adams"
+     }
+    ],
+    "notes": "Jedyny gol: Adams 49'.",
+    "venue": {
+     "name": "Stadio Pier Luigi Penzo",
+     "city": "Wenecja",
+     "capacity": 12048
+    },
+    "staff": {
+     "home": [
+      [
+       "Trener",
+       "Giovanni Stroppa"
+      ]
+     ],
+     "away": [
+      [
+       "Trener",
+       "Massimiliano Allegri"
+      ]
+     ]
+    }
+   },
+   {
+    "id": "SA-2026-27-R7-BOL-INT",
+    "date": "2026-10-17",
+    "time": "18:00",
+    "home": "BOL",
+    "away": "INT",
+    "status": "ft",
+    "score": [
+     1,
+     3
+    ],
+    "events": [
+     {
+      "m": 69,
+      "t": "goal",
+      "s_": "a",
+      "who": "Carlos Augusto"
+     }
+    ],
+    "notes": "Strzelcy: Pobega (BOL, wcześnie), Marcus Thuram (INT, przed przerwą), Carlos Augusto 69', Bonny (INT, końcówka). Oś czasu niekompletna.",
+    "venue": {
+     "name": "Stadio Renato Dall'Ara",
+     "city": "Bolonia",
+     "capacity": 38279
+    },
+    "staff": {
+     "home": [
+      [
+       "Trener",
+       "Raffaele Palladino"
+      ]
+     ],
+     "away": [
+      [
+       "Trener",
+       "Cristian Chivu"
+      ]
+     ]
+    }
+   },
+   {
+    "id": "SA-2026-27-R7-ROM-GEN",
+    "date": "2026-10-17",
+    "time": "20:45",
+    "home": "ROM",
+    "away": "GEN",
+    "status": "ft",
+    "score": [
+     2,
+     0
+    ],
+    "events": [
+     {
+      "m": 50,
+      "t": "goal",
+      "s_": "h",
+      "who": "Santiago Castro"
+     }
+    ],
+    "notes": "Strzelcy: Santiago Castro 50', Lulli (minuta niepodana).",
+    "venue": {
+     "name": "Stadio Olimpico",
+     "city": "Rzym",
+     "capacity": 70634
+    },
+    "staff": {
+     "home": [
+      [
+       "Trener",
+       "Gian Piero Gasperini"
+      ]
+     ],
+     "away": [
+      [
+       "Trener",
+       "Daniele De Rossi"
+      ]
+     ]
+    }
+   },
+   {
+    "id": "SA-2026-27-R7-UDI-LEC",
+    "date": "2026-10-18",
+    "time": "12:30",
+    "home": "UDI",
+    "away": "LEC",
+    "status": "ft",
+    "score": [
+     0,
+     3
+    ],
+    "events": [
+     {
+      "m": 11,
+      "t": "goal",
+      "s_": "a",
+      "who": "Gaspar"
+     },
+     {
+      "m": 33,
+      "t": "goal",
+      "s_": "a",
+      "who": "N'Dri"
+     }
+    ],
+    "notes": "Strzelcy: Gaspar 11', N'Dri 33', Siebert (końcówka).",
+    "venue": {
+     "name": "Bluenergy Stadium",
+     "city": "Udine",
+     "capacity": 25132
+    },
+    "staff": {
+     "home": [
+      [
+       "Trener",
+       "Kosta Runjaić"
+      ]
+     ],
+     "away": [
+      [
+       "Trener",
+       "Eusebio Di Francesco"
+      ]
+     ]
+    }
+   },
+   {
+    "id": "SA-2026-27-R7-FIO-COM",
+    "date": "2026-10-18",
+    "time": "15:00",
+    "home": "FIO",
+    "away": "COM",
+    "status": "ft",
+    "score": [
+     1,
+     3
+    ],
+    "events": [
+     {
+      "m": 32,
+      "t": "goal",
+      "s_": "a",
+      "who": "Liberali"
+     }
+    ],
+    "notes": "Strzelcy: Pongračić (FIO, przed przerwą); Liberali 32', Nico Paz (ok. 4 min później), Douvikas (2. połowa).",
+    "venue": {
+     "name": "Stadio Artemio Franchi",
+     "city": "Florencja",
+     "capacity": 43118
+    },
+    "staff": {
+     "home": [
+      [
+       "Trener",
+       "Paolo Vanoli"
+      ]
+     ],
+     "away": [
+      [
+       "Trener",
+       "Cesc Fàbregas"
+      ]
+     ]
+    }
+   },
+   {
+    "id": "SA-2026-27-R7-MIL-ATA",
+    "date": "2026-10-18",
+    "time": "18:00",
+    "home": "MIL",
+    "away": "ATA",
+    "status": "ft",
+    "score": [
+     3,
+     2
+    ],
+    "events": [
+     {
+      "m": 24,
+      "t": "pen",
+      "s_": "h",
+      "who": "Gonçalo Ramos",
+      "res": "Gol"
+     },
+     {
+      "m": 57,
+      "t": "goal",
+      "s_": "h",
+      "who": "Gila"
+     }
+    ],
+    "notes": "Strzelcy: Ramos 24' (k), Rabiot (przed przerwą), Gila 57'; dla Atalanty Gaetano i Krstović (minuty niepodane).",
+    "venue": {
+     "name": "San Siro",
+     "city": "Mediolan",
+     "capacity": 75710
+    },
+    "staff": {
+     "home": [
+      [
+       "Trener",
+       "Rúben Amorim"
+      ]
+     ],
+     "away": [
+      [
+       "Trener",
+       "Maurizio Sarri"
+      ]
+     ]
+    }
+   },
+   {
+    "id": "SA-2026-27-R7-JUV-LAZ",
+    "date": "2026-10-18",
+    "time": "20:45",
+    "home": "JUV",
+    "away": "LAZ",
+    "status": "ft",
+    "score": [
+     0,
+     3
+    ],
+    "events": [
+     {
+      "m": 37,
+      "t": "goal",
+      "s_": "a",
+      "who": "Provstgaard"
+     }
+    ],
+    "notes": "Strzelcy: Provstgaard 37', Isaksen (2. połowa), Dele-Bashiru (końcówka).",
+    "venue": {
+     "name": "Allianz Stadium",
+     "city": "Turyn",
+     "capacity": 41507
+    },
+    "staff": {
+     "home": [
+      [
+       "Trener",
+       "Luciano Spalletti"
+      ]
+     ],
+     "away": [
+      [
+       "Trener",
+       "Gennaro Gattuso"
+      ]
+     ]
+    }
+   },
+   {
+    "id": "SA-2026-27-R7-MON-CAG",
+    "date": "2026-10-19",
+    "time": "18:30",
+    "home": "MON",
+    "away": "CAG",
+    "status": "ft",
+    "score": [
+     4,
+     0
+    ],
+    "events": [
+     {
+      "m": 39,
+      "t": "goal",
+      "s_": "h",
+      "who": "Kouadio",
+      "as": "Mota"
+     }
+    ],
+    "notes": "Strzelcy: Kouadio 39' (as. Mota), Varela 2 gole (pierwszy tuż po przerwie), Robinson (as. Varela). Bramkarz Cagliari: Caprile.",
+    "venue": {
+     "name": "Stadio Brianteo",
+     "city": "Monza",
+     "capacity": 17102
+    },
+    "staff": {
+     "home": [
+      [
+       "Trener",
+       "Ivan Jurić"
+      ]
+     ],
+     "away": [
+      [
+       "Trener",
+       "Fabio Pisacane"
+      ]
+     ]
+    }
+   },
+   {
+    "id": "SA-2026-27-R7-PAR-TOR",
+    "date": "2026-10-19",
+    "time": "20:45",
+    "home": "PAR",
+    "away": "TOR",
+    "status": "ft",
+    "score": [
+     0,
+     3
+    ],
+    "events": [
+     {
+      "m": 4,
+      "t": "goal",
+      "s_": "a",
+      "who": "Giovanni Simeone",
+      "as": "Belghali"
+     },
+     {
+      "m": 24,
+      "t": "goal",
+      "s_": "a",
+      "who": "Adams"
+     }
+    ],
+    "notes": "Strzelcy: Simeone 4' (as. Belghali) i w 2. połowie (as. Belghali), Adams ok. 24' (głową po rykoszecie).",
+    "venue": {
+     "name": "Stadio Ennio Tardini",
+     "city": "Parma",
+     "capacity": 22352
+    },
+    "staff": {
+     "home": [
+      [
+       "Trener",
+       "Alberto Gilardino"
+      ]
+     ],
+     "away": [
+      [
+       "Trener",
+       "Ignazio Abate"
+      ]
+     ]
+    }
+   }
+  ],
+  "8": [
+   {
+    "id": "SA-2026-27-R8-TOR-MON",
+    "date": "2026-10-23",
+    "time": "20:45",
+    "home": "TOR",
+    "away": "MON",
+    "status": "ns",
+    "officials": [
+     {
+      "r": "GŁ",
+      "role": "Sędzia główny",
+      "name": "Zanotti",
+      "nat": "ITA"
+     }
+    ],
+    "odds": {
+     "src": "Oddsportal 1X2; over/under 2,5 – LetsBet (−105/−130) wg RG.org, stan na 22–23.10.2026",
+     "1": 2.15,
+     "X": 3.4,
+     "2": 3.5,
+     "o25": 1.95,
+     "u25": 1.77
+    },
+    "info": {
+     "injuries": {
+      "home": [
+       "Pellegrini",
+       "Israel (do 4.12)",
+       "Fortini",
+       "İlkhan (do 5.11)",
+       "R. Rodríguez"
+      ],
+      "away": [
+       "Lucchesi",
+       "Mayey",
+       "Ziółkowski",
+       "Ciurria",
+       "Pessina (do 28.10)",
+       "Touré",
+       "Zeballos"
+      ]
+     },
+     "suspensions": {
+      "home": [],
+      "away": []
+     },
+     "restDays": {
+      "home": 4,
+      "away": 4
+     },
+     "homeAway": "Torino u siebie 1-0-2 (bramki 3:5); Monza na wyjeździe 0-1-3 (5:11), 16 goli łącznie w 4 meczach. Torino w ostatnich 5: 3-1-1.",
+     "stakes": "Torino (10 pkt, 10. miejsce) po 3:0 w Parmie; Monza (7 pkt) po 4:0 z Cagliari. Varela – 6 goli w lidze.",
+     "h2h": [
+      "2025-03-02 MON 0:2 TOR",
+      "2024-11-24 TOR 1:1 MON",
+      "2024-03-30 TOR 1:0 MON",
+      "2023-11-11 MON 1:1 TOR",
+      "2023-05-07 TOR 1:1 MON"
+     ]
+    },
+    "tip": {
+     "decision": "BET",
+     "market": "Powyżej 2,5 gola",
+     "odds": 1.95,
+     "prob": 0.54,
+     "ev": 0.053,
+     "rating": 6,
+     "risk": "średnie",
+     "reasons": [
+      "Mecze Monzy: 28 goli w 7 kolejkach (4,0/mecz), powyżej 2,5 w 6 z 7 spotkań",
+      "Wyjazdy Monzy: 16 goli w 4 meczach (5, 2, 5, 4)",
+      "Monza traci 2,1 gola/mecz (15 straconych) i jednocześnie strzela 1,9/mecz (13), Varela 6 goli",
+      "Mecze Torino: powyżej 2,5 w 5 z 7 spotkań (10:9 w bramkach)",
+      "Prosty model Poissona z regresją do średniej ligowej daje ok. 54–55% na 3+ gole przy implikowanych ok. 51% (kurs 1,95)",
+      "Obie drużyny bez gry w pucharach, po 4 dni odpoczynku – bez rotacji"
+     ],
+     "risks": [
+      "Bukmacherzy wyceniają under jako faworyta (1,77) – rynek może uwzględniać niskie xG",
+      "H2H z poprzednich sezonów wyraźnie niskobramkowe (trzy remisy 1:1)",
+      "Liczne braki Monzy (m.in. Pessina, Ciurria) mogą osłabić jej ofensywę",
+      "Mała próbka 7 kolejek"
+     ],
+     "value": "Przewaga niewielka (EV ok. +5%) – typ umiarkowany, nie mocny.",
+     "stake": "0,5–1% bankrollu"
+    },
+    "venue": {
+     "name": "Stadio Olimpico Grande Torino",
+     "city": "Turyn",
+     "capacity": 28177
+    },
+    "staff": {
+     "home": [
+      [
+       "Trener",
+       "Ignazio Abate"
+      ]
+     ],
+     "away": [
+      [
+       "Trener",
+       "Ivan Jurić"
+      ]
+     ]
+    }
+   },
+   {
+    "id": "SA-2026-27-R8-CAG-BOL",
+    "date": "2026-10-24",
+    "time": "15:00",
+    "home": "CAG",
+    "away": "BOL",
+    "status": "ns",
+    "officials": [
+     {
+      "r": "GŁ",
+      "role": "Sędzia główny",
+      "name": "Bonacina",
+      "nat": "ITA"
+     }
+    ],
+    "odds": {
+     "src": "Oddsportal (kursy 1X2 ze strony ligi, stan na 23.10.2026 rano)",
+     "1": 3.2,
+     "X": 3.2,
+     "2": 2.45
+    },
+    "info": {
+     "injuries": {
+      "home": [
+       "Felici (do 9.02)",
+       "Idrissi (do 30.10)",
+       "Trepy"
+      ],
+      "away": [
+       "Holm (do 29.01)",
+       "Orsolini",
+       "Piccoli"
+      ]
+     },
+     "suspensions": {
+      "home": [],
+      "away": []
+     },
+     "restDays": {
+      "home": 5
+     },
+     "homeAway": "Cagliari u siebie 1-1-1 (2:2); Bologna na wyjeździe 1-0-2 (2:3).",
+     "stakes": "Cagliari 13 pkt mimo xGD −4,0 (wg RG.org); Bologna 5 pkt przy 10,94 xG i tylko 6 golach – wyraźna nieskuteczność."
+    },
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Wskaźniki xG sugerują wartość na Bolonii, ale bez Orsoliniego i Piccolego jej atak jest mocno osłabiony",
+      "Nieznany pełny terminarz pucharowy Bolonii – niepewność co do rotacji",
+      "Kurs 2,45 przy szacowanym ok. 40–42% daje EV bliskie zera"
+     ]
+    },
+    "venue": {
+     "name": "Unipol Domus",
+     "city": "Cagliari",
+     "capacity": 16416
+    },
+    "staff": {
+     "home": [
+      [
+       "Trener",
+       "Fabio Pisacane"
+      ]
+     ],
+     "away": [
+      [
+       "Trener",
+       "Raffaele Palladino"
+      ]
+     ]
+    }
+   },
+   {
+    "id": "SA-2026-27-R8-COM-SAS",
+    "date": "2026-10-24",
+    "time": "15:00",
+    "home": "COM",
+    "away": "SAS",
+    "status": "ns",
+    "officials": [
+     {
+      "r": "GŁ",
+      "role": "Sędzia główny",
+      "name": "Di Marco",
+      "nat": "ITA"
+     }
+    ],
+    "odds": {
+     "src": "Oddsportal 1X2; BTTS tak – bet365 wg diretta.it",
+     "1": 1.53,
+     "X": 4.75,
+     "2": 6.0,
+     "bttsY": 1.53
+    },
+    "info": {
+     "injuries": {
+      "home": [
+       "Chalobah",
+       "Diao (do 8.11)",
+       "J. Rodríguez",
+       "Kean (niepewny)"
+      ],
+      "away": [
+       "Russo",
+       "Idzes",
+       "Leysen",
+       "Pieragnoli (do 30.10)",
+       "Bolocan (do 30.10)",
+       "Koné (do 17.01)"
+      ]
+     },
+     "suspensions": {
+      "home": [],
+      "away": []
+     },
+     "restDays": {
+      "home": 3,
+      "away": 8
+     },
+     "homeAway": "Como u siebie 1-1-0 (2:1); Sassuolo na wyjeździe 0-1-3, 10 straconych.",
+     "stakes": "Como po 4:1 z Manchesterem United w LM (środa) – możliwe zmęczenie. Sassuolo jedyną drużyną, która w każdym meczu strzelała i traciła gola."
+    },
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Kurs 1,53 na Como (ok. 65%) przy szacowanych ok. 60% – brak wartości po meczu LM i trzech dniach odpoczynku",
+      "BTTS 1,53 wymaga ok. 65%, model daje ok. 55%",
+      "Brak rynku z dodatnim EV"
+     ]
+    },
+    "venue": {
+     "name": "Stadio Giuseppe Sinigaglia",
+     "city": "Como",
+     "capacity": 13602
+    },
+    "staff": {
+     "home": [
+      [
+       "Trener",
+       "Cesc Fàbregas"
+      ]
+     ],
+     "away": [
+      [
+       "Trener",
+       "Alberto Aquilani"
+      ]
+     ]
+    }
+   },
+   {
+    "id": "SA-2026-27-R8-NAP-ROM",
+    "date": "2026-10-24",
+    "time": "18:00",
+    "home": "NAP",
+    "away": "ROM",
+    "status": "ns",
+    "officials": [
+     {
+      "r": "GŁ",
+      "role": "Sędzia główny",
+      "name": "Colombo",
+      "nat": "ITA"
+     }
+    ],
+    "odds": {
+     "src": "Oddsportal 1X2; X2 – Sisal wg diretta.it; o/u 2,5 – BetRivers wg RG.org",
+     "1": 2.88,
+     "X": 3.4,
+     "2": 2.6,
+     "X2": 1.4,
+     "o25": 1.83,
+     "u25": 1.93
+    },
+    "info": {
+     "injuries": {
+      "home": [
+       "Buongiorno (do 31.10)",
+       "Favasuli (do 30.11)",
+       "Neres",
+       "Alisson Santos"
+      ],
+      "away": [
+       "Svilar (do 10.11)",
+       "Koné (do 8.11)",
+       "Dybala (do 2.11)",
+       "L. Pellegrini (niepewny)",
+       "Cristante (niepewny)"
+      ]
+     },
+     "suspensions": {
+      "home": [],
+      "away": []
+     },
+     "restDays": {
+      "home": 4,
+      "away": 4
+     },
+     "homeAway": "Napoli u siebie 2-0-1 (5:2); Roma na wyjeździe 2-1-0 (bez straconego gola).",
+     "stakes": "Roma (17 pkt) – najlepsza obrona ligi (3 stracone); Napoli (10 pkt) po porażce 0:1 w Wenecji, xG 14,97 (4. w lidze). Obie po wygranych w LM we wtorek."
+    },
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Rynek wyrównany, brak wyraźnej przewagi",
+      "Roma bez Svilara, Konégo i Dybali – niepewny skład",
+      "X2 1,40 wymaga ponad 71% – zbyt nisko"
+     ]
+    },
+    "venue": {
+     "name": "Stadio Diego Armando Maradona",
+     "city": "Neapol",
+     "capacity": 54732
+    },
+    "staff": {
+     "home": [
+      [
+       "Trener",
+       "Massimiliano Allegri"
+      ]
+     ],
+     "away": [
+      [
+       "Trener",
+       "Gian Piero Gasperini"
+      ]
+     ]
+    }
+   },
+   {
+    "id": "SA-2026-27-R8-LAZ-PAR",
+    "date": "2026-10-24",
+    "time": "20:45",
+    "home": "LAZ",
+    "away": "PAR",
+    "status": "ns",
+    "officials": [
+     {
+      "r": "GŁ",
+      "role": "Sędzia główny",
+      "name": "Arena",
+      "nat": "ITA"
+     }
+    ],
+    "odds": {
+     "src": "Oddsportal 1X2; handicap −1 Lazio 2,20 – GoldBet wg diretta.it",
+     "1": 1.41,
+     "X": 4.75,
+     "2": 9.0
+    },
+    "info": {
+     "injuries": {
+      "home": [
+       "Marušić (do 25.10)",
+       "Przyborek",
+       "Rovella",
+       "Gudmundsson"
+      ],
+      "away": [
+       "Valentini",
+       "Nicolussi Caviglia (do 2.11)",
+       "Almqvist (do 30.10)",
+       "Elphege"
+      ]
+     },
+     "suspensions": {
+      "home": [],
+      "away": []
+     },
+     "restDays": {
+      "away": 5
+     },
+     "homeAway": "Lazio u siebie 2-1-0; Parma na wyjeździe 0-0-3 (1:7 w bramkach).",
+     "stakes": "Lazio współlider (19 pkt) po 3:0 w Turynie, ale xPts tylko 11,58; Parma najniższe xG ligi (5,94), dwie porażki 0:3 z rzędu."
+    },
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Lazio 1,41 – implikowane 71%, model ok. 69–72%, EV ≈ 0",
+      "Handicap −1 po 2,20 wymaga 45%, model ok. 40%",
+      "Lazio wyraźnie ponad xG – ryzyko regresji"
+     ]
+    },
+    "venue": {
+     "name": "Stadio Olimpico",
+     "city": "Rzym",
+     "capacity": 70634
+    },
+    "staff": {
+     "home": [
+      [
+       "Trener",
+       "Gennaro Gattuso"
+      ]
+     ],
+     "away": [
+      [
+       "Trener",
+       "Alberto Gilardino"
+      ]
+     ]
+    }
+   },
+   {
+    "id": "SA-2026-27-R8-INT-FIO",
+    "date": "2026-10-25",
+    "time": "12:30",
+    "home": "INT",
+    "away": "FIO",
+    "status": "ns",
+    "officials": [
+     {
+      "r": "GŁ",
+      "role": "Sędzia główny",
+      "name": "Mariani",
+      "nat": "ITA"
+     }
+    ],
+    "odds": {
+     "src": "Oddsportal 1X2; over 3,25 1,80 – LetsBet wg RG.org",
+     "1": 1.37,
+     "X": 5.5,
+     "2": 9.0
+    },
+    "info": {
+     "injuries": {
+      "home": [
+       "Lautaro Martínez (do 22.11)",
+       "Pavard (do 5.11)",
+       "Stones",
+       "Jones (do 29.10)"
+      ],
+      "away": [
+       "Atta",
+       "Parisi (do 1.11)"
+      ]
+     },
+     "suspensions": {
+      "home": [],
+      "away": []
+     },
+     "restDays": {
+      "home": 4
+     },
+     "homeAway": "Inter u siebie 4-0-0 (15:6); Fiorentina na wyjeździe 1-0-2 (5:8).",
+     "stakes": "Inter lider (21 goli, 22,06 xG); w środę 1:0 z Szachtarem w LM. Fiorentina 4 pkt, 17 straconych."
+    },
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Inter 1,37 przy szacowanych ok. 72–74% – EV ≈ 0",
+      "Brak Lautaro i kilku obrońców oraz mecz LM w środę",
+      "Over 3,25 po 1,80 – model ok. 42% na 4+ gole, EV ujemne"
+     ]
+    },
+    "venue": {
+     "name": "Stadio Giuseppe Meazza",
+     "city": "Mediolan",
+     "capacity": 75710
+    },
+    "staff": {
+     "home": [
+      [
+       "Trener",
+       "Cristian Chivu"
+      ]
+     ],
+     "away": [
+      [
+       "Trener",
+       "Paolo Vanoli"
+      ]
+     ]
+    }
+   },
+   {
+    "id": "SA-2026-27-R8-ATA-FRO",
+    "date": "2026-10-25",
+    "time": "15:00",
+    "home": "ATA",
+    "away": "FRO",
+    "status": "ns",
+    "officials": [
+     {
+      "r": "GŁ",
+      "role": "Sędzia główny",
+      "name": "Marinelli",
+      "nat": "ITA"
+     }
+    ],
+    "odds": {
+     "src": "Oddsportal (kursy 1X2 ze strony ligi, stan na 23.10.2026 rano)",
+     "1": 1.8,
+     "X": 4.2,
+     "2": 4.33
+    },
+    "info": {
+     "injuries": {
+      "home": [
+       "Kessié",
+       "Raspadori (do 31.10)",
+       "Scalvini",
+       "Kossounou (do 29.10)",
+       "Hien (do 9.11)",
+       "Kolašinac (do 3.11)",
+       "Pompei",
+       "Sulemana"
+      ],
+      "away": [
+       "Lolić",
+       "Gelli",
+       "Grillitsch (do 2.11)",
+       "B. Koné (do 22.11)"
+      ]
+     },
+     "suspensions": {
+      "home": [],
+      "away": []
+     },
+     "restDays": {
+      "home": 3,
+      "away": 9
+     },
+     "homeAway": "Atalanta u siebie 3-0-1; Frosinone na wyjeździe 1-1-1 (4:4).",
+     "stakes": "Atalanta w czwartek przegrała 0:2 z Ajaksem w LK (wyjazd), duże braki kadrowe. Frosinone 13 pkt przy xPts 7,42 i 16,35 xGA; Raimondo 7 goli."
+    },
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Sprzeczne sygnały: zmęczenie i braki Atalanty vs. nadwyżka Frosinone ponad xG",
+      "Kurs 1,80 bez wyraźnej przewagi",
+      "Zbyt duża niepewność składu gospodarzy"
+     ]
+    },
+    "venue": {
+     "name": "New Balance Arena",
+     "city": "Bergamo",
+     "capacity": 23439
+    },
+    "staff": {
+     "home": [
+      [
+       "Trener",
+       "Maurizio Sarri"
+      ]
+     ],
+     "away": [
+      [
+       "Trener",
+       "Massimiliano Alvini"
+      ]
+     ]
+    }
+   },
+   {
+    "id": "SA-2026-27-R8-GEN-VEN",
+    "date": "2026-10-25",
+    "time": "15:00",
+    "home": "GEN",
+    "away": "VEN",
+    "status": "ns",
+    "officials": [
+     {
+      "r": "GŁ",
+      "role": "Sędzia główny",
+      "name": "Sozza",
+      "nat": "ITA"
+     }
+    ],
+    "odds": {
+     "src": "Oddsportal (kursy 1X2 ze strony ligi, stan na 23.10.2026 rano)",
+     "1": 2.1,
+     "X": 3.4,
+     "2": 3.7
+    },
+    "info": {
+     "injuries": {
+      "home": [
+       "Nuredini (do 25.10)",
+       "Amorim",
+       "Ehizibue",
+       "Meïté",
+       "Sow (do 2.11)",
+       "Venturino (do 30.10)",
+       "Colombo (do 1.11)",
+       "Havel"
+      ],
+      "away": [
+       "Pozzi",
+       "Bella-Kotchap",
+       "Correia",
+       "Franjić (do 10.12)",
+       "Moreno",
+       "Sverko",
+       "Busio (do 27.10)",
+       "Duncan",
+       "Adorante"
+      ]
+     },
+     "suspensions": {
+      "home": [],
+      "away": []
+     },
+     "restDays": {
+      "home": 8,
+      "away": 8
+     },
+     "homeAway": "Genoa u siebie 1-1-2; Venezia na wyjeździe 0-0-3 (3:8).",
+     "stakes": "Mecz dołu tabeli: Genoa 4 pkt, Venezia ostatnia (3 pkt) po 1:0 z Napoli; Venezia 12,41 xG przy 6 golach."
+    },
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Obie drużyny z długimi listami kontuzji",
+      "Brak przewagi na rynku 1X2",
+      "Wysoka losowość meczu o utrzymanie"
+     ]
+    },
+    "venue": {
+     "name": "Stadio Luigi Ferraris",
+     "city": "Genua",
+     "capacity": 33205
+    },
+    "staff": {
+     "home": [
+      [
+       "Trener",
+       "Daniele De Rossi"
+      ]
+     ],
+     "away": [
+      [
+       "Trener",
+       "Giovanni Stroppa"
+      ]
+     ]
+    }
+   },
+   {
+    "id": "SA-2026-27-R8-LEC-JUV",
+    "date": "2026-10-25",
+    "time": "18:00",
+    "home": "LEC",
+    "away": "JUV",
+    "status": "ns",
+    "officials": [
+     {
+      "r": "GŁ",
+      "role": "Sędzia główny",
+      "name": "Maresca",
+      "nat": "ITA"
+     }
+    ],
+    "odds": {
+     "src": "Oddsportal 1X2; o/u 2,5 – BetRivers wg RG.org; Lecce nie strzeli 1,93 – Sisal wg diretta.it",
+     "1": 8.0,
+     "X": 4.4,
+     "2": 1.46,
+     "o25": 1.87,
+     "u25": 1.88
+    },
+    "info": {
+     "injuries": {
+      "home": [
+       "Coulibaly",
+       "Ilić",
+       "Penev",
+       "Berisha",
+       "Lærke (do 21.11)",
+       "Pierotti"
+      ],
+      "away": [
+       "Yıldız (do 26.11)",
+       "Francisco Conceição",
+       "Locatelli (do 8.02)",
+       "K. Thuram (do 1.01)",
+       "Ekhator (do 2.11)",
+       "Milik",
+       "Grabara (koniec sezonu)"
+      ]
+     },
+     "suspensions": {
+      "home": [],
+      "away": []
+     },
+     "restDays": {
+      "home": 7,
+      "away": 3
+     },
+     "homeAway": "Lecce u siebie 1-0-2; Juventus na wyjeździe 1-1-1 (4:4).",
+     "stakes": "Juventus po 0:3 z Lazio i 2:2 z Rennes w LE (czwartek); najniższe xGA ligi (3,73). Lecce bez punktu w 9 ostatnich meczach z drużynami z górnej połowy i bez gola w 6 ostatnich z nich. Wygrana Lecce dałaby wyprzedzenie Juventusu w tabeli."
+    },
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "„Lecce nie strzeli” 1,93 – model ok. 50–52%, EV ≈ 0",
+      "Juventus po meczu LE w czwartek i z wieloma brakami – niepewna wartość kursu 1,46",
+      "Brak rynku z wyraźnie dodatnim EV"
+     ]
+    },
+    "venue": {
+     "name": "Stadio Via del Mare",
+     "city": "Lecce",
+     "capacity": 30354
+    },
+    "staff": {
+     "home": [
+      [
+       "Trener",
+       "Eusebio Di Francesco"
+      ]
+     ],
+     "away": [
+      [
+       "Trener",
+       "Luciano Spalletti"
+      ]
+     ]
+    }
+   },
+   {
+    "id": "SA-2026-27-R8-UDI-MIL",
+    "date": "2026-10-25",
+    "time": "20:45",
+    "home": "UDI",
+    "away": "MIL",
+    "status": "ns",
+    "officials": [
+     {
+      "r": "GŁ",
+      "role": "Sędzia główny",
+      "name": "Marcenaro",
+      "nat": "ITA"
+     }
+    ],
+    "odds": {
+     "src": "Oddsportal 1X2; 1X – GoldBet wg diretta.it",
+     "1": 5.25,
+     "X": 3.8,
+     "2": 1.7,
+     "1X": 2.2
+    },
+    "info": {
+     "injuries": {
+      "home": [
+       "Alaba",
+       "Zaniolo",
+       "Bayo",
+       "Abankwah",
+       "Gueye (do 5.01)"
+      ],
+      "away": [
+       "Gonçalo Ramos",
+       "Chukwueze",
+       "Saelemaekers (do 8.02)",
+       "Gabbia (do 13.01)",
+       "P. Terracciano"
+      ]
+     },
+     "suspensions": {
+      "home": [],
+      "away": []
+     },
+     "restDays": {
+      "home": 7,
+      "away": 3
+     },
+     "homeAway": "Udinese u siebie 0-1-3; Milan na wyjeździe 1-3-0.",
+     "stakes": "Udinese 5 porażek z rzędu; Milan bez porażki w lidze, ale w czwartek 0:3 w Bournemouth w LE (czerwona kartka Maignana). 8 ostatnich meczów H2H bez remisu."
+    },
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Milan po 0:3 i podróży z Anglii, 3 dni odpoczynku, braki w ataku (Ramos, Chukwueze)",
+      "Udinese w fatalnej serii – sprzeczne sygnały",
+      "Brak rynku z przewagą"
+     ]
+    },
+    "venue": {
+     "name": "Bluenergy Stadium",
+     "city": "Udine",
+     "capacity": 25132
+    },
+    "staff": {
+     "home": [
+      [
+       "Trener",
+       "Kosta Runjaić"
+      ]
+     ],
+     "away": [
+      [
+       "Trener",
+       "Rúben Amorim"
+      ]
+     ]
+    }
+   }
+  ],
+  "9": [
+   {
+    "id": "SA-2026-27-R9-SAS-LAZ",
+    "date": "2026-10-27",
+    "time": "18:30",
+    "home": "SAS",
+    "away": "LAZ",
+    "status": "ns",
+    "odds": {
+     "src": "Oddsportal (kursy 1X2 ze strony ligi, stan na 23.10.2026 rano)",
+     "1": 2.85,
+     "X": 3.4,
+     "2": 2.45
+    },
+    "venue": {
+     "name": "Mapei Stadium – Città del Tricolore",
+     "city": "Sassuolo",
+     "capacity": 21515
+    },
+    "staff": {
+     "home": [
+      [
+       "Trener",
+       "Alberto Aquilani"
+      ]
+     ],
+     "away": [
+      [
+       "Trener",
+       "Gennaro Gattuso"
+      ]
+     ]
+    }
+   },
+   {
+    "id": "SA-2026-27-R9-ROM-CAG",
+    "date": "2026-10-27",
+    "time": "20:45",
+    "home": "ROM",
+    "away": "CAG",
+    "status": "ns",
+    "odds": {
+     "src": "Oddsportal (kursy 1X2 ze strony ligi, stan na 23.10.2026 rano)",
+     "1": 1.36,
+     "X": 5.0,
+     "2": 9.0
+    },
+    "venue": {
+     "name": "Stadio Olimpico",
+     "city": "Rzym",
+     "capacity": 70634
+    },
+    "staff": {
+     "home": [
+      [
+       "Trener",
+       "Gian Piero Gasperini"
+      ]
+     ],
+     "away": [
+      [
+       "Trener",
+       "Fabio Pisacane"
+      ]
+     ]
+    }
+   },
+   {
+    "id": "SA-2026-27-R9-TOR-COM",
+    "date": "2026-10-27",
+    "time": "20:45",
+    "home": "TOR",
+    "away": "COM",
+    "status": "ns",
+    "odds": {
+     "src": "Oddsportal (kursy 1X2 ze strony ligi, stan na 23.10.2026 rano)",
+     "1": 4.5,
+     "X": 3.6,
+     "2": 1.76
+    },
+    "venue": {
+     "name": "Stadio Olimpico Grande Torino",
+     "city": "Turyn",
+     "capacity": 28177
+    },
+    "staff": {
+     "home": [
+      [
+       "Trener",
+       "Ignazio Abate"
+      ]
+     ],
+     "away": [
+      [
+       "Trener",
+       "Cesc Fàbregas"
+      ]
+     ]
+    }
+   },
+   {
+    "id": "SA-2026-27-R9-MIL-BOL",
+    "date": "2026-10-28",
+    "time": "18:30",
+    "home": "MIL",
+    "away": "BOL",
+    "status": "ns",
+    "odds": {
+     "src": "Oddsportal (kursy 1X2 ze strony ligi, stan na 23.10.2026 rano)",
+     "1": 1.6,
+     "X": 4.1,
+     "2": 5.5
+    },
+    "venue": {
+     "name": "San Siro",
+     "city": "Mediolan",
+     "capacity": 75710
+    },
+    "staff": {
+     "home": [
+      [
+       "Trener",
+       "Rúben Amorim"
+      ]
+     ],
+     "away": [
+      [
+       "Trener",
+       "Raffaele Palladino"
+      ]
+     ]
+    }
+   },
+   {
+    "id": "SA-2026-27-R9-PAR-UDI",
+    "date": "2026-10-28",
+    "time": "18:30",
+    "home": "PAR",
+    "away": "UDI",
+    "status": "ns",
+    "odds": {
+     "src": "Oddsportal (kursy 1X2 ze strony ligi, stan na 23.10.2026 rano)",
+     "1": 3.0,
+     "X": 3.2,
+     "2": 2.4
+    },
+    "venue": {
+     "name": "Stadio Ennio Tardini",
+     "city": "Parma",
+     "capacity": 22352
+    },
+    "staff": {
+     "home": [
+      [
+       "Trener",
+       "Alberto Gilardino"
+      ]
+     ],
+     "away": [
+      [
+       "Trener",
+       "Kosta Runjaić"
+      ]
+     ]
+    }
+   },
+   {
+    "id": "SA-2026-27-R9-VEN-INT",
+    "date": "2026-10-28",
+    "time": "18:30",
+    "home": "VEN",
+    "away": "INT",
+    "status": "ns",
+    "odds": {
+     "src": "Oddsportal (kursy 1X2 ze strony ligi, stan na 23.10.2026 rano)",
+     "1": 8.5,
+     "X": 5.75,
+     "2": 1.33
+    },
+    "venue": {
+     "name": "Stadio Pier Luigi Penzo",
+     "city": "Wenecja",
+     "capacity": 12048
+    },
+    "staff": {
+     "home": [
+      [
+       "Trener",
+       "Giovanni Stroppa"
+      ]
+     ],
+     "away": [
+      [
+       "Trener",
+       "Cristian Chivu"
+      ]
+     ]
+    }
+   },
+   {
+    "id": "SA-2026-27-R9-GEN-JUV",
+    "date": "2026-10-28",
+    "time": "20:45",
+    "home": "GEN",
+    "away": "JUV",
+    "status": "ns",
+    "odds": {
+     "src": "Oddsportal (kursy 1X2 ze strony ligi, stan na 23.10.2026 rano)",
+     "1": 5.5,
+     "X": 3.8,
+     "2": 1.66
+    },
+    "venue": {
+     "name": "Stadio Luigi Ferraris",
+     "city": "Genua",
+     "capacity": 33205
+    },
+    "staff": {
+     "home": [
+      [
+       "Trener",
+       "Daniele De Rossi"
+      ]
+     ],
+     "away": [
+      [
+       "Trener",
+       "Luciano Spalletti"
+      ]
+     ]
+    }
+   },
+   {
+    "id": "SA-2026-27-R9-MON-NAP",
+    "date": "2026-10-28",
+    "time": "20:45",
+    "home": "MON",
+    "away": "NAP",
+    "status": "ns",
+    "odds": {
+     "src": "Oddsportal (kursy 1X2 ze strony ligi, stan na 23.10.2026 rano)",
+     "1": 4.0,
+     "X": 3.8,
+     "2": 1.9
+    },
+    "venue": {
+     "name": "Stadio Brianteo",
+     "city": "Monza",
+     "capacity": 17102
+    },
+    "staff": {
+     "home": [
+      [
+       "Trener",
+       "Ivan Jurić"
+      ]
+     ],
+     "away": [
+      [
+       "Trener",
+       "Massimiliano Allegri"
+      ]
+     ]
+    }
+   },
+   {
+    "id": "SA-2026-27-R9-FRO-LEC",
+    "date": "2026-10-29",
+    "time": "18:30",
+    "home": "FRO",
+    "away": "LEC",
+    "status": "ns",
+    "odds": {
+     "src": "Oddsportal (kursy 1X2 ze strony ligi, stan na 23.10.2026 rano)",
+     "1": 1.93,
+     "X": 3.6,
+     "2": 3.8
+    },
+    "venue": {
+     "name": "Stadio Benito Stirpe",
+     "city": "Frosinone",
+     "capacity": 16227
+    },
+    "staff": {
+     "home": [
+      [
+       "Trener",
+       "Massimiliano Alvini"
+      ]
+     ],
+     "away": [
+      [
+       "Trener",
+       "Eusebio Di Francesco"
+      ]
+     ]
+    }
+   },
+   {
+    "id": "SA-2026-27-R9-FIO-ATA",
+    "date": "2026-10-29",
+    "time": "20:45",
+    "home": "FIO",
+    "away": "ATA",
+    "status": "ns",
+    "odds": {
+     "src": "Oddsportal (kursy 1X2 ze strony ligi, stan na 23.10.2026 rano)",
+     "1": 2.3,
+     "X": 3.5,
+     "2": 3.0
+    },
+    "venue": {
+     "name": "Stadio Artemio Franchi",
+     "city": "Florencja",
+     "capacity": 43118
+    },
+    "staff": {
+     "home": [
+      [
+       "Trener",
+       "Paolo Vanoli"
+      ]
+     ],
+     "away": [
+      [
+       "Trener",
+       "Maurizio Sarri"
+      ]
+     ]
+    }
+   }
+  ]
+ }
+}

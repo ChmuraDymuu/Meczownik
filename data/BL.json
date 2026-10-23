@@ -1,0 +1,1383 @@
+{
+ "updated": "2026-10-23T06:40:00+02:00",
+ "season": "2026/27",
+ "competition": "Bundesliga",
+ "currentRound": 7,
+ "note": "Źródła: bundesliga.com, DFB Datencenter, anstosszeiten.de, fussballdaten.de, fussballnationalmannschaft.net, Wikipedia, Wettbasis, Wincomparator, RG.org, Squawka, LiveScore, footballpredictions.com, Gainblers. Godziny w czasie polskim.",
+ "teams": {
+  "BAY": {
+   "id": "BAY",
+   "short": "BAY",
+   "name": "Bayern Monachium",
+   "city": "Monachium",
+   "col": "#9b0e1c",
+   "stadium": "Allianz Arena",
+   "capacity": 75000
+  },
+  "BVB": {
+   "id": "BVB",
+   "short": "BVB",
+   "name": "Borussia Dortmund",
+   "city": "Dortmund",
+   "col": "#1c1c1c",
+   "stadium": "Signal Iduna Park",
+   "capacity": 81365
+  },
+  "SCF": {
+   "id": "SCF",
+   "short": "SCF",
+   "name": "SC Freiburg",
+   "city": "Fryburg Bryzgowijski",
+   "col": "#8a1218",
+   "stadium": "Europa-Park Stadion",
+   "capacity": 34700
+  },
+  "LEV": {
+   "id": "LEV",
+   "short": "LEV",
+   "name": "Bayer Leverkusen",
+   "city": "Leverkusen",
+   "col": "#b0101e",
+   "stadium": "BayArena",
+   "capacity": 30210
+  },
+  "MAI": {
+   "id": "MAI",
+   "short": "MAI",
+   "name": "FSV Mainz 05",
+   "city": "Moguncja",
+   "col": "#a3121b",
+   "stadium": "MEWA Arena",
+   "capacity": 33305
+  },
+  "ELV": {
+   "id": "ELV",
+   "short": "ELV",
+   "name": "SV Elversberg",
+   "city": "Spiesen-Elversberg",
+   "col": "#1b2c5c",
+   "stadium": "Ursapharm-Arena an der Kaiserlinde",
+   "capacity": 10000
+  },
+  "RBL": {
+   "id": "RBL",
+   "short": "RBL",
+   "name": "RB Lipsk",
+   "city": "Lipsk",
+   "col": "#0c2043",
+   "stadium": "Red Bull Arena",
+   "capacity": 47800
+  },
+  "BRE": {
+   "id": "BRE",
+   "short": "BRE",
+   "name": "Werder Brema",
+   "city": "Brema",
+   "col": "#14532d",
+   "stadium": "Weserstadion",
+   "capacity": 42100
+  },
+  "HSV": {
+   "id": "HSV",
+   "short": "HSV",
+   "name": "Hamburger SV",
+   "city": "Hamburg",
+   "col": "#0a3a7a",
+   "stadium": "Volksparkstadion",
+   "capacity": 57000
+  },
+  "AUG": {
+   "id": "AUG",
+   "short": "AUG",
+   "name": "FC Augsburg",
+   "city": "Augsburg",
+   "col": "#8c1a22",
+   "stadium": "WWK Arena",
+   "capacity": 30660
+  },
+  "EIN": {
+   "id": "EIN",
+   "short": "EIN",
+   "name": "Eintracht Frankfurt",
+   "city": "Frankfurt nad Menem",
+   "col": "#2a2a2a",
+   "stadium": "Deutsche Bank Park",
+   "capacity": 59500
+  },
+  "KOE": {
+   "id": "KOE",
+   "short": "KOE",
+   "name": "1. FC Köln",
+   "city": "Kolonia",
+   "col": "#9f1022",
+   "stadium": "RheinEnergieStadion",
+   "capacity": 49698
+  },
+  "STU": {
+   "id": "STU",
+   "short": "STU",
+   "name": "VfB Stuttgart",
+   "city": "Stuttgart",
+   "col": "#a3121b",
+   "stadium": "MHPArena",
+   "capacity": 60058
+  },
+  "HOF": {
+   "id": "HOF",
+   "short": "HOF",
+   "name": "TSG Hoffenheim",
+   "city": "Sinsheim",
+   "col": "#1450a0",
+   "stadium": "PreZero Arena",
+   "capacity": 30150
+  },
+  "SCH": {
+   "id": "SCH",
+   "short": "SCH",
+   "name": "Schalke 04",
+   "city": "Gelsenkirchen",
+   "col": "#00428c",
+   "stadium": "Veltins-Arena",
+   "capacity": 62271
+  },
+  "PAD": {
+   "id": "PAD",
+   "short": "PAD",
+   "name": "SC Paderborn",
+   "city": "Paderborn",
+   "col": "#0b2c63",
+   "stadium": "Home Deluxe Arena",
+   "capacity": 15000
+  },
+  "UNI": {
+   "id": "UNI",
+   "short": "UNI",
+   "name": "Union Berlin",
+   "city": "Berlin",
+   "col": "#a50e1e",
+   "stadium": "Stadion An der Alten Försterei",
+   "capacity": 22012
+  },
+  "BMG": {
+   "id": "BMG",
+   "short": "BMG",
+   "name": "Borussia Mönchengladbach",
+   "city": "Mönchengladbach",
+   "col": "#14532d",
+   "stadium": "Borussia-Park",
+   "capacity": 54057
+  }
+ },
+ "table": [
+  {
+   "team": "BAY",
+   "p": 6,
+   "w": 4,
+   "d": 2,
+   "l": 0,
+   "gf": 22,
+   "ga": 5,
+   "pts": 14,
+   "form": "DWWDW"
+  },
+  {
+   "team": "BVB",
+   "p": 6,
+   "w": 4,
+   "d": 2,
+   "l": 0,
+   "gf": 11,
+   "ga": 4,
+   "pts": 14,
+   "form": "WWWDD"
+  },
+  {
+   "team": "SCF",
+   "p": 6,
+   "w": 4,
+   "d": 1,
+   "l": 1,
+   "gf": 15,
+   "ga": 6,
+   "pts": 13,
+   "form": "WWDWL"
+  },
+  {
+   "team": "LEV",
+   "p": 6,
+   "w": 4,
+   "d": 1,
+   "l": 1,
+   "gf": 16,
+   "ga": 9,
+   "pts": 13,
+   "form": "WDWWW"
+  },
+  {
+   "team": "MAI",
+   "p": 6,
+   "w": 3,
+   "d": 1,
+   "l": 2,
+   "gf": 14,
+   "ga": 10,
+   "pts": 10,
+   "form": "WLWLW"
+  },
+  {
+   "team": "ELV",
+   "p": 6,
+   "w": 3,
+   "d": 1,
+   "l": 2,
+   "gf": 12,
+   "ga": 11,
+   "pts": 10,
+   "form": "WLDLW"
+  },
+  {
+   "team": "RBL",
+   "p": 6,
+   "w": 3,
+   "d": 0,
+   "l": 3,
+   "gf": 16,
+   "ga": 11,
+   "pts": 9,
+   "form": "LWLWL"
+  },
+  {
+   "team": "BRE",
+   "p": 6,
+   "w": 2,
+   "d": 3,
+   "l": 1,
+   "gf": 12,
+   "ga": 12,
+   "pts": 9,
+   "form": "WDWDD"
+  },
+  {
+   "team": "HSV",
+   "p": 6,
+   "w": 3,
+   "d": 0,
+   "l": 3,
+   "gf": 6,
+   "ga": 15,
+   "pts": 9,
+   "form": "LLWWW"
+  },
+  {
+   "team": "AUG",
+   "p": 6,
+   "w": 2,
+   "d": 2,
+   "l": 2,
+   "gf": 16,
+   "ga": 12,
+   "pts": 8,
+   "form": "WDLDL"
+  },
+  {
+   "team": "EIN",
+   "p": 6,
+   "w": 2,
+   "d": 2,
+   "l": 2,
+   "gf": 10,
+   "ga": 16,
+   "pts": 8,
+   "form": "LWDLW"
+  },
+  {
+   "team": "KOE",
+   "p": 6,
+   "w": 2,
+   "d": 1,
+   "l": 3,
+   "gf": 8,
+   "ga": 11,
+   "pts": 7
+  },
+  {
+   "team": "STU",
+   "p": 6,
+   "w": 2,
+   "d": 0,
+   "l": 4,
+   "gf": 8,
+   "ga": 10,
+   "pts": 6
+  },
+  {
+   "team": "HOF",
+   "p": 6,
+   "w": 2,
+   "d": 0,
+   "l": 4,
+   "gf": 11,
+   "ga": 14,
+   "pts": 6
+  },
+  {
+   "team": "SCH",
+   "p": 6,
+   "w": 1,
+   "d": 2,
+   "l": 3,
+   "gf": 4,
+   "ga": 7,
+   "pts": 5
+  },
+  {
+   "team": "PAD",
+   "p": 6,
+   "w": 1,
+   "d": 2,
+   "l": 3,
+   "gf": 5,
+   "ga": 9,
+   "pts": 5,
+   "form": "LLWLD"
+  },
+  {
+   "team": "UNI",
+   "p": 6,
+   "w": 1,
+   "d": 2,
+   "l": 3,
+   "gf": 5,
+   "ga": 17,
+   "pts": 5,
+   "form": "LLLWD"
+  },
+  {
+   "team": "BMG",
+   "p": 6,
+   "w": 0,
+   "d": 0,
+   "l": 6,
+   "gf": 8,
+   "ga": 20,
+   "pts": 0,
+   "form": "LLLLL"
+  }
+ ],
+ "picks": [],
+ "rounds": {
+  "6": [
+   {
+    "id": "BL-2026-27-R6-EIN-KOE",
+    "date": "2026-10-16",
+    "time": "20:30",
+    "home": "EIN",
+    "away": "KOE",
+    "status": "ft",
+    "venue": {
+     "name": "Deutsche Bank Park",
+     "city": "Frankfurt nad Menem",
+     "capacity": 59500
+    },
+    "score": [
+     1,
+     0
+    ],
+    "events": [
+     {
+      "m": 77,
+      "t": "goal",
+      "s_": "h",
+      "who": "Younes Ebnoutalib",
+      "as": "Noël Aséko"
+     }
+    ],
+    "notes": "Jedyny gol w 77. min (Ebnoutalib, asysta Aséko)."
+   },
+   {
+    "id": "BL-2026-27-R6-UNI-BVB",
+    "date": "2026-10-17",
+    "time": "15:30",
+    "home": "UNI",
+    "away": "BVB",
+    "status": "ft",
+    "venue": {
+     "name": "Stadion An der Alten Försterei",
+     "city": "Berlin",
+     "capacity": 22012
+    },
+    "score": [
+     0,
+     0
+    ],
+    "events": [],
+    "notes": "Bezbramkowy remis; według relacji sześć żółtych kartek (bez nazwisk w źródle)."
+   },
+   {
+    "id": "BL-2026-27-R6-HSV-STU",
+    "date": "2026-10-17",
+    "time": "15:30",
+    "home": "HSV",
+    "away": "STU",
+    "status": "ft",
+    "venue": {
+     "name": "Volksparkstadion",
+     "city": "Hamburg",
+     "capacity": 57000
+    },
+    "score": [
+     1,
+     0
+    ],
+    "events": [
+     {
+      "m": 88,
+      "t": "goal",
+      "s_": "h",
+      "who": "Miro Muheim"
+     }
+    ],
+    "notes": "Zwycięski gol Muheima w 88. min; trzecie z rzędu zwycięstwo HSV."
+   },
+   {
+    "id": "BL-2026-27-R6-BRE-PAD",
+    "date": "2026-10-17",
+    "time": "15:30",
+    "home": "BRE",
+    "away": "PAD",
+    "status": "ft",
+    "venue": {
+     "name": "Weserstadion",
+     "city": "Brema",
+     "capacity": 42100
+    },
+    "score": [
+     2,
+     2
+    ],
+    "notes": "Paderborn prowadził 2:0 do przerwy (Stefano Marino, Steffen Tigges); dwa gole Niclasa Füllkruga w odstępie 7 minut dały Werderowi remis. Minuty bramek niedostępne w źródłach."
+   },
+   {
+    "id": "BL-2026-27-R6-SCH-MAI",
+    "date": "2026-10-17",
+    "time": "15:30",
+    "home": "SCH",
+    "away": "MAI",
+    "status": "ft",
+    "venue": {
+     "name": "Veltins-Arena",
+     "city": "Gelsenkirchen",
+     "capacity": 62271
+    },
+    "score": [
+     0,
+     1
+    ],
+    "events": [
+     {
+      "m": 24,
+      "t": "goal",
+      "s_": "a",
+      "who": "Phillip Tietz"
+     }
+    ]
+   },
+   {
+    "id": "BL-2026-27-R6-ELV-AUG",
+    "date": "2026-10-17",
+    "time": "15:30",
+    "home": "ELV",
+    "away": "AUG",
+    "status": "ft",
+    "venue": {
+     "name": "Ursapharm-Arena an der Kaiserlinde",
+     "city": "Spiesen-Elversberg",
+     "capacity": 10000
+    },
+    "score": [
+     4,
+     3
+    ],
+    "notes": "Elversberg prowadził 3:0 po 28 min (1:0 Lukas Petkov); Augsburg zdobył dwa gole z karnych, gol Raifa Adama anulowany za spalonego, na 4:2 trafił Frederik Schmahl. Pełna lista strzelców niedostępna."
+   },
+   {
+    "id": "BL-2026-27-R6-BAY-RBL",
+    "date": "2026-10-17",
+    "time": "18:30",
+    "home": "BAY",
+    "away": "RBL",
+    "status": "ft",
+    "venue": {
+     "name": "Allianz Arena",
+     "city": "Monachium",
+     "capacity": 75000
+    },
+    "score": [
+     6,
+     1
+    ],
+    "attendance": 75000,
+    "officials": [
+     {
+      "r": "GŁ",
+      "role": "Sędzia główny",
+      "name": "Tobias Stieler",
+      "nat": "GER"
+     },
+     {
+      "r": "AS1",
+      "role": "Asystent 1",
+      "name": "Lasse Koslowski"
+     },
+     {
+      "r": "AS2",
+      "role": "Asystent 2",
+      "name": "Marcel Unger"
+     },
+     {
+      "r": "4.",
+      "role": "Sędzia techniczny",
+      "name": "Martin Petersen"
+     },
+     {
+      "r": "VAR",
+      "role": "Sędzia VAR",
+      "name": "Matthias Jöllenbeck"
+     },
+     {
+      "r": "AVAR",
+      "role": "Asystent VAR",
+      "name": "Markus Häcker"
+     }
+    ],
+    "staff": {
+     "home": [
+      [
+       "Trener",
+       "Vincent Kompany"
+      ]
+     ],
+     "away": [
+      [
+       "Trener",
+       "Martin Demichelis"
+      ]
+     ]
+    },
+    "formation": {
+     "home": "4-2-3-1",
+     "away": "4-3-3"
+    },
+    "events": [
+     {
+      "m": 12,
+      "t": "goal",
+      "s_": "h",
+      "who": "Luis Díaz"
+     },
+     {
+      "m": 26,
+      "t": "goal",
+      "s_": "h",
+      "who": "Aleksandar Pavlović"
+     },
+     {
+      "m": 34,
+      "t": "goal",
+      "s_": "h",
+      "who": "Michael Olise"
+     },
+     {
+      "m": 47,
+      "t": "goal",
+      "s_": "h",
+      "who": "Luis Díaz"
+     },
+     {
+      "m": 53,
+      "t": "goal",
+      "s_": "h",
+      "who": "Harry Kane"
+     },
+     {
+      "m": 46,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Nicolas Seiwald",
+      "out": "Ezechiel Banzuzi"
+     },
+     {
+      "m": 46,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Tidiam Gomis",
+      "out": "Christopher Nkunku"
+     },
+     {
+      "m": 59,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Tom Bischof",
+      "out": "Aleksandar Pavlović"
+     },
+     {
+      "m": 59,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Lennart Karl",
+      "out": "Harry Kane"
+     },
+     {
+      "m": 59,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Josip Stanišić",
+      "out": "Konrad Laimer"
+     },
+     {
+      "m": 59,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Serge Gnabry",
+      "out": "Ismael Saibari"
+     },
+     {
+      "m": 59,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Benjamin Henrichs",
+      "out": "Lukas Klostermann"
+     },
+     {
+      "m": 60,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Rômulo da Cruz",
+      "out": "Antonio Nusa"
+     },
+     {
+      "m": 69,
+      "t": "goal",
+      "s_": "h",
+      "who": "Luis Díaz"
+     },
+     {
+      "m": 71,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Andrija Maksimović",
+      "out": "Rocco Reitz"
+     },
+     {
+      "m": 77,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Sacha Boey",
+      "out": "Min-Jae Kim"
+     },
+     {
+      "m": 90,
+      "s": "+1",
+      "t": "goal",
+      "s_": "a",
+      "who": "Andrija Maksimović"
+     }
+    ],
+    "notes": "Hat-trick Luisa Díaza. Wyjściowe XI Bayernu: Urbig – Laimer, Upamecano, Kim, Brown – Kimmich, Pavlović – Olise, Saibari, Díaz – Kane (nazwiska wg DFB, pozycje nie podane w źródle)."
+   },
+   {
+    "id": "BL-2026-27-R6-LEV-SCF",
+    "date": "2026-10-18",
+    "time": "15:30",
+    "home": "LEV",
+    "away": "SCF",
+    "status": "ft",
+    "venue": {
+     "name": "BayArena",
+     "city": "Leverkusen",
+     "capacity": 30210
+    },
+    "score": [
+     2,
+     1
+    ],
+    "notes": "Freiburg prowadził po wczesnym golu Derry'ego Scherhanta; wyrównał Ibrahim Maza (asysta Patrik Schick), zwycięskiego gola w 76. min strzelił Schick (podanie Mazy). Pierwsza porażka Freiburga w sezonie."
+   },
+   {
+    "id": "BL-2026-27-R6-BMG-HOF",
+    "date": "2026-10-18",
+    "time": "17:30",
+    "home": "BMG",
+    "away": "HOF",
+    "status": "ft",
+    "venue": {
+     "name": "Borussia-Park",
+     "city": "Mönchengladbach",
+     "capacity": 54057
+    },
+    "score": [
+     1,
+     2
+    ],
+    "attendance": 43712,
+    "officials": [
+     {
+      "r": "GŁ",
+      "role": "Sędzia główny",
+      "name": "Sören Storks",
+      "nat": "GER"
+     },
+     {
+      "r": "AS1",
+      "role": "Asystent 1",
+      "name": "Thorben Siewer"
+     },
+     {
+      "r": "AS2",
+      "role": "Asystent 2",
+      "name": "Christian Bandurski"
+     },
+     {
+      "r": "4.",
+      "role": "Sędzia techniczny",
+      "name": "Timo Gansloweit"
+     },
+     {
+      "r": "VAR",
+      "role": "Sędzia VAR",
+      "name": "Johann Pfeifer"
+     },
+     {
+      "r": "AVAR",
+      "role": "Asystent VAR",
+      "name": "Frederick Assmuth"
+     }
+    ],
+    "staff": {
+     "home": [
+      [
+       "Trener",
+       "Alexander Blessin"
+      ]
+     ],
+     "away": [
+      [
+       "Trener",
+       "Christian Ilzer"
+      ]
+     ]
+    },
+    "formation": {
+     "home": "3-4-3",
+     "away": "4-4-2"
+    },
+    "events": [
+     {
+      "m": 11,
+      "t": "goal",
+      "s_": "a",
+      "who": "Bambasé Conté"
+     },
+     {
+      "m": 49,
+      "t": "goal",
+      "s_": "h",
+      "who": "Wael Mohya"
+     },
+     {
+      "m": 51,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Shūto Machino",
+      "out": "Isac Lidberg"
+     },
+     {
+      "m": 54,
+      "t": "goal",
+      "s_": "a",
+      "who": "Alexander Prass"
+     },
+     {
+      "m": 60,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Daiki Hashioka",
+      "out": "Florian Neuhaus"
+     },
+     {
+      "m": 69,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Adam Daghim",
+      "out": "Fisnik Asllani"
+     },
+     {
+      "m": 78,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Robin Hack",
+      "out": "Hugo Bolin"
+     },
+     {
+      "m": 78,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Iaia Manco Danfa",
+      "out": "Fabio Chiarodia"
+     },
+     {
+      "m": 78,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Ozan Kabak",
+      "out": "Tim Lemperle"
+     },
+     {
+      "m": 78,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Andrej Kramarić",
+      "out": "Adam Hlozek"
+     },
+     {
+      "m": 79,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Mathieu Nguefack",
+      "out": "Zento Uno"
+     }
+    ],
+    "notes": "Szósta porażka Gladbach w szóstym meczu. Kartki: Kevin Diks (45'), Fisnik Asllani (45+1') – kolor nie podany w źródle."
+   }
+  ],
+  "7": [
+   {
+    "id": "BL-2026-27-R7-STU-BMG",
+    "date": "2026-10-23",
+    "time": "20:30",
+    "home": "STU",
+    "away": "BMG",
+    "status": "ns",
+    "venue": {
+     "name": "MHPArena",
+     "city": "Stuttgart",
+     "capacity": 60058
+    },
+    "odds": {
+     "src": "Wincomparator – średnia, stan na 21–22.10.2026",
+     "1": 1.38,
+     "X": 5.5,
+     "2": 6.79,
+     "1X": 1.11,
+     "X2": 3.03,
+     "12": 1.15,
+     "dnb1": 1.14,
+     "dnb2": 5.32,
+     "o25": 1.27,
+     "u25": 3.62,
+     "bttsY": 1.44,
+     "bttsN": 2.64
+    },
+    "info": {
+     "injuries": {
+      "home": [
+       "Josha Vagnoman (uraz uda)",
+       "Nikolas Nartey",
+       "Tiago Tomás",
+       "Justin Diehl",
+       "Dan-Axel Zagadou"
+      ],
+      "away": [
+       "Enzo Leopold (zerwane więzadło krzyżowe)"
+      ]
+     },
+     "restDays": {
+      "home": 3,
+      "away": 5
+     },
+     "homeAway": "Stuttgart 2-0-4 w lidze (porażka 0:1 w Hamburgu), ale w LM 7 pkt po 3 meczach; Gladbach 0-0-6, pod wodzą Blessina dwie porażki jednym golem.",
+     "stakes": "Mecz kryzysowy: Stuttgart 13., Gladbach ostatni bez punktu – grozi mu rekordowe 0/7 na starcie.",
+     "h2h": [
+      "2026-01-25 BMG 0:3 STU"
+     ]
+    },
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Kurs 1,38–1,43 na Stuttgart wycenia ok. 71% – szacuję ok. 66–68% (Stuttgart po meczu LM z Atlético we wtorek, 4 porażki w 6 meczach ligi).",
+      "Over 2,5 po 1,27 i BTTS 1,44 – kursy zbyt niskie wobec niepewności.",
+      "Gladbach przegrywa, ale pod Blessinem tylko jednym golem – brak przewagi także na handicapie gości."
+     ]
+    }
+   },
+   {
+    "id": "BL-2026-27-R7-RBL-ELV",
+    "date": "2026-10-24",
+    "time": "15:30",
+    "home": "RBL",
+    "away": "ELV",
+    "status": "ns",
+    "venue": {
+     "name": "Red Bull Arena",
+     "city": "Lipsk",
+     "capacity": 47800
+    },
+    "odds": {
+     "src": "bet365 (Squawka), stan na 22.10.2026",
+     "1": 1.44,
+     "o25": 1.29,
+     "bttsY": 1.4
+    },
+    "info": {
+     "injuries": {
+      "home": [],
+      "away": [
+       "Cole Campbell (kostka)",
+       "Francis Onyeka (stopa)",
+       "Luis Seifert (kostka)",
+       "Felix Keidel (łydka, niepewny)",
+       "Noah Darvich (ścięgno, niepewny)",
+       "Tom Zimmerschied (kostka, niepewny)"
+      ]
+     },
+     "homeAway": "Lipsk 3/3 u siebie, bilans 14:0; Elversberg nie przegrał jeszcze wyżej niż jednym golem.",
+     "stakes": "Lipsk (7.) po 1:6 w Monachium i 1:4 w Madrycie (LM) chce przełamania; beniaminek Elversberg (6.) z 10 pkt.",
+     "h2h": [
+      "Brak meczów ligowych – pierwszy pojedynek"
+     ]
+    },
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Kurs 1,44 (≈69%) zgodny z moją oceną ok. 68–70% – brak wartości.",
+      "Lipsk po środowym meczu LM w Madrycie – możliwa rotacja.",
+      "Over 2,5 (1,29) i BTTS (1,40) zbyt nisko wycenione na value."
+     ]
+    }
+   },
+   {
+    "id": "BL-2026-27-R7-AUG-UNI",
+    "date": "2026-10-24",
+    "time": "15:30",
+    "home": "AUG",
+    "away": "UNI",
+    "status": "ns",
+    "venue": {
+     "name": "WWK Arena",
+     "city": "Augsburg",
+     "capacity": 30660
+    },
+    "odds": {
+     "src": "Wincomparator – średnia 4 bukmacherów, stan na 21–22.10.2026",
+     "1": 1.82,
+     "X": 3.93,
+     "2": 3.76,
+     "1X": 1.24,
+     "X2": 2.0,
+     "12": 1.24,
+     "dnb1": 1.37,
+     "dnb2": 2.97,
+     "o25": 1.48,
+     "u25": 2.56,
+     "bttsY": 1.46,
+     "bttsN": 2.56
+    },
+    "info": {
+     "homeAway": "Wszystkie 6 meczów Augsburga z min. 3 golami; Union strzela poniżej 1 gola na mecz.",
+     "stakes": "Union (17.) dwa mecze bez porażki; Augsburg (10.) traci min. 2 gole od 4 kolejek.",
+     "h2h": [
+      "2026-05-16 UNI 4:0 AUG",
+      "2026-01-15 AUG 1:1 UNI",
+      "2025-05-17 AUG 1:2 UNI",
+      "2025-01-15 UNI 0:2 AUG"
+     ]
+    },
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Over 2,5 po ~1,48 (≈68%) – model Poissona daje ok. 58–62% przy słabym ataku Unionu.",
+      "Augsburg 1,82 (≈55%) – szacuję ok. 50–52%, EV ujemne.",
+      "Lista absencji w źródle bez przypisania do drużyn – zbyt duża niepewność."
+     ]
+    }
+   },
+   {
+    "id": "BL-2026-27-R7-MAI-BRE",
+    "date": "2026-10-24",
+    "time": "15:30",
+    "home": "MAI",
+    "away": "BRE",
+    "status": "ns",
+    "venue": {
+     "name": "MEWA Arena",
+     "city": "Moguncja",
+     "capacity": 33305
+    },
+    "odds": {
+     "src": "Wincomparator – średnia, stan na 21–22.10.2026",
+     "1": 1.74,
+     "X": 4.1,
+     "2": 4.25,
+     "1X": 1.22,
+     "X2": 2.07,
+     "12": 1.23,
+     "dnb1": 1.32,
+     "dnb2": 3.21,
+     "o25": 1.53,
+     "u25": 2.43,
+     "bttsY": 1.52,
+     "bttsN": 2.4
+    },
+    "info": {
+     "homeAway": "Mainz bez wygranej u siebie (0:0 PAD, 1:3 EIN, 3:4 LEV), niepokonany na wyjazdach; Werder bez porażki od 5 kolejek.",
+     "stakes": "5. Mainz vs 8. Werder – walka o górną połowę.",
+     "h2h": [
+      "2026-03-15 BRE 0:2 MAI",
+      "2025-11-01 MAI 1:1 BRE",
+      "2025-01-31 BRE 1:0 MAI",
+      "2024-09-15 MAI 1:2 BRE"
+     ]
+    },
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Rynek (Mainz ≈55%) i modele (BETSiE 55%, Wincomparator 38%) mocno się rozjeżdżają – brak stabilnej oceny.",
+      "Value na X2 opierałoby się głównie na serii Werderu i H2H – regulamin tego zabrania.",
+      "Absencje podane bez przypisania do drużyn."
+     ]
+    }
+   },
+   {
+    "id": "BL-2026-27-R7-KOE-SCH",
+    "date": "2026-10-24",
+    "time": "15:30",
+    "home": "KOE",
+    "away": "SCH",
+    "status": "ns",
+    "venue": {
+     "name": "RheinEnergieStadion",
+     "city": "Kolonia",
+     "capacity": 49698
+    },
+    "odds": {
+     "src": "DAZN Bet/Winamax (Wettbasis) + footballpredictions.com, stan na 21–22.10.2026",
+     "1": 2.05,
+     "1X": 1.33,
+     "dnb1": 1.53,
+     "o25": 1.61,
+     "bttsY": 1.53
+    },
+    "info": {
+     "injuries": {
+      "home": [
+       "Jole Schmied (uraz z meczu w Frankfurcie)"
+      ],
+      "away": [
+       "Edin Džeko (rozcięta głowa, niepewny)"
+      ]
+     },
+     "homeAway": "Köln u siebie niepokonany (3:2 HOF, 1:1 BRE, 2:1 BMG), na wyjazdach 3 porażki; Schalke 4 gole w 6 meczach, 4 mecze bez gola.",
+     "stakes": "12. Köln vs 15. Schalke – Schalke przegrało dwa ostatnie mecze.",
+     "h2h": [
+      "2025-02-09 KOE 1:0 SCH (2. Bundesliga)"
+     ]
+    },
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Köln 2,05 (≈49%) – moja ocena ok. 49–51%, EV ok. 0–4%, poniżej progu.",
+      "DNB Köln 1,53: EV ≈ +2% – za mało przy niepewnym składzie Schalke (Džeko).",
+      "Brak pełnych kursów na under 2,5 – nie mogę ocenić rynku goli."
+     ]
+    }
+   },
+   {
+    "id": "BL-2026-27-R7-PAD-HSV",
+    "date": "2026-10-24",
+    "time": "15:30",
+    "home": "PAD",
+    "away": "HSV",
+    "status": "ns",
+    "venue": {
+     "name": "Home Deluxe Arena",
+     "city": "Paderborn",
+     "capacity": 15000
+    },
+    "odds": {
+     "src": "DraftKings (Gainblers) / Winamax (Wettbasis), stan na 21–22.10.2026",
+     "1": 2.2,
+     "X": 3.6,
+     "2": 2.9,
+     "X2": 1.66
+    },
+    "info": {
+     "homeAway": "HSV wygrał 3 ostatnie mecze ligowe (wszystkie jednym golem), ale ma bilans bramek 6:15; Paderborn 1 zwycięstwo w sezonie.",
+     "stakes": "16. Paderborn vs 9. HSV – bezpośredni rywale beniaminkowie/dół tabeli.",
+     "h2h": [
+      "2015-02-04 PAD 0:3 HSV",
+      "2014-08-30 HSV 0:3 PAD"
+     ]
+    },
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Wyrównany mecz – BETSiE 40/24/36, rynek podobnie; brak przewagi.",
+      "Seria HSV oparta na wąskich zwycięstwach przy xG/bilansie bramek słabym."
+     ]
+    }
+   },
+   {
+    "id": "BL-2026-27-R7-BVB-EIN",
+    "date": "2026-10-24",
+    "time": "18:30",
+    "home": "BVB",
+    "away": "EIN",
+    "status": "ns",
+    "venue": {
+     "name": "Signal Iduna Park",
+     "city": "Dortmund",
+     "capacity": 81365
+    },
+    "odds": {
+     "src": "Średnia 7 bukmacherów (RG.org), stan na 20–21.10.2026",
+     "1": 1.46,
+     "X": 5.1,
+     "2": 5.86,
+     "bttsY": 1.47,
+     "bttsN": 2.6
+    },
+    "info": {
+     "injuries": {
+      "home": [
+       "Emre Can",
+       "Giannis Konstantelias (więzadła krzyżowe)",
+       "Justin Lerma (uraz mięśniowy)"
+      ],
+      "away": []
+     },
+     "homeAway": "BVB niepokonany w lidze (11:4, xG 12,2 / xGA 6,03); w 5 z 6 meczów Eintrachtu padły min. 4 gole, xGA Frankfurtu 14,66.",
+     "stakes": "2. BVB (14 pkt) w pogoni za Bayernem; Eintracht 11. po 1:0 z Köln.",
+     "h2h": [
+      "2026-05 BVB 3:2 EIN"
+     ]
+    },
+    "notes": "Nico Schlotterbeck wrócił po kontuzji.",
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "BVB 1,46 (≈68%) – szacuję ok. 62–65%, EV ujemne.",
+      "Over 3,5 po 1,88: model (λ≈3,2) daje ok. 40% wobec 53% z kursu.",
+      "BTTS tak 1,47 (≈68%) – szacuję ok. 56%."
+     ]
+    }
+   },
+   {
+    "id": "BL-2026-27-R7-HOF-LEV",
+    "date": "2026-10-25",
+    "time": "15:30",
+    "home": "HOF",
+    "away": "LEV",
+    "status": "ns",
+    "venue": {
+     "name": "PreZero Arena",
+     "city": "Sinsheim",
+     "capacity": 30150
+    },
+    "odds": {
+     "src": "Wincomparator – średnia, stan na 21–22.10.2026",
+     "1": 2.7,
+     "X": 3.98,
+     "2": 2.3,
+     "1X": 1.6,
+     "X2": 1.45,
+     "12": 1.24,
+     "dnb1": 2.02,
+     "dnb2": 1.7,
+     "o25": 1.35,
+     "u25": 3.02,
+     "bttsY": 1.34,
+     "bttsN": 3.07
+    },
+    "info": {
+     "homeAway": "Leverkusen 3 wygrane z rzędu w lidze, w LE 4:0 w Poznaniu; Hoffenheim traci 2,33 gola/mecz, w LE 2:3 z Beşiktaşem.",
+     "stakes": "4. Leverkusen vs 14. Hoffenheim.",
+     "h2h": [
+      "2026-01-17 HOF 1:0 LEV",
+      "2025-08-23 LEV 1:2 HOF",
+      "2025-02-02 LEV 3:1 HOF",
+      "2024-09-14 HOF 1:4 LEV"
+     ]
+    },
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "DNB Leverkusen 1,70–1,80: model ok. 47/22/31 → EV ≈ +1…+4%, poniżej progu.",
+      "Over 2,5 po 1,35 (≈74%) – model ok. 64%.",
+      "Oba zespoły występują w Lidze Europy – ryzyko zmęczenia i rotacji."
+     ]
+    }
+   },
+   {
+    "id": "BL-2026-27-R7-SCF-BAY",
+    "date": "2026-10-25",
+    "time": "17:30",
+    "home": "SCF",
+    "away": "BAY",
+    "status": "ns",
+    "venue": {
+     "name": "Europa-Park Stadion",
+     "city": "Fryburg Bryzgowijski",
+     "capacity": 34700
+    },
+    "odds": {
+     "src": "Średnia 7 bukmacherów (RG.org), stan na 20–21.10.2026",
+     "1": 6.5,
+     "X": 5.66,
+     "2": 1.38,
+     "bttsY": 1.41,
+     "bttsN": 2.8
+    },
+    "info": {
+     "restDays": {
+      "home": 3,
+      "away": 4
+     },
+     "homeAway": "Freiburg 3/3 u siebie (11:2), Bayern na wyjazdach 1-2-0 i tylko 4 gole (remis na Schalke, 2:2 w Augsburgu).",
+     "stakes": "Hit kolejki: 3. Freiburg (13 pkt) vs lider Bayern (14 pkt).",
+     "h2h": [
+      "2026-04 SCF 2:3 BAY (Bayern odrobił 0:2)"
+     ]
+    },
+    "notes": "Bayern w środę 2:2 z Arsenalem (LM); Freiburg w czwartek przegrał w Monako (Liga Konferencji).",
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Handicap Freiburg +1,5 po 1,89–1,96: model Poissona daje ok. 57% wobec 51–53% z kursu (EV ≈ +8%), ale przewaga wynika głównie z modelu, który nie docenia skłonności Bayernu do wysokich zwycięstw (7:0, 6:1).",
+      "Freiburg grał w czwartek w Monako (porażka wg nagłówków) – krótszy odpoczynek niż Bayern (środa).",
+      "Freiburg przegrał dwa ostatnie mecze – forma nie potwierdza typu.",
+      "Zbyt duża niepewność → NO BET."
+     ]
+    }
+   }
+  ],
+  "8": [
+   {
+    "id": "BL-2026-27-R8-ELV-MAI",
+    "date": "2026-10-30",
+    "time": "20:30",
+    "home": "ELV",
+    "away": "MAI",
+    "status": "ns",
+    "venue": {
+     "name": "Ursapharm-Arena an der Kaiserlinde",
+     "city": "Spiesen-Elversberg",
+     "capacity": 10000
+    }
+   },
+   {
+    "id": "BL-2026-27-R8-LEV-STU",
+    "date": "2026-10-31",
+    "time": "15:30",
+    "home": "LEV",
+    "away": "STU",
+    "status": "ns",
+    "venue": {
+     "name": "BayArena",
+     "city": "Leverkusen",
+     "capacity": 30210
+    }
+   },
+   {
+    "id": "BL-2026-27-R8-AUG-SCF",
+    "date": "2026-10-31",
+    "time": "15:30",
+    "home": "AUG",
+    "away": "SCF",
+    "status": "ns",
+    "venue": {
+     "name": "WWK Arena",
+     "city": "Augsburg",
+     "capacity": 30660
+    }
+   },
+   {
+    "id": "BL-2026-27-R8-BMG-PAD",
+    "date": "2026-10-31",
+    "time": "15:30",
+    "home": "BMG",
+    "away": "PAD",
+    "status": "ns",
+    "venue": {
+     "name": "Borussia-Park",
+     "city": "Mönchengladbach",
+     "capacity": 54057
+    }
+   },
+   {
+    "id": "BL-2026-27-R8-BRE-HOF",
+    "date": "2026-10-31",
+    "time": "15:30",
+    "home": "BRE",
+    "away": "HOF",
+    "status": "ns",
+    "venue": {
+     "name": "Weserstadion",
+     "city": "Brema",
+     "capacity": 42100
+    }
+   },
+   {
+    "id": "BL-2026-27-R8-SCH-RBL",
+    "date": "2026-10-31",
+    "time": "15:30",
+    "home": "SCH",
+    "away": "RBL",
+    "status": "ns",
+    "venue": {
+     "name": "Veltins-Arena",
+     "city": "Gelsenkirchen",
+     "capacity": 62271
+    }
+   },
+   {
+    "id": "BL-2026-27-R8-BAY-BVB",
+    "date": "2026-10-31",
+    "time": "18:30",
+    "home": "BAY",
+    "away": "BVB",
+    "status": "ns",
+    "venue": {
+     "name": "Allianz Arena",
+     "city": "Monachium",
+     "capacity": 75000
+    }
+   },
+   {
+    "id": "BL-2026-27-R8-UNI-KOE",
+    "date": "2026-11-01",
+    "time": "15:30",
+    "home": "UNI",
+    "away": "KOE",
+    "status": "ns",
+    "venue": {
+     "name": "Stadion An der Alten Försterei",
+     "city": "Berlin",
+     "capacity": 22012
+    }
+   },
+   {
+    "id": "BL-2026-27-R8-EIN-HSV",
+    "date": "2026-11-01",
+    "time": "17:30",
+    "home": "EIN",
+    "away": "HSV",
+    "status": "ns",
+    "venue": {
+     "name": "Deutsche Bank Park",
+     "city": "Frankfurt nad Menem",
+     "capacity": 59500
+    }
+   }
+  ]
+ }
+}

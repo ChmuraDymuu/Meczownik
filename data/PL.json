@@ -1,0 +1,2140 @@
+{
+ "updated": "2026-10-23T05:40:00+02:00",
+ "season": "2026/27",
+ "competition": "Premier League",
+ "currentRound": 8,
+ "note": "Źródła: premierleague.com, soccergraph (obsada sędziowska 8. kolejki), Fantasy Football Scout (konferencje 21–22.10), Squawka, oddslot (BC.Game), footballpredictions.com, bets.co.za, Wikipedia, Sky Sports. Godziny w czasie polskim (od 25.10 CET).",
+ "teams": {
+  "ARS": {
+   "id": "ARS",
+   "short": "ARS",
+   "name": "Arsenal",
+   "city": "Londyn",
+   "col": "#9c0d18",
+   "stadium": "Emirates Stadium",
+   "capacity": 60704
+  },
+  "AVL": {
+   "id": "AVL",
+   "short": "AVL",
+   "name": "Aston Villa",
+   "city": "Birmingham",
+   "col": "#670e36",
+   "stadium": "Villa Park",
+   "capacity": 36887
+  },
+  "BOU": {
+   "id": "BOU",
+   "short": "BOU",
+   "name": "Bournemouth",
+   "city": "Bournemouth",
+   "col": "#8b1c1c",
+   "stadium": "Vitality Stadium (Dean Court)",
+   "capacity": 12357
+  },
+  "BRE": {
+   "id": "BRE",
+   "short": "BRE",
+   "name": "Brentford",
+   "city": "Londyn",
+   "col": "#a8141c",
+   "stadium": "Gtech Community Stadium",
+   "capacity": 17250
+  },
+  "BHA": {
+   "id": "BHA",
+   "short": "BHA",
+   "name": "Brighton & Hove Albion",
+   "city": "Brighton",
+   "col": "#0a4595",
+   "stadium": "Amex Stadium (Falmer)",
+   "capacity": 32176
+  },
+  "CHE": {
+   "id": "CHE",
+   "short": "CHE",
+   "name": "Chelsea",
+   "city": "Londyn",
+   "col": "#034694",
+   "stadium": "Stamford Bridge",
+   "capacity": 40044
+  },
+  "COV": {
+   "id": "COV",
+   "short": "COV",
+   "name": "Coventry City",
+   "city": "Coventry",
+   "col": "#1a5c8e",
+   "stadium": "Coventry Building Society Arena",
+   "capacity": 32609
+  },
+  "CRY": {
+   "id": "CRY",
+   "short": "CRY",
+   "name": "Crystal Palace",
+   "city": "Londyn",
+   "col": "#1b458f",
+   "stadium": "Selhurst Park",
+   "capacity": 25194
+  },
+  "EVE": {
+   "id": "EVE",
+   "short": "EVE",
+   "name": "Everton",
+   "city": "Liverpool",
+   "col": "#003399",
+   "stadium": "Hill Dickinson Stadium",
+   "capacity": 52769
+  },
+  "FUL": {
+   "id": "FUL",
+   "short": "FUL",
+   "name": "Fulham",
+   "city": "Londyn",
+   "col": "#1a1a1a",
+   "stadium": "Craven Cottage",
+   "capacity": 28107
+  },
+  "HUL": {
+   "id": "HUL",
+   "short": "HUL",
+   "name": "Hull City",
+   "city": "Kingston upon Hull",
+   "col": "#b05f00",
+   "stadium": "MKM Stadium",
+   "capacity": 24983
+  },
+  "IPS": {
+   "id": "IPS",
+   "short": "IPS",
+   "name": "Ipswich Town",
+   "city": "Ipswich",
+   "col": "#0b3d91",
+   "stadium": "Portman Road",
+   "capacity": 30056
+  },
+  "LEE": {
+   "id": "LEE",
+   "short": "LEE",
+   "name": "Leeds United",
+   "city": "Leeds",
+   "col": "#1d428a",
+   "stadium": "Elland Road",
+   "capacity": 37633
+  },
+  "LIV": {
+   "id": "LIV",
+   "short": "LIV",
+   "name": "Liverpool",
+   "city": "Liverpool",
+   "col": "#a50f1f",
+   "stadium": "Anfield",
+   "capacity": 61276
+  },
+  "MCI": {
+   "id": "MCI",
+   "short": "MCI",
+   "name": "Manchester City",
+   "city": "Manchester",
+   "col": "#3a7ab8",
+   "stadium": "Etihad Stadium",
+   "capacity": 61038
+  },
+  "MUN": {
+   "id": "MUN",
+   "short": "MUN",
+   "name": "Manchester United",
+   "city": "Manchester",
+   "col": "#b0060f",
+   "stadium": "Old Trafford",
+   "capacity": 74158
+  },
+  "NEW": {
+   "id": "NEW",
+   "short": "NEW",
+   "name": "Newcastle United",
+   "city": "Newcastle upon Tyne",
+   "col": "#241f20",
+   "stadium": "St James' Park",
+   "capacity": 52729
+  },
+  "NFO": {
+   "id": "NFO",
+   "short": "NFO",
+   "name": "Nottingham Forest",
+   "city": "Nottingham",
+   "col": "#b80b1c",
+   "stadium": "City Ground",
+   "capacity": 31212
+  },
+  "SUN": {
+   "id": "SUN",
+   "short": "SUN",
+   "name": "Sunderland",
+   "city": "Sunderland",
+   "col": "#b8141b",
+   "stadium": "Stadium of Light",
+   "capacity": 48095
+  },
+  "TOT": {
+   "id": "TOT",
+   "short": "TOT",
+   "name": "Tottenham Hotspur",
+   "city": "Londyn",
+   "col": "#132257",
+   "stadium": "Tottenham Hotspur Stadium",
+   "capacity": 62850
+  }
+ },
+ "table": [
+  {
+   "team": "MCI",
+   "p": 7,
+   "w": 7,
+   "d": 0,
+   "l": 0,
+   "gf": 19,
+   "ga": 7,
+   "pts": 21,
+   "form": "WWWWW"
+  },
+  {
+   "team": "ARS",
+   "p": 7,
+   "w": 6,
+   "d": 0,
+   "l": 1,
+   "gf": 11,
+   "ga": 5,
+   "pts": 18,
+   "form": "WWLWW"
+  },
+  {
+   "team": "BHA",
+   "p": 7,
+   "w": 5,
+   "d": 1,
+   "l": 1,
+   "gf": 23,
+   "ga": 5,
+   "pts": 16,
+   "form": "DWWWW"
+  },
+  {
+   "team": "CHE",
+   "p": 7,
+   "w": 4,
+   "d": 1,
+   "l": 2,
+   "gf": 17,
+   "ga": 13,
+   "pts": 13,
+   "form": "LDLWW"
+  },
+  {
+   "team": "LIV",
+   "p": 7,
+   "w": 3,
+   "d": 3,
+   "l": 1,
+   "gf": 9,
+   "ga": 8,
+   "pts": 12,
+   "form": "WDWLW"
+  },
+  {
+   "team": "BRE",
+   "p": 7,
+   "w": 2,
+   "d": 4,
+   "l": 1,
+   "gf": 13,
+   "ga": 8,
+   "pts": 10,
+   "form": "DDWDL"
+  },
+  {
+   "team": "LEE",
+   "p": 7,
+   "w": 2,
+   "d": 4,
+   "l": 1,
+   "gf": 9,
+   "ga": 6,
+   "pts": 10,
+   "form": "DWDLD"
+  },
+  {
+   "team": "EVE",
+   "p": 7,
+   "w": 2,
+   "d": 4,
+   "l": 1,
+   "gf": 8,
+   "ga": 7,
+   "pts": 10,
+   "form": "DDWDL"
+  },
+  {
+   "team": "HUL",
+   "p": 7,
+   "w": 2,
+   "d": 3,
+   "l": 2,
+   "gf": 8,
+   "ga": 7,
+   "pts": 9,
+   "form": "DDLDL"
+  },
+  {
+   "team": "IPS",
+   "p": 7,
+   "w": 3,
+   "d": 0,
+   "l": 4,
+   "gf": 11,
+   "ga": 15,
+   "pts": 9,
+   "form": "LWLWL"
+  },
+  {
+   "team": "NEW",
+   "p": 7,
+   "w": 2,
+   "d": 2,
+   "l": 3,
+   "gf": 10,
+   "ga": 14,
+   "pts": 8,
+   "form": "DLWLL"
+  },
+  {
+   "team": "AVL",
+   "p": 7,
+   "w": 2,
+   "d": 2,
+   "l": 3,
+   "gf": 7,
+   "ga": 11,
+   "pts": 8,
+   "form": "DLWDW"
+  },
+  {
+   "team": "MUN",
+   "p": 7,
+   "w": 1,
+   "d": 4,
+   "l": 2,
+   "gf": 10,
+   "ga": 10,
+   "pts": 7,
+   "form": "DLDDD"
+  },
+  {
+   "team": "CRY",
+   "p": 7,
+   "w": 2,
+   "d": 1,
+   "l": 4,
+   "gf": 9,
+   "ga": 17,
+   "pts": 7,
+   "form": "WLDWL"
+  },
+  {
+   "team": "BOU",
+   "p": 7,
+   "w": 1,
+   "d": 3,
+   "l": 3,
+   "gf": 9,
+   "ga": 13,
+   "pts": 6,
+   "form": "DDLLW"
+  },
+  {
+   "team": "TOT",
+   "p": 7,
+   "w": 1,
+   "d": 3,
+   "l": 3,
+   "gf": 6,
+   "ga": 10,
+   "pts": 6,
+   "form": "DDLDW"
+  },
+  {
+   "team": "COV",
+   "p": 7,
+   "w": 2,
+   "d": 0,
+   "l": 5,
+   "gf": 6,
+   "ga": 14,
+   "pts": 6,
+   "form": "LLWWL"
+  },
+  {
+   "team": "FUL",
+   "p": 7,
+   "w": 1,
+   "d": 2,
+   "l": 4,
+   "gf": 7,
+   "ga": 10,
+   "pts": 5,
+   "form": "LDDLW"
+  },
+  {
+   "team": "NFO",
+   "p": 7,
+   "w": 1,
+   "d": 2,
+   "l": 4,
+   "gf": 5,
+   "ga": 9,
+   "pts": 5,
+   "form": "DWLLL"
+  },
+  {
+   "team": "SUN",
+   "p": 7,
+   "w": 1,
+   "d": 1,
+   "l": 5,
+   "gf": 6,
+   "ga": 14,
+   "pts": 4,
+   "form": "DLLLL"
+  }
+ ],
+ "picks": [
+  {
+   "match": "PL-2026-27-R8-ARS-EVE",
+   "rank": 1
+  }
+ ],
+ "rounds": {
+  "7": [
+   {
+    "id": "PL-2026-27-R7-EVE-CHE",
+    "date": "2026-10-17",
+    "time": "13:30",
+    "home": "EVE",
+    "away": "CHE",
+    "status": "ft",
+    "score": [
+     0,
+     2
+    ],
+    "venue": {
+     "name": "Hill Dickinson Stadium",
+     "city": "Liverpool",
+     "capacity": 52769
+    },
+    "staff": {
+     "home": [
+      [
+       "Trener",
+       "David Moyes"
+      ]
+     ],
+     "away": [
+      [
+       "Trener",
+       "Xabi Alonso"
+      ]
+     ]
+    }
+   },
+   {
+    "id": "PL-2026-27-R7-BRE-LIV",
+    "date": "2026-10-17",
+    "time": "16:00",
+    "home": "BRE",
+    "away": "LIV",
+    "status": "ft",
+    "score": [
+     1,
+     2
+    ],
+    "venue": {
+     "name": "Gtech Community Stadium",
+     "city": "Londyn",
+     "capacity": 17250
+    },
+    "staff": {
+     "home": [
+      [
+       "Trener",
+       "Keith Andrews"
+      ]
+     ],
+     "away": [
+      [
+       "Trener",
+       "Andoni Iraola"
+      ]
+     ]
+    }
+   },
+   {
+    "id": "PL-2026-27-R7-FUL-HUL",
+    "date": "2026-10-17",
+    "time": "16:00",
+    "home": "FUL",
+    "away": "HUL",
+    "status": "ft",
+    "score": [
+     1,
+     0
+    ],
+    "venue": {
+     "name": "Craven Cottage",
+     "city": "Londyn",
+     "capacity": 28107
+    },
+    "staff": {
+     "home": [
+      [
+       "Trener",
+       "Álvaro Arbeloa"
+      ]
+     ],
+     "away": [
+      [
+       "Trener",
+       "Sergej Jakirović"
+      ]
+     ]
+    }
+   },
+   {
+    "id": "PL-2026-27-R7-MCI-IPS",
+    "date": "2026-10-17",
+    "time": "16:00",
+    "home": "MCI",
+    "away": "IPS",
+    "status": "ft",
+    "score": [
+     3,
+     2
+    ],
+    "venue": {
+     "name": "Etihad Stadium",
+     "city": "Manchester",
+     "capacity": 61038
+    },
+    "staff": {
+     "home": [
+      [
+       "Trener",
+       "Enzo Maresca"
+      ]
+     ],
+     "away": [
+      [
+       "Trener",
+       "Gary O'Neil"
+      ]
+     ]
+    }
+   },
+   {
+    "id": "PL-2026-27-R7-NEW-AVL",
+    "date": "2026-10-17",
+    "time": "18:30",
+    "home": "NEW",
+    "away": "AVL",
+    "status": "ft",
+    "score": [
+     0,
+     1
+    ],
+    "venue": {
+     "name": "St James' Park",
+     "city": "Newcastle upon Tyne",
+     "capacity": 52729
+    },
+    "staff": {
+     "home": [
+      [
+       "Trener",
+       "Matthias Jaissle"
+      ]
+     ],
+     "away": [
+      [
+       "Trener",
+       "Unai Emery"
+      ]
+     ]
+    }
+   },
+   {
+    "id": "PL-2026-27-R7-BOU-SUN",
+    "date": "2026-10-18",
+    "time": "15:00",
+    "home": "BOU",
+    "away": "SUN",
+    "status": "ft",
+    "score": [
+     2,
+     0
+    ],
+    "venue": {
+     "name": "Vitality Stadium (Dean Court)",
+     "city": "Bournemouth",
+     "capacity": 12357
+    },
+    "staff": {
+     "home": [
+      [
+       "Trener",
+       "Marco Rose"
+      ]
+     ],
+     "away": [
+      [
+       "Trener",
+       "Régis Le Bris"
+      ]
+     ]
+    }
+   },
+   {
+    "id": "PL-2026-27-R7-BHA-CRY",
+    "date": "2026-10-18",
+    "time": "15:00",
+    "home": "BHA",
+    "away": "CRY",
+    "status": "ft",
+    "score": [
+     5,
+     0
+    ],
+    "venue": {
+     "name": "Amex Stadium (Falmer)",
+     "city": "Brighton",
+     "capacity": 32176
+    },
+    "staff": {
+     "home": [
+      [
+       "Trener",
+       "Fabian Hürzeler"
+      ]
+     ],
+     "away": [
+      [
+       "Trener",
+       "Pierre Sage"
+      ]
+     ]
+    }
+   },
+   {
+    "id": "PL-2026-27-R7-LEE-MUN",
+    "date": "2026-10-18",
+    "time": "15:00",
+    "home": "LEE",
+    "away": "MUN",
+    "status": "ft",
+    "score": [
+     1,
+     1
+    ],
+    "venue": {
+     "name": "Elland Road",
+     "city": "Leeds",
+     "capacity": 37633
+    },
+    "staff": {
+     "home": [
+      [
+       "Trener",
+       "Daniel Farke"
+      ]
+     ],
+     "away": [
+      [
+       "Trener",
+       "Michael Carrick"
+      ]
+     ]
+    }
+   },
+   {
+    "id": "PL-2026-27-R7-NFO-ARS",
+    "date": "2026-10-18",
+    "time": "17:30",
+    "home": "NFO",
+    "away": "ARS",
+    "status": "ft",
+    "score": [
+     0,
+     1
+    ],
+    "venue": {
+     "name": "City Ground",
+     "city": "Nottingham",
+     "capacity": 31212
+    },
+    "staff": {
+     "home": [
+      [
+       "Trener",
+       "Oliver Glasner"
+      ]
+     ],
+     "away": [
+      [
+       "Trener",
+       "Mikel Arteta"
+      ]
+     ]
+    }
+   },
+   {
+    "id": "PL-2026-27-R7-TOT-COV",
+    "date": "2026-10-19",
+    "time": "21:00",
+    "home": "TOT",
+    "away": "COV",
+    "status": "ft",
+    "score": [
+     3,
+     1
+    ],
+    "venue": {
+     "name": "Tottenham Hotspur Stadium",
+     "city": "Londyn",
+     "capacity": 62850
+    },
+    "staff": {
+     "home": [
+      [
+       "Trener",
+       "Roberto De Zerbi"
+      ]
+     ],
+     "away": [
+      [
+       "Trener",
+       "Frank Lampard"
+      ]
+     ]
+    },
+    "officials": [
+     {
+      "r": "GŁ",
+      "role": "Sędzia główny",
+      "name": "Andy Madley",
+      "nat": "ENG"
+     }
+    ],
+    "events": [
+     {
+      "m": 14,
+      "t": "goal",
+      "s_": "h",
+      "who": "James Maddison",
+      "as": "Mohammed Kudus"
+     },
+     {
+      "m": 19,
+      "t": "yc",
+      "s_": "a",
+      "who": "Caleb Yirenkyi"
+     },
+     {
+      "m": 18,
+      "t": "var",
+      "s_": "h",
+      "kind": "Bramka – spalony",
+      "init": "Gol (Dominic Solanke)",
+      "fin": "Gol anulowany"
+     },
+     {
+      "m": 22,
+      "t": "yc",
+      "s_": "h",
+      "who": "Dominic Solanke"
+     },
+     {
+      "m": 42,
+      "t": "yc",
+      "s_": "a",
+      "who": "Jay Dasilva"
+     },
+     {
+      "m": 49,
+      "t": "goal",
+      "s_": "a",
+      "who": "Jack Rudoni",
+      "as": "Brandon Thomas-Asante"
+     },
+     {
+      "m": 58,
+      "t": "goal",
+      "s_": "h",
+      "who": "Omar Marmoush",
+      "as": "Andy Robertson"
+     },
+     {
+      "m": 58,
+      "t": "var",
+      "s_": "h",
+      "kind": "Bramka – możliwy faul (łokieć)",
+      "init": "Gol",
+      "fin": "Gol uznany"
+     },
+     {
+      "m": 60,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Taiwo Awoniyi",
+      "out": "Sidiki Cherif"
+     },
+     {
+      "m": 60,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Frank Onyeka",
+      "out": "Caleb Yirenkyi"
+     },
+     {
+      "m": 64,
+      "t": "yc",
+      "s_": "a",
+      "who": "Jack Rudoni"
+     },
+     {
+      "m": 69,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Ben Davies",
+      "out": "Andy Robertson"
+     },
+     {
+      "m": 69,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Conor Gallagher",
+      "out": "James Maddison"
+     },
+     {
+      "m": 69,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Mateus Fernandes",
+      "out": "Tosin Adarabioyo"
+     },
+     {
+      "m": 78,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Ephron Mason-Clark",
+      "out": "Brandon Thomas-Asante"
+     },
+     {
+      "m": 78,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Gustavo Hamer",
+      "out": "Tatsuhiro Sakamoto"
+     },
+     {
+      "m": 87,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Dejan Kulusevski",
+      "out": "Mohammed Kudus"
+     },
+     {
+      "m": 87,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Mathys Tel",
+      "out": "Omar Marmoush"
+     },
+     {
+      "m": 87,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Kaine Kesler-Hayden",
+      "out": "Jack Rudoni"
+     },
+     {
+      "m": 90,
+      "s": "+6",
+      "t": "goal",
+      "s_": "h",
+      "who": "Ben Davies",
+      "as": "Dominic Solanke"
+     }
+    ],
+    "teamStats": [
+     [
+      "Posiadanie %",
+      65,
+      35
+     ],
+     [
+      "Strzały",
+      16,
+      12
+     ],
+     [
+      "Celne",
+      5,
+      1
+     ],
+     [
+      "Rzuty rożne",
+      4,
+      4
+     ],
+     [
+      "Faule",
+      15,
+      14
+     ],
+     [
+      "Spalone",
+      6,
+      1
+     ]
+    ],
+    "notes": "Pierwsze ligowe zwycięstwo Tottenhamu w sezonie. Dejan Kulusevski wrócił do gry po 526 dniach przerwy. Andy Robertson i Tosin Adarabioyo opuścili boisko z urazami. Składy wyjściowe — TOT: Kinský; Tosin, van Hecke, Van de Ven, Gray; Tonali, Maddison, Robertson; Kudus, Marmoush, Solanke. COV: Rushworth; van Ewijk, Thomas, Pinnock, Dasilva; Grimes, Yirenkyi, Rudoni; Sakamoto, Cherif, Thomas-Asante (numery i pozycje niepotwierdzone)."
+   }
+  ],
+  "8": [
+   {
+    "id": "PL-2026-27-R8-IPS-NFO",
+    "date": "2026-10-23",
+    "time": "21:00",
+    "home": "IPS",
+    "away": "NFO",
+    "status": "ns",
+    "venue": {
+     "name": "Portman Road",
+     "city": "Ipswich",
+     "capacity": 30056
+    },
+    "staff": {
+     "home": [
+      [
+       "Trener",
+       "Gary O'Neil"
+      ]
+     ],
+     "away": [
+      [
+       "Trener",
+       "Oliver Glasner"
+      ]
+     ]
+    },
+    "odds": {
+     "src": "bets.co.za – 1X2, stan na 20.10.2026",
+     "1": 2.65,
+     "X": 3.1,
+     "2": 2.3
+    },
+    "info": {
+     "injuries": {
+      "home": [
+       "Sasa Lukic (pachwina – powrót planowany na 9. kolejkę)"
+      ],
+      "away": [
+       "Igor Jesus (łydka)",
+       "Nicolò Savona (kolano)"
+      ]
+     },
+     "homeAway": "IPS u siebie 2W-0R-1P; NFO na wyjeździe 1W-1R-1P",
+     "stakes": "Forest (19.) po 3 porażkach z rzędu; Ipswich 10.",
+     "suspensions": {
+      "home": [
+       "Issahaku Fatawu (wg Squawka)"
+      ],
+      "away": []
+     }
+    },
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Forest ma najwyższe w lidze niedoszacowanie (xG 12,99 vs 5 goli, xPts 12,58 vs 5 pkt), ale 3 porażki z rzędu i słaba skuteczność.",
+      "Kurs 2,30–2,39 na Forest daje implikowane ~42–43%; moja ocena ~40% — EV ≈ 0 lub ujemne.",
+      "Ipswich u siebie wygrał 2 z 3 meczów; Brak kursów DNB/AH do porównania.",
+      "Forest z Gibbs-White'em i Milenkoviciem, ale bez Igora Jesusa; rynek (~44% na NFO) wycenia gości uczciwie — brak przewagi."
+     ]
+    },
+    "officials": [
+     {
+      "r": "GŁ",
+      "role": "Sędzia główny",
+      "name": "Tom Bramall",
+      "nat": "ENG"
+     },
+     {
+      "r": "AS1",
+      "role": "Asystent 1",
+      "name": "Tim Wood"
+     },
+     {
+      "r": "AS2",
+      "role": "Asystent 2",
+      "name": "Craig Taylor"
+     },
+     {
+      "r": "4.",
+      "role": "Sędzia techniczny",
+      "name": "Gavin Ward"
+     },
+     {
+      "r": "VAR",
+      "role": "Sędzia VAR",
+      "name": "Constantine Hatzidakis"
+     },
+     {
+      "r": "AVAR",
+      "role": "Asystent VAR",
+      "name": "James Mainwaring"
+     }
+    ],
+    "notes": "Glasner (21.10): Morgan Gibbs-White i Nikola Milenković gotowi do gry. Przewidywane składy (Squawka) — IPS 4-2-3-1: Walton; Davis, O'Shea, Diop, Ouattara; Florentino, Lukic*; Philogene, Enciso, Maeda; Emersonn. NFO 3-4-2-1: Sels; Murillo, Diomande, Aina; Williams, McAtee, Schlager, Muñoz; Ndoye, Gibbs-White; Delap. (*Lukic kontuzjowany wg O'Neila)"
+   },
+   {
+    "id": "PL-2026-27-R8-AVL-MCI",
+    "date": "2026-10-24",
+    "time": "13:30",
+    "home": "AVL",
+    "away": "MCI",
+    "status": "ns",
+    "venue": {
+     "name": "Villa Park",
+     "city": "Birmingham",
+     "capacity": 36887
+    },
+    "staff": {
+     "home": [
+      [
+       "Trener",
+       "Unai Emery"
+      ]
+     ],
+     "away": [
+      [
+       "Trener",
+       "Enzo Maresca"
+      ]
+     ]
+    },
+    "odds": {
+     "src": "bets.co.za – 1X2, stan na 20.10.2026",
+     "1": 3.9,
+     "X": 3.7,
+     "2": 1.68
+    },
+    "info": {
+     "injuries": {
+      "home": [
+       "Matteo Ruggeri (ścięgno udowe)"
+      ],
+      "away": [
+       "Antoine Semenyo (kolano, do poł. grudnia)",
+       "Matheus Nunes (niepewny – decyzja po czwartkowym treningu)",
+       "Mateo Kovačić (niepewny)",
+       "Nico O'Reilly (niepewny)"
+      ]
+     },
+     "homeAway": "AVL u siebie 0W-1R-2P; MCI na wyjeździe 3W-0R-0P",
+     "stakes": "Lider (7/7) vs 12. Aston Villa; City grało we wtorek w LM (5:1 z AEK).",
+     "h2h": []
+    },
+    "notes": "Erling Haaland wg trenera Enzo Maresci „w 100% dostępny” (konferencja 22.10).",
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "City 7/7 i najlepsze xGD w lidze, ale kurs 1,68–1,76 wycenia ~57–60% — zgodnie z moją oceną (~57%).",
+      "Mecz 3 dni po LM, wczesna godzina, kilku pomocników City niepewnych — ryzyko rotacji.",
+      "Brak rynku z dodatnią wartością."
+     ]
+    },
+    "officials": [
+     {
+      "r": "GŁ",
+      "role": "Sędzia główny",
+      "name": "Peter Bankes",
+      "nat": "ENG"
+     },
+     {
+      "r": "AS1",
+      "role": "Asystent 1",
+      "name": "Gary Beswick"
+     },
+     {
+      "r": "AS2",
+      "role": "Asystent 2",
+      "name": "Blake Antrobus"
+     },
+     {
+      "r": "4.",
+      "role": "Sędzia techniczny",
+      "name": "Tom Kirk"
+     },
+     {
+      "r": "VAR",
+      "role": "Sędzia VAR",
+      "name": "Paul Tierney"
+     },
+     {
+      "r": "AVAR",
+      "role": "Asystent VAR",
+      "name": "Nick Greenhalgh"
+     }
+    ]
+   },
+   {
+    "id": "PL-2026-27-R8-ARS-EVE",
+    "date": "2026-10-24",
+    "time": "16:00",
+    "home": "ARS",
+    "away": "EVE",
+    "status": "ns",
+    "venue": {
+     "name": "Emirates Stadium",
+     "city": "Londyn",
+     "capacity": 60704
+    },
+    "staff": {
+     "home": [
+      [
+       "Trener",
+       "Mikel Arteta"
+      ]
+     ],
+     "away": [
+      [
+       "Trener",
+       "David Moyes"
+      ]
+     ]
+    },
+    "odds": {
+     "src": "bets.co.za (1X2, 20.10); BC.Game via oddslot (podwójna szansa, BTTS, O2,5, 23.10); u25 – mightytips/footballpredictions (2,00)",
+     "1": 1.39,
+     "X": 4.33,
+     "2": 6.0,
+     "o25": 1.8,
+     "u25": 2.0,
+     "1X": 1.1,
+     "X2": 2.75,
+     "12": 1.18,
+     "bttsY": 2.07
+    },
+    "info": {
+     "injuries": {
+      "home": [
+       "Bukayo Saka (mięsień czworogłowy – uraz w 10. min z Bayernem; Arteta: „nie wygląda to dobrze”)",
+       "William Saliba (plecy)",
+       "Piero Hincapié (niepewny)",
+       "Christos Tzolis"
+      ],
+      "away": []
+     },
+     "restDays": {
+      "home": 3,
+      "away": 7
+     },
+     "homeAway": "ARS u siebie 3W-0R-0P; EVE na wyjeździe 0W-3R-0P",
+     "stakes": "Arsenal (2.) goni City (3 pkt straty); Everton 8.",
+     "h2h": [
+      "2026-03-14 ARS 2:0 EVE",
+      "2025-12-20 EVE 0:1 ARS",
+      "2025-04-05 EVE 1:1 ARS",
+      "2024-12-14 ARS 0:0 EVE"
+     ]
+    },
+    "tip": {
+     "decision": "BET",
+     "market": "Poniżej 2,5 gola",
+     "odds": 2.0,
+     "prob": 0.55,
+     "ev": 0.1,
+     "rating": 6,
+     "risk": "średnie",
+     "reasons": [
+      "Arsenal ma najlepszą obronę ligi: 5 straconych goli w 7 meczach i najniższe xGA (7,40).",
+      "Mecze Arsenalu w sezonie: średnio 2,29 gola; Evertonu 2,14 gola — 5 z 7 meczów Evertonu poniżej 2,5.",
+      "Everton strzelił tylko 8 goli (1,14/mecz) i na wyjazdach gra zachowawczo (0:0 z Tottenhamem, 1:1 z Bournemouth).",
+      "Arsenal 3 dni po 2:2 z Bayernem w LM, a Bukayo Saka (główne źródło kreacji i stałych fragmentów) najpewniej wypada z urazem uda.",
+      "Ostatnie 4 mecze H2H: 2:0, 0:1, 1:1, 0:0 — wszystkie poniżej 2,5.",
+      "Kurs 2,00 implikuje 50%, moja ocena ~55% (Poisson przy łącznym λ≈2,35–2,5)."
+     ],
+     "risks": [
+      "Brak Saliby osłabia obronę Arsenalu.",
+      "Everton ma solidne xG (11,72) — może trafić po stałym fragmencie.",
+      "Jedna wczesna bramka Arsenalu może otworzyć mecz.",
+      "Kursy O/U z dwóch porównań (22–23.10); Under 2,5 nadal 2,00."
+     ],
+     "value": "Kurs 2,00 (50%) vs moja ocena 55% → EV ≈ +10%. Rynek 1X2 bez wartości (Arsenal 1,39–1,50).",
+     "stake": "1% bankrollu"
+    },
+    "officials": [
+     {
+      "r": "GŁ",
+      "role": "Sędzia główny",
+      "name": "Tony Harrington",
+      "nat": "ENG"
+     },
+     {
+      "r": "AS1",
+      "role": "Asystent 1",
+      "name": "Adrian Holmes"
+     },
+     {
+      "r": "AS2",
+      "role": "Asystent 2",
+      "name": "Lee Betts"
+     },
+     {
+      "r": "4.",
+      "role": "Sędzia techniczny",
+      "name": "Ruebyn Ricardo"
+     },
+     {
+      "r": "VAR",
+      "role": "Sędzia VAR",
+      "name": "Stuart Attwell"
+     },
+     {
+      "r": "AVAR",
+      "role": "Asystent VAR",
+      "name": "Tom Nield"
+     }
+    ],
+    "notes": "Everton z pełną kadrą (Moyes). Arsenal w cyklu niedziela–środa–sobota; Madueke prawdopodobnie zastąpi Sakę."
+   },
+   {
+    "id": "PL-2026-27-R8-COV-FUL",
+    "date": "2026-10-24",
+    "time": "16:00",
+    "home": "COV",
+    "away": "FUL",
+    "status": "ns",
+    "venue": {
+     "name": "Coventry Building Society Arena",
+     "city": "Coventry",
+     "capacity": 32609
+    },
+    "staff": {
+     "home": [
+      [
+       "Trener",
+       "Frank Lampard"
+      ]
+     ],
+     "away": [
+      [
+       "Trener",
+       "Álvaro Arbeloa"
+      ]
+     ]
+    },
+    "odds": {
+     "src": "bets.co.za – 1X2, stan na 20.10.2026",
+     "1": 2.85,
+     "X": 3.3,
+     "2": 2.15
+    },
+    "info": {
+     "injuries": {
+      "home": [
+       "Luke Woolfenden (kolano)",
+       "Aurele Amenda (łydka)",
+       "Josh Eccles (kostka)",
+       "Haji Wright (mięsień czworogłowy)"
+      ],
+      "away": []
+     },
+     "restDays": {
+      "home": 5,
+      "away": 7
+     },
+     "homeAway": "COV u siebie 1W-0R-2P; FUL na wyjeździe 0W-1R-2P",
+     "stakes": "Bezpośredni mecz dołu tabeli (17. vs 18.)."
+    },
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Fulham ma lepsze xG (12,02) niż wynik (7 goli), ale na wyjazdach przegrał 3 z 4 meczów.",
+      "Kurs 2,15–2,39 na Fulham wycenia ~42–46% — brak wyraźnej przewagi.",
+      "Coventry ma 4 kontuzjowanych, ale wygrał ostatni mecz u siebie 4:1."
+     ]
+    },
+    "officials": [
+     {
+      "r": "GŁ",
+      "role": "Sędzia główny",
+      "name": "Adam Herczeg",
+      "nat": "ENG"
+     },
+     {
+      "r": "AS1",
+      "role": "Asystent 1",
+      "name": "Stuart Burt"
+     },
+     {
+      "r": "AS2",
+      "role": "Asystent 2",
+      "name": "James Mainwaring"
+     },
+     {
+      "r": "4.",
+      "role": "Sędzia techniczny",
+      "name": "Anthony Backhouse"
+     },
+     {
+      "r": "VAR",
+      "role": "Sędzia VAR",
+      "name": "Jarred Gillett"
+     },
+     {
+      "r": "AVAR",
+      "role": "Asystent VAR",
+      "name": "Matt Donohue"
+     }
+    ]
+   },
+   {
+    "id": "PL-2026-27-R8-CHE-TOT",
+    "date": "2026-10-24",
+    "time": "18:30",
+    "home": "CHE",
+    "away": "TOT",
+    "status": "ns",
+    "venue": {
+     "name": "Stamford Bridge",
+     "city": "Londyn",
+     "capacity": 40044
+    },
+    "staff": {
+     "home": [
+      [
+       "Trener",
+       "Xabi Alonso"
+      ]
+     ],
+     "away": [
+      [
+       "Trener",
+       "Roberto De Zerbi"
+      ]
+     ]
+    },
+    "odds": {
+     "src": "bets.co.za – 1X2, stan na 20.10.2026",
+     "1": 1.63,
+     "X": 3.75,
+     "2": 4.1
+    },
+    "info": {
+     "injuries": {
+      "home": [
+       "Emiliano Martínez (szczęka – po operacji)",
+       "Reece James (do poł. stycznia)",
+       "Jamie Gittens",
+       "Emmanuel Emegha"
+      ],
+      "away": [
+       "Andy Robertson (uraz z meczu z COV – niepewny)",
+       "Tosin Adarabioyo (uraz z meczu z COV – niepewny)",
+       "Pedro Porro (ścięgno – możliwy powrót)"
+      ]
+     },
+     "homeAway": "CHE u siebie 2W-1R-0P; TOT na wyjeździe 0W-2R-1P",
+     "stakes": "Derby Londynu; Chelsea 4., Tottenham 16. po pierwszym zwycięstwie."
+    },
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Chelsea strzela ponad xG (17 goli z 11,92 xG) — kurs 1,63–1,75 na gospodarzy bez wartości.",
+      "Tottenham słaby wynikowo, ale xG 8,83 vs xGA 11,20 — nie na tyle zły, by grać przeciw w derbach.",
+      "Niepewny stan kadry obu drużyn — zbyt duża niepewność."
+     ]
+    },
+    "officials": [
+     {
+      "r": "GŁ",
+      "role": "Sędzia główny",
+      "name": "Chris Kavanagh",
+      "nat": "ENG"
+     },
+     {
+      "r": "AS1",
+      "role": "Asystent 1",
+      "name": "Dan Cook"
+     },
+     {
+      "r": "AS2",
+      "role": "Asystent 2",
+      "name": "Ian Hussin"
+     },
+     {
+      "r": "4.",
+      "role": "Sędzia techniczny",
+      "name": "Farai Hallam"
+     },
+     {
+      "r": "VAR",
+      "role": "Sędzia VAR",
+      "name": "John Brooks"
+     },
+     {
+      "r": "AVAR",
+      "role": "Asystent VAR",
+      "name": "Richard West"
+     }
+    ]
+   },
+   {
+    "id": "PL-2026-27-R8-CRY-NEW",
+    "date": "2026-10-25",
+    "time": "15:00",
+    "home": "CRY",
+    "away": "NEW",
+    "status": "ns",
+    "venue": {
+     "name": "Selhurst Park",
+     "city": "Londyn",
+     "capacity": 25194
+    },
+    "staff": {
+     "home": [
+      [
+       "Trener",
+       "Pierre Sage"
+      ]
+     ],
+     "away": [
+      [
+       "Trener",
+       "Matthias Jaissle"
+      ]
+     ]
+    },
+    "odds": {
+     "src": "bets.co.za – 1X2, stan na 20.10.2026",
+     "1": 2.8,
+     "X": 3.7,
+     "2": 2.35,
+     "o25": 1.61
+    },
+    "info": {
+     "homeAway": "CRY u siebie 1W-0R-2P; NEW na wyjeździe 1W-0R-2P",
+     "stakes": "Obie drużyny po wysokich porażkach (CRY 0:5 z BHA, NEW 1:4 z COV). Palace grało w czwartek w pucharach (Beşiktaş).",
+     "injuries": {
+      "home": [
+       "Takehiro Tomiyasu (łydka)",
+       "Quinten Timber (nowy uraz)",
+       "Chadi Riad (kolano)",
+       "Dean Henderson (kostka – możliwy powrót)"
+      ],
+      "away": []
+     },
+     "restDays": {
+      "home": 3
+     }
+    },
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Obie obrony słabe (xGA: CRY 16,04, NEW 13,09) — logiczny kierunek to over 2,5, ale kurs 1,61–1,69 jest za niski.",
+      "1X2 wyceniony blisko mojej oceny."
+     ]
+    },
+    "officials": [
+     {
+      "r": "GŁ",
+      "role": "Sędzia główny",
+      "name": "Paul Tierney",
+      "nat": "ENG"
+     },
+     {
+      "r": "AS1",
+      "role": "Asystent 1",
+      "name": "Simon Long"
+     },
+     {
+      "r": "AS2",
+      "role": "Asystent 2",
+      "name": "Mark Stevens"
+     },
+     {
+      "r": "4.",
+      "role": "Sędzia techniczny",
+      "name": "Matt Donohue"
+     },
+     {
+      "r": "VAR",
+      "role": "Sędzia VAR",
+      "name": "Darren England"
+     },
+     {
+      "r": "AVAR",
+      "role": "Asystent VAR",
+      "name": "Olly Mackey"
+     }
+    ]
+   },
+   {
+    "id": "PL-2026-27-R8-HUL-BRE",
+    "date": "2026-10-25",
+    "time": "15:00",
+    "home": "HUL",
+    "away": "BRE",
+    "status": "ns",
+    "venue": {
+     "name": "MKM Stadium",
+     "city": "Kingston upon Hull",
+     "capacity": 24983
+    },
+    "staff": {
+     "home": [
+      [
+       "Trener",
+       "Sergej Jakirović"
+      ]
+     ],
+     "away": [
+      [
+       "Trener",
+       "Keith Andrews"
+      ]
+     ]
+    },
+    "odds": {
+     "src": "bets.co.za – 1X2, stan na 20.10.2026",
+     "1": 4.33,
+     "X": 4.0,
+     "2": 1.77
+    },
+    "info": {
+     "injuries": {
+      "home": [],
+      "away": [
+       "Antoni Milambo (kolano)",
+       "Josh Dasilva (ścięgno)",
+       "Kaye Furo (kolano)"
+      ]
+     },
+     "suspensions": {
+      "home": [],
+      "away": [
+       "Vitaly Janelt (1 mecz)",
+       "Yehor Yarmolyuk (3 mecze)"
+      ]
+     },
+     "homeAway": "HUL u siebie 1W-2R-0P; BRE na wyjeździe 0W-3R-0P",
+     "stakes": "Hull (9.) ma 9 pkt przy xPts 6,15. Jannik Schuster wraca do kadry Brentford."
+    },
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Brentford bez dwóch zawieszonych pomocników (Janelt, Yarmolyuk) i bez wygranej na wyjeździe w sezonie.",
+      "Kurs 1,74–1,84 na Brentford wycenia ~55–57% — przy tych brakach to za mało, by grać.",
+      "Hull u siebie niepokonany."
+     ]
+    },
+    "officials": [
+     {
+      "r": "GŁ",
+      "role": "Sędzia główny",
+      "name": "Rob Jones",
+      "nat": "ENG"
+     },
+     {
+      "r": "AS1",
+      "role": "Asystent 1",
+      "name": "Akil Howson"
+     },
+     {
+      "r": "AS2",
+      "role": "Asystent 2",
+      "name": "Alex James"
+     },
+     {
+      "r": "4.",
+      "role": "Sędzia techniczny",
+      "name": "Andrew Kitchen"
+     },
+     {
+      "r": "VAR",
+      "role": "Sędzia VAR",
+      "name": "Tim Wood"
+     },
+     {
+      "r": "AVAR",
+      "role": "Asystent VAR",
+      "name": "Alex Chilowicz"
+     }
+    ]
+   },
+   {
+    "id": "PL-2026-27-R8-LIV-BHA",
+    "date": "2026-10-25",
+    "time": "15:00",
+    "home": "LIV",
+    "away": "BHA",
+    "status": "ns",
+    "venue": {
+     "name": "Anfield",
+     "city": "Liverpool",
+     "capacity": 61276
+    },
+    "staff": {
+     "home": [
+      [
+       "Trener",
+       "Andoni Iraola"
+      ]
+     ],
+     "away": [
+      [
+       "Trener",
+       "Fabian Hürzeler"
+      ]
+     ]
+    },
+    "odds": {
+     "src": "bets.co.za – 1X2, stan na 20.10.2026",
+     "1": 2.05,
+     "X": 3.8,
+     "2": 3.3
+    },
+    "info": {
+     "injuries": {
+      "home": [
+       "Jeremie Frimpong (ścięgno udowe)",
+       "Dominik Szoboszlai (ponowny uraz)"
+      ],
+      "away": [
+       "Pascal Struijk (ścięgno)",
+       "Femi Azeez (ścięgno)",
+       "Mats Wieffer (kolano)",
+       "Yankuba Minteh (noga)",
+       "Kaoru Mitoma (ścięgno)",
+       "Evan Ferguson (kostka)",
+       "Stefan Tzimas (kolano)"
+      ]
+     },
+     "homeAway": "LIV u siebie 0W-2R-1P; BHA na wyjeździe 2W-0R-1P",
+     "stakes": "3. vs 5. — Brighton po 3 zwycięstwach 10:0. Brighton grał w czwartek w pucharach (Jablonec).",
+     "restDays": {
+      "away": 3
+     }
+    },
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Liverpool u siebie bez wygranej w lidze (0:3 z City), Brighton w świetnej formie, ale z dużą nadwyżką goli nad xG (23 vs 16,79).",
+      "Rynki wycenione rozsądnie — brak wyraźnej przewagi; duża niepewność."
+     ]
+    },
+    "officials": [
+     {
+      "r": "GŁ",
+      "role": "Sędzia główny",
+      "name": "Sam Barrott",
+      "nat": "ENG"
+     },
+     {
+      "r": "AS1",
+      "role": "Asystent 1",
+      "name": "Adam Nunn"
+     },
+     {
+      "r": "AS2",
+      "role": "Asystent 2",
+      "name": "Wade Smith"
+     },
+     {
+      "r": "4.",
+      "role": "Sędzia techniczny",
+      "name": "David Webb"
+     },
+     {
+      "r": "VAR",
+      "role": "Sędzia VAR",
+      "name": "Michael Oliver"
+     },
+     {
+      "r": "AVAR",
+      "role": "Asystent VAR",
+      "name": "Lee Betts"
+     }
+    ]
+   },
+   {
+    "id": "PL-2026-27-R8-MUN-BOU",
+    "date": "2026-10-25",
+    "time": "15:00",
+    "home": "MUN",
+    "away": "BOU",
+    "status": "ns",
+    "venue": {
+     "name": "Old Trafford",
+     "city": "Manchester",
+     "capacity": 74158
+    },
+    "staff": {
+     "home": [
+      [
+       "Trener",
+       "Michael Carrick"
+      ]
+     ],
+     "away": [
+      [
+       "Trener",
+       "Marco Rose"
+      ]
+     ]
+    },
+    "odds": {
+     "src": "bets.co.za – 1X2, stan na 20.10.2026",
+     "1": 1.83,
+     "X": 4.0,
+     "2": 3.9
+    },
+    "info": {
+     "injuries": {
+      "home": [
+       "Lisandro Martínez (udo – niepewny)",
+       "Luke Shaw (niepewny)",
+       "Kobbie Mainoo (niepewny)"
+      ],
+      "away": [
+       "Alex Scott (ścięgno)",
+       "Julián Araujo (udo)"
+      ]
+     },
+     "homeAway": "MUN u siebie 1W-1R-1P; BOU na wyjeździe 0W-1R-2P",
+     "stakes": "United 3 remisy 1:1 z rzędu; Bournemouth 3. xGD w lidze (+5,70) przy 6 pkt. Bournemouth grał w czwartek w pucharach (AC Milan); Kroupi wrócił do treningów.",
+     "restDays": {
+      "away": 3
+     }
+    },
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Bournemouth ma statystyki lepsze niż wyniki, ale kurs ~3,9–4,1 to typ wysokiego ryzyka.",
+      "Kurs 1,83–1,91 na United nie ma wartości przy jego formie (5 meczów bez wygranej).",
+      "Za dużo niewiadomych w składzie United."
+     ]
+    },
+    "officials": [
+     {
+      "r": "GŁ",
+      "role": "Sędzia główny",
+      "name": "Jarred Gillett",
+      "nat": "ENG"
+     },
+     {
+      "r": "AS1",
+      "role": "Asystent 1",
+      "name": "Neil Davies"
+     },
+     {
+      "r": "AS2",
+      "role": "Asystent 2",
+      "name": "Nick Greenhalgh"
+     },
+     {
+      "r": "4.",
+      "role": "Sędzia techniczny",
+      "name": "Tom Bramall"
+     },
+     {
+      "r": "VAR",
+      "role": "Sędzia VAR",
+      "name": "Paul Howard"
+     },
+     {
+      "r": "AVAR",
+      "role": "Asystent VAR",
+      "name": "Ian Hussin"
+     }
+    ]
+   },
+   {
+    "id": "PL-2026-27-R8-SUN-LEE",
+    "date": "2026-10-25",
+    "time": "17:30",
+    "home": "SUN",
+    "away": "LEE",
+    "status": "ns",
+    "venue": {
+     "name": "Stadium of Light",
+     "city": "Sunderland",
+     "capacity": 48095
+    },
+    "staff": {
+     "home": [
+      [
+       "Trener",
+       "Régis Le Bris"
+      ]
+     ],
+     "away": [
+      [
+       "Trener",
+       "Daniel Farke"
+      ]
+     ]
+    },
+    "odds": {
+     "src": "bets.co.za – 1X2, stan na 20.10.2026",
+     "1": 2.87,
+     "X": 3.3,
+     "2": 2.5
+    },
+    "info": {
+     "homeAway": "SUN u siebie 1W-0R-2P; LEE na wyjeździe 1W-1R-1P",
+     "stakes": "Sunderland ostatni, 4 porażki z rzędu; Leeds stracił tylko 6 goli. Sunderland grał w czwartek w pucharach; Brobbey ma być gotowy.",
+     "injuries": {
+      "home": [
+       "Wilson Isidor (uraz)",
+       "Thomas Meunier (pachwina)",
+       "Dan Ballard (ścięgno)",
+       "Romaine Mundle (kolano)"
+      ],
+      "away": []
+     },
+     "suspensions": {
+      "home": [
+       "Kevin Danso (pauza w lidze)"
+      ],
+      "away": []
+     },
+     "restDays": {
+      "home": 3
+     }
+    },
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Ceny obu drużyn bliskie uczciwym; brak przewagi."
+     ]
+    },
+    "officials": [
+     {
+      "r": "GŁ",
+      "role": "Sędzia główny",
+      "name": "Stuart Attwell",
+      "nat": "ENG"
+     },
+     {
+      "r": "AS1",
+      "role": "Asystent 1",
+      "name": "Constantine Hatzidakis"
+     },
+     {
+      "r": "AS2",
+      "role": "Asystent 2",
+      "name": "Nick Hopton"
+     },
+     {
+      "r": "4.",
+      "role": "Sędzia techniczny",
+      "name": "Andy Madley"
+     },
+     {
+      "r": "VAR",
+      "role": "Sędzia VAR",
+      "name": "Craig Pawson"
+     },
+     {
+      "r": "AVAR",
+      "role": "Asystent VAR",
+      "name": "Mat Wilkes"
+     }
+    ]
+   }
+  ],
+  "9": [
+   {
+    "id": "PL-2026-27-R9-CHE-MUN",
+    "date": "2026-10-31",
+    "time": "13:30",
+    "home": "CHE",
+    "away": "MUN",
+    "status": "ns",
+    "venue": {
+     "name": "Stamford Bridge",
+     "city": "Londyn",
+     "capacity": 40044
+    },
+    "staff": {
+     "home": [
+      [
+       "Trener",
+       "Xabi Alonso"
+      ]
+     ],
+     "away": [
+      [
+       "Trener",
+       "Michael Carrick"
+      ]
+     ]
+    }
+   },
+   {
+    "id": "PL-2026-27-R9-BOU-LEE",
+    "date": "2026-10-31",
+    "time": "16:00",
+    "home": "BOU",
+    "away": "LEE",
+    "status": "ns",
+    "venue": {
+     "name": "Vitality Stadium (Dean Court)",
+     "city": "Bournemouth",
+     "capacity": 12357
+    },
+    "staff": {
+     "home": [
+      [
+       "Trener",
+       "Marco Rose"
+      ]
+     ],
+     "away": [
+      [
+       "Trener",
+       "Daniel Farke"
+      ]
+     ]
+    }
+   },
+   {
+    "id": "PL-2026-27-R9-BRE-NFO",
+    "date": "2026-10-31",
+    "time": "16:00",
+    "home": "BRE",
+    "away": "NFO",
+    "status": "ns",
+    "venue": {
+     "name": "Gtech Community Stadium",
+     "city": "Londyn",
+     "capacity": 17250
+    },
+    "staff": {
+     "home": [
+      [
+       "Trener",
+       "Keith Andrews"
+      ]
+     ],
+     "away": [
+      [
+       "Trener",
+       "Oliver Glasner"
+      ]
+     ]
+    }
+   },
+   {
+    "id": "PL-2026-27-R9-COV-SUN",
+    "date": "2026-10-31",
+    "time": "16:00",
+    "home": "COV",
+    "away": "SUN",
+    "status": "ns",
+    "venue": {
+     "name": "Coventry Building Society Arena",
+     "city": "Coventry",
+     "capacity": 32609
+    },
+    "staff": {
+     "home": [
+      [
+       "Trener",
+       "Frank Lampard"
+      ]
+     ],
+     "away": [
+      [
+       "Trener",
+       "Régis Le Bris"
+      ]
+     ]
+    }
+   },
+   {
+    "id": "PL-2026-27-R9-HUL-IPS",
+    "date": "2026-10-31",
+    "time": "16:00",
+    "home": "HUL",
+    "away": "IPS",
+    "status": "ns",
+    "venue": {
+     "name": "MKM Stadium",
+     "city": "Kingston upon Hull",
+     "capacity": 24983
+    },
+    "staff": {
+     "home": [
+      [
+       "Trener",
+       "Sergej Jakirović"
+      ]
+     ],
+     "away": [
+      [
+       "Trener",
+       "Gary O'Neil"
+      ]
+     ]
+    }
+   },
+   {
+    "id": "PL-2026-27-R9-MCI-BHA",
+    "date": "2026-10-31",
+    "time": "16:00",
+    "home": "MCI",
+    "away": "BHA",
+    "status": "ns",
+    "venue": {
+     "name": "Etihad Stadium",
+     "city": "Manchester",
+     "capacity": 61038
+    },
+    "staff": {
+     "home": [
+      [
+       "Trener",
+       "Enzo Maresca"
+      ]
+     ],
+     "away": [
+      [
+       "Trener",
+       "Fabian Hürzeler"
+      ]
+     ]
+    }
+   },
+   {
+    "id": "PL-2026-27-R9-TOT-CRY",
+    "date": "2026-10-31",
+    "time": "18:30",
+    "home": "TOT",
+    "away": "CRY",
+    "status": "ns",
+    "venue": {
+     "name": "Tottenham Hotspur Stadium",
+     "city": "Londyn",
+     "capacity": 62850
+    },
+    "staff": {
+     "home": [
+      [
+       "Trener",
+       "Roberto De Zerbi"
+      ]
+     ],
+     "away": [
+      [
+       "Trener",
+       "Pierre Sage"
+      ]
+     ]
+    }
+   },
+   {
+    "id": "PL-2026-27-R9-AVL-FUL",
+    "date": "2026-10-31",
+    "time": "21:00",
+    "home": "AVL",
+    "away": "FUL",
+    "status": "ns",
+    "venue": {
+     "name": "Villa Park",
+     "city": "Birmingham",
+     "capacity": 36887
+    },
+    "staff": {
+     "home": [
+      [
+       "Trener",
+       "Unai Emery"
+      ]
+     ],
+     "away": [
+      [
+       "Trener",
+       "Álvaro Arbeloa"
+      ]
+     ]
+    }
+   },
+   {
+    "id": "PL-2026-27-R9-LIV-ARS",
+    "date": "2026-11-01",
+    "time": "17:30",
+    "home": "LIV",
+    "away": "ARS",
+    "status": "ns",
+    "venue": {
+     "name": "Anfield",
+     "city": "Liverpool",
+     "capacity": 61276
+    },
+    "staff": {
+     "home": [
+      [
+       "Trener",
+       "Andoni Iraola"
+      ]
+     ],
+     "away": [
+      [
+       "Trener",
+       "Mikel Arteta"
+      ]
+     ]
+    }
+   },
+   {
+    "id": "PL-2026-27-R9-NEW-EVE",
+    "date": "2026-11-02",
+    "time": "21:00",
+    "home": "NEW",
+    "away": "EVE",
+    "status": "ns",
+    "venue": {
+     "name": "St James' Park",
+     "city": "Newcastle upon Tyne",
+     "capacity": 52729
+    },
+    "staff": {
+     "home": [
+      [
+       "Trener",
+       "Matthias Jaissle"
+      ]
+     ],
+     "away": [
+      [
+       "Trener",
+       "David Moyes"
+      ]
+     ]
+    }
+   }
+  ]
+ }
+}
