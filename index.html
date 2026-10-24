@@ -561,7 +561,7 @@ function loadReal(d){
 
 /* ---------- Stan ---------- */
 let state={view:"home", league:"EKS", round:14, filter:"all", tab:"mecz", side:"h", player:null, mid:null};
-const LEAGUES=[["EKS","Ekstraklasa","Polska"],["PL","Premier League","Anglia"],["LL","LaLiga","Hiszpania"],["SA","Serie A","Włochy"],["BL","Bundesliga","Niemcy"],["L1","Ligue 1","Francja"]];
+const LEAGUES=[["EKS","Ekstraklasa","Polska"],["PL","Premier League","Anglia"],["LL","LaLiga","Hiszpania"],["SA","Serie A","Włochy"],["BL","Bundesliga","Niemcy"],["L1","Ligue 1","Francja"],["UCL","Liga Mistrzów","Europa"]];
 const leagueName=c=>(LEAGUES.find(l=>l[0]===c)||[c,c])[1];
 state.fold=true;
 try{const s=JSON.parse(localStorage.getItem("meczownik2")||"{}");["filter","league","fold"].forEach(k=>{if(s[k]!=null)state[k]=s[k]});if(!LEAGUES.some(l=>l[0]===state.league))state.league="EKS"}catch(e){}
