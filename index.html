@@ -275,10 +275,38 @@ nav svg{width:21px;height:21px;stroke:currentColor;fill:none;stroke-width:1.8;st
 nav button[aria-selected="true"]{color:var(--accent)}
 button:focus-visible,select:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
 @media (prefers-reduced-motion:no-preference){.panel{animation:in .18s ease-out}@keyframes in{from{opacity:.4;transform:translateY(4px)}}}
+
+/* Panel boczny: folder „Piłka nożna” z ligami */
+.drawer{position:fixed;top:0;bottom:0;left:0;width:260px;z-index:30;background:var(--surface);border-right:1px solid var(--line);display:flex;flex-direction:column;padding:calc(env(safe-area-inset-top,0px) + 14px) 10px calc(env(safe-area-inset-bottom,0px) + 14px) max(10px,env(safe-area-inset-left,0px));overflow-y:auto;transform:translateX(-102%);transition:transform .2s ease-out}
+.drawer.open{transform:none;box-shadow:4px 0 24px rgba(0,0,0,.35)}
+.drawer h3{font:800 22px var(--f-display);text-transform:uppercase;letter-spacing:.03em;margin:2px 8px 14px;color:var(--fg)}
+.folder{width:100%;display:flex;align-items:center;gap:10px;background:none;border:0;color:var(--fg);font:700 16px var(--f-display);letter-spacing:.05em;text-transform:uppercase;padding:10px 8px;border-radius:8px;cursor:pointer;text-align:left}
+.folder:hover,.lg:hover{background:color-mix(in srgb,var(--fg) 7%,transparent)}
+.folder .ball{width:20px;height:20px;flex:none}
+.folder .chev{margin-left:auto;width:16px;height:16px;stroke:currentColor;fill:none;stroke-width:2.4;stroke-linecap:round;stroke-linejoin:round;transition:transform .18s}
+.folder[aria-expanded="true"] .chev{transform:rotate(90deg)}
+.lglist{display:flex;flex-direction:column;gap:2px;margin:2px 0 0 18px;padding-left:10px;border-left:1px solid var(--line)}
+.lg{display:flex;flex-direction:column;align-items:flex-start;background:none;border:0;color:var(--fg);padding:7px 10px;border-radius:8px;cursor:pointer;text-align:left;font:700 15px var(--f-display);letter-spacing:.04em;text-transform:uppercase}
+.lg small{font:500 11px var(--f-body);letter-spacing:0;text-transform:none;color:var(--muted)}
+.lg[aria-pressed="true"]{background:var(--pitch);color:var(--pitch-ink)}
+.lg[aria-pressed="true"] small{color:var(--pitch-ink);opacity:.8}
+.scrim{position:fixed;inset:0;z-index:25;background:rgba(0,0,0,.45)}
+.menu{background:none;border:1px solid rgba(255,255,255,.35);color:var(--pitch-ink);border-radius:8px;width:34px;height:30px;display:grid;place-items:center;cursor:pointer;flex:none}
+.menu svg{width:18px;height:18px;stroke:currentColor;fill:none;stroke-width:2.2;stroke-linecap:round}
+.meta .lhs{display:flex;align-items:center;gap:10px;min-width:0}
+.meta .lhs > span{opacity:.85}
+@media (min-width:900px){
+  .drawer{transform:none;box-shadow:none}
+  body{padding-left:260px}
+  body::before{left:260px}
+  .menu,.scrim{display:none!important}
+}
 </style>
 
 </head>
 <body>
+<aside class="drawer" id="side" aria-label="Dyscypliny i ligi"></aside>
+<div class="scrim" id="scrim" hidden></div>
 <header class="board" id="head"></header>
 <main id="main"><div class="wrap" id="view"></div></main>
 <nav id="nav" hidden><div class="wrap" role="tablist" id="tabs"></div></nav>
@@ -535,8 +563,9 @@ function loadReal(d){
 let state={view:"home", league:"EKS", round:14, filter:"all", tab:"mecz", side:"h", player:null, mid:null};
 const LEAGUES=[["EKS","Ekstraklasa","Polska"],["PL","Premier League","Anglia"],["LL","LaLiga","Hiszpania"],["SA","Serie A","Włochy"],["BL","Bundesliga","Niemcy"],["L1","Ligue 1","Francja"]];
 const leagueName=c=>(LEAGUES.find(l=>l[0]===c)||[c,c])[1];
-try{const s=JSON.parse(localStorage.getItem("meczownik2")||"{}");["filter","league"].forEach(k=>{if(s[k]!=null)state[k]=s[k]});if(!LEAGUES.some(l=>l[0]===state.league))state.league="EKS"}catch(e){}
-const save=()=>{try{localStorage.setItem("meczownik2",JSON.stringify({filter:state.filter,league:state.league}))}catch(e){}};
+state.fold=true;
+try{const s=JSON.parse(localStorage.getItem("meczownik2")||"{}");["filter","league","fold"].forEach(k=>{if(s[k]!=null)state[k]=s[k]});if(!LEAGUES.some(l=>l[0]===state.league))state.league="EKS"}catch(e){}
+const save=()=>{try{localStorage.setItem("meczownik2",JSON.stringify({filter:state.filter,league:state.league,fold:state.fold}))}catch(e){}};
 const SAMPLE={teams:TEAMS,fixtures:FIXTURES}, LD={};
 function fetchJSON(u){return fetch(u+"?v="+Date.now()).then(r=>r.ok?r.json():Promise.reject(r.status))}
 function fetchLeague(c){return fetchJSON(`data/${c}.json`).catch(()=>c==="EKS"?fetchJSON("data.json"):Promise.reject()).catch(()=>null)}
@@ -558,10 +587,10 @@ let M=null, G=[];
 const badge=()=>DATA?`<span class="sample">AKT. ${new Date(DATA.updated).toLocaleString("pl-PL",{day:"2-digit",month:"2-digit",hour:"2-digit",minute:"2-digit",timeZone:"Europe/Warsaw"})}</span>`:`<span class="sample">DANE PRZYKŁADOWE</span>`;
 function renderHome(){
   const rounds=Object.keys(FIXTURES).map(Number).sort((a,b)=>a-b);
-  const chips=`<div class="leagues" role="group" aria-label="Wybór ligi">${LEAGUES.map(([c,n,k])=>`<button data-league="${c}" aria-pressed="${state.league===c}">${n}<small>${k}</small></button>`).join("")}</div>`;
+  const MENU=`<button class="menu" id="menu" aria-label="Pokaż ligi" aria-controls="side"><svg viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>`;
   const ld=LD[state.league];
   if(!rounds.length){
-    $("#head").innerHTML=`<div class="wrap"><div class="meta"><span>${esc(leagueName(state.league))}</span></div><div class="apptitle">Meczownik</div><div class="appsub">Wyniki, sędziowie, składy, statystyki i typy</div>${chips}</div>`;
+    $("#head").innerHTML=`<div class="wrap"><div class="meta"><span class="lhs">${MENU}<span>${esc(leagueName(state.league))}</span></span></div><div class="apptitle">Meczownik</div><div class="appsub">Wyniki, sędziowie, składy, statystyki i typy</div></div>`;
     $("#view").innerHTML=ld==="loading"?'<div class="card empty">Wczytuję mecze…</div>':`<div class="card empty">Brak danych dla ligi ${esc(leagueName(state.league))}.<br>Mecze pojawią się po najbliższej porannej aktualizacji.</div>`;
     $("#nav").hidden=true; return;
   }
@@ -569,9 +598,8 @@ function renderHome(){
   const fx=FIXTURES[state.round];
   const ds=[...new Set(fx.map(f=>f.date))].sort(), ri=rounds.indexOf(state.round);
   $("#head").innerHTML=`<div class="wrap">
-    <div class="meta"><span>${esc(leagueName(state.league))} · ${DATA?esc(DATA.season||""):"2026/27"}</span>${badge()}</div>
+    <div class="meta"><span class="lhs">${MENU}<span>${esc(leagueName(state.league))} · ${DATA?esc(DATA.season||""):"2026/27"}</span></span>${badge()}</div>
     <div class="apptitle">Meczownik</div><div class="appsub">Wyniki, sędziowie, składy, statystyki i typy</div>
-    ${chips}
     <div class="rounds"><button id="rprev" aria-label="Poprzednia kolejka" ${ri<=0?"disabled":""}>‹</button>
       <div>${state.round}. kolejka<small>${ds.length?dayShort(ds[0])+" – "+dayShort(ds[ds.length-1]):""}</small></div>
       <button id="rnext" aria-label="Następna kolejka" ${ri>=rounds.length-1?"disabled":""}>›</button></div></div>`;
@@ -955,7 +983,13 @@ function renderMatch(){
   $("#nav").hidden=false;
   document.querySelectorAll("nav button[data-t]").forEach(b=>b.setAttribute("aria-selected",b.dataset.t===state.tab));
 }
-function render(){ state.view==="home"?renderHome():renderMatch(); save(); }
+function renderSide(){
+  $("#side").innerHTML=`<h3>Meczownik</h3>
+  <button class="folder" id="fold" aria-expanded="${state.fold}" aria-controls="lglist"><svg class="ball" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"><circle cx="12" cy="12" r="9.5"/><path d="M12 7.2l4 2.9-1.5 4.7h-5L8 10.1z"/><path d="M12 7.2V2.6M16 10.1l4.3-1.6M14.5 14.8l2.8 3.8M9.5 14.8l-2.8 3.8M8 10.1L3.7 8.5"/></svg>Piłka nożna<svg class="chev" viewBox="0 0 24 24"><path d="M9 5l7 7-7 7"/></svg></button>
+  <div class="lglist" id="lglist" role="group" aria-label="Wybór ligi" ${state.fold?"":"hidden"}>${LEAGUES.map(([c,n,k])=>`<button class="lg" data-league="${c}" aria-pressed="${state.league===c}">${n}<small>${k}</small></button>`).join("")}</div>`;
+}
+function setSide(o){ $("#side").classList.toggle("open",o); $("#scrim").hidden=!o; }
+function render(){ state.view==="home"?renderHome():renderMatch(); renderSide(); save(); }
 
 function openMatch(id,push=true){
   const fx=allFx().find(f=>f.id===id); if(!fx) return;
@@ -971,8 +1005,18 @@ $("#head").addEventListener("click",e=>{
   const rs=Object.keys(FIXTURES).map(Number).sort((a,b)=>a-b), i=rs.indexOf(state.round);
   if(e.target.closest("#rprev")&&i>0){state.round=rs[i-1];render()}
   if(e.target.closest("#rnext")&&i<rs.length-1){state.round=rs[i+1];render()}
-  const lg=e.target.closest("[data-league]"); if(lg&&lg.dataset.league!==state.league) activate(lg.dataset.league);
+  if(e.target.closest("#menu")) setSide(true);
 });
+$("#side").addEventListener("click",e=>{
+  if(e.target.closest("#fold")){ state.fold=!state.fold; renderSide(); save(); return; }
+  const lg=e.target.closest("[data-league]"); if(!lg) return;
+  setSide(false);
+  if(state.view!=="home"){ state.view="home"; try{ if(history.state&&history.state.mid) history.replaceState(null,"") }catch(_){} }
+  if(lg.dataset.league!==state.league) activate(lg.dataset.league); else render();
+  $("#main").scrollTop=0;
+});
+$("#scrim").addEventListener("click",()=>setSide(false));
+document.addEventListener("keydown",e=>{ if(e.key==="Escape") setSide(false); });
 window.addEventListener("popstate",()=>{ if(state.view==="match") goHome(); });
 $("#tabs").addEventListener("click",e=>{const b=e.target.closest("button");if(!b)return;if(b.dataset.home){$("#back").click();return}state.tab=b.dataset.t;$("#main").scrollTop=0;render()});
 $("#view").addEventListener("click",e=>{
