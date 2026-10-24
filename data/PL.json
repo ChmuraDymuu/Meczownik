@@ -1,9 +1,9 @@
 {
- "updated": "2026-10-23T05:40:00+02:00",
+ "updated": "2026-10-24T05:40:00+02:00",
  "season": "2026/27",
  "competition": "Premier League",
  "currentRound": 8,
- "note": "Źródła: premierleague.com, soccergraph (obsada sędziowska 8. kolejki), Fantasy Football Scout (konferencje 21–22.10), Squawka, oddslot (BC.Game), footballpredictions.com, bets.co.za, Wikipedia, Sky Sports. Godziny w czasie polskim (od 25.10 CET).",
+ "note": "Źródła: premierleague.com, Sky Sports i Suffolk News (raport IPS–NFO 23.10), Sports Mole i dave.sport (konferencja Artety 23.10), footballpredictions.com (kursy 24.10), soccergraph (obsada sędziowska), Fantasy Football Scout, Squawka, oddslot (BC.Game, 23.10), The Football Faithful, Wikipedia. Godziny w czasie polskim (od 25.10 CET).",
  "teams": {
   "ARS": {
    "id": "ARS",
@@ -276,6 +276,17 @@
    "form": "DDWDL"
   },
   {
+   "team": "IPS",
+   "p": 8,
+   "w": 3,
+   "d": 1,
+   "l": 4,
+   "gf": 12,
+   "ga": 16,
+   "pts": 10,
+   "form": "WLWLD"
+  },
+  {
    "team": "HUL",
    "p": 7,
    "w": 2,
@@ -285,17 +296,6 @@
    "ga": 7,
    "pts": 9,
    "form": "DDLDL"
-  },
-  {
-   "team": "IPS",
-   "p": 7,
-   "w": 3,
-   "d": 0,
-   "l": 4,
-   "gf": 11,
-   "ga": 15,
-   "pts": 9,
-   "form": "LWLWL"
   },
   {
    "team": "NEW",
@@ -364,6 +364,17 @@
    "form": "DDLDW"
   },
   {
+   "team": "NFO",
+   "p": 8,
+   "w": 1,
+   "d": 3,
+   "l": 4,
+   "gf": 6,
+   "ga": 10,
+   "pts": 6,
+   "form": "WLLLD"
+  },
+  {
    "team": "COV",
    "p": 7,
    "w": 2,
@@ -384,17 +395,6 @@
    "ga": 10,
    "pts": 5,
    "form": "LDDLW"
-  },
-  {
-   "team": "NFO",
-   "p": 7,
-   "w": 1,
-   "d": 2,
-   "l": 4,
-   "gf": 5,
-   "ga": 9,
-   "pts": 5,
-   "form": "DWLLL"
   },
   {
    "team": "SUN",
@@ -916,7 +916,7 @@
     "time": "21:00",
     "home": "IPS",
     "away": "NFO",
-    "status": "ns",
+    "status": "ft",
     "venue": {
      "name": "Portman Road",
      "city": "Ipswich",
@@ -937,10 +937,12 @@
      ]
     },
     "odds": {
-     "src": "bets.co.za – 1X2, stan na 20.10.2026",
-     "1": 2.65,
-     "X": 3.1,
-     "2": 2.3
+     "src": "Betfred/William Hill/Smarkets (The Football Faithful) – stan na 23.10.2026, 01:08",
+     "1": 3.1,
+     "X": 3.55,
+     "2": 2.25,
+     "u25": 2.0,
+     "bttsY": 1.6
     },
     "info": {
      "injuries": {
@@ -949,17 +951,19 @@
       ],
       "away": [
        "Igor Jesus (łydka)",
-       "Nicolò Savona (kolano)"
+       "Nicolò Savona (kolano)",
+       "Nikola Milenković (kolano – wg The Football Faithful; Glasner 21.10 mówił, że jest gotowy)"
       ]
      },
      "homeAway": "IPS u siebie 2W-0R-1P; NFO na wyjeździe 1W-1R-1P",
      "stakes": "Forest (19.) po 3 porażkach z rzędu; Ipswich 10.",
      "suspensions": {
-      "home": [
-       "Issahaku Fatawu (wg Squawka)"
-      ],
+      "home": [],
       "away": []
-     }
+     },
+     "h2h": [
+      "2025-03 IPS 2:4 NFO"
+     ]
     },
     "tip": {
      "decision": "NO BET",
@@ -967,7 +971,9 @@
       "Forest ma najwyższe w lidze niedoszacowanie (xG 12,99 vs 5 goli, xPts 12,58 vs 5 pkt), ale 3 porażki z rzędu i słaba skuteczność.",
       "Kurs 2,30–2,39 na Forest daje implikowane ~42–43%; moja ocena ~40% — EV ≈ 0 lub ujemne.",
       "Ipswich u siebie wygrał 2 z 3 meczów; Brak kursów DNB/AH do porównania.",
-      "Forest z Gibbs-White'em i Milenkoviciem, ale bez Igora Jesusa; rynek (~44% na NFO) wycenia gości uczciwie — brak przewagi."
+      "Forest z Gibbs-White'em i Milenkoviciem, ale bez Igora Jesusa; rynek (~44% na NFO) wycenia gości uczciwie — brak przewagi.",
+      "Aktualne kursy: Ipswich 3,00–3,40, Forest 2,20–2,30 (~44%), Under 2,5 = 2,00, BTTS tak 1,57–1,67 — wszystkie blisko mojej oceny.",
+      "Sprzeczne doniesienia o Milenkoviciu (FFS: gotowy; The Football Faithful: wykluczony) — dodatkowa niepewność."
      ]
     },
     "officials": [
@@ -1003,7 +1009,111 @@
       "name": "James Mainwaring"
      }
     ],
-    "notes": "Glasner (21.10): Morgan Gibbs-White i Nikola Milenković gotowi do gry. Przewidywane składy (Squawka) — IPS 4-2-3-1: Walton; Davis, O'Shea, Diop, Ouattara; Florentino, Lukic*; Philogene, Enciso, Maeda; Emersonn. NFO 3-4-2-1: Sels; Murillo, Diomande, Aina; Williams, McAtee, Schlager, Muñoz; Ndoye, Gibbs-White; Delap. (*Lukic kontuzjowany wg O'Neila)"
+    "notes": "Bramka Williamsa z asystą Muñoza; Enciso wyrównał po złym podaniu Milenkovicia do Selsa. Sędzia Tom Bramall (Sheffield) po analizie VAR w 49. min dał Diopowi tylko żółtą (McAtee oddalał się od bramki) – Forest protestowali. Forest: xG 2,31, Walton i Davis wybijali piłki z linii; Williams zszedł z urazem ręki. Żółtą kartkę dostał też Murillo (minuta nieznana). Składy — IPS (4-2-3-1): Walton; Ouattara, Diop, O'Shea, Davis; Florentino, Palacios; Fatawu, Enciso, Philogene; Emersonn. Rezerwowi m.in.: Scherpen, Furlong, Greaves, Núñez, Clarke, Flemming, Maeda, Akpom, Matusiwa. NFO (3-4-2-1): Sels; Cunha, Milenković, Murillo; Muñoz, McAtee, Schlager, Williams; Ndoye, Gibbs-White (k); Delap. Rezerwowi: Victor, Diomande, Sangaré, Kalimuendo, Yates, Aina, Hudson-Odoi, Netz, Wood. Numery niepotwierdzone. Fatawu zagrał (wcześniejsza informacja o zawieszeniu nieaktualna).",
+    "score": [
+     1,
+     1
+    ],
+    "attendance": 29198,
+    "formation": {
+     "home": "4-2-3-1",
+     "away": "3-4-2-1"
+    },
+    "events": [
+     {
+      "m": 13,
+      "t": "goal",
+      "s_": "a",
+      "who": "Neco Williams",
+      "as": "Daniel Muñoz",
+      "how": "Strzał przy dalszym słupku po dośrodkowaniu"
+     },
+     {
+      "m": 41,
+      "t": "goal",
+      "s_": "h",
+      "who": "Julio Enciso",
+      "how": "Przechwyt po złym podaniu Milenkovicia, strzał przy ziemi"
+     },
+     {
+      "m": 49,
+      "t": "var",
+      "s_": "h",
+      "kind": "Czerwona kartka – możliwe DOGSO (OFR)",
+      "init": "Brak faulu",
+      "fin": "Rzut wolny i żółta kartka"
+     },
+     {
+      "m": 49,
+      "t": "yc",
+      "s_": "h",
+      "who": "Issa Diop",
+      "why": "Faul na Jamesie McAtee (po analizie VAR)"
+     },
+     {
+      "m": 61,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Jack Clarke",
+      "out": "Jaden Philogene"
+     },
+     {
+      "m": 61,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Flemming",
+      "out": "Emersonn"
+     },
+     {
+      "m": 69,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Callum Hudson-Odoi",
+      "out": "Dan Ndoye"
+     },
+     {
+      "m": 73,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Maeda",
+      "out": "Issahaku Fatawu"
+     },
+     {
+      "m": 83,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Luca Netz",
+      "out": "Neco Williams"
+     },
+     {
+      "m": 86,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Chuba Akpom",
+      "out": "Julio Enciso"
+     },
+     {
+      "m": 86,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Azor Matusiwa",
+      "out": "Florentino"
+     },
+     {
+      "m": 90,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Chris Wood",
+      "out": "Liam Delap"
+     }
+    ],
+    "teamStats": [
+     [
+      "Strzały",
+      7,
+      17
+     ]
+    ]
    },
    {
     "id": "PL-2026-27-R8-AVL-MCI",
@@ -1032,10 +1142,13 @@
      ]
     },
     "odds": {
-     "src": "bets.co.za – 1X2, stan na 20.10.2026",
-     "1": 3.9,
-     "X": 3.7,
-     "2": 1.68
+     "src": "BC.Game via oddslot – stan na 23.10.2026",
+     "1": 5.25,
+     "X": 3.9,
+     "2": 1.65,
+     "1X": 2.2,
+     "X2": 1.17,
+     "12": 1.25
     },
     "info": {
      "injuries": {
@@ -1059,7 +1172,8 @@
      "reasons": [
       "City 7/7 i najlepsze xGD w lidze, ale kurs 1,68–1,76 wycenia ~57–60% — zgodnie z moją oceną (~57%).",
       "Mecz 3 dni po LM, wczesna godzina, kilku pomocników City niepewnych — ryzyko rotacji.",
-      "Brak rynku z dodatnią wartością."
+      "Brak rynku z dodatnią wartością.",
+      "Kurs City spadł do 1,65 (61%) — jeszcze mniej wartości; X2 1,17 zbyt nisko."
      ]
     },
     "officials": [
@@ -1123,7 +1237,7 @@
      ]
     },
     "odds": {
-     "src": "bets.co.za (1X2, 20.10); BC.Game via oddslot (podwójna szansa, BTTS, O2,5, 23.10); u25 – mightytips/footballpredictions (2,00)",
+     "src": "bets.co.za (1X2, 20.10); BC.Game via oddslot (podwójna szansa, BTTS tak, O2,5, 23.10); footballpredictions.com (u25 2,00, BTTS nie 1,70, DNB 1,14 – 24.10)",
      "1": 1.39,
      "X": 4.33,
      "2": 6.0,
@@ -1132,15 +1246,16 @@
      "1X": 1.1,
      "X2": 2.75,
      "12": 1.18,
-     "bttsY": 2.07
+     "bttsY": 2.07,
+     "bttsN": 1.7,
+     "dnb1": 1.14
     },
     "info": {
      "injuries": {
       "home": [
-       "Bukayo Saka (mięsień czworogłowy – uraz w 10. min z Bayernem; Arteta: „nie wygląda to dobrze”)",
+       "Bukayo Saka (mięsień czworogłowy – poza kadrą, czeka na wyniki badań; kilka tygodni przerwy)",
        "William Saliba (plecy)",
-       "Piero Hincapié (niepewny)",
-       "Christos Tzolis"
+       "Christos Tzolis (udo)"
       ],
       "away": []
      },
@@ -1177,7 +1292,7 @@
       "Brak Saliby osłabia obronę Arsenalu.",
       "Everton ma solidne xG (11,72) — może trafić po stałym fragmencie.",
       "Jedna wczesna bramka Arsenalu może otworzyć mecz.",
-      "Kursy O/U z dwóch porównań (22–23.10); Under 2,5 nadal 2,00."
+      "Kursy O/U potwierdzone 24.10 (Under 2,5 = 2,00); powrót Hincapié wzmacnia obronę, ale nie zmienia oceny."
      ],
      "value": "Kurs 2,00 (50%) vs moja ocena 55% → EV ≈ +10%. Rynek 1X2 bez wartości (Arsenal 1,39–1,50).",
      "stake": "1% bankrollu"
@@ -1215,7 +1330,7 @@
       "name": "Tom Nield"
      }
     ],
-    "notes": "Everton z pełną kadrą (Moyes). Arsenal w cyklu niedziela–środa–sobota; Madueke prawdopodobnie zastąpi Sakę."
+    "notes": "Everton z pełną kadrą (Moyes). Arsenal w cyklu niedziela–środa–sobota; Madueke ma zastąpić Sakę, Eze wraca na lewe skrzydło. Hincapié wrócił do treningów (23.10) i jest dostępny."
    },
    {
     "id": "PL-2026-27-R8-COV-FUL",
@@ -1244,10 +1359,13 @@
      ]
     },
     "odds": {
-     "src": "bets.co.za – 1X2, stan na 20.10.2026",
-     "1": 2.85,
-     "X": 3.3,
-     "2": 2.15
+     "src": "BC.Game via oddslot – stan na 23.10.2026",
+     "1": 3.25,
+     "X": 3.4,
+     "2": 2.2,
+     "1X": 1.67,
+     "X2": 1.33,
+     "12": 1.3
     },
     "info": {
      "injuries": {
@@ -1271,7 +1389,8 @@
      "reasons": [
       "Fulham ma lepsze xG (12,02) niż wynik (7 goli), ale na wyjazdach przegrał 3 z 4 meczów.",
       "Kurs 2,15–2,39 na Fulham wycenia ~42–46% — brak wyraźnej przewagi.",
-      "Coventry ma 4 kontuzjowanych, ale wygrał ostatni mecz u siebie 4:1."
+      "Coventry ma 4 kontuzjowanych, ale wygrał ostatni mecz u siebie 4:1.",
+      "Nowe kursy (Fulham 2,20, X2 1,33) nie zmieniają oceny — brak przewagi."
      ]
     },
     "officials": [
@@ -1335,10 +1454,16 @@
      ]
     },
     "odds": {
-     "src": "bets.co.za – 1X2, stan na 20.10.2026",
-     "1": 1.63,
-     "X": 3.75,
-     "2": 4.1
+     "src": "BC.Game via oddslot (1X2, podwójna szansa – 23.10); footballpredictions.com (O2,5, BTTS, DNB – 24.10)",
+     "1": 1.67,
+     "X": 4.1,
+     "2": 4.75,
+     "1X": 1.18,
+     "X2": 2.15,
+     "12": 1.22,
+     "o25": 1.53,
+     "bttsY": 1.5,
+     "dnb1": 1.33
     },
     "info": {
      "injuries": {
@@ -1346,12 +1471,14 @@
        "Emiliano Martínez (szczęka – po operacji)",
        "Reece James (do poł. stycznia)",
        "Jamie Gittens",
-       "Emmanuel Emegha"
+       "Emmanuel Emegha",
+       "Malo Gusto (niepewny)"
       ],
       "away": [
        "Andy Robertson (uraz z meczu z COV – niepewny)",
        "Tosin Adarabioyo (uraz z meczu z COV – niepewny)",
-       "Pedro Porro (ścięgno – możliwy powrót)"
+       "Pedro Porro (ścięgno – możliwy powrót)",
+       "Omar Marmoush (niepewny)"
       ]
      },
      "homeAway": "CHE u siebie 2W-1R-0P; TOT na wyjeździe 0W-2R-1P",
@@ -1362,7 +1489,9 @@
      "reasons": [
       "Chelsea strzela ponad xG (17 goli z 11,92 xG) — kurs 1,63–1,75 na gospodarzy bez wartości.",
       "Tottenham słaby wynikowo, ale xG 8,83 vs xGA 11,20 — nie na tyle zły, by grać przeciw w derbach.",
-      "Niepewny stan kadry obu drużyn — zbyt duża niepewność."
+      "Niepewny stan kadry obu drużyn — zbyt duża niepewność.",
+      "Kursy 23.10: Chelsea 1,67, X2 2,15 — nadal bez wartości.",
+      "O2,5 1,53 i BTTS 1,50 (~65–67%) — zbyt nisko jak na niepewne składy; brak wartości."
      ]
     },
     "officials": [
@@ -1397,7 +1526,8 @@
       "role": "Asystent VAR",
       "name": "Richard West"
      }
-    ]
+    ],
+    "notes": "Cole Palmer i João Pedro wrócili po drobnych urazach; Malo Gusto pod dużym znakiem zapytania (footballpredictions.com). Marmoush i Robertson niepewni po meczu z Coventry."
    },
    {
     "id": "PL-2026-27-R8-CRY-NEW",
@@ -1426,11 +1556,13 @@
      ]
     },
     "odds": {
-     "src": "bets.co.za – 1X2, stan na 20.10.2026",
-     "1": 2.8,
-     "X": 3.7,
-     "2": 2.35,
-     "o25": 1.61
+     "src": "BC.Game via oddslot – stan na 23.10.2026",
+     "1": 2.88,
+     "X": 3.6,
+     "2": 2.38,
+     "1X": 1.53,
+     "X2": 1.4,
+     "12": 1.28
     },
     "info": {
      "homeAway": "CRY u siebie 1W-0R-2P; NEW na wyjeździe 1W-0R-2P",
@@ -1452,7 +1584,8 @@
      "decision": "NO BET",
      "reasons": [
       "Obie obrony słabe (xGA: CRY 16,04, NEW 13,09) — logiczny kierunek to over 2,5, ale kurs 1,61–1,69 jest za niski.",
-      "1X2 wyceniony blisko mojej oceny."
+      "1X2 wyceniony blisko mojej oceny.",
+      "Palace grało w czwartek w pucharach (3 dni odpoczynku); kursy 2,88/3,60/2,38 blisko uczciwych."
      ]
     },
     "officials": [
@@ -1516,10 +1649,13 @@
      ]
     },
     "odds": {
-     "src": "bets.co.za – 1X2, stan na 20.10.2026",
-     "1": 4.33,
-     "X": 4.0,
-     "2": 1.77
+     "src": "BC.Game via oddslot – stan na 23.10.2026",
+     "1": 5.0,
+     "X": 3.8,
+     "2": 1.7,
+     "1X": 2.1,
+     "X2": 1.17,
+     "12": 1.25
     },
     "info": {
      "injuries": {
@@ -1545,7 +1681,8 @@
      "reasons": [
       "Brentford bez dwóch zawieszonych pomocników (Janelt, Yarmolyuk) i bez wygranej na wyjeździe w sezonie.",
       "Kurs 1,74–1,84 na Brentford wycenia ~55–57% — przy tych brakach to za mało, by grać.",
-      "Hull u siebie niepokonany."
+      "Hull u siebie niepokonany.",
+      "Kurs Brentford skrócił się do 1,70 (59%) mimo braku Janelta i Yarmolyuka — tym bardziej bez wartości."
      ]
     },
     "officials": [
@@ -1580,7 +1717,8 @@
       "role": "Asystent VAR",
       "name": "Alex Chilowicz"
      }
-    ]
+    ],
+    "notes": "Mecz przeniesiony z soboty 24.10 na niedzielę 25.10, 15:00 (Sky Sports)."
    },
    {
     "id": "PL-2026-27-R8-LIV-BHA",
@@ -1609,10 +1747,13 @@
      ]
     },
     "odds": {
-     "src": "bets.co.za – 1X2, stan na 20.10.2026",
-     "1": 2.05,
-     "X": 3.8,
-     "2": 3.3
+     "src": "BC.Game via oddslot – stan na 23.10.2026",
+     "1": 2.15,
+     "X": 3.6,
+     "2": 3.25,
+     "1X": 1.33,
+     "X2": 1.67,
+     "12": 1.28
     },
     "info": {
      "injuries": {
@@ -1640,7 +1781,8 @@
      "decision": "NO BET",
      "reasons": [
       "Liverpool u siebie bez wygranej w lidze (0:3 z City), Brighton w świetnej formie, ale z dużą nadwyżką goli nad xG (23 vs 16,79).",
-      "Rynki wycenione rozsądnie — brak wyraźnej przewagi; duża niepewność."
+      "Rynki wycenione rozsądnie — brak wyraźnej przewagi; duża niepewność.",
+      "Brighton po czwartkowym meczu pucharowym i z 7 kontuzjowanymi, ale Liverpool bez wygranej u siebie; 2,15 na LIV (~47%) zgodne z oceną."
      ]
     },
     "officials": [
@@ -1704,10 +1846,15 @@
      ]
     },
     "odds": {
-     "src": "bets.co.za – 1X2, stan na 20.10.2026",
-     "1": 1.83,
-     "X": 4.0,
-     "2": 3.9
+     "src": "BC.Game via oddslot – stan na 23.10.2026",
+     "1": 2.05,
+     "X": 3.7,
+     "2": 3.4,
+     "1X": 1.3,
+     "X2": 1.73,
+     "12": 1.28,
+     "o25": 1.58,
+     "bttsY": 1.51
     },
     "info": {
      "injuries": {
@@ -1732,7 +1879,8 @@
      "reasons": [
       "Bournemouth ma statystyki lepsze niż wyniki, ale kurs ~3,9–4,1 to typ wysokiego ryzyka.",
       "Kurs 1,83–1,91 na United nie ma wartości przy jego formie (5 meczów bez wygranej).",
-      "Za dużo niewiadomych w składzie United."
+      "Za dużo niewiadomych w składzie United.",
+      "Rynek przesunął się w stronę Bournemouth (United 2,05, BOU 3,40); X2 1,73 (58%) — przy 3 dniach odpoczynku BOU po Milanie brak przewagi."
      ]
     },
     "officials": [
@@ -1796,10 +1944,13 @@
      ]
     },
     "odds": {
-     "src": "bets.co.za – 1X2, stan na 20.10.2026",
-     "1": 2.87,
-     "X": 3.3,
-     "2": 2.5
+     "src": "BC.Game via oddslot – stan na 23.10.2026",
+     "1": 3.2,
+     "X": 3.2,
+     "2": 2.38,
+     "1X": 1.53,
+     "X2": 1.36,
+     "12": 1.36
     },
     "info": {
      "homeAway": "SUN u siebie 1W-0R-2P; LEE na wyjeździe 1W-1R-1P",
@@ -1826,7 +1977,8 @@
     "tip": {
      "decision": "NO BET",
      "reasons": [
-      "Ceny obu drużyn bliskie uczciwym; brak przewagi."
+      "Ceny obu drużyn bliskie uczciwym; brak przewagi.",
+      "Kursy 23.10: 3,20/3,20/2,38; Sunderland po czwartkowym meczu pucharowym — wycena uczciwa."
      ]
     },
     "officials": [

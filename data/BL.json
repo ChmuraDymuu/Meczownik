@@ -1,9 +1,9 @@
 {
- "updated": "2026-10-23T06:40:00+02:00",
+ "updated": "2026-10-24T06:25:00+02:00",
  "season": "2026/27",
  "competition": "Bundesliga",
  "currentRound": 7,
- "note": "Źródła: bundesliga.com, DFB Datencenter, anstosszeiten.de, fussballdaten.de, fussballnationalmannschaft.net, Wikipedia, Wettbasis, Wincomparator, RG.org, Squawka, LiveScore, footballpredictions.com, Gainblers. Godziny w czasie polskim.",
+ "note": "Źródła: bundesliga.com, DFB Datencenter, ZDFheute, t-online, hessenschau.de, IG Schiedsrichter, anstosszeiten.de, fussballdaten.de, fussballnationalmannschaft.net, Wikipedia, Wettbasis, Wincomparator, RG.org, Squawka, FotMob, news.de, ESPN, LiveScore, footballpredictions.com, Gainblers. Godziny w czasie polskim.",
  "teams": {
   "BAY": {
    "id": "BAY",
@@ -298,17 +298,8 @@
    "l": 3,
    "gf": 8,
    "ga": 11,
-   "pts": 7
-  },
-  {
-   "team": "STU",
-   "p": 6,
-   "w": 2,
-   "d": 0,
-   "l": 4,
-   "gf": 8,
-   "ga": 10,
-   "pts": 6
+   "pts": 7,
+   "form": "LDLWL"
   },
   {
    "team": "HOF",
@@ -318,7 +309,19 @@
    "l": 4,
    "gf": 11,
    "ga": 14,
-   "pts": 6
+   "pts": 6,
+   "form": "LWLLW"
+  },
+  {
+   "team": "STU",
+   "p": 7,
+   "w": 2,
+   "d": 0,
+   "l": 5,
+   "gf": 10,
+   "ga": 13,
+   "pts": 6,
+   "form": "LLWLL"
   },
   {
    "team": "SCH",
@@ -328,7 +331,8 @@
    "l": 3,
    "gf": 4,
    "ga": 7,
-   "pts": 5
+   "pts": 5,
+   "form": "DWDLL"
   },
   {
    "team": "PAD",
@@ -354,14 +358,14 @@
   },
   {
    "team": "BMG",
-   "p": 6,
-   "w": 0,
+   "p": 7,
+   "w": 1,
    "d": 0,
    "l": 6,
-   "gf": 8,
-   "ga": 20,
-   "pts": 0,
-   "form": "LLLLL"
+   "gf": 11,
+   "ga": 22,
+   "pts": 3,
+   "form": "LLLLW"
   }
  ],
  "picks": [],
@@ -385,14 +389,120 @@
     ],
     "events": [
      {
+      "m": 24,
+      "t": "yc",
+      "s_": "h",
+      "who": "Mario Götze"
+     },
+     {
+      "m": 39,
+      "t": "yc",
+      "s_": "h",
+      "who": "Lilian Brassier"
+     },
+     {
+      "m": 45,
+      "t": "yc",
+      "s_": "a",
+      "who": "Ísak Jóhannesson"
+     },
+     {
+      "m": 68,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Alessio Castro-Montes",
+      "out": "Joël Schmied"
+     },
+     {
+      "m": 68,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Mikey Moore",
+      "out": "Linton Maina"
+     },
+     {
+      "m": 68,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Paul Okon-Engstler",
+      "out": "Ísak Jóhannesson"
+     },
+     {
+      "m": 71,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Ansgar Knauff",
+      "out": "Nnamdi Collins"
+     },
+     {
+      "m": 71,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Noël Aséko",
+      "out": "Mario Götze"
+     },
+     {
       "m": 77,
       "t": "goal",
       "s_": "h",
       "who": "Younes Ebnoutalib",
       "as": "Noël Aséko"
+     },
+     {
+      "m": 82,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Elias Baum",
+      "out": "Jonathan Burkardt"
+     },
+     {
+      "m": 84,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Reigan Heskey",
+      "out": "Saïd El Mala"
+     },
+     {
+      "m": 84,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Luca Waldschmidt",
+      "out": "Sebastian Sebulonsen"
+     },
+     {
+      "m": 90,
+      "s": "+4",
+      "t": "yc",
+      "s_": "a",
+      "who": "Borna Sosa"
      }
     ],
-    "notes": "Jedyny gol w 77. min (Ebnoutalib, asysta Aséko)."
+    "notes": "Jedyny gol w 77. min (Ebnoutalib po podaniu Aséko). Collins zszedł z urazem (71').",
+    "officials": [
+     {
+      "r": "GŁ",
+      "role": "Sędzia główny",
+      "name": "Benjamin Brand",
+      "nat": "GER"
+     }
+    ],
+    "staff": {
+     "home": [
+      [
+       "Trener",
+       "Adi Hütter"
+      ]
+     ],
+     "away": [
+      [
+       "Trener",
+       "René Wagner"
+      ]
+     ]
+    },
+    "formation": {
+     "home": "4-4-2"
+    }
    },
    {
     "id": "BL-2026-27-R6-UNI-BVB",
@@ -410,8 +520,124 @@
      0,
      0
     ],
-    "events": [],
-    "notes": "Bezbramkowy remis; według relacji sześć żółtych kartek (bez nazwisk w źródle)."
+    "events": [
+     {
+      "m": 1,
+      "t": "yc",
+      "s_": "a",
+      "who": "Ethan Nwaneri"
+     },
+     {
+      "m": 7,
+      "t": "yc",
+      "s_": "a",
+      "who": "Waldemar Anton"
+     },
+     {
+      "m": 14,
+      "t": "yc",
+      "s_": "a",
+      "who": "Serhou Guirassy"
+     },
+     {
+      "m": 33,
+      "t": "yc",
+      "s_": "h",
+      "who": "Janik Haberer"
+     },
+     {
+      "m": 35,
+      "t": "yc",
+      "s_": "h",
+      "who": "Tom Rothe"
+     },
+     {
+      "m": 46,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Emmanuel Latte Lath",
+      "out": "Kastriot Imeri"
+     },
+     {
+      "m": 62,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Fábio Silva",
+      "out": "Ethan Nwaneri"
+     },
+     {
+      "m": 62,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Konstantinos Karetsas",
+      "out": "Maximilian Beier"
+     },
+     {
+      "m": 63,
+      "t": "yc",
+      "s_": "h",
+      "who": "Tim Skarke"
+     },
+     {
+      "m": 70,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Mekhi Gray",
+      "out": "Tim Skarke"
+     },
+     {
+      "m": 70,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Mathis Albert",
+      "out": "Konstantinos Karetsas"
+     },
+     {
+      "m": 76,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Christopher Trimmel",
+      "out": "Janik Haberer"
+     },
+     {
+      "m": 76,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Aljoscha Kemlein",
+      "out": "András Schäfer"
+     },
+     {
+      "m": 90,
+      "s": "+3",
+      "t": "sub",
+      "s_": "h",
+      "inn": "Linus Güther",
+      "out": "Woo-yeong Jeong"
+     }
+    ],
+    "notes": "Bezbramkowy remis. W 1. min sędzia omyłkowo pokazał Nwaneriemu czerwoną kartkę, po czym zmienił ją na żółtą.",
+    "officials": [
+     {
+      "r": "GŁ",
+      "role": "Sędzia główny",
+      "name": "Daniel Schlager",
+      "nat": "GER"
+     }
+    ],
+    "staff": {
+     "home": [
+      [
+       "Trener",
+       "Mauro Lustrinelli"
+      ]
+     ],
+     "away": [
+      [
+       "Trener",
+       "Niko Kovač"
+      ]
+     ]
+    }
    },
    {
     "id": "BL-2026-27-R6-HSV-STU",
@@ -431,13 +657,106 @@
     ],
     "events": [
      {
+      "m": 55,
+      "t": "yc",
+      "s_": "h",
+      "who": "Warmed Omari"
+     },
+     {
+      "m": 61,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Otto Stange",
+      "out": "Yussuf Poulsen"
+     },
+     {
+      "m": 67,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Chris Führich",
+      "out": "Bilal El Khannouss"
+     },
+     {
+      "m": 67,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Grischa Prömel",
+      "out": "Atakan Karazor"
+     },
+     {
+      "m": 77,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Dženan Pejčinović",
+      "out": "Ermedin Demirović"
+     },
+     {
+      "m": 77,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Leo Sauer",
+      "out": "Jamie Leweling"
+     },
+     {
+      "m": 82,
+      "t": "yc",
+      "s_": "h",
+      "who": "Nicolás Capaldo"
+     },
+     {
+      "m": 84,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Kofi Amoako",
+      "out": "Bilal Nadir"
+     },
+     {
+      "m": 85,
+      "t": "yc",
+      "s_": "h",
+      "who": "Otto Stange"
+     },
+     {
       "m": 88,
       "t": "goal",
       "s_": "h",
-      "who": "Miro Muheim"
+      "who": "Miro Muheim",
+      "how": "Lewa noga, ok. 25 m"
+     },
+     {
+      "m": 89,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Lorenz Assignon",
+      "out": "Ramon Hendriks"
      }
     ],
-    "notes": "Zwycięski gol Muheima w 88. min; trzecie z rzędu zwycięstwo HSV."
+    "notes": "Zwycięski gol Muheima w 88. min strzałem z ok. 25 m (zagranie Zakarii El Ouahdiego). W 78. min HSV wprowadził Grønbæka, Moffiego i El Ouahdiego za Adeline'a, Vieirę i Lemkego (źródło nie paruje zmian).",
+    "officials": [
+     {
+      "r": "GŁ",
+      "role": "Sędzia główny",
+      "name": "Robert Hartmann",
+      "nat": "GER"
+     }
+    ],
+    "staff": {
+     "home": [
+      [
+       "Trener",
+       "Merlin Polzin"
+      ]
+     ],
+     "away": [
+      [
+       "Trener",
+       "Sebastian Hoeneß"
+      ]
+     ]
+    },
+    "formation": {
+     "away": "4-2-3-1"
+    }
    },
    {
     "id": "BL-2026-27-R6-BRE-PAD",
@@ -455,7 +774,131 @@
      2,
      2
     ],
-    "notes": "Paderborn prowadził 2:0 do przerwy (Stefano Marino, Steffen Tigges); dwa gole Niclasa Füllkruga w odstępie 7 minut dały Werderowi remis. Minuty bramek niedostępne w źródłach."
+    "notes": "Paderborn prowadził 2:0 do przerwy; Füllkrug strzelił na 1:2 i z karnego (ręka Laurina Curdy po strzale Demana) na 2:2.",
+    "officials": [
+     {
+      "r": "GŁ",
+      "role": "Sędzia główny",
+      "name": "Robert Schröder",
+      "nat": "GER"
+     }
+    ],
+    "staff": {
+     "home": [
+      [
+       "Trener",
+       "Daniel Thioune"
+      ]
+     ],
+     "away": [
+      [
+       "Trener",
+       "Ralf Kettemann"
+      ]
+     ]
+    },
+    "formation": {
+     "home": "3-4-2-1"
+    },
+    "events": [
+     {
+      "m": 4,
+      "t": "yc",
+      "s_": "a",
+      "who": "Stefano Marino"
+     },
+     {
+      "m": 18,
+      "t": "goal",
+      "s_": "a",
+      "who": "Stefano Marino",
+      "how": "Prawa noga"
+     },
+     {
+      "m": 30,
+      "t": "goal",
+      "s_": "a",
+      "who": "Steffen Tigges",
+      "how": "Prawa noga"
+     },
+     {
+      "m": 46,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Mitchell Weiser",
+      "out": "Chuki"
+     },
+     {
+      "m": 59,
+      "t": "goal",
+      "s_": "h",
+      "who": "Niclas Füllkrug",
+      "how": "Lewa noga"
+     },
+     {
+      "m": 63,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Cedric Itten",
+      "out": "Eren Dinkçi"
+     },
+     {
+      "m": 65,
+      "t": "pen",
+      "s_": "h",
+      "who": "Niclas Füllkrug",
+      "res": "Gol"
+     },
+     {
+      "m": 66,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Tom Baack",
+      "out": "Laurin Ulrich"
+     },
+     {
+      "m": 66,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Rayan Philippe",
+      "out": "Stefano Marino"
+     },
+     {
+      "m": 75,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Marvin Pieringer",
+      "out": "Steffen Tigges"
+     },
+     {
+      "m": 75,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Ruben Müller",
+      "out": "Gabriel Vidović"
+     },
+     {
+      "m": 80,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Dariusz Stalmach",
+      "out": "Ludovit Reis"
+     },
+     {
+      "m": 88,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Paul Erevbenagie",
+      "out": "Youri Regeer"
+     },
+     {
+      "m": 88,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Jonah Sticker",
+      "out": "Mattes Hansen"
+     }
+    ]
    },
    {
     "id": "BL-2026-27-R6-SCH-MAI",
@@ -479,8 +922,133 @@
       "t": "goal",
       "s_": "a",
       "who": "Phillip Tietz"
+     },
+     {
+      "m": 42,
+      "t": "yc",
+      "s_": "a",
+      "who": "Nadiem Amiri"
+     },
+     {
+      "m": 45,
+      "t": "yc",
+      "s_": "a",
+      "who": "Kaishu Sano"
+     },
+     {
+      "m": 60,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Éric Dina-Ebimbe",
+      "out": "Adrian Gantenbein"
+     },
+     {
+      "m": 60,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Hee-chan Hwang",
+      "out": "Edin Džeko"
+     },
+     {
+      "m": 71,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Max Wöber",
+      "out": "Nikola Katić"
+     },
+     {
+      "m": 71,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Junior Adamu",
+      "out": "Adil Aouchiche"
+     },
+     {
+      "m": 76,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Ransford Königsdörffer",
+      "out": "Sheraldo Becker"
+     },
+     {
+      "m": 76,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Paul Nebel",
+      "out": "Jae-sung Lee"
+     },
+     {
+      "m": 79,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Vitalie Becker",
+      "out": "Robin Gosens"
+     },
+     {
+      "m": 86,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Eric Martel",
+      "out": "Nadiem Amiri"
+     },
+     {
+      "m": 90,
+      "s": "+1",
+      "t": "sub",
+      "s_": "a",
+      "inn": "Silvan Widmer",
+      "out": "Anthony Caci"
+     },
+     {
+      "m": 90,
+      "s": "+1",
+      "t": "sub",
+      "s_": "a",
+      "inn": "Lennard Maloney",
+      "out": "Phillip Tietz"
      }
-    ]
+    ],
+    "officials": [
+     {
+      "r": "GŁ",
+      "role": "Sędzia główny",
+      "name": "Richard Hempel",
+      "nat": "GER"
+     },
+     {
+      "r": "AS1",
+      "role": "Asystent 1",
+      "name": "Martin Thomsen"
+     },
+     {
+      "r": "AS2",
+      "role": "Asystent 2",
+      "name": "Steven Greif"
+     },
+     {
+      "r": "VAR",
+      "role": "Sędzia VAR",
+      "name": "Robert Kampka"
+     }
+    ],
+    "staff": {
+     "home": [
+      [
+       "Trener",
+       "Miron Muslic"
+      ]
+     ],
+     "away": [
+      [
+       "Trener",
+       "Urs Fischer"
+      ]
+     ]
+    },
+    "formation": {
+     "away": "5-3-2"
+    },
+    "notes": "Tietz trafił w 24. min po niskim dośrodkowaniu Caciego. Schalke wciąż bez gola u siebie."
    },
    {
     "id": "BL-2026-27-R6-ELV-AUG",
@@ -498,7 +1066,181 @@
      4,
      3
     ],
-    "notes": "Elversberg prowadził 3:0 po 28 min (1:0 Lukas Petkov); Augsburg zdobył dwa gole z karnych, gol Raifa Adama anulowany za spalonego, na 4:2 trafił Frederik Schmahl. Pełna lista strzelców niedostępna."
+    "notes": "Elversberg prowadził 3:0 po 28 min; Augsburg odpowiedział dwoma karnymi (Rieder, Gregoritsch). W 79. min gol anulowany za spalonego. Noah Darvich zszedł z urazem (40').",
+    "officials": [
+     {
+      "r": "GŁ",
+      "role": "Sędzia główny",
+      "name": "Florian Exner",
+      "nat": "GER"
+     }
+    ],
+    "attendance": 9307,
+    "formation": {
+     "home": "4-2-3-1",
+     "away": "3-4-2-1"
+    },
+    "events": [
+     {
+      "m": 4,
+      "t": "goal",
+      "s_": "h",
+      "who": "Lukas Petkov"
+     },
+     {
+      "m": 7,
+      "t": "goal",
+      "s_": "h",
+      "who": "Lasse Günther"
+     },
+     {
+      "m": 28,
+      "t": "goal",
+      "s_": "h",
+      "who": "Maximilian Rohr"
+     },
+     {
+      "m": 28,
+      "t": "yc",
+      "s_": "a",
+      "who": "Han-Noah Massengo"
+     },
+     {
+      "m": 30,
+      "t": "yc",
+      "s_": "a",
+      "who": "Rodrigo Ribeiro"
+     },
+     {
+      "m": 40,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Frederik Schmahl",
+      "out": "Noah Darvich"
+     },
+     {
+      "m": 40,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Luca Sirch",
+      "out": "Jan Gyamerah"
+     },
+     {
+      "m": 45,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Jeffrey Gouweleeuw",
+      "out": "Juma Bah"
+     },
+     {
+      "m": 45,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Michael Gregoritsch",
+      "out": "Rodrigo Ribeiro"
+     },
+     {
+      "m": 45,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Anton Kade",
+      "out": "Marius Wolf"
+     },
+     {
+      "m": 45,
+      "s": "+9",
+      "t": "pen",
+      "s_": "a",
+      "who": "Fabian Rieder",
+      "res": "Gol"
+     },
+     {
+      "m": 51,
+      "t": "yc",
+      "s_": "a",
+      "who": "Chrislain Matsima"
+     },
+     {
+      "m": 52,
+      "t": "yc",
+      "s_": "h",
+      "who": "Felix Keidel"
+     },
+     {
+      "m": 74,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Mert Kömür",
+      "out": "Arijon Ibrahimovic"
+     },
+     {
+      "m": 74,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Young-Woo Seol",
+      "out": "Robin Fellhauer"
+     },
+     {
+      "m": 75,
+      "t": "yc",
+      "s_": "h",
+      "who": "Lukas Pinckert"
+     },
+     {
+      "m": 76,
+      "t": "pen",
+      "s_": "a",
+      "who": "Michael Gregoritsch",
+      "res": "Gol"
+     },
+     {
+      "m": 77,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Noel Futkeu",
+      "out": "David Mokwa"
+     },
+     {
+      "m": 78,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Raif Adam",
+      "out": "Maurice Krattenmacher"
+     },
+     {
+      "m": 81,
+      "t": "yc",
+      "s_": "h",
+      "who": "Nicolas Kristof"
+     },
+     {
+      "m": 89,
+      "t": "goal",
+      "s_": "h",
+      "who": "Frederik Schmahl"
+     },
+     {
+      "m": 90,
+      "t": "goal",
+      "s_": "a",
+      "who": "Mert Kömür"
+     },
+     {
+      "m": 90,
+      "s": "+3",
+      "t": "sub",
+      "s_": "h",
+      "inn": "Amara Condé",
+      "out": "Felix Keidel"
+     },
+     {
+      "m": 90,
+      "s": "+4",
+      "t": "yc",
+      "s_": "h",
+      "who": "Frederik Schmahl"
+     }
+    ]
    },
    {
     "id": "BL-2026-27-R6-BAY-RBL",
@@ -701,7 +1443,124 @@
      2,
      1
     ],
-    "notes": "Freiburg prowadził po wczesnym golu Derry'ego Scherhanta; wyrównał Ibrahim Maza (asysta Patrik Schick), zwycięskiego gola w 76. min strzelił Schick (podanie Mazy). Pierwsza porażka Freiburga w sezonie."
+    "notes": "Freiburg prowadził po golu Scherhanta; Maza i Schick odwrócili wynik. Pierwsza porażka Freiburga w sezonie.",
+    "officials": [
+     {
+      "r": "GŁ",
+      "role": "Sędzia główny",
+      "name": "Florian Badstübner",
+      "nat": "GER"
+     },
+     {
+      "r": "AS1",
+      "role": "Asystent 1",
+      "name": "Christof Günsch"
+     },
+     {
+      "r": "AS2",
+      "role": "Asystent 2",
+      "name": "Fabian Maibaum"
+     }
+    ],
+    "staff": {
+     "home": [
+      [
+       "Trener",
+       "Carles Martínez"
+      ]
+     ],
+     "away": [
+      [
+       "Trener",
+       "Julian Schuster"
+      ]
+     ]
+    },
+    "events": [
+     {
+      "m": 14,
+      "t": "goal",
+      "s_": "a",
+      "who": "Derry Scherhant",
+      "as": "Philipp Treu"
+     },
+     {
+      "m": 19,
+      "t": "goal",
+      "s_": "h",
+      "who": "Ibrahim Maza",
+      "as": "Patrik Schick"
+     },
+     {
+      "m": 39,
+      "t": "yc",
+      "s_": "a",
+      "who": "Philipp Treu"
+     },
+     {
+      "m": 59,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Nathan Tella",
+      "out": "Afonso Moreira"
+     },
+     {
+      "m": 64,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Lucas Höler",
+      "out": "Keisuke Goto"
+     },
+     {
+      "m": 64,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Lukas Kübler",
+      "out": "Philipp Treu"
+     },
+     {
+      "m": 73,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Malik Tillman",
+      "out": "Moussa Diaby"
+     },
+     {
+      "m": 76,
+      "t": "goal",
+      "s_": "h",
+      "who": "Patrik Schick",
+      "as": "Ibrahim Maza"
+     },
+     {
+      "m": 77,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Cyriaque Irié",
+      "out": "Jan-Niklas Beste"
+     },
+     {
+      "m": 77,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Patrick Osterhage",
+      "out": "Yannik Engelhardt"
+     },
+     {
+      "m": 84,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Jonas Hofmann",
+      "out": "Ibrahim Maza"
+     },
+     {
+      "m": 89,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Vincenzo Grifo",
+      "out": "Derry Scherhant"
+     }
+    ]
    },
    {
     "id": "BL-2026-27-R6-BMG-HOF",
@@ -845,9 +1704,22 @@
       "s_": "h",
       "inn": "Mathieu Nguefack",
       "out": "Zento Uno"
+     },
+     {
+      "m": 45,
+      "t": "yc",
+      "s_": "h",
+      "who": "Kevin Diks"
+     },
+     {
+      "m": 45,
+      "s": "+1",
+      "t": "yc",
+      "s_": "a",
+      "who": "Fisnik Asllani"
      }
     ],
-    "notes": "Szósta porażka Gladbach w szóstym meczu. Kartki: Kevin Diks (45'), Fisnik Asllani (45+1') – kolor nie podany w źródle."
+    "notes": "Szósta porażka Gladbach w szóstym meczu."
    }
   ],
   "7": [
@@ -857,7 +1729,7 @@
     "time": "20:30",
     "home": "STU",
     "away": "BMG",
-    "status": "ns",
+    "status": "ft",
     "venue": {
      "name": "MHPArena",
      "city": "Stuttgart",
@@ -908,7 +1780,461 @@
       "Over 2,5 po 1,27 i BTTS 1,44 – kursy zbyt niskie wobec niepewności.",
       "Gladbach przegrywa, ale pod Blessinem tylko jednym golem – brak przewagi także na handicapie gości."
      ]
-    }
+    },
+    "officials": [
+     {
+      "r": "GŁ",
+      "role": "Sędzia główny",
+      "name": "Matthias Jöllenbeck",
+      "nat": "GER"
+     },
+     {
+      "r": "AS1",
+      "role": "Asystent 1",
+      "name": "Dominik Schaal"
+     },
+     {
+      "r": "AS2",
+      "role": "Asystent 2",
+      "name": "Jonas Weickenmeier"
+     },
+     {
+      "r": "4.",
+      "role": "Sędzia techniczny",
+      "name": "Tom Bauer"
+     },
+     {
+      "r": "VAR",
+      "role": "Sędzia VAR",
+      "name": "Tobias Stieler"
+     },
+     {
+      "r": "AVAR",
+      "role": "Asystent VAR",
+      "name": "Henrik Bramlage"
+     }
+    ],
+    "score": [
+     2,
+     3
+    ],
+    "attendance": 60000,
+    "weather": {
+     "temp": 11
+    },
+    "staff": {
+     "home": [
+      [
+       "Trener",
+       "Sebastian Hoeneß"
+      ]
+     ],
+     "away": [
+      [
+       "Trener",
+       "Alexander Blessin"
+      ]
+     ]
+    },
+    "formation": {
+     "home": "4-2-3-1",
+     "away": "3-4-2-1"
+    },
+    "players": {
+     "home": [
+      [
+       41,
+       "Dennis Seimen",
+       "BR",
+       "",
+       true
+      ],
+      [
+       22,
+       "Lorenz Assignon",
+       "PO",
+       "",
+       true
+      ],
+      [
+       29,
+       "Finn Jeltsch",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       3,
+       "Ramon Hendriks",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       7,
+       "Maximilian Mittelstädt",
+       "LO",
+       "",
+       true
+      ],
+      [
+       16,
+       "Atakan Karazor",
+       "DP",
+       "",
+       true
+      ],
+      [
+       6,
+       "Angelo Stiller",
+       "DP",
+       "",
+       true
+      ],
+      [
+       44,
+       "Leo Sauer",
+       "PS",
+       "",
+       true
+      ],
+      [
+       10,
+       "Chris Führich",
+       "OP",
+       "",
+       true
+      ],
+      [
+       17,
+       "Dženan Pejčinović",
+       "LS",
+       "",
+       true
+      ],
+      [
+       9,
+       "Ermedin Demirović",
+       "N",
+       "",
+       true
+      ]
+     ],
+     "away": [
+      [
+       1,
+       "Moritz Nicolas",
+       "BR",
+       "",
+       true
+      ],
+      [
+       14,
+       "Daiki Hashioka",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       16,
+       "Philipp Sander",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       2,
+       "Fabio Chiarodia",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       29,
+       "Joe Scally",
+       "PO",
+       "",
+       true
+      ],
+      [
+       47,
+       "Zento Uno",
+       "ŚP",
+       "",
+       true
+      ],
+      [
+       10,
+       "Florian Neuhaus",
+       "ŚP",
+       "",
+       true
+      ],
+      [
+       26,
+       "Lukas Ullrich",
+       "LO",
+       "",
+       true
+      ],
+      [
+       38,
+       "Hugo Bolin",
+       "OP",
+       "",
+       true
+      ],
+      [
+       36,
+       "Wael Mohya",
+       "OP",
+       "",
+       true
+      ],
+      [
+       18,
+       "Shūto Machino",
+       "N",
+       "",
+       true
+      ]
+     ]
+    },
+    "events": [
+     {
+      "m": 5,
+      "t": "goal",
+      "s_": "h",
+      "who": "Ermedin Demirović",
+      "as": "Dženan Pejčinović",
+      "how": "Strzał z ok. 25 m (wolej)"
+     },
+     {
+      "m": 38,
+      "t": "goal",
+      "s_": "a",
+      "who": "Joe Scally",
+      "as": "Zento Uno",
+      "how": "Piętą"
+     },
+     {
+      "m": 43,
+      "t": "yc",
+      "s_": "h",
+      "who": "Leo Sauer"
+     },
+     {
+      "m": 45,
+      "t": "yc",
+      "s_": "h",
+      "who": "Atakan Karazor"
+     },
+     {
+      "m": 45,
+      "s": "+3",
+      "t": "yc",
+      "s_": "a",
+      "who": "Florian Neuhaus"
+     },
+     {
+      "m": 51,
+      "t": "goal",
+      "s_": "a",
+      "who": "Shūto Machino",
+      "as": "Wael Mohya",
+      "how": "Prawa noga"
+     },
+     {
+      "m": 53,
+      "t": "yc",
+      "s_": "a",
+      "who": "Zento Uno"
+     },
+     {
+      "m": 54,
+      "t": "yc",
+      "s_": "a",
+      "who": "Joe Scally"
+     },
+     {
+      "m": 55,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Jamie Leweling",
+      "out": "Lorenz Assignon"
+     },
+     {
+      "m": 55,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Bilal El Khannouss",
+      "out": "Leo Sauer"
+     },
+     {
+      "m": 55,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Deniz Undav",
+      "out": "Dženan Pejčinović"
+     },
+     {
+      "m": 64,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Grischa Prömel",
+      "out": "Atakan Karazor"
+     },
+     {
+      "m": 66,
+      "t": "goal",
+      "s_": "a",
+      "who": "Wael Mohya",
+      "as": "Joe Scally",
+      "how": "Głowa"
+     },
+     {
+      "m": 70,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Robin Hack",
+      "out": "Wael Mohya"
+     },
+     {
+      "m": 70,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Yukhym Konoplya",
+      "out": "Joe Scally"
+     },
+     {
+      "m": 76,
+      "t": "sub",
+      "s_": "a",
+      "inn": "David Herold",
+      "out": "Fabio Chiarodia"
+     },
+     {
+      "m": 79,
+      "t": "yc",
+      "s_": "a",
+      "who": "Lukas Ullrich"
+     },
+     {
+      "m": 83,
+      "t": "goal",
+      "s_": "h",
+      "who": "Ermedin Demirović",
+      "as": "Jamie Leweling",
+      "how": "Głowa"
+     },
+     {
+      "m": 84,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Lion Schweers",
+      "out": "Hugo Bolin"
+     },
+     {
+      "m": 85,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Mathieu Nguefack",
+      "out": "Shūto Machino"
+     },
+     {
+      "m": 90,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Jeff Chabot",
+      "out": "Finn Jeltsch"
+     }
+    ],
+    "teamStats": [
+     [
+      "Posiadanie %",
+      70,
+      30
+     ],
+     [
+      "xG",
+      1.55,
+      2.6
+     ],
+     [
+      "Strzały",
+      15,
+      16
+     ]
+    ],
+    "ind": {
+     "Dennis Seimen": {
+      "r": 6.0
+     },
+     "Lorenz Assignon": {
+      "r": 6.0
+     },
+     "Finn Jeltsch": {
+      "r": 5.1
+     },
+     "Ramon Hendriks": {
+      "r": 7.0
+     },
+     "Maximilian Mittelstädt": {
+      "r": 7.3
+     },
+     "Atakan Karazor": {
+      "r": 6.7
+     },
+     "Angelo Stiller": {
+      "r": 6.9
+     },
+     "Leo Sauer": {
+      "r": 6.6
+     },
+     "Chris Führich": {
+      "r": 7.7
+     },
+     "Dženan Pejčinović": {
+      "r": 6.8
+     },
+     "Ermedin Demirović": {
+      "r": 8.7
+     },
+     "Moritz Nicolas": {
+      "r": 5.6
+     },
+     "Daiki Hashioka": {
+      "r": 7.0
+     },
+     "Philipp Sander": {
+      "r": 7.2
+     },
+     "Fabio Chiarodia": {
+      "r": 7.4
+     },
+     "Joe Scally": {
+      "r": 8.2
+     },
+     "Zento Uno": {
+      "r": 7.1
+     },
+     "Florian Neuhaus": {
+      "r": 8.0
+     },
+     "Lukas Ullrich": {
+      "r": 7.2
+     },
+     "Hugo Bolin": {
+      "r": 7.5
+     },
+     "Wael Mohya": {
+      "r": 8.9
+     },
+     "Shūto Machino": {
+      "r": 7.7
+     }
+    },
+    "notes": "Pierwsze punkty Gladbach w sezonie (uniknięcie rekordowego 0/7). Stuttgart po środowym 1:1 z Atlético w LM zrobił 6 zmian w składzie. Mohya trafił też w poprzeczkę (45+'), wybrany graczem meczu. xG wg Bundesliga.com: 1,19–2,38; w tabeli statystyk xG wg FotMob. Oceny: FotMob."
    },
    {
     "id": "BL-2026-27-R7-RBL-ELV",
@@ -953,7 +2279,40 @@
       "Lipsk po środowym meczu LM w Madrycie – możliwa rotacja.",
       "Over 2,5 (1,29) i BTTS (1,40) zbyt nisko wycenione na value."
      ]
-    }
+    },
+    "officials": [
+     {
+      "r": "GŁ",
+      "role": "Sędzia główny",
+      "name": "Bastian Dankert",
+      "nat": "GER"
+     },
+     {
+      "r": "AS1",
+      "role": "Asystent 1",
+      "name": "René Rohde"
+     },
+     {
+      "r": "AS2",
+      "role": "Asystent 2",
+      "name": "Marcel Unger"
+     },
+     {
+      "r": "4.",
+      "role": "Sędzia techniczny",
+      "name": "Richard Hempel"
+     },
+     {
+      "r": "VAR",
+      "role": "Sędzia VAR",
+      "name": "Pascal Müller"
+     },
+     {
+      "r": "AVAR",
+      "role": "Asystent VAR",
+      "name": "Arne Aarnink"
+     }
+    ]
    },
    {
     "id": "BL-2026-27-R7-AUG-UNI",
@@ -999,7 +2358,40 @@
       "Augsburg 1,82 (≈55%) – szacuję ok. 50–52%, EV ujemne.",
       "Lista absencji w źródle bez przypisania do drużyn – zbyt duża niepewność."
      ]
-    }
+    },
+    "officials": [
+     {
+      "r": "GŁ",
+      "role": "Sędzia główny",
+      "name": "Robin Braun",
+      "nat": "GER"
+     },
+     {
+      "r": "AS1",
+      "role": "Asystent 1",
+      "name": "Florian Heft"
+     },
+     {
+      "r": "AS2",
+      "role": "Asystent 2",
+      "name": "Asmir Osmanagic"
+     },
+     {
+      "r": "4.",
+      "role": "Sędzia techniczny",
+      "name": "Marc-Philip Eckermann"
+     },
+     {
+      "r": "VAR",
+      "role": "Sędzia VAR",
+      "name": "Patrick Hanslbauer"
+     },
+     {
+      "r": "AVAR",
+      "role": "Asystent VAR",
+      "name": "Michael Bacher"
+     }
+    ]
    },
    {
     "id": "BL-2026-27-R7-MAI-BRE",
@@ -1045,7 +2437,40 @@
       "Value na X2 opierałoby się głównie na serii Werderu i H2H – regulamin tego zabrania.",
       "Absencje podane bez przypisania do drużyn."
      ]
-    }
+    },
+    "officials": [
+     {
+      "r": "GŁ",
+      "role": "Sędzia główny",
+      "name": "Florian Badstübner",
+      "nat": "GER"
+     },
+     {
+      "r": "AS1",
+      "role": "Asystent 1",
+      "name": "Markus Schüller"
+     },
+     {
+      "r": "AS2",
+      "role": "Asystent 2",
+      "name": "Philipp Hüwe"
+     },
+     {
+      "r": "4.",
+      "role": "Sędzia techniczny",
+      "name": "Felix Prigan"
+     },
+     {
+      "r": "VAR",
+      "role": "Sędzia VAR",
+      "name": "Nicolas Winter"
+     },
+     {
+      "r": "AVAR",
+      "role": "Asystent VAR",
+      "name": "Felix-Benjamin Schwermer"
+     }
+    ]
    },
    {
     "id": "BL-2026-27-R7-KOE-SCH",
@@ -1089,7 +2514,40 @@
       "DNB Köln 1,53: EV ≈ +2% – za mało przy niepewnym składzie Schalke (Džeko).",
       "Brak pełnych kursów na under 2,5 – nie mogę ocenić rynku goli."
      ]
-    }
+    },
+    "officials": [
+     {
+      "r": "GŁ",
+      "role": "Sędzia główny",
+      "name": "Harm Osmers",
+      "nat": "GER"
+     },
+     {
+      "r": "AS1",
+      "role": "Asystent 1",
+      "name": "Christian Gittelmann"
+     },
+     {
+      "r": "AS2",
+      "role": "Asystent 2",
+      "name": "Christian Dietz"
+     },
+     {
+      "r": "4.",
+      "role": "Sędzia techniczny",
+      "name": "Florian Exner"
+     },
+     {
+      "r": "VAR",
+      "role": "Sędzia VAR",
+      "name": "Johann Pfeifer"
+     },
+     {
+      "r": "AVAR",
+      "role": "Asystent VAR",
+      "name": "Markus Sinn"
+     }
+    ]
    },
    {
     "id": "BL-2026-27-R7-PAD-HSV",
@@ -1124,7 +2582,40 @@
       "Wyrównany mecz – BETSiE 40/24/36, rynek podobnie; brak przewagi.",
       "Seria HSV oparta na wąskich zwycięstwach przy xG/bilansie bramek słabym."
      ]
-    }
+    },
+    "officials": [
+     {
+      "r": "GŁ",
+      "role": "Sędzia główny",
+      "name": "Martin Petersen",
+      "nat": "GER"
+     },
+     {
+      "r": "AS1",
+      "role": "Asystent 1",
+      "name": "Robert Wessel"
+     },
+     {
+      "r": "AS2",
+      "role": "Asystent 2",
+      "name": "Alexander Sather"
+     },
+     {
+      "r": "4.",
+      "role": "Sędzia techniczny",
+      "name": "Daniel Schlager"
+     },
+     {
+      "r": "VAR",
+      "role": "Sędzia VAR",
+      "name": "Tobias Welz"
+     },
+     {
+      "r": "AVAR",
+      "role": "Asystent VAR",
+      "name": "Benjamin Cortus"
+     }
+    ]
    },
    {
     "id": "BL-2026-27-R7-BVB-EIN",
@@ -1169,7 +2660,40 @@
       "Over 3,5 po 1,88: model (λ≈3,2) daje ok. 40% wobec 53% z kursu.",
       "BTTS tak 1,47 (≈68%) – szacuję ok. 56%."
      ]
-    }
+    },
+    "officials": [
+     {
+      "r": "GŁ",
+      "role": "Sędzia główny",
+      "name": "Sven Jablonski",
+      "nat": "GER"
+     },
+     {
+      "r": "AS1",
+      "role": "Asystent 1",
+      "name": "Eduard Beitinger"
+     },
+     {
+      "r": "AS2",
+      "role": "Asystent 2",
+      "name": "Martin Thomsen"
+     },
+     {
+      "r": "4.",
+      "role": "Sędzia techniczny",
+      "name": "Felix Bickel"
+     },
+     {
+      "r": "VAR",
+      "role": "Sędzia VAR",
+      "name": "Sören Storks"
+     },
+     {
+      "r": "AVAR",
+      "role": "Asystent VAR",
+      "name": "Markus Wollenweber"
+     }
+    ]
    },
    {
     "id": "BL-2026-27-R7-HOF-LEV",
@@ -1215,7 +2739,40 @@
       "Over 2,5 po 1,35 (≈74%) – model ok. 64%.",
       "Oba zespoły występują w Lidze Europy – ryzyko zmęczenia i rotacji."
      ]
-    }
+    },
+    "officials": [
+     {
+      "r": "GŁ",
+      "role": "Sędzia główny",
+      "name": "Daniel Siebert",
+      "nat": "GER"
+     },
+     {
+      "r": "AS1",
+      "role": "Asystent 1",
+      "name": "Jan Seidel"
+     },
+     {
+      "r": "AS2",
+      "role": "Asystent 2",
+      "name": "Rafael Foltyn"
+     },
+     {
+      "r": "4.",
+      "role": "Sędzia techniczny",
+      "name": "Robert Hartmann"
+     },
+     {
+      "r": "VAR",
+      "role": "Sędzia VAR",
+      "name": "Benjamin Cortus"
+     },
+     {
+      "r": "AVAR",
+      "role": "Asystent VAR",
+      "name": "Christian Fischer"
+     }
+    ]
    },
    {
     "id": "BL-2026-27-R7-SCF-BAY",
@@ -1257,7 +2814,40 @@
       "Freiburg przegrał dwa ostatnie mecze – forma nie potwierdza typu.",
       "Zbyt duża niepewność → NO BET."
      ]
-    }
+    },
+    "officials": [
+     {
+      "r": "GŁ",
+      "role": "Sędzia główny",
+      "name": "Felix Zwayer",
+      "nat": "GER"
+     },
+     {
+      "r": "AS1",
+      "role": "Asystent 1",
+      "name": "Robert Kempter"
+     },
+     {
+      "r": "AS2",
+      "role": "Asystent 2",
+      "name": "Nikolai Kimmeyer"
+     },
+     {
+      "r": "4.",
+      "role": "Sędzia techniczny",
+      "name": "Robert Schröder"
+     },
+     {
+      "r": "VAR",
+      "role": "Sędzia VAR",
+      "name": "Christian Dingert"
+     },
+     {
+      "r": "AVAR",
+      "role": "Asystent VAR",
+      "name": "Mike Pickel"
+     }
+    ]
    }
   ],
   "8": [

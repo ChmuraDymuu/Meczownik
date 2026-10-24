@@ -1,9 +1,9 @@
 {
- "updated": "2026-10-23T05:47:47+02:00",
+ "updated": "2026-10-24T05:48:00+02:00",
  "season": "2026/27",
  "competition": "Serie A",
  "currentRound": 8,
- "note": "Źródła: Sky Sport (terminarz, wyniki, tabela, sędziowie 8. kolejki), Wikipedia (stadiony, trenerzy), Affaritaliani/OA Sport (strzelcy 7. kolejki), SOS Fanta/Calcio e Finanza (godziny), Oddsportal, RG.org, diretta.it (kursy, statystyki), fantacalcio-online.com (kontuzje), UEFA (puchary). 7. kolejka bez pełnych składów i statystyk. Godziny w czasie polskim (= włoskim).",
+ "note": "Źródła: Sky Sport (terminarz, tabela, sędziowie), Wikipedia (stadiony, trenerzy), Eurosport.it, Goal.com, TMW, Virgilio Sport (Torino–Monza: gole, zmiany, składy, numery, oceny TMW), Affaritaliani/OA Sport, SOS Fanta/Calcio e Finanza (godziny), Oddsportal, FC Inter 1908 (porównanie kursów 23.10), RG.org, diretta.it, stadiosport.it (kursy, statystyki), fantacalcio-online.com (kontuzje), UEFA (puchary). Pełne składy dla meczów z 19.10 i 23.10; pozostałe mecze 7. kolejki tylko z wynikami i częścią strzelców. Godziny w czasie polskim (= włoskim).",
  "teams": {
   "ATA": {
    "id": "ATA",
@@ -254,6 +254,17 @@
    "form": "WDWLW"
   },
   {
+   "team": "TOR",
+   "p": 8,
+   "w": 4,
+   "d": 1,
+   "l": 3,
+   "gf": 13,
+   "ga": 11,
+   "pts": 13,
+   "form": "LDWWW"
+  },
+  {
    "team": "CAG",
    "p": 7,
    "w": 4,
@@ -285,17 +296,6 @@
    "ga": 7,
    "pts": 10,
    "form": "LWDWL"
-  },
-  {
-   "team": "TOR",
-   "p": 7,
-   "w": 3,
-   "d": 1,
-   "l": 3,
-   "gf": 10,
-   "ga": 9,
-   "pts": 10,
-   "form": "WLDWW"
   },
   {
    "team": "ATA",
@@ -332,14 +332,14 @@
   },
   {
    "team": "MON",
-   "p": 7,
+   "p": 8,
    "w": 2,
    "d": 1,
-   "l": 4,
-   "gf": 13,
-   "ga": 15,
+   "l": 5,
+   "gf": 15,
+   "ga": 18,
    "pts": 7,
-   "form": "DLWLW"
+   "form": "LWLWL"
   },
   {
    "team": "BOL",
@@ -408,12 +408,7 @@
    "form": "LLLLW"
   }
  ],
- "picks": [
-  {
-   "match": "SA-2026-27-R8-TOR-MON",
-   "rank": 1
-  }
- ],
+ "picks": [],
  "rounds": {
   "7": [
    {
@@ -773,11 +768,118 @@
       "s_": "h",
       "who": "Kouadio",
       "as": "Mota"
+     },
+     {
+      "m": 47,
+      "t": "goal",
+      "s_": "h",
+      "who": "Varela"
+     },
+     {
+      "m": 53,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Fadera",
+      "out": "Nzola"
+     },
+     {
+      "m": 64,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Colpani",
+      "out": "Mota"
+     },
+     {
+      "m": 66,
+      "t": "goal",
+      "s_": "h",
+      "who": "Robinson",
+      "as": "Varela"
+     },
+     {
+      "m": 67,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Sugawara",
+      "out": "Zé Pedro"
+     },
+     {
+      "m": 67,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Kevin Carlos",
+      "out": "Maldini"
+     },
+     {
+      "m": 77,
+      "t": "yc",
+      "s_": "a",
+      "who": "Winks"
+     },
+     {
+      "m": 79,
+      "t": "goal",
+      "s_": "h",
+      "who": "Varela"
+     },
+     {
+      "m": 81,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Bakoune",
+      "out": "Kouadio"
+     },
+     {
+      "m": 81,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Folorunsho",
+      "out": "Akinsanmiro"
+     },
+     {
+      "m": 81,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Cutrone",
+      "out": "Varela"
+     },
+     {
+      "m": 81,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Liteta",
+      "out": "Winks"
+     },
+     {
+      "m": 81,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Deiola",
+      "out": "Romano"
+     },
+     {
+      "m": 82,
+      "t": "yc",
+      "s_": "a",
+      "who": "Fadera"
+     },
+     {
+      "m": 83,
+      "t": "yc",
+      "s_": "h",
+      "who": "Birindelli"
+     },
+     {
+      "m": 87,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Forson",
+      "out": "Robinson"
      }
     ],
-    "notes": "Strzelcy: Kouadio 39' (as. Mota), Varela 2 gole (pierwszy tuż po przerwie), Robinson (as. Varela). Bramkarz Cagliari: Caprile.",
+    "notes": "Tabelka wg TMW i fantacalcio.it. Numery koszulek, pełna ławka, frekwencja i statystyki drużynowe niepodane w źródłach. Minuty kartek z osi czasu fantacalcio.it.",
     "venue": {
-     "name": "Stadio Brianteo",
+     "name": "U-Power Stadium (Stadio Brianteo)",
      "city": "Monza",
      "capacity": 17102
     },
@@ -794,7 +896,249 @@
        "Fabio Pisacane"
       ]
      ]
-    }
+    },
+    "formation": {
+     "home": "3-4-2-1",
+     "away": "4-3-1-2"
+    },
+    "players": {
+     "home": [
+      [
+       "",
+       "Törnqvist",
+       "BR",
+       "",
+       true
+      ],
+      [
+       "",
+       "Kouadio",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       "",
+       "Goglichidze",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       "",
+       "Carboni",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       "",
+       "Birindelli",
+       "PO",
+       "",
+       true
+      ],
+      [
+       "",
+       "Foe Ondoa",
+       "ŚP",
+       "",
+       true
+      ],
+      [
+       "",
+       "Akinsanmiro",
+       "ŚP",
+       "",
+       true
+      ],
+      [
+       "",
+       "Mangas",
+       "LO",
+       "",
+       true
+      ],
+      [
+       "",
+       "Mota",
+       "OP",
+       "",
+       true
+      ],
+      [
+       "",
+       "Robinson",
+       "OP",
+       "",
+       true
+      ],
+      [
+       "",
+       "Varela",
+       "N",
+       "",
+       true
+      ],
+      [
+       "",
+       "Colpani",
+       "",
+       "",
+       false
+      ],
+      [
+       "",
+       "Bakoune",
+       "",
+       "",
+       false
+      ],
+      [
+       "",
+       "Folorunsho",
+       "",
+       "",
+       false
+      ],
+      [
+       "",
+       "Cutrone",
+       "",
+       "",
+       false
+      ],
+      [
+       "",
+       "Forson",
+       "",
+       "",
+       false
+      ]
+     ],
+     "away": [
+      [
+       "",
+       "Caprile",
+       "BR",
+       "",
+       true
+      ],
+      [
+       "",
+       "Zé Pedro",
+       "PO",
+       "",
+       true
+      ],
+      [
+       "",
+       "Mina",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       "",
+       "Rodríguez",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       "",
+       "Obert",
+       "LO",
+       "",
+       true
+      ],
+      [
+       "",
+       "Adopo",
+       "ŚP",
+       "",
+       true
+      ],
+      [
+       "",
+       "Winks",
+       "DP",
+       "",
+       true
+      ],
+      [
+       "",
+       "Romano",
+       "ŚP",
+       "",
+       true
+      ],
+      [
+       "",
+       "Maldini",
+       "OP",
+       "",
+       true
+      ],
+      [
+       "",
+       "Mendy",
+       "N",
+       "",
+       true
+      ],
+      [
+       "",
+       "Nzola",
+       "N",
+       "",
+       true
+      ],
+      [
+       "",
+       "Fadera",
+       "",
+       "",
+       false
+      ],
+      [
+       "",
+       "Sugawara",
+       "",
+       "",
+       false
+      ],
+      [
+       "",
+       "Kevin Carlos",
+       "",
+       "",
+       false
+      ],
+      [
+       "",
+       "Liteta",
+       "",
+       "",
+       false
+      ],
+      [
+       "",
+       "Deiola",
+       "",
+       "",
+       false
+      ]
+     ]
+    },
+    "officials": [
+     {
+      "r": "GŁ",
+      "role": "Sędzia główny",
+      "name": "Calzavara",
+      "nat": "ITA"
+     }
+    ]
    },
    {
     "id": "SA-2026-27-R7-PAR-TOR",
@@ -812,17 +1156,126 @@
       "m": 4,
       "t": "goal",
       "s_": "a",
-      "who": "Giovanni Simeone",
+      "who": "Simeone",
       "as": "Belghali"
      },
      {
       "m": 24,
       "t": "goal",
       "s_": "a",
-      "who": "Adams"
+      "who": "Adams",
+      "how": "Głowa"
+     },
+     {
+      "m": 28,
+      "t": "yc",
+      "s_": "h",
+      "who": "Diego Carlos"
+     },
+     {
+      "m": 37,
+      "t": "yc",
+      "s_": "a",
+      "who": "Ismajli"
+     },
+     {
+      "m": 46,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Lontani",
+      "out": "Fabbian"
+     },
+     {
+      "m": 46,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Drobnic",
+      "out": "Diego Carlos"
+     },
+     {
+      "m": 54,
+      "t": "yc",
+      "s_": "h",
+      "who": "Britschgi"
+     },
+     {
+      "m": 63,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Gineitis",
+      "out": "Mandragora"
+     },
+     {
+      "m": 63,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Kulenović",
+      "out": "Adams"
+     },
+     {
+      "m": 69,
+      "t": "goal",
+      "s_": "a",
+      "who": "Simeone",
+      "as": "Belghali"
+     },
+     {
+      "m": 71,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Diallo",
+      "out": "Britschgi"
+     },
+     {
+      "m": 71,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Frigan",
+      "out": "Touré"
+     },
+     {
+      "m": 72,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Casadei",
+      "out": "Vlašić"
+     },
+     {
+      "m": 72,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Aboukhlal",
+      "out": "Belghali"
+     },
+     {
+      "m": 75,
+      "t": "yc",
+      "s_": "a",
+      "who": "Comuzzo"
+     },
+     {
+      "m": 81,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Ordóñez",
+      "out": "Bernabé"
+     },
+     {
+      "m": 82,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Zapata",
+      "out": "Simeone"
+     },
+     {
+      "m": 90,
+      "t": "yc",
+      "s_": "h",
+      "who": "Troilo",
+      "s": "+2"
      }
     ],
-    "notes": "Strzelcy: Simeone 4' (as. Belghali) i w 2. połowie (as. Belghali), Adams ok. 24' (głową po rykoszecie).",
+    "notes": "Tabelka wg Toro.it i fantacalcio.it. Doliczony czas: 1' i 3'. Bez czerwonych kartek. Asysty Belghaliego wg opisu akcji (OA Sport, Toro.it). Numery koszulek, frekwencja i statystyki niepodane.",
     "venue": {
      "name": "Stadio Ennio Tardini",
      "city": "Parma",
@@ -841,7 +1294,398 @@
        "Ignazio Abate"
       ]
      ]
-    }
+    },
+    "formation": {
+     "home": "3-5-2",
+     "away": "3-5-2"
+    },
+    "players": {
+     "home": [
+      [
+       "",
+       "Corvi",
+       "BR",
+       "",
+       true
+      ],
+      [
+       "",
+       "Troilo",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       "",
+       "Diego Carlos",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       "",
+       "Delprato",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       "",
+       "Britschgi",
+       "PO",
+       "",
+       true
+      ],
+      [
+       "",
+       "Fabbian",
+       "ŚP",
+       "",
+       true
+      ],
+      [
+       "",
+       "Bernabé",
+       "ŚP",
+       "",
+       true
+      ],
+      [
+       "",
+       "Keita",
+       "ŚP",
+       "",
+       true
+      ],
+      [
+       "",
+       "Valeri",
+       "LO",
+       "",
+       true
+      ],
+      [
+       "",
+       "Touré",
+       "N",
+       "",
+       true
+      ],
+      [
+       "",
+       "Romero",
+       "N",
+       "",
+       true
+      ],
+      [
+       "",
+       "Lontani",
+       "",
+       "",
+       false
+      ],
+      [
+       "",
+       "Drobnic",
+       "",
+       "",
+       false
+      ],
+      [
+       "",
+       "Diallo",
+       "",
+       "",
+       false
+      ],
+      [
+       "",
+       "Frigan",
+       "",
+       "",
+       false
+      ],
+      [
+       "",
+       "Ordóñez",
+       "",
+       "",
+       false
+      ],
+      [
+       "",
+       "Daffara",
+       "",
+       "",
+       false
+      ],
+      [
+       "",
+       "Ghidotti",
+       "",
+       "",
+       false
+      ],
+      [
+       "",
+       "Ndiaye",
+       "",
+       "",
+       false
+      ],
+      [
+       "",
+       "Carboni",
+       "",
+       "",
+       false
+      ],
+      [
+       "",
+       "Sierro",
+       "",
+       "",
+       false
+      ],
+      [
+       "",
+       "De Martis",
+       "",
+       "",
+       false
+      ],
+      [
+       "",
+       "Cremaschi",
+       "",
+       "",
+       false
+      ],
+      [
+       "",
+       "Konate",
+       "",
+       "",
+       false
+      ]
+     ],
+     "away": [
+      [
+       "",
+       "Perri",
+       "BR",
+       "",
+       true
+      ],
+      [
+       "",
+       "Comuzzo",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       "",
+       "Coco",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       "",
+       "Ismajli",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       "",
+       "Belghali",
+       "PO",
+       "",
+       true
+      ],
+      [
+       "",
+       "Vlašić",
+       "ŚP",
+       "",
+       true
+      ],
+      [
+       "",
+       "Mandragora",
+       "ŚP",
+       "",
+       true
+      ],
+      [
+       "",
+       "Bragança",
+       "ŚP",
+       "",
+       true
+      ],
+      [
+       "",
+       "Cacciamani",
+       "LO",
+       "",
+       true
+      ],
+      [
+       "",
+       "Adams",
+       "N",
+       "",
+       true
+      ],
+      [
+       "",
+       "Simeone",
+       "N",
+       "",
+       true
+      ],
+      [
+       "",
+       "Gineitis",
+       "",
+       "",
+       false
+      ],
+      [
+       "",
+       "Kulenović",
+       "",
+       "",
+       false
+      ],
+      [
+       "",
+       "Casadei",
+       "",
+       "",
+       false
+      ],
+      [
+       "",
+       "Aboukhlal",
+       "",
+       "",
+       false
+      ],
+      [
+       "",
+       "Zapata",
+       "",
+       "",
+       false
+      ],
+      [
+       "",
+       "Mascardi",
+       "",
+       "",
+       false
+      ],
+      [
+       "",
+       "Siviero",
+       "",
+       "",
+       false
+      ],
+      [
+       "",
+       "Patterson",
+       "",
+       "",
+       false
+      ],
+      [
+       "",
+       "Biraghi",
+       "",
+       "",
+       false
+      ],
+      [
+       "",
+       "Rodríguez",
+       "",
+       "",
+       false
+      ],
+      [
+       "",
+       "Cömert",
+       "",
+       "",
+       false
+      ],
+      [
+       "",
+       "Fitz-Jim",
+       "",
+       "",
+       false
+      ],
+      [
+       "",
+       "Oristanio",
+       "",
+       "",
+       false
+      ],
+      [
+       "",
+       "Pellegri",
+       "",
+       "",
+       false
+      ]
+     ]
+    },
+    "officials": [
+     {
+      "r": "GŁ",
+      "role": "Sędzia główny",
+      "name": "Ayroldi",
+      "nat": "ITA"
+     },
+     {
+      "r": "AS1",
+      "role": "Asystent 1",
+      "name": "Colarossi",
+      "nat": "ITA"
+     },
+     {
+      "r": "AS2",
+      "role": "Asystent 2",
+      "name": "Rinaldi",
+      "nat": "ITA"
+     },
+     {
+      "r": "4.",
+      "role": "Sędzia techniczny",
+      "name": "Arena",
+      "nat": "ITA"
+     },
+     {
+      "r": "VAR",
+      "role": "Sędzia VAR",
+      "name": "Dionisi",
+      "nat": "ITA"
+     },
+     {
+      "r": "AVAR",
+      "role": "Asystent VAR",
+      "name": "Meraviglia",
+      "nat": "ITA"
+     }
+    ]
    }
   ],
   "8": [
@@ -851,12 +1695,42 @@
     "time": "20:45",
     "home": "TOR",
     "away": "MON",
-    "status": "ns",
+    "status": "ft",
     "officials": [
      {
       "r": "GŁ",
       "role": "Sędzia główny",
-      "name": "Zanotti",
+      "name": "Matteo Marchetti",
+      "nat": "ITA"
+     },
+     {
+      "r": "AS1",
+      "role": "Asystent 1",
+      "name": "Lo Cicero",
+      "nat": "ITA"
+     },
+     {
+      "r": "AS2",
+      "role": "Asystent 2",
+      "name": "Laghezza",
+      "nat": "ITA"
+     },
+     {
+      "r": "4.",
+      "role": "Sędzia techniczny",
+      "name": "Massa",
+      "nat": "ITA"
+     },
+     {
+      "r": "VAR",
+      "role": "Sędzia VAR",
+      "name": "Massimi",
+      "nat": "ITA"
+     },
+     {
+      "r": "AVAR",
+      "role": "Asystent VAR",
+      "name": "Camplone",
       "nat": "ITA"
      }
     ],
@@ -948,6 +1822,440 @@
        "Ivan Jurić"
       ]
      ]
+    },
+    "notes": "Do przerwy 1:0. Żółta kartka: Ismajli (TOR) – minuta niepodana w źródłach. Bez czerwonych kartek. Gol na 3:2 w 94. min – samobój Pattersona po dośrodkowaniu Ngonge. Gol Vlašicia po rykoszecie przy dośrodkowaniu Belghaliego (asysta niepewna – pominięta). Źródła różnią się co do par zmian w 71. i 79. min (przyjęto wersję Eurosport/TMW) oraz ustawienia Torino (3-5-2 vs 3-4-1-2). Oceny: TMW. Numery rezerwowych, frekwencja i statystyki drużynowe niepodane. Torino trzecie zwycięstwo z rzędu i wyprzedziło Juventus. Typ „Powyżej 2,5 gola” (1,95) – wygrany.",
+    "score": [
+     3,
+     2
+    ],
+    "formation": {
+     "home": "3-5-2",
+     "away": "3-4-2-1"
+    },
+    "players": {
+     "home": [
+      [
+       20,
+       "Perri",
+       "BR",
+       "",
+       true
+      ],
+      [
+       23,
+       "Coco",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       44,
+       "Ismajli",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       15,
+       "Comuzzo",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       45,
+       "Belghali",
+       "PO",
+       "",
+       true
+      ],
+      [
+       10,
+       "Vlašić",
+       "ŚP",
+       "",
+       true
+      ],
+      [
+       8,
+       "Mandragora",
+       "ŚP",
+       "",
+       true
+      ],
+      [
+       28,
+       "Fitz-Jim",
+       "ŚP",
+       "",
+       true
+      ],
+      [
+       77,
+       "Cacciamani",
+       "LO",
+       "",
+       true
+      ],
+      [
+       19,
+       "Adams",
+       "N",
+       "",
+       true
+      ],
+      [
+       18,
+       "Simeone",
+       "N",
+       "",
+       true
+      ],
+      [
+       "",
+       "Gineitis",
+       "ŚP",
+       "",
+       false
+      ],
+      [
+       "",
+       "Bragança",
+       "ŚP",
+       "",
+       false
+      ],
+      [
+       "",
+       "Patterson",
+       "ŚO",
+       "",
+       false
+      ],
+      [
+       "",
+       "Kulenović",
+       "N",
+       "",
+       false
+      ],
+      [
+       "",
+       "Aboukhlal",
+       "PS",
+       "",
+       false
+      ]
+     ],
+     "away": [
+      [
+       1,
+       "Törnqvist",
+       "BR",
+       "",
+       true
+      ],
+      [
+       2,
+       "Goglichidze",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       3,
+       "Lucchesi",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       44,
+       "Carboni",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       19,
+       "Birindelli",
+       "PO",
+       "",
+       true
+      ],
+      [
+       14,
+       "Akinsanmiro",
+       "ŚP",
+       "",
+       true
+      ],
+      [
+       8,
+       "Foe Ondoa",
+       "ŚP",
+       "",
+       true
+      ],
+      [
+       7,
+       "Mangas",
+       "LO",
+       "",
+       true
+      ],
+      [
+       47,
+       "Mota",
+       "OP",
+       "",
+       true
+      ],
+      [
+       46,
+       "Robinson",
+       "OP",
+       "",
+       true
+      ],
+      [
+       9,
+       "Varela",
+       "N",
+       "",
+       true
+      ],
+      [
+       "",
+       "Kouadio",
+       "ŚO",
+       "",
+       false
+      ],
+      [
+       "",
+       "Folorunsho",
+       "ŚP",
+       "",
+       false
+      ],
+      [
+       "",
+       "Cutrone",
+       "N",
+       "",
+       false
+      ],
+      [
+       "",
+       "Ngonge",
+       "PS",
+       "",
+       false
+      ],
+      [
+       "",
+       "Mout",
+       "",
+       "",
+       false
+      ]
+     ]
+    },
+    "events": [
+     {
+      "m": 39,
+      "t": "goal",
+      "s_": "h",
+      "who": "Fitz-Jim",
+      "as": "Simeone",
+      "how": "Lewa noga"
+     },
+     {
+      "m": 47,
+      "t": "goal",
+      "s_": "a",
+      "who": "Varela",
+      "how": "Lob (po błędnym podaniu Comuzzo)"
+     },
+     {
+      "m": 51,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Gineitis",
+      "out": "Mandragora"
+     },
+     {
+      "m": 61,
+      "t": "goal",
+      "s_": "h",
+      "who": "Belghali",
+      "as": "Gineitis",
+      "how": "Prawa noga, zza pola karnego"
+     },
+     {
+      "m": 63,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Kouadio",
+      "out": "Lucchesi"
+     },
+     {
+      "m": 63,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Folorunsho",
+      "out": "Foe Ondoa"
+     },
+     {
+      "m": 71,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Bragança",
+      "out": "Fitz-Jim"
+     },
+     {
+      "m": 71,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Patterson",
+      "out": "Cacciamani"
+     },
+     {
+      "m": 71,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Kulenović",
+      "out": "Simeone"
+     },
+     {
+      "m": 73,
+      "t": "goal",
+      "s_": "h",
+      "who": "Vlašić",
+      "how": "Prawa noga"
+     },
+     {
+      "m": 79,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Ngonge",
+      "out": "Mota"
+     },
+     {
+      "m": 79,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Cutrone",
+      "out": "Robinson"
+     },
+     {
+      "m": 84,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Aboukhlal",
+      "out": "Belghali"
+     },
+     {
+      "m": 85,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Mout",
+      "out": "Carboni"
+     },
+     {
+      "m": 90,
+      "s": "+4",
+      "t": "og",
+      "s_": "a",
+      "who": "Patterson"
+     }
+    ],
+    "ind": {
+     "Perri": {
+      "r": 7
+     },
+     "Comuzzo": {
+      "r": 5
+     },
+     "Ismajli": {
+      "r": 6.5
+     },
+     "Coco": {
+      "r": 6
+     },
+     "Belghali": {
+      "r": 8
+     },
+     "Aboukhlal": {
+      "r": 6.5
+     },
+     "Vlašić": {
+      "r": 7
+     },
+     "Mandragora": {
+      "r": 6
+     },
+     "Gineitis": {
+      "r": 6
+     },
+     "Fitz-Jim": {
+      "r": 7
+     },
+     "Cacciamani": {
+      "r": 6
+     },
+     "Patterson": {
+      "r": 5.5
+     },
+     "Adams": {
+      "r": 6.5
+     },
+     "Simeone": {
+      "r": 6.5
+     },
+     "Törnqvist": {
+      "r": 6.5
+     },
+     "Goglichidze": {
+      "r": 5.5
+     },
+     "Lucchesi": {
+      "r": 6
+     },
+     "Kouadio": {
+      "r": 5.5
+     },
+     "Carboni": {
+      "r": 5.5
+     },
+     "Birindelli": {
+      "r": 6
+     },
+     "Foe Ondoa": {
+      "r": 5
+     },
+     "Folorunsho": {
+      "r": 5.5
+     },
+     "Akinsanmiro": {
+      "r": 6
+     },
+     "Mangas": {
+      "r": 6.5
+     },
+     "Mota": {
+      "r": 5.5
+     },
+     "Robinson": {
+      "r": 5.5
+     },
+     "Ngonge": {
+      "r": 6
+     },
+     "Varela": {
+      "r": 7
+     }
     }
    },
    {
@@ -963,10 +2271,40 @@
       "role": "Sędzia główny",
       "name": "Bonacina",
       "nat": "ITA"
+     },
+     {
+      "r": "AS1",
+      "role": "Asystent 1",
+      "name": "Cecconi",
+      "nat": "ITA"
+     },
+     {
+      "r": "AS2",
+      "role": "Asystent 2",
+      "name": "Vecchi",
+      "nat": "ITA"
+     },
+     {
+      "r": "4.",
+      "role": "Sędzia techniczny",
+      "name": "La Penna",
+      "nat": "ITA"
+     },
+     {
+      "r": "VAR",
+      "role": "Sędzia VAR",
+      "name": "Volpi",
+      "nat": "ITA"
+     },
+     {
+      "r": "AVAR",
+      "role": "Asystent VAR",
+      "name": "Di Paolo",
+      "nat": "ITA"
      }
     ],
     "odds": {
-     "src": "Oddsportal (kursy 1X2 ze strony ligi, stan na 23.10.2026 rano)",
+     "src": "Oddsportal (kursy 1X2 ze strony ligi, stan na 23.10.2026 rano) · 1X2 potwierdzone 23.10 (PokerStars/Eurobet/William Hill wg FC Inter 1908)",
      "1": 3.2,
      "X": 3.2,
      "2": 2.45
@@ -1035,10 +2373,40 @@
       "role": "Sędzia główny",
       "name": "Di Marco",
       "nat": "ITA"
+     },
+     {
+      "r": "AS1",
+      "role": "Asystent 1",
+      "name": "Moro",
+      "nat": "ITA"
+     },
+     {
+      "r": "AS2",
+      "role": "Asystent 2",
+      "name": "Cortese",
+      "nat": "ITA"
+     },
+     {
+      "r": "4.",
+      "role": "Sędzia techniczny",
+      "name": "Collu",
+      "nat": "ITA"
+     },
+     {
+      "r": "VAR",
+      "role": "Sędzia VAR",
+      "name": "Piccinini",
+      "nat": "ITA"
+     },
+     {
+      "r": "AVAR",
+      "role": "Asystent VAR",
+      "name": "Fabbri",
+      "nat": "ITA"
      }
     ],
     "odds": {
-     "src": "Oddsportal 1X2; BTTS tak – bet365 wg diretta.it",
+     "src": "Oddsportal 1X2; BTTS tak – bet365 wg diretta.it · 1X2 potwierdzone 23.10 (PokerStars/Eurobet/William Hill wg FC Inter 1908)",
      "1": 1.53,
      "X": 4.75,
      "2": 6.0,
@@ -1113,10 +2481,40 @@
       "role": "Sędzia główny",
       "name": "Colombo",
       "nat": "ITA"
+     },
+     {
+      "r": "AS1",
+      "role": "Asystent 1",
+      "name": "Bindoni",
+      "nat": "ITA"
+     },
+     {
+      "r": "AS2",
+      "role": "Asystent 2",
+      "name": "M. Rossi",
+      "nat": "ITA"
+     },
+     {
+      "r": "4.",
+      "role": "Sędzia techniczny",
+      "name": "J.L. Sacchi",
+      "nat": "ITA"
+     },
+     {
+      "r": "VAR",
+      "role": "Sędzia VAR",
+      "name": "Aureliano",
+      "nat": "ITA"
+     },
+     {
+      "r": "AVAR",
+      "role": "Asystent VAR",
+      "name": "Meraviglia",
+      "nat": "ITA"
      }
     ],
     "odds": {
-     "src": "Oddsportal 1X2; X2 – Sisal wg diretta.it; o/u 2,5 – BetRivers wg RG.org",
+     "src": "Oddsportal 1X2; X2 – Sisal wg diretta.it; o/u 2,5 – BetRivers wg RG.org · 1X2 potwierdzone 23.10 (PokerStars/Eurobet/William Hill wg FC Inter 1908)",
      "1": 2.88,
      "X": 3.4,
      "2": 2.6,
@@ -1192,10 +2590,40 @@
       "role": "Sędzia główny",
       "name": "Arena",
       "nat": "ITA"
+     },
+     {
+      "r": "AS1",
+      "role": "Asystent 1",
+      "name": "Ceccon",
+      "nat": "ITA"
+     },
+     {
+      "r": "AS2",
+      "role": "Asystent 2",
+      "name": "Ceolin",
+      "nat": "ITA"
+     },
+     {
+      "r": "4.",
+      "role": "Sędzia techniczny",
+      "name": "Doveri",
+      "nat": "ITA"
+     },
+     {
+      "r": "VAR",
+      "role": "Sędzia VAR",
+      "name": "Santoro",
+      "nat": "ITA"
+     },
+     {
+      "r": "AVAR",
+      "role": "Asystent VAR",
+      "name": "Mazzoleni",
+      "nat": "ITA"
      }
     ],
     "odds": {
-     "src": "Oddsportal 1X2; handicap −1 Lazio 2,20 – GoldBet wg diretta.it",
+     "src": "Oddsportal 1X2; handicap −1 Lazio 2,20 – GoldBet wg diretta.it · 1X2 potwierdzone 23.10 (PokerStars/Eurobet/William Hill wg FC Inter 1908)",
      "1": 1.41,
      "X": 4.75,
      "2": 9.0
@@ -1266,10 +2694,40 @@
       "role": "Sędzia główny",
       "name": "Mariani",
       "nat": "ITA"
+     },
+     {
+      "r": "AS1",
+      "role": "Asystent 1",
+      "name": "Alassio",
+      "nat": "ITA"
+     },
+     {
+      "r": "AS2",
+      "role": "Asystent 2",
+      "name": "C. Rossi",
+      "nat": "ITA"
+     },
+     {
+      "r": "4.",
+      "role": "Sędzia techniczny",
+      "name": "Zufferli",
+      "nat": "ITA"
+     },
+     {
+      "r": "VAR",
+      "role": "Sędzia VAR",
+      "name": "Fabbri",
+      "nat": "ITA"
+     },
+     {
+      "r": "AVAR",
+      "role": "Asystent VAR",
+      "name": "Santoro",
+      "nat": "ITA"
      }
     ],
     "odds": {
-     "src": "Oddsportal 1X2; over 3,25 1,80 – LetsBet wg RG.org",
+     "src": "Oddsportal 1X2; over 3,25 1,80 – LetsBet wg RG.org · 1X2 potwierdzone 23.10 (PokerStars/Eurobet/William Hill wg FC Inter 1908)",
      "1": 1.37,
      "X": 5.5,
      "2": 9.0
@@ -1338,10 +2796,40 @@
       "role": "Sędzia główny",
       "name": "Marinelli",
       "nat": "ITA"
+     },
+     {
+      "r": "AS1",
+      "role": "Asystent 1",
+      "name": "Baccini",
+      "nat": "ITA"
+     },
+     {
+      "r": "AS2",
+      "role": "Asystent 2",
+      "name": "L. Rossi",
+      "nat": "ITA"
+     },
+     {
+      "r": "4.",
+      "role": "Sędzia techniczny",
+      "name": "Pairetto",
+      "nat": "ITA"
+     },
+     {
+      "r": "VAR",
+      "role": "Sędzia VAR",
+      "name": "Dionisi",
+      "nat": "ITA"
+     },
+     {
+      "r": "AVAR",
+      "role": "Asystent VAR",
+      "name": "Gariglio",
+      "nat": "ITA"
      }
     ],
     "odds": {
-     "src": "Oddsportal (kursy 1X2 ze strony ligi, stan na 23.10.2026 rano)",
+     "src": "Oddsportal (kursy 1X2 ze strony ligi, stan na 23.10.2026 rano) · 1X2 potwierdzone 23.10 (PokerStars/Eurobet/William Hill wg FC Inter 1908)",
      "1": 1.8,
      "X": 4.2,
      "2": 4.33
@@ -1417,10 +2905,40 @@
       "role": "Sędzia główny",
       "name": "Sozza",
       "nat": "ITA"
+     },
+     {
+      "r": "AS1",
+      "role": "Asystent 1",
+      "name": "Passeri",
+      "nat": "ITA"
+     },
+     {
+      "r": "AS2",
+      "role": "Asystent 2",
+      "name": "Trinchieri",
+      "nat": "ITA"
+     },
+     {
+      "r": "4.",
+      "role": "Sędzia techniczny",
+      "name": "Daniele Chiffi",
+      "nat": "ITA"
+     },
+     {
+      "r": "VAR",
+      "role": "Sędzia VAR",
+      "name": "Di Paolo",
+      "nat": "ITA"
+     },
+     {
+      "r": "AVAR",
+      "role": "Asystent VAR",
+      "name": "Prontera",
+      "nat": "ITA"
      }
     ],
     "odds": {
-     "src": "Oddsportal (kursy 1X2 ze strony ligi, stan na 23.10.2026 rano)",
+     "src": "Oddsportal (kursy 1X2 ze strony ligi, stan na 23.10.2026 rano) · 1X2 potwierdzone 23.10 (PokerStars/Eurobet/William Hill wg FC Inter 1908)",
      "1": 2.1,
      "X": 3.4,
      "2": 3.7
@@ -1486,7 +3004,8 @@
        "Giovanni Stroppa"
       ]
      ]
-    }
+    },
+    "notes": "Zmiana obsady 22.10: sędzią technicznym Daniele Chiffi (zamiast Marchettiego)."
    },
    {
     "id": "SA-2026-27-R8-LEC-JUV",
@@ -1501,10 +3020,40 @@
       "role": "Sędzia główny",
       "name": "Maresca",
       "nat": "ITA"
+     },
+     {
+      "r": "AS1",
+      "role": "Asystent 1",
+      "name": "Mondin",
+      "nat": "ITA"
+     },
+     {
+      "r": "AS2",
+      "role": "Asystent 2",
+      "name": "Barone",
+      "nat": "ITA"
+     },
+     {
+      "r": "4.",
+      "role": "Sędzia techniczny",
+      "name": "Feliciani",
+      "nat": "ITA"
+     },
+     {
+      "r": "VAR",
+      "role": "Sędzia VAR",
+      "name": "Paterna",
+      "nat": "ITA"
+     },
+     {
+      "r": "AVAR",
+      "role": "Asystent VAR",
+      "name": "Baroni",
+      "nat": "ITA"
      }
     ],
     "odds": {
-     "src": "Oddsportal 1X2; o/u 2,5 – BetRivers wg RG.org; Lecce nie strzeli 1,93 – Sisal wg diretta.it",
+     "src": "Oddsportal 1X2; o/u 2,5 – BetRivers wg RG.org; Lecce nie strzeli 1,93 – Sisal wg diretta.it · 1X2 potwierdzone 23.10 (PokerStars/Eurobet/William Hill wg FC Inter 1908)",
      "1": 8.0,
      "X": 4.4,
      "2": 1.46,
@@ -1583,10 +3132,40 @@
       "role": "Sędzia główny",
       "name": "Marcenaro",
       "nat": "ITA"
+     },
+     {
+      "r": "AS1",
+      "role": "Asystent 1",
+      "name": "Colarossi",
+      "nat": "ITA"
+     },
+     {
+      "r": "AS2",
+      "role": "Asystent 2",
+      "name": "Costanzo",
+      "nat": "ITA"
+     },
+     {
+      "r": "4.",
+      "role": "Sędzia techniczny",
+      "name": "Ayroldi",
+      "nat": "ITA"
+     },
+     {
+      "r": "VAR",
+      "role": "Sędzia VAR",
+      "name": "Pezzuto",
+      "nat": "ITA"
+     },
+     {
+      "r": "AVAR",
+      "role": "Asystent VAR",
+      "name": "Aureliano",
+      "nat": "ITA"
      }
     ],
     "odds": {
-     "src": "Oddsportal 1X2; 1X – GoldBet wg diretta.it",
+     "src": "Oddsportal 1X2; 1X – GoldBet wg diretta.it · 1X2 potwierdzone 23.10 (PokerStars/Eurobet/William Hill wg FC Inter 1908)",
      "1": 5.25,
      "X": 3.8,
      "2": 1.7,
@@ -1681,6 +3260,22 @@
        "Gennaro Gattuso"
       ]
      ]
+    },
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Lazio gra w sobotę o 20:45 z Parmą, a we wtorek o 18:30 w Sassuolo – niespełna 70 godzin przerwy, możliwa rotacja",
+      "Kurs 2,45 na Lazio (ok. 41%) bez wyraźnej przewagi: Lazio punktuje wyraźnie ponad xPts",
+      "Sassuolo strzelało w każdym meczu, ale traci dużo goli – sprzeczne sygnały",
+      "Składy zależą od weekendowych meczów; brak aktualnych kursów z rynków bramkowych"
+     ]
+    },
+    "info": {
+     "restDays": {
+      "home": 3,
+      "away": 2
+     },
+     "stakes": "Lazio współlider (19 pkt przed 8. kolejką); Sassuolo 8 pkt."
     }
    },
    {
@@ -1714,6 +3309,33 @@
        "Fabio Pisacane"
       ]
      ]
+    },
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Roma 1,36 (ok. 74% z kursu) – szacunek ok. 70–74%, EV ≈ 0",
+      "Roma po hicie w Neapolu (sobota) i bez Svilara, Konégo i Dybali – możliwa rotacja",
+      "Cagliari 13 pkt mimo ujemnego xGD – regresja możliwa, ale już uwzględniona w kursie",
+      "Brak kursów na rynkach bramkowych"
+     ]
+    },
+    "info": {
+     "injuries": {
+      "home": [
+       "Svilar (do 10.11)",
+       "Koné (do 8.11)",
+       "Dybala (do 2.11)"
+      ],
+      "away": [
+       "Felici (do 9.02)",
+       "Trepy"
+      ]
+     },
+     "restDays": {
+      "home": 3,
+      "away": 3
+     },
+     "stakes": "Roma – najlepsza obrona ligi (3 stracone w 7 meczach); Cagliari 13 pkt."
     }
    },
    {
@@ -1747,6 +3369,35 @@
        "Cesc Fàbregas"
       ]
      ]
+    },
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Como 1,76 (ok. 57%) – Como po LM (śr.) i lidze (sob.) gra trzeci mecz w 7 dni, ryzyko rotacji",
+      "Torino w formie (3 wygrane z rzędu, 9 goli), ale traci gole po błędach indywidualnych",
+      "Brak kursów bramkowych; sprzeczne sygnały – brak przewagi"
+     ]
+    },
+    "info": {
+     "injuries": {
+      "home": [
+       "Pellegrini",
+       "Israel (do 4.12)",
+       "Fortini",
+       "İlkhan (do 5.11)",
+       "R. Rodríguez"
+      ],
+      "away": [
+       "Chalobah",
+       "Diao (do 8.11)",
+       "J. Rodríguez"
+      ]
+     },
+     "restDays": {
+      "home": 4,
+      "away": 3
+     },
+     "stakes": "Torino (13 pkt) po 3:2 z Monzą; Como walczy o czołówkę."
     }
    },
    {

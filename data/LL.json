@@ -1,9 +1,9 @@
 {
- "updated": "2026-10-23T06:15:00+02:00",
+ "updated": "2026-10-24T05:45:00+02:00",
  "season": "2026/27",
  "competition": "LaLiga",
  "currentRound": 10,
- "note": "Źródła: laliga.com, footballwebpages.co.uk (tabela 21.10), EFE/Infobae, FutbolFantasy, getafecf.com, realmadrid.com, Sofascore, La Nación, Sports Mole, starting11, SportyTrader, casasdeapuestas.com. Rayo–Athletic (8. kol.) przerwany 10.10 przy 0:0 – dokończenie bez publiczności, termin nieustalony. Zaległy mecz 6. kol.: Levante 3:1 Athletic (21.10). Godziny w czasie polskim.",
+ "note": "Źródła: FotMob, 101TV, El Español, merchanendirecto.es, iusport, Infobae/EFE (24.10), laliga.com, footballwebpages.co.uk (tabela 21.10), EFE/Infobae, FutbolFantasy, getafecf.com, realmadrid.com, Sofascore, futboltotal, laliga.com (protokoły meczowe), La Nación, Sports Mole, starting11, SportyTrader, casasdeapuestas.com. Rayo–Athletic (8. kol.) przerwany 10.10 przy 0:0 – dokończenie bez publiczności, termin nieustalony. Zaległy mecz 6. kol.: Levante 3:1 Athletic (21.10). Godziny w czasie polskim.",
  "teams": {
   "ALA": {
    "id": "ALA",
@@ -234,15 +234,15 @@
    "form": "WWLDL"
   },
   {
-   "team": "OSA",
-   "p": 9,
+   "team": "ALA",
+   "p": 10,
    "w": 3,
-   "d": 2,
+   "d": 3,
    "l": 4,
-   "gf": 10,
-   "ga": 18,
-   "pts": 11,
-   "form": "LLDLW"
+   "gf": 14,
+   "ga": 11,
+   "pts": 12,
+   "form": "LDLLD"
   },
   {
    "team": "CEL",
@@ -256,17 +256,6 @@
    "form": "DDWDW"
   },
   {
-   "team": "ALA",
-   "p": 9,
-   "w": 3,
-   "d": 2,
-   "l": 4,
-   "gf": 13,
-   "ga": 10,
-   "pts": 11,
-   "form": "LLDLL"
-  },
-  {
    "team": "DEP",
    "p": 9,
    "w": 2,
@@ -276,6 +265,17 @@
    "ga": 12,
    "pts": 11,
    "form": "DLDLD"
+  },
+  {
+   "team": "OSA",
+   "p": 9,
+   "w": 3,
+   "d": 2,
+   "l": 4,
+   "gf": 10,
+   "ga": 18,
+   "pts": 11,
+   "form": "LLDLW"
   },
   {
    "team": "LEV",
@@ -378,14 +378,14 @@
   },
   {
    "team": "MAL",
-   "p": 9,
+   "p": 10,
    "w": 0,
-   "d": 4,
+   "d": 5,
    "l": 5,
-   "gf": 6,
-   "ga": 18,
-   "pts": 4,
-   "form": "DLLDL"
+   "gf": 7,
+   "ga": 19,
+   "pts": 5,
+   "form": "LLDLD"
   }
  ],
  "picks": [
@@ -456,15 +456,119 @@
       "m": 90,
       "t": "yc",
       "s_": "h",
-      "who": "Alti",
+      "who": "Altimira",
       "s": "+6"
+     },
+     {
+      "m": 62,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Adama Traoré",
+      "out": "Luismi Cruz",
+      "s": [
+       null
+      ],
+      "why": ""
+     },
+     {
+      "m": 62,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Altimira",
+      "out": "Ximo Navarro",
+      "s": [
+       null
+      ],
+      "why": ""
+     },
+     {
+      "m": 80,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Angeliño",
+      "out": "Riki",
+      "s": [
+       null
+      ],
+      "why": ""
+     },
+     {
+      "m": 80,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Asp Jensen",
+      "out": "Yeremay",
+      "s": [
+       null
+      ],
+      "why": "Uraz"
+     },
+     {
+      "m": 85,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Miguel Loureiro",
+      "out": "Bright Ede",
+      "s": [
+       null
+      ],
+      "why": ""
+     },
+     {
+      "m": 69,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Olasagasti",
+      "out": "Bardeli",
+      "s": [
+       null
+      ],
+      "why": ""
+     },
+     {
+      "m": 69,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Petar Ratkov",
+      "out": "Oriol Rey",
+      "s": [
+       null
+      ],
+      "why": ""
+     },
+     {
+      "m": 76,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Toljan",
+      "out": "Nacho Pérez",
+      "s": [
+       null
+      ],
+      "why": ""
+     },
+     {
+      "m": 90,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Víctor García",
+      "out": "Thiago Fernández",
+      "s": [
+       "+3"
+      ],
+      "why": ""
      }
     ],
     "teamStats": [
      [
       "Posiadanie %",
-      46.3,
-      53.7
+      46.2,
+      53.8
+     ],
+     [
+      "xG",
+      1.01,
+      0.82
      ],
      [
       "Strzały",
@@ -480,6 +584,16 @@
       "Rzuty rożne",
       3,
       5
+     ],
+     [
+      "Faule",
+      17,
+      12
+     ],
+     [
+      "Spalone",
+      1,
+      0
      ]
     ],
     "staff": {
@@ -496,7 +610,234 @@
       ]
      ]
     },
-    "notes": "Godzina rozpoczęcia wg przeliczenia z czasu argentyńskiego. Statystyki: La Nación. Asysta Ratkova tylko wg La Nación."
+    "notes": "Godzina rozpoczęcia wg przeliczenia z czasu argentyńskiego. Statystyki: La Nación. Asysta Ratkova tylko wg La Nación. Pozycje i strony wg kolejności w protokołach (orientacyjnie). Formacja Deportivo wg LaLiga 4-4-2 (EFE: 4-3-3). Zmiany Levante w 69' – EFE odwrotnie przypisuje Olasagastiego i Ratkova. Statystyki: LaLiga/futboltotal.",
+    "formation": {
+     "home": "4-3-3",
+     "away": "4-3-3"
+    },
+    "players": {
+     "home": [
+      [
+       13,
+       "Leo Román",
+       "BR",
+       "",
+       true
+      ],
+      [
+       23,
+       "Ximo Navarro",
+       "PO",
+       "",
+       true
+      ],
+      [
+       20,
+       "Josema Giménez",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       22,
+       "Bright Ede",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       12,
+       "Quagliata",
+       "LO",
+       "",
+       true
+      ],
+      [
+       14,
+       "Riki",
+       "ŚP",
+       "",
+       true
+      ],
+      [
+       8,
+       "Diego Villares",
+       "ŚP",
+       "",
+       true
+      ],
+      [
+       21,
+       "Mario Soriano",
+       "ŚP",
+       "",
+       true
+      ],
+      [
+       19,
+       "Luismi Cruz",
+       "PS",
+       "",
+       true
+      ],
+      [
+       32,
+       "Nsongo Bil",
+       "N",
+       "",
+       true
+      ],
+      [
+       10,
+       "Yeremay",
+       "LS",
+       "",
+       true
+      ],
+      [
+       24,
+       "Adama Traoré",
+       "",
+       "",
+       false
+      ],
+      [
+       2,
+       "Altimira",
+       "",
+       "",
+       false
+      ],
+      [
+       17,
+       "Angeliño",
+       "LO",
+       "",
+       false
+      ],
+      [
+       18,
+       "Asp Jensen",
+       "",
+       "",
+       false
+      ],
+      [
+       15,
+       "Miguel Loureiro",
+       "ŚO",
+       "",
+       false
+      ]
+     ],
+     "away": [
+      [
+       13,
+       "Mathew Ryan",
+       "BR",
+       "",
+       true
+      ],
+      [
+       29,
+       "Nacho Pérez",
+       "PO",
+       "",
+       true
+      ],
+      [
+       4,
+       "Adrián de la Fuente",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       3,
+       "Ndukwe",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       23,
+       "Manu Sánchez",
+       "LO",
+       "",
+       true
+      ],
+      [
+       20,
+       "Oriol Rey",
+       "DP",
+       "",
+       true
+      ],
+      [
+       18,
+       "Bardeli",
+       "ŚP",
+       "",
+       true
+      ],
+      [
+       6,
+       "Dani Requena",
+       "ŚP",
+       "",
+       true
+      ],
+      [
+       7,
+       "Roger Brugué",
+       "PS",
+       "",
+       true
+      ],
+      [
+       9,
+       "Iván Romero",
+       "N",
+       "",
+       true
+      ],
+      [
+       24,
+       "Thiago Fernández",
+       "LS",
+       "",
+       true
+      ],
+      [
+       8,
+       "Olasagasti",
+       "ŚP",
+       "",
+       false
+      ],
+      [
+       10,
+       "Petar Ratkov",
+       "N",
+       "",
+       false
+      ],
+      [
+       22,
+       "Toljan",
+       "PO",
+       "",
+       false
+      ],
+      [
+       17,
+       "Víctor García",
+       "",
+       "",
+       false
+      ]
+     ]
+    }
    },
    {
     "id": "LL-2026-27-R9-ESP-ATM",
@@ -565,6 +906,116 @@
       "s_": "a",
       "who": "Álex Baena",
       "as": "Julián Álvarez"
+     },
+     {
+      "m": 64,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Unai Núñez",
+      "out": "Drkušić",
+      "s": [
+       null
+      ],
+      "why": ""
+     },
+     {
+      "m": 73,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Moscardo",
+      "out": "Javi Hernández",
+      "s": [
+       null
+      ],
+      "why": ""
+     },
+     {
+      "m": 73,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Cala",
+      "out": "Edu Expósito",
+      "s": [
+       null
+      ],
+      "why": ""
+     },
+     {
+      "m": 82,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Javi Puado",
+      "out": "Bryan Zaragoza",
+      "s": [
+       null
+      ],
+      "why": ""
+     },
+     {
+      "m": 82,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Marcos Fernández",
+      "out": "Roberto Fernández",
+      "s": [
+       null
+      ],
+      "why": ""
+     },
+     {
+      "m": 46,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Álex Grimaldo",
+      "out": "Dani Martínez",
+      "s": [
+       null
+      ],
+      "why": ""
+     },
+     {
+      "m": 46,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Julián Álvarez",
+      "out": "Ademola Lookman",
+      "s": [
+       null
+      ],
+      "why": ""
+     },
+     {
+      "m": 55,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Marcos Llorente",
+      "out": "Pablo Barrios",
+      "s": [
+       null
+      ],
+      "why": ""
+     },
+     {
+      "m": 62,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Álex Baena",
+      "out": "Lee Kang-in",
+      "s": [
+       null
+      ],
+      "why": ""
+     },
+     {
+      "m": 67,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Rodrigo Mendoza",
+      "out": "Cristian Romero",
+      "s": [
+       null
+      ],
+      "why": ""
      }
     ],
     "staff": {
@@ -581,7 +1032,278 @@
       ]
      ]
     },
-    "notes": "FutbolFantasy podaje dodatkowo żółtą kartkę Unaia Núñeza (ok. 87') — niepotwierdzone przez EFE."
+    "notes": "FutbolFantasy podaje dodatkowo żółtą kartkę Unaia Núñeza (ok. 87') — niepotwierdzone przez EFE. Pozycje i strony wg kolejności w protokołach (orientacyjnie). Statystyki: LaLiga/futboltotal.",
+    "formation": {
+     "home": "5-4-1",
+     "away": "4-4-2"
+    },
+    "players": {
+     "home": [
+      [
+       1,
+       "Fortuño",
+       "BR",
+       "",
+       true
+      ],
+      [
+       23,
+       "Omar El Hilali",
+       "PO",
+       "",
+       true
+      ],
+      [
+       5,
+       "Riedel",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       16,
+       "Drkušić",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       6,
+       "Cabrera",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       21,
+       "Roger Hinojo",
+       "LO",
+       "",
+       true
+      ],
+      [
+       28,
+       "Javi Hernández",
+       "PS",
+       "",
+       true
+      ],
+      [
+       10,
+       "Pol Lozano",
+       "ŚP",
+       "",
+       true
+      ],
+      [
+       8,
+       "Edu Expósito",
+       "ŚP",
+       "",
+       true
+      ],
+      [
+       15,
+       "Bryan Zaragoza",
+       "LS",
+       "",
+       true
+      ],
+      [
+       9,
+       "Roberto Fernández",
+       "N",
+       "",
+       true
+      ],
+      [
+       14,
+       "Unai Núñez",
+       "ŚO",
+       "",
+       false
+      ],
+      [
+       20,
+       "Moscardo",
+       "",
+       "",
+       false
+      ],
+      [
+       22,
+       "Cala",
+       "",
+       "",
+       false
+      ],
+      [
+       7,
+       "Javi Puado",
+       "N",
+       "",
+       false
+      ],
+      [
+       18,
+       "Marcos Fernández",
+       "",
+       "",
+       false
+      ]
+     ],
+     "away": [
+      [
+       13,
+       "Jan Oblak",
+       "BR",
+       "",
+       true
+      ],
+      [
+       18,
+       "Marc Pubill",
+       "PO",
+       "",
+       true
+      ],
+      [
+       21,
+       "Cristian Romero",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       17,
+       "David Hancko",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       30,
+       "Dani Martínez",
+       "LO",
+       "",
+       true
+      ],
+      [
+       20,
+       "Giuliano Simeone",
+       "PS",
+       "",
+       true
+      ],
+      [
+       8,
+       "Pablo Barrios",
+       "ŚP",
+       "",
+       true
+      ],
+      [
+       23,
+       "Morten Hjulmand",
+       "ŚP",
+       "",
+       true
+      ],
+      [
+       11,
+       "Ademola Lookman",
+       "LS",
+       "",
+       true
+      ],
+      [
+       7,
+       "Lee Kang-in",
+       "N",
+       "",
+       true
+      ],
+      [
+       15,
+       "Jonathan David",
+       "N",
+       "",
+       true
+      ],
+      [
+       22,
+       "Álex Grimaldo",
+       "LO",
+       "",
+       false
+      ],
+      [
+       19,
+       "Julián Álvarez",
+       "N",
+       "",
+       false
+      ],
+      [
+       14,
+       "Marcos Llorente",
+       "",
+       "",
+       false
+      ],
+      [
+       10,
+       "Álex Baena",
+       "",
+       "",
+       false
+      ],
+      [
+       4,
+       "Rodrigo Mendoza",
+       "",
+       "",
+       false
+      ]
+     ]
+    },
+    "teamStats": [
+     [
+      "Posiadanie %",
+      29.6,
+      70.4
+     ],
+     [
+      "xG",
+      0.5,
+      1.03
+     ],
+     [
+      "Strzały",
+      10,
+      19
+     ],
+     [
+      "Celne",
+      1,
+      6
+     ],
+     [
+      "Rzuty rożne",
+      4,
+      12
+     ],
+     [
+      "Faule",
+      10,
+      9
+     ],
+     [
+      "Spalone",
+      0,
+      4
+     ]
+    ]
    },
    {
     "id": "LL-2026-27-R9-VIL-ELC",
@@ -604,6 +1326,12 @@
       "r": "GŁ",
       "role": "Sędzia główny",
       "name": "Víctor García Verdura",
+      "nat": "ESP"
+     },
+     {
+      "r": "VAR",
+      "role": "Sędzia VAR",
+      "name": "Álvaro Moreno Aragón",
       "nat": "ESP"
      }
     ],
@@ -645,6 +1373,116 @@
       "s_": "h",
       "who": "Juan Foyth",
       "s": "+1"
+     },
+     {
+      "m": 66,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Nathan Saliba",
+      "out": "Maciá",
+      "s": [
+       null
+      ],
+      "why": ""
+     },
+     {
+      "m": 66,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Pape Gueye",
+      "out": "Tani Oluwaseyi",
+      "s": [
+       null
+      ],
+      "why": ""
+     },
+     {
+      "m": 66,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Georges Mikautadze",
+      "out": "Santi Comesaña",
+      "s": [
+       null
+      ],
+      "why": ""
+     },
+     {
+      "m": 75,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Gerard Moreno",
+      "out": "Ilias Akhomach",
+      "s": [
+       null
+      ],
+      "why": ""
+     },
+     {
+      "m": 84,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Nizar",
+      "out": "Ayoze Pérez",
+      "s": [
+       null
+      ],
+      "why": ""
+     },
+     {
+      "m": 28,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Fede Redondo",
+      "out": "Marc Aguado",
+      "s": [
+       null
+      ],
+      "why": "Uraz"
+     },
+     {
+      "m": 65,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Fer Niño",
+      "out": "Osorio",
+      "s": [
+       null
+      ],
+      "why": ""
+     },
+     {
+      "m": 65,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Martim Neto",
+      "out": "Thomas Lemar",
+      "s": [
+       null
+      ],
+      "why": ""
+     },
+     {
+      "m": 65,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Tete Morente",
+      "out": "Cepeda",
+      "s": [
+       null
+      ],
+      "why": ""
+     },
+     {
+      "m": 83,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Rubén Sánchez",
+      "out": "Sangaré",
+      "s": [
+       null
+      ],
+      "why": ""
      }
     ],
     "staff": {
@@ -660,7 +1498,278 @@
        "Martín Anselmi"
       ]
      ]
-    }
+    },
+    "formation": {
+     "home": "4-4-2"
+    },
+    "players": {
+     "home": [
+      [
+       25,
+       "Péter Gulácsi",
+       "BR",
+       "",
+       true
+      ],
+      [
+       3,
+       "Alex Freeman",
+       "PO",
+       "",
+       true
+      ],
+      [
+       8,
+       "Juan Foyth",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       2,
+       "Logan Costa",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       23,
+       "Sergi Cardona",
+       "LO",
+       "",
+       true
+      ],
+      [
+       11,
+       "Ilias Akhomach",
+       "PS",
+       "",
+       true
+      ],
+      [
+       14,
+       "Santi Comesaña",
+       "ŚP",
+       "",
+       true
+      ],
+      [
+       16,
+       "Maciá",
+       "ŚP",
+       "",
+       true
+      ],
+      [
+       10,
+       "Alberto Moleiro",
+       "LS",
+       "",
+       true
+      ],
+      [
+       22,
+       "Ayoze Pérez",
+       "N",
+       "",
+       true
+      ],
+      [
+       21,
+       "Tani Oluwaseyi",
+       "N",
+       "",
+       true
+      ],
+      [
+       24,
+       "Nathan Saliba",
+       "",
+       "",
+       false
+      ],
+      [
+       18,
+       "Pape Gueye",
+       "ŚP",
+       "",
+       false
+      ],
+      [
+       9,
+       "Georges Mikautadze",
+       "N",
+       "",
+       false
+      ],
+      [
+       7,
+       "Gerard Moreno",
+       "N",
+       "",
+       false
+      ],
+      [
+       27,
+       "Nizar",
+       "",
+       "",
+       false
+      ]
+     ],
+     "away": [
+      [
+       1,
+       "Dituro",
+       "BR",
+       "",
+       true
+      ],
+      [
+       2,
+       "Sangaré",
+       "",
+       "",
+       true
+      ],
+      [
+       47,
+       "Morcillo",
+       "",
+       "",
+       true
+      ],
+      [
+       23,
+       "Víctor Chust",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       3,
+       "Roy Revivo",
+       "",
+       "",
+       true
+      ],
+      [
+       18,
+       "Thomas Lemar",
+       "",
+       "",
+       true
+      ],
+      [
+       12,
+       "Gonzalo Villar",
+       "ŚP",
+       "",
+       true
+      ],
+      [
+       8,
+       "Marc Aguado",
+       "ŚP",
+       "",
+       true
+      ],
+      [
+       21,
+       "Cepeda",
+       "",
+       "",
+       true
+      ],
+      [
+       11,
+       "Germán Valera",
+       "",
+       "",
+       true
+      ],
+      [
+       24,
+       "Osorio",
+       "N",
+       "",
+       true
+      ],
+      [
+       5,
+       "Fede Redondo",
+       "",
+       "",
+       false
+      ],
+      [
+       14,
+       "Fer Niño",
+       "N",
+       "",
+       false
+      ],
+      [
+       16,
+       "Martim Neto",
+       "",
+       "",
+       false
+      ],
+      [
+       20,
+       "Tete Morente",
+       "",
+       "",
+       false
+      ],
+      [
+       22,
+       "Rubén Sánchez",
+       "",
+       "",
+       false
+      ]
+     ]
+    },
+    "teamStats": [
+     [
+      "Posiadanie %",
+      57.8,
+      42.2
+     ],
+     [
+      "xG",
+      2.22,
+      0.3
+     ],
+     [
+      "Strzały",
+      20,
+      7
+     ],
+     [
+      "Celne",
+      7,
+      1
+     ],
+     [
+      "Rzuty rożne",
+      10,
+      5
+     ],
+     [
+      "Faule",
+      12,
+      7
+     ],
+     [
+      "Spalone",
+      6,
+      0
+     ]
+    ],
+    "notes": "Pozycje i strony wg kolejności w protokołach (orientacyjnie). Formacja Elche niepewna (LaLiga 5-4-1, futboltotal 5-3-2). W 63' VAR anulował rzut karny. Aguado zszedł z urazem (28')."
    },
    {
     "id": "LL-2026-27-R9-BET-BAR",
@@ -683,6 +1792,12 @@
       "r": "GŁ",
       "role": "Sędzia główny",
       "name": "Ricardo de Burgos Bengoetxea",
+      "nat": "ESP"
+     },
+     {
+      "r": "VAR",
+      "role": "Sędzia VAR",
+      "name": "Carlos del Cerro Grande",
       "nat": "ESP"
      }
     ],
@@ -766,6 +1881,125 @@
       "s_": "a",
       "who": "Dani Olmo",
       "as": "Pau Cubarsí"
+     },
+     {
+      "m": 46,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Nelson Deossa",
+      "out": "Dani Ceballos",
+      "s": [
+       null
+      ],
+      "why": ""
+     },
+     {
+      "m": 64,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Parrott",
+      "out": "Cucho Hernández",
+      "s": [
+       null
+      ],
+      "why": ""
+     },
+     {
+      "m": 64,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Rodrigo Riquelme",
+      "out": "Giovani Lo Celso",
+      "s": [
+       null
+      ],
+      "why": ""
+     },
+     {
+      "m": 70,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Fidalgo",
+      "out": "Pablo Fornals",
+      "s": [
+       null
+      ],
+      "why": ""
+     },
+     {
+      "m": 70,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Ángel Ortiz",
+      "out": "Héctor Bellerín",
+      "s": [
+       null
+      ],
+      "why": ""
+     },
+     {
+      "m": 46,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Eric García",
+      "out": "Gerard Martín",
+      "s": [
+       null
+      ],
+      "why": ""
+     },
+     {
+      "m": 62,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Anthony Gordon",
+      "out": "Karim Adeyemi",
+      "s": [
+       null
+      ],
+      "why": ""
+     },
+     {
+      "m": 62,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Dani Olmo",
+      "out": "Fermín López",
+      "s": [
+       null
+      ],
+      "why": ""
+     },
+     {
+      "m": 70,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Raphinha",
+      "out": "Lamine Yamal",
+      "s": [
+       null
+      ],
+      "why": ""
+     },
+     {
+      "m": 79,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Gavi",
+      "out": "Gabriel Jesus",
+      "s": [
+       null
+      ],
+      "why": "Uraz"
+     },
+     {
+      "m": 43,
+      "t": "var",
+      "s_": "h",
+      "kind": "Bramka – weryfikacja",
+      "init": "Gol",
+      "fin": "Gol anulowany",
+      "who": "Giovani Lo Celso"
      }
     ],
     "staff": {
@@ -782,7 +2016,273 @@
       ]
      ]
     },
-    "notes": "Mecz na Estadio La Cartuja. Pellegrini ukarany żółtą kartką (45')."
+    "notes": "Mecz na Estadio La Cartuja. Pellegrini ukarany żółtą kartką (45'). Gol Lo Celso w 43' anulowany po VAR. Gabriel Jesus zszedł z urazem (79').",
+    "formation": {
+     "home": "4-2-3-1",
+     "away": "4-2-3-1"
+    },
+    "players": {
+     "home": [
+      [
+       1,
+       "Álvaro Vallés",
+       "BR",
+       "",
+       true
+      ],
+      [
+       2,
+       "Héctor Bellerín",
+       "PO",
+       "",
+       true
+      ],
+      [
+       3,
+       "Diego Llorente",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       16,
+       "Valentín Gómez",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       11,
+       "Fran García",
+       "LO",
+       "",
+       true
+      ],
+      [
+       6,
+       "Facundo Bernal",
+       "DP",
+       "",
+       true
+      ],
+      [
+       25,
+       "Dani Ceballos",
+       "DP",
+       "",
+       true
+      ],
+      [
+       8,
+       "Pablo Fornals",
+       "PS",
+       "",
+       true
+      ],
+      [
+       20,
+       "Giovani Lo Celso",
+       "OP",
+       "",
+       true
+      ],
+      [
+       10,
+       "Abde Ezzalzouli",
+       "LS",
+       "",
+       true
+      ],
+      [
+       9,
+       "Cucho Hernández",
+       "N",
+       "",
+       true
+      ],
+      [
+       18,
+       "Nelson Deossa",
+       "",
+       "",
+       false
+      ],
+      [
+       19,
+       "Parrott",
+       "",
+       "",
+       false
+      ],
+      [
+       17,
+       "Rodrigo Riquelme",
+       "",
+       "",
+       false
+      ],
+      [
+       15,
+       "Fidalgo",
+       "",
+       "",
+       false
+      ],
+      [
+       12,
+       "Ángel Ortiz",
+       "PO",
+       "",
+       false
+      ]
+     ],
+     "away": [
+      [
+       1,
+       "Joan García",
+       "BR",
+       "",
+       true
+      ],
+      [
+       23,
+       "Jules Koundé",
+       "PO",
+       "",
+       true
+      ],
+      [
+       5,
+       "Pau Cubarsí",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       18,
+       "Gerard Martín",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       12,
+       "Xavi Espart",
+       "LO",
+       "",
+       true
+      ],
+      [
+       16,
+       "Rodri",
+       "DP",
+       "",
+       true
+      ],
+      [
+       8,
+       "Pedri",
+       "DP",
+       "",
+       true
+      ],
+      [
+       10,
+       "Lamine Yamal",
+       "PS",
+       "",
+       true
+      ],
+      [
+       7,
+       "Fermín López",
+       "OP",
+       "",
+       true
+      ],
+      [
+       14,
+       "Karim Adeyemi",
+       "LS",
+       "",
+       true
+      ],
+      [
+       9,
+       "Gabriel Jesus",
+       "N",
+       "",
+       true
+      ],
+      [
+       24,
+       "Eric García",
+       "ŚO",
+       "",
+       false
+      ],
+      [
+       17,
+       "Anthony Gordon",
+       "LS",
+       "",
+       false
+      ],
+      [
+       20,
+       "Dani Olmo",
+       "OP",
+       "",
+       false
+      ],
+      [
+       11,
+       "Raphinha",
+       "LS",
+       "",
+       false
+      ],
+      [
+       6,
+       "Gavi",
+       "ŚP",
+       "",
+       false
+      ]
+     ]
+    },
+    "teamStats": [
+     [
+      "Posiadanie %",
+      30.7,
+      69.3
+     ],
+     [
+      "xG",
+      1.02,
+      3.07
+     ],
+     [
+      "Strzały",
+      6,
+      18
+     ],
+     [
+      "Rzuty rożne",
+      2,
+      5
+     ],
+     [
+      "Faule",
+      10,
+      11
+     ],
+     [
+      "Spalone",
+      1,
+      2
+     ]
+    ]
    },
    {
     "id": "LL-2026-27-R9-VAL-ATH",
@@ -813,7 +2313,7 @@
       "m": 19,
       "t": "yc",
       "s_": "h",
-      "who": "Lucas Rába"
+      "who": "Dani Raba"
      },
      {
       "m": 38,
@@ -844,6 +2344,116 @@
       "t": "yc",
       "s_": "h",
       "who": "César Tárrega"
+     },
+     {
+      "m": 54,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Otorbi",
+      "out": "Hugo Duro",
+      "s": [
+       null
+      ],
+      "why": ""
+     },
+     {
+      "m": 54,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Luis Rioja",
+      "out": "Dani Raba",
+      "s": [
+       null
+      ],
+      "why": ""
+     },
+     {
+      "m": 74,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Elliott",
+      "out": "De Haas",
+      "s": [
+       null
+      ],
+      "why": "Uraz"
+     },
+     {
+      "m": 85,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Jesús Vázquez",
+      "out": "José Gayà",
+      "s": [
+       null
+      ],
+      "why": ""
+     },
+     {
+      "m": 86,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Ugrinic",
+      "out": "Guido Rodríguez",
+      "s": [
+       null
+      ],
+      "why": ""
+     },
+     {
+      "m": 46,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Mikel Jauregizar",
+      "out": "Mikel Gerenabarrena",
+      "s": [
+       null
+      ],
+      "why": ""
+     },
+     {
+      "m": 63,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Jesús Areso",
+      "out": "Johaneko Louis-Jean",
+      "s": [
+       null
+      ],
+      "why": ""
+     },
+     {
+      "m": 63,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Gorka Guruzeta",
+      "out": "Iñaki Williams",
+      "s": [
+       null
+      ],
+      "why": ""
+     },
+     {
+      "m": 63,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Rego",
+      "out": "Mikel Ruiz de Galarreta",
+      "s": [
+       null
+      ],
+      "why": ""
+     },
+     {
+      "m": 68,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Maroan Sannadi",
+      "out": "Gorka Guruzeta",
+      "s": [
+       null
+      ],
+      "why": "Uraz"
      }
     ],
     "formation": {
@@ -853,8 +2463,13 @@
     "teamStats": [
      [
       "Posiadanie %",
-      36.7,
-      63.3
+      36.8,
+      63.2
+     ],
+     [
+      "xG",
+      1.57,
+      0.65
      ],
      [
       "Strzały",
@@ -870,6 +2485,16 @@
       "Rzuty rożne",
       2,
       6
+     ],
+     [
+      "Faule",
+      14,
+      13
+     ],
+     [
+      "Spalone",
+      2,
+      1
      ]
     ],
     "staff": {
@@ -886,7 +2511,237 @@
       ]
      ]
     },
-    "notes": "Godzina wg przeliczenia z czasu argentyńskiego. Statystyki: La Nación."
+    "notes": "Godzina wg przeliczenia z czasu argentyńskiego. Statystyki: La Nación. De Haas (74') i Guruzeta (68') zeszli z urazami. Zmiana Gayà: LaLiga 85–86', EFE 74'.",
+    "players": {
+     "home": [
+      [
+       1,
+       "Stole Dimitrievski",
+       "BR",
+       "",
+       true
+      ],
+      [
+       24,
+       "Pablo Maffeo",
+       "PO",
+       "",
+       true
+      ],
+      [
+       5,
+       "César Tárrega",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       12,
+       "De Haas",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       14,
+       "José Gayà",
+       "LO",
+       "",
+       true
+      ],
+      [
+       18,
+       "Pepelu",
+       "DP",
+       "",
+       true
+      ],
+      [
+       2,
+       "Guido Rodríguez",
+       "DP",
+       "",
+       true
+      ],
+      [
+       19,
+       "Dani Raba",
+       "PS",
+       "",
+       true
+      ],
+      [
+       8,
+       "Javi Guerra",
+       "OP",
+       "",
+       true
+      ],
+      [
+       7,
+       "Arnaut Danjuma",
+       "LS",
+       "",
+       true
+      ],
+      [
+       9,
+       "Hugo Duro",
+       "N",
+       "",
+       true
+      ],
+      [
+       27,
+       "Otorbi",
+       "",
+       "",
+       false
+      ],
+      [
+       11,
+       "Luis Rioja",
+       "LS",
+       "",
+       false
+      ],
+      [
+       10,
+       "Elliott",
+       "",
+       "",
+       false
+      ],
+      [
+       21,
+       "Jesús Vázquez",
+       "LO",
+       "",
+       false
+      ],
+      [
+       23,
+       "Ugrinic",
+       "ŚP",
+       "",
+       false
+      ]
+     ],
+     "away": [
+      [
+       1,
+       "Unai Simón",
+       "BR",
+       "",
+       true
+      ],
+      [
+       15,
+       "Hugo Rincón",
+       "PO",
+       "",
+       true
+      ],
+      [
+       4,
+       "Paredes",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       14,
+       "Aymeric Laporte",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       31,
+       "Johaneko Louis-Jean",
+       "LO",
+       "",
+       true
+      ],
+      [
+       16,
+       "Mikel Ruiz de Galarreta",
+       "DP",
+       "",
+       true
+      ],
+      [
+       24,
+       "Mikel Gerenabarrena",
+       "DP",
+       "",
+       true
+      ],
+      [
+       23,
+       "Robert Navarro",
+       "PS",
+       "",
+       true
+      ],
+      [
+       28,
+       "Peio Canales",
+       "OP",
+       "",
+       true
+      ],
+      [
+       7,
+       "Álex Berenguer",
+       "LS",
+       "",
+       true
+      ],
+      [
+       9,
+       "Iñaki Williams",
+       "N",
+       "",
+       true
+      ],
+      [
+       18,
+       "Mikel Jauregizar",
+       "ŚP",
+       "",
+       false
+      ],
+      [
+       12,
+       "Jesús Areso",
+       "PO",
+       "",
+       false
+      ],
+      [
+       11,
+       "Gorka Guruzeta",
+       "N",
+       "",
+       false
+      ],
+      [
+       20,
+       "Rego",
+       "",
+       "",
+       false
+      ],
+      [
+       21,
+       "Maroan Sannadi",
+       "N",
+       "",
+       false
+      ]
+     ]
+    }
    },
    {
     "id": "LL-2026-27-R9-OSA-RAC",
@@ -955,13 +2810,123 @@
       "t": "goal",
       "s_": "h",
       "who": "Asier Osambela"
+     },
+     {
+      "m": 67,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Asier Osambela",
+      "out": "Moi Gómez",
+      "s": [
+       null
+      ],
+      "why": ""
+     },
+     {
+      "m": 67,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Lucas Torró",
+      "out": "Iker Muñoz",
+      "s": [
+       null
+      ],
+      "why": ""
+     },
+     {
+      "m": 76,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Arguibide",
+      "out": "Valentin Rosier",
+      "s": [
+       null
+      ],
+      "why": ""
+     },
+     {
+      "m": 76,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Raúl Moro",
+      "out": "Victor Dubasin",
+      "s": [
+       null
+      ],
+      "why": ""
+     },
+     {
+      "m": 90,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Raúl García",
+      "out": "Rubén García",
+      "s": [
+       "+1"
+      ],
+      "why": ""
+     },
+     {
+      "m": 46,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Andrés Martín",
+      "out": "André Almeida",
+      "s": [
+       null
+      ],
+      "why": ""
+     },
+     {
+      "m": 69,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Pablo García",
+      "out": "Canales",
+      "s": [
+       null
+      ],
+      "why": ""
+     },
+     {
+      "m": 83,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Aarón Martín",
+      "out": "Jorge Salinas",
+      "s": [
+       null
+      ],
+      "why": ""
+     },
+     {
+      "m": 83,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Villalibre",
+      "out": "Iván Martín",
+      "s": [
+       null
+      ],
+      "why": ""
+     },
+     {
+      "m": 90,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Guliashvili",
+      "out": "Zabiri",
+      "s": [
+       "+2"
+      ],
+      "why": ""
      }
     ],
     "staff": {
      "home": [
       [
        "Trener",
-       "Luis Miguel Ramis"
+       "Jagoba Arrasate"
       ]
      ],
      "away": [
@@ -970,7 +2935,279 @@
        "José Alberto López"
       ]
      ]
-    }
+    },
+    "formation": {
+     "home": "4-3-3",
+     "away": "4-2-3-1"
+    },
+    "players": {
+     "home": [
+      [
+       13,
+       "Aitor Fernández",
+       "BR",
+       "",
+       true
+      ],
+      [
+       19,
+       "Valentin Rosier",
+       "PO",
+       "",
+       true
+      ],
+      [
+       22,
+       "Boyomo",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       24,
+       "Alejandro Catena",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       23,
+       "Abel Bretones",
+       "LO",
+       "",
+       true
+      ],
+      [
+       7,
+       "Jon Moncayola",
+       "ŚP",
+       "",
+       true
+      ],
+      [
+       8,
+       "Iker Muñoz",
+       "DP",
+       "",
+       true
+      ],
+      [
+       16,
+       "Moi Gómez",
+       "ŚP",
+       "",
+       true
+      ],
+      [
+       14,
+       "Rubén García",
+       "PS",
+       "",
+       true
+      ],
+      [
+       17,
+       "Ante Budimir",
+       "N",
+       "",
+       true
+      ],
+      [
+       21,
+       "Victor Dubasin",
+       "LS",
+       "",
+       true
+      ],
+      [
+       29,
+       "Asier Osambela",
+       "ŚP",
+       "",
+       false
+      ],
+      [
+       6,
+       "Lucas Torró",
+       "DP",
+       "",
+       false
+      ],
+      [
+       27,
+       "Arguibide",
+       "PO",
+       "",
+       false
+      ],
+      [
+       18,
+       "Raúl Moro",
+       "",
+       "",
+       false
+      ],
+      [
+       9,
+       "Raúl García",
+       "N",
+       "",
+       false
+      ]
+     ],
+     "away": [
+      [
+       13,
+       "Agirrezabala",
+       "BR",
+       "",
+       true
+      ],
+      [
+       2,
+       "Mantilla",
+       "PO",
+       "",
+       true
+      ],
+      [
+       5,
+       "Pablo Ramón",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       24,
+       "Belocian",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       17,
+       "Jorge Salinas",
+       "LO",
+       "",
+       true
+      ],
+      [
+       23,
+       "Iván Martín",
+       "DP",
+       "",
+       true
+      ],
+      [
+       18,
+       "Prati",
+       "DP",
+       "",
+       true
+      ],
+      [
+       20,
+       "Canales",
+       "PS",
+       "",
+       true
+      ],
+      [
+       8,
+       "André Almeida",
+       "OP",
+       "",
+       true
+      ],
+      [
+       10,
+       "Iñigo Vicente",
+       "LS",
+       "",
+       true
+      ],
+      [
+       21,
+       "Zabiri",
+       "N",
+       "",
+       true
+      ],
+      [
+       11,
+       "Andrés Martín",
+       "",
+       "",
+       false
+      ],
+      [
+       15,
+       "Pablo García",
+       "",
+       "",
+       false
+      ],
+      [
+       3,
+       "Aarón Martín",
+       "LO",
+       "",
+       false
+      ],
+      [
+       12,
+       "Villalibre",
+       "N",
+       "",
+       false
+      ],
+      [
+       7,
+       "Guliashvili",
+       "",
+       "",
+       false
+      ]
+     ]
+    },
+    "teamStats": [
+     [
+      "Posiadanie %",
+      43,
+      57
+     ],
+     [
+      "xG",
+      3.42,
+      0.31
+     ],
+     [
+      "Strzały",
+      20,
+      9
+     ],
+     [
+      "Celne",
+      7,
+      1
+     ],
+     [
+      "Rzuty rożne",
+      6,
+      4
+     ],
+     [
+      "Faule",
+      21,
+      9
+     ],
+     [
+      "Spalone",
+      4,
+      2
+     ]
+    ],
+    "notes": "Pozycje i strony wg kolejności w protokołach (orientacyjnie). Statystyki: futboltotal."
    },
    {
     "id": "LL-2026-27-R9-CEL-ALA",
@@ -1029,6 +3266,116 @@
       "s_": "a",
       "who": "Hugo Novoa",
       "as": "Mariano Díaz"
+     },
+     {
+      "m": 46,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Javi Rueda",
+      "out": "Williot Swedberg",
+      "s": [
+       null
+      ],
+      "why": ""
+     },
+     {
+      "m": 46,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Febas",
+      "out": "Ilaix Moriba",
+      "s": [
+       null
+      ],
+      "why": ""
+     },
+     {
+      "m": 70,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Iago Aspas",
+      "out": "Driouech",
+      "s": [
+       null
+      ],
+      "why": ""
+     },
+     {
+      "m": 70,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Antañón",
+      "out": "Hugo Burcio",
+      "s": [
+       null
+      ],
+      "why": ""
+     },
+     {
+      "m": 77,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Marcos Alonso",
+      "out": "Sebastián Cáceres",
+      "s": [
+       null
+      ],
+      "why": ""
+     },
+     {
+      "m": 62,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Denis Suárez",
+      "out": "Aleñá",
+      "s": [
+       null
+      ],
+      "why": ""
+     },
+     {
+      "m": 62,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Mariano Díaz",
+      "out": "Toni Martínez",
+      "s": [
+       null
+      ],
+      "why": ""
+     },
+     {
+      "m": 62,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Hugo Novoa",
+      "out": "Jonny Otto",
+      "s": [
+       null
+      ],
+      "why": ""
+     },
+     {
+      "m": 88,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Guevara",
+      "out": "Antonio Blanco",
+      "s": [
+       null
+      ],
+      "why": ""
+     },
+     {
+      "m": 88,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Aitor Mañas",
+      "out": "Abde Rebbach",
+      "s": [
+       null
+      ],
+      "why": ""
      }
     ],
     "staff": {
@@ -1044,7 +3391,279 @@
        "Quique Sánchez Flores"
       ]
      ]
-    }
+    },
+    "formation": {
+     "home": "3-4-3",
+     "away": "5-3-2"
+    },
+    "players": {
+     "home": [
+      [
+       13,
+       "Radu",
+       "BR",
+       "",
+       true
+      ],
+      [
+       20,
+       "Javi Rodríguez",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       18,
+       "Yoel Lago",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       21,
+       "Sebastián Cáceres",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       23,
+       "Hugo Álvarez",
+       "PS",
+       "",
+       true
+      ],
+      [
+       30,
+       "Hugo Burcio",
+       "ŚP",
+       "",
+       true
+      ],
+      [
+       6,
+       "Ilaix Moriba",
+       "ŚP",
+       "",
+       true
+      ],
+      [
+       5,
+       "Sergio Carreira",
+       "LS",
+       "",
+       true
+      ],
+      [
+       24,
+       "Driouech",
+       "PS",
+       "",
+       true
+      ],
+      [
+       9,
+       "Ferran Jutglà",
+       "N",
+       "",
+       true
+      ],
+      [
+       19,
+       "Williot Swedberg",
+       "LS",
+       "",
+       true
+      ],
+      [
+       17,
+       "Javi Rueda",
+       "",
+       "",
+       false
+      ],
+      [
+       14,
+       "Febas",
+       "ŚP",
+       "",
+       false
+      ],
+      [
+       10,
+       "Iago Aspas",
+       "N",
+       "",
+       false
+      ],
+      [
+       28,
+       "Antañón",
+       "",
+       "",
+       false
+      ],
+      [
+       3,
+       "Marcos Alonso",
+       "ŚO",
+       "",
+       false
+      ]
+     ],
+     "away": [
+      [
+       1,
+       "Antonio Sivera",
+       "BR",
+       "",
+       true
+      ],
+      [
+       14,
+       "Nahuel Tenaglia",
+       "PS",
+       "",
+       true
+      ],
+      [
+       2,
+       "Valentini",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       16,
+       "Koski",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       17,
+       "Jonny Otto",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       21,
+       "Abde Rebbach",
+       "LS",
+       "",
+       true
+      ],
+      [
+       10,
+       "Aleñá",
+       "ŚP",
+       "",
+       true
+      ],
+      [
+       8,
+       "Antonio Blanco",
+       "DP",
+       "",
+       true
+      ],
+      [
+       19,
+       "Pablo Ibáñez",
+       "ŚP",
+       "",
+       true
+      ],
+      [
+       15,
+       "Lucas Boyé",
+       "N",
+       "",
+       true
+      ],
+      [
+       11,
+       "Toni Martínez",
+       "N",
+       "",
+       true
+      ],
+      [
+       4,
+       "Denis Suárez",
+       "ŚP",
+       "",
+       false
+      ],
+      [
+       9,
+       "Mariano Díaz",
+       "N",
+       "",
+       false
+      ],
+      [
+       12,
+       "Hugo Novoa",
+       "",
+       "",
+       false
+      ],
+      [
+       6,
+       "Guevara",
+       "ŚP",
+       "",
+       false
+      ],
+      [
+       20,
+       "Aitor Mañas",
+       "",
+       "",
+       false
+      ]
+     ]
+    },
+    "teamStats": [
+     [
+      "Posiadanie %",
+      48,
+      52
+     ],
+     [
+      "xG",
+      0.91,
+      1.05
+     ],
+     [
+      "Strzały",
+      6,
+      20
+     ],
+     [
+      "Celne",
+      3,
+      9
+     ],
+     [
+      "Rzuty rożne",
+      0,
+      4
+     ],
+     [
+      "Faule",
+      14,
+      17
+     ],
+     [
+      "Spalone",
+      0,
+      3
+     ]
+    ],
+    "notes": "Pozycje i strony wg kolejności w protokołach (orientacyjnie). Kolejność piątki obrońców Alavés niepewna."
    },
    {
     "id": "LL-2026-27-R9-MAL-RSO",
@@ -1134,6 +3753,116 @@
       "t": "goal",
       "s_": "a",
       "who": "Gonçalo Guedes"
+     },
+     {
+      "m": 46,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Adam Aznou",
+      "out": "José Salinas",
+      "s": [
+       null
+      ],
+      "why": ""
+     },
+     {
+      "m": 46,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Ramón Enríquez",
+      "out": "Izan Merino",
+      "s": [
+       null
+      ],
+      "why": ""
+     },
+     {
+      "m": 64,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Dani Lorenzo",
+      "out": "Dotor",
+      "s": [
+       null
+      ],
+      "why": ""
+     },
+     {
+      "m": 68,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Joaquín Muñoz",
+      "out": "Larrubia",
+      "s": [
+       null
+      ],
+      "why": ""
+     },
+     {
+      "m": 82,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Carlos Puga",
+      "out": "Adrián Niño",
+      "s": [
+       null
+      ],
+      "why": ""
+     },
+     {
+      "m": 61,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Gonçalo Guedes",
+      "out": "Ander Barrenetxea",
+      "s": [
+       null
+      ],
+      "why": ""
+     },
+     {
+      "m": 61,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Igor Zubeldia",
+      "out": "Héctor Fort",
+      "s": [
+       null
+      ],
+      "why": ""
+     },
+     {
+      "m": 71,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Job Ochieng",
+      "out": "Take Kubo",
+      "s": [
+       null
+      ],
+      "why": ""
+     },
+     {
+      "m": 71,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Sergio Gómez",
+      "out": "Aihen Muñoz",
+      "s": [
+       null
+      ],
+      "why": ""
+     },
+     {
+      "m": 79,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Álex Marchal",
+      "out": "Orri Óskarsson",
+      "s": [
+       null
+      ],
+      "why": ""
      }
     ],
     "staff": {
@@ -1150,7 +3879,278 @@
       ]
      ]
     },
-    "notes": "Frekwencja zaokrąglona (EFE: ok. 30 000). Żółta Sarra tylko wg FutbolFantasy."
+    "notes": "Frekwencja zaokrąglona (EFE: ok. 30 000). Żółta Sarra tylko wg FutbolFantasy. Statystyki: LaLiga/futboltotal.",
+    "formation": {
+     "home": "4-4-2",
+     "away": "4-4-2"
+    },
+    "players": {
+     "home": [
+      [
+       1,
+       "Alfonso Herrero",
+       "BR",
+       "",
+       true
+      ],
+      [
+       31,
+       "Rafita",
+       "PO",
+       "",
+       true
+      ],
+      [
+       15,
+       "Ángel Recio",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       20,
+       "Fernando Calero",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       12,
+       "José Salinas",
+       "LO",
+       "",
+       true
+      ],
+      [
+       10,
+       "Larrubia",
+       "PS",
+       "",
+       true
+      ],
+      [
+       18,
+       "Pablo Martínez",
+       "ŚP",
+       "",
+       true
+      ],
+      [
+       23,
+       "Izan Merino",
+       "ŚP",
+       "",
+       true
+      ],
+      [
+       8,
+       "Dotor",
+       "LS",
+       "",
+       true
+      ],
+      [
+       21,
+       "Adrián Niño",
+       "N",
+       "",
+       true
+      ],
+      [
+       9,
+       "Chupete",
+       "N",
+       "",
+       true
+      ],
+      [
+       39,
+       "Adam Aznou",
+       "LO",
+       "",
+       false
+      ],
+      [
+       6,
+       "Ramón Enríquez",
+       "",
+       "",
+       false
+      ],
+      [
+       22,
+       "Dani Lorenzo",
+       "",
+       "",
+       false
+      ],
+      [
+       11,
+       "Joaquín Muñoz",
+       "",
+       "",
+       false
+      ],
+      [
+       3,
+       "Carlos Puga",
+       "",
+       "",
+       false
+      ]
+     ],
+     "away": [
+      [
+       1,
+       "Álex Remiro",
+       "BR",
+       "",
+       true
+      ],
+      [
+       22,
+       "Héctor Fort",
+       "PO",
+       "",
+       true
+      ],
+      [
+       6,
+       "Jon Martín",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       19,
+       "Mamadou Sarr",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       3,
+       "Aihen Muñoz",
+       "LO",
+       "",
+       true
+      ],
+      [
+       14,
+       "Take Kubo",
+       "PS",
+       "",
+       true
+      ],
+      [
+       4,
+       "Gorrotxategi",
+       "ŚP",
+       "",
+       true
+      ],
+      [
+       18,
+       "Carlos Soler",
+       "ŚP",
+       "",
+       true
+      ],
+      [
+       7,
+       "Ander Barrenetxea",
+       "LS",
+       "",
+       true
+      ],
+      [
+       9,
+       "Orri Óskarsson",
+       "N",
+       "",
+       true
+      ],
+      [
+       10,
+       "Mikel Oyarzabal",
+       "N",
+       "",
+       true
+      ],
+      [
+       11,
+       "Gonçalo Guedes",
+       "",
+       "",
+       false
+      ],
+      [
+       5,
+       "Igor Zubeldia",
+       "ŚO",
+       "",
+       false
+      ],
+      [
+       12,
+       "Job Ochieng",
+       "",
+       "",
+       false
+      ],
+      [
+       17,
+       "Sergio Gómez",
+       "LO",
+       "",
+       false
+      ],
+      [
+       "",
+       "Álex Marchal",
+       "",
+       "",
+       false
+      ]
+     ]
+    },
+    "teamStats": [
+     [
+      "Posiadanie %",
+      45.3,
+      54.7
+     ],
+     [
+      "xG",
+      1.1,
+      2.41
+     ],
+     [
+      "Strzały",
+      17,
+      21
+     ],
+     [
+      "Celne",
+      6,
+      9
+     ],
+     [
+      "Rzuty rożne",
+      4,
+      5
+     ],
+     [
+      "Faule",
+      4,
+      9
+     ],
+     [
+      "Spalone",
+      2,
+      2
+     ]
+    ]
    },
    {
     "id": "LL-2026-27-R9-RMA-SEV",
@@ -1574,21 +4574,24 @@
       "t": "sub",
       "s_": "a",
       "inn": "Chidera Ejuke",
-      "out": "Rubén Vargas"
+      "out": "Rubén Vargas",
+      "why": ""
      },
      {
       "m": 56,
       "t": "sub",
       "s_": "a",
       "inn": "Manu Bueno",
-      "out": "Peque"
+      "out": "Peque",
+      "why": ""
      },
      {
       "m": 56,
       "t": "sub",
       "s_": "a",
       "inn": "Lucas Stassin",
-      "out": "Robbie Ure"
+      "out": "Robbie Ure",
+      "why": ""
      },
      {
       "m": 63,
@@ -1608,28 +4611,32 @@
       "t": "sub",
       "s_": "h",
       "inn": "Bernardo Silva",
-      "out": "Jude Bellingham"
+      "out": "Jude Bellingham",
+      "why": ""
      },
      {
       "m": 70,
       "t": "sub",
       "s_": "h",
       "inn": "Brahim Díaz",
-      "out": "Endrick"
+      "out": "Endrick",
+      "why": ""
      },
      {
       "m": 72,
       "t": "sub",
       "s_": "a",
       "inn": "José Ángel Carmona",
-      "out": "Juan Iglesias"
+      "out": "Juan Iglesias",
+      "why": ""
      },
      {
       "m": 73,
       "t": "sub",
       "s_": "a",
       "inn": "Alfon",
-      "out": "Félix Correia"
+      "out": "Félix Correia",
+      "why": ""
      },
      {
       "m": 73,
@@ -1642,7 +4649,8 @@
       "t": "sub",
       "s_": "h",
       "inn": "Eduardo Camavinga",
-      "out": "Arda Güler"
+      "out": "Arda Güler",
+      "why": ""
      },
      {
       "m": 80,
@@ -1663,14 +4671,16 @@
       "t": "sub",
       "s_": "h",
       "inn": "Carlos Espí",
-      "out": "Kylian Mbappé"
+      "out": "Kylian Mbappé",
+      "why": ""
      },
      {
       "m": 85,
       "t": "sub",
       "s_": "h",
       "inn": "Éder Militão",
-      "out": "Federico Valverde"
+      "out": "Federico Valverde",
+      "why": ""
      }
     ],
     "teamStats": [
@@ -2026,7 +5036,8 @@
       "t": "sub",
       "s_": "h",
       "inn": "Abqar",
-      "out": "Ramón Terrats"
+      "out": "Ramón Terrats",
+      "why": ""
      },
      {
       "m": 45,
@@ -2040,14 +5051,16 @@
       "t": "sub",
       "s_": "h",
       "inn": "Francho Serrano",
-      "out": "Kiko Femenía"
+      "out": "Kiko Femenía",
+      "why": ""
      },
      {
       "m": 46,
       "t": "sub",
       "s_": "h",
       "inn": "Andrés García",
-      "out": "Mario Martín"
+      "out": "Mario Martín",
+      "why": ""
      },
      {
       "m": 51,
@@ -2067,21 +5080,24 @@
       "t": "sub",
       "s_": "a",
       "inn": "Óscar Valentín",
-      "out": "Isi Palazón"
+      "out": "Isi Palazón",
+      "why": ""
      },
      {
       "m": 59,
       "t": "sub",
       "s_": "a",
       "inn": "Pedro Díaz",
-      "out": "Andrei Balliu"
+      "out": "Andrei Balliu",
+      "why": ""
      },
      {
       "m": 65,
       "t": "sub",
       "s_": "a",
       "inn": "Luka Tsitaishvili",
-      "out": "Jorge de Frutos"
+      "out": "Jorge de Frutos",
+      "why": ""
      },
      {
       "m": 69,
@@ -2100,21 +5116,24 @@
       "t": "sub",
       "s_": "h",
       "inn": "Boselli",
-      "out": "Dani Carvajal"
+      "out": "Dani Carvajal",
+      "why": ""
      },
      {
       "m": 80,
       "t": "sub",
       "s_": "a",
       "inn": "Fran Pérez",
-      "out": "Unai López"
+      "out": "Unai López",
+      "why": ""
      },
      {
       "m": 80,
       "t": "sub",
       "s_": "a",
       "inn": "Alemão",
-      "out": "Álvaro García"
+      "out": "Álvaro García",
+      "why": ""
      },
      {
       "m": 84,
@@ -2133,7 +5152,8 @@
       "t": "sub",
       "s_": "h",
       "inn": "Borja Mayoral",
-      "out": "Enes Ünal"
+      "out": "Enes Ünal",
+      "why": ""
      },
      {
       "m": 90,
@@ -2185,7 +5205,7 @@
     "time": "21:00",
     "home": "ALA",
     "away": "MAL",
-    "status": "ns",
+    "status": "ft",
     "venue": {
      "name": "Mendizorroza",
      "city": "Vitoria-Gasteiz"
@@ -2264,7 +5284,445 @@
       "Rozbieżne kursy O/U między źródłami (Codere: o2,5 2,00 / u2,5 1,75) – rynek bramkowy niewiarygodny.",
       "Zbyt duża niepewność co do składu Málagi (kilku niepewnych)."
      ]
-    }
+    },
+    "score": [
+     1,
+     1
+    ],
+    "formation": {
+     "home": "5-3-2",
+     "away": "4-1-4-1"
+    },
+    "players": {
+     "home": [
+      [
+       1,
+       "Antonio Sivera",
+       "BR",
+       "",
+       true
+      ],
+      [
+       14,
+       "Nahuel Tenaglia",
+       "PO",
+       "",
+       true
+      ],
+      [
+       16,
+       "Ville Koski",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       2,
+       "Nicolás Valentini",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       7,
+       "Ángel Pérez",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       21,
+       "Abderrahman Rebbach",
+       "LO",
+       "",
+       true
+      ],
+      [
+       19,
+       "Pablo Ibáñez",
+       "ŚP",
+       "",
+       true
+      ],
+      [
+       8,
+       "Antonio Blanco",
+       "ŚP",
+       "",
+       true
+      ],
+      [
+       10,
+       "Carles Aleñá",
+       "ŚP",
+       "",
+       true
+      ],
+      [
+       15,
+       "Lucas Boyé",
+       "N",
+       "",
+       true
+      ],
+      [
+       9,
+       "Mariano Díaz",
+       "N",
+       "",
+       true
+      ],
+      [
+       "",
+       "Novoa",
+       "",
+       "",
+       false
+      ],
+      [
+       "",
+       "Yusi",
+       "",
+       "",
+       false
+      ],
+      [
+       "",
+       "Denis Suárez",
+       "ŚP",
+       "",
+       false
+      ],
+      [
+       "",
+       "Toni Martínez",
+       "N",
+       "",
+       false
+      ],
+      [
+       "",
+       "Aitor Mañas",
+       "N",
+       "",
+       false
+      ]
+     ],
+     "away": [
+      [
+       1,
+       "Alfonso Herrero",
+       "BR",
+       "",
+       true
+      ],
+      [
+       3,
+       "Carlos Puga",
+       "PO",
+       "",
+       true
+      ],
+      [
+       15,
+       "Ángel Recio",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       4,
+       "Einar Galilea",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       31,
+       "Rafita",
+       "LO",
+       "",
+       true
+      ],
+      [
+       6,
+       "Ramón Enríquez",
+       "DP",
+       "",
+       true
+      ],
+      [
+       10,
+       "David Larrubia",
+       "PS",
+       "",
+       true
+      ],
+      [
+       8,
+       "Carlos Dotor",
+       "ŚP",
+       "",
+       true
+      ],
+      [
+       22,
+       "Dani Lorenzo",
+       "ŚP",
+       "",
+       true
+      ],
+      [
+       39,
+       "Adam Aznou",
+       "LS",
+       "",
+       true
+      ],
+      [
+       21,
+       "Adrián Niño",
+       "N",
+       "",
+       true
+      ],
+      [
+       "",
+       "Rafa Rodríguez",
+       "",
+       "",
+       false
+      ],
+      [
+       "",
+       "Salinas",
+       "",
+       "",
+       false
+      ],
+      [
+       "",
+       "Berrocal",
+       "ŚO",
+       "",
+       false
+      ],
+      [
+       "",
+       "Chupete",
+       "N",
+       "",
+       false
+      ],
+      [
+       "",
+       "Cajuste",
+       "ŚP",
+       "",
+       false
+      ]
+     ]
+    },
+    "events": [
+     {
+      "m": 39,
+      "t": "yc",
+      "s_": "h",
+      "who": "Lucas Boyé",
+      "why": "Faul na Larrubii"
+     },
+     {
+      "m": 44,
+      "t": "var",
+      "s_": "a",
+      "kind": "Bramka – możliwy spalony (półautomatyczny)",
+      "init": "Spalony (chorągiewka)",
+      "fin": "Gol uznany"
+     },
+     {
+      "m": 44,
+      "t": "goal",
+      "s_": "a",
+      "who": "Adrián Niño",
+      "as": "Ramón Enríquez",
+      "how": "Lewa noga"
+     },
+     {
+      "m": 46,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Novoa",
+      "out": "Carles Aleñá"
+     },
+     {
+      "m": 55,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Yusi",
+      "out": "Nicolás Valentini"
+     },
+     {
+      "m": 55,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Denis Suárez",
+      "out": "Abderrahman Rebbach"
+     },
+     {
+      "m": 66,
+      "t": "yc",
+      "s_": "h",
+      "who": "Nahuel Tenaglia"
+     },
+     {
+      "m": 66,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Toni Martínez",
+      "out": "Mariano Díaz"
+     },
+     {
+      "m": 67,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Rafa Rodríguez",
+      "out": "Ramón Enríquez"
+     },
+     {
+      "m": 67,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Salinas",
+      "out": "Adam Aznou"
+     },
+     {
+      "m": 75,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Aitor Mañas",
+      "out": "Antonio Blanco"
+     },
+     {
+      "m": 77,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Berrocal",
+      "out": "Carlos Puga"
+     },
+     {
+      "m": 77,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Chupete",
+      "out": "Adrián Niño"
+     },
+     {
+      "m": 84,
+      "t": "yc",
+      "s_": "a",
+      "who": "Carlos Dotor"
+     },
+     {
+      "m": 87,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Cajuste",
+      "out": "Carlos Dotor"
+     },
+     {
+      "m": 89,
+      "t": "goal",
+      "s_": "h",
+      "who": "Aitor Mañas",
+      "how": "Dobitka po obronie Alfonso (strzał głową Toniego Martíneza)"
+     }
+    ],
+    "teamStats": [
+     [
+      "Posiadanie %",
+      50,
+      50
+     ],
+     [
+      "xG",
+      1.84,
+      0.71
+     ],
+     [
+      "Strzały",
+      18,
+      7
+     ]
+    ],
+    "ind": {
+     "Antonio Sivera": {
+      "r": 6.7
+     },
+     "Nahuel Tenaglia": {
+      "r": 7.2
+     },
+     "Ville Koski": {
+      "r": 6.9
+     },
+     "Nicolás Valentini": {
+      "r": 6.8
+     },
+     "Ángel Pérez": {
+      "r": 7.3
+     },
+     "Abderrahman Rebbach": {
+      "r": 6.2
+     },
+     "Pablo Ibáñez": {
+      "r": 7.4
+     },
+     "Antonio Blanco": {
+      "r": 6.5
+     },
+     "Carles Aleñá": {
+      "r": 6.4
+     },
+     "Lucas Boyé": {
+      "r": 6.8
+     },
+     "Mariano Díaz": {
+      "r": 6.6
+     },
+     "Alfonso Herrero": {
+      "r": 6.9
+     },
+     "Carlos Puga": {
+      "r": 8.3
+     },
+     "Ángel Recio": {
+      "r": 6.9
+     },
+     "Einar Galilea": {
+      "r": 7.5
+     },
+     "Rafita": {
+      "r": 7.0
+     },
+     "Ramón Enríquez": {
+      "r": 7.8
+     },
+     "David Larrubia": {
+      "r": 7.0
+     },
+     "Carlos Dotor": {
+      "r": 6.8
+     },
+     "Dani Lorenzo": {
+      "r": 6.8
+     },
+     "Adam Aznou": {
+      "r": 6.1
+     },
+     "Adrián Niño": {
+      "r": 7.7
+     }
+    },
+    "notes": "Gol Niño (44') początkowo odgwizdany jako spalony, uznany po weryfikacji VAR (półautomatyczny spalony – Tenaglia utrzymywał pozycję). Przy wyrównaniu Mañasa (89') Málaga reklamowała faul Pablo Ibáñeza na Recio – VAR nie interweniował. Ustawienie i oceny wg FotMob (101TV podaje Alavés w 4-4-2). Numery rezerwowych i dokładne pozycje części zmienników nieznane; frekwencja nieznana. Typ sprzed meczu: NO BET."
    },
    {
     "id": "LL-2026-27-R10-RAY-ELC",
@@ -2345,7 +5803,20 @@
       "Elche trudne do pokonania na wyjeździe (tylko 1 porażka w 5).",
       "Niepewność kadrowa Rayo (Ciss, Rațiu, Nteka) i atmosfera protestów kibiców."
      ]
-    }
+    },
+    "officials": [
+     {
+      "r": "GŁ",
+      "role": "Sędzia główny",
+      "name": "Miguel Sesma Espinosa",
+      "nat": "ESP"
+     },
+     {
+      "r": "VAR",
+      "role": "Sędzia VAR",
+      "name": "Jorge Figueroa"
+     }
+    ]
    },
    {
     "id": "LL-2026-27-R10-RAC-ESP",
@@ -2423,7 +5894,20 @@
       "Racing traci 2,8 gola/mecz, ale over 2,5 (1,73) i BTTS tak (1,53) wyceniają to już w pełni – mój model ~55% na over daje EV ujemne.",
       "1X2 wyrównane, brak wyraźnej przewagi żadnej strony."
      ]
-    }
+    },
+    "officials": [
+     {
+      "r": "GŁ",
+      "role": "Sędzia główny",
+      "name": "Jesús Gil Manzano",
+      "nat": "ESP"
+     },
+     {
+      "r": "VAR",
+      "role": "Sędzia VAR",
+      "name": "Raúl Martín González"
+     }
+    ]
    },
    {
     "id": "LL-2026-27-R10-VAL-VIL",
@@ -2504,7 +5988,20 @@
       "Under 2,5 kuszący (Valencia 6 goli w 9 meczach), lecz kursy O/U mają szeroki rozrzut między bukmacherami – brak pewnej wyceny.",
       "Wiele niepewności kadrowych po obu stronach."
      ]
-    }
+    },
+    "officials": [
+     {
+      "r": "GŁ",
+      "role": "Sędzia główny",
+      "name": "Alejandro Quintero González",
+      "nat": "ESP"
+     },
+     {
+      "r": "VAR",
+      "role": "Sędzia VAR",
+      "name": "José Antonio López"
+     }
+    ]
    },
    {
     "id": "LL-2026-27-R10-ATM-DEP",
@@ -2584,7 +6081,20 @@
       "Mecz po wtorkowej LM (Stuttgart 1:1) – możliwa rotacja.",
       "Deportivo remisuje często (5 remisów), co ogranicza wartość handicapów."
      ]
-    }
+    },
+    "officials": [
+     {
+      "r": "GŁ",
+      "role": "Sędzia główny",
+      "name": "José María Sánchez Martínez",
+      "nat": "ESP"
+     },
+     {
+      "r": "VAR",
+      "role": "Sędzia VAR",
+      "name": "Juan Luis Pulido"
+     }
+    ]
    },
    {
     "id": "LL-2026-27-R10-ATH-GET",
@@ -2956,7 +6466,7 @@
      "away": [
       [
        "Trener",
-       "Luis Miguel Ramis"
+       "Jagoba Arrasate"
       ]
      ]
     },

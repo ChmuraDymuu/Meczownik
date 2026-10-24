@@ -1,9 +1,9 @@
 {
- "updated": "2026-10-23T06:55:00+02:00",
+ "updated": "2026-10-24T06:55:00+02:00",
  "season": "2026/27",
  "competition": "Ekstraklasa",
  "currentRound": 12,
- "note": "Źródła: ekstraklasa.org, 90minut.pl, Oddsportal, betexplorer, flashscore.pl (Superbet), blog LV BET, weszlo.com, polsatsport.pl, FotMob, Sofascore, kluby. Forma liczona z wyników ligowych (ostatnie 5). Godziny meczów 25.10 w czasie zimowym (CET). Numery koszulek i pozycje częściowo niedostępne.",
+ "note": "Źródła: ekstraklasa.org, 90minut.pl, polsatsport.pl, dziennikwschodni.pl, lublin24.pl, interia.pl, Oddsportal, betexplorer, blog ETOTO, zagranie.com (Betclic/Superbet), blog LV BET, flashscore.pl, kluby. Tabela po meczach 23.10. Forma: ostatnie 5 meczów ligowych. Godziny meczów od 25.10 w czasie zimowym (CET). Składy meczów 23.10 bez numerów/pozycji — podane w uwagach.",
  "teams": {
   "LEG": {
    "id": "LEG",
@@ -4116,7 +4116,7 @@
     "time": "18:00",
     "home": "MOT",
     "away": "ZAG",
-    "status": "ns",
+    "status": "ft",
     "officials": [
      {
       "r": "GŁ",
@@ -4139,26 +4139,183 @@
      }
     ],
     "odds": {
-     "src": "Oddsportal 1X2 (stan na 23.10 ~06:45); BTTS: Superbet wg flashscore.pl (22.10)",
+     "src": "Oddsportal 1X2 (23.10 ~06:45); 1X, ponad/poniżej 2,5: ETOTO (23.10); BTTS: Superbet wg flashscore.pl",
      "1": 2.0,
      "X": 3.6,
      "2": 3.65,
-     "bttsY": 1.67
+     "bttsY": 1.67,
+     "1X": 1.3,
+     "o25": 1.74,
+     "u25": 2.06
     },
     "info": {
      "restDays": {
       "home": 6,
       "away": 5
      },
-     "homeAway": "Ostatnio: Motor 3:2 ze Śląskiem (29 strzałów), Zagłębie 1:0 z Jagiellonią; trener Misiura (21.10): sytuacja zdrowotna Motoru „nie jest idealna” (bez nazwisk)",
-     "stakes": "środek tabeli (12. vs 7. miejsce)"
+     "homeAway": "Motor u siebie 7 pkt w sezonie, wygrał 2 ostatnie mecze (3:2 ze Śląskiem po 0:1); Zagłębie: 13 pkt u siebie, 5 pkt na wyjeździe. Trener Misiura (21.10): sytuacja zdrowotna Motoru „nie jest idealna” (bez nazwisk)",
+     "stakes": "środek tabeli (12. vs 7. miejsce)",
+     "suspensions": {
+      "home": [],
+      "away": []
+     },
+     "h2h": [
+      "Motor bez porażki w 5 ostatnich meczach z Zagłębiem (4 W, 1 R, bramki 7:3)",
+      "2026-03-20 MOT 1:0 ZAG"
+     ]
     },
     "tip": {
      "decision": "NO BET",
      "reasons": [
-      "Model i rynek mocno się rozjeżdżają (model wskazuje Zagłębie), brak danych o składach — zbyt duża niepewność."
+      "Motor lub remis 1,30 ≈ 77%, a po zdjęciu marży rynek daje ok. 74% — nawet przy słabej formie wyjazdowej Zagłębia (5 pkt) EV ok. 0. Na żadnym rynku przewaga nie przekracza 5%."
      ]
-    }
+    },
+    "score": [
+     2,
+     2
+    ],
+    "attendance": 7618,
+    "formation": {
+     "home": "4-1-4-1",
+     "away": "4-2-3-1"
+    },
+    "events": [
+     {
+      "m": 25,
+      "t": "yc",
+      "s_": "h",
+      "who": "Yacine Bourhane"
+     },
+     {
+      "m": 28,
+      "t": "yc",
+      "s_": "a",
+      "who": "David Čolina"
+     },
+     {
+      "m": 34,
+      "t": "var",
+      "s_": "a",
+      "kind": "Rzut karny – kontrola",
+      "init": "Rzut karny (faul na Regule)",
+      "fin": "Karny anulowany"
+     },
+     {
+      "m": 45,
+      "s": "+1",
+      "t": "goal",
+      "s_": "a",
+      "who": "Sebastian Kerk",
+      "how": "Strzał po rykoszecie"
+     },
+     {
+      "m": 46,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Damian Michalski",
+      "out": "David Čolina"
+     },
+     {
+      "m": 48,
+      "t": "goal",
+      "s_": "a",
+      "who": "Marcel Reguła",
+      "as": "Michał Nalepa",
+      "how": "Po stałym fragmencie, strzał z ok. 16 m"
+     },
+     {
+      "m": 56,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Mateusz Łęgowski",
+      "out": "Yacine Bourhane"
+     },
+     {
+      "m": 56,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Fábio Ronaldo",
+      "out": "Makan Aïko"
+     },
+     {
+      "m": 66,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Jakub Sypek",
+      "out": "Mateusz Dziewiątowski"
+     },
+     {
+      "m": 66,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Filip Szymczak",
+      "out": "Sebastian Kerk"
+     },
+     {
+      "m": 72,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Thomas Santos",
+      "out": "Kamil Lukoszek"
+     },
+     {
+      "m": 72,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Alioune Oumar Tall",
+      "out": "Christopher Simon"
+     },
+     {
+      "m": 74,
+      "t": "goal",
+      "s_": "h",
+      "who": "Mateusz Łęgowski",
+      "how": "Dobitka z bliska"
+     },
+     {
+      "m": 75,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Mateusz Grzybek",
+      "out": "Marcel Reguła"
+     },
+     {
+      "m": 76,
+      "t": "yc",
+      "s_": "h",
+      "who": "Karol Czubak"
+     },
+     {
+      "m": 85,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Mateusz Posmyk",
+      "out": "Filip Luberecki"
+     },
+     {
+      "m": 87,
+      "t": "goal",
+      "s_": "h",
+      "who": "Mbaye Ndiaye",
+      "how": "Dobitka głową po rzucie rożnym"
+     },
+     {
+      "m": 90,
+      "s": "+1",
+      "t": "yc",
+      "s_": "a",
+      "who": "Mateusz Grzybek"
+     },
+     {
+      "m": 90,
+      "s": "+5",
+      "t": "sub",
+      "s_": "a",
+      "inn": "Mihael Mlinarić",
+      "out": "Josip Ćorluka"
+     }
+    ],
+    "notes": "Składy wyjściowe — Motor: Tratnik; Lukoszek, Bereszyński, Plavotić, Luberecki; Bourhane, Simon, Rony Lopes; Ndiaye (k), Czubak, Aïko. Zagłębie: Alomerović; Ławniczak, Čolina (k), Dąbrowski, Nalepa, Yakuba, Ćorluka, Kocaba, Reguła, Kerk, Dziewiątowski. Motor odrobił straty 0:2 po golach w 74. i 87. min. VAR anulował rzut karny dla Zagłębia (34'). Asysta przy 1. golu Motoru i 0:1 nie jest jednoznacznie podana w źródłach."
    },
    {
     "id": "2026-27-R12-WID-GZA",
@@ -4166,7 +4323,7 @@
     "time": "20:30",
     "home": "WID",
     "away": "GZA",
-    "status": "ns",
+    "status": "ft",
     "officials": [
      {
       "r": "GŁ",
@@ -4231,14 +4388,137 @@
       "2025-04-27 GZA 0:0 WID",
       "2024-10-27 WID 0:2 GZA",
       "2024-02-25 WID 3:1 GZA"
-     ]
+     ],
+     "suspensions": {
+      "home": [],
+      "away": []
+     }
     },
     "tip": {
      "decision": "NO BET",
      "reasons": [
       "Najbliżej wartości jest X2 (1,45 ≈ 69%), ale po zdjęciu marży rynek daje ok. 67%, a moja ocena ~70% — EV ok. +1%, za mało. Widzew bardzo często remisuje, Górnik stracił gola w 3 meczach z rzędu."
      ]
-    }
+    },
+    "score": [
+     1,
+     1
+    ],
+    "formation": {
+     "home": "4-1-4-1",
+     "away": "4-2-3-1"
+    },
+    "staff": {
+     "home": [
+      [
+       "Trener",
+       "Michal Gašparík"
+      ]
+     ],
+     "away": []
+    },
+    "events": [
+     {
+      "m": 16,
+      "t": "goal",
+      "s_": "h",
+      "who": "Karol Świderski",
+      "as": "D. Males",
+      "how": "Głowa po rzucie rożnym"
+     },
+     {
+      "m": 22,
+      "t": "sub",
+      "s_": "h",
+      "inn": "S. Biuk",
+      "out": "Mariusz Fornalczyk"
+     },
+     {
+      "m": 29,
+      "t": "yc",
+      "s_": "a",
+      "who": "Malthe Højholt"
+     },
+     {
+      "m": 40,
+      "t": "goal",
+      "s_": "a",
+      "who": "Kacper Urbański",
+      "as": "Z. Inoussa",
+      "how": "Strzał z bliska"
+     },
+     {
+      "m": 60,
+      "t": "sub",
+      "s_": "h",
+      "inn": "S. Bergier",
+      "out": "Karol Świderski"
+     },
+     {
+      "m": 60,
+      "t": "sub",
+      "s_": "h",
+      "inn": "C. Cheng",
+      "out": "S. Kapuadi"
+     },
+     {
+      "m": 63,
+      "t": "sub",
+      "s_": "a",
+      "inn": "M. Khlan",
+      "out": "Z. Inoussa"
+     },
+     {
+      "m": 71,
+      "t": "yc",
+      "s_": "h",
+      "who": "Giannis Papanikolaou"
+     },
+     {
+      "m": 74,
+      "t": "sub",
+      "s_": "a",
+      "inn": "E. Prekop",
+      "out": "S. Liseth"
+     },
+     {
+      "m": 78,
+      "t": "sub",
+      "s_": "h",
+      "inn": "M. Krajewski",
+      "out": "J. Gazibegović"
+     },
+     {
+      "m": 78,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Fran Álvarez",
+      "out": "D. Males"
+     }
+    ],
+    "teamStats": [
+     [
+      "Strzały",
+      4,
+      12
+     ],
+     [
+      "Rzuty rożne",
+      2,
+      5
+     ],
+     [
+      "Faule",
+      6,
+      10
+     ],
+     [
+      "Spalone",
+      0,
+      1
+     ]
+    ],
+    "notes": "Składy wyjściowe — Widzew: Drągowski (k); Gazibegović, Wiśniewski, Visus, Kapuadi; Papanikolaou; Fornalczyk, Shehu, Kornvig, Males; Świderski. Górnik: Schulze; Zmrzlý (k), Janicki, Josema, Janža; Højholt, Paulo Bernardo; P. González, Urbański, Liseth; Inoussa. Fornalczyk zszedł już w 22. min. Zdarzenia po 87. min mogą być niepełne. Statystyki wg mecze24.pl (niezweryfikowane drugim źródłem)."
    },
    {
     "id": "2026-27-R12-PIA-CRA",
@@ -4284,7 +4564,11 @@
      "stakes": "8. vs 11. miejsce",
      "h2h": [
       "7 z 10 ostatnich meczów bezpośrednich: poniżej 2,5 gola"
-     ]
+     ],
+     "suspensions": {
+      "home": [],
+      "away": []
+     }
     },
     "tip": {
      "decision": "NO BET",
@@ -4322,23 +4606,40 @@
      }
     ],
     "odds": {
-     "src": "Oddsportal 1X2 (stan na 22.10 ~18:00)",
+     "src": "Oddsportal 1X2 (23.10 ~06:45); pozostałe rynki: LV BET (23.10)",
      "1": 2.1,
      "X": 3.7,
-     "2": 3.1
+     "2": 3.1,
+     "1X": 1.38,
+     "X2": 1.77,
+     "o25": 1.65,
+     "u25": 2.25,
+     "bttsY": 1.55,
+     "bttsN": 2.42
     },
     "info": {
      "restDays": {
       "home": 6,
       "away": 7
      },
-     "homeAway": "Korona po porażce 1:6 w Poznaniu; GKS po porażce 0:1 z Pogonią u siebie",
-     "stakes": "9. vs 5. miejsce"
+     "homeAway": "Korona w 5 ostatnich meczach 1 W, 4 P (bramki 5:17, m.in. 1:6 w Poznaniu); GKS 2,0 gola strzelonego i 1,5 straconego na mecz",
+     "stakes": "9. vs 5. miejsce",
+     "suspensions": {
+      "home": [],
+      "away": []
+     },
+     "h2h": [
+      "2026-04-25 KOR 1:1 GKS",
+      "2025-10-25 GKS 1:0 KOR",
+      "2025-05-05 KOR 2:1 GKS",
+      "2024-11-04 GKS 1:2 KOR",
+      "2022-12-10 KOR 0:1 GKS"
+     ]
     },
     "tip": {
      "decision": "NO BET",
      "reasons": [
-      "Rynek faworyzuje Koronę, model GKS — brak kursów DNB, Korona często remisuje u siebie. Za mało pewności."
+      "Forma przemawia za GKS, ale X2 1,77 (rynek bez marży ≈ 56%) to wycena zbliżona do mojej. Ponad 2,5 gola 1,65 ≈ 61% — model daje ok. 55%. Brak przewagi."
      ]
     }
    },
@@ -4371,21 +4672,30 @@
      }
     ],
     "odds": {
-     "src": "Oddsportal 1X2 (stan na 22.10 ~18:00); pozostałe rynki: LV BET (22.10)",
-     "1": 1.76,
-     "X": 3.9,
-     "2": 4.2,
-     "1X": 1.25,
-     "X2": 2.1,
-     "o25": 1.65,
-     "u25": 2.25,
+     "src": "ETOTO (blog ETOTO, 23–24.10); 1X2 Superbet wg zagranie.com: 1,76 / 4,00 / 4,30; Betclic 1,72 / 3,90 / 4,30",
+     "1": 1.8,
+     "X": 3.86,
+     "2": 4.25,
+     "1X": 1.23,
+     "12": 1.26,
+     "X2": 1.94,
+     "dnb1": 1.35,
+     "dnb2": 3.1,
      "bttsY": 1.62,
-     "bttsN": 2.27
+     "bttsN": 2.26
     },
     "info": {
      "injuries": {
-      "home": [],
-      "away": []
+      "home": [
+       "Pozo",
+       "Juwary",
+       "Wahlqvist",
+       "Ali (niedostępni wg zagranie.com, powód niepodany)"
+      ],
+      "away": [
+       "Cichocki",
+       "Donis (niedostępni wg zagranie.com; ETOTO przewiduje Donisa w składzie)"
+      ]
      },
      "restDays": {
       "home": 7,
@@ -4399,14 +4709,18 @@
       "2025-05-10 RAD 2:0 POG",
       "2024-11-08 POG 0:1 RAD",
       "2024-02-16 RAD 0:4 POG"
-     ]
+     ],
+     "suspensions": {
+      "home": [],
+      "away": []
+     }
     },
     "tip": {
      "decision": "BET",
      "market": "Obie strzelą – nie",
-     "odds": 2.27,
+     "odds": 2.26,
      "prob": 0.5,
-     "ev": 0.135,
+     "ev": 0.13,
      "rating": 6,
      "risk": "średnie",
      "reasons": [
@@ -4415,15 +4729,16 @@
       "W ostatnich 5 meczach ligowych zarówno Pogoni, jak i Radomiaka obie drużyny strzeliły tylko 2 razy.",
       "Radomiak przegrał 4 mecze z rzędu (11 straconych goli) — gra głównie o ograniczenie strat.",
       "Pogoń jest wyraźnym faworytem (kurs 1,76), więc najbardziej prawdopodobne scenariusze to wygrana Pogoni do zera.",
-      "Brak potwierdzonych poważnych absencji w obu zespołach (stan na 22.10)."
+      "Pogoń ma kilku nieobecnych (Pozo, Juwary, Wahlqvist, Ali), ale przewidywana linia obrony (Mendy, Szalai, Keramitsis, Riccio) bez zmian."
      ],
      "risks": [
       "H2H przemawia przeciw: Radomiak strzelił Pogoni gola w 4 z 5 ostatnich meczów (m.in. 5:1 i 2:2).",
       "Radomiak w 10. kolejce strzelił 2 gole Motorowi — potrafi trafić z kontry.",
       "Składy nieznane; kursy BTTS tylko od jednego bukmachera (LV BET).",
-      "Mały wycinek sezonu (10–11 meczów) zwiększa niepewność oszacowania."
+      "Mały wycinek sezonu (10–11 meczów) zwiększa niepewność oszacowania.",
+      "Rozbieżność z rynkiem jest duża — kurs na gola Radomiaka (1,39) sugeruje, że bukmacherzy wyceniają atak gości wyżej niż statystyki sezonu."
      ],
-     "value": "Kurs 2,27 wycenia brak bramek obu drużyn na ok. 44%; moje szacunki (obrona Pogoni + słaby atak Radomiaka) dają ok. 50%.",
+     "value": "Kurs 2,26 (ETOTO) wycenia brak bramek obu drużyn na ok. 44% (ok. 42% po zdjęciu marży); moje szacunki (obrona Pogoni 0,6 straconego/mecz + atak Radomiaka 0,8/mecz, z regresją do średniej) dają ok. 50%.",
      "stake": "konserwatywnie, 1% bankrollu"
     }
    },
@@ -4456,23 +4771,34 @@
      }
     ],
     "odds": {
-     "src": "Oddsportal 1X2 (stan na 23.10 ~06:45)",
+     "src": "Oddsportal 1X2 (23.10 ~06:45); pozostałe rynki: ETOTO (23.10)",
      "1": 1.8,
      "X": 4.0,
-     "2": 3.8
+     "2": 3.8,
+     "1X": 1.26,
+     "12": 1.25,
+     "X2": 1.9,
+     "dnb1": 1.39,
+     "dnb2": 2.9,
+     "bttsY": 1.55,
+     "bttsN": 2.41
     },
     "info": {
      "restDays": {
       "home": 8,
       "away": 8
      },
-     "homeAway": "Wisła u siebie 5-0-0 (10:3); Raków jedyną wyjazdową wygraną odniósł w Krakowie z Wieczystą",
-     "stakes": "Raków ostatni (6 pkt); nowy trener Rakowa Dawid Szwarga (od 21.10). Wisła bez gola w 2 ostatnich meczach"
+     "homeAway": "Wisła u siebie 5-0-0 (10:3), ostatnio W W W P R; Raków w sezonie 2-0-9 (15:26)",
+     "stakes": "Raków ostatni (6 pkt); nowy trener Rakowa Dawid Szwarga (od 21.10). Wisła bez gola w 2 ostatnich meczach",
+     "suspensions": {
+      "home": [],
+      "away": []
+     }
     },
     "tip": {
      "decision": "NO BET",
      "reasons": [
-      "Wisła 5-0-0 u siebie, ale Raków właśnie zmienił trenera (Dawid Szwarga, 21.10) — efekt nowego trenera trudny do wyceny; przewaga przy kursie 1,76 zbyt mała."
+      "DNB Wisła 1,39 ≈ 72% przy rynkowej wycenie bez marży ok. 68% — EV bliskie zera. Raków ma nowego trenera (Dawid Szwarga od 21.10), czego nie da się wycenić."
      ]
     }
    },
@@ -4517,7 +4843,13 @@
       "away": 9
      },
      "homeAway": "Śląsk 5 porażek z rzędu, 2+ stracone gole w 5 ostatnich meczach; Wieczysta 2 porażki z rzędu",
-     "stakes": "mecz dołu tabeli (17. vs 15.)"
+     "stakes": "mecz dołu tabeli (17. vs 15.)",
+     "suspensions": {
+      "home": [
+       "Marc Llinares (4 żółte)"
+      ],
+      "away": []
+     }
     },
     "tip": {
      "decision": "NO BET",
@@ -4538,7 +4870,8 @@
       "r": "GŁ",
       "role": "Sędzia główny",
       "name": "Damian Kos",
-      "nat": "POL"
+      "nat": "POL",
+      "city": "Gdańsk"
      },
      {
       "r": "AS1",
@@ -4586,7 +4919,11 @@
      "stakes": "Jagiellonia (13.) przy natężonym terminarzu pucharowym",
      "h2h": [
       "Ostatni mecz bezpośredni (w Białymstoku) wygrała Wisła Płock"
-     ]
+     ],
+     "suspensions": {
+      "home": [],
+      "away": []
+     }
     },
     "tip": {
      "decision": "NO BET",
@@ -4663,6 +5000,10 @@
      "restDays": {
       "home": 8,
       "away": 3
+     },
+     "suspensions": {
+      "home": [],
+      "away": []
      }
     },
     "tip": {
@@ -4751,14 +5092,14 @@
  "table": [
   {
    "team": "GZA",
-   "p": 11,
+   "p": 12,
    "w": 8,
-   "d": 2,
+   "d": 3,
    "l": 1,
-   "gf": 20,
-   "ga": 10,
-   "pts": 26,
-   "form": "WWDWD"
+   "gf": 21,
+   "ga": 11,
+   "pts": 27,
+   "form": "WDWDD"
   },
   {
    "team": "LPO",
@@ -4794,6 +5135,17 @@
    "form": "DWWWW"
   },
   {
+   "team": "ZAG",
+   "p": 12,
+   "w": 5,
+   "d": 4,
+   "l": 3,
+   "gf": 15,
+   "ga": 15,
+   "pts": 19,
+   "form": "WLLWD"
+  },
+  {
    "team": "GKS",
    "p": 11,
    "w": 6,
@@ -4814,17 +5166,6 @@
    "ga": 14,
    "pts": 18,
    "form": "DWWLD"
-  },
-  {
-   "team": "ZAG",
-   "p": 11,
-   "w": 5,
-   "d": 3,
-   "l": 3,
-   "gf": 13,
-   "ga": 13,
-   "pts": 18,
-   "form": "DWLLW"
   },
   {
    "team": "PIA",
@@ -4860,6 +5201,17 @@
    "form": "DWWLW"
   },
   {
+   "team": "MOT",
+   "p": 12,
+   "w": 3,
+   "d": 4,
+   "l": 5,
+   "gf": 17,
+   "ga": 21,
+   "pts": 13,
+   "form": "LDWWD"
+  },
+  {
    "team": "CRA",
    "p": 11,
    "w": 3,
@@ -4869,17 +5221,6 @@
    "ga": 16,
    "pts": 12,
    "form": "LLLWD"
-  },
-  {
-   "team": "MOT",
-   "p": 11,
-   "w": 3,
-   "d": 3,
-   "l": 5,
-   "gf": 15,
-   "ga": 19,
-   "pts": 12,
-   "form": "LLDWW"
   },
   {
    "team": "JAG",
@@ -4894,14 +5235,14 @@
   },
   {
    "team": "WID",
-   "p": 11,
+   "p": 12,
    "w": 1,
-   "d": 7,
+   "d": 8,
    "l": 3,
-   "gf": 14,
-   "ga": 15,
-   "pts": 10,
-   "form": "DDDLD"
+   "gf": 15,
+   "ga": 16,
+   "pts": 11,
+   "form": "DDLDD"
   },
   {
    "team": "WIE",
