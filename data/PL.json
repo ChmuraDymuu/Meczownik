@@ -1,9 +1,9 @@
 {
- "updated": "2026-10-24T05:40:00+02:00",
+ "updated": "2026-10-25T05:45:00+01:00",
  "season": "2026/27",
  "competition": "Premier League",
  "currentRound": 8,
- "note": "Źródła: premierleague.com, Sky Sports i Suffolk News (raport IPS–NFO 23.10), Sports Mole i dave.sport (konferencja Artety 23.10), footballpredictions.com (kursy 24.10), soccergraph (obsada sędziowska), Fantasy Football Scout, Squawka, oddslot (BC.Game, 23.10), The Football Faithful, Wikipedia. Godziny w czasie polskim (od 25.10 CET).",
+ "note": "Źródła: premierleague.com, ESPN, NBC Sports, TNT Sports, Sky Sports, VAVEL, The Analyst (Opta), Wikipedia (tabela), Sportsgambler, Dimers, Ladbrokes, Sportytrader (kursy 23–25.10), wcześniej: footballpredictions.com, oddslot, soccergraph. Godziny w czasie polskim (od 25.10 CET).",
  "teams": {
   "ARS": {
    "id": "ARS",
@@ -189,25 +189,25 @@
  "table": [
   {
    "team": "MCI",
-   "p": 7,
+   "p": 8,
    "w": 7,
    "d": 0,
-   "l": 0,
-   "gf": 19,
-   "ga": 7,
+   "l": 1,
+   "gf": 20,
+   "ga": 9,
    "pts": 21,
-   "form": "WWWWW"
+   "form": "WWWWL"
   },
   {
    "team": "ARS",
-   "p": 7,
-   "w": 6,
+   "p": 8,
+   "w": 7,
    "d": 0,
    "l": 1,
-   "gf": 11,
+   "gf": 13,
    "ga": 5,
-   "pts": 18,
-   "form": "WWLWW"
+   "pts": 21,
+   "form": "WLWWW"
   },
   {
    "team": "BHA",
@@ -222,14 +222,14 @@
   },
   {
    "team": "CHE",
-   "p": 7,
+   "p": 8,
    "w": 4,
    "d": 1,
-   "l": 2,
+   "l": 3,
    "gf": 17,
-   "ga": 13,
+   "ga": 15,
    "pts": 13,
-   "form": "LDLWW"
+   "form": "DLWWL"
   },
   {
    "team": "LIV",
@@ -241,6 +241,17 @@
    "ga": 8,
    "pts": 12,
    "form": "WDWLW"
+  },
+  {
+   "team": "AVL",
+   "p": 8,
+   "w": 3,
+   "d": 2,
+   "l": 3,
+   "gf": 9,
+   "ga": 12,
+   "pts": 11,
+   "form": "LWDWW"
   },
   {
    "team": "BRE",
@@ -266,14 +277,14 @@
   },
   {
    "team": "EVE",
-   "p": 7,
+   "p": 8,
    "w": 2,
    "d": 4,
-   "l": 1,
+   "l": 2,
    "gf": 8,
-   "ga": 7,
+   "ga": 9,
    "pts": 10,
-   "form": "DDWDL"
+   "form": "DWDLL"
   },
   {
    "team": "IPS",
@@ -298,6 +309,28 @@
    "form": "DDLDL"
   },
   {
+   "team": "TOT",
+   "p": 8,
+   "w": 2,
+   "d": 3,
+   "l": 3,
+   "gf": 8,
+   "ga": 10,
+   "pts": 9,
+   "form": "DLDWW"
+  },
+  {
+   "team": "FUL",
+   "p": 8,
+   "w": 2,
+   "d": 2,
+   "l": 4,
+   "gf": 8,
+   "ga": 10,
+   "pts": 8,
+   "form": "DDLWW"
+  },
+  {
    "team": "NEW",
    "p": 7,
    "w": 2,
@@ -307,17 +340,6 @@
    "ga": 14,
    "pts": 8,
    "form": "DLWLL"
-  },
-  {
-   "team": "AVL",
-   "p": 7,
-   "w": 2,
-   "d": 2,
-   "l": 3,
-   "gf": 7,
-   "ga": 11,
-   "pts": 8,
-   "form": "DLWDW"
   },
   {
    "team": "MUN",
@@ -353,17 +375,6 @@
    "form": "DDLLW"
   },
   {
-   "team": "TOT",
-   "p": 7,
-   "w": 1,
-   "d": 3,
-   "l": 3,
-   "gf": 6,
-   "ga": 10,
-   "pts": 6,
-   "form": "DDLDW"
-  },
-  {
    "team": "NFO",
    "p": 8,
    "w": 1,
@@ -376,25 +387,14 @@
   },
   {
    "team": "COV",
-   "p": 7,
+   "p": 8,
    "w": 2,
    "d": 0,
-   "l": 5,
+   "l": 6,
    "gf": 6,
-   "ga": 14,
+   "ga": 15,
    "pts": 6,
-   "form": "LLWWL"
-  },
-  {
-   "team": "FUL",
-   "p": 7,
-   "w": 1,
-   "d": 2,
-   "l": 4,
-   "gf": 7,
-   "ga": 10,
-   "pts": 5,
-   "form": "LDDLW"
+   "form": "LWWLL"
   },
   {
    "team": "SUN",
@@ -410,7 +410,7 @@
  ],
  "picks": [
   {
-   "match": "PL-2026-27-R8-ARS-EVE",
+   "match": "PL-2026-27-R8-SUN-LEE",
    "rank": 1
   }
  ],
@@ -1121,7 +1121,7 @@
     "time": "13:30",
     "home": "AVL",
     "away": "MCI",
-    "status": "ns",
+    "status": "ft",
     "venue": {
      "name": "Villa Park",
      "city": "Birmingham",
@@ -1166,7 +1166,7 @@
      "stakes": "Lider (7/7) vs 12. Aston Villa; City grało we wtorek w LM (5:1 z AEK).",
      "h2h": []
     },
-    "notes": "Erling Haaland wg trenera Enzo Maresci „w 100% dostępny” (konferencja 22.10).",
+    "notes": "Dublet Nicolasa Jacksona — pierwsza ligowa porażka City pod wodzą Enzo Maresci. Żółtą kartkę dostał też Matty Cash (minuta nieznana). Składy — AVL (4-2-3-1): Suzuki; Cash, Lindelöf, Pau Torres, Maatsen; Kamara, João Gomes; Alysson, Manzambi, McGinn; Jackson. Rezerwowi: Bizot, Mings, Barkley, Buendía, Mbaye, Bogarde, Goretzka, Madjo, Hemmings. MCI (4-2-3-1): Donnarumma; Khusanov, Rúben Dias, Guéhi, Gvardiol; Anderson, Enzo Fernández; Ndiaye, Cherki, Doku; Haaland. Rezerwowi: Rulli, Kovačić, Aït-Nouri, Vitor Reis, Bouaddi, O'Reilly, Foden, McAidoo, Lewis. Numery niepotwierdzone; zmiany w przerwie wg VAVEL.",
     "tip": {
      "decision": "NO BET",
      "reasons": [
@@ -1208,6 +1208,126 @@
       "role": "Asystent VAR",
       "name": "Nick Greenhalgh"
      }
+    ],
+    "score": [
+     2,
+     1
+    ],
+    "events": [
+     {
+      "m": 6,
+      "t": "goal",
+      "s_": "h",
+      "who": "Nicolas Jackson",
+      "as": "John McGinn"
+     },
+     {
+      "m": 35,
+      "t": "yc",
+      "s_": "a",
+      "who": "Marc Guéhi"
+     },
+     {
+      "m": 40,
+      "t": "yc",
+      "s_": "a",
+      "who": "Rayan Cherki"
+     },
+     {
+      "m": 46,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Rico Lewis",
+      "out": "Marc Guéhi"
+     },
+     {
+      "m": 46,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Phil Foden",
+      "out": "Rayan Cherki"
+     },
+     {
+      "m": 52,
+      "t": "goal",
+      "s_": "a",
+      "who": "Erling Haaland",
+      "as": "Iliman Ndiaye"
+     },
+     {
+      "m": 59,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Ibrahim Mbaye",
+      "out": "Alysson"
+     },
+     {
+      "m": 60,
+      "t": "goal",
+      "s_": "h",
+      "who": "Nicolas Jackson",
+      "as": "Ibrahim Mbaye"
+     },
+     {
+      "m": 67,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Ross Barkley",
+      "out": "John McGinn"
+     },
+     {
+      "m": 67,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Emiliano Buendía",
+      "out": "Johan Manzambi"
+     },
+     {
+      "m": 69,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Ryan McAidoo",
+      "out": "Iliman Ndiaye"
+     },
+     {
+      "m": 74,
+      "t": "yc",
+      "s_": "a",
+      "who": "Elliot Anderson"
+     },
+     {
+      "m": 76,
+      "t": "yc",
+      "s_": "a",
+      "who": "Ryan McAidoo"
+     },
+     {
+      "m": 83,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Brian Madjo",
+      "out": "Nicolas Jackson"
+     },
+     {
+      "m": 83,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Leon Goretzka",
+      "out": "João Gomes"
+     },
+     {
+      "m": 84,
+      "t": "yc",
+      "s_": "h",
+      "who": "Brian Madjo"
+     }
+    ],
+    "teamStats": [
+     [
+      "Celne",
+      2,
+      5
+     ]
     ]
    },
    {
@@ -1216,7 +1336,7 @@
     "time": "16:00",
     "home": "ARS",
     "away": "EVE",
-    "status": "ns",
+    "status": "ft",
     "venue": {
      "name": "Emirates Stadium",
      "city": "Londyn",
@@ -1330,7 +1450,62 @@
       "name": "Tom Nield"
      }
     ],
-    "notes": "Everton z pełną kadrą (Moyes). Arsenal w cyklu niedziela–środa–sobota; Madueke ma zastąpić Sakę, Eze wraca na lewe skrzydło. Hincapié wrócił do treningów (23.10) i jest dostępny."
+    "notes": "Konsa dobił piłkę przedłużoną przez Gabriela po dośrodkowaniu Ødegaarda; Gabriel (200. mecz w PL) głową po wrzutce White'a. Raya obronił sam na sam z Barrym przy 1:0. Arteta ukarany żółtą kartką (68., protesty). Typ Under 2,5 — trafiony. Składy — ARS: Raya; White, Gabriel, Konsa, Lewis-Skelly; Rice, Merino, Ødegaard; Madueke, Eze, Gyökeres. Rezerwowi: Arrizabalaga, Timber, Hincapié, Calafiori, Mosquera, Zubimendi, Guimarães, Dowman, Havertz. Everton bez Grealisha (choroba) i Branthwaite'a (protokół wstrząśnienia mózgu); pełny skład nieopublikowany w źródłach.",
+    "score": [
+     2,
+     0
+    ],
+    "events": [
+     {
+      "m": 7,
+      "t": "goal",
+      "s_": "h",
+      "who": "Ezri Konsa",
+      "as": "Gabriel Magalhães",
+      "how": "Po rzucie rożnym"
+     },
+     {
+      "m": 58,
+      "t": "yc",
+      "s_": "h",
+      "who": "Myles Lewis-Skelly",
+      "why": "Ostry faul"
+     },
+     {
+      "m": 68,
+      "t": "goal",
+      "s_": "h",
+      "who": "Gabriel Magalhães",
+      "as": "Ben White",
+      "how": "Głowa"
+     },
+     {
+      "m": 73,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Tyler Dibling",
+      "out": "Brennan Johnson"
+     },
+     {
+      "m": 85,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Carlos Alcaraz",
+      "out": "Kiernan Dewsbury-Hall"
+     }
+    ],
+    "teamStats": [
+     [
+      "xG",
+      1.77,
+      0.48
+     ],
+     [
+      "Strzały",
+      20,
+      8
+     ]
+    ]
    },
    {
     "id": "PL-2026-27-R8-COV-FUL",
@@ -1338,7 +1513,7 @@
     "time": "16:00",
     "home": "COV",
     "away": "FUL",
-    "status": "ns",
+    "status": "ft",
     "venue": {
      "name": "Coventry Building Society Arena",
      "city": "Coventry",
@@ -1425,7 +1600,41 @@
       "role": "Asystent VAR",
       "name": "Matt Donohue"
      }
-    ]
+    ],
+    "score": [
+     0,
+     1
+    ],
+    "events": [
+     {
+      "m": 36,
+      "t": "yc",
+      "s_": "a",
+      "who": "Shea Charles"
+     },
+     {
+      "m": 59,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Stephen Mfuni",
+      "out": "Bobby Thomas",
+      "why": "Uraz"
+     },
+     {
+      "m": 63,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Sander Berge",
+      "out": "Hugo Larsson"
+     },
+     {
+      "m": 80,
+      "t": "goal",
+      "s_": "a",
+      "who": "Oscar Bobb"
+     }
+    ],
+    "notes": "Bobb dał Fulham drugie zwycięstwo z rzędu. Josh King trafił w słupek (17.). VAR sprawdzał w 45+2 przytrzymanie Bassey'ego przez Thomasa-Asante oraz możliwą rękę Shei Charlesa — bez rzutów karnych. Składy — COV: Rushworth; van Ewijk, B. Thomas, Pinnock, Dasilva; Grimes, Yirenkyi; Sakamoto, Rudoni, Cherif; Thomas-Asante. Rezerwowi: Bentley, Kesler-Hayden, Mfuni, Onyeka, Torp, Gboho, Mason-Clark, Hamer, Awoniyi. FUL: Leno; Castagne, Affengruber, Bassey, Robinson; Larsson, Charles; Bobb, King, Iwobi; García. Rezerwowi: Lecomte, Andersen, Tete, Manuel Ángel, Berge, Cairney, Palacios, Kevin, Muniz. Kolejność w linii niepotwierdzona."
    },
    {
     "id": "PL-2026-27-R8-CHE-TOT",
@@ -1433,25 +1642,20 @@
     "time": "18:30",
     "home": "CHE",
     "away": "TOT",
-    "status": "ns",
+    "status": "ft",
     "venue": {
      "name": "Stamford Bridge",
      "city": "Londyn",
      "capacity": 40044
     },
     "staff": {
-     "home": [
-      [
-       "Trener",
-       "Xabi Alonso"
-      ]
-     ],
      "away": [
       [
        "Trener",
        "Roberto De Zerbi"
       ]
-     ]
+     ],
+     "home": []
     },
     "odds": {
      "src": "BC.Game via oddslot (1X2, podwójna szansa – 23.10); footballpredictions.com (O2,5, BTTS, DNB – 24.10)",
@@ -1527,7 +1731,75 @@
       "name": "Richard West"
      }
     ],
-    "notes": "Cole Palmer i João Pedro wrócili po drobnych urazach; Malo Gusto pod dużym znakiem zapytania (footballpredictions.com). Marmoush i Robertson niepewni po meczu z Coventry."
+    "notes": "Samobój Pendersa — piąstkował piłkę po rożnym Mateusa Fernandesa do własnej bramki (walka z van Hecke). Pierwsze zwycięstwo Tottenhamu na Stamford Bridge z czystym kontem od grudnia 1986. Żółte kartki także: Pedro Neto (ok. 83.), wg NBC również van de Ven; ukarani członkowie sztabów. Inne zmiany bez dokładnej minuty: Palestra za Hato (~65.), Estevão za Quendę, zejście Marmousha. Składy — CHE: Penders; Acheampong, Lacroix, Colwill, Hato; Caicedo (k), Henderson; Neto, Palmer, Quenda; Rogers. Rezerwowi: Sharman-Lowe, Gusto, Palestra, Fofana, Barco, Nicoll-Jazuli, Lavia, Estevão, Welbeck. TOT: Kinský; Robertson, van Hecke, van de Ven (k), Gray; Tonali, M. Fernandes, Maddison; Kudus, Marmoush, Tel (ustawienie niepotwierdzone). Rezerwowi: Dúbravka, Senesi, Gallagher, Solanke, Kulusevski, Porro, Davies, Olusesi, Williams-Barnett. Piłkarz meczu: Mateus Fernandes.",
+    "score": [
+     0,
+     2
+    ],
+    "events": [
+     {
+      "m": 51,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Conor Gallagher",
+      "out": "James Maddison",
+      "why": "Uraz (biodro/pachwina)"
+     },
+     {
+      "m": 70,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Pedro Porro",
+      "out": "Andy Robertson"
+     },
+     {
+      "m": 75,
+      "t": "yc",
+      "s_": "a",
+      "who": "Mateus Fernandes"
+     },
+     {
+      "m": 77,
+      "t": "og",
+      "s_": "a",
+      "who": "Mike Penders"
+     },
+     {
+      "m": 83,
+      "t": "rc",
+      "s_": "h",
+      "who": "Cole Palmer",
+      "why": "Druga żółta kartka (spóźniony atak na Fernandesa)"
+     },
+     {
+      "m": 87,
+      "t": "goal",
+      "s_": "a",
+      "who": "Mathys Tel",
+      "how": "Strzał z dystansu po rajdzie"
+     },
+     {
+      "m": 90,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Dejan Kulusevski",
+      "out": "Mohammed Kudus"
+     },
+     {
+      "m": 90,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Ben Davies",
+      "out": "Mathys Tel"
+     },
+     {
+      "m": 90,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Danny Welbeck",
+      "out": "Pedro Neto"
+     }
+    ]
    },
    {
     "id": "PL-2026-27-R8-CRY-NEW",
@@ -1556,13 +1828,14 @@
      ]
     },
     "odds": {
-     "src": "BC.Game via oddslot – stan na 23.10.2026",
+     "src": "BC.Game via oddslot (1X2 – 23.10); BetMGM via Sportsgambler (O2,5 – 23.10)",
      "1": 2.88,
      "X": 3.6,
      "2": 2.38,
      "1X": 1.53,
      "X2": 1.4,
-     "12": 1.28
+     "12": 1.28,
+     "o25": 1.58
     },
     "info": {
      "homeAway": "CRY u siebie 1W-0R-2P; NEW na wyjeździe 1W-0R-2P",
@@ -1578,14 +1851,18 @@
      },
      "restDays": {
       "home": 3
-     }
+     },
+     "h2h": [
+      "Ostatni mecz: CRY 2:1 NEW (u siebie)"
+     ]
     },
     "tip": {
      "decision": "NO BET",
      "reasons": [
       "Obie obrony słabe (xGA: CRY 16,04, NEW 13,09) — logiczny kierunek to over 2,5, ale kurs 1,61–1,69 jest za niski.",
       "1X2 wyceniony blisko mojej oceny.",
-      "Palace grało w czwartek w pucharach (3 dni odpoczynku); kursy 2,88/3,60/2,38 blisko uczciwych."
+      "Palace grało w czwartek w pucharach (3 dni odpoczynku); kursy 2,88/3,60/2,38 blisko uczciwych.",
+      "O2,5 po 1,58 (63%) — Palace 8/10 i Newcastle 4/5 ostatnich meczów powyżej 2,5, ale cena już to uwzględnia."
      ]
     },
     "officials": [
@@ -1649,21 +1926,31 @@
      ]
     },
     "odds": {
-     "src": "BC.Game via oddslot – stan na 23.10.2026",
-     "1": 5.0,
-     "X": 3.8,
-     "2": 1.7,
+     "src": "1xbet via Sportytrader (1X2 – najlepsze kursy, 25.10); BC.Game via oddslot (podwójna szansa – 23.10)",
+     "1": 5.03,
+     "X": 4.21,
+     "2": 1.73,
      "1X": 2.1,
      "X2": 1.17,
      "12": 1.25
     },
     "info": {
      "injuries": {
-      "home": [],
+      "home": [
+       "Jack Butland",
+       "Matt Targett",
+       "Charlie Hughes",
+       "N. Mendy",
+       "Eduardo Matazo",
+       "Darko Gyabi",
+       "Ibrahim Ansah"
+      ],
       "away": [
        "Antoni Milambo (kolano)",
        "Josh Dasilva (ścięgno)",
-       "Kaye Furo (kolano)"
+       "Kaye Furo (kolano)",
+       "Nathan Collins (niepewny)",
+       "Mathias Jensen (niepewny)"
       ]
      },
      "suspensions": {
@@ -1682,7 +1969,8 @@
       "Brentford bez dwóch zawieszonych pomocników (Janelt, Yarmolyuk) i bez wygranej na wyjeździe w sezonie.",
       "Kurs 1,74–1,84 na Brentford wycenia ~55–57% — przy tych brakach to za mało, by grać.",
       "Hull u siebie niepokonany.",
-      "Kurs Brentford skrócił się do 1,70 (59%) mimo braku Janelta i Yarmolyuka — tym bardziej bez wartości."
+      "Kurs Brentford skrócił się do 1,70 (59%) mimo braku Janelta i Yarmolyuka — tym bardziej bez wartości.",
+      "Najlepszy kurs 1,73 (58%) przy brakach Brentford w środku pola — nadal bez wartości; Hull ma 7 nieobecnych, w tym Butlanda."
      ]
     },
     "officials": [
@@ -1747,13 +2035,15 @@
      ]
     },
     "odds": {
-     "src": "BC.Game via oddslot – stan na 23.10.2026",
+     "src": "BC.Game via oddslot (1X2, podwójna szansa – 23.10); Dimers – najlepsze kursy USA (O/U 2,5 – 24.10)",
      "1": 2.15,
      "X": 3.6,
      "2": 3.25,
      "1X": 1.33,
      "X2": 1.67,
-     "12": 1.28
+     "12": 1.28,
+     "o25": 1.56,
+     "u25": 2.7
     },
     "info": {
      "injuries": {
@@ -1772,17 +2062,20 @@
       ]
      },
      "homeAway": "LIV u siebie 0W-2R-1P; BHA na wyjeździe 2W-0R-1P",
-     "stakes": "3. vs 5. — Brighton po 3 zwycięstwach 10:0. Brighton grał w czwartek w pucharach (Jablonec).",
+     "stakes": "3. vs 5. — Brighton po 3 zwycięstwach 10:0. Brighton grał w czwartek w pucharach (Jablonec). Liverpool wygrał we wtorek 4:3 z Villarrealem w LM; Brighton zremisował w czwartek 0:0 w Jabloncu (LKE).",
      "restDays": {
+      "home": 5,
       "away": 3
      }
     },
     "tip": {
      "decision": "NO BET",
      "reasons": [
-      "Liverpool u siebie bez wygranej w lidze (0:3 z City), Brighton w świetnej formie, ale z dużą nadwyżką goli nad xG (23 vs 16,79).",
-      "Rynki wycenione rozsądnie — brak wyraźnej przewagi; duża niepewność.",
-      "Brighton po czwartkowym meczu pucharowym i z 7 kontuzjowanymi, ale Liverpool bez wygranej u siebie; 2,15 na LIV (~47%) zgodne z oceną."
+      "Kursy 24.10: Liverpool ~2,15–2,17 (≈46%), Brighton ~3,25–3,33; moja ocena wygranej LIV ok. 48% — EV ≈ +3%, za mało.",
+      "Liverpool bez wygranej ligowej u siebie (0W-2R-1P) i nie pokrył −0,25 AH w 5 ostatnich meczach domowych.",
+      "Brighton po czwartkowym meczu pucharowym i z 7 kontuzjowanymi (m.in. Mitoma, Minteh, Wieffer), ale 4 wygrane z rzędu.",
+      "Over 2,5 po 1,56 (64%) — zgodne z oceną, brak wartości.",
+      "Zbyt duża niepewność co do składów — NO BET."
      ]
     },
     "officials": [
@@ -1846,7 +2139,7 @@
      ]
     },
     "odds": {
-     "src": "BC.Game via oddslot – stan na 23.10.2026",
+     "src": "BC.Game via oddslot (23.10); Dimers – Under 2,5 (24.10)",
      "1": 2.05,
      "X": 3.7,
      "2": 3.4,
@@ -1854,7 +2147,8 @@
      "X2": 1.73,
      "12": 1.28,
      "o25": 1.58,
-     "bttsY": 1.51
+     "bttsY": 1.51,
+     "u25": 2.44
     },
     "info": {
      "injuries": {
@@ -1869,7 +2163,7 @@
       ]
      },
      "homeAway": "MUN u siebie 1W-1R-1P; BOU na wyjeździe 0W-1R-2P",
-     "stakes": "United 3 remisy 1:1 z rzędu; Bournemouth 3. xGD w lidze (+5,70) przy 6 pkt. Bournemouth grał w czwartek w pucharach (AC Milan); Kroupi wrócił do treningów.",
+     "stakes": "United 3 remisy 1:1 z rzędu; Bournemouth 3. xGD w lidze (+5,70) przy 6 pkt. Bournemouth grał w czwartek w pucharach (AC Milan); Kroupi wrócił do treningów. United przegrał w LM 1:4 w Como; Bournemouth pokonał w LE 3:0 AC Milan.",
      "restDays": {
       "away": 3
      }
@@ -1880,7 +2174,8 @@
       "Bournemouth ma statystyki lepsze niż wyniki, ale kurs ~3,9–4,1 to typ wysokiego ryzyka.",
       "Kurs 1,83–1,91 na United nie ma wartości przy jego formie (5 meczów bez wygranej).",
       "Za dużo niewiadomych w składzie United.",
-      "Rynek przesunął się w stronę Bournemouth (United 2,05, BOU 3,40); X2 1,73 (58%) — przy 3 dniach odpoczynku BOU po Milanie brak przewagi."
+      "Rynek przesunął się w stronę Bournemouth (United 2,05, BOU 3,40); X2 1,73 (58%) — przy 3 dniach odpoczynku BOU po Milanie brak przewagi.",
+      "Kursy 24.10 (United ~2,27, BOU ~3,28, O2,5 ~1,68) — rynek bliski ocenie modeli; 1:1 najczęstszym wynikiem w 3 ostatnich H2H (same remisy)."
      ]
     },
     "officials": [
@@ -1944,17 +2239,18 @@
      ]
     },
     "odds": {
-     "src": "BC.Game via oddslot – stan na 23.10.2026",
-     "1": 3.2,
-     "X": 3.2,
-     "2": 2.38,
-     "1X": 1.53,
-     "X2": 1.36,
-     "12": 1.36
+     "src": "Ladbrokes (1X2, BTTS – 23.10); Dimers/Polymarket (O/U 2,5 – 24.10); BetMGM Under 2,5 = 1,70",
+     "1": 2.8,
+     "X": 3.25,
+     "2": 2.45,
+     "bttsY": 1.83,
+     "bttsN": 1.91,
+     "o25": 2.25,
+     "u25": 1.79
     },
     "info": {
      "homeAway": "SUN u siebie 1W-0R-2P; LEE na wyjeździe 1W-1R-1P",
-     "stakes": "Sunderland ostatni, 4 porażki z rzędu; Leeds stracił tylko 6 goli. Sunderland grał w czwartek w pucharach; Brobbey ma być gotowy.",
+     "stakes": "Sunderland ostatni, 4 porażki z rzędu; Leeds stracił tylko 6 goli. Sunderland grał w czwartek w pucharach; Brobbey ma być gotowy. Sunderland zremisował w czwartek 1:1 z Lechem Poznań (LE).",
      "injuries": {
       "home": [
        "Wilson Isidor (uraz)",
@@ -1972,14 +2268,35 @@
      },
      "restDays": {
       "home": 3
-     }
+     },
+     "h2h": [
+      "Ostatni mecz: LEE 0:1 SUN (Elland Road)"
+     ]
     },
     "tip": {
-     "decision": "NO BET",
+     "decision": "BET",
+     "market": "Poniżej 2,5 gola",
+     "odds": 1.79,
+     "prob": 0.6,
+     "ev": 0.074,
+     "rating": 6,
+     "risk": "średnie",
      "reasons": [
-      "Ceny obu drużyn bliskie uczciwym; brak przewagi.",
-      "Kursy 23.10: 3,20/3,20/2,38; Sunderland po czwartkowym meczu pucharowym — wycena uczciwa."
-     ]
+      "Leeds to jedna z najszczelniejszych obron ligi: 6 straconych goli w 7 meczach; jego mecze średnio 2,14 gola.",
+      "Leeds: ostatnie 10 meczów ligowych — 7 poniżej 2,5; średnio 1,1 strzelonego i 1,0 straconego gola.",
+      "Sunderland: 4 z 5 ostatnich meczów i 3 ostatnie mecze domowe poniżej 2,5; ostatnio 0 celnych strzałów w Bournemouth.",
+      "Sunderland 3 dni po meczu LE w Poznaniu, bez Isidora (drugi strzelec) — ograniczony potencjał ofensywny.",
+      "Ostatnie 2 mecze H2H poniżej 2,5 (m.in. 1:0 dla SUN na Elland Road).",
+      "Leeds gra 3-4-2-1 nastawionym na kontrolę; najbardziej prawdopodobne wyniki 1:1, 0:1, 1:0 (model Dimers).",
+      "Modele: Dimers 57%, Sportsgambler 65–70%; moja ocena 60% wobec 56% z kursu 1,79."
+     ],
+     "risks": [
+      "Sunderland traci dużo (14 goli w 7 meczach) — wczesna bramka Leeds może otworzyć mecz.",
+      "Brobbey (4 gole) wraca do składu.",
+      "Kurs 1,79 to najlepsza cena (giełda); u typowych bukmacherów 1,70 — wtedy EV ≈ +2%, czyli na granicy."
+     ],
+     "value": "Kurs 1,79 wycenia Under 2,5 na 56%, moja ocena 60% → EV ≈ +7%. Poniżej kursu ~1,72 brak wartości — wtedy NO BET.",
+     "stake": "1% bankrollu"
     },
     "officials": [
      {

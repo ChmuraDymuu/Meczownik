@@ -1,9 +1,9 @@
 {
- "updated": "2026-10-24T06:45:00+02:00",
+ "updated": "2026-10-25T06:40:00+01:00",
  "season": "2026/27",
  "competition": "Ligue 1",
  "currentRound": 8,
- "note": "Źródła: Maxifoot, Matchendirect, Eurosport (8. kolejka: Brest–Nice), Eurosport/franceinfo (przełożenie PSG–OL), Sports Mole, Yahoo/PA, Wincomparator, Coteur, Paristeam; wcześniej: ligue1.com, Footamax, Foot Mercato, L'Équipe, Flashscore, FotMob, Sofascore, ESPN, Oddschecker. Godziny w czasie polskim.",
+ "note": "Źródła: Foot Mercato, RC Lens (rclens.fr), Lensois.com (8. kolejka: Lens–Paris FC), Wincomparator (kursy Monaco–Lille 25.10), Lyonfoot/Foot Mercato (PSG–OL w poniedziałek 20:30); wcześniej: Maxifoot, Matchendirect, Eurosport, Sports Mole, Coteur, ligue1.com, L'Équipe, Flashscore, FotMob, Sofascore, ESPN, Oddschecker. Godziny w czasie polskim.",
  "teams": {
   "ANG": {
    "id": "ANG",
@@ -192,17 +192,6 @@
    "form": "LWWWW"
   },
   {
-   "team": "PFC",
-   "p": 7,
-   "w": 4,
-   "d": 2,
-   "l": 1,
-   "gf": 12,
-   "ga": 7,
-   "pts": 14,
-   "form": "WDWLW"
-  },
-  {
    "team": "LIL",
    "p": 7,
    "w": 4,
@@ -214,6 +203,17 @@
    "form": "WWLWD"
   },
   {
+   "team": "PFC",
+   "p": 8,
+   "w": 4,
+   "d": 2,
+   "l": 2,
+   "gf": 13,
+   "ga": 9,
+   "pts": 14,
+   "form": "DWLWL"
+  },
+  {
    "team": "MON",
    "p": 7,
    "w": 4,
@@ -223,6 +223,17 @@
    "ga": 6,
    "pts": 14,
    "form": "WDWDL"
+  },
+  {
+   "team": "LEN",
+   "p": 8,
+   "w": 4,
+   "d": 1,
+   "l": 3,
+   "gf": 16,
+   "ga": 12,
+   "pts": 13,
+   "form": "DLWWW"
   },
   {
    "team": "REN",
@@ -256,17 +267,6 @@
    "ga": 10,
    "pts": 11,
    "form": "LWWLW"
-  },
-  {
-   "team": "LEN",
-   "p": 7,
-   "w": 3,
-   "d": 1,
-   "l": 3,
-   "gf": 14,
-   "ga": 11,
-   "pts": 10,
-   "form": "LDLWW"
   },
   {
    "team": "OLM",
@@ -5625,7 +5625,7 @@
     "time": "20:45",
     "home": "LEN",
     "away": "PFC",
-    "status": "ns",
+    "status": "ft",
     "venue": {
      "name": "Stade Bollaert-Delelis",
      "city": "Lens",
@@ -5677,12 +5677,483 @@
       "nat": "FRA"
      },
      {
+      "r": "AS1",
+      "role": "Asystent 1",
+      "name": "Florian Gonçalves de Araujo",
+      "nat": "FRA"
+     },
+     {
+      "r": "AS2",
+      "role": "Asystent 2",
+      "name": "Steven Torregrossa",
+      "nat": "FRA"
+     },
+     {
+      "r": "4.",
+      "role": "Sędzia techniczny",
+      "name": "Aurélien Petit",
+      "nat": "FRA"
+     },
+     {
       "r": "VAR",
       "role": "Sędzia VAR",
+      "name": "Bastien Dechepy",
+      "nat": "FRA"
+     },
+     {
+      "r": "AVAR",
+      "role": "Asystent VAR",
       "name": "Nicolas Rainville",
       "nat": "FRA"
      }
-    ]
+    ],
+    "score": [
+     2,
+     1
+    ],
+    "attendance": 37819,
+    "weather": {
+     "rain": "Ulewny, ciągły deszcz",
+     "wind": "Silne porywy (burza)"
+    },
+    "staff": {
+     "home": [
+      [
+       "Trener",
+       "Yannick Cahuzac"
+      ]
+     ],
+     "away": [
+      [
+       "Trener",
+       "Liam Rosenior"
+      ]
+     ]
+    },
+    "formation": {
+     "home": "3-4-2-1",
+     "away": "4-2-3-1"
+    },
+    "players": {
+     "home": [
+      [
+       40,
+       "Robin Risser",
+       "BR",
+       "",
+       true
+      ],
+      [
+       2,
+       "Ruben Aguilar",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       6,
+       "Samson Baidoo",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       20,
+       "Jean-Clair Todibo",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       23,
+       "Saud Abdulhamid",
+       "PO",
+       "",
+       true
+      ],
+      [
+       27,
+       "Michaël Cuisance",
+       "ŚP",
+       "",
+       true
+      ],
+      [
+       21,
+       "Amadou Haïdara",
+       "ŚP",
+       "",
+       true
+      ],
+      [
+       "",
+       "Matthieu Udol",
+       "LO",
+       "",
+       true
+      ],
+      [
+       10,
+       "Florian Thauvin",
+       "OP",
+       "",
+       true
+      ],
+      [
+       7,
+       "Florian Sotoca",
+       "OP",
+       "",
+       true
+      ],
+      [
+       29,
+       "Franjo Ivanović",
+       "N",
+       "",
+       true
+      ],
+      [
+       32,
+       "Kyllian Antonio",
+       "ŚO",
+       "",
+       false
+      ],
+      [
+       9,
+       "Thorgan Hazard",
+       "OP",
+       "",
+       false
+      ],
+      [
+       8,
+       "Yacine Titraoui",
+       "ŚP",
+       "",
+       false
+      ],
+      [
+       22,
+       "Michał Skóraś",
+       "PS",
+       "",
+       false
+      ],
+      [
+       28,
+       "Junior Kadile",
+       "N",
+       "",
+       false
+      ],
+      [
+       16,
+       "Mathieu Gorgelin",
+       "BR",
+       "",
+       false
+      ],
+      [
+       5,
+       "Andrija Bulatović",
+       "ŚP",
+       "",
+       false
+      ]
+     ],
+     "away": [
+      [
+       16,
+       "Obed Nkambadio",
+       "BR",
+       "",
+       true
+      ],
+      [
+       5,
+       "Moustapha Mbow",
+       "PO",
+       "",
+       true
+      ],
+      [
+       6,
+       "Otávio",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       42,
+       "Diego Coppola",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       17,
+       "Adama Camara",
+       "LO",
+       "",
+       true
+      ],
+      [
+       20,
+       "Maxime Lopez",
+       "DP",
+       "",
+       true
+      ],
+      [
+       33,
+       "Pierre Lees-Melou",
+       "DP",
+       "",
+       true
+      ],
+      [
+       10,
+       "Ilan Kebbal",
+       "PS",
+       "",
+       true
+      ],
+      [
+       7,
+       "Pablo Pagis",
+       "OP",
+       "",
+       true
+      ],
+      [
+       15,
+       "Luca Koleosho",
+       "LS",
+       "",
+       true
+      ],
+      [
+       9,
+       "Lassine Sinayoko",
+       "N",
+       "",
+       true
+      ],
+      [
+       3,
+       "Emmanuel Mbemba",
+       "ŚO",
+       "",
+       false
+      ],
+      [
+       27,
+       "Moses Simon",
+       "LS",
+       "",
+       false
+      ],
+      [
+       23,
+       "Rudy Matondo",
+       "N",
+       "",
+       false
+      ],
+      [
+       11,
+       "Jean-Philippe Krasso",
+       "N",
+       "",
+       false
+      ],
+      [
+       18,
+       "O. Sissoko",
+       "ŚP",
+       "",
+       false
+      ],
+      [
+       "",
+       "P. Zabi",
+       "ŚP",
+       "",
+       false
+      ],
+      [
+       "",
+       "T. De Smet",
+       "ŚP",
+       "",
+       false
+      ]
+     ]
+    },
+    "events": [
+     {
+      "m": 20,
+      "t": "var",
+      "s_": "h",
+      "kind": "Możliwe zagranie ręką w polu karnym (Coppola)",
+      "init": "Brak karnego",
+      "fin": "Brak karnego"
+     },
+     {
+      "m": 28,
+      "t": "yc",
+      "s_": "a",
+      "who": "Moustapha Mbow"
+     },
+     {
+      "m": 29,
+      "t": "yc",
+      "s_": "a",
+      "who": "Pierre Lees-Melou"
+     },
+     {
+      "m": 45,
+      "s": "+2",
+      "t": "goal",
+      "s_": "a",
+      "who": "Luca Koleosho",
+      "as": "Lassine Sinayoko",
+      "how": "Kontratak"
+     },
+     {
+      "m": 46,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Emmanuel Mbemba",
+      "out": "Luca Koleosho"
+     },
+     {
+      "m": 50,
+      "t": "var",
+      "s_": "h",
+      "kind": "Czerwona kartka – kontrola (Todibo, spalony Kebbala)",
+      "init": "Czerwona",
+      "fin": "Kartka anulowana"
+     },
+     {
+      "m": 52,
+      "t": "yc",
+      "s_": "h",
+      "who": "Florian Thauvin"
+     },
+     {
+      "m": 61,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Kyllian Antonio",
+      "out": "Jean-Clair Todibo"
+     },
+     {
+      "m": 61,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Thorgan Hazard",
+      "out": "Franjo Ivanović"
+     },
+     {
+      "m": 63,
+      "t": "goal",
+      "s_": "h",
+      "who": "Florian Thauvin",
+      "as": "Thorgan Hazard",
+      "how": "Lewa noga"
+     },
+     {
+      "m": 67,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Moses Simon",
+      "out": "Pablo Pagis"
+     },
+     {
+      "m": 67,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Rudy Matondo",
+      "out": "Adama Camara"
+     },
+     {
+      "m": 71,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Yacine Titraoui",
+      "out": "Amadou Haïdara"
+     },
+     {
+      "m": 74,
+      "t": "yc",
+      "s_": "h",
+      "who": "Samson Baidoo"
+     },
+     {
+      "m": 76,
+      "t": "sub",
+      "s_": "a",
+      "inn": "P. Zabi",
+      "out": "Ilan Kebbal"
+     },
+     {
+      "m": 81,
+      "t": "sub",
+      "s_": "a",
+      "inn": "T. De Smet",
+      "out": "Rudy Matondo"
+     },
+     {
+      "m": 83,
+      "t": "goal",
+      "s_": "h",
+      "who": "Thorgan Hazard",
+      "as": "Florian Thauvin"
+     },
+     {
+      "m": 85,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Michał Skóraś",
+      "out": "Saud Abdulhamid"
+     },
+     {
+      "m": 85,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Junior Kadile",
+      "out": "Florian Sotoca"
+     },
+     {
+      "m": 89,
+      "t": "yc",
+      "s_": "h",
+      "who": "Michał Skóraś"
+     },
+     {
+      "m": 90,
+      "s": "+2",
+      "t": "yc",
+      "s_": "a",
+      "who": "Otávio"
+     }
+    ],
+    "teamStats": [
+     [
+      "Posiadanie %",
+      56,
+      44
+     ],
+     [
+      "Strzały",
+      9,
+      6
+     ]
+    ],
+    "notes": "Do przerwy 0:1. Lens odwrócił wynik po wejściu Thorgana Hazarda (gol i asysta); 300. mecz Thauvina w Ligue 1, 3. ligowa wygrana Lens z rzędu. Mecz w ulewie i silnym wietrze. W 50. min czerwona kartka dla Todibo anulowana po VAR (spalony Kebbala). Szczegóły: Foot Mercato, rclens.fr, Lensois.com; minuty wg Foot Mercato (inne źródła ±1 min). Pełnej ławki i części numerów brak w źródłach."
    },
    {
     "id": "L1-2026-27-R8-MON-LIL",
@@ -5697,11 +6168,13 @@
      "capacity": 18523
     },
     "odds": {
-     "src": "Oddschecker 1X2 (22.10.2026); U2,5: Betclic 1,84; najlepsze kursy 24.10 (Wincomparator): 2,15 / 3,50 / 3,86, U2,5 1,95, O2,5 2,06",
+     "src": "Oddschecker 1X2 (22.10.2026); U2,5: Betclic 1,84; najlepsze kursy 24.10 (Wincomparator): 2,15 / 3,50 / 3,86, U2,5 1,95, O2,5 2,06; 25.10 Wincomparator: średnio 1,96 / 3,30 / 3,42, U2,5 śr. 1,85 (max 1,94), BTTS T 1,56 / N 2,02",
      "1": 2.1,
      "X": 3.6,
      "2": 3.75,
-     "u25": 1.84
+     "u25": 1.84,
+     "bttsY": 1.56,
+     "bttsN": 2.02
     },
     "info": {
      "injuries": {
@@ -5747,7 +6220,7 @@
       "Zmęczenie może też otworzyć mecz w końcówce.",
       "Monaco w formie (3:0 we Freiburgu) i strzela w 5 kolejnych meczach domowych."
      ],
-     "value": "Kurs 1,84 = 54% implikowane; moja ocena 58% → EV ok. +7%. Aktualizacja 24.10: najlepszy kurs na under 1,95 (Wincomparator) — value utrzymane.",
+     "value": "Kurs 1,84 = 54% implikowane; moja ocena 58% → EV ok. +7%. Aktualizacja 24.10: najlepszy kurs na under 1,95 (Wincomparator) — value utrzymane. Aktualizacja 25.10: średni kurs na under 1,85 (max 1,94) — value bez zmian.",
      "stake": "0,5–1% bankrollu"
     },
     "officials": [

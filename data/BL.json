@@ -1,9 +1,9 @@
 {
- "updated": "2026-10-24T06:25:00+02:00",
+ "updated": "2026-10-25T06:40:00+01:00",
  "season": "2026/27",
  "competition": "Bundesliga",
  "currentRound": 7,
- "note": "Źródła: bundesliga.com, DFB Datencenter, ZDFheute, t-online, hessenschau.de, IG Schiedsrichter, anstosszeiten.de, fussballdaten.de, fussballnationalmannschaft.net, Wikipedia, Wettbasis, Wincomparator, RG.org, Squawka, FotMob, news.de, ESPN, LiveScore, footballpredictions.com, Gainblers. Godziny w czasie polskim.",
+ "note": "Źródła: bundesliga.com, rbleipzig.com, Sofascore, news.de (FuPa), ZDFheute, sportschau.de, fussballnationalmannschaft.net, fcbayern.com, Wettbasis, tipsterio.de, Wincomparator, RG.org, Squawka, DFB. Godziny w czasie polskim (od 25.10 CET).",
  "teams": {
   "BAY": {
    "id": "BAY",
@@ -170,6 +170,17 @@
  },
  "table": [
   {
+   "team": "BVB",
+   "p": 7,
+   "w": 5,
+   "d": 2,
+   "l": 0,
+   "gf": 12,
+   "ga": 4,
+   "pts": 17,
+   "form": "WWDDW"
+  },
+  {
    "team": "BAY",
    "p": 6,
    "w": 4,
@@ -179,17 +190,6 @@
    "ga": 5,
    "pts": 14,
    "form": "DWWDW"
-  },
-  {
-   "team": "BVB",
-   "p": 6,
-   "w": 4,
-   "d": 2,
-   "l": 0,
-   "gf": 11,
-   "ga": 4,
-   "pts": 14,
-   "form": "WWWDD"
   },
   {
    "team": "SCF",
@@ -214,92 +214,103 @@
    "form": "WDWWW"
   },
   {
-   "team": "MAI",
-   "p": 6,
-   "w": 3,
-   "d": 1,
-   "l": 2,
-   "gf": 14,
-   "ga": 10,
-   "pts": 10,
+   "team": "RBL",
+   "p": 7,
+   "w": 4,
+   "d": 0,
+   "l": 3,
+   "gf": 20,
+   "ga": 11,
+   "pts": 12,
    "form": "WLWLW"
   },
   {
-   "team": "ELV",
-   "p": 6,
+   "team": "BRE",
+   "p": 7,
    "w": 3,
-   "d": 1,
-   "l": 2,
-   "gf": 12,
-   "ga": 11,
-   "pts": 10,
-   "form": "WLDLW"
+   "d": 3,
+   "l": 1,
+   "gf": 15,
+   "ga": 14,
+   "pts": 12,
+   "form": "DWDDW"
   },
   {
-   "team": "RBL",
-   "p": 6,
+   "team": "MAI",
+   "p": 7,
    "w": 3,
-   "d": 0,
+   "d": 1,
    "l": 3,
    "gf": 16,
-   "ga": 11,
-   "pts": 9,
+   "ga": 13,
+   "pts": 10,
    "form": "LWLWL"
   },
   {
-   "team": "BRE",
-   "p": 6,
-   "w": 2,
-   "d": 3,
-   "l": 1,
-   "gf": 12,
-   "ga": 12,
-   "pts": 9,
-   "form": "WDWDD"
-  },
-  {
-   "team": "HSV",
-   "p": 6,
+   "team": "ELV",
+   "p": 7,
    "w": 3,
-   "d": 0,
+   "d": 1,
    "l": 3,
-   "gf": 6,
+   "gf": 12,
    "ga": 15,
-   "pts": 9,
-   "form": "LLWWW"
+   "pts": 10,
+   "form": "LDLWL"
   },
   {
    "team": "AUG",
-   "p": 6,
+   "p": 7,
    "w": 2,
-   "d": 2,
+   "d": 3,
    "l": 2,
-   "gf": 16,
-   "ga": 12,
-   "pts": 8,
-   "form": "WDLDL"
+   "gf": 17,
+   "ga": 13,
+   "pts": 9,
+   "form": "DLDLD"
   },
   {
-   "team": "EIN",
-   "p": 6,
-   "w": 2,
-   "d": 2,
-   "l": 2,
-   "gf": 10,
+   "team": "HSV",
+   "p": 7,
+   "w": 3,
+   "d": 0,
+   "l": 4,
+   "gf": 6,
    "ga": 16,
-   "pts": 8,
-   "form": "LWDLW"
+   "pts": 9,
+   "form": "LWWWL"
   },
   {
    "team": "KOE",
-   "p": 6,
+   "p": 7,
    "w": 2,
-   "d": 1,
+   "d": 2,
    "l": 3,
    "gf": 8,
    "ga": 11,
-   "pts": 7,
-   "form": "LDLWL"
+   "pts": 8,
+   "form": "DLWLD"
+  },
+  {
+   "team": "PAD",
+   "p": 7,
+   "w": 2,
+   "d": 2,
+   "l": 3,
+   "gf": 6,
+   "ga": 9,
+   "pts": 8,
+   "form": "LWLDW"
+  },
+  {
+   "team": "EIN",
+   "p": 7,
+   "w": 2,
+   "d": 2,
+   "l": 3,
+   "gf": 10,
+   "ga": 17,
+   "pts": 8,
+   "form": "WDLWL"
   },
   {
    "team": "HOF",
@@ -325,36 +336,25 @@
   },
   {
    "team": "SCH",
-   "p": 6,
+   "p": 7,
    "w": 1,
-   "d": 2,
+   "d": 3,
    "l": 3,
    "gf": 4,
    "ga": 7,
-   "pts": 5,
-   "form": "DWDLL"
-  },
-  {
-   "team": "PAD",
-   "p": 6,
-   "w": 1,
-   "d": 2,
-   "l": 3,
-   "gf": 5,
-   "ga": 9,
-   "pts": 5,
-   "form": "LLWLD"
+   "pts": 6,
+   "form": "WDLLD"
   },
   {
    "team": "UNI",
-   "p": 6,
+   "p": 7,
    "w": 1,
-   "d": 2,
+   "d": 3,
    "l": 3,
-   "gf": 5,
-   "ga": 17,
-   "pts": 5,
-   "form": "LLLWD"
+   "gf": 6,
+   "ga": 18,
+   "pts": 6,
+   "form": "LLWDD"
   },
   {
    "team": "BMG",
@@ -2242,7 +2242,7 @@
     "time": "15:30",
     "home": "RBL",
     "away": "ELV",
-    "status": "ns",
+    "status": "ft",
     "venue": {
      "name": "Red Bull Arena",
      "city": "Lipsk",
@@ -2312,7 +2312,68 @@
       "role": "Asystent VAR",
       "name": "Arne Aarnink"
      }
-    ]
+    ],
+    "score": [
+     4,
+     0
+    ],
+    "events": [
+     {
+      "m": 48,
+      "t": "goal",
+      "s_": "h",
+      "who": "Tidiam Gomis",
+      "as": "Antonio Nusa"
+     },
+     {
+      "m": 66,
+      "t": "goal",
+      "s_": "h",
+      "who": "Rômulo"
+     },
+     {
+      "m": 84,
+      "t": "goal",
+      "s_": "h",
+      "who": "Christoph Baumgartner",
+      "as": "Brajan Gruda"
+     },
+     {
+      "m": 90,
+      "t": "goal",
+      "s_": "h",
+      "who": "Rômulo",
+      "as": "Abdoul Kone"
+     }
+    ],
+    "teamStats": [
+     [
+      "Posiadanie %",
+      55,
+      45
+     ],
+     [
+      "xG",
+      2.86,
+      0.66
+     ],
+     [
+      "Strzały",
+      13,
+      5
+     ],
+     [
+      "Celne",
+      6,
+      1
+     ]
+    ],
+    "ind": {
+     "Rômulo": {
+      "r": 9.8
+     }
+    },
+    "notes": "Do przerwy 0:0. Rômulo wszedł w przerwie i strzelił dwa gole (drugi w doliczonym czasie, minuta nieznana), Gruda wszedł w 62', Baumgartner w 72', Kone w 87'. Ocena Rômulo 9,8 (Sofascore), zawodnik meczu. Brak pełnych składów i kartek w źródłach."
    },
    {
     "id": "BL-2026-27-R7-AUG-UNI",
@@ -2320,7 +2381,7 @@
     "time": "15:30",
     "home": "AUG",
     "away": "UNI",
-    "status": "ns",
+    "status": "ft",
     "venue": {
      "name": "WWK Arena",
      "city": "Augsburg",
@@ -2391,7 +2452,148 @@
       "role": "Asystent VAR",
       "name": "Michael Bacher"
      }
-    ]
+    ],
+    "score": [
+     1,
+     1
+    ],
+    "staff": {
+     "home": [
+      [
+       "Trener",
+       "Manuel Baum"
+      ]
+     ],
+     "away": [
+      [
+       "Trener",
+       "Mauro Lustrinelli"
+      ]
+     ]
+    },
+    "formation": {
+     "home": "3-4-3"
+    },
+    "events": [
+     {
+      "m": 12,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Jeffrey Gouweleeuw",
+      "out": "Calvin Brackelmann"
+     },
+     {
+      "m": 19,
+      "t": "rc",
+      "s_": "a",
+      "who": "Felix Uduokhai",
+      "why": "Faul jako ostatni obrońca na Michaelu Gregoritschu"
+     },
+     {
+      "m": 25,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Leopold Querfeld",
+      "out": "Livan Burcu"
+     },
+     {
+      "m": 31,
+      "t": "yc",
+      "s_": "a",
+      "who": "Janik Haberer"
+     },
+     {
+      "m": 36,
+      "t": "yc",
+      "s_": "a",
+      "who": "Leopold Querfeld"
+     },
+     {
+      "m": 46,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Mekhi Gray",
+      "out": "Tim Skarke"
+     },
+     {
+      "m": 63,
+      "t": "rc",
+      "s_": "h",
+      "who": "Juma Bah",
+      "why": "Spóźniony atak na Andrása Schäfera"
+     },
+     {
+      "m": 71,
+      "t": "goal",
+      "s_": "h",
+      "who": "Han-Noah Massengo",
+      "as": "Fabian Rieder",
+      "how": "Głowa"
+     },
+     {
+      "m": 72,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Robin Fellhauer",
+      "out": "Marius Wolf"
+     },
+     {
+      "m": 72,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Mert Kömür",
+      "out": "Arijon Ibrahimovic"
+     },
+     {
+      "m": 74,
+      "t": "goal",
+      "s_": "a",
+      "who": "Janik Haberer"
+     },
+     {
+      "m": 76,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Oliver Burke",
+      "out": "Woo-yeong Jeong"
+     },
+     {
+      "m": 77,
+      "t": "yc",
+      "s_": "a",
+      "who": "Mekhi Gray"
+     },
+     {
+      "m": 89,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Uchenna Ogundu",
+      "out": "Han-Noah Massengo"
+     },
+     {
+      "m": 89,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Rodrigo Ribeiro",
+      "out": "Anton Kade"
+     },
+     {
+      "m": 90,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Aljoscha Kemlein",
+      "out": "Michel Aebischer",
+      "s": "+5"
+     }
+    ],
+    "teamStats": [
+     [
+      "xG",
+      2.24,
+      0.98
+     ]
+    ],
+    "notes": "Do przerwy 0:0, obie drużyny kończyły w dziesiątkę. Wyjściowe składy wg news.de/FuPa – Augsburg: Dahmen; Brackelmann, Matsima, Bah; Massengo, Behrens, Wolf, Rieder; Gregoritsch, Ibrahimovic, Kade. Union: Rönnow; Uduokhai, Van den Bosch, Rothe, Haberer; Khedira, Burcu, Jeong, Schäfer, Aebischer; Skarke."
    },
    {
     "id": "BL-2026-27-R7-MAI-BRE",
@@ -2399,7 +2601,7 @@
     "time": "15:30",
     "home": "MAI",
     "away": "BRE",
-    "status": "ns",
+    "status": "ft",
     "venue": {
      "name": "MEWA Arena",
      "city": "Moguncja",
@@ -2470,7 +2672,125 @@
       "role": "Asystent VAR",
       "name": "Felix-Benjamin Schwermer"
      }
-    ]
+    ],
+    "score": [
+     2,
+     3
+    ],
+    "events": [
+     {
+      "m": 7,
+      "t": "pen",
+      "s_": "a",
+      "who": "Niclas Füllkrug",
+      "res": "Gol"
+     },
+     {
+      "m": 25,
+      "t": "pen",
+      "s_": "a",
+      "who": "Niclas Füllkrug",
+      "res": "Gol"
+     },
+     {
+      "m": 33,
+      "t": "goal",
+      "s_": "h",
+      "who": "Anthony Caci",
+      "as": "Sheraldo Becker",
+      "how": "Głowa"
+     },
+     {
+      "m": 38,
+      "t": "yc",
+      "s_": "a",
+      "who": "Ludovit Reis"
+     },
+     {
+      "m": 46,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Mick Schmetgens",
+      "out": "Olivier Deman"
+     },
+     {
+      "m": 59,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Oskar Wójcik",
+      "out": "Mitchell Weiser"
+     },
+     {
+      "m": 61,
+      "t": "goal",
+      "s_": "a",
+      "who": "Ludovit Reis"
+     },
+     {
+      "m": 63,
+      "t": "goal",
+      "s_": "h",
+      "who": "Jae-sung Lee",
+      "as": "Anthony Caci",
+      "how": "Głowa"
+     },
+     {
+      "m": 69,
+      "t": "yc",
+      "s_": "h",
+      "who": "Phillipp Mwene"
+     },
+     {
+      "m": 72,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Eren Dinkci",
+      "out": "Chuki"
+     },
+     {
+      "m": 75,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Ransford Königsdörffer",
+      "out": "Jae-sung Lee"
+     },
+     {
+      "m": 75,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Silvan Widmer",
+      "out": "Anthony Caci"
+     },
+     {
+      "m": 81,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Cedric Itten",
+      "out": "Niclas Füllkrug"
+     },
+     {
+      "m": 88,
+      "t": "yc",
+      "s_": "a",
+      "who": "Marco Grüll"
+     },
+     {
+      "m": 90,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Eric Martel",
+      "out": "Kaishū Sano",
+      "s": "+1"
+     },
+     {
+      "m": 90,
+      "t": "yc",
+      "s_": "h",
+      "who": "Alexander Schwolow",
+      "s": "+4"
+     }
+    ],
+    "notes": "Do przerwy 1:2. Oba karne Füllkruga po faulach na Arthurze i Grüllu (faulował Danny da Costa). Füllkrug zawodnikiem meczu (80% głosów). Wyjściowe składy wg news.de – Mainz: Schwolow; Posch, Da Costa, Potulski, Mwene, Sano, Lee, Amiri, Caci, Tietz, Becker. Werder: Hein; Deman, Pieper, Arthur, Friedl, Reis, Chuki, Regeer, Weiser, Füllkrug, Grüll. Źródło podaje sprzecznie zmianę Paula Nebla w 85' – pominięta."
    },
    {
     "id": "BL-2026-27-R7-KOE-SCH",
@@ -2478,7 +2798,7 @@
     "time": "15:30",
     "home": "KOE",
     "away": "SCH",
-    "status": "ns",
+    "status": "ft",
     "venue": {
      "name": "RheinEnergieStadion",
      "city": "Kolonia",
@@ -2547,7 +2867,140 @@
       "role": "Asystent VAR",
       "name": "Markus Sinn"
      }
-    ]
+    ],
+    "score": [
+     0,
+     0
+    ],
+    "staff": {
+     "home": [
+      [
+       "Trener",
+       "René Wagner"
+      ]
+     ],
+     "away": [
+      [
+       "Trener",
+       "Miron Muslić"
+      ]
+     ]
+    },
+    "formation": {
+     "home": "4-3-3",
+     "away": "4-4-2"
+    },
+    "events": [
+     {
+      "m": 43,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Vitalie Becker",
+      "out": "Robin Gosens"
+     },
+     {
+      "m": 43,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Janik Bachmann",
+      "out": "Soufiane El-Faouzi"
+     },
+     {
+      "m": 45,
+      "t": "yc",
+      "s_": "h",
+      "who": "Tom Krauß",
+      "s": "+2"
+     },
+     {
+      "m": 68,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Luca Waldschmidt",
+      "out": "Moore"
+     },
+     {
+      "m": 71,
+      "t": "yc",
+      "s_": "a",
+      "who": "Éric Dina-Ebimbe"
+     },
+     {
+      "m": 80,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Paul Okon-Engstler",
+      "out": "Tom Krauß"
+     },
+     {
+      "m": 80,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Reigan Heskey",
+      "out": "Saïd El Mala"
+     },
+     {
+      "m": 81,
+      "t": "yc",
+      "s_": "h",
+      "who": "Luka Lochoshvili"
+     },
+     {
+      "m": 83,
+      "t": "yc",
+      "s_": "a",
+      "who": "Vitalie Becker",
+      "why": "Gra na czas"
+     },
+     {
+      "m": 89,
+      "t": "yc",
+      "s_": "a",
+      "who": "Hasan Kuruçay"
+     },
+     {
+      "m": 90,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Joël Schmied",
+      "out": "Luka Lochoshvili"
+     },
+     {
+      "m": 90,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Jan Thielmann",
+      "out": "Linton Maina"
+     }
+    ],
+    "teamStats": [
+     [
+      "Posiadanie %",
+      58,
+      42
+     ],
+     [
+      "xG",
+      1.27,
+      0.64
+     ],
+     [
+      "Strzały",
+      14,
+      10
+     ],
+     [
+      "Rzuty rożne",
+      6,
+      5
+     ],
+     [
+      "Faule",
+      6,
+      12
+     ]
+    ],
+    "notes": "Gosens i El-Faouzi zeszli z urazami po zderzeniu. Karius (Schalke) zawodnikiem meczu; Tanaka trafił w słupek. Składy wg ZDFheute – Köln: Schwäbe; Sosa, Simpson-Pusey, Lochoshvili, Sebulonsen; Krauß, Jóhannesson, El Mala; Bülter, Maina, Moore. Schalke: Karius; Kuruçay, Becker, Gosens, Katić; Tanaka, El-Faouzi, Aouchiche, Dina-Ebimbe; Hwang, Adamu."
    },
    {
     "id": "BL-2026-27-R7-PAD-HSV",
@@ -2555,7 +3008,7 @@
     "time": "15:30",
     "home": "PAD",
     "away": "HSV",
-    "status": "ns",
+    "status": "ft",
     "venue": {
      "name": "Home Deluxe Arena",
      "city": "Paderborn",
@@ -2615,7 +3068,159 @@
       "role": "Asystent VAR",
       "name": "Benjamin Cortus"
      }
-    ]
+    ],
+    "score": [
+     1,
+     0
+    ],
+    "staff": {
+     "home": [
+      [
+       "Trener",
+       "Kettemann"
+      ]
+     ],
+     "away": [
+      [
+       "Trener",
+       "Merlin Polzin"
+      ]
+     ]
+    },
+    "formation": {
+     "home": "3-5-2"
+    },
+    "events": [
+     {
+      "m": 13,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Otto Stange",
+      "out": "Fábio Vieira"
+     },
+     {
+      "m": 46,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Tom Baack",
+      "out": "Vidović"
+     },
+     {
+      "m": 46,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Moffi",
+      "out": "Yussuf Poulsen"
+     },
+     {
+      "m": 53,
+      "t": "yc",
+      "s_": "a",
+      "who": "Shafiq Nandja"
+     },
+     {
+      "m": 58,
+      "t": "yc",
+      "s_": "h",
+      "who": "Jano ter Horst"
+     },
+     {
+      "m": 62,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Pieringer",
+      "out": "Steffen Tigges"
+     },
+     {
+      "m": 62,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Felix Götze",
+      "out": "Jano ter Horst"
+     },
+     {
+      "m": 70,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Rayan Philippe",
+      "out": "Ulrich"
+     },
+     {
+      "m": 71,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Albert Lokonga",
+      "out": "Muheim"
+     },
+     {
+      "m": 71,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Grønbæk",
+      "out": "Nadir"
+     },
+     {
+      "m": 79,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Michel",
+      "out": "Marino"
+     },
+     {
+      "m": 87,
+      "t": "yc",
+      "s_": "a",
+      "who": "Albert Lokonga"
+     },
+     {
+      "m": 88,
+      "t": "goal",
+      "s_": "h",
+      "who": "Rayan Philippe",
+      "as": "Felix Götze",
+      "how": "Lewa noga"
+     },
+     {
+      "m": 89,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Røssing-Lelesiit",
+      "out": "Otto Stange"
+     }
+    ],
+    "teamStats": [
+     [
+      "Posiadanie %",
+      58,
+      42
+     ],
+     [
+      "xG",
+      1.42,
+      0.55
+     ],
+     [
+      "Strzały",
+      16,
+      8
+     ],
+     [
+      "Rzuty rożne",
+      6,
+      3
+     ],
+     [
+      "Faule",
+      12,
+      14
+     ],
+     [
+      "Spalone",
+      2,
+      0
+     ]
+    ],
+    "notes": "Do przerwy 0:0. Rezerwowy Philippe (były gracz HSV) trafił w 88' po podaniu piętą Götzego – przerwał serię 3 zwycięstw HSV. Żółte kartki także dla trenera Polzina (89') i asystenta Favé (90+4'). Heuer Fernandes (HSV) zawodnikiem meczu. Skład Paderborn wg ZDFheute: Noll; Curda, ter Horst, Scheller; Castaneda, Hansen, Obermair, Ulrich, Vidović; Tigges, Marino."
    },
    {
     "id": "BL-2026-27-R7-BVB-EIN",
@@ -2623,7 +3228,7 @@
     "time": "18:30",
     "home": "BVB",
     "away": "EIN",
-    "status": "ns",
+    "status": "ft",
     "venue": {
      "name": "Signal Iduna Park",
      "city": "Dortmund",
@@ -2652,7 +3257,7 @@
       "2026-05 BVB 3:2 EIN"
      ]
     },
-    "notes": "Nico Schlotterbeck wrócił po kontuzji.",
+    "notes": "Do przerwy 0:0. Svensson (31') i Guirassy (53', głową) trafili w poprzeczkę; VAR dwukrotnie potwierdził brak karnego dla BVB. Gol Beiera miał 5% prawdopodobieństwa (xG). Atubolu bronił świetnie. Składy wg news.de – BVB: Kobel, Anton, Schlotterbeck, Bensebaini, Svensson, Ryerson, Nmecha, Sabitzer, Fábio Silva, Veerman, Guirassy. Eintracht: Atubolu, Baum, Brassier, Koch, Collins, Chaïbi, Aseko, Doan, Onyedika, Burkardt, Ebnoutalib.",
     "tip": {
      "decision": "NO BET",
      "reasons": [
@@ -2693,6 +3298,110 @@
       "role": "Asystent VAR",
       "name": "Markus Wollenweber"
      }
+    ],
+    "score": [
+     1,
+     0
+    ],
+    "events": [
+     {
+      "m": 58,
+      "t": "yc",
+      "s_": "a",
+      "who": "Nnamdi Collins"
+     },
+     {
+      "m": 64,
+      "t": "yc",
+      "s_": "a",
+      "who": "Farès Chaïbi"
+     },
+     {
+      "m": 68,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Maximilian Beier",
+      "out": "Daniel Svensson"
+     },
+     {
+      "m": 69,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Ethan Nwaneri",
+      "out": "Fábio Silva"
+     },
+     {
+      "m": 70,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Carney Chukwuemeka",
+      "out": "Marcel Sabitzer"
+     },
+     {
+      "m": 77,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Ansgar Knauff",
+      "out": "Jonathan Burkardt"
+     },
+     {
+      "m": 77,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Can Uzun",
+      "out": "Younes Ebnoutalib"
+     },
+     {
+      "m": 79,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Jobe Bellingham",
+      "out": "Felix Nmecha"
+     },
+     {
+      "m": 80,
+      "t": "goal",
+      "s_": "h",
+      "who": "Maximilian Beier",
+      "as": "Jobe Bellingham",
+      "how": "Strzał z linii pola karnego w okienko"
+     },
+     {
+      "m": 84,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Love Arrhov",
+      "out": "Farès Chaïbi"
+     },
+     {
+      "m": 85,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Mario Götze",
+      "out": "Noel Aseko"
+     },
+     {
+      "m": 87,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Ayoube Amaimouni-Echghouyab",
+      "out": "Ritsu Doan"
+     },
+     {
+      "m": 90,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Joane Gadou",
+      "out": "Julian Ryerson",
+      "s": "+2"
+     }
+    ],
+    "teamStats": [
+     [
+      "xG",
+      1.36,
+      0.92
+     ]
     ]
    },
    {
@@ -2723,8 +3432,28 @@
      "bttsN": 3.07
     },
     "info": {
-     "homeAway": "Leverkusen 3 wygrane z rzędu w lidze, w LE 4:0 w Poznaniu; Hoffenheim traci 2,33 gola/mecz, w LE 2:3 z Beşiktaşem.",
-     "stakes": "4. Leverkusen vs 14. Hoffenheim.",
+     "injuries": {
+      "home": [
+       "Albian Hajdari (stopa, kilka tygodni)",
+       "Patrick Wimmer (udo)",
+       "Andrej Kramarić (pachwina, niepewny)"
+      ],
+      "away": [
+       "Martin Terrier (udo)",
+       "Christian Kofane (udo)",
+       "Eliesse Ben Seghir (uraz mięśniowy)",
+       "Guéla Doué (uraz mięśniowy)",
+       "Kennet Eichhorn (choroba metaboliczna)",
+       "Montrell Culbreath (brak pełnej sprawności)",
+       "Robert Andrich (niepewny – narodziny dziecka)"
+      ]
+     },
+     "restDays": {
+      "home": 3,
+      "away": 3
+     },
+     "homeAway": "Leverkusen 5 zwycięstw z rzędu we wszystkich rozgrywkach (14:4), w czwartek 2:0 na Krecie (LE); Hoffenheim w czwartek 3:0 z Lyonem (LE), wcześniej 2:1 w Gladbach, ale u siebie w lidze tylko 1 wygrana; traci 2,33 gola/mecz.",
+     "stakes": "4. Leverkusen (13 pkt) vs 14. Hoffenheim (6 pkt). Oba zespoły po czwartkowej Lidze Europy.",
      "h2h": [
       "2026-01-17 HOF 1:0 LEV",
       "2025-08-23 LEV 1:2 HOF",
@@ -2735,9 +3464,10 @@
     "tip": {
      "decision": "NO BET",
      "reasons": [
-      "DNB Leverkusen 1,70–1,80: model ok. 47/22/31 → EV ≈ +1…+4%, poniżej progu.",
-      "Over 2,5 po 1,35 (≈74%) – model ok. 64%.",
-      "Oba zespoły występują w Lidze Europy – ryzyko zmęczenia i rotacji."
+      "Świeże kursy (tipsterio, 24.10): 2,76 / 4,26 / 2,39 – Leverkusen ≈42%, moja ocena ok. 45–47%; DNB Leverkusen 1,70 daje EV ≈ +1…+4%, poniżej progu.",
+      "Leverkusen powyżej 1,5 gola po 1,67 (≈60%) – Poisson (λ≈1,8) daje ok. 54%: EV ujemne.",
+      "Over 2,5 po 1,37 i BTTS po 1,32 – kursy za niskie wobec szacunku ok. 64% / 62%.",
+      "Oba zespoły grały w czwartek w Lidze Europy – ryzyko rotacji, długa lista absencji Leverkusen."
      ]
     },
     "officials": [
@@ -2772,7 +3502,8 @@
       "role": "Asystent VAR",
       "name": "Christian Fischer"
      }
-    ]
+    ],
+    "notes": "Prognozowane składy: Hoffenheim 4-3-3 – Baumann; Coufal, Hranáč, Machida, Rots; Conté, Avdullahu, Prass; Lemperle, Asllani, Daghim. Leverkusen 4-2-3-1 – Flekken; Quansah, Tapsoba, Medina, Gutiérrez; Fernández, García; Diaby, Maza, Moreira; Schick. Trenerzy: Christian Ilzer / Carles Martínez."
    },
    {
     "id": "BL-2026-27-R7-SCF-BAY",
@@ -2787,32 +3518,51 @@
      "capacity": 34700
     },
     "odds": {
-     "src": "Średnia 7 bukmacherów (RG.org), stan na 20–21.10.2026",
-     "1": 6.5,
-     "X": 5.66,
-     "2": 1.38,
-     "bttsY": 1.41,
-     "bttsN": 2.8
+     "src": "Betano (1, X), bet365 (2) – Wettbasis, stan na 24.10.2026 22:21",
+     "1": 6.8,
+     "X": 5.9,
+     "2": 1.44
     },
     "info": {
+     "injuries": {
+      "home": [
+       "Yannik Engelhardt (niepewny – zszedł po ok. 15 min w Monako)",
+       "Bruno Ogbus (niepewny, mięśnie)",
+       "Berkay Yılmaz (po operacji zęba)",
+       "Florent Muslija (zerwane więzadło krzyżowe)"
+      ],
+      "away": [
+       "Manuel Neuer (zapalenie ścięgna w stopie)",
+       "Luis Díaz (naderwanie włókien mięśniowych)",
+       "Jamal Musiala (uraz mięśniowy)",
+       "Min-jae Kim (uraz z meczu z Arsenalem)",
+       "Joshua Kimmich (urlop okolicznościowy po śmierci ojca)"
+      ]
+     },
+     "suspensions": {
+      "home": [],
+      "away": []
+     },
      "restDays": {
       "home": 3,
       "away": 4
      },
-     "homeAway": "Freiburg 3/3 u siebie (11:2), Bayern na wyjazdach 1-2-0 i tylko 4 gole (remis na Schalke, 2:2 w Augsburgu).",
-     "stakes": "Hit kolejki: 3. Freiburg (13 pkt) vs lider Bayern (14 pkt).",
+     "homeAway": "Freiburg wygrał wszystkie 5 meczów u siebie w sezonie (liga 11:2); Bayern na wyjazdach 1-2-0, bramki 4:3. Freiburg przegrał 2 ostatnie mecze (1:2 w Leverkusen, 0:3 w Monako); Bayern 6:1 z Lipskiem, 2:2 z Arsenalem w LM.",
+     "stakes": "3. Freiburg (13 pkt) vs 2. Bayern (14 pkt) – po wygranej BVB Bayern musi wygrać, by wrócić na 1. miejsce. Vincent Kompany w szpitalu (zasłabł w piątek, stan stabilny) – drużynę prowadzi asystent Aaron Danks.",
      "h2h": [
-      "2026-04 SCF 2:3 BAY (Bayern odrobił 0:2)"
+      "2026-04 SCF 2:3 BAY (Bayern odrobił 0:2)",
+      "Bilans: 54 mecze – 39 BAY, 10 remisów, 5 SCF; Freiburg bez wygranej z Bayernem od 20 meczów ligowych"
      ]
     },
-    "notes": "Bayern w środę 2:2 z Arsenalem (LM); Freiburg w czwartek przegrał w Monako (Liga Konferencji).",
+    "notes": "Prognozowane składy (fussballnationalmannschaft.net): Freiburg 4-2-3-1 – Backhaus; Treu, Ginter, Lienhart, Makengo; Eggestein, Engelhardt; Beste, Suzuki, Scherhant; Matanović. Bayern 4-2-3-1 – Urbig; Laimer, Upamecano, Tah, Brown; Bischof, Pavlović; Olise, Saibari, Davies; Kane.",
     "tip": {
      "decision": "NO BET",
      "reasons": [
-      "Handicap Freiburg +1,5 po 1,89–1,96: model Poissona daje ok. 57% wobec 51–53% z kursu (EV ≈ +8%), ale przewaga wynika głównie z modelu, który nie docenia skłonności Bayernu do wysokich zwycięstw (7:0, 6:1).",
-      "Freiburg grał w czwartek w Monako (porażka wg nagłówków) – krótszy odpoczynek niż Bayern (środa).",
-      "Freiburg przegrał dwa ostatnie mecze – forma nie potwierdza typu.",
-      "Zbyt duża niepewność → NO BET."
+      "Bayern 1,44 (≈69%) – przy braku Kompany'ego, Neuera, Kimmicha, Díaza, Musiali i Kima szacuję ok. 62–65%: EV ujemne.",
+      "Over 3,5 po 1,55 (≈65%) – Poisson z λ≈3,8 (BETSiE) daje ok. 52%: brak wartości.",
+      "Freiburg powyżej 1,5 gola po 2,55 (≈39%) – model ok. 33%.",
+      "Handicap Freiburg +1,5 bez aktualnego kursu – nie mogę policzyć EV.",
+      "Duża niepewność kadrowa i trenerska po obu stronach (Freiburg po czwartkowym meczu w Monako, Engelhardt niepewny) → NO BET."
      ]
     },
     "officials": [
