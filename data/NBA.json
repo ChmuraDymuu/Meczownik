@@ -1,0 +1,6137 @@
+{
+ "sport": "basketball",
+ "updated": "2026-10-25T13:14:27+01:00",
+ "season": "2026/27",
+ "competition": "NBA",
+ "note": "Źródła: landofbasketball.com (wyniki, terminarz), basketball-reference, NBA.com (protokoły), surprisesports, CBS/AP, FOX Sports, statmuse, VegasInsider, Covers, hoopsnightly, iHeart (kontuzje). Godziny w czasie polskim. Tabela wyliczona z wyników do 24.10 (czasu USA).",
+ "teams": {
+  "ATL": {
+   "id": "ATL",
+   "short": "ATL",
+   "name": "Atlanta Hawks",
+   "city": "Atlanta",
+   "col": "#C8102E",
+   "arena": "State Farm Arena"
+  },
+  "BOS": {
+   "id": "BOS",
+   "short": "BOS",
+   "name": "Boston Celtics",
+   "city": "Boston",
+   "col": "#007A33",
+   "arena": "TD Garden"
+  },
+  "BKN": {
+   "id": "BKN",
+   "short": "BKN",
+   "name": "Brooklyn Nets",
+   "city": "Brooklyn",
+   "col": "#000000",
+   "arena": "Barclays Center"
+  },
+  "CHA": {
+   "id": "CHA",
+   "short": "CHA",
+   "name": "Charlotte Hornets",
+   "city": "Charlotte",
+   "col": "#1D1160",
+   "arena": "Spectrum Center"
+  },
+  "CHI": {
+   "id": "CHI",
+   "short": "CHI",
+   "name": "Chicago Bulls",
+   "city": "Chicago",
+   "col": "#CE1141",
+   "arena": "United Center"
+  },
+  "CLE": {
+   "id": "CLE",
+   "short": "CLE",
+   "name": "Cleveland Cavaliers",
+   "city": "Cleveland",
+   "col": "#860038",
+   "arena": "Rocket Arena"
+  },
+  "DAL": {
+   "id": "DAL",
+   "short": "DAL",
+   "name": "Dallas Mavericks",
+   "city": "Dallas",
+   "col": "#00538C",
+   "arena": "American Airlines Center"
+  },
+  "DEN": {
+   "id": "DEN",
+   "short": "DEN",
+   "name": "Denver Nuggets",
+   "city": "Denver",
+   "col": "#0E2240",
+   "arena": "Ball Arena"
+  },
+  "DET": {
+   "id": "DET",
+   "short": "DET",
+   "name": "Detroit Pistons",
+   "city": "Detroit",
+   "col": "#C8102E",
+   "arena": "Little Caesars Arena"
+  },
+  "GSW": {
+   "id": "GSW",
+   "short": "GSW",
+   "name": "Golden State Warriors",
+   "city": "San Francisco",
+   "col": "#1D428A",
+   "arena": "Chase Center"
+  },
+  "HOU": {
+   "id": "HOU",
+   "short": "HOU",
+   "name": "Houston Rockets",
+   "city": "Houston",
+   "col": "#CE1141",
+   "arena": "Toyota Center"
+  },
+  "IND": {
+   "id": "IND",
+   "short": "IND",
+   "name": "Indiana Pacers",
+   "city": "Indianapolis",
+   "col": "#002D62",
+   "arena": "Gainbridge Fieldhouse"
+  },
+  "LAC": {
+   "id": "LAC",
+   "short": "LAC",
+   "name": "Los Angeles Clippers",
+   "city": "Inglewood",
+   "col": "#1D428A",
+   "arena": "Intuit Dome"
+  },
+  "LAL": {
+   "id": "LAL",
+   "short": "LAL",
+   "name": "Los Angeles Lakers",
+   "city": "Los Angeles",
+   "col": "#552583",
+   "arena": "Crypto.com Arena"
+  },
+  "MEM": {
+   "id": "MEM",
+   "short": "MEM",
+   "name": "Memphis Grizzlies",
+   "city": "Memphis",
+   "col": "#12173F",
+   "arena": "FedExForum"
+  },
+  "MIA": {
+   "id": "MIA",
+   "short": "MIA",
+   "name": "Miami Heat",
+   "city": "Miami",
+   "col": "#98002E",
+   "arena": "Kaseya Center"
+  },
+  "MIL": {
+   "id": "MIL",
+   "short": "MIL",
+   "name": "Milwaukee Bucks",
+   "city": "Milwaukee",
+   "col": "#00471B",
+   "arena": "Fiserv Forum"
+  },
+  "MIN": {
+   "id": "MIN",
+   "short": "MIN",
+   "name": "Minnesota Timberwolves",
+   "city": "Minneapolis",
+   "col": "#0C2340",
+   "arena": "Target Center"
+  },
+  "NOP": {
+   "id": "NOP",
+   "short": "NOP",
+   "name": "New Orleans Pelicans",
+   "city": "New Orleans",
+   "col": "#0C2340",
+   "arena": "Smoothie King Center"
+  },
+  "NYK": {
+   "id": "NYK",
+   "short": "NYK",
+   "name": "New York Knicks",
+   "city": "New York",
+   "col": "#006BB6",
+   "arena": "Madison Square Garden"
+  },
+  "OKC": {
+   "id": "OKC",
+   "short": "OKC",
+   "name": "Oklahoma City Thunder",
+   "city": "Oklahoma City",
+   "col": "#007AC1",
+   "arena": "Paycom Center"
+  },
+  "ORL": {
+   "id": "ORL",
+   "short": "ORL",
+   "name": "Orlando Magic",
+   "city": "Orlando",
+   "col": "#0077C0",
+   "arena": "Kia Center"
+  },
+  "PHI": {
+   "id": "PHI",
+   "short": "PHI",
+   "name": "Philadelphia 76ers",
+   "city": "Philadelphia",
+   "col": "#006BB6",
+   "arena": "Xfinity Mobile Arena"
+  },
+  "PHX": {
+   "id": "PHX",
+   "short": "PHX",
+   "name": "Phoenix Suns",
+   "city": "Phoenix",
+   "col": "#1D1160",
+   "arena": "Mortgage Matchup Center"
+  },
+  "POR": {
+   "id": "POR",
+   "short": "POR",
+   "name": "Portland Trail Blazers",
+   "city": "Portland",
+   "col": "#C8102E",
+   "arena": "Moda Center"
+  },
+  "SAC": {
+   "id": "SAC",
+   "short": "SAC",
+   "name": "Sacramento Kings",
+   "city": "Sacramento",
+   "col": "#5A2D81",
+   "arena": "Golden 1 Center"
+  },
+  "SAS": {
+   "id": "SAS",
+   "short": "SAS",
+   "name": "San Antonio Spurs",
+   "city": "San Antonio",
+   "col": "#1F1F1F",
+   "arena": "Frost Bank Center"
+  },
+  "TOR": {
+   "id": "TOR",
+   "short": "TOR",
+   "name": "Toronto Raptors",
+   "city": "Toronto",
+   "col": "#CE1141",
+   "arena": "Scotiabank Arena"
+  },
+  "UTA": {
+   "id": "UTA",
+   "short": "UTA",
+   "name": "Utah Jazz",
+   "city": "Salt Lake City",
+   "col": "#002B5C",
+   "arena": "Delta Center"
+  },
+  "WAS": {
+   "id": "WAS",
+   "short": "WAS",
+   "name": "Washington Wizards",
+   "city": "Washington",
+   "col": "#002B5C",
+   "arena": "Capital One Arena"
+  }
+ },
+ "standings": {
+  "E": [
+   {
+    "team": "PHI",
+    "w": 3,
+    "l": 0,
+    "gb": "—",
+    "home": "2-0",
+    "away": "1-0",
+    "l10": "3-0",
+    "strk": "W3"
+   },
+   {
+    "team": "DET",
+    "w": 2,
+    "l": 0,
+    "gb": "0.5",
+    "home": "1-0",
+    "away": "1-0",
+    "l10": "2-0",
+    "strk": "W2"
+   },
+   {
+    "team": "TOR",
+    "w": 2,
+    "l": 0,
+    "gb": "0.5",
+    "home": "1-0",
+    "away": "1-0",
+    "l10": "2-0",
+    "strk": "W2"
+   },
+   {
+    "team": "ATL",
+    "w": 2,
+    "l": 1,
+    "gb": "1",
+    "home": "0-1",
+    "away": "2-0",
+    "l10": "2-1",
+    "strk": "L1"
+   },
+   {
+    "team": "CHA",
+    "w": 2,
+    "l": 1,
+    "gb": "1",
+    "home": "1-1",
+    "away": "1-0",
+    "l10": "2-1",
+    "strk": "W1"
+   },
+   {
+    "team": "WAS",
+    "w": 2,
+    "l": 1,
+    "gb": "1",
+    "home": "1-1",
+    "away": "1-0",
+    "l10": "2-1",
+    "strk": "W1"
+   },
+   {
+    "team": "BOS",
+    "w": 1,
+    "l": 1,
+    "gb": "1.5",
+    "home": "1-0",
+    "away": "0-1",
+    "l10": "1-1",
+    "strk": "W1"
+   },
+   {
+    "team": "CLE",
+    "w": 1,
+    "l": 1,
+    "gb": "1.5",
+    "home": "1-0",
+    "away": "0-1",
+    "l10": "1-1",
+    "strk": "W1"
+   },
+   {
+    "team": "IND",
+    "w": 1,
+    "l": 1,
+    "gb": "1.5",
+    "home": "0-1",
+    "away": "1-0",
+    "l10": "1-1",
+    "strk": "L1"
+   },
+   {
+    "team": "CHI",
+    "w": 1,
+    "l": 2,
+    "gb": "2",
+    "home": "0-1",
+    "away": "1-1",
+    "l10": "1-2",
+    "strk": "L1"
+   },
+   {
+    "team": "BKN",
+    "w": 0,
+    "l": 2,
+    "gb": "2.5",
+    "home": "0-1",
+    "away": "0-1",
+    "l10": "0-2",
+    "strk": "L2"
+   },
+   {
+    "team": "NYK",
+    "w": 0,
+    "l": 2,
+    "gb": "2.5",
+    "home": "0-1",
+    "away": "0-1",
+    "l10": "0-2",
+    "strk": "L2"
+   },
+   {
+    "team": "ORL",
+    "w": 0,
+    "l": 2,
+    "gb": "2.5",
+    "home": "0-2",
+    "away": "0-0",
+    "l10": "0-2",
+    "strk": "L2"
+   },
+   {
+    "team": "MIA",
+    "w": 0,
+    "l": 3,
+    "gb": "3",
+    "home": "0-2",
+    "away": "0-1",
+    "l10": "0-3",
+    "strk": "L3"
+   },
+   {
+    "team": "MIL",
+    "w": 0,
+    "l": 3,
+    "gb": "3",
+    "home": "0-1",
+    "away": "0-2",
+    "l10": "0-3",
+    "strk": "L3"
+   }
+  ],
+  "W": [
+   {
+    "team": "HOU",
+    "w": 3,
+    "l": 0,
+    "gb": "—",
+    "home": "1-0",
+    "away": "2-0",
+    "l10": "3-0",
+    "strk": "W3"
+   },
+   {
+    "team": "LAL",
+    "w": 2,
+    "l": 0,
+    "gb": "0.5",
+    "home": "2-0",
+    "away": "0-0",
+    "l10": "2-0",
+    "strk": "W2"
+   },
+   {
+    "team": "MEM",
+    "w": 2,
+    "l": 0,
+    "gb": "0.5",
+    "home": "1-0",
+    "away": "1-0",
+    "l10": "2-0",
+    "strk": "W2"
+   },
+   {
+    "team": "MIN",
+    "w": 2,
+    "l": 0,
+    "gb": "0.5",
+    "home": "0-0",
+    "away": "2-0",
+    "l10": "2-0",
+    "strk": "W2"
+   },
+   {
+    "team": "OKC",
+    "w": 2,
+    "l": 0,
+    "gb": "0.5",
+    "home": "1-0",
+    "away": "1-0",
+    "l10": "2-0",
+    "strk": "W2"
+   },
+   {
+    "team": "POR",
+    "w": 2,
+    "l": 0,
+    "gb": "0.5",
+    "home": "1-0",
+    "away": "1-0",
+    "l10": "2-0",
+    "strk": "W2"
+   },
+   {
+    "team": "DEN",
+    "w": 1,
+    "l": 1,
+    "gb": "1.5",
+    "home": "1-0",
+    "away": "0-1",
+    "l10": "1-1",
+    "strk": "W1"
+   },
+   {
+    "team": "LAC",
+    "w": 1,
+    "l": 1,
+    "gb": "1.5",
+    "home": "1-0",
+    "away": "0-1",
+    "l10": "1-1",
+    "strk": "L1"
+   },
+   {
+    "team": "PHX",
+    "w": 1,
+    "l": 1,
+    "gb": "1.5",
+    "home": "1-0",
+    "away": "0-1",
+    "l10": "1-1",
+    "strk": "W1"
+   },
+   {
+    "team": "UTA",
+    "w": 1,
+    "l": 1,
+    "gb": "1.5",
+    "home": "1-0",
+    "away": "0-1",
+    "l10": "1-1",
+    "strk": "W1"
+   },
+   {
+    "team": "DAL",
+    "w": 1,
+    "l": 2,
+    "gb": "2",
+    "home": "0-1",
+    "away": "1-1",
+    "l10": "1-2",
+    "strk": "L1"
+   },
+   {
+    "team": "SAS",
+    "w": 1,
+    "l": 2,
+    "gb": "2",
+    "home": "0-2",
+    "away": "1-0",
+    "l10": "1-2",
+    "strk": "W1"
+   },
+   {
+    "team": "SAC",
+    "w": 0,
+    "l": 2,
+    "gb": "2.5",
+    "home": "0-1",
+    "away": "0-1",
+    "l10": "0-2",
+    "strk": "L2"
+   },
+   {
+    "team": "GSW",
+    "w": 0,
+    "l": 3,
+    "gb": "3",
+    "home": "0-1",
+    "away": "0-2",
+    "l10": "0-3",
+    "strk": "L3"
+   },
+   {
+    "team": "NOP",
+    "w": 0,
+    "l": 3,
+    "gb": "3",
+    "home": "0-1",
+    "away": "0-2",
+    "l10": "0-3",
+    "strk": "L3"
+   }
+  ]
+ },
+ "picks": [],
+ "days": {
+  "2026-10-24": [
+   {
+    "id": "NBA-2026-10-24-DAL-IND",
+    "date": "2026-10-24",
+    "time": "01:00",
+    "home": "IND",
+    "away": "DAL",
+    "status": "ft",
+    "score": [
+     105,
+     121
+    ],
+    "quarters": {
+     "home": [
+      27,
+      16,
+      33,
+      29
+     ],
+     "away": [
+      44,
+      33,
+      21,
+      23
+     ]
+    },
+    "arena": {
+     "name": "Gainbridge Fieldhouse",
+     "city": "Indianapolis"
+    },
+    "players": {
+     "home": [],
+     "away": [
+      {
+       "n": "Kyrie Irving",
+       "start": true,
+       "min": "24:54",
+       "pts": 24,
+       "reb": 1,
+       "ast": 3,
+       "stl": 1,
+       "blk": 1,
+       "tov": 2,
+       "fg": "8/15",
+       "tp": "5/10",
+       "ft": "3/3",
+       "pm": "+8"
+      },
+      {
+       "n": "Max Christie",
+       "start": true,
+       "min": "37:51",
+       "pts": 16,
+       "reb": 4,
+       "ast": 4,
+       "stl": 1,
+       "blk": 0,
+       "tov": 2,
+       "fg": "7/14",
+       "tp": "2/5",
+       "ft": "0/0",
+       "pm": "-2"
+      },
+      {
+       "n": "P.J. Washington",
+       "start": true,
+       "min": "33:08",
+       "pts": 20,
+       "reb": 13,
+       "ast": 0,
+       "stl": 0,
+       "blk": 3,
+       "tov": 2,
+       "fg": "6/11",
+       "tp": "2/4",
+       "ft": "6/8",
+       "pm": "-4"
+      },
+      {
+       "n": "Cooper Flagg",
+       "start": true,
+       "min": "17:00",
+       "pts": 14,
+       "reb": 5,
+       "ast": 6,
+       "stl": 3,
+       "blk": 1,
+       "tov": 3,
+       "fg": "4/6",
+       "tp": "2/2",
+       "ft": "4/4",
+       "pm": "+34"
+      },
+      {
+       "n": "Daniel Gafford",
+       "start": true,
+       "min": "14:36",
+       "pts": 4,
+       "reb": 3,
+       "ast": 5,
+       "stl": 0,
+       "blk": 2,
+       "tov": 0,
+       "fg": "2/4",
+       "tp": "0/0",
+       "ft": "0/0",
+       "pm": "+2"
+      },
+      {
+       "n": "Naji Marshall",
+       "start": false,
+       "min": "33:20",
+       "pts": 15,
+       "reb": 4,
+       "ast": 6,
+       "stl": 3,
+       "blk": 0,
+       "tov": 2,
+       "fg": "7/15",
+       "tp": "0/4",
+       "ft": "1/2",
+       "pm": "+1"
+      },
+      {
+       "n": "Zaccharie Risacher",
+       "start": false,
+       "min": "31:46",
+       "pts": 11,
+       "reb": 6,
+       "ast": 1,
+       "stl": 1,
+       "blk": 3,
+       "tov": 0,
+       "fg": "4/11",
+       "tp": "1/4",
+       "ft": "2/2",
+       "pm": "+14"
+      },
+      {
+       "n": "Marcus Sasser",
+       "start": false,
+       "min": "26:47",
+       "pts": 6,
+       "reb": 2,
+       "ast": 3,
+       "stl": 0,
+       "blk": 1,
+       "tov": 1,
+       "fg": "2/5",
+       "tp": "2/4",
+       "ft": "0/0",
+       "pm": "-6"
+      },
+      {
+       "n": "Morez Johnson Jr.",
+       "start": false,
+       "min": "16:49",
+       "pts": 8,
+       "reb": 6,
+       "ast": 0,
+       "stl": 0,
+       "blk": 0,
+       "tov": 2,
+       "fg": "3/5",
+       "tp": "0/1",
+       "ft": "2/2",
+       "pm": "+21"
+      },
+      {
+       "n": "Tobi Lawal",
+       "start": false,
+       "min": "0:56",
+       "pts": 0,
+       "reb": 0,
+       "ast": 0,
+       "stl": 1,
+       "blk": 0,
+       "tov": 0,
+       "fg": "0/0",
+       "tp": "0/0",
+       "ft": "0/0",
+       "pm": "+3"
+      },
+      {
+       "n": "Sergio de Larrea",
+       "start": false,
+       "min": "0:56",
+       "pts": 0,
+       "reb": 0,
+       "ast": 0,
+       "stl": 0,
+       "blk": 0,
+       "tov": 0,
+       "fg": "0/1",
+       "tp": "0/0",
+       "ft": "0/0",
+       "pm": "+3"
+      },
+      {
+       "n": "Moussa Cisse",
+       "start": false,
+       "min": "0:56",
+       "pts": 3,
+       "reb": 1,
+       "ast": 0,
+       "stl": 0,
+       "blk": 0,
+       "tov": 0,
+       "fg": "1/1",
+       "tp": "0/0",
+       "ft": "1/2",
+       "pm": "+3"
+      },
+      {
+       "n": "Walter Clayton Jr.",
+       "start": false,
+       "min": "0:56",
+       "pts": 0,
+       "reb": 1,
+       "ast": 0,
+       "stl": 0,
+       "blk": 0,
+       "tov": 0,
+       "fg": "0/0",
+       "tp": "0/0",
+       "ft": "0/0",
+       "pm": "+3"
+      }
+     ]
+    },
+    "notes": "DAL drużynowo: z gry 44/88, za 3 14/34, wolne 19/23, 46 zb., 28 as., 10 przechw., 11 bloków, 14 strat, 27 fauli. Liderzy IND: Pascal Siakam 23 pkt, Ivica Zubac 11 zb., Tyrese Haliburton 7 as. Cooper Flagg (DAL) opuścił boisko z bólem lewego barku po twardym faulu Aarona Nesmitha i nie zagrał w 2. połowie. Pełny box score Indiany niedostępny."
+   },
+   {
+    "id": "NBA-2026-10-24-MIN-ORL",
+    "date": "2026-10-24",
+    "time": "01:00",
+    "home": "ORL",
+    "away": "MIN",
+    "status": "ft",
+    "score": [
+     93,
+     115
+    ],
+    "quarters": {
+     "home": [
+      20,
+      25,
+      15,
+      33
+     ],
+     "away": [
+      26,
+      31,
+      29,
+      29
+     ]
+    },
+    "arena": {
+     "name": "Kia Center",
+     "city": "Orlando"
+    },
+    "attendance": 19551,
+    "officials": [
+     "Jenna Schroeder",
+     "Josh Tiven",
+     "Jason Goldenberg"
+    ],
+    "players": {
+     "home": [
+      {
+       "n": "Jalen Suggs",
+       "start": true,
+       "min": "34:09",
+       "pts": 14,
+       "reb": 6,
+       "ast": 6,
+       "stl": 1,
+       "blk": 1,
+       "tov": 3,
+       "fg": "6/12",
+       "tp": "1/4",
+       "ft": "1/2",
+       "pm": "-7"
+      },
+      {
+       "n": "Franz Wagner",
+       "start": true,
+       "min": "32:51",
+       "pts": 18,
+       "reb": 6,
+       "ast": 5,
+       "stl": 1,
+       "blk": 0,
+       "tov": 6,
+       "fg": "7/14",
+       "tp": "1/6",
+       "ft": "3/6",
+       "pm": "-18"
+      },
+      {
+       "n": "Wendell Carter Jr.",
+       "start": true,
+       "min": "28:33",
+       "pts": 20,
+       "reb": 9,
+       "ast": 1,
+       "stl": 0,
+       "blk": 2,
+       "tov": 2,
+       "fg": "8/9",
+       "tp": "3/4",
+       "ft": "1/1",
+       "pm": "-6"
+      },
+      {
+       "n": "Desmond Bane",
+       "start": true,
+       "min": "26:51",
+       "pts": 5,
+       "reb": 2,
+       "ast": 0,
+       "stl": 1,
+       "blk": 0,
+       "tov": 3,
+       "fg": "2/11",
+       "tp": "1/9",
+       "ft": "0/0",
+       "pm": "-2"
+      },
+      {
+       "n": "Paolo Banchero",
+       "start": true,
+       "min": "26:25",
+       "pts": 14,
+       "reb": 6,
+       "ast": 5,
+       "stl": 1,
+       "blk": 0,
+       "tov": 2,
+       "fg": "6/11",
+       "tp": "0/2",
+       "ft": "2/4",
+       "pm": "-11"
+      },
+      {
+       "n": "Tristan Da Silva",
+       "start": false,
+       "min": "29:24",
+       "pts": 5,
+       "reb": 3,
+       "ast": 1,
+       "stl": 1,
+       "blk": 0,
+       "tov": 0,
+       "fg": "2/9",
+       "tp": "1/7",
+       "ft": "0/0",
+       "pm": "-19"
+      },
+      {
+       "n": "Jase Richardson",
+       "start": false,
+       "min": "14:19",
+       "pts": 6,
+       "reb": 1,
+       "ast": 3,
+       "stl": 0,
+       "blk": 0,
+       "tov": 0,
+       "fg": "2/5",
+       "tp": "1/1",
+       "ft": "1/2",
+       "pm": "-18"
+      },
+      {
+       "n": "Jevon Carter",
+       "start": false,
+       "min": "13:29",
+       "pts": 0,
+       "reb": 1,
+       "ast": 1,
+       "stl": 2,
+       "blk": 0,
+       "tov": 0,
+       "fg": "0/2",
+       "tp": "0/1",
+       "ft": "0/0",
+       "pm": "-4"
+      },
+      {
+       "n": "Goga Bitadze",
+       "start": false,
+       "min": "12:18",
+       "pts": 4,
+       "reb": 3,
+       "ast": 0,
+       "stl": 0,
+       "blk": 1,
+       "tov": 0,
+       "fg": "1/2",
+       "tp": "0/0",
+       "ft": "2/2",
+       "pm": "-6"
+      },
+      {
+       "n": "Jamal Cain",
+       "start": false,
+       "min": "10:59",
+       "pts": 0,
+       "reb": 1,
+       "ast": 0,
+       "stl": 0,
+       "blk": 0,
+       "tov": 0,
+       "fg": "0/4",
+       "tp": "0/4",
+       "ft": "0/0",
+       "pm": "-9"
+      },
+      {
+       "n": "Nikola Vucevic",
+       "start": false,
+       "min": "3:38",
+       "pts": 0,
+       "reb": 2,
+       "ast": 0,
+       "stl": 0,
+       "blk": 0,
+       "tov": 0,
+       "fg": "0/1",
+       "tp": "0/1",
+       "ft": "0/0",
+       "pm": "-10"
+      },
+      {
+       "n": "Colin Castleton",
+       "start": false,
+       "min": "3:31",
+       "pts": 7,
+       "reb": 2,
+       "ast": 1,
+       "stl": 0,
+       "blk": 0,
+       "tov": 0,
+       "fg": "3/3",
+       "tp": "0/0",
+       "ft": "1/2",
+       "pm": "0"
+      },
+      {
+       "n": "Alex Morales",
+       "start": false,
+       "min": "3:31",
+       "pts": 0,
+       "reb": 1,
+       "ast": 0,
+       "stl": 0,
+       "blk": 0,
+       "tov": 0,
+       "fg": "0/1",
+       "tp": "0/0",
+       "ft": "0/0",
+       "pm": "0"
+      }
+     ],
+     "away": [
+      {
+       "n": "Anthony Edwards",
+       "start": true,
+       "min": "33:14",
+       "pts": 15,
+       "reb": 4,
+       "ast": 4,
+       "stl": 4,
+       "blk": 0,
+       "tov": 2,
+       "fg": "5/23",
+       "tp": "2/9",
+       "ft": "3/4",
+       "pm": "+19"
+      },
+      {
+       "n": "Jaden McDaniels",
+       "start": true,
+       "min": "29:50",
+       "pts": 15,
+       "reb": 6,
+       "ast": 3,
+       "stl": 0,
+       "blk": 2,
+       "tov": 0,
+       "fg": "6/14",
+       "tp": "2/5",
+       "ft": "1/1",
+       "pm": "+12"
+      },
+      {
+       "n": "Rudy Gobert",
+       "start": true,
+       "min": "29:34",
+       "pts": 14,
+       "reb": 9,
+       "ast": 1,
+       "stl": 0,
+       "blk": 0,
+       "tov": 3,
+       "fg": "6/8",
+       "tp": "0/0",
+       "ft": "2/4",
+       "pm": "+9"
+      },
+      {
+       "n": "Jonathan Kuminga",
+       "start": true,
+       "min": "27:28",
+       "pts": 11,
+       "reb": 8,
+       "ast": 5,
+       "stl": 1,
+       "blk": 0,
+       "tov": 0,
+       "fg": "3/7",
+       "tp": "2/3",
+       "ft": "3/8",
+       "pm": "+9"
+      },
+      {
+       "n": "LaMelo Ball",
+       "start": true,
+       "min": "23:03",
+       "pts": 12,
+       "reb": 5,
+       "ast": 5,
+       "stl": 2,
+       "blk": 0,
+       "tov": 3,
+       "fg": "4/13",
+       "tp": "2/8",
+       "ft": "2/2",
+       "pm": "+17"
+      },
+      {
+       "n": "Ayo Dosunmu",
+       "start": false,
+       "min": "26:39",
+       "pts": 14,
+       "reb": 7,
+       "ast": 10,
+       "stl": 1,
+       "blk": 1,
+       "tov": 0,
+       "fg": "6/11",
+       "tp": "1/2",
+       "ft": "1/2",
+       "pm": "+15"
+      },
+      {
+       "n": "Terrence Shannon Jr.",
+       "start": false,
+       "min": "22:19",
+       "pts": 13,
+       "reb": 4,
+       "ast": 1,
+       "stl": 0,
+       "blk": 1,
+       "tov": 2,
+       "fg": "4/6",
+       "tp": "2/4",
+       "ft": "3/4",
+       "pm": "+11"
+      },
+      {
+       "n": "Trey Lyles",
+       "start": false,
+       "min": "16:32",
+       "pts": 9,
+       "reb": 6,
+       "ast": 2,
+       "stl": 0,
+       "blk": 0,
+       "tov": 0,
+       "fg": "3/6",
+       "tp": "2/5",
+       "ft": "1/3",
+       "pm": "+10"
+      },
+      {
+       "n": "Joan Beringer",
+       "start": false,
+       "min": "14:42",
+       "pts": 9,
+       "reb": 9,
+       "ast": 0,
+       "stl": 0,
+       "blk": 0,
+       "tov": 2,
+       "fg": "4/8",
+       "tp": "0/0",
+       "ft": "1/2",
+       "pm": "+12"
+      },
+      {
+       "n": "Bones Hyland",
+       "start": false,
+       "min": "7:53",
+       "pts": 3,
+       "reb": 1,
+       "ast": 0,
+       "stl": 0,
+       "blk": 0,
+       "tov": 0,
+       "fg": "1/2",
+       "tp": "1/1",
+       "ft": "0/0",
+       "pm": "-4"
+      },
+      {
+       "n": "Jaylen Clark",
+       "start": false,
+       "min": "3:23",
+       "pts": 0,
+       "reb": 2,
+       "ast": 1,
+       "stl": 0,
+       "blk": 0,
+       "tov": 0,
+       "fg": "0/0",
+       "tp": "0/0",
+       "ft": "0/0",
+       "pm": "-1"
+      },
+      {
+       "n": "Cody Williams",
+       "start": false,
+       "min": "3:23",
+       "pts": 0,
+       "reb": 0,
+       "ast": 0,
+       "stl": 0,
+       "blk": 0,
+       "tov": 0,
+       "fg": "0/0",
+       "tp": "0/0",
+       "ft": "0/0",
+       "pm": "-1"
+      },
+      {
+       "n": "Isaiah Evans",
+       "start": false,
+       "min": "1:59",
+       "pts": 0,
+       "reb": 0,
+       "ast": 1,
+       "stl": 0,
+       "blk": 0,
+       "tov": 0,
+       "fg": "0/0",
+       "tp": "0/0",
+       "ft": "0/0",
+       "pm": "+2"
+      }
+     ]
+    },
+    "teamStats": [
+     [
+      "Z gry %",
+      44.0,
+      42.9
+     ],
+     [
+      "Za 3 %",
+      20.5,
+      37.8
+     ],
+     [
+      "Wolne %",
+      57.9,
+      56.7
+     ],
+     [
+      "Zbiórki",
+      43,
+      61
+     ],
+     [
+      "Asysty",
+      23,
+      33
+     ],
+     [
+      "Przechwyty",
+      7,
+      8
+     ],
+     [
+      "Bloki",
+      4,
+      4
+     ],
+     [
+      "Straty",
+      16,
+      12
+     ],
+     [
+      "Faule",
+      26,
+      19
+     ]
+    ],
+    "notes": "Nieobecni MIN: Donte DiVincenzo; ORL: Anthony Black, Jonathan Isaac, Noah Penda. Franz Wagner i Desmond Bane (ORL) – po 6 fauli."
+   },
+   {
+    "id": "NBA-2026-10-24-TOR-WAS",
+    "date": "2026-10-24",
+    "time": "01:00",
+    "home": "WAS",
+    "away": "TOR",
+    "status": "ft",
+    "score": [
+     102,
+     112
+    ],
+    "quarters": {
+     "home": [
+      21,
+      31,
+      25,
+      25
+     ],
+     "away": [
+      34,
+      26,
+      21,
+      31
+     ]
+    },
+    "arena": {
+     "name": "Capital One Arena",
+     "city": "Washington"
+    },
+    "notes": "Scottie Barnes 28 pkt i 14 zb., RJ Barrett 23 pkt, Kawhi Leonard 16 pkt (TOR); Trae Young 22 pkt i 12 as., Tre Johnson 20 pkt, Anthony Davis 9 pkt (3/12 z gry) (WAS). Toronto wymusiło 23 straty rywali. Wynik 4. kwarty wyliczony z wyniku końcowego."
+   },
+   {
+    "id": "NBA-2026-10-24-NYK-BOS",
+    "date": "2026-10-24",
+    "time": "01:00",
+    "home": "BOS",
+    "away": "NYK",
+    "status": "ft",
+    "score": [
+     107,
+     103
+    ],
+    "quarters": {
+     "home": [
+      26,
+      24,
+      33,
+      24
+     ],
+     "away": [
+      27,
+      22,
+      24,
+      30
+     ]
+    },
+    "arena": {
+     "name": "TD Garden",
+     "city": "Boston"
+    },
+    "attendance": 19156,
+    "officials": [
+     "Sean Wright",
+     "Brian Forte",
+     "Sha'Rae Mitchell"
+    ],
+    "players": {
+     "home": [
+      {
+       "n": "Paul George",
+       "min": "34",
+       "pts": 15,
+       "reb": 7,
+       "ast": 2,
+       "stl": 2,
+       "blk": 0,
+       "tov": 1,
+       "fg": "6/15",
+       "tp": "3/7",
+       "ft": "0/0",
+       "pm": "+1"
+      },
+      {
+       "n": "Jayson Tatum",
+       "min": "37",
+       "pts": 36,
+       "reb": 9,
+       "ast": 7,
+       "stl": 3,
+       "blk": 0,
+       "tov": 2,
+       "fg": "14/26",
+       "tp": "3/10",
+       "ft": "5/5",
+       "pm": "+1"
+      },
+      {
+       "n": "Mitchell Robinson",
+       "min": "22",
+       "pts": 4,
+       "reb": 4,
+       "ast": 2,
+       "stl": 0,
+       "blk": 1,
+       "tov": 0,
+       "fg": "2/4",
+       "tp": "0/0",
+       "ft": "0/0",
+       "pm": "-2"
+      },
+      {
+       "n": "Derrick White",
+       "min": "33",
+       "pts": 12,
+       "reb": 4,
+       "ast": 6,
+       "stl": 1,
+       "blk": 0,
+       "tov": 1,
+       "fg": "5/11",
+       "tp": "2/6",
+       "ft": "0/0",
+       "pm": "-4"
+      },
+      {
+       "n": "Jordan Walsh",
+       "min": "20",
+       "pts": 5,
+       "reb": 3,
+       "ast": 0,
+       "stl": 0,
+       "blk": 0,
+       "tov": 1,
+       "fg": "2/5",
+       "tp": "1/2",
+       "ft": "0/0",
+       "pm": "+1"
+      },
+      {
+       "n": "Sam Hauser",
+       "min": "23",
+       "pts": 6,
+       "reb": 2,
+       "ast": 2,
+       "stl": 0,
+       "blk": 0,
+       "tov": 0,
+       "fg": "2/5",
+       "tp": "2/5",
+       "ft": "0/0",
+       "pm": "+8"
+      },
+      {
+       "n": "Luka Garza",
+       "min": "4",
+       "pts": 8,
+       "reb": 1,
+       "ast": 0,
+       "stl": 1,
+       "blk": 0,
+       "tov": 0,
+       "fg": "3/3",
+       "tp": "2/2",
+       "ft": "0/0",
+       "pm": "+6"
+      },
+      {
+       "n": "Neemias Queta",
+       "min": "22",
+       "pts": 15,
+       "reb": 6,
+       "ast": 1,
+       "stl": 0,
+       "blk": 3,
+       "tov": 2,
+       "fg": "4/8",
+       "tp": "1/1",
+       "ft": "6/9",
+       "pm": "-1"
+      },
+      {
+       "n": "Payton Pritchard",
+       "min": "30",
+       "pts": 4,
+       "reb": 1,
+       "ast": 4,
+       "stl": 0,
+       "blk": 0,
+       "tov": 2,
+       "fg": "1/5",
+       "tp": "1/3",
+       "ft": "1/2",
+       "pm": "+8"
+      },
+      {
+       "n": "Baylor Scheierman",
+       "min": "11",
+       "pts": 2,
+       "reb": 0,
+       "ast": 0,
+       "stl": 0,
+       "blk": 0,
+       "tov": 1,
+       "fg": "1/4",
+       "tp": "0/2",
+       "ft": "0/0",
+       "pm": "+4"
+      },
+      {
+       "n": "Hugo Gonzalez",
+       "min": "4",
+       "pts": 0,
+       "reb": 0,
+       "ast": 1,
+       "stl": 0,
+       "blk": 0,
+       "tov": 0,
+       "fg": "0/1",
+       "tp": "0/1",
+       "ft": "0/0",
+       "pm": "-2"
+      }
+     ],
+     "away": [
+      {
+       "n": "OG Anunoby",
+       "min": "34",
+       "pts": 20,
+       "reb": 10,
+       "ast": 8,
+       "stl": 0,
+       "blk": 0,
+       "tov": 3,
+       "fg": "5/11",
+       "tp": "2/6",
+       "ft": "8/10",
+       "pm": "-11"
+      },
+      {
+       "n": "Karl-Anthony Towns",
+       "min": "37",
+       "pts": 22,
+       "reb": 10,
+       "ast": 3,
+       "stl": 0,
+       "blk": 0,
+       "tov": 4,
+       "fg": "9/13",
+       "tp": "2/3",
+       "ft": "2/3",
+       "pm": "+2"
+      },
+      {
+       "n": "Josh Hart",
+       "min": "36",
+       "pts": 10,
+       "reb": 12,
+       "ast": 5,
+       "stl": 3,
+       "blk": 0,
+       "tov": 0,
+       "fg": "4/12",
+       "tp": "2/7",
+       "ft": "0/0",
+       "pm": "+4"
+      },
+      {
+       "n": "Mikal Bridges",
+       "min": "22",
+       "pts": 0,
+       "reb": 1,
+       "ast": 4,
+       "stl": 1,
+       "blk": 0,
+       "tov": 1,
+       "fg": "0/8",
+       "tp": "0/5",
+       "ft": "0/0",
+       "pm": "-12"
+      },
+      {
+       "n": "Jalen Brunson",
+       "min": "37",
+       "pts": 19,
+       "reb": 2,
+       "ast": 4,
+       "stl": 0,
+       "blk": 2,
+       "tov": 3,
+       "fg": "7/17",
+       "tp": "2/5",
+       "ft": "3/6",
+       "pm": "+6"
+      },
+      {
+       "n": "Andre Drummond",
+       "min": "7",
+       "pts": 2,
+       "reb": 2,
+       "ast": 0,
+       "stl": 0,
+       "blk": 0,
+       "tov": 0,
+       "fg": "1/2",
+       "tp": "0/0",
+       "ft": "0/0",
+       "pm": "-8"
+      },
+      {
+       "n": "James Wiseman",
+       "min": "2",
+       "pts": 0,
+       "reb": 0,
+       "ast": 0,
+       "stl": 0,
+       "blk": 0,
+       "tov": 0,
+       "fg": "0/0",
+       "tp": "0/0",
+       "ft": "0/0",
+       "pm": "+4"
+      },
+      {
+       "n": "Jordan Clarkson",
+       "min": "3",
+       "pts": 0,
+       "reb": 1,
+       "ast": 0,
+       "stl": 0,
+       "blk": 0,
+       "tov": 0,
+       "fg": "0/0",
+       "tp": "0/0",
+       "ft": "0/0",
+       "pm": "+3"
+      },
+      {
+       "n": "Landry Shamet",
+       "min": "21",
+       "pts": 8,
+       "reb": 2,
+       "ast": 0,
+       "stl": 0,
+       "blk": 0,
+       "tov": 2,
+       "fg": "3/6",
+       "tp": "2/5",
+       "ft": "0/0",
+       "pm": "+7"
+      },
+      {
+       "n": "Jose Alvarado",
+       "min": "11",
+       "pts": 2,
+       "reb": 2,
+       "ast": 2,
+       "stl": 1,
+       "blk": 0,
+       "tov": 3,
+       "fg": "1/2",
+       "tp": "0/1",
+       "ft": "0/0",
+       "pm": "-10"
+      },
+      {
+       "n": "Miles McBride",
+       "min": "30",
+       "pts": 20,
+       "reb": 2,
+       "ast": 1,
+       "stl": 1,
+       "blk": 0,
+       "tov": 0,
+       "fg": "6/9",
+       "tp": "6/8",
+       "ft": "2/2",
+       "pm": "-5"
+      }
+     ]
+    },
+    "teamStats": [
+     [
+      "Z gry %",
+      46.0,
+      45.0
+     ],
+     [
+      "Za 3 %",
+      38.5,
+      40.0
+     ],
+     [
+      "Wolne %",
+      75.0,
+      71.4
+     ],
+     [
+      "Zbiórki",
+      37,
+      44
+     ],
+     [
+      "Asysty",
+      25,
+      27
+     ],
+     [
+      "Przechwyty",
+      7,
+      6
+     ],
+     [
+      "Bloki",
+      4,
+      2
+     ],
+     [
+      "Straty",
+      10,
+      16
+     ]
+    ],
+    "notes": "Jayson Tatum 36 pkt, 9 zb., 7 as. Pierwsze zwycięstwo Celtics i mecz otwarcia w TD Garden; Knicks wciąż bez wygranej. BOS bez Devina Cartera (choroba). Pierwsze piątki nieoznaczone w źródle."
+   },
+   {
+    "id": "NBA-2026-10-24-ATL-CHA",
+    "date": "2026-10-24",
+    "time": "01:00",
+    "home": "CHA",
+    "away": "ATL",
+    "status": "ft",
+    "score": [
+     81,
+     128
+    ],
+    "quarters": {
+     "home": [
+      20,
+      23,
+      19,
+      19
+     ],
+     "away": [
+      33,
+      35,
+      29,
+      31
+     ]
+    },
+    "arena": {
+     "name": "Spectrum Center",
+     "city": "Charlotte"
+    },
+    "attendance": 19524,
+    "notes": "Jalen Johnson 19 pkt, 7 zb., 8 as.; Aaron Wiggins 19 pkt (7/9); Dyson Daniels 11 pkt, 9 zb., 7 przechwytów. CHA: Naz Reid 17 pkt, Brandon Miller 6 pkt (1/11 za 3). Straty 25-12 na korzyść ATL. CHA bez Kona Knueppela, Coby'ego White'a i Granta Williamsa."
+   },
+   {
+    "id": "NBA-2026-10-24-DET-MIA",
+    "date": "2026-10-24",
+    "time": "02:00",
+    "home": "MIA",
+    "away": "DET",
+    "status": "ft",
+    "score": [
+     111,
+     128
+    ],
+    "quarters": {
+     "home": [
+      26,
+      27,
+      27,
+      31
+     ],
+     "away": [
+      41,
+      24,
+      38,
+      25
+     ]
+    },
+    "arena": {
+     "name": "Kaseya Center",
+     "city": "Miami"
+    },
+    "attendance": 19616,
+    "officials": [
+     "Marat Kogut",
+     "Tony Brothers",
+     "J.T. Orr"
+    ],
+    "players": {
+     "home": [
+      {
+       "n": "Giannis Antetokounmpo",
+       "min": "33",
+       "pts": 36,
+       "reb": 12,
+       "ast": 5,
+       "stl": 2,
+       "blk": 1,
+       "tov": 3,
+       "fg": "15/26",
+       "tp": "1/3",
+       "ft": "5/8",
+       "pm": "-23"
+      },
+      {
+       "n": "Andrew Wiggins",
+       "min": "26",
+       "pts": 8,
+       "reb": 8,
+       "ast": 2,
+       "stl": 1,
+       "blk": 0,
+       "tov": 1,
+       "fg": "3/12",
+       "tp": "1/6",
+       "ft": "1/1",
+       "pm": "-19"
+      },
+      {
+       "n": "Bam Adebayo",
+       "min": "23",
+       "pts": 4,
+       "reb": 6,
+       "ast": 3,
+       "stl": 2,
+       "blk": 0,
+       "tov": 1,
+       "fg": "2/6",
+       "tp": "0/2",
+       "ft": "0/2",
+       "pm": "-22"
+      },
+      {
+       "n": "Klay Thompson",
+       "min": "24",
+       "pts": 6,
+       "reb": 2,
+       "ast": 2,
+       "stl": 0,
+       "blk": 0,
+       "tov": 0,
+       "fg": "2/11",
+       "tp": "2/11",
+       "ft": "0/0",
+       "pm": "-19"
+      },
+      {
+       "n": "Davion Mitchell",
+       "min": "33",
+       "pts": 18,
+       "reb": 2,
+       "ast": 5,
+       "stl": 0,
+       "blk": 2,
+       "tov": 1,
+       "fg": "6/14",
+       "tp": "3/9",
+       "ft": "3/5",
+       "pm": "-24"
+      },
+      {
+       "n": "Bobby Portis",
+       "min": "21",
+       "pts": 11,
+       "reb": 8,
+       "ast": 2,
+       "stl": 1,
+       "blk": 0,
+       "tov": 0,
+       "fg": "4/10",
+       "tp": "3/6",
+       "ft": "0/0",
+       "pm": "+6"
+      },
+      {
+       "n": "Simone Fontecchio",
+       "min": "3",
+       "pts": 0,
+       "reb": 1,
+       "ast": 0,
+       "stl": 0,
+       "blk": 0,
+       "tov": 0,
+       "fg": "0/3",
+       "tp": "0/2",
+       "ft": "0/0",
+       "pm": "+2"
+      },
+      {
+       "n": "Myron Gardner",
+       "min": "3",
+       "pts": 0,
+       "reb": 0,
+       "ast": 0,
+       "stl": 0,
+       "blk": 1,
+       "tov": 1,
+       "fg": "0/0",
+       "tp": "0/0",
+       "ft": "0/0",
+       "pm": "+2"
+      },
+      {
+       "n": "Nikola Jovic",
+       "min": "13",
+       "pts": 5,
+       "reb": 4,
+       "ast": 1,
+       "stl": 1,
+       "blk": 1,
+       "tov": 0,
+       "fg": "1/1",
+       "tp": "0/0",
+       "ft": "3/4",
+       "pm": "+1"
+      },
+      {
+       "n": "Nick Richards",
+       "min": "3",
+       "pts": 3,
+       "reb": 0,
+       "ast": 1,
+       "stl": 0,
+       "blk": 0,
+       "tov": 0,
+       "fg": "1/1",
+       "tp": "1/1",
+       "ft": "0/0",
+       "pm": "+2"
+      },
+      {
+       "n": "Tim Hardaway Jr.",
+       "min": "21",
+       "pts": 8,
+       "reb": 4,
+       "ast": 1,
+       "stl": 0,
+       "blk": 0,
+       "tov": 3,
+       "fg": "2/7",
+       "tp": "2/5",
+       "ft": "2/4",
+       "pm": "0"
+      },
+      {
+       "n": "Dru Smith",
+       "min": "6",
+       "pts": 3,
+       "reb": 0,
+       "ast": 1,
+       "stl": 0,
+       "blk": 0,
+       "tov": 1,
+       "fg": "1/2",
+       "tp": "1/1",
+       "ft": "0/0",
+       "pm": "+7"
+      },
+      {
+       "n": "Pelle Larsson",
+       "min": "29",
+       "pts": 7,
+       "reb": 2,
+       "ast": 1,
+       "stl": 1,
+       "blk": 0,
+       "tov": 1,
+       "fg": "1/7",
+       "tp": "1/4",
+       "ft": "4/4",
+       "pm": "0"
+      },
+      {
+       "n": "Ryan Conwell",
+       "min": "3",
+       "pts": 2,
+       "reb": 0,
+       "ast": 0,
+       "stl": 0,
+       "blk": 0,
+       "tov": 0,
+       "fg": "1/2",
+       "tp": "0/1",
+       "ft": "0/0",
+       "pm": "+2"
+      }
+     ],
+     "away": [
+      {
+       "n": "Duncan Robinson",
+       "min": "28",
+       "pts": 17,
+       "reb": 1,
+       "ast": 2,
+       "stl": 2,
+       "blk": 0,
+       "tov": 1,
+       "fg": "5/12",
+       "tp": "5/10",
+       "ft": "2/2",
+       "pm": "+22"
+      },
+      {
+       "n": "John Collins",
+       "min": "29",
+       "pts": 23,
+       "reb": 7,
+       "ast": 1,
+       "stl": 0,
+       "blk": 0,
+       "tov": 1,
+       "fg": "9/15",
+       "tp": "5/6",
+       "ft": "0/0",
+       "pm": "+15"
+      },
+      {
+       "n": "Jalen Duren",
+       "min": "10",
+       "pts": 4,
+       "reb": 6,
+       "ast": 3,
+       "stl": 1,
+       "blk": 1,
+       "tov": 1,
+       "fg": "2/4",
+       "tp": "0/0",
+       "ft": "0/0",
+       "pm": "+12"
+      },
+      {
+       "n": "Cade Cunningham",
+       "min": "30",
+       "pts": 16,
+       "reb": 2,
+       "ast": 8,
+       "stl": 1,
+       "blk": 3,
+       "tov": 7,
+       "fg": "5/8",
+       "tp": "2/3",
+       "ft": "4/6",
+       "pm": "+9"
+      },
+      {
+       "n": "Ausar Thompson",
+       "min": "19",
+       "pts": 4,
+       "reb": 3,
+       "ast": 5,
+       "stl": 1,
+       "blk": 1,
+       "tov": 3,
+       "fg": "2/5",
+       "tp": "0/1",
+       "ft": "0/0",
+       "pm": "+14"
+      },
+      {
+       "n": "Paul Reed",
+       "min": "26",
+       "pts": 19,
+       "reb": 11,
+       "ast": 3,
+       "stl": 0,
+       "blk": 0,
+       "tov": 0,
+       "fg": "8/11",
+       "tp": "2/2",
+       "ft": "1/1",
+       "pm": "+4"
+      },
+      {
+       "n": "Tolu Smith",
+       "min": "2",
+       "pts": 0,
+       "reb": 1,
+       "ast": 0,
+       "stl": 0,
+       "blk": 0,
+       "tov": 0,
+       "fg": "0/0",
+       "tp": "0/0",
+       "ft": "0/0",
+       "pm": "-3"
+      },
+      {
+       "n": "Ronald Holland II",
+       "min": "22",
+       "pts": 8,
+       "reb": 5,
+       "ast": 4,
+       "stl": 1,
+       "blk": 0,
+       "tov": 0,
+       "fg": "3/6",
+       "tp": "0/0",
+       "ft": "2/2",
+       "pm": "+4"
+      },
+      {
+       "n": "Javonte Green",
+       "min": "13",
+       "pts": 5,
+       "reb": 3,
+       "ast": 0,
+       "stl": 0,
+       "blk": 1,
+       "tov": 0,
+       "fg": "2/4",
+       "tp": "1/3",
+       "ft": "0/0",
+       "pm": "+3"
+      },
+      {
+       "n": "Kevin Huerter",
+       "min": "20",
+       "pts": 5,
+       "reb": 6,
+       "ast": 2,
+       "stl": 1,
+       "blk": 1,
+       "tov": 2,
+       "fg": "2/7",
+       "tp": "1/5",
+       "ft": "0/0",
+       "pm": "-1"
+      },
+      {
+       "n": "Isaiah Joe",
+       "min": "18",
+       "pts": 12,
+       "reb": 3,
+       "ast": 1,
+       "stl": 0,
+       "blk": 0,
+       "tov": 1,
+       "fg": "4/9",
+       "tp": "1/6",
+       "ft": "3/4",
+       "pm": "-8"
+      },
+      {
+       "n": "Daniss Jenkins",
+       "min": "22",
+       "pts": 15,
+       "reb": 5,
+       "ast": 5,
+       "stl": 1,
+       "blk": 0,
+       "tov": 3,
+       "fg": "5/8",
+       "tp": "1/2",
+       "ft": "4/5",
+       "pm": "+14"
+      }
+     ]
+    },
+    "teamStats": [
+     [
+      "Z gry %",
+      38.2,
+      52.8
+     ],
+     [
+      "Za 3 %",
+      29.4,
+      47.4
+     ],
+     [
+      "Wolne %",
+      64.3,
+      80.0
+     ],
+     [
+      "Zbiórki",
+      49,
+      53
+     ],
+     [
+      "Asysty",
+      24,
+      34
+     ],
+     [
+      "Przechwyty",
+      8,
+      8
+     ],
+     [
+      "Bloki",
+      5,
+      7
+     ],
+     [
+      "Straty",
+      12,
+      19
+     ]
+    ],
+    "notes": "Giannis Antetokounmpo 36 pkt i 12 zb. dla MIA. Jalen Duren (DET) zagrał tylko 10 minut (uraz ścięgna podkolanowego). Pierwsze piątki nieoznaczone w źródle."
+   },
+   {
+    "id": "NBA-2026-10-24-NOP-UTA",
+    "date": "2026-10-24",
+    "time": "03:30",
+    "home": "UTA",
+    "away": "NOP",
+    "status": "ft",
+    "score": [
+     120,
+     119
+    ],
+    "quarters": {
+     "home": [
+      31,
+      31,
+      24,
+      34
+     ],
+     "away": [
+      28,
+      24,
+      38,
+      29
+     ]
+    },
+    "arena": {
+     "name": "Delta Center",
+     "city": "Salt Lake City"
+    },
+    "attendance": 17867,
+    "officials": [
+     "James Capers",
+     "Ray Acosta",
+     "Leon Wood"
+    ],
+    "players": {
+     "home": [
+      {
+       "n": "Lauri Markkanen",
+       "min": "34:08",
+       "pts": 16,
+       "reb": 6,
+       "ast": 3,
+       "stl": 1,
+       "blk": 0,
+       "tov": 1,
+       "fg": "6/13",
+       "tp": "4/9",
+       "ft": "0/0",
+       "pm": "-6"
+      },
+      {
+       "n": "Jaren Jackson Jr.",
+       "min": "33:14",
+       "pts": 24,
+       "reb": 10,
+       "ast": 3,
+       "stl": 0,
+       "blk": 3,
+       "tov": 3,
+       "fg": "7/15",
+       "tp": "2/4",
+       "ft": "8/10",
+       "pm": "-5"
+      },
+      {
+       "n": "Keyonte George",
+       "min": "32:25",
+       "pts": 19,
+       "reb": 1,
+       "ast": 10,
+       "stl": 1,
+       "blk": 0,
+       "tov": 6,
+       "fg": "6/12",
+       "tp": "3/7",
+       "ft": "4/6",
+       "pm": "-1"
+      },
+      {
+       "n": "Darryn Peterson",
+       "min": "29:58",
+       "pts": 15,
+       "reb": 3,
+       "ast": 1,
+       "stl": 0,
+       "blk": 0,
+       "tov": 0,
+       "fg": "6/12",
+       "tp": "1/2",
+       "ft": "2/2",
+       "pm": "-1"
+      },
+      {
+       "n": "Ace Bailey",
+       "min": "21:42",
+       "pts": 6,
+       "reb": 7,
+       "ast": 2,
+       "stl": 0,
+       "blk": 0,
+       "tov": 1,
+       "fg": "2/8",
+       "tp": "1/6",
+       "ft": "1/2",
+       "pm": "-3"
+      },
+      {
+       "n": "Jaxson Hayes",
+       "min": "25:57",
+       "pts": 17,
+       "reb": 5,
+       "ast": 2,
+       "stl": 0,
+       "blk": 1,
+       "tov": 0,
+       "fg": "7/8",
+       "tp": "0/0",
+       "ft": "3/3",
+       "pm": "+9"
+      },
+      {
+       "n": "Svi Mykhailiuk",
+       "min": "21:24",
+       "pts": 3,
+       "reb": 4,
+       "ast": 1,
+       "stl": 1,
+       "blk": 0,
+       "tov": 1,
+       "fg": "1/4",
+       "tp": "0/2",
+       "ft": "1/2",
+       "pm": "+8"
+      },
+      {
+       "n": "Isaiah Collier",
+       "min": "18:02",
+       "pts": 10,
+       "reb": 2,
+       "ast": 7,
+       "stl": 0,
+       "blk": 0,
+       "tov": 2,
+       "fg": "3/5",
+       "tp": "0/1",
+       "ft": "4/6",
+       "pm": "+2"
+      },
+      {
+       "n": "Brice Sensabaugh",
+       "min": "15:35",
+       "pts": 10,
+       "reb": 3,
+       "ast": 2,
+       "stl": 0,
+       "blk": 1,
+       "tov": 1,
+       "fg": "3/6",
+       "tp": "2/4",
+       "ft": "2/2",
+       "pm": "+2"
+      },
+      {
+       "n": "Kyle Filipowski",
+       "min": "7:35",
+       "pts": 0,
+       "reb": 1,
+       "ast": 0,
+       "stl": 1,
+       "blk": 0,
+       "tov": 3,
+       "fg": "0/1",
+       "tp": "0/0",
+       "ft": "0/0",
+       "pm": "-2"
+      }
+     ],
+     "away": [
+      {
+       "n": "Zion Williamson",
+       "min": "33:01",
+       "pts": 23,
+       "reb": 5,
+       "ast": 2,
+       "stl": 3,
+       "blk": 0,
+       "tov": 2,
+       "fg": "8/12",
+       "tp": "0/1",
+       "ft": "7/8",
+       "pm": "+1"
+      },
+      {
+       "n": "Trey Murphy III",
+       "min": "31:27",
+       "pts": 9,
+       "reb": 6,
+       "ast": 3,
+       "stl": 1,
+       "blk": 0,
+       "tov": 2,
+       "fg": "4/9",
+       "tp": "1/4",
+       "ft": "0/0",
+       "pm": "+1"
+      },
+      {
+       "n": "Dejounte Murray",
+       "min": "30:13",
+       "pts": 16,
+       "reb": 6,
+       "ast": 6,
+       "stl": 3,
+       "blk": 0,
+       "tov": 3,
+       "fg": "7/15",
+       "tp": "0/2",
+       "ft": "2/2",
+       "pm": "0"
+      },
+      {
+       "n": "Jeremiah Fears",
+       "min": "23:44",
+       "pts": 7,
+       "reb": 0,
+       "ast": 1,
+       "stl": 1,
+       "blk": 0,
+       "tov": 2,
+       "fg": "3/9",
+       "tp": "1/4",
+       "ft": "0/0",
+       "pm": "-11"
+      },
+      {
+       "n": "Yves Missi",
+       "min": "9:17",
+       "pts": 6,
+       "reb": 1,
+       "ast": 0,
+       "stl": 0,
+       "blk": 1,
+       "tov": 0,
+       "fg": "3/3",
+       "tp": "0/0",
+       "ft": "0/0",
+       "pm": "-7"
+      },
+      {
+       "n": "Derik Queen",
+       "min": "29:00",
+       "pts": 12,
+       "reb": 7,
+       "ast": 2,
+       "stl": 2,
+       "blk": 2,
+       "tov": 2,
+       "fg": "4/9",
+       "tp": "1/2",
+       "ft": "3/4",
+       "pm": "+2"
+      },
+      {
+       "n": "Saddiq Bey",
+       "min": "22:08",
+       "pts": 20,
+       "reb": 3,
+       "ast": 1,
+       "stl": 0,
+       "blk": 1,
+       "tov": 2,
+       "fg": "8/12",
+       "tp": "3/5",
+       "ft": "1/1",
+       "pm": "+4"
+      },
+      {
+       "n": "Jordan Poole",
+       "min": "19:10",
+       "pts": 12,
+       "reb": 2,
+       "ast": 2,
+       "stl": 3,
+       "blk": 1,
+       "tov": 0,
+       "fg": "1/8",
+       "tp": "1/5",
+       "ft": "9/10",
+       "pm": "+6"
+      },
+      {
+       "n": "Herbert Jones",
+       "min": "17:46",
+       "pts": 3,
+       "reb": 1,
+       "ast": 0,
+       "stl": 0,
+       "blk": 0,
+       "tov": 0,
+       "fg": "1/2",
+       "tp": "1/2",
+       "ft": "0/0",
+       "pm": "-2"
+      },
+      {
+       "n": "Bennedict Mathurin",
+       "min": "15:06",
+       "pts": 4,
+       "reb": 2,
+       "ast": 0,
+       "stl": 0,
+       "blk": 0,
+       "tov": 2,
+       "fg": "2/5",
+       "tp": "0/1",
+       "ft": "0/0",
+       "pm": "-3"
+      },
+      {
+       "n": "Karlo Matković",
+       "min": "9:07",
+       "pts": 7,
+       "reb": 4,
+       "ast": 1,
+       "stl": 2,
+       "blk": 0,
+       "tov": 0,
+       "fg": "3/3",
+       "tp": "0/0",
+       "ft": "1/2",
+       "pm": "+4"
+      }
+     ]
+    },
+    "teamStats": [
+     [
+      "Z gry %",
+      48.8,
+      50.6
+     ],
+     [
+      "Za 3 %",
+      37.1,
+      30.8
+     ],
+     [
+      "Wolne %",
+      75.8,
+      85.2
+     ],
+     [
+      "Zbiórki",
+      42,
+      37
+     ],
+     [
+      "Asysty",
+      31,
+      18
+     ],
+     [
+      "Przechwyty",
+      4,
+      15
+     ],
+     [
+      "Bloki",
+      5,
+      5
+     ],
+     [
+      "Straty",
+      18,
+      15
+     ],
+     [
+      "Faule",
+      21,
+      29
+     ]
+    ],
+    "notes": "Jaren Jackson Jr. 24 pkt i 10 zb. UTA bez Jusufa Nurkicia (stopa)."
+   },
+   {
+    "id": "NBA-2026-10-24-HOU-SAS",
+    "date": "2026-10-24",
+    "time": "03:30",
+    "home": "SAS",
+    "away": "HOU",
+    "status": "ft",
+    "score": [
+     110,
+     114
+    ],
+    "quarters": {
+     "home": [
+      27,
+      32,
+      22,
+      29
+     ],
+     "away": [
+      32,
+      29,
+      24,
+      29
+     ]
+    },
+    "arena": {
+     "name": "Moody Center",
+     "city": "Austin"
+    },
+    "attendance": 16723,
+    "officials": [
+     "Kevin Cutler",
+     "Ashley Moyer-Gleich",
+     "Brandon Adair"
+    ],
+    "players": {
+     "home": [
+      {
+       "n": "Stephon Castle",
+       "start": true,
+       "min": "32:57",
+       "pts": 15,
+       "reb": 7,
+       "ast": 5,
+       "stl": 1,
+       "blk": 0,
+       "tov": 1,
+       "fg": "6/15",
+       "tp": "3/9",
+       "ft": "0/1",
+       "pm": "-3"
+      },
+      {
+       "n": "Devin Vassell",
+       "start": true,
+       "min": "35:31",
+       "pts": 10,
+       "reb": 4,
+       "ast": 2,
+       "stl": 3,
+       "blk": 0,
+       "tov": 5,
+       "fg": "3/8",
+       "tp": "2/5",
+       "ft": "2/2",
+       "pm": "+1"
+      },
+      {
+       "n": "Victor Wembanyama",
+       "start": true,
+       "min": "31:59",
+       "pts": 25,
+       "reb": 13,
+       "ast": 2,
+       "stl": 0,
+       "blk": 2,
+       "tov": 2,
+       "fg": "9/21",
+       "tp": "2/6",
+       "ft": "5/8",
+       "pm": "+3"
+      },
+      {
+       "n": "Dylan Harper",
+       "start": true,
+       "min": "35:52",
+       "pts": 20,
+       "reb": 3,
+       "ast": 2,
+       "stl": 0,
+       "blk": 0,
+       "tov": 0,
+       "fg": "8/15",
+       "tp": "1/4",
+       "ft": "3/4",
+       "pm": "+4"
+      },
+      {
+       "n": "De'Aaron Fox",
+       "start": true,
+       "min": "33:42",
+       "pts": 19,
+       "reb": 4,
+       "ast": 9,
+       "stl": 2,
+       "blk": 0,
+       "tov": 5,
+       "fg": "6/11",
+       "tp": "2/5",
+       "ft": "5/5",
+       "pm": "-14"
+      },
+      {
+       "n": "Julian Champagnie",
+       "start": false,
+       "min": "25:13",
+       "pts": 6,
+       "reb": 0,
+       "ast": 0,
+       "stl": 3,
+       "blk": 0,
+       "tov": 1,
+       "fg": "2/5",
+       "tp": "2/5",
+       "ft": "0/0",
+       "pm": "+7"
+      },
+      {
+       "n": "Keldon Johnson",
+       "start": false,
+       "min": "19:21",
+       "pts": 8,
+       "reb": 6,
+       "ast": 1,
+       "stl": 1,
+       "blk": 0,
+       "tov": 1,
+       "fg": "4/7",
+       "tp": "0/1",
+       "ft": "0/0",
+       "pm": "-6"
+      },
+      {
+       "n": "Luke Kornet",
+       "start": false,
+       "min": "16:01",
+       "pts": 7,
+       "reb": 3,
+       "ast": 0,
+       "stl": 0,
+       "blk": 1,
+       "tov": 0,
+       "fg": "2/3",
+       "tp": "0/0",
+       "ft": "3/5",
+       "pm": "-7"
+      },
+      {
+       "n": "Harrison Barnes",
+       "start": false,
+       "min": "5:06",
+       "pts": 0,
+       "reb": 0,
+       "ast": 0,
+       "stl": 0,
+       "blk": 0,
+       "tov": 0,
+       "fg": "0/2",
+       "tp": "0/2",
+       "ft": "0/0",
+       "pm": "0"
+      },
+      {
+       "n": "Carter Bryant",
+       "start": false,
+       "min": "4:18",
+       "pts": 0,
+       "reb": 0,
+       "ast": 0,
+       "stl": 0,
+       "blk": 0,
+       "tov": 0,
+       "fg": "0/0",
+       "tp": "0/0",
+       "ft": "0/0",
+       "pm": "-5"
+      }
+     ],
+     "away": [
+      {
+       "n": "Kevin Durant",
+       "start": true,
+       "min": "36:59",
+       "pts": 20,
+       "reb": 7,
+       "ast": 6,
+       "stl": 0,
+       "blk": 0,
+       "tov": 3,
+       "fg": "5/10",
+       "tp": "2/2",
+       "ft": "8/8",
+       "pm": "+6"
+      },
+      {
+       "n": "Jabari Smith Jr.",
+       "start": true,
+       "min": "33:52",
+       "pts": 7,
+       "reb": 5,
+       "ast": 1,
+       "stl": 2,
+       "blk": 2,
+       "tov": 2,
+       "fg": "2/5",
+       "tp": "1/2",
+       "ft": "2/2",
+       "pm": "+12"
+      },
+      {
+       "n": "Alperen Sengun",
+       "start": true,
+       "min": "35:40",
+       "pts": 29,
+       "reb": 7,
+       "ast": 7,
+       "stl": 0,
+       "blk": 1,
+       "tov": 3,
+       "fg": "10/20",
+       "tp": "2/4",
+       "ft": "7/8",
+       "pm": "+3"
+      },
+      {
+       "n": "Amen Thompson",
+       "start": true,
+       "min": "36:15",
+       "pts": 20,
+       "reb": 10,
+       "ast": 4,
+       "stl": 2,
+       "blk": 2,
+       "tov": 2,
+       "fg": "9/15",
+       "tp": "1/2",
+       "ft": "1/1",
+       "pm": "-12"
+      },
+      {
+       "n": "Fred VanVleet",
+       "start": true,
+       "min": "31:31",
+       "pts": 14,
+       "reb": 3,
+       "ast": 5,
+       "stl": 3,
+       "blk": 0,
+       "tov": 0,
+       "fg": "4/10",
+       "tp": "3/8",
+       "ft": "3/4",
+       "pm": "+5"
+      },
+      {
+       "n": "Steven Adams",
+       "start": false,
+       "min": "8:53",
+       "pts": 4,
+       "reb": 2,
+       "ast": 1,
+       "stl": 0,
+       "blk": 0,
+       "tov": 0,
+       "fg": "2/2",
+       "tp": "0/0",
+       "ft": "0/0",
+       "pm": "+6"
+      },
+      {
+       "n": "Tari Eason",
+       "start": false,
+       "min": "26:33",
+       "pts": 12,
+       "reb": 6,
+       "ast": 0,
+       "stl": 3,
+       "blk": 0,
+       "tov": 1,
+       "fg": "4/8",
+       "tp": "0/2",
+       "ft": "4/4",
+       "pm": "-7"
+      },
+      {
+       "n": "Marcus Smart",
+       "start": false,
+       "min": "21:24",
+       "pts": 5,
+       "reb": 3,
+       "ast": 1,
+       "stl": 1,
+       "blk": 0,
+       "tov": 3,
+       "fg": "1/6",
+       "tp": "0/4",
+       "ft": "3/4",
+       "pm": "+6"
+      },
+      {
+       "n": "Bogdan Bogdanović",
+       "start": false,
+       "min": "8:53",
+       "pts": 3,
+       "reb": 1,
+       "ast": 0,
+       "stl": 0,
+       "blk": 0,
+       "tov": 1,
+       "fg": "1/2",
+       "tp": "1/1",
+       "ft": "0/0",
+       "pm": "+1"
+      }
+     ]
+    },
+    "teamStats": [
+     [
+      "Z gry %",
+      46.0,
+      48.7
+     ],
+     [
+      "Za 3 %",
+      32.4,
+      40.0
+     ],
+     [
+      "Wolne %",
+      72.0,
+      90.3
+     ],
+     [
+      "Zbiórki",
+      40,
+      44
+     ],
+     [
+      "Asysty",
+      21,
+      25
+     ],
+     [
+      "Przechwyty",
+      10,
+      11
+     ],
+     [
+      "Bloki",
+      3,
+      5
+     ],
+     [
+      "Straty",
+      15,
+      15
+     ],
+     [
+      "Faule",
+      26,
+      22
+     ]
+    ],
+    "notes": "Mecz rozegrany w Austin (Moody Center). Alperen Sengun 29 pkt; Victor Wembanyama 25 pkt i 13 zb. Nieobecni: HOU Reed Sheppard (kolano); SAS Tobias Harris (łydka), Jayden Quaintance (kolano)."
+   },
+   {
+    "id": "NBA-2026-10-24-POR-SAC",
+    "date": "2026-10-24",
+    "time": "04:00",
+    "home": "SAC",
+    "away": "POR",
+    "status": "ft",
+    "score": [
+     120,
+     128
+    ],
+    "quarters": {
+     "home": [
+      33,
+      31,
+      26,
+      30
+     ],
+     "away": [
+      27,
+      32,
+      44,
+      25
+     ]
+    },
+    "arena": {
+     "name": "Golden 1 Center",
+     "city": "Sacramento"
+    },
+    "attendance": 17832,
+    "officials": [
+     "Michael Smith",
+     "J.B. DeRosa",
+     "Mousa Dagher"
+    ],
+    "players": {
+     "home": [
+      {
+       "n": "Domantas Sabonis",
+       "min": "39",
+       "pts": 27,
+       "reb": 19,
+       "ast": 10,
+       "stl": 0,
+       "blk": 0,
+       "tov": 5,
+       "fg": "10/13",
+       "tp": "1/1",
+       "ft": "6/7",
+       "pm": "-3"
+      },
+      {
+       "n": "De'Andre Hunter",
+       "min": "25",
+       "pts": 4,
+       "reb": 7,
+       "ast": 1,
+       "stl": 0,
+       "blk": 0,
+       "tov": 0,
+       "fg": "2/4",
+       "tp": "0/1",
+       "ft": "0/0",
+       "pm": "+1"
+      },
+      {
+       "n": "Keegan Murray",
+       "min": "26",
+       "pts": 12,
+       "reb": 2,
+       "ast": 1,
+       "stl": 1,
+       "blk": 0,
+       "tov": 1,
+       "fg": "4/9",
+       "tp": "0/3",
+       "ft": "4/4",
+       "pm": "-3"
+      },
+      {
+       "n": "Zach LaVine",
+       "min": "39",
+       "pts": 22,
+       "reb": 5,
+       "ast": 1,
+       "stl": 2,
+       "blk": 1,
+       "tov": 3,
+       "fg": "6/15",
+       "tp": "3/9",
+       "ft": "7/7",
+       "pm": "-2"
+      },
+      {
+       "n": "Darius Acuff Jr.",
+       "min": "37",
+       "pts": 33,
+       "reb": 2,
+       "ast": 4,
+       "stl": 0,
+       "blk": 0,
+       "tov": 3,
+       "fg": "10/26",
+       "tp": "2/11",
+       "ft": "11/12",
+       "pm": "-2"
+      },
+      {
+       "n": "Precious Achiuwa",
+       "min": "26",
+       "pts": 14,
+       "reb": 6,
+       "ast": 1,
+       "stl": 2,
+       "blk": 0,
+       "tov": 1,
+       "fg": "7/11",
+       "tp": "0/1",
+       "ft": "0/0",
+       "pm": "-14"
+      },
+      {
+       "n": "Malik Monk",
+       "min": "12",
+       "pts": 0,
+       "reb": 1,
+       "ast": 2,
+       "stl": 0,
+       "blk": 0,
+       "tov": 1,
+       "fg": "0/6",
+       "tp": "0/1",
+       "ft": "0/0",
+       "pm": "-6"
+      },
+      {
+       "n": "Daeqwon Plowden",
+       "min": "20",
+       "pts": 3,
+       "reb": 0,
+       "ast": 0,
+       "stl": 0,
+       "blk": 1,
+       "tov": 0,
+       "fg": "1/2",
+       "tp": "1/2",
+       "ft": "0/0",
+       "pm": "-4"
+      },
+      {
+       "n": "Nique Clifford",
+       "min": "2",
+       "pts": 0,
+       "reb": 0,
+       "ast": 0,
+       "stl": 0,
+       "blk": 0,
+       "tov": 0,
+       "fg": "0/0",
+       "tp": "0/0",
+       "ft": "0/0",
+       "pm": "-1"
+      },
+      {
+       "n": "Emanuel Sharp",
+       "min": "14",
+       "pts": 5,
+       "reb": 0,
+       "ast": 1,
+       "stl": 0,
+       "blk": 0,
+       "tov": 0,
+       "fg": "2/5",
+       "tp": "1/2",
+       "ft": "0/0",
+       "pm": "-6"
+      }
+     ],
+     "away": [
+      {
+       "n": "Toumani Camara",
+       "min": "27",
+       "pts": 19,
+       "reb": 3,
+       "ast": 1,
+       "stl": 2,
+       "blk": 0,
+       "tov": 0,
+       "fg": "7/12",
+       "tp": "5/10",
+       "ft": "0/0",
+       "pm": "-3"
+      },
+      {
+       "n": "Deni Avdija",
+       "min": "38",
+       "pts": 26,
+       "reb": 7,
+       "ast": 6,
+       "stl": 1,
+       "blk": 0,
+       "tov": 3,
+       "fg": "8/16",
+       "tp": "1/5",
+       "ft": "9/12",
+       "pm": "+12"
+      },
+      {
+       "n": "Donovan Clingan",
+       "min": "21",
+       "pts": 8,
+       "reb": 10,
+       "ast": 3,
+       "stl": 0,
+       "blk": 3,
+       "tov": 0,
+       "fg": "3/5",
+       "tp": "0/0",
+       "ft": "2/2",
+       "pm": "+8"
+      },
+      {
+       "n": "Damian Lillard",
+       "min": "33",
+       "pts": 19,
+       "reb": 5,
+       "ast": 2,
+       "stl": 2,
+       "blk": 0,
+       "tov": 2,
+       "fg": "7/18",
+       "tp": "2/10",
+       "ft": "3/3",
+       "pm": "+19"
+      },
+      {
+       "n": "Ja Morant",
+       "min": "27",
+       "pts": 12,
+       "reb": 3,
+       "ast": 7,
+       "stl": 1,
+       "blk": 0,
+       "tov": 2,
+       "fg": "5/13",
+       "tp": "1/5",
+       "ft": "1/2",
+       "pm": "+7"
+      },
+      {
+       "n": "Robert Williams III",
+       "min": "18",
+       "pts": 13,
+       "reb": 6,
+       "ast": 0,
+       "stl": 0,
+       "blk": 1,
+       "tov": 2,
+       "fg": "6/6",
+       "tp": "0/0",
+       "ft": "1/2",
+       "pm": "-4"
+      },
+      {
+       "n": "Jrue Holiday",
+       "min": "26",
+       "pts": 12,
+       "reb": 1,
+       "ast": 8,
+       "stl": 1,
+       "blk": 1,
+       "tov": 0,
+       "fg": "4/10",
+       "tp": "3/9",
+       "ft": "1/2",
+       "pm": "-1"
+      },
+      {
+       "n": "Vit Krejci",
+       "min": "3",
+       "pts": 0,
+       "reb": 2,
+       "ast": 0,
+       "stl": 0,
+       "blk": 0,
+       "tov": 0,
+       "fg": "0/1",
+       "tp": "0/1",
+       "ft": "0/0",
+       "pm": "-4"
+      },
+      {
+       "n": "Scoot Henderson",
+       "min": "21",
+       "pts": 4,
+       "reb": 1,
+       "ast": 2,
+       "stl": 0,
+       "blk": 0,
+       "tov": 0,
+       "fg": "1/7",
+       "tp": "0/3",
+       "ft": "2/2",
+       "pm": "-1"
+      },
+      {
+       "n": "Sidy Cissoko",
+       "min": "26",
+       "pts": 15,
+       "reb": 7,
+       "ast": 1,
+       "stl": 1,
+       "blk": 0,
+       "tov": 0,
+       "fg": "5/8",
+       "tp": "2/5",
+       "ft": "3/5",
+       "pm": "+7"
+      }
+     ]
+    },
+    "teamStats": [
+     [
+      "Z gry %",
+      46.2,
+      47.9
+     ],
+     [
+      "Za 3 %",
+      25.8,
+      29.2
+     ],
+     [
+      "Wolne %",
+      93.3,
+      73.3
+     ],
+     [
+      "Zbiórki",
+      42,
+      45
+     ],
+     [
+      "Asysty",
+      21,
+      30
+     ],
+     [
+      "Przechwyty",
+      5,
+      8
+     ],
+     [
+      "Bloki",
+      2,
+      5
+     ],
+     [
+      "Straty",
+      14,
+      9
+     ]
+    ],
+    "notes": "Domantas Sabonis triple-double 27/19/10, Darius Acuff Jr. 33 pkt (SAC); Deni Avdija 26 pkt (POR). Pierwsze piątki nieoznaczone w źródle."
+   },
+   {
+    "id": "NBA-2026-10-24-LAC-LAL",
+    "date": "2026-10-24",
+    "time": "04:00",
+    "home": "LAL",
+    "away": "LAC",
+    "status": "ft",
+    "score": [
+     125,
+     117
+    ],
+    "quarters": {
+     "home": [
+      27,
+      37,
+      39,
+      22
+     ],
+     "away": [
+      31,
+      33,
+      26,
+      27
+     ]
+    },
+    "arena": {
+     "name": "Crypto.com Arena",
+     "city": "Los Angeles"
+    },
+    "players": {
+     "home": [
+      {
+       "n": "Austin Reaves",
+       "min": "38:28",
+       "pts": 28,
+       "reb": 2,
+       "ast": 9,
+       "stl": 2,
+       "blk": 0,
+       "tov": 6,
+       "fg": "10/13",
+       "tp": "3/5",
+       "ft": "5/6",
+       "pm": "+14"
+      },
+      {
+       "n": "Luka Dončić",
+       "min": "37:05",
+       "pts": 23,
+       "reb": 6,
+       "ast": 7,
+       "stl": 0,
+       "blk": 1,
+       "tov": 11,
+       "fg": "8/21",
+       "tp": "2/8",
+       "ft": "5/7",
+       "pm": "+10"
+      },
+      {
+       "n": "Walker Kessler",
+       "min": "34:53",
+       "pts": 22,
+       "reb": 8,
+       "ast": 3,
+       "stl": 3,
+       "blk": 6,
+       "tov": 1,
+       "fg": "10/14",
+       "tp": "0/0",
+       "ft": "2/5",
+       "pm": "+18"
+      },
+      {
+       "n": "Ziaire Williams",
+       "min": "30:41",
+       "pts": 14,
+       "reb": 5,
+       "ast": 0,
+       "stl": 2,
+       "blk": 1,
+       "tov": 0,
+       "fg": "5/7",
+       "tp": "1/3",
+       "ft": "3/3",
+       "pm": "+9"
+      },
+      {
+       "n": "Matisse Thybulle",
+       "min": "23:54",
+       "pts": 13,
+       "reb": 1,
+       "ast": 2,
+       "stl": 2,
+       "blk": 1,
+       "tov": 0,
+       "fg": "5/8",
+       "tp": "3/6",
+       "ft": "0/0",
+       "pm": "+13"
+      },
+      {
+       "n": "Quentin Grimes",
+       "min": "30:34",
+       "pts": 13,
+       "reb": 8,
+       "ast": 4,
+       "stl": 1,
+       "blk": 0,
+       "tov": 2,
+       "fg": "3/6",
+       "tp": "3/5",
+       "ft": "4/4",
+       "pm": "+2"
+      },
+      {
+       "n": "Sandro Mamukelashvili",
+       "min": "23:40",
+       "pts": 7,
+       "reb": 5,
+       "ast": 2,
+       "stl": 0,
+       "blk": 0,
+       "tov": 0,
+       "fg": "3/4",
+       "tp": "1/2",
+       "ft": "0/0",
+       "pm": "-8"
+      },
+      {
+       "n": "Collin Sexton",
+       "min": "16:09",
+       "pts": 5,
+       "reb": 1,
+       "ast": 2,
+       "stl": 3,
+       "blk": 0,
+       "tov": 1,
+       "fg": "2/6",
+       "tp": "1/3",
+       "ft": "0/0",
+       "pm": "-9"
+      },
+      {
+       "n": "Kevon Looney",
+       "min": "4:32",
+       "pts": 0,
+       "reb": 1,
+       "ast": 0,
+       "stl": 0,
+       "blk": 0,
+       "tov": 0,
+       "fg": "0/0",
+       "tp": "0/0",
+       "ft": "0/0",
+       "pm": "-9"
+      }
+     ],
+     "away": [
+      {
+       "n": "Darius Garland",
+       "min": "36:34",
+       "pts": 26,
+       "reb": 0,
+       "ast": 6,
+       "stl": 1,
+       "blk": 0,
+       "tov": 9,
+       "fg": "9/19",
+       "tp": "4/10",
+       "ft": "4/5",
+       "pm": "-16"
+      },
+      {
+       "n": "Derrick Jones Jr.",
+       "min": "34:37",
+       "pts": 16,
+       "reb": 4,
+       "ast": 1,
+       "stl": 2,
+       "blk": 0,
+       "tov": 0,
+       "fg": "6/13",
+       "tp": "3/8",
+       "ft": "1/2",
+       "pm": "-13"
+      },
+      {
+       "n": "Kris Dunn",
+       "min": "33:33",
+       "pts": 7,
+       "reb": 4,
+       "ast": 5,
+       "stl": 2,
+       "blk": 0,
+       "tov": 3,
+       "fg": "3/6",
+       "tp": "1/3",
+       "ft": "0/0",
+       "pm": "-4"
+      },
+      {
+       "n": "Rui Hachimura",
+       "min": "33:16",
+       "pts": 16,
+       "reb": 6,
+       "ast": 1,
+       "stl": 2,
+       "blk": 0,
+       "tov": 2,
+       "fg": "5/14",
+       "tp": "3/6",
+       "ft": "3/4",
+       "pm": "-17"
+      },
+      {
+       "n": "Isaiah Jackson",
+       "min": "27:50",
+       "pts": 6,
+       "reb": 6,
+       "ast": 3,
+       "stl": 3,
+       "blk": 1,
+       "tov": 2,
+       "fg": "3/5",
+       "tp": "0/0",
+       "ft": "0/0",
+       "pm": "-7"
+      },
+      {
+       "n": "Keaton Wagler",
+       "min": "23:36",
+       "pts": 13,
+       "reb": 3,
+       "ast": 3,
+       "stl": 1,
+       "blk": 0,
+       "tov": 4,
+       "fg": "2/8",
+       "tp": "2/5",
+       "ft": "7/9",
+       "pm": "-4"
+      },
+      {
+       "n": "Brook Lopez",
+       "min": "19:49",
+       "pts": 22,
+       "reb": 4,
+       "ast": 0,
+       "stl": 0,
+       "blk": 3,
+       "tov": 2,
+       "fg": "8/9",
+       "tp": "2/2",
+       "ft": "4/5",
+       "pm": "+1"
+      },
+      {
+       "n": "Kobe Sanders",
+       "min": "19:06",
+       "pts": 5,
+       "reb": 3,
+       "ast": 5,
+       "stl": 1,
+       "blk": 0,
+       "tov": 2,
+       "fg": "2/4",
+       "tp": "1/3",
+       "ft": "0/0",
+       "pm": "+10"
+      },
+      {
+       "n": "Gradey Dick",
+       "min": "11:37",
+       "pts": 6,
+       "reb": 4,
+       "ast": 0,
+       "stl": 1,
+       "blk": 0,
+       "tov": 1,
+       "fg": "3/5",
+       "tp": "0/0",
+       "ft": "0/0",
+       "pm": "+10"
+      }
+     ]
+    },
+    "teamStats": [
+     [
+      "Z gry %",
+      58.2,
+      49.4
+     ],
+     [
+      "Za 3 %",
+      43.8,
+      43.2
+     ],
+     [
+      "Wolne %",
+      76.0,
+      76.0
+     ],
+     [
+      "Zbiórki",
+      37,
+      34
+     ],
+     [
+      "Asysty",
+      29,
+      24
+     ],
+     [
+      "Przechwyty",
+      13,
+      13
+     ],
+     [
+      "Bloki",
+      9,
+      4
+     ],
+     [
+      "Straty",
+      21,
+      25
+     ]
+    ],
+    "notes": "Austin Reaves 28 pkt i 9 as., Walker Kessler 22 pkt i 6 bloków, Luka Dončić 23 pkt (11 strat). Clippers 26 strat."
+   },
+   {
+    "id": "NBA-2026-10-24-MEM-GSW",
+    "date": "2026-10-24",
+    "time": "04:00",
+    "home": "GSW",
+    "away": "MEM",
+    "status": "ft",
+    "score": [
+     108,
+     111
+    ],
+    "quarters": {
+     "home": [
+      34,
+      22,
+      34,
+      18
+     ],
+     "away": [
+      33,
+      27,
+      24,
+      27
+     ]
+    },
+    "arena": {
+     "name": "Chase Center",
+     "city": "San Francisco"
+    },
+    "attendance": 18064,
+    "officials": [
+     "Brett Nansel",
+     "Mark Lindsay",
+     "Che Flores"
+    ],
+    "players": {
+     "home": [
+      {
+       "n": "Yaxel Lendeborg",
+       "min": "37:29",
+       "pts": 18,
+       "reb": 13,
+       "ast": 6,
+       "stl": 3,
+       "blk": 0,
+       "tov": 6,
+       "fg": "4/11",
+       "tp": "1/3",
+       "ft": "9/12",
+       "pm": "-9"
+      },
+      {
+       "n": "Brandin Podziemski",
+       "min": "32:53",
+       "pts": 18,
+       "reb": 2,
+       "ast": 3,
+       "stl": 3,
+       "blk": 1,
+       "tov": 4,
+       "fg": "7/17",
+       "tp": "2/8",
+       "ft": "2/2",
+       "pm": "0"
+      },
+      {
+       "n": "Draymond Green",
+       "min": "31:05",
+       "pts": 5,
+       "reb": 5,
+       "ast": 6,
+       "stl": 0,
+       "blk": 1,
+       "tov": 5,
+       "fg": "2/4",
+       "tp": "1/2",
+       "ft": "0/0",
+       "pm": "-5"
+      },
+      {
+       "n": "Stephen Curry",
+       "min": "29:46",
+       "pts": 24,
+       "reb": 2,
+       "ast": 4,
+       "stl": 0,
+       "blk": 0,
+       "tov": 0,
+       "fg": "5/15",
+       "tp": "3/10",
+       "ft": "11/11",
+       "pm": "-4"
+      },
+      {
+       "n": "Graham Ike",
+       "min": "12:20",
+       "pts": 10,
+       "reb": 2,
+       "ast": 1,
+       "stl": 1,
+       "blk": 0,
+       "tov": 0,
+       "fg": "4/7",
+       "tp": "2/2",
+       "ft": "0/0",
+       "pm": "-16"
+      },
+      {
+       "n": "De'Anthony Melton",
+       "min": "20:29",
+       "pts": 10,
+       "reb": 1,
+       "ast": 0,
+       "stl": 1,
+       "blk": 1,
+       "tov": 0,
+       "fg": "4/6",
+       "tp": "2/3",
+       "ft": "0/0",
+       "pm": "-17"
+      },
+      {
+       "n": "Gui Santos",
+       "min": "19:51",
+       "pts": 5,
+       "reb": 4,
+       "ast": 2,
+       "stl": 1,
+       "blk": 1,
+       "tov": 0,
+       "fg": "1/3",
+       "tp": "1/1",
+       "ft": "2/2",
+       "pm": "+14"
+      },
+      {
+       "n": "Al Horford",
+       "min": "19:13",
+       "pts": 3,
+       "reb": 5,
+       "ast": 0,
+       "stl": 0,
+       "blk": 2,
+       "tov": 0,
+       "fg": "1/3",
+       "tp": "1/3",
+       "ft": "0/0",
+       "pm": "-2"
+      },
+      {
+       "n": "Georges Niang",
+       "min": "13:24",
+       "pts": 4,
+       "reb": 3,
+       "ast": 0,
+       "stl": 1,
+       "blk": 0,
+       "tov": 1,
+       "fg": "2/5",
+       "tp": "0/3",
+       "ft": "0/0",
+       "pm": "+5"
+      },
+      {
+       "n": "Gary Payton II",
+       "min": "10:43",
+       "pts": 7,
+       "reb": 2,
+       "ast": 0,
+       "stl": 0,
+       "blk": 0,
+       "tov": 1,
+       "fg": "3/6",
+       "tp": "1/3",
+       "ft": "0/0",
+       "pm": "+6"
+      },
+      {
+       "n": "Brandon Williams",
+       "min": "9:22",
+       "pts": 4,
+       "reb": 2,
+       "ast": 1,
+       "stl": 1,
+       "blk": 0,
+       "tov": 2,
+       "fg": "1/5",
+       "tp": "0/3",
+       "ft": "2/2",
+       "pm": "+8"
+      },
+      {
+       "n": "Will Richard",
+       "min": "3:21",
+       "pts": 0,
+       "reb": 0,
+       "ast": 0,
+       "stl": 1,
+       "blk": 0,
+       "tov": 0,
+       "fg": "0/1",
+       "tp": "0/0",
+       "ft": "0/0",
+       "pm": "+5"
+      }
+     ],
+     "away": [
+      {
+       "n": "Cameron Boozer",
+       "min": "37:23",
+       "pts": 25,
+       "reb": 13,
+       "ast": 6,
+       "stl": 2,
+       "blk": 0,
+       "tov": 6,
+       "fg": "6/13",
+       "tp": "4/7",
+       "ft": "9/9",
+       "pm": "+12"
+      },
+      {
+       "n": "Ty Jerome",
+       "min": "31:30",
+       "pts": 28,
+       "reb": 2,
+       "ast": 5,
+       "stl": 1,
+       "blk": 0,
+       "tov": 4,
+       "fg": "11/22",
+       "tp": "3/5",
+       "ft": "3/5",
+       "pm": "+10"
+      },
+      {
+       "n": "Jaylen Wells",
+       "min": "24:56",
+       "pts": 17,
+       "reb": 4,
+       "ast": 3,
+       "stl": 0,
+       "blk": 0,
+       "tov": 1,
+       "fg": "5/9",
+       "tp": "4/7",
+       "ft": "3/5",
+       "pm": "+12"
+      },
+      {
+       "n": "Zach Edey",
+       "min": "22:25",
+       "pts": 8,
+       "reb": 10,
+       "ast": 3,
+       "stl": 1,
+       "blk": 2,
+       "tov": 0,
+       "fg": "4/6",
+       "tp": "0/0",
+       "ft": "0/1",
+       "pm": "+25"
+      },
+      {
+       "n": "GG Jackson II",
+       "min": "15:17",
+       "pts": 2,
+       "reb": 4,
+       "ast": 1,
+       "stl": 0,
+       "blk": 0,
+       "tov": 1,
+       "fg": "1/6",
+       "tp": "0/3",
+       "ft": "0/1",
+       "pm": "+5"
+      },
+      {
+       "n": "Jerami Grant",
+       "min": "26:26",
+       "pts": 6,
+       "reb": 0,
+       "ast": 3,
+       "stl": 2,
+       "blk": 1,
+       "tov": 2,
+       "fg": "2/9",
+       "tp": "1/7",
+       "ft": "1/1",
+       "pm": "-7"
+      },
+      {
+       "n": "Quinten Post",
+       "min": "19:48",
+       "pts": 2,
+       "reb": 1,
+       "ast": 1,
+       "stl": 0,
+       "blk": 2,
+       "tov": 2,
+       "fg": "1/3",
+       "tp": "0/1",
+       "ft": "0/0",
+       "pm": "-15"
+      },
+      {
+       "n": "Cam Spencer",
+       "min": "16:42",
+       "pts": 11,
+       "reb": 2,
+       "ast": 1,
+       "stl": 0,
+       "blk": 0,
+       "tov": 2,
+       "fg": "4/7",
+       "tp": "3/5",
+       "ft": "0/0",
+       "pm": "-7"
+      },
+      {
+       "n": "Scotty Pippen Jr.",
+       "min": "16:37",
+       "pts": 8,
+       "reb": 6,
+       "ast": 3,
+       "stl": 0,
+       "blk": 1,
+       "tov": 5,
+       "fg": "4/6",
+       "tp": "0/1",
+       "ft": "0/0",
+       "pm": "-6"
+      },
+      {
+       "n": "Isaiah Stewart",
+       "min": "16:23",
+       "pts": 4,
+       "reb": 2,
+       "ast": 0,
+       "stl": 1,
+       "blk": 0,
+       "tov": 2,
+       "fg": "2/3",
+       "tp": "0/1",
+       "ft": "0/0",
+       "pm": "-16"
+      },
+      {
+       "n": "Kris Murray",
+       "min": "12:31",
+       "pts": 0,
+       "reb": 3,
+       "ast": 1,
+       "stl": 0,
+       "blk": 1,
+       "tov": 0,
+       "fg": "0/2",
+       "tp": "0/2",
+       "ft": "0/0",
+       "pm": "+2"
+      }
+     ]
+    },
+    "teamStats": [
+     [
+      "Z gry %",
+      41.0,
+      46.5
+     ],
+     [
+      "Za 3 %",
+      34.1,
+      38.5
+     ],
+     [
+      "Wolne %",
+      89.7,
+      72.7
+     ],
+     [
+      "Zbiórki",
+      41,
+      47
+     ],
+     [
+      "Asysty",
+      23,
+      27
+     ],
+     [
+      "Przechwyty",
+      12,
+      7
+     ],
+     [
+      "Bloki",
+      6,
+      7
+     ],
+     [
+      "Straty",
+      19,
+      25
+     ],
+     [
+      "Faule",
+      27,
+      30
+     ]
+    ],
+    "notes": "Ty Jerome 28 pkt, Cameron Boozer 25 pkt i 13 zb. (MEM); Stephen Curry 24 pkt (GSW). Mecz otwarcia Warriors w Chase Center."
+   }
+  ],
+  "2026-10-25": [
+   {
+    "id": "NBA-2026-10-25-MIA-CHA",
+    "date": "2026-10-25",
+    "time": "00:00",
+    "home": "CHA",
+    "away": "MIA",
+    "status": "ft",
+    "score": [
+     115,
+     110
+    ],
+    "arena": {
+     "name": "Spectrum Center",
+     "city": "Charlotte"
+    },
+    "attendance": 19611,
+    "notes": "Brandon Miller 34 pkt, Dennis Schröder 25, Naz Reid 23, Grayson Allen 20 (CHA; 16/43 za 3). MIA: Davion Mitchell 22, Bam Adebayo 20, Giannis Antetokounmpo 14 (5 fauli – zszedł 1:57 przed końcem). Heat wciąż bez zwycięstwa (0-3). Wyniki kwart niedostępne."
+   },
+   {
+    "id": "NBA-2026-10-25-BKN-CLE",
+    "date": "2026-10-25",
+    "time": "01:30",
+    "home": "CLE",
+    "away": "BKN",
+    "status": "ft",
+    "score": [
+     125,
+     121
+    ],
+    "quarters": {
+     "home": [
+      35,
+      33,
+      28,
+      29
+     ],
+     "away": [
+      30,
+      24,
+      26,
+      41
+     ]
+    },
+    "arena": {
+     "name": "Rocket Arena",
+     "city": "Cleveland"
+    },
+    "attendance": 19432,
+    "officials": [
+     "Courtney Kirkland",
+     "Eric Dalen",
+     "Suyash Mehta"
+    ],
+    "players": {
+     "home": [
+      {
+       "n": "Jarrett Allen",
+       "min": "27",
+       "pts": 21,
+       "reb": 8,
+       "ast": 0,
+       "stl": 2,
+       "blk": 1,
+       "tov": 3,
+       "fg": "7/8",
+       "tp": "1/1",
+       "ft": "6/8",
+       "pm": "+3"
+      },
+      {
+       "n": "Evan Mobley",
+       "min": "35",
+       "pts": 20,
+       "reb": 10,
+       "ast": 4,
+       "stl": 2,
+       "blk": 3,
+       "tov": 1,
+       "fg": "7/12",
+       "tp": "2/3",
+       "ft": "4/7",
+       "pm": "-8"
+      },
+      {
+       "n": "James Harden",
+       "min": "33",
+       "pts": 12,
+       "reb": 8,
+       "ast": 7,
+       "stl": 0,
+       "blk": 2,
+       "tov": 4,
+       "fg": "1/8",
+       "tp": "1/6",
+       "ft": "9/11",
+       "pm": "-3"
+      },
+      {
+       "n": "Donovan Mitchell",
+       "min": "35",
+       "pts": 22,
+       "reb": 5,
+       "ast": 4,
+       "stl": 1,
+       "blk": 1,
+       "tov": 4,
+       "fg": "7/15",
+       "tp": "2/6",
+       "ft": "6/6",
+       "pm": "+5"
+      },
+      {
+       "n": "Peyton Watson",
+       "min": "31",
+       "pts": 11,
+       "reb": 3,
+       "ast": 4,
+       "stl": 1,
+       "blk": 1,
+       "tov": 2,
+       "fg": "4/11",
+       "tp": "2/6",
+       "ft": "1/2",
+       "pm": "-7"
+      },
+      {
+       "n": "Mario Hezonja",
+       "min": "20",
+       "pts": 9,
+       "reb": 5,
+       "ast": 1,
+       "stl": 1,
+       "blk": 0,
+       "tov": 4,
+       "fg": "3/5",
+       "tp": "2/3",
+       "ft": "1/2",
+       "pm": "+8"
+      },
+      {
+       "n": "Sam Merrill",
+       "min": "21",
+       "pts": 7,
+       "reb": 2,
+       "ast": 3,
+       "stl": 0,
+       "blk": 0,
+       "tov": 0,
+       "fg": "2/4",
+       "tp": "1/3",
+       "ft": "2/2",
+       "pm": "+7"
+      },
+      {
+       "n": "Jaylon Tyson",
+       "min": "21",
+       "pts": 15,
+       "reb": 1,
+       "ast": 4,
+       "stl": 1,
+       "blk": 0,
+       "tov": 2,
+       "fg": "6/12",
+       "tp": "3/7",
+       "ft": "0/0",
+       "pm": "+7"
+      },
+      {
+       "n": "Craig Porter Jr.",
+       "min": "5",
+       "pts": 3,
+       "reb": 1,
+       "ast": 1,
+       "stl": 0,
+       "blk": 1,
+       "tov": 2,
+       "fg": "1/1",
+       "tp": "1/1",
+       "ft": "0/0",
+       "pm": "+2"
+      },
+      {
+       "n": "Tyrese Proctor",
+       "min": "11",
+       "pts": 5,
+       "reb": 2,
+       "ast": 3,
+       "stl": 1,
+       "blk": 0,
+       "tov": 1,
+       "fg": "2/3",
+       "tp": "1/2",
+       "ft": "0/0",
+       "pm": "+6"
+      }
+     ],
+     "away": [
+      {
+       "n": "Julius Randle",
+       "min": "35",
+       "pts": 23,
+       "reb": 6,
+       "ast": 5,
+       "stl": 0,
+       "blk": 0,
+       "tov": 5,
+       "fg": "7/12",
+       "tp": "2/4",
+       "ft": "7/8",
+       "pm": "+6"
+      },
+      {
+       "n": "Michael Porter Jr.",
+       "min": "33",
+       "pts": 28,
+       "reb": 9,
+       "ast": 1,
+       "stl": 4,
+       "blk": 0,
+       "tov": 1,
+       "fg": "10/18",
+       "tp": "4/9",
+       "ft": "4/4",
+       "pm": "+5"
+      },
+      {
+       "n": "Day'Ron Sharpe",
+       "min": "23",
+       "pts": 7,
+       "reb": 8,
+       "ast": 1,
+       "stl": 1,
+       "blk": 0,
+       "tov": 3,
+       "fg": "3/10",
+       "tp": "1/2",
+       "ft": "0/0",
+       "pm": "+6"
+      },
+      {
+       "n": "Keon Ellis",
+       "min": "22",
+       "pts": 6,
+       "reb": 2,
+       "ast": 1,
+       "stl": 2,
+       "blk": 0,
+       "tov": 2,
+       "fg": "2/7",
+       "tp": "2/6",
+       "ft": "0/0",
+       "pm": "-16"
+      },
+      {
+       "n": "Egor Demin",
+       "min": "31",
+       "pts": 22,
+       "reb": 4,
+       "ast": 6,
+       "stl": 0,
+       "blk": 0,
+       "tov": 1,
+       "fg": "5/10",
+       "tp": "5/10",
+       "ft": "7/7",
+       "pm": "+7"
+      },
+      {
+       "n": "Josh Minott",
+       "min": "9",
+       "pts": 4,
+       "reb": 2,
+       "ast": 0,
+       "stl": 0,
+       "blk": 0,
+       "tov": 1,
+       "fg": "2/4",
+       "tp": "0/2",
+       "ft": "0/0",
+       "pm": "-4"
+      },
+      {
+       "n": "Noah Clowney",
+       "min": "20",
+       "pts": 4,
+       "reb": 4,
+       "ast": 0,
+       "stl": 0,
+       "blk": 1,
+       "tov": 1,
+       "fg": "1/6",
+       "tp": "1/3",
+       "ft": "1/2",
+       "pm": "+2"
+      },
+      {
+       "n": "Chaney Johnson",
+       "min": "27",
+       "pts": 10,
+       "reb": 5,
+       "ast": 3,
+       "stl": 2,
+       "blk": 0,
+       "tov": 1,
+       "fg": "4/12",
+       "tp": "2/5",
+       "ft": "0/0",
+       "pm": "-7"
+      },
+      {
+       "n": "Moritz Wagner",
+       "min": "14",
+       "pts": 6,
+       "reb": 4,
+       "ast": 1,
+       "stl": 0,
+       "blk": 0,
+       "tov": 1,
+       "fg": "1/6",
+       "tp": "1/2",
+       "ft": "3/4",
+       "pm": "-12"
+      },
+      {
+       "n": "Mikel Brown Jr.",
+       "min": "20",
+       "pts": 8,
+       "reb": 2,
+       "ast": 5,
+       "stl": 2,
+       "blk": 0,
+       "tov": 2,
+       "fg": "3/10",
+       "tp": "2/6",
+       "ft": "0/0",
+       "pm": "0"
+      },
+      {
+       "n": "Nolan Traore",
+       "min": "5",
+       "pts": 3,
+       "reb": 2,
+       "ast": 0,
+       "stl": 0,
+       "blk": 0,
+       "tov": 1,
+       "fg": "1/2",
+       "tp": "0/0",
+       "ft": "1/2",
+       "pm": "-7"
+      }
+     ]
+    },
+    "teamStats": [
+     [
+      "Z gry %",
+      50.6,
+      40.2
+     ],
+     [
+      "Za 3 %",
+      42.1,
+      40.8
+     ],
+     [
+      "Wolne %",
+      76.3,
+      85.2
+     ],
+     [
+      "Zbiórki",
+      45,
+      48
+     ],
+     [
+      "Asysty",
+      31,
+      23
+     ],
+     [
+      "Przechwyty",
+      9,
+      11
+     ],
+     [
+      "Bloki",
+      9,
+      1
+     ],
+     [
+      "Straty",
+      23,
+      19
+     ]
+    ],
+    "notes": "Michael Porter Jr. 28 pkt i 4 przechwyty, Egor Demin 22 pkt (5/10 za 3) (BKN); Jarrett Allen 21, Donovan Mitchell 22, Evan Mobley 20 pkt i 10 zb. (CLE). BKN bez Tylera Bilodeau (bark). Pierwsze piątki nieoznaczone w źródle."
+   },
+   {
+    "id": "NBA-2026-10-25-MIL-PHI",
+    "date": "2026-10-25",
+    "time": "01:30",
+    "home": "PHI",
+    "away": "MIL",
+    "status": "ft",
+    "score": [
+     127,
+     116
+    ],
+    "quarters": {
+     "home": [
+      34,
+      30,
+      33,
+      30
+     ],
+     "away": [
+      25,
+      35,
+      27,
+      29
+     ]
+    },
+    "arena": {
+     "name": "Xfinity Mobile Arena",
+     "city": "Philadelphia"
+    },
+    "attendance": 21003,
+    "officials": [
+     "Dedric Taylor",
+     "Tyler Ford",
+     "Robert Hussey"
+    ],
+    "players": {
+     "home": [
+      {
+       "n": "Dean Wade",
+       "min": "28",
+       "pts": 7,
+       "reb": 2,
+       "ast": 0,
+       "stl": 3,
+       "blk": 1,
+       "tov": 0,
+       "fg": "2/3",
+       "tp": "2/3",
+       "ft": "1/3",
+       "pm": "0"
+      },
+      {
+       "n": "Joel Embiid",
+       "min": "36",
+       "pts": 28,
+       "reb": 11,
+       "ast": 10,
+       "stl": 1,
+       "blk": 0,
+       "tov": 4,
+       "fg": "8/20",
+       "tp": "0/3",
+       "ft": "12/14",
+       "pm": "+18"
+      },
+      {
+       "n": "Jaylen Brown",
+       "min": "35",
+       "pts": 27,
+       "reb": 3,
+       "ast": 5,
+       "stl": 3,
+       "blk": 0,
+       "tov": 3,
+       "fg": "9/19",
+       "tp": "3/6",
+       "ft": "6/6",
+       "pm": "+24"
+      },
+      {
+       "n": "Tyrese Maxey",
+       "min": "36",
+       "pts": 26,
+       "reb": 4,
+       "ast": 4,
+       "stl": 0,
+       "blk": 0,
+       "tov": 3,
+       "fg": "9/22",
+       "tp": "4/9",
+       "ft": "4/4",
+       "pm": "+13"
+      },
+      {
+       "n": "VJ Edgecombe",
+       "min": "30",
+       "pts": 17,
+       "reb": 13,
+       "ast": 2,
+       "stl": 1,
+       "blk": 2,
+       "tov": 0,
+       "fg": "5/13",
+       "tp": "5/10",
+       "ft": "2/2",
+       "pm": "-11"
+      },
+      {
+       "n": "Jabari Walker",
+       "min": "12",
+       "pts": 6,
+       "reb": 3,
+       "ast": 1,
+       "stl": 1,
+       "blk": 0,
+       "tov": 0,
+       "fg": "2/3",
+       "tp": "0/0",
+       "ft": "2/3",
+       "pm": "+3"
+      },
+      {
+       "n": "Adem Bona",
+       "min": "10",
+       "pts": 0,
+       "reb": 1,
+       "ast": 1,
+       "stl": 1,
+       "blk": 0,
+       "tov": 0,
+       "fg": "0/2",
+       "tp": "0/1",
+       "ft": "0/0",
+       "pm": "-4"
+      },
+      {
+       "n": "Kentavious Caldwell-Pope",
+       "min": "28",
+       "pts": 12,
+       "reb": 2,
+       "ast": 1,
+       "stl": 3,
+       "blk": 0,
+       "tov": 0,
+       "fg": "4/8",
+       "tp": "4/6",
+       "ft": "0/0",
+       "pm": "+24"
+      },
+      {
+       "n": "Anfernee Simons",
+       "min": "20",
+       "pts": 4,
+       "reb": 1,
+       "ast": 2,
+       "stl": 1,
+       "blk": 0,
+       "tov": 1,
+       "fg": "1/7",
+       "tp": "1/5",
+       "ft": "1/2",
+       "pm": "-13"
+      },
+      {
+       "n": "Justin Edwards",
+       "min": "1",
+       "pts": 0
+      },
+      {
+       "n": "Caleb Love",
+       "min": "1",
+       "pts": 0
+      },
+      {
+       "n": "Labaron Philon Jr.",
+       "min": "4",
+       "pts": 0,
+       "fg": "0/1",
+       "tp": "0/1",
+       "pm": "+1"
+      }
+     ],
+     "away": [
+      {
+       "n": "Kyle Kuzma",
+       "min": "35",
+       "pts": 14,
+       "reb": 12,
+       "ast": 3,
+       "stl": 0,
+       "blk": 0,
+       "tov": 3,
+       "fg": "6/11",
+       "tp": "0/3",
+       "ft": "2/2",
+       "pm": "-3"
+      },
+      {
+       "n": "Jaime Jaquez Jr.",
+       "min": "27",
+       "pts": 21,
+       "reb": 8,
+       "ast": 4,
+       "stl": 0,
+       "blk": 0,
+       "tov": 2,
+       "fg": "7/13",
+       "tp": "2/3",
+       "ft": "5/7",
+       "pm": "-15"
+      },
+      {
+       "n": "Myles Turner",
+       "min": "20",
+       "pts": 0,
+       "reb": 5,
+       "ast": 1,
+       "stl": 0,
+       "blk": 1,
+       "tov": 3,
+       "fg": "0/4",
+       "tp": "0/2",
+       "ft": "0/0",
+       "pm": "-16"
+      },
+      {
+       "n": "Tyler Herro",
+       "min": "31",
+       "pts": 13,
+       "reb": 6,
+       "ast": 3,
+       "stl": 0,
+       "blk": 0,
+       "tov": 3,
+       "fg": "6/14",
+       "tp": "1/3",
+       "ft": "0/0",
+       "pm": "-15"
+      },
+      {
+       "n": "Ryan Rollins",
+       "min": "25",
+       "pts": 15,
+       "reb": 4,
+       "ast": 3,
+       "stl": 1,
+       "blk": 1,
+       "tov": 2,
+       "fg": "6/14",
+       "tp": "2/5",
+       "ft": "1/2",
+       "pm": "0"
+      },
+      {
+       "n": "Nate Ament",
+       "min": "11",
+       "pts": 1,
+       "reb": 3,
+       "ast": 0,
+       "stl": 1,
+       "blk": 0,
+       "tov": 1,
+       "fg": "0/1",
+       "tp": "0/0",
+       "ft": "1/4",
+       "pm": "-6"
+      },
+      {
+       "n": "Kel'el Ware",
+       "min": "29",
+       "pts": 19,
+       "reb": 13,
+       "ast": 1,
+       "stl": 1,
+       "blk": 2,
+       "tov": 3,
+       "fg": "6/11",
+       "tp": "2/5",
+       "ft": "5/5",
+       "pm": "+4"
+      },
+      {
+       "n": "AJ Green",
+       "min": "19",
+       "pts": 11,
+       "reb": 3,
+       "ast": 1,
+       "stl": 0,
+       "blk": 0,
+       "tov": 2,
+       "fg": "4/7",
+       "tp": "3/6",
+       "ft": "0/0",
+       "pm": "+5"
+      },
+      {
+       "n": "Brayden Burries",
+       "min": "17",
+       "pts": 10,
+       "reb": 5,
+       "ast": 2,
+       "stl": 0,
+       "blk": 0,
+       "tov": 0,
+       "fg": "3/7",
+       "tp": "1/4",
+       "ft": "3/4",
+       "pm": "+6"
+      },
+      {
+       "n": "Kasparas Jakucionis",
+       "min": "25",
+       "pts": 12,
+       "reb": 3,
+       "ast": 2,
+       "stl": 2,
+       "blk": 0,
+       "tov": 3,
+       "fg": "4/8",
+       "tp": "0/3",
+       "ft": "4/4",
+       "pm": "-15"
+      }
+     ]
+    },
+    "teamStats": [
+     [
+      "Z gry %",
+      40.8,
+      46.7
+     ],
+     [
+      "Za 3 %",
+      43.2,
+      32.4
+     ],
+     [
+      "Wolne %",
+      82.4,
+      75.0
+     ],
+     [
+      "Zbiórki",
+      40,
+      62
+     ],
+     [
+      "Asysty",
+      26,
+      20
+     ],
+     [
+      "Przechwyty",
+      14,
+      5
+     ],
+     [
+      "Bloki",
+      3,
+      4
+     ],
+     [
+      "Straty",
+      11,
+      22
+     ]
+    ],
+    "notes": "Joel Embiid triple-double 28/11/10, Jaylen Brown 27, Tyrese Maxey 26 (PHI). Kel'el Ware 19 pkt i 13 zb. (MIL). PHI bez LeBrona Jamesa (plecy), Tacko Falla, Dominicka Barlowa. Bucks 0-3."
+   },
+   {
+    "id": "NBA-2026-10-25-SAS-DAL",
+    "date": "2026-10-25",
+    "time": "02:00",
+    "home": "DAL",
+    "away": "SAS",
+    "status": "ft",
+    "score": [
+     106,
+     122
+    ],
+    "quarters": {
+     "home": [
+      31,
+      29,
+      29,
+      17
+     ],
+     "away": [
+      32,
+      36,
+      24,
+      30
+     ]
+    },
+    "arena": {
+     "name": "American Airlines Center",
+     "city": "Dallas"
+    },
+    "attendance": 19555,
+    "officials": [
+     "Phenizee Ransom",
+     "Tre Maddox",
+     "Karl Lane"
+    ],
+    "players": {
+     "home": [
+      {
+       "n": "Daniel Gafford",
+       "min": "23",
+       "pts": 12,
+       "reb": 9,
+       "ast": 2,
+       "stl": 3,
+       "blk": 2,
+       "tov": 3,
+       "fg": "6/9",
+       "tp": "0/0",
+       "ft": "0/0",
+       "pm": "-12"
+      },
+      {
+       "n": "P.J. Washington",
+       "min": "36",
+       "pts": 12,
+       "reb": 4,
+       "ast": 2,
+       "stl": 0,
+       "blk": 0,
+       "tov": 0,
+       "fg": "6/12",
+       "tp": "0/3",
+       "ft": "0/1",
+       "pm": "-18"
+      },
+      {
+       "n": "Naji Marshall",
+       "min": "21",
+       "pts": 10,
+       "reb": 4,
+       "ast": 5,
+       "stl": 1,
+       "blk": 0,
+       "tov": 2,
+       "fg": "4/8",
+       "tp": "1/1",
+       "ft": "1/3",
+       "pm": "-11"
+      },
+      {
+       "n": "Zaccharie Risacher",
+       "min": "32",
+       "pts": 11,
+       "reb": 4,
+       "ast": 2,
+       "stl": 1,
+       "blk": 2,
+       "tov": 1,
+       "fg": "4/8",
+       "tp": "1/3",
+       "ft": "2/2",
+       "pm": "-16"
+      },
+      {
+       "n": "Max Christie",
+       "min": "26",
+       "pts": 5,
+       "reb": 5,
+       "ast": 1,
+       "stl": 1,
+       "blk": 2,
+       "tov": 1,
+       "fg": "2/9",
+       "tp": "1/5",
+       "ft": "0/0",
+       "pm": "-22"
+      },
+      {
+       "n": "Morez Johnson Jr.",
+       "min": "12",
+       "pts": 6,
+       "reb": 1,
+       "ast": 2,
+       "stl": 1,
+       "blk": 0,
+       "tov": 4,
+       "fg": "2/6",
+       "tp": "0/2",
+       "ft": "2/2",
+       "pm": "-1"
+      },
+      {
+       "n": "Tobi Lawal",
+       "min": "4",
+       "pts": 5,
+       "reb": 1,
+       "ast": 1,
+       "stl": 0,
+       "blk": 0,
+       "tov": 0,
+       "fg": "2/4",
+       "tp": "1/2",
+       "ft": "0/0",
+       "pm": "+3"
+      },
+      {
+       "n": "Sergio de Larrea",
+       "min": "33",
+       "pts": 21,
+       "reb": 5,
+       "ast": 4,
+       "stl": 0,
+       "blk": 0,
+       "tov": 4,
+       "fg": "9/15",
+       "tp": "3/4",
+       "ft": "0/0",
+       "pm": "-5"
+      },
+      {
+       "n": "Moussa Cisse",
+       "min": "7",
+       "pts": 4,
+       "reb": 4,
+       "ast": 0,
+       "stl": 0,
+       "blk": 0,
+       "tov": 0,
+       "fg": "2/2",
+       "tp": "0/0",
+       "ft": "0/0",
+       "pm": "+3"
+      },
+      {
+       "n": "Marcus Sasser",
+       "min": "27",
+       "pts": 12,
+       "reb": 3,
+       "ast": 5,
+       "stl": 0,
+       "blk": 0,
+       "tov": 2,
+       "fg": "5/9",
+       "tp": "2/5",
+       "ft": "0/0",
+       "pm": "+1"
+      },
+      {
+       "n": "Walter Clayton Jr.",
+       "min": "15",
+       "pts": 3,
+       "reb": 2,
+       "ast": 5,
+       "stl": 1,
+       "blk": 0,
+       "tov": 0,
+       "fg": "1/3",
+       "tp": "1/1",
+       "ft": "0/0",
+       "pm": "-5"
+      },
+      {
+       "n": "Jett Howard",
+       "min": "4",
+       "pts": 5,
+       "reb": 0,
+       "ast": 0,
+       "stl": 0,
+       "blk": 0,
+       "tov": 1,
+       "fg": "2/3",
+       "tp": "1/2",
+       "ft": "0/0",
+       "pm": "+3"
+      }
+     ],
+     "away": [
+      {
+       "n": "Victor Wembanyama",
+       "min": "29",
+       "pts": 23,
+       "reb": 7,
+       "ast": 2,
+       "stl": 1,
+       "blk": 4,
+       "tov": 2,
+       "fg": "9/18",
+       "tp": "2/6",
+       "ft": "3/5",
+       "pm": "+32"
+      },
+      {
+       "n": "De'Aaron Fox",
+       "min": "28",
+       "pts": 19,
+       "reb": 3,
+       "ast": 9,
+       "stl": 3,
+       "blk": 1,
+       "tov": 2,
+       "fg": "6/11",
+       "tp": "2/4",
+       "ft": "5/7",
+       "pm": "+25"
+      },
+      {
+       "n": "Devin Vassell",
+       "min": "32",
+       "pts": 11,
+       "reb": 4,
+       "ast": 6,
+       "stl": 2,
+       "blk": 0,
+       "tov": 0,
+       "fg": "5/10",
+       "tp": "1/4",
+       "ft": "0/0",
+       "pm": "+13"
+      },
+      {
+       "n": "Stephon Castle",
+       "min": "28",
+       "pts": 19,
+       "reb": 4,
+       "ast": 8,
+       "stl": 3,
+       "blk": 0,
+       "tov": 3,
+       "fg": "8/18",
+       "tp": "3/8",
+       "ft": "0/0",
+       "pm": "+12"
+      },
+      {
+       "n": "Dylan Harper",
+       "min": "28",
+       "pts": 22,
+       "reb": 5,
+       "ast": 2,
+       "stl": 2,
+       "blk": 0,
+       "tov": 2,
+       "fg": "9/18",
+       "tp": "3/8",
+       "ft": "1/1",
+       "pm": "+18"
+      },
+      {
+       "n": "Harrison Barnes",
+       "min": "4",
+       "pts": 0,
+       "reb": 0,
+       "ast": 0,
+       "stl": 0,
+       "blk": 0,
+       "tov": 0,
+       "fg": "0/1",
+       "tp": "0/1",
+       "ft": "0/0",
+       "pm": "-6"
+      },
+      {
+       "n": "Keldon Johnson",
+       "min": "26",
+       "pts": 7,
+       "reb": 6,
+       "ast": 3,
+       "stl": 0,
+       "blk": 0,
+       "tov": 0,
+       "fg": "3/5",
+       "tp": "0/0",
+       "ft": "1/2",
+       "pm": "+14"
+      },
+      {
+       "n": "Julian Champagnie",
+       "min": "28",
+       "pts": 12,
+       "reb": 5,
+       "ast": 3,
+       "stl": 1,
+       "blk": 3,
+       "tov": 0,
+       "fg": "4/8",
+       "tp": "3/7",
+       "ft": "1/1",
+       "pm": "+16"
+      },
+      {
+       "n": "Carter Bryant",
+       "min": "10",
+       "pts": 4,
+       "reb": 1,
+       "ast": 0,
+       "stl": 0,
+       "blk": 0,
+       "tov": 0,
+       "fg": "2/4",
+       "tp": "0/2",
+       "ft": "0/0",
+       "pm": "-11"
+      },
+      {
+       "n": "Luke Kornet",
+       "min": "14",
+       "pts": 0,
+       "reb": 4,
+       "ast": 1,
+       "stl": 0,
+       "blk": 0,
+       "tov": 2,
+       "fg": "0/2",
+       "tp": "0/0",
+       "ft": "0/0",
+       "pm": "-18"
+      },
+      {
+       "n": "Tarris Reed Jr.",
+       "min": "7",
+       "pts": 2,
+       "reb": 3,
+       "ast": 0,
+       "stl": 0,
+       "blk": 0,
+       "tov": 1,
+       "fg": "1/2",
+       "tp": "0/0",
+       "ft": "0/0",
+       "pm": "-1"
+      },
+      {
+       "n": "Jordan McLaughlin",
+       "min": "3",
+       "pts": 0,
+       "reb": 1,
+       "ast": 0,
+       "stl": 0,
+       "blk": 0,
+       "tov": 0,
+       "fg": "0/2",
+       "tp": "0/0",
+       "ft": "0/0",
+       "pm": "-7"
+      },
+      {
+       "n": "Ja'Kobi Gillespie",
+       "min": "3",
+       "pts": 3,
+       "reb": 0,
+       "ast": 0,
+       "stl": 0,
+       "blk": 0,
+       "tov": 0,
+       "fg": "1/2",
+       "tp": "1/2",
+       "ft": "0/0",
+       "pm": "-7"
+      }
+     ]
+    },
+    "teamStats": [
+     [
+      "Z gry %",
+      51.1,
+      47.5
+     ],
+     [
+      "Za 3 %",
+      39.3,
+      35.7
+     ],
+     [
+      "Wolne %",
+      62.5,
+      68.8
+     ],
+     [
+      "Zbiórki",
+      42,
+      43
+     ],
+     [
+      "Asysty",
+      29,
+      34
+     ],
+     [
+      "Przechwyty",
+      8,
+      12
+     ],
+     [
+      "Bloki",
+      6,
+      8
+     ],
+     [
+      "Straty",
+      18,
+      12
+     ]
+    ],
+    "notes": "Victor Wembanyama 23 pkt i 4 bloki, Dylan Harper 22 (SAS). DAL bez Kyriego Irvinga (kolano), Coopera Flagga (bark), Caleba Martina, Tarika Biberovicia, Santiego Aldamy."
+   },
+   {
+    "id": "NBA-2026-10-25-WAS-CHI",
+    "date": "2026-10-25",
+    "time": "02:00",
+    "home": "CHI",
+    "away": "WAS",
+    "status": "ft",
+    "score": [
+     120,
+     124
+    ],
+    "arena": {
+     "name": "United Center",
+     "city": "Chicago"
+    },
+    "notes": "Do przerwy 62-57 dla WAS; 3. kwarta 40-20 dla WAS, 4. kwarta 43-22 dla CHI. Trae Young 25 pkt i 9 as., Kyshawn George 22 pkt i 9 zb., Anthony Davis 19, Justin Champagnie 11 pkt i 14 zb. (WAS); Caleb Wilson 30 pkt i 14 zb. (CHI). Mecz otwarcia Bulls w United Center. WAS bez AJ Dybantsy (kostka), CHI bez Noa Essengue i Patricka Williamsa."
+   },
+   {
+    "id": "NBA-2026-10-25-NOP-DEN",
+    "date": "2026-10-25",
+    "time": "02:00",
+    "home": "DEN",
+    "away": "NOP",
+    "status": "ft",
+    "score": [
+     141,
+     135
+    ],
+    "period": "OT",
+    "arena": {
+     "name": "Ball Arena",
+     "city": "Denver"
+    },
+    "notes": "Po dogrywce (126-126 po 4 kwartach, OT 15-9 dla DEN). Do przerwy 73-57 dla NOP, Denver przegrywało nawet 23 punktami. Jamal Murray 42 pkt (8 trójek), Nikola Jokić 35 pkt, 15 zb., 10 as.; NOP: Trey Murphy III 26, Dejounte Murray 22, Zion Williamson 17. DEN bez Camerona Johnsona i Spencera Jonesa."
+   },
+   {
+    "id": "NBA-2026-10-25-HOU-ATL",
+    "date": "2026-10-25",
+    "time": "02:30",
+    "home": "ATL",
+    "away": "HOU",
+    "status": "ft",
+    "score": [
+     114,
+     121
+    ],
+    "quarters": {
+     "home": [
+      26,
+      22,
+      33,
+      33
+     ],
+     "away": [
+      30,
+      29,
+      33,
+      29
+     ]
+    },
+    "arena": {
+     "name": "State Farm Arena",
+     "city": "Atlanta"
+    },
+    "attendance": 17942,
+    "officials": [
+     "CJ Washington",
+     "Nick Buchert",
+     "Andy Nagy"
+    ],
+    "players": {
+     "home": [
+      {
+       "n": "Onyeka Okongwu",
+       "min": "26",
+       "pts": 8,
+       "reb": 6,
+       "ast": 2,
+       "stl": 1,
+       "blk": 1,
+       "tov": 1,
+       "fg": "2/8",
+       "tp": "0/5",
+       "ft": "4/5",
+       "pm": "-13"
+      },
+      {
+       "n": "Jalen Johnson",
+       "min": "38",
+       "pts": 26,
+       "reb": 9,
+       "ast": 16,
+       "stl": 2,
+       "blk": 0,
+       "tov": 2,
+       "fg": "8/19",
+       "tp": "2/7",
+       "ft": "8/10",
+       "pm": "+3"
+      },
+      {
+       "n": "CJ McCollum",
+       "min": "30",
+       "pts": 17,
+       "reb": 2,
+       "ast": 1,
+       "stl": 0,
+       "blk": 0,
+       "tov": 1,
+       "fg": "7/14",
+       "tp": "1/5",
+       "ft": "2/3",
+       "pm": "-2"
+      },
+      {
+       "n": "Nickeil Alexander-Walker",
+       "min": "32",
+       "pts": 18,
+       "reb": 5,
+       "ast": 4,
+       "stl": 3,
+       "blk": 0,
+       "tov": 1,
+       "fg": "7/16",
+       "tp": "4/12",
+       "ft": "0/1",
+       "pm": "-2"
+      },
+      {
+       "n": "Dyson Daniels",
+       "min": "29",
+       "pts": 18,
+       "reb": 8,
+       "ast": 3,
+       "stl": 1,
+       "blk": 0,
+       "tov": 1,
+       "fg": "8/11",
+       "tp": "1/1",
+       "ft": "1/2",
+       "pm": "-8"
+      },
+      {
+       "n": "Jock Landale",
+       "min": "19",
+       "pts": 2,
+       "reb": 4,
+       "ast": 2,
+       "stl": 0,
+       "blk": 0,
+       "tov": 5,
+       "fg": "1/5",
+       "tp": "0/4",
+       "ft": "0/0",
+       "pm": "+2"
+      },
+      {
+       "n": "Luguentz Dort",
+       "min": "23",
+       "pts": 7,
+       "reb": 2,
+       "ast": 3,
+       "stl": 1,
+       "blk": 0,
+       "tov": 0,
+       "fg": "3/6",
+       "tp": "1/4",
+       "ft": "0/0",
+       "pm": "-6"
+      },
+      {
+       "n": "Aaron Wiggins",
+       "min": "29",
+       "pts": 16,
+       "reb": 5,
+       "ast": 2,
+       "stl": 1,
+       "blk": 1,
+       "tov": 0,
+       "fg": "6/13",
+       "tp": "4/9",
+       "ft": "0/0",
+       "pm": "-2"
+      },
+      {
+       "n": "Kingston Flemings",
+       "min": "15",
+       "pts": 2,
+       "reb": 1,
+       "ast": 2,
+       "stl": 0,
+       "blk": 0,
+       "tov": 2,
+       "fg": "1/4",
+       "tp": "0/2",
+       "ft": "0/0",
+       "pm": "-7"
+      }
+     ],
+     "away": [
+      {
+       "n": "Kevin Durant",
+       "min": "37",
+       "pts": 22,
+       "reb": 4,
+       "ast": 2,
+       "stl": 0,
+       "blk": 1,
+       "tov": 2,
+       "fg": "8/15",
+       "tp": "3/7",
+       "ft": "3/3",
+       "pm": "+19"
+      },
+      {
+       "n": "Jabari Smith Jr.",
+       "min": "33",
+       "pts": 14,
+       "reb": 5,
+       "ast": 3,
+       "stl": 0,
+       "blk": 1,
+       "tov": 0,
+       "fg": "5/12",
+       "tp": "2/6",
+       "ft": "2/2",
+       "pm": "-2"
+      },
+      {
+       "n": "Alperen Sengun",
+       "min": "33",
+       "pts": 17,
+       "reb": 10,
+       "ast": 7,
+       "stl": 1,
+       "blk": 0,
+       "tov": 3,
+       "fg": "6/12",
+       "tp": "1/2",
+       "ft": "4/6",
+       "pm": "+13"
+      },
+      {
+       "n": "Amen Thompson",
+       "min": "39",
+       "pts": 17,
+       "reb": 11,
+       "ast": 6,
+       "stl": 1,
+       "blk": 0,
+       "tov": 2,
+       "fg": "4/12",
+       "tp": "0/0",
+       "ft": "9/9",
+       "pm": "-1"
+      },
+      {
+       "n": "Reed Sheppard",
+       "min": "30",
+       "pts": 19,
+       "reb": 6,
+       "ast": 7,
+       "stl": 2,
+       "blk": 0,
+       "tov": 3,
+       "fg": "7/13",
+       "tp": "5/11",
+       "ft": "0/0",
+       "pm": "+19"
+      },
+      {
+       "n": "Tari Eason",
+       "min": "31",
+       "pts": 19,
+       "reb": 3,
+       "ast": 0,
+       "stl": 1,
+       "blk": 1,
+       "tov": 1,
+       "fg": "8/15",
+       "tp": "0/3",
+       "ft": "3/3",
+       "pm": "-1"
+      },
+      {
+       "n": "Clint Capela",
+       "min": "11",
+       "pts": 2,
+       "reb": 3,
+       "ast": 1,
+       "stl": 0,
+       "blk": 0,
+       "tov": 1,
+       "fg": "1/1",
+       "tp": "0/0",
+       "ft": "0/0",
+       "pm": "+1"
+      },
+      {
+       "n": "Bogdan Bogdanović",
+       "min": "20",
+       "pts": 11,
+       "reb": 1,
+       "ast": 1,
+       "stl": 0,
+       "blk": 0,
+       "tov": 1,
+       "fg": "4/8",
+       "tp": "3/5",
+       "ft": "0/0",
+       "pm": "-6"
+      },
+      {
+       "n": "Bruce Thornton",
+       "min": "4",
+       "pts": 0,
+       "reb": 0,
+       "ast": 0,
+       "stl": 1,
+       "blk": 0,
+       "tov": 1,
+       "fg": "0/1",
+       "tp": "0/1",
+       "ft": "0/0",
+       "pm": "-1"
+      },
+      {
+       "n": "Jae'Sean Tate",
+       "min": "1",
+       "pts": 0
+      },
+      {
+       "n": "Isaiah Crawford",
+       "min": "1",
+       "pts": 0,
+       "blk": 1
+      }
+     ]
+    },
+    "teamStats": [
+     [
+      "Z gry %",
+      44.8,
+      48.3
+     ],
+     [
+      "Za 3 %",
+      26.5,
+      40.0
+     ],
+     [
+      "Wolne %",
+      71.4,
+      91.3
+     ],
+     [
+      "Zbiórki",
+      42,
+      43
+     ],
+     [
+      "Asysty",
+      35,
+      27
+     ],
+     [
+      "Przechwyty",
+      9,
+      6
+     ],
+     [
+      "Bloki",
+      2,
+      4
+     ],
+     [
+      "Straty",
+      13,
+      14
+     ]
+    ],
+    "notes": "Kevin Durant 22 pkt, Reed Sheppard 19 (5/11 za 3) (HOU); Jalen Johnson 26 pkt, 9 zb., 16 as. (ATL). Mecz otwarcia Hawks u siebie. HOU bez Freda VanVleeta, Stevena Adamsa i Marcusa Smarta."
+   },
+   {
+    "id": "NBA-2026-10-25-GSW-PHX",
+    "date": "2026-10-25",
+    "time": "03:00",
+    "home": "PHX",
+    "away": "GSW",
+    "status": "ft",
+    "score": [
+     131,
+     122
+    ],
+    "arena": {
+     "name": "Mortgage Matchup Center",
+     "city": "Phoenix"
+    },
+    "notes": "Do przerwy 57-54, po 3 kwartach 102-92 dla PHX. Devin Booker 43 pkt (17/25), 7 zb., 7 as.; GSW: Yaxel Lendeborg 26 pkt, De'Anthony Melton 25. GSW bez Stephena Curry'ego, Draymonda Greena, Brandina Podziemskiego i Ala Horforda (odpoczynek/urazy); Warriors 0-3."
+   },
+   {
+    "id": "NBA-2026-10-25-LAL-UTA",
+    "date": "2026-10-25",
+    "time": "22:00",
+    "home": "UTA",
+    "away": "LAL",
+    "status": "ns",
+    "arena": {
+     "name": "Delta Center",
+     "city": "Salt Lake City"
+    },
+    "odds": {
+     "src": "VegasInsider – konsensus, stan na 25.10 ok. 12:00–12:40",
+     "ml1": 3.0,
+     "ml2": 1.41,
+     "spread": 6.5,
+     "sp1": 1.87,
+     "sp2": 1.95,
+     "total": 237.5,
+     "over": 1.89,
+     "under": 1.93
+    },
+    "info": {
+     "injuries": {
+      "home": [
+       "Jusuf Nurkic (stopa, out)",
+       "Trey Alexander (kolano, day-to-day)"
+      ],
+      "away": [
+       "Jake LaRavia (kostka, day-to-day)",
+       "Cameron Carr (mięsień skośny, day-to-day)",
+       "Adou Thiero (kolano, day-to-day)"
+      ]
+     },
+     "restDays": {
+      "home": 1,
+      "away": 1
+     },
+     "b2b": {
+      "home": false,
+      "away": false
+     },
+     "stakes": "LAL 2-0 kontra UTA 1-1",
+     "homeAway": "UTA u siebie 1-0 (ogółem 1-1), LAL na wyjeździe 0-0 (ogółem 2-0)"
+    },
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Linia LAL -6,5 / total 237,5 dobrze odzwierciedla różnicę klas; po 2 meczach brak wiarygodnych ratingów i tempa.",
+      "Jazz bez Nurkicia, ale grali zaciekle u siebie (120-119 z NOP).",
+      "Brak rynku z wyraźną przewagą – EV ≈ 0."
+     ]
+    }
+   },
+   {
+    "id": "NBA-2026-10-25-IND-BKN",
+    "date": "2026-10-25",
+    "time": "23:00",
+    "home": "BKN",
+    "away": "IND",
+    "status": "ns",
+    "arena": {
+     "name": "Barclays Center",
+     "city": "Brooklyn"
+    },
+    "odds": {
+     "src": "VegasInsider – konsensus, stan na 25.10 ok. 12:00–12:40; bet365/FanDuel BKN +7,5",
+     "ml1": 3.2,
+     "ml2": 1.37,
+     "spread": 6.5,
+     "sp1": 1.95,
+     "sp2": 1.87,
+     "total": 231.5,
+     "over": 1.93,
+     "under": 1.89
+    },
+    "info": {
+     "injuries": {
+      "home": [
+       "Tyler Bilodeau (bark, out)"
+      ],
+      "away": [
+       "Ben Sheppard (kolano, out)",
+       "Johnny Furphy (kolano, out)",
+       "T.J. McConnell (ścięgno, out)",
+       "Aaron Nesmith (ścięgno, day-to-day)"
+      ]
+     },
+     "restDays": {
+      "home": 0,
+      "away": 1
+     },
+     "b2b": {
+      "home": true,
+      "away": false
+     },
+     "stakes": "BKN 0-2 (drugi mecz w 2 dni), IND 1-1",
+     "homeAway": "BKN u siebie 0-1 (ogółem 0-2), IND na wyjeździe 1-0 (ogółem 1-1)"
+    },
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Back-to-back Nets jest już w linii (ruch z +6,5 do +7,5 u części bukmacherów).",
+      "Pacers osłabieni (Sheppard, Furphy, McConnell out, Nesmith niepewny) i wysoko przegrali u siebie z DAL.",
+      "BKN przegrało w CLE tylko 4 punktami – sprzeczne sygnały, brak przewagi."
+     ]
+    }
+   }
+  ],
+  "2026-10-26": [
+   {
+    "id": "NBA-2026-10-26-ORL-NYK",
+    "date": "2026-10-26",
+    "time": "00:00",
+    "home": "NYK",
+    "away": "ORL",
+    "status": "ns",
+    "arena": {
+     "name": "Madison Square Garden",
+     "city": "New York"
+    },
+    "odds": {
+     "src": "VegasInsider – konsensus, stan na 25.10 ok. 12:00–12:40",
+     "ml1": 1.34,
+     "ml2": 3.4,
+     "spread": -7.5,
+     "sp1": 1.91,
+     "sp2": 1.91,
+     "total": 224.5,
+     "over": 1.93,
+     "under": 1.89
+    },
+    "info": {
+     "injuries": {
+      "home": [
+       "Jose Alvarado (kostka, day-to-day wg hoopsnightly)"
+      ],
+      "away": [
+       "Paolo Banchero (kostka, out – szac. powrót 22.11)",
+       "Jonathan Isaac (kolano, out)",
+       "Noah Penda (ścięgno, out)",
+       "Izaiyah Nelson (kostka, out)",
+       "Anthony Black (kostka, questionable)"
+      ]
+     },
+     "restDays": {
+      "home": 1,
+      "away": 1
+     },
+     "b2b": {
+      "home": false,
+      "away": false
+     },
+     "stakes": "Obie drużyny 0-2",
+     "homeAway": "NYK u siebie 0-1 (ogółem 0-2), ORL na wyjeździe 0-0 (ogółem 0-2)"
+    },
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Utrata Banchero to duży minus dla ORL, ale linia NYK -7,5 (otwarcie też -7,5) prawdopodobnie już to uwzględnia.",
+      "Knicks 0-2 i niestabilni w ataku (Bridges 0/8 w Bostonie).",
+      "Brak wiarygodnych danych o ratingach/tempie z tego sezonu – za duża niepewność."
+     ]
+    }
+   },
+   {
+    "id": "NBA-2026-10-26-LAC-OKC",
+    "date": "2026-10-26",
+    "time": "00:00",
+    "home": "OKC",
+    "away": "LAC",
+    "status": "ns",
+    "arena": {
+     "name": "Paycom Center",
+     "city": "Oklahoma City"
+    },
+    "odds": {
+     "src": "VegasInsider – konsensus, stan na 25.10 ok. 12:00–12:40",
+     "ml1": 1.07,
+     "ml2": 9.0,
+     "spread": -15.5,
+     "sp1": 1.91,
+     "sp2": 1.91,
+     "total": 222.5,
+     "over": 1.93,
+     "under": 1.89
+    },
+    "info": {
+     "injuries": {
+      "home": [
+       "Otega Oweh (Achilles, out – sezon)",
+       "Nikola Topic (plecy, niepewny)",
+       "Thomas Sorber (kolano, niepewny)"
+      ],
+      "away": [
+       "Max Strus (stopa, out)",
+       "Jordan Miller (bark, out)",
+       "Bradley Beal (kolano, out/day-to-day – źródła się różnią)",
+       "Brandon Ingram (pięta, out/day-to-day – źródła się różnią)"
+      ]
+     },
+     "restDays": {
+      "home": 2,
+      "away": 1
+     },
+     "b2b": {
+      "home": false,
+      "away": false
+     },
+     "stakes": "OKC 2-0, LAC 1-1",
+     "homeAway": "OKC u siebie 1-0 (ogółem 2-0), LAC na wyjeździe 0-1 (ogółem 1-1)"
+    },
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Handicap -15,5 jest bardzo wysoki – ryzyko luźnej końcówki (garbage time).",
+      "Linia przesunęła się z -14,5; 95% zakładów publiczności na OKC – brak value po stronie faworyta.",
+      "Niejasny status Beala i Ingrama (źródła sprzeczne)."
+     ]
+    }
+   },
+   {
+    "id": "NBA-2026-10-26-TOR-MIN",
+    "date": "2026-10-26",
+    "time": "00:00",
+    "home": "MIN",
+    "away": "TOR",
+    "status": "ns",
+    "arena": {
+     "name": "Target Center",
+     "city": "Minneapolis"
+    },
+    "odds": {
+     "src": "Covers – FanDuel, stan na 25.10 12:35",
+     "ml1": 1.93,
+     "ml2": 1.93,
+     "spread": -1.5,
+     "sp1": 1.96,
+     "sp2": 1.85,
+     "total": 232.5,
+     "over": 1.91,
+     "under": 1.91
+    },
+    "info": {
+     "injuries": {
+      "home": [
+       "Donte DiVincenzo (Achilles, out)"
+      ],
+      "away": [
+       "Nate Bittle (stopa, out)"
+      ]
+     },
+     "restDays": {
+      "home": 1,
+      "away": 1
+     },
+     "b2b": {
+      "home": false,
+      "away": false
+     },
+     "stakes": "Starcie niepokonanych (obie 2-0)",
+     "homeAway": "MIN u siebie 0-0 (ogółem 2-0), TOR na wyjeździe 1-0 (ogółem 2-0)"
+    },
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Rynek wycenia mecz jako pick'em – obie drużyny wygrały pewnie oba mecze.",
+      "Bez ratingów ofensywnych/defensywnych z tego sezonu trudno wskazać przewagę.",
+      "Brak rynku z dodatnim EV."
+     ]
+    }
+   },
+   {
+    "id": "NBA-2026-10-26-DET-PHI",
+    "date": "2026-10-26",
+    "time": "00:30",
+    "home": "PHI",
+    "away": "DET",
+    "status": "ns",
+    "arena": {
+     "name": "Xfinity Mobile Arena",
+     "city": "Philadelphia"
+    },
+    "odds": {
+     "src": "VegasInsider – konsensus, stan na 25.10 ok. 12:00–12:40",
+     "ml1": 1.7,
+     "ml2": 2.2,
+     "spread": -2.5,
+     "sp1": 1.95,
+     "sp2": 1.87,
+     "total": 227.5,
+     "over": 1.91,
+     "under": 1.91
+    },
+    "info": {
+     "injuries": {
+      "home": [
+       "LeBron James (plecy, out/day-to-day – źródła się różnią)",
+       "Ariel Hukporti (Achilles, out)",
+       "Dominick Barlow (plecy, out)",
+       "Tacko Fall (out/day-to-day)",
+       "Dean Wade (kostka, day-to-day wg hoopsnightly)"
+      ],
+      "away": [
+       "Jalen Duren (ścięgno podkolanowe, out)",
+       "Ausar Thompson (kostka, questionable)"
+      ]
+     },
+     "restDays": {
+      "home": 0,
+      "away": 1
+     },
+     "b2b": {
+      "home": true,
+      "away": false
+     },
+     "stakes": "PHI 3-0 vs DET 2-0",
+     "homeAway": "PHI u siebie 2-0 (ogółem 3-0), DET na wyjeździe 1-0 (ogółem 2-0)"
+    },
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "PHI gra drugi mecz w 2 dni, a Embiid zagrał 36 minut przeciw MIL – realne ryzyko odpoczynku gwiazd.",
+      "DET bez Durena, Ausar Thompson niepewny.",
+      "Zbyt wiele niewiadomych w składach obu drużyn – NO BET."
+     ]
+    }
+   },
+   {
+    "id": "NBA-2026-10-26-MEM-SAC",
+    "date": "2026-10-26",
+    "time": "02:00",
+    "home": "SAC",
+    "away": "MEM",
+    "status": "ns",
+    "arena": {
+     "name": "Golden 1 Center",
+     "city": "Sacramento"
+    },
+    "odds": {
+     "src": "VegasInsider – konsensus, stan na 25.10 ok. 12:00–12:40",
+     "ml1": 2.45,
+     "ml2": 1.57,
+     "spread": 4.5,
+     "sp1": 1.87,
+     "sp2": 1.95,
+     "total": 236.5,
+     "over": 1.95,
+     "under": 1.87
+    },
+    "info": {
+     "injuries": {
+      "home": [
+       "Ben Simmons (Achilles, out)",
+       "Maxime Raynaud (kolano, out)",
+       "Dylan Cardwell (łydka, out)"
+      ],
+      "away": [
+       "Cedric Coward (nadgarstek, day-to-day)"
+      ]
+     },
+     "restDays": {
+      "home": 1,
+      "away": 1
+     },
+     "b2b": {
+      "home": false,
+      "away": false
+     },
+     "stakes": "MEM 2-0, SAC 0-2",
+     "homeAway": "SAC u siebie 0-1 (ogółem 0-2), MEM na wyjeździe 1-0 (ogółem 2-0)"
+    },
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Linia już przesunęła się na MEM (z -3,5 na -4,5) – value zjedzone.",
+      "SAC przegrywa, ale Sabonis i Acuff produktywni; mała próbka 2 meczów.",
+      "Brak przewagi na żadnym rynku."
+     ]
+    }
+   }
+  ],
+  "2026-10-27": [
+   {
+    "id": "NBA-2026-10-27-MIN-CLE",
+    "date": "2026-10-27",
+    "time": "00:00",
+    "home": "CLE",
+    "away": "MIN",
+    "status": "ns",
+    "arena": {
+     "name": "Rocket Arena",
+     "city": "Cleveland"
+    }
+   },
+   {
+    "id": "NBA-2026-10-27-WAS-CHA",
+    "date": "2026-10-27",
+    "time": "00:00",
+    "home": "CHA",
+    "away": "WAS",
+    "status": "ns",
+    "arena": {
+     "name": "Spectrum Center",
+     "city": "Charlotte"
+    }
+   },
+   {
+    "id": "NBA-2026-10-27-DAL-MIA",
+    "date": "2026-10-27",
+    "time": "00:30",
+    "home": "MIA",
+    "away": "DAL",
+    "status": "ns",
+    "arena": {
+     "name": "Kaseya Center",
+     "city": "Miami"
+    }
+   },
+   {
+    "id": "NBA-2026-10-27-CHI-BOS",
+    "date": "2026-10-27",
+    "time": "00:30",
+    "home": "BOS",
+    "away": "CHI",
+    "status": "ns",
+    "arena": {
+     "name": "TD Garden",
+     "city": "Boston"
+    }
+   },
+   {
+    "id": "NBA-2026-10-27-PHX-OKC",
+    "date": "2026-10-27",
+    "time": "01:00",
+    "home": "OKC",
+    "away": "PHX",
+    "status": "ns",
+    "arena": {
+     "name": "Paycom Center",
+     "city": "Oklahoma City"
+    }
+   },
+   {
+    "id": "NBA-2026-10-27-IND-MIL",
+    "date": "2026-10-27",
+    "time": "01:00",
+    "home": "MIL",
+    "away": "IND",
+    "status": "ns",
+    "arena": {
+     "name": "Fiserv Forum",
+     "city": "Milwaukee"
+    }
+   },
+   {
+    "id": "NBA-2026-10-27-ATL-HOU",
+    "date": "2026-10-27",
+    "time": "01:30",
+    "home": "HOU",
+    "away": "ATL",
+    "status": "ns",
+    "arena": {
+     "name": "Toyota Center",
+     "city": "Houston"
+    }
+   },
+   {
+    "id": "NBA-2026-10-27-MEM-UTA",
+    "date": "2026-10-27",
+    "time": "02:00",
+    "home": "UTA",
+    "away": "MEM",
+    "status": "ns",
+    "arena": {
+     "name": "Delta Center",
+     "city": "Salt Lake City"
+    }
+   },
+   {
+    "id": "NBA-2026-10-27-GSW-DEN",
+    "date": "2026-10-27",
+    "time": "03:00",
+    "home": "DEN",
+    "away": "GSW",
+    "status": "ns",
+    "arena": {
+     "name": "Ball Arena",
+     "city": "Denver"
+    }
+   }
+  ]
+ }
+}
