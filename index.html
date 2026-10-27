@@ -916,6 +916,17 @@ function sampleOdds(m){
   return withMatch(m,()=>{const lm=lambdas();if(!lm)return null;const r=grid(lm.lh,lm.la),rr=rng("odds"+m.id),o={src:"Kursy przykładowe"};
     for(const [k] of MK){const p=k.startsWith("dnb")?mProb(r,k):mProb(r,k);o[k]=Math.max(1.03,+(1/(p*1.06)*(0.88+rr()*0.28)).toFixed(2))}return o});
 }
+const MKX={o35:"Ponad 3,5 gola",u35:"Poniżej 3,5 gola",h15:"Handicap gospodarzy −1,5"};
+function oddsList(m){
+  const o=m.odds; if(!o) return "";
+  const nm=k=>MKX[k]||(k==="team_u25_home"?m.home.name+" poniżej 2,5 gola":k==="team_u25_away"?m.away.name+" poniżej 2,5 gola":(MK.find(x=>x[0]===k)?mkName(k,m):null));
+  const ft=m.status.kind==="ft", sc=ft?scoreOf(m):null;
+  const ORD=MK.map(x=>x[0]).concat(Object.keys(MKX),["team_u25_home","team_u25_away"]);
+  const rows=Object.keys(o).filter(k=>k!=="src"&&typeof o[k]==="number"&&nm(k)).sort((x,y)=>ORD.indexOf(x)-ORD.indexOf(y)).map(k=>{const w=ft&&MK.find(x=>x[0]===k)?mWon(sc,k):undefined;
+    return `<tr><td>${esc(nm(k))}${w!==undefined?` <span class="${w===null?"neg":w?"won":"lost"}">${w===null?"zwrot":w?"✓":"✗"}</span>`:""}</td><td>${o[k].toFixed(2)}</td><td>${pc(1/o[k])}</td></tr>`}).join("");
+  if(!rows) return "";
+  return `<section><h2>Kursy</h2><div class="card tableScroll"><table class="odds"><thead><tr><th>Rynek</th><th>Kurs</th><th>Z kursu</th></tr></thead><tbody>${rows}</tbody></table></div><div class="legend"><span>${esc(o.src||"Kursy")}${ft?" · kursy sprzed meczu":""}</span></div></section>`;
+}
 function oddsOf(m){ if(m.real) return m.odds||null; return m.__odds!==undefined?m.__odds:(m.__odds=sampleOdds(m)); }
 function autoTip(m){
   return withMatch(m,()=>{const lm=lambdas(),o=oddsOf(m);if(!lm||!o)return null;const r=grid(lm.lh,lm.la);
@@ -981,7 +992,13 @@ function picksCard(){
 
 V.szanse=function(){
   const lm=lambdas();
-  if(!lm){const t=tipOf(M);return `<div class="panel" style="display:flex;flex-direction:column;gap:18px">${t?`<section><h2>Analiza typu</h2>${tipCard(t,M)}</section>`:""}<div class="card empty">Brak tabeli ligowej, więc model nie policzy szans.<br>Tabela pojawi się przy najbliższej porannej aktualizacji.</div>${infoSection(M)}${t?RESP:""}</div>`;}
+  if(!lm){const t=tipOf(M),o=M.odds;
+    let h=`<div class="panel" style="display:flex;flex-direction:column;gap:18px">`;
+    if(o&&o["1"]&&o["X"]&&o["2"]){const a=1/o["1"],b=1/o["X"],c=1/o["2"],s=a+b+c;h+=probCard({pH:a/s,pD:b/s,pA:c/s},M.status.kind==="ft"?"Szanse przed meczem (wg bukmacherów)":"Szanse wg bukmacherów","Prawdopodobieństwa z kursów 1X2 po odjęciu marży bukmachera, w regularnym czasie gry (90 min).");}
+    h+=t?`<section><h2>Analiza typu</h2>${tipCard(t,M)}</section>`:"";
+    h+=oddsList(M);
+    if(!o) h+=`<div class="card empty">${isDays()?"Brak kursów dla tego meczu — bukmacherzy ich nie wystawili albo nie udało się ich znaleźć w wiarygodnych źródłach.":"Brak tabeli ligowej, więc model nie policzy szans.<br>Tabela pojawi się przy najbliższej porannej aktualizacji."}</div>`;
+    return h+infoSection(M)+(t?RESP:"")+`</div>`;}
   if(M.status.pst) return empty("Mecz przełożony. Szanse policzę, gdy pojawi się nowy termin.");
   const pre=grid(lm.lh,lm.la), k=M.status.kind, sc=scoreOf(M), T=leagueTable();
   const pos=t=>T.indexOf(t)+1, perG=(a,b)=>b?(a/b).toFixed(2).replace(".",","):"—";

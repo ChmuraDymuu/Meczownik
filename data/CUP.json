@@ -1390,6 +1390,9 @@
      "reasons": [
       "Nie znaleziono wiarygodnych kursów ani danych o składach dla tego meczu – bez kursu nie da się policzyć wartości zakładu"
      ]
+    },
+    "info": {
+     "stakes": "1/16 finału – jeden mecz; przy remisie po 90 min dogrywka i rzuty karne"
     }
    },
    {
@@ -1407,6 +1410,9 @@
      "reasons": [
       "Nie znaleziono wiarygodnych kursów ani danych o składach dla tego meczu – bez kursu nie da się policzyć wartości zakładu"
      ]
+    },
+    "info": {
+     "stakes": "1/16 finału – jeden mecz; przy remisie po 90 min dogrywka i rzuty karne"
     }
    },
    {
@@ -1437,7 +1443,8 @@
       "2026-09-11 RAK 2:1 MOT",
       "2026-04-12 MOT 1:1 RAK",
       "2025-10-05 RAK 2:0 MOT"
-     ]
+     ],
+     "stakes": "1/16 finału – jeden mecz; przy remisie po 90 min dogrywka i rzuty karne"
     },
     "tip": {
      "decision": "NO BET",
@@ -1476,7 +1483,8 @@
      "h2h": [
       "2022 BOC 3:1 MAI (DFB-Pokal)",
       "2020 MAI – BOC, awans Bochum po karnych (DFB-Pokal)"
-     ]
+     ],
+     "stakes": "2. runda – jeden mecz; przy remisie po 90 min dogrywka i rzuty karne"
     },
     "tip": {
      "decision": "NO BET",
@@ -1505,7 +1513,8 @@
      "homeAway": "Großaspach (beniaminek 3. Ligi) ostatnio 1:5 i 1:7, w 5 meczach z rzędu straciło 2+ gole; Augsburg bez wygranej w 5 meczach Bundesligi, najwyższe xGA w lidze",
      "h2h": [
       "Pierwszy mecz o stawkę"
-     ]
+     ],
+     "stakes": "2. runda – jeden mecz; przy remisie po 90 min dogrywka i rzuty karne"
     },
     "tip": {
      "decision": "NO BET",
@@ -1600,7 +1609,8 @@
      "h2h": [
       "Eintracht wygrał wszystkie 3 wcześniejsze mecze pucharowe",
       "9 kolejnych meczów z maks. 3 golami"
-     ]
+     ],
+     "stakes": "2. runda – jeden mecz; przy remisie po 90 min dogrywka i rzuty karne"
     },
     "tip": {
      "decision": "NO BET",
@@ -1624,6 +1634,9 @@
      "reasons": [
       "Nie znaleziono wiarygodnych kursów ani danych o składach dla tego meczu – bez kursu nie da się policzyć wartości zakładu"
      ]
+    },
+    "info": {
+     "stakes": "1. runda – jeden mecz na boisku drużyny z niższej ligi; przy remisie dogrywka i rzuty karne"
     }
    },
    {
@@ -1640,6 +1653,9 @@
      "reasons": [
       "Nie znaleziono wiarygodnych kursów ani danych o składach dla tego meczu – bez kursu nie da się policzyć wartości zakładu"
      ]
+    },
+    "info": {
+     "stakes": "1. runda – jeden mecz na boisku drużyny z niższej ligi; przy remisie dogrywka i rzuty karne"
     }
    },
    {
@@ -1656,6 +1672,9 @@
      "reasons": [
       "Nie znaleziono wiarygodnych kursów ani danych o składach dla tego meczu – bez kursu nie da się policzyć wartości zakładu"
      ]
+    },
+    "info": {
+     "stakes": "1. runda – jeden mecz na boisku drużyny z niższej ligi; przy remisie dogrywka i rzuty karne"
     }
    },
    {
@@ -1672,6 +1691,9 @@
      "reasons": [
       "Nie znaleziono wiarygodnych kursów ani danych o składach dla tego meczu – bez kursu nie da się policzyć wartości zakładu"
      ]
+    },
+    "info": {
+     "stakes": "1. runda – jeden mecz na boisku drużyny z niższej ligi; przy remisie dogrywka i rzuty karne"
     }
    },
    {
@@ -1688,6 +1710,9 @@
      "reasons": [
       "Nie znaleziono wiarygodnych kursów ani danych o składach dla tego meczu – bez kursu nie da się policzyć wartości zakładu"
      ]
+    },
+    "info": {
+     "stakes": "1. runda – jeden mecz na boisku drużyny z niższej ligi; przy remisie dogrywka i rzuty karne"
     }
    },
    {
@@ -1704,6 +1729,9 @@
      "reasons": [
       "Nie znaleziono wiarygodnych kursów ani danych o składach dla tego meczu – bez kursu nie da się policzyć wartości zakładu"
      ]
+    },
+    "info": {
+     "stakes": "1. runda – jeden mecz na boisku drużyny z niższej ligi; przy remisie dogrywka i rzuty karne"
     }
    },
    {
@@ -1720,6 +1748,9 @@
      "reasons": [
       "Nie znaleziono wiarygodnych kursów ani danych o składach dla tego meczu – bez kursu nie da się policzyć wartości zakładu"
      ]
+    },
+    "info": {
+     "stakes": "1. runda – jeden mecz na boisku drużyny z niższej ligi; przy remisie dogrywka i rzuty karne"
     }
    },
    {
@@ -1736,6 +1767,9 @@
      "reasons": [
       "Nie znaleziono wiarygodnych kursów ani danych o składach dla tego meczu – bez kursu nie da się policzyć wartości zakładu"
      ]
+    },
+    "info": {
+     "stakes": "1. runda – jeden mecz na boisku drużyny z niższej ligi; przy remisie dogrywka i rzuty karne"
     }
    },
    {
@@ -1752,6 +1786,9 @@
      "reasons": [
       "Nie znaleziono wiarygodnych kursów ani danych o składach dla tego meczu – bez kursu nie da się policzyć wartości zakładu"
      ]
+    },
+    "info": {
+     "stakes": "1. runda – jeden mecz na boisku drużyny z niższej ligi; przy remisie dogrywka i rzuty karne"
     }
    },
    {
@@ -1768,6 +1805,9 @@
      "reasons": [
       "Nie znaleziono wiarygodnych kursów ani danych o składach dla tego meczu – bez kursu nie da się policzyć wartości zakładu"
      ]
+    },
+    "info": {
+     "stakes": "1. runda – jeden mecz na boisku drużyny z niższej ligi; przy remisie dogrywka i rzuty karne"
     }
    },
    {
@@ -1800,7 +1840,8 @@
       "2025-07-26 PIA 0:1 GZA",
       "2025-05-17 PIA 2:0 GZA",
       "2024-11-24 GZA 1:0 PIA"
-     ]
+     ],
+     "stakes": "1/16 finału – jeden mecz; przy remisie po 90 min dogrywka i rzuty karne"
     },
     "tip": {
      "decision": "NO BET",
@@ -1824,6 +1865,9 @@
      "reasons": [
       "Nie znaleziono wiarygodnych kursów ani danych o składach dla tego meczu – bez kursu nie da się policzyć wartości zakładu"
      ]
+    },
+    "info": {
+     "stakes": "1. runda – jeden mecz na boisku drużyny z niższej ligi; przy remisie dogrywka i rzuty karne"
     }
    },
    {
@@ -1840,6 +1884,9 @@
      "reasons": [
       "Nie znaleziono wiarygodnych kursów ani danych o składach dla tego meczu – bez kursu nie da się policzyć wartości zakładu"
      ]
+    },
+    "info": {
+     "stakes": "1. runda – jeden mecz na boisku drużyny z niższej ligi; przy remisie dogrywka i rzuty karne"
     }
    },
    {
@@ -1866,7 +1913,8 @@
      "homeAway": "Köln niepokonany u siebie w lidze (2-2-0), ostatnio 0:0 z Schalke; Union niepokonany w 3 meczach, przedostatni w Bundeslidze",
      "h2h": [
       "2025/26: UNI 2:2 KOE, KOE 0:1 UNI"
-     ]
+     ],
+     "stakes": "2. runda – jeden mecz; przy remisie po 90 min dogrywka i rzuty karne"
     },
     "tip": {
      "decision": "NO BET",
@@ -1902,7 +1950,8 @@
      "homeAway": "Gladbach ostatni w Bundeslidze (22 stracone w 7 meczach), ostatnio 3:2 w Stuttgarcie po 6 porażkach z rzędu; KSC przegrał 1:6 w Magdeburgu, 20 straconych w 9 meczach",
      "h2h": [
       "2025-10-28 BMG 3:1 KSC (DFB-Pokal)"
-     ]
+     ],
+     "stakes": "2. runda – jeden mecz; przy remisie po 90 min dogrywka i rzuty karne"
     },
     "tip": {
      "decision": "NO BET",
@@ -1934,7 +1983,8 @@
       "2026-04 DAR 3:3 ELV",
       "2025-11 0:0",
       "2024/25: ELV 4:0 DAR, DAR 0:3 ELV"
-     ]
+     ],
+     "stakes": "2. runda – jeden mecz; przy remisie po 90 min dogrywka i rzuty karne"
     },
     "tip": {
      "decision": "NO BET",
@@ -2015,6 +2065,9 @@
      "reasons": [
       "Brak danych o składach i formie – kurs 1,72 wyceniony bez wyraźnej przewagi"
      ]
+    },
+    "info": {
+     "stakes": "4. runda (1/8 finału) – jeden mecz; przy remisie od razu rzuty karne (bez dogrywki)"
     }
    },
    {
@@ -2072,6 +2125,9 @@
      "reasons": [
       "Nie znaleziono wiarygodnych kursów ani danych o składach dla tego meczu – bez kursu nie da się policzyć wartości zakładu"
      ]
+    },
+    "info": {
+     "stakes": "1. runda – jeden mecz na boisku drużyny z niższej ligi; przy remisie dogrywka i rzuty karne"
     }
    },
    {
@@ -2088,6 +2144,9 @@
      "reasons": [
       "Nie znaleziono wiarygodnych kursów ani danych o składach dla tego meczu – bez kursu nie da się policzyć wartości zakładu"
      ]
+    },
+    "info": {
+     "stakes": "1. runda – jeden mecz na boisku drużyny z niższej ligi; przy remisie dogrywka i rzuty karne"
     }
    },
    {
@@ -2104,6 +2163,9 @@
      "reasons": [
       "Nie znaleziono wiarygodnych kursów ani danych o składach dla tego meczu – bez kursu nie da się policzyć wartości zakładu"
      ]
+    },
+    "info": {
+     "stakes": "1. runda – jeden mecz na boisku drużyny z niższej ligi; przy remisie dogrywka i rzuty karne"
     }
    },
    {
@@ -2120,6 +2182,9 @@
      "reasons": [
       "Nie znaleziono wiarygodnych kursów ani danych o składach dla tego meczu – bez kursu nie da się policzyć wartości zakładu"
      ]
+    },
+    "info": {
+     "stakes": "1. runda – jeden mecz na boisku drużyny z niższej ligi; przy remisie dogrywka i rzuty karne"
     }
    },
    {
@@ -2136,6 +2201,9 @@
      "reasons": [
       "Nie znaleziono wiarygodnych kursów ani danych o składach dla tego meczu – bez kursu nie da się policzyć wartości zakładu"
      ]
+    },
+    "info": {
+     "stakes": "1. runda – jeden mecz na boisku drużyny z niższej ligi; przy remisie dogrywka i rzuty karne"
     }
    },
    {
@@ -2152,6 +2220,9 @@
      "reasons": [
       "Nie znaleziono wiarygodnych kursów ani danych o składach dla tego meczu – bez kursu nie da się policzyć wartości zakładu"
      ]
+    },
+    "info": {
+     "stakes": "1. runda – jeden mecz na boisku drużyny z niższej ligi; przy remisie dogrywka i rzuty karne"
     }
    },
    {
@@ -2162,12 +2233,37 @@
     "away": "PT-MARITIMO",
     "status": "ns",
     "comp": "Puchar Ligi Portugalskiej (Taça da Liga)",
-    "stage": "Faza grupowa",
+    "stage": "Ćwierćfinał",
     "tip": {
      "decision": "NO BET",
      "reasons": [
-      "Nie znaleziono wiarygodnych kursów ani danych o składach dla tego meczu – bez kursu nie da się policzyć wartości zakładu"
+      "Sporting -1,5 po 1,73 (58% z kursu) – Marítimo traci dużo goli, ale Sporting jest w słabej formie (2 porażki u siebie z rzędu), ma 3 nieobecnych i będzie rotował; szacunek ok. 52–55%, EV ujemne",
+      "Brak kursów 1X2 i na gole w wiarygodnych źródłach"
      ]
+    },
+    "info": {
+     "stakes": "Ćwierćfinał – jeden mecz, zwycięzca awansuje do turnieju finałowego (Final Four)",
+     "injuries": {
+      "home": [
+       "Zeno Debast",
+       "Rodrigo Zalazar",
+       "Nuno Santos"
+      ],
+      "away": [
+       "Yellu Santiago",
+       "Vladan Danilović"
+      ]
+     },
+     "homeAway": "Sporting: 2 wygrane w 6 ostatnich meczach, porażki u siebie z LASK (2:3) i Académico (1:2), spodziewana rotacja; Marítimo: 3-2-5 w 10 meczach, ostatnio 0:5 z Vitórią Guimarães",
+     "h2h": [
+      "2023-05 SCP 2:1 MAR",
+      "2022-12 SCP 5:0 MAR (Taça da Liga)",
+      "Sporting wygrał 21 z 27 meczów u siebie od 2003"
+     ]
+    },
+    "odds": {
+     "src": "dailysports.net, 27.10",
+     "h15": 1.73
     }
    }
   ],
@@ -2187,6 +2283,9 @@
      "reasons": [
       "Nie znaleziono wiarygodnych kursów ani danych o składach dla tego meczu – bez kursu nie da się policzyć wartości zakładu"
      ]
+    },
+    "info": {
+     "stakes": "1/16 finału – jeden mecz; przy remisie po 90 min dogrywka i rzuty karne"
     }
    },
    {
@@ -2204,6 +2303,9 @@
      "reasons": [
       "Nie znaleziono wiarygodnych kursów ani danych o składach dla tego meczu – bez kursu nie da się policzyć wartości zakładu"
      ]
+    },
+    "info": {
+     "stakes": "1/16 finału – jeden mecz; przy remisie po 90 min dogrywka i rzuty karne"
     }
    },
    {
@@ -2221,6 +2323,9 @@
      "reasons": [
       "Nie znaleziono wiarygodnych kursów ani danych o składach dla tego meczu – bez kursu nie da się policzyć wartości zakładu"
      ]
+    },
+    "info": {
+     "stakes": "1/16 finału – jeden mecz; przy remisie po 90 min dogrywka i rzuty karne"
     }
    },
    {
@@ -2238,6 +2343,9 @@
      "reasons": [
       "Nie znaleziono wiarygodnych kursów ani danych o składach dla tego meczu – bez kursu nie da się policzyć wartości zakładu"
      ]
+    },
+    "info": {
+     "stakes": "1/16 finału – jeden mecz; przy remisie po 90 min dogrywka i rzuty karne"
     }
    },
    {
@@ -2262,7 +2370,8 @@
       "2026-05-03 SCF 1:1 WOL",
       "Freiburg niepokonany w 4 ostatnich meczach",
       "DFB-Pokal: 2× WOL 1:0 SCF"
-     ]
+     ],
+     "stakes": "2. runda – jeden mecz; przy remisie po 90 min dogrywka i rzuty karne"
     },
     "tip": {
      "decision": "BET",
@@ -2314,7 +2423,8 @@
      "homeAway": "Dresden 15. w Bundeslidze (11 goli w 8 meczach); Schalke bez wygranej w 4 meczach, tylko 4 gole w sezonie (najmniej w lidze), solidna obrona; w 1. rundzie pucharu potrzebowało dogrywki z Halle",
      "h2h": [
       "Schalke niepokonane w 4 ostatnich meczach (3 W)"
-     ]
+     ],
+     "stakes": "2. runda – jeden mecz; przy remisie po 90 min dogrywka i rzuty karne"
     },
     "tip": {
      "decision": "BET",
@@ -2359,7 +2469,8 @@
      "h2h": [
       "2026-10-10 PAD 0:2 STU",
       "Stuttgart: 5 W, 1 R w 6 meczach o stawkę"
-     ]
+     ],
+     "stakes": "2. runda – jeden mecz; przy remisie po 90 min dogrywka i rzuty karne"
     },
     "tip": {
      "decision": "NO BET",
@@ -2415,6 +2526,9 @@
      "reasons": [
       "Nie znaleziono wiarygodnych kursów ani danych o składach dla tego meczu – bez kursu nie da się policzyć wartości zakładu"
      ]
+    },
+    "info": {
+     "stakes": "1/16 finału – jeden mecz; przy remisie po 90 min dogrywka i rzuty karne"
     }
    },
    {
@@ -2431,6 +2545,9 @@
      "reasons": [
       "Nie znaleziono wiarygodnych kursów ani danych o składach dla tego meczu – bez kursu nie da się policzyć wartości zakładu"
      ]
+    },
+    "info": {
+     "stakes": "1/16 finału – jeden mecz; przy remisie po 90 min dogrywka i rzuty karne"
     }
    },
    {
@@ -2447,6 +2564,9 @@
      "reasons": [
       "Nie znaleziono wiarygodnych kursów ani danych o składach dla tego meczu – bez kursu nie da się policzyć wartości zakładu"
      ]
+    },
+    "info": {
+     "stakes": "1. runda – jeden mecz na boisku drużyny z niższej ligi; przy remisie dogrywka i rzuty karne"
     }
    },
    {
@@ -2463,6 +2583,9 @@
      "reasons": [
       "Nie znaleziono wiarygodnych kursów ani danych o składach dla tego meczu – bez kursu nie da się policzyć wartości zakładu"
      ]
+    },
+    "info": {
+     "stakes": "1. runda – jeden mecz na boisku drużyny z niższej ligi; przy remisie dogrywka i rzuty karne"
     }
    },
    {
@@ -2479,6 +2602,9 @@
      "reasons": [
       "Nie znaleziono wiarygodnych kursów ani danych o składach dla tego meczu – bez kursu nie da się policzyć wartości zakładu"
      ]
+    },
+    "info": {
+     "stakes": "1. runda – jeden mecz na boisku drużyny z niższej ligi; przy remisie dogrywka i rzuty karne"
     }
    },
    {
@@ -2495,6 +2621,9 @@
      "reasons": [
       "Nie znaleziono wiarygodnych kursów ani danych o składach dla tego meczu – bez kursu nie da się policzyć wartości zakładu"
      ]
+    },
+    "info": {
+     "stakes": "1. runda – jeden mecz na boisku drużyny z niższej ligi; przy remisie dogrywka i rzuty karne"
     }
    },
    {
@@ -2511,6 +2640,9 @@
      "reasons": [
       "Nie znaleziono wiarygodnych kursów ani danych o składach dla tego meczu – bez kursu nie da się policzyć wartości zakładu"
      ]
+    },
+    "info": {
+     "stakes": "1. runda – jeden mecz na boisku drużyny z niższej ligi; przy remisie dogrywka i rzuty karne"
     }
    },
    {
@@ -2527,6 +2659,9 @@
      "reasons": [
       "Nie znaleziono wiarygodnych kursów ani danych o składach dla tego meczu – bez kursu nie da się policzyć wartości zakładu"
      ]
+    },
+    "info": {
+     "stakes": "1. runda – jeden mecz na boisku drużyny z niższej ligi; przy remisie dogrywka i rzuty karne"
     }
    },
    {
@@ -2543,6 +2678,9 @@
      "reasons": [
       "Nie znaleziono wiarygodnych kursów ani danych o składach dla tego meczu – bez kursu nie da się policzyć wartości zakładu"
      ]
+    },
+    "info": {
+     "stakes": "1. runda – jeden mecz na boisku drużyny z niższej ligi; przy remisie dogrywka i rzuty karne"
     }
    },
    {
@@ -2559,6 +2697,9 @@
      "reasons": [
       "Nie znaleziono wiarygodnych kursów ani danych o składach dla tego meczu – bez kursu nie da się policzyć wartości zakładu"
      ]
+    },
+    "info": {
+     "stakes": "1. runda – jeden mecz na boisku drużyny z niższej ligi; przy remisie dogrywka i rzuty karne"
     }
    },
    {
@@ -2575,6 +2716,9 @@
      "reasons": [
       "Nie znaleziono wiarygodnych kursów ani danych o składach dla tego meczu – bez kursu nie da się policzyć wartości zakładu"
      ]
+    },
+    "info": {
+     "stakes": "1. runda – jeden mecz na boisku drużyny z niższej ligi; przy remisie dogrywka i rzuty karne"
     }
    },
    {
@@ -2591,6 +2735,9 @@
      "reasons": [
       "Nie znaleziono wiarygodnych kursów ani danych o składach dla tego meczu – bez kursu nie da się policzyć wartości zakładu"
      ]
+    },
+    "info": {
+     "stakes": "1. runda – jeden mecz na boisku drużyny z niższej ligi; przy remisie dogrywka i rzuty karne"
     }
    },
    {
@@ -2607,6 +2754,9 @@
      "reasons": [
       "Nie znaleziono wiarygodnych kursów ani danych o składach dla tego meczu – bez kursu nie da się policzyć wartości zakładu"
      ]
+    },
+    "info": {
+     "stakes": "1. runda – jeden mecz na boisku drużyny z niższej ligi; przy remisie dogrywka i rzuty karne"
     }
    },
    {
@@ -2623,6 +2773,9 @@
      "reasons": [
       "Nie znaleziono wiarygodnych kursów ani danych o składach dla tego meczu – bez kursu nie da się policzyć wartości zakładu"
      ]
+    },
+    "info": {
+     "stakes": "1. runda – jeden mecz na boisku drużyny z niższej ligi; przy remisie dogrywka i rzuty karne"
     }
    },
    {
@@ -2639,6 +2792,9 @@
      "reasons": [
       "Nie znaleziono wiarygodnych kursów ani danych o składach dla tego meczu – bez kursu nie da się policzyć wartości zakładu"
      ]
+    },
+    "info": {
+     "stakes": "1. runda – jeden mecz na boisku drużyny z niższej ligi; przy remisie dogrywka i rzuty karne"
     }
    },
    {
@@ -2655,6 +2811,9 @@
      "reasons": [
       "Nie znaleziono wiarygodnych kursów ani danych o składach dla tego meczu – bez kursu nie da się policzyć wartości zakładu"
      ]
+    },
+    "info": {
+     "stakes": "1. runda – jeden mecz na boisku drużyny z niższej ligi; przy remisie dogrywka i rzuty karne"
     }
    },
    {
@@ -2671,6 +2830,9 @@
      "reasons": [
       "Nie znaleziono wiarygodnych kursów ani danych o składach dla tego meczu – bez kursu nie da się policzyć wartości zakładu"
      ]
+    },
+    "info": {
+     "stakes": "1. runda – jeden mecz na boisku drużyny z niższej ligi; przy remisie dogrywka i rzuty karne"
     }
    },
    {
@@ -2687,6 +2849,9 @@
      "reasons": [
       "Nie znaleziono wiarygodnych kursów ani danych o składach dla tego meczu – bez kursu nie da się policzyć wartości zakładu"
      ]
+    },
+    "info": {
+     "stakes": "1. runda – jeden mecz na boisku drużyny z niższej ligi; przy remisie dogrywka i rzuty karne"
     }
    },
    {
@@ -2704,6 +2869,9 @@
      "reasons": [
       "Nie znaleziono wiarygodnych kursów ani danych o składach dla tego meczu – bez kursu nie da się policzyć wartości zakładu"
      ]
+    },
+    "info": {
+     "stakes": "1/16 finału – jeden mecz; przy remisie po 90 min dogrywka i rzuty karne"
     }
    },
    {
@@ -2747,6 +2915,9 @@
      "reasons": [
       "Nie znaleziono wiarygodnych kursów ani danych o składach dla tego meczu – bez kursu nie da się policzyć wartości zakładu"
      ]
+    },
+    "info": {
+     "stakes": "1. runda – jeden mecz na boisku drużyny z niższej ligi; przy remisie dogrywka i rzuty karne"
     }
    },
    {
@@ -2763,6 +2934,9 @@
      "reasons": [
       "Nie znaleziono wiarygodnych kursów ani danych o składach dla tego meczu – bez kursu nie da się policzyć wartości zakładu"
      ]
+    },
+    "info": {
+     "stakes": "1. runda – jeden mecz na boisku drużyny z niższej ligi; przy remisie dogrywka i rzuty karne"
     }
    },
    {
@@ -2779,6 +2953,9 @@
      "reasons": [
       "Nie znaleziono wiarygodnych kursów ani danych o składach dla tego meczu – bez kursu nie da się policzyć wartości zakładu"
      ]
+    },
+    "info": {
+     "stakes": "1. runda – jeden mecz na boisku drużyny z niższej ligi; przy remisie dogrywka i rzuty karne"
     }
    },
    {
@@ -2795,6 +2972,9 @@
      "reasons": [
       "Nie znaleziono wiarygodnych kursów ani danych o składach dla tego meczu – bez kursu nie da się policzyć wartości zakładu"
      ]
+    },
+    "info": {
+     "stakes": "1. runda – jeden mecz na boisku drużyny z niższej ligi; przy remisie dogrywka i rzuty karne"
     }
    },
    {
@@ -2817,7 +2997,8 @@
      "homeAway": "Kiel tylko 8 pkt w 9 meczach 2. Bundesligi; Hoffenheim 3 wygrane z rzędu, ostatnio 3:0 z Leverkusen",
      "h2h": [
       "Hoffenheim wygrał 4/4 mecze, w każdym 4+ gole i obie drużyny strzelały"
-     ]
+     ],
+     "stakes": "2. runda – jeden mecz; przy remisie po 90 min dogrywka i rzuty karne"
     },
     "tip": {
      "decision": "NO BET",
@@ -2847,6 +3028,9 @@
      "reasons": [
       "Mecz dwóch drużyn 2. Bundesligi bez wyraźnego faworyta; brak danych o formie i składach – brak przewagi"
      ]
+    },
+    "info": {
+     "stakes": "2. runda – jeden mecz; przy remisie po 90 min dogrywka i rzuty karne"
     }
    },
    {
@@ -2865,7 +3049,8 @@
      "src": "Najlepsze kursy rynkowe (różni bukmacherzy) wg sportytrader.com, 27.10"
     },
     "info": {
-     "homeAway": "Leverkusen ostatnio przegrał 0:3 w Hoffenheim"
+     "homeAway": "Leverkusen ostatnio przegrał 0:3 w Hoffenheim",
+     "stakes": "2. runda – jeden mecz; przy remisie po 90 min dogrywka i rzuty karne"
     },
     "tip": {
      "decision": "NO BET",
@@ -3026,6 +3211,9 @@
      "reasons": [
       "Nie znaleziono wiarygodnych kursów ani danych o składach dla tego meczu – bez kursu nie da się policzyć wartości zakładu"
      ]
+    },
+    "info": {
+     "stakes": "1. runda – jeden mecz na boisku drużyny z niższej ligi; przy remisie dogrywka i rzuty karne"
     }
    },
    {
@@ -3042,6 +3230,9 @@
      "reasons": [
       "Nie znaleziono wiarygodnych kursów ani danych o składach dla tego meczu – bez kursu nie da się policzyć wartości zakładu"
      ]
+    },
+    "info": {
+     "stakes": "1. runda – jeden mecz na boisku drużyny z niższej ligi; przy remisie dogrywka i rzuty karne"
     }
    },
    {
@@ -3058,6 +3249,9 @@
      "reasons": [
       "Nie znaleziono wiarygodnych kursów ani danych o składach dla tego meczu – bez kursu nie da się policzyć wartości zakładu"
      ]
+    },
+    "info": {
+     "stakes": "1. runda – jeden mecz na boisku drużyny z niższej ligi; przy remisie dogrywka i rzuty karne"
     }
    },
    {
@@ -3074,6 +3268,9 @@
      "reasons": [
       "Nie znaleziono wiarygodnych kursów ani danych o składach dla tego meczu – bez kursu nie da się policzyć wartości zakładu"
      ]
+    },
+    "info": {
+     "stakes": "1. runda – jeden mecz na boisku drużyny z niższej ligi; przy remisie dogrywka i rzuty karne"
     }
    },
    {
@@ -3084,12 +3281,15 @@
     "away": "PT-ACADEMICOD",
     "status": "ns",
     "comp": "Puchar Ligi Portugalskiej (Taça da Liga)",
-    "stage": "Faza grupowa",
+    "stage": "Ćwierćfinał",
     "tip": {
      "decision": "NO BET",
      "reasons": [
       "Nie znaleziono wiarygodnych kursów ani danych o składach dla tego meczu – bez kursu nie da się policzyć wartości zakładu"
      ]
+    },
+    "info": {
+     "stakes": "Ćwierćfinał – jeden mecz, zwycięzca awansuje do turnieju finałowego (Final Four)"
     }
    }
   ],
@@ -3109,6 +3309,9 @@
      "reasons": [
       "Nie znaleziono wiarygodnych kursów ani danych o składach dla tego meczu – bez kursu nie da się policzyć wartości zakładu"
      ]
+    },
+    "info": {
+     "stakes": "1/16 finału – jeden mecz; przy remisie po 90 min dogrywka i rzuty karne"
     }
    },
    {
@@ -3126,6 +3329,9 @@
      "reasons": [
       "Nie znaleziono wiarygodnych kursów ani danych o składach dla tego meczu – bez kursu nie da się policzyć wartości zakładu"
      ]
+    },
+    "info": {
+     "stakes": "1/16 finału – jeden mecz; przy remisie po 90 min dogrywka i rzuty karne"
     }
    },
    {
@@ -3143,6 +3349,9 @@
      "reasons": [
       "Nie znaleziono wiarygodnych kursów ani danych o składach dla tego meczu – bez kursu nie da się policzyć wartości zakładu"
      ]
+    },
+    "info": {
+     "stakes": "1/16 finału – jeden mecz; przy remisie po 90 min dogrywka i rzuty karne"
     }
    },
    {
@@ -3160,6 +3369,9 @@
      "reasons": [
       "Nie znaleziono wiarygodnych kursów ani danych o składach dla tego meczu – bez kursu nie da się policzyć wartości zakładu"
      ]
+    },
+    "info": {
+     "stakes": "1/16 finału – jeden mecz; przy remisie po 90 min dogrywka i rzuty karne"
     }
    },
    {
@@ -3176,6 +3388,9 @@
      "reasons": [
       "Nie znaleziono wiarygodnych kursów ani danych o składach dla tego meczu – bez kursu nie da się policzyć wartości zakładu"
      ]
+    },
+    "info": {
+     "stakes": "1. runda – jeden mecz na boisku drużyny z niższej ligi; przy remisie dogrywka i rzuty karne"
     }
    },
    {
@@ -3192,6 +3407,9 @@
      "reasons": [
       "Nie znaleziono wiarygodnych kursów ani danych o składach dla tego meczu – bez kursu nie da się policzyć wartości zakładu"
      ]
+    },
+    "info": {
+     "stakes": "1. runda – jeden mecz na boisku drużyny z niższej ligi; przy remisie dogrywka i rzuty karne"
     }
    },
    {
@@ -3208,6 +3426,9 @@
      "reasons": [
       "Nie znaleziono wiarygodnych kursów ani danych o składach dla tego meczu – bez kursu nie da się policzyć wartości zakładu"
      ]
+    },
+    "info": {
+     "stakes": "1. runda – jeden mecz na boisku drużyny z niższej ligi; przy remisie dogrywka i rzuty karne"
     }
    },
    {
@@ -3224,6 +3445,9 @@
      "reasons": [
       "Nie znaleziono wiarygodnych kursów ani danych o składach dla tego meczu – bez kursu nie da się policzyć wartości zakładu"
      ]
+    },
+    "info": {
+     "stakes": "1. runda – jeden mecz na boisku drużyny z niższej ligi; przy remisie dogrywka i rzuty karne"
     }
    },
    {
@@ -3234,12 +3458,15 @@
     "away": "PT-FAMALICAO",
     "status": "ns",
     "comp": "Puchar Ligi Portugalskiej (Taça da Liga)",
-    "stage": "Faza grupowa",
+    "stage": "Ćwierćfinał",
     "tip": {
      "decision": "NO BET",
      "reasons": [
       "Nie znaleziono wiarygodnych kursów ani danych o składach dla tego meczu – bez kursu nie da się policzyć wartości zakładu"
      ]
+    },
+    "info": {
+     "stakes": "Ćwierćfinał – jeden mecz, zwycięzca awansuje do turnieju finałowego (Final Four)"
     }
    },
    {
@@ -3256,6 +3483,9 @@
      "reasons": [
       "Nie znaleziono wiarygodnych kursów ani danych o składach dla tego meczu – bez kursu nie da się policzyć wartości zakładu"
      ]
+    },
+    "info": {
+     "stakes": "1. runda – jeden mecz na boisku drużyny z niższej ligi; przy remisie dogrywka i rzuty karne"
     }
    },
    {
@@ -3272,6 +3502,9 @@
      "reasons": [
       "Nie znaleziono wiarygodnych kursów ani danych o składach dla tego meczu – bez kursu nie da się policzyć wartości zakładu"
      ]
+    },
+    "info": {
+     "stakes": "1. runda – jeden mecz na boisku drużyny z niższej ligi; przy remisie dogrywka i rzuty karne"
     }
    },
    {
@@ -3288,6 +3521,9 @@
      "reasons": [
       "Nie znaleziono wiarygodnych kursów ani danych o składach dla tego meczu – bez kursu nie da się policzyć wartości zakładu"
      ]
+    },
+    "info": {
+     "stakes": "1. runda – jeden mecz na boisku drużyny z niższej ligi; przy remisie dogrywka i rzuty karne"
     }
    },
    {
@@ -3304,6 +3540,9 @@
      "reasons": [
       "Nie znaleziono wiarygodnych kursów ani danych o składach dla tego meczu – bez kursu nie da się policzyć wartości zakładu"
      ]
+    },
+    "info": {
+     "stakes": "1. runda – jeden mecz na boisku drużyny z niższej ligi; przy remisie dogrywka i rzuty karne"
     }
    },
    {
@@ -3320,6 +3559,9 @@
      "reasons": [
       "Nie znaleziono wiarygodnych kursów ani danych o składach dla tego meczu – bez kursu nie da się policzyć wartości zakładu"
      ]
+    },
+    "info": {
+     "stakes": "1. runda – jeden mecz na boisku drużyny z niższej ligi; przy remisie dogrywka i rzuty karne"
     }
    },
    {
@@ -3336,6 +3578,9 @@
      "reasons": [
       "Nie znaleziono wiarygodnych kursów ani danych o składach dla tego meczu – bez kursu nie da się policzyć wartości zakładu"
      ]
+    },
+    "info": {
+     "stakes": "1. runda – jeden mecz na boisku drużyny z niższej ligi; przy remisie dogrywka i rzuty karne"
     }
    },
    {
@@ -3353,6 +3598,9 @@
      "reasons": [
       "Nie znaleziono wiarygodnych kursów ani danych o składach dla tego meczu – bez kursu nie da się policzyć wartości zakładu"
      ]
+    },
+    "info": {
+     "stakes": "1/16 finału – jeden mecz; przy remisie po 90 min dogrywka i rzuty karne"
     }
    },
    {
@@ -3396,6 +3644,9 @@
      "reasons": [
       "Nie znaleziono wiarygodnych kursów ani danych o składach dla tego meczu – bez kursu nie da się policzyć wartości zakładu"
      ]
+    },
+    "info": {
+     "stakes": "1. runda – jeden mecz na boisku drużyny z niższej ligi; przy remisie dogrywka i rzuty karne"
     }
    },
    {
@@ -3412,6 +3663,9 @@
      "reasons": [
       "Nie znaleziono wiarygodnych kursów ani danych o składach dla tego meczu – bez kursu nie da się policzyć wartości zakładu"
      ]
+    },
+    "info": {
+     "stakes": "1. runda – jeden mecz na boisku drużyny z niższej ligi; przy remisie dogrywka i rzuty karne"
     }
    },
    {
@@ -3428,6 +3682,9 @@
      "reasons": [
       "Nie znaleziono wiarygodnych kursów ani danych o składach dla tego meczu – bez kursu nie da się policzyć wartości zakładu"
      ]
+    },
+    "info": {
+     "stakes": "1. runda – jeden mecz na boisku drużyny z niższej ligi; przy remisie dogrywka i rzuty karne"
     }
    },
    {
@@ -3444,6 +3701,9 @@
      "reasons": [
       "Nie znaleziono wiarygodnych kursów ani danych o składach dla tego meczu – bez kursu nie da się policzyć wartości zakładu"
      ]
+    },
+    "info": {
+     "stakes": "1. runda – jeden mecz na boisku drużyny z niższej ligi; przy remisie dogrywka i rzuty karne"
     }
    },
    {
@@ -3454,12 +3714,15 @@
     "away": "PT-GILVICENTE",
     "status": "ns",
     "comp": "Puchar Ligi Portugalskiej (Taça da Liga)",
-    "stage": "Faza grupowa",
+    "stage": "Ćwierćfinał",
     "tip": {
      "decision": "NO BET",
      "reasons": [
       "Nie znaleziono wiarygodnych kursów ani danych o składach dla tego meczu – bez kursu nie da się policzyć wartości zakładu"
      ]
+    },
+    "info": {
+     "stakes": "Ćwierćfinał – jeden mecz, zwycięzca awansuje do turnieju finałowego (Final Four)"
     }
    }
   ]
