@@ -260,9 +260,9 @@ select{width:100%;font:500 15px var(--f-body);padding:10px 12px;border-radius:8p
 .rank{display:grid;grid-template-columns:auto 1fr auto;gap:10px;align-items:center;padding:12px;border:0;border-top:1px solid var(--line);background:none;width:100%;color:inherit;font:inherit;text-align:left;cursor:pointer}
 .rank:first-child{border-top:0}
 .medal{font:800 11px var(--f-display);letter-spacing:.06em;padding:4px 7px;border-radius:4px;color:#1b1206}
-.m1{background:#e2b31c}.m2{background:#c3c8c5}.m3{background:#d0915a}
+.m0{background:color-mix(in srgb,var(--fg) 14%,transparent);color:var(--fg)}.m1{background:#e2b31c}.m2{background:#c3c8c5}.m3{background:#d0915a}
 .rank small{display:block;color:var(--muted);font-size:12px;margin-top:2px}
-.rank .ev{font-family:var(--f-data);font-weight:600;color:#2f8a52;text-align:right;font-size:13px}
+.rank .ev{display:block;border:0;padding:0;white-space:nowrap;font-family:var(--f-data);font-weight:600;color:#2f8a52;text-align:right;font-size:13px}
 .rank .ev small{text-align:right}
 .resp{font-size:11px;color:var(--muted);text-align:center;line-height:1.5}
 
@@ -1150,16 +1150,25 @@ function renderToday(){
   $("#nav").hidden=true;
   const loading=DATA_LEAGUES.some(c=>LD[c]===undefined||LD[c]==="loading");
   const plus=n=>{const d=new Date(TODAY+"T12:00:00");d.setDate(d.getDate()+n);return d.toLocaleDateString("sv-SE")};
-  const from=plus(-1), to=plus(7), favRows=[], groups=[];
+  const from=plus(-1), to=plus(7), favRows=[], groups=[], tips=[]; let nsToday=0;
   for(const c of DATA_LEAGUES){
     if(!LD[c]||LD[c]==="loading") continue;
     applyLeague(c); if(!DATA) continue;
     const fx=allFx(), today=fx.filter(f=>f.date===TODAY).sort((a,b)=>a.time.localeCompare(b.time));
     if(FAV.length) fx.filter(f=>f.date>=from&&f.date<=to).forEach(f=>{const m=getMatch(f);if(isFav(m.home.name)||isFav(m.away.name))favRows.push({k:f.date+f.time,html:matchRow(f,c),d:f.date})});
+    for(const f of today){ if(f.pst) continue; if(f.kind==="ns") nsToday++; const m=getMatch(f), t=tipOf(m); if(t&&t.decision==="BET") tips.push({c,f,m,t,ns:f.kind==="ns"}); }
     if(today.length){const live=today.filter(f=>f.kind==="live").length;groups.push({c,live,html:today.map(f=>matchRow(f,c)).join("")});}
   }
   DATA=null; TEAMS={}; FIXTURES={}; for(const k in CACHE) delete CACHE[k];
   let html="";
+  if(tips.length||nsToday){
+    tips.sort((a,b)=>(b.ns-a.ns)||((b.t.rating||0)-(a.t.rating||0))||((b.t.ev||0)-(a.t.ev||0))||a.f.time.localeCompare(b.f.time));
+    const names=["TOP PICK","SECOND","THIRD"];
+    const body=tips.length?tips.map((x,i)=>{const lbl=x.ns?(i<3?`<span class="medal m${i+1}">${names[i]}</span>`:`<span class="medal m0">TYP</span>`):`<span class="medal m0">${x.f.kind==="live"?"LIVE":"KON."}</span>`;
+      return `<button class="rank" data-tip="${esc(x.m.id)}" data-lg="${x.c}">${lbl}<span><b>${esc(x.t.market)}</b><small>${esc(x.m.home.name)} – ${esc(x.m.away.name)} · ${esc(leagueName(x.c))} · ${x.f.time}</small></span><span class="ev">${x.t.odds?x.t.odds.toFixed(2):""}<small>EV ${x.t.ev!=null?evTxt(x.t.ev):"—"} · ${x.t.rating}/10</small></span></button>`}).join("")
+      :`<div class="empty"><b style="color:var(--fg)">BRAK WARTOŚCIOWEGO TYPU — NO BET.</b><br>Żaden dzisiejszy mecz nie daje wystarczającej przewagi.</div>`;
+    html+=`<section class="panel"><div class="day"><h2>Typy na dziś</h2><small>wszystkie ligi${loading?" · wczytuję…":""}</small></div><div class="card">${body}</div>${RESP}</section>`;
+  }
   if(FAV.length){
     favRows.sort((a,b)=>a.k.localeCompare(b.k));
     html+=`<section class="panel"><div class="day"><h2>★ Twoje drużyny</h2><small>wczoraj – 7 dni</small></div><div class="card">${favRows.length?favRows.slice(0,12).map(r=>r.html).join(""):'<div class="hint">Twoje drużyny nie grają w najbliższych dniach.</div>'}</div></section>`;
@@ -1218,7 +1227,7 @@ document.addEventListener("keydown",e=>{ if(e.key==="Escape") setSide(false); })
 window.addEventListener("popstate",()=>{ if(state.view==="match") goHome(); });
 $("#tabs").addEventListener("click",e=>{const b=e.target.closest("button");if(!b)return;if(b.dataset.home){$("#back").click();return}state.tab=b.dataset.t;$("#main").scrollTop=0;render()});
 $("#view").addEventListener("click",e=>{
-  const tp=e.target.closest("[data-tip]"); if(tp){openMatch(tp.dataset.tip);state.tab="szanse";render();return}
+  const tp=e.target.closest("[data-tip]"); if(tp){ if(tp.dataset.lg&&state.league===TODAY_ID){ state.ret=TODAY_ID; state.league=tp.dataset.lg; applyLeague(tp.dataset.lg); } openMatch(tp.dataset.tip);state.tab="szanse";render();return}
   const rt=e.target.closest("[data-retry]"); if(rt){ delete LD[rt.dataset.retry]; activate(rt.dataset.retry); return; }
   const m=e.target.closest("[data-mid]"); if(m){ if(m.dataset.lg&&state.league===TODAY_ID){ state.ret=TODAY_ID; state.league=m.dataset.lg; applyLeague(m.dataset.lg); } openMatch(m.dataset.mid); return; }
   const f=e.target.closest("[data-filter]"); if(f){state.filter=f.dataset.filter;render();return}
