@@ -301,6 +301,23 @@ button:focus-visible,select:focus-visible{outline:2px solid var(--accent);outlin
   body::before{left:260px}
   .menu,.scrim{display:none!important}
 }
+
+/* Dziś, ulubione, udostępnianie */
+.sample.stale{border-color:var(--accent);color:#1b1206;background:var(--accent);opacity:1}
+.today{width:100%;display:flex;align-items:center;gap:10px;background:none;border:0;color:var(--fg);font:700 16px var(--f-display);letter-spacing:.05em;text-transform:uppercase;padding:10px 8px;border-radius:8px;cursor:pointer;text-align:left;margin-bottom:4px}
+.today svg{width:20px;height:20px;flex:none;stroke:currentColor;fill:none;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+.today small{display:block;font:500 11px var(--f-body);letter-spacing:0;text-transform:none;color:var(--muted)}
+.today:hover{background:color-mix(in srgb,var(--fg) 7%,transparent)}
+.today[aria-pressed="true"]{background:var(--pitch);color:var(--pitch-ink)}
+.today[aria-pressed="true"] small{color:var(--pitch-ink);opacity:.8}
+.favbtn{background:none;border:0;color:var(--pitch-ink);font-size:20px;line-height:1;padding:2px 6px;cursor:pointer;opacity:.55}
+.favbtn[aria-pressed="true"]{color:var(--yellow);opacity:1}
+.side .star{color:var(--yellow);font-size:12px;flex:none}
+.acts{display:flex;justify-content:center;gap:8px;margin-top:12px}
+.acts button{background:rgba(255,255,255,.14);border:0;color:var(--pitch-ink);font:600 12px var(--f-body);padding:6px 12px;border-radius:999px;cursor:pointer}
+.acts button:hover{background:rgba(255,255,255,.24)}
+.retry{margin-top:12px;border:1px solid var(--line);background:var(--fg);color:var(--bg);font:600 13px var(--f-body);padding:8px 16px;border-radius:999px;cursor:pointer}
+.hint{font-size:13px;color:var(--muted);text-align:center;padding:14px 16px;line-height:1.5}
 </style>
 
 </head>
@@ -580,40 +597,79 @@ const LEAGUES=[["EKS","Ekstraklasa","Polska"],["PL","Premier League","Anglia"],[
 const SPORTS=[
  {id:"fb",name:"Piłka nożna",leagues:["EKS","PL","LL","SA","BL","L1","UCL","CUP"],icon:'<circle cx="12" cy="12" r="9.5"/><path d="M12 7.2l4 2.9-1.5 4.7h-5L8 10.1z"/><path d="M12 7.2V2.6M16 10.1l4.3-1.6M14.5 14.8l2.8 3.8M9.5 14.8l-2.8 3.8M8 10.1L3.7 8.5"/>'},
  {id:"bb",name:"Koszykówka",leagues:["NBA"],icon:'<circle cx="12" cy="12" r="9.5"/><path d="M2.5 12h19M12 2.5v19"/><path d="M5.3 5.3a13 13 0 0 1 0 13.4M18.7 5.3a13 13 0 0 0 0 13.4"/>'}];
+const TODAY_ID="DZIS", DATA_LEAGUES=["EKS","PL","LL","SA","BL","L1","UCL","CUP","NBA"];
 const isBB=()=>!!(DATA&&DATA.sport==="basketball");
 const isDays=()=>!!(DATA&&DATA.days);
 const COMPORD=["Puchar Polski","Puchar Ligi Angielskiej","Puchar Niemiec","Puchar Króla","Puchar Włoch","Puchar Francji","Puchar Ligi Portugalskiej"];
 const compRank=c=>{const i=COMPORD.findIndex(x=>(c||"").startsWith(x));return i<0?99:i};
-const leagueName=c=>(LEAGUES.find(l=>l[0]===c)||[c,c])[1];
+const leagueName=c=>c==="DZIS"?"Dziś":(LEAGUES.find(l=>l[0]===c)||[c,c])[1];
 state.fold={fb:true,bb:true};
-try{const s=JSON.parse(localStorage.getItem("meczownik2")||"{}");["filter","league","fold"].forEach(k=>{if(s[k]!=null)state[k]=s[k]});if(!LEAGUES.some(l=>l[0]===state.league))state.league="EKS";if(typeof state.fold!=="object"||!state.fold)state.fold={fb:state.fold!==false,bb:true}}catch(e){}
-const save=()=>{try{localStorage.setItem("meczownik2",JSON.stringify({filter:state.filter,league:state.league,fold:state.fold}))}catch(e){}};
+try{const s=JSON.parse(localStorage.getItem("meczownik2")||"{}");["filter","league","fold"].forEach(k=>{if(s[k]!=null)state[k]=s[k]});if(state.league!==TODAY_ID&&!LEAGUES.some(l=>l[0]===state.league))state.league="EKS";if(typeof state.fold!=="object"||!state.fold)state.fold={fb:state.fold!==false,bb:true}}catch(e){}
+const save=()=>{try{localStorage.setItem("meczownik2",JSON.stringify({filter:state.filter,league:state.ret||state.league,fold:state.fold}))}catch(e){}};
 const SAMPLE={teams:TEAMS,fixtures:FIXTURES}, LD={};
 function fetchJSON(u){return fetch(u+"?v="+Date.now()).then(r=>r.ok?r.json():Promise.reject(r.status))}
 function fetchLeague(c){return fetchJSON(`data/${c}.json`).catch(()=>c==="EKS"?fetchJSON("data.json"):Promise.reject()).catch(()=>null)}
 function applyLeague(c){
   const d=LD[c]; for(const k in CACHE) delete CACHE[k];
   if(d&&d!=="loading"){ try{loadReal(d);return}catch(e){} }
-  DATA=null;
-  if(c==="EKS"&&d===null){ TEAMS=SAMPLE.teams; FIXTURES=SAMPLE.fixtures; state.round=14; }
-  else { TEAMS={}; FIXTURES={}; }
+  DATA=null; TEAMS={}; FIXTURES={};
+}
+function loadLeague(c){
+  if(LD[c]!==undefined&&LD[c]!=="loading") return Promise.resolve(LD[c]);
+  if(LD["_p"+c]) return LD["_p"+c];
+  LD[c]="loading";
+  return LD["_p"+c]=fetchLeague(c).then(x=>{LD[c]=x; delete LD["_p"+c]; return x;});
 }
 function activate(c){
-  state.league=c; state.filter="all"; state.comp="all"; save();
-  if(LD[c]===undefined){ LD[c]="loading"; applyLeague(c); render(); fetchLeague(c).then(x=>{LD[c]=x; if(state.league===c){applyLeague(c); if(state.view==="home") render();}}); return; }
+  state.league=c; state.filter="all"; state.comp="all"; state.ret=null; save();
+  if(c===TODAY_ID){ applyLeague(c); render(); Promise.all(DATA_LEAGUES.map(loadLeague)).then(()=>{ if(state.league===TODAY_ID&&state.view==="home") render(); }); return; }
+  if(LD[c]===undefined||LD[c]==="loading"){ applyLeague(c); render(); loadLeague(c).then(()=>{ if(state.league===c){ applyLeague(c); if(state.pending){ const p=state.pending; state.pending=null; if(allFx().some(f=>f.id===p)) openMatch(p,false); else render(); } else if(state.view==="home") render(); } }); return; }
   applyLeague(c); render();
+}
+/* ---------- Ulubione drużyny (po nazwie — działa też w pucharach) ---------- */
+let FAV=[]; try{ FAV=JSON.parse(localStorage.getItem("meczownik-fav")||"[]"); if(!Array.isArray(FAV)) FAV=[]; }catch(e){ FAV=[]; }
+const isFav=n=>!!n&&FAV.includes(n);
+function toggleFav(n){ FAV=isFav(n)?FAV.filter(x=>x!==n):[...FAV,n]; try{localStorage.setItem("meczownik-fav",JSON.stringify(FAV))}catch(e){} }
+/* ---------- Udostępnianie i kalendarz ---------- */
+function warsawToUTC(date,time){
+  const [y,mo,d]=date.split("-").map(Number), [h,mi]=time.split(":").map(Number), t=Date.UTC(y,mo-1,d,h,mi);
+  const p=Object.fromEntries(new Intl.DateTimeFormat("en-GB",{timeZone:"Europe/Warsaw",hourCycle:"h23",year:"numeric",month:"2-digit",day:"2-digit",hour:"2-digit",minute:"2-digit"}).formatToParts(new Date(t)).map(x=>[x.type,x.value]));
+  const off=Date.UTC(+p.year,+p.month-1,+p.day,+p.hour,+p.minute)-t;
+  return new Date(t-off);
+}
+const icsDate=d=>d.toISOString().replace(/[-:]/g,"").replace(/\.\d{3}/,"");
+const icsEsc=s=>String(s).replace(/[\\;,]/g,c=>"\\"+c).replace(/\n/g,"\\n");
+function matchLink(){ return location.origin+location.pathname+"#m="+encodeURIComponent(state.league)+"/"+encodeURIComponent(M.id); }
+function shareMatch(btn){
+  const title=`${M.home.name} – ${M.away.name}`, url=matchLink();
+  if(navigator.share){ navigator.share({title,text:title+" · Meczownik",url}).catch(()=>{}); return; }
+  const done=()=>{ btn.textContent="Skopiowano link"; setTimeout(()=>{btn.textContent="Udostępnij"},1800); };
+  try{ navigator.clipboard.writeText(url).then(done,()=>prompt("Link do meczu:",url)); }catch(e){ prompt("Link do meczu:",url); }
+}
+function icsMatch(){
+  const s=warsawToUTC(M.date,M.time), e=new Date(s.getTime()+(M.bb?150:115)*60000), comp=M.comp?M.comp.replace(/ \(.*\)$/,""):leagueName(state.league);
+  const where=M.venue&&M.venue.name?M.venue.name+(M.venue.city?", "+M.venue.city:""):M.arena&&M.arena.name?M.arena.name:(M.home.stadium||"");
+  const ics=["BEGIN:VCALENDAR","VERSION:2.0","PRODID:-//Meczownik//PL","CALSCALE:GREGORIAN","BEGIN:VEVENT",
+    "UID:"+M.id+"@meczownik","DTSTAMP:"+icsDate(new Date()),"DTSTART:"+icsDate(s),"DTEND:"+icsDate(e),
+    "SUMMARY:"+icsEsc(`${M.home.name} – ${M.away.name} (${comp})`),where?"LOCATION:"+icsEsc(where):"","DESCRIPTION:"+icsEsc(matchLink()),
+    "BEGIN:VALARM","TRIGGER:-PT30M","ACTION:DISPLAY","DESCRIPTION:"+icsEsc(`${M.home.name} – ${M.away.name} za 30 min`),"END:VALARM",
+    "END:VEVENT","END:VCALENDAR"].filter(Boolean).join("\r\n");
+  const a=document.createElement("a"); a.href=URL.createObjectURL(new Blob([ics],{type:"text/calendar;charset=utf-8"}));
+  a.download=`${M.home.short||"mecz"}-${M.away.short||""}-${M.date}.ics`; document.body.appendChild(a); a.click(); setTimeout(()=>{URL.revokeObjectURL(a.href);a.remove()},1000);
 }
 let M=null, G=[];
 
 /* ---------- Ekran główny ---------- */
-const badge=()=>DATA?`<span class="sample">AKT. ${new Date(DATA.updated).toLocaleString("pl-PL",{day:"2-digit",month:"2-digit",hour:"2-digit",minute:"2-digit",timeZone:"Europe/Warsaw"})}</span>`:`<span class="sample">DANE PRZYKŁADOWE</span>`;
+const isStale=u=>!u||Date.now()-new Date(u).getTime()>26*3600e3;
+const badge=()=>DATA?`<span class="sample${isStale(DATA.updated)?" stale":""}" title="${isStale(DATA.updated)?"Dane mogą być nieaktualne — ostatnia aktualizacja ponad dobę temu":"Ostatnia aktualizacja danych"}">${isStale(DATA.updated)?"⚠ ":""}AKT. ${new Date(DATA.updated).toLocaleString("pl-PL",{day:"2-digit",month:"2-digit",hour:"2-digit",minute:"2-digit",timeZone:"Europe/Warsaw"})}</span>`:`<span class="sample">DANE PRZYKŁADOWE</span>`;
 function renderHome(){
+  if(state.league===TODAY_ID) return renderToday();
   const rounds=Object.keys(FIXTURES).map(Number).sort((a,b)=>a-b);
   const MENU=`<button class="menu" id="menu" aria-label="Pokaż ligi" aria-controls="side"><svg viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>`;
   const ld=LD[state.league];
   if(!rounds.length){
     $("#head").innerHTML=`<div class="wrap"><div class="meta"><span class="lhs">${MENU}<span>${esc(leagueName(state.league))}</span></span></div><div class="apptitle">Meczownik</div><div class="appsub">Wyniki, sędziowie, składy, statystyki i typy</div></div>`;
-    $("#view").innerHTML=ld==="loading"?'<div class="card empty">Wczytuję mecze…</div>':`<div class="card empty">Brak danych dla ligi ${esc(leagueName(state.league))}.<br>Mecze pojawią się po najbliższej porannej aktualizacji.</div>`;
+    $("#view").innerHTML=ld==="loading"?'<div class="card empty">Wczytuję mecze…</div>':ld===null?`<div class="card empty">Nie udało się wczytać danych ligi ${esc(leagueName(state.league))}.<br>Sprawdź połączenie z internetem.<br><button class="retry" data-retry="${state.league}">Spróbuj ponownie</button></div>`:`<div class="card empty">Brak danych dla ligi ${esc(leagueName(state.league))}.<br>Mecze pojawią się po najbliższej porannej aktualizacji.</div>`;
     $("#nav").hidden=true; return;
   }
   if(!FIXTURES[state.round]) state.round=rounds[rounds.length-1];
@@ -638,13 +694,8 @@ function renderHome(){
   for(const d of [...new Set(list.map(f=>f.date))]){
     const rows=list.filter(f=>f.date===d).sort((a,b)=>compRank(a.raw.comp)-compRank(b.raw.comp)||String(a.raw.comp||"").localeCompare(String(b.raw.comp||""),"pl")||a.time.localeCompare(b.time)).map((f,i,arr)=>{
       const bar=f.raw.comp&&(i===0||arr[i-1].raw.comp!==f.raw.comp)?`<div class="period">${esc(f.raw.comp)}${f.raw.stage?" · "+esc(f.raw.stage):""}</div>`:"";
-      const m=getMatch(f), [gh,ga]=scoreOf(m);
-      const rcH=m.events.some(e=>e.t==="rc"&&e.s_==="h"), rcA=m.events.some(e=>e.t==="rc"&&e.s_==="a");
-      const played=f.kind!=="ns", res=(a,b)=>!played||f.kind==="live"?"":a>b?"win":a<b?"lose":"";
-      const when=f.pst?`<div class="when"><b style="font-size:14px">PRZEŁ.</b><small>${f.time}</small></div>`:f.kind==="live"?`<div class="when live"><b>${m.status.min}</b><small><i class="pulse"></i>LIVE</small></div>`:f.kind==="ft"?`<div class="when"><b>KON.</b><small>${f.time}</small></div>`:`<div class="when"><b>${f.time}</b><small>${dayShort(f.date).split(",")[0]}</small></div>`;
-      return bar+`<button class="match" data-mid="${f.id}">${when}
-        <div class="sides"><div class="side ${res(gh,ga)}"><i class="c" style="background:${m.home.col}"></i><span>${esc(m.home.name)}</span></div><div class="side ${res(ga,gh)}"><i class="c" style="background:${m.away.col}"></i><span>${esc(m.away.name)}</span></div></div>
-        <div class="goals ${f.kind==="live"?"live":""}">${played?`<span>${rcH?'<i class="rc"></i>':""}${gh}</span><span>${rcA?'<i class="rc"></i>':""}${ga}</span>`:`<span style="color:var(--muted)">–</span><span style="color:var(--muted)">–</span>`}</div></button>`}).join("");
+      return bar+matchRow(f);
+    }).join("");
     html+=`<section class="panel"><div class="day"><h2>${dayLabel(d)}</h2>${d===TODAY?"<small>dzisiaj</small>":""}</div><div class="card">${rows}</div></section>`;
   }
   if(DATA&&DATA.note) html+=`<div class="legend" style="justify-content:center;text-align:center">${esc(DATA.note)}</div>`;
@@ -657,12 +708,13 @@ function renderBoard(){
   const [gh,ga]=scoreOf(M), k=M.status.kind;
   const sl=s=>G.filter(e=>e.s_===s).map(e=>`${esc(String(e.who||"").split(" ").pop())} ${e.m}'${e.t==="pen"?" (k)":e.t==="og"?" (sam.)":""}`).join("<br>");
   $("#head").innerHTML=`<div class="wrap">
-    <div class="meta"><button class="back" id="back"><svg viewBox="0 0 24 24"><path d="M15 5l-7 7 7 7"/></svg>Wszystkie mecze</button><span>${esc(M.comp?M.comp.replace(/ \(.*\)$/,""):leagueName(state.league))} · ${M.bb||M.comp?dayShort(M.date):M.round+". kol."}</span></div>
+    <div class="meta"><button class="back" id="back"><svg viewBox="0 0 24 24"><path d="M15 5l-7 7 7 7"/></svg>${state.ret===TODAY_ID?"Dziś":"Wszystkie mecze"}</button><span>${esc(M.comp?M.comp.replace(/ \(.*\)$/,""):leagueName(state.league))} · ${M.bb||M.comp?dayShort(M.date):M.round+". kol."}</span></div>
     <div class="score">
-      <div class="team"><div class="crest" style="background:${M.home.col}">${M.home.short}</div><b>${esc(M.home.name)}</b></div>
+      <div class="team"><div class="crest" style="background:${M.home.col}">${M.home.short}</div><b>${esc(M.home.name)}</b><button class="favbtn" data-fav="home" aria-pressed="${isFav(M.home.name)}" aria-label="${isFav(M.home.name)?"Usuń z ulubionych":"Dodaj do ulubionych"}: ${esc(M.home.name)}">${isFav(M.home.name)?"★":"☆"}</button></div>
       <div>${k==="ns"?`<div class="nums ko">${M.time}</div><div class="status"><span class="chip">${M.status.pst?M.status.label.toUpperCase():dayShort(M.date)}</span></div>`:`<div class="nums">${gh}:${ga}</div><div class="status">${k==="live"?`<span class="chip live">${M.status.min}</span><span class="chip">${M.status.code}</span>`:`<span class="chip">KONIEC</span>`}</div>`}</div>
-      <div class="team"><div class="crest" style="background:${M.away.col}">${M.away.short}</div><b>${esc(M.away.name)}</b></div>
-    </div>${G.length?`<div class="scorers"><div>${sl("h")}</div><div>${sl("a")}</div></div>`:""}</div>`;
+      <div class="team"><div class="crest" style="background:${M.away.col}">${M.away.short}</div><b>${esc(M.away.name)}</b><button class="favbtn" data-fav="away" aria-pressed="${isFav(M.away.name)}" aria-label="${isFav(M.away.name)?"Usuń z ulubionych":"Dodaj do ulubionych"}: ${esc(M.away.name)}">${isFav(M.away.name)?"★":"☆"}</button></div>
+    </div>${G.length?`<div class="scorers"><div>${sl("h")}</div><div>${sl("a")}</div></div>`:""}
+    <div class="acts"><button data-share>Udostępnij</button>${k==="ns"&&/^\d{1,2}:\d{2}$/.test(M.time||"")&&!M.status.pst?`<button data-ics>Dodaj do kalendarza</button>`:""}</div></div>`;
 }
 
 const ICONS={
@@ -1083,6 +1135,42 @@ const VB={
     return h+infoSection(M)+(t?RESP:"")+`</div>`;
   }
 };
+function matchRow(f,lg){
+      const m=getMatch(f), [gh,ga]=scoreOf(m);
+      const rcH=m.events.some(e=>e.t==="rc"&&e.s_==="h"), rcA=m.events.some(e=>e.t==="rc"&&e.s_==="a");
+      const played=f.kind!=="ns", res=(a,b)=>!played||f.kind==="live"?"":a>b?"win":a<b?"lose":"";
+      const when=f.pst?`<div class="when"><b style="font-size:14px">PRZEŁ.</b><small>${f.time}</small></div>`:f.kind==="live"?`<div class="when live"><b>${m.status.min}</b><small><i class="pulse"></i>LIVE</small></div>`:f.kind==="ft"?`<div class="when"><b>KON.</b><small>${f.time}</small></div>`:`<div class="when"><b>${f.time}</b><small>${dayShort(f.date).split(",")[0]}</small></div>`;
+      return `<button class="match" data-mid="${f.id}"${lg?` data-lg="${lg}"`:""}>${when}
+        <div class="sides"><div class="side ${res(gh,ga)}"><i class="c" style="background:${m.home.col}"></i>${isFav(m.home.name)?'<span class="star" aria-label="ulubiona">★</span>':""}<span>${esc(m.home.name)}</span></div><div class="side ${res(ga,gh)}"><i class="c" style="background:${m.away.col}"></i>${isFav(m.away.name)?'<span class="star" aria-label="ulubiona">★</span>':""}<span>${esc(m.away.name)}</span></div></div>
+        <div class="goals ${f.kind==="live"?"live":""}">${played?`<span>${rcH?'<i class="rc"></i>':""}${gh}</span><span>${rcA?'<i class="rc"></i>':""}${ga}</span>`:`<span style="color:var(--muted)">–</span><span style="color:var(--muted)">–</span>`}</div></button>`
+}
+function renderToday(){
+  const MENU=`<button class="menu" id="menu" aria-label="Pokaż ligi" aria-controls="side"><svg viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>`;
+  $("#head").innerHTML=`<div class="wrap"><div class="meta"><span class="lhs">${MENU}<span>Dziś · wszystkie ligi</span></span></div><div class="apptitle">Meczownik</div><div class="appsub">${esc(dayLabel(TODAY))} · czas polski</div></div>`;
+  $("#nav").hidden=true;
+  const loading=DATA_LEAGUES.some(c=>LD[c]===undefined||LD[c]==="loading");
+  const plus=n=>{const d=new Date(TODAY+"T12:00:00");d.setDate(d.getDate()+n);return d.toLocaleDateString("sv-SE")};
+  const from=plus(-1), to=plus(7), favRows=[], groups=[];
+  for(const c of DATA_LEAGUES){
+    if(!LD[c]||LD[c]==="loading") continue;
+    applyLeague(c); if(!DATA) continue;
+    const fx=allFx(), today=fx.filter(f=>f.date===TODAY).sort((a,b)=>a.time.localeCompare(b.time));
+    if(FAV.length) fx.filter(f=>f.date>=from&&f.date<=to).forEach(f=>{const m=getMatch(f);if(isFav(m.home.name)||isFav(m.away.name))favRows.push({k:f.date+f.time,html:matchRow(f,c),d:f.date})});
+    if(today.length){const live=today.filter(f=>f.kind==="live").length;groups.push({c,live,html:today.map(f=>matchRow(f,c)).join("")});}
+  }
+  DATA=null; TEAMS={}; FIXTURES={}; for(const k in CACHE) delete CACHE[k];
+  let html="";
+  if(FAV.length){
+    favRows.sort((a,b)=>a.k.localeCompare(b.k));
+    html+=`<section class="panel"><div class="day"><h2>★ Twoje drużyny</h2><small>wczoraj – 7 dni</small></div><div class="card">${favRows.length?favRows.slice(0,12).map(r=>r.html).join(""):'<div class="hint">Twoje drużyny nie grają w najbliższych dniach.</div>'}</div></section>`;
+  }
+  groups.sort((a,b)=>(b.live>0)-(a.live>0)||DATA_LEAGUES.indexOf(a.c)-DATA_LEAGUES.indexOf(b.c));
+  for(const g of groups) html+=`<section class="panel"><div class="day"><h2>${esc(leagueName(g.c))}</h2>${g.live?`<small style="color:var(--accent)">na żywo: ${g.live}</small>`:""}</div><div class="card">${g.html}</div></section>`;
+  if(!groups.length) html+=`<div class="card empty">${loading?"Wczytuję mecze ze wszystkich lig…":"Dziś nie ma meczów w żadnej lidze."}</div>`;
+  else if(loading) html+=`<div class="hint">Wczytuję pozostałe ligi…</div>`;
+  if(!FAV.length) html+=`<div class="hint">Wskazówka: dotknij ☆ przy nazwie drużyny w widoku meczu, aby dodać ją do ulubionych — jej mecze pojawią się tu na górze.</div>`;
+  $("#view").innerHTML=html;
+}
 function renderMatch(){
   renderBoard(); buildTabs(!!M.bb);
   const VV=M.bb?VB:V; if(!VV[state.tab]) state.tab="mecz";
@@ -1091,7 +1179,7 @@ function renderMatch(){
   document.querySelectorAll("nav button[data-t]").forEach(b=>b.setAttribute("aria-selected",b.dataset.t===state.tab));
 }
 function renderSide(){
-  $("#side").innerHTML=`<h3>Meczownik</h3>`+SPORTS.map(sp=>{const open=state.fold[sp.id]!==false;
+  $("#side").innerHTML=`<h3>Meczownik</h3><button class="today" data-league="${TODAY_ID}" aria-pressed="${state.league===TODAY_ID&&!state.ret}"><svg viewBox="0 0 24 24"><rect x="3.5" y="5" width="17" height="15" rx="2"/><path d="M3.5 10h17M8 3v4M16 3v4"/></svg><span>Dziś<small>Wszystkie ligi i Twoje drużyny</small></span></button>`+SPORTS.map(sp=>{const open=state.fold[sp.id]!==false;
     return `<button class="folder" data-fold="${sp.id}" aria-expanded="${open}" aria-controls="lg-${sp.id}"><svg class="ball" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round">${sp.icon}</svg>${sp.name}<svg class="chev" viewBox="0 0 24 24"><path d="M9 5l7 7-7 7"/></svg></button>
   <div class="lglist" id="lg-${sp.id}" role="group" aria-label="${sp.name} – wybór ligi" ${open?"":"hidden"}>${sp.leagues.map(c=>LEAGUES.find(l=>l[0]===c)).map(([c,n,k])=>`<button class="lg" data-league="${c}" aria-pressed="${state.league===c}">${n}<small>${k}</small></button>`).join("")}</div>`}).join("");
 }
@@ -1104,7 +1192,7 @@ function openMatch(id,push=true){
   if(push) try{history.pushState({mid:id},"")}catch(e){}
   $("#main").scrollTop=0; render();
 }
-function goHome(){ state.view="home"; $("#main").scrollTop=0; render(); }
+function goHome(){ state.view="home"; if(state.ret){ state.league=state.ret; state.ret=null; applyLeague(state.league); } $("#main").scrollTop=0; render(); }
 
 /* ---------- Zdarzenia ---------- */
 $("#head").addEventListener("click",e=>{
@@ -1113,11 +1201,14 @@ $("#head").addEventListener("click",e=>{
   if(e.target.closest("#rprev")&&i>0){state.round=rs[i-1];render()}
   if(e.target.closest("#rnext")&&i<rs.length-1){state.round=rs[i+1];render()}
   if(e.target.closest("#menu")) setSide(true);
+  const fv=e.target.closest("[data-fav]"); if(fv&&M){ toggleFav(M[fv.dataset.fav].name); renderBoard(); return; }
+  const sh=e.target.closest("[data-share]"); if(sh&&M){ shareMatch(sh); return; }
+  if(e.target.closest("[data-ics]")&&M){ icsMatch(); return; }
 });
 $("#side").addEventListener("click",e=>{
   const fo=e.target.closest("[data-fold]"); if(fo){ const k=fo.dataset.fold; state.fold={...state.fold,[k]:state.fold[k]===false}; renderSide(); save(); return; }
   const lg=e.target.closest("[data-league]"); if(!lg) return;
-  setSide(false);
+  setSide(false); state.ret=null;
   if(state.view!=="home"){ state.view="home"; try{ if(history.state&&history.state.mid) history.replaceState(null,"") }catch(_){} }
   if(lg.dataset.league!==state.league) activate(lg.dataset.league); else render();
   $("#main").scrollTop=0;
@@ -1128,7 +1219,8 @@ window.addEventListener("popstate",()=>{ if(state.view==="match") goHome(); });
 $("#tabs").addEventListener("click",e=>{const b=e.target.closest("button");if(!b)return;if(b.dataset.home){$("#back").click();return}state.tab=b.dataset.t;$("#main").scrollTop=0;render()});
 $("#view").addEventListener("click",e=>{
   const tp=e.target.closest("[data-tip]"); if(tp){openMatch(tp.dataset.tip);state.tab="szanse";render();return}
-  const m=e.target.closest("[data-mid]"); if(m){openMatch(m.dataset.mid);return}
+  const rt=e.target.closest("[data-retry]"); if(rt){ delete LD[rt.dataset.retry]; activate(rt.dataset.retry); return; }
+  const m=e.target.closest("[data-mid]"); if(m){ if(m.dataset.lg&&state.league===TODAY_ID){ state.ret=TODAY_ID; state.league=m.dataset.lg; applyLeague(m.dataset.lg); } openMatch(m.dataset.mid); return; }
   const f=e.target.closest("[data-filter]"); if(f){state.filter=f.dataset.filter;render();return}
   const cp=e.target.closest("[data-comp]"); if(cp){state.comp=cp.dataset.comp;render();return}
   const s=e.target.closest("[data-side]"); if(s){state.side=s.dataset.side;render();return}
@@ -1136,7 +1228,9 @@ $("#view").addEventListener("click",e=>{
 });
 $("#view").addEventListener("change",e=>{if(e.target.id==="psel"){state.player=e.target.value;render()}});
 TODAY=new Date().toLocaleDateString("sv-SE",{timeZone:"Europe/Warsaw"});
-activate(state.league);
+(()=>{ const h=/^#m=([^/]+)\/(.+)$/.exec(location.hash); if(h){ const lg=decodeURIComponent(h[1]); try{history.replaceState(null,"",location.pathname+location.search)}catch(e){}
+  if(DATA_LEAGUES.includes(lg)){ state.pending=decodeURIComponent(h[2]); activate(lg); return; } }
+  activate(state.league); })();
 </script>
 
 <script>if("serviceWorker" in navigator){window.addEventListener("load",()=>navigator.serviceWorker.register("sw.js").catch(()=>{}))}</script>
