@@ -1,9 +1,9 @@
 {
- "updated": "2026-10-25T05:45:00+01:00",
+ "updated": "2026-10-27T05:45:00+01:00",
  "season": "2026/27",
  "competition": "Premier League",
- "currentRound": 8,
- "note": "Źródła: premierleague.com, ESPN, NBC Sports, TNT Sports, Sky Sports, VAVEL, The Analyst (Opta), Wikipedia (tabela), Sportsgambler, Dimers, Ladbrokes, Sportytrader (kursy 23–25.10), wcześniej: footballpredictions.com, oddslot, soccergraph. Godziny w czasie polskim (od 25.10 CET).",
+ "currentRound": 9,
+ "note": "Źródła: footballwebpages.co.uk (wyniki i tabela 25.10), VAVEL (przebieg meczów 25.10), Sky Sports, NBC Sports, premierleague.com (terminarz listopada), Fox Sports/liga.id (termin AVL–FUL), wcześniej: premierleague.com, ESPN, TNT Sports, Opta, Sportsgambler, Dimers, Ladbrokes. Godziny w czasie polskim (CET). Analiza typów 9. kolejki pojawi się przy aktualizacji na ≤3 dni przed meczami.",
  "teams": {
   "ARS": {
    "id": "ARS",
@@ -211,14 +211,25 @@
   },
   {
    "team": "BHA",
-   "p": 7,
+   "p": 8,
    "w": 5,
    "d": 1,
-   "l": 1,
+   "l": 2,
    "gf": 23,
-   "ga": 5,
+   "ga": 7,
    "pts": 16,
-   "form": "DWWWW"
+   "form": "WWWWL"
+  },
+  {
+   "team": "LIV",
+   "p": 8,
+   "w": 4,
+   "d": 3,
+   "l": 1,
+   "gf": 11,
+   "ga": 8,
+   "pts": 15,
+   "form": "DWLWW"
   },
   {
    "team": "CHE",
@@ -232,15 +243,37 @@
    "form": "DLWWL"
   },
   {
-   "team": "LIV",
-   "p": 7,
-   "w": 3,
-   "d": 3,
+   "team": "BRE",
+   "p": 8,
+   "w": 2,
+   "d": 5,
+   "l": 1,
+   "gf": 14,
+   "ga": 9,
+   "pts": 11,
+   "form": "DWDLD"
+  },
+  {
+   "team": "LEE",
+   "p": 8,
+   "w": 2,
+   "d": 5,
    "l": 1,
    "gf": 9,
-   "ga": 8,
-   "pts": 12,
-   "form": "WDWLW"
+   "ga": 6,
+   "pts": 11,
+   "form": "WDLDD"
+  },
+  {
+   "team": "NEW",
+   "p": 8,
+   "w": 3,
+   "d": 2,
+   "l": 3,
+   "gf": 12,
+   "ga": 14,
+   "pts": 11,
+   "form": "LWLLW"
   },
   {
    "team": "AVL",
@@ -254,26 +287,15 @@
    "form": "LWDWW"
   },
   {
-   "team": "BRE",
-   "p": 7,
+   "team": "HUL",
+   "p": 8,
    "w": 2,
    "d": 4,
-   "l": 1,
-   "gf": 13,
+   "l": 2,
+   "gf": 9,
    "ga": 8,
    "pts": 10,
-   "form": "DDWDL"
-  },
-  {
-   "team": "LEE",
-   "p": 7,
-   "w": 2,
-   "d": 4,
-   "l": 1,
-   "gf": 9,
-   "ga": 6,
-   "pts": 10,
-   "form": "DWDLD"
+   "form": "DLDLD"
   },
   {
    "team": "EVE",
@@ -298,15 +320,15 @@
    "form": "WLWLD"
   },
   {
-   "team": "HUL",
-   "p": 7,
+   "team": "BOU",
+   "p": 8,
    "w": 2,
    "d": 3,
-   "l": 2,
-   "gf": 8,
-   "ga": 7,
+   "l": 3,
+   "gf": 12,
+   "ga": 13,
    "pts": 9,
-   "form": "DDLDL"
+   "form": "DLLWW"
   },
   {
    "team": "TOT",
@@ -331,48 +353,26 @@
    "form": "DDLWW"
   },
   {
-   "team": "NEW",
-   "p": 7,
-   "w": 2,
-   "d": 2,
-   "l": 3,
-   "gf": 10,
-   "ga": 14,
-   "pts": 8,
-   "form": "DLWLL"
-  },
-  {
    "team": "MUN",
-   "p": 7,
+   "p": 8,
    "w": 1,
    "d": 4,
-   "l": 2,
+   "l": 3,
    "gf": 10,
-   "ga": 10,
+   "ga": 13,
    "pts": 7,
-   "form": "DLDDD"
+   "form": "LDDDL"
   },
   {
    "team": "CRY",
-   "p": 7,
+   "p": 8,
    "w": 2,
    "d": 1,
-   "l": 4,
+   "l": 5,
    "gf": 9,
-   "ga": 17,
+   "ga": 19,
    "pts": 7,
-   "form": "WLDWL"
-  },
-  {
-   "team": "BOU",
-   "p": 7,
-   "w": 1,
-   "d": 3,
-   "l": 3,
-   "gf": 9,
-   "ga": 13,
-   "pts": 6,
-   "form": "DDLLW"
+   "form": "LDWLL"
   },
   {
    "team": "NFO",
@@ -398,517 +398,18 @@
   },
   {
    "team": "SUN",
-   "p": 7,
+   "p": 8,
    "w": 1,
-   "d": 1,
+   "d": 2,
    "l": 5,
    "gf": 6,
    "ga": 14,
-   "pts": 4,
-   "form": "DLLLL"
+   "pts": 5,
+   "form": "LLLLD"
   }
  ],
- "picks": [
-  {
-   "match": "PL-2026-27-R8-SUN-LEE",
-   "rank": 1
-  }
- ],
+ "picks": [],
  "rounds": {
-  "7": [
-   {
-    "id": "PL-2026-27-R7-EVE-CHE",
-    "date": "2026-10-17",
-    "time": "13:30",
-    "home": "EVE",
-    "away": "CHE",
-    "status": "ft",
-    "score": [
-     0,
-     2
-    ],
-    "venue": {
-     "name": "Hill Dickinson Stadium",
-     "city": "Liverpool",
-     "capacity": 52769
-    },
-    "staff": {
-     "home": [
-      [
-       "Trener",
-       "David Moyes"
-      ]
-     ],
-     "away": [
-      [
-       "Trener",
-       "Xabi Alonso"
-      ]
-     ]
-    }
-   },
-   {
-    "id": "PL-2026-27-R7-BRE-LIV",
-    "date": "2026-10-17",
-    "time": "16:00",
-    "home": "BRE",
-    "away": "LIV",
-    "status": "ft",
-    "score": [
-     1,
-     2
-    ],
-    "venue": {
-     "name": "Gtech Community Stadium",
-     "city": "Londyn",
-     "capacity": 17250
-    },
-    "staff": {
-     "home": [
-      [
-       "Trener",
-       "Keith Andrews"
-      ]
-     ],
-     "away": [
-      [
-       "Trener",
-       "Andoni Iraola"
-      ]
-     ]
-    }
-   },
-   {
-    "id": "PL-2026-27-R7-FUL-HUL",
-    "date": "2026-10-17",
-    "time": "16:00",
-    "home": "FUL",
-    "away": "HUL",
-    "status": "ft",
-    "score": [
-     1,
-     0
-    ],
-    "venue": {
-     "name": "Craven Cottage",
-     "city": "Londyn",
-     "capacity": 28107
-    },
-    "staff": {
-     "home": [
-      [
-       "Trener",
-       "Álvaro Arbeloa"
-      ]
-     ],
-     "away": [
-      [
-       "Trener",
-       "Sergej Jakirović"
-      ]
-     ]
-    }
-   },
-   {
-    "id": "PL-2026-27-R7-MCI-IPS",
-    "date": "2026-10-17",
-    "time": "16:00",
-    "home": "MCI",
-    "away": "IPS",
-    "status": "ft",
-    "score": [
-     3,
-     2
-    ],
-    "venue": {
-     "name": "Etihad Stadium",
-     "city": "Manchester",
-     "capacity": 61038
-    },
-    "staff": {
-     "home": [
-      [
-       "Trener",
-       "Enzo Maresca"
-      ]
-     ],
-     "away": [
-      [
-       "Trener",
-       "Gary O'Neil"
-      ]
-     ]
-    }
-   },
-   {
-    "id": "PL-2026-27-R7-NEW-AVL",
-    "date": "2026-10-17",
-    "time": "18:30",
-    "home": "NEW",
-    "away": "AVL",
-    "status": "ft",
-    "score": [
-     0,
-     1
-    ],
-    "venue": {
-     "name": "St James' Park",
-     "city": "Newcastle upon Tyne",
-     "capacity": 52729
-    },
-    "staff": {
-     "home": [
-      [
-       "Trener",
-       "Matthias Jaissle"
-      ]
-     ],
-     "away": [
-      [
-       "Trener",
-       "Unai Emery"
-      ]
-     ]
-    }
-   },
-   {
-    "id": "PL-2026-27-R7-BOU-SUN",
-    "date": "2026-10-18",
-    "time": "15:00",
-    "home": "BOU",
-    "away": "SUN",
-    "status": "ft",
-    "score": [
-     2,
-     0
-    ],
-    "venue": {
-     "name": "Vitality Stadium (Dean Court)",
-     "city": "Bournemouth",
-     "capacity": 12357
-    },
-    "staff": {
-     "home": [
-      [
-       "Trener",
-       "Marco Rose"
-      ]
-     ],
-     "away": [
-      [
-       "Trener",
-       "Régis Le Bris"
-      ]
-     ]
-    }
-   },
-   {
-    "id": "PL-2026-27-R7-BHA-CRY",
-    "date": "2026-10-18",
-    "time": "15:00",
-    "home": "BHA",
-    "away": "CRY",
-    "status": "ft",
-    "score": [
-     5,
-     0
-    ],
-    "venue": {
-     "name": "Amex Stadium (Falmer)",
-     "city": "Brighton",
-     "capacity": 32176
-    },
-    "staff": {
-     "home": [
-      [
-       "Trener",
-       "Fabian Hürzeler"
-      ]
-     ],
-     "away": [
-      [
-       "Trener",
-       "Pierre Sage"
-      ]
-     ]
-    }
-   },
-   {
-    "id": "PL-2026-27-R7-LEE-MUN",
-    "date": "2026-10-18",
-    "time": "15:00",
-    "home": "LEE",
-    "away": "MUN",
-    "status": "ft",
-    "score": [
-     1,
-     1
-    ],
-    "venue": {
-     "name": "Elland Road",
-     "city": "Leeds",
-     "capacity": 37633
-    },
-    "staff": {
-     "home": [
-      [
-       "Trener",
-       "Daniel Farke"
-      ]
-     ],
-     "away": [
-      [
-       "Trener",
-       "Michael Carrick"
-      ]
-     ]
-    }
-   },
-   {
-    "id": "PL-2026-27-R7-NFO-ARS",
-    "date": "2026-10-18",
-    "time": "17:30",
-    "home": "NFO",
-    "away": "ARS",
-    "status": "ft",
-    "score": [
-     0,
-     1
-    ],
-    "venue": {
-     "name": "City Ground",
-     "city": "Nottingham",
-     "capacity": 31212
-    },
-    "staff": {
-     "home": [
-      [
-       "Trener",
-       "Oliver Glasner"
-      ]
-     ],
-     "away": [
-      [
-       "Trener",
-       "Mikel Arteta"
-      ]
-     ]
-    }
-   },
-   {
-    "id": "PL-2026-27-R7-TOT-COV",
-    "date": "2026-10-19",
-    "time": "21:00",
-    "home": "TOT",
-    "away": "COV",
-    "status": "ft",
-    "score": [
-     3,
-     1
-    ],
-    "venue": {
-     "name": "Tottenham Hotspur Stadium",
-     "city": "Londyn",
-     "capacity": 62850
-    },
-    "staff": {
-     "home": [
-      [
-       "Trener",
-       "Roberto De Zerbi"
-      ]
-     ],
-     "away": [
-      [
-       "Trener",
-       "Frank Lampard"
-      ]
-     ]
-    },
-    "officials": [
-     {
-      "r": "GŁ",
-      "role": "Sędzia główny",
-      "name": "Andy Madley",
-      "nat": "ENG"
-     }
-    ],
-    "events": [
-     {
-      "m": 14,
-      "t": "goal",
-      "s_": "h",
-      "who": "James Maddison",
-      "as": "Mohammed Kudus"
-     },
-     {
-      "m": 19,
-      "t": "yc",
-      "s_": "a",
-      "who": "Caleb Yirenkyi"
-     },
-     {
-      "m": 18,
-      "t": "var",
-      "s_": "h",
-      "kind": "Bramka – spalony",
-      "init": "Gol (Dominic Solanke)",
-      "fin": "Gol anulowany"
-     },
-     {
-      "m": 22,
-      "t": "yc",
-      "s_": "h",
-      "who": "Dominic Solanke"
-     },
-     {
-      "m": 42,
-      "t": "yc",
-      "s_": "a",
-      "who": "Jay Dasilva"
-     },
-     {
-      "m": 49,
-      "t": "goal",
-      "s_": "a",
-      "who": "Jack Rudoni",
-      "as": "Brandon Thomas-Asante"
-     },
-     {
-      "m": 58,
-      "t": "goal",
-      "s_": "h",
-      "who": "Omar Marmoush",
-      "as": "Andy Robertson"
-     },
-     {
-      "m": 58,
-      "t": "var",
-      "s_": "h",
-      "kind": "Bramka – możliwy faul (łokieć)",
-      "init": "Gol",
-      "fin": "Gol uznany"
-     },
-     {
-      "m": 60,
-      "t": "sub",
-      "s_": "a",
-      "inn": "Taiwo Awoniyi",
-      "out": "Sidiki Cherif"
-     },
-     {
-      "m": 60,
-      "t": "sub",
-      "s_": "a",
-      "inn": "Frank Onyeka",
-      "out": "Caleb Yirenkyi"
-     },
-     {
-      "m": 64,
-      "t": "yc",
-      "s_": "a",
-      "who": "Jack Rudoni"
-     },
-     {
-      "m": 69,
-      "t": "sub",
-      "s_": "h",
-      "inn": "Ben Davies",
-      "out": "Andy Robertson"
-     },
-     {
-      "m": 69,
-      "t": "sub",
-      "s_": "h",
-      "inn": "Conor Gallagher",
-      "out": "James Maddison"
-     },
-     {
-      "m": 69,
-      "t": "sub",
-      "s_": "h",
-      "inn": "Mateus Fernandes",
-      "out": "Tosin Adarabioyo"
-     },
-     {
-      "m": 78,
-      "t": "sub",
-      "s_": "a",
-      "inn": "Ephron Mason-Clark",
-      "out": "Brandon Thomas-Asante"
-     },
-     {
-      "m": 78,
-      "t": "sub",
-      "s_": "a",
-      "inn": "Gustavo Hamer",
-      "out": "Tatsuhiro Sakamoto"
-     },
-     {
-      "m": 87,
-      "t": "sub",
-      "s_": "h",
-      "inn": "Dejan Kulusevski",
-      "out": "Mohammed Kudus"
-     },
-     {
-      "m": 87,
-      "t": "sub",
-      "s_": "h",
-      "inn": "Mathys Tel",
-      "out": "Omar Marmoush"
-     },
-     {
-      "m": 87,
-      "t": "sub",
-      "s_": "a",
-      "inn": "Kaine Kesler-Hayden",
-      "out": "Jack Rudoni"
-     },
-     {
-      "m": 90,
-      "s": "+6",
-      "t": "goal",
-      "s_": "h",
-      "who": "Ben Davies",
-      "as": "Dominic Solanke"
-     }
-    ],
-    "teamStats": [
-     [
-      "Posiadanie %",
-      65,
-      35
-     ],
-     [
-      "Strzały",
-      16,
-      12
-     ],
-     [
-      "Celne",
-      5,
-      1
-     ],
-     [
-      "Rzuty rożne",
-      4,
-      4
-     ],
-     [
-      "Faule",
-      15,
-      14
-     ],
-     [
-      "Spalone",
-      6,
-      1
-     ]
-    ],
-    "notes": "Pierwsze ligowe zwycięstwo Tottenhamu w sezonie. Dejan Kulusevski wrócił do gry po 526 dniach przerwy. Andy Robertson i Tosin Adarabioyo opuścili boisko z urazami. Składy wyjściowe — TOT: Kinský; Tosin, van Hecke, Van de Ven, Gray; Tonali, Maddison, Robertson; Kudus, Marmoush, Solanke. COV: Rushworth; van Ewijk, Thomas, Pinnock, Dasilva; Grimes, Yirenkyi, Rudoni; Sakamoto, Cherif, Thomas-Asante (numery i pozycje niepotwierdzone)."
-   }
-  ],
   "8": [
    {
     "id": "PL-2026-27-R8-IPS-NFO",
@@ -1807,7 +1308,7 @@
     "time": "15:00",
     "home": "CRY",
     "away": "NEW",
-    "status": "ns",
+    "status": "ft",
     "venue": {
      "name": "Selhurst Park",
      "city": "Londyn",
@@ -1891,13 +1392,85 @@
       "r": "VAR",
       "role": "Sędzia VAR",
       "name": "Darren England"
+     }
+    ],
+    "score": [
+     0,
+     2
+    ],
+    "events": [
+     {
+      "m": 44,
+      "t": "yc",
+      "s_": "a",
+      "who": "Fabian Schär"
      },
      {
-      "r": "AVAR",
-      "role": "Asystent VAR",
-      "name": "Olly Mackey"
+      "m": 48,
+      "t": "goal",
+      "s_": "a",
+      "who": "William Osula",
+      "as": "Jacob Murphy"
+     },
+     {
+      "m": 52,
+      "t": "var",
+      "s_": "a",
+      "kind": "Bramka – spalony",
+      "init": "Gol (Willock)",
+      "fin": "Gol anulowany"
+     },
+     {
+      "m": 58,
+      "t": "goal",
+      "s_": "a",
+      "who": "Harvey Barnes",
+      "as": "Amar Dedić",
+      "how": "Wolej"
+     },
+     {
+      "m": 62,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Eddie Nketiah",
+      "out": "Jean-Philippe Mateta"
+     },
+     {
+      "m": 75,
+      "t": "yc",
+      "s_": "h",
+      "who": "Yéremy Pino"
+     },
+     {
+      "m": 77,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Anthony Elanga",
+      "out": "Harvey Barnes"
+     },
+     {
+      "m": 77,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Yoane Wissa",
+      "out": "William Osula"
+     },
+     {
+      "m": 77,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Jacob Ramsey",
+      "out": "Joe Willock"
+     },
+     {
+      "m": 85,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Sean Steur",
+      "out": "Joelinton"
      }
-    ]
+    ],
+    "notes": "Wyjściowe składy: CRY – Benítez; Richards, Disasi, Canvot, Khalaili, Mitchell, Wharton, Kamada, Pino, McNeil, Mateta. NEW – Horníček; Dedić, Schär, Burn (k), Hall; N. González, Joelinton, Willock; Murphy, Osula, Barnes. Źródło podaje też zmianę Osorio za McNeila (62') — niespójne (McNeil w składzie CRY), pominięta."
    },
    {
     "id": "PL-2026-27-R8-HUL-BRE",
@@ -1905,7 +1478,7 @@
     "time": "15:00",
     "home": "HUL",
     "away": "BRE",
-    "status": "ns",
+    "status": "ft",
     "venue": {
      "name": "MKM Stadium",
      "city": "Kingston upon Hull",
@@ -2006,7 +1579,35 @@
       "name": "Alex Chilowicz"
      }
     ],
-    "notes": "Mecz przeniesiony z soboty 24.10 na niedzielę 25.10, 15:00 (Sky Sports)."
+    "notes": "Karny po faulu Aarona Hickeya (żółta kartka, minuta nieznana) na Timie Iroegbunamie, poprzedzonym złym podaniem Kellehera. W 32' Hull domagał się karnego po starciu Slatera z van den Bergiem. Kelleher obronił strzał Cho (71'), Tzolakis – główkę Aarona Anthony'ego (74'). Hull bez zwycięstwa od 6 meczów ligowych.",
+    "score": [
+     1,
+     1
+    ],
+    "events": [
+     {
+      "m": 25,
+      "t": "pen",
+      "s_": "h",
+      "who": "Oli McBurnie",
+      "res": "Gol"
+     },
+     {
+      "m": 32,
+      "t": "var",
+      "s_": "h",
+      "kind": "Rzut karny – kontrola",
+      "init": "Brak karnego",
+      "fin": "Decyzja podtrzymana"
+     },
+     {
+      "m": 63,
+      "t": "goal",
+      "s_": "a",
+      "who": "Dango Ouattara",
+      "as": "Igor Thiago"
+     }
+    ]
    },
    {
     "id": "PL-2026-27-R8-LIV-BHA",
@@ -2014,7 +1615,7 @@
     "time": "15:00",
     "home": "LIV",
     "away": "BHA",
-    "status": "ns",
+    "status": "ft",
     "venue": {
      "name": "Anfield",
      "city": "Liverpool",
@@ -2082,35 +1683,88 @@
      {
       "r": "GŁ",
       "role": "Sędzia główny",
-      "name": "Sam Barrott",
-      "nat": "ENG"
-     },
-     {
-      "r": "AS1",
-      "role": "Asystent 1",
-      "name": "Adam Nunn"
-     },
-     {
-      "r": "AS2",
-      "role": "Asystent 2",
-      "name": "Wade Smith"
-     },
-     {
-      "r": "4.",
-      "role": "Sędzia techniczny",
-      "name": "David Webb"
-     },
-     {
-      "r": "VAR",
-      "role": "Sędzia VAR",
-      "name": "Michael Oliver"
-     },
-     {
-      "r": "AVAR",
-      "role": "Asystent VAR",
-      "name": "Lee Betts"
+      "name": "Sam Barrott"
      }
-    ]
+    ],
+    "score": [
+     2,
+     0
+    ],
+    "events": [
+     {
+      "m": 5,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Costinha",
+      "out": "Ferdi Kadıoğlu",
+      "why": "Kontuzja"
+     },
+     {
+      "m": 17,
+      "t": "og",
+      "s_": "h",
+      "who": "Pascal Groß"
+     },
+     {
+      "m": 21,
+      "t": "goal",
+      "s_": "h",
+      "who": "Alexander Isak",
+      "as": "Bradley Barcola"
+     },
+     {
+      "m": 45,
+      "t": "yc",
+      "s_": "a",
+      "who": "Olivier Boscagli"
+     },
+     {
+      "m": 46,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Jack Hinshelwood",
+      "out": "Olivier Boscagli"
+     },
+     {
+      "m": 55,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Malick Yalcouyé",
+      "out": "Chema Andrés"
+     },
+     {
+      "m": 65,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Trey Nyoni",
+      "out": "Florian Wirtz",
+      "why": "Kontuzja (skręcona kostka)"
+     },
+     {
+      "m": 75,
+      "t": "yc",
+      "s_": "a",
+      "who": "Costinha"
+     },
+     {
+      "m": 80,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Lewis Koumas",
+      "out": "Alexander Isak"
+     },
+     {
+      "m": 80,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Rio Ngumoha",
+      "out": "Bradley Barcola"
+     }
+    ],
+    "formation": {
+     "home": "4-2-3-1"
+    },
+    "notes": "Pierwsze ligowe zwycięstwo Liverpoolu na Anfield w sezonie. Gol samobójczy Großa po rykoszecie strzału Wirtza z okolic pola karnego; Isak – 6. gol w sezonie."
    },
    {
     "id": "PL-2026-27-R8-MUN-BOU",
@@ -2118,7 +1772,7 @@
     "time": "15:00",
     "home": "MUN",
     "away": "BOU",
-    "status": "ns",
+    "status": "ft",
     "venue": {
      "name": "Old Trafford",
      "city": "Manchester",
@@ -2182,35 +1836,124 @@
      {
       "r": "GŁ",
       "role": "Sędzia główny",
-      "name": "Jarred Gillett",
-      "nat": "ENG"
-     },
-     {
-      "r": "AS1",
-      "role": "Asystent 1",
-      "name": "Neil Davies"
-     },
-     {
-      "r": "AS2",
-      "role": "Asystent 2",
-      "name": "Nick Greenhalgh"
-     },
-     {
-      "r": "4.",
-      "role": "Sędzia techniczny",
-      "name": "Tom Bramall"
-     },
-     {
-      "r": "VAR",
-      "role": "Sędzia VAR",
-      "name": "Paul Howard"
-     },
-     {
-      "r": "AVAR",
-      "role": "Asystent VAR",
-      "name": "Ian Hussin"
+      "name": "Jarred Gillett"
      }
-    ]
+    ],
+    "score": [
+     0,
+     3
+    ],
+    "events": [
+     {
+      "m": 22,
+      "t": "yc",
+      "s_": "h",
+      "who": "Andrey Santos"
+     },
+     {
+      "m": 27,
+      "t": "yc",
+      "s_": "a",
+      "who": "Tyler Adams"
+     },
+     {
+      "m": 37,
+      "t": "yc",
+      "s_": "h",
+      "who": "Ayden Heaven"
+     },
+     {
+      "m": 38,
+      "t": "goal",
+      "s_": "a",
+      "who": "Rayan",
+      "as": "Justin Kluivert",
+      "how": "Wolej"
+     },
+     {
+      "m": 40,
+      "t": "yc",
+      "s_": "h",
+      "who": "Youri Tielemans"
+     },
+     {
+      "m": 42,
+      "t": "goal",
+      "s_": "a",
+      "who": "Marcus Tavernier",
+      "as": "Adrien Truffert"
+     },
+     {
+      "m": 46,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Matheus Cunha",
+      "out": "Youri Tielemans"
+     },
+     {
+      "m": 63,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Ben Doak",
+      "out": "Justin Kluivert"
+     },
+     {
+      "m": 65,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Lisandro Martínez",
+      "out": "Ayden Heaven"
+     },
+     {
+      "m": 70,
+      "t": "goal",
+      "s_": "a",
+      "who": "Evanilson"
+     },
+     {
+      "m": 72,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Joshua Zirkzee",
+      "out": "Carlos Baleba"
+     },
+     {
+      "m": 75,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Ryan Christie",
+      "out": "Lewis Cook"
+     },
+     {
+      "m": 78,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Shea Lacey",
+      "out": "Amad Diallo"
+     },
+     {
+      "m": 87,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Amine Adli",
+      "out": "Marcus Tavernier"
+     },
+     {
+      "m": 87,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Eli Junior Kroupi",
+      "out": "Evanilson"
+     },
+     {
+      "m": 87,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Bafodé Diakité",
+      "out": "Adam Smith"
+     }
+    ],
+    "notes": "Wyjściowe składy: MUN – Lammens; Dalot, Yoro, Maguire, Heaven; Andrey Santos, Baleba; Amad, Tielemans, Mount; Mbeumo (Bruno Fernandes na ławce, nie wszedł). BOU – Petrović; Smith, Hill, António Silva, Truffert; Adams, Cook; Rayan, Kluivert, Tavernier; Evanilson. Gol Tavernier po poślizgnięciu Yoro, gol Evanilsona po błędzie Lammensa. Najgorszy start sezonu United od ponad 40 lat."
    },
    {
     "id": "PL-2026-27-R8-SUN-LEE",
@@ -2218,7 +1961,7 @@
     "time": "17:30",
     "home": "SUN",
     "away": "LEE",
-    "status": "ns",
+    "status": "ft",
     "venue": {
      "name": "Stadium of Light",
      "city": "Sunderland",
@@ -2330,7 +2073,96 @@
       "role": "Asystent VAR",
       "name": "Mat Wilkes"
      }
-    ]
+    ],
+    "score": [
+     0,
+     0
+    ],
+    "events": [
+     {
+      "m": 30,
+      "t": "yc",
+      "s_": "a",
+      "who": "Ethan Ampadu",
+      "why": "Faul na Nilsonie Angulo"
+     },
+     {
+      "m": 40,
+      "t": "yc",
+      "s_": "h",
+      "who": "Reinildo Mandava",
+      "why": "Faul na Jaydenie Bogle"
+     },
+     {
+      "m": 50,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Omar Alderete",
+      "out": "Nordi Mukiele",
+      "why": "Kontuzja"
+     },
+     {
+      "m": 70,
+      "t": "yc",
+      "s_": "a",
+      "who": "Jayden Bogle",
+      "why": "Faul na Reinildo"
+     },
+     {
+      "m": 70,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Timur Tuterov",
+      "out": "Brian Brobbey"
+     },
+     {
+      "m": 70,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Anton Stach",
+      "out": "Brenden Aaronson"
+     },
+     {
+      "m": 70,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Noah Okafor",
+      "out": "Harry Wilson"
+     },
+     {
+      "m": 80,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Chemsdine Talbi",
+      "out": "Enzo Le Fée"
+     },
+     {
+      "m": 80,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Habib Diarra",
+      "out": "Nilson Angulo"
+     },
+     {
+      "m": 85,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Lukas Nmecha",
+      "out": "Dominic Calvert-Lewin"
+     },
+     {
+      "m": 90,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Sean Longstaff",
+      "out": "Ao Tanaka"
+     }
+    ],
+    "formation": {
+     "home": "4-2-3-1",
+     "away": "3-4-3"
+    },
+    "notes": "Wyjściowe składy: SUN (4-2-3-1) – Roefs; Hume, Mukiele, O'Nien, Reinildo; Xhaka, Sadiki; Angulo, Rigg, Le Fée; Brobbey. LEE (3-4-3) – Trafford; Justin, Bijol, Muharemović; Bogle, Ampadu, Tanaka, Gudmundsson; Wilson, Aaronson, Calvert-Lewin. Sunderland pozostaje na dnie tabeli."
    }
   ],
   "9": [
@@ -2525,8 +2357,8 @@
    },
    {
     "id": "PL-2026-27-R9-AVL-FUL",
-    "date": "2026-10-31",
-    "time": "21:00",
+    "date": "2026-11-01",
+    "time": "15:00",
     "home": "AVL",
     "away": "FUL",
     "status": "ns",
@@ -2603,6 +2435,88 @@
       ]
      ]
     }
+   }
+  ],
+  "10": [
+   {
+    "id": "PL-2026-27-R10-EVE-COV",
+    "date": "2026-11-06",
+    "time": "21:00",
+    "home": "EVE",
+    "away": "COV",
+    "status": "ns"
+   },
+   {
+    "id": "PL-2026-27-R10-LEE-TOT",
+    "date": "2026-11-07",
+    "time": "13:30",
+    "home": "LEE",
+    "away": "TOT",
+    "status": "ns"
+   },
+   {
+    "id": "PL-2026-27-R10-ARS-HUL",
+    "date": "2026-11-07",
+    "time": "16:00",
+    "home": "ARS",
+    "away": "HUL",
+    "status": "ns"
+   },
+   {
+    "id": "PL-2026-27-R10-FUL-NEW",
+    "date": "2026-11-07",
+    "time": "16:00",
+    "home": "FUL",
+    "away": "NEW",
+    "status": "ns"
+   },
+   {
+    "id": "PL-2026-27-R10-NFO-MCI",
+    "date": "2026-11-07",
+    "time": "18:30",
+    "home": "NFO",
+    "away": "MCI",
+    "status": "ns"
+   },
+   {
+    "id": "PL-2026-27-R10-BHA-BRE",
+    "date": "2026-11-08",
+    "time": "15:00",
+    "home": "BHA",
+    "away": "BRE",
+    "status": "ns"
+   },
+   {
+    "id": "PL-2026-27-R10-CRY-LIV",
+    "date": "2026-11-08",
+    "time": "15:00",
+    "home": "CRY",
+    "away": "LIV",
+    "status": "ns"
+   },
+   {
+    "id": "PL-2026-27-R10-IPS-BOU",
+    "date": "2026-11-08",
+    "time": "15:00",
+    "home": "IPS",
+    "away": "BOU",
+    "status": "ns"
+   },
+   {
+    "id": "PL-2026-27-R10-SUN-CHE",
+    "date": "2026-11-08",
+    "time": "15:00",
+    "home": "SUN",
+    "away": "CHE",
+    "status": "ns"
+   },
+   {
+    "id": "PL-2026-27-R10-MUN-AVL",
+    "date": "2026-11-08",
+    "time": "17:30",
+    "home": "MUN",
+    "away": "AVL",
+    "status": "ns"
    }
   ]
  }

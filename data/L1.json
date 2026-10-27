@@ -1,9 +1,9 @@
 {
- "updated": "2026-10-25T06:40:00+01:00",
+ "updated": "2026-10-27T06:40:00+01:00",
  "season": "2026/27",
  "competition": "Ligue 1",
- "currentRound": 8,
- "note": "Źródła: Foot Mercato, RC Lens (rclens.fr), Lensois.com (8. kolejka: Lens–Paris FC), Wincomparator (kursy Monaco–Lille 25.10), Lyonfoot/Foot Mercato (PSG–OL w poniedziałek 20:30); wcześniej: Maxifoot, Matchendirect, Eurosport, Sports Mole, Coteur, ligue1.com, L'Équipe, Flashscore, FotMob, Sofascore, ESPN, Oddschecker. Godziny w czasie polskim.",
+ "currentRound": 9,
+ "note": "Źródła: t-online.de (relacje 8. kolejki: składy, zdarzenia, statystyki), Foot01/Ski-nordique (wyniki i tabela), Soccerway, ligue1.com (terminarz J10), psg.fr (godzina J9), BettingNews (kursy J9), Le Petit Lillois, But! Football Club; wcześniej: Foot Mercato, Wincomparator, Maxifoot, Eurosport, L'Équipe, Flashscore, FotMob, Sofascore, ESPN, Oddschecker. Godziny w czasie polskim.",
  "teams": {
   "ANG": {
    "id": "ANG",
@@ -170,37 +170,59 @@
  },
  "table": [
   {
-   "team": "LYO",
-   "p": 7,
-   "w": 4,
+   "team": "PSG",
+   "p": 8,
+   "w": 5,
    "d": 2,
    "l": 1,
-   "gf": 13,
-   "ga": 5,
-   "pts": 14,
-   "form": "WDWLW"
+   "gf": 16,
+   "ga": 9,
+   "pts": 17,
+   "form": "WWWWW"
   },
   {
-   "team": "PSG",
-   "p": 7,
-   "w": 4,
-   "d": 2,
-   "l": 1,
-   "gf": 14,
-   "ga": 9,
-   "pts": 14,
-   "form": "LWWWW"
+   "team": "REN",
+   "p": 8,
+   "w": 5,
+   "d": 1,
+   "l": 2,
+   "gf": 18,
+   "ga": 14,
+   "pts": 16,
+   "form": "WLWLW"
   },
   {
    "team": "LIL",
-   "p": 7,
+   "p": 8,
+   "w": 4,
+   "d": 3,
+   "l": 1,
+   "gf": 11,
+   "ga": 6,
+   "pts": 15,
+   "form": "WLWDD"
+  },
+  {
+   "team": "MON",
+   "p": 8,
+   "w": 4,
+   "d": 3,
+   "l": 1,
+   "gf": 11,
+   "ga": 7,
+   "pts": 15,
+   "form": "DWDLD"
+  },
+  {
+   "team": "LYO",
+   "p": 8,
    "w": 4,
    "d": 2,
-   "l": 1,
-   "gf": 10,
-   "ga": 5,
+   "l": 2,
+   "gf": 13,
+   "ga": 7,
    "pts": 14,
-   "form": "WWLWD"
+   "form": "DWLWL"
   },
   {
    "team": "PFC",
@@ -214,17 +236,6 @@
    "form": "DWLWL"
   },
   {
-   "team": "MON",
-   "p": 7,
-   "w": 4,
-   "d": 2,
-   "l": 1,
-   "gf": 10,
-   "ga": 6,
-   "pts": 14,
-   "form": "WDWDL"
-  },
-  {
    "team": "LEN",
    "p": 8,
    "w": 4,
@@ -236,26 +247,26 @@
    "form": "DLWWW"
   },
   {
-   "team": "REN",
-   "p": 7,
+   "team": "OLM",
+   "p": 8,
    "w": 4,
-   "d": 1,
-   "l": 2,
-   "gf": 15,
-   "ga": 14,
-   "pts": 13,
-   "form": "WWLWL"
+   "d": 0,
+   "l": 4,
+   "gf": 18,
+   "ga": 13,
+   "pts": 12,
+   "form": "LLWWW"
   },
   {
    "team": "LOR",
-   "p": 7,
+   "p": 8,
    "w": 3,
-   "d": 2,
+   "d": 3,
    "l": 2,
    "gf": 7,
    "ga": 6,
-   "pts": 11,
-   "form": "WDLWW"
+   "pts": 12,
+   "form": "DLWWD"
   },
   {
    "team": "NIC",
@@ -269,15 +280,26 @@
    "form": "LWWLW"
   },
   {
-   "team": "OLM",
-   "p": 7,
+   "team": "TOU",
+   "p": 8,
+   "w": 2,
+   "d": 4,
+   "l": 2,
+   "gf": 12,
+   "ga": 11,
+   "pts": 10,
+   "form": "DWDWD"
+  },
+  {
+   "team": "AUX",
+   "p": 8,
    "w": 3,
-   "d": 0,
+   "d": 1,
    "l": 4,
-   "gf": 14,
-   "ga": 10,
-   "pts": 9,
-   "form": "LLLWW"
+   "gf": 12,
+   "ga": 18,
+   "pts": 10,
+   "form": "WWLWD"
   },
   {
    "team": "BRE",
@@ -291,4762 +313,63 @@
    "form": "LLWDL"
   },
   {
-   "team": "TOU",
-   "p": 7,
-   "w": 2,
-   "d": 3,
-   "l": 2,
-   "gf": 12,
-   "ga": 11,
-   "pts": 9,
-   "form": "LDWDW"
-  },
-  {
-   "team": "AUX",
-   "p": 7,
-   "w": 3,
-   "d": 0,
-   "l": 4,
-   "gf": 11,
-   "ga": 17,
-   "pts": 9,
-   "form": "LWWLW"
-  },
-  {
-   "team": "STR",
-   "p": 7,
-   "w": 2,
-   "d": 1,
-   "l": 4,
-   "gf": 12,
-   "ga": 15,
-   "pts": 7,
-   "form": "WDLLL"
-  },
-  {
    "team": "ANG",
-   "p": 7,
+   "p": 8,
    "w": 2,
-   "d": 1,
+   "d": 2,
    "l": 4,
    "gf": 9,
    "ga": 15,
-   "pts": 7,
-   "form": "LDWLL"
+   "pts": 8,
+   "form": "DWLLD"
   },
   {
    "team": "LMA",
-   "p": 7,
+   "p": 8,
    "w": 1,
-   "d": 3,
+   "d": 4,
    "l": 3,
-   "gf": 10,
-   "ga": 15,
-   "pts": 6,
-   "form": "DDWLL"
+   "gf": 11,
+   "ga": 16,
+   "pts": 7,
+   "form": "DWLLD"
+  },
+  {
+   "team": "STR",
+   "p": 8,
+   "w": 2,
+   "d": 1,
+   "l": 5,
+   "gf": 12,
+   "ga": 18,
+   "pts": 7,
+   "form": "DLLLL"
   },
   {
    "team": "TRO",
-   "p": 7,
+   "p": 8,
    "w": 1,
-   "d": 1,
-   "l": 5,
-   "gf": 5,
-   "ga": 16,
-   "pts": 4,
-   "form": "LLLLL"
-  },
-  {
-   "team": "HAV",
-   "p": 7,
-   "w": 0,
    "d": 2,
    "l": 5,
    "gf": 5,
-   "ga": 11,
-   "pts": 2,
-   "form": "LDLLL"
-  }
- ],
- "picks": [
+   "ga": 16,
+   "pts": 5,
+   "form": "LLLLD"
+  },
   {
-   "match": "L1-2026-27-R8-MON-LIL",
-   "rank": 1
+   "team": "HAV",
+   "p": 8,
+   "w": 0,
+   "d": 2,
+   "l": 6,
+   "gf": 8,
+   "ga": 15,
+   "pts": 2,
+   "form": "DLLLL"
   }
  ],
+ "picks": [],
  "rounds": {
-  "7": [
-   {
-    "id": "L1-2026-27-R7-LMA-TOU",
-    "date": "2026-10-16",
-    "home": "LMA",
-    "away": "TOU",
-    "status": "ft",
-    "venue": {
-     "name": "Stade Marie-Marvingt",
-     "city": "Le Mans",
-     "capacity": 25000
-    },
-    "score": [
-     0,
-     3
-    ],
-    "events": [
-     {
-      "m": 46,
-      "t": "goal",
-      "s_": "a",
-      "who": "Jacen Russell-Rowe",
-      "as": "Aron Dønnum",
-      "how": "Lewa noga"
-     },
-     {
-      "m": 49,
-      "t": "yc",
-      "s_": "a",
-      "who": "Jacen Russell-Rowe",
-      "why": "Faul"
-     },
-     {
-      "m": 59,
-      "t": "goal",
-      "s_": "a",
-      "who": "Aron Dønnum",
-      "how": "Lewa noga"
-     },
-     {
-      "m": 61,
-      "t": "sub",
-      "s_": "h",
-      "inn": "Billal Brahimi",
-      "out": "Daouda Traoré"
-     },
-     {
-      "m": 61,
-      "t": "sub",
-      "s_": "h",
-      "inn": "Lucas Calodat",
-      "out": "Yasser Larouci"
-     },
-     {
-      "m": 61,
-      "t": "sub",
-      "s_": "h",
-      "inn": "Habib Diallo",
-      "out": "Dame Guèye"
-     },
-     {
-      "m": 64,
-      "t": "sub",
-      "s_": "a",
-      "inn": "Alexis Vossah",
-      "out": "Aron Dønnum"
-     },
-     {
-      "m": 69,
-      "t": "sub",
-      "s_": "h",
-      "inn": "Rayan Bamba",
-      "out": "Lucas Buadés"
-     },
-     {
-      "m": 76,
-      "t": "sub",
-      "s_": "a",
-      "inn": "Julián Vignolo",
-      "out": "Jacen Russell-Rowe"
-     },
-     {
-      "m": 77,
-      "t": "var",
-      "s_": "a",
-      "kind": "Gol anulowany",
-      "init": "Gol Caspera Tengstedta",
-      "fin": "Gol nieuznany – spalony"
-     },
-     {
-      "m": 77,
-      "t": "sub",
-      "s_": "h",
-      "inn": "Noa Boissé",
-      "out": "Harold Voyer"
-     },
-     {
-      "m": 85,
-      "t": "sub",
-      "s_": "a",
-      "inn": "Seny Koumbassa",
-      "out": "Rasmus Nicolaisen"
-     },
-     {
-      "m": 87,
-      "t": "goal",
-      "s_": "a",
-      "who": "Casper Tengstedt",
-      "as": "Cristian Cásseres",
-      "how": "Prawa noga"
-     },
-     {
-      "m": 90,
-      "t": "yc",
-      "s_": "h",
-      "who": "Samuel Yohou"
-     },
-     {
-      "m": 90,
-      "s": "+4",
-      "t": "yc",
-      "s_": "h",
-      "who": "Djibril Sidibé"
-     }
-    ],
-    "notes": "Szczegóły meczu: Flashscore, FotMob, Sofascore, ESPN, L'Équipe, t-online.de. Pola niepotwierdzone w źródłach pominięto.",
-    "time": "20:45",
-    "attendance": 19230,
-    "officials": [
-     {
-      "r": "GŁ",
-      "role": "Sędzia główny",
-      "name": "Aurélien Petit",
-      "nat": "FRA"
-     }
-    ],
-    "staff": {
-     "home": [
-      [
-       "Trener",
-       "Patrick Videira"
-      ]
-     ],
-     "away": [
-      [
-       "Trener",
-       "Jens Berthel Askou"
-      ]
-     ]
-    },
-    "formation": {
-     "home": "3-1-4-2",
-     "away": "4-3-3"
-    },
-    "players": {
-     "home": [
-      [
-       98,
-       "Nicolas Kocik",
-       "BR",
-       "",
-       true
-      ],
-      [
-       19,
-       "Djibril Sidibé",
-       "ŚO",
-       "",
-       true
-      ],
-      [
-       17,
-       "Samuel Yohou",
-       "ŚO",
-       "",
-       true
-      ],
-      [
-       5,
-       "Harold Voyer",
-       "ŚO",
-       "",
-       true
-      ],
-      [
-       23,
-       "Daouda Traoré",
-       "DP",
-       "",
-       true
-      ],
-      [
-       29,
-       "Lucas Bretelle",
-       "PO",
-       "",
-       true
-      ],
-      [
-       18,
-       "Lucas Buadés",
-       "ŚP",
-       "",
-       true
-      ],
-      [
-       10,
-       "Jean Vercruysse",
-       "ŚP",
-       "",
-       true
-      ],
-      [
-       76,
-       "Yasser Larouci",
-       "LO",
-       "",
-       true
-      ],
-      [
-       14,
-       "Louis Mafouta",
-       "N",
-       "",
-       true
-      ],
-      [
-       25,
-       "Dame Guèye",
-       "N",
-       "",
-       true
-      ],
-      [
-       7,
-       "Billal Brahimi",
-       "N",
-       "",
-       false
-      ],
-      [
-       22,
-       "Lucas Calodat",
-       "LO",
-       "",
-       false
-      ],
-      [
-       13,
-       "Habib Diallo",
-       "N",
-       "",
-       false
-      ],
-      [
-       26,
-       "Rayan Bamba",
-       "ŚO",
-       "",
-       false
-      ],
-      [
-       15,
-       "Noa Boissé",
-       "ŚO",
-       "",
-       false
-      ],
-      [
-       1,
-       "Ewan Hatfout",
-       "BR",
-       "",
-       false
-      ],
-      [
-       20,
-       "W. Harhouz",
-       "N",
-       "",
-       false
-      ],
-      [
-       8,
-       "A. Lauray",
-       "ŚP",
-       "",
-       false
-      ],
-      [
-       9,
-       "A. Rabillard",
-       "N",
-       "",
-       false
-      ]
-     ],
-     "away": [
-      [
-       16,
-       "Guillaume Restes",
-       "BR",
-       "",
-       true
-      ],
-      [
-       12,
-       "Christ Tapé",
-       "PO",
-       "",
-       true
-      ],
-      [
-       3,
-       "Mark McKenzie",
-       "ŚO",
-       "",
-       true
-      ],
-      [
-       2,
-       "Rasmus Nicolaisen",
-       "ŚO",
-       "",
-       true
-      ],
-      [
-       22,
-       "Rafik Messali",
-       "LO",
-       "",
-       true
-      ],
-      [
-       14,
-       "Niko Sigur",
-       "ŚP",
-       "",
-       true
-      ],
-      [
-       23,
-       "Cristian Cásseres",
-       "ŚP",
-       "",
-       true
-      ],
-      [
-       8,
-       "Thomas Jørgensen",
-       "ŚP",
-       "",
-       true
-      ],
-      [
-       13,
-       "Jacen Russell-Rowe",
-       "PS",
-       "",
-       true
-      ],
-      [
-       20,
-       "Casper Tengstedt",
-       "N",
-       "",
-       true
-      ],
-      [
-       15,
-       "Aron Dønnum",
-       "LS",
-       "",
-       true
-      ],
-      [
-       6,
-       "Alexis Vossah",
-       "ŚP",
-       "",
-       false
-      ],
-      [
-       7,
-       "Julián Vignolo",
-       "N",
-       "",
-       false
-      ],
-      [
-       5,
-       "Seny Koumbassa",
-       "ŚO",
-       "",
-       false
-      ],
-      [
-       1,
-       "Théo Collin",
-       "BR",
-       "",
-       false
-      ],
-      [
-       18,
-       "M. Amougou",
-       "ŚP",
-       "",
-       false
-      ],
-      [
-       94,
-       "I. Diallo",
-       "ŚO",
-       "",
-       false
-      ],
-      [
-       9,
-       "Santiago Hidalgo",
-       "N",
-       "",
-       false
-      ],
-      [
-       19,
-       "David Odogu",
-       "ŚO",
-       "",
-       false
-      ],
-      [
-       31,
-       "N. Schmidt",
-       "ŚP",
-       "",
-       false
-      ]
-     ]
-    },
-    "teamStats": [
-     [
-      "Posiadanie %",
-      53,
-      47
-     ],
-     [
-      "xG",
-      0.82,
-      1.74
-     ],
-     [
-      "Strzały",
-      11,
-      13
-     ],
-     [
-      "Celne",
-      1,
-      5
-     ],
-     [
-      "Rzuty rożne",
-      2,
-      2
-     ],
-     [
-      "Faule",
-      15,
-      9
-     ],
-     [
-      "Spalone",
-      0,
-      3
-     ]
-    ],
-    "ind": {
-     "Aron Dønnum": {
-      "r": 9.0
-     },
-     "Casper Tengstedt": {
-      "r": 8.2
-     },
-     "Jacen Russell-Rowe": {
-      "r": 7.7
-     },
-     "Cristian Cásseres": {
-      "r": 7.7
-     },
-     "Rafik Messali": {
-      "r": 7.6
-     },
-     "Mark McKenzie": {
-      "r": 7.6
-     },
-     "Rasmus Nicolaisen": {
-      "r": 7.4
-     },
-     "Christ Tapé": {
-      "r": 7.1
-     },
-     "Niko Sigur": {
-      "r": 7.1
-     },
-     "Seny Koumbassa": {
-      "r": 7.0
-     },
-     "Alexis Vossah": {
-      "r": 7.0
-     },
-     "Guillaume Restes": {
-      "r": 6.7
-     },
-     "Thomas Jørgensen": {
-      "r": 6.7
-     },
-     "Julián Vignolo": {
-      "r": 6.6
-     },
-     "Louis Mafouta": {
-      "r": 6.7
-     },
-     "Jean Vercruysse": {
-      "r": 6.6
-     },
-     "Lucas Calodat": {
-      "r": 6.5
-     },
-     "Lucas Bretelle": {
-      "r": 6.5
-     },
-     "Billal Brahimi": {
-      "r": 6.4
-     },
-     "Harold Voyer": {
-      "r": 6.4
-     },
-     "Djibril Sidibé": {
-      "r": 6.3
-     },
-     "Daouda Traoré": {
-      "r": 6.3
-     },
-     "Habib Diallo": {
-      "r": 6.2
-     },
-     "Rayan Bamba": {
-      "r": 6.2
-     },
-     "Samuel Yohou": {
-      "r": 6.1
-     },
-     "Lucas Buadés": {
-      "r": 6.1
-     },
-     "Dame Guèye": {
-      "r": 6.1
-     },
-     "Noa Boissé": {
-      "r": 5.9
-     },
-     "Yasser Larouci": {
-      "r": 5.9
-     },
-     "Nicolas Kocik": {
-      "r": 5.5
-     }
-    }
-   },
-   {
-    "id": "L1-2026-27-R7-STR-PSG",
-    "date": "2026-10-17",
-    "home": "STR",
-    "away": "PSG",
-    "status": "ft",
-    "venue": {
-     "name": "Stade de la Meinau",
-     "city": "Strasburg",
-     "capacity": 29230
-    },
-    "score": [
-     1,
-     3
-    ],
-    "events": [
-     {
-      "m": 17,
-      "t": "goal",
-      "s_": "h",
-      "who": "Giovanni Reyna",
-      "as": "Gessime Yassine",
-      "how": "Lewa noga"
-     },
-     {
-      "m": 53,
-      "t": "sub",
-      "s_": "a",
-      "inn": "Nuno Mendes",
-      "out": "Lucas Digne"
-     },
-     {
-      "m": 54,
-      "t": "sub",
-      "s_": "a",
-      "inn": "Vitinha",
-      "out": "Lucas Beraldo"
-     },
-     {
-      "m": 54,
-      "t": "sub",
-      "s_": "a",
-      "inn": "Désiré Doué",
-      "out": "Dro Fernández"
-     },
-     {
-      "m": 60,
-      "t": "sub",
-      "s_": "h",
-      "inn": "Samuel Amo-Ameyaw",
-      "out": "Fabio Baldé"
-     },
-     {
-      "m": 63,
-      "t": "sub",
-      "s_": "a",
-      "inn": "Ousmane Dembélé",
-      "out": "Khvicha Kvaratskhelia"
-     },
-     {
-      "m": 63,
-      "t": "sub",
-      "s_": "a",
-      "inn": "Achraf Hakimi",
-      "out": "João Neves"
-     },
-     {
-      "m": 70,
-      "t": "var",
-      "s_": "a",
-      "kind": "Rzut karny",
-      "init": "Brak rzutu karnego",
-      "fin": "Rzut karny dla PSG (ręka Pape Demba Diop)"
-     },
-     {
-      "m": 72,
-      "t": "pen",
-      "s_": "a",
-      "who": "Ousmane Dembélé",
-      "res": "Niecelny"
-     },
-     {
-      "m": 75,
-      "t": "sub",
-      "s_": "h",
-      "inn": "Samir El Mourabet",
-      "out": "Pape Demba Diop"
-     },
-     {
-      "m": 76,
-      "t": "yc",
-      "s_": "h",
-      "who": "Conrad Harder",
-      "why": "Faul"
-     },
-     {
-      "m": 77,
-      "t": "goal",
-      "s_": "a",
-      "who": "Ilya Zabarnyi",
-      "as": "Ousmane Dembélé",
-      "how": "Prawa noga"
-     },
-     {
-      "m": 78,
-      "t": "yc",
-      "s_": "h",
-      "who": "Dário Essugo",
-      "why": "Faul"
-     },
-     {
-      "m": 83,
-      "t": "sub",
-      "s_": "h",
-      "inn": "Jacobo Ortega",
-      "out": "Conrad Harder"
-     },
-     {
-      "m": 83,
-      "t": "sub",
-      "s_": "h",
-      "inn": "Yaya Diémé",
-      "out": "Gessime Yassine"
-     },
-     {
-      "m": 85,
-      "t": "goal",
-      "s_": "a",
-      "who": "Ousmane Dembélé",
-      "how": "Lewa noga"
-     },
-     {
-      "m": 90,
-      "s": "+3",
-      "t": "goal",
-      "s_": "a",
-      "who": "Désiré Doué",
-      "as": "Ferran Torres",
-      "how": "Prawa noga"
-     }
-    ],
-    "notes": "Szczegóły meczu: Flashscore, FotMob, Sofascore, ESPN, L'Équipe, t-online.de. Pola niepotwierdzone w źródłach pominięto.",
-    "time": "17:15",
-    "attendance": 31331,
-    "officials": [
-     {
-      "r": "GŁ",
-      "role": "Sędzia główny",
-      "name": "Willy Delajod",
-      "nat": "FRA"
-     }
-    ],
-    "staff": {
-     "home": [
-      [
-       "Trener",
-       "Hugo Oliveira"
-      ]
-     ],
-     "away": [
-      [
-       "Trener",
-       "Luis Enrique"
-      ]
-     ]
-    },
-    "formation": {
-     "home": "4-2-3-1",
-     "away": "4-3-3"
-    },
-    "players": {
-     "home": [
-      [
-       1,
-       "Filip Jørgensen",
-       "BR",
-       "",
-       true
-      ],
-      [
-       16,
-       "Genesis Antwi",
-       "PO",
-       "",
-       true
-      ],
-      [
-       4,
-       "Jeyland Mitchell",
-       "ŚO",
-       "",
-       true
-      ],
-      [
-       31,
-       "Karim Coulibaly",
-       "ŚO",
-       "",
-       true
-      ],
-      [
-       36,
-       "Oso",
-       "LO",
-       "",
-       true
-      ],
-      [
-       14,
-       "Dário Essugo",
-       "DP",
-       "",
-       true
-      ],
-      [
-       21,
-       "Pape Demba Diop",
-       "DP",
-       "",
-       true
-      ],
-      [
-       80,
-       "Gessime Yassine",
-       "PS",
-       "",
-       true
-      ],
-      [
-       10,
-       "Giovanni Reyna",
-       "OP",
-       "",
-       true
-      ],
-      [
-       19,
-       "Fabio Baldé",
-       "LS",
-       "",
-       true
-      ],
-      [
-       40,
-       "Conrad Harder",
-       "N",
-       "",
-       true
-      ],
-      [
-       7,
-       "Samuel Amo-Ameyaw",
-       "PS",
-       "",
-       false
-      ],
-      [
-       29,
-       "Samir El Mourabet",
-       "DP",
-       "",
-       false
-      ],
-      [
-       30,
-       "Jacobo Ortega",
-       "OP",
-       "",
-       false
-      ],
-      [
-       35,
-       "Yaya Diémé",
-       "PS",
-       "",
-       false
-      ],
-      [
-       12,
-       "Miłosz Piekutowski",
-       "BR",
-       "",
-       false
-      ],
-      [
-       24,
-       "Lucas Høgsberg",
-       "ŚO",
-       "",
-       false
-      ],
-      [
-       43,
-       "Yoann Becker",
-       "ŚO",
-       "",
-       false
-      ],
-      [
-       23,
-       "Diogo Sousa",
-       "ŚP",
-       "",
-       false
-      ],
-      [
-       28,
-       "Tyrese Noubissie",
-       "ŚP",
-       "",
-       false
-      ]
-     ],
-     "away": [
-      [
-       39,
-       "Matvey Safonov",
-       "BR",
-       "",
-       true
-      ],
-      [
-       33,
-       "Warren Zaïre-Emery",
-       "PO",
-       "",
-       true
-      ],
-      [
-       6,
-       "Ilya Zabarnyi",
-       "ŚO",
-       "",
-       true
-      ],
-      [
-       21,
-       "Lucas Hernández",
-       "ŚO",
-       "",
-       true
-      ],
-      [
-       12,
-       "Lucas Digne",
-       "LO",
-       "",
-       true
-      ],
-      [
-       87,
-       "João Neves",
-       "ŚP",
-       "",
-       true
-      ],
-      [
-       27,
-       "Dro Fernández",
-       "ŚP",
-       "",
-       true
-      ],
-      [
-       4,
-       "Lucas Beraldo",
-       "ŚP",
-       "",
-       true
-      ],
-      [
-       11,
-       "Maghnes Akliouche",
-       "PS",
-       "",
-       true
-      ],
-      [
-       9,
-       "Ferran Torres",
-       "N",
-       "",
-       true
-      ],
-      [
-       7,
-       "Khvicha Kvaratskhelia",
-       "LS",
-       "",
-       true
-      ],
-      [
-       25,
-       "Nuno Mendes",
-       "LO",
-       "",
-       false
-      ],
-      [
-       17,
-       "Vitinha",
-       "ŚP",
-       "",
-       false
-      ],
-      [
-       14,
-       "Désiré Doué",
-       "LS",
-       "",
-       false
-      ],
-      [
-       2,
-       "Achraf Hakimi",
-       "PO",
-       "",
-       false
-      ],
-      [
-       10,
-       "Ousmane Dembélé",
-       "PS",
-       "",
-       false
-      ],
-      [
-       30,
-       "Lucas Chevalier",
-       "BR",
-       "",
-       false
-      ],
-      [
-       51,
-       "Willian Pacho",
-       "ŚO",
-       "",
-       false
-      ],
-      [
-       8,
-       "Fabián Ruiz",
-       "ŚP",
-       "",
-       false
-      ],
-      [
-       22,
-       "Mika Godts",
-       "N",
-       "",
-       false
-      ]
-     ]
-    },
-    "teamStats": [
-     [
-      "Posiadanie %",
-      27,
-      73
-     ],
-     [
-      "xG",
-      1.47,
-      2.69
-     ],
-     [
-      "Strzały",
-      17,
-      18
-     ],
-     [
-      "Celne",
-      8,
-      7
-     ],
-     [
-      "Rzuty rożne",
-      3,
-      6
-     ]
-    ],
-    "ind": {
-     "Filip Jørgensen": {
-      "r": 6.3
-     },
-     "Genesis Antwi": {
-      "r": 6.0
-     },
-     "Jeyland Mitchell": {
-      "r": 6.4
-     },
-     "Karim Coulibaly": {
-      "r": 5.5
-     },
-     "Oso": {
-      "r": 6.4
-     },
-     "Dário Essugo": {
-      "r": 6.4
-     },
-     "Pape Demba Diop": {
-      "r": 6.9
-     },
-     "Gessime Yassine": {
-      "r": 7.2
-     },
-     "Giovanni Reyna": {
-      "r": 7.8
-     },
-     "Fabio Baldé": {
-      "r": 6.5
-     },
-     "Conrad Harder": {
-      "r": 6.9
-     },
-     "Samuel Amo-Ameyaw": {
-      "r": 6.2
-     },
-     "Samir El Mourabet": {
-      "r": 6.3
-     },
-     "Matvey Safonov": {
-      "r": 8.5
-     },
-     "Warren Zaïre-Emery": {
-      "r": 6.6
-     },
-     "Ilya Zabarnyi": {
-      "r": 8.4
-     },
-     "Lucas Hernández": {
-      "r": 7.2
-     },
-     "Lucas Digne": {
-      "r": 6.8
-     },
-     "João Neves": {
-      "r": 7.4
-     },
-     "Dro Fernández": {
-      "r": 7.5
-     },
-     "Lucas Beraldo": {
-      "r": 6.9
-     },
-     "Maghnes Akliouche": {
-      "r": 7.5
-     },
-     "Ferran Torres": {
-      "r": 7.6
-     },
-     "Khvicha Kvaratskhelia": {
-      "r": 7.4
-     },
-     "Nuno Mendes": {
-      "r": 6.6
-     },
-     "Vitinha": {
-      "r": 6.9
-     },
-     "Désiré Doué": {
-      "r": 7.4
-     },
-     "Achraf Hakimi": {
-      "r": 6.5
-     },
-     "Ousmane Dembélé": {
-      "r": 7.7
-     }
-    }
-   },
-   {
-    "id": "L1-2026-27-R7-LIL-BRE",
-    "date": "2026-10-17",
-    "home": "LIL",
-    "away": "BRE",
-    "status": "ft",
-    "venue": {
-     "name": "Stade Pierre-Mauroy",
-     "city": "Lille",
-     "capacity": 50186
-    },
-    "score": [
-     1,
-     1
-    ],
-    "events": [
-     {
-      "m": 6,
-      "t": "goal",
-      "s_": "a",
-      "who": "Mama Baldé",
-      "as": "Gautier Lloris"
-     },
-     {
-      "m": 13,
-      "t": "yc",
-      "s_": "a",
-      "who": "Kamory Doumbia",
-      "why": "Faul"
-     },
-     {
-      "m": 46,
-      "t": "sub",
-      "s_": "a",
-      "inn": "Joseph Nonge",
-      "out": "Mama Baldé"
-     },
-     {
-      "m": 54,
-      "t": "sub",
-      "s_": "h",
-      "inn": "Calvin Verdonk",
-      "out": "Romain Perraud"
-     },
-     {
-      "m": 58,
-      "t": "yc",
-      "s_": "a",
-      "who": "Bradley Locko",
-      "why": "Faul"
-     },
-     {
-      "m": 64,
-      "t": "pen",
-      "s_": "h",
-      "who": "Olivier Giroud",
-      "res": "Gol"
-     },
-     {
-      "m": 65,
-      "t": "sub",
-      "s_": "h",
-      "inn": "Nabil Bentaleb",
-      "out": "Benjamin André"
-     },
-     {
-      "m": 65,
-      "t": "sub",
-      "s_": "h",
-      "inn": "Soriba Diaoune",
-      "out": "Dilane Bakwa"
-     },
-     {
-      "m": 77,
-      "t": "sub",
-      "s_": "h",
-      "inn": "Maurits Kjærgaard",
-      "out": "Ngal'ayel Mukau"
-     },
-     {
-      "m": 77,
-      "t": "sub",
-      "s_": "a",
-      "inn": "Ibrahim Kanté",
-      "out": "Pathé Mboup"
-     },
-     {
-      "m": 82,
-      "t": "sub",
-      "s_": "a",
-      "inn": "Mamady Diambou",
-      "out": "Kamory Doumbia"
-     },
-     {
-      "m": 90,
-      "t": "yc",
-      "s_": "h",
-      "who": "Calvin Verdonk",
-      "why": "Faul"
-     }
-    ],
-    "notes": "Szczegóły meczu: Flashscore, FotMob, Sofascore, ESPN, L'Équipe, t-online.de. Pola niepotwierdzone w źródłach pominięto.",
-    "time": "20:45",
-    "attendance": 40779,
-    "officials": [
-     {
-      "r": "GŁ",
-      "role": "Sędzia główny",
-      "name": "Clément Turpin",
-      "nat": "FRA"
-     },
-     {
-      "r": "VAR",
-      "role": "Sędzia VAR",
-      "name": "Julien Schmitt"
-     }
-    ],
-    "staff": {
-     "home": [
-      [
-       "Trener",
-       "Davide Ancelotti"
-      ]
-     ],
-     "away": [
-      [
-       "Trener",
-       "Julien Lachuer"
-      ]
-     ]
-    },
-    "formation": {
-     "home": "4-2-3-1",
-     "away": "4-2-3-1"
-    },
-    "players": {
-     "home": [
-      [
-       12,
-       "Orlando Gill",
-       "BR",
-       "",
-       true
-      ],
-      [
-       38,
-       "Maxime Goffi",
-       "PO",
-       "",
-       true
-      ],
-      [
-       3,
-       "Nathan Ngoy",
-       "ŚO",
-       "",
-       true
-      ],
-      [
-       23,
-       "Tanguy Nianzou",
-       "ŚO",
-       "",
-       true
-      ],
-      [
-       15,
-       "Romain Perraud",
-       "LO",
-       "",
-       true
-      ],
-      [
-       21,
-       "Benjamin André",
-       "DP",
-       "",
-       true
-      ],
-      [
-       17,
-       "Ngal'ayel Mukau",
-       "DP",
-       "",
-       true
-      ],
-      [
-       8,
-       "Ethan Mbappé",
-       "PS",
-       "",
-       true
-      ],
-      [
-       10,
-       "Hákon Arnar Haraldsson",
-       "OP",
-       "",
-       true
-      ],
-      [
-       7,
-       "Dilane Bakwa",
-       "LS",
-       "",
-       true
-      ],
-      [
-       9,
-       "Olivier Giroud",
-       "N",
-       "",
-       true
-      ],
-      [
-       24,
-       "Calvin Verdonk",
-       "LO",
-       "",
-       false
-      ],
-      [
-       6,
-       "Nabil Bentaleb",
-       "DP",
-       "",
-       false
-      ],
-      [
-       35,
-       "Soriba Diaoune",
-       "LS",
-       "",
-       false
-      ],
-      [
-       14,
-       "Maurits Kjærgaard",
-       "ŚP",
-       "",
-       false
-      ]
-     ],
-     "away": [
-      [
-       1,
-       "Egil Selvik",
-       "BR",
-       "",
-       true
-      ],
-      [
-       70,
-       "Kenny Lala",
-       "PO",
-       "",
-       true
-      ],
-      [
-       29,
-       "Lucas Tousart",
-       "ŚO",
-       "",
-       true
-      ],
-      [
-       4,
-       "Gautier Lloris",
-       "ŚO",
-       "",
-       true
-      ],
-      [
-       2,
-       "Bradley Locko",
-       "LO",
-       "",
-       true
-      ],
-      [
-       13,
-       "Joris Chotard",
-       "DP",
-       "",
-       true
-      ],
-      [
-       8,
-       "Hugo Magnetti",
-       "DP",
-       "",
-       true
-      ],
-      [
-       17,
-       "Mama Baldé",
-       "PS",
-       "",
-       true
-      ],
-      [
-       23,
-       "Kamory Doumbia",
-       "OP",
-       "",
-       true
-      ],
-      [
-       9,
-       "Pathé Mboup",
-       "LS",
-       "",
-       true
-      ],
-      [
-       19,
-       "Ludovic Ajorque",
-       "N",
-       "",
-       true
-      ],
-      [
-       7,
-       "Joseph Nonge",
-       "PS",
-       "",
-       false
-      ],
-      [
-       21,
-       "Ibrahim Kanté",
-       "LS",
-       "",
-       false
-      ],
-      [
-       6,
-       "Mamady Diambou",
-       "ŚP",
-       "",
-       false
-      ]
-     ]
-    },
-    "teamStats": [
-     [
-      "Posiadanie %",
-      67,
-      33
-     ],
-     [
-      "xG",
-      2.17,
-      0.78
-     ],
-     [
-      "Strzały",
-      17,
-      8
-     ]
-    ],
-    "ind": {
-     "Orlando Gill": {
-      "r": 6.7
-     },
-     "Maxime Goffi": {
-      "r": 7.9
-     },
-     "Nathan Ngoy": {
-      "r": 7.1
-     },
-     "Tanguy Nianzou": {
-      "r": 6.7
-     },
-     "Romain Perraud": {
-      "r": 6.9
-     },
-     "Benjamin André": {
-      "r": 6.8
-     },
-     "Ngal'ayel Mukau": {
-      "r": 7.1
-     },
-     "Ethan Mbappé": {
-      "r": 7.8
-     },
-     "Hákon Arnar Haraldsson": {
-      "r": 7.2
-     },
-     "Dilane Bakwa": {
-      "r": 7.2
-     },
-     "Olivier Giroud": {
-      "r": 7.5
-     },
-     "Calvin Verdonk": {
-      "r": 6.2
-     },
-     "Nabil Bentaleb": {
-      "r": 6.8
-     },
-     "Soriba Diaoune": {
-      "r": 6.6
-     },
-     "Maurits Kjærgaard": {
-      "r": 6.0
-     },
-     "Egil Selvik": {
-      "r": 8.0
-     },
-     "Kenny Lala": {
-      "r": 7.2
-     },
-     "Lucas Tousart": {
-      "r": 7.5
-     },
-     "Gautier Lloris": {
-      "r": 7.3
-     },
-     "Bradley Locko": {
-      "r": 6.5
-     },
-     "Joris Chotard": {
-      "r": 7.0
-     },
-     "Hugo Magnetti": {
-      "r": 6.6
-     },
-     "Mama Baldé": {
-      "r": 7.3
-     },
-     "Kamory Doumbia": {
-      "r": 6.9
-     },
-     "Pathé Mboup": {
-      "r": 6.2
-     },
-     "Ludovic Ajorque": {
-      "r": 6.5
-     },
-     "Joseph Nonge": {
-      "r": 6.4
-     },
-     "Ibrahim Kanté": {
-      "r": 6.5
-     },
-     "Mamady Diambou": {
-      "r": 6.0
-     }
-    }
-   },
-   {
-    "id": "L1-2026-27-R7-TRO-LEN",
-    "date": "2026-10-17",
-    "home": "TRO",
-    "away": "LEN",
-    "status": "ft",
-    "venue": {
-     "name": "Stade de l'Aube",
-     "city": "Troyes",
-     "capacity": 20400
-    },
-    "score": [
-     1,
-     3
-    ],
-    "events": [
-     {
-      "m": 13,
-      "t": "og",
-      "s_": "a",
-      "who": "Adrien Monfray"
-     },
-     {
-      "m": 26,
-      "t": "goal",
-      "s_": "h",
-      "who": "Timothé Nkada",
-      "as": "Mouhamed Diop",
-      "how": "Lewa noga"
-     },
-     {
-      "m": 45,
-      "s": "+1",
-      "t": "goal",
-      "s_": "a",
-      "who": "Odsonne Édouard",
-      "as": "Florian Thauvin",
-      "how": "Prawa noga"
-     },
-     {
-      "m": 55,
-      "t": "goal",
-      "s_": "a",
-      "who": "Ruben Aguilar",
-      "as": "Florian Thauvin",
-      "how": "Głowa"
-     },
-     {
-      "m": 60,
-      "t": "sub",
-      "s_": "h",
-      "inn": "Kandet Diawara",
-      "out": "Timothé Nkada"
-     },
-     {
-      "m": 60,
-      "t": "sub",
-      "s_": "a",
-      "inn": "Samson Baidoo",
-      "out": "Jean-Clair Todibo"
-     },
-     {
-      "m": 64,
-      "t": "sub",
-      "s_": "h",
-      "inn": "Noah Donkor",
-      "out": "Paolo Gozzi"
-     },
-     {
-      "m": 67,
-      "t": "sub",
-      "s_": "a",
-      "inn": "Amadou Haïdara",
-      "out": "Yacine Titraoui"
-     },
-     {
-      "m": 67,
-      "t": "sub",
-      "s_": "a",
-      "inn": "Mezian Soares",
-      "out": "Florian Thauvin"
-     },
-     {
-      "m": 67,
-      "t": "sub",
-      "s_": "a",
-      "inn": "Franjo Ivanović",
-      "out": "Odsonne Édouard"
-     },
-     {
-      "m": 72,
-      "t": "sub",
-      "s_": "a",
-      "inn": "Saud Abdulhamid",
-      "out": "Ruben Aguilar"
-     },
-     {
-      "m": 76,
-      "t": "yc",
-      "s_": "h",
-      "who": "Michel Diaz",
-      "why": "Nierozważny wślizg"
-     },
-     {
-      "m": 76,
-      "t": "yc",
-      "s_": "h",
-      "who": "Renaud Ripart"
-     },
-     {
-      "m": 77,
-      "t": "yc",
-      "s_": "a",
-      "who": "Samson Baidoo",
-      "why": "Nierozważny wślizg"
-     },
-     {
-      "m": 79,
-      "t": "sub",
-      "s_": "h",
-      "inn": "Iron Gomis",
-      "out": "Lucas Maronnier"
-     },
-     {
-      "m": 79,
-      "t": "sub",
-      "s_": "h",
-      "inn": "Jérémy Le Douaron",
-      "out": "Mouhamed Diop"
-     },
-     {
-      "m": 82,
-      "t": "yc",
-      "s_": "a",
-      "who": "Amadou Haïdara",
-      "why": "Nierozważny wślizg"
-     }
-    ],
-    "notes": "Szczegóły meczu: Flashscore, FotMob, Sofascore, ESPN, L'Équipe, t-online.de. Pola niepotwierdzone w źródłach pominięto.",
-    "time": "20:45",
-    "attendance": 14928,
-    "officials": [
-     {
-      "r": "GŁ",
-      "role": "Sędzia główny",
-      "name": "Hakim Ben El Hadj Salem"
-     }
-    ],
-    "staff": {
-     "home": [
-      [
-       "Trener",
-       "Stéphane Dumont"
-      ]
-     ],
-     "away": [
-      [
-       "Trener",
-       "Yannick Cahuzac"
-      ]
-     ]
-    },
-    "formation": {
-     "home": "4-2-3-1",
-     "away": "3-4-2-1"
-    },
-    "players": {
-     "home": [
-      [
-       33,
-       "Patrick Beach",
-       "BR",
-       "",
-       true
-      ],
-      [
-       2,
-       "Lucas Maronnier",
-       "PO",
-       "",
-       true
-      ],
-      [
-       6,
-       "Adrien Monfray",
-       "ŚO",
-       "",
-       true
-      ],
-      [
-       4,
-       "Michel Diaz",
-       "ŚO",
-       "",
-       true
-      ],
-      [
-       5,
-       "Paolo Gozzi",
-       "LO",
-       "",
-       true
-      ],
-      [
-       8,
-       "Mouhamed Diop",
-       "DP",
-       "",
-       true
-      ],
-      [
-       29,
-       "Dermane Karim",
-       "DP",
-       "",
-       true
-      ],
-      [
-       17,
-       "Antoine Mille",
-       "PS",
-       "",
-       true
-      ],
-      [
-       10,
-       "Merwan Ifnaoui",
-       "OP",
-       "",
-       true
-      ],
-      [
-       23,
-       "Timothé Nkada",
-       "LS",
-       "",
-       true
-      ],
-      [
-       20,
-       "Renaud Ripart",
-       "N",
-       "",
-       true
-      ],
-      [
-       7,
-       "Kandet Diawara",
-       "ŚP",
-       "",
-       false
-      ],
-      [
-       31,
-       "Noah Donkor",
-       "ŚO",
-       "",
-       false
-      ],
-      [
-       11,
-       "Iron Gomis",
-       "ŚP",
-       "",
-       false
-      ],
-      [
-       9,
-       "Jérémy Le Douaron",
-       "N",
-       "",
-       false
-      ],
-      [
-       37,
-       "Christ Batola",
-       "N",
-       "",
-       false
-      ],
-      [
-       40,
-       "Hillel Konaté",
-       "BR",
-       "",
-       false
-      ],
-      [
-       26,
-       "Alexandre Philiponeau",
-       "ŚP",
-       "",
-       false
-      ],
-      [
-       22,
-       "Hugo Picard",
-       "ŚP",
-       "",
-       false
-      ],
-      [
-       34,
-       "Lassana Simakha",
-       "ŚO",
-       "",
-       false
-      ]
-     ],
-     "away": [
-      [
-       40,
-       "Robin Risser",
-       "BR",
-       "",
-       true
-      ],
-      [
-       32,
-       "Kyllian Antonio",
-       "ŚO",
-       "",
-       true
-      ],
-      [
-       25,
-       "Ismaëlo Ganiou",
-       "ŚO",
-       "",
-       true
-      ],
-      [
-       20,
-       "Jean-Clair Todibo",
-       "ŚO",
-       "",
-       true
-      ],
-      [
-       2,
-       "Ruben Aguilar",
-       "PO",
-       "",
-       true
-      ],
-      [
-       8,
-       "Yacine Titraoui",
-       "ŚP",
-       "",
-       true
-      ],
-      [
-       5,
-       "Andrija Bulatović",
-       "ŚP",
-       "",
-       true
-      ],
-      [
-       22,
-       "Michał Skóraś",
-       "LO",
-       "",
-       true
-      ],
-      [
-       10,
-       "Florian Thauvin",
-       "OP",
-       "",
-       true
-      ],
-      [
-       7,
-       "Florian Sotoca",
-       "OP",
-       "",
-       true
-      ],
-      [
-       11,
-       "Odsonne Édouard",
-       "N",
-       "",
-       true
-      ],
-      [
-       6,
-       "Samson Baidoo",
-       "ŚO",
-       "",
-       false
-      ],
-      [
-       21,
-       "Amadou Haïdara",
-       "ŚP",
-       "",
-       false
-      ],
-      [
-       29,
-       "Franjo Ivanović",
-       "N",
-       "",
-       false
-      ],
-      [
-       38,
-       "Mezian Soares",
-       "ŚP",
-       "",
-       false
-      ],
-      [
-       23,
-       "Saud Abdulhamid",
-       "PO",
-       "",
-       false
-      ],
-      [
-       27,
-       "Michaël Cuisance",
-       "ŚP",
-       "",
-       false
-      ],
-      [
-       16,
-       "Mathieu Gorgelin",
-       "BR",
-       "",
-       false
-      ],
-      [
-       9,
-       "Thorgan Hazard",
-       "ŚP",
-       "",
-       false
-      ],
-      [
-       28,
-       "Junior Kadile",
-       "N",
-       "",
-       false
-      ]
-     ]
-    },
-    "teamStats": [
-     [
-      "Posiadanie %",
-      41,
-      59
-     ],
-     [
-      "xG",
-      1.42,
-      1.25
-     ],
-     [
-      "Strzały",
-      14,
-      9
-     ],
-     [
-      "Celne",
-      6,
-      4
-     ],
-     [
-      "Rzuty rożne",
-      6,
-      4
-     ],
-     [
-      "Faule",
-      13,
-      11
-     ],
-     [
-      "Spalone",
-      0,
-      1
-     ]
-    ],
-    "ind": {
-     "Patrick Beach": {
-      "r": 3
-     },
-     "Lucas Maronnier": {
-      "r": 4
-     },
-     "Adrien Monfray": {
-      "r": 5
-     },
-     "Michel Diaz": {
-      "r": 5
-     },
-     "Paolo Gozzi": {
-      "r": 3
-     },
-     "Mouhamed Diop": {
-      "r": 5
-     },
-     "Dermane Karim": {
-      "r": 7
-     },
-     "Antoine Mille": {
-      "r": 4
-     },
-     "Merwan Ifnaoui": {
-      "r": 5
-     },
-     "Timothé Nkada": {
-      "r": 6
-     },
-     "Renaud Ripart": {
-      "r": 3
-     },
-     "Robin Risser": {
-      "r": 6
-     },
-     "Kyllian Antonio": {
-      "r": 5
-     },
-     "Ismaëlo Ganiou": {
-      "r": 6.5
-     },
-     "Jean-Clair Todibo": {
-      "r": 4
-     },
-     "Ruben Aguilar": {
-      "r": 7
-     },
-     "Yacine Titraoui": {
-      "r": 6
-     },
-     "Andrija Bulatović": {
-      "r": 6
-     },
-     "Michał Skóraś": {
-      "r": 5.5
-     },
-     "Florian Thauvin": {
-      "r": 8
-     },
-     "Florian Sotoca": {
-      "r": 4
-     },
-     "Odsonne Édouard": {
-      "r": 5
-     }
-    }
-   },
-   {
-    "id": "L1-2026-27-R7-ANG-OLM",
-    "date": "2026-10-18",
-    "home": "ANG",
-    "away": "OLM",
-    "status": "ft",
-    "venue": {
-     "name": "Stade Raymond-Kopa",
-     "city": "Angers",
-     "capacity": 18752
-    },
-    "score": [
-     2,
-     5
-    ],
-    "events": [
-     {
-      "m": 14,
-      "t": "goal",
-      "s_": "h",
-      "who": "Lilian Raolisoa"
-     },
-     {
-      "m": 37,
-      "t": "goal",
-      "s_": "a",
-      "who": "Himad Abdelli",
-      "as": "Timothy Weah",
-      "how": "Głowa"
-     },
-     {
-      "m": 43,
-      "t": "goal",
-      "s_": "a",
-      "who": "Nouhoum Kamissoko",
-      "as": "Emerson",
-      "how": "Głowa"
-     },
-     {
-      "m": 57,
-      "t": "sub",
-      "s_": "h",
-      "inn": "Prosper Peter",
-      "out": "Louis Mouton"
-     },
-     {
-      "m": 60,
-      "t": "pen",
-      "s_": "a",
-      "who": "Amine Gouiri",
-      "res": "Obroniony"
-     },
-     {
-      "m": 60,
-      "t": "goal",
-      "s_": "a",
-      "who": "Amine Gouiri"
-     },
-     {
-      "m": 60,
-      "t": "sub",
-      "s_": "a",
-      "inn": "Nayef Aguerd",
-      "out": "Geoffrey Kondogbia"
-     },
-     {
-      "m": 68,
-      "t": "yc",
-      "s_": "h",
-      "who": "Emmanuel Biumla",
-      "why": "Faul"
-     },
-     {
-      "m": 72,
-      "t": "sub",
-      "s_": "h",
-      "inn": "Harouna Djibirin",
-      "out": "Jim Allevinah"
-     },
-     {
-      "m": 72,
-      "t": "sub",
-      "s_": "h",
-      "inn": "Joseph Kalulu",
-      "out": "Emmanuel Biumla"
-     },
-     {
-      "m": 74,
-      "t": "yc",
-      "s_": "a",
-      "who": "Tochukwu Nnadi",
-      "why": "Faul taktyczny"
-     },
-     {
-      "m": 75,
-      "t": "pen",
-      "s_": "h",
-      "who": "Amine El Ouazzani",
-      "res": "Gol"
-     },
-     {
-      "m": 80,
-      "t": "sub",
-      "s_": "a",
-      "inn": "Angel Gomes",
-      "out": "Nouhoum Kamissoko"
-     },
-     {
-      "m": 80,
-      "t": "sub",
-      "s_": "a",
-      "inn": "Keyliane Abdallah",
-      "out": "Himad Abdelli"
-     },
-     {
-      "m": 83,
-      "t": "goal",
-      "s_": "a",
-      "who": "Amine Harit",
-      "as": "Tochukwu Nnadi"
-     },
-     {
-      "m": 85,
-      "t": "goal",
-      "s_": "a",
-      "who": "Igor Paixão",
-      "as": "Timothy Weah"
-     },
-     {
-      "m": 89,
-      "t": "sub",
-      "s_": "h",
-      "inn": "Anthony Bermont",
-      "out": "Amine Sbaï"
-     },
-     {
-      "m": 89,
-      "t": "sub",
-      "s_": "h",
-      "inn": "Bané Diatta",
-      "out": "Amine El Ouazzani"
-     },
-     {
-      "m": 90,
-      "t": "sub",
-      "s_": "a",
-      "inn": "Ulisses Garcia",
-      "out": "Amine Harit"
-     },
-     {
-      "m": 90,
-      "t": "sub",
-      "s_": "a",
-      "inn": "Neal Maupay",
-      "out": "Tochukwu Nnadi"
-     }
-    ],
-    "notes": "Szczegóły meczu: Flashscore, FotMob, Sofascore, ESPN, L'Équipe, t-online.de. Pola niepotwierdzone w źródłach pominięto.",
-    "time": "15:00",
-    "attendance": 10553,
-    "officials": [
-     {
-      "r": "GŁ",
-      "role": "Sędzia główny",
-      "name": "Jérémie Pignard"
-     }
-    ],
-    "staff": {
-     "home": [
-      [
-       "Trener",
-       "Stéphane Gilli"
-      ]
-     ],
-     "away": [
-      [
-       "Trener",
-       "Bruno Génésio"
-      ]
-     ]
-    },
-    "formation": {
-     "home": "4-1-2-3",
-     "away": "4-2-3-1"
-    },
-    "players": {
-     "home": [
-      [
-       1,
-       "Anthony Lopes",
-       "BR",
-       "",
-       true
-      ],
-      [
-       2,
-       "Carlens Arcus",
-       "PO",
-       "",
-       true
-      ],
-      [
-       27,
-       "Lilian Raolisoa",
-       "ŚO",
-       "",
-       true
-      ],
-      [
-       6,
-       "Louis Mouton",
-       "ŚO",
-       "",
-       true
-      ],
-      [
-       34,
-       "Maël Gernigon",
-       "LO",
-       "",
-       true
-      ],
-      [
-       24,
-       "Emmanuel Biumla",
-       "DP",
-       "",
-       true
-      ],
-      [
-       14,
-       "Yassin Belkhdim",
-       "ŚP",
-       "",
-       true
-      ],
-      [
-       8,
-       "Branco van den Boomen",
-       "ŚP",
-       "",
-       true
-      ],
-      [
-       18,
-       "Jim Allevinah",
-       "PS",
-       "",
-       true
-      ],
-      [
-       19,
-       "Amine El Ouazzani",
-       "N",
-       "",
-       true
-      ],
-      [
-       10,
-       "Amine Sbaï",
-       "LS",
-       "",
-       true
-      ],
-      [
-       9,
-       "Prosper Peter",
-       "N",
-       "",
-       false
-      ],
-      [
-       11,
-       "Harouna Djibirin",
-       "N",
-       "",
-       false
-      ],
-      [
-       17,
-       "Joseph Kalulu",
-       "ŚO",
-       "",
-       false
-      ],
-      [
-       26,
-       "Anthony Bermont",
-       "ŚP",
-       "",
-       false
-      ],
-      [
-       36,
-       "Bané Diatta",
-       "ŚP",
-       "",
-       false
-      ],
-      [
-       37,
-       "Jules Bouffandeau",
-       "ŚP",
-       "",
-       false
-      ],
-      [
-       20,
-       "Marius Louër",
-       "ŚO",
-       "",
-       false
-      ],
-      [
-       40,
-       "Oumar Pona",
-       "BR",
-       "",
-       false
-      ],
-      [
-       7,
-       "Usman Simbakoli",
-       "N",
-       "",
-       false
-      ]
-     ],
-     "away": [
-      [
-       1,
-       "Jeffrey de Lange",
-       "BR",
-       "",
-       true
-      ],
-      [
-       22,
-       "Timothy Weah",
-       "PO",
-       "",
-       true
-      ],
-      [
-       4,
-       "CJ Egan-Riley",
-       "ŚO",
-       "",
-       true
-      ],
-      [
-       19,
-       "Geoffrey Kondogbia",
-       "ŚO",
-       "",
-       true
-      ],
-      [
-       33,
-       "Emerson",
-       "LO",
-       "",
-       true
-      ],
-      [
-       42,
-       "Nouhoum Kamissoko",
-       "DP",
-       "",
-       true
-      ],
-      [
-       6,
-       "Tochukwu Nnadi",
-       "DP",
-       "",
-       true
-      ],
-      [
-       77,
-       "Amine Harit",
-       "PS",
-       "",
-       true
-      ],
-      [
-       8,
-       "Himad Abdelli",
-       "OP",
-       "",
-       true
-      ],
-      [
-       14,
-       "Igor Paixão",
-       "LS",
-       "",
-       true
-      ],
-      [
-       9,
-       "Amine Gouiri",
-       "N",
-       "",
-       true
-      ],
-      [
-       21,
-       "Nayef Aguerd",
-       "ŚO",
-       "",
-       false
-      ],
-      [
-       48,
-       "Keyliane Abdallah",
-       "N",
-       "",
-       false
-      ],
-      [
-       7,
-       "Angel Gomes",
-       "ŚP",
-       "",
-       false
-      ],
-      [
-       25,
-       "Ulisses Garcia",
-       "LO",
-       "",
-       false
-      ],
-      [
-       11,
-       "Neal Maupay",
-       "N",
-       "",
-       false
-      ],
-      [
-       74,
-       "Kelyann Bezahaf",
-       "ŚO",
-       "",
-       false
-      ],
-      [
-       18,
-       "Bamo Meïté",
-       "ŚO",
-       "",
-       false
-      ],
-      [
-       43,
-       "Tadjidine Mmadi",
-       "ŚP",
-       "",
-       false
-      ],
-      [
-       92,
-       "Théo Vermot",
-       "BR",
-       "",
-       false
-      ]
-     ]
-    },
-    "teamStats": [
-     [
-      "Posiadanie %",
-      42,
-      58
-     ],
-     [
-      "Strzały",
-      11,
-      18
-     ],
-     [
-      "Celne",
-      3,
-      9
-     ],
-     [
-      "Rzuty rożne",
-      2,
-      5
-     ],
-     [
-      "Faule",
-      10,
-      11
-     ],
-     [
-      "Spalone",
-      0,
-      0
-     ]
-    ]
-   },
-   {
-    "id": "L1-2026-27-R7-LOR-MON",
-    "date": "2026-10-18",
-    "home": "LOR",
-    "away": "MON",
-    "status": "ft",
-    "venue": {
-     "name": "Stade du Moustoir",
-     "city": "Lorient",
-     "capacity": 18890
-    },
-    "score": [
-     1,
-     0
-    ],
-    "events": [
-     {
-      "m": 52,
-      "t": "sub",
-      "s_": "a",
-      "inn": "Edan Diop",
-      "out": "Takumi Minamino"
-     },
-     {
-      "m": 57,
-      "t": "yc",
-      "s_": "a",
-      "who": "Mohammed Salisu",
-      "why": "Faul"
-     },
-     {
-      "m": 60,
-      "t": "yc",
-      "s_": "a",
-      "who": "Denis Zakaria",
-      "why": "Faul (rzut karny)"
-     },
-     {
-      "m": 60,
-      "t": "yc",
-      "s_": "a",
-      "who": "Flávio Nazinho"
-     },
-     {
-      "m": 61,
-      "t": "pen",
-      "s_": "h",
-      "who": "Noah Cadiou",
-      "res": "Gol"
-     },
-     {
-      "m": 66,
-      "t": "yc",
-      "s_": "h",
-      "who": "Noah Cadiou",
-      "why": "Faul"
-     },
-     {
-      "m": 66,
-      "t": "sub",
-      "s_": "a",
-      "inn": "Folarin Balogun",
-      "out": "Ansu Fati"
-     },
-     {
-      "m": 66,
-      "t": "sub",
-      "s_": "a",
-      "inn": "Christian Mawissa",
-      "out": "Mohammed Salisu"
-     },
-     {
-      "m": 66,
-      "t": "sub",
-      "s_": "a",
-      "inn": "Mathys Detourbet",
-      "out": "Denis Zakaria"
-     },
-     {
-      "m": 71,
-      "t": "sub",
-      "s_": "h",
-      "inn": "Mamadou Koné",
-      "out": "Ibrahima Baldé"
-     },
-     {
-      "m": 74,
-      "t": "sub",
-      "s_": "a",
-      "inn": "Mika Biereth",
-      "out": "Matthis Abline"
-     },
-     {
-      "m": 76,
-      "t": "yc",
-      "s_": "h",
-      "who": "Arsène Kouassi",
-      "why": "Niesportowe zachowanie"
-     },
-     {
-      "m": 79,
-      "t": "sub",
-      "s_": "h",
-      "inn": "Souleymane Faye",
-      "out": "Gabin Bernardeau"
-     },
-     {
-      "m": 80,
-      "t": "yc",
-      "s_": "a",
-      "who": "Christian Mawissa",
-      "why": "Faul"
-     }
-    ],
-    "notes": "Szczegóły meczu: Flashscore, FotMob, Sofascore, ESPN, L'Équipe, t-online.de. Pola niepotwierdzone w źródłach pominięto.",
-    "time": "17:15",
-    "attendance": 15626,
-    "officials": [
-     {
-      "r": "GŁ",
-      "role": "Sędzia główny",
-      "name": "Marc Bollengier"
-     },
-     {
-      "r": "VAR",
-      "role": "Sędzia VAR",
-      "name": "Yohann Rouinsard"
-     }
-    ],
-    "staff": {
-     "home": [
-      [
-       "Trener",
-       "Alexandre Dujeux"
-      ]
-     ],
-     "away": [
-      [
-       "Trener",
-       "Filipe Luís"
-      ]
-     ]
-    },
-    "formation": {
-     "home": "3-4-2-1",
-     "away": "4-2-3-1"
-    },
-    "players": {
-     "home": [
-      [
-       38,
-       "Yvon Mvogo",
-       "BR",
-       "",
-       true
-      ],
-      [
-       32,
-       "Nathaniel Adjei",
-       "ŚO",
-       "",
-       true
-      ],
-      [
-       3,
-       "Montassar Talbi",
-       "ŚO",
-       "",
-       true
-      ],
-      [
-       95,
-       "Souleymane Touré",
-       "ŚO",
-       "",
-       true
-      ],
-      [
-       20,
-       "Dembo Sylla",
-       "PO",
-       "",
-       true
-      ],
-      [
-       8,
-       "Noah Cadiou",
-       "ŚP",
-       "",
-       true
-      ],
-      [
-       62,
-       "Arthur Avom Ebong",
-       "ŚP",
-       "",
-       true
-      ],
-      [
-       43,
-       "Arsène Kouassi",
-       "LO",
-       "",
-       true
-      ],
-      [
-       17,
-       "Jean-Victor Makengo",
-       "OP",
-       "",
-       true
-      ],
-      [
-       33,
-       "Gabin Bernardeau",
-       "OP",
-       "",
-       true
-      ],
-      [
-       18,
-       "Ibrahima Baldé",
-       "N",
-       "",
-       true
-      ],
-      [
-       42,
-       "Mamadou Koné",
-       "N",
-       "",
-       false
-      ],
-      [
-       19,
-       "Souleymane Faye",
-       "N",
-       "",
-       false
-      ],
-      [
-       15,
-       "Tosin Aiyegun",
-       "N",
-       "",
-       false
-      ],
-      [
-       2,
-       "Alec Georgen",
-       "ŚO",
-       "",
-       false
-      ],
-      [
-       21,
-       "Bingourou Kamara",
-       "BR",
-       "",
-       false
-      ],
-      [
-       77,
-       "Panos Katseris",
-       "ŚP",
-       "",
-       false
-      ],
-      [
-       30,
-       "Srdan Kuzmic",
-       "ŚO",
-       "",
-       false
-      ],
-      [
-       11,
-       "Théo Le Bris",
-       "ŚP",
-       "",
-       false
-      ],
-      [
-       55,
-       "Nosa Edward Obaretin",
-       "ŚO",
-       "",
-       false
-      ]
-     ],
-     "away": [
-      [
-       1,
-       "Lukáš Hrádecký",
-       "BR",
-       "",
-       true
-      ],
-      [
-       2,
-       "Vanderson",
-       "PO",
-       "",
-       true
-      ],
-      [
-       72,
-       "Sadibou Sané",
-       "ŚO",
-       "",
-       true
-      ],
-      [
-       22,
-       "Mohammed Salisu",
-       "ŚO",
-       "",
-       true
-      ],
-      [
-       20,
-       "Flávio Nazinho",
-       "LO",
-       "",
-       true
-      ],
-      [
-       8,
-       "Lamine Camara",
-       "DP",
-       "",
-       true
-      ],
-      [
-       6,
-       "Denis Zakaria",
-       "DP",
-       "",
-       true
-      ],
-      [
-       18,
-       "Takumi Minamino",
-       "PS",
-       "",
-       true
-      ],
-      [
-       10,
-       "Aleksandr Golovin",
-       "OP",
-       "",
-       true
-      ],
-      [
-       31,
-       "Ansu Fati",
-       "LS",
-       "",
-       true
-      ],
-      [
-       11,
-       "Matthis Abline",
-       "N",
-       "",
-       true
-      ],
-      [
-       37,
-       "Edan Diop",
-       "ŚP",
-       "",
-       false
-      ],
-      [
-       9,
-       "Folarin Balogun",
-       "N",
-       "",
-       false
-      ],
-      [
-       7,
-       "Mathys Detourbet",
-       "N",
-       "",
-       false
-      ],
-      [
-       13,
-       "Christian Mawissa",
-       "ŚO",
-       "",
-       false
-      ],
-      [
-       14,
-       "Mika Biereth",
-       "N",
-       "",
-       false
-      ],
-      [
-       19,
-       "Pape Cabral",
-       "ŚP",
-       "",
-       false
-      ],
-      [
-       28,
-       "Mamadou Coulibaly",
-       "ŚP",
-       "",
-       false
-      ],
-      [
-       16,
-       "Philipp Köhn",
-       "BR",
-       "",
-       false
-      ],
-      [
-       4,
-       "Jordan Teze",
-       "ŚO",
-       "",
-       false
-      ]
-     ]
-    },
-    "teamStats": [
-     [
-      "Posiadanie %",
-      42,
-      58
-     ],
-     [
-      "xG",
-      1.44,
-      0.85
-     ],
-     [
-      "Strzały",
-      9,
-      16
-     ],
-     [
-      "Celne",
-      2,
-      5
-     ],
-     [
-      "Rzuty rożne",
-      3,
-      4
-     ],
-     [
-      "Faule",
-      10,
-      15
-     ],
-     [
-      "Spalone",
-      1,
-      0
-     ]
-    ]
-   },
-   {
-    "id": "L1-2026-27-R7-PFC-REN",
-    "date": "2026-10-18",
-    "home": "PFC",
-    "away": "REN",
-    "status": "ft",
-    "venue": {
-     "name": "Stade Jean-Bouin",
-     "city": "Paryż",
-     "capacity": 20000
-    },
-    "score": [
-     4,
-     3
-    ],
-    "events": [
-     {
-      "m": 14,
-      "t": "goal",
-      "s_": "h",
-      "who": "Maxime Lopez",
-      "as": "Lassine Sinayoko",
-      "how": "Prawa noga"
-     },
-     {
-      "m": 23,
-      "t": "yc",
-      "s_": "a",
-      "who": "Przemysław Frankowski",
-      "why": "Zagranie ręką"
-     },
-     {
-      "m": 29,
-      "t": "pen",
-      "s_": "a",
-      "who": "Estéban Lepaul",
-      "res": "Gol",
-      "how": "Prawa noga"
-     },
-     {
-      "m": 32,
-      "t": "yc",
-      "s_": "a",
-      "who": "Djaoui Cissé",
-      "why": "Faul"
-     },
-     {
-      "m": 36,
-      "t": "yc",
-      "s_": "a",
-      "who": "Anthony Rouault",
-      "why": "Faul"
-     },
-     {
-      "m": 36,
-      "t": "yc",
-      "s_": "a",
-      "who": "Adrien Thomasson",
-      "why": "Faul"
-     },
-     {
-      "m": 42,
-      "t": "yc",
-      "s_": "h",
-      "who": "Samir Chergui"
-     },
-     {
-      "m": 45,
-      "s": "+4",
-      "t": "goal",
-      "s_": "h",
-      "who": "Maxime Lopez",
-      "as": "Lassine Sinayoko",
-      "how": "Prawa noga"
-     },
-     {
-      "m": 46,
-      "t": "sub",
-      "s_": "a",
-      "inn": "Valentin Rongier",
-      "out": "Adrien Thomasson"
-     },
-     {
-      "m": 46,
-      "t": "sub",
-      "s_": "a",
-      "inn": "Mousa Al-Tamari",
-      "out": "Ludovic Blas"
-     },
-     {
-      "m": 46,
-      "t": "sub",
-      "s_": "a",
-      "inn": "Mahamadou Nagida",
-      "out": "Przemysław Frankowski"
-     },
-     {
-      "m": 51,
-      "t": "var",
-      "s_": "a",
-      "kind": "Gol anulowany",
-      "init": "Gol Sebastiana Szymańskiego",
-      "fin": "Gol nieuznany – faul w początkowej fazie akcji"
-     },
-     {
-      "m": 62,
-      "t": "sub",
-      "s_": "a",
-      "inn": "Mahdi Camara",
-      "out": "Djaoui Cissé"
-     },
-     {
-      "m": 67,
-      "t": "yc",
-      "s_": "h",
-      "who": "Ilan Kebbal",
-      "why": "Faul"
-     },
-     {
-      "m": 70,
-      "t": "sub",
-      "s_": "h",
-      "inn": "Rudy Matondo",
-      "out": "Pablo Pagis"
-     },
-     {
-      "m": 74,
-      "t": "pen",
-      "s_": "a",
-      "who": "Estéban Lepaul",
-      "res": "Gol",
-      "how": "Prawa noga"
-     },
-     {
-      "m": 76,
-      "t": "goal",
-      "s_": "h",
-      "who": "Lassine Sinayoko",
-      "as": "Ilan Kebbal",
-      "how": "Lewa noga"
-     },
-     {
-      "m": 79,
-      "t": "sub",
-      "s_": "h",
-      "inn": "Moses Simon",
-      "out": "Ilan Kebbal"
-     },
-     {
-      "m": 79,
-      "t": "sub",
-      "s_": "h",
-      "inn": "Otávio",
-      "out": "Hamari Traoré"
-     },
-     {
-      "m": 79,
-      "t": "sub",
-      "s_": "a",
-      "inn": "Boulaye Dia",
-      "out": "Issa Soumaré"
-     },
-     {
-      "m": 86,
-      "t": "sub",
-      "s_": "h",
-      "inn": "Emmanuel Mbemba",
-      "out": "Samir Chergui"
-     },
-     {
-      "m": 86,
-      "t": "sub",
-      "s_": "h",
-      "inn": "Moustapha Mbow",
-      "out": "Luca Koleosho"
-     },
-     {
-      "m": 88,
-      "t": "pen",
-      "s_": "a",
-      "who": "Estéban Lepaul",
-      "res": "Gol",
-      "how": "Prawa noga"
-     },
-     {
-      "m": 90,
-      "s": "+3",
-      "t": "var",
-      "s_": "h",
-      "kind": "Rzut karny",
-      "init": "Brak rzutu karnego",
-      "fin": "Rzut karny dla Paris FC (faul Valentina Rongiera)"
-     },
-     {
-      "m": 90,
-      "s": "+5",
-      "t": "yc",
-      "s_": "h",
-      "who": "Hamari Traoré"
-     },
-     {
-      "m": 90,
-      "s": "+7",
-      "t": "pen",
-      "s_": "h",
-      "who": "Lassine Sinayoko",
-      "res": "Gol",
-      "how": "Prawa noga"
-     }
-    ],
-    "notes": "Szczegóły meczu: Flashscore, FotMob, Sofascore, ESPN, L'Équipe, t-online.de. Pola niepotwierdzone w źródłach pominięto.",
-    "time": "17:15",
-    "attendance": 19237,
-    "officials": [
-     {
-      "r": "GŁ",
-      "role": "Sędzia główny",
-      "name": "Bastien Dechepy",
-      "nat": "FRA"
-     },
-     {
-      "r": "VAR",
-      "role": "Sędzia VAR",
-      "name": "Pierre Gaillouste"
-     }
-    ],
-    "staff": {
-     "home": [
-      [
-       "Trener",
-       "Liam Rosenior"
-      ]
-     ],
-     "away": [
-      [
-       "Trener",
-       "Franck Haise"
-      ]
-     ]
-    },
-    "formation": {
-     "home": "4-2-3-1",
-     "away": "4-3-3"
-    },
-    "players": {
-     "home": [
-      [
-       1,
-       "Kevin Trapp",
-       "BR",
-       "",
-       true
-      ],
-      [
-       17,
-       "Adama Camara",
-       "PO",
-       "",
-       true
-      ],
-      [
-       31,
-       "Samir Chergui",
-       "ŚO",
-       "",
-       true
-      ],
-      [
-       42,
-       "Diego Coppola",
-       "ŚO",
-       "",
-       true
-      ],
-      [
-       14,
-       "Hamari Traoré",
-       "LO",
-       "",
-       true
-      ],
-      [
-       20,
-       "Maxime Lopez",
-       "DP",
-       "",
-       true
-      ],
-      [
-       33,
-       "Pierre Lees-Melou",
-       "DP",
-       "",
-       true
-      ],
-      [
-       10,
-       "Ilan Kebbal",
-       "PS",
-       "",
-       true
-      ],
-      [
-       7,
-       "Pablo Pagis",
-       "OP",
-       "",
-       true
-      ],
-      [
-       15,
-       "Luca Koleosho",
-       "LS",
-       "",
-       true
-      ],
-      [
-       9,
-       "Lassine Sinayoko",
-       "N",
-       "",
-       true
-      ],
-      [
-       16,
-       "Obed Nkambadio",
-       "BR",
-       "",
-       false
-      ],
-      [
-       3,
-       "Emmanuel Mbemba",
-       "ŚO",
-       "",
-       false
-      ],
-      [
-       5,
-       "Moustapha Mbow",
-       "ŚO",
-       "",
-       false
-      ],
-      [
-       6,
-       "Otávio",
-       "ŚO",
-       "",
-       false
-      ],
-      [
-       8,
-       "Z. Gueu",
-       "ŚP",
-       "",
-       false
-      ],
-      [
-       23,
-       "Rudy Matondo",
-       "N",
-       "",
-       false
-      ],
-      [
-       11,
-       "Jean-Philippe Krasso",
-       "N",
-       "",
-       false
-      ],
-      [
-       18,
-       "O. Sissoko",
-       "ŚP",
-       "",
-       false
-      ],
-      [
-       27,
-       "Moses Simon",
-       "LS",
-       "",
-       false
-      ]
-     ],
-     "away": [
-      [
-       30,
-       "Brice Samba",
-       "BR",
-       "",
-       true
-      ],
-      [
-       14,
-       "Bryan Reynolds",
-       "PO",
-       "",
-       true
-      ],
-      [
-       4,
-       "Charlie Cresswell",
-       "ŚO",
-       "",
-       true
-      ],
-      [
-       24,
-       "Anthony Rouault",
-       "ŚO",
-       "",
-       true
-      ],
-      [
-       95,
-       "Przemysław Frankowski",
-       "LO",
-       "",
-       true
-      ],
-      [
-       17,
-       "Sebastian Szymański",
-       "ŚP",
-       "",
-       true
-      ],
-      [
-       6,
-       "Djaoui Cissé",
-       "ŚP",
-       "",
-       true
-      ],
-      [
-       28,
-       "Adrien Thomasson",
-       "ŚP",
-       "",
-       true
-      ],
-      [
-       10,
-       "Ludovic Blas",
-       "PS",
-       "",
-       true
-      ],
-      [
-       9,
-       "Estéban Lepaul",
-       "N",
-       "",
-       true
-      ],
-      [
-       90,
-       "Issa Soumaré",
-       "LS",
-       "",
-       true
-      ],
-      [
-       60,
-       "Kilian Belazzoug",
-       "BR",
-       "",
-       false
-      ],
-      [
-       18,
-       "Mahamadou Nagida",
-       "LO",
-       "",
-       false
-      ],
-      [
-       48,
-       "Abdelhamid Aït Boudlal",
-       "ŚO",
-       "",
-       false
-      ],
-      [
-       21,
-       "Valentin Rongier",
-       "ŚP",
-       "",
-       false
-      ],
-      [
-       45,
-       "Mahdi Camara",
-       "ŚP",
-       "",
-       false
-      ],
-      [
-       11,
-       "Mousa Al-Tamari",
-       "PS",
-       "",
-       false
-      ],
-      [
-       12,
-       "E. Mayenda",
-       "N",
-       "",
-       false
-      ],
-      [
-       22,
-       "Boulaye Dia",
-       "N",
-       "",
-       false
-      ],
-      [
-       70,
-       "Arnaud Nordin",
-       "LS",
-       "",
-       false
-      ]
-     ]
-    },
-    "teamStats": [
-     [
-      "Posiadanie %",
-      53,
-      47
-     ],
-     [
-      "xG",
-      3.67,
-      3.12
-     ],
-     [
-      "Strzały",
-      19,
-      12
-     ],
-     [
-      "Celne",
-      9,
-      7
-     ],
-     [
-      "Rzuty rożne",
-      3,
-      4
-     ],
-     [
-      "Faule",
-      13,
-      16
-     ],
-     [
-      "Spalone",
-      1,
-      0
-     ]
-    ]
-   },
-   {
-    "id": "L1-2026-27-R7-HAV-AUX",
-    "date": "2026-10-18",
-    "home": "HAV",
-    "away": "AUX",
-    "status": "ft",
-    "venue": {
-     "name": "Stade Océane",
-     "city": "Hawr",
-     "capacity": 25178
-    },
-    "score": [
-     1,
-     3
-    ],
-    "events": [
-     {
-      "m": 40,
-      "t": "goal",
-      "s_": "a",
-      "who": "Danny Namaso",
-      "as": "Kévin Danois",
-      "how": "Prawa noga"
-     },
-     {
-      "m": 43,
-      "t": "yc",
-      "s_": "a",
-      "who": "Clément Akpa",
-      "why": "Faul"
-     },
-     {
-      "m": 50,
-      "t": "yc",
-      "s_": "a",
-      "who": "Naouirou Ahamada",
-      "why": "Faul"
-     },
-     {
-      "m": 54,
-      "t": "yc",
-      "s_": "h",
-      "who": "Lamine N'Diaye",
-      "why": "Faul"
-     },
-     {
-      "m": 61,
-      "t": "goal",
-      "s_": "a",
-      "who": "Danny Namaso",
-      "as": "Romain Faivre",
-      "how": "Prawa noga"
-     },
-     {
-      "m": 62,
-      "t": "sub",
-      "s_": "h",
-      "inn": "Rayan Fofana",
-      "out": "Sota Nakamura"
-     },
-     {
-      "m": 62,
-      "t": "sub",
-      "s_": "h",
-      "inn": "Enzo Koffi",
-      "out": "Lamine N'Diaye"
-     },
-     {
-      "m": 62,
-      "t": "sub",
-      "s_": "h",
-      "inn": "Hakim Dongopandji",
-      "out": "Josh Maja"
-     },
-     {
-      "m": 66,
-      "t": "goal",
-      "s_": "h",
-      "who": "Rayan Fofana",
-      "as": "Hakim Dongopandji",
-      "how": "Prawa noga"
-     },
-     {
-      "m": 80,
-      "t": "goal",
-      "s_": "a",
-      "who": "Romain Faivre",
-      "as": "Danny Namaso",
-      "how": "Prawa noga"
-     },
-     {
-      "m": 82,
-      "t": "sub",
-      "s_": "a",
-      "inn": "Arthur Piedfort",
-      "out": "Naouirou Ahamada"
-     },
-     {
-      "m": 84,
-      "t": "sub",
-      "s_": "h",
-      "inn": "Kaito Mizuta",
-      "out": "Djibril Ouziad"
-     },
-     {
-      "m": 85,
-      "t": "sub",
-      "s_": "h",
-      "inn": "Guy-Noël Zohouri",
-      "out": "Rassoul Ndiaye"
-     },
-     {
-      "m": 89,
-      "t": "sub",
-      "s_": "a",
-      "inn": "Elikya Legros",
-      "out": "Lamine Sy"
-     }
-    ],
-    "notes": "Szczegóły meczu: Flashscore, FotMob, Sofascore, ESPN, L'Équipe, t-online.de. Pola niepotwierdzone w źródłach pominięto.",
-    "time": "17:15",
-    "attendance": 16867,
-    "officials": [
-     {
-      "r": "GŁ",
-      "role": "Sędzia główny",
-      "name": "Eric Wattellier",
-      "nat": "FRA"
-     },
-     {
-      "r": "VAR",
-      "role": "Sędzia VAR",
-      "name": "Mathieu Vernice"
-     }
-    ],
-    "staff": {
-     "home": [
-      [
-       "Trener",
-       "Didier Digard"
-      ]
-     ],
-     "away": [
-      [
-       "Trener",
-       "Will Still"
-      ]
-     ]
-    },
-    "formation": {
-     "home": "4-3-3",
-     "away": "3-4-2-1"
-    },
-    "players": {
-     "home": [
-      [
-       93,
-       "Gauthier Gallon",
-       "BR",
-       "",
-       true
-      ],
-      [
-       20,
-       "Djibril Ouziad",
-       "PO",
-       "",
-       true
-      ],
-      [
-       6,
-       "Junior Mwanga",
-       "ŚO",
-       "",
-       true
-      ],
-      [
-       5,
-       "Ahmed Touba",
-       "ŚO",
-       "",
-       true
-      ],
-      [
-       97,
-       "Lamine N'Diaye",
-       "LO",
-       "",
-       true
-      ],
-      [
-       14,
-       "Rassoul Ndiaye",
-       "ŚP",
-       "",
-       true
-      ],
-      [
-       26,
-       "Simon Ebonog",
-       "ŚP",
-       "",
-       true
-      ],
-      [
-       7,
-       "Amir Richardson",
-       "ŚP",
-       "",
-       true
-      ],
-      [
-       30,
-       "Sota Nakamura",
-       "PS",
-       "",
-       true
-      ],
-      [
-       9,
-       "Josh Maja",
-       "N",
-       "",
-       true
-      ],
-      [
-       25,
-       "Mbwana Samatta",
-       "LS",
-       "",
-       true
-      ],
-      [
-       16,
-       "Arnaud Bodart",
-       "BR",
-       "",
-       false
-      ],
-      [
-       23,
-       "Vincent Sasso",
-       "ŚO",
-       "",
-       false
-      ],
-      [
-       27,
-       "Enzo Koffi",
-       "LO",
-       "",
-       false
-      ],
-      [
-       17,
-       "Kaito Mizuta",
-       "PO",
-       "",
-       false
-      ],
-      [
-       24,
-       "Guy-Noël Zohouri",
-       "ŚP",
-       "",
-       false
-      ],
-      [
-       44,
-       "I. Bouneb",
-       "ŚP",
-       "",
-       false
-      ],
-      [
-       78,
-       "D. Mosengo",
-       "N",
-       "",
-       false
-      ],
-      [
-       33,
-       "Hakim Dongopandji",
-       "N",
-       "",
-       false
-      ],
-      [
-       38,
-       "Rayan Fofana",
-       "PS",
-       "",
-       false
-      ]
-     ],
-     "away": [
-      [
-       1,
-       "Paul Nardi",
-       "BR",
-       "",
-       true
-      ],
-      [
-       15,
-       "Christ Makosso",
-       "ŚO",
-       "",
-       true
-      ],
-      [
-       4,
-       "Axel Tuanzebe",
-       "ŚO",
-       "",
-       true
-      ],
-      [
-       92,
-       "Clément Akpa",
-       "ŚO",
-       "",
-       true
-      ],
-      [
-       27,
-       "Lamine Sy",
-       "PO",
-       "",
-       true
-      ],
-      [
-       8,
-       "Naouirou Ahamada",
-       "ŚP",
-       "",
-       true
-      ],
-      [
-       5,
-       "Kévin Danois",
-       "ŚP",
-       "",
-       true
-      ],
-      [
-       22,
-       "Fredrik Oppegård",
-       "LO",
-       "",
-       true
-      ],
-      [
-       21,
-       "Romain Faivre",
-       "OP",
-       "",
-       true
-      ],
-      [
-       10,
-       "Danny Namaso",
-       "OP",
-       "",
-       true
-      ],
-      [
-       9,
-       "Cameron Archer",
-       "N",
-       "",
-       true
-      ],
-      [
-       23,
-       "Mamadou Diop",
-       "BR",
-       "",
-       false
-      ],
-      [
-       20,
-       "Sinaly Diomandé",
-       "ŚO",
-       "",
-       false
-      ],
-      [
-       35,
-       "Elikya Legros",
-       "PO",
-       "",
-       false
-      ],
-      [
-       17,
-       "Pierre Ekwah",
-       "ŚP",
-       "",
-       false
-      ],
-      [
-       34,
-       "L. Dioubaté",
-       "ŚO",
-       "",
-       false
-      ],
-      [
-       46,
-       "Arthur Piedfort",
-       "ŚP",
-       "",
-       false
-      ],
-      [
-       44,
-       "M. Cissokho",
-       "ŚO",
-       "",
-       false
-      ],
-      [
-       47,
-       "Y. Khoudda",
-       "ŚP",
-       "",
-       false
-      ],
-      [
-       77,
-       "A. Zossou",
-       "N",
-       "",
-       false
-      ]
-     ]
-    },
-    "teamStats": [
-     [
-      "Posiadanie %",
-      52,
-      48
-     ],
-     [
-      "xG",
-      1.38,
-      2.73
-     ],
-     [
-      "Strzały",
-      15,
-      13
-     ],
-     [
-      "Celne",
-      7,
-      6
-     ],
-     [
-      "Rzuty rożne",
-      7,
-      4
-     ],
-     [
-      "Faule",
-      16,
-      22
-     ],
-     [
-      "Spalone",
-      2,
-      2
-     ]
-    ]
-   },
-   {
-    "id": "L1-2026-27-R7-LYO-NIC",
-    "date": "2026-10-18",
-    "home": "LYO",
-    "away": "NIC",
-    "status": "ft",
-    "venue": {
-     "name": "Groupama Stadium",
-     "city": "Lyon",
-     "capacity": 59186
-    },
-    "score": [
-     2,
-     1
-    ],
-    "events": [
-     {
-      "m": 10,
-      "t": "yc",
-      "s_": "a",
-      "who": "Niels Nkounkou",
-      "why": "Faul taktyczny"
-     },
-     {
-      "m": 18,
-      "t": "goal",
-      "s_": "a",
-      "who": "Elye Wahi",
-      "as": "Jonathan Clauss"
-     },
-     {
-      "m": 32,
-      "t": "goal",
-      "s_": "h",
-      "who": "Pavel Šulc"
-     },
-     {
-      "m": 36,
-      "t": "goal",
-      "s_": "h",
-      "who": "Tanner Tessmann",
-      "as": "Zachary Athekame",
-      "how": "Głowa"
-     },
-     {
-      "m": 48,
-      "t": "yc",
-      "s_": "a",
-      "who": "Mohamed Abdelmonem",
-      "why": "Faul taktyczny"
-     },
-     {
-      "m": 61,
-      "t": "sub",
-      "s_": "h",
-      "inn": "Corentin Tolisso",
-      "out": "Noah Nartey"
-     },
-     {
-      "m": 61,
-      "t": "sub",
-      "s_": "h",
-      "inn": "Keito Nakamura",
-      "out": "Julien Duranville"
-     },
-     {
-      "m": 65,
-      "t": "yc",
-      "s_": "a",
-      "who": "Mohamed Amoura",
-      "why": "Faul"
-     },
-     {
-      "m": 70,
-      "t": "rc",
-      "s_": "h",
-      "who": "Keito Nakamura",
-      "why": "Wysoko podniesiona noga (faul na Abdelmonemie)"
-     },
-     {
-      "m": 75,
-      "t": "sub",
-      "s_": "h",
-      "inn": "Félix Bacher",
-      "out": "Kaïl Boudache"
-     },
-     {
-      "m": 81,
-      "t": "sub",
-      "s_": "h",
-      "inn": "Ruben Kluivert",
-      "out": "Abner"
-     },
-     {
-      "m": 81,
-      "t": "sub",
-      "s_": "h",
-      "inn": "Khalis Merah",
-      "out": "Pavel Šulc"
-     },
-     {
-      "m": 81,
-      "t": "sub",
-      "s_": "a",
-      "inn": "Alidu Seidu",
-      "out": "Mohamed Abdelmonem"
-     },
-     {
-      "m": 87,
-      "t": "sub",
-      "s_": "a",
-      "inn": "Morgan Sanson",
-      "out": "Axel Witsel"
-     },
-     {
-      "m": 87,
-      "t": "sub",
-      "s_": "a",
-      "inn": "Sofiane Diop",
-      "out": "Xavier Mandza"
-     },
-     {
-      "m": 87,
-      "t": "sub",
-      "s_": "a",
-      "inn": "Isak Jansson",
-      "out": "Gauthier Hein"
-     },
-     {
-      "m": 90,
-      "s": "+3",
-      "t": "var",
-      "s_": "a",
-      "kind": "Gol anulowany",
-      "init": "Gol Elye Wahiego",
-      "fin": "Gol nieuznany – spalony"
-     },
-     {
-      "m": 90,
-      "s": "+4",
-      "t": "yc",
-      "s_": "a",
-      "who": "Elye Wahi",
-      "why": "Zdjęcie koszulki"
-     }
-    ],
-    "notes": "Szczegóły meczu: Flashscore, FotMob, Sofascore, ESPN, L'Équipe, t-online.de. Pola niepotwierdzone w źródłach pominięto.",
-    "time": "20:45",
-    "attendance": 43633,
-    "officials": [
-     {
-      "r": "GŁ",
-      "role": "Sędzia główny",
-      "name": "François Letexier",
-      "nat": "FRA"
-     },
-     {
-      "r": "VAR",
-      "role": "Sędzia VAR",
-      "name": "Hamid Guenaoui"
-     }
-    ],
-    "staff": {
-     "home": [
-      [
-       "Trener",
-       "Paulo Fonseca"
-      ]
-     ],
-     "away": [
-      [
-       "Trener",
-       "Olivier Pantaloni"
-      ]
-     ]
-    },
-    "formation": {
-     "home": "4-2-3-1",
-     "away": "3-4-2-1"
-    },
-    "players": {
-     "home": [
-      [
-       40,
-       "Rémy Descamps",
-       "BR",
-       "",
-       true
-      ],
-      [
-       13,
-       "Zachary Athekame",
-       "PO",
-       "",
-       true
-      ],
-      [
-       22,
-       "Clinton Mata",
-       "ŚO",
-       "",
-       true
-      ],
-      [
-       19,
-       "Moussa Niakhaté",
-       "ŚO",
-       "",
-       true
-      ],
-      [
-       16,
-       "Abner",
-       "LO",
-       "",
-       true
-      ],
-      [
-       6,
-       "Tanner Tessmann",
-       "DP",
-       "",
-       true
-      ],
-      [
-       2,
-       "Mads Bidstrup",
-       "DP",
-       "",
-       true
-      ],
-      [
-       26,
-       "Kaïl Boudache",
-       "PS",
-       "",
-       true
-      ],
-      [
-       99,
-       "Noah Nartey",
-       "OP",
-       "",
-       true
-      ],
-      [
-       24,
-       "Julien Duranville",
-       "LS",
-       "",
-       true
-      ],
-      [
-       10,
-       "Pavel Šulc",
-       "N",
-       "",
-       true
-      ],
-      [
-       1,
-       "Dominik Greif",
-       "BR",
-       "",
-       false
-      ],
-      [
-       20,
-       "Félix Bacher",
-       "ŚO",
-       "",
-       false
-      ],
-      [
-       21,
-       "Ruben Kluivert",
-       "LO",
-       "",
-       false
-      ],
-      [
-       8,
-       "Corentin Tolisso",
-       "ŚP",
-       "",
-       false
-      ],
-      [
-       18,
-       "Khalis Merah",
-       "OP",
-       "",
-       false
-      ],
-      [
-       23,
-       "Tyler Morton",
-       "DP",
-       "",
-       false
-      ],
-      [
-       7,
-       "Ernest Nuamah",
-       "PS",
-       "",
-       false
-      ],
-      [
-       11,
-       "Keito Nakamura",
-       "LS",
-       "",
-       false
-      ],
-      [
-       45,
-       "R. Himbert",
-       "ŚP",
-       "",
-       false
-      ]
-     ],
-     "away": [
-      [
-       23,
-       "Yehvann Diouf",
-       "BR",
-       "",
-       true
-      ],
-      [
-       5,
-       "Mohamed Abdelmonem",
-       "ŚO",
-       "",
-       true
-      ],
-      [
-       55,
-       "Youssouf Ndayishimiye",
-       "ŚO",
-       "",
-       true
-      ],
-      [
-       35,
-       "Xavier Mandza",
-       "ŚO",
-       "",
-       true
-      ],
-      [
-       92,
-       "Jonathan Clauss",
-       "PO",
-       "",
-       true
-      ],
-      [
-       28,
-       "Axel Witsel",
-       "ŚP",
-       "",
-       true
-      ],
-      [
-       6,
-       "Hicham Boudaoui",
-       "ŚP",
-       "",
-       true
-      ],
-      [
-       27,
-       "Niels Nkounkou",
-       "LO",
-       "",
-       true
-      ],
-      [
-       7,
-       "Gauthier Hein",
-       "OP",
-       "",
-       true
-      ],
-      [
-       9,
-       "Mohamed Amoura",
-       "OP",
-       "",
-       true
-      ],
-      [
-       11,
-       "Elye Wahi",
-       "N",
-       "",
-       true
-      ],
-      [
-       77,
-       "Teddy Boulhendi",
-       "BR",
-       "",
-       false
-      ],
-      [
-       36,
-       "Alidu Seidu",
-       "ŚO",
-       "",
-       false
-      ],
-      [
-       41,
-       "D. Morana",
-       "ŚP",
-       "",
-       false
-      ],
-      [
-       84,
-       "H. Koutoune",
-       "ŚP",
-       "",
-       false
-      ],
-      [
-       8,
-       "Morgan Sanson",
-       "ŚP",
-       "",
-       false
-      ],
-      [
-       10,
-       "Sofiane Diop",
-       "OP",
-       "",
-       false
-      ],
-      [
-       39,
-       "D. Coulibaly",
-       "N",
-       "",
-       false
-      ],
-      [
-       21,
-       "Isak Jansson",
-       "PS",
-       "",
-       false
-      ],
-      [
-       29,
-       "Nathan Ngoumou",
-       "PS",
-       "",
-       false
-      ]
-     ]
-    },
-    "teamStats": [
-     [
-      "Posiadanie %",
-      48,
-      52
-     ],
-     [
-      "Strzały",
-      8,
-      12
-     ],
-     [
-      "Celne",
-      4,
-      5
-     ],
-     [
-      "Rzuty rożne",
-      1,
-      9
-     ],
-     [
-      "Faule",
-      6,
-      14
-     ],
-     [
-      "Spalone",
-      0,
-      3
-     ]
-    ]
-   }
-  ],
   "8": [
    {
     "id": "L1-2026-27-R8-BRE-NIC",
@@ -6161,7 +1484,7 @@
     "time": "15:00",
     "home": "MON",
     "away": "LIL",
-    "status": "ns",
+    "status": "ft",
     "venue": {
      "name": "Stade Louis II",
      "city": "Monako",
@@ -6236,7 +1559,405 @@
       "name": "Jérémie Pignard",
       "nat": "FRA"
      }
-    ]
+    ],
+    "score": [
+     1,
+     1
+    ],
+    "attendance": 11041,
+    "staff": {
+     "home": [
+      [
+       "Trener",
+       "Filipe Luís"
+      ]
+     ],
+     "away": [
+      [
+       "Trener",
+       "Davide Ancelotti"
+      ]
+     ]
+    },
+    "formation": {
+     "home": "4-2-3-1",
+     "away": "4-3-3"
+    },
+    "players": {
+     "home": [
+      [
+       1,
+       "Lukáš Hrádecký",
+       "BR",
+       "",
+       true
+      ],
+      [
+       2,
+       "Vanderson",
+       "PO",
+       "",
+       true
+      ],
+      [
+       4,
+       "Jordan Teze",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       72,
+       "Sané",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       20,
+       "Flávio Nazinho",
+       "LO",
+       "",
+       true
+      ],
+      [
+       6,
+       "Denis Zakaria",
+       "DP",
+       "",
+       true
+      ],
+      [
+       8,
+       "Lamine Camara",
+       "DP",
+       "",
+       true
+      ],
+      [
+       10,
+       "Aleksandr Gołowin",
+       "PS",
+       "",
+       true
+      ],
+      [
+       28,
+       "Mamadou Coulibaly",
+       "OP",
+       "",
+       true
+      ],
+      [
+       31,
+       "Ansu Fati",
+       "LS",
+       "",
+       true
+      ],
+      [
+       29,
+       "Paris Brunner",
+       "N",
+       "",
+       true
+      ],
+      [
+       "",
+       "Mathys Detourbet",
+       "OP",
+       "",
+       false
+      ],
+      [
+       "",
+       "Edan Diop",
+       "ŚP",
+       "",
+       false
+      ],
+      [
+       "",
+       "Matthis Abline",
+       "N",
+       "",
+       false
+      ],
+      [
+       "",
+       "Folarin Balogun",
+       "N",
+       "",
+       false
+      ]
+     ],
+     "away": [
+      [
+       1,
+       "Berke Özer",
+       "BR",
+       "",
+       true
+      ],
+      [
+       3,
+       "Nathan Ngoy",
+       "PO",
+       "",
+       true
+      ],
+      [
+       23,
+       "Tanguy Nianzou",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       4,
+       "Alexsandro Ribeiro",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       15,
+       "Romain Perraud",
+       "LO",
+       "",
+       true
+      ],
+      [
+       21,
+       "Benjamin André",
+       "ŚP",
+       "",
+       true
+      ],
+      [
+       6,
+       "Nabil Bentaleb",
+       "ŚP",
+       "",
+       true
+      ],
+      [
+       10,
+       "Hákon Haraldsson",
+       "ŚP",
+       "",
+       true
+      ],
+      [
+       8,
+       "Ethan Mbappé",
+       "PS",
+       "",
+       true
+      ],
+      [
+       35,
+       "Soriba Diaoune",
+       "N",
+       "",
+       true
+      ],
+      [
+       17,
+       "Ngal'ayel Mukau",
+       "LS",
+       "",
+       true
+      ],
+      [
+       "",
+       "Isaac Cossier",
+       "PS",
+       "",
+       false
+      ],
+      [
+       "",
+       "Maxime Goffi",
+       "ŚP",
+       "",
+       false
+      ],
+      [
+       "",
+       "Maurits Kjærgaard",
+       "ŚP",
+       "",
+       false
+      ],
+      [
+       "",
+       "Angel Yondjo",
+       "N",
+       "",
+       false
+      ]
+     ]
+    },
+    "events": [
+     {
+      "m": 15,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Mathys Detourbet",
+      "out": "Ansu Fati",
+      "why": "Uraz"
+     },
+     {
+      "m": 24,
+      "t": "goal",
+      "s_": "a",
+      "who": "Ethan Mbappé",
+      "as": "Soriba Diaoune"
+     },
+     {
+      "m": 32,
+      "t": "yc",
+      "s_": "h",
+      "who": "Mamadou Coulibaly"
+     },
+     {
+      "m": 34,
+      "t": "yc",
+      "s_": "a",
+      "who": "Hákon Haraldsson"
+     },
+     {
+      "m": 46,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Edan Diop",
+      "out": "Denis Zakaria"
+     },
+     {
+      "m": 46,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Matthis Abline",
+      "out": "Mamadou Coulibaly"
+     },
+     {
+      "m": 56,
+      "t": "yc",
+      "s_": "h",
+      "who": "Mathys Detourbet"
+     },
+     {
+      "m": 63,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Isaac Cossier",
+      "out": "Soriba Diaoune"
+     },
+     {
+      "m": 66,
+      "t": "rc",
+      "s_": "a",
+      "who": "Tanguy Nianzou",
+      "why": "Wyprostowana noga w starciu z Brunnerem"
+     },
+     {
+      "m": 67,
+      "t": "yc",
+      "s_": "a",
+      "who": "Romain Perraud"
+     },
+     {
+      "m": 69,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Maxime Goffi",
+      "out": "Ethan Mbappé"
+     },
+     {
+      "m": 74,
+      "t": "goal",
+      "s_": "h",
+      "who": "Paris Brunner",
+      "as": "Edan Diop"
+     },
+     {
+      "m": 80,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Maurits Kjærgaard",
+      "out": "Nabil Bentaleb"
+     },
+     {
+      "m": 80,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Angel Yondjo",
+      "out": "Hákon Haraldsson"
+     },
+     {
+      "m": 90,
+      "s": "+1",
+      "t": "yc",
+      "s_": "h",
+      "who": "Vanderson"
+     },
+     {
+      "m": 90,
+      "s": "+1",
+      "t": "sub",
+      "s_": "h",
+      "inn": "Folarin Balogun",
+      "out": "Mathys Detourbet"
+     },
+     {
+      "m": 90,
+      "s": "+2",
+      "t": "yc",
+      "s_": "a",
+      "who": "Maxime Goffi"
+     },
+     {
+      "m": 90,
+      "s": "+4",
+      "t": "yc",
+      "s_": "a",
+      "who": "Berke Özer"
+     }
+    ],
+    "teamStats": [
+     [
+      "Posiadanie %",
+      63.5,
+      36.5
+     ],
+     [
+      "Strzały",
+      21,
+      4
+     ],
+     [
+      "Celne",
+      6,
+      2
+     ],
+     [
+      "Rzuty rożne",
+      6,
+      1
+     ],
+     [
+      "Faule",
+      18,
+      13
+     ],
+     [
+      "Spalone",
+      3,
+      2
+     ]
+    ],
+    "notes": "Typ przedmeczowy „Poniżej 2,5 gola” (1,84) — wygrany (1:1). Lille od 66. min w dziesiątkę."
    },
    {
     "id": "L1-2026-27-R8-REN-STR",
@@ -6244,7 +1965,7 @@
     "time": "17:15",
     "home": "REN",
     "away": "STR",
-    "status": "ns",
+    "status": "ft",
     "venue": {
      "name": "Roazhon Park",
      "city": "Rennes",
@@ -6289,14 +2010,420 @@
       "role": "Sędzia główny",
       "name": "Ruddy Buquet",
       "nat": "FRA"
+     }
+    ],
+    "score": [
+     3,
+     0
+    ],
+    "staff": {
+     "home": [
+      [
+       "Trener",
+       "Franck Haise"
+      ]
+     ],
+     "away": [
+      [
+       "Trener",
+       "Hugo Oliveira"
+      ]
+     ]
+    },
+    "formation": {
+     "home": "5-3-2",
+     "away": "4-2-3-1"
+    },
+    "players": {
+     "home": [
+      [
+       30,
+       "Brice Samba",
+       "BR",
+       "",
+       true
+      ],
+      [
+       95,
+       "Przemysław Frankowski",
+       "PO",
+       "",
+       true
+      ],
+      [
+       24,
+       "Christopher Rouault",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       48,
+       "Abdelhamid Aït Boudlal",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       4,
+       "Jérémy Cresswell",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       18,
+       "Aboubakar Nagida",
+       "LO",
+       "",
+       true
+      ],
+      [
+       45,
+       "Mahdi Camara",
+       "ŚP",
+       "",
+       true
+      ],
+      [
+       21,
+       "Valentin Rongier",
+       "ŚP",
+       "",
+       true
+      ],
+      [
+       17,
+       "Sebastian Szymański",
+       "ŚP",
+       "",
+       true
+      ],
+      [
+       11,
+       "Mousa Al-Tamari",
+       "N",
+       "",
+       true
+      ],
+      [
+       22,
+       "Boulaye Dia",
+       "N",
+       "",
+       true
+      ],
+      [
+       "",
+       "Eliezer Mayenda",
+       "N",
+       "",
+       false
+      ],
+      [
+       "",
+       "Adrien Thomasson",
+       "ŚP",
+       "",
+       false
+      ],
+      [
+       "",
+       "Quentin Merlin",
+       "LO",
+       "",
+       false
+      ],
+      [
+       "",
+       "Djaoui Cissé",
+       "ŚP",
+       "",
+       false
+      ],
+      [
+       "",
+       "Ludovic Blas",
+       "OP",
+       "",
+       false
+      ]
+     ],
+     "away": [
+      [
+       1,
+       "Jörgensen",
+       "BR",
+       "",
+       true
+      ],
+      [
+       36,
+       "Oso",
+       "PO",
+       "",
+       true
+      ],
+      [
+       31,
+       "Coulibaly",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       4,
+       "Mitchell",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       16,
+       "Antwi",
+       "LO",
+       "",
+       true
+      ],
+      [
+       14,
+       "Dário Essugo",
+       "DP",
+       "",
+       true
+      ],
+      [
+       21,
+       "Pape Diop",
+       "DP",
+       "",
+       true
+      ],
+      [
+       10,
+       "Giovanni Reyna",
+       "PS",
+       "",
+       true
+      ],
+      [
+       23,
+       "Diogo Sousa",
+       "OP",
+       "",
+       true
+      ],
+      [
+       80,
+       "Gessime Yassine",
+       "LS",
+       "",
+       true
+      ],
+      [
+       40,
+       "Conrad Harder",
+       "N",
+       "",
+       true
+      ],
+      [
+       "",
+       "Yaya Diémé",
+       "DP",
+       "",
+       false
+      ],
+      [
+       "",
+       "Martial Godo",
+       "LS",
+       "",
+       false
+      ],
+      [
+       "",
+       "Samir El Mourabet",
+       "ŚP",
+       "",
+       false
+      ],
+      [
+       "",
+       "Jacobo Ortega",
+       "N",
+       "",
+       false
+      ],
+      [
+       "",
+       "Omari Kellyman",
+       "OP",
+       "",
+       false
+      ]
+     ]
+    },
+    "events": [
+     {
+      "m": 33,
+      "t": "yc",
+      "s_": "a",
+      "who": "Gessime Yassine"
      },
      {
-      "r": "VAR",
-      "role": "Sędzia VAR",
-      "name": "Benoît Millot",
-      "nat": "FRA"
+      "m": 34,
+      "t": "var",
+      "s_": "h",
+      "kind": "Bramka – kontrola",
+      "init": "Gol",
+      "fin": "Gol uznany"
+     },
+     {
+      "m": 34,
+      "t": "goal",
+      "s_": "h",
+      "who": "Boulaye Dia",
+      "as": "Przemysław Frankowski"
+     },
+     {
+      "m": 41,
+      "t": "goal",
+      "s_": "h",
+      "who": "Sebastian Szymański",
+      "as": "Aboubakar Nagida"
+     },
+     {
+      "m": 45,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Yaya Diémé",
+      "out": "Dário Essugo"
+     },
+     {
+      "m": 56,
+      "t": "yc",
+      "s_": "h",
+      "who": "Boulaye Dia",
+      "why": "Nierozważny faul"
+     },
+     {
+      "m": 61,
+      "t": "goal",
+      "s_": "h",
+      "who": "Sebastian Szymański",
+      "as": "Mousa Al-Tamari"
+     },
+     {
+      "m": 64,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Eliezer Mayenda",
+      "out": "Boulaye Dia"
+     },
+     {
+      "m": 64,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Adrien Thomasson",
+      "out": "Mousa Al-Tamari"
+     },
+     {
+      "m": 65,
+      "t": "yc",
+      "s_": "a",
+      "who": "Giovanni Reyna",
+      "why": "Nierozważny faul"
+     },
+     {
+      "m": 70,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Martial Godo",
+      "out": "Gessime Yassine"
+     },
+     {
+      "m": 70,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Samir El Mourabet",
+      "out": "Diogo Sousa"
+     },
+     {
+      "m": 70,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Jacobo Ortega",
+      "out": "Conrad Harder"
+     },
+     {
+      "m": 71,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Quentin Merlin",
+      "out": "Aboubakar Nagida"
+     },
+     {
+      "m": 75,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Djaoui Cissé",
+      "out": "Mahdi Camara"
+     },
+     {
+      "m": 78,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Ludovic Blas",
+      "out": "Sebastian Szymański"
+     },
+     {
+      "m": 84,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Omari Kellyman",
+      "out": "Giovanni Reyna"
+     },
+     {
+      "m": 87,
+      "t": "yc",
+      "s_": "a",
+      "who": "Pape Diop"
      }
-    ]
+    ],
+    "teamStats": [
+     [
+      "Posiadanie %",
+      46.5,
+      53.5
+     ],
+     [
+      "Strzały",
+      15,
+      12
+     ],
+     [
+      "Celne",
+      5,
+      4
+     ],
+     [
+      "Rzuty rożne",
+      2,
+      5
+     ],
+     [
+      "Faule",
+      10,
+      17
+     ],
+     [
+      "Spalone",
+      1,
+      0
+     ]
+    ],
+    "notes": "Rennes po tej wygranej na chwilę liderem tabeli."
    },
    {
     "id": "L1-2026-27-R8-OLM-HAV",
@@ -6304,7 +2431,7 @@
     "time": "17:15",
     "home": "OLM",
     "away": "HAV",
-    "status": "ns",
+    "status": "ft",
     "venue": {
      "name": "Stade Vélodrome",
      "city": "Marsylia",
@@ -6336,14 +2463,439 @@
       "role": "Sędzia główny",
       "name": "Clément Turpin",
       "nat": "FRA"
+     }
+    ],
+    "score": [
+     4,
+     3
+    ],
+    "staff": {
+     "home": [
+      [
+       "Trener",
+       "Bruno Génésio"
+      ]
+     ],
+     "away": [
+      [
+       "Trener",
+       "Didier Digard"
+      ]
+     ]
+    },
+    "formation": {
+     "home": "4-2-3-1",
+     "away": "5-3-2"
+    },
+    "players": {
+     "home": [
+      [
+       1,
+       "Jeffrey de Lange",
+       "BR",
+       "",
+       true
+      ],
+      [
+       22,
+       "Timothy Weah",
+       "PO",
+       "",
+       true
+      ],
+      [
+       4,
+       "CJ Egan-Riley",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       21,
+       "Nayef Aguerd",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       33,
+       "Emerson",
+       "LO",
+       "",
+       true
+      ],
+      [
+       6,
+       "Nnadi",
+       "DP",
+       "",
+       true
+      ],
+      [
+       23,
+       "Pierre-Emile Højbjerg",
+       "DP",
+       "",
+       true
+      ],
+      [
+       77,
+       "Amine Harit",
+       "PS",
+       "",
+       true
+      ],
+      [
+       8,
+       "Himad Abdelli",
+       "OP",
+       "",
+       true
+      ],
+      [
+       14,
+       "Igor Paixão",
+       "LS",
+       "",
+       true
+      ],
+      [
+       9,
+       "Amine Gouiri",
+       "N",
+       "",
+       true
+      ],
+      [
+       "",
+       "Neal Maupay",
+       "N",
+       "",
+       false
+      ],
+      [
+       "",
+       "Abdallah",
+       "OP",
+       "",
+       false
+      ],
+      [
+       "",
+       "Kamissoko",
+       "ŚP",
+       "",
+       false
+      ],
+      [
+       "",
+       "Angel Gomes",
+       "ŚP",
+       "",
+       false
+      ],
+      [
+       "",
+       "Garcia",
+       "LS",
+       "",
+       false
+      ]
+     ],
+     "away": [
+      [
+       93,
+       "Gallon",
+       "BR",
+       "",
+       true
+      ],
+      [
+       7,
+       "Richardson",
+       "PO",
+       "",
+       true
+      ],
+      [
+       15,
+       "Ayumu Seko",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       5,
+       "Arouna Touba",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       6,
+       "Mwanga",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       20,
+       "Ouziad",
+       "LO",
+       "",
+       true
+      ],
+      [
+       14,
+       "Rassoul Ndiaye",
+       "ŚP",
+       "",
+       true
+      ],
+      [
+       26,
+       "Simon Ebonog",
+       "ŚP",
+       "",
+       true
+      ],
+      [
+       27,
+       "Enzo Koffi",
+       "ŚP",
+       "",
+       true
+      ],
+      [
+       38,
+       "Fofana",
+       "N",
+       "",
+       true
+      ],
+      [
+       25,
+       "Samatta",
+       "N",
+       "",
+       true
+      ],
+      [
+       "",
+       "Nakamura",
+       "N",
+       "",
+       false
+      ],
+      [
+       "",
+       "Josh Maja",
+       "N",
+       "",
+       false
+      ],
+      [
+       "",
+       "Mosengo",
+       "PO",
+       "",
+       false
+      ],
+      [
+       "",
+       "Lamine N'Diaye",
+       "ŚP",
+       "",
+       false
+      ],
+      [
+       "",
+       "Kaito Mizuta",
+       "N",
+       "",
+       false
+      ]
+     ]
+    },
+    "events": [
+     {
+      "m": 5,
+      "t": "goal",
+      "s_": "h",
+      "who": "CJ Egan-Riley",
+      "as": "Emerson"
      },
      {
-      "r": "VAR",
-      "role": "Sędzia VAR",
-      "name": "Nicolas Rainville",
-      "nat": "FRA"
+      "m": 33,
+      "t": "goal",
+      "s_": "h",
+      "who": "Timothy Weah"
+     },
+     {
+      "m": 50,
+      "t": "goal",
+      "s_": "h",
+      "who": "Igor Paixão",
+      "as": "Amine Gouiri"
+     },
+     {
+      "m": 55,
+      "t": "goal",
+      "s_": "h",
+      "who": "Himad Abdelli"
+     },
+     {
+      "m": 61,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Nakamura",
+      "out": "Samatta"
+     },
+     {
+      "m": 61,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Josh Maja",
+      "out": "Rassoul Ndiaye"
+     },
+     {
+      "m": 77,
+      "t": "pen",
+      "s_": "a",
+      "who": "Josh Maja",
+      "res": "Gol"
+     },
+     {
+      "m": 77,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Mosengo",
+      "out": "Richardson"
+     },
+     {
+      "m": 77,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Lamine N'Diaye",
+      "out": "Enzo Koffi"
+     },
+     {
+      "m": 78,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Neal Maupay",
+      "out": "Amine Gouiri"
+     },
+     {
+      "m": 78,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Abdallah",
+      "out": "Amine Harit"
+     },
+     {
+      "m": 83,
+      "t": "yc",
+      "s_": "a",
+      "who": "Simon Ebonog"
+     },
+     {
+      "m": 84,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Kamissoko",
+      "out": "Himad Abdelli"
+     },
+     {
+      "m": 84,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Angel Gomes",
+      "out": "Pierre-Emile Højbjerg"
+     },
+     {
+      "m": 84,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Kaito Mizuta",
+      "out": "Fofana"
+     },
+     {
+      "m": 86,
+      "t": "goal",
+      "s_": "a",
+      "who": "Lamine N'Diaye"
+     },
+     {
+      "m": 89,
+      "t": "goal",
+      "s_": "a",
+      "who": "Josh Maja",
+      "as": "Kaito Mizuta"
+     },
+     {
+      "m": 90,
+      "s": "+2",
+      "t": "sub",
+      "s_": "h",
+      "inn": "Garcia",
+      "out": "Igor Paixão"
+     },
+     {
+      "m": 90,
+      "s": "+10",
+      "t": "yc",
+      "s_": "a",
+      "who": "Ayumu Seko"
+     },
+     {
+      "m": 90,
+      "s": "+11",
+      "t": "yc",
+      "s_": "a",
+      "who": "Lamine N'Diaye"
+     },
+     {
+      "m": 90,
+      "s": "+12",
+      "t": "yc",
+      "s_": "h",
+      "who": "Neal Maupay"
      }
-    ]
+    ],
+    "teamStats": [
+     [
+      "Posiadanie %",
+      53,
+      46
+     ],
+     [
+      "Strzały",
+      11,
+      22
+     ],
+     [
+      "Celne",
+      5,
+      7
+     ],
+     [
+      "Rzuty rożne",
+      4,
+      3
+     ],
+     [
+      "Faule",
+      15,
+      11
+     ],
+     [
+      "Spalone",
+      3,
+      1
+     ]
+    ],
+    "notes": "Marsylia prowadziła 4:0 do 55. min, Le Havre strzelił 3 gole w ostatnim kwadransie."
    },
    {
     "id": "L1-2026-27-R8-AUX-LMA",
@@ -6351,7 +2903,7 @@
     "time": "17:15",
     "home": "AUX",
     "away": "LMA",
-    "status": "ns",
+    "status": "ft",
     "venue": {
      "name": "Stade de l'Abbé-Deschamps",
      "city": "Auxerre",
@@ -6392,14 +2944,180 @@
       "role": "Sędzia główny",
       "name": "Willy Delajod",
       "nat": "FRA"
+     }
+    ],
+    "score": [
+     1,
+     1
+    ],
+    "staff": {
+     "home": [
+      [
+       "Trener",
+       "Will Still"
+      ]
+     ],
+     "away": [
+      [
+       "Trener",
+       "Patrick Videira"
+      ]
+     ]
+    },
+    "formation": {
+     "home": "3-4-2-1",
+     "away": "3-1-4-2"
+    },
+    "events": [
+     {
+      "m": 21,
+      "t": "yc",
+      "s_": "a",
+      "who": "Alexandre Lauray"
      },
      {
-      "r": "VAR",
-      "role": "Sędzia VAR",
-      "name": "Cyril Gringore",
-      "nat": "FRA"
+      "m": 26,
+      "t": "yc",
+      "s_": "a",
+      "who": "Lucas Buadés"
+     },
+     {
+      "m": 48,
+      "t": "var",
+      "s_": "a",
+      "kind": "Bramka – kontrola",
+      "init": "Gol",
+      "fin": "Gol uznany"
+     },
+     {
+      "m": 48,
+      "t": "goal",
+      "s_": "a",
+      "who": "Lucas Buadés",
+      "as": "Lucas Bretelle",
+      "how": "Głowa"
+     },
+     {
+      "m": 53,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Noa Boissé",
+      "out": "Djibril Sidibé",
+      "why": "Uraz"
+     },
+     {
+      "m": 56,
+      "t": "goal",
+      "s_": "h",
+      "who": "Cameron Archer",
+      "how": "Głowa"
+     },
+     {
+      "m": 63,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Dame Gueye",
+      "out": "Habib Diallo"
+     },
+     {
+      "m": 63,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Jean Vercruysse",
+      "out": "Alexandre Lauray"
+     },
+     {
+      "m": 69,
+      "t": "yc",
+      "s_": "h",
+      "who": "Kévin Danois"
+     },
+     {
+      "m": 73,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Rayan Mandengue",
+      "out": "Lamine Sy"
+     },
+     {
+      "m": 84,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Aristide Zossou",
+      "out": "Danny Namaso"
+     },
+     {
+      "m": 86,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Pierre Ekwah",
+      "out": "Kévin Danois"
+     },
+     {
+      "m": 86,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Daouda Traoré",
+      "out": "Antoine Rabillard"
+     },
+     {
+      "m": 86,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Rayan Bamba",
+      "out": "Lucas Buadés",
+      "why": "Uraz"
+     },
+     {
+      "m": 90,
+      "s": "+7",
+      "t": "sub",
+      "s_": "h",
+      "inn": "Youssef Khoudda",
+      "out": "Cameron Archer"
+     },
+     {
+      "m": 90,
+      "s": "+8",
+      "t": "sub",
+      "s_": "h",
+      "inn": "Arthur Piedfort",
+      "out": "Naouirou Ahamada"
      }
-    ]
+    ],
+    "teamStats": [
+     [
+      "Posiadanie %",
+      59.3,
+      40.7
+     ],
+     [
+      "Strzały",
+      13,
+      11
+     ],
+     [
+      "Celne",
+      5,
+      2
+     ],
+     [
+      "Rzuty rożne",
+      7,
+      1
+     ],
+     [
+      "Faule",
+      15,
+      12
+     ],
+     [
+      "Spalone",
+      0,
+      3
+     ]
+    ],
+    "notes": "Składy: Auxerre – Nardi; Tuanzebe, Danois, Akpa, Makosso, Ahamada, Faivre, Oppegård, Sy, Namaso, Archer. Le Mans – Kocik; Lauray, Torrente, Calodat, Mafouta, Yohou, Sidibé, Buadés, Bretelle, Rabillard, Diallo."
    },
    {
     "id": "L1-2026-27-R8-ANG-LOR",
@@ -6407,7 +3125,7 @@
     "time": "17:15",
     "home": "ANG",
     "away": "LOR",
-    "status": "ns",
+    "status": "ft",
     "venue": {
      "name": "Stade Raymond-Kopa",
      "city": "Angers",
@@ -6436,14 +3154,137 @@
       "role": "Sędzia główny",
       "name": "Azzedine Souifi",
       "nat": "FRA"
+     }
+    ],
+    "score": [
+     0,
+     0
+    ],
+    "attendance": 12655,
+    "staff": {
+     "home": [
+      [
+       "Trener",
+       "Stéphane Gilli"
+      ]
+     ],
+     "away": [
+      [
+       "Trener",
+       "Alexandre Dujeux"
+      ]
+     ]
+    },
+    "formation": {
+     "home": "5-3-2",
+     "away": "3-4-2-1"
+    },
+    "events": [
+     {
+      "m": 28,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Jim Allevinah",
+      "out": "Amine El Ouazzani",
+      "why": "Uraz"
      },
      {
-      "r": "VAR",
-      "role": "Sędzia VAR",
-      "name": "Julien Schmitt",
-      "nat": "FRA"
+      "m": 33,
+      "t": "yc",
+      "s_": "h",
+      "who": "Yassin Belkhdim",
+      "why": "Nierozważny faul"
+     },
+     {
+      "m": 46,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Haris Belkebla",
+      "out": "Yassin Belkhdim"
+     },
+     {
+      "m": 59,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Gabin Bernardeau",
+      "out": "Souleymane Faye"
+     },
+     {
+      "m": 59,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Mamadou Koné",
+      "out": "Ibrahima Baldé"
+     },
+     {
+      "m": 83,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Usman Simbakoli",
+      "out": "Prosper Peter"
+     },
+     {
+      "m": 84,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Harouna Djibirin",
+      "out": "Amine Sbaï"
+     },
+     {
+      "m": 85,
+      "t": "yc",
+      "s_": "a",
+      "who": "Nathaniel Adjei",
+      "why": "Nierozważny faul"
+     },
+     {
+      "m": 88,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Srdjan Kuzmic",
+      "out": "Dembo Sylla"
+     },
+     {
+      "m": 88,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Isak Jensen",
+      "out": "Jean-Victor Makengo"
      }
-    ]
+    ],
+    "teamStats": [
+     [
+      "Posiadanie %",
+      47.6,
+      52.4
+     ],
+     [
+      "Strzały",
+      8,
+      9
+     ],
+     [
+      "Celne",
+      5,
+      1
+     ],
+     [
+      "Rzuty rożne",
+      6,
+      7
+     ],
+     [
+      "Faule",
+      13,
+      9
+     ],
+     [
+      "Spalone",
+      4,
+      1
+     ]
+    ],
+    "notes": "Składy w dostępnym źródle niekompletne — pominięte."
    },
    {
     "id": "L1-2026-27-R8-TOU-TRO",
@@ -6451,7 +3292,7 @@
     "time": "17:15",
     "home": "TOU",
     "away": "TRO",
-    "status": "ns",
+    "status": "ft",
     "venue": {
      "name": "Stadium de Toulouse",
      "city": "Tuluza",
@@ -6480,14 +3321,154 @@
       "role": "Sędzia główny",
       "name": "Geoffrey Kubler",
       "nat": "FRA"
+     }
+    ],
+    "score": [
+     0,
+     0
+    ],
+    "staff": {
+     "home": [
+      [
+       "Trener",
+       "Jens Berthel Askou"
+      ]
+     ],
+     "away": [
+      [
+       "Trener",
+       "Stéphane Dumont"
+      ]
+     ]
+    },
+    "formation": {
+     "home": "4-3-3",
+     "away": "4-3-3"
+    },
+    "events": [
+     {
+      "m": 25,
+      "t": "yc",
+      "s_": "h",
+      "who": "Dønnum"
      },
      {
-      "r": "VAR",
-      "role": "Sędzia VAR",
-      "name": "Marc Bollengier",
-      "nat": "FRA"
+      "m": 25,
+      "t": "yc",
+      "s_": "h",
+      "who": "Messali"
+     },
+     {
+      "m": 36,
+      "t": "yc",
+      "s_": "a",
+      "who": "Diaz"
+     },
+     {
+      "m": 39,
+      "t": "yc",
+      "s_": "h",
+      "who": "Cásseres"
+     },
+     {
+      "m": 40,
+      "t": "yc",
+      "s_": "a",
+      "who": "Nkada"
+     },
+     {
+      "m": 58,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Vossah",
+      "out": "Messali",
+      "why": "Uraz"
+     },
+     {
+      "m": 67,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Azizi",
+      "out": "Dønnum"
+     },
+     {
+      "m": 73,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Diawara",
+      "out": "Nkada"
+     },
+     {
+      "m": 73,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Le Douaron",
+      "out": "Ripart"
+     },
+     {
+      "m": 83,
+      "t": "yc",
+      "s_": "h",
+      "who": "Sigur"
+     },
+     {
+      "m": 83,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Hidalgo",
+      "out": "Russell-Rowe"
+     },
+     {
+      "m": 84,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Schmidt",
+      "out": "Jørgensen"
+     },
+     {
+      "m": 89,
+      "t": "yc",
+      "s_": "h",
+      "who": "Vossah"
+     },
+     {
+      "m": 89,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Gomis",
+      "out": "Diop"
+     },
+     {
+      "m": 90,
+      "s": "+3",
+      "t": "yc",
+      "s_": "h",
+      "who": "McKenzie"
      }
-    ]
+    ],
+    "teamStats": [
+     [
+      "Posiadanie %",
+      62.7,
+      37.3
+     ],
+     [
+      "Rzuty rożne",
+      4,
+      2
+     ],
+     [
+      "Faule",
+      19,
+      14
+     ],
+     [
+      "Spalone",
+      1,
+      0
+     ]
+    ],
+    "notes": "Statystyki strzałów w źródle niespójne — pominięte. Składy: Toulouse – Restes; Nicolaisen, McKenzie, Jørgensen, Tapé, Russell-Rowe, Sigur, Dønnum, Tengstedt, Messali, Cásseres. Troyes – Konaté; Maronnier, Diaz, Gozzi, Monfray, Diop, Ifnaoui, Mille, Ripart, Nkada, Karim."
    },
    {
     "id": "L1-2026-27-R8-PSG-LYO",
@@ -6495,7 +3476,7 @@
     "time": "20:30",
     "home": "PSG",
     "away": "LYO",
-    "status": "ns",
+    "status": "ft",
     "venue": {
      "name": "Parc des Princes",
      "city": "Paryż",
@@ -6532,7 +3513,7 @@
      "homeAway": "PSG 4 wygrane ligowe z rzędu, najwyższe xG ligi (18,03). Lyon lider, najlepsza różnica bramek (+8), 5 straconych.",
      "stakes": "Hit kolejki. PSG pokonał Barcelonę 4:2 (LM); Lyon przegrał w czwartek 0:3 w Hoffenheim (LE). Mecz przełożony na poniedziałek — Lyon zyskuje dzień odpoczynku więcej."
     },
-    "notes": "Prefektura policji zakazała rozegrania meczu w niedzielę wieczorem (protesty 24.10). LFP 23.10 oficjalnie przeniosła spotkanie na poniedziałek 26.10, 20:30 — w wieczór gali Złotej Piłki.",
+    "notes": "PSG po wygranej objął prowadzenie w tabeli.",
     "tip": {
      "decision": "NO BET",
      "reasons": [
@@ -6547,13 +3528,368 @@
       "role": "Sędzia główny",
       "name": "Jérôme Brisard",
       "nat": "FRA"
+     }
+    ],
+    "score": [
+     2,
+     0
+    ],
+    "formation": {
+     "home": "4-3-3",
+     "away": "4-3-3"
+    },
+    "players": {
+     "home": [
+      [
+       39,
+       "Matwiej Safonow",
+       "BR",
+       "",
+       true
+      ],
+      [
+       2,
+       "Achraf Hakimi",
+       "PO",
+       "",
+       true
+      ],
+      [
+       6,
+       "Illia Zabarnyi",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       51,
+       "Willian Pacho",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       33,
+       "Warren Zaïre-Emery",
+       "LO",
+       "",
+       true
+      ],
+      [
+       87,
+       "João Neves",
+       "ŚP",
+       "",
+       true
+      ],
+      [
+       17,
+       "Vitinha",
+       "ŚP",
+       "",
+       true
+      ],
+      [
+       8,
+       "Fabián Ruiz",
+       "ŚP",
+       "",
+       true
+      ],
+      [
+       14,
+       "Désiré Doué",
+       "PS",
+       "",
+       true
+      ],
+      [
+       9,
+       "Ferran Torres",
+       "N",
+       "",
+       true
+      ],
+      [
+       11,
+       "Maghnes Akliouche",
+       "LS",
+       "",
+       true
+      ],
+      [
+       "",
+       "Mika Godts",
+       "LS",
+       "",
+       false
+      ],
+      [
+       "",
+       "Lucas Hernández",
+       "LO",
+       "",
+       false
+      ],
+      [
+       "",
+       "Senny Mayulu",
+       "ŚP",
+       "",
+       false
+      ],
+      [
+       "",
+       "Lucas Beraldo",
+       "ŚO",
+       "",
+       false
+      ],
+      [
+       "",
+       "Quentin Ndjantou",
+       "N",
+       "",
+       false
+      ]
+     ],
+     "away": [
+      [
+       1,
+       "Dominik Greif",
+       "BR",
+       "",
+       true
+      ],
+      [
+       13,
+       "Athekame",
+       "PO",
+       "",
+       true
+      ],
+      [
+       19,
+       "Moussa Niakhaté",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       20,
+       "Bacher",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       16,
+       "Abner",
+       "LO",
+       "",
+       true
+      ],
+      [
+       6,
+       "Tanner Tessmann",
+       "ŚP",
+       "",
+       true
+      ],
+      [
+       23,
+       "Tyler Morton",
+       "ŚP",
+       "",
+       true
+      ],
+      [
+       8,
+       "Corentin Tolisso",
+       "ŚP",
+       "",
+       true
+      ],
+      [
+       7,
+       "Ernest Nuamah",
+       "PS",
+       "",
+       true
+      ],
+      [
+       18,
+       "Khalis Merah",
+       "N",
+       "",
+       true
+      ],
+      [
+       24,
+       "Julien Duranville",
+       "LS",
+       "",
+       true
+      ],
+      [
+       "",
+       "Ruben Kluivert",
+       "ŚO",
+       "",
+       false
+      ],
+      [
+       "",
+       "Nartey",
+       "ŚP",
+       "",
+       false
+      ],
+      [
+       "",
+       "Boudache",
+       "N",
+       "",
+       false
+      ],
+      [
+       "",
+       "Himbert",
+       "ŚP",
+       "",
+       false
+      ]
+     ]
+    },
+    "events": [
+     {
+      "m": 31,
+      "t": "yc",
+      "s_": "h",
+      "who": "Vitinha"
      },
      {
-      "r": "VAR",
-      "role": "Sędzia VAR",
-      "name": "Bastien Dechepy",
-      "nat": "FRA"
+      "m": 51,
+      "t": "yc",
+      "s_": "h",
+      "who": "Maghnes Akliouche"
+     },
+     {
+      "m": 57,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Mika Godts",
+      "out": "João Neves"
+     },
+     {
+      "m": 65,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Lucas Hernández",
+      "out": "Warren Zaïre-Emery"
+     },
+     {
+      "m": 65,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Senny Mayulu",
+      "out": "Ferran Torres"
+     },
+     {
+      "m": 72,
+      "t": "goal",
+      "s_": "h",
+      "who": "Senny Mayulu",
+      "as": "Mika Godts"
+     },
+     {
+      "m": 74,
+      "t": "yc",
+      "s_": "a",
+      "who": "Ernest Nuamah"
+     },
+     {
+      "m": 76,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Ruben Kluivert",
+      "out": "Corentin Tolisso"
+     },
+     {
+      "m": 76,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Nartey",
+      "out": "Khalis Merah"
+     },
+     {
+      "m": 81,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Lucas Beraldo",
+      "out": "Désiré Doué"
+     },
+     {
+      "m": 81,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Quentin Ndjantou",
+      "out": "Maghnes Akliouche"
+     },
+     {
+      "m": 81,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Boudache",
+      "out": "Julien Duranville"
+     },
+     {
+      "m": 84,
+      "t": "goal",
+      "s_": "h",
+      "who": "Mika Godts",
+      "as": "Quentin Ndjantou"
+     },
+     {
+      "m": 90,
+      "s": "+1",
+      "t": "sub",
+      "s_": "a",
+      "inn": "Himbert",
+      "out": "Tyler Morton"
      }
+    ],
+    "teamStats": [
+     [
+      "Posiadanie %",
+      68.4,
+      31.6
+     ],
+     [
+      "Strzały",
+      17,
+      8
+     ],
+     [
+      "Celne",
+      10,
+      5
+     ],
+     [
+      "Rzuty rożne",
+      7,
+      4
+     ],
+     [
+      "Faule",
+      8,
+      14
+     ],
+     [
+      "Spalone",
+      2,
+      1
+     ]
     ]
    }
   ],
@@ -6570,7 +3906,37 @@
      "city": "Hawr",
      "capacity": 25178
     },
-    "notes": "Godzina wstępna (Oddschecker/Maxifoot), do potwierdzenia przez LFP."
+    "odds": {
+     "src": "BettingNews – Lucky Rebel (kursy US przeliczone), stan na 27.10.2026; PSG 1,18–1,24 w 6 bukmacherach",
+     "1": 10.0,
+     "X": 6.75,
+     "2": 1.24
+    },
+    "info": {
+     "injuries": {
+      "home": [],
+      "away": []
+     },
+     "restDays": {
+      "home": 4,
+      "away": 3
+     },
+     "homeAway": "Le Havre bez wygranej (0-2-6), ostatnio 3:4 w Marsylii po stracie 0:4; PSG 5 kolejnych zwycięstw w lidze.",
+     "stakes": "PSG lider (17 pkt) po 2:0 z Lyonem w poniedziałek; Le Havre ostatni (2 pkt). Godzina 19:00 potwierdzona przez psg.fr.",
+     "h2h": [
+      "Le Havre nie wygrał z PSG od marca 2000 (wg Flashscore)"
+     ]
+    },
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Kurs 1,24 na PSG (81% implikowane) nie daje przewagi — moja ocena ok. 78–80%.",
+      "PSG grał w poniedziałek, możliwa rotacja przed Ligą Mistrzów.",
+      "Le Havre strzelił 3 gole w ostatnim kwadransie w Marsylii — ryzyko gola gospodarzy.",
+      "Brak kursów na rynki gole/handicap w sprawdzonych źródłach."
+     ]
+    },
+    "notes": "Godzina 19:00 potwierdzona (psg.fr, Ligue 1+)."
    },
    {
     "id": "L1-2026-27-R9-LIL-LEN",
@@ -6584,7 +3950,47 @@
      "city": "Lille",
      "capacity": 50186
     },
-    "notes": "Godzina wstępna (Oddschecker/Maxifoot), do potwierdzenia przez LFP."
+    "notes": "Godzina wstępna (Oddschecker/Maxifoot), do potwierdzenia przez LFP.",
+    "odds": {
+     "src": "BettingNews – Lucky Rebel/Bovada (kursy US przeliczone), stan na 27.10.2026",
+     "1": 2.35,
+     "X": 3.6,
+     "2": 2.9
+    },
+    "info": {
+     "injuries": {
+      "home": [],
+      "away": [
+       "Ismaëlo Ganiou (kolano, kilka tygodni)",
+       "Abdallah Sima",
+       "Maik Nawrocki"
+      ]
+     },
+     "suspensions": {
+      "home": [
+       "Tanguy Nianzou (czerwona kartka z Monaco; komisja 28.10)"
+      ],
+      "away": []
+     },
+     "restDays": {
+      "home": 4,
+      "away": 5
+     },
+     "homeAway": "Lille straciło tylko 6 goli w 8 meczach; Lens 3 wygrane z rzędu przed derbami.",
+     "stakes": "Derby Północy: Lille 3. (15 pkt), Lens 7. (13 pkt). Kibice Lens bez sektora gości. Obie drużyny grają w Lidze Mistrzów (rotacja możliwa).",
+     "h2h": [
+      "Lens nie wygrał w Lille od kwietnia 2022 (wg Flashscore)"
+     ]
+    },
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Kursy 2,35 / 3,60 / 2,90 bliskie mojej ocenie (ok. 42% / 28% / 30%) — brak dodatniego EV.",
+      "Zawieszenie Nianzou osłabia Lille, Lens ma braki w obronie (Ganiou, Nawrocki) — czynniki się znoszą.",
+      "Derby + Liga Mistrzów w kolejnym tygodniu = wysoka niepewność składów.",
+      "Nie znaleziono wiarygodnych kursów na gole/BTTS dla tego meczu."
+     ]
+    }
    },
    {
     "id": "L1-2026-27-R9-NIC-REN",
@@ -6683,6 +4089,125 @@
      "capacity": 67394
     },
     "notes": "Godzina wstępna (Oddschecker/Maxifoot), do potwierdzenia przez LFP."
+   }
+  ],
+  "10": [
+   {
+    "id": "L1-2026-27-R10-TOU-STR",
+    "date": "2026-11-06",
+    "time": "20:45",
+    "home": "TOU",
+    "away": "STR",
+    "status": "ns",
+    "venue": {
+     "name": "Stadium de Toulouse",
+     "city": "Tuluza",
+     "capacity": 33150
+    }
+   },
+   {
+    "id": "L1-2026-27-R10-AUX-PFC",
+    "date": "2026-11-07",
+    "time": "17:15",
+    "home": "AUX",
+    "away": "PFC",
+    "status": "ns",
+    "venue": {
+     "name": "Stade de l'Abbé-Deschamps",
+     "city": "Auxerre",
+     "capacity": 21379
+    }
+   },
+   {
+    "id": "L1-2026-27-R10-PSG-TRO",
+    "date": "2026-11-07",
+    "time": "20:45",
+    "home": "PSG",
+    "away": "TRO",
+    "status": "ns",
+    "venue": {
+     "name": "Parc des Princes",
+     "city": "Paryż",
+     "capacity": 47926
+    }
+   },
+   {
+    "id": "L1-2026-27-R10-REN-LIL",
+    "date": "2026-11-08",
+    "time": "15:00",
+    "home": "REN",
+    "away": "LIL",
+    "status": "ns",
+    "venue": {
+     "name": "Roazhon Park",
+     "city": "Rennes",
+     "capacity": 29778
+    }
+   },
+   {
+    "id": "L1-2026-27-R10-BRE-LYO",
+    "date": "2026-11-08",
+    "time": "17:15",
+    "home": "BRE",
+    "away": "LYO",
+    "status": "ns",
+    "venue": {
+     "name": "Stade Francis-Le Blé",
+     "city": "Brest",
+     "capacity": 15931
+    }
+   },
+   {
+    "id": "L1-2026-27-R10-LMA-MON",
+    "date": "2026-11-08",
+    "time": "17:15",
+    "home": "LMA",
+    "away": "MON",
+    "status": "ns",
+    "venue": {
+     "name": "Stade Marie-Marvingt",
+     "city": "Le Mans",
+     "capacity": 25000
+    }
+   },
+   {
+    "id": "L1-2026-27-R10-ANG-NIC",
+    "date": "2026-11-08",
+    "time": "17:15",
+    "home": "ANG",
+    "away": "NIC",
+    "status": "ns",
+    "venue": {
+     "name": "Stade Raymond-Kopa",
+     "city": "Angers",
+     "capacity": 18752
+    }
+   },
+   {
+    "id": "L1-2026-27-R10-HAV-LOR",
+    "date": "2026-11-08",
+    "time": "17:15",
+    "home": "HAV",
+    "away": "LOR",
+    "status": "ns",
+    "venue": {
+     "name": "Stade Océane",
+     "city": "Hawr",
+     "capacity": 25178
+    }
+   },
+   {
+    "id": "L1-2026-27-R10-LEN-OLM",
+    "date": "2026-11-08",
+    "time": "20:45",
+    "home": "LEN",
+    "away": "OLM",
+    "status": "ns",
+    "venue": {
+     "name": "Stade Bollaert-Delelis",
+     "city": "Lens",
+     "capacity": 37705
+    }
    }
   ]
  }
