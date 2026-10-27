@@ -1,10 +1,10 @@
 {
  "sport": "football",
  "mode": "days",
- "updated": "2026-10-27T08:20:11+01:00",
+ "updated": "2026-10-27T08:29:12+01:00",
  "season": "2026/27",
  "competition": "Puchary i inne rozgrywki",
- "note": "Źródła: PZPN / kkslech.com, DFB.de, thefalse9.com, livesoccertv.com. Godziny w czasie polskim. Kursy: wettbasis.com, thefootballfaithful.com, footballwhispers.com, weszlo.com.",
+ "note": "Źródła: PZPN / kkslech.com, DFB.de, thefalse9.com, livesoccertv.com. Godziny w czasie polskim. Kursy: wettbasis.com, thefootballfaithful.com, footballwhispers.com, weszlo.com. Kursy 1X2: sportytrader.com; wettfreunde.net.",
  "teams": {
   "PL-OLIMPIAGRU": {
    "name": "Olimpia Grudziądz",
@@ -1361,8 +1361,16 @@
  },
  "picks": [
   {
-   "match": "CUP-DFB-2026-10-27-ROTWEISSES-RBL",
+   "match": "CUP-DFB-2026-10-28-DYNAMODREZ-SCH",
    "rank": 1
+  },
+  {
+   "match": "CUP-DFB-2026-10-27-ROTWEISSES-RBL",
+   "rank": 2
+  },
+  {
+   "match": "CUP-DFB-2026-10-28-SCF-VFLWOLFSBU",
+   "rank": 3
   }
  ],
  "days": {
@@ -1376,7 +1384,13 @@
     "status": "ns",
     "comp": "Puchar Polski",
     "stage": "1/16 finału",
-    "notes": "Transmisja: PZPN+"
+    "notes": "Transmisja: PZPN+",
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Nie znaleziono wiarygodnych kursów ani danych o składach dla tego meczu – bez kursu nie da się policzyć wartości zakładu"
+     ]
+    }
    },
    {
     "id": "CUP-PP-2026-10-27-GORNIKECZN-GKS",
@@ -1387,7 +1401,13 @@
     "status": "ns",
     "comp": "Puchar Polski",
     "stage": "1/16 finału",
-    "notes": "Transmisja: TVP Sport"
+    "notes": "Transmisja: TVP Sport",
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Nie znaleziono wiarygodnych kursów ani danych o składach dla tego meczu – bez kursu nie da się policzyć wartości zakładu"
+     ]
+    }
    },
    {
     "id": "CUP-PP-2026-10-27-MOT-RAK",
@@ -1435,7 +1455,36 @@
     "away": "DE-MAI",
     "status": "ns",
     "comp": "Puchar Niemiec (DFB-Pokal)",
-    "stage": "2. runda"
+    "stage": "2. runda",
+    "odds": {
+     "1": 4.75,
+     "X": 4.1,
+     "2": 1.75,
+     "u25": 2.35,
+     "src": "Oddset/Bet-at-home wg wettbasis.com + sportytrader.com, 25–27.10"
+    },
+    "info": {
+     "injuries": {
+      "home": [],
+      "away": [
+       "Robin Zentner (ręka)",
+       "Dominik Kohr (kostka)",
+       "Silas (złamanie nogi)"
+      ]
+     },
+     "homeAway": "Bochum bez wygranej w 5 meczach u siebie w 2. Bundeslidze (2 gole); Mainz wygrał 5 ostatnich meczów wyjazdowych w Bundeslidze",
+     "h2h": [
+      "2022 BOC 3:1 MAI (DFB-Pokal)",
+      "2020 MAI – BOC, awans Bochum po karnych (DFB-Pokal)"
+     ]
+    },
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Mainz 1,75 (57% z kursu) – seria wyjazdowa i słabość Bochum u siebie przemawiają za Mainz, ale brak 3 graczy i historia pucharowa (Bochum 2/2) – szacunek ok. 56–58%, EV ≈ 0",
+      "Poniżej 2,5 po 2,35 (43%) – szacunek ok. 45%, przewaga zbyt mała"
+     ]
+    }
    },
    {
     "id": "CUP-DFB-2026-10-27-SGSONNENHO-AUG",
@@ -1445,7 +1494,26 @@
     "away": "DE-AUG",
     "status": "ns",
     "comp": "Puchar Niemiec (DFB-Pokal)",
-    "stage": "2. runda"
+    "stage": "2. runda",
+    "odds": {
+     "1": 9.0,
+     "X": 6.0,
+     "2": 1.35,
+     "src": "Najlepsze kursy rynkowe (różni bukmacherzy) wg sportytrader.com, 27.10"
+    },
+    "info": {
+     "homeAway": "Großaspach (beniaminek 3. Ligi) ostatnio 1:5 i 1:7, w 5 meczach z rzędu straciło 2+ gole; Augsburg bez wygranej w 5 meczach Bundesligi, najwyższe xGA w lidze",
+     "h2h": [
+      "Pierwszy mecz o stawkę"
+     ]
+    },
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Powyżej 3,5 gola po 2,00 (50%) – obie obrony bardzo słabe, ale szacunek ok. 48–51%, EV ≈ 0",
+      "Augsburg 1,35 – w kryzysie, kurs bez wartości"
+     ]
+    }
    },
    {
     "id": "CUP-DFB-2026-10-27-ROTWEISSES-RBL",
@@ -1550,7 +1618,13 @@
     "away": "ES-GIRONA",
     "status": "ns",
     "comp": "Puchar Króla (Copa del Rey)",
-    "stage": "1. runda"
+    "stage": "1. runda",
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Nie znaleziono wiarygodnych kursów ani danych o składach dla tego meczu – bez kursu nie da się policzyć wartości zakładu"
+     ]
+    }
    },
    {
     "id": "CUP-CDR-2026-10-27-SESTAORIVE-ESP",
@@ -1560,7 +1634,13 @@
     "away": "ES-ESP",
     "status": "ns",
     "comp": "Puchar Króla (Copa del Rey)",
-    "stage": "1. runda"
+    "stage": "1. runda",
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Nie znaleziono wiarygodnych kursów ani danych o składach dla tego meczu – bez kursu nie da się policzyć wartości zakładu"
+     ]
+    }
    },
    {
     "id": "CUP-CDR-2026-10-27-PINATAR-ELC",
@@ -1570,7 +1650,13 @@
     "away": "ES-ELC",
     "status": "ns",
     "comp": "Puchar Króla (Copa del Rey)",
-    "stage": "1. runda"
+    "stage": "1. runda",
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Nie znaleziono wiarygodnych kursów ani danych o składach dla tego meczu – bez kursu nie da się policzyć wartości zakładu"
+     ]
+    }
    },
    {
     "id": "CUP-CDR-2026-10-27-CALAMOCHA-CEEUROPA",
@@ -1580,7 +1666,13 @@
     "away": "ES-CEEUROPA",
     "status": "ns",
     "comp": "Puchar Króla (Copa del Rey)",
-    "stage": "1. runda"
+    "stage": "1. runda",
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Nie znaleziono wiarygodnych kursów ani danych o składach dla tego meczu – bez kursu nie da się policzyć wartości zakładu"
+     ]
+    }
    },
    {
     "id": "CUP-CDR-2026-10-27-CASTELLONE-ALMERIA",
@@ -1590,7 +1682,13 @@
     "away": "ES-ALMERIA",
     "status": "ns",
     "comp": "Puchar Króla (Copa del Rey)",
-    "stage": "1. runda"
+    "stage": "1. runda",
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Nie znaleziono wiarygodnych kursów ani danych o składach dla tego meczu – bez kursu nie da się policzyć wartości zakładu"
+     ]
+    }
    },
    {
     "id": "CUP-CDR-2026-10-27-RSDALCALA-LASPALMAS",
@@ -1600,7 +1698,13 @@
     "away": "ES-LASPALMAS",
     "status": "ns",
     "comp": "Puchar Króla (Copa del Rey)",
-    "stage": "1. runda"
+    "stage": "1. runda",
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Nie znaleziono wiarygodnych kursów ani danych o składach dla tego meczu – bez kursu nie da się policzyć wartości zakładu"
+     ]
+    }
    },
    {
     "id": "CUP-CDR-2026-10-27-ATLETICOTO-MIRANDES",
@@ -1610,7 +1714,13 @@
     "away": "ES-MIRANDES",
     "status": "ns",
     "comp": "Puchar Króla (Copa del Rey)",
-    "stage": "1. runda"
+    "stage": "1. runda",
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Nie znaleziono wiarygodnych kursów ani danych o składach dla tego meczu – bez kursu nie da się policzyć wartości zakładu"
+     ]
+    }
    },
    {
     "id": "CUP-CDR-2026-10-27-LUCENA-RAYOMAJADA",
@@ -1620,7 +1730,13 @@
     "away": "ES-RAYOMAJADA",
     "status": "ns",
     "comp": "Puchar Króla (Copa del Rey)",
-    "stage": "1. runda"
+    "stage": "1. runda",
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Nie znaleziono wiarygodnych kursów ani danych o składach dla tego meczu – bez kursu nie da się policzyć wartości zakładu"
+     ]
+    }
    },
    {
     "id": "CUP-CDR-2026-10-27-GIMNASTICA-CULTURALLE",
@@ -1630,7 +1746,13 @@
     "away": "ES-CULTURALLE",
     "status": "ns",
     "comp": "Puchar Króla (Copa del Rey)",
-    "stage": "1. runda"
+    "stage": "1. runda",
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Nie znaleziono wiarygodnych kursów ani danych o składach dla tego meczu – bez kursu nie da się policzyć wartości zakładu"
+     ]
+    }
    },
    {
     "id": "CUP-CDR-2026-10-27-LLANERA-PONFERRADI",
@@ -1640,7 +1762,13 @@
     "away": "ES-PONFERRADI",
     "status": "ns",
     "comp": "Puchar Króla (Copa del Rey)",
-    "stage": "1. runda"
+    "stage": "1. runda",
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Nie znaleziono wiarygodnych kursów ani danych o składach dla tego meczu – bez kursu nie da się policzyć wartości zakładu"
+     ]
+    }
    },
    {
     "id": "CUP-PP-2026-10-27-PIA-GZA",
@@ -1690,7 +1818,13 @@
     "away": "ES-SANTANDREU",
     "status": "ns",
     "comp": "Puchar Króla (Copa del Rey)",
-    "stage": "1. runda"
+    "stage": "1. runda",
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Nie znaleziono wiarygodnych kursów ani danych o składach dla tego meczu – bez kursu nie da się policzyć wartości zakładu"
+     ]
+    }
    },
    {
     "id": "CUP-CDR-2026-10-27-DONBENITO-EXTREMADUR",
@@ -1700,7 +1834,13 @@
     "away": "ES-EXTREMADUR",
     "status": "ns",
     "comp": "Puchar Króla (Copa del Rey)",
-    "stage": "1. runda"
+    "stage": "1. runda",
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Nie znaleziono wiarygodnych kursów ani danych o składach dla tego meczu – bez kursu nie da się policzyć wartości zakładu"
+     ]
+    }
    },
    {
     "id": "CUP-DFB-2026-10-27-KOE-UNI",
@@ -1710,7 +1850,31 @@
     "away": "DE-UNI",
     "status": "ns",
     "comp": "Puchar Niemiec (DFB-Pokal)",
-    "stage": "2. runda"
+    "stage": "2. runda",
+    "odds": {
+     "1": 1.85,
+     "X": 3.85,
+     "2": 4.45,
+     "u25": 2.2,
+     "src": "DAZN Bet/NEO.bet wg wettbasis.com + sportytrader.com, 25–27.10"
+    },
+    "info": {
+     "injuries": {
+      "home": [],
+      "away": []
+     },
+     "homeAway": "Köln niepokonany u siebie w lidze (2-2-0), ostatnio 0:0 z Schalke; Union niepokonany w 3 meczach, przedostatni w Bundeslidze",
+     "h2h": [
+      "2025/26: UNI 2:2 KOE, KOE 0:1 UNI"
+     ]
+    },
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Remis po 90 min 3,70–3,85 (ok. 26%) – zbliżone drużyny, szacunek ok. 27–28%: EV ok. +4%, ale ryzyko wysokie i ocena poniżej 6",
+      "Poniżej 2,5 po 2,20 (45%) – szacunek ok. 47%, przewaga zbyt mała"
+     ]
+    }
    },
    {
     "id": "CUP-DFB-2026-10-27-BMG-KARLSRUHER",
@@ -1720,7 +1884,34 @@
     "away": "DE-KARLSRUHER",
     "status": "ns",
     "comp": "Puchar Niemiec (DFB-Pokal)",
-    "stage": "2. runda"
+    "stage": "2. runda",
+    "odds": {
+     "1": 1.4,
+     "X": 5.4,
+     "2": 7.8,
+     "o35": 2.05,
+     "src": "NEO.bet/Bet-at-home wg wettbasis.com + sportytrader.com, 25–27.10"
+    },
+    "info": {
+     "injuries": {
+      "home": [
+       "Przeciw Stuttgartowi brakowało 10 zawodników; Castrop, Kühn, Itakura mogą wrócić"
+      ],
+      "away": []
+     },
+     "homeAway": "Gladbach ostatni w Bundeslidze (22 stracone w 7 meczach), ostatnio 3:2 w Stuttgarcie po 6 porażkach z rzędu; KSC przegrał 1:6 w Magdeburgu, 20 straconych w 9 meczach",
+     "h2h": [
+      "2025-10-28 BMG 3:1 KSC (DFB-Pokal)"
+     ]
+    },
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Gladbach -1 po 1,82 (55%) – szacunek wygranej 2+ golami ok. 45–48%, EV ujemne",
+      "Powyżej 3,5 po 2,05 (49%) – szacunek ok. 42–45%, EV ujemne",
+      "Gladbach 1,40 – zbyt niepewny przy tylu nieobecnych"
+     ]
+    }
    },
    {
     "id": "CUP-DFB-2026-10-27-ELV-SVDARMSTAD",
@@ -1730,7 +1921,28 @@
     "away": "DE-SVDARMSTAD",
     "status": "ns",
     "comp": "Puchar Niemiec (DFB-Pokal)",
-    "stage": "2. runda"
+    "stage": "2. runda",
+    "odds": {
+     "1": 1.45,
+     "X": 5.1,
+     "2": 7.0,
+     "src": "Betano/Bet-at-home wg wettbasis.com, 26–27.10"
+    },
+    "info": {
+     "homeAway": "Elversberg 8. w Bundeslidze (2 wygrane w 3 meczach u siebie, 8 goli), ostatnio 0:4 w Lipsku; Darmstadt ostatni w 2. Bundeslidze, 3 porażki na wyjeździe z rzędu (12 straconych)",
+     "h2h": [
+      "2026-04 DAR 3:3 ELV",
+      "2025-11 0:0",
+      "2024/25: ELV 4:0 DAR, DAR 0:3 ELV"
+     ]
+    },
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Elversberg 1,45 (69% z kursu) – szacunek ok. 71–72%, EV ok. +4%: za mało przy kursie poniżej 1,50",
+      "Elversberg wygra i powyżej 1,5 gola po 1,64 – szacunek ok. 57%, EV ujemne"
+     ]
+    }
    },
    {
     "id": "CUP-DFB-2026-10-27-BVB-BRE",
@@ -1791,7 +2003,19 @@
     "status": "ns",
     "comp": "Puchar Ligi Angielskiej (Carabao Cup)",
     "stage": "4. runda",
-    "notes": "Transmisja: Sky Sports+"
+    "notes": "Transmisja: Sky Sports+",
+    "odds": {
+     "1": 1.72,
+     "X": 4.1,
+     "2": 5.25,
+     "src": "Najlepsze kursy rynkowe (różni bukmacherzy) wg sportytrader.com, 27.10"
+    },
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Brak danych o składach i formie – kurs 1,72 wyceniony bez wyraźnej przewagi"
+     ]
+    }
    },
    {
     "id": "CUP-EFL-2026-10-27-FLEETWOODT-ARS",
@@ -1842,7 +2066,13 @@
     "away": "ES-MAL",
     "status": "ns",
     "comp": "Puchar Króla (Copa del Rey)",
-    "stage": "1. runda"
+    "stage": "1. runda",
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Nie znaleziono wiarygodnych kursów ani danych o składach dla tego meczu – bez kursu nie da się policzyć wartości zakładu"
+     ]
+    }
    },
    {
     "id": "CUP-CDR-2026-10-27-ATLETICOPA-CORDOBA",
@@ -1852,7 +2082,13 @@
     "away": "ES-CORDOBA",
     "status": "ns",
     "comp": "Puchar Króla (Copa del Rey)",
-    "stage": "1. runda"
+    "stage": "1. runda",
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Nie znaleziono wiarygodnych kursów ani danych o składach dla tego meczu – bez kursu nie da się policzyć wartości zakładu"
+     ]
+    }
    },
    {
     "id": "CUP-CDR-2026-10-27-TUDELANO-REALZARAGO",
@@ -1862,7 +2098,13 @@
     "away": "ES-REALZARAGO",
     "status": "ns",
     "comp": "Puchar Króla (Copa del Rey)",
-    "stage": "1. runda"
+    "stage": "1. runda",
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Nie znaleziono wiarygodnych kursów ani danych o składach dla tego meczu – bez kursu nie da się policzyć wartości zakładu"
+     ]
+    }
    },
    {
     "id": "CUP-CDR-2026-10-27-AROSA-PONTEVEDRA",
@@ -1872,7 +2114,13 @@
     "away": "ES-PONTEVEDRA",
     "status": "ns",
     "comp": "Puchar Króla (Copa del Rey)",
-    "stage": "1. runda"
+    "stage": "1. runda",
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Nie znaleziono wiarygodnych kursów ani danych o składach dla tego meczu – bez kursu nie da się policzyć wartości zakładu"
+     ]
+    }
    },
    {
     "id": "CUP-CDR-2026-10-27-MANACOR-VIL",
@@ -1882,7 +2130,13 @@
     "away": "ES-VIL",
     "status": "ns",
     "comp": "Puchar Króla (Copa del Rey)",
-    "stage": "1. runda"
+    "stage": "1. runda",
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Nie znaleziono wiarygodnych kursów ani danych o składach dla tego meczu – bez kursu nie da się policzyć wartości zakładu"
+     ]
+    }
    },
    {
     "id": "CUP-CDR-2026-10-27-RECREATIVO-RAY",
@@ -1892,7 +2146,13 @@
     "away": "ES-RAY",
     "status": "ns",
     "comp": "Puchar Króla (Copa del Rey)",
-    "stage": "1. runda"
+    "stage": "1. runda",
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Nie znaleziono wiarygodnych kursów ani danych o składach dla tego meczu – bez kursu nie da się policzyć wartości zakładu"
+     ]
+    }
    },
    {
     "id": "CUP-TDL-2026-10-27-SPORTINGCP-MARITIMO",
@@ -1902,7 +2162,13 @@
     "away": "PT-MARITIMO",
     "status": "ns",
     "comp": "Puchar Ligi Portugalskiej (Taça da Liga)",
-    "stage": "Faza grupowa"
+    "stage": "Faza grupowa",
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Nie znaleziono wiarygodnych kursów ani danych o składach dla tego meczu – bez kursu nie da się policzyć wartości zakładu"
+     ]
+    }
    }
   ],
   "2026-10-28": [
@@ -1915,7 +2181,13 @@
     "status": "ns",
     "comp": "Puchar Polski",
     "stage": "1/16 finału",
-    "notes": "Transmisja: TVP Sport"
+    "notes": "Transmisja: TVP Sport",
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Nie znaleziono wiarygodnych kursów ani danych o składach dla tego meczu – bez kursu nie da się policzyć wartości zakładu"
+     ]
+    }
    },
    {
     "id": "CUP-PP-2026-10-28-SOKOKLECZE-PODHALENOW",
@@ -1926,7 +2198,13 @@
     "status": "ns",
     "comp": "Puchar Polski",
     "stage": "1/16 finału",
-    "notes": "Transmisja: PZPN+"
+    "notes": "Transmisja: PZPN+",
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Nie znaleziono wiarygodnych kursów ani danych o składach dla tego meczu – bez kursu nie da się policzyć wartości zakładu"
+     ]
+    }
    },
    {
     "id": "CUP-PP-2026-10-28-PUSZCZANIE-WPL",
@@ -1937,7 +2215,13 @@
     "status": "ns",
     "comp": "Puchar Polski",
     "stage": "1/16 finału",
-    "notes": "Transmisja: TVP Sport"
+    "notes": "Transmisja: TVP Sport",
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Nie znaleziono wiarygodnych kursów ani danych o składach dla tego meczu – bez kursu nie da się policzyć wartości zakładu"
+     ]
+    }
    },
    {
     "id": "CUP-PP-2026-10-28-ZNICZPRUSZ-RUCHCHORZO",
@@ -1948,7 +2232,13 @@
     "status": "ns",
     "comp": "Puchar Polski",
     "stage": "1/16 finału",
-    "notes": "Transmisja: PZPN+"
+    "notes": "Transmisja: PZPN+",
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Nie znaleziono wiarygodnych kursów ani danych o składach dla tego meczu – bez kursu nie da się policzyć wartości zakładu"
+     ]
+    }
    },
    {
     "id": "CUP-DFB-2026-10-28-SCF-VFLWOLFSBU",
@@ -1958,7 +2248,44 @@
     "away": "DE-VFLWOLFSBU",
     "status": "ns",
     "comp": "Puchar Niemiec (DFB-Pokal)",
-    "stage": "2. runda"
+    "stage": "2. runda",
+    "odds": {
+     "1": 1.5,
+     "X": 4.9,
+     "2": 6.26,
+     "src": "Winamax (Freiburg poniżej 2,5) wg wettbasis.com, 26.10; 1X2 wg sportytrader.com, 27.10",
+     "team_u25_home": 1.66
+    },
+    "info": {
+     "homeAway": "Freiburg 3. w Bundeslidze, ale 3 porażki z rzędu (Leverkusen, Monaco, Bayern) i 9 meczów w 29 dni – spodziewana rotacja; Wolfsburg 4. w 2. Bundeslidze, 23 gole w 9 meczach (najwięcej w lidze)",
+     "h2h": [
+      "2026-05-03 SCF 1:1 WOL",
+      "Freiburg niepokonany w 4 ostatnich meczach",
+      "DFB-Pokal: 2× WOL 1:0 SCF"
+     ]
+    },
+    "tip": {
+     "decision": "BET",
+     "market": "Freiburg poniżej 2,5 gola (90 min)",
+     "odds": 1.66,
+     "prob": 0.66,
+     "ev": 0.096,
+     "rating": 6,
+     "risk": "średnie",
+     "reasons": [
+      "Freiburg gra 10. mecz w 30 dni – trener rotował już 5 pozycji, spodziewana dalsza rotacja",
+      "Freiburg przegrał 3 ostatnie mecze – słabsza forma ofensywna",
+      "Przy kursie ok. 1,50 na wygraną Freiburga oczekuje się ok. 1,8–2 goli tej drużyny – 3+ gole to ok. 1/3 scenariuszy",
+      "Liczy się tylko regularny czas gry – dogrywka nie wpływa na zakład",
+      "Freiburg w ostatnich meczach z Wolfsburgiem: 1:1 i niskie wyniki w pucharze"
+     ],
+     "risks": [
+      "Wolfsburg ma najskuteczniejszy atak 2. Bundesligi – otwarty mecz może dać więcej goli obu stronom",
+      "Rotacja może dotknąć też obrony i zmienić charakter meczu"
+     ],
+     "value": "Kurs 1,66 = 60%, nasza ocena ok. 66%",
+     "stake": "1% bankrollu"
+    }
    },
    {
     "id": "CUP-DFB-2026-10-28-DYNAMODREZ-SCH",
@@ -1968,7 +2295,49 @@
     "away": "DE-SCH",
     "status": "ns",
     "comp": "Puchar Niemiec (DFB-Pokal)",
-    "stage": "2. runda"
+    "stage": "2. runda",
+    "odds": {
+     "1": 3.75,
+     "X": 3.85,
+     "2": 2.05,
+     "u35": 1.5,
+     "src": "DAZN Bet (poniżej 3,5) wg wettbasis.com, 25.10; 1X2 wg sportytrader.com, 27.10"
+    },
+    "info": {
+     "injuries": {
+      "home": [],
+      "away": [
+       "Kenan Karaman (niepewny)",
+       "Robin Gosens (niepewny)"
+      ]
+     },
+     "homeAway": "Dresden 15. w Bundeslidze (11 goli w 8 meczach); Schalke bez wygranej w 4 meczach, tylko 4 gole w sezonie (najmniej w lidze), solidna obrona; w 1. rundzie pucharu potrzebowało dogrywki z Halle",
+     "h2h": [
+      "Schalke niepokonane w 4 ostatnich meczach (3 W)"
+     ]
+    },
+    "tip": {
+     "decision": "BET",
+     "market": "Poniżej 3,5 gola (90 min)",
+     "odds": 1.5,
+     "prob": 0.77,
+     "ev": 0.155,
+     "rating": 7,
+     "risk": "niskie",
+     "reasons": [
+      "Schalke strzeliło tylko 4 gole w całym sezonie Bundesligi – najmniej w lidze",
+      "Dresden ma jeden z najsłabszych ataków (11 goli w 8 meczach)",
+      "Schalke gra defensywnie i solidnie w obronie",
+      "Pucharowy mecz o awans – obie drużyny raczej ostrożne, możliwa dogrywka (nie liczy się do zakładu)",
+      "Przy dwóch słabych atakach oczekiwane ok. 2,2–2,4 gola – 4+ gole to ok. 20–23% scenariuszy"
+     ],
+     "risks": [
+      "Gdy jedna drużyna szybko straci gola, mecz może się otworzyć",
+      "Kurs niski – wygrana dodaje mało, przegrana boli"
+     ],
+     "value": "Kurs 1,50 = 67%, nasza ocena ok. 77%",
+     "stake": "1–2% bankrollu"
+    }
    },
    {
     "id": "CUP-DFB-2026-10-28-PAD-STU",
@@ -1978,7 +2347,27 @@
     "away": "DE-STU",
     "status": "ns",
     "comp": "Puchar Niemiec (DFB-Pokal)",
-    "stage": "2. runda"
+    "stage": "2. runda",
+    "odds": {
+     "1": 6.0,
+     "X": 4.5,
+     "2": 1.57,
+     "src": "bet365 wg wettfreunde.net, 27.10; 1X2 wg sportytrader.com"
+    },
+    "info": {
+     "homeAway": "Paderborn (beniaminek) 13. w Bundeslidze, ostatnio 1:0 z HSV; Stuttgart 15. (2 W, 5 P), gra też w Lidze Mistrzów – możliwa rotacja",
+     "h2h": [
+      "2026-10-10 PAD 0:2 STU",
+      "Stuttgart: 5 W, 1 R w 6 meczach o stawkę"
+     ]
+    },
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Stuttgart i poniżej 3,5 po 2,50 (40%) – szacunek ok. 40%, brak przewagi",
+      "Stuttgart 1,57 – słaba forma ligowa i rotacja przy grze w LM, kurs bez wartości"
+     ]
+    }
    },
    {
     "id": "CUP-DFB-2026-10-28-SSVJEDDELO-HERTHABSC",
@@ -1988,7 +2377,28 @@
     "away": "DE-HERTHABSC",
     "status": "ns",
     "comp": "Puchar Niemiec (DFB-Pokal)",
-    "stage": "2. runda"
+    "stage": "2. runda",
+    "odds": {
+     "1": 41.0,
+     "X": 19.0,
+     "2": 1.08,
+     "bttsN": 1.83,
+     "src": "Bet-at-home/DAZN Bet wg wettbasis.com, 25–26.10; 1X2 wg sportytrader.com"
+    },
+    "info": {
+     "homeAway": "Hertha liderem 2. Bundesligi i niepokonana, ale 1 gol w 2 ostatnich meczach; Jeddeloh II (4. liga) w poprzedniej rundzie wygrał 5:2 z Heidenheim",
+     "h2h": [
+      "Pierwszy mecz w historii"
+     ],
+     "stakes": "Hertha w weekend gra hit w Kaiserslautern – możliwa rotacja"
+    },
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Hertha poniżej 4,5 gola po 1,58 (63%) – szacunek ok. 70%, ale ogromna niepewność co do siły rywala z 4. ligi i składu Herthy",
+      "Hertha 1,08 – kurs bez wartości"
+     ]
+    }
    },
    {
     "id": "CUP-PP-2026-10-28-GKSTYCHY-POGONSIEDL",
@@ -1999,7 +2409,13 @@
     "status": "ns",
     "comp": "Puchar Polski",
     "stage": "1/16 finału",
-    "notes": "Transmisja: PZPN+"
+    "notes": "Transmisja: PZPN+",
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Nie znaleziono wiarygodnych kursów ani danych o składach dla tego meczu – bez kursu nie da się policzyć wartości zakładu"
+     ]
+    }
    },
    {
     "id": "CUP-PP-2026-10-28-POLONIASRO-SLASKIIWRO",
@@ -2009,7 +2425,13 @@
     "away": "PL-SLASKIIWRO",
     "status": "ns",
     "comp": "Puchar Polski",
-    "stage": "1/16 finału"
+    "stage": "1/16 finału",
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Nie znaleziono wiarygodnych kursów ani danych o składach dla tego meczu – bez kursu nie da się policzyć wartości zakładu"
+     ]
+    }
    },
    {
     "id": "CUP-CDR-2026-10-28-ANAITASUNA-ALA",
@@ -2019,7 +2441,13 @@
     "away": "ES-ALA",
     "status": "ns",
     "comp": "Puchar Króla (Copa del Rey)",
-    "stage": "1. runda"
+    "stage": "1. runda",
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Nie znaleziono wiarygodnych kursów ani danych o składach dla tego meczu – bez kursu nie da się policzyć wartości zakładu"
+     ]
+    }
    },
    {
     "id": "CUP-CDR-2026-10-28-TARANCON-LEV",
@@ -2029,7 +2457,13 @@
     "away": "ES-LEV",
     "status": "ns",
     "comp": "Puchar Króla (Copa del Rey)",
-    "stage": "1. runda"
+    "stage": "1. runda",
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Nie znaleziono wiarygodnych kursów ani danych o składach dla tego meczu – bez kursu nie da się policzyć wartości zakładu"
+     ]
+    }
    },
    {
     "id": "CUP-CDR-2026-10-28-CORUXO-ZAMORA",
@@ -2039,7 +2473,13 @@
     "away": "ES-ZAMORA",
     "status": "ns",
     "comp": "Puchar Króla (Copa del Rey)",
-    "stage": "1. runda"
+    "stage": "1. runda",
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Nie znaleziono wiarygodnych kursów ani danych o składach dla tego meczu – bez kursu nie da się policzyć wartości zakładu"
+     ]
+    }
    },
    {
     "id": "CUP-CDR-2026-10-28-PAMPLONA-EIBAR",
@@ -2049,7 +2489,13 @@
     "away": "ES-EIBAR",
     "status": "ns",
     "comp": "Puchar Króla (Copa del Rey)",
-    "stage": "1. runda"
+    "stage": "1. runda",
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Nie znaleziono wiarygodnych kursów ani danych o składach dla tego meczu – bez kursu nie da się policzyć wartości zakładu"
+     ]
+    }
    },
    {
     "id": "CUP-CDR-2026-10-28-PENASPORT-HUESCA",
@@ -2059,7 +2505,13 @@
     "away": "ES-HUESCA",
     "status": "ns",
     "comp": "Puchar Króla (Copa del Rey)",
-    "stage": "1. runda"
+    "stage": "1. runda",
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Nie znaleziono wiarygodnych kursów ani danych o składach dla tego meczu – bez kursu nie da się policzyć wartości zakładu"
+     ]
+    }
    },
    {
     "id": "CUP-CDR-2026-10-28-POBLENSE-CEUTA",
@@ -2069,7 +2521,13 @@
     "away": "ES-CEUTA",
     "status": "ns",
     "comp": "Puchar Króla (Copa del Rey)",
-    "stage": "1. runda"
+    "stage": "1. runda",
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Nie znaleziono wiarygodnych kursów ani danych o składach dla tego meczu – bez kursu nie da się policzyć wartości zakładu"
+     ]
+    }
    },
    {
     "id": "CUP-CDR-2026-10-28-PORTUGALET-REALUNION",
@@ -2079,7 +2537,13 @@
     "away": "ES-REALUNION",
     "status": "ns",
     "comp": "Puchar Króla (Copa del Rey)",
-    "stage": "1. runda"
+    "stage": "1. runda",
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Nie znaleziono wiarygodnych kursów ani danych o składach dla tego meczu – bez kursu nie da się policzyć wartości zakładu"
+     ]
+    }
    },
    {
     "id": "CUP-CDR-2026-10-28-UTEBO-SABADELL",
@@ -2089,7 +2553,13 @@
     "away": "ES-SABADELL",
     "status": "ns",
     "comp": "Puchar Króla (Copa del Rey)",
-    "stage": "1. runda"
+    "stage": "1. runda",
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Nie znaleziono wiarygodnych kursów ani danych o składach dla tego meczu – bez kursu nie da się policzyć wartości zakładu"
+     ]
+    }
    },
    {
     "id": "CUP-CDR-2026-10-28-CDBADAJOZ-TENERIFE",
@@ -2099,7 +2569,13 @@
     "away": "ES-TENERIFE",
     "status": "ns",
     "comp": "Puchar Króla (Copa del Rey)",
-    "stage": "1. runda"
+    "stage": "1. runda",
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Nie znaleziono wiarygodnych kursów ani danych o składach dla tego meczu – bez kursu nie da się policzyć wartości zakładu"
+     ]
+    }
    },
    {
     "id": "CUP-CDR-2026-10-28-TRIVALVALD-LEGANES",
@@ -2109,7 +2585,13 @@
     "away": "ES-LEGANES",
     "status": "ns",
     "comp": "Puchar Króla (Copa del Rey)",
-    "stage": "1. runda"
+    "stage": "1. runda",
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Nie znaleziono wiarygodnych kursów ani danych o składach dla tego meczu – bez kursu nie da się policzyć wartości zakładu"
+     ]
+    }
    },
    {
     "id": "CUP-CDR-2026-10-28-ALCOYANO-MALLORCA",
@@ -2119,7 +2601,13 @@
     "away": "ES-MALLORCA",
     "status": "ns",
     "comp": "Puchar Króla (Copa del Rey)",
-    "stage": "1. runda"
+    "stage": "1. runda",
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Nie znaleziono wiarygodnych kursów ani danych o składach dla tego meczu – bez kursu nie da się policzyć wartości zakładu"
+     ]
+    }
    },
    {
     "id": "CUP-CDR-2026-10-28-AMOREBIETA-UDLOGRONES",
@@ -2129,7 +2617,13 @@
     "away": "ES-UDLOGRONES",
     "status": "ns",
     "comp": "Puchar Króla (Copa del Rey)",
-    "stage": "1. runda"
+    "stage": "1. runda",
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Nie znaleziono wiarygodnych kursów ani danych o składach dla tego meczu – bez kursu nie da się policzyć wartości zakładu"
+     ]
+    }
    },
    {
     "id": "CUP-CDR-2026-10-28-COVADONGA-REALVALLAD",
@@ -2139,7 +2633,13 @@
     "away": "ES-REALVALLAD",
     "status": "ns",
     "comp": "Puchar Króla (Copa del Rey)",
-    "stage": "1. runda"
+    "stage": "1. runda",
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Nie znaleziono wiarygodnych kursów ani danych o składach dla tego meczu – bez kursu nie da się policzyć wartości zakładu"
+     ]
+    }
    },
    {
     "id": "CUP-CDR-2026-10-28-MIJASLASLA-REALJAEN",
@@ -2149,7 +2649,13 @@
     "away": "ES-REALJAEN",
     "status": "ns",
     "comp": "Puchar Króla (Copa del Rey)",
-    "stage": "1. runda"
+    "stage": "1. runda",
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Nie znaleziono wiarygodnych kursów ani danych o składach dla tego meczu – bez kursu nie da się policzyć wartości zakładu"
+     ]
+    }
    },
    {
     "id": "CUP-CDR-2026-10-28-NUMANCIA-REALOVIEDO",
@@ -2159,7 +2665,13 @@
     "away": "ES-REALOVIEDO",
     "status": "ns",
     "comp": "Puchar Króla (Copa del Rey)",
-    "stage": "1. runda"
+    "stage": "1. runda",
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Nie znaleziono wiarygodnych kursów ani danych o składach dla tego meczu – bez kursu nie da się policzyć wartości zakładu"
+     ]
+    }
    },
    {
     "id": "CUP-CDR-2026-10-28-CALVOSOTEL-ALBACETE",
@@ -2169,7 +2681,13 @@
     "away": "ES-ALBACETE",
     "status": "ns",
     "comp": "Puchar Króla (Copa del Rey)",
-    "stage": "1. runda"
+    "stage": "1. runda",
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Nie znaleziono wiarygodnych kursów ani danych o składach dla tego meczu – bez kursu nie da się policzyć wartości zakładu"
+     ]
+    }
    },
    {
     "id": "CUP-PP-2026-10-28-LECHIAGDAN-JAG",
@@ -2180,7 +2698,13 @@
     "status": "ns",
     "comp": "Puchar Polski",
     "stage": "1/16 finału",
-    "notes": "Transmisja: TVP Sport"
+    "notes": "Transmisja: TVP Sport",
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Nie znaleziono wiarygodnych kursów ani danych o składach dla tego meczu – bez kursu nie da się policzyć wartości zakładu"
+     ]
+    }
    },
    {
     "id": "CUP-EFL-2026-10-28-MCI-BHA",
@@ -2191,7 +2715,23 @@
     "status": "ns",
     "comp": "Puchar Ligi Angielskiej (Carabao Cup)",
     "stage": "4. runda",
-    "notes": "Transmisja: Sky Sports+"
+    "notes": "Transmisja: Sky Sports+",
+    "odds": {
+     "1": 1.66,
+     "X": 4.4,
+     "2": 4.9,
+     "src": "Najlepsze kursy rynkowe (różni bukmacherzy) wg sportytrader.com, 27.10"
+    },
+    "info": {
+     "stakes": "Puchar Ligi – kluby Premier League zwykle mocno rotują składy"
+    },
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Składy poznamy dopiero przed meczem – rotacja w Pucharze Ligi sprawia, że kursy 1X2 są zbyt niepewne do wyceny",
+      "Brak przewagi nad rynkiem"
+     ]
+    }
    },
    {
     "id": "CUP-CDR-2026-10-28-CIEZA-GRANADA",
@@ -2201,7 +2741,13 @@
     "away": "ES-GRANADA",
     "status": "ns",
     "comp": "Puchar Króla (Copa del Rey)",
-    "stage": "1. runda"
+    "stage": "1. runda",
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Nie znaleziono wiarygodnych kursów ani danych o składach dla tego meczu – bez kursu nie da się policzyć wartości zakładu"
+     ]
+    }
    },
    {
     "id": "CUP-CDR-2026-10-28-DEPORTIVAM-CARTAGENA",
@@ -2211,7 +2757,13 @@
     "away": "ES-CARTAGENA",
     "status": "ns",
     "comp": "Puchar Króla (Copa del Rey)",
-    "stage": "1. runda"
+    "stage": "1. runda",
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Nie znaleziono wiarygodnych kursów ani danych o składach dla tego meczu – bez kursu nie da się policzyć wartości zakładu"
+     ]
+    }
    },
    {
     "id": "CUP-CDR-2026-10-28-REDDIS-BARAKALDO",
@@ -2221,7 +2773,13 @@
     "away": "ES-BARAKALDO",
     "status": "ns",
     "comp": "Puchar Króla (Copa del Rey)",
-    "stage": "1. runda"
+    "stage": "1. runda",
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Nie znaleziono wiarygodnych kursów ani danych o składach dla tego meczu – bez kursu nie da się policzyć wartości zakładu"
+     ]
+    }
    },
    {
     "id": "CUP-CDR-2026-10-28-GIMNASTICA-UDOURENSE",
@@ -2231,7 +2789,13 @@
     "away": "ES-UDOURENSE",
     "status": "ns",
     "comp": "Puchar Króla (Copa del Rey)",
-    "stage": "1. runda"
+    "stage": "1. runda",
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Nie znaleziono wiarygodnych kursów ani danych o składach dla tego meczu – bez kursu nie da się policzyć wartości zakładu"
+     ]
+    }
    },
    {
     "id": "CUP-DFB-2026-10-28-HOLSTEINKI-HOF",
@@ -2241,7 +2805,27 @@
     "away": "DE-HOF",
     "status": "ns",
     "comp": "Puchar Niemiec (DFB-Pokal)",
-    "stage": "2. runda"
+    "stage": "2. runda",
+    "odds": {
+     "1": 6.25,
+     "X": 5.0,
+     "2": 1.47,
+     "o35": 1.9,
+     "src": "Betano/bet365 wg wettfreunde.net, 27.10; 1X2 wg sportytrader.com"
+    },
+    "info": {
+     "homeAway": "Kiel tylko 8 pkt w 9 meczach 2. Bundesligi; Hoffenheim 3 wygrane z rzędu, ostatnio 3:0 z Leverkusen",
+     "h2h": [
+      "Hoffenheim wygrał 4/4 mecze, w każdym 4+ gole i obie drużyny strzelały"
+     ]
+    },
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Powyżej 3,5 po 1,90 (53%) – H2H za, ale obecna forma Kiel w ataku słaba; szacunek ok. 38–42%, EV ujemne",
+      "Hoffenheim -1 po 2,10 (48%) – szacunek ok. 42%, EV ujemne"
+     ]
+    }
    },
    {
     "id": "CUP-DFB-2026-10-28-HANNOVER96-1FCKAISERS",
@@ -2251,7 +2835,19 @@
     "away": "DE-1FCKAISERS",
     "status": "ns",
     "comp": "Puchar Niemiec (DFB-Pokal)",
-    "stage": "2. runda"
+    "stage": "2. runda",
+    "odds": {
+     "1": 2.25,
+     "X": 3.8,
+     "2": 3.4,
+     "src": "Najlepsze kursy rynkowe (różni bukmacherzy) wg sportytrader.com, 27.10"
+    },
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Mecz dwóch drużyn 2. Bundesligi bez wyraźnego faworyta; brak danych o formie i składach – brak przewagi"
+     ]
+    }
    },
    {
     "id": "CUP-DFB-2026-10-28-LEV-1FCNORYMBE",
@@ -2261,7 +2857,22 @@
     "away": "DE-1FCNORYMBE",
     "status": "ns",
     "comp": "Puchar Niemiec (DFB-Pokal)",
-    "stage": "2. runda"
+    "stage": "2. runda",
+    "odds": {
+     "1": 1.18,
+     "X": 8.4,
+     "2": 14.5,
+     "src": "Najlepsze kursy rynkowe (różni bukmacherzy) wg sportytrader.com, 27.10"
+    },
+    "info": {
+     "homeAway": "Leverkusen ostatnio przegrał 0:3 w Hoffenheim"
+    },
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Leverkusen 1,18 – kurs bez wartości; brak danych o składach i rynkach dodatkowych"
+     ]
+    }
    },
    {
     "id": "CUP-DFB-2026-10-28-BAY-1FCMAGDEBU",
@@ -2271,7 +2882,27 @@
     "away": "DE-1FCMAGDEBU",
     "status": "ns",
     "comp": "Puchar Niemiec (DFB-Pokal)",
-    "stage": "2. runda"
+    "stage": "2. runda",
+    "odds": {
+     "1": 1.05,
+     "X": 21.0,
+     "2": 50.0,
+     "src": "NEO.bet wg wettfreunde.net, 27.10; 1X2 wg sportytrader.com"
+    },
+    "info": {
+     "homeAway": "Bayern niepokonany w sezonie, 25 goli w Bundeslidze, niedawno 6:1 z Lipskiem; Magdeburg w czołówce 2. Bundesligi",
+     "stakes": "W weekend Bayern gra z BVB – możliwa rotacja",
+     "h2h": [
+      "2000/01 MAG – BAY, awans Magdeburga po karnych"
+     ]
+    },
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Bayern -3 po 1,87 (53%) – przy możliwej rotacji przed meczem z BVB szacunek wygranej 4+ golami ok. 42–45%, EV ujemne",
+      "Bayern 1,05 – kurs bez wartości"
+     ]
+    }
    },
    {
     "id": "CUP-EFL-2026-10-28-SUN-BRE",
@@ -2282,7 +2913,23 @@
     "status": "ns",
     "comp": "Puchar Ligi Angielskiej (Carabao Cup)",
     "stage": "4. runda",
-    "notes": "Transmisja: Sky Sports+"
+    "notes": "Transmisja: Sky Sports+",
+    "odds": {
+     "1": 3.64,
+     "X": 3.65,
+     "2": 2.05,
+     "src": "Najlepsze kursy rynkowe (różni bukmacherzy) wg sportytrader.com, 27.10"
+    },
+    "info": {
+     "stakes": "Puchar Ligi – kluby Premier League zwykle mocno rotują składy"
+    },
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Składy poznamy dopiero przed meczem – rotacja w Pucharze Ligi sprawia, że kursy 1X2 są zbyt niepewne do wyceny",
+      "Brak przewagi nad rynkiem"
+     ]
+    }
    },
    {
     "id": "CUP-EFL-2026-10-28-FUL-CRY",
@@ -2293,7 +2940,23 @@
     "status": "ns",
     "comp": "Puchar Ligi Angielskiej (Carabao Cup)",
     "stage": "4. runda",
-    "notes": "Transmisja: Sky Sports+"
+    "notes": "Transmisja: Sky Sports+",
+    "odds": {
+     "1": 1.93,
+     "X": 3.85,
+     "2": 4.0,
+     "src": "Najlepsze kursy rynkowe (różni bukmacherzy) wg sportytrader.com, 27.10"
+    },
+    "info": {
+     "stakes": "Puchar Ligi – kluby Premier League zwykle mocno rotują składy"
+    },
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Składy poznamy dopiero przed meczem – rotacja w Pucharze Ligi sprawia, że kursy 1X2 są zbyt niepewne do wyceny",
+      "Brak przewagi nad rynkiem"
+     ]
+    }
    },
    {
     "id": "CUP-EFL-2026-10-28-BOU-AVL",
@@ -2304,7 +2967,23 @@
     "status": "ns",
     "comp": "Puchar Ligi Angielskiej (Carabao Cup)",
     "stage": "4. runda",
-    "notes": "Transmisja: Sky Sports+"
+    "notes": "Transmisja: Sky Sports+",
+    "odds": {
+     "1": 2.32,
+     "X": 3.6,
+     "2": 3.04,
+     "src": "Najlepsze kursy rynkowe (różni bukmacherzy) wg sportytrader.com, 27.10"
+    },
+    "info": {
+     "stakes": "Puchar Ligi – kluby Premier League zwykle mocno rotują składy"
+    },
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Składy poznamy dopiero przed meczem – rotacja w Pucharze Ligi sprawia, że kursy 1X2 są zbyt niepewne do wyceny",
+      "Brak przewagi nad rynkiem"
+     ]
+    }
    },
    {
     "id": "CUP-EFL-2026-10-28-LIV-CHE",
@@ -2315,7 +2994,23 @@
     "status": "ns",
     "comp": "Puchar Ligi Angielskiej (Carabao Cup)",
     "stage": "4. runda",
-    "notes": "Transmisja: Sky Sports Main Event, ITV"
+    "notes": "Transmisja: Sky Sports Main Event, ITV",
+    "odds": {
+     "1": 2.38,
+     "X": 3.9,
+     "2": 2.82,
+     "src": "Najlepsze kursy rynkowe (różni bukmacherzy) wg sportytrader.com, 27.10"
+    },
+    "info": {
+     "stakes": "Puchar Ligi – kluby Premier League zwykle mocno rotują składy"
+    },
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Składy poznamy dopiero przed meczem – rotacja w Pucharze Ligi sprawia, że kursy 1X2 są zbyt niepewne do wyceny",
+      "Brak przewagi nad rynkiem"
+     ]
+    }
    },
    {
     "id": "CUP-CDR-2026-10-28-NAVALCARNE-BET",
@@ -2325,7 +3020,13 @@
     "away": "ES-BET",
     "status": "ns",
     "comp": "Puchar Króla (Copa del Rey)",
-    "stage": "1. runda"
+    "stage": "1. runda",
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Nie znaleziono wiarygodnych kursów ani danych o składach dla tego meczu – bez kursu nie da się policzyć wartości zakładu"
+     ]
+    }
    },
    {
     "id": "CUP-CDR-2026-10-28-SALAMANCAU-CEL",
@@ -2335,7 +3036,13 @@
     "away": "ES-CEL",
     "status": "ns",
     "comp": "Puchar Króla (Copa del Rey)",
-    "stage": "1. runda"
+    "stage": "1. runda",
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Nie znaleziono wiarygodnych kursów ani danych o składach dla tego meczu – bez kursu nie da się policzyć wartości zakładu"
+     ]
+    }
    },
    {
     "id": "CUP-CDR-2026-10-28-TAVERNES-VAL",
@@ -2345,7 +3052,13 @@
     "away": "ES-VAL",
     "status": "ns",
     "comp": "Puchar Króla (Copa del Rey)",
-    "stage": "1. runda"
+    "stage": "1. runda",
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Nie znaleziono wiarygodnych kursów ani danych o składach dla tego meczu – bez kursu nie da się policzyć wartości zakładu"
+     ]
+    }
    },
    {
     "id": "CUP-CDR-2026-10-28-XEREZ-CADIZ",
@@ -2355,7 +3068,13 @@
     "away": "ES-CADIZ",
     "status": "ns",
     "comp": "Puchar Króla (Copa del Rey)",
-    "stage": "1. runda"
+    "stage": "1. runda",
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Nie znaleziono wiarygodnych kursów ani danych o składach dla tego meczu – bez kursu nie da się policzyć wartości zakładu"
+     ]
+    }
    },
    {
     "id": "CUP-TDL-2026-10-28-FCPORTO-ACADEMICOD",
@@ -2365,7 +3084,13 @@
     "away": "PT-ACADEMICOD",
     "status": "ns",
     "comp": "Puchar Ligi Portugalskiej (Taça da Liga)",
-    "stage": "Faza grupowa"
+    "stage": "Faza grupowa",
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Nie znaleziono wiarygodnych kursów ani danych o składach dla tego meczu – bez kursu nie da się policzyć wartości zakładu"
+     ]
+    }
    }
   ],
   "2026-10-29": [
@@ -2378,7 +3103,13 @@
     "status": "ns",
     "comp": "Puchar Polski",
     "stage": "1/16 finału",
-    "notes": "Transmisja: TVP Sport"
+    "notes": "Transmisja: TVP Sport",
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Nie znaleziono wiarygodnych kursów ani danych o składach dla tego meczu – bez kursu nie da się policzyć wartości zakładu"
+     ]
+    }
    },
    {
     "id": "CUP-PP-2026-10-29-CHROBRYGOG-POLONIABYT",
@@ -2389,7 +3120,13 @@
     "status": "ns",
     "comp": "Puchar Polski",
     "stage": "1/16 finału",
-    "notes": "Transmisja: PZPN+"
+    "notes": "Transmisja: PZPN+",
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Nie znaleziono wiarygodnych kursów ani danych o składach dla tego meczu – bez kursu nie da się policzyć wartości zakładu"
+     ]
+    }
    },
    {
     "id": "CUP-PP-2026-10-29-POLONIAWAR-KOR",
@@ -2400,7 +3137,13 @@
     "status": "ns",
     "comp": "Puchar Polski",
     "stage": "1/16 finału",
-    "notes": "Transmisja: TVP Sport"
+    "notes": "Transmisja: TVP Sport",
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Nie znaleziono wiarygodnych kursów ani danych o składach dla tego meczu – bez kursu nie da się policzyć wartości zakładu"
+     ]
+    }
    },
    {
     "id": "CUP-PP-2026-10-29-ARKAGDYNIA-STALRZESZO",
@@ -2411,7 +3154,13 @@
     "status": "ns",
     "comp": "Puchar Polski",
     "stage": "1/16 finału",
-    "notes": "Transmisja: PZPN+"
+    "notes": "Transmisja: PZPN+",
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Nie znaleziono wiarygodnych kursów ani danych o składach dla tego meczu – bez kursu nie da się policzyć wartości zakładu"
+     ]
+    }
    },
    {
     "id": "CUP-CDR-2026-10-29-ATLETICOCA-OSA",
@@ -2421,7 +3170,13 @@
     "away": "ES-OSA",
     "status": "ns",
     "comp": "Puchar Króla (Copa del Rey)",
-    "stage": "1. runda"
+    "stage": "1. runda",
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Nie znaleziono wiarygodnych kursów ani danych o składach dla tego meczu – bez kursu nie da się policzyć wartości zakładu"
+     ]
+    }
    },
    {
     "id": "CUP-CDR-2026-10-29-ATLETICOBA-ELDENSE",
@@ -2431,7 +3186,13 @@
     "away": "ES-ELDENSE",
     "status": "ns",
     "comp": "Puchar Króla (Copa del Rey)",
-    "stage": "1. runda"
+    "stage": "1. runda",
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Nie znaleziono wiarygodnych kursów ani danych o składach dla tego meczu – bez kursu nie da się policzyć wartości zakładu"
+     ]
+    }
    },
    {
     "id": "CUP-CDR-2026-10-29-LEBRIJANA-GET",
@@ -2441,7 +3202,13 @@
     "away": "ES-GET",
     "status": "ns",
     "comp": "Puchar Króla (Copa del Rey)",
-    "stage": "1. runda"
+    "stage": "1. runda",
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Nie znaleziono wiarygodnych kursów ani danych o składach dla tego meczu – bez kursu nie da się policzyć wartości zakładu"
+     ]
+    }
    },
    {
     "id": "CUP-CDR-2026-10-29-SSREYES-CDCORIA",
@@ -2451,7 +3218,13 @@
     "away": "ES-CDCORIA",
     "status": "ns",
     "comp": "Puchar Króla (Copa del Rey)",
-    "stage": "1. runda"
+    "stage": "1. runda",
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Nie znaleziono wiarygodnych kursów ani danych o składach dla tego meczu – bez kursu nie da się policzyć wartości zakładu"
+     ]
+    }
    },
    {
     "id": "CUP-TDL-2026-10-29-SCBRAGA-FAMALICAO",
@@ -2461,7 +3234,13 @@
     "away": "PT-FAMALICAO",
     "status": "ns",
     "comp": "Puchar Ligi Portugalskiej (Taça da Liga)",
-    "stage": "Faza grupowa"
+    "stage": "Faza grupowa",
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Nie znaleziono wiarygodnych kursów ani danych o składach dla tego meczu – bez kursu nie da się policzyć wartości zakładu"
+     ]
+    }
    },
    {
     "id": "CUP-CDR-2026-10-29-REALAVILA-UNIONISTAS",
@@ -2471,7 +3250,13 @@
     "away": "ES-UNIONISTAS",
     "status": "ns",
     "comp": "Puchar Króla (Copa del Rey)",
-    "stage": "1. runda"
+    "stage": "1. runda",
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Nie znaleziono wiarygodnych kursów ani danych o składach dla tego meczu – bez kursu nie da się policzyć wartości zakładu"
+     ]
+    }
    },
    {
     "id": "CUP-CDR-2026-10-29-LAREDO-BURGOS",
@@ -2481,7 +3266,13 @@
     "away": "ES-BURGOS",
     "status": "ns",
     "comp": "Puchar Króla (Copa del Rey)",
-    "stage": "1. runda"
+    "stage": "1. runda",
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Nie znaleziono wiarygodnych kursów ani danych o składach dla tego meczu – bez kursu nie da się policzyć wartości zakładu"
+     ]
+    }
    },
    {
     "id": "CUP-CDR-2026-10-29-GUIJUELO-SPORTINGGI",
@@ -2491,7 +3282,13 @@
     "away": "ES-SPORTINGGI",
     "status": "ns",
     "comp": "Puchar Króla (Copa del Rey)",
-    "stage": "1. runda"
+    "stage": "1. runda",
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Nie znaleziono wiarygodnych kursów ani danych o składach dla tego meczu – bez kursu nie da się policzyć wartości zakładu"
+     ]
+    }
    },
    {
     "id": "CUP-CDR-2026-10-29-CONQUENSE-CDCASTELLO",
@@ -2501,7 +3298,13 @@
     "away": "ES-CDCASTELLO",
     "status": "ns",
     "comp": "Puchar Króla (Copa del Rey)",
-    "stage": "1. runda"
+    "stage": "1. runda",
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Nie znaleziono wiarygodnych kursów ani danych o składach dla tego meczu – bez kursu nie da się policzyć wartości zakładu"
+     ]
+    }
    },
    {
     "id": "CUP-CDR-2026-10-29-ANTEQUERA-CDAGUILAS",
@@ -2511,7 +3314,13 @@
     "away": "ES-CDAGUILAS",
     "status": "ns",
     "comp": "Puchar Króla (Copa del Rey)",
-    "stage": "1. runda"
+    "stage": "1. runda",
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Nie znaleziono wiarygodnych kursów ani danych o składach dla tego meczu – bez kursu nie da się policzyć wartości zakładu"
+     ]
+    }
    },
    {
     "id": "CUP-CDR-2026-10-29-VAREA-FCANDORRA",
@@ -2521,7 +3330,13 @@
     "away": "ES-FCANDORRA",
     "status": "ns",
     "comp": "Puchar Króla (Copa del Rey)",
-    "stage": "1. runda"
+    "stage": "1. runda",
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Nie znaleziono wiarygodnych kursów ani danych o składach dla tego meczu – bez kursu nie da się policzyć wartości zakładu"
+     ]
+    }
    },
    {
     "id": "CUP-PP-2026-10-29-ODRAOPOLE-SLA",
@@ -2532,7 +3347,13 @@
     "status": "ns",
     "comp": "Puchar Polski",
     "stage": "1/16 finału",
-    "notes": "Transmisja: TVP Sport"
+    "notes": "Transmisja: TVP Sport",
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Nie znaleziono wiarygodnych kursów ani danych o składach dla tego meczu – bez kursu nie da się policzyć wartości zakładu"
+     ]
+    }
    },
    {
     "id": "CUP-EFL-2026-10-29-EVE-NEW",
@@ -2543,7 +3364,23 @@
     "status": "ns",
     "comp": "Puchar Ligi Angielskiej (Carabao Cup)",
     "stage": "4. runda",
-    "notes": "Transmisja: Sky Sports+"
+    "notes": "Transmisja: Sky Sports+",
+    "odds": {
+     "1": 2.31,
+     "X": 3.55,
+     "2": 3.2,
+     "src": "Najlepsze kursy rynkowe (różni bukmacherzy) wg sportytrader.com, 27.10"
+    },
+    "info": {
+     "stakes": "Puchar Ligi – kluby Premier League zwykle mocno rotują składy"
+    },
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Składy poznamy dopiero przed meczem – rotacja w Pucharze Ligi sprawia, że kursy 1X2 są zbyt niepewne do wyceny",
+      "Brak przewagi nad rynkiem"
+     ]
+    }
    },
    {
     "id": "CUP-CDR-2026-10-29-PRAT-ATH",
@@ -2553,7 +3390,13 @@
     "away": "ES-ATH",
     "status": "ns",
     "comp": "Puchar Króla (Copa del Rey)",
-    "stage": "1. runda"
+    "stage": "1. runda",
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Nie znaleziono wiarygodnych kursów ani danych o składach dla tego meczu – bez kursu nie da się policzyć wartości zakładu"
+     ]
+    }
    },
    {
     "id": "CUP-CDR-2026-10-29-HORTALEZA-SEV",
@@ -2563,7 +3406,13 @@
     "away": "ES-SEV",
     "status": "ns",
     "comp": "Puchar Króla (Copa del Rey)",
-    "stage": "1. runda"
+    "stage": "1. runda",
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Nie znaleziono wiarygodnych kursów ani danych o składach dla tego meczu – bez kursu nie da się policzyć wartości zakładu"
+     ]
+    }
    },
    {
     "id": "CUP-CDR-2026-10-29-AURIENSE-DEP",
@@ -2573,7 +3422,13 @@
     "away": "ES-DEP",
     "status": "ns",
     "comp": "Puchar Króla (Copa del Rey)",
-    "stage": "1. runda"
+    "stage": "1. runda",
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Nie znaleziono wiarygodnych kursów ani danych o składach dla tego meczu – bez kursu nie da się policzyć wartości zakładu"
+     ]
+    }
    },
    {
     "id": "CUP-CDR-2026-10-29-RIBADESELL-RAC",
@@ -2583,7 +3438,13 @@
     "away": "ES-RAC",
     "status": "ns",
     "comp": "Puchar Króla (Copa del Rey)",
-    "stage": "1. runda"
+    "stage": "1. runda",
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Nie znaleziono wiarygodnych kursów ani danych o składach dla tego meczu – bez kursu nie da się policzyć wartości zakładu"
+     ]
+    }
    },
    {
     "id": "CUP-TDL-2026-10-29-BENFICA-GILVICENTE",
@@ -2593,7 +3454,13 @@
     "away": "PT-GILVICENTE",
     "status": "ns",
     "comp": "Puchar Ligi Portugalskiej (Taça da Liga)",
-    "stage": "Faza grupowa"
+    "stage": "Faza grupowa",
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Nie znaleziono wiarygodnych kursów ani danych o składach dla tego meczu – bez kursu nie da się policzyć wartości zakładu"
+     ]
+    }
    }
   ]
  }
