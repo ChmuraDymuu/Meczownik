@@ -1473,6 +1473,11 @@ TODAY=new Date().toLocaleDateString("sv-SE",{timeZone:"Europe/Warsaw"});
   activate(state.league); })();
 </script>
 
-<script>if("serviceWorker" in navigator){window.addEventListener("load",()=>navigator.serviceWorker.register("sw.js").catch(()=>{}))}</script>
+<script>if("serviceWorker" in navigator){
+  // gdy pojawi się nowa wersja aplikacji, przeładuj stronę raz, żeby od razu ją pokazać
+  const had=!!navigator.serviceWorker.controller; let done=false;
+  navigator.serviceWorker.addEventListener("controllerchange",()=>{ if(had&&!done){ done=true; location.reload(); } });
+  window.addEventListener("load",()=>navigator.serviceWorker.register("sw.js",{updateViaCache:"none"}).then(r=>{ r.update().catch(()=>{}); document.addEventListener("visibilitychange",()=>{ if(document.visibilityState==="visible") r.update().catch(()=>{}); }); }).catch(()=>{}));
+}</script>
 </body>
 </html>
