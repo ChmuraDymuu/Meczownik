@@ -1114,8 +1114,22 @@ function picksCard(){
   return `<section class="panel"><div class="day"><h2>${isDays()?"Typy dnia":"Typy kolejki"}</h2>${DATA?"":"<small>dane przykładowe</small>"}</div><div class="card">${body}</div>${RESP}</section>`;
 }
 
+function marketLambdas(m){
+  const o=m.odds; if(!o||!(o["1"]>1&&o["X"]>1&&o["2"]>1)) return null;
+  const a=1/o["1"],b=1/o["X"],c=1/o["2"],s=a+b+c, tH=a/s,tD=b/s,tA=c/s;
+  let tO=null; if(o.o25>1&&o.u25>1){const x=1/o.o25,y=1/o.u25;tO=x/(x+y);} else if(o.o25>1) tO=Math.min(.9,.95/o.o25); else if(o.u25>1) tO=1-Math.min(.9,.95/o.u25);
+  const F=[1];for(let i=1;i<10;i++)F[i]=F[i-1]*i;
+  const ev=(lh,la)=>{let H=0,D=0,A=0,O=0;const ph=[],pa=[];for(let i=0;i<10;i++){ph[i]=Math.exp(-lh)*Math.pow(lh,i)/F[i];pa[i]=Math.exp(-la)*Math.pow(la,i)/F[i];}
+    for(let i=0;i<10;i++)for(let j=0;j<10;j++){const v=ph[i]*pa[j];if(i>j)H+=v;else if(i===j)D+=v;else A+=v;if(i+j>2)O+=v;}
+    let e=(H-tH)**2+(D-tD)**2+(A-tA)**2; if(tO!=null) e+=1.5*(O-tO)**2; else e+=0.02*(lh+la-2.6)**2; return e;};
+  let best=[1.3,1.1],be=1e9;
+  for(let lh=0.15;lh<=4;lh+=0.05)for(let la=0.15;la<=4;la+=0.05){const e=ev(lh,la);if(e<be){be=e;best=[lh,la];}}
+  const [h0,a0]=best;
+  for(let lh=h0-0.05;lh<=h0+0.05;lh+=0.005)for(let la=a0-0.05;la<=a0+0.05;la+=0.005){if(lh<=0.05||la<=0.05)continue;const e=ev(lh,la);if(e<be){be=e;best=[lh,la];}}
+  return {lh:best[0],la:best[1],mkt:true,withTotal:tO!=null};
+}
 V.szanse=function(){
-  const lm=lambdas();
+  const lm=lambdas()||marketLambdas(M);
   if(!lm){const t=tipOf(M),o=M.odds;
     let h=`<div class="panel" style="display:flex;flex-direction:column;gap:18px">`;
     if(o&&o["1"]&&o["X"]&&o["2"]){const a=1/o["1"],b=1/o["X"],c=1/o["2"],s=a+b+c;h+=probCard({pH:a/s,pD:b/s,pA:c/s},M.status.kind==="ft"?"Szanse przed meczem (wg bukmacherów)":"Szanse wg bukmacherów","Prawdopodobieństwa z kursów 1X2 po odjęciu marży bukmachera, w regularnym czasie gry (90 min).");}
@@ -1132,24 +1146,24 @@ V.szanse=function(){
     html+=probCard(pre,"Przed meczem","");
     const t=topScores(now,4);html+=`<section><h2>Najbardziej prawdopodobny wynik końcowy</h2><div class="tiles">${t.slice(0,3).map(([a,b,v])=>tile(`${a}:${b}`,pc(v))).join("")}</div></section>`;
   } else {
-    html+=probCard(pre,k==="ft"?"Szanse przed meczem":"Szanse na wynik",k==="ft"?(()=>{const p=sc[0]>sc[1]?pre.pH:sc[0]<sc[1]?pre.pA:pre.pD;return `Wynik ${sc[0]}:${sc[1]} miał przed meczem ${pc(p)} szans${p<0.25?" — to była niespodzianka.":"."}`})():"");
+    html+=probCard(pre,k==="ft"?"Szanse przed meczem":"Szanse na wynik",lm.mkt&&k!=="ft"?"Wg kursów bukmacherów (po odjęciu marży), w regularnym czasie gry (90 min).":k==="ft"?(()=>{const p=sc[0]>sc[1]?pre.pH:sc[0]<sc[1]?pre.pA:pre.pD;return `Wynik ${sc[0]}:${sc[1]} miał przed meczem ${pc(p)} szans${p<0.25?" — to była niespodzianka.":"."}`})():"");
   }
   const g=k==="live"?liveGrid(lm):pre;
-  html+=`<section><h2>Oczekiwane gole (model)</h2><div class="tiles">${tile(esc(M.home.short),lm.lh.toFixed(2).replace(".",","))}${tile("Razem",(lm.lh+lm.la).toFixed(2).replace(".",","))}${tile(esc(M.away.short),lm.la.toFixed(2).replace(".",","))}</div></section>
+  html+=`<section><h2>Oczekiwane gole (${lm.mkt?"wg kursów":"model"})</h2><div class="tiles">${tile(esc(M.home.short),lm.lh.toFixed(2).replace(".",","))}${tile("Razem",(lm.lh+lm.la).toFixed(2).replace(".",","))}${tile(esc(M.away.short),lm.la.toFixed(2).replace(".",","))}</div></section>
   <section><h2>${k==="live"?"Rynki do końca meczu":"Inne zdarzenia"}</h2><div class="tiles">${tile("Ponad 2,5 gola",pc(g.o25))}${tile("Obie strzelą",pc(g.btts))}${tile("Czyste konto "+esc(M.home.short),pc(g.g.reduce((s,row)=>s+(g.base[1]===0?row[0]:0),0)/(g.pH+g.pD+g.pA)))}</div></section>
   <section><h2>Dokładny wynik${k==="live"?" (końcowy)":""}</h2>${heatmap(g,k==="ft"?sc:null)}</section>
-  <section><h2>Forma i tabela</h2><div class="card">
+  ${lm.h?`<section><h2>Forma i tabela</h2><div class="card">
     <div class="vs"><b>${pos(lm.h)}.</b><span>Miejsce w tabeli</span><b>${pos(lm.a)}.</b></div>
     <div class="vs"><b>${dash(lm.h.pts)}</b><span>Punkty (${lm.h.p} / ${lm.a.p} m.)</span><b>${dash(lm.a.pts)}</b></div>
     <div class="vs"><b>${perG(lm.h.gf,lm.h.p)}</b><span>Gole strzelone / mecz</span><b>${perG(lm.a.gf,lm.a.p)}</b></div>
     <div class="vs"><b>${perG(lm.h.ga,lm.h.p)}</b><span>Gole stracone / mecz</span><b>${perG(lm.a.ga,lm.a.p)}</b></div>
     <div class="vs">${formHtml(lm.h.form)}<span>Ostatnie 5</span>${formHtml(lm.a.form)}</div>
-  </div></section>
+  </div></section>`:""}
   ${(()=>{const t=tipOf(M),hdr=M.status.kind==="ns"?"Analiza typu":"Analiza typu (sprzed meczu)";return t?`<section><h2>${hdr}${t.auto?" · wycena modelu":""}</h2>${tipCard(t,M)}</section>`:(M.status.kind==="ns"?`<section><h2>Analiza typu</h2><div class="card empty">Analiza pojawi się przy porannej aktualizacji${oddsOf(M)?"":", gdy będą dostępne kursy"}.</div></section>`:"")})()}
-  <section><h2>Kursy i wartość (EV)</h2>${oddsTable(M,pre)}</section>
+  ${lm.mkt?oddsList(M):`<section><h2>Kursy i wartość (EV)</h2>${oddsTable(M,pre)}</section>`}
   ${infoSection(M)}
   ${RESP}
-  <p class="method">Jak to liczę: siła ataku i obrony każdej drużyny z bramek w tabeli (wygładzona w stronę średniej ligowej), przewaga własnego boiska, a potem rozkład Poissona dla liczby goli. To szacunek statystyczny, nie pewnik.</p>`;
+  ${lm.mkt?`<p class="method">Jak to liczę: w pucharach drużyny pochodzą z różnych lig, więc nie ma wspólnej tabeli. Dlatego oczekiwane gole dobieram tak, by rozkład Poissona odtwarzał kursy bukmacherów na 1X2${lm.withTotal?" i liczbę goli (ponad/poniżej 2,5)":""} po odjęciu marży. Pozostałe szanse (dokładny wynik, obie strzelą, czyste konto) wynikają z tego dopasowania. To wycena rynku, nie pewnik.</p>`:`<p class="method">Jak to liczę: siła ataku i obrony każdej drużyny z bramek w tabeli (wygładzona w stronę średniej ligowej), przewaga własnego boiska, a potem rozkład Poissona dla liczby goli. To szacunek statystyczny, nie pewnik.</p>`}`;
   return `<div class="panel" style="display:flex;flex-direction:column;gap:18px">${html}</div>`;
 };
 
