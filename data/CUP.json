@@ -1,0 +1,2394 @@
+{
+ "sport": "football",
+ "mode": "days",
+ "updated": "2026-10-27T08:08:14+01:00",
+ "season": "2026/27",
+ "competition": "Puchary i inne rozgrywki",
+ "note": "Źródła: PZPN / kkslech.com, DFB.de, thefalse9.com, livesoccertv.com. Godziny w czasie polskim.",
+ "teams": {
+  "PL-OLIMPIAGRU": {
+   "name": "Olimpia Grudziądz",
+   "short": "OLG",
+   "col": "#3b4656",
+   "id": "PL-OLIMPIAGRU"
+  },
+  "PL-BRUKBETTER": {
+   "name": "Bruk-Bet Termalica Nieciecza",
+   "short": "BBT",
+   "col": "#3b4656",
+   "id": "PL-BRUKBETTER"
+  },
+  "PL-GORNIKECZN": {
+   "name": "Górnik Łęczna",
+   "short": "GLE",
+   "col": "#3b4656",
+   "id": "PL-GORNIKECZN"
+  },
+  "PL-GKS": {
+   "id": "PL-GKS",
+   "short": "GKS",
+   "name": "GKS Katowice",
+   "city": "Katowice",
+   "col": "#1f7a36",
+   "stadium": "Arena Katowice",
+   "capacity": 15048
+  },
+  "PL-MOT": {
+   "id": "PL-MOT",
+   "short": "MOT",
+   "name": "Motor Lublin",
+   "city": "Lublin",
+   "col": "#24408e",
+   "stadium": "Motor Lublin Arena",
+   "capacity": 15247
+  },
+  "PL-RAK": {
+   "id": "PL-RAK",
+   "short": "RAK",
+   "name": "Raków Częstochowa",
+   "city": "Częstochowa",
+   "col": "#8b1a2b",
+   "stadium": "Miejski Stadion Piłkarski Raków",
+   "capacity": 5500
+  },
+  "PL-PIA": {
+   "id": "PL-PIA",
+   "short": "PIA",
+   "name": "Piast Gliwice",
+   "city": "Gliwice",
+   "col": "#1d3f8f",
+   "stadium": "Stadion im. Piotra Wieczorka",
+   "capacity": 10037
+  },
+  "PL-GZA": {
+   "id": "PL-GZA",
+   "short": "GZA",
+   "name": "Górnik Zabrze",
+   "city": "Zabrze",
+   "col": "#1c3f94",
+   "stadium": "Arena Zabrze (Stadion im. Ernesta Pohla)",
+   "capacity": 28236
+  },
+  "PL-SIARKATARN": {
+   "name": "Siarka Tarnobrzeg",
+   "short": "TAR",
+   "col": "#3b4656",
+   "id": "PL-SIARKATARN"
+  },
+  "PL-LPO": {
+   "id": "PL-LPO",
+   "short": "LPO",
+   "name": "Lech Poznań",
+   "city": "Poznań",
+   "col": "#1b4fa0",
+   "stadium": "Enea Stadion",
+   "capacity": 42837
+  },
+  "PL-SOKOKLECZE": {
+   "name": "Sokół Kleczew",
+   "short": "KLE",
+   "col": "#3b4656",
+   "id": "PL-SOKOKLECZE"
+  },
+  "PL-PODHALENOW": {
+   "name": "Podhale Nowy Targ",
+   "short": "NOW",
+   "col": "#3b4656",
+   "id": "PL-PODHALENOW"
+  },
+  "PL-PUSZCZANIE": {
+   "name": "Puszcza Niepołomice",
+   "short": "NIE",
+   "col": "#3b4656",
+   "id": "PL-PUSZCZANIE"
+  },
+  "PL-WPL": {
+   "id": "PL-WPL",
+   "short": "WPL",
+   "name": "Wisła Płock",
+   "city": "Płock",
+   "col": "#1565c0",
+   "stadium": "Orlen Stadion im. Kazimierza Górskiego",
+   "capacity": 15004
+  },
+  "PL-ZNICZPRUSZ": {
+   "name": "Znicz Pruszków",
+   "short": "PRU",
+   "col": "#3b4656",
+   "id": "PL-ZNICZPRUSZ"
+  },
+  "PL-RUCHCHORZO": {
+   "name": "Ruch Chorzów",
+   "short": "CHO",
+   "col": "#3b4656",
+   "id": "PL-RUCHCHORZO"
+  },
+  "PL-GKSTYCHY": {
+   "name": "GKS Tychy",
+   "short": "TYC",
+   "col": "#3b4656",
+   "id": "PL-GKSTYCHY"
+  },
+  "PL-POGONSIEDL": {
+   "name": "Pogoń Siedlce",
+   "short": "SIE",
+   "col": "#3b4656",
+   "id": "PL-POGONSIEDL"
+  },
+  "PL-POLONIASRO": {
+   "name": "Polonia Środa Wielkopolska",
+   "short": "PSW",
+   "col": "#3b4656",
+   "id": "PL-POLONIASRO"
+  },
+  "PL-SLASKIIWRO": {
+   "name": "Śląsk II Wrocław",
+   "short": "SL2",
+   "col": "#3b4656",
+   "id": "PL-SLASKIIWRO"
+  },
+  "PL-LECHIAGDAN": {
+   "name": "Lechia Gdańsk",
+   "short": "GDA",
+   "col": "#3b4656",
+   "id": "PL-LECHIAGDAN"
+  },
+  "PL-JAG": {
+   "id": "PL-JAG",
+   "short": "JAG",
+   "name": "Jagiellonia Białystok",
+   "city": "Białystok",
+   "col": "#9c1c1c",
+   "stadium": "Chorten Arena",
+   "capacity": 22432
+  },
+  "PL-AVIASWIDNI": {
+   "name": "Avia Świdnik",
+   "short": "SWI",
+   "col": "#3b4656",
+   "id": "PL-AVIASWIDNI"
+  },
+  "PL-RAD": {
+   "id": "PL-RAD",
+   "short": "RAD",
+   "name": "Radomiak Radom",
+   "city": "Radom",
+   "col": "#2e7d32",
+   "stadium": "Stadion im. Braci Czachorów",
+   "capacity": 14440
+  },
+  "PL-CHROBRYGOG": {
+   "name": "Chrobry Głogów",
+   "short": "GOG",
+   "col": "#3b4656",
+   "id": "PL-CHROBRYGOG"
+  },
+  "PL-POLONIABYT": {
+   "name": "Polonia Bytom",
+   "short": "BYT",
+   "col": "#3b4656",
+   "id": "PL-POLONIABYT"
+  },
+  "PL-POLONIAWAR": {
+   "name": "Polonia Warszawa",
+   "short": "WAR",
+   "col": "#3b4656",
+   "id": "PL-POLONIAWAR"
+  },
+  "PL-KOR": {
+   "id": "PL-KOR",
+   "short": "KOR",
+   "name": "Korona Kielce",
+   "city": "Kielce",
+   "col": "#b5121b",
+   "stadium": "Exbud Arena",
+   "capacity": 15122
+  },
+  "PL-ARKAGDYNIA": {
+   "name": "Arka Gdynia",
+   "short": "GDY",
+   "col": "#3b4656",
+   "id": "PL-ARKAGDYNIA"
+  },
+  "PL-STALRZESZO": {
+   "name": "Stal Rzeszów",
+   "short": "RZE",
+   "col": "#3b4656",
+   "id": "PL-STALRZESZO"
+  },
+  "PL-ODRAOPOLE": {
+   "name": "Odra Opole",
+   "short": "OPO",
+   "col": "#3b4656",
+   "id": "PL-ODRAOPOLE"
+  },
+  "PL-SLA": {
+   "id": "PL-SLA",
+   "short": "SLA",
+   "name": "Śląsk Wrocław",
+   "city": "Wrocław",
+   "col": "#0f6b3b",
+   "stadium": "Tarczyński Arena",
+   "capacity": 42771
+  },
+  "DE-VFLBOCHUM": {
+   "name": "VfL Bochum",
+   "short": "BOC",
+   "col": "#3b4656",
+   "id": "DE-VFLBOCHUM"
+  },
+  "DE-MAI": {
+   "id": "DE-MAI",
+   "short": "MAI",
+   "name": "FSV Mainz 05",
+   "city": "Moguncja",
+   "col": "#a3121b",
+   "stadium": "MEWA Arena",
+   "capacity": 33305
+  },
+  "DE-SGSONNENHO": {
+   "name": "SG Sonnenhof Großaspach",
+   "short": "SON",
+   "col": "#3b4656",
+   "id": "DE-SGSONNENHO"
+  },
+  "DE-AUG": {
+   "id": "DE-AUG",
+   "short": "AUG",
+   "name": "FC Augsburg",
+   "city": "Augsburg",
+   "col": "#8c1a22",
+   "stadium": "WWK Arena",
+   "capacity": 30660
+  },
+  "DE-ROTWEISSES": {
+   "name": "Rot-Weiss Essen",
+   "short": "ESS",
+   "col": "#3b4656",
+   "id": "DE-ROTWEISSES"
+  },
+  "DE-RBL": {
+   "id": "DE-RBL",
+   "short": "RBL",
+   "name": "RB Lipsk",
+   "city": "Lipsk",
+   "col": "#0c2043",
+   "stadium": "Red Bull Arena",
+   "capacity": 47800
+  },
+  "DE-HSV": {
+   "id": "DE-HSV",
+   "short": "HSV",
+   "name": "Hamburger SV",
+   "city": "Hamburg",
+   "col": "#0a3a7a",
+   "stadium": "Volksparkstadion",
+   "capacity": 57000
+  },
+  "DE-EIN": {
+   "id": "DE-EIN",
+   "short": "EIN",
+   "name": "Eintracht Frankfurt",
+   "city": "Frankfurt nad Menem",
+   "col": "#2a2a2a",
+   "stadium": "Deutsche Bank Park",
+   "capacity": 59500
+  },
+  "DE-KOE": {
+   "id": "DE-KOE",
+   "short": "KOE",
+   "name": "1. FC Köln",
+   "city": "Kolonia",
+   "col": "#9f1022",
+   "stadium": "RheinEnergieStadion",
+   "capacity": 49698
+  },
+  "DE-UNI": {
+   "id": "DE-UNI",
+   "short": "UNI",
+   "name": "Union Berlin",
+   "city": "Berlin",
+   "col": "#a50e1e",
+   "stadium": "Stadion An der Alten Försterei",
+   "capacity": 22012
+  },
+  "DE-BMG": {
+   "id": "DE-BMG",
+   "short": "BMG",
+   "name": "Borussia Mönchengladbach",
+   "city": "Mönchengladbach",
+   "col": "#14532d",
+   "stadium": "Borussia-Park",
+   "capacity": 54057
+  },
+  "DE-KARLSRUHER": {
+   "name": "Karlsruher SC",
+   "short": "KAR",
+   "col": "#3b4656",
+   "id": "DE-KARLSRUHER"
+  },
+  "DE-ELV": {
+   "id": "DE-ELV",
+   "short": "ELV",
+   "name": "SV Elversberg",
+   "city": "Spiesen-Elversberg",
+   "col": "#1b2c5c",
+   "stadium": "Ursapharm-Arena an der Kaiserlinde",
+   "capacity": 10000
+  },
+  "DE-SVDARMSTAD": {
+   "name": "SV Darmstadt 98",
+   "short": "DAR",
+   "col": "#3b4656",
+   "id": "DE-SVDARMSTAD"
+  },
+  "DE-BVB": {
+   "id": "DE-BVB",
+   "short": "BVB",
+   "name": "Borussia Dortmund",
+   "city": "Dortmund",
+   "col": "#1c1c1c",
+   "stadium": "Signal Iduna Park",
+   "capacity": 81365
+  },
+  "DE-BRE": {
+   "id": "DE-BRE",
+   "short": "BRE",
+   "name": "Werder Brema",
+   "city": "Brema",
+   "col": "#14532d",
+   "stadium": "Weserstadion",
+   "capacity": 42100
+  },
+  "DE-SCF": {
+   "id": "DE-SCF",
+   "short": "SCF",
+   "name": "SC Freiburg",
+   "city": "Fryburg Bryzgowijski",
+   "col": "#8a1218",
+   "stadium": "Europa-Park Stadion",
+   "capacity": 34700
+  },
+  "DE-VFLWOLFSBU": {
+   "name": "VfL Wolfsburg",
+   "short": "WOL",
+   "col": "#3b4656",
+   "id": "DE-VFLWOLFSBU"
+  },
+  "DE-DYNAMODREZ": {
+   "name": "Dynamo Drezno",
+   "short": "DRE",
+   "col": "#3b4656",
+   "id": "DE-DYNAMODREZ"
+  },
+  "DE-SCH": {
+   "id": "DE-SCH",
+   "short": "SCH",
+   "name": "Schalke 04",
+   "city": "Gelsenkirchen",
+   "col": "#00428c",
+   "stadium": "Veltins-Arena",
+   "capacity": 62271
+  },
+  "DE-PAD": {
+   "id": "DE-PAD",
+   "short": "PAD",
+   "name": "SC Paderborn",
+   "city": "Paderborn",
+   "col": "#0b2c63",
+   "stadium": "Home Deluxe Arena",
+   "capacity": 15000
+  },
+  "DE-STU": {
+   "id": "DE-STU",
+   "short": "STU",
+   "name": "VfB Stuttgart",
+   "city": "Stuttgart",
+   "col": "#a3121b",
+   "stadium": "MHPArena",
+   "capacity": 60058
+  },
+  "DE-SSVJEDDELO": {
+   "name": "SSV Jeddeloh II",
+   "short": "JED",
+   "col": "#3b4656",
+   "id": "DE-SSVJEDDELO"
+  },
+  "DE-HERTHABSC": {
+   "name": "Hertha BSC",
+   "short": "BSC",
+   "col": "#3b4656",
+   "id": "DE-HERTHABSC"
+  },
+  "DE-HOLSTEINKI": {
+   "name": "Holstein Kiel",
+   "short": "KIE",
+   "col": "#3b4656",
+   "id": "DE-HOLSTEINKI"
+  },
+  "DE-HOF": {
+   "id": "DE-HOF",
+   "short": "HOF",
+   "name": "TSG Hoffenheim",
+   "city": "Sinsheim",
+   "col": "#1450a0",
+   "stadium": "PreZero Arena",
+   "capacity": 30150
+  },
+  "DE-HANNOVER96": {
+   "name": "Hannover 96",
+   "short": "H96",
+   "col": "#3b4656",
+   "id": "DE-HANNOVER96"
+  },
+  "DE-1FCKAISERS": {
+   "name": "1. FC Kaiserslautern",
+   "short": "KAI",
+   "col": "#3b4656",
+   "id": "DE-1FCKAISERS"
+  },
+  "DE-LEV": {
+   "id": "DE-LEV",
+   "short": "LEV",
+   "name": "Bayer Leverkusen",
+   "city": "Leverkusen",
+   "col": "#b0101e",
+   "stadium": "BayArena",
+   "capacity": 30210
+  },
+  "DE-1FCNORYMBE": {
+   "name": "1. FC Norymberga",
+   "short": "NOR",
+   "col": "#3b4656",
+   "id": "DE-1FCNORYMBE"
+  },
+  "DE-BAY": {
+   "id": "DE-BAY",
+   "short": "BAY",
+   "name": "Bayern Monachium",
+   "city": "Monachium",
+   "col": "#9b0e1c",
+   "stadium": "Allianz Arena",
+   "capacity": 75000
+  },
+  "DE-1FCMAGDEBU": {
+   "name": "1. FC Magdeburg",
+   "short": "MAG",
+   "col": "#3b4656",
+   "id": "DE-1FCMAGDEBU"
+  },
+  "EN-BRADFORDCI": {
+   "name": "Bradford City",
+   "short": "BRA",
+   "col": "#3b4656",
+   "id": "EN-BRADFORDCI"
+  },
+  "EN-PETERBOROU": {
+   "name": "Peterborough United",
+   "short": "PET",
+   "col": "#3b4656",
+   "id": "EN-PETERBOROU"
+  },
+  "EN-FLEETWOODT": {
+   "name": "Fleetwood Town",
+   "short": "FLE",
+   "col": "#3b4656",
+   "id": "EN-FLEETWOODT"
+  },
+  "EN-ARS": {
+   "id": "EN-ARS",
+   "short": "ARS",
+   "name": "Arsenal",
+   "city": "Londyn",
+   "col": "#9c0d18",
+   "stadium": "Emirates Stadium",
+   "capacity": 60704
+  },
+  "EN-MCI": {
+   "id": "EN-MCI",
+   "short": "MCI",
+   "name": "Manchester City",
+   "city": "Manchester",
+   "col": "#3a7ab8",
+   "stadium": "Etihad Stadium",
+   "capacity": 61038
+  },
+  "EN-BHA": {
+   "id": "EN-BHA",
+   "short": "BHA",
+   "name": "Brighton & Hove Albion",
+   "city": "Brighton",
+   "col": "#0a4595",
+   "stadium": "Amex Stadium (Falmer)",
+   "capacity": 32176
+  },
+  "EN-SUN": {
+   "id": "EN-SUN",
+   "short": "SUN",
+   "name": "Sunderland",
+   "city": "Sunderland",
+   "col": "#b8141b",
+   "stadium": "Stadium of Light",
+   "capacity": 48095
+  },
+  "EN-BRE": {
+   "id": "EN-BRE",
+   "short": "BRE",
+   "name": "Brentford",
+   "city": "Londyn",
+   "col": "#a8141c",
+   "stadium": "Gtech Community Stadium",
+   "capacity": 17250
+  },
+  "EN-FUL": {
+   "id": "EN-FUL",
+   "short": "FUL",
+   "name": "Fulham",
+   "city": "Londyn",
+   "col": "#1a1a1a",
+   "stadium": "Craven Cottage",
+   "capacity": 28107
+  },
+  "EN-CRY": {
+   "id": "EN-CRY",
+   "short": "CRY",
+   "name": "Crystal Palace",
+   "city": "Londyn",
+   "col": "#1b458f",
+   "stadium": "Selhurst Park",
+   "capacity": 25194
+  },
+  "EN-BOU": {
+   "id": "EN-BOU",
+   "short": "BOU",
+   "name": "Bournemouth",
+   "city": "Bournemouth",
+   "col": "#8b1c1c",
+   "stadium": "Vitality Stadium (Dean Court)",
+   "capacity": 12357
+  },
+  "EN-AVL": {
+   "id": "EN-AVL",
+   "short": "AVL",
+   "name": "Aston Villa",
+   "city": "Birmingham",
+   "col": "#670e36",
+   "stadium": "Villa Park",
+   "capacity": 36887
+  },
+  "EN-LIV": {
+   "id": "EN-LIV",
+   "short": "LIV",
+   "name": "Liverpool",
+   "city": "Liverpool",
+   "col": "#a50f1f",
+   "stadium": "Anfield",
+   "capacity": 61276
+  },
+  "EN-CHE": {
+   "id": "EN-CHE",
+   "short": "CHE",
+   "name": "Chelsea",
+   "city": "Londyn",
+   "col": "#034694",
+   "stadium": "Stamford Bridge",
+   "capacity": 40044
+  },
+  "EN-EVE": {
+   "id": "EN-EVE",
+   "short": "EVE",
+   "name": "Everton",
+   "city": "Liverpool",
+   "col": "#003399",
+   "stadium": "Hill Dickinson Stadium",
+   "capacity": 52769
+  },
+  "EN-NEW": {
+   "id": "EN-NEW",
+   "short": "NEW",
+   "name": "Newcastle United",
+   "city": "Newcastle upon Tyne",
+   "col": "#241f20",
+   "stadium": "St James' Park",
+   "capacity": 52729
+  },
+  "ES-CUARTEINDU": {
+   "name": "Cuarte Industrial",
+   "short": "CUA",
+   "col": "#3b4656",
+   "id": "ES-CUARTEINDU"
+  },
+  "ES-GIRONA": {
+   "name": "Girona",
+   "short": "GIR",
+   "col": "#3b4656",
+   "id": "ES-GIRONA"
+  },
+  "ES-SESTAORIVE": {
+   "name": "Sestao River",
+   "short": "SES",
+   "col": "#3b4656",
+   "id": "ES-SESTAORIVE"
+  },
+  "ES-ESP": {
+   "id": "ES-ESP",
+   "short": "ESP",
+   "name": "Espanyol",
+   "city": "Cornellà de Llobregat",
+   "col": "#0d4ea0",
+   "stadium": "RCDE Stadium"
+  },
+  "ES-PINATAR": {
+   "name": "Pinatar",
+   "short": "PIN",
+   "col": "#3b4656",
+   "id": "ES-PINATAR"
+  },
+  "ES-ELC": {
+   "id": "ES-ELC",
+   "short": "ELC",
+   "name": "Elche CF",
+   "city": "Elche",
+   "col": "#0f6b3a",
+   "stadium": "Martínez Valero"
+  },
+  "ES-CALAMOCHA": {
+   "name": "Calamocha",
+   "short": "CAL",
+   "col": "#3b4656",
+   "id": "ES-CALAMOCHA"
+  },
+  "ES-CEEUROPA": {
+   "name": "CE Europa",
+   "short": "CEE",
+   "col": "#3b4656",
+   "id": "ES-CEEUROPA"
+  },
+  "ES-CASTELLONE": {
+   "name": "Castellonense",
+   "short": "CAS",
+   "col": "#3b4656",
+   "id": "ES-CASTELLONE"
+  },
+  "ES-ALMERIA": {
+   "name": "Almería",
+   "short": "ALM",
+   "col": "#3b4656",
+   "id": "ES-ALMERIA"
+  },
+  "ES-RSDALCALA": {
+   "name": "RSD Alcalá",
+   "short": "ALC",
+   "col": "#3b4656",
+   "id": "ES-RSDALCALA"
+  },
+  "ES-LASPALMAS": {
+   "name": "Las Palmas",
+   "short": "LAS",
+   "col": "#3b4656",
+   "id": "ES-LASPALMAS"
+  },
+  "ES-ATLETICOTO": {
+   "name": "Atlético Tordesillas",
+   "short": "TOR",
+   "col": "#3b4656",
+   "id": "ES-ATLETICOTO"
+  },
+  "ES-MIRANDES": {
+   "name": "Mirandés",
+   "short": "MIR",
+   "col": "#3b4656",
+   "id": "ES-MIRANDES"
+  },
+  "ES-LUCENA": {
+   "name": "Lucena",
+   "short": "LUC",
+   "col": "#3b4656",
+   "id": "ES-LUCENA"
+  },
+  "ES-RAYOMAJADA": {
+   "name": "Rayo Majadahonda",
+   "short": "RMJ",
+   "col": "#3b4656",
+   "id": "ES-RAYOMAJADA"
+  },
+  "ES-GIMNASTICA": {
+   "name": "Gimnástica Segoviana",
+   "short": "SEG",
+   "col": "#3b4656",
+   "id": "ES-GIMNASTICA"
+  },
+  "ES-CULTURALLE": {
+   "name": "Cultural Leonesa",
+   "short": "CUL",
+   "col": "#3b4656",
+   "id": "ES-CULTURALLE"
+  },
+  "ES-LLANERA": {
+   "name": "Llanera",
+   "short": "LLA",
+   "col": "#3b4656",
+   "id": "ES-LLANERA"
+  },
+  "ES-PONFERRADI": {
+   "name": "Ponferradina",
+   "short": "PON",
+   "col": "#3b4656",
+   "id": "ES-PONFERRADI"
+  },
+  "ES-MANRESA": {
+   "name": "Manresa",
+   "short": "MAN",
+   "col": "#3b4656",
+   "id": "ES-MANRESA"
+  },
+  "ES-SANTANDREU": {
+   "name": "Sant Andreu",
+   "short": "SAN",
+   "col": "#3b4656",
+   "id": "ES-SANTANDREU"
+  },
+  "ES-DONBENITO": {
+   "name": "Don Benito",
+   "short": "DON",
+   "col": "#3b4656",
+   "id": "ES-DONBENITO"
+  },
+  "ES-EXTREMADUR": {
+   "name": "Extremadura 1924",
+   "short": "EXT",
+   "col": "#3b4656",
+   "id": "ES-EXTREMADUR"
+  },
+  "ES-ALCAZAR": {
+   "name": "Alcázar",
+   "short": "ALC",
+   "col": "#3b4656",
+   "id": "ES-ALCAZAR"
+  },
+  "ES-MAL": {
+   "id": "ES-MAL",
+   "short": "MAL",
+   "name": "Málaga CF",
+   "city": "Málaga",
+   "col": "#1d4e9e",
+   "stadium": "La Rosaleda"
+  },
+  "ES-ATLETICOPA": {
+   "name": "Atlético Paso",
+   "short": "PAS",
+   "col": "#3b4656",
+   "id": "ES-ATLETICOPA"
+  },
+  "ES-CORDOBA": {
+   "name": "Córdoba",
+   "short": "COR",
+   "col": "#3b4656",
+   "id": "ES-CORDOBA"
+  },
+  "ES-TUDELANO": {
+   "name": "Tudelano",
+   "short": "TUD",
+   "col": "#3b4656",
+   "id": "ES-TUDELANO"
+  },
+  "ES-REALZARAGO": {
+   "name": "Real Zaragoza",
+   "short": "ZAR",
+   "col": "#3b4656",
+   "id": "ES-REALZARAGO"
+  },
+  "ES-AROSA": {
+   "name": "Arosa",
+   "short": "ARO",
+   "col": "#3b4656",
+   "id": "ES-AROSA"
+  },
+  "ES-PONTEVEDRA": {
+   "name": "Pontevedra",
+   "short": "PON",
+   "col": "#3b4656",
+   "id": "ES-PONTEVEDRA"
+  },
+  "ES-MANACOR": {
+   "name": "Manacor",
+   "short": "MAN",
+   "col": "#3b4656",
+   "id": "ES-MANACOR"
+  },
+  "ES-VIL": {
+   "id": "ES-VIL",
+   "short": "VIL",
+   "name": "Villarreal CF",
+   "city": "Vila-real",
+   "col": "#b58b00",
+   "stadium": "Estadio de la Cerámica"
+  },
+  "ES-RECREATIVO": {
+   "name": "Recreativo Huelva",
+   "short": "REC",
+   "col": "#3b4656",
+   "id": "ES-RECREATIVO"
+  },
+  "ES-RAY": {
+   "id": "ES-RAY",
+   "short": "RAY",
+   "name": "Rayo Vallecano",
+   "city": "Madryt",
+   "col": "#c8102e",
+   "stadium": "Estadio de Vallecas"
+  },
+  "ES-ANAITASUNA": {
+   "name": "Anaitasuna FT",
+   "short": "ANA",
+   "col": "#3b4656",
+   "id": "ES-ANAITASUNA"
+  },
+  "ES-ALA": {
+   "id": "ES-ALA",
+   "short": "ALA",
+   "name": "Deportivo Alavés",
+   "city": "Vitoria-Gasteiz",
+   "col": "#0b3d91",
+   "stadium": "Mendizorroza"
+  },
+  "ES-TARANCON": {
+   "name": "Tarancón",
+   "short": "TAR",
+   "col": "#3b4656",
+   "id": "ES-TARANCON"
+  },
+  "ES-LEV": {
+   "id": "ES-LEV",
+   "short": "LEV",
+   "name": "Levante UD",
+   "city": "Walencja",
+   "col": "#8a1538",
+   "stadium": "Ciutat de València"
+  },
+  "ES-CORUXO": {
+   "name": "Coruxo",
+   "short": "COR",
+   "col": "#3b4656",
+   "id": "ES-CORUXO"
+  },
+  "ES-ZAMORA": {
+   "name": "Zamora",
+   "short": "ZAM",
+   "col": "#3b4656",
+   "id": "ES-ZAMORA"
+  },
+  "ES-PAMPLONA": {
+   "name": "Pamplona",
+   "short": "PAM",
+   "col": "#3b4656",
+   "id": "ES-PAMPLONA"
+  },
+  "ES-EIBAR": {
+   "name": "Eibar",
+   "short": "EIB",
+   "col": "#3b4656",
+   "id": "ES-EIBAR"
+  },
+  "ES-PENASPORT": {
+   "name": "Peña Sport",
+   "short": "PEN",
+   "col": "#3b4656",
+   "id": "ES-PENASPORT"
+  },
+  "ES-HUESCA": {
+   "name": "Huesca",
+   "short": "HUE",
+   "col": "#3b4656",
+   "id": "ES-HUESCA"
+  },
+  "ES-POBLENSE": {
+   "name": "Poblense",
+   "short": "POB",
+   "col": "#3b4656",
+   "id": "ES-POBLENSE"
+  },
+  "ES-CEUTA": {
+   "name": "Ceuta",
+   "short": "CEU",
+   "col": "#3b4656",
+   "id": "ES-CEUTA"
+  },
+  "ES-PORTUGALET": {
+   "name": "Portugalete",
+   "short": "POR",
+   "col": "#3b4656",
+   "id": "ES-PORTUGALET"
+  },
+  "ES-REALUNION": {
+   "name": "Real Unión",
+   "short": "UNI",
+   "col": "#3b4656",
+   "id": "ES-REALUNION"
+  },
+  "ES-UTEBO": {
+   "name": "Utebo",
+   "short": "UTE",
+   "col": "#3b4656",
+   "id": "ES-UTEBO"
+  },
+  "ES-SABADELL": {
+   "name": "Sabadell",
+   "short": "SAB",
+   "col": "#3b4656",
+   "id": "ES-SABADELL"
+  },
+  "ES-CDBADAJOZ": {
+   "name": "CD Badajoz",
+   "short": "BAD",
+   "col": "#3b4656",
+   "id": "ES-CDBADAJOZ"
+  },
+  "ES-TENERIFE": {
+   "name": "Tenerife",
+   "short": "TEN",
+   "col": "#3b4656",
+   "id": "ES-TENERIFE"
+  },
+  "ES-TRIVALVALD": {
+   "name": "Trival Valderas",
+   "short": "TRI",
+   "col": "#3b4656",
+   "id": "ES-TRIVALVALD"
+  },
+  "ES-LEGANES": {
+   "name": "Leganés",
+   "short": "LEG",
+   "col": "#3b4656",
+   "id": "ES-LEGANES"
+  },
+  "ES-ALCOYANO": {
+   "name": "Alcoyano",
+   "short": "ALC",
+   "col": "#3b4656",
+   "id": "ES-ALCOYANO"
+  },
+  "ES-MALLORCA": {
+   "name": "Mallorca",
+   "short": "MAL",
+   "col": "#3b4656",
+   "id": "ES-MALLORCA"
+  },
+  "ES-AMOREBIETA": {
+   "name": "Amorebieta",
+   "short": "AMO",
+   "col": "#3b4656",
+   "id": "ES-AMOREBIETA"
+  },
+  "ES-UDLOGRONES": {
+   "name": "UD Logroñés",
+   "short": "LOG",
+   "col": "#3b4656",
+   "id": "ES-UDLOGRONES"
+  },
+  "ES-COVADONGA": {
+   "name": "Covadonga",
+   "short": "COV",
+   "col": "#3b4656",
+   "id": "ES-COVADONGA"
+  },
+  "ES-REALVALLAD": {
+   "name": "Real Valladolid",
+   "short": "VAL",
+   "col": "#3b4656",
+   "id": "ES-REALVALLAD"
+  },
+  "ES-MIJASLASLA": {
+   "name": "Mijas Las Lagunas",
+   "short": "MIJ",
+   "col": "#3b4656",
+   "id": "ES-MIJASLASLA"
+  },
+  "ES-REALJAEN": {
+   "name": "Real Jaén",
+   "short": "JAE",
+   "col": "#3b4656",
+   "id": "ES-REALJAEN"
+  },
+  "ES-NUMANCIA": {
+   "name": "Numancia",
+   "short": "NUM",
+   "col": "#3b4656",
+   "id": "ES-NUMANCIA"
+  },
+  "ES-REALOVIEDO": {
+   "name": "Real Oviedo",
+   "short": "OVI",
+   "col": "#3b4656",
+   "id": "ES-REALOVIEDO"
+  },
+  "ES-CALVOSOTEL": {
+   "name": "Calvo Sotelo",
+   "short": "CAL",
+   "col": "#3b4656",
+   "id": "ES-CALVOSOTEL"
+  },
+  "ES-ALBACETE": {
+   "name": "Albacete",
+   "short": "ALB",
+   "col": "#3b4656",
+   "id": "ES-ALBACETE"
+  },
+  "ES-CIEZA": {
+   "name": "Cieza",
+   "short": "CIE",
+   "col": "#3b4656",
+   "id": "ES-CIEZA"
+  },
+  "ES-GRANADA": {
+   "name": "Granada",
+   "short": "GRA",
+   "col": "#3b4656",
+   "id": "ES-GRANADA"
+  },
+  "ES-DEPORTIVAM": {
+   "name": "Deportiva Minera",
+   "short": "MIN",
+   "col": "#3b4656",
+   "id": "ES-DEPORTIVAM"
+  },
+  "ES-CARTAGENA": {
+   "name": "Cartagena",
+   "short": "CAR",
+   "col": "#3b4656",
+   "id": "ES-CARTAGENA"
+  },
+  "ES-REDDIS": {
+   "name": "Reddis",
+   "short": "RED",
+   "col": "#3b4656",
+   "id": "ES-REDDIS"
+  },
+  "ES-BARAKALDO": {
+   "name": "Barakaldo",
+   "short": "BAR",
+   "col": "#3b4656",
+   "id": "ES-BARAKALDO"
+  },
+  "ES-UDOURENSE": {
+   "name": "UD Ourense",
+   "short": "OUR",
+   "col": "#3b4656",
+   "id": "ES-UDOURENSE"
+  },
+  "ES-NAVALCARNE": {
+   "name": "Navalcarnero",
+   "short": "NAV",
+   "col": "#3b4656",
+   "id": "ES-NAVALCARNE"
+  },
+  "ES-BET": {
+   "id": "ES-BET",
+   "short": "BET",
+   "name": "Real Betis",
+   "city": "Sewilla",
+   "col": "#00703c",
+   "stadium": "Estadio La Cartuja"
+  },
+  "ES-SALAMANCAU": {
+   "name": "Salamanca UDS",
+   "short": "SAL",
+   "col": "#3b4656",
+   "id": "ES-SALAMANCAU"
+  },
+  "ES-CEL": {
+   "id": "ES-CEL",
+   "short": "CEL",
+   "name": "Celta Vigo",
+   "city": "Vigo",
+   "col": "#3b7fb6",
+   "stadium": "Balaídos"
+  },
+  "ES-TAVERNES": {
+   "name": "Tavernes",
+   "short": "TAV",
+   "col": "#3b4656",
+   "id": "ES-TAVERNES"
+  },
+  "ES-VAL": {
+   "id": "ES-VAL",
+   "short": "VAL",
+   "name": "Valencia CF",
+   "city": "Walencja",
+   "col": "#2b2b2b",
+   "stadium": "Mestalla"
+  },
+  "ES-XEREZ": {
+   "name": "Xerez",
+   "short": "XER",
+   "col": "#3b4656",
+   "id": "ES-XEREZ"
+  },
+  "ES-CADIZ": {
+   "name": "Cádiz",
+   "short": "CAD",
+   "col": "#3b4656",
+   "id": "ES-CADIZ"
+  },
+  "ES-ATLETICOCA": {
+   "name": "Atlético Calatayud",
+   "short": "CAL",
+   "col": "#3b4656",
+   "id": "ES-ATLETICOCA"
+  },
+  "ES-OSA": {
+   "id": "ES-OSA",
+   "short": "OSA",
+   "name": "Osasuna",
+   "city": "Pampeluna",
+   "col": "#9e1b32",
+   "stadium": "El Sadar"
+  },
+  "ES-ATLETICOBA": {
+   "name": "Atlético Baleares",
+   "short": "BAL",
+   "col": "#3b4656",
+   "id": "ES-ATLETICOBA"
+  },
+  "ES-ELDENSE": {
+   "name": "Eldense",
+   "short": "ELD",
+   "col": "#3b4656",
+   "id": "ES-ELDENSE"
+  },
+  "ES-LEBRIJANA": {
+   "name": "Lebrijana",
+   "short": "LEB",
+   "col": "#3b4656",
+   "id": "ES-LEBRIJANA"
+  },
+  "ES-GET": {
+   "id": "ES-GET",
+   "short": "GET",
+   "name": "Getafe CF",
+   "city": "Getafe",
+   "col": "#1f3f8f",
+   "stadium": "Coliseum"
+  },
+  "ES-SSREYES": {
+   "name": "SS Reyes",
+   "short": "REY",
+   "col": "#3b4656",
+   "id": "ES-SSREYES"
+  },
+  "ES-CDCORIA": {
+   "name": "CD Coria",
+   "short": "COR",
+   "col": "#3b4656",
+   "id": "ES-CDCORIA"
+  },
+  "ES-REALAVILA": {
+   "name": "Real Ávila",
+   "short": "AVI",
+   "col": "#3b4656",
+   "id": "ES-REALAVILA"
+  },
+  "ES-UNIONISTAS": {
+   "name": "Unionistas de Salamanca",
+   "short": "UNI",
+   "col": "#3b4656",
+   "id": "ES-UNIONISTAS"
+  },
+  "ES-LAREDO": {
+   "name": "Laredo",
+   "short": "LAR",
+   "col": "#3b4656",
+   "id": "ES-LAREDO"
+  },
+  "ES-BURGOS": {
+   "name": "Burgos",
+   "short": "BUR",
+   "col": "#3b4656",
+   "id": "ES-BURGOS"
+  },
+  "ES-GUIJUELO": {
+   "name": "Guijuelo",
+   "short": "GUI",
+   "col": "#3b4656",
+   "id": "ES-GUIJUELO"
+  },
+  "ES-SPORTINGGI": {
+   "name": "Sporting Gijón",
+   "short": "SPO",
+   "col": "#3b4656",
+   "id": "ES-SPORTINGGI"
+  },
+  "ES-CONQUENSE": {
+   "name": "Conquense",
+   "short": "CON",
+   "col": "#3b4656",
+   "id": "ES-CONQUENSE"
+  },
+  "ES-CDCASTELLO": {
+   "name": "CD Castellón",
+   "short": "CAS",
+   "col": "#3b4656",
+   "id": "ES-CDCASTELLO"
+  },
+  "ES-ANTEQUERA": {
+   "name": "Antequera",
+   "short": "ANT",
+   "col": "#3b4656",
+   "id": "ES-ANTEQUERA"
+  },
+  "ES-CDAGUILAS": {
+   "name": "CD Águilas",
+   "short": "AGU",
+   "col": "#3b4656",
+   "id": "ES-CDAGUILAS"
+  },
+  "ES-VAREA": {
+   "name": "Varea",
+   "short": "VAR",
+   "col": "#3b4656",
+   "id": "ES-VAREA"
+  },
+  "ES-FCANDORRA": {
+   "name": "FC Andorra",
+   "short": "AND",
+   "col": "#3b4656",
+   "id": "ES-FCANDORRA"
+  },
+  "ES-PRAT": {
+   "name": "Prat",
+   "short": "PRA",
+   "col": "#3b4656",
+   "id": "ES-PRAT"
+  },
+  "ES-ATH": {
+   "id": "ES-ATH",
+   "short": "ATH",
+   "name": "Athletic Bilbao",
+   "city": "Bilbao",
+   "col": "#a50f1a",
+   "stadium": "San Mamés"
+  },
+  "ES-HORTALEZA": {
+   "name": "Hortaleza",
+   "short": "HOR",
+   "col": "#3b4656",
+   "id": "ES-HORTALEZA"
+  },
+  "ES-SEV": {
+   "id": "ES-SEV",
+   "short": "SEV",
+   "name": "Sevilla FC",
+   "city": "Sewilla",
+   "col": "#b3122b",
+   "stadium": "Ramón Sánchez-Pizjuán"
+  },
+  "ES-AURIENSE": {
+   "name": "Auriense",
+   "short": "AUR",
+   "col": "#3b4656",
+   "id": "ES-AURIENSE"
+  },
+  "ES-DEP": {
+   "id": "ES-DEP",
+   "short": "DEP",
+   "name": "Deportivo La Coruña",
+   "city": "A Coruña",
+   "col": "#1b4f9c",
+   "stadium": "Riazor"
+  },
+  "ES-RIBADESELL": {
+   "name": "Ribadesella CF",
+   "short": "RIB",
+   "col": "#3b4656",
+   "id": "ES-RIBADESELL"
+  },
+  "ES-RAC": {
+   "id": "ES-RAC",
+   "short": "RAC",
+   "name": "Racing Santander",
+   "city": "Santander",
+   "col": "#0d6b3c",
+   "stadium": "El Sardinero"
+  },
+  "PT-SPORTINGCP": {
+   "name": "Sporting CP",
+   "short": "SPO",
+   "col": "#3b4656",
+   "id": "PT-SPORTINGCP"
+  },
+  "PT-MARITIMO": {
+   "name": "Marítimo",
+   "short": "MAR",
+   "col": "#3b4656",
+   "id": "PT-MARITIMO"
+  },
+  "PT-FCPORTO": {
+   "name": "FC Porto",
+   "short": "POR",
+   "col": "#3b4656",
+   "id": "PT-FCPORTO"
+  },
+  "PT-ACADEMICOD": {
+   "name": "Académico de Viseu",
+   "short": "ACA",
+   "col": "#3b4656",
+   "id": "PT-ACADEMICOD"
+  },
+  "PT-SCBRAGA": {
+   "name": "SC Braga",
+   "short": "BRA",
+   "col": "#3b4656",
+   "id": "PT-SCBRAGA"
+  },
+  "PT-FAMALICAO": {
+   "name": "Famalicão",
+   "short": "FAM",
+   "col": "#3b4656",
+   "id": "PT-FAMALICAO"
+  },
+  "PT-BENFICA": {
+   "name": "Benfica",
+   "short": "BEN",
+   "col": "#3b4656",
+   "id": "PT-BENFICA"
+  },
+  "PT-GILVICENTE": {
+   "name": "Gil Vicente",
+   "short": "GIL",
+   "col": "#3b4656",
+   "id": "PT-GILVICENTE"
+  }
+ },
+ "picks": [],
+ "days": {
+  "2026-10-27": [
+   {
+    "id": "CUP-PP-2026-10-27-OLIMPIAGRU-BRUKBETTER",
+    "date": "2026-10-27",
+    "time": "12:30",
+    "home": "PL-OLIMPIAGRU",
+    "away": "PL-BRUKBETTER",
+    "status": "ns",
+    "comp": "Puchar Polski",
+    "stage": "1/16 finału",
+    "notes": "Transmisja: PZPN+"
+   },
+   {
+    "id": "CUP-PP-2026-10-27-GORNIKECZN-GKS",
+    "date": "2026-10-27",
+    "time": "12:30",
+    "home": "PL-GORNIKECZN",
+    "away": "PL-GKS",
+    "status": "ns",
+    "comp": "Puchar Polski",
+    "stage": "1/16 finału",
+    "notes": "Transmisja: TVP Sport"
+   },
+   {
+    "id": "CUP-PP-2026-10-27-MOT-RAK",
+    "date": "2026-10-27",
+    "time": "17:30",
+    "home": "PL-MOT",
+    "away": "PL-RAK",
+    "status": "ns",
+    "comp": "Puchar Polski",
+    "stage": "1/16 finału",
+    "notes": "Transmisja: TVP Sport"
+   },
+   {
+    "id": "CUP-DFB-2026-10-27-VFLBOCHUM-MAI",
+    "date": "2026-10-27",
+    "time": "18:00",
+    "home": "DE-VFLBOCHUM",
+    "away": "DE-MAI",
+    "status": "ns",
+    "comp": "Puchar Niemiec (DFB-Pokal)",
+    "stage": "2. runda"
+   },
+   {
+    "id": "CUP-DFB-2026-10-27-SGSONNENHO-AUG",
+    "date": "2026-10-27",
+    "time": "18:00",
+    "home": "DE-SGSONNENHO",
+    "away": "DE-AUG",
+    "status": "ns",
+    "comp": "Puchar Niemiec (DFB-Pokal)",
+    "stage": "2. runda"
+   },
+   {
+    "id": "CUP-DFB-2026-10-27-ROTWEISSES-RBL",
+    "date": "2026-10-27",
+    "time": "18:00",
+    "home": "DE-ROTWEISSES",
+    "away": "DE-RBL",
+    "status": "ns",
+    "comp": "Puchar Niemiec (DFB-Pokal)",
+    "stage": "2. runda"
+   },
+   {
+    "id": "CUP-DFB-2026-10-27-HSV-EIN",
+    "date": "2026-10-27",
+    "time": "18:00",
+    "home": "DE-HSV",
+    "away": "DE-EIN",
+    "status": "ns",
+    "comp": "Puchar Niemiec (DFB-Pokal)",
+    "stage": "2. runda"
+   },
+   {
+    "id": "CUP-CDR-2026-10-27-CUARTEINDU-GIRONA",
+    "date": "2026-10-27",
+    "time": "18:30",
+    "home": "ES-CUARTEINDU",
+    "away": "ES-GIRONA",
+    "status": "ns",
+    "comp": "Puchar Króla (Copa del Rey)",
+    "stage": "1. runda"
+   },
+   {
+    "id": "CUP-CDR-2026-10-27-SESTAORIVE-ESP",
+    "date": "2026-10-27",
+    "time": "19:00",
+    "home": "ES-SESTAORIVE",
+    "away": "ES-ESP",
+    "status": "ns",
+    "comp": "Puchar Króla (Copa del Rey)",
+    "stage": "1. runda"
+   },
+   {
+    "id": "CUP-CDR-2026-10-27-PINATAR-ELC",
+    "date": "2026-10-27",
+    "time": "19:00",
+    "home": "ES-PINATAR",
+    "away": "ES-ELC",
+    "status": "ns",
+    "comp": "Puchar Króla (Copa del Rey)",
+    "stage": "1. runda"
+   },
+   {
+    "id": "CUP-CDR-2026-10-27-CALAMOCHA-CEEUROPA",
+    "date": "2026-10-27",
+    "time": "19:00",
+    "home": "ES-CALAMOCHA",
+    "away": "ES-CEEUROPA",
+    "status": "ns",
+    "comp": "Puchar Króla (Copa del Rey)",
+    "stage": "1. runda"
+   },
+   {
+    "id": "CUP-CDR-2026-10-27-CASTELLONE-ALMERIA",
+    "date": "2026-10-27",
+    "time": "19:45",
+    "home": "ES-CASTELLONE",
+    "away": "ES-ALMERIA",
+    "status": "ns",
+    "comp": "Puchar Króla (Copa del Rey)",
+    "stage": "1. runda"
+   },
+   {
+    "id": "CUP-CDR-2026-10-27-RSDALCALA-LASPALMAS",
+    "date": "2026-10-27",
+    "time": "20:00",
+    "home": "ES-RSDALCALA",
+    "away": "ES-LASPALMAS",
+    "status": "ns",
+    "comp": "Puchar Króla (Copa del Rey)",
+    "stage": "1. runda"
+   },
+   {
+    "id": "CUP-CDR-2026-10-27-ATLETICOTO-MIRANDES",
+    "date": "2026-10-27",
+    "time": "20:00",
+    "home": "ES-ATLETICOTO",
+    "away": "ES-MIRANDES",
+    "status": "ns",
+    "comp": "Puchar Króla (Copa del Rey)",
+    "stage": "1. runda"
+   },
+   {
+    "id": "CUP-CDR-2026-10-27-LUCENA-RAYOMAJADA",
+    "date": "2026-10-27",
+    "time": "20:00",
+    "home": "ES-LUCENA",
+    "away": "ES-RAYOMAJADA",
+    "status": "ns",
+    "comp": "Puchar Króla (Copa del Rey)",
+    "stage": "1. runda"
+   },
+   {
+    "id": "CUP-CDR-2026-10-27-GIMNASTICA-CULTURALLE",
+    "date": "2026-10-27",
+    "time": "20:00",
+    "home": "ES-GIMNASTICA",
+    "away": "ES-CULTURALLE",
+    "status": "ns",
+    "comp": "Puchar Króla (Copa del Rey)",
+    "stage": "1. runda"
+   },
+   {
+    "id": "CUP-CDR-2026-10-27-LLANERA-PONFERRADI",
+    "date": "2026-10-27",
+    "time": "20:00",
+    "home": "ES-LLANERA",
+    "away": "ES-PONFERRADI",
+    "status": "ns",
+    "comp": "Puchar Króla (Copa del Rey)",
+    "stage": "1. runda"
+   },
+   {
+    "id": "CUP-PP-2026-10-27-PIA-GZA",
+    "date": "2026-10-27",
+    "time": "20:30",
+    "home": "PL-PIA",
+    "away": "PL-GZA",
+    "status": "ns",
+    "comp": "Puchar Polski",
+    "stage": "1/16 finału",
+    "notes": "Transmisja: TVP Sport"
+   },
+   {
+    "id": "CUP-CDR-2026-10-27-MANRESA-SANTANDREU",
+    "date": "2026-10-27",
+    "time": "20:30",
+    "home": "ES-MANRESA",
+    "away": "ES-SANTANDREU",
+    "status": "ns",
+    "comp": "Puchar Króla (Copa del Rey)",
+    "stage": "1. runda"
+   },
+   {
+    "id": "CUP-CDR-2026-10-27-DONBENITO-EXTREMADUR",
+    "date": "2026-10-27",
+    "time": "20:30",
+    "home": "ES-DONBENITO",
+    "away": "ES-EXTREMADUR",
+    "status": "ns",
+    "comp": "Puchar Króla (Copa del Rey)",
+    "stage": "1. runda"
+   },
+   {
+    "id": "CUP-DFB-2026-10-27-KOE-UNI",
+    "date": "2026-10-27",
+    "time": "20:45",
+    "home": "DE-KOE",
+    "away": "DE-UNI",
+    "status": "ns",
+    "comp": "Puchar Niemiec (DFB-Pokal)",
+    "stage": "2. runda"
+   },
+   {
+    "id": "CUP-DFB-2026-10-27-BMG-KARLSRUHER",
+    "date": "2026-10-27",
+    "time": "20:45",
+    "home": "DE-BMG",
+    "away": "DE-KARLSRUHER",
+    "status": "ns",
+    "comp": "Puchar Niemiec (DFB-Pokal)",
+    "stage": "2. runda"
+   },
+   {
+    "id": "CUP-DFB-2026-10-27-ELV-SVDARMSTAD",
+    "date": "2026-10-27",
+    "time": "20:45",
+    "home": "DE-ELV",
+    "away": "DE-SVDARMSTAD",
+    "status": "ns",
+    "comp": "Puchar Niemiec (DFB-Pokal)",
+    "stage": "2. runda"
+   },
+   {
+    "id": "CUP-DFB-2026-10-27-BVB-BRE",
+    "date": "2026-10-27",
+    "time": "20:45",
+    "home": "DE-BVB",
+    "away": "DE-BRE",
+    "status": "ns",
+    "comp": "Puchar Niemiec (DFB-Pokal)",
+    "stage": "2. runda"
+   },
+   {
+    "id": "CUP-EFL-2026-10-27-BRADFORDCI-PETERBOROU",
+    "date": "2026-10-27",
+    "time": "20:45",
+    "home": "EN-BRADFORDCI",
+    "away": "EN-PETERBOROU",
+    "status": "ns",
+    "comp": "Puchar Ligi Angielskiej (Carabao Cup)",
+    "stage": "4. runda",
+    "notes": "Transmisja: Sky Sports+"
+   },
+   {
+    "id": "CUP-EFL-2026-10-27-FLEETWOODT-ARS",
+    "date": "2026-10-27",
+    "time": "21:00",
+    "home": "EN-FLEETWOODT",
+    "away": "EN-ARS",
+    "status": "ns",
+    "comp": "Puchar Ligi Angielskiej (Carabao Cup)",
+    "stage": "4. runda",
+    "notes": "Transmisja: Sky Sports Football"
+   },
+   {
+    "id": "CUP-CDR-2026-10-27-ALCAZAR-MAL",
+    "date": "2026-10-27",
+    "time": "21:00",
+    "home": "ES-ALCAZAR",
+    "away": "ES-MAL",
+    "status": "ns",
+    "comp": "Puchar Króla (Copa del Rey)",
+    "stage": "1. runda"
+   },
+   {
+    "id": "CUP-CDR-2026-10-27-ATLETICOPA-CORDOBA",
+    "date": "2026-10-27",
+    "time": "21:00",
+    "home": "ES-ATLETICOPA",
+    "away": "ES-CORDOBA",
+    "status": "ns",
+    "comp": "Puchar Króla (Copa del Rey)",
+    "stage": "1. runda"
+   },
+   {
+    "id": "CUP-CDR-2026-10-27-TUDELANO-REALZARAGO",
+    "date": "2026-10-27",
+    "time": "21:00",
+    "home": "ES-TUDELANO",
+    "away": "ES-REALZARAGO",
+    "status": "ns",
+    "comp": "Puchar Króla (Copa del Rey)",
+    "stage": "1. runda"
+   },
+   {
+    "id": "CUP-CDR-2026-10-27-AROSA-PONTEVEDRA",
+    "date": "2026-10-27",
+    "time": "21:00",
+    "home": "ES-AROSA",
+    "away": "ES-PONTEVEDRA",
+    "status": "ns",
+    "comp": "Puchar Króla (Copa del Rey)",
+    "stage": "1. runda"
+   },
+   {
+    "id": "CUP-CDR-2026-10-27-MANACOR-VIL",
+    "date": "2026-10-27",
+    "time": "21:00",
+    "home": "ES-MANACOR",
+    "away": "ES-VIL",
+    "status": "ns",
+    "comp": "Puchar Króla (Copa del Rey)",
+    "stage": "1. runda"
+   },
+   {
+    "id": "CUP-CDR-2026-10-27-RECREATIVO-RAY",
+    "date": "2026-10-27",
+    "time": "21:00",
+    "home": "ES-RECREATIVO",
+    "away": "ES-RAY",
+    "status": "ns",
+    "comp": "Puchar Króla (Copa del Rey)",
+    "stage": "1. runda"
+   },
+   {
+    "id": "CUP-TDL-2026-10-27-SPORTINGCP-MARITIMO",
+    "date": "2026-10-27",
+    "time": "21:15",
+    "home": "PT-SPORTINGCP",
+    "away": "PT-MARITIMO",
+    "status": "ns",
+    "comp": "Puchar Ligi Portugalskiej (Taça da Liga)",
+    "stage": "Faza grupowa"
+   }
+  ],
+  "2026-10-28": [
+   {
+    "id": "CUP-PP-2026-10-28-SIARKATARN-LPO",
+    "date": "2026-10-28",
+    "time": "12:30",
+    "home": "PL-SIARKATARN",
+    "away": "PL-LPO",
+    "status": "ns",
+    "comp": "Puchar Polski",
+    "stage": "1/16 finału",
+    "notes": "Transmisja: TVP Sport"
+   },
+   {
+    "id": "CUP-PP-2026-10-28-SOKOKLECZE-PODHALENOW",
+    "date": "2026-10-28",
+    "time": "12:30",
+    "home": "PL-SOKOKLECZE",
+    "away": "PL-PODHALENOW",
+    "status": "ns",
+    "comp": "Puchar Polski",
+    "stage": "1/16 finału",
+    "notes": "Transmisja: PZPN+"
+   },
+   {
+    "id": "CUP-PP-2026-10-28-PUSZCZANIE-WPL",
+    "date": "2026-10-28",
+    "time": "17:30",
+    "home": "PL-PUSZCZANIE",
+    "away": "PL-WPL",
+    "status": "ns",
+    "comp": "Puchar Polski",
+    "stage": "1/16 finału",
+    "notes": "Transmisja: TVP Sport"
+   },
+   {
+    "id": "CUP-PP-2026-10-28-ZNICZPRUSZ-RUCHCHORZO",
+    "date": "2026-10-28",
+    "time": "17:30",
+    "home": "PL-ZNICZPRUSZ",
+    "away": "PL-RUCHCHORZO",
+    "status": "ns",
+    "comp": "Puchar Polski",
+    "stage": "1/16 finału",
+    "notes": "Transmisja: PZPN+"
+   },
+   {
+    "id": "CUP-DFB-2026-10-28-SCF-VFLWOLFSBU",
+    "date": "2026-10-28",
+    "time": "18:00",
+    "home": "DE-SCF",
+    "away": "DE-VFLWOLFSBU",
+    "status": "ns",
+    "comp": "Puchar Niemiec (DFB-Pokal)",
+    "stage": "2. runda"
+   },
+   {
+    "id": "CUP-DFB-2026-10-28-DYNAMODREZ-SCH",
+    "date": "2026-10-28",
+    "time": "18:00",
+    "home": "DE-DYNAMODREZ",
+    "away": "DE-SCH",
+    "status": "ns",
+    "comp": "Puchar Niemiec (DFB-Pokal)",
+    "stage": "2. runda"
+   },
+   {
+    "id": "CUP-DFB-2026-10-28-PAD-STU",
+    "date": "2026-10-28",
+    "time": "18:00",
+    "home": "DE-PAD",
+    "away": "DE-STU",
+    "status": "ns",
+    "comp": "Puchar Niemiec (DFB-Pokal)",
+    "stage": "2. runda"
+   },
+   {
+    "id": "CUP-DFB-2026-10-28-SSVJEDDELO-HERTHABSC",
+    "date": "2026-10-28",
+    "time": "18:00",
+    "home": "DE-SSVJEDDELO",
+    "away": "DE-HERTHABSC",
+    "status": "ns",
+    "comp": "Puchar Niemiec (DFB-Pokal)",
+    "stage": "2. runda"
+   },
+   {
+    "id": "CUP-PP-2026-10-28-GKSTYCHY-POGONSIEDL",
+    "date": "2026-10-28",
+    "time": "18:30",
+    "home": "PL-GKSTYCHY",
+    "away": "PL-POGONSIEDL",
+    "status": "ns",
+    "comp": "Puchar Polski",
+    "stage": "1/16 finału",
+    "notes": "Transmisja: PZPN+"
+   },
+   {
+    "id": "CUP-PP-2026-10-28-POLONIASRO-SLASKIIWRO",
+    "date": "2026-10-28",
+    "time": "19:00",
+    "home": "PL-POLONIASRO",
+    "away": "PL-SLASKIIWRO",
+    "status": "ns",
+    "comp": "Puchar Polski",
+    "stage": "1/16 finału"
+   },
+   {
+    "id": "CUP-CDR-2026-10-28-ANAITASUNA-ALA",
+    "date": "2026-10-28",
+    "time": "19:00",
+    "home": "ES-ANAITASUNA",
+    "away": "ES-ALA",
+    "status": "ns",
+    "comp": "Puchar Króla (Copa del Rey)",
+    "stage": "1. runda"
+   },
+   {
+    "id": "CUP-CDR-2026-10-28-TARANCON-LEV",
+    "date": "2026-10-28",
+    "time": "19:00",
+    "home": "ES-TARANCON",
+    "away": "ES-LEV",
+    "status": "ns",
+    "comp": "Puchar Króla (Copa del Rey)",
+    "stage": "1. runda"
+   },
+   {
+    "id": "CUP-CDR-2026-10-28-CORUXO-ZAMORA",
+    "date": "2026-10-28",
+    "time": "19:00",
+    "home": "ES-CORUXO",
+    "away": "ES-ZAMORA",
+    "status": "ns",
+    "comp": "Puchar Króla (Copa del Rey)",
+    "stage": "1. runda"
+   },
+   {
+    "id": "CUP-CDR-2026-10-28-PAMPLONA-EIBAR",
+    "date": "2026-10-28",
+    "time": "19:00",
+    "home": "ES-PAMPLONA",
+    "away": "ES-EIBAR",
+    "status": "ns",
+    "comp": "Puchar Króla (Copa del Rey)",
+    "stage": "1. runda"
+   },
+   {
+    "id": "CUP-CDR-2026-10-28-PENASPORT-HUESCA",
+    "date": "2026-10-28",
+    "time": "19:00",
+    "home": "ES-PENASPORT",
+    "away": "ES-HUESCA",
+    "status": "ns",
+    "comp": "Puchar Króla (Copa del Rey)",
+    "stage": "1. runda"
+   },
+   {
+    "id": "CUP-CDR-2026-10-28-POBLENSE-CEUTA",
+    "date": "2026-10-28",
+    "time": "19:00",
+    "home": "ES-POBLENSE",
+    "away": "ES-CEUTA",
+    "status": "ns",
+    "comp": "Puchar Króla (Copa del Rey)",
+    "stage": "1. runda"
+   },
+   {
+    "id": "CUP-CDR-2026-10-28-PORTUGALET-REALUNION",
+    "date": "2026-10-28",
+    "time": "19:00",
+    "home": "ES-PORTUGALET",
+    "away": "ES-REALUNION",
+    "status": "ns",
+    "comp": "Puchar Króla (Copa del Rey)",
+    "stage": "1. runda"
+   },
+   {
+    "id": "CUP-CDR-2026-10-28-UTEBO-SABADELL",
+    "date": "2026-10-28",
+    "time": "19:00",
+    "home": "ES-UTEBO",
+    "away": "ES-SABADELL",
+    "status": "ns",
+    "comp": "Puchar Króla (Copa del Rey)",
+    "stage": "1. runda"
+   },
+   {
+    "id": "CUP-CDR-2026-10-28-CDBADAJOZ-TENERIFE",
+    "date": "2026-10-28",
+    "time": "20:00",
+    "home": "ES-CDBADAJOZ",
+    "away": "ES-TENERIFE",
+    "status": "ns",
+    "comp": "Puchar Króla (Copa del Rey)",
+    "stage": "1. runda"
+   },
+   {
+    "id": "CUP-CDR-2026-10-28-TRIVALVALD-LEGANES",
+    "date": "2026-10-28",
+    "time": "20:00",
+    "home": "ES-TRIVALVALD",
+    "away": "ES-LEGANES",
+    "status": "ns",
+    "comp": "Puchar Króla (Copa del Rey)",
+    "stage": "1. runda"
+   },
+   {
+    "id": "CUP-CDR-2026-10-28-ALCOYANO-MALLORCA",
+    "date": "2026-10-28",
+    "time": "20:00",
+    "home": "ES-ALCOYANO",
+    "away": "ES-MALLORCA",
+    "status": "ns",
+    "comp": "Puchar Króla (Copa del Rey)",
+    "stage": "1. runda"
+   },
+   {
+    "id": "CUP-CDR-2026-10-28-AMOREBIETA-UDLOGRONES",
+    "date": "2026-10-28",
+    "time": "20:00",
+    "home": "ES-AMOREBIETA",
+    "away": "ES-UDLOGRONES",
+    "status": "ns",
+    "comp": "Puchar Króla (Copa del Rey)",
+    "stage": "1. runda"
+   },
+   {
+    "id": "CUP-CDR-2026-10-28-COVADONGA-REALVALLAD",
+    "date": "2026-10-28",
+    "time": "20:00",
+    "home": "ES-COVADONGA",
+    "away": "ES-REALVALLAD",
+    "status": "ns",
+    "comp": "Puchar Króla (Copa del Rey)",
+    "stage": "1. runda"
+   },
+   {
+    "id": "CUP-CDR-2026-10-28-MIJASLASLA-REALJAEN",
+    "date": "2026-10-28",
+    "time": "20:00",
+    "home": "ES-MIJASLASLA",
+    "away": "ES-REALJAEN",
+    "status": "ns",
+    "comp": "Puchar Króla (Copa del Rey)",
+    "stage": "1. runda"
+   },
+   {
+    "id": "CUP-CDR-2026-10-28-NUMANCIA-REALOVIEDO",
+    "date": "2026-10-28",
+    "time": "20:00",
+    "home": "ES-NUMANCIA",
+    "away": "ES-REALOVIEDO",
+    "status": "ns",
+    "comp": "Puchar Króla (Copa del Rey)",
+    "stage": "1. runda"
+   },
+   {
+    "id": "CUP-CDR-2026-10-28-CALVOSOTEL-ALBACETE",
+    "date": "2026-10-28",
+    "time": "20:00",
+    "home": "ES-CALVOSOTEL",
+    "away": "ES-ALBACETE",
+    "status": "ns",
+    "comp": "Puchar Króla (Copa del Rey)",
+    "stage": "1. runda"
+   },
+   {
+    "id": "CUP-PP-2026-10-28-LECHIAGDAN-JAG",
+    "date": "2026-10-28",
+    "time": "20:30",
+    "home": "PL-LECHIAGDAN",
+    "away": "PL-JAG",
+    "status": "ns",
+    "comp": "Puchar Polski",
+    "stage": "1/16 finału",
+    "notes": "Transmisja: TVP Sport"
+   },
+   {
+    "id": "CUP-EFL-2026-10-28-MCI-BHA",
+    "date": "2026-10-28",
+    "time": "20:30",
+    "home": "EN-MCI",
+    "away": "EN-BHA",
+    "status": "ns",
+    "comp": "Puchar Ligi Angielskiej (Carabao Cup)",
+    "stage": "4. runda",
+    "notes": "Transmisja: Sky Sports+"
+   },
+   {
+    "id": "CUP-CDR-2026-10-28-CIEZA-GRANADA",
+    "date": "2026-10-28",
+    "time": "20:30",
+    "home": "ES-CIEZA",
+    "away": "ES-GRANADA",
+    "status": "ns",
+    "comp": "Puchar Króla (Copa del Rey)",
+    "stage": "1. runda"
+   },
+   {
+    "id": "CUP-CDR-2026-10-28-DEPORTIVAM-CARTAGENA",
+    "date": "2026-10-28",
+    "time": "20:30",
+    "home": "ES-DEPORTIVAM",
+    "away": "ES-CARTAGENA",
+    "status": "ns",
+    "comp": "Puchar Króla (Copa del Rey)",
+    "stage": "1. runda"
+   },
+   {
+    "id": "CUP-CDR-2026-10-28-REDDIS-BARAKALDO",
+    "date": "2026-10-28",
+    "time": "20:30",
+    "home": "ES-REDDIS",
+    "away": "ES-BARAKALDO",
+    "status": "ns",
+    "comp": "Puchar Króla (Copa del Rey)",
+    "stage": "1. runda"
+   },
+   {
+    "id": "CUP-CDR-2026-10-28-GIMNASTICA-UDOURENSE",
+    "date": "2026-10-28",
+    "time": "20:30",
+    "home": "ES-GIMNASTICA",
+    "away": "ES-UDOURENSE",
+    "status": "ns",
+    "comp": "Puchar Króla (Copa del Rey)",
+    "stage": "1. runda"
+   },
+   {
+    "id": "CUP-DFB-2026-10-28-HOLSTEINKI-HOF",
+    "date": "2026-10-28",
+    "time": "20:45",
+    "home": "DE-HOLSTEINKI",
+    "away": "DE-HOF",
+    "status": "ns",
+    "comp": "Puchar Niemiec (DFB-Pokal)",
+    "stage": "2. runda"
+   },
+   {
+    "id": "CUP-DFB-2026-10-28-HANNOVER96-1FCKAISERS",
+    "date": "2026-10-28",
+    "time": "20:45",
+    "home": "DE-HANNOVER96",
+    "away": "DE-1FCKAISERS",
+    "status": "ns",
+    "comp": "Puchar Niemiec (DFB-Pokal)",
+    "stage": "2. runda"
+   },
+   {
+    "id": "CUP-DFB-2026-10-28-LEV-1FCNORYMBE",
+    "date": "2026-10-28",
+    "time": "20:45",
+    "home": "DE-LEV",
+    "away": "DE-1FCNORYMBE",
+    "status": "ns",
+    "comp": "Puchar Niemiec (DFB-Pokal)",
+    "stage": "2. runda"
+   },
+   {
+    "id": "CUP-DFB-2026-10-28-BAY-1FCMAGDEBU",
+    "date": "2026-10-28",
+    "time": "20:45",
+    "home": "DE-BAY",
+    "away": "DE-1FCMAGDEBU",
+    "status": "ns",
+    "comp": "Puchar Niemiec (DFB-Pokal)",
+    "stage": "2. runda"
+   },
+   {
+    "id": "CUP-EFL-2026-10-28-SUN-BRE",
+    "date": "2026-10-28",
+    "time": "20:45",
+    "home": "EN-SUN",
+    "away": "EN-BRE",
+    "status": "ns",
+    "comp": "Puchar Ligi Angielskiej (Carabao Cup)",
+    "stage": "4. runda",
+    "notes": "Transmisja: Sky Sports+"
+   },
+   {
+    "id": "CUP-EFL-2026-10-28-FUL-CRY",
+    "date": "2026-10-28",
+    "time": "20:45",
+    "home": "EN-FUL",
+    "away": "EN-CRY",
+    "status": "ns",
+    "comp": "Puchar Ligi Angielskiej (Carabao Cup)",
+    "stage": "4. runda",
+    "notes": "Transmisja: Sky Sports+"
+   },
+   {
+    "id": "CUP-EFL-2026-10-28-BOU-AVL",
+    "date": "2026-10-28",
+    "time": "20:45",
+    "home": "EN-BOU",
+    "away": "EN-AVL",
+    "status": "ns",
+    "comp": "Puchar Ligi Angielskiej (Carabao Cup)",
+    "stage": "4. runda",
+    "notes": "Transmisja: Sky Sports+"
+   },
+   {
+    "id": "CUP-EFL-2026-10-28-LIV-CHE",
+    "date": "2026-10-28",
+    "time": "21:00",
+    "home": "EN-LIV",
+    "away": "EN-CHE",
+    "status": "ns",
+    "comp": "Puchar Ligi Angielskiej (Carabao Cup)",
+    "stage": "4. runda",
+    "notes": "Transmisja: Sky Sports Main Event, ITV"
+   },
+   {
+    "id": "CUP-CDR-2026-10-28-NAVALCARNE-BET",
+    "date": "2026-10-28",
+    "time": "21:00",
+    "home": "ES-NAVALCARNE",
+    "away": "ES-BET",
+    "status": "ns",
+    "comp": "Puchar Króla (Copa del Rey)",
+    "stage": "1. runda"
+   },
+   {
+    "id": "CUP-CDR-2026-10-28-SALAMANCAU-CEL",
+    "date": "2026-10-28",
+    "time": "21:00",
+    "home": "ES-SALAMANCAU",
+    "away": "ES-CEL",
+    "status": "ns",
+    "comp": "Puchar Króla (Copa del Rey)",
+    "stage": "1. runda"
+   },
+   {
+    "id": "CUP-CDR-2026-10-28-TAVERNES-VAL",
+    "date": "2026-10-28",
+    "time": "21:00",
+    "home": "ES-TAVERNES",
+    "away": "ES-VAL",
+    "status": "ns",
+    "comp": "Puchar Króla (Copa del Rey)",
+    "stage": "1. runda"
+   },
+   {
+    "id": "CUP-CDR-2026-10-28-XEREZ-CADIZ",
+    "date": "2026-10-28",
+    "time": "21:00",
+    "home": "ES-XEREZ",
+    "away": "ES-CADIZ",
+    "status": "ns",
+    "comp": "Puchar Króla (Copa del Rey)",
+    "stage": "1. runda"
+   },
+   {
+    "id": "CUP-TDL-2026-10-28-FCPORTO-ACADEMICOD",
+    "date": "2026-10-28",
+    "time": "21:30",
+    "home": "PT-FCPORTO",
+    "away": "PT-ACADEMICOD",
+    "status": "ns",
+    "comp": "Puchar Ligi Portugalskiej (Taça da Liga)",
+    "stage": "Faza grupowa"
+   }
+  ],
+  "2026-10-29": [
+   {
+    "id": "CUP-PP-2026-10-29-AVIASWIDNI-RAD",
+    "date": "2026-10-29",
+    "time": "12:30",
+    "home": "PL-AVIASWIDNI",
+    "away": "PL-RAD",
+    "status": "ns",
+    "comp": "Puchar Polski",
+    "stage": "1/16 finału",
+    "notes": "Transmisja: TVP Sport"
+   },
+   {
+    "id": "CUP-PP-2026-10-29-CHROBRYGOG-POLONIABYT",
+    "date": "2026-10-29",
+    "time": "17:30",
+    "home": "PL-CHROBRYGOG",
+    "away": "PL-POLONIABYT",
+    "status": "ns",
+    "comp": "Puchar Polski",
+    "stage": "1/16 finału",
+    "notes": "Transmisja: PZPN+"
+   },
+   {
+    "id": "CUP-PP-2026-10-29-POLONIAWAR-KOR",
+    "date": "2026-10-29",
+    "time": "17:30",
+    "home": "PL-POLONIAWAR",
+    "away": "PL-KOR",
+    "status": "ns",
+    "comp": "Puchar Polski",
+    "stage": "1/16 finału",
+    "notes": "Transmisja: TVP Sport"
+   },
+   {
+    "id": "CUP-PP-2026-10-29-ARKAGDYNIA-STALRZESZO",
+    "date": "2026-10-29",
+    "time": "19:00",
+    "home": "PL-ARKAGDYNIA",
+    "away": "PL-STALRZESZO",
+    "status": "ns",
+    "comp": "Puchar Polski",
+    "stage": "1/16 finału",
+    "notes": "Transmisja: PZPN+"
+   },
+   {
+    "id": "CUP-CDR-2026-10-29-ATLETICOCA-OSA",
+    "date": "2026-10-29",
+    "time": "19:00",
+    "home": "ES-ATLETICOCA",
+    "away": "ES-OSA",
+    "status": "ns",
+    "comp": "Puchar Króla (Copa del Rey)",
+    "stage": "1. runda"
+   },
+   {
+    "id": "CUP-CDR-2026-10-29-ATLETICOBA-ELDENSE",
+    "date": "2026-10-29",
+    "time": "19:00",
+    "home": "ES-ATLETICOBA",
+    "away": "ES-ELDENSE",
+    "status": "ns",
+    "comp": "Puchar Króla (Copa del Rey)",
+    "stage": "1. runda"
+   },
+   {
+    "id": "CUP-CDR-2026-10-29-LEBRIJANA-GET",
+    "date": "2026-10-29",
+    "time": "19:00",
+    "home": "ES-LEBRIJANA",
+    "away": "ES-GET",
+    "status": "ns",
+    "comp": "Puchar Króla (Copa del Rey)",
+    "stage": "1. runda"
+   },
+   {
+    "id": "CUP-CDR-2026-10-29-SSREYES-CDCORIA",
+    "date": "2026-10-29",
+    "time": "19:00",
+    "home": "ES-SSREYES",
+    "away": "ES-CDCORIA",
+    "status": "ns",
+    "comp": "Puchar Króla (Copa del Rey)",
+    "stage": "1. runda"
+   },
+   {
+    "id": "CUP-TDL-2026-10-29-SCBRAGA-FAMALICAO",
+    "date": "2026-10-29",
+    "time": "19:45",
+    "home": "PT-SCBRAGA",
+    "away": "PT-FAMALICAO",
+    "status": "ns",
+    "comp": "Puchar Ligi Portugalskiej (Taça da Liga)",
+    "stage": "Faza grupowa"
+   },
+   {
+    "id": "CUP-CDR-2026-10-29-REALAVILA-UNIONISTAS",
+    "date": "2026-10-29",
+    "time": "20:00",
+    "home": "ES-REALAVILA",
+    "away": "ES-UNIONISTAS",
+    "status": "ns",
+    "comp": "Puchar Króla (Copa del Rey)",
+    "stage": "1. runda"
+   },
+   {
+    "id": "CUP-CDR-2026-10-29-LAREDO-BURGOS",
+    "date": "2026-10-29",
+    "time": "20:00",
+    "home": "ES-LAREDO",
+    "away": "ES-BURGOS",
+    "status": "ns",
+    "comp": "Puchar Króla (Copa del Rey)",
+    "stage": "1. runda"
+   },
+   {
+    "id": "CUP-CDR-2026-10-29-GUIJUELO-SPORTINGGI",
+    "date": "2026-10-29",
+    "time": "20:00",
+    "home": "ES-GUIJUELO",
+    "away": "ES-SPORTINGGI",
+    "status": "ns",
+    "comp": "Puchar Króla (Copa del Rey)",
+    "stage": "1. runda"
+   },
+   {
+    "id": "CUP-CDR-2026-10-29-CONQUENSE-CDCASTELLO",
+    "date": "2026-10-29",
+    "time": "20:00",
+    "home": "ES-CONQUENSE",
+    "away": "ES-CDCASTELLO",
+    "status": "ns",
+    "comp": "Puchar Króla (Copa del Rey)",
+    "stage": "1. runda"
+   },
+   {
+    "id": "CUP-CDR-2026-10-29-ANTEQUERA-CDAGUILAS",
+    "date": "2026-10-29",
+    "time": "20:00",
+    "home": "ES-ANTEQUERA",
+    "away": "ES-CDAGUILAS",
+    "status": "ns",
+    "comp": "Puchar Króla (Copa del Rey)",
+    "stage": "1. runda"
+   },
+   {
+    "id": "CUP-CDR-2026-10-29-VAREA-FCANDORRA",
+    "date": "2026-10-29",
+    "time": "20:00",
+    "home": "ES-VAREA",
+    "away": "ES-FCANDORRA",
+    "status": "ns",
+    "comp": "Puchar Króla (Copa del Rey)",
+    "stage": "1. runda"
+   },
+   {
+    "id": "CUP-PP-2026-10-29-ODRAOPOLE-SLA",
+    "date": "2026-10-29",
+    "time": "20:30",
+    "home": "PL-ODRAOPOLE",
+    "away": "PL-SLA",
+    "status": "ns",
+    "comp": "Puchar Polski",
+    "stage": "1/16 finału",
+    "notes": "Transmisja: TVP Sport"
+   },
+   {
+    "id": "CUP-EFL-2026-10-29-EVE-NEW",
+    "date": "2026-10-29",
+    "time": "20:45",
+    "home": "EN-EVE",
+    "away": "EN-NEW",
+    "status": "ns",
+    "comp": "Puchar Ligi Angielskiej (Carabao Cup)",
+    "stage": "4. runda",
+    "notes": "Transmisja: Sky Sports+"
+   },
+   {
+    "id": "CUP-CDR-2026-10-29-PRAT-ATH",
+    "date": "2026-10-29",
+    "time": "21:00",
+    "home": "ES-PRAT",
+    "away": "ES-ATH",
+    "status": "ns",
+    "comp": "Puchar Króla (Copa del Rey)",
+    "stage": "1. runda"
+   },
+   {
+    "id": "CUP-CDR-2026-10-29-HORTALEZA-SEV",
+    "date": "2026-10-29",
+    "time": "21:00",
+    "home": "ES-HORTALEZA",
+    "away": "ES-SEV",
+    "status": "ns",
+    "comp": "Puchar Króla (Copa del Rey)",
+    "stage": "1. runda"
+   },
+   {
+    "id": "CUP-CDR-2026-10-29-AURIENSE-DEP",
+    "date": "2026-10-29",
+    "time": "21:00",
+    "home": "ES-AURIENSE",
+    "away": "ES-DEP",
+    "status": "ns",
+    "comp": "Puchar Króla (Copa del Rey)",
+    "stage": "1. runda"
+   },
+   {
+    "id": "CUP-CDR-2026-10-29-RIBADESELL-RAC",
+    "date": "2026-10-29",
+    "time": "21:00",
+    "home": "ES-RIBADESELL",
+    "away": "ES-RAC",
+    "status": "ns",
+    "comp": "Puchar Króla (Copa del Rey)",
+    "stage": "1. runda"
+   },
+   {
+    "id": "CUP-TDL-2026-10-29-BENFICA-GILVICENTE",
+    "date": "2026-10-29",
+    "time": "21:45",
+    "home": "PT-BENFICA",
+    "away": "PT-GILVICENTE",
+    "status": "ns",
+    "comp": "Puchar Ligi Portugalskiej (Taça da Liga)",
+    "stage": "Faza grupowa"
+   }
+  ]
+ }
+}

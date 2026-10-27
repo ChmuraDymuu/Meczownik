@@ -551,7 +551,7 @@ function normalize(x){
   const m={real:true,id:x.id,round:x.round,date:x.date,time:x.time||"—",limit:x.status==="ft"?90:x.status==="live"?(x.minute||0):0,
     home:tm(x.home),away:tm(x.away),score:x.score||null,venue:x.venue||null,attendance:x.attendance??null,turf:x.turf||null,weather:x.weather||null,
     status:st,officials:x.officials||[],staff:{home:(x.staff&&x.staff.home)||[],away:(x.staff&&x.staff.away)||[]},formation:x.formation||{},
-    players:{home:(x.players&&x.players.home)||[],away:(x.players&&x.players.away)||[]},events:ev,teamStats:x.teamStats||[],shots:x.shots||[],ind:x.ind||{},notes:x.notes||"",odds:x.odds||null,tip:x.tip||null,info:x.info||null};
+    players:{home:(x.players&&x.players.home)||[],away:(x.players&&x.players.away)||[]},events:ev,teamStats:x.teamStats||[],shots:x.shots||[],ind:x.ind||{},notes:x.notes||"",odds:x.odds||null,tip:x.tip||null,info:x.info||null,comp:x.comp||null,stage:x.stage||null};
   if(x.refStats) m.refStats=x.refStats;
   else if(st.kind!=="ns"){const f=m.teamStats.find(r=>r[0]==="Faule"),vars=ev.filter(e=>e.t==="var");
     m.refStats={fouls:f?f[1]+f[2]:"—",yc:ev.length?ev.filter(e=>e.t==="yc").length:"—",rc:ev.length?ev.filter(e=>e.t==="rc").length:"—",pens:ev.length?ev.filter(e=>e.t==="pen").length:"—",varChecks:ev.length?vars.length:"—",ofr:ev.length?vars.filter(v=>(v.kind||"").includes("OFR")).length:"—",varTime:"—",note:"—"};}
@@ -559,7 +559,7 @@ function normalize(x){
   return m;
 }
 function loadReal(d){
-  if(d&&d.sport==="basketball"&&d.days&&d.teams){
+  if(d&&d.days&&d.teams){
     DATA=d; TEAMS=d.teams; FIXTURES={};
     const days=Object.keys(d.days).sort();
     days.forEach((day,i)=>{FIXTURES[i+1]=d.days[day].map(x=>({round:i+1,id:x.id,h:x.home,a:x.away,date:x.date||day,time:x.time||"—",kind:x.status==="live"?"live":x.status==="ft"?"ft":"ns",pst:x.status==="pst"||x.status==="canc",score:x.score||null,raw:{...x,date:x.date||day,round:i+1}}))});
@@ -575,12 +575,15 @@ function loadReal(d){
 }
 
 /* ---------- Stan ---------- */
-let state={view:"home", league:"EKS", round:14, filter:"all", tab:"mecz", side:"h", player:null, mid:null};
-const LEAGUES=[["EKS","Ekstraklasa","Polska"],["PL","Premier League","Anglia"],["LL","LaLiga","Hiszpania"],["SA","Serie A","Włochy"],["BL","Bundesliga","Niemcy"],["L1","Ligue 1","Francja"],["UCL","Liga Mistrzów","Europa"],["NBA","NBA","USA"]];
+let state={view:"home", league:"EKS", round:14, filter:"all", comp:"all", tab:"mecz", side:"h", player:null, mid:null};
+const LEAGUES=[["EKS","Ekstraklasa","Polska"],["PL","Premier League","Anglia"],["LL","LaLiga","Hiszpania"],["SA","Serie A","Włochy"],["BL","Bundesliga","Niemcy"],["L1","Ligue 1","Francja"],["UCL","Liga Mistrzów","Europa"],["NBA","NBA","USA"],["CUP","Puchary","Krajowe puchary"]];
 const SPORTS=[
- {id:"fb",name:"Piłka nożna",leagues:["EKS","PL","LL","SA","BL","L1","UCL"],icon:'<circle cx="12" cy="12" r="9.5"/><path d="M12 7.2l4 2.9-1.5 4.7h-5L8 10.1z"/><path d="M12 7.2V2.6M16 10.1l4.3-1.6M14.5 14.8l2.8 3.8M9.5 14.8l-2.8 3.8M8 10.1L3.7 8.5"/>'},
+ {id:"fb",name:"Piłka nożna",leagues:["EKS","PL","LL","SA","BL","L1","UCL","CUP"],icon:'<circle cx="12" cy="12" r="9.5"/><path d="M12 7.2l4 2.9-1.5 4.7h-5L8 10.1z"/><path d="M12 7.2V2.6M16 10.1l4.3-1.6M14.5 14.8l2.8 3.8M9.5 14.8l-2.8 3.8M8 10.1L3.7 8.5"/>'},
  {id:"bb",name:"Koszykówka",leagues:["NBA"],icon:'<circle cx="12" cy="12" r="9.5"/><path d="M2.5 12h19M12 2.5v19"/><path d="M5.3 5.3a13 13 0 0 1 0 13.4M18.7 5.3a13 13 0 0 0 0 13.4"/>'}];
 const isBB=()=>!!(DATA&&DATA.sport==="basketball");
+const isDays=()=>!!(DATA&&DATA.days);
+const COMPORD=["Puchar Polski","Puchar Ligi Angielskiej","Puchar Niemiec","Puchar Króla","Puchar Włoch","Puchar Francji","Puchar Ligi Portugalskiej"];
+const compRank=c=>{const i=COMPORD.findIndex(x=>(c||"").startsWith(x));return i<0?99:i};
 const leagueName=c=>(LEAGUES.find(l=>l[0]===c)||[c,c])[1];
 state.fold={fb:true,bb:true};
 try{const s=JSON.parse(localStorage.getItem("meczownik2")||"{}");["filter","league","fold"].forEach(k=>{if(s[k]!=null)state[k]=s[k]});if(!LEAGUES.some(l=>l[0]===state.league))state.league="EKS";if(typeof state.fold!=="object"||!state.fold)state.fold={fb:state.fold!==false,bb:true}}catch(e){}
@@ -596,7 +599,7 @@ function applyLeague(c){
   else { TEAMS={}; FIXTURES={}; }
 }
 function activate(c){
-  state.league=c; state.filter="all"; save();
+  state.league=c; state.filter="all"; state.comp="all"; save();
   if(LD[c]===undefined){ LD[c]="loading"; applyLeague(c); render(); fetchLeague(c).then(x=>{LD[c]=x; if(state.league===c){applyLeague(c); if(state.view==="home") render();}}); return; }
   applyLeague(c); render();
 }
@@ -619,23 +622,27 @@ function renderHome(){
   $("#head").innerHTML=`<div class="wrap">
     <div class="meta"><span class="lhs">${MENU}<span>${esc(leagueName(state.league))} · ${DATA?esc(DATA.season||""):"2026/27"}</span></span>${badge()}</div>
     <div class="apptitle">Meczownik</div><div class="appsub">Wyniki, sędziowie, składy, statystyki i typy</div>
-    <div class="rounds"><button id="rprev" aria-label="${isBB()?"Poprzedni dzień":"Poprzednia kolejka"}" ${ri<=0?"disabled":""}>‹</button>
-      ${isBB()?`<div>${ds[0]===TODAY?"Dzisiaj":esc(dayShort(ds[0]||""))}<small>${ds[0]?dayLabel(ds[0]):""} · czas polski</small></div>`:`<div>${state.round}. kolejka<small>${ds.length?dayShort(ds[0])+" – "+dayShort(ds[ds.length-1]):""}</small></div>`}
-      <button id="rnext" aria-label="${isBB()?"Następny dzień":"Następna kolejka"}" ${ri>=rounds.length-1?"disabled":""}>›</button></div></div>`;
+    <div class="rounds"><button id="rprev" aria-label="${isDays()?"Poprzedni dzień":"Poprzednia kolejka"}" ${ri<=0?"disabled":""}>‹</button>
+      ${isDays()?`<div>${ds[0]===TODAY?"Dzisiaj":esc(dayShort(ds[0]||""))}<small>${ds[0]?dayLabel(ds[0]):""} · czas polski</small></div>`:`<div>${state.round}. kolejka<small>${ds.length?dayShort(ds[0])+" – "+dayShort(ds[ds.length-1]):""}</small></div>`}
+      <button id="rnext" aria-label="${isDays()?"Następny dzień":"Następna kolejka"}" ${ri>=rounds.length-1?"disabled":""}>›</button></div></div>`;
   const live=allFx().filter(f=>f.kind==="live").length;
   const sorted=fx.slice().sort((a,b)=>(a.date+a.time).localeCompare(b.date+b.time));
   const F=[["all","Wszystkie"],["live","Na żywo"],["ft","Zakończone"],["ns","Zaplanowane"]];
-  const list=sorted.filter(f=>state.filter==="all"||f.kind===state.filter);
+  const comps=[...new Set(fx.map(f=>f.raw.comp).filter(Boolean))].sort((a,b)=>compRank(a)-compRank(b)||a.localeCompare(b,"pl"));
+  if(state.comp!=="all"&&!comps.includes(state.comp)) state.comp="all";
+  const list=sorted.filter(f=>(state.filter==="all"||f.kind===state.filter)&&(state.comp==="all"||f.raw.comp===state.comp));
   let html=`<div class="filters" role="group" aria-label="Filtr meczów">${F.map(([k,l])=>`<button data-filter="${k}" aria-pressed="${state.filter===k}">${l}${k==="live"&&live?`<span class="cnt">${live}</span>`:""}</button>`).join("")}</div>`;
+  if(comps.length>1) html+=`<div class="filters" role="group" aria-label="Rozgrywki" style="margin-top:8px">${[["all","Wszystkie rozgrywki"]].concat(comps.map(c=>[c,c.replace(/ \(.*\)$/,"")])).map(([k,l])=>`<button data-comp="${esc(k)}" aria-pressed="${state.comp===k}">${esc(l)}<span class="cnt">${k==="all"?fx.length:fx.filter(f=>f.raw.comp===k).length}</span></button>`).join("")}</div>`;
   if(state.filter==="all"||state.filter==="ns") html+=picksCard();
-  if(!list.length) html+=`<div class="card empty">${isBB()?"Tego dnia nie ma meczów w tej kategorii.<br>Zmień filtr albo przejdź do innego dnia.":"W tej kolejce nie ma meczów w tej kategorii.<br>Zmień filtr albo przejdź do innej kolejki."}</div>`;
+  if(!list.length) html+=`<div class="card empty">${isDays()?"Tego dnia nie ma meczów w tej kategorii.<br>Zmień filtr albo przejdź do innego dnia.":"W tej kolejce nie ma meczów w tej kategorii.<br>Zmień filtr albo przejdź do innej kolejki."}</div>`;
   for(const d of [...new Set(list.map(f=>f.date))]){
-    const rows=list.filter(f=>f.date===d).map(f=>{
+    const rows=list.filter(f=>f.date===d).sort((a,b)=>compRank(a.raw.comp)-compRank(b.raw.comp)||String(a.raw.comp||"").localeCompare(String(b.raw.comp||""),"pl")||a.time.localeCompare(b.time)).map((f,i,arr)=>{
+      const bar=f.raw.comp&&(i===0||arr[i-1].raw.comp!==f.raw.comp)?`<div class="period">${esc(f.raw.comp)}${f.raw.stage?" · "+esc(f.raw.stage):""}</div>`:"";
       const m=getMatch(f), [gh,ga]=scoreOf(m);
       const rcH=m.events.some(e=>e.t==="rc"&&e.s_==="h"), rcA=m.events.some(e=>e.t==="rc"&&e.s_==="a");
       const played=f.kind!=="ns", res=(a,b)=>!played||f.kind==="live"?"":a>b?"win":a<b?"lose":"";
       const when=f.pst?`<div class="when"><b style="font-size:14px">PRZEŁ.</b><small>${f.time}</small></div>`:f.kind==="live"?`<div class="when live"><b>${m.status.min}</b><small><i class="pulse"></i>LIVE</small></div>`:f.kind==="ft"?`<div class="when"><b>KON.</b><small>${f.time}</small></div>`:`<div class="when"><b>${f.time}</b><small>${dayShort(f.date).split(",")[0]}</small></div>`;
-      return `<button class="match" data-mid="${f.id}">${when}
+      return bar+`<button class="match" data-mid="${f.id}">${when}
         <div class="sides"><div class="side ${res(gh,ga)}"><i class="c" style="background:${m.home.col}"></i><span>${esc(m.home.name)}</span></div><div class="side ${res(ga,gh)}"><i class="c" style="background:${m.away.col}"></i><span>${esc(m.away.name)}</span></div></div>
         <div class="goals ${f.kind==="live"?"live":""}">${played?`<span>${rcH?'<i class="rc"></i>':""}${gh}</span><span>${rcA?'<i class="rc"></i>':""}${ga}</span>`:`<span style="color:var(--muted)">–</span><span style="color:var(--muted)">–</span>`}</div></button>`}).join("");
     html+=`<section class="panel"><div class="day"><h2>${dayLabel(d)}</h2>${d===TODAY?"<small>dzisiaj</small>":""}</div><div class="card">${rows}</div></section>`;
@@ -650,7 +657,7 @@ function renderBoard(){
   const [gh,ga]=scoreOf(M), k=M.status.kind;
   const sl=s=>G.filter(e=>e.s_===s).map(e=>`${esc(String(e.who||"").split(" ").pop())} ${e.m}'${e.t==="pen"?" (k)":e.t==="og"?" (sam.)":""}`).join("<br>");
   $("#head").innerHTML=`<div class="wrap">
-    <div class="meta"><button class="back" id="back"><svg viewBox="0 0 24 24"><path d="M15 5l-7 7 7 7"/></svg>Wszystkie mecze</button><span>${esc(leagueName(state.league))} · ${M.bb?dayShort(M.date):M.round+". kol."}</span></div>
+    <div class="meta"><button class="back" id="back"><svg viewBox="0 0 24 24"><path d="M15 5l-7 7 7 7"/></svg>Wszystkie mecze</button><span>${esc(M.comp?M.comp.replace(/ \(.*\)$/,""):leagueName(state.league))} · ${M.bb||M.comp?dayShort(M.date):M.round+". kol."}</span></div>
     <div class="score">
       <div class="team"><div class="crest" style="background:${M.home.col}">${M.home.short}</div><b>${esc(M.home.name)}</b></div>
       <div>${k==="ns"?`<div class="nums ko">${M.time}</div><div class="status"><span class="chip">${M.status.pst?M.status.label.toUpperCase():dayShort(M.date)}</span></div>`:`<div class="nums">${gh}:${ga}</div><div class="status">${k==="live"?`<span class="chip live">${M.status.min}</span><span class="chip">${M.status.code}</span>`:`<span class="chip">KONIEC</span>`}</div>`}</div>
@@ -761,7 +768,7 @@ const V={
     const w=M.weather, ns=M.status.kind==="ns";
     return `<section class="panel"><h2>Status</h2>
       <div class="tiles">${tile("Status",M.status.code)}${tile(ns?"Początek":"Minuta",ns?M.time:M.status.min)}${tile("Widzowie",M.attendance?M.attendance.toLocaleString("pl-PL"):"—")}</div></section>
-      <section><h2>Spotkanie</h2>${kv([["ID meczu",`<span class="num">${esc(M.id)}</span>`],["Sezon",DATA?esc(DATA.season||"—"):"2026/27"],["Rozgrywki",esc((DATA&&DATA.competition)||leagueName(state.league))],["Kolejka",M.round],["Gospodarze",`${esc(M.home.name)} <span class="pos">${M.home.id}</span>`],["Goście",`${esc(M.away.name)} <span class="pos">${M.away.id}</span>`],["Status",M.status.label]])}</section>
+      <section><h2>Spotkanie</h2>${kv([["ID meczu",`<span class="num">${esc(M.id)}</span>`],["Sezon",DATA?esc(DATA.season||"—"):"2026/27"],["Rozgrywki",esc(M.comp||(DATA&&DATA.competition)||leagueName(state.league))],M.comp?["Faza",esc(M.stage||"—")]:["Kolejka",M.round],["Gospodarze",`${esc(M.home.name)} <span class="pos">${M.home.id}</span>`],["Goście",`${esc(M.away.name)} <span class="pos">${M.away.id}</span>`],["Status",M.status.label]])}</section>
       <section><h2>Czas i miejsce</h2>${kv([["Data",dayLabel(M.date)],["Godzina",M.time],["Strefa czasowa","Europe/Warsaw (CEST)"],["Stadion",esc(dash((M.venue&&M.venue.name)||M.home.stadium))],["Miasto",esc(dash((M.venue&&M.venue.city)||M.home.city))],["Pojemność",(c=>c?c.toLocaleString("pl-PL"):"—")((M.venue&&M.venue.capacity)||M.home.capacity)],["Murawa",M.turf||"Brak danych"]])}</section>
       ${M.notes?`<section><h2>Uwagi</h2><div class="card empty" style="text-align:left">${esc(M.notes)}</div></section>`:""}
       <section><h2>${ns?"Prognoza pogody":"Pogoda"}</h2>${!w?'<div class="card empty">Brak danych pogodowych.</div>':`<div class="tiles">${tile("Temp.",w.temp!=null?w.temp+"°C":"—")}${tile("Wilgotność",w.hum!=null?w.hum+"%":"—")}<div class="tile"><span>Wiatr</span><b style="font-size:19px">${dash(w.wind)}</b></div></div>
@@ -968,8 +975,8 @@ function picksCard(){
   const fx=FIXTURES[state.round]||[]; if(!fx.some(f=>f.kind==="ns"&&!f.pst)) return "";
   const P=picksOfRound(), names=["TOP PICK","SECOND","THIRD"];
   const body=P.length?P.map((x,i)=>`<button class="rank" data-tip="${x.m.id}"><span class="medal m${i+1}">${names[i]}</span><span><b>${esc(x.t.market)}</b><small>${esc(x.m.home.name)} – ${esc(x.m.away.name)} · ${dayShort(x.m.date)} ${x.m.time}</small></span><span class="ev">${x.t.odds?x.t.odds.toFixed(2):""}<small>EV ${x.t.ev!=null?evTxt(x.t.ev):"—"} · ${x.t.rating}/10</small></span></button>`).join("")
-    :`<div class="empty"><b style="color:var(--fg)">BRAK WARTOŚCIOWEGO TYPU — NO BET.</b><br>Żaden mecz ${isBB()?"tego dnia":"tej kolejki"} nie daje wystarczającej przewagi.</div>`;
-  return `<section class="panel"><div class="day"><h2>${isBB()?"Typy dnia":"Typy kolejki"}</h2>${DATA?"":"<small>dane przykładowe</small>"}</div><div class="card">${body}</div>${RESP}</section>`;
+    :`<div class="empty"><b style="color:var(--fg)">BRAK WARTOŚCIOWEGO TYPU — NO BET.</b><br>Żaden mecz ${isDays()?"tego dnia":"tej kolejki"} nie daje wystarczającej przewagi.</div>`;
+  return `<section class="panel"><div class="day"><h2>${isDays()?"Typy dnia":"Typy kolejki"}</h2>${DATA?"":"<small>dane przykładowe</small>"}</div><div class="card">${body}</div>${RESP}</section>`;
 }
 
 V.szanse=function(){
@@ -1106,6 +1113,7 @@ $("#view").addEventListener("click",e=>{
   const tp=e.target.closest("[data-tip]"); if(tp){openMatch(tp.dataset.tip);state.tab="szanse";render();return}
   const m=e.target.closest("[data-mid]"); if(m){openMatch(m.dataset.mid);return}
   const f=e.target.closest("[data-filter]"); if(f){state.filter=f.dataset.filter;render();return}
+  const cp=e.target.closest("[data-comp]"); if(cp){state.comp=cp.dataset.comp;render();return}
   const s=e.target.closest("[data-side]"); if(s){state.side=s.dataset.side;render();return}
   const p=e.target.closest("[data-player]"); if(p){state.player=p.dataset.player;state.tab="gracz";$("#main").scrollTop=0;render()}
 });
