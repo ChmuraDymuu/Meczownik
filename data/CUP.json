@@ -1,10 +1,10 @@
 {
  "sport": "football",
  "mode": "days",
- "updated": "2026-10-27T08:29:12+01:00",
+ "updated": "2026-10-27T20:45:00+01:00",
  "season": "2026/27",
  "competition": "Puchary i inne rozgrywki",
- "note": "Źródła: PZPN / kkslech.com, DFB.de, thefalse9.com, livesoccertv.com. Godziny w czasie polskim. Kursy: wettbasis.com, thefootballfaithful.com, footballwhispers.com, weszlo.com. Kursy 1X2: sportytrader.com; wettfreunde.net.",
+ "note": "Źródła: PZPN / kkslech.com, DFB.de, thefalse9.com, livesoccertv.com. Godziny w czasie polskim. Kursy: wettbasis.com, thefootballfaithful.com, footballwhispers.com, weszlo.com. Kursy 1X2: sportytrader.com; wettfreunde.net. Wyniki z 27.10 (wieczorna aktualizacja): kkslech.com, Radio Jura, t-online.de, sportschau.de.",
  "teams": {
   "PL-OLIMPIAGRU": {
    "name": "Olimpia Grudziądz",
@@ -1381,10 +1381,10 @@
     "time": "12:30",
     "home": "PL-OLIMPIAGRU",
     "away": "PL-BRUKBETTER",
-    "status": "ns",
+    "status": "ft",
     "comp": "Puchar Polski",
     "stage": "1/16 finału",
-    "notes": "Transmisja: PZPN+",
+    "notes": "Transmisja: PZPN+ · Awans: Bruk-Bet Termalica.",
     "tip": {
      "decision": "NO BET",
      "reasons": [
@@ -1393,7 +1393,11 @@
     },
     "info": {
      "stakes": "1/16 finału – jeden mecz; przy remisie po 90 min dogrywka i rzuty karne"
-    }
+    },
+    "score": [
+     0,
+     1
+    ]
    },
    {
     "id": "CUP-PP-2026-10-27-GORNIKECZN-GKS",
@@ -1401,10 +1405,10 @@
     "time": "12:30",
     "home": "PL-GORNIKECZN",
     "away": "PL-GKS",
-    "status": "ns",
+    "status": "ft",
     "comp": "Puchar Polski",
     "stage": "1/16 finału",
-    "notes": "Transmisja: TVP Sport",
+    "notes": "Transmisja: TVP Sport · Awans: Górnik Łęczna.",
     "tip": {
      "decision": "NO BET",
      "reasons": [
@@ -1413,7 +1417,11 @@
     },
     "info": {
      "stakes": "1/16 finału – jeden mecz; przy remisie po 90 min dogrywka i rzuty karne"
-    }
+    },
+    "score": [
+     1,
+     0
+    ]
    },
    {
     "id": "CUP-PP-2026-10-27-MOT-RAK",
@@ -1421,10 +1429,10 @@
     "time": "17:30",
     "home": "PL-MOT",
     "away": "PL-RAK",
-    "status": "ns",
+    "status": "ft",
     "comp": "Puchar Polski",
     "stage": "1/16 finału",
-    "notes": "Transmisja: TVP Sport",
+    "notes": "Transmisja: TVP Sport · Po 90 min i po dogrywce 1:1; rzuty karne 1:3 – awans Rakowa. Gole: Mbaye N'Diaye (k., Motor), Lamine Diaby-Fadiga (Raków). Czerwona kartka: Bartosz Bereszyński (Motor, druga żółta) – Motor grał dogrywkę w dziesiątkę.",
     "odds": {
      "src": "Superbet wg weszlo.com (27.10)",
      "1": 2.52,
@@ -1452,7 +1460,11 @@
       "Motor 2,52 (ok. 40%) – forma za Motorem, ale H2H wyraźnie za Rakowem, a o rotacji obu drużyn brak informacji; szacunek ok. 41–43%, EV ≈ +3% – za mało przy tej niepewności",
       "BTTS tak 1,61 (62%) – szacunek ok. 58–60%, brak przewagi"
      ]
-    }
+    },
+    "score": [
+     1,
+     1
+    ]
    },
    {
     "id": "CUP-DFB-2026-10-27-VFLBOCHUM-MAI",
@@ -1460,7 +1472,7 @@
     "time": "18:00",
     "home": "DE-VFLBOCHUM",
     "away": "DE-MAI",
-    "status": "ns",
+    "status": "ft",
     "comp": "Puchar Niemiec (DFB-Pokal)",
     "stage": "2. runda",
     "odds": {
@@ -1492,7 +1504,12 @@
       "Mainz 1,75 (57% z kursu) – seria wyjazdowa i słabość Bochum u siebie przemawiają za Mainz, ale brak 3 graczy i historia pucharowa (Bochum 2/2) – szacunek ok. 56–58%, EV ≈ 0",
       "Poniżej 2,5 po 2,35 (43%) – szacunek ok. 45%, przewaga zbyt mała"
      ]
-    }
+    },
+    "score": [
+     2,
+     0
+    ],
+    "notes": "Awans: VfL Bochum. Gole po przerwie (samobój Kaishu Sano po strzale Rasmussena; Hofmann)."
    },
    {
     "id": "CUP-DFB-2026-10-27-SGSONNENHO-AUG",
@@ -1500,7 +1517,7 @@
     "time": "18:00",
     "home": "DE-SGSONNENHO",
     "away": "DE-AUG",
-    "status": "ns",
+    "status": "ft",
     "comp": "Puchar Niemiec (DFB-Pokal)",
     "stage": "2. runda",
     "odds": {
@@ -1522,7 +1539,12 @@
       "Powyżej 3,5 gola po 2,00 (50%) – obie obrony bardzo słabe, ale szacunek ok. 48–51%, EV ≈ 0",
       "Augsburg 1,35 – w kryzysie, kurs bez wartości"
      ]
-    }
+    },
+    "score": [
+     2,
+     4
+    ],
+    "notes": "Awans: FC Augsburg."
    },
    {
     "id": "CUP-DFB-2026-10-27-ROTWEISSES-RBL",
@@ -1530,7 +1552,7 @@
     "time": "18:00",
     "home": "DE-ROTWEISSES",
     "away": "DE-RBL",
-    "status": "ns",
+    "status": "ft",
     "comp": "Puchar Niemiec (DFB-Pokal)",
     "stage": "2. runda",
     "odds": {
@@ -1575,7 +1597,12 @@
      ],
      "value": "Fair kurs ok. 1,75; grać tylko przy kursie ≥ 1,85",
      "stake": "1% bankrollu"
-    }
+    },
+    "score": [
+     1,
+     2
+    ],
+    "notes": "Awans: RB Lipsk. Dwa gole Christopha Baumgartnera (78', 82'); Nicolas Seiwald (RB Lipsk) z czerwoną kartką w 44' (druga żółta)."
    },
    {
     "id": "CUP-DFB-2026-10-27-HSV-EIN",
@@ -1583,7 +1610,7 @@
     "time": "18:00",
     "home": "DE-HSV",
     "away": "DE-EIN",
-    "status": "ns",
+    "status": "ft",
     "comp": "Puchar Niemiec (DFB-Pokal)",
     "stage": "2. runda",
     "odds": {
@@ -1618,7 +1645,12 @@
       "Poniżej 2,5 (2,48) / poniżej 3,25 (1,75) pasują do historii H2H i słabej ofensywy HSV, ale rynek (BTTS tak 1,44) mocno wskazuje na bramki, a dane o formie Eintrachtu w źródłach są sprzeczne",
       "Zbyt duża niepewność co do składu HSV (6 nieobecnych) i rotacji – NO BET"
      ]
-    }
+    },
+    "score": [
+     1,
+     3
+    ],
+    "notes": "Awans: Eintracht Frankfurt."
    },
    {
     "id": "CUP-CDR-2026-10-27-CUARTEINDU-GIRONA",

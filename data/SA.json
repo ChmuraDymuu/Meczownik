@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-27T05:56:36+01:00",
+ "updated": "2026-10-27T20:45:00+01:00",
  "season": "2026/27",
  "competition": "Serie A",
  "currentRound": 9,
@@ -4555,7 +4555,7 @@
     "time": "18:30",
     "home": "SAS",
     "away": "LAZ",
-    "status": "ns",
+    "status": "ft",
     "odds": {
      "src": "Betfred/William Hill/Matchbook wg thefootballfaithful (26.10, 20:44); X2/12 – Snai wg commentierecensioni; over 2,5 – Tuttosport (1,65)",
      "1": 3.1,
@@ -4655,7 +4655,75 @@
       "name": "Aureliano",
       "nat": "ITA"
      }
-    ]
+    ],
+    "score": [
+     2,
+     6
+    ],
+    "events": [
+     {
+      "m": 2,
+      "t": "goal",
+      "s_": "a",
+      "who": "Kenneth Taylor"
+     },
+     {
+      "m": 7,
+      "t": "goal",
+      "s_": "h",
+      "who": "Kristian Thorstvedt",
+      "as": "Doig"
+     },
+     {
+      "m": 13,
+      "t": "goal",
+      "s_": "a",
+      "who": "Gustav Isaksen",
+      "as": "Zaccagni"
+     },
+     {
+      "m": 18,
+      "t": "goal",
+      "s_": "a",
+      "who": "Romano Floriani Mussolini",
+      "as": "Taylor"
+     },
+     {
+      "m": 31,
+      "t": "rc",
+      "s_": "h",
+      "who": "Kristian Thorstvedt"
+     },
+     {
+      "m": 43,
+      "t": "goal",
+      "s_": "h",
+      "who": "Sebastiano Esposito",
+      "as": "Cinquegrano"
+     },
+     {
+      "m": 46,
+      "t": "goal",
+      "s_": "a",
+      "who": "Mattia Zaccagni",
+      "as": "Isaksen"
+     },
+     {
+      "m": 56,
+      "t": "goal",
+      "s_": "a",
+      "who": "Tijjani Noslin",
+      "as": "Zaccagni"
+     },
+     {
+      "m": 62,
+      "t": "goal",
+      "s_": "a",
+      "who": "Tijjani Noslin",
+      "as": "Dele-Bashiru"
+     }
+    ],
+    "notes": "Sassuolo w dziesiątkę od 31'. W meczu zmarnowano dwa rzuty karne. Tabela zaktualizuje się przy porannej aktualizacji."
    },
    {
     "id": "SA-2026-27-R9-ROM-CAG",
