@@ -55,8 +55,8 @@ nav button.home svg{stroke-width:2}
 .score{display:grid;grid-template-columns:1fr auto 1fr;align-items:center;gap:10px;margin-top:10px}
 .team{display:flex;flex-direction:column;align-items:center;gap:6px;text-align:center;min-width:0}
 .crest{width:42px;height:42px;border-radius:50%;display:grid;place-items:center;font-family:var(--f-display);font-weight:800;font-size:16px;border:2px solid rgba(255,255,255,.7);color:#fff;flex:none}
-.team b{font-family:var(--f-display);font-weight:700;font-size:18px;text-transform:uppercase;letter-spacing:.02em;line-height:1.05}
-.nums{font-family:var(--f-display);font-weight:800;font-size:54px;line-height:1;font-variant-numeric:tabular-nums;letter-spacing:.02em;text-align:center}
+.team b{overflow-wrap:break-word;max-width:100%;font-family:var(--f-display);font-weight:700;font-size:clamp(13px,3.7vw,18px);text-transform:uppercase;letter-spacing:.02em;line-height:1.05}
+.nums{font-family:var(--f-display);font-weight:800;font-size:clamp(34px,10vw,54px);line-height:1;font-variant-numeric:tabular-nums;letter-spacing:.02em;text-align:center}
 .nums.ko{font-size:40px;opacity:.9}
 .status{display:flex;justify-content:center;gap:6px;margin-top:4px}
 .chip{font-family:var(--f-data);font-size:11px;padding:3px 7px;border-radius:3px;background:rgba(255,255,255,.14)}
@@ -237,6 +237,12 @@ select{width:100%;font:500 15px var(--f-body);padding:10px 12px;border-radius:8p
 .vs span:nth-child(2){color:var(--muted);text-align:center;font-size:12px}
 .vs b{font-family:var(--f-data);font-weight:600}
 .vs b:last-child,.vs .form:last-child{justify-self:end}
+.dist{display:grid;grid-template-columns:minmax(110px,auto) 1fr 44px;gap:10px;align-items:center;padding:9px 12px;border-top:1px solid var(--line);font-size:13px}
+.dist:first-child{border-top:0}
+.dist b{font-family:var(--f-data);font-weight:600;text-align:right}
+.dist.hit{background:color-mix(in srgb,var(--accent) 14%,transparent)}
+.dbar{height:10px;border-radius:5px;background:color-mix(in srgb,var(--fg) 8%,transparent);overflow:hidden}
+.dbar i{display:block;height:100%;border-radius:5px;max-width:100%}
 .method{font-size:12px;color:var(--muted);line-height:1.5}
 
 /* Typy */
@@ -729,7 +735,7 @@ const ICONS={
 const TABS=[["mecz","Mecz"],["sedzia","Sędziowie"],["sklady","Składy"],["przebieg","Przebieg"],["druzyny","Drużyny"],["gracz","Zawodnik"],["szanse","Szanse"]];
 ICONS.box='<rect x="4" y="4" width="16" height="16" rx="2"/><path d="M4 10h16M4 15h16M10 4v16"/>';
 ICONS.tabela='<path d="M5 6h14M5 12h14M5 18h14"/><circle cx="3" cy="6" r=".6"/><circle cx="3" cy="12" r=".6"/><circle cx="3" cy="18" r=".6"/>';
-const TABS_BB=[["mecz","Mecz"],["box","Box score"],["tabela","Tabela"],["szanse","Typ"]];
+const TABS_BB=[["mecz","Mecz"],["box","Box score"],["tabela","Tabela"],["szanse","Szanse"]];
 let tabsFor=null;
 function buildTabs(bb){
   if(tabsFor===bb) return; tabsFor=bb; const T=bb?TABS_BB:TABS;
@@ -1121,9 +1127,12 @@ const VB={
     return h?`<div class="panel" style="display:flex;flex-direction:column;gap:18px">${h}</div>`:empty("Brak tabeli. Pojawi się przy najbliższej porannej aktualizacji.");
   },
   szanse(){
-    const t=M.tip, o=M.odds;
+    const t=M.tip, o=M.odds, R=bbModel(M);
     let h=`<div class="panel" style="display:flex;flex-direction:column;gap:18px">`;
-    h+=t?`<section><h2>Analiza typu</h2>${tipCard(t,M)}</section>`:`<div class="card empty">Brak analizy dla tego meczu.</div>`;
+    if(R) h+=bbAnalysis(R);
+    else if(M.status.kind==="ns") h+=`<div class="card empty">Brak kursów bukmacherów, więc nie policzę szans.<br>Pojawią się przy porannej aktualizacji, gdy bukmacherzy wystawią linie.</div>`;
+    h+=bbForm();
+    if(t) h+=`<section><h2>${M.status.kind==="ns"?"Analiza typu":"Analiza typu (sprzed meczu)"}</h2>${tipCard(t,M)}</section>`;
     if(o){const f=v=>v!=null?Number(v).toFixed(2).replace(".",","):"—", sg=v=>v==null?"":(v>0?"+":"")+String(v).replace(".",",");
       const rows=[];
       if(o.ml1!=null||o.ml2!=null) rows.push(["Zwycięzca (z dogrywką) – "+M.home.short,f(o.ml1)],["Zwycięzca (z dogrywką) – "+M.away.short,f(o.ml2)]);
@@ -1132,9 +1141,60 @@ const VB={
       if(rows.length) h+=`<section><h2>Kursy</h2>${kv(rows.map(([k,v])=>[esc(k),`<span class="num">${v}</span>`]))}${o.src?`<p class="resp" style="text-align:left">${esc(o.src)}</p>`:""}</section>`;}
     const i=M.info;
     if(i&&i.b2b) h+=`<section><h2>Mecz dzień po dniu (back-to-back)</h2>${kv([[esc(M.home.short),i.b2b.home?"tak":"nie"],[esc(M.away.short),i.b2b.away?"tak":"nie"]])}</section>`;
-    return h+infoSection(M)+(t?RESP:"")+`</div>`;
+    h+=infoSection(M)+RESP;
+    if(R) h+=`<p class="method">Jak to liczę: szanse na zwycięstwo z kursów bukmacherów po odjęciu marży (albo z handicapu, gdy brak kursów na zwycięzcę). Oczekiwane punkty z linii handicapu i sumy punktów. Rozkłady zakładają, że różnica punktów waha się wokół linii z odchyleniem ok. ${BB_SD_M} pkt, a suma ok. ${BB_SD_T} pkt (typowe wartości dla NBA). To wycena rynku, nie pewnik.</p>`;
+    return h+`</div>`;
   }
 };
+/* ---------- Koszykówka: szanse z linii bukmacherskich ---------- */
+const BB_SD_M=13, BB_SD_T=18;
+const ncdf=x=>{const t=1/(1+0.3275911*Math.abs(x)/Math.SQRT2),y=1-(((((1.061405429*t-1.453152027)*t)+1.421413741)*t-0.284496736)*t+0.254829592)*t*Math.exp(-x*x/2);return x>=0?(1+y)/2:(1-y)/2};
+function bbModel(m){
+  const o=m.odds; if(!o) return null;
+  const sp=typeof o.spread==="number"?o.spread:null, tot=typeof o.total==="number"?o.total:null;
+  let pH=null, src="";
+  if(o.ml1>1&&o.ml2>1){const a=1/o.ml1,b=1/o.ml2;pH=a/(a+b);src="z kursów na zwycięzcę po odjęciu marży";}
+  else if(sp!=null){pH=ncdf(-sp/BB_SD_M);src="z linii handicapu";}
+  else if(o.ml1>1){pH=Math.min(.97,1/o.ml1);src="z kursu na gospodarzy";}
+  else if(o.ml2>1){pH=1-Math.min(.97,1/o.ml2);src="z kursu na gości";}
+  if(pH==null) return null;
+  const mu=sp!=null?-sp:BB_SD_M*Math.SQRT2*erfinv(2*pH-1); // oczekiwana przewaga gospodarzy
+  return {pH,pA:1-pH,src,mu,tot,eh:tot!=null?(tot+mu)/2:null,ea:tot!=null?(tot-mu)/2:null};
+}
+function erfinv(x){const a=0.147,l=Math.log(1-x*x),b=2/(Math.PI*a)+l/2;return Math.sign(x)*Math.sqrt(Math.sqrt(b*b-l/a)-b)}
+const pM=(lo,hi,R)=>ncdf((hi-R.mu)/BB_SD_M)-ncdf((lo-R.mu)/BB_SD_M);
+function bbAnalysis(R){
+  const k=M.status.kind, sc=M.score, H=esc(M.home.short), A=esc(M.away.short), num=v=>String(Math.round(v*10)/10).replace(".",",");
+  let note=`Wg bukmacherów (${R.src}), z dogrywką.`;
+  if(k==="ft"&&sc){const p=sc[0]>sc[1]?R.pH:R.pA;note=`Wynik ${sc[0]}:${sc[1]} miał przed meczem ${pc(p)} szans${p<0.3?" — to była niespodzianka.":"."}`;}
+  let h=`<section><h2>${k==="ns"?"Szanse na zwycięstwo":"Szanse przed meczem"}</h2><div class="card prob">
+    <div class="lbls" style="grid-template-columns:1fr 1fr"><span>${esc(M.home.name)}</span><span style="text-align:right">${esc(M.away.name)}</span></div>
+    <div class="pcts" style="grid-template-columns:1fr 1fr"><b style="color:var(--home)">${pc(R.pH)}</b><b style="text-align:right;font-size:34px;color:var(--away)">${pc(R.pA)}</b></div>
+    <div class="pbar" role="img" aria-label="Wygrana ${esc(M.home.name)} ${pc(R.pH)}, wygrana ${esc(M.away.name)} ${pc(R.pA)}"><i style="flex:${R.pH};background:${M.home.col}"></i><i style="flex:${R.pA};background:${M.away.col}"></i></div>
+    <small>${note}</small></div></section>`;
+  if(R.tot!=null) h+=`<section><h2>Oczekiwane punkty (rynek)</h2><div class="tiles">${tile(H,num(R.eh))}${tile("Razem",num(R.tot))}${tile(A,num(R.ea))}</div>${k==="ft"&&sc?`<p class="method" style="margin:6px 2px 0">Faktycznie: ${H} ${sc[0]}, ${A} ${sc[1]}, razem ${sc[0]+sc[1]} pkt.</p>`:""}</section>`;
+  const close=pM(-5.5,5.5,R), b10h=1-ncdf((10.5-R.mu)/BB_SD_M), b10a=ncdf((-10.5-R.mu)/BB_SD_M);
+  h+=`<section><h2>Inne zdarzenia</h2><div class="tiles">${tile("Mecz na styk (≤5 pkt)",pc(close))}${tile(H+" wygra 11+",pc(b10h))}${tile(A+" wygra 11+",pc(b10a))}</div></section>`;
+  const B=[[A+" wygra 11+",-1e9,-10.5,"a"],[A+" wygra 6–10",-10.5,-5.5,"a"],[A+" wygra 1–5",-5.5,0,"a"],[H+" wygra 1–5",0,5.5,"h"],[H+" wygra 6–10",5.5,10.5,"h"],[H+" wygra 11+",10.5,1e9,"h"]];
+  const act=k==="ft"&&sc?sc[0]-sc[1]:null;
+  const rows=B.map(([l,lo,hi,s])=>{const v=pM(lo,hi,R),hit=act!=null&&act>lo&&act<=hi||(act!=null&&lo===-1e9&&act<=hi);return `<div class="dist${hit?" hit":""}"><span>${l}${hit?" ✓":""}</span><div class="dbar"><i style="width:${Math.round(v*100/0.45*100)/100}%;background:${s==="h"?M.home.col:M.away.col}"></i></div><b>${pc(v)}</b></div>`}).join("");
+  h+=`<section><h2>Różnica punktów${act!=null?" · faktycznie "+(act>0?H+" +"+act:A+" +"+(-act)):""}</h2><div class="card">${rows}</div></section>`;
+  if(R.tot!=null){const L=[-15,-7.5,0,7.5,15].map(d=>R.tot+d);
+    h+=`<section><h2>Suma punktów${k==="ft"&&sc?" · faktycznie "+(sc[0]+sc[1]):""}</h2><div class="tiles" style="grid-template-columns:repeat(5,1fr)">${L.map(x=>tile("Ponad "+num(x),pc(1-ncdf((x-R.tot)/BB_SD_T)))).join("")}</div></section>`;}
+  return h;
+}
+function bbForm(){
+  const S=(DATA&&DATA.standings)||{}, find=id=>{for(const [c,L] of Object.entries(S)){const i=L.findIndex(r=>r.team===id);if(i>=0)return {c,pos:i+1,r:L[i]}}return null};
+  const a=find(M.home.id), b=find(M.away.id); if(!a&&!b) return "";
+  const cn=x=>x?(x.c==="E"?"Wsch.":"Zach."):"", g=(x,f)=>x?f(x):"—", strk=s=>{const n=parseInt(String(s||"").slice(1));if(!s||!n)return "—";const w=s[0]==="W";return `<span style="color:${w?"#2f8a52":"var(--red)"}">${n} ${w?(n===1?"wygrana":n<5?"wygrane":"wygranych"):(n===1?"porażka":n<5?"porażki":"porażek")}</span>`};
+  return `<section><h2>Forma i tabela</h2><div class="card">
+    <div class="vs"><b>${g(a,x=>x.pos+". "+cn(x))}</b><span>Miejsce w konferencji</span><b>${g(b,x=>x.pos+". "+cn(x))}</b></div>
+    <div class="vs"><b>${g(a,x=>x.r.w+"-"+x.r.l)}</b><span>Bilans</span><b>${g(b,x=>x.r.w+"-"+x.r.l)}</b></div>
+    <div class="vs"><b>${g(a,x=>esc(dash(x.r.home)))}</b><span>${esc(M.home.short)} u siebie · ${esc(M.away.short)} na wyjeździe</span><b>${g(b,x=>esc(dash(x.r.away)))}</b></div>
+    <div class="vs"><b>${g(a,x=>esc(dash(x.r.l10)))}</b><span>Ostatnie 10</span><b>${g(b,x=>esc(dash(x.r.l10)))}</b></div>
+    <div class="vs"><b>${g(a,x=>strk(x.r.strk))}</b><span>Seria</span><b>${g(b,x=>strk(x.r.strk))}</b></div>
+  </div></section>`;
+}
 function matchRow(f,lg){
       const m=getMatch(f), [gh,ga]=scoreOf(m);
       const rcH=m.events.some(e=>e.t==="rc"&&e.s_==="h"), rcA=m.events.some(e=>e.t==="rc"&&e.s_==="a");
