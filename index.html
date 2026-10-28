@@ -653,7 +653,7 @@ try{const s=JSON.parse(localStorage.getItem("meczownik2")||"{}");["filter","leag
 const save=()=>{try{localStorage.setItem("meczownik2",JSON.stringify({filter:state.filter,league:state.ret||state.league,fold:state.fold}))}catch(e){}};
 const SAMPLE={teams:TEAMS,fixtures:FIXTURES}, LD={};
 function fetchJSON(u){return fetch(u+"?v="+Date.now()).then(r=>r.ok?r.json():Promise.reject(r.status))}
-function fetchLeague(c){return fetchJSON(`data/${c}.json`).catch(()=>c==="EKS"?fetchJSON("data.json"):Promise.reject()).catch(()=>null)}
+function fetchLeague(c){return fetchJSON(`data/${c}.json`).catch(()=>c==="EKS"?fetchJSON("data.json"):c==="TEN"?tennisFromESPN().then(d=>d||Promise.reject()):Promise.reject()).catch(()=>null)}
 function applyLeague(c){
   const d=LD[c]; for(const k in CACHE) delete CACHE[k];
   if(d&&d!=="loading"){ try{loadReal(d);return}catch(e){} }
@@ -1713,6 +1713,37 @@ $("#view").addEventListener("input",e=>{const i=e.target.closest("[data-myodds]"
   if(v>1) MYODDS[i.dataset.myodds]=v; else delete MYODDS[i.dataset.myodds];
   const box=document.getElementById("vbox-"+i.dataset.myodds), t=tipOf(M); if(box&&t) box.innerHTML=valueBody(t,M);});
 TODAY=new Date().toLocaleDateString("sv-SE",{timeZone:"Europe/Warsaw"});
+/* ---------- Tenis bez pliku danych: terminarz i wyniki prosto z ESPN (bez kursów i typów) ---------- */
+const plRound=r=>{if(!r) return null; if(/qualif/i.test(r)) return "Kwalifikacje"; const M=[[/round of 128/i,"1/64 finału"],[/round of 64/i,"1/32 finału"],[/round of 32/i,"1/16 finału"],[/round of 16/i,"1/8 finału"],[/quarter/i,"Ćwierćfinał"],[/semi/i,"Półfinał"],[/^final/i,"Finał"],[/round robin|group/i,"Faza grupowa"],[/1st round/i,"1. runda"],[/2nd round/i,"2. runda"],[/3rd round/i,"3. runda"],[/4th round/i,"4. runda"]]; const f=M.find(([re])=>re.test(r)); return f?f[1]:r;};
+async function tennisFromESPN(){
+  const day=d=>new Date(d).toLocaleDateString("sv-SE",{timeZone:"Europe/Warsaw"}), hm=d=>new Date(d).toLocaleTimeString("pl-PL",{timeZone:"Europe/Warsaw",hour:"2-digit",minute:"2-digit"});
+  const plus=n=>{const d=new Date(TODAY+"T12:00:00");d.setDate(d.getDate()+n);return d.toLocaleDateString("sv-SE")}, from=plus(-1), to=plus(2);
+  const teams={}, days={}, seen=new Set(), COLS=["#1f4e79","#8b1c1c","#2f6b3a","#6b3fa0","#a35b12","#0a5c6b","#7a2848","#3d4f7a"];
+  const pid=a=>{const n=(a&&(a.displayName||a.fullName))||"?", k=fold(n).replace(/[^a-z]/g,"").toUpperCase()||"X";
+    if(!teams[k]){const sur=n.split(" ").pop(); teams[k]={id:k,short:fold(sur).replace(/[^a-z]/g,"").slice(0,3).toUpperCase()||"???",name:n,city:(a&&a.flag&&a.flag.alt)||"",col:COLS[[...k].reduce((s,c)=>s+c.charCodeAt(0),0)%COLS.length]};} return k;};
+  let any=false;
+  for(const tour of ["atp","wta"]){
+    let j=null; try{const r=await fetch(ESPN+"tennis/"+tour+"/scoreboard",{cache:"no-store"}); if(r.ok){j=await r.json(); any=true;}}catch(_){}
+    if(!j) continue;
+    for(const ev of j.events||[]) for(const g of ev.groupings||[]){
+      if(!/singles/i.test((g.grouping&&(g.grouping.slug||g.grouping.displayName))||"")) continue;
+      for(const c of g.competitions||[]){
+        if(!c.date||seen.has(c.id)) continue; const d=day(c.date); if(d<from||d>to) continue; seen.add(c.id);
+        const C=c.competitors||[]; if(C.length!==2) continue;
+        const H=C.find(x=>x.homeAway==="home")||C.find(x=>x.order===1)||C[0], A=C.find(x=>x!==H);
+        if(!(H.athlete&&A.athlete)) continue;
+        const st=(c.status&&c.status.type)||{}, x={id:"TEN-ESPN-"+c.id,date:d,time:hm(c.date),home:pid(H.athlete),away:pid(A.athlete),status:"ns",
+          comp:(tour==="atp"?"ATP ":"WTA ")+(ev.shortName||ev.name||""),stage:plRound(c.round&&c.round.displayName),bestOf:ev.major&&tour==="atp"?5:3,court:c.venue&&c.venue.court||null};
+        if(st.state==="in"||st.state==="post"){ liveApply("TEN",x,{state:st.state,name:st.name||"",h:H,a:A},false); delete x.liveSrc; }
+        if(/POSTPON|CANCEL/.test(st.name||"")) x.status="pst";
+        (days[d]=days[d]||[]).push(x);
+      }
+    }
+  }
+  if(!any) return null;
+  return {sport:"tennis",updated:new Date().toISOString(),season:String(new Date().getFullYear()),competition:"Tenis",espn:true,
+    note:"Terminarz i wyniki na żywo z ESPN. Kursy, szanse i typy pojawią się po porannej aktualizacji.",teams,picks:[],days};
+}
 /* ---------- Wyniki na żywo (ESPN, pobierane przez przeglądarkę co minutę) ---------- */
 const ESPN="https://site.api.espn.com/apis/site/v2/sports/";
 const LIVE_SRC={EKS:["soccer/pol.1"],PL:["soccer/eng.1"],LL:["soccer/esp.1"],SA:["soccer/ita.1"],BL:["soccer/ger.1"],L1:["soccer/fra.1"],UCL:["soccer/uefa.champions"],
@@ -1747,7 +1778,7 @@ function liveApply(c,x,e,swap){
   x.liveSrc=true;
   if(ten){
     const L1=(H.linescores||[]).map(v=>v.value), L2=(A.linescores||[]).map(v=>v.value), n=Math.max(L1.length,L2.length);
-    x.sets=Array.from({length:n},(_,i)=>{const s=[+L1[i]||0,+L2[i]||0];const t1=(H.linescores[i]||{}).tiebreak,t2=(A.linescores[i]||{}).tiebreak;if(t1!=null||t2!=null)s.push(Math.min(...[t1,t2].filter(v=>v!=null)));return s;});
+    x.sets=Array.from({length:n},(_,i)=>{const s=[+L1[i]||0,+L2[i]||0];const t1=((H.linescores||[])[i]||{}).tiebreak,t2=((A.linescores||[])[i]||{}).tiebreak;if(t1!=null||t2!=null)s.push(Math.min(...[t1,t2].filter(v=>v!=null)));return s;});
     const done=e.state==="post"?x.sets:x.sets.slice(0,-1), won=s=>(s[0]>s[1]?1:0);
     x.score=[done.filter(s=>s[0]>s[1]).length,done.filter(s=>s[1]>s[0]).length];
     if(e.state==="post"&&H.winner===false&&A.winner===false) x.score=[0,0];
