@@ -663,7 +663,7 @@ function loadLeague(c){
   if(LD[c]!==undefined&&LD[c]!=="loading") return Promise.resolve(LD[c]);
   if(LD["_p"+c]) return LD["_p"+c];
   LD[c]="loading";
-  return LD["_p"+c]=fetchLeague(c).then(x=>{LD[c]=x; delete LD["_p"+c]; try{recordTips(c,x)}catch(e){} if(x) setTimeout(()=>leagueOdds(c),0); return x;});
+  return LD["_p"+c]=fetchLeague(c).then(x=>{LD[c]=x; delete LD["_p"+c]; try{applyLockedTips(c,x)}catch(e){} try{recordTips(c,x)}catch(e){} if(x) setTimeout(()=>leagueOdds(c),0); return x;});
 }
 function activate(c){
   state.league=c; state.filter="all"; state.comp="all"; state.ret=null; state.retTeam=null; save();
@@ -1792,7 +1792,7 @@ async function leagueOdds(c,force){
   const d=LD[c]; if(!OKEY||!d||d==="loading"||!(c in OSPORT)||OSTAT.busy[c]) return; OSTAT.busy[c]=true;
   try{
     const now=Date.now(), all=d.days?Object.values(d.days).flat():d.rounds?Object.values(d.rounds).flat():[];
-    const list=all.filter(x=>x&&(x.status==="ns"||x.status==="live")&&x.date&&/^\d{1,2}:\d{2}$/.test(x.time||"")).filter(x=>{const t=warsawToUTC(x.date,x.time).getTime();return t>now-3*3600e3&&t<now+4*86400e3;});
+    const list=all.filter(x=>x&&x.status==="ns"&&x.date&&/^\d{1,2}:\d{2}$/.test(x.time||"")).filter(x=>{const t=warsawToUTC(x.date,x.time).getTime();return t>now&&t<now+4*86400e3;}); // tylko przed meczem — kursy na żywo nie nadają się do wyceny
     if(!list.length) return;
     const active=await oddsSports();
     let keys;
@@ -1823,11 +1823,21 @@ async function leagueOdds(c,force){
       x.mkt=mk; ch=true;
       if(!x.odds||x.odds.api){ x.odds={api:true,src:mk.src,...mk.avg}; if(mk.pin) x.odds.pin=mk.pin; }
       else if(mk.pin&&!x.odds.pin) x.odds.pin=mk.pin;
-      if(c==="TEN"&&(!x.tip||x.tip.auto)) x.tip=autoValueTip(x,mk,hn,an,c);
+      if(c==="TEN"&&(!x.tip||x.tip.auto)&&!(x.tip&&x.tip.decision==="BET")){ x.tip=autoValueTip(x,mk,hn,an,c); if(x.tip&&x.tip.decision==="BET") lockTip(x); }
     }
     if(ch){ try{recordTips(c,d)}catch(e){} liveRefresh(); }
   }catch(e){ OSTAT.err=e.message||String(e); }
   finally{ OSTAT.busy[c]=false; OSTAT.at=Date.now(); }
+}
+// Typ automatyczny raz wystawiony zostaje bez zmian (kurs i strona) — inaczej skakałby za każdym ruchem kursów
+function lockTip(x){ const L=okLS("meczownik-autotips")||{}; L[x.id]={...x.tip,date:x.date}; const lim=Object.keys(L).sort((a,b)=>(L[a].date||"").localeCompare(L[b].date||"")); while(lim.length>300) delete L[lim.shift()]; okLS("meczownik-autotips",L); }
+function applyLockedTips(c,d){
+  if(c!=="TEN"||!d||!d.days) return; const L=okLS("meczownik-autotips")||{};
+  for(const x of Object.values(d.days).flat()){ if(!x||(x.tip&&!x.tip.auto)) continue;
+    if(L[x.id]){ const {date,...t}=L[x.id]; x.tip=t; continue; }
+    const h=HIST["TEN|"+x.id]; // typ zapisany w historii przed tą poprawką
+    if(h&&h.market&&h.odds) x.tip={decision:"BET",auto:true,market:h.market,odds:h.odds,rating:h.rating||6,pm:h.pm0,prob:h.pm0,reasons:["Typ automatyczny z porównania kursów, wystawiony przed meczem."]};
+  }
 }
 function marketFromBooks(e,swap,c){
   const H=swap?e.away_team:e.home_team, A=swap?e.home_team:e.away_team, rows=[];
