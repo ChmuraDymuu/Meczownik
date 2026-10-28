@@ -1774,9 +1774,10 @@ async function liveTick(force){
     const now=Date.now();
     for(const c of DATA_LEAGUES){
       const d=LD[c]; if(!d||d==="loading"||!LIVE_SRC[c]) continue;
-      const ten=c==="TEN", bb=c==="NBA", win=ten?6:bb?3.5:2.6;
+      const ten=c==="TEN", bb=c==="NBA";
       const list=(d.days?Object.values(d.days).flat():d.rounds?Object.values(d.rounds).flat():[]).filter(x=>x&&(x.status==="ns"||x.status==="live"||(x.liveSrc&&x.status!=="ft"&&x.status!=="ret"&&x.status!=="wo"))&&x.date&&/^\d{1,2}:\d{2}$/.test(x.time||""));
-      const need=list.filter(x=>{const t=warsawToUTC(x.date,x.time).getTime();return x.status==="live"||(now>t-10*60e3&&now<t+win*3600e3);});
+      // trwające, zaczynające się za chwilę i te, które już się odbyły, ale w danych nie mają jeszcze wyniku (do 2 dni wstecz)
+      const need=list.filter(x=>{const t=warsawToUTC(x.date,x.time).getTime();return x.status==="live"||(now>t-10*60e3&&now<t+48*3600e3);});
       if(!need.length) continue;
       const dates=[...new Set(need.flatMap(x=>{const t=warsawToUTC(x.date,x.time);return [ymd(t),ymd(new Date(t.getTime()-5*3600e3))];}))];
       let evs=[];
