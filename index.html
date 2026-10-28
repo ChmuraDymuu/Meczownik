@@ -708,7 +708,7 @@ function recordTips(c,d){
   if(!d||typeof d!=="object") return;
   const list=d.days?Object.values(d.days).flat():d.rounds?Object.values(d.rounds).flat():[], bb=d.sport==="basketball", ten=d.sport==="tennis"; let ch=false;
   for(const x of list){
-    const t=x&&x.tip; if(!t||t.decision!=="BET"||!t.market) continue;
+    const t=x&&x.tip; if(!t||t.decision!=="BET"||!t.market||x.liveSrc) continue;
     const k=c+"|"+x.id, tm=id=>(d.teams&&d.teams[id])||{name:id,short:id}, h=tm(x.home), a=tm(x.away), old=HIST[k];
     if(old&&old.res&&old.res!=="?") continue;
     const e=old||{lg:c,id:x.id};
@@ -1713,6 +1713,102 @@ $("#view").addEventListener("input",e=>{const i=e.target.closest("[data-myodds]"
   if(v>1) MYODDS[i.dataset.myodds]=v; else delete MYODDS[i.dataset.myodds];
   const box=document.getElementById("vbox-"+i.dataset.myodds), t=tipOf(M); if(box&&t) box.innerHTML=valueBody(t,M);});
 TODAY=new Date().toLocaleDateString("sv-SE",{timeZone:"Europe/Warsaw"});
+/* ---------- Wyniki na żywo (ESPN, pobierane przez przeglądarkę co minutę) ---------- */
+const ESPN="https://site.api.espn.com/apis/site/v2/sports/";
+const LIVE_SRC={EKS:["soccer/pol.1"],PL:["soccer/eng.1"],LL:["soccer/esp.1"],SA:["soccer/ita.1"],BL:["soccer/ger.1"],L1:["soccer/fra.1"],UCL:["soccer/uefa.champions"],
+  CUP:["soccer/pol.cup","soccer/eng.league_cup","soccer/ger.dfb_pokal","soccer/esp.copa_del_rey","soccer/ita.coppa_italia","soccer/fra.coupe_de_france","soccer/por.taca.liga","soccer/eng.fa"],
+  NBA:["basketball/nba"],TEN:["tennis/atp","tennis/wta"]};
+const LIVE={ok:null,at:0,busy:false};
+const LSTOP=new Set(["fc","cf","club","ac","as","afc","sc","sv","ssc","the","de","del","calcio","fk","ks","sk","cd","ud","rcd","1","1."]);
+const ltoks=s=>fold(s||"").replace(/[^a-z0-9 ]/g," ").split(/\s+/).filter(w=>w.length>=3&&!LSTOP.has(w));
+function lsim(our,names){ // podobieństwo nazw (Dice po tokenach, tokeny zgodne na pierwszych 4 literach)
+  const A=ltoks(our); let best=0;
+  for(const n of names){ const B=ltoks(n); if(!A.length||!B.length) continue;
+    const eq=(a,b)=>a===b||(a.length>=4&&b.length>=4&&a.slice(0,4)===b.slice(0,4));
+    const m=A.filter(a=>B.some(b=>eq(a,b))).length; best=Math.max(best,2*m/(A.length+B.length)); }
+  return best;
+}
+function espnEvents(j,ten){
+  const out=[], comps=[];
+  for(const ev of (j&&j.events)||[]){ if(ten) for(const g of ev.groupings||[]) for(const c of g.competitions||[]) comps.push(c); else for(const c of ev.competitions||[]) comps.push({...c,date:c.date||ev.date}); }
+  for(const c of comps){ const C=c.competitors||[]; if(C.length!==2) continue;
+    const h=C.find(x=>x.homeAway==="home")||C.find(x=>x.order===1)||C[0], a=C.find(x=>x!==h);
+    const nm=x=>ten?[x.athlete&&x.athlete.displayName,x.athlete&&x.athlete.fullName].filter(Boolean):[x.team&&x.team.displayName,x.team&&x.team.shortDisplayName,x.team&&x.team.name,x.team&&x.team.location].filter(Boolean);
+    const st=(c.status&&c.status.type)||{};
+    out.push({t:new Date(c.date).getTime(),h,a,hn:nm(h),an:nm(a),state:st.state,name:st.name||"",short:st.shortDetail||"",clock:c.status&&c.status.displayClock,period:c.status&&c.status.period,details:c.details||[]});
+  }
+  return out;
+}
+function liveApply(c,x,e,swap){
+  const ten=c==="TEN", bb=c==="NBA", H=swap?e.a:e.h, A=swap?e.h:e.a;
+  if(e.state!=="in"&&e.state!=="post") return false;
+  if(/POSTPON|CANCEL|SUSPEND|DELAY/.test(e.name)) return false;
+  const before=JSON.stringify([x.status,x.score,x.minute,x.sets,x.quarters,x.clock]);
+  x.liveSrc=true;
+  if(ten){
+    const L1=(H.linescores||[]).map(v=>v.value), L2=(A.linescores||[]).map(v=>v.value), n=Math.max(L1.length,L2.length);
+    x.sets=Array.from({length:n},(_,i)=>{const s=[+L1[i]||0,+L2[i]||0];const t1=(H.linescores[i]||{}).tiebreak,t2=(A.linescores[i]||{}).tiebreak;if(t1!=null||t2!=null)s.push(Math.min(...[t1,t2].filter(v=>v!=null)));return s;});
+    const done=e.state==="post"?x.sets:x.sets.slice(0,-1), won=s=>(s[0]>s[1]?1:0);
+    x.score=[done.filter(s=>s[0]>s[1]).length,done.filter(s=>s[1]>s[0]).length];
+    if(e.state==="post"&&H.winner===false&&A.winner===false) x.score=[0,0];
+    x.status=e.state==="in"?"live":/RETIRED|ABANDON/.test(e.name)?"ret":/WALKOVER/.test(e.name)?"wo":"ft"; x.set=n||1;
+  } else {
+    x.score=[+H.score||0,+A.score||0];
+    if(bb){ x.quarters={home:(H.linescores||[]).map(v=>+v.value||0),away:(A.linescores||[]).map(v=>+v.value||0)}; x.period=e.period>4?(e.period===5?"OT":"OT"+(e.period-4)):"Q"+(e.period||1); x.clock=e.clock||""; }
+    else {
+      const mm=/^(\d+)/.exec(e.clock||""); x.minute=/HT|half/i.test(e.short)?45:mm?+mm[1]:x.minute||1;
+      if(!(x.events&&x.events.length)||x.liveEv){ const hid=H.team&&H.team.id; x.liveEv=true;
+        x.events=e.details.filter(d=>d.scoringPlay||d.redCard).map(d=>{const cv=(d.clock&&d.clock.displayValue)||"",m=/(\d+)'?(?:\+(\d+))?/.exec(cv)||[0,0],s_=(d.team&&d.team.id)===hid?"h":"a",who=(d.athletesInvolved&&d.athletesInvolved[0]&&d.athletesInvolved[0].displayName)||"";
+          const o={m:+m[1]||0,s_,who}; if(m[2]) o.s="+"+m[2];
+          if(d.redCard&&!d.scoringPlay) o.t="rc"; else if(d.ownGoal) o.t="og"; else if(d.penaltyKick&&!d.shootout){o.t="pen";o.res="Gol";} else o.t="goal";
+          return d.shootout?null:o;}).filter(Boolean); }
+      if(e.state==="post"&&/AET|ET|PEN|Pens/i.test(e.short)&&!/dogryw/.test(x.notes||"")) x.notes=((x.notes||"")+" Wynik po dogrywce (na żywo).").trim();
+    }
+    x.status=e.state==="in"?"live":"ft";
+  }
+  return before!==JSON.stringify([x.status,x.score,x.minute,x.sets,x.quarters,x.clock]);
+}
+async function liveTick(force){
+  if(LIVE.busy||(document.hidden&&!force)) return; LIVE.busy=true; let changed=false;
+  try{
+    const now=Date.now();
+    for(const c of DATA_LEAGUES){
+      const d=LD[c]; if(!d||d==="loading"||!LIVE_SRC[c]) continue;
+      const ten=c==="TEN", bb=c==="NBA", win=ten?6:bb?3.5:2.6;
+      const list=(d.days?Object.values(d.days).flat():d.rounds?Object.values(d.rounds).flat():[]).filter(x=>x&&(x.status==="ns"||x.status==="live"||(x.liveSrc&&x.status!=="ft"&&x.status!=="ret"&&x.status!=="wo"))&&x.date&&/^\d{1,2}:\d{2}$/.test(x.time||""));
+      const need=list.filter(x=>{const t=warsawToUTC(x.date,x.time).getTime();return x.status==="live"||(now>t-10*60e3&&now<t+win*3600e3);});
+      if(!need.length) continue;
+      const dates=[...new Set(need.flatMap(x=>{const t=warsawToUTC(x.date,x.time);return [ymd(t),ymd(new Date(t.getTime()-5*3600e3))];}))];
+      let evs=[];
+      for(const src of LIVE_SRC[c]) for(const q of ten?[""]:dates){
+        try{ const r=await fetch(ESPN+src+"/scoreboard"+(q?"?dates="+q:""),{cache:"no-store"}); if(!r.ok) continue; evs=evs.concat(espnEvents(await r.json(),ten)); LIVE.ok=true; }catch(_){ if(LIVE.ok==null) LIVE.ok=false; }
+      }
+      for(const x of need){
+        const t=warsawToUTC(x.date,x.time).getTime(), hn=(d.teams[x.home]||{}).name||x.home, an=(d.teams[x.away]||{}).name||x.away;
+        let best=null;
+        for(const e of evs){ if(Math.abs(e.t-t)>(ten?14:bb?3:1.7)*3600e3) continue;
+          const s1=lsim(hn,e.hn), s2=lsim(an,e.an), r1=lsim(hn,e.an), r2=lsim(an,e.hn);
+          const k=Math.min(s1,s2)>=0.3?{e,sc:s1+s2,swap:false}:Math.min(r1,r2)>=0.3?{e,sc:r1+r2,swap:true}:null;
+          if(k&&k.sc>=0.8&&(!best||k.sc>best.sc)) best=k; }
+        if(best&&liveApply(c,x,best.e,best.swap)) changed=true;
+      }
+    }
+  }finally{ LIVE.busy=false; LIVE.at=Date.now(); }
+  if(changed) liveRefresh();
+}
+const ymd=d=>d.toISOString().slice(0,10).replace(/-/g,"");
+function liveRefresh(){
+  const a=document.activeElement; if(a&&/INPUT|SELECT|TEXTAREA/.test(a.tagName)) return;
+  const sc=$("#main").scrollTop;
+  if(state.view==="match"&&M){ if(!PSEUDO.includes(state.league)){ applyLeague(state.league); const f=allFx().find(f=>f.id===M.id); if(f){ M=getMatch(f); G=goalsOf(M); } } renderMatch(); }
+  else if(state.view==="home"){ if(!PSEUDO.includes(state.league)) applyLeague(state.league); renderHome(); }
+  else return;
+  $("#main").scrollTop=sc;
+}
+setInterval(()=>liveTick(),60000);
+setTimeout(()=>liveTick(true),2500);
+document.addEventListener("visibilitychange",()=>{ if(!document.hidden&&Date.now()-LIVE.at>30000) liveTick(); });
+
 (()=>{ const h=/^#m=([^/]+)\/(.+)$/.exec(location.hash); if(h){ const lg=decodeURIComponent(h[1]); try{history.replaceState(null,"",location.pathname+location.search)}catch(e){}
   if(DATA_LEAGUES.includes(lg)){ state.pending=decodeURIComponent(h[2]); activate(lg); return; } }
   activate(state.league); })();
