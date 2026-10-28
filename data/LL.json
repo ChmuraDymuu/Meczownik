@@ -1,6410 +1,6528 @@
 {
-"updated": "2026-10-27T05:36:07+01:00",
-"season": "2026/27",
-"competition": "LaLiga",
-"currentRound": 11,
-"note": "Źródła: futboltotal.futbol (protokoły i statystyki meczów 25–26.10), laliga.com (tabela po 10. kol., terminarz 11. kol.), Infobae/EFE (terminarz 12. kol.), comuniate.com (absencje, H2H), Wincomparator/Oddslot/Gidstats (kursy VIL–ESP); wcześniej: FotMob, footballwebpages, SportyTrader, EFE, COPE, realmadrid.com.",
-"teams": {
-"ALA": {
-"id": "ALA",
-"short": "ALA",
-"name": "Deportivo Alavés",
-"city": "Vitoria-Gasteiz",
-"col": "#0b3d91",
-"stadium": "Mendizorroza"
-},
-"ATH": {
-"id": "ATH",
-"short": "ATH",
-"name": "Athletic Bilbao",
-"city": "Bilbao",
-"col": "#a50f1a",
-"stadium": "San Mamés"
-},
-"ATM": {
-"id": "ATM",
-"short": "ATM",
-"name": "Atlético Madryt",
-"city": "Madryt",
-"col": "#a3192f",
-"stadium": "Riyadh Air Metropolitano"
-},
-"BAR": {
-"id": "BAR",
-"short": "BAR",
-"name": "FC Barcelona",
-"city": "Barcelona",
-"col": "#7a1035",
-"stadium": "Spotify Camp Nou"
-},
-"BET": {
-"id": "BET",
-"short": "BET",
-"name": "Real Betis",
-"city": "Sewilla",
-"col": "#00703c",
-"stadium": "Estadio La Cartuja"
-},
-"CEL": {
-"id": "CEL",
-"short": "CEL",
-"name": "Celta Vigo",
-"city": "Vigo",
-"col": "#3b7fb6",
-"stadium": "Balaídos"
-},
-"DEP": {
-"id": "DEP",
-"short": "DEP",
-"name": "Deportivo La Coruña",
-"city": "A Coruña",
-"col": "#1b4f9c",
-"stadium": "Riazor"
-},
-"ELC": {
-"id": "ELC",
-"short": "ELC",
-"name": "Elche CF",
-"city": "Elche",
-"col": "#0f6b3a",
-"stadium": "Martínez Valero"
-},
-"ESP": {
-"id": "ESP",
-"short": "ESP",
-"name": "Espanyol",
-"city": "Cornellà de Llobregat",
-"col": "#0d4ea0",
-"stadium": "RCDE Stadium"
-},
-"GET": {
-"id": "GET",
-"short": "GET",
-"name": "Getafe CF",
-"city": "Getafe",
-"col": "#1f3f8f",
-"stadium": "Coliseum"
-},
-"LEV": {
-"id": "LEV",
-"short": "LEV",
-"name": "Levante UD",
-"city": "Walencja",
-"col": "#8a1538",
-"stadium": "Ciutat de València"
-},
-"MAL": {
-"id": "MAL",
-"short": "MAL",
-"name": "Málaga CF",
-"city": "Málaga",
-"col": "#1d4e9e",
-"stadium": "La Rosaleda"
-},
-"OSA": {
-"id": "OSA",
-"short": "OSA",
-"name": "Osasuna",
-"city": "Pampeluna",
-"col": "#9e1b32",
-"stadium": "El Sadar"
-},
-"RAC": {
-"id": "RAC",
-"short": "RAC",
-"name": "Racing Santander",
-"city": "Santander",
-"col": "#0d6b3c",
-"stadium": "El Sardinero"
-},
-"RAY": {
-"id": "RAY",
-"short": "RAY",
-"name": "Rayo Vallecano",
-"city": "Madryt",
-"col": "#c8102e",
-"stadium": "Estadio de Vallecas"
-},
-"RMA": {
-"id": "RMA",
-"short": "RMA",
-"name": "Real Madryt",
-"city": "Madryt",
-"col": "#3a2a6e",
-"stadium": "Santiago Bernabéu"
-},
-"RSO": {
-"id": "RSO",
-"short": "RSO",
-"name": "Real Sociedad",
-"city": "San Sebastián",
-"col": "#0b4b9a",
-"stadium": "Reale Arena"
-},
-"SEV": {
-"id": "SEV",
-"short": "SEV",
-"name": "Sevilla FC",
-"city": "Sewilla",
-"col": "#b3122b",
-"stadium": "Ramón Sánchez-Pizjuán"
-},
-"VAL": {
-"id": "VAL",
-"short": "VAL",
-"name": "Valencia CF",
-"city": "Walencja",
-"col": "#2b2b2b",
-"stadium": "Mestalla"
-},
-"VIL": {
-"id": "VIL",
-"short": "VIL",
-"name": "Villarreal CF",
-"city": "Vila-real",
-"col": "#b58b00",
-"stadium": "Estadio de la Cerámica"
-}
-},
-"table": [
-{
-"team": "BAR",
-"p": 10,
-"w": 9,
-"d": 0,
-"l": 1,
-"gf": 40,
-"ga": 11,
-"pts": 27,
-"form": "WWWWL"
-},
-{
-"team": "ATM",
-"p": 10,
-"w": 8,
-"d": 1,
-"l": 1,
-"gf": 20,
-"ga": 8,
-"pts": 25,
-"form": "WWWWW"
-},
-{
-"team": "RMA",
-"p": 10,
-"w": 8,
-"d": 0,
-"l": 2,
-"gf": 25,
-"ga": 10,
-"pts": 24,
-"form": "WLWWW"
-},
-{
-"team": "BET",
-"p": 10,
-"w": 6,
-"d": 2,
-"l": 2,
-"gf": 16,
-"ga": 14,
-"pts": 20,
-"form": "WDWLD"
-},
-{
-"team": "RSO",
-"p": 10,
-"w": 6,
-"d": 1,
-"l": 3,
-"gf": 19,
-"ga": 18,
-"pts": 19,
-"form": "LWWWW"
-},
-{
-"team": "SEV",
-"p": 10,
-"w": 5,
-"d": 2,
-"l": 3,
-"gf": 16,
-"ga": 16,
-"pts": 17,
-"form": "WLDLW"
-},
-{
-"team": "ALA",
-"p": 10,
-"w": 3,
-"d": 3,
-"l": 4,
-"gf": 14,
-"ga": 11,
-"pts": 12,
-"form": "LDLLD"
-},
-{
-"team": "ATH",
-"p": 9,
-"w": 3,
-"d": 3,
-"l": 3,
-"gf": 12,
-"ga": 9,
-"pts": 12,
-"form": "DDDLW"
-},
-{
-"team": "CEL",
-"p": 10,
-"w": 2,
-"d": 6,
-"l": 2,
-"gf": 10,
-"ga": 7,
-"pts": 12,
-"form": "DWDWD"
-},
-{
-"team": "VIL",
-"p": 10,
-"w": 3,
-"d": 3,
-"l": 4,
-"gf": 15,
-"ga": 14,
-"pts": 12,
-"form": "WWLDW"
-},
-{
-"team": "DEP",
-"p": 10,
-"w": 2,
-"d": 5,
-"l": 3,
-"gf": 13,
-"ga": 13,
-"pts": 11,
-"form": "LDLDL"
-},
-{
-"team": "OSA",
-"p": 10,
-"w": 3,
-"d": 2,
-"l": 5,
-"gf": 10,
-"ga": 20,
-"pts": 11,
-"form": "LDLWL"
-},
-{
-"team": "RAC",
-"p": 10,
-"w": 3,
-"d": 2,
-"l": 5,
-"gf": 15,
-"ga": 26,
-"pts": 11,
-"form": "LLDLW"
-},
-{
-"team": "LEV",
-"p": 10,
-"w": 2,
-"d": 4,
-"l": 4,
-"gf": 16,
-"ga": 19,
-"pts": 10,
-"form": "LDDWL"
-},
-{
-"team": "ELC",
-"p": 10,
-"w": 2,
-"d": 4,
-"l": 4,
-"gf": 14,
-"ga": 17,
-"pts": 10,
-"form": "LWDDW"
-},
-{
-"team": "RAY",
-"p": 9,
-"w": 2,
-"d": 3,
-"l": 4,
-"gf": 12,
-"ga": 20,
-"pts": 9,
-"form": "LWDDL"
-},
-{
-"team": "GET",
-"p": 10,
-"w": 2,
-"d": 3,
-"l": 5,
-"gf": 5,
-"ga": 15,
-"pts": 9,
-"form": "LWLDL"
-},
-{
-"team": "ESP",
-"p": 10,
-"w": 2,
-"d": 2,
-"l": 6,
-"gf": 12,
-"ga": 14,
-"pts": 8,
-"form": "LLDLL"
-},
-{
-"team": "VAL",
-"p": 10,
-"w": 1,
-"d": 3,
-"l": 6,
-"gf": 7,
-"ga": 17,
-"pts": 6,
-"form": "WLDDL"
-},
-{
-"team": "MAL",
-"p": 10,
-"w": 0,
-"d": 5,
-"l": 5,
-"gf": 7,
-"ga": 19,
-"pts": 5,
-"form": "LLDLD"
-}
-],
-"picks": [],
-"rounds": {
-"10": [
-{
-"id": "LL-2026-27-R10-ALA-MAL",
-"date": "2026-10-23",
-"time": "21:00",
-"home": "ALA",
-"away": "MAL",
-"status": "ft",
-"venue": {
-"name": "Mendizorroza",
-"city": "Vitoria-Gasteiz"
-},
-"officials": [
-{
-"r": "GŁ",
-"role": "Sędzia główny",
-"name": "Carlos Muñiz Muñoz",
-"nat": "ESP"
-}
-],
-"staff": {
-"home": [
-[
-"Trener",
-"Quique Sánchez Flores"
-]
-],
-"away": [
-[
-"Trener",
-"Juan Francisco Funes"
-]
-]
-},
-"odds": {
-"src": "SportyTrader – najlepszy kurs z porównywanych bukmacherów, stan na 23.10.2026",
-"1": 1.84,
-"X": 3.72,
-"2": 5.25,
-"1X": 1.22,
-"X2": 2.12,
-"12": 1.32,
-"dnb1": 1.31,
-"dnb2": 3.75,
-"o25": 2.03,
-"u25": 2.13,
-"bttsY": 1.95,
-"bttsN": 1.82
-},
-"info": {
-"injuries": {
-"home": [
-"Mikel Rodríguez (kostka)"
-],
-"away": [
-"Diego Murillo",
-"Julen Lobete",
-"Aarón Ochoa (niepewny)",
-"Juan Cruz (niepewny)"
-]
-},
-"suspensions": {
-"home": [
-"Facundo Garcés (wg starting11)"
-],
-"away": []
-},
-"restDays": {
-"home": 5,
-"away": 5
-},
-"homeAway": "Alavés u siebie 3-0-2, na wyjeździe 0-2-2; Málaga u siebie 0-3-2, na wyjeździe 0-1-3",
-"stakes": "Alavés (11 pkt) 1 pkt w 5 ostatnich meczach; Málaga ostatnia (4 pkt), jedyna bez zwycięstwa",
-"h2h": [
-"2023-05-20 ALA 2:1 MAL (Segunda)",
-"2022-12-18 MAL 1:0 ALA (Segunda)",
-"2018-05-06 MAL 0:3 ALA"
-]
-},
-"tip": {
-"decision": "NO BET",
-"reasons": [
-"Alavés w fatalnej formie (LLDLL), Málaga bez wygranej – kurs 1,84 na gospodarzy (ok. 54% z kursu) odpowiada mojej ocenie, brak przewagi.",
-"Rozbieżne kursy O/U między źródłami (Codere: o2,5 2,00 / u2,5 1,75) – rynek bramkowy niewiarygodny.",
-"Zbyt duża niepewność co do składu Málagi (kilku niepewnych)."
-]
-},
-"score": [
-1,
-1
-],
-"formation": {
-"home": "5-3-2",
-"away": "4-1-4-1"
-},
-"players": {
-"home": [
-[
-1,
-"Antonio Sivera",
-"BR",
-"",
-true
-],
-[
-14,
-"Nahuel Tenaglia",
-"PO",
-"",
-true
-],
-[
-16,
-"Ville Koski",
-"ŚO",
-"",
-true
-],
-[
-2,
-"Nicolás Valentini",
-"ŚO",
-"",
-true
-],
-[
-7,
-"Ángel Pérez",
-"ŚO",
-"",
-true
-],
-[
-21,
-"Abderrahman Rebbach",
-"LO",
-"",
-true
-],
-[
-19,
-"Pablo Ibáñez",
-"ŚP",
-"",
-true
-],
-[
-8,
-"Antonio Blanco",
-"ŚP",
-"",
-true
-],
-[
-10,
-"Carles Aleñá",
-"ŚP",
-"",
-true
-],
-[
-15,
-"Lucas Boyé",
-"N",
-"",
-true
-],
-[
-9,
-"Mariano Díaz",
-"N",
-"",
-true
-],
-[
-"",
-"Novoa",
-"",
-"",
-false
-],
-[
-"",
-"Yusi",
-"",
-"",
-false
-],
-[
-"",
-"Denis Suárez",
-"ŚP",
-"",
-false
-],
-[
-"",
-"Toni Martínez",
-"N",
-"",
-false
-],
-[
-"",
-"Aitor Mañas",
-"N",
-"",
-false
-]
-],
-"away": [
-[
-1,
-"Alfonso Herrero",
-"BR",
-"",
-true
-],
-[
-3,
-"Carlos Puga",
-"PO",
-"",
-true
-],
-[
-15,
-"Ángel Recio",
-"ŚO",
-"",
-true
-],
-[
-4,
-"Einar Galilea",
-"ŚO",
-"",
-true
-],
-[
-31,
-"Rafita",
-"LO",
-"",
-true
-],
-[
-6,
-"Ramón Enríquez",
-"DP",
-"",
-true
-],
-[
-10,
-"David Larrubia",
-"PS",
-"",
-true
-],
-[
-8,
-"Carlos Dotor",
-"ŚP",
-"",
-true
-],
-[
-22,
-"Dani Lorenzo",
-"ŚP",
-"",
-true
-],
-[
-39,
-"Adam Aznou",
-"LS",
-"",
-true
-],
-[
-21,
-"Adrián Niño",
-"N",
-"",
-true
-],
-[
-"",
-"Rafa Rodríguez",
-"",
-"",
-false
-],
-[
-"",
-"Salinas",
-"",
-"",
-false
-],
-[
-"",
-"Berrocal",
-"ŚO",
-"",
-false
-],
-[
-"",
-"Chupete",
-"N",
-"",
-false
-],
-[
-"",
-"Cajuste",
-"ŚP",
-"",
-false
-]
-]
-},
-"events": [
-{
-"m": 39,
-"t": "yc",
-"s_": "h",
-"who": "Lucas Boyé",
-"why": "Faul na Larrubii"
-},
-{
-"m": 44,
-"t": "var",
-"s_": "a",
-"kind": "Bramka – możliwy spalony (półautomatyczny)",
-"init": "Spalony (chorągiewka)",
-"fin": "Gol uznany"
-},
-{
-"m": 44,
-"t": "goal",
-"s_": "a",
-"who": "Adrián Niño",
-"as": "Ramón Enríquez",
-"how": "Lewa noga"
-},
-{
-"m": 46,
-"t": "sub",
-"s_": "h",
-"inn": "Novoa",
-"out": "Carles Aleñá"
-},
-{
-"m": 55,
-"t": "sub",
-"s_": "h",
-"inn": "Yusi",
-"out": "Nicolás Valentini"
-},
-{
-"m": 55,
-"t": "sub",
-"s_": "h",
-"inn": "Denis Suárez",
-"out": "Abderrahman Rebbach"
-},
-{
-"m": 66,
-"t": "yc",
-"s_": "h",
-"who": "Nahuel Tenaglia"
-},
-{
-"m": 66,
-"t": "sub",
-"s_": "h",
-"inn": "Toni Martínez",
-"out": "Mariano Díaz"
-},
-{
-"m": 67,
-"t": "sub",
-"s_": "a",
-"inn": "Rafa Rodríguez",
-"out": "Ramón Enríquez"
-},
-{
-"m": 67,
-"t": "sub",
-"s_": "a",
-"inn": "Salinas",
-"out": "Adam Aznou"
-},
-{
-"m": 75,
-"t": "sub",
-"s_": "h",
-"inn": "Aitor Mañas",
-"out": "Antonio Blanco"
-},
-{
-"m": 77,
-"t": "sub",
-"s_": "a",
-"inn": "Berrocal",
-"out": "Carlos Puga"
-},
-{
-"m": 77,
-"t": "sub",
-"s_": "a",
-"inn": "Chupete",
-"out": "Adrián Niño"
-},
-{
-"m": 84,
-"t": "yc",
-"s_": "a",
-"who": "Carlos Dotor"
-},
-{
-"m": 87,
-"t": "sub",
-"s_": "a",
-"inn": "Cajuste",
-"out": "Carlos Dotor"
-},
-{
-"m": 89,
-"t": "goal",
-"s_": "h",
-"who": "Aitor Mañas",
-"how": "Dobitka po obronie Alfonso (strzał głową Toniego Martíneza)"
-}
-],
-"teamStats": [
-[
-"Posiadanie %",
-50,
-50
-],
-[
-"xG",
-1.84,
-0.71
-],
-[
-"Strzały",
-18,
-7
-]
-],
-"ind": {
-"Antonio Sivera": {
-"r": 6.7
-},
-"Nahuel Tenaglia": {
-"r": 7.2
-},
-"Ville Koski": {
-"r": 6.9
-},
-"Nicolás Valentini": {
-"r": 6.8
-},
-"Ángel Pérez": {
-"r": 7.3
-},
-"Abderrahman Rebbach": {
-"r": 6.2
-},
-"Pablo Ibáñez": {
-"r": 7.4
-},
-"Antonio Blanco": {
-"r": 6.5
-},
-"Carles Aleñá": {
-"r": 6.4
-},
-"Lucas Boyé": {
-"r": 6.8
-},
-"Mariano Díaz": {
-"r": 6.6
-},
-"Alfonso Herrero": {
-"r": 6.9
-},
-"Carlos Puga": {
-"r": 8.3
-},
-"Ángel Recio": {
-"r": 6.9
-},
-"Einar Galilea": {
-"r": 7.5
-},
-"Rafita": {
-"r": 7.0
-},
-"Ramón Enríquez": {
-"r": 7.8
-},
-"David Larrubia": {
-"r": 7.0
-},
-"Carlos Dotor": {
-"r": 6.8
-},
-"Dani Lorenzo": {
-"r": 6.8
-},
-"Adam Aznou": {
-"r": 6.1
-},
-"Adrián Niño": {
-"r": 7.7
-}
-},
-"notes": "Gol Niño (44') początkowo odgwizdany jako spalony, uznany po weryfikacji VAR (półautomatyczny spalony – Tenaglia utrzymywał pozycję). Przy wyrównaniu Mañasa (89') Málaga reklamowała faul Pablo Ibáñeza na Recio – VAR nie interweniował. Ustawienie i oceny wg FotMob (101TV podaje Alavés w 4-4-2). Numery rezerwowych i dokładne pozycje części zmienników nieznane; frekwencja nieznana. Typ sprzed meczu: NO BET."
-},
-{
-"id": "LL-2026-27-R10-RAY-ELC",
-"date": "2026-10-24",
-"time": "14:00",
-"home": "RAY",
-"away": "ELC",
-"status": "ft",
-"venue": {
-"name": "Estadio de Vallecas",
-"city": "Madryt"
-},
-"staff": {
-"home": [
-[
-"Trener",
-"Beñat San José"
-]
-],
-"away": [
-[
-"Trener",
-"Martín Anselmi"
-]
-]
-},
-"odds": {
-"src": "SportyTrader – najlepszy kurs z porównywanych bukmacherów, stan na 23.10.2026 (1xbet)",
-"1": 1.81,
-"X": 3.95,
-"2": 4.78,
-"1X": 1.23,
-"X2": 2.11,
-"12": 1.3,
-"dnb1": 1.35,
-"dnb2": 3.4,
-"o25": 1.99,
-"u25": 2.07,
-"bttsY": 1.8,
-"bttsN": 2.02
-},
-"info": {
-"injuries": {
-"home": [
-"Óscar Batalla",
-"Luiz Felipe",
-"Andrei Rațiu (niepewny)",
-"Randy Nteka (niepewny)"
-],
-"away": [
-"Marc Aguado (kostka)",
-"Yago Alonso",
-"Sangaré (niepewny)"
-]
-},
-"suspensions": {
-"home": [
-"Pathé Ciss (wg starting11; Sports Mole widzi go w składzie)"
-],
-"away": []
-},
-"restDays": {
-"home": 5,
-"away": 7
-},
-"homeAway": "Rayo u siebie 2-1-0; Elche na wyjeździe 1-3-1 (0-1-3 u siebie)",
-"stakes": "Rayo 9 pkt (8 meczów); Elche 18. miejsce, 7 pkt. Częściowe zamknięcie trybun na Vallecas (kara)",
-"h2h": [
-"2026-04-03 RAY 1:0 ELC",
-"2025-12-21 ELC 4:0 RAY",
-"2023-04-29 ELC 4:0 RAY"
-]
-},
-"tip": {
-"decision": "NO BET",
-"reasons": [
-"Kurs 1,81 na Rayo (ok. 55%) zbliżony do mojej oceny ~52% – EV ujemne.",
-"Elche trudne do pokonania na wyjeździe (tylko 1 porażka w 5).",
-"Niepewność kadrowa Rayo (Ciss, Rațiu, Nteka) i atmosfera protestów kibiców."
-]
-},
-"officials": [
-{
-"r": "GŁ",
-"role": "Sędzia główny",
-"name": "Miguel Sesma Espinosa",
-"nat": "ESP"
-},
-{
-"r": "VAR",
-"role": "Sędzia VAR",
-"name": "Jorge Figueroa"
-}
-],
-"score": [
-0,
-3
-],
-"formation": {
-"home": "4-3-3",
-"away": "4-3-3"
-},
-"players": {
-"home": [
-[
-25,
-"Audero",
-"BR",
-"",
-true
-],
-[
-20,
-"Iván Balliu",
-"PO",
-"",
-true
-],
-[
-24,
-"Florian Lejeune",
-"ŚO",
-"",
-true
-],
-[
-15,
-"Sadick",
-"ŚO",
-"",
-true
-],
-[
-17,
-"Adrià Pedrosa",
-"LO",
-"",
-true
-],
-[
-4,
-"Pedro Díaz",
-"ŚP",
-"",
-true
-],
-[
-6,
-"Pathé Ciss",
-"DP",
-"",
-true
-],
-[
-8,
-"Unai López",
-"ŚP",
-"",
-true
-],
-[
-19,
-"Jorge de Frutos",
-"PS",
-"",
-true
-],
-[
-10,
-"Sergio Camello",
-"N",
-"",
-true
-],
-[
-18,
-"Álvaro García",
-"LS",
-"",
-true
-],
-[
-"",
-"Zurawski",
-"N",
-"",
-false
-],
-[
-"",
-"Tsitaishvili",
-"PS",
-"",
-false
-],
-[
-"",
-"Vertrouwd",
-"LO",
-"",
-false
-],
-[
-"",
-"Isi Palazón",
-"PS",
-"",
-false
-],
-[
-"",
-"Bouare",
-"PO",
-"",
-false
-]
-],
-"away": [
-[
-1,
-"Matías Dituro",
-"BR",
-"",
-true
-],
-[
-3,
-"Revivo",
-"PO",
-"",
-true
-],
-[
-2,
-"Sangaré",
-"ŚO",
-"",
-true
-],
-[
-5,
-"Federico Redondo",
-"ŚO",
-"",
-true
-],
-[
-23,
-"Víctor Chust",
-"LO",
-"",
-true
-],
-[
-47,
-"Javier Morcillo",
-"ŚP",
-"",
-true
-],
-[
-12,
-"Gonzalo Villar",
-"ŚP",
-"",
-true
-],
-[
-18,
-"Thomas Lemar",
-"ŚP",
-"",
-true
-],
-[
-11,
-"Germán Valera",
-"PS",
-"",
-true
-],
-[
-14,
-"Niño",
-"N",
-"",
-true
-],
-[
-21,
-"Cepeda",
-"LS",
-"",
-true
-],
-[
-"",
-"Facundo Buonanotte",
-"OP",
-"",
-false
-],
-[
-"",
-"Osorio",
-"N",
-"",
-false
-],
-[
-"",
-"Martim Neto",
-"ŚP",
-"",
-false
-],
-[
-"",
-"Morente",
-"PS",
-"",
-false
-],
-[
-"",
-"Bigas",
-"ŚO",
-"",
-false
-]
-]
-},
-"events": [
-{
-"m": 10,
-"t": "yc",
-"s_": "a",
-"who": "Javier Morcillo"
-},
-{
-"m": 23,
-"t": "pen",
-"s_": "a",
-"who": "Federico Redondo",
-"res": "Gol"
-},
-{
-"m": 30,
-"t": "yc",
-"s_": "a",
-"who": "Federico Redondo"
-},
-{
-"m": 30,
-"t": "yc",
-"s_": "a",
-"who": "Gonzalo Villar"
-},
-{
-"m": 35,
-"t": "yc",
-"s_": "h",
-"who": "Pathé Ciss"
-},
-{
-"m": 36,
-"t": "pen",
-"s_": "a",
-"who": "Niño",
-"res": "Gol"
-},
-{
-"m": 45,
-"t": "sub",
-"s_": "h",
-"inn": "Zurawski",
-"out": "Sergio Camello"
-},
-{
-"m": 45,
-"t": "sub",
-"s_": "h",
-"inn": "Tsitaishvili",
-"out": "Jorge de Frutos"
-},
-{
-"m": 45,
-"t": "sub",
-"s_": "a",
-"inn": "Facundo Buonanotte",
-"out": "Gonzalo Villar"
-},
-{
-"m": 54,
-"t": "yc",
-"s_": "h",
-"who": "Adrià Pedrosa"
-},
-{
-"m": 60,
-"t": "sub",
-"s_": "h",
-"inn": "Vertrouwd",
-"out": "Adrià Pedrosa"
-},
-{
-"m": 60,
-"t": "sub",
-"s_": "h",
-"inn": "Isi Palazón",
-"out": "Pedro Díaz"
-},
-{
-"m": 61,
-"t": "sub",
-"s_": "a",
-"inn": "Osorio",
-"out": "Niño"
-},
-{
-"m": 68,
-"t": "goal",
-"s_": "a",
-"who": "Germán Valera",
-"as": "Facundo Buonanotte"
-},
-{
-"m": 72,
-"t": "sub",
-"s_": "a",
-"inn": "Martim Neto",
-"out": "Thomas Lemar"
-},
-{
-"m": 72,
-"t": "sub",
-"s_": "a",
-"inn": "Morente",
-"out": "Cepeda"
-},
-{
-"m": 76,
-"t": "sub",
-"s_": "h",
-"inn": "Bouare",
-"out": "Iván Balliu"
-},
-{
-"m": 81,
-"t": "yc",
-"s_": "h",
-"who": "Álvaro García"
-},
-{
-"m": 83,
-"t": "sub",
-"s_": "a",
-"inn": "Bigas",
-"out": "Federico Redondo"
-}
-],
-"teamStats": [
-[
-"Posiadanie %",
-57,
-43
-],
-[
-"xG",
-1.58,
-2.63
-],
-[
-"Strzały",
-18,
-16
-],
-[
-"Celne",
-5,
-9
-],
-[
-"Rzuty rożne",
-2,
-3
-],
-[
-"Faule",
-15,
-11
-],
-[
-"Spalone",
-4,
-2
-]
-],
-"notes": "Elche wygrywa w Vallecas po dwóch karnych w 1. połowie (Redondo, Niño) i golu Valery; wychodzi ze strefy spadkowej. Pełne nazwiska części zawodników wg źródła niepodane."
-},
-{
-"id": "LL-2026-27-R10-RAC-ESP",
-"date": "2026-10-24",
-"time": "16:15",
-"home": "RAC",
-"away": "ESP",
-"status": "ft",
-"venue": {
-"name": "El Sardinero",
-"city": "Santander"
-},
-"staff": {
-"home": [
-[
-"Trener",
-"José Alberto López"
-]
-],
-"away": [
-[
-"Trener",
-"Manolo González"
-]
-]
-},
-"odds": {
-"src": "SportyTrader – najlepszy kurs z porównywanych bukmacherów, stan na 23.10.2026 (1xbet)",
-"1": 2.46,
-"X": 3.76,
-"2": 2.92,
-"1X": 1.46,
-"X2": 1.62,
-"12": 1.32,
-"dnb1": 1.77,
-"dnb2": 2.07,
-"o25": 1.73,
-"u25": 2.28,
-"bttsY": 1.53,
-"bttsN": 2.5
-},
-"info": {
-"injuries": {
-"home": [
-"Simon Eriksson (bark, niepewny)"
-],
-"away": [
-"Kike García (udo)",
-"Jofre Carreras (niepewny)",
-"Dmitrović (niepewny)",
-"Gorosabel (niepewny)"
-]
-},
-"suspensions": {
-"home": [
-"Almeida (czerwona kartka, wg starting11)"
-],
-"away": []
-},
-"restDays": {
-"home": 6,
-"away": 7
-},
-"homeAway": "Racing u siebie 2-2-0, na wyjeździe 0-0-5; Espanyol na wyjeździe 1-1-2",
-"stakes": "Obie drużyny po 8 pkt, strefa spadkowa blisko",
-"h2h": [
-"2024-02-10 RAC 2:0 ESP (Segunda)",
-"2023-08-19 ESP 2:0 RAC (Segunda)",
-"2012-03-19 ESP 3:1 RAC"
-]
-},
-"tip": {
-"decision": "NO BET",
-"reasons": [
-"Racing traci 2,8 gola/mecz, ale over 2,5 (1,73) i BTTS tak (1,53) wyceniają to już w pełni – mój model ~55% na over daje EV ujemne.",
-"1X2 wyrównane, brak wyraźnej przewagi żadnej strony."
-]
-},
-"officials": [
-{
-"r": "GŁ",
-"role": "Sędzia główny",
-"name": "Jesús Gil Manzano",
-"nat": "ESP"
-},
-{
-"r": "VAR",
-"role": "Sędzia VAR",
-"name": "Raúl Martín González"
-}
-],
-"score": [
-2,
-1
-],
-"formation": {
-"home": "4-2-3-1",
-"away": "4-4-2"
-},
-"players": {
-"home": [
-[
-13,
-"Julen Agirrezabala",
-"BR",
-"",
-true
-],
-[
-2,
-"Álvaro Mantilla",
-"PO",
-"",
-true
-],
-[
-5,
-"Pablo Ramón",
-"ŚO",
-"",
-true
-],
-[
-24,
-"Jeanuël Belocian",
-"ŚO",
-"",
-true
-],
-[
-17,
-"Jorge Salinas",
-"LO",
-"",
-true
-],
-[
-18,
-"Matteo Prati",
-"DP",
-"",
-true
-],
-[
-23,
-"Iván Martín",
-"DP",
-"",
-true
-],
-[
-11,
-"Andrés Martín",
-"PS",
-"",
-true
-],
-[
-20,
-"Sergio Canales",
-"OP",
-"",
-true
-],
-[
-10,
-"Iñigo Vicente",
-"LS",
-"",
-true
-],
-[
-21,
-"Yassir Zabiri",
-"N",
-"",
-true
-],
-[
-12,
-"Asier Villalibre",
-"N",
-"",
-false
-],
-[
-6,
-"Íñigo Sainz-Maza",
-"ŚP",
-"",
-false
-],
-[
-3,
-"Aarón Martín",
-"LO",
-"",
-false
-],
-[
-9,
-"Juan Carlos Arana",
-"N",
-"",
-false
-],
-[
-16,
-"Facundo González",
-"ŚO",
-"",
-false
-],
-[
-7,
-"Giorgi Guliashvili",
-"",
-"",
-false
-],
-[
-31,
-"Laro Gómez",
-"",
-"",
-false
-],
-[
-"",
-"Iker Luque",
-"",
-"",
-false
-],
-[
-"",
-"Pablo García",
-"",
-"",
-false
-],
-[
-"",
-"André Almeida",
-"ŚP",
-"",
-false
-],
-[
-"",
-"Pedro Felipe",
-"",
-"",
-false
-],
-[
-"",
-"Maguette Gueye",
-"",
-"",
-false
-]
-],
-"away": [
-[
-1,
-"Ángel Fortuño",
-"BR",
-"",
-true
-],
-[
-23,
-"Omar El Hilali",
-"PO",
-"",
-true
-],
-[
-16,
-"Vanja Drkušić",
-"ŚO",
-"",
-true
-],
-[
-6,
-"Leandro Cabrera",
-"ŚO",
-"",
-true
-],
-[
-3,
-"Quilindschy Hartman",
-"LO",
-"",
-true
-],
-[
-28,
-"Javi Hernández",
-"PS",
-"",
-true
-],
-[
-8,
-"Edu Expósito",
-"ŚP",
-"",
-true
-],
-[
-10,
-"Pol Lozano",
-"ŚP",
-"",
-true
-],
-[
-15,
-"Bryan Zaragoza",
-"LS",
-"",
-true
-],
-[
-9,
-"Roberto Fernández",
-"N",
-"",
-true
-],
-[
-22,
-"Álex Calatrava",
-"N",
-"",
-true
-],
-[
-26,
-"Rafel Bauzà",
-"",
-"",
-false
-],
-[
-13,
-"Marko Dmitrović",
-"BR",
-"",
-false
-],
-[
-2,
-"Andoni Gorosabel",
-"PO",
-"",
-false
-],
-[
-21,
-"Roger Hinojo",
-"",
-"",
-false
-],
-[
-11,
-"Pere Milla",
-"N",
-"",
-false
-],
-[
-5,
-"Clemens Riedel",
-"ŚO",
-"",
-false
-],
-[
-20,
-"Gabriel Silva",
-"",
-"",
-false
-],
-[
-"",
-"Javi Puado",
-"N",
-"",
-false
-],
-[
-"",
-"Tyrhys Dolan",
-"PS",
-"",
-false
-],
-[
-"",
-"Urko González de Zárate",
-"DP",
-"",
-false
-],
-[
-"",
-"Marcos Fernández",
-"",
-"",
-false
-],
-[
-"",
-"Unai Núñez",
-"ŚO",
-"",
-false
-]
-]
-},
-"events": [
-{
-"m": 8,
-"t": "yc",
-"s_": "h",
-"who": "Iñigo Vicente"
-},
-{
-"m": 17,
-"t": "yc",
-"s_": "a",
-"who": "Pol Lozano"
-},
-{
-"m": 62,
-"t": "goal",
-"s_": "a",
-"who": "Edu Expósito",
-"as": "Javi Hernández"
-},
-{
-"m": 67,
-"t": "yc",
-"s_": "h",
-"who": "Pablo Ramón"
-},
-{
-"m": 67,
-"t": "sub",
-"s_": "h",
-"inn": "Iker Luque",
-"out": "Matteo Prati"
-},
-{
-"m": 67,
-"t": "sub",
-"s_": "h",
-"inn": "Pablo García",
-"out": "Andrés Martín"
-},
-{
-"m": 69,
-"t": "goal",
-"s_": "h",
-"who": "Jeanuël Belocian",
-"as": "Sergio Canales"
-},
-{
-"m": 76,
-"t": "sub",
-"s_": "a",
-"inn": "Javi Puado",
-"out": "Bryan Zaragoza"
-},
-{
-"m": 76,
-"t": "sub",
-"s_": "a",
-"inn": "Tyrhys Dolan",
-"out": "Javi Hernández"
-},
-{
-"m": 82,
-"t": "sub",
-"s_": "h",
-"inn": "André Almeida",
-"out": "Sergio Canales"
-},
-{
-"m": 82,
-"t": "sub",
-"s_": "h",
-"inn": "Pedro Felipe",
-"out": "Pablo Ramón"
-},
-{
-"m": 84,
-"t": "goal",
-"s_": "h",
-"who": "Yassir Zabiri",
-"as": "Álvaro Mantilla"
-},
-{
-"m": 85,
-"t": "sub",
-"s_": "a",
-"inn": "Urko González de Zárate",
-"out": "Pol Lozano"
-},
-{
-"m": 85,
-"t": "sub",
-"s_": "a",
-"inn": "Marcos Fernández",
-"out": "Álex Calatrava"
-},
-{
-"m": 88,
-"t": "sub",
-"s_": "h",
-"inn": "Maguette Gueye",
-"out": "Iñigo Vicente"
-},
-{
-"m": 89,
-"t": "yc",
-"s_": "a",
-"who": "Javi Puado"
-},
-{
-"m": 90,
-"t": "yc",
-"s_": "a",
-"who": "Edu Expósito"
-},
-{
-"m": 90,
-"t": "sub",
-"s_": "a",
-"inn": "Unai Núñez",
-"out": "Vanja Drkušić",
-"s": "+5"
-},
-{
-"m": 90,
-"t": "yc",
-"s_": "h",
-"who": "Jorge Salinas",
-"s": "+7"
-}
-],
-"teamStats": [
-[
-"Posiadanie %",
-55,
-45
-],
-[
-"xG",
-2.67,
-0.53
-],
-[
-"Strzały",
-23,
-11
-],
-[
-"Celne",
-9,
-1
-],
-[
-"Rzuty rożne",
-9,
-4
-],
-[
-"Faule",
-10,
-17
-],
-[
-"Spalone",
-1,
-4
-]
-],
-"notes": "Racing odwraca wynik po golu Expósito (62') – Belocian i Zabiri. Kartki wg relacji futboltotal (w źródle niespójności w liczbie żółtych kartek Espanyolu)."
-},
-{
-"id": "LL-2026-27-R10-VAL-VIL",
-"date": "2026-10-24",
-"time": "18:30",
-"home": "VAL",
-"away": "VIL",
-"status": "ft",
-"venue": {
-"name": "Mestalla",
-"city": "Walencja"
-},
-"staff": {
-"home": [
-[
-"Trener",
-"Javier Aguirre"
-]
-],
-"away": [
-[
-"Trener",
-"Iñigo Pérez"
-]
-]
-},
-"odds": {
-"src": "SportyTrader – najlepszy kurs z porównywanych bukmacherów, stan na 23.10.2026 (1X2: 1xbet; pozostałe – najwyższe z zakresu)",
-"1": 3.33,
-"X": 3.7,
-"2": 2.25,
-"1X": 1.72,
-"X2": 1.38,
-"12": 1.32,
-"dnb1": 2.4,
-"dnb2": 1.63,
-"o25": 1.82,
-"u25": 2.19,
-"bttsY": 1.62,
-"bttsN": 2.28
-},
-"info": {
-"injuries": {
-"home": [
-"Umar Sadiq",
-"Sergi Canós",
-"Diego López",
-"Foulquier (niepewny)",
-"Copete (niepewny)",
-"Rioja (niepewny)"
-],
-"away": [
-"Nicolas Pépé (operacja oka)",
-"Carlos Romero (niepewny)",
-"Nathan Saliba (niepewny)"
-]
-},
-"suspensions": {
-"home": [],
-"away": []
-},
-"restDays": {
-"home": 7,
-"away": 4
-},
-"homeAway": "Valencia u siebie 0-2-3; Villarreal na wyjeździe 1-2-2",
-"stakes": "Valencia 19. (6 pkt), Aguirre bez wygranej; Villarreal po 3:4 z Liverpoolem (wtorek), oczekiwana rotacja",
-"h2h": [
-"2026-02-22 VIL 2:1 VAL",
-"2025-10-25 VAL 0:2 VIL",
-"2025-02-15 VIL 1:1 VAL"
-]
-},
-"tip": {
-"decision": "NO BET",
-"reasons": [
-"Villarreal faworytem (2,25), ale zmęczenie po LM i rotacja obniżają przewagę – moje ~42% vs 44% z kursu.",
-"Under 2,5 kuszący (Valencia 6 goli w 9 meczach), lecz kursy O/U mają szeroki rozrzut między bukmacherami – brak pewnej wyceny.",
-"Wiele niepewności kadrowych po obu stronach."
-]
-},
-"officials": [
-{
-"r": "GŁ",
-"role": "Sędzia główny",
-"name": "Alejandro Quintero González",
-"nat": "ESP"
-},
-{
-"r": "VAR",
-"role": "Sędzia VAR",
-"name": "José Antonio López"
-}
-],
-"score": [
-1,
-2
-],
-"attendance": 46580,
-"formation": {
-"home": "4-4-2",
-"away": "4-4-2"
-},
-"players": {
-"home": [
-[
-1,
-"Stole Dimitrievski",
-"BR",
-"",
-true
-],
-[
-24,
-"Pablo Maffeo",
-"PO",
-"",
-true
-],
-[
-5,
-"César Tárrega",
-"ŚO",
-"",
-true
-],
-[
-12,
-"Justin de Haas",
-"ŚO",
-"",
-true
-],
-[
-14,
-"José Luis Gayà",
-"LO",
-"",
-true
-],
-[
-27,
-"Otorbi",
-"PS",
-"",
-true
-],
-[
-2,
-"Guido Rodríguez",
-"ŚP",
-"",
-true
-],
-[
-18,
-"Pepelu",
-"ŚP",
-"",
-true
-],
-[
-11,
-"Luis Rioja",
-"LS",
-"",
-true
-],
-[
-8,
-"Javi Guerra",
-"N",
-"",
-true
-],
-[
-7,
-"Arnaut Danjuma",
-"N",
-"",
-true
-],
-[
-"",
-"Dani Raba",
-"N",
-"",
-false
-],
-[
-"",
-"Arnau Martínez",
-"PO",
-"",
-false
-],
-[
-"",
-"Harvey Elliott",
-"OP",
-"",
-false
-],
-[
-"",
-"Filip Ugrinic",
-"ŚP",
-"",
-false
-],
-[
-"",
-"Hugo Duro",
-"N",
-"",
-false
-]
-],
-"away": [
-[
-25,
-"Péter Gulácsi",
-"BR",
-"",
-true
-],
-[
-3,
-"Alex Freeman",
-"PO",
-"",
-true
-],
-[
-15,
-"Santiago Mouriño",
-"ŚO",
-"",
-true
-],
-[
-8,
-"Juan Foyth",
-"ŚO",
-"",
-true
-],
-[
-12,
-"Renato Veiga",
-"LO",
-"",
-true
-],
-[
-11,
-"Ilias Akhomach",
-"PS",
-"",
-true
-],
-[
-16,
-"Macià",
-"ŚP",
-"",
-true
-],
-[
-18,
-"Pape Gueye",
-"ŚP",
-"",
-true
-],
-[
-17,
-"Tajon Buchanan",
-"LS",
-"",
-true
-],
-[
-7,
-"Gerard Moreno",
-"N",
-"",
-true
-],
-[
-22,
-"Ayoze Pérez",
-"N",
-"",
-true
-],
-[
-"",
-"Sergi Cardona",
-"LO",
-"",
-false
-],
-[
-"",
-"Alberto Moleiro",
-"OP",
-"",
-false
-],
-[
-"",
-"Georges Mikautadze",
-"N",
-"",
-false
-],
-[
-"",
-"Santi Comesaña",
-"ŚP",
-"",
-false
-],
-[
-"",
-"Pau Navarro",
-"ŚO",
-"",
-false
-]
-]
-},
-"events": [
-{
-"m": 14,
-"t": "sub",
-"s_": "h",
-"inn": "Dani Raba",
-"out": "Otorbi"
-},
-{
-"m": 34,
-"t": "yc",
-"s_": "h",
-"who": "Dani Raba"
-},
-{
-"m": 37,
-"t": "yc",
-"s_": "a",
-"who": "Renato Veiga",
-"why": "Faul na Rabie w polu karnym"
-},
-{
-"m": 38,
-"t": "var",
-"s_": "h",
-"kind": "Rzut karny – analiza VAR",
-"fin": "Rzut karny"
-},
-{
-"m": 39,
-"t": "pen",
-"s_": "h",
-"who": "Pepelu",
-"res": "Gol"
-},
-{
-"m": 43,
-"t": "yc",
-"s_": "a",
-"who": "Ayoze Pérez"
-},
-{
-"m": 59,
-"t": "yc",
-"s_": "a",
-"who": "Tajon Buchanan"
-},
-{
-"m": 60,
-"t": "yc",
-"s_": "h",
-"who": "Pablo Maffeo"
-},
-{
-"m": 62,
-"t": "yc",
-"s_": "h",
-"who": "Guido Rodríguez"
-},
-{
-"m": 65,
-"t": "sub",
-"s_": "a",
-"inn": "Sergi Cardona",
-"out": "Juan Foyth"
-},
-{
-"m": 66,
-"t": "sub",
-"s_": "a",
-"inn": "Alberto Moleiro",
-"out": "Ilias Akhomach"
-},
-{
-"m": 66,
-"t": "sub",
-"s_": "a",
-"inn": "Georges Mikautadze",
-"out": "Ayoze Pérez"
-},
-{
-"m": 69,
-"t": "goal",
-"s_": "a",
-"who": "Alex Freeman",
-"as": "Sergi Cardona"
-},
-{
-"m": 70,
-"t": "sub",
-"s_": "h",
-"inn": "Arnau Martínez",
-"out": "Dani Raba"
-},
-{
-"m": 70,
-"t": "sub",
-"s_": "h",
-"inn": "Harvey Elliott",
-"out": "Javi Guerra"
-},
-{
-"m": 70,
-"t": "sub",
-"s_": "h",
-"inn": "Filip Ugrinic",
-"out": "Pablo Maffeo"
-},
-{
-"m": 77,
-"t": "sub",
-"s_": "h",
-"inn": "Hugo Duro",
-"out": "Justin de Haas"
-},
-{
-"m": 79,
-"t": "rc",
-"s_": "a",
-"who": "Pape Gueye",
-"why": "Uderzenie łokciem Gayà (po analizie VAR)"
-},
-{
-"m": 82,
-"t": "sub",
-"s_": "a",
-"inn": "Santi Comesaña",
-"out": "Gerard Moreno"
-},
-{
-"m": 87,
-"t": "sub",
-"s_": "a",
-"inn": "Pau Navarro",
-"out": "Tajon Buchanan"
-},
-{
-"m": 89,
-"t": "yc",
-"s_": "h",
-"who": "Harvey Elliott",
-"why": "Protesty"
-},
-{
-"m": 89,
-"t": "rc",
-"s_": "h",
-"who": "Harvey Elliott",
-"why": "Druga żółta kartka (protesty)"
-},
-{
-"m": 90,
-"t": "goal",
-"s_": "a",
-"who": "Georges Mikautadze",
-"as": "Alberto Moleiro",
-"s": "+6"
-}
-],
-"teamStats": [
-[
-"Posiadanie %",
-38,
-62
-],
-[
-"xG",
-1.17,
-1.21
-],
-[
-"Strzały",
-9,
-19
-],
-[
-"Celne",
-5,
-3
-],
-[
-"Rzuty rożne",
-6,
-9
-],
-[
-"Faule",
-18,
-9
-],
-[
-"Spalone",
-2,
-2
-]
-],
-"notes": "Minuta ciszy dla ofiar powodzi (DANA). Karny po VAR (faul Veigi na Rabie). Gueye (VIL) i Elliott (VAL) z czerwonymi kartkami. Mikautadze zwycięski gol w 96'. Szczegóły kartek wg EFE."
-},
-{
-"id": "LL-2026-27-R10-ATM-DEP",
-"date": "2026-10-24",
-"time": "21:00",
-"home": "ATM",
-"away": "DEP",
-"status": "ft",
-"venue": {
-"name": "Riyadh Air Metropolitano",
-"city": "Madryt"
-},
-"staff": {
-"home": [
-[
-"Trener",
-"Diego Simeone"
-]
-],
-"away": [
-[
-"Trener",
-"Antonio Hidalgo"
-]
-]
-},
-"odds": {
-"src": "SportyTrader – najlepszy kurs z porównywanych bukmacherów, stan na 23.10.2026",
-"1": 1.34,
-"X": 6.2,
-"2": 11.0,
-"1X": 1.08,
-"X2": 3.85,
-"12": 1.16,
-"dnb1": 1.09,
-"dnb2": 9.0,
-"o25": 1.65,
-"u25": 2.44,
-"bttsY": 2.12,
-"bttsN": 1.75
-},
-"info": {
-"injuries": {
-"home": [
-"Koke (udo)",
-"Cristian Romero (przywodziciel)",
-"Johnny Cardoso (choroba, wg starting11)"
-],
-"away": [
-"Pierre-Emerick Aubameyang",
-"Eddahchouri",
-"Marc Casadó",
-"Bright Ede",
-"Noé Carrillo (niepewny)"
-]
-},
-"suspensions": {
-"home": [],
-"away": []
-},
-"restDays": {
-"home": 4,
-"away": 8
-},
-"homeAway": "Atlético u siebie 3-1-0; Deportivo na wyjeździe 1-2-1",
-"stakes": "Atlético 2. (22 pkt), 5 zwycięstw z rzędu; Depor bez wygranej w 5 meczach",
-"h2h": [
-"2026-01-13 DEP 0:1 ATM (Puchar Króla)",
-"2018-04-01 ATM 1:0 DEP",
-"2017-11-04 DEP 0:1 ATM"
-]
-},
-"tip": {
-"decision": "NO BET",
-"reasons": [
-"Atlético wyraźnym faworytem, ale kurs 1,34 (≈75%) odpowiada mojej ocenie ~73% – EV ≈ 0.",
-"Mecz po wtorkowej LM (Stuttgart 1:1) – możliwa rotacja.",
-"Deportivo remisuje często (5 remisów), co ogranicza wartość handicapów."
-]
-},
-"officials": [
-{
-"r": "GŁ",
-"role": "Sędzia główny",
-"name": "José María Sánchez Martínez",
-"nat": "ESP"
-},
-{
-"r": "VAR",
-"role": "Sędzia VAR",
-"name": "Juan Luis Pulido"
-}
-],
-"score": [
-1,
-0
-],
-"formation": {
-"home": "4-3-3",
-"away": "5-3-2"
-},
-"players": {
-"home": [
-[
-13,
-"Jan Oblak",
-"BR",
-"",
-true
-],
-[
-14,
-"Marcos Llorente",
-"PO",
-"",
-true
-],
-[
-18,
-"Marc Pubill",
-"ŚO",
-"",
-true
-],
-[
-17,
-"David Hancko",
-"ŚO",
-"",
-true
-],
-[
-22,
-"Álex Grimaldo",
-"LO",
-"",
-true
-],
-[
-8,
-"Pablo Barrios",
-"ŚP",
-"",
-true
-],
-[
-23,
-"Morten Hjulmand",
-"DP",
-"",
-true
-],
-[
-10,
-"Álex Baena",
-"ŚP",
-"",
-true
-],
-[
-7,
-"Lee Kang-in",
-"PS",
-"",
-true
-],
-[
-19,
-"Julián Álvarez",
-"N",
-"",
-true
-],
-[
-11,
-"Ademola Lookman",
-"LS",
-"",
-true
-],
-[
-1,
-"Juan Musso",
-"BR",
-"",
-false
-],
-[
-30,
-"Daniel Martínez",
-"",
-"",
-false
-],
-[
-16,
-"Arnau Ortiz",
-"",
-"",
-false
-],
-[
-3,
-"Obed Gómez",
-"",
-"",
-false
-],
-[
-25,
-"Salvador Esquivel",
-"",
-"",
-false
-],
-[
-27,
-"J. Domínguez",
-"",
-"",
-false
-],
-[
-15,
-"Jonathan David",
-"N",
-"",
-false
-],
-[
-46,
-"J. Castillo",
-"",
-"",
-false
-],
-[
-"",
-"Giuliano Simeone",
-"PS",
-"",
-false
-],
-[
-"",
-"Robin Le Normand",
-"ŚO",
-"",
-false
-],
-[
-"",
-"Alexander Sørloth",
-"N",
-"",
-false
-],
-[
-"",
-"Rodrigo Mendoza",
-"ŚP",
-"",
-false
-]
-],
-"away": [
-[
-13,
-"Leo Román",
-"BR",
-"",
-true
-],
-[
-11,
-"David Mella",
-"PO",
-"",
-true
-],
-[
-2,
-"Altimira",
-"ŚO",
-"",
-true
-],
-[
-20,
-"José María Giménez",
-"ŚO",
-"",
-true
-],
-[
-15,
-"Loureiro",
-"ŚO",
-"",
-true
-],
-[
-12,
-"Giacomo Quagliata",
-"LO",
-"",
-true
-],
-[
-16,
-"Lorenzo Amatucci",
-"ŚP",
-"",
-true
-],
-[
-8,
-"Diego Villares",
-"ŚP",
-"",
-true
-],
-[
-21,
-"Soriano",
-"ŚP",
-"",
-true
-],
-[
-10,
-"Yeremay Hernández",
-"N",
-"",
-true
-],
-[
-32,
-"Bil Nsongo",
-"N",
-"",
-true
-],
-[
-3,
-"Arnau Comas",
-"ŚO",
-"",
-false
-],
-[
-17,
-"José Ángel Esmoris",
-"",
-"",
-false
-],
-[
-25,
-"Álvaro Fernández",
-"",
-"",
-false
-],
-[
-23,
-"Joaquín Navarro",
-"",
-"",
-false
-],
-[
-4,
-"Lucas Noubi",
-"ŚO",
-"",
-false
-],
-[
-5,
-"Daniel Barcia",
-"ŚO",
-"",
-false
-],
-[
-"",
-"Adama Traoré",
-"PS",
-"",
-false
-],
-[
-"",
-"Luismi Cruz",
-"PS",
-"",
-false
-],
-[
-"",
-"Kevin Sánchez",
-"N",
-"",
-false
-],
-[
-"",
-"Jonathan Asp Jensen",
-"LO",
-"",
-false
-],
-[
-"",
-"Riki Rodríguez",
-"ŚP",
-"",
-false
-]
-]
-},
-"events": [
-{
-"m": 26,
-"t": "yc",
-"s_": "h",
-"who": "Marc Pubill"
-},
-{
-"m": 46,
-"t": "sub",
-"s_": "h",
-"inn": "Giuliano Simeone",
-"out": "Pablo Barrios"
-},
-{
-"m": 46,
-"t": "sub",
-"s_": "h",
-"inn": "Robin Le Normand",
-"out": "Ademola Lookman"
-},
-{
-"m": 48,
-"t": "goal",
-"s_": "h",
-"who": "Julián Álvarez",
-"as": "Álex Grimaldo"
-},
-{
-"m": 58,
-"t": "sub",
-"s_": "a",
-"inn": "Adama Traoré",
-"out": "David Mella"
-},
-{
-"m": 58,
-"t": "sub",
-"s_": "a",
-"inn": "Luismi Cruz",
-"out": "Diego Villares"
-},
-{
-"m": 67,
-"t": "sub",
-"s_": "h",
-"inn": "Alexander Sørloth",
-"out": "Lee Kang-in"
-},
-{
-"m": 75,
-"t": "yc",
-"s_": "a",
-"who": "Yeremay Hernández"
-},
-{
-"m": 79,
-"t": "yc",
-"s_": "a",
-"who": "Giacomo Quagliata"
-},
-{
-"m": 80,
-"t": "sub",
-"s_": "h",
-"inn": "Rodrigo Mendoza",
-"out": "Morten Hjulmand"
-},
-{
-"m": 80,
-"t": "sub",
-"s_": "a",
-"inn": "Kevin Sánchez",
-"out": "Bil Nsongo"
-},
-{
-"m": 80,
-"t": "sub",
-"s_": "a",
-"inn": "Jonathan Asp Jensen",
-"out": "Giacomo Quagliata"
-},
-{
-"m": 84,
-"t": "sub",
-"s_": "a",
-"inn": "Riki Rodríguez",
-"out": "Lorenzo Amatucci"
-},
-{
-"m": 85,
-"t": "yc",
-"s_": "h",
-"who": "Alexander Sørloth"
-},
-{
-"m": 86,
-"t": "yc",
-"s_": "h",
-"who": "Álex Baena"
-},
-{
-"m": 87,
-"t": "yc",
-"s_": "h",
-"who": "Giuliano Simeone"
-}
-],
-"teamStats": [
-[
-"Posiadanie %",
-56,
-44
-],
-[
-"xG",
-1.41,
-1.45
-],
-[
-"Strzały",
-20,
-14
-],
-[
-"Celne",
-4,
-4
-],
-[
-"Rzuty rożne",
-3,
-3
-],
-[
-"Faule",
-11,
-6
-],
-[
-"Spalone",
-1,
-0
-]
-],
-"notes": "Lepsza 1. połowa Deportivo; Julián Álvarez daje zwycięstwo po dośrodkowaniu Grimaldo. José María Giménez (wypożyczony z Atlético) zagrał przeciw byłemu klubowi. Atlético 2 pkt za Barceloną przed El Clásico."
-},
-{
-"id": "LL-2026-27-R10-ATH-GET",
-"date": "2026-10-25",
-"time": "14:00",
-"home": "ATH",
-"away": "GET",
-"status": "ft",
-"venue": {
-"name": "San Mamés",
-"city": "Bilbao"
-},
-"staff": {
-"home": [
-[
-"Trener",
-"Edin Terzić"
-]
-],
-"away": [
-[
-"Trener",
-"José Bordalás"
-]
-]
-},
-"odds": {
-"src": "SportyTrader – najlepszy kurs, stan na 23.10.2026 (O/U o dużym rozrzucie: over 1,71–2,36, under 1,57–2,08); aktualizacja 24/25.10: Legalbet – 1 1,55–1,58, X 4,00–4,05, 2 5,66–6,00, BTTS tak 2,30 / nie 1,60, u2,5 1,62 / o2,5 2,30",
-"1": 1.67,
-"X": 4.05,
-"2": 6.1,
-"1X": 1.17,
-"X2": 2.35,
-"12": 1.28,
-"dnb1": 1.23,
-"dnb2": 4.3,
-"bttsY": 2.38,
-"bttsN": 1.61,
-"u25": 1.62,
-"o25": 2.3
-},
-"info": {
-"injuries": {
-"home": [
-"Oihan Sancet (mięsień)",
-"Unai Eguíluz",
-"Álvaro Djaló",
-"Gorka Guruzeta (więzadło krzyżowe, do końca sezonu)"
-],
-"away": [
-"Zaid Romero",
-"Orel Mangala",
-"Christantus Uche",
-"Juanmi"
-]
-},
-"suspensions": {
-"home": [
-"Aymeric Laporte (czerwona kartka)"
-],
-"away": [
-"Djené (zawieszenie)"
-]
-},
-"restDays": {
-"home": 4,
-"away": 3
-},
-"homeAway": "Athletic u siebie 2-2-1; Getafe na wyjeździe 0-0-4 bez strzelonego gola (wg gidstats: 0 goli w 5 ostatnich wyjazdach)",
-"stakes": "Athletic po 1:3 z Levante (środa, zaległy mecz) i meczu LE w czwartek – Terzić zapowiada zmiany; Getafe po 2:5 z Lugano (LKE), konflikt Bordalás–prezes Torres; Getafe bez wyjazdowego zwycięstwa, 2 pkt w 9 ostatnich meczach. Athletic nie wygrał z Getafe na San Mamés od stycznia 2021.",
-"h2h": [
-"2026-04-05 GET 2:0 ATH",
-"2025-10-25 ATH 0:1 GET",
-"2025-05-15 GET 0:2 ATH"
-]
-},
-"tip": {
-"decision": "BET",
-"market": "Obie drużyny strzelą – NIE",
-"odds": 1.6,
-"prob": 0.66,
-"ev": 0.056,
-"rating": 6,
-"risk": "średnie",
-"reasons": [
-"Getafe najsłabszy atak ligi: 5 goli w 9 meczach, bez gola w meczach wyjazdowych tego sezonu.",
-"Getafe grało w czwartek w LKE (2:5 z Lugano) – 3 dni odpoczynku, wewnętrzny konflikt w klubie (Bordalás vs prezes).",
-"Athletic bez Sanceta i Guruzety, z zawieszonym Laporte; mecz po trzech spotkaniach w 7 dni – oczekiwane niskie tempo.",
-"Ostatnie 3 H2H: w żadnym nie strzeliły obie drużyny (2:0, 0:1, 0:2); Getafe przegrało tylko 1 z 9 ostatnich wizyt na San Mamés.",
-"Rynek bramkowy potwierdza niski wynik: under 2,5 po 1,62.",
-"Model Poissona (λ ≈ 1,25 : 0,65) daje ok. 66% na brak BTTS vs 62,5% z kursu 1,60.",
-"Styl Bordalása: niskie posiadanie, nastawienie na niski wynik."
-],
-"risks": [
-"Sprzeczne informacje o dostępności Nico Williamsa i Canalesa (EFE widzi ich w przewidywanym składzie) – silniejszy atak Athletic nie zmienia jednak ryzyka gola Getafe.",
-"Athletic osłabiony w obronie (brak Laporte) i stracił 3 gole w ostatnim meczu ligowym – Getafe może wykorzystać stały fragment.",
-"Kurs spadł z 1,61 do ok. 1,60; przy 1,55 EV spada do ok. +2%."
-],
-"value": "Kurs 1,60 wycenia brak BTTS na ok. 62,5%; moja ocena 66% → EV ok. +5,6%.",
-"stake": "0,5–1% bankrollu"
-},
-"officials": [
-{
-"r": "GŁ",
-"role": "Sędzia główny",
-"name": "Francisco José Hernández Maeso",
-"nat": "ESP"
-}
-],
-"score": [
-4,
-0
-],
-"formation": {
-"home": "4-2-3-1",
-"away": "5-4-1"
-},
-"players": {
-"home": [
-[
-1,
-"Unai Simón",
-"BR",
-"",
-true
-],
-[
-15,
-"Hugo Rincón",
-"PO",
-"",
-true
-],
-[
-3,
-"Dani Vivian",
-"ŚO",
-"",
-true
-],
-[
-4,
-"Aitor Paredes",
-"ŚO",
-"",
-true
-],
-[
-17,
-"Yuri Berchiche",
-"LO",
-"",
-true
-],
-[
-16,
-"Íñigo Ruiz de Galarreta",
-"DP",
-"",
-true
-],
-[
-28,
-"Peio Canales",
-"ŚP",
-"",
-true
-],
-[
-9,
-"Iñaki Williams",
-"PS",
-"",
-true
-],
-[
-7,
-"Álex Berenguer",
-"OP",
-"",
-true
-],
-[
-10,
-"Nico Williams",
-"LS",
-"",
-true
-],
-[
-21,
-"Maroan Sannadi",
-"N",
-"",
-true
-],
-[
-22,
-"Nicolás Serrano",
-"N",
-"",
-false
-],
-[
-5,
-"Yeray Álvarez",
-"ŚO",
-"",
-false
-],
-[
-13,
-"Alejandro Padilla",
-"BR",
-"",
-false
-],
-[
-23,
-"Robert Navarro",
-"OP",
-"",
-false
-],
-[
-31,
-"Johaneko Louis-Jean",
-"",
-"",
-false
-],
-[
-18,
-"Mikel Jauregizar",
-"ŚP",
-"",
-false
-],
-[
-12,
-"Jesús Areso",
-"PO",
-"",
-false
-],
-[
-24,
-"Mikel Gerenabarrena",
-"DP",
-"",
-false
-],
-[
-"",
-"Christian Imga",
-"",
-"",
-false
-],
-[
-20,
-"Alejandro Rego",
-"",
-"",
-false
-],
-[
-"",
-"Beñat Prados",
-"ŚP",
-"",
-false
-],
-[
-"",
-"Jesús Vizcay",
-"N",
-"",
-false
-]
-],
-"away": [
-[
-13,
-"David Soria",
-"BR",
-"",
-true
-],
-[
-17,
-"Kiko Femenía",
-"PO",
-"",
-true
-],
-[
-14,
-"Dani Carvajal",
-"ŚO",
-"",
-true
-],
-[
-26,
-"Jean Valou",
-"ŚO",
-"",
-true
-],
-[
-8,
-"Nemanja Gudelj",
-"ŚO",
-"",
-true
-],
-[
-22,
-"Johan Mojica",
-"LO",
-"",
-true
-],
-[
-11,
-"Ramón Terrats",
-"ŚP",
-"",
-true
-],
-[
-6,
-"Mario Martín",
-"ŚP",
-"",
-true
-],
-[
-16,
-"Francho Serrano",
-"ŚP",
-"",
-true
-],
-[
-10,
-"Martín Satriano",
-"N",
-"",
-true
-],
-[
-20,
-"Iván Azón",
-"N",
-"",
-true
-],
-[
-28,
-"Alberto Risco",
-"",
-"",
-false
-],
-[
-1,
-"Jiří Letáček",
-"BR",
-"",
-false
-],
-[
-35,
-"Diego Ferrer",
-"",
-"",
-false
-],
-[
-5,
-"Abdel Abqar",
-"ŚO",
-"",
-false
-],
-[
-15,
-"Juan Sebastián Boselli",
-"ŚO",
-"",
-false
-],
-[
-"",
-"Saba Sazonov",
-"ŚO",
-"",
-false
-],
-[
-"",
-"Andrés García",
-"",
-"",
-false
-],
-[
-"",
-"Borja Mayoral",
-"N",
-"",
-false
-],
-[
-19,
-"Enes Ünal",
-"N",
-"",
-false
-],
-[
-"",
-"David Cordón",
-"",
-"",
-false
-]
-]
-},
-"events": [
-{
-"m": 17,
-"t": "goal",
-"s_": "h",
-"who": "Álex Berenguer"
-},
-{
-"m": 18,
-"t": "sub",
-"s_": "h",
-"inn": "Mikel Gerenabarrena",
-"out": "Íñigo Ruiz de Galarreta"
-},
-{
-"m": 35,
-"t": "goal",
-"s_": "h",
-"who": "Iñaki Williams",
-"as": "Álex Berenguer"
-},
-{
-"m": 39,
-"t": "yc",
-"s_": "a",
-"who": "Ramón Terrats"
-},
-{
-"m": 43,
-"t": "yc",
-"s_": "a",
-"who": "Dani Carvajal"
-},
-{
-"m": 45,
-"t": "sub",
-"s_": "a",
-"inn": "Saba Sazonov",
-"out": "Francho Serrano"
-},
-{
-"m": 45,
-"t": "sub",
-"s_": "a",
-"inn": "Andrés García",
-"out": "Kiko Femenía"
-},
-{
-"m": 63,
-"t": "yc",
-"s_": "a",
-"who": "Johan Mojica"
-},
-{
-"m": 68,
-"t": "sub",
-"s_": "h",
-"inn": "Christian Imga",
-"out": "Nico Williams"
-},
-{
-"m": 68,
-"t": "sub",
-"s_": "h",
-"inn": "Alejandro Rego",
-"out": "Maroan Sannadi"
-},
-{
-"m": 70,
-"t": "goal",
-"s_": "h",
-"who": "Aitor Paredes",
-"as": "Álex Berenguer"
-},
-{
-"m": 71,
-"t": "sub",
-"s_": "a",
-"inn": "Borja Mayoral",
-"out": "Ramón Terrats"
-},
-{
-"m": 71,
-"t": "sub",
-"s_": "a",
-"inn": "Enes Ünal",
-"out": "Iván Azón"
-},
-{
-"m": 71,
-"t": "sub",
-"s_": "a",
-"inn": "David Cordón",
-"out": "Johan Mojica"
-},
-{
-"m": 72,
-"t": "yc",
-"s_": "h",
-"who": "Mikel Gerenabarrena"
-},
-{
-"m": 84,
-"t": "sub",
-"s_": "h",
-"inn": "Beñat Prados",
-"out": "Peio Canales"
-},
-{
-"m": 85,
-"t": "sub",
-"s_": "h",
-"inn": "Jesús Vizcay",
-"out": "Iñaki Williams"
-},
-{
-"m": 86,
-"t": "rc",
-"s_": "a",
-"who": "Mario Martín"
-},
-{
-"m": 88,
-"t": "goal",
-"s_": "h",
-"who": "Yuri Berchiche",
-"as": "Álex Berenguer"
-}
-],
-"teamStats": [
-[
-"Posiadanie %",
-62,
-38
-],
-[
-"xG",
-0.77,
-0.42
-],
-[
-"Strzały",
-11,
-7
-],
-[
-"Celne",
-4,
-1
-],
-[
-"Niecelne",
-4,
-5
-],
-[
-"Zablokowane",
-3,
-1
-],
-[
-"Rzuty rożne",
-2,
-4
-],
-[
-"Faule",
-11,
-15
-],
-[
-"Spalone",
-0,
-2
-]
-],
-"ind": {
-"Álex Berenguer": {
-"r": 9.8
-},
-"Aitor Paredes": {
-"r": 8.7
-},
-"Yuri Berchiche": {
-"r": 8.5
-},
-"Enes Ünal": {
-"r": 6.4
-},
-"Nemanja Gudelj": {
-"r": 6.4
-},
-"Dani Carvajal": {
-"r": 5.0
-}
-},
-"notes": "Berenguer: gol + 3 asysty. Czerwona kartka (bezpośrednia) Mario Martína w 86'. Składy Getafe i ustawienie Athleticu odtworzone ze statystyk zawodników (źródło nie podaje czytelnej jedenastki) – pozycje przybliżone."
-},
-{
-"id": "LL-2026-27-R10-CEL-BET",
-"date": "2026-10-25",
-"time": "16:15",
-"home": "CEL",
-"away": "BET",
-"status": "ft",
-"venue": {
-"name": "Balaídos",
-"city": "Vigo"
-},
-"staff": {
-"home": [
-[
-"Trener",
-"Claudio Giráldez"
-]
-],
-"away": [
-[
-"Trener",
-"Manuel Pellegrini"
-]
-]
-},
-"odds": {
-"src": "1X2: casasdeapuestas.com (najlepsze kursy), pozostałe: SportyTrader; stan na 23.10.2026",
-"1": 2.9,
-"X": 3.45,
-"2": 2.41,
-"1X": 1.58,
-"X2": 1.46,
-"12": 1.34,
-"o25": 1.91,
-"u25": 2.03,
-"bttsY": 1.7,
-"bttsN": 2.2
-},
-"info": {
-"injuries": {
-"home": [
-"Álvaro Núñez",
-"Carl Starfelt",
-"Miguel Román",
-"El-Abdellaoui (kolano)",
-"Borja Iglesias (płaszczkowaty, do grudnia)"
-],
-"away": [
-"Junior Firpo (przywodziciel)",
-"Cucho Hernández (mięsień)"
-]
-},
-"suspensions": {
-"home": [],
-"away": [
-"Facundo Bernal (czerwona kartka, pauza kol. 10–13)"
-]
-},
-"restDays": {
-"home": 3,
-"away": 4
-},
-"homeAway": "Celta u siebie 2-1-2; Betis na wyjeździe 2-1-1",
-"stakes": "Betis 4. (19 pkt), Celta 8. (11 pkt), 5 meczów bez porażki; oba zespoły po pucharach (Celta czwartek, Betis środa)",
-"h2h": [
-"2026-03-15 BET 1:1 CEL",
-"2025-08-27 CEL 1:1 BET",
-"2025-02-08 CEL 3:2 BET"
-]
-},
-"tip": {
-"decision": "NO BET",
-"reasons": [
-"Mecz wyrównany, kursy 1X2 niespójne między źródłami.",
-"Obie drużyny po meczach europejskich w tygodniu – trudna do przewidzenia rotacja.",
-"Brak rynku z przewagą ≥5%."
-]
-},
-"officials": [
-{
-"r": "GŁ",
-"role": "Sędzia główny",
-"name": "Isidro Díaz de Mera Escuderos",
-"nat": "ESP"
-}
-],
-"score": [
-0,
-0
-],
-"formation": {
-"home": "3-4-3",
-"away": "4-2-3-1"
-},
-"players": {
-"home": [
-[
-13,
-"Ionuț Radu",
-"BR",
-"",
-true
-],
-[
-20,
-"Javi Rodríguez",
-"ŚO",
-"",
-true
-],
-[
-18,
-"Yoel Lago",
-"ŚO",
-"",
-true
-],
-[
-3,
-"Marcos Alonso",
-"ŚO",
-"",
-true
-],
-[
-17,
-"Javi Rueda",
-"PS",
-"",
-true
-],
-[
-14,
-"Aleix Febas",
-"ŚP",
-"",
-true
-],
-[
-6,
-"Ilaix Moriba",
-"ŚP",
-"",
-true
-],
-[
-22,
-"Javi Galán",
-"LO",
-"",
-true
-],
-[
-23,
-"Hugo Álvarez",
-"PS",
-"",
-true
-],
-[
-11,
-"Pablo Durán",
-"N",
-"",
-true
-],
-[
-16,
-"Hugo González",
-"LS",
-"",
-true
-],
-[
-25,
-"Iván Villar",
-"BR",
-"",
-false
-],
-[
-4,
-"Abdoulaye Faye",
-"ŚO",
-"",
-false
-],
-[
-24,
-"Couhaib Driouech",
-"",
-"",
-false
-],
-[
-21,
-"Sebastián Cáceres",
-"ŚO",
-"",
-false
-],
-[
-1,
-"Altay Bayındır",
-"BR",
-"",
-false
-],
-[
-28,
-"Andrés Antañón",
-"",
-"",
-false
-],
-[
-9,
-"Ferran Jutglà",
-"N",
-"",
-false
-],
-[
-19,
-"Williot Swedberg",
-"LS",
-"",
-false
-],
-[
-5,
-"Sergio Carreira",
-"PO",
-"",
-false
-],
-[
-10,
-"Iago Aspas",
-"N",
-"",
-false
-],
-[
-30,
-"Hugo Burcio",
-"ŚP",
-"",
-false
-]
-],
-"away": [
-[
-1,
-"Álvaro Vallés",
-"BR",
-"",
-true
-],
-[
-16,
-"Víctor Gómez",
-"PO",
-"",
-true
-],
-[
-12,
-"Ángel Ortiz",
-"ŚO",
-"",
-true
-],
-[
-4,
-"Natan",
-"ŚO",
-"",
-true
-],
-[
-3,
-"Diego Llorente",
-"LO",
-"",
-true
-],
-[
-21,
-"Marc Roca",
-"DP",
-"",
-true
-],
-[
-18,
-"Nelson Deossa",
-"ŚP",
-"",
-true
-],
-[
-7,
-"Antony",
-"PS",
-"",
-true
-],
-[
-22,
-"Isco",
-"OP",
-"",
-true
-],
-[
-10,
-"Abde Ezzalzouli",
-"LS",
-"",
-true
-],
-[
-25,
-"Dani Ceballos",
-"N",
-"",
-true
-],
-[
-2,
-"Héctor Bellerín",
-"PO",
-"",
-false
-],
-[
-13,
-"Diego Conde",
-"",
-"",
-false
-],
-[
-11,
-"Fran García",
-"LO",
-"",
-false
-],
-[
-31,
-"Manu González",
-"",
-"",
-false
-],
-[
-27,
-"J. A. Morante",
-"",
-"",
-false
-],
-[
-17,
-"Rodrigo Riquelme",
-"LS",
-"",
-false
-],
-[
-24,
-"Aitor Ruibal",
-"PS",
-"",
-false
-],
-[
-19,
-"Troy Parrott",
-"N",
-"",
-false
-],
-[
-8,
-"Pablo Fornals",
-"OP",
-"",
-false
-],
-[
-"",
-"Marc Bartra",
-"ŚO",
-"",
-false
-],
-[
-20,
-"Giovani Lo Celso",
-"OP",
-"",
-false
-],
-[
-15,
-"Álvaro Fidalgo",
-"ŚP",
-"",
-false
-]
-]
-},
-"events": [
-{
-"m": 30,
-"t": "yc",
-"s_": "h",
-"who": "Ilaix Moriba"
-},
-{
-"m": 43,
-"t": "yc",
-"s_": "a",
-"who": "Diego Llorente"
-},
-{
-"m": 57,
-"t": "sub",
-"s_": "h",
-"inn": "Ferran Jutglà",
-"out": "Hugo Álvarez"
-},
-{
-"m": 58,
-"t": "sub",
-"s_": "h",
-"inn": "Williot Swedberg",
-"out": "Hugo González"
-},
-{
-"m": 61,
-"t": "sub",
-"s_": "a",
-"inn": "Troy Parrott",
-"out": "Nelson Deossa"
-},
-{
-"m": 61,
-"t": "sub",
-"s_": "a",
-"inn": "Pablo Fornals",
-"out": "Antony"
-},
-{
-"m": 68,
-"t": "sub",
-"s_": "h",
-"inn": "Sergio Carreira",
-"out": "Javi Rueda"
-},
-{
-"m": 68,
-"t": "sub",
-"s_": "h",
-"inn": "Iago Aspas",
-"out": "Pablo Durán"
-},
-{
-"m": 68,
-"t": "sub",
-"s_": "a",
-"inn": "Marc Bartra",
-"out": "Diego Llorente"
-},
-{
-"m": 68,
-"t": "sub",
-"s_": "a",
-"inn": "Giovani Lo Celso",
-"out": "Isco"
-},
-{
-"m": 75,
-"t": "sub",
-"s_": "a",
-"inn": "Álvaro Fidalgo",
-"out": "Dani Ceballos"
-},
-{
-"m": 80,
-"t": "yc",
-"s_": "h",
-"who": "Sergio Carreira"
-},
-{
-"m": 81,
-"t": "sub",
-"s_": "h",
-"inn": "Hugo Burcio",
-"out": "Aleix Febas"
-}
-],
-"teamStats": [
-[
-"Posiadanie %",
-44,
-56
-],
-[
-"xG",
-0.87,
-0.81
-],
-[
-"Strzały",
-12,
-15
-],
-[
-"Celne",
-4,
-2
-],
-[
-"Niecelne",
-4,
-10
-],
-[
-"Zablokowane",
-4,
-3
-],
-[
-"Rzuty rożne",
-3,
-4
-],
-[
-"Faule",
-9,
-12
-],
-[
-"Spalone",
-2,
-2
-]
-],
-"ind": {
-"Hugo González": {
-"r": 7.5
-},
-"Álvaro Vallés": {
-"r": 7.7
-},
-"Pablo Fornals": {
-"r": 7.4
-}
-},
-"notes": "Źródło podaje ustawienie Celty 3-4-3; rozmieszczenie zawodników w liniach przybliżone. W ocenach: Iván Radu = Ionuț Radu."
-},
-{
-"id": "LL-2026-27-R10-RSO-LEV",
-"date": "2026-10-25",
-"time": "18:30",
-"home": "RSO",
-"away": "LEV",
-"status": "ft",
-"venue": {
-"name": "Reale Arena",
-"city": "San Sebastián"
-},
-"staff": {
-"home": [
-[
-"Trener",
-"Pellegrino Matarazzo"
-]
-],
-"away": [
-[
-"Trener",
-"Luís Castro"
-]
-]
-},
-"odds": {
-"src": "SportyTrader – najlepszy kurs z porównywanych bukmacherów, stan na 23.10.2026",
-"1": 1.76,
-"X": 4.26,
-"2": 4.8,
-"1X": 1.23,
-"X2": 2.22,
-"12": 1.26,
-"dnb1": 1.31,
-"dnb2": 3.55,
-"o25": 1.71,
-"u25": 2.38,
-"bttsY": 1.62,
-"bttsN": 2.25
-},
-"info": {
-"injuries": {
-"home": [
-"Álvaro Odriozola (więzadło krzyżowe)",
-"Yangel Herrera",
-"Jon Aramburu (niepewny)",
-"Luken Beitia (niepewny)"
-],
-"away": [
-"Álex Primo",
-"Bardeli (dwugłowy uda)",
-"Adrián de la Fuente (niepewny)",
-"Hugo Sotelo (niepewny)"
-]
-},
-"suspensions": {
-"home": [],
-"away": []
-},
-"restDays": {
-"home": 3,
-"away": 4
-},
-"homeAway": "Real Sociedad u siebie 2-1-1; Levante na wyjeździe 0-3-2",
-"stakes": "RSO 5. (16 pkt), 4 wygrane w 5; Levante 10 pkt po 3:1 z Athletic. RSO mocno rotowała w LE (6:0 z Lillestrøm)",
-"h2h": [
-"2026-04-04 RSO 2:0 LEV",
-"2025-12-20 LEV 1:1 RSO",
-"2022-05-06 LEV 2:1 RSO"
-]
-},
-"tip": {
-"decision": "NO BET",
-"reasons": [
-"Mecze obu drużyn są bramkostrzelne (RSO 3,8, Levante 3,6 gola/mecz), ale over 2,5 po 1,71 (58%) to tyle, ile daje mój model – brak value.",
-"RSO 1,76 ≈ 57%; moja ocena ~55% – EV ujemne."
-]
-},
-"officials": [
-{
-"r": "GŁ",
-"role": "Sędzia główny",
-"name": "Javier Alberola Rojas",
-"nat": "ESP"
-}
-],
-"score": [
-2,
-1
-],
-"formation": {
-"home": "4-4-2",
-"away": "4-4-2"
-},
-"players": {
-"home": [
-[
-1,
-"Álex Remiro",
-"BR",
-"",
-true
-],
-[
-22,
-"Héctor Fort",
-"PO",
-"",
-true
-],
-[
-6,
-"Jon Martín",
-"ŚO",
-"",
-true
-],
-[
-19,
-"M. Sarr",
-"ŚO",
-"",
-true
-],
-[
-17,
-"Sergio Gómez",
-"LO",
-"",
-true
-],
-[
-11,
-"Gonçalo Guedes",
-"PS",
-"",
-true
-],
-[
-8,
-"Beñat Turrientes",
-"ŚP",
-"",
-true
-],
-[
-4,
-"Jon Gorrotxategi",
-"ŚP",
-"",
-true
-],
-[
-24,
-"Luka Sučić",
-"LS",
-"",
-true
-],
-[
-10,
-"Mikel Oyarzabal",
-"N",
-"",
-true
-],
-[
-9,
-"Orri Óskarsson",
-"N",
-"",
-true
-],
-[
-14,
-"Takefusa Kubo",
-"PS",
-"",
-false
-],
-[
-13,
-"Unai Marrero",
-"BR",
-"",
-false
-],
-[
-15,
-"Pablo Marín",
-"ŚP",
-"",
-false
-],
-[
-3,
-"Aihen Muñoz",
-"LO",
-"",
-false
-],
-[
-16,
-"Jon Pacheco",
-"ŚO",
-"",
-false
-],
-[
-18,
-"Carlos Soler",
-"ŚP",
-"",
-false
-],
-[
-5,
-"Igor Zubeldia",
-"ŚO",
-"",
-false
-],
-[
-7,
-"Ander Barrenetxea",
-"LS",
-"",
-false
-],
-[
-"",
-"Jon Aramburu",
-"PO",
-"",
-false
-],
-[
-"",
-"Yangel Herrera",
-"ŚP",
-"",
-false
-],
-[
-12,
-"Job Ochieng",
-"",
-"",
-false
-],
-[
-"",
-"Arsen Zakharyan",
-"OP",
-"",
-false
-]
-],
-"away": [
-[
-13,
-"M. Ryan",
-"BR",
-"",
-true
-],
-[
-29,
-"Nacho Pérez",
-"PO",
-"",
-true
-],
-[
-2,
-"A. Mandi",
-"ŚO",
-"",
-true
-],
-[
-3,
-"Ifeanyi Ndukwe",
-"ŚO",
-"",
-true
-],
-[
-23,
-"Manu Sánchez",
-"LO",
-"",
-true
-],
-[
-7,
-"Roger Brugué",
-"PS",
-"",
-true
-],
-[
-6,
-"Daniel Requena",
-"ŚP",
-"",
-true
-],
-[
-24,
-"Thiago Fernández",
-"ŚP",
-"",
-true
-],
-[
-8,
-"Jon Ander Olasagasti",
-"ŚP",
-"",
-true
-],
-[
-9,
-"Iván Romero",
-"N",
-"",
-true
-],
-[
-10,
-"Petar Ratkov",
-"N",
-"",
-true
-],
-[
-14,
-"Jorge Cabello",
-"",
-"",
-false
-],
-[
-1,
-"Pablo Cuñat",
-"BR",
-"",
-false
-],
-[
-32,
-"Alejandro Primo",
-"",
-"",
-false
-],
-[
-20,
-"Oriol Rey",
-"DP",
-"",
-false
-],
-[
-33,
-"M. Santos",
-"",
-"",
-false
-],
-[
-5,
-"Hugo Sotelo",
-"ŚP",
-"",
-false
-],
-[
-22,
-"Jeremy Toljan",
-"PO",
-"",
-false
-],
-[
-17,
-"Víctor García",
-"",
-"",
-false
-],
-[
-"",
-"Axel Tape",
-"N",
-"",
-false
-],
-[
-"",
-"Karl Etta Eyong",
-"N",
-"",
-false
-],
-[
-"",
-"Yanis Musuayi",
-"",
-"",
-false
-],
-[
-"",
-"Paco Cortés",
-"",
-"",
-false
-]
-]
-},
-"events": [
-{
-"m": 6,
-"t": "goal",
-"s_": "h",
-"who": "Orri Óskarsson"
-},
-{
-"m": 22,
-"t": "goal",
-"s_": "a",
-"who": "Nacho Pérez",
-"as": "Thiago Fernández"
-},
-{
-"m": 27,
-"t": "goal",
-"s_": "h",
-"who": "Beñat Turrientes",
-"as": "Gonçalo Guedes"
-},
-{
-"m": 45,
-"t": "sub",
-"s_": "a",
-"inn": "Víctor García",
-"out": "Roger Brugué"
-},
-{
-"m": 62,
-"t": "sub",
-"s_": "h",
-"inn": "Ander Barrenetxea",
-"out": "Luka Sučić"
-},
-{
-"m": 62,
-"t": "sub",
-"s_": "h",
-"inn": "Jon Aramburu",
-"out": "Héctor Fort"
-},
-{
-"m": 62,
-"t": "sub",
-"s_": "a",
-"inn": "Axel Tape",
-"out": "Iván Romero"
-},
-{
-"m": 62,
-"t": "sub",
-"s_": "a",
-"inn": "Karl Etta Eyong",
-"out": "Petar Ratkov"
-},
-{
-"m": 64,
-"t": "yc",
-"s_": "h",
-"who": "Jon Martín"
-},
-{
-"m": 71,
-"t": "sub",
-"s_": "h",
-"inn": "Yangel Herrera",
-"out": "Beñat Turrientes"
-},
-{
-"m": 75,
-"t": "yc",
-"s_": "a",
-"who": "Manu Sánchez"
-},
-{
-"m": 80,
-"t": "sub",
-"s_": "a",
-"inn": "Yanis Musuayi",
-"out": "Daniel Requena"
-},
-{
-"m": 80,
-"t": "sub",
-"s_": "a",
-"inn": "Paco Cortés",
-"out": "Thiago Fernández"
-},
-{
-"m": 81,
-"t": "yc",
-"s_": "a",
-"who": "Yanis Musuayi"
-},
-{
-"m": 85,
-"t": "sub",
-"s_": "h",
-"inn": "Job Ochieng",
-"out": "Gonçalo Guedes"
-},
-{
-"m": 85,
-"t": "sub",
-"s_": "h",
-"inn": "Arsen Zakharyan",
-"out": "Orri Óskarsson"
-},
-{
-"m": 87,
-"t": "yc",
-"s_": "a",
-"who": "Víctor García"
-}
-],
-"teamStats": [
-[
-"Posiadanie %",
-62,
-38
-],
-[
-"xG",
-2.44,
-0.7
-],
-[
-"Strzały",
-17,
-6
-],
-[
-"Celne",
-3,
-2
-],
-[
-"Niecelne",
-12,
-4
-],
-[
-"Zablokowane",
-2,
-0
-],
-[
-"Rzuty rożne",
-2,
-3
-],
-[
-"Faule",
-13,
-13
-],
-[
-"Spalone",
-1,
-0
-]
-],
-"ind": {
-"Beñat Turrientes": {
-"r": 8.2
-},
-"Orri Óskarsson": {
-"r": 7.7
-},
-"Gonçalo Guedes": {
-"r": 7.0
-},
-"Nacho Pérez": {
-"r": 6.9
-},
-"Mikel Oyarzabal": {
-"r": 5.9
-},
-"M. Ryan": {
-"r": 5.6
-}
-},
-"notes": "Rozmieszczenie obrońców i pomocników w liniach przybliżone (źródło podaje tylko formację 4-4-2)."
-},
-{
-"id": "LL-2026-27-R10-BAR-RMA",
-"date": "2026-10-25",
-"time": "21:00",
-"home": "BAR",
-"away": "RMA",
-"status": "ft",
-"venue": {
-"name": "Spotify Camp Nou",
-"city": "Barcelona"
-},
-"staff": {
-"home": [
-[
-"Trener",
-"Hansi Flick"
-]
-],
-"away": [
-[
-"Trener",
-"José Mourinho"
-]
-]
-},
-"odds": {
-"src": "SportyTrader – najlepszy kurs z porównywanych bukmacherów, stan na 23.10.2026 (DC/DNB/O-U/BTTS – najwyższe z zakresu)",
-"1": 1.65,
-"X": 6.0,
-"2": 4.31,
-"1X": 1.26,
-"X2": 2.42,
-"12": 1.18,
-"dnb1": 1.35,
-"dnb2": 3.3,
-"o25": 1.18,
-"u25": 5.05,
-"bttsY": 1.29,
-"bttsN": 3.85
-},
-"info": {
-"injuries": {
-"home": [
-"Dani Olmo (przywodziciel)",
-"Eric García",
-"Andreas Christensen",
-"Roony Bardghji (zerwane więzadło)",
-"Jules Koundé"
-],
-"away": [
-"Rodrygo (kolano)",
-"Raúl Asencio (złamanie zmęczeniowe)",
-"Ferland Mendy",
-"Éder Militão (mało prawdopodobny występ)"
-]
-},
-"suspensions": {
-"home": [],
-"away": [
-"Vinícius Júnior (zawieszenie, pozostały 3 mecze)"
-]
-},
-"restDays": {
-"home": 5,
-"away": 4
-},
-"homeAway": "Barcelona u siebie 4-0-0 (wyjazdy 5-0-0); Real na wyjeździe 2-0-2 (u siebie 5-0-0)",
-"stakes": "El Clásico: lider Barcelona (27 pkt, 9/9 zwycięstw) vs 3. Real (21 pkt). Barça po 2:4 z PSG, Real po 4:1 z Lipskiem",
-"h2h": [
-"2026-05-10 BAR 2:0 RMA",
-"2026-01-11 BAR 3:2 RMA (Superpuchar)",
-"2025-10-26 RMA 2:1 BAR"
-]
-},
-"notes": "Mbappé dublet, pierwsza ligowa porażka Barcelony w sezonie. W bramce Realu Łunin. Rozmieszczenie obrońców Barcelony przybliżone.",
-"tip": {
-"decision": "NO BET",
-"reasons": [
-"Kursy na Barcelonę (1,65) i over 2,5 (1,18) wiernie oddają formę Barcy i brak Viníciusa – moja ocena nie odbiega o ≥5%.",
-"Mecz o dużej zmienności (derby, emocje, kartki) – zbyt duża niepewność.",
-"Popularność meczu nie jest argumentem do gry.",
-"Aktualizacja 25.10: Koundé, Olmo, Christensen, Eric García poza składem Barçy; w Realu brak Viníciusa, Rodrygo, Mendy'ego, Asencio – kursy już to uwzględniają."
-]
-},
-"officials": [
-{
-"r": "GŁ",
-"role": "Sędzia główny",
-"name": "Juan Martínez Munuera",
-"nat": "ESP"
-},
-{
-"r": "AS1",
-"role": "Asystent 1",
-"name": "Diego Barbero"
-},
-{
-"r": "AS2",
-"role": "Asystent 2",
-"name": "Miguel Martínez"
-},
-{
-"r": "4.",
-"role": "Sędzia techniczny",
-"name": "José Antonio Palomares"
-},
-{
-"r": "VAR",
-"role": "Sędzia VAR",
-"name": "Javier Iglesias Villanueva"
-},
-{
-"r": "AVAR",
-"role": "Asystent VAR",
-"name": "José Antonio López"
-}
-],
-"score": [
-1,
-2
-],
-"formation": {
-"home": "4-3-3",
-"away": "4-2-3-1"
-},
-"players": {
-"home": [
-[
-1,
-"Joan García",
-"BR",
-"",
-true
-],
-[
-2,
-"João Cancelo",
-"PO",
-"",
-true
-],
-[
-18,
-"Gerard Martín",
-"ŚO",
-"",
-true
-],
-[
-5,
-"Pau Cubarsí",
-"ŚO",
-"",
-true
-],
-[
-12,
-"Xavi Espart",
-"LO",
-"",
-true
-],
-[
-7,
-"Fermín López",
-"ŚP",
-"",
-true
-],
-[
-16,
-"Rodri",
-"DP",
-"",
-true
-],
-[
-8,
-"Pedri",
-"ŚP",
-"",
-true
-],
-[
-10,
-"Lamine Yamal",
-"PS",
-"",
-true
-],
-[
-11,
-"Raphinha",
-"N",
-"",
-true
-],
-[
-17,
-"Anthony Gordon",
-"LS",
-"",
-true
-],
-[
-13,
-"Wojciech Szczęsny",
-"BR",
-"",
-false
-],
-[
-25,
-"Dominik Livaković",
-"BR",
-"",
-false
-],
-[
-32,
-"O. Goren",
-"ŚP",
-"",
-false
-],
-[
-6,
-"Gavi",
-"ŚP",
-"",
-false
-],
-[
-4,
-"B. Farinas",
-"ŚO",
-"",
-false
-],
-[
-29,
-"H. Abdelkarim",
-"N",
-"",
-false
-],
-[
-22,
-"Marc Bernal",
-"ŚP",
-"",
-false
-],
-[
-41,
-"A. Campos",
-"",
-"",
-false
-],
-[
-"",
-"Alejandro Balde",
-"LO",
-"",
-false
-],
-[
-"",
-"Frenkie de Jong",
-"ŚP",
-"",
-false
-],
-[
-14,
-"Karim Adeyemi",
-"LS",
-"",
-false
-],
-[
-9,
-"Gabriel Jesus",
-"N",
-"",
-false
-]
-],
-"away": [
-[
-13,
-"Andrij Łunin",
-"BR",
-"",
-true
-],
-[
-8,
-"Federico Valverde",
-"PO",
-"",
-true
-],
-[
-16,
-"Ibrahima Konaté",
-"ŚO",
-"",
-true
-],
-[
-4,
-"Dean Huijsen",
-"ŚO",
-"",
-true
-],
-[
-17,
-"Marc Cucurella",
-"LO",
-"",
-true
-],
-[
-14,
-"Aurélien Tchouaméni",
-"DP",
-"",
-true
-],
-[
-15,
-"Arda Güler",
-"ŚP",
-"",
-true
-],
-[
-20,
-"Bernardo Silva",
-"PS",
-"",
-true
-],
-[
-5,
-"Jude Bellingham",
-"OP",
-"",
-true
-],
-[
-25,
-"Yan Diomande",
-"LS",
-"",
-true
-],
-[
-10,
-"Kylian Mbappé",
-"N",
-"",
-true
-],
-[
-39,
-"Illia Voloshyn",
-"BR",
-"",
-false
-],
-[
-22,
-"Antonio Rüdiger",
-"ŚO",
-"",
-false
-],
-[
-27,
-"Thiago Pitarch",
-"",
-"",
-false
-],
-[
-26,
-"Sergio Mestre",
-"BR",
-"",
-false
-],
-[
-9,
-"Endrick",
-"N",
-"",
-false
-],
-[
-3,
-"Éder Militão",
-"ŚO",
-"",
-false
-],
-[
-21,
-"Brahim Díaz",
-"OP",
-"",
-false
-],
-[
-18,
-"Álvaro Fernández",
-"LO",
-"",
-false
-],
-[
-24,
-"Denzel Dumfries",
-"PO",
-"",
-false
-],
-[
-6,
-"Eduardo Camavinga",
-"ŚP",
-"",
-false
-],
-[
-12,
-"Trent Alexander-Arnold",
-"PO",
-"",
-false
-],
-[
-19,
-"Carlos Espí",
-"N",
-"",
-false
-]
-]
-},
-"events": [
-{
-"m": 30,
-"t": "sub",
-"s_": "h",
-"inn": "Alejandro Balde",
-"out": "Xavi Espart"
-},
-{
-"m": 41,
-"t": "goal",
-"s_": "a",
-"who": "Kylian Mbappé"
-},
-{
-"m": 46,
-"t": "yc",
-"s_": "a",
-"who": "Aurélien Tchouaméni"
-},
-{
-"m": 61,
-"t": "goal",
-"s_": "h",
-"who": "Raphinha",
-"as": "Pedri"
-},
-{
-"m": 62,
-"t": "sub",
-"s_": "a",
-"inn": "Denzel Dumfries",
-"out": "Federico Valverde"
-},
-{
-"m": 74,
-"t": "sub",
-"s_": "h",
-"inn": "Frenkie de Jong",
-"out": "Fermín López"
-},
-{
-"m": 80,
-"t": "sub",
-"s_": "a",
-"inn": "Eduardo Camavinga",
-"out": "Bernardo Silva"
-},
-{
-"m": 84,
-"t": "yc",
-"s_": "h",
-"who": "Anthony Gordon"
-},
-{
-"m": 85,
-"t": "sub",
-"s_": "h",
-"inn": "Karim Adeyemi",
-"out": "Anthony Gordon"
-},
-{
-"m": 86,
-"t": "sub",
-"s_": "h",
-"inn": "Gabriel Jesus",
-"out": "Raphinha"
-},
-{
-"m": 87,
-"t": "goal",
-"s_": "a",
-"who": "Kylian Mbappé",
-"as": "Eduardo Camavinga"
-},
-{
-"m": 90,
-"t": "yc",
-"s_": "a",
-"who": "Marc Cucurella",
-"s": "+2"
-},
-{
-"m": 90,
-"t": "yc",
-"s_": "a",
-"who": "Kylian Mbappé",
-"s": "+4"
-},
-{
-"m": 90,
-"t": "sub",
-"s_": "a",
-"inn": "Trent Alexander-Arnold",
-"out": "Arda Güler",
-"s": "+4"
-},
-{
-"m": 90,
-"t": "sub",
-"s_": "a",
-"inn": "Carlos Espí",
-"out": "Yan Diomande",
-"s": "+4"
-},
-{
-"m": 90,
-"t": "yc",
-"s_": "h",
-"who": "Karim Adeyemi",
-"s": "+6"
-},
-{
-"m": 90,
-"t": "yc",
-"s_": "h",
-"who": "Alejandro Balde",
-"s": "+6"
-}
-],
-"teamStats": [
-[
-"Posiadanie %",
-62,
-38
-],
-[
-"xG",
-1.3,
-2.01
-],
-[
-"Strzały",
-18,
-10
-],
-[
-"Celne",
-6,
-5
-],
-[
-"Zablokowane",
-6,
-2
-],
-[
-"Rzuty rożne",
-6,
-6
-],
-[
-"Faule",
-15,
-11
-],
-[
-"Spalone",
-3,
-2
-]
-],
-"ind": {
-"Kylian Mbappé": {
-"r": 8.8
-},
-"Raphinha": {
-"r": 8.0
-},
-"Andrij Łunin": {
-"r": 7.8
-},
-"Pedri": {
-"r": 7.6
-},
-"João Cancelo": {
-"r": 7.3
-},
-"Arda Güler": {
-"r": 7.2
-}
-}
-},
-{
-"id": "LL-2026-27-R10-SEV-OSA",
-"date": "2026-10-26",
-"time": "21:00",
-"home": "SEV",
-"away": "OSA",
-"status": "ft",
-"venue": {
-"name": "Ramón Sánchez-Pizjuán",
-"city": "Sewilla"
-},
-"staff": {
-"home": [
-[
-"Trener",
-"Luis García Plaza"
-]
-],
-"away": [
-[
-"Trener",
-"Jagoba Arrasate"
-]
-]
-},
-"odds": {
-"src": "SportyTrader – najlepszy kurs z porównywanych bukmacherów, stan na 23.10.2026",
-"1": 2.02,
-"X": 3.6,
-"2": 4.2,
-"1X": 1.28,
-"X2": 1.88,
-"12": 1.34,
-"dnb1": 1.4,
-"dnb2": 3.0,
-"o25": 2.18,
-"u25": 1.88,
-"bttsY": 1.95,
-"bttsN": 1.85
-},
-"info": {
-"injuries": {
-"home": [
-"Kochorashvili",
-"Guridi",
-"Lucas Stassin",
-"Ángel",
-"Marcão",
-"Muñoz"
-],
-"away": [
-"Herrando",
-"Oroz",
-"Del Castillo",
-"Bonel",
-"Moro (niepewny)",
-"Barja (niepewny)"
-]
-},
-"suspensions": {
-"home": [
-"Isaac Romero (kartki)"
-],
-"away": []
-},
-"restDays": {
-"home": 8,
-"away": 8
-},
-"homeAway": "Sevilla u siebie 2-0-2; Osasuna na wyjeździe 1-0-3",
-"stakes": "Sevilla 6. (14 pkt) po 1:4 w Madrycie; Osasuna 11 pkt. Możliwy mecz Pucharu Króla 3 dni później (niepotwierdzone)",
-"h2h": [
-"2026-04-26 OSA 2:1 SEV",
-"2025-11-08 SEV 1:0 OSA",
-"2025-04-24 OSA 1:0 SEV"
-]
-},
-"tip": {
-"decision": "NO BET",
-"reasons": [
-"Sevilla z długą listą nieobecnych (m.in. zawieszony Isaac, kontuzjowany Stassin) – kurs 2,02 (≈49%) nie daje przewagi.",
-"Składy ogłoszone dopiero w poniedziałek; możliwa rotacja przed Pucharem Króla."
-]
-},
-"score": [
-2,
-0
-],
-"formation": {
-"home": "4-4-2",
-"away": "4-3-3"
-},
-"players": {
-"home": [
-[
-1,
-"Odisseas Vlachodimos",
-"BR",
-"",
-true
-],
-[
-2,
-"Juan Iglesias",
-"PO",
-"",
-true
-],
-[
-5,
-"Castrín",
-"ŚO",
-"",
-true
-],
-[
-4,
-"Kike Salas",
-"ŚO",
-"",
-true
-],
-[
-17,
-"Gabriel Suazo",
-"LO",
-"",
-true
-],
-[
-20,
-"Félix Correia",
-"PS",
-"",
-true
-],
-[
-6,
-"Batista Mendy Agoumé",
-"ŚP",
-"",
-true
-],
-[
-24,
-"Fofana",
-"ŚP",
-"",
-true
-],
-[
-21,
-"Chidera Ejuke",
-"LS",
-"",
-true
-],
-[
-19,
-"Lucas Stassin",
-"N",
-"",
-true
-],
-[
-16,
-"Isaac Romero",
-"N",
-"",
-true
-],
-[
-3,
-"Julio Díaz",
-"ŚO",
-"",
-false
-],
-[
-10,
-"Gerard Fernández",
-"OP",
-"",
-false
-],
-[
-7,
-"Alfon",
-"PS",
-"",
-false
-],
-[
-13,
-"Fran",
-"BR",
-"",
-false
-],
-[
-18,
-"Jon Guridi",
-"ŚP",
-"",
-false
-],
-[
-8,
-"Giorgi Kochorashvili",
-"ŚP",
-"",
-false
-],
-[
-15,
-"Fábio Cardoso",
-"ŚO",
-"",
-false
-],
-[
-12,
-"Sanganté",
-"ŚO",
-"",
-false
-],
-[
-9,
-"Robbie Ure",
-"N",
-"",
-false
-],
-[
-11,
-"Rubén Vargas",
-"PS",
-"",
-false
-],
-[
-14,
-"Manu Bueno",
-"ŚP",
-"",
-false
-],
-[
-22,
-"José Ángel Carmona",
-"PO",
-"",
-false
-]
-],
-"away": [
-[
-13,
-"Aitor Fernández",
-"BR",
-"",
-true
-],
-[
-19,
-"Valentin Rosier",
-"PO",
-"",
-true
-],
-[
-22,
-"Flavien Boyomo",
-"ŚO",
-"",
-true
-],
-[
-24,
-"Alejandro Catena",
-"ŚO",
-"",
-true
-],
-[
-23,
-"Abel Bretones",
-"LO",
-"",
-true
-],
-[
-16,
-"Moi Gómez",
-"ŚP",
-"",
-true
-],
-[
-6,
-"Lucas Torró",
-"DP",
-"",
-true
-],
-[
-7,
-"Jon Moncayola",
-"ŚP",
-"",
-true
-],
-[
-14,
-"Rubén García",
-"PS",
-"",
-true
-],
-[
-17,
-"Ante Budimir",
-"N",
-"",
-true
-],
-[
-21,
-"Jonathan Dubasin",
-"LS",
-"",
-true
-],
-[
-1,
-"Sergio Herrera",
-"BR",
-"",
-false
-],
-[
-31,
-"Rafael Fernández",
-"BR",
-"",
-false
-],
-[
-35,
-"U. Santos",
-"",
-"",
-false
-],
-[
-48,
-"Rockson Yeboah",
-"",
-"",
-false
-],
-[
-15,
-"Diego Rico",
-"LO",
-"",
-false
-],
-[
-26,
-"Mauro Echegoyen",
-"",
-"",
-false
-],
-[
-8,
-"Iker Muñoz",
-"ŚP",
-"",
-false
-],
-[
-18,
-"Raúl Moro",
-"PS",
-"",
-false
-],
-[
-9,
-"Raúl García",
-"N",
-"",
-false
-],
-[
-11,
-"Kike Barja",
-"LS",
-"",
-false
-],
-[
-29,
-"Asier Osambela",
-"ŚP",
-"",
-false
-],
-[
-27,
-"Arguibide",
-"PO",
-"",
-false
-]
-]
-},
-"events": [
-{
-"m": 24,
-"t": "goal",
-"s_": "h",
-"who": "Isaac Romero",
-"as": "Fofana"
-},
-{
-"m": 29,
-"t": "yc",
-"s_": "a",
-"who": "Alejandro Catena"
-},
-{
-"m": 55,
-"t": "yc",
-"s_": "h",
-"who": "Isaac Romero"
-},
-{
-"m": 63,
-"t": "sub",
-"s_": "h",
-"inn": "Robbie Ure",
-"out": "Lucas Stassin"
-},
-{
-"m": 63,
-"t": "sub",
-"s_": "a",
-"inn": "Raúl Moro",
-"out": "Rubén García"
-},
-{
-"m": 63,
-"t": "sub",
-"s_": "a",
-"inn": "Raúl García",
-"out": "Jonathan Dubasin"
-},
-{
-"m": 68,
-"t": "yc",
-"s_": "a",
-"who": "Valentin Rosier"
-},
-{
-"m": 71,
-"t": "sub",
-"s_": "h",
-"inn": "Rubén Vargas",
-"out": "Chidera Ejuke"
-},
-{
-"m": 71,
-"t": "sub",
-"s_": "h",
-"inn": "Manu Bueno",
-"out": "Isaac Romero"
-},
-{
-"m": 79,
-"t": "sub",
-"s_": "a",
-"inn": "Asier Osambela",
-"out": "Lucas Torró"
-},
-{
-"m": 79,
-"t": "sub",
-"s_": "a",
-"inn": "Kike Barja",
-"out": "Moi Gómez"
-},
-{
-"m": 79,
-"t": "sub",
-"s_": "a",
-"inn": "Arguibide",
-"out": "Valentin Rosier"
-},
-{
-"m": 82,
-"t": "goal",
-"s_": "h",
-"who": "Félix Correia",
-"as": "Fofana"
-},
-{
-"m": 86,
-"t": "sub",
-"s_": "h",
-"inn": "José Ángel Carmona",
-"out": "Félix Correia"
-}
-],
-"teamStats": [
-[
-"Posiadanie %",
-44,
-56
-],
-[
-"xG",
-1.18,
-0.79
-],
-[
-"Strzały",
-17,
-10
-],
-[
-"Celne",
-7,
-2
-],
-[
-"Niecelne",
-7,
-4
-],
-[
-"Zablokowane",
-3,
-4
-],
-[
-"Rzuty rożne",
-7,
-4
-],
-[
-"Faule",
-11,
-8
-],
-[
-"Spalone",
-0,
-1
-]
-],
-"ind": {
-"Félix Correia": {
-"r": 8.1
-},
-"Isaac Romero": {
-"r": 7.8
-},
-"Fofana": {
-"r": 7.6
-},
-"Aitor Fernández": {
-"r": 7.6
-}
-},
-"notes": "Fofana z dwiema asystami; zawodnik meczu: Félix Correia. Rozmieszczenie w liniach przybliżone.",
-"officials": [
-{
-"r": "GŁ",
-"role": "Sędzia główny",
-"name": "Miguel Ángel Ortiz Arias",
-"nat": "ESP"
-}
-]
-}
-],
-"11": [
-{
-"id": "LL-2026-27-R11-VIL-ESP",
-"date": "2026-10-30",
-"time": "21:00",
-"home": "VIL",
-"away": "ESP",
-"status": "ns",
-"venue": {
-"name": "Estadio de la Cerámica",
-"city": "Villarreal"
-},
-"odds": {
-"src": "Wincomparator/Oddslot – przedział kursów kilkunastu bukmacherów (podana mediana/typowa wartość), stan na 27.10.2026",
-"1": 1.52,
-"X": 4.6,
-"2": 5.75,
-"1X": 1.14,
-"X2": 2.5,
-"12": 1.2,
-"dnb1": 1.19,
-"dnb2": 4.3,
-"o25": 1.55,
-"u25": 2.42,
-"bttsY": 1.64,
-"bttsN": 2.14
-},
-"info": {
-"injuries": {
-"home": [
-"Ilias Akhomach (niepewny)",
-"Nathan Saliba (niepewny, uraz mięśniowy)"
-],
-"away": [
-"Jofre Carreras",
-"Kike García (dwugłowy uda, do listopada)"
-]
-},
-"suspensions": {
-"home": [
-"Pape Gueye (czerwona kartka)"
-],
-"away": []
-},
-"restDays": {
-"home": 6,
-"away": 6
-},
-"homeAway": "Villarreal: ostatnie 5 – 2W 1R 2P (8:7), w tym LM: 3:4 z Liverpoolem, 3:1 z Napoli; Espanyol: ostatnie 5 – 0W 1R 4P (4:9)",
-"stakes": "10. Villarreal (12 pkt) vs 18. Espanyol (8 pkt, strefa spadkowa). Villarreal ma w tle Ligę Mistrzów (rotacja możliwa w kolejnym tygodniu)",
-"h2h": [
-"2026-02-09 VIL 4:1 ESP",
-"2025-11-08 ESP 0:2 VIL",
-"2025-04-27 VIL 1:0 ESP",
-"2024-09-26 ESP 1:2 VIL",
-"2023-04-27 VIL 4:2 ESP"
-]
-},
-"tip": {
-"decision": "NO BET",
-"reasons": [
-"Kurs ~1,52 na Villarreal (ok. 64% po marży) odpowiada mojej ocenie (~62–64%) – brak przewagi ≥5%.",
-"Forma Villarrealu niestabilna (2W 1R 2P), u siebie w lidze tylko 3:3 bilans punktowy; wysoki kurs nie jest argumentem.",
-"Espanyol w kryzysie (0 zwycięstw w 5), ale bilans bramkowy tylko −2 – nie jest zespołem rozbijanym.",
-"Over 2,5 po 1,55 (~64%) – mecze Espanyolu średnio 2,6 gola; brak value.",
-"H2H 6:0 dla Villarrealu – nie opieram typu na samym H2H.",
-"Sędzia i składy nieogłoszone, niepewny Saliba, zawieszony Gueye – zbyt dużo niewiadomych dla rynków niszowych."
-]
-},
-"notes": "Sędzia jeszcze nieogłoszony."
-},
-{
-"id": "LL-2026-27-R11-LEV-ATM",
-"date": "2026-10-31",
-"time": "14:00",
-"home": "LEV",
-"away": "ATM",
-"status": "ns",
-"venue": {
-"name": "Ciutat de València",
-"city": "Walencja"
-},
-"notes": "Godzina z footballwebpages/sport-flash (przeliczona), niepotwierdzona na laliga.com."
-},
-{
-"id": "LL-2026-27-R11-RAY-CEL",
-"date": "2026-10-31",
-"time": "16:15",
-"home": "RAY",
-"away": "CEL",
-"status": "ns",
-"venue": {
-"name": "Estadio de Vallecas",
-"city": "Madryt"
-},
-"notes": "Godzina z footballwebpages/sport-flash (przeliczona), niepotwierdzona na laliga.com."
-},
-{
-"id": "LL-2026-27-R11-BET-MAL",
-"date": "2026-10-31",
-"time": "18:30",
-"home": "BET",
-"away": "MAL",
-"status": "ns",
-"venue": {
-"name": "Estadio La Cartuja",
-"city": "Sewilla"
-},
-"notes": "Godzina z footballwebpages/sport-flash (przeliczona), niepotwierdzona na laliga.com."
-},
-{
-"id": "LL-2026-27-R11-BAR-ALA",
-"date": "2026-10-31",
-"time": "21:00",
-"home": "BAR",
-"away": "ALA",
-"status": "ns",
-"venue": {
-"name": "Spotify Camp Nou",
-"city": "Barcelona"
-},
-"notes": "Godzina z footballwebpages/sport-flash (przeliczona), niepotwierdzona na laliga.com."
-},
-{
-"id": "LL-2026-27-R11-GET-SEV",
-"date": "2026-11-01",
-"time": "14:00",
-"home": "GET",
-"away": "SEV",
-"status": "ns",
-"venue": {
-"name": "Coliseum",
-"city": "Getafe"
-},
-"notes": "Godzina z footballwebpages/sport-flash (przeliczona), niepotwierdzona na laliga.com."
-},
-{
-"id": "LL-2026-27-R11-RAC-RMA",
-"date": "2026-11-01",
-"time": "16:15",
-"home": "RAC",
-"away": "RMA",
-"status": "ns",
-"venue": {
-"name": "El Sardinero",
-"city": "Santander"
-},
-"notes": "Godzina z footballwebpages/sport-flash (przeliczona), niepotwierdzona na laliga.com."
-},
-{
-"id": "LL-2026-27-R11-ELC-VAL",
-"date": "2026-11-01",
-"time": "18:30",
-"home": "ELC",
-"away": "VAL",
-"status": "ns",
-"venue": {
-"name": "Martínez Valero",
-"city": "Elche"
-},
-"notes": "Godzina z footballwebpages/sport-flash (przeliczona), niepotwierdzona na laliga.com."
-},
-{
-"id": "LL-2026-27-R11-ATH-RSO",
-"date": "2026-11-01",
-"time": "21:00",
-"home": "ATH",
-"away": "RSO",
-"status": "ns",
-"venue": {
-"name": "San Mamés",
-"city": "Bilbao"
-},
-"notes": "Godzina z footballwebpages/sport-flash (przeliczona), niepotwierdzona na laliga.com."
-},
-{
-"id": "LL-2026-27-R11-DEP-OSA",
-"date": "2026-11-02",
-"time": "21:00",
-"home": "DEP",
-"away": "OSA",
-"status": "ns",
-"venue": {
-"name": "Riazor",
-"city": "A Coruña"
-},
-"notes": "Termin potwierdzony przez LaLiga: pon. 2.11, 21:00."
-}
-],
-"12": [
-{
-"id": "LL-2026-27-R12-SEV-ALA",
-"date": "2026-11-06",
-"time": "21:00",
-"home": "SEV",
-"away": "ALA",
-"status": "ns"
-},
-{
-"id": "LL-2026-27-R12-MAL-RAC",
-"date": "2026-11-07",
-"time": "14:00",
-"home": "MAL",
-"away": "RAC",
-"status": "ns"
-},
-{
-"id": "LL-2026-27-R12-ESP-DEP",
-"date": "2026-11-07",
-"time": "16:15",
-"home": "ESP",
-"away": "DEP",
-"status": "ns"
-},
-{
-"id": "LL-2026-27-R12-OSA-ATH",
-"date": "2026-11-07",
-"time": "18:30",
-"home": "OSA",
-"away": "ATH",
-"status": "ns"
-},
-{
-"id": "LL-2026-27-R12-VAL-RMA",
-"date": "2026-11-07",
-"time": "21:00",
-"home": "VAL",
-"away": "RMA",
-"status": "ns"
-},
-{
-"id": "LL-2026-27-R12-ELC-BET",
-"date": "2026-11-08",
-"time": "14:00",
-"home": "ELC",
-"away": "BET",
-"status": "ns"
-},
-{
-"id": "LL-2026-27-R12-RSO-RAY",
-"date": "2026-11-08",
-"time": "16:15",
-"home": "RSO",
-"away": "RAY",
-"status": "ns"
-},
-{
-"id": "LL-2026-27-R12-CEL-LEV",
-"date": "2026-11-08",
-"time": "18:30",
-"home": "CEL",
-"away": "LEV",
-"status": "ns"
-},
-{
-"id": "LL-2026-27-R12-VIL-GET",
-"date": "2026-11-08",
-"time": "—",
-"home": "VIL",
-"away": "GET",
-"status": "ns",
-"notes": "Godzina nieustalona w komunikacie LaLiga (EFE, 12.10.2026)."
-},
-{
-"id": "LL-2026-27-R12-ATM-BAR",
-"date": "2026-11-08",
-"time": "21:00",
-"home": "ATM",
-"away": "BAR",
-"status": "ns"
-}
-]
-}
+ "updated": "2026-10-28T05:55:00+01:00",
+ "season": "2026/27",
+ "competition": "LaLiga",
+ "currentRound": 11,
+ "note": "Źródła: laliga.com (tabela po 10. kol., terminarz), futboltotal.futbol (protokoły 10. kol.), comuniate.com (przewidywane składy 11. kol.), eldesmarque/elgoldigital/Infobae/ElNacional (Puchar Króla 27.10, zwolnienie M. Gonzáleza), Rotowire/Betr i Gainblers (DraftKings, bet365) – kursy 11. kol. z 28.10; Wincomparator/Oddslot (kursy VIL–ESP z 27.10). Sędziowie 11. kol. jeszcze nieogłoszeni. Godziny w czasie polskim.",
+ "teams": {
+  "ALA": {
+   "id": "ALA",
+   "short": "ALA",
+   "name": "Deportivo Alavés",
+   "city": "Vitoria-Gasteiz",
+   "col": "#0b3d91",
+   "stadium": "Mendizorroza"
+  },
+  "ATH": {
+   "id": "ATH",
+   "short": "ATH",
+   "name": "Athletic Bilbao",
+   "city": "Bilbao",
+   "col": "#a50f1a",
+   "stadium": "San Mamés"
+  },
+  "ATM": {
+   "id": "ATM",
+   "short": "ATM",
+   "name": "Atlético Madryt",
+   "city": "Madryt",
+   "col": "#a3192f",
+   "stadium": "Riyadh Air Metropolitano"
+  },
+  "BAR": {
+   "id": "BAR",
+   "short": "BAR",
+   "name": "FC Barcelona",
+   "city": "Barcelona",
+   "col": "#7a1035",
+   "stadium": "Spotify Camp Nou"
+  },
+  "BET": {
+   "id": "BET",
+   "short": "BET",
+   "name": "Real Betis",
+   "city": "Sewilla",
+   "col": "#00703c",
+   "stadium": "Estadio La Cartuja"
+  },
+  "CEL": {
+   "id": "CEL",
+   "short": "CEL",
+   "name": "Celta Vigo",
+   "city": "Vigo",
+   "col": "#3b7fb6",
+   "stadium": "Balaídos"
+  },
+  "DEP": {
+   "id": "DEP",
+   "short": "DEP",
+   "name": "Deportivo La Coruña",
+   "city": "A Coruña",
+   "col": "#1b4f9c",
+   "stadium": "Riazor"
+  },
+  "ELC": {
+   "id": "ELC",
+   "short": "ELC",
+   "name": "Elche CF",
+   "city": "Elche",
+   "col": "#0f6b3a",
+   "stadium": "Martínez Valero"
+  },
+  "ESP": {
+   "id": "ESP",
+   "short": "ESP",
+   "name": "Espanyol",
+   "city": "Cornellà de Llobregat",
+   "col": "#0d4ea0",
+   "stadium": "RCDE Stadium"
+  },
+  "GET": {
+   "id": "GET",
+   "short": "GET",
+   "name": "Getafe CF",
+   "city": "Getafe",
+   "col": "#1f3f8f",
+   "stadium": "Coliseum"
+  },
+  "LEV": {
+   "id": "LEV",
+   "short": "LEV",
+   "name": "Levante UD",
+   "city": "Walencja",
+   "col": "#8a1538",
+   "stadium": "Ciutat de València"
+  },
+  "MAL": {
+   "id": "MAL",
+   "short": "MAL",
+   "name": "Málaga CF",
+   "city": "Málaga",
+   "col": "#1d4e9e",
+   "stadium": "La Rosaleda"
+  },
+  "OSA": {
+   "id": "OSA",
+   "short": "OSA",
+   "name": "Osasuna",
+   "city": "Pampeluna",
+   "col": "#9e1b32",
+   "stadium": "El Sadar"
+  },
+  "RAC": {
+   "id": "RAC",
+   "short": "RAC",
+   "name": "Racing Santander",
+   "city": "Santander",
+   "col": "#0d6b3c",
+   "stadium": "El Sardinero"
+  },
+  "RAY": {
+   "id": "RAY",
+   "short": "RAY",
+   "name": "Rayo Vallecano",
+   "city": "Madryt",
+   "col": "#c8102e",
+   "stadium": "Estadio de Vallecas"
+  },
+  "RMA": {
+   "id": "RMA",
+   "short": "RMA",
+   "name": "Real Madryt",
+   "city": "Madryt",
+   "col": "#3a2a6e",
+   "stadium": "Santiago Bernabéu"
+  },
+  "RSO": {
+   "id": "RSO",
+   "short": "RSO",
+   "name": "Real Sociedad",
+   "city": "San Sebastián",
+   "col": "#0b4b9a",
+   "stadium": "Reale Arena"
+  },
+  "SEV": {
+   "id": "SEV",
+   "short": "SEV",
+   "name": "Sevilla FC",
+   "city": "Sewilla",
+   "col": "#b3122b",
+   "stadium": "Ramón Sánchez-Pizjuán"
+  },
+  "VAL": {
+   "id": "VAL",
+   "short": "VAL",
+   "name": "Valencia CF",
+   "city": "Walencja",
+   "col": "#2b2b2b",
+   "stadium": "Mestalla"
+  },
+  "VIL": {
+   "id": "VIL",
+   "short": "VIL",
+   "name": "Villarreal CF",
+   "city": "Vila-real",
+   "col": "#b58b00",
+   "stadium": "Estadio de la Cerámica"
+  }
+ },
+ "table": [
+  {
+   "team": "BAR",
+   "p": 10,
+   "w": 9,
+   "d": 0,
+   "l": 1,
+   "gf": 40,
+   "ga": 11,
+   "pts": 27,
+   "form": "WWWWL"
+  },
+  {
+   "team": "ATM",
+   "p": 10,
+   "w": 8,
+   "d": 1,
+   "l": 1,
+   "gf": 20,
+   "ga": 8,
+   "pts": 25,
+   "form": "WWWWW"
+  },
+  {
+   "team": "RMA",
+   "p": 10,
+   "w": 8,
+   "d": 0,
+   "l": 2,
+   "gf": 25,
+   "ga": 10,
+   "pts": 24,
+   "form": "WLWWW"
+  },
+  {
+   "team": "BET",
+   "p": 10,
+   "w": 6,
+   "d": 2,
+   "l": 2,
+   "gf": 16,
+   "ga": 14,
+   "pts": 20,
+   "form": "WDWLD"
+  },
+  {
+   "team": "RSO",
+   "p": 10,
+   "w": 6,
+   "d": 1,
+   "l": 3,
+   "gf": 19,
+   "ga": 18,
+   "pts": 19,
+   "form": "LWWWW"
+  },
+  {
+   "team": "SEV",
+   "p": 10,
+   "w": 5,
+   "d": 2,
+   "l": 3,
+   "gf": 16,
+   "ga": 16,
+   "pts": 17,
+   "form": "WLDLW"
+  },
+  {
+   "team": "ALA",
+   "p": 10,
+   "w": 3,
+   "d": 3,
+   "l": 4,
+   "gf": 14,
+   "ga": 11,
+   "pts": 12,
+   "form": "LDLLD"
+  },
+  {
+   "team": "ATH",
+   "p": 9,
+   "w": 3,
+   "d": 3,
+   "l": 3,
+   "gf": 12,
+   "ga": 9,
+   "pts": 12,
+   "form": "DDDLW"
+  },
+  {
+   "team": "CEL",
+   "p": 10,
+   "w": 2,
+   "d": 6,
+   "l": 2,
+   "gf": 10,
+   "ga": 7,
+   "pts": 12,
+   "form": "DWDWD"
+  },
+  {
+   "team": "VIL",
+   "p": 10,
+   "w": 3,
+   "d": 3,
+   "l": 4,
+   "gf": 15,
+   "ga": 14,
+   "pts": 12,
+   "form": "WWLDW"
+  },
+  {
+   "team": "DEP",
+   "p": 10,
+   "w": 2,
+   "d": 5,
+   "l": 3,
+   "gf": 13,
+   "ga": 13,
+   "pts": 11,
+   "form": "LDLDL"
+  },
+  {
+   "team": "OSA",
+   "p": 10,
+   "w": 3,
+   "d": 2,
+   "l": 5,
+   "gf": 10,
+   "ga": 20,
+   "pts": 11,
+   "form": "LDLWL"
+  },
+  {
+   "team": "RAC",
+   "p": 10,
+   "w": 3,
+   "d": 2,
+   "l": 5,
+   "gf": 15,
+   "ga": 26,
+   "pts": 11,
+   "form": "LLDLW"
+  },
+  {
+   "team": "LEV",
+   "p": 10,
+   "w": 2,
+   "d": 4,
+   "l": 4,
+   "gf": 16,
+   "ga": 19,
+   "pts": 10,
+   "form": "LDDWL"
+  },
+  {
+   "team": "ELC",
+   "p": 10,
+   "w": 2,
+   "d": 4,
+   "l": 4,
+   "gf": 14,
+   "ga": 17,
+   "pts": 10,
+   "form": "LWDDW"
+  },
+  {
+   "team": "RAY",
+   "p": 9,
+   "w": 2,
+   "d": 3,
+   "l": 4,
+   "gf": 12,
+   "ga": 20,
+   "pts": 9,
+   "form": "LWDDL"
+  },
+  {
+   "team": "GET",
+   "p": 10,
+   "w": 2,
+   "d": 3,
+   "l": 5,
+   "gf": 5,
+   "ga": 15,
+   "pts": 9,
+   "form": "LWLDL"
+  },
+  {
+   "team": "ESP",
+   "p": 10,
+   "w": 2,
+   "d": 2,
+   "l": 6,
+   "gf": 12,
+   "ga": 14,
+   "pts": 8,
+   "form": "LLDLL"
+  },
+  {
+   "team": "VAL",
+   "p": 10,
+   "w": 1,
+   "d": 3,
+   "l": 6,
+   "gf": 7,
+   "ga": 17,
+   "pts": 6,
+   "form": "WLDDL"
+  },
+  {
+   "team": "MAL",
+   "p": 10,
+   "w": 0,
+   "d": 5,
+   "l": 5,
+   "gf": 7,
+   "ga": 19,
+   "pts": 5,
+   "form": "LLDLD"
+  }
+ ],
+ "picks": [],
+ "rounds": {
+  "10": [
+   {
+    "id": "LL-2026-27-R10-ALA-MAL",
+    "date": "2026-10-23",
+    "time": "21:00",
+    "home": "ALA",
+    "away": "MAL",
+    "status": "ft",
+    "venue": {
+     "name": "Mendizorroza",
+     "city": "Vitoria-Gasteiz"
+    },
+    "officials": [
+     {
+      "r": "GŁ",
+      "role": "Sędzia główny",
+      "name": "Carlos Muñiz Muñoz",
+      "nat": "ESP"
+     }
+    ],
+    "staff": {
+     "home": [
+      [
+       "Trener",
+       "Quique Sánchez Flores"
+      ]
+     ],
+     "away": [
+      [
+       "Trener",
+       "Juan Francisco Funes"
+      ]
+     ]
+    },
+    "odds": {
+     "src": "SportyTrader – najlepszy kurs z porównywanych bukmacherów, stan na 23.10.2026",
+     "1": 1.84,
+     "X": 3.72,
+     "2": 5.25,
+     "1X": 1.22,
+     "X2": 2.12,
+     "12": 1.32,
+     "dnb1": 1.31,
+     "dnb2": 3.75,
+     "o25": 2.03,
+     "u25": 2.13,
+     "bttsY": 1.95,
+     "bttsN": 1.82
+    },
+    "info": {
+     "injuries": {
+      "home": [
+       "Mikel Rodríguez (kostka)"
+      ],
+      "away": [
+       "Diego Murillo",
+       "Julen Lobete",
+       "Aarón Ochoa (niepewny)",
+       "Juan Cruz (niepewny)"
+      ]
+     },
+     "suspensions": {
+      "home": [
+       "Facundo Garcés (wg starting11)"
+      ],
+      "away": []
+     },
+     "restDays": {
+      "home": 5,
+      "away": 5
+     },
+     "homeAway": "Alavés u siebie 3-0-2, na wyjeździe 0-2-2; Málaga u siebie 0-3-2, na wyjeździe 0-1-3",
+     "stakes": "Alavés (11 pkt) 1 pkt w 5 ostatnich meczach; Málaga ostatnia (4 pkt), jedyna bez zwycięstwa",
+     "h2h": [
+      "2023-05-20 ALA 2:1 MAL (Segunda)",
+      "2022-12-18 MAL 1:0 ALA (Segunda)",
+      "2018-05-06 MAL 0:3 ALA"
+     ]
+    },
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Alavés w fatalnej formie (LLDLL), Málaga bez wygranej – kurs 1,84 na gospodarzy (ok. 54% z kursu) odpowiada mojej ocenie, brak przewagi.",
+      "Rozbieżne kursy O/U między źródłami (Codere: o2,5 2,00 / u2,5 1,75) – rynek bramkowy niewiarygodny.",
+      "Zbyt duża niepewność co do składu Málagi (kilku niepewnych)."
+     ]
+    },
+    "score": [
+     1,
+     1
+    ],
+    "formation": {
+     "home": "5-3-2",
+     "away": "4-1-4-1"
+    },
+    "players": {
+     "home": [
+      [
+       1,
+       "Antonio Sivera",
+       "BR",
+       "",
+       true
+      ],
+      [
+       14,
+       "Nahuel Tenaglia",
+       "PO",
+       "",
+       true
+      ],
+      [
+       16,
+       "Ville Koski",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       2,
+       "Nicolás Valentini",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       7,
+       "Ángel Pérez",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       21,
+       "Abderrahman Rebbach",
+       "LO",
+       "",
+       true
+      ],
+      [
+       19,
+       "Pablo Ibáñez",
+       "ŚP",
+       "",
+       true
+      ],
+      [
+       8,
+       "Antonio Blanco",
+       "ŚP",
+       "",
+       true
+      ],
+      [
+       10,
+       "Carles Aleñá",
+       "ŚP",
+       "",
+       true
+      ],
+      [
+       15,
+       "Lucas Boyé",
+       "N",
+       "",
+       true
+      ],
+      [
+       9,
+       "Mariano Díaz",
+       "N",
+       "",
+       true
+      ],
+      [
+       "",
+       "Novoa",
+       "",
+       "",
+       false
+      ],
+      [
+       "",
+       "Yusi",
+       "",
+       "",
+       false
+      ],
+      [
+       "",
+       "Denis Suárez",
+       "ŚP",
+       "",
+       false
+      ],
+      [
+       "",
+       "Toni Martínez",
+       "N",
+       "",
+       false
+      ],
+      [
+       "",
+       "Aitor Mañas",
+       "N",
+       "",
+       false
+      ]
+     ],
+     "away": [
+      [
+       1,
+       "Alfonso Herrero",
+       "BR",
+       "",
+       true
+      ],
+      [
+       3,
+       "Carlos Puga",
+       "PO",
+       "",
+       true
+      ],
+      [
+       15,
+       "Ángel Recio",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       4,
+       "Einar Galilea",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       31,
+       "Rafita",
+       "LO",
+       "",
+       true
+      ],
+      [
+       6,
+       "Ramón Enríquez",
+       "DP",
+       "",
+       true
+      ],
+      [
+       10,
+       "David Larrubia",
+       "PS",
+       "",
+       true
+      ],
+      [
+       8,
+       "Carlos Dotor",
+       "ŚP",
+       "",
+       true
+      ],
+      [
+       22,
+       "Dani Lorenzo",
+       "ŚP",
+       "",
+       true
+      ],
+      [
+       39,
+       "Adam Aznou",
+       "LS",
+       "",
+       true
+      ],
+      [
+       21,
+       "Adrián Niño",
+       "N",
+       "",
+       true
+      ],
+      [
+       "",
+       "Rafa Rodríguez",
+       "",
+       "",
+       false
+      ],
+      [
+       "",
+       "Salinas",
+       "",
+       "",
+       false
+      ],
+      [
+       "",
+       "Berrocal",
+       "ŚO",
+       "",
+       false
+      ],
+      [
+       "",
+       "Chupete",
+       "N",
+       "",
+       false
+      ],
+      [
+       "",
+       "Cajuste",
+       "ŚP",
+       "",
+       false
+      ]
+     ]
+    },
+    "events": [
+     {
+      "m": 39,
+      "t": "yc",
+      "s_": "h",
+      "who": "Lucas Boyé",
+      "why": "Faul na Larrubii"
+     },
+     {
+      "m": 44,
+      "t": "var",
+      "s_": "a",
+      "kind": "Bramka – możliwy spalony (półautomatyczny)",
+      "init": "Spalony (chorągiewka)",
+      "fin": "Gol uznany"
+     },
+     {
+      "m": 44,
+      "t": "goal",
+      "s_": "a",
+      "who": "Adrián Niño",
+      "as": "Ramón Enríquez",
+      "how": "Lewa noga"
+     },
+     {
+      "m": 46,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Novoa",
+      "out": "Carles Aleñá"
+     },
+     {
+      "m": 55,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Yusi",
+      "out": "Nicolás Valentini"
+     },
+     {
+      "m": 55,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Denis Suárez",
+      "out": "Abderrahman Rebbach"
+     },
+     {
+      "m": 66,
+      "t": "yc",
+      "s_": "h",
+      "who": "Nahuel Tenaglia"
+     },
+     {
+      "m": 66,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Toni Martínez",
+      "out": "Mariano Díaz"
+     },
+     {
+      "m": 67,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Rafa Rodríguez",
+      "out": "Ramón Enríquez"
+     },
+     {
+      "m": 67,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Salinas",
+      "out": "Adam Aznou"
+     },
+     {
+      "m": 75,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Aitor Mañas",
+      "out": "Antonio Blanco"
+     },
+     {
+      "m": 77,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Berrocal",
+      "out": "Carlos Puga"
+     },
+     {
+      "m": 77,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Chupete",
+      "out": "Adrián Niño"
+     },
+     {
+      "m": 84,
+      "t": "yc",
+      "s_": "a",
+      "who": "Carlos Dotor"
+     },
+     {
+      "m": 87,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Cajuste",
+      "out": "Carlos Dotor"
+     },
+     {
+      "m": 89,
+      "t": "goal",
+      "s_": "h",
+      "who": "Aitor Mañas",
+      "how": "Dobitka po obronie Alfonso (strzał głową Toniego Martíneza)"
+     }
+    ],
+    "teamStats": [
+     [
+      "Posiadanie %",
+      50,
+      50
+     ],
+     [
+      "xG",
+      1.84,
+      0.71
+     ],
+     [
+      "Strzały",
+      18,
+      7
+     ]
+    ],
+    "ind": {
+     "Antonio Sivera": {
+      "r": 6.7
+     },
+     "Nahuel Tenaglia": {
+      "r": 7.2
+     },
+     "Ville Koski": {
+      "r": 6.9
+     },
+     "Nicolás Valentini": {
+      "r": 6.8
+     },
+     "Ángel Pérez": {
+      "r": 7.3
+     },
+     "Abderrahman Rebbach": {
+      "r": 6.2
+     },
+     "Pablo Ibáñez": {
+      "r": 7.4
+     },
+     "Antonio Blanco": {
+      "r": 6.5
+     },
+     "Carles Aleñá": {
+      "r": 6.4
+     },
+     "Lucas Boyé": {
+      "r": 6.8
+     },
+     "Mariano Díaz": {
+      "r": 6.6
+     },
+     "Alfonso Herrero": {
+      "r": 6.9
+     },
+     "Carlos Puga": {
+      "r": 8.3
+     },
+     "Ángel Recio": {
+      "r": 6.9
+     },
+     "Einar Galilea": {
+      "r": 7.5
+     },
+     "Rafita": {
+      "r": 7.0
+     },
+     "Ramón Enríquez": {
+      "r": 7.8
+     },
+     "David Larrubia": {
+      "r": 7.0
+     },
+     "Carlos Dotor": {
+      "r": 6.8
+     },
+     "Dani Lorenzo": {
+      "r": 6.8
+     },
+     "Adam Aznou": {
+      "r": 6.1
+     },
+     "Adrián Niño": {
+      "r": 7.7
+     }
+    },
+    "notes": "Gol Niño (44') początkowo odgwizdany jako spalony, uznany po weryfikacji VAR (półautomatyczny spalony – Tenaglia utrzymywał pozycję). Przy wyrównaniu Mañasa (89') Málaga reklamowała faul Pablo Ibáñeza na Recio – VAR nie interweniował. Ustawienie i oceny wg FotMob (101TV podaje Alavés w 4-4-2). Numery rezerwowych i dokładne pozycje części zmienników nieznane; frekwencja nieznana. Typ sprzed meczu: NO BET."
+   },
+   {
+    "id": "LL-2026-27-R10-RAY-ELC",
+    "date": "2026-10-24",
+    "time": "14:00",
+    "home": "RAY",
+    "away": "ELC",
+    "status": "ft",
+    "venue": {
+     "name": "Estadio de Vallecas",
+     "city": "Madryt"
+    },
+    "staff": {
+     "home": [
+      [
+       "Trener",
+       "Beñat San José"
+      ]
+     ],
+     "away": [
+      [
+       "Trener",
+       "Martín Anselmi"
+      ]
+     ]
+    },
+    "odds": {
+     "src": "SportyTrader – najlepszy kurs z porównywanych bukmacherów, stan na 23.10.2026 (1xbet)",
+     "1": 1.81,
+     "X": 3.95,
+     "2": 4.78,
+     "1X": 1.23,
+     "X2": 2.11,
+     "12": 1.3,
+     "dnb1": 1.35,
+     "dnb2": 3.4,
+     "o25": 1.99,
+     "u25": 2.07,
+     "bttsY": 1.8,
+     "bttsN": 2.02
+    },
+    "info": {
+     "injuries": {
+      "home": [
+       "Óscar Batalla",
+       "Luiz Felipe",
+       "Andrei Rațiu (niepewny)",
+       "Randy Nteka (niepewny)"
+      ],
+      "away": [
+       "Marc Aguado (kostka)",
+       "Yago Alonso",
+       "Sangaré (niepewny)"
+      ]
+     },
+     "suspensions": {
+      "home": [
+       "Pathé Ciss (wg starting11; Sports Mole widzi go w składzie)"
+      ],
+      "away": []
+     },
+     "restDays": {
+      "home": 5,
+      "away": 7
+     },
+     "homeAway": "Rayo u siebie 2-1-0; Elche na wyjeździe 1-3-1 (0-1-3 u siebie)",
+     "stakes": "Rayo 9 pkt (8 meczów); Elche 18. miejsce, 7 pkt. Częściowe zamknięcie trybun na Vallecas (kara)",
+     "h2h": [
+      "2026-04-03 RAY 1:0 ELC",
+      "2025-12-21 ELC 4:0 RAY",
+      "2023-04-29 ELC 4:0 RAY"
+     ]
+    },
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Kurs 1,81 na Rayo (ok. 55%) zbliżony do mojej oceny ~52% – EV ujemne.",
+      "Elche trudne do pokonania na wyjeździe (tylko 1 porażka w 5).",
+      "Niepewność kadrowa Rayo (Ciss, Rațiu, Nteka) i atmosfera protestów kibiców."
+     ]
+    },
+    "officials": [
+     {
+      "r": "GŁ",
+      "role": "Sędzia główny",
+      "name": "Miguel Sesma Espinosa",
+      "nat": "ESP"
+     },
+     {
+      "r": "VAR",
+      "role": "Sędzia VAR",
+      "name": "Jorge Figueroa"
+     }
+    ],
+    "score": [
+     0,
+     3
+    ],
+    "formation": {
+     "home": "4-3-3",
+     "away": "4-3-3"
+    },
+    "players": {
+     "home": [
+      [
+       25,
+       "Audero",
+       "BR",
+       "",
+       true
+      ],
+      [
+       20,
+       "Iván Balliu",
+       "PO",
+       "",
+       true
+      ],
+      [
+       24,
+       "Florian Lejeune",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       15,
+       "Sadick",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       17,
+       "Adrià Pedrosa",
+       "LO",
+       "",
+       true
+      ],
+      [
+       4,
+       "Pedro Díaz",
+       "ŚP",
+       "",
+       true
+      ],
+      [
+       6,
+       "Pathé Ciss",
+       "DP",
+       "",
+       true
+      ],
+      [
+       8,
+       "Unai López",
+       "ŚP",
+       "",
+       true
+      ],
+      [
+       19,
+       "Jorge de Frutos",
+       "PS",
+       "",
+       true
+      ],
+      [
+       10,
+       "Sergio Camello",
+       "N",
+       "",
+       true
+      ],
+      [
+       18,
+       "Álvaro García",
+       "LS",
+       "",
+       true
+      ],
+      [
+       "",
+       "Zurawski",
+       "N",
+       "",
+       false
+      ],
+      [
+       "",
+       "Tsitaishvili",
+       "PS",
+       "",
+       false
+      ],
+      [
+       "",
+       "Vertrouwd",
+       "LO",
+       "",
+       false
+      ],
+      [
+       "",
+       "Isi Palazón",
+       "PS",
+       "",
+       false
+      ],
+      [
+       "",
+       "Bouare",
+       "PO",
+       "",
+       false
+      ]
+     ],
+     "away": [
+      [
+       1,
+       "Matías Dituro",
+       "BR",
+       "",
+       true
+      ],
+      [
+       3,
+       "Revivo",
+       "PO",
+       "",
+       true
+      ],
+      [
+       2,
+       "Sangaré",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       5,
+       "Federico Redondo",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       23,
+       "Víctor Chust",
+       "LO",
+       "",
+       true
+      ],
+      [
+       47,
+       "Javier Morcillo",
+       "ŚP",
+       "",
+       true
+      ],
+      [
+       12,
+       "Gonzalo Villar",
+       "ŚP",
+       "",
+       true
+      ],
+      [
+       18,
+       "Thomas Lemar",
+       "ŚP",
+       "",
+       true
+      ],
+      [
+       11,
+       "Germán Valera",
+       "PS",
+       "",
+       true
+      ],
+      [
+       14,
+       "Niño",
+       "N",
+       "",
+       true
+      ],
+      [
+       21,
+       "Cepeda",
+       "LS",
+       "",
+       true
+      ],
+      [
+       "",
+       "Facundo Buonanotte",
+       "OP",
+       "",
+       false
+      ],
+      [
+       "",
+       "Osorio",
+       "N",
+       "",
+       false
+      ],
+      [
+       "",
+       "Martim Neto",
+       "ŚP",
+       "",
+       false
+      ],
+      [
+       "",
+       "Morente",
+       "PS",
+       "",
+       false
+      ],
+      [
+       "",
+       "Bigas",
+       "ŚO",
+       "",
+       false
+      ]
+     ]
+    },
+    "events": [
+     {
+      "m": 10,
+      "t": "yc",
+      "s_": "a",
+      "who": "Javier Morcillo"
+     },
+     {
+      "m": 23,
+      "t": "pen",
+      "s_": "a",
+      "who": "Federico Redondo",
+      "res": "Gol"
+     },
+     {
+      "m": 30,
+      "t": "yc",
+      "s_": "a",
+      "who": "Federico Redondo"
+     },
+     {
+      "m": 30,
+      "t": "yc",
+      "s_": "a",
+      "who": "Gonzalo Villar"
+     },
+     {
+      "m": 35,
+      "t": "yc",
+      "s_": "h",
+      "who": "Pathé Ciss"
+     },
+     {
+      "m": 36,
+      "t": "pen",
+      "s_": "a",
+      "who": "Niño",
+      "res": "Gol"
+     },
+     {
+      "m": 45,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Zurawski",
+      "out": "Sergio Camello"
+     },
+     {
+      "m": 45,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Tsitaishvili",
+      "out": "Jorge de Frutos"
+     },
+     {
+      "m": 45,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Facundo Buonanotte",
+      "out": "Gonzalo Villar"
+     },
+     {
+      "m": 54,
+      "t": "yc",
+      "s_": "h",
+      "who": "Adrià Pedrosa"
+     },
+     {
+      "m": 60,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Vertrouwd",
+      "out": "Adrià Pedrosa"
+     },
+     {
+      "m": 60,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Isi Palazón",
+      "out": "Pedro Díaz"
+     },
+     {
+      "m": 61,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Osorio",
+      "out": "Niño"
+     },
+     {
+      "m": 68,
+      "t": "goal",
+      "s_": "a",
+      "who": "Germán Valera",
+      "as": "Facundo Buonanotte"
+     },
+     {
+      "m": 72,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Martim Neto",
+      "out": "Thomas Lemar"
+     },
+     {
+      "m": 72,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Morente",
+      "out": "Cepeda"
+     },
+     {
+      "m": 76,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Bouare",
+      "out": "Iván Balliu"
+     },
+     {
+      "m": 81,
+      "t": "yc",
+      "s_": "h",
+      "who": "Álvaro García"
+     },
+     {
+      "m": 83,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Bigas",
+      "out": "Federico Redondo"
+     }
+    ],
+    "teamStats": [
+     [
+      "Posiadanie %",
+      57,
+      43
+     ],
+     [
+      "xG",
+      1.58,
+      2.63
+     ],
+     [
+      "Strzały",
+      18,
+      16
+     ],
+     [
+      "Celne",
+      5,
+      9
+     ],
+     [
+      "Rzuty rożne",
+      2,
+      3
+     ],
+     [
+      "Faule",
+      15,
+      11
+     ],
+     [
+      "Spalone",
+      4,
+      2
+     ]
+    ],
+    "notes": "Elche wygrywa w Vallecas po dwóch karnych w 1. połowie (Redondo, Niño) i golu Valery; wychodzi ze strefy spadkowej. Pełne nazwiska części zawodników wg źródła niepodane."
+   },
+   {
+    "id": "LL-2026-27-R10-RAC-ESP",
+    "date": "2026-10-24",
+    "time": "16:15",
+    "home": "RAC",
+    "away": "ESP",
+    "status": "ft",
+    "venue": {
+     "name": "El Sardinero",
+     "city": "Santander"
+    },
+    "staff": {
+     "home": [
+      [
+       "Trener",
+       "José Alberto López"
+      ]
+     ],
+     "away": [
+      [
+       "Trener",
+       "Manolo González"
+      ]
+     ]
+    },
+    "odds": {
+     "src": "SportyTrader – najlepszy kurs z porównywanych bukmacherów, stan na 23.10.2026 (1xbet)",
+     "1": 2.46,
+     "X": 3.76,
+     "2": 2.92,
+     "1X": 1.46,
+     "X2": 1.62,
+     "12": 1.32,
+     "dnb1": 1.77,
+     "dnb2": 2.07,
+     "o25": 1.73,
+     "u25": 2.28,
+     "bttsY": 1.53,
+     "bttsN": 2.5
+    },
+    "info": {
+     "injuries": {
+      "home": [
+       "Simon Eriksson (bark, niepewny)"
+      ],
+      "away": [
+       "Kike García (udo)",
+       "Jofre Carreras (niepewny)",
+       "Dmitrović (niepewny)",
+       "Gorosabel (niepewny)"
+      ]
+     },
+     "suspensions": {
+      "home": [
+       "Almeida (czerwona kartka, wg starting11)"
+      ],
+      "away": []
+     },
+     "restDays": {
+      "home": 6,
+      "away": 7
+     },
+     "homeAway": "Racing u siebie 2-2-0, na wyjeździe 0-0-5; Espanyol na wyjeździe 1-1-2",
+     "stakes": "Obie drużyny po 8 pkt, strefa spadkowa blisko",
+     "h2h": [
+      "2024-02-10 RAC 2:0 ESP (Segunda)",
+      "2023-08-19 ESP 2:0 RAC (Segunda)",
+      "2012-03-19 ESP 3:1 RAC"
+     ]
+    },
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Racing traci 2,8 gola/mecz, ale over 2,5 (1,73) i BTTS tak (1,53) wyceniają to już w pełni – mój model ~55% na over daje EV ujemne.",
+      "1X2 wyrównane, brak wyraźnej przewagi żadnej strony."
+     ]
+    },
+    "officials": [
+     {
+      "r": "GŁ",
+      "role": "Sędzia główny",
+      "name": "Jesús Gil Manzano",
+      "nat": "ESP"
+     },
+     {
+      "r": "VAR",
+      "role": "Sędzia VAR",
+      "name": "Raúl Martín González"
+     }
+    ],
+    "score": [
+     2,
+     1
+    ],
+    "formation": {
+     "home": "4-2-3-1",
+     "away": "4-4-2"
+    },
+    "players": {
+     "home": [
+      [
+       13,
+       "Julen Agirrezabala",
+       "BR",
+       "",
+       true
+      ],
+      [
+       2,
+       "Álvaro Mantilla",
+       "PO",
+       "",
+       true
+      ],
+      [
+       5,
+       "Pablo Ramón",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       24,
+       "Jeanuël Belocian",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       17,
+       "Jorge Salinas",
+       "LO",
+       "",
+       true
+      ],
+      [
+       18,
+       "Matteo Prati",
+       "DP",
+       "",
+       true
+      ],
+      [
+       23,
+       "Iván Martín",
+       "DP",
+       "",
+       true
+      ],
+      [
+       11,
+       "Andrés Martín",
+       "PS",
+       "",
+       true
+      ],
+      [
+       20,
+       "Sergio Canales",
+       "OP",
+       "",
+       true
+      ],
+      [
+       10,
+       "Iñigo Vicente",
+       "LS",
+       "",
+       true
+      ],
+      [
+       21,
+       "Yassir Zabiri",
+       "N",
+       "",
+       true
+      ],
+      [
+       12,
+       "Asier Villalibre",
+       "N",
+       "",
+       false
+      ],
+      [
+       6,
+       "Íñigo Sainz-Maza",
+       "ŚP",
+       "",
+       false
+      ],
+      [
+       3,
+       "Aarón Martín",
+       "LO",
+       "",
+       false
+      ],
+      [
+       9,
+       "Juan Carlos Arana",
+       "N",
+       "",
+       false
+      ],
+      [
+       16,
+       "Facundo González",
+       "ŚO",
+       "",
+       false
+      ],
+      [
+       7,
+       "Giorgi Guliashvili",
+       "",
+       "",
+       false
+      ],
+      [
+       31,
+       "Laro Gómez",
+       "",
+       "",
+       false
+      ],
+      [
+       "",
+       "Iker Luque",
+       "",
+       "",
+       false
+      ],
+      [
+       "",
+       "Pablo García",
+       "",
+       "",
+       false
+      ],
+      [
+       "",
+       "André Almeida",
+       "ŚP",
+       "",
+       false
+      ],
+      [
+       "",
+       "Pedro Felipe",
+       "",
+       "",
+       false
+      ],
+      [
+       "",
+       "Maguette Gueye",
+       "",
+       "",
+       false
+      ]
+     ],
+     "away": [
+      [
+       1,
+       "Ángel Fortuño",
+       "BR",
+       "",
+       true
+      ],
+      [
+       23,
+       "Omar El Hilali",
+       "PO",
+       "",
+       true
+      ],
+      [
+       16,
+       "Vanja Drkušić",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       6,
+       "Leandro Cabrera",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       3,
+       "Quilindschy Hartman",
+       "LO",
+       "",
+       true
+      ],
+      [
+       28,
+       "Javi Hernández",
+       "PS",
+       "",
+       true
+      ],
+      [
+       8,
+       "Edu Expósito",
+       "ŚP",
+       "",
+       true
+      ],
+      [
+       10,
+       "Pol Lozano",
+       "ŚP",
+       "",
+       true
+      ],
+      [
+       15,
+       "Bryan Zaragoza",
+       "LS",
+       "",
+       true
+      ],
+      [
+       9,
+       "Roberto Fernández",
+       "N",
+       "",
+       true
+      ],
+      [
+       22,
+       "Álex Calatrava",
+       "N",
+       "",
+       true
+      ],
+      [
+       26,
+       "Rafel Bauzà",
+       "",
+       "",
+       false
+      ],
+      [
+       13,
+       "Marko Dmitrović",
+       "BR",
+       "",
+       false
+      ],
+      [
+       2,
+       "Andoni Gorosabel",
+       "PO",
+       "",
+       false
+      ],
+      [
+       21,
+       "Roger Hinojo",
+       "",
+       "",
+       false
+      ],
+      [
+       11,
+       "Pere Milla",
+       "N",
+       "",
+       false
+      ],
+      [
+       5,
+       "Clemens Riedel",
+       "ŚO",
+       "",
+       false
+      ],
+      [
+       20,
+       "Gabriel Silva",
+       "",
+       "",
+       false
+      ],
+      [
+       "",
+       "Javi Puado",
+       "N",
+       "",
+       false
+      ],
+      [
+       "",
+       "Tyrhys Dolan",
+       "PS",
+       "",
+       false
+      ],
+      [
+       "",
+       "Urko González de Zárate",
+       "DP",
+       "",
+       false
+      ],
+      [
+       "",
+       "Marcos Fernández",
+       "",
+       "",
+       false
+      ],
+      [
+       "",
+       "Unai Núñez",
+       "ŚO",
+       "",
+       false
+      ]
+     ]
+    },
+    "events": [
+     {
+      "m": 8,
+      "t": "yc",
+      "s_": "h",
+      "who": "Iñigo Vicente"
+     },
+     {
+      "m": 17,
+      "t": "yc",
+      "s_": "a",
+      "who": "Pol Lozano"
+     },
+     {
+      "m": 62,
+      "t": "goal",
+      "s_": "a",
+      "who": "Edu Expósito",
+      "as": "Javi Hernández"
+     },
+     {
+      "m": 67,
+      "t": "yc",
+      "s_": "h",
+      "who": "Pablo Ramón"
+     },
+     {
+      "m": 67,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Iker Luque",
+      "out": "Matteo Prati"
+     },
+     {
+      "m": 67,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Pablo García",
+      "out": "Andrés Martín"
+     },
+     {
+      "m": 69,
+      "t": "goal",
+      "s_": "h",
+      "who": "Jeanuël Belocian",
+      "as": "Sergio Canales"
+     },
+     {
+      "m": 76,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Javi Puado",
+      "out": "Bryan Zaragoza"
+     },
+     {
+      "m": 76,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Tyrhys Dolan",
+      "out": "Javi Hernández"
+     },
+     {
+      "m": 82,
+      "t": "sub",
+      "s_": "h",
+      "inn": "André Almeida",
+      "out": "Sergio Canales"
+     },
+     {
+      "m": 82,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Pedro Felipe",
+      "out": "Pablo Ramón"
+     },
+     {
+      "m": 84,
+      "t": "goal",
+      "s_": "h",
+      "who": "Yassir Zabiri",
+      "as": "Álvaro Mantilla"
+     },
+     {
+      "m": 85,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Urko González de Zárate",
+      "out": "Pol Lozano"
+     },
+     {
+      "m": 85,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Marcos Fernández",
+      "out": "Álex Calatrava"
+     },
+     {
+      "m": 88,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Maguette Gueye",
+      "out": "Iñigo Vicente"
+     },
+     {
+      "m": 89,
+      "t": "yc",
+      "s_": "a",
+      "who": "Javi Puado"
+     },
+     {
+      "m": 90,
+      "t": "yc",
+      "s_": "a",
+      "who": "Edu Expósito"
+     },
+     {
+      "m": 90,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Unai Núñez",
+      "out": "Vanja Drkušić",
+      "s": "+5"
+     },
+     {
+      "m": 90,
+      "t": "yc",
+      "s_": "h",
+      "who": "Jorge Salinas",
+      "s": "+7"
+     }
+    ],
+    "teamStats": [
+     [
+      "Posiadanie %",
+      55,
+      45
+     ],
+     [
+      "xG",
+      2.67,
+      0.53
+     ],
+     [
+      "Strzały",
+      23,
+      11
+     ],
+     [
+      "Celne",
+      9,
+      1
+     ],
+     [
+      "Rzuty rożne",
+      9,
+      4
+     ],
+     [
+      "Faule",
+      10,
+      17
+     ],
+     [
+      "Spalone",
+      1,
+      4
+     ]
+    ],
+    "notes": "Racing odwraca wynik po golu Expósito (62') – Belocian i Zabiri. Kartki wg relacji futboltotal (w źródle niespójności w liczbie żółtych kartek Espanyolu)."
+   },
+   {
+    "id": "LL-2026-27-R10-VAL-VIL",
+    "date": "2026-10-24",
+    "time": "18:30",
+    "home": "VAL",
+    "away": "VIL",
+    "status": "ft",
+    "venue": {
+     "name": "Mestalla",
+     "city": "Walencja"
+    },
+    "staff": {
+     "home": [
+      [
+       "Trener",
+       "Javier Aguirre"
+      ]
+     ],
+     "away": [
+      [
+       "Trener",
+       "Iñigo Pérez"
+      ]
+     ]
+    },
+    "odds": {
+     "src": "SportyTrader – najlepszy kurs z porównywanych bukmacherów, stan na 23.10.2026 (1X2: 1xbet; pozostałe – najwyższe z zakresu)",
+     "1": 3.33,
+     "X": 3.7,
+     "2": 2.25,
+     "1X": 1.72,
+     "X2": 1.38,
+     "12": 1.32,
+     "dnb1": 2.4,
+     "dnb2": 1.63,
+     "o25": 1.82,
+     "u25": 2.19,
+     "bttsY": 1.62,
+     "bttsN": 2.28
+    },
+    "info": {
+     "injuries": {
+      "home": [
+       "Umar Sadiq",
+       "Sergi Canós",
+       "Diego López",
+       "Foulquier (niepewny)",
+       "Copete (niepewny)",
+       "Rioja (niepewny)"
+      ],
+      "away": [
+       "Nicolas Pépé (operacja oka)",
+       "Carlos Romero (niepewny)",
+       "Nathan Saliba (niepewny)"
+      ]
+     },
+     "suspensions": {
+      "home": [],
+      "away": []
+     },
+     "restDays": {
+      "home": 7,
+      "away": 4
+     },
+     "homeAway": "Valencia u siebie 0-2-3; Villarreal na wyjeździe 1-2-2",
+     "stakes": "Valencia 19. (6 pkt), Aguirre bez wygranej; Villarreal po 3:4 z Liverpoolem (wtorek), oczekiwana rotacja",
+     "h2h": [
+      "2026-02-22 VIL 2:1 VAL",
+      "2025-10-25 VAL 0:2 VIL",
+      "2025-02-15 VIL 1:1 VAL"
+     ]
+    },
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Villarreal faworytem (2,25), ale zmęczenie po LM i rotacja obniżają przewagę – moje ~42% vs 44% z kursu.",
+      "Under 2,5 kuszący (Valencia 6 goli w 9 meczach), lecz kursy O/U mają szeroki rozrzut między bukmacherami – brak pewnej wyceny.",
+      "Wiele niepewności kadrowych po obu stronach."
+     ]
+    },
+    "officials": [
+     {
+      "r": "GŁ",
+      "role": "Sędzia główny",
+      "name": "Alejandro Quintero González",
+      "nat": "ESP"
+     },
+     {
+      "r": "VAR",
+      "role": "Sędzia VAR",
+      "name": "José Antonio López"
+     }
+    ],
+    "score": [
+     1,
+     2
+    ],
+    "attendance": 46580,
+    "formation": {
+     "home": "4-4-2",
+     "away": "4-4-2"
+    },
+    "players": {
+     "home": [
+      [
+       1,
+       "Stole Dimitrievski",
+       "BR",
+       "",
+       true
+      ],
+      [
+       24,
+       "Pablo Maffeo",
+       "PO",
+       "",
+       true
+      ],
+      [
+       5,
+       "César Tárrega",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       12,
+       "Justin de Haas",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       14,
+       "José Luis Gayà",
+       "LO",
+       "",
+       true
+      ],
+      [
+       27,
+       "Otorbi",
+       "PS",
+       "",
+       true
+      ],
+      [
+       2,
+       "Guido Rodríguez",
+       "ŚP",
+       "",
+       true
+      ],
+      [
+       18,
+       "Pepelu",
+       "ŚP",
+       "",
+       true
+      ],
+      [
+       11,
+       "Luis Rioja",
+       "LS",
+       "",
+       true
+      ],
+      [
+       8,
+       "Javi Guerra",
+       "N",
+       "",
+       true
+      ],
+      [
+       7,
+       "Arnaut Danjuma",
+       "N",
+       "",
+       true
+      ],
+      [
+       "",
+       "Dani Raba",
+       "N",
+       "",
+       false
+      ],
+      [
+       "",
+       "Arnau Martínez",
+       "PO",
+       "",
+       false
+      ],
+      [
+       "",
+       "Harvey Elliott",
+       "OP",
+       "",
+       false
+      ],
+      [
+       "",
+       "Filip Ugrinic",
+       "ŚP",
+       "",
+       false
+      ],
+      [
+       "",
+       "Hugo Duro",
+       "N",
+       "",
+       false
+      ]
+     ],
+     "away": [
+      [
+       25,
+       "Péter Gulácsi",
+       "BR",
+       "",
+       true
+      ],
+      [
+       3,
+       "Alex Freeman",
+       "PO",
+       "",
+       true
+      ],
+      [
+       15,
+       "Santiago Mouriño",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       8,
+       "Juan Foyth",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       12,
+       "Renato Veiga",
+       "LO",
+       "",
+       true
+      ],
+      [
+       11,
+       "Ilias Akhomach",
+       "PS",
+       "",
+       true
+      ],
+      [
+       16,
+       "Macià",
+       "ŚP",
+       "",
+       true
+      ],
+      [
+       18,
+       "Pape Gueye",
+       "ŚP",
+       "",
+       true
+      ],
+      [
+       17,
+       "Tajon Buchanan",
+       "LS",
+       "",
+       true
+      ],
+      [
+       7,
+       "Gerard Moreno",
+       "N",
+       "",
+       true
+      ],
+      [
+       22,
+       "Ayoze Pérez",
+       "N",
+       "",
+       true
+      ],
+      [
+       "",
+       "Sergi Cardona",
+       "LO",
+       "",
+       false
+      ],
+      [
+       "",
+       "Alberto Moleiro",
+       "OP",
+       "",
+       false
+      ],
+      [
+       "",
+       "Georges Mikautadze",
+       "N",
+       "",
+       false
+      ],
+      [
+       "",
+       "Santi Comesaña",
+       "ŚP",
+       "",
+       false
+      ],
+      [
+       "",
+       "Pau Navarro",
+       "ŚO",
+       "",
+       false
+      ]
+     ]
+    },
+    "events": [
+     {
+      "m": 14,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Dani Raba",
+      "out": "Otorbi"
+     },
+     {
+      "m": 34,
+      "t": "yc",
+      "s_": "h",
+      "who": "Dani Raba"
+     },
+     {
+      "m": 37,
+      "t": "yc",
+      "s_": "a",
+      "who": "Renato Veiga",
+      "why": "Faul na Rabie w polu karnym"
+     },
+     {
+      "m": 38,
+      "t": "var",
+      "s_": "h",
+      "kind": "Rzut karny – analiza VAR",
+      "fin": "Rzut karny"
+     },
+     {
+      "m": 39,
+      "t": "pen",
+      "s_": "h",
+      "who": "Pepelu",
+      "res": "Gol"
+     },
+     {
+      "m": 43,
+      "t": "yc",
+      "s_": "a",
+      "who": "Ayoze Pérez"
+     },
+     {
+      "m": 59,
+      "t": "yc",
+      "s_": "a",
+      "who": "Tajon Buchanan"
+     },
+     {
+      "m": 60,
+      "t": "yc",
+      "s_": "h",
+      "who": "Pablo Maffeo"
+     },
+     {
+      "m": 62,
+      "t": "yc",
+      "s_": "h",
+      "who": "Guido Rodríguez"
+     },
+     {
+      "m": 65,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Sergi Cardona",
+      "out": "Juan Foyth"
+     },
+     {
+      "m": 66,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Alberto Moleiro",
+      "out": "Ilias Akhomach"
+     },
+     {
+      "m": 66,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Georges Mikautadze",
+      "out": "Ayoze Pérez"
+     },
+     {
+      "m": 69,
+      "t": "goal",
+      "s_": "a",
+      "who": "Alex Freeman",
+      "as": "Sergi Cardona"
+     },
+     {
+      "m": 70,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Arnau Martínez",
+      "out": "Dani Raba"
+     },
+     {
+      "m": 70,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Harvey Elliott",
+      "out": "Javi Guerra"
+     },
+     {
+      "m": 70,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Filip Ugrinic",
+      "out": "Pablo Maffeo"
+     },
+     {
+      "m": 77,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Hugo Duro",
+      "out": "Justin de Haas"
+     },
+     {
+      "m": 79,
+      "t": "rc",
+      "s_": "a",
+      "who": "Pape Gueye",
+      "why": "Uderzenie łokciem Gayà (po analizie VAR)"
+     },
+     {
+      "m": 82,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Santi Comesaña",
+      "out": "Gerard Moreno"
+     },
+     {
+      "m": 87,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Pau Navarro",
+      "out": "Tajon Buchanan"
+     },
+     {
+      "m": 89,
+      "t": "yc",
+      "s_": "h",
+      "who": "Harvey Elliott",
+      "why": "Protesty"
+     },
+     {
+      "m": 89,
+      "t": "rc",
+      "s_": "h",
+      "who": "Harvey Elliott",
+      "why": "Druga żółta kartka (protesty)"
+     },
+     {
+      "m": 90,
+      "t": "goal",
+      "s_": "a",
+      "who": "Georges Mikautadze",
+      "as": "Alberto Moleiro",
+      "s": "+6"
+     }
+    ],
+    "teamStats": [
+     [
+      "Posiadanie %",
+      38,
+      62
+     ],
+     [
+      "xG",
+      1.17,
+      1.21
+     ],
+     [
+      "Strzały",
+      9,
+      19
+     ],
+     [
+      "Celne",
+      5,
+      3
+     ],
+     [
+      "Rzuty rożne",
+      6,
+      9
+     ],
+     [
+      "Faule",
+      18,
+      9
+     ],
+     [
+      "Spalone",
+      2,
+      2
+     ]
+    ],
+    "notes": "Minuta ciszy dla ofiar powodzi (DANA). Karny po VAR (faul Veigi na Rabie). Gueye (VIL) i Elliott (VAL) z czerwonymi kartkami. Mikautadze zwycięski gol w 96'. Szczegóły kartek wg EFE."
+   },
+   {
+    "id": "LL-2026-27-R10-ATM-DEP",
+    "date": "2026-10-24",
+    "time": "21:00",
+    "home": "ATM",
+    "away": "DEP",
+    "status": "ft",
+    "venue": {
+     "name": "Riyadh Air Metropolitano",
+     "city": "Madryt"
+    },
+    "staff": {
+     "home": [
+      [
+       "Trener",
+       "Diego Simeone"
+      ]
+     ],
+     "away": [
+      [
+       "Trener",
+       "Antonio Hidalgo"
+      ]
+     ]
+    },
+    "odds": {
+     "src": "SportyTrader – najlepszy kurs z porównywanych bukmacherów, stan na 23.10.2026",
+     "1": 1.34,
+     "X": 6.2,
+     "2": 11.0,
+     "1X": 1.08,
+     "X2": 3.85,
+     "12": 1.16,
+     "dnb1": 1.09,
+     "dnb2": 9.0,
+     "o25": 1.65,
+     "u25": 2.44,
+     "bttsY": 2.12,
+     "bttsN": 1.75
+    },
+    "info": {
+     "injuries": {
+      "home": [
+       "Koke (udo)",
+       "Cristian Romero (przywodziciel)",
+       "Johnny Cardoso (choroba, wg starting11)"
+      ],
+      "away": [
+       "Pierre-Emerick Aubameyang",
+       "Eddahchouri",
+       "Marc Casadó",
+       "Bright Ede",
+       "Noé Carrillo (niepewny)"
+      ]
+     },
+     "suspensions": {
+      "home": [],
+      "away": []
+     },
+     "restDays": {
+      "home": 4,
+      "away": 8
+     },
+     "homeAway": "Atlético u siebie 3-1-0; Deportivo na wyjeździe 1-2-1",
+     "stakes": "Atlético 2. (22 pkt), 5 zwycięstw z rzędu; Depor bez wygranej w 5 meczach",
+     "h2h": [
+      "2026-01-13 DEP 0:1 ATM (Puchar Króla)",
+      "2018-04-01 ATM 1:0 DEP",
+      "2017-11-04 DEP 0:1 ATM"
+     ]
+    },
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Atlético wyraźnym faworytem, ale kurs 1,34 (≈75%) odpowiada mojej ocenie ~73% – EV ≈ 0.",
+      "Mecz po wtorkowej LM (Stuttgart 1:1) – możliwa rotacja.",
+      "Deportivo remisuje często (5 remisów), co ogranicza wartość handicapów."
+     ]
+    },
+    "officials": [
+     {
+      "r": "GŁ",
+      "role": "Sędzia główny",
+      "name": "José María Sánchez Martínez",
+      "nat": "ESP"
+     },
+     {
+      "r": "VAR",
+      "role": "Sędzia VAR",
+      "name": "Juan Luis Pulido"
+     }
+    ],
+    "score": [
+     1,
+     0
+    ],
+    "formation": {
+     "home": "4-3-3",
+     "away": "5-3-2"
+    },
+    "players": {
+     "home": [
+      [
+       13,
+       "Jan Oblak",
+       "BR",
+       "",
+       true
+      ],
+      [
+       14,
+       "Marcos Llorente",
+       "PO",
+       "",
+       true
+      ],
+      [
+       18,
+       "Marc Pubill",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       17,
+       "David Hancko",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       22,
+       "Álex Grimaldo",
+       "LO",
+       "",
+       true
+      ],
+      [
+       8,
+       "Pablo Barrios",
+       "ŚP",
+       "",
+       true
+      ],
+      [
+       23,
+       "Morten Hjulmand",
+       "DP",
+       "",
+       true
+      ],
+      [
+       10,
+       "Álex Baena",
+       "ŚP",
+       "",
+       true
+      ],
+      [
+       7,
+       "Lee Kang-in",
+       "PS",
+       "",
+       true
+      ],
+      [
+       19,
+       "Julián Álvarez",
+       "N",
+       "",
+       true
+      ],
+      [
+       11,
+       "Ademola Lookman",
+       "LS",
+       "",
+       true
+      ],
+      [
+       1,
+       "Juan Musso",
+       "BR",
+       "",
+       false
+      ],
+      [
+       30,
+       "Daniel Martínez",
+       "",
+       "",
+       false
+      ],
+      [
+       16,
+       "Arnau Ortiz",
+       "",
+       "",
+       false
+      ],
+      [
+       3,
+       "Obed Gómez",
+       "",
+       "",
+       false
+      ],
+      [
+       25,
+       "Salvador Esquivel",
+       "",
+       "",
+       false
+      ],
+      [
+       27,
+       "J. Domínguez",
+       "",
+       "",
+       false
+      ],
+      [
+       15,
+       "Jonathan David",
+       "N",
+       "",
+       false
+      ],
+      [
+       46,
+       "J. Castillo",
+       "",
+       "",
+       false
+      ],
+      [
+       "",
+       "Giuliano Simeone",
+       "PS",
+       "",
+       false
+      ],
+      [
+       "",
+       "Robin Le Normand",
+       "ŚO",
+       "",
+       false
+      ],
+      [
+       "",
+       "Alexander Sørloth",
+       "N",
+       "",
+       false
+      ],
+      [
+       "",
+       "Rodrigo Mendoza",
+       "ŚP",
+       "",
+       false
+      ]
+     ],
+     "away": [
+      [
+       13,
+       "Leo Román",
+       "BR",
+       "",
+       true
+      ],
+      [
+       11,
+       "David Mella",
+       "PO",
+       "",
+       true
+      ],
+      [
+       2,
+       "Altimira",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       20,
+       "José María Giménez",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       15,
+       "Loureiro",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       12,
+       "Giacomo Quagliata",
+       "LO",
+       "",
+       true
+      ],
+      [
+       16,
+       "Lorenzo Amatucci",
+       "ŚP",
+       "",
+       true
+      ],
+      [
+       8,
+       "Diego Villares",
+       "ŚP",
+       "",
+       true
+      ],
+      [
+       21,
+       "Soriano",
+       "ŚP",
+       "",
+       true
+      ],
+      [
+       10,
+       "Yeremay Hernández",
+       "N",
+       "",
+       true
+      ],
+      [
+       32,
+       "Bil Nsongo",
+       "N",
+       "",
+       true
+      ],
+      [
+       3,
+       "Arnau Comas",
+       "ŚO",
+       "",
+       false
+      ],
+      [
+       17,
+       "José Ángel Esmoris",
+       "",
+       "",
+       false
+      ],
+      [
+       25,
+       "Álvaro Fernández",
+       "",
+       "",
+       false
+      ],
+      [
+       23,
+       "Joaquín Navarro",
+       "",
+       "",
+       false
+      ],
+      [
+       4,
+       "Lucas Noubi",
+       "ŚO",
+       "",
+       false
+      ],
+      [
+       5,
+       "Daniel Barcia",
+       "ŚO",
+       "",
+       false
+      ],
+      [
+       "",
+       "Adama Traoré",
+       "PS",
+       "",
+       false
+      ],
+      [
+       "",
+       "Luismi Cruz",
+       "PS",
+       "",
+       false
+      ],
+      [
+       "",
+       "Kevin Sánchez",
+       "N",
+       "",
+       false
+      ],
+      [
+       "",
+       "Jonathan Asp Jensen",
+       "LO",
+       "",
+       false
+      ],
+      [
+       "",
+       "Riki Rodríguez",
+       "ŚP",
+       "",
+       false
+      ]
+     ]
+    },
+    "events": [
+     {
+      "m": 26,
+      "t": "yc",
+      "s_": "h",
+      "who": "Marc Pubill"
+     },
+     {
+      "m": 46,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Giuliano Simeone",
+      "out": "Pablo Barrios"
+     },
+     {
+      "m": 46,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Robin Le Normand",
+      "out": "Ademola Lookman"
+     },
+     {
+      "m": 48,
+      "t": "goal",
+      "s_": "h",
+      "who": "Julián Álvarez",
+      "as": "Álex Grimaldo"
+     },
+     {
+      "m": 58,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Adama Traoré",
+      "out": "David Mella"
+     },
+     {
+      "m": 58,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Luismi Cruz",
+      "out": "Diego Villares"
+     },
+     {
+      "m": 67,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Alexander Sørloth",
+      "out": "Lee Kang-in"
+     },
+     {
+      "m": 75,
+      "t": "yc",
+      "s_": "a",
+      "who": "Yeremay Hernández"
+     },
+     {
+      "m": 79,
+      "t": "yc",
+      "s_": "a",
+      "who": "Giacomo Quagliata"
+     },
+     {
+      "m": 80,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Rodrigo Mendoza",
+      "out": "Morten Hjulmand"
+     },
+     {
+      "m": 80,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Kevin Sánchez",
+      "out": "Bil Nsongo"
+     },
+     {
+      "m": 80,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Jonathan Asp Jensen",
+      "out": "Giacomo Quagliata"
+     },
+     {
+      "m": 84,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Riki Rodríguez",
+      "out": "Lorenzo Amatucci"
+     },
+     {
+      "m": 85,
+      "t": "yc",
+      "s_": "h",
+      "who": "Alexander Sørloth"
+     },
+     {
+      "m": 86,
+      "t": "yc",
+      "s_": "h",
+      "who": "Álex Baena"
+     },
+     {
+      "m": 87,
+      "t": "yc",
+      "s_": "h",
+      "who": "Giuliano Simeone"
+     }
+    ],
+    "teamStats": [
+     [
+      "Posiadanie %",
+      56,
+      44
+     ],
+     [
+      "xG",
+      1.41,
+      1.45
+     ],
+     [
+      "Strzały",
+      20,
+      14
+     ],
+     [
+      "Celne",
+      4,
+      4
+     ],
+     [
+      "Rzuty rożne",
+      3,
+      3
+     ],
+     [
+      "Faule",
+      11,
+      6
+     ],
+     [
+      "Spalone",
+      1,
+      0
+     ]
+    ],
+    "notes": "Lepsza 1. połowa Deportivo; Julián Álvarez daje zwycięstwo po dośrodkowaniu Grimaldo. José María Giménez (wypożyczony z Atlético) zagrał przeciw byłemu klubowi. Atlético 2 pkt za Barceloną przed El Clásico."
+   },
+   {
+    "id": "LL-2026-27-R10-ATH-GET",
+    "date": "2026-10-25",
+    "time": "14:00",
+    "home": "ATH",
+    "away": "GET",
+    "status": "ft",
+    "venue": {
+     "name": "San Mamés",
+     "city": "Bilbao"
+    },
+    "staff": {
+     "home": [
+      [
+       "Trener",
+       "Edin Terzić"
+      ]
+     ],
+     "away": [
+      [
+       "Trener",
+       "José Bordalás"
+      ]
+     ]
+    },
+    "odds": {
+     "src": "SportyTrader – najlepszy kurs, stan na 23.10.2026 (O/U o dużym rozrzucie: over 1,71–2,36, under 1,57–2,08); aktualizacja 24/25.10: Legalbet – 1 1,55–1,58, X 4,00–4,05, 2 5,66–6,00, BTTS tak 2,30 / nie 1,60, u2,5 1,62 / o2,5 2,30",
+     "1": 1.67,
+     "X": 4.05,
+     "2": 6.1,
+     "1X": 1.17,
+     "X2": 2.35,
+     "12": 1.28,
+     "dnb1": 1.23,
+     "dnb2": 4.3,
+     "bttsY": 2.38,
+     "bttsN": 1.61,
+     "u25": 1.62,
+     "o25": 2.3
+    },
+    "info": {
+     "injuries": {
+      "home": [
+       "Oihan Sancet (mięsień)",
+       "Unai Eguíluz",
+       "Álvaro Djaló",
+       "Gorka Guruzeta (więzadło krzyżowe, do końca sezonu)"
+      ],
+      "away": [
+       "Zaid Romero",
+       "Orel Mangala",
+       "Christantus Uche",
+       "Juanmi"
+      ]
+     },
+     "suspensions": {
+      "home": [
+       "Aymeric Laporte (czerwona kartka)"
+      ],
+      "away": [
+       "Djené (zawieszenie)"
+      ]
+     },
+     "restDays": {
+      "home": 4,
+      "away": 3
+     },
+     "homeAway": "Athletic u siebie 2-2-1; Getafe na wyjeździe 0-0-4 bez strzelonego gola (wg gidstats: 0 goli w 5 ostatnich wyjazdach)",
+     "stakes": "Athletic po 1:3 z Levante (środa, zaległy mecz) i meczu LE w czwartek – Terzić zapowiada zmiany; Getafe po 2:5 z Lugano (LKE), konflikt Bordalás–prezes Torres; Getafe bez wyjazdowego zwycięstwa, 2 pkt w 9 ostatnich meczach. Athletic nie wygrał z Getafe na San Mamés od stycznia 2021.",
+     "h2h": [
+      "2026-04-05 GET 2:0 ATH",
+      "2025-10-25 ATH 0:1 GET",
+      "2025-05-15 GET 0:2 ATH"
+     ]
+    },
+    "tip": {
+     "decision": "BET",
+     "market": "Obie drużyny strzelą – NIE",
+     "odds": 1.6,
+     "prob": 0.66,
+     "ev": 0.056,
+     "rating": 6,
+     "risk": "średnie",
+     "reasons": [
+      "Getafe najsłabszy atak ligi: 5 goli w 9 meczach, bez gola w meczach wyjazdowych tego sezonu.",
+      "Getafe grało w czwartek w LKE (2:5 z Lugano) – 3 dni odpoczynku, wewnętrzny konflikt w klubie (Bordalás vs prezes).",
+      "Athletic bez Sanceta i Guruzety, z zawieszonym Laporte; mecz po trzech spotkaniach w 7 dni – oczekiwane niskie tempo.",
+      "Ostatnie 3 H2H: w żadnym nie strzeliły obie drużyny (2:0, 0:1, 0:2); Getafe przegrało tylko 1 z 9 ostatnich wizyt na San Mamés.",
+      "Rynek bramkowy potwierdza niski wynik: under 2,5 po 1,62.",
+      "Model Poissona (λ ≈ 1,25 : 0,65) daje ok. 66% na brak BTTS vs 62,5% z kursu 1,60.",
+      "Styl Bordalása: niskie posiadanie, nastawienie na niski wynik."
+     ],
+     "risks": [
+      "Sprzeczne informacje o dostępności Nico Williamsa i Canalesa (EFE widzi ich w przewidywanym składzie) – silniejszy atak Athletic nie zmienia jednak ryzyka gola Getafe.",
+      "Athletic osłabiony w obronie (brak Laporte) i stracił 3 gole w ostatnim meczu ligowym – Getafe może wykorzystać stały fragment.",
+      "Kurs spadł z 1,61 do ok. 1,60; przy 1,55 EV spada do ok. +2%."
+     ],
+     "value": "Kurs 1,60 wycenia brak BTTS na ok. 62,5%; moja ocena 66% → EV ok. +5,6%.",
+     "stake": "0,5–1% bankrollu"
+    },
+    "officials": [
+     {
+      "r": "GŁ",
+      "role": "Sędzia główny",
+      "name": "Francisco José Hernández Maeso",
+      "nat": "ESP"
+     }
+    ],
+    "score": [
+     4,
+     0
+    ],
+    "formation": {
+     "home": "4-2-3-1",
+     "away": "5-4-1"
+    },
+    "players": {
+     "home": [
+      [
+       1,
+       "Unai Simón",
+       "BR",
+       "",
+       true
+      ],
+      [
+       15,
+       "Hugo Rincón",
+       "PO",
+       "",
+       true
+      ],
+      [
+       3,
+       "Dani Vivian",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       4,
+       "Aitor Paredes",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       17,
+       "Yuri Berchiche",
+       "LO",
+       "",
+       true
+      ],
+      [
+       16,
+       "Íñigo Ruiz de Galarreta",
+       "DP",
+       "",
+       true
+      ],
+      [
+       28,
+       "Peio Canales",
+       "ŚP",
+       "",
+       true
+      ],
+      [
+       9,
+       "Iñaki Williams",
+       "PS",
+       "",
+       true
+      ],
+      [
+       7,
+       "Álex Berenguer",
+       "OP",
+       "",
+       true
+      ],
+      [
+       10,
+       "Nico Williams",
+       "LS",
+       "",
+       true
+      ],
+      [
+       21,
+       "Maroan Sannadi",
+       "N",
+       "",
+       true
+      ],
+      [
+       22,
+       "Nicolás Serrano",
+       "N",
+       "",
+       false
+      ],
+      [
+       5,
+       "Yeray Álvarez",
+       "ŚO",
+       "",
+       false
+      ],
+      [
+       13,
+       "Alejandro Padilla",
+       "BR",
+       "",
+       false
+      ],
+      [
+       23,
+       "Robert Navarro",
+       "OP",
+       "",
+       false
+      ],
+      [
+       31,
+       "Johaneko Louis-Jean",
+       "",
+       "",
+       false
+      ],
+      [
+       18,
+       "Mikel Jauregizar",
+       "ŚP",
+       "",
+       false
+      ],
+      [
+       12,
+       "Jesús Areso",
+       "PO",
+       "",
+       false
+      ],
+      [
+       24,
+       "Mikel Gerenabarrena",
+       "DP",
+       "",
+       false
+      ],
+      [
+       "",
+       "Christian Imga",
+       "",
+       "",
+       false
+      ],
+      [
+       20,
+       "Alejandro Rego",
+       "",
+       "",
+       false
+      ],
+      [
+       "",
+       "Beñat Prados",
+       "ŚP",
+       "",
+       false
+      ],
+      [
+       "",
+       "Jesús Vizcay",
+       "N",
+       "",
+       false
+      ]
+     ],
+     "away": [
+      [
+       13,
+       "David Soria",
+       "BR",
+       "",
+       true
+      ],
+      [
+       17,
+       "Kiko Femenía",
+       "PO",
+       "",
+       true
+      ],
+      [
+       14,
+       "Dani Carvajal",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       26,
+       "Jean Valou",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       8,
+       "Nemanja Gudelj",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       22,
+       "Johan Mojica",
+       "LO",
+       "",
+       true
+      ],
+      [
+       11,
+       "Ramón Terrats",
+       "ŚP",
+       "",
+       true
+      ],
+      [
+       6,
+       "Mario Martín",
+       "ŚP",
+       "",
+       true
+      ],
+      [
+       16,
+       "Francho Serrano",
+       "ŚP",
+       "",
+       true
+      ],
+      [
+       10,
+       "Martín Satriano",
+       "N",
+       "",
+       true
+      ],
+      [
+       20,
+       "Iván Azón",
+       "N",
+       "",
+       true
+      ],
+      [
+       28,
+       "Alberto Risco",
+       "",
+       "",
+       false
+      ],
+      [
+       1,
+       "Jiří Letáček",
+       "BR",
+       "",
+       false
+      ],
+      [
+       35,
+       "Diego Ferrer",
+       "",
+       "",
+       false
+      ],
+      [
+       5,
+       "Abdel Abqar",
+       "ŚO",
+       "",
+       false
+      ],
+      [
+       15,
+       "Juan Sebastián Boselli",
+       "ŚO",
+       "",
+       false
+      ],
+      [
+       "",
+       "Saba Sazonov",
+       "ŚO",
+       "",
+       false
+      ],
+      [
+       "",
+       "Andrés García",
+       "",
+       "",
+       false
+      ],
+      [
+       "",
+       "Borja Mayoral",
+       "N",
+       "",
+       false
+      ],
+      [
+       19,
+       "Enes Ünal",
+       "N",
+       "",
+       false
+      ],
+      [
+       "",
+       "David Cordón",
+       "",
+       "",
+       false
+      ]
+     ]
+    },
+    "events": [
+     {
+      "m": 17,
+      "t": "goal",
+      "s_": "h",
+      "who": "Álex Berenguer"
+     },
+     {
+      "m": 18,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Mikel Gerenabarrena",
+      "out": "Íñigo Ruiz de Galarreta"
+     },
+     {
+      "m": 35,
+      "t": "goal",
+      "s_": "h",
+      "who": "Iñaki Williams",
+      "as": "Álex Berenguer"
+     },
+     {
+      "m": 39,
+      "t": "yc",
+      "s_": "a",
+      "who": "Ramón Terrats"
+     },
+     {
+      "m": 43,
+      "t": "yc",
+      "s_": "a",
+      "who": "Dani Carvajal"
+     },
+     {
+      "m": 45,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Saba Sazonov",
+      "out": "Francho Serrano"
+     },
+     {
+      "m": 45,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Andrés García",
+      "out": "Kiko Femenía"
+     },
+     {
+      "m": 63,
+      "t": "yc",
+      "s_": "a",
+      "who": "Johan Mojica"
+     },
+     {
+      "m": 68,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Christian Imga",
+      "out": "Nico Williams"
+     },
+     {
+      "m": 68,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Alejandro Rego",
+      "out": "Maroan Sannadi"
+     },
+     {
+      "m": 70,
+      "t": "goal",
+      "s_": "h",
+      "who": "Aitor Paredes",
+      "as": "Álex Berenguer"
+     },
+     {
+      "m": 71,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Borja Mayoral",
+      "out": "Ramón Terrats"
+     },
+     {
+      "m": 71,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Enes Ünal",
+      "out": "Iván Azón"
+     },
+     {
+      "m": 71,
+      "t": "sub",
+      "s_": "a",
+      "inn": "David Cordón",
+      "out": "Johan Mojica"
+     },
+     {
+      "m": 72,
+      "t": "yc",
+      "s_": "h",
+      "who": "Mikel Gerenabarrena"
+     },
+     {
+      "m": 84,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Beñat Prados",
+      "out": "Peio Canales"
+     },
+     {
+      "m": 85,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Jesús Vizcay",
+      "out": "Iñaki Williams"
+     },
+     {
+      "m": 86,
+      "t": "rc",
+      "s_": "a",
+      "who": "Mario Martín"
+     },
+     {
+      "m": 88,
+      "t": "goal",
+      "s_": "h",
+      "who": "Yuri Berchiche",
+      "as": "Álex Berenguer"
+     }
+    ],
+    "teamStats": [
+     [
+      "Posiadanie %",
+      62,
+      38
+     ],
+     [
+      "xG",
+      0.77,
+      0.42
+     ],
+     [
+      "Strzały",
+      11,
+      7
+     ],
+     [
+      "Celne",
+      4,
+      1
+     ],
+     [
+      "Niecelne",
+      4,
+      5
+     ],
+     [
+      "Zablokowane",
+      3,
+      1
+     ],
+     [
+      "Rzuty rożne",
+      2,
+      4
+     ],
+     [
+      "Faule",
+      11,
+      15
+     ],
+     [
+      "Spalone",
+      0,
+      2
+     ]
+    ],
+    "ind": {
+     "Álex Berenguer": {
+      "r": 9.8
+     },
+     "Aitor Paredes": {
+      "r": 8.7
+     },
+     "Yuri Berchiche": {
+      "r": 8.5
+     },
+     "Enes Ünal": {
+      "r": 6.4
+     },
+     "Nemanja Gudelj": {
+      "r": 6.4
+     },
+     "Dani Carvajal": {
+      "r": 5.0
+     }
+    },
+    "notes": "Berenguer: gol + 3 asysty. Czerwona kartka (bezpośrednia) Mario Martína w 86'. Składy Getafe i ustawienie Athleticu odtworzone ze statystyk zawodników (źródło nie podaje czytelnej jedenastki) – pozycje przybliżone."
+   },
+   {
+    "id": "LL-2026-27-R10-CEL-BET",
+    "date": "2026-10-25",
+    "time": "16:15",
+    "home": "CEL",
+    "away": "BET",
+    "status": "ft",
+    "venue": {
+     "name": "Balaídos",
+     "city": "Vigo"
+    },
+    "staff": {
+     "home": [
+      [
+       "Trener",
+       "Claudio Giráldez"
+      ]
+     ],
+     "away": [
+      [
+       "Trener",
+       "Manuel Pellegrini"
+      ]
+     ]
+    },
+    "odds": {
+     "src": "1X2: casasdeapuestas.com (najlepsze kursy), pozostałe: SportyTrader; stan na 23.10.2026",
+     "1": 2.9,
+     "X": 3.45,
+     "2": 2.41,
+     "1X": 1.58,
+     "X2": 1.46,
+     "12": 1.34,
+     "o25": 1.91,
+     "u25": 2.03,
+     "bttsY": 1.7,
+     "bttsN": 2.2
+    },
+    "info": {
+     "injuries": {
+      "home": [
+       "Álvaro Núñez",
+       "Carl Starfelt",
+       "Miguel Román",
+       "El-Abdellaoui (kolano)",
+       "Borja Iglesias (płaszczkowaty, do grudnia)"
+      ],
+      "away": [
+       "Junior Firpo (przywodziciel)",
+       "Cucho Hernández (mięsień)"
+      ]
+     },
+     "suspensions": {
+      "home": [],
+      "away": [
+       "Facundo Bernal (czerwona kartka, pauza kol. 10–13)"
+      ]
+     },
+     "restDays": {
+      "home": 3,
+      "away": 4
+     },
+     "homeAway": "Celta u siebie 2-1-2; Betis na wyjeździe 2-1-1",
+     "stakes": "Betis 4. (19 pkt), Celta 8. (11 pkt), 5 meczów bez porażki; oba zespoły po pucharach (Celta czwartek, Betis środa)",
+     "h2h": [
+      "2026-03-15 BET 1:1 CEL",
+      "2025-08-27 CEL 1:1 BET",
+      "2025-02-08 CEL 3:2 BET"
+     ]
+    },
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Mecz wyrównany, kursy 1X2 niespójne między źródłami.",
+      "Obie drużyny po meczach europejskich w tygodniu – trudna do przewidzenia rotacja.",
+      "Brak rynku z przewagą ≥5%."
+     ]
+    },
+    "officials": [
+     {
+      "r": "GŁ",
+      "role": "Sędzia główny",
+      "name": "Isidro Díaz de Mera Escuderos",
+      "nat": "ESP"
+     }
+    ],
+    "score": [
+     0,
+     0
+    ],
+    "formation": {
+     "home": "3-4-3",
+     "away": "4-2-3-1"
+    },
+    "players": {
+     "home": [
+      [
+       13,
+       "Ionuț Radu",
+       "BR",
+       "",
+       true
+      ],
+      [
+       20,
+       "Javi Rodríguez",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       18,
+       "Yoel Lago",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       3,
+       "Marcos Alonso",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       17,
+       "Javi Rueda",
+       "PS",
+       "",
+       true
+      ],
+      [
+       14,
+       "Aleix Febas",
+       "ŚP",
+       "",
+       true
+      ],
+      [
+       6,
+       "Ilaix Moriba",
+       "ŚP",
+       "",
+       true
+      ],
+      [
+       22,
+       "Javi Galán",
+       "LO",
+       "",
+       true
+      ],
+      [
+       23,
+       "Hugo Álvarez",
+       "PS",
+       "",
+       true
+      ],
+      [
+       11,
+       "Pablo Durán",
+       "N",
+       "",
+       true
+      ],
+      [
+       16,
+       "Hugo González",
+       "LS",
+       "",
+       true
+      ],
+      [
+       25,
+       "Iván Villar",
+       "BR",
+       "",
+       false
+      ],
+      [
+       4,
+       "Abdoulaye Faye",
+       "ŚO",
+       "",
+       false
+      ],
+      [
+       24,
+       "Couhaib Driouech",
+       "",
+       "",
+       false
+      ],
+      [
+       21,
+       "Sebastián Cáceres",
+       "ŚO",
+       "",
+       false
+      ],
+      [
+       1,
+       "Altay Bayındır",
+       "BR",
+       "",
+       false
+      ],
+      [
+       28,
+       "Andrés Antañón",
+       "",
+       "",
+       false
+      ],
+      [
+       9,
+       "Ferran Jutglà",
+       "N",
+       "",
+       false
+      ],
+      [
+       19,
+       "Williot Swedberg",
+       "LS",
+       "",
+       false
+      ],
+      [
+       5,
+       "Sergio Carreira",
+       "PO",
+       "",
+       false
+      ],
+      [
+       10,
+       "Iago Aspas",
+       "N",
+       "",
+       false
+      ],
+      [
+       30,
+       "Hugo Burcio",
+       "ŚP",
+       "",
+       false
+      ]
+     ],
+     "away": [
+      [
+       1,
+       "Álvaro Vallés",
+       "BR",
+       "",
+       true
+      ],
+      [
+       16,
+       "Víctor Gómez",
+       "PO",
+       "",
+       true
+      ],
+      [
+       12,
+       "Ángel Ortiz",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       4,
+       "Natan",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       3,
+       "Diego Llorente",
+       "LO",
+       "",
+       true
+      ],
+      [
+       21,
+       "Marc Roca",
+       "DP",
+       "",
+       true
+      ],
+      [
+       18,
+       "Nelson Deossa",
+       "ŚP",
+       "",
+       true
+      ],
+      [
+       7,
+       "Antony",
+       "PS",
+       "",
+       true
+      ],
+      [
+       22,
+       "Isco",
+       "OP",
+       "",
+       true
+      ],
+      [
+       10,
+       "Abde Ezzalzouli",
+       "LS",
+       "",
+       true
+      ],
+      [
+       25,
+       "Dani Ceballos",
+       "N",
+       "",
+       true
+      ],
+      [
+       2,
+       "Héctor Bellerín",
+       "PO",
+       "",
+       false
+      ],
+      [
+       13,
+       "Diego Conde",
+       "",
+       "",
+       false
+      ],
+      [
+       11,
+       "Fran García",
+       "LO",
+       "",
+       false
+      ],
+      [
+       31,
+       "Manu González",
+       "",
+       "",
+       false
+      ],
+      [
+       27,
+       "J. A. Morante",
+       "",
+       "",
+       false
+      ],
+      [
+       17,
+       "Rodrigo Riquelme",
+       "LS",
+       "",
+       false
+      ],
+      [
+       24,
+       "Aitor Ruibal",
+       "PS",
+       "",
+       false
+      ],
+      [
+       19,
+       "Troy Parrott",
+       "N",
+       "",
+       false
+      ],
+      [
+       8,
+       "Pablo Fornals",
+       "OP",
+       "",
+       false
+      ],
+      [
+       "",
+       "Marc Bartra",
+       "ŚO",
+       "",
+       false
+      ],
+      [
+       20,
+       "Giovani Lo Celso",
+       "OP",
+       "",
+       false
+      ],
+      [
+       15,
+       "Álvaro Fidalgo",
+       "ŚP",
+       "",
+       false
+      ]
+     ]
+    },
+    "events": [
+     {
+      "m": 30,
+      "t": "yc",
+      "s_": "h",
+      "who": "Ilaix Moriba"
+     },
+     {
+      "m": 43,
+      "t": "yc",
+      "s_": "a",
+      "who": "Diego Llorente"
+     },
+     {
+      "m": 57,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Ferran Jutglà",
+      "out": "Hugo Álvarez"
+     },
+     {
+      "m": 58,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Williot Swedberg",
+      "out": "Hugo González"
+     },
+     {
+      "m": 61,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Troy Parrott",
+      "out": "Nelson Deossa"
+     },
+     {
+      "m": 61,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Pablo Fornals",
+      "out": "Antony"
+     },
+     {
+      "m": 68,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Sergio Carreira",
+      "out": "Javi Rueda"
+     },
+     {
+      "m": 68,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Iago Aspas",
+      "out": "Pablo Durán"
+     },
+     {
+      "m": 68,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Marc Bartra",
+      "out": "Diego Llorente"
+     },
+     {
+      "m": 68,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Giovani Lo Celso",
+      "out": "Isco"
+     },
+     {
+      "m": 75,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Álvaro Fidalgo",
+      "out": "Dani Ceballos"
+     },
+     {
+      "m": 80,
+      "t": "yc",
+      "s_": "h",
+      "who": "Sergio Carreira"
+     },
+     {
+      "m": 81,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Hugo Burcio",
+      "out": "Aleix Febas"
+     }
+    ],
+    "teamStats": [
+     [
+      "Posiadanie %",
+      44,
+      56
+     ],
+     [
+      "xG",
+      0.87,
+      0.81
+     ],
+     [
+      "Strzały",
+      12,
+      15
+     ],
+     [
+      "Celne",
+      4,
+      2
+     ],
+     [
+      "Niecelne",
+      4,
+      10
+     ],
+     [
+      "Zablokowane",
+      4,
+      3
+     ],
+     [
+      "Rzuty rożne",
+      3,
+      4
+     ],
+     [
+      "Faule",
+      9,
+      12
+     ],
+     [
+      "Spalone",
+      2,
+      2
+     ]
+    ],
+    "ind": {
+     "Hugo González": {
+      "r": 7.5
+     },
+     "Álvaro Vallés": {
+      "r": 7.7
+     },
+     "Pablo Fornals": {
+      "r": 7.4
+     }
+    },
+    "notes": "Źródło podaje ustawienie Celty 3-4-3; rozmieszczenie zawodników w liniach przybliżone. W ocenach: Iván Radu = Ionuț Radu."
+   },
+   {
+    "id": "LL-2026-27-R10-RSO-LEV",
+    "date": "2026-10-25",
+    "time": "18:30",
+    "home": "RSO",
+    "away": "LEV",
+    "status": "ft",
+    "venue": {
+     "name": "Reale Arena",
+     "city": "San Sebastián"
+    },
+    "staff": {
+     "home": [
+      [
+       "Trener",
+       "Pellegrino Matarazzo"
+      ]
+     ],
+     "away": [
+      [
+       "Trener",
+       "Luís Castro"
+      ]
+     ]
+    },
+    "odds": {
+     "src": "SportyTrader – najlepszy kurs z porównywanych bukmacherów, stan na 23.10.2026",
+     "1": 1.76,
+     "X": 4.26,
+     "2": 4.8,
+     "1X": 1.23,
+     "X2": 2.22,
+     "12": 1.26,
+     "dnb1": 1.31,
+     "dnb2": 3.55,
+     "o25": 1.71,
+     "u25": 2.38,
+     "bttsY": 1.62,
+     "bttsN": 2.25
+    },
+    "info": {
+     "injuries": {
+      "home": [
+       "Álvaro Odriozola (więzadło krzyżowe)",
+       "Yangel Herrera",
+       "Jon Aramburu (niepewny)",
+       "Luken Beitia (niepewny)"
+      ],
+      "away": [
+       "Álex Primo",
+       "Bardeli (dwugłowy uda)",
+       "Adrián de la Fuente (niepewny)",
+       "Hugo Sotelo (niepewny)"
+      ]
+     },
+     "suspensions": {
+      "home": [],
+      "away": []
+     },
+     "restDays": {
+      "home": 3,
+      "away": 4
+     },
+     "homeAway": "Real Sociedad u siebie 2-1-1; Levante na wyjeździe 0-3-2",
+     "stakes": "RSO 5. (16 pkt), 4 wygrane w 5; Levante 10 pkt po 3:1 z Athletic. RSO mocno rotowała w LE (6:0 z Lillestrøm)",
+     "h2h": [
+      "2026-04-04 RSO 2:0 LEV",
+      "2025-12-20 LEV 1:1 RSO",
+      "2022-05-06 LEV 2:1 RSO"
+     ]
+    },
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Mecze obu drużyn są bramkostrzelne (RSO 3,8, Levante 3,6 gola/mecz), ale over 2,5 po 1,71 (58%) to tyle, ile daje mój model – brak value.",
+      "RSO 1,76 ≈ 57%; moja ocena ~55% – EV ujemne."
+     ]
+    },
+    "officials": [
+     {
+      "r": "GŁ",
+      "role": "Sędzia główny",
+      "name": "Javier Alberola Rojas",
+      "nat": "ESP"
+     }
+    ],
+    "score": [
+     2,
+     1
+    ],
+    "formation": {
+     "home": "4-4-2",
+     "away": "4-4-2"
+    },
+    "players": {
+     "home": [
+      [
+       1,
+       "Álex Remiro",
+       "BR",
+       "",
+       true
+      ],
+      [
+       22,
+       "Héctor Fort",
+       "PO",
+       "",
+       true
+      ],
+      [
+       6,
+       "Jon Martín",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       19,
+       "M. Sarr",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       17,
+       "Sergio Gómez",
+       "LO",
+       "",
+       true
+      ],
+      [
+       11,
+       "Gonçalo Guedes",
+       "PS",
+       "",
+       true
+      ],
+      [
+       8,
+       "Beñat Turrientes",
+       "ŚP",
+       "",
+       true
+      ],
+      [
+       4,
+       "Jon Gorrotxategi",
+       "ŚP",
+       "",
+       true
+      ],
+      [
+       24,
+       "Luka Sučić",
+       "LS",
+       "",
+       true
+      ],
+      [
+       10,
+       "Mikel Oyarzabal",
+       "N",
+       "",
+       true
+      ],
+      [
+       9,
+       "Orri Óskarsson",
+       "N",
+       "",
+       true
+      ],
+      [
+       14,
+       "Takefusa Kubo",
+       "PS",
+       "",
+       false
+      ],
+      [
+       13,
+       "Unai Marrero",
+       "BR",
+       "",
+       false
+      ],
+      [
+       15,
+       "Pablo Marín",
+       "ŚP",
+       "",
+       false
+      ],
+      [
+       3,
+       "Aihen Muñoz",
+       "LO",
+       "",
+       false
+      ],
+      [
+       16,
+       "Jon Pacheco",
+       "ŚO",
+       "",
+       false
+      ],
+      [
+       18,
+       "Carlos Soler",
+       "ŚP",
+       "",
+       false
+      ],
+      [
+       5,
+       "Igor Zubeldia",
+       "ŚO",
+       "",
+       false
+      ],
+      [
+       7,
+       "Ander Barrenetxea",
+       "LS",
+       "",
+       false
+      ],
+      [
+       "",
+       "Jon Aramburu",
+       "PO",
+       "",
+       false
+      ],
+      [
+       "",
+       "Yangel Herrera",
+       "ŚP",
+       "",
+       false
+      ],
+      [
+       12,
+       "Job Ochieng",
+       "",
+       "",
+       false
+      ],
+      [
+       "",
+       "Arsen Zakharyan",
+       "OP",
+       "",
+       false
+      ]
+     ],
+     "away": [
+      [
+       13,
+       "M. Ryan",
+       "BR",
+       "",
+       true
+      ],
+      [
+       29,
+       "Nacho Pérez",
+       "PO",
+       "",
+       true
+      ],
+      [
+       2,
+       "A. Mandi",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       3,
+       "Ifeanyi Ndukwe",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       23,
+       "Manu Sánchez",
+       "LO",
+       "",
+       true
+      ],
+      [
+       7,
+       "Roger Brugué",
+       "PS",
+       "",
+       true
+      ],
+      [
+       6,
+       "Daniel Requena",
+       "ŚP",
+       "",
+       true
+      ],
+      [
+       24,
+       "Thiago Fernández",
+       "ŚP",
+       "",
+       true
+      ],
+      [
+       8,
+       "Jon Ander Olasagasti",
+       "ŚP",
+       "",
+       true
+      ],
+      [
+       9,
+       "Iván Romero",
+       "N",
+       "",
+       true
+      ],
+      [
+       10,
+       "Petar Ratkov",
+       "N",
+       "",
+       true
+      ],
+      [
+       14,
+       "Jorge Cabello",
+       "",
+       "",
+       false
+      ],
+      [
+       1,
+       "Pablo Cuñat",
+       "BR",
+       "",
+       false
+      ],
+      [
+       32,
+       "Alejandro Primo",
+       "",
+       "",
+       false
+      ],
+      [
+       20,
+       "Oriol Rey",
+       "DP",
+       "",
+       false
+      ],
+      [
+       33,
+       "M. Santos",
+       "",
+       "",
+       false
+      ],
+      [
+       5,
+       "Hugo Sotelo",
+       "ŚP",
+       "",
+       false
+      ],
+      [
+       22,
+       "Jeremy Toljan",
+       "PO",
+       "",
+       false
+      ],
+      [
+       17,
+       "Víctor García",
+       "",
+       "",
+       false
+      ],
+      [
+       "",
+       "Axel Tape",
+       "N",
+       "",
+       false
+      ],
+      [
+       "",
+       "Karl Etta Eyong",
+       "N",
+       "",
+       false
+      ],
+      [
+       "",
+       "Yanis Musuayi",
+       "",
+       "",
+       false
+      ],
+      [
+       "",
+       "Paco Cortés",
+       "",
+       "",
+       false
+      ]
+     ]
+    },
+    "events": [
+     {
+      "m": 6,
+      "t": "goal",
+      "s_": "h",
+      "who": "Orri Óskarsson"
+     },
+     {
+      "m": 22,
+      "t": "goal",
+      "s_": "a",
+      "who": "Nacho Pérez",
+      "as": "Thiago Fernández"
+     },
+     {
+      "m": 27,
+      "t": "goal",
+      "s_": "h",
+      "who": "Beñat Turrientes",
+      "as": "Gonçalo Guedes"
+     },
+     {
+      "m": 45,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Víctor García",
+      "out": "Roger Brugué"
+     },
+     {
+      "m": 62,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Ander Barrenetxea",
+      "out": "Luka Sučić"
+     },
+     {
+      "m": 62,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Jon Aramburu",
+      "out": "Héctor Fort"
+     },
+     {
+      "m": 62,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Axel Tape",
+      "out": "Iván Romero"
+     },
+     {
+      "m": 62,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Karl Etta Eyong",
+      "out": "Petar Ratkov"
+     },
+     {
+      "m": 64,
+      "t": "yc",
+      "s_": "h",
+      "who": "Jon Martín"
+     },
+     {
+      "m": 71,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Yangel Herrera",
+      "out": "Beñat Turrientes"
+     },
+     {
+      "m": 75,
+      "t": "yc",
+      "s_": "a",
+      "who": "Manu Sánchez"
+     },
+     {
+      "m": 80,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Yanis Musuayi",
+      "out": "Daniel Requena"
+     },
+     {
+      "m": 80,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Paco Cortés",
+      "out": "Thiago Fernández"
+     },
+     {
+      "m": 81,
+      "t": "yc",
+      "s_": "a",
+      "who": "Yanis Musuayi"
+     },
+     {
+      "m": 85,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Job Ochieng",
+      "out": "Gonçalo Guedes"
+     },
+     {
+      "m": 85,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Arsen Zakharyan",
+      "out": "Orri Óskarsson"
+     },
+     {
+      "m": 87,
+      "t": "yc",
+      "s_": "a",
+      "who": "Víctor García"
+     }
+    ],
+    "teamStats": [
+     [
+      "Posiadanie %",
+      62,
+      38
+     ],
+     [
+      "xG",
+      2.44,
+      0.7
+     ],
+     [
+      "Strzały",
+      17,
+      6
+     ],
+     [
+      "Celne",
+      3,
+      2
+     ],
+     [
+      "Niecelne",
+      12,
+      4
+     ],
+     [
+      "Zablokowane",
+      2,
+      0
+     ],
+     [
+      "Rzuty rożne",
+      2,
+      3
+     ],
+     [
+      "Faule",
+      13,
+      13
+     ],
+     [
+      "Spalone",
+      1,
+      0
+     ]
+    ],
+    "ind": {
+     "Beñat Turrientes": {
+      "r": 8.2
+     },
+     "Orri Óskarsson": {
+      "r": 7.7
+     },
+     "Gonçalo Guedes": {
+      "r": 7.0
+     },
+     "Nacho Pérez": {
+      "r": 6.9
+     },
+     "Mikel Oyarzabal": {
+      "r": 5.9
+     },
+     "M. Ryan": {
+      "r": 5.6
+     }
+    },
+    "notes": "Rozmieszczenie obrońców i pomocników w liniach przybliżone (źródło podaje tylko formację 4-4-2)."
+   },
+   {
+    "id": "LL-2026-27-R10-BAR-RMA",
+    "date": "2026-10-25",
+    "time": "21:00",
+    "home": "BAR",
+    "away": "RMA",
+    "status": "ft",
+    "venue": {
+     "name": "Spotify Camp Nou",
+     "city": "Barcelona"
+    },
+    "staff": {
+     "home": [
+      [
+       "Trener",
+       "Hansi Flick"
+      ]
+     ],
+     "away": [
+      [
+       "Trener",
+       "José Mourinho"
+      ]
+     ]
+    },
+    "odds": {
+     "src": "SportyTrader – najlepszy kurs z porównywanych bukmacherów, stan na 23.10.2026 (DC/DNB/O-U/BTTS – najwyższe z zakresu)",
+     "1": 1.65,
+     "X": 6.0,
+     "2": 4.31,
+     "1X": 1.26,
+     "X2": 2.42,
+     "12": 1.18,
+     "dnb1": 1.35,
+     "dnb2": 3.3,
+     "o25": 1.18,
+     "u25": 5.05,
+     "bttsY": 1.29,
+     "bttsN": 3.85
+    },
+    "info": {
+     "injuries": {
+      "home": [
+       "Dani Olmo (przywodziciel)",
+       "Eric García",
+       "Andreas Christensen",
+       "Roony Bardghji (zerwane więzadło)",
+       "Jules Koundé"
+      ],
+      "away": [
+       "Rodrygo (kolano)",
+       "Raúl Asencio (złamanie zmęczeniowe)",
+       "Ferland Mendy",
+       "Éder Militão (mało prawdopodobny występ)"
+      ]
+     },
+     "suspensions": {
+      "home": [],
+      "away": [
+       "Vinícius Júnior (zawieszenie, pozostały 3 mecze)"
+      ]
+     },
+     "restDays": {
+      "home": 5,
+      "away": 4
+     },
+     "homeAway": "Barcelona u siebie 4-0-0 (wyjazdy 5-0-0); Real na wyjeździe 2-0-2 (u siebie 5-0-0)",
+     "stakes": "El Clásico: lider Barcelona (27 pkt, 9/9 zwycięstw) vs 3. Real (21 pkt). Barça po 2:4 z PSG, Real po 4:1 z Lipskiem",
+     "h2h": [
+      "2026-05-10 BAR 2:0 RMA",
+      "2026-01-11 BAR 3:2 RMA (Superpuchar)",
+      "2025-10-26 RMA 2:1 BAR"
+     ]
+    },
+    "notes": "Mbappé dublet, pierwsza ligowa porażka Barcelony w sezonie. W bramce Realu Łunin. Rozmieszczenie obrońców Barcelony przybliżone.",
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Kursy na Barcelonę (1,65) i over 2,5 (1,18) wiernie oddają formę Barcy i brak Viníciusa – moja ocena nie odbiega o ≥5%.",
+      "Mecz o dużej zmienności (derby, emocje, kartki) – zbyt duża niepewność.",
+      "Popularność meczu nie jest argumentem do gry.",
+      "Aktualizacja 25.10: Koundé, Olmo, Christensen, Eric García poza składem Barçy; w Realu brak Viníciusa, Rodrygo, Mendy'ego, Asencio – kursy już to uwzględniają."
+     ]
+    },
+    "officials": [
+     {
+      "r": "GŁ",
+      "role": "Sędzia główny",
+      "name": "Juan Martínez Munuera",
+      "nat": "ESP"
+     },
+     {
+      "r": "AS1",
+      "role": "Asystent 1",
+      "name": "Diego Barbero"
+     },
+     {
+      "r": "AS2",
+      "role": "Asystent 2",
+      "name": "Miguel Martínez"
+     },
+     {
+      "r": "4.",
+      "role": "Sędzia techniczny",
+      "name": "José Antonio Palomares"
+     },
+     {
+      "r": "VAR",
+      "role": "Sędzia VAR",
+      "name": "Javier Iglesias Villanueva"
+     },
+     {
+      "r": "AVAR",
+      "role": "Asystent VAR",
+      "name": "José Antonio López"
+     }
+    ],
+    "score": [
+     1,
+     2
+    ],
+    "formation": {
+     "home": "4-3-3",
+     "away": "4-2-3-1"
+    },
+    "players": {
+     "home": [
+      [
+       1,
+       "Joan García",
+       "BR",
+       "",
+       true
+      ],
+      [
+       2,
+       "João Cancelo",
+       "PO",
+       "",
+       true
+      ],
+      [
+       18,
+       "Gerard Martín",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       5,
+       "Pau Cubarsí",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       12,
+       "Xavi Espart",
+       "LO",
+       "",
+       true
+      ],
+      [
+       7,
+       "Fermín López",
+       "ŚP",
+       "",
+       true
+      ],
+      [
+       16,
+       "Rodri",
+       "DP",
+       "",
+       true
+      ],
+      [
+       8,
+       "Pedri",
+       "ŚP",
+       "",
+       true
+      ],
+      [
+       10,
+       "Lamine Yamal",
+       "PS",
+       "",
+       true
+      ],
+      [
+       11,
+       "Raphinha",
+       "N",
+       "",
+       true
+      ],
+      [
+       17,
+       "Anthony Gordon",
+       "LS",
+       "",
+       true
+      ],
+      [
+       13,
+       "Wojciech Szczęsny",
+       "BR",
+       "",
+       false
+      ],
+      [
+       25,
+       "Dominik Livaković",
+       "BR",
+       "",
+       false
+      ],
+      [
+       32,
+       "O. Goren",
+       "ŚP",
+       "",
+       false
+      ],
+      [
+       6,
+       "Gavi",
+       "ŚP",
+       "",
+       false
+      ],
+      [
+       4,
+       "B. Farinas",
+       "ŚO",
+       "",
+       false
+      ],
+      [
+       29,
+       "H. Abdelkarim",
+       "N",
+       "",
+       false
+      ],
+      [
+       22,
+       "Marc Bernal",
+       "ŚP",
+       "",
+       false
+      ],
+      [
+       41,
+       "A. Campos",
+       "",
+       "",
+       false
+      ],
+      [
+       "",
+       "Alejandro Balde",
+       "LO",
+       "",
+       false
+      ],
+      [
+       "",
+       "Frenkie de Jong",
+       "ŚP",
+       "",
+       false
+      ],
+      [
+       14,
+       "Karim Adeyemi",
+       "LS",
+       "",
+       false
+      ],
+      [
+       9,
+       "Gabriel Jesus",
+       "N",
+       "",
+       false
+      ]
+     ],
+     "away": [
+      [
+       13,
+       "Andrij Łunin",
+       "BR",
+       "",
+       true
+      ],
+      [
+       8,
+       "Federico Valverde",
+       "PO",
+       "",
+       true
+      ],
+      [
+       16,
+       "Ibrahima Konaté",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       4,
+       "Dean Huijsen",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       17,
+       "Marc Cucurella",
+       "LO",
+       "",
+       true
+      ],
+      [
+       14,
+       "Aurélien Tchouaméni",
+       "DP",
+       "",
+       true
+      ],
+      [
+       15,
+       "Arda Güler",
+       "ŚP",
+       "",
+       true
+      ],
+      [
+       20,
+       "Bernardo Silva",
+       "PS",
+       "",
+       true
+      ],
+      [
+       5,
+       "Jude Bellingham",
+       "OP",
+       "",
+       true
+      ],
+      [
+       25,
+       "Yan Diomande",
+       "LS",
+       "",
+       true
+      ],
+      [
+       10,
+       "Kylian Mbappé",
+       "N",
+       "",
+       true
+      ],
+      [
+       39,
+       "Illia Voloshyn",
+       "BR",
+       "",
+       false
+      ],
+      [
+       22,
+       "Antonio Rüdiger",
+       "ŚO",
+       "",
+       false
+      ],
+      [
+       27,
+       "Thiago Pitarch",
+       "",
+       "",
+       false
+      ],
+      [
+       26,
+       "Sergio Mestre",
+       "BR",
+       "",
+       false
+      ],
+      [
+       9,
+       "Endrick",
+       "N",
+       "",
+       false
+      ],
+      [
+       3,
+       "Éder Militão",
+       "ŚO",
+       "",
+       false
+      ],
+      [
+       21,
+       "Brahim Díaz",
+       "OP",
+       "",
+       false
+      ],
+      [
+       18,
+       "Álvaro Fernández",
+       "LO",
+       "",
+       false
+      ],
+      [
+       24,
+       "Denzel Dumfries",
+       "PO",
+       "",
+       false
+      ],
+      [
+       6,
+       "Eduardo Camavinga",
+       "ŚP",
+       "",
+       false
+      ],
+      [
+       12,
+       "Trent Alexander-Arnold",
+       "PO",
+       "",
+       false
+      ],
+      [
+       19,
+       "Carlos Espí",
+       "N",
+       "",
+       false
+      ]
+     ]
+    },
+    "events": [
+     {
+      "m": 30,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Alejandro Balde",
+      "out": "Xavi Espart"
+     },
+     {
+      "m": 41,
+      "t": "goal",
+      "s_": "a",
+      "who": "Kylian Mbappé"
+     },
+     {
+      "m": 46,
+      "t": "yc",
+      "s_": "a",
+      "who": "Aurélien Tchouaméni"
+     },
+     {
+      "m": 61,
+      "t": "goal",
+      "s_": "h",
+      "who": "Raphinha",
+      "as": "Pedri"
+     },
+     {
+      "m": 62,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Denzel Dumfries",
+      "out": "Federico Valverde"
+     },
+     {
+      "m": 74,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Frenkie de Jong",
+      "out": "Fermín López"
+     },
+     {
+      "m": 80,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Eduardo Camavinga",
+      "out": "Bernardo Silva"
+     },
+     {
+      "m": 84,
+      "t": "yc",
+      "s_": "h",
+      "who": "Anthony Gordon"
+     },
+     {
+      "m": 85,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Karim Adeyemi",
+      "out": "Anthony Gordon"
+     },
+     {
+      "m": 86,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Gabriel Jesus",
+      "out": "Raphinha"
+     },
+     {
+      "m": 87,
+      "t": "goal",
+      "s_": "a",
+      "who": "Kylian Mbappé",
+      "as": "Eduardo Camavinga"
+     },
+     {
+      "m": 90,
+      "t": "yc",
+      "s_": "a",
+      "who": "Marc Cucurella",
+      "s": "+2"
+     },
+     {
+      "m": 90,
+      "t": "yc",
+      "s_": "a",
+      "who": "Kylian Mbappé",
+      "s": "+4"
+     },
+     {
+      "m": 90,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Trent Alexander-Arnold",
+      "out": "Arda Güler",
+      "s": "+4"
+     },
+     {
+      "m": 90,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Carlos Espí",
+      "out": "Yan Diomande",
+      "s": "+4"
+     },
+     {
+      "m": 90,
+      "t": "yc",
+      "s_": "h",
+      "who": "Karim Adeyemi",
+      "s": "+6"
+     },
+     {
+      "m": 90,
+      "t": "yc",
+      "s_": "h",
+      "who": "Alejandro Balde",
+      "s": "+6"
+     }
+    ],
+    "teamStats": [
+     [
+      "Posiadanie %",
+      62,
+      38
+     ],
+     [
+      "xG",
+      1.3,
+      2.01
+     ],
+     [
+      "Strzały",
+      18,
+      10
+     ],
+     [
+      "Celne",
+      6,
+      5
+     ],
+     [
+      "Zablokowane",
+      6,
+      2
+     ],
+     [
+      "Rzuty rożne",
+      6,
+      6
+     ],
+     [
+      "Faule",
+      15,
+      11
+     ],
+     [
+      "Spalone",
+      3,
+      2
+     ]
+    ],
+    "ind": {
+     "Kylian Mbappé": {
+      "r": 8.8
+     },
+     "Raphinha": {
+      "r": 8.0
+     },
+     "Andrij Łunin": {
+      "r": 7.8
+     },
+     "Pedri": {
+      "r": 7.6
+     },
+     "João Cancelo": {
+      "r": 7.3
+     },
+     "Arda Güler": {
+      "r": 7.2
+     }
+    }
+   },
+   {
+    "id": "LL-2026-27-R10-SEV-OSA",
+    "date": "2026-10-26",
+    "time": "21:00",
+    "home": "SEV",
+    "away": "OSA",
+    "status": "ft",
+    "venue": {
+     "name": "Ramón Sánchez-Pizjuán",
+     "city": "Sewilla"
+    },
+    "staff": {
+     "home": [
+      [
+       "Trener",
+       "Luis García Plaza"
+      ]
+     ],
+     "away": [
+      [
+       "Trener",
+       "Jagoba Arrasate"
+      ]
+     ]
+    },
+    "odds": {
+     "src": "SportyTrader – najlepszy kurs z porównywanych bukmacherów, stan na 23.10.2026",
+     "1": 2.02,
+     "X": 3.6,
+     "2": 4.2,
+     "1X": 1.28,
+     "X2": 1.88,
+     "12": 1.34,
+     "dnb1": 1.4,
+     "dnb2": 3.0,
+     "o25": 2.18,
+     "u25": 1.88,
+     "bttsY": 1.95,
+     "bttsN": 1.85
+    },
+    "info": {
+     "injuries": {
+      "home": [
+       "Kochorashvili",
+       "Guridi",
+       "Lucas Stassin",
+       "Ángel",
+       "Marcão",
+       "Muñoz"
+      ],
+      "away": [
+       "Herrando",
+       "Oroz",
+       "Del Castillo",
+       "Bonel",
+       "Moro (niepewny)",
+       "Barja (niepewny)"
+      ]
+     },
+     "suspensions": {
+      "home": [
+       "Isaac Romero (kartki)"
+      ],
+      "away": []
+     },
+     "restDays": {
+      "home": 8,
+      "away": 8
+     },
+     "homeAway": "Sevilla u siebie 2-0-2; Osasuna na wyjeździe 1-0-3",
+     "stakes": "Sevilla 6. (14 pkt) po 1:4 w Madrycie; Osasuna 11 pkt. Możliwy mecz Pucharu Króla 3 dni później (niepotwierdzone)",
+     "h2h": [
+      "2026-04-26 OSA 2:1 SEV",
+      "2025-11-08 SEV 1:0 OSA",
+      "2025-04-24 OSA 1:0 SEV"
+     ]
+    },
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Sevilla z długą listą nieobecnych (m.in. zawieszony Isaac, kontuzjowany Stassin) – kurs 2,02 (≈49%) nie daje przewagi.",
+      "Składy ogłoszone dopiero w poniedziałek; możliwa rotacja przed Pucharem Króla."
+     ]
+    },
+    "score": [
+     2,
+     0
+    ],
+    "formation": {
+     "home": "4-4-2",
+     "away": "4-3-3"
+    },
+    "players": {
+     "home": [
+      [
+       1,
+       "Odisseas Vlachodimos",
+       "BR",
+       "",
+       true
+      ],
+      [
+       2,
+       "Juan Iglesias",
+       "PO",
+       "",
+       true
+      ],
+      [
+       5,
+       "Castrín",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       4,
+       "Kike Salas",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       17,
+       "Gabriel Suazo",
+       "LO",
+       "",
+       true
+      ],
+      [
+       20,
+       "Félix Correia",
+       "PS",
+       "",
+       true
+      ],
+      [
+       6,
+       "Batista Mendy Agoumé",
+       "ŚP",
+       "",
+       true
+      ],
+      [
+       24,
+       "Fofana",
+       "ŚP",
+       "",
+       true
+      ],
+      [
+       21,
+       "Chidera Ejuke",
+       "LS",
+       "",
+       true
+      ],
+      [
+       19,
+       "Lucas Stassin",
+       "N",
+       "",
+       true
+      ],
+      [
+       16,
+       "Isaac Romero",
+       "N",
+       "",
+       true
+      ],
+      [
+       3,
+       "Julio Díaz",
+       "ŚO",
+       "",
+       false
+      ],
+      [
+       10,
+       "Gerard Fernández",
+       "OP",
+       "",
+       false
+      ],
+      [
+       7,
+       "Alfon",
+       "PS",
+       "",
+       false
+      ],
+      [
+       13,
+       "Fran",
+       "BR",
+       "",
+       false
+      ],
+      [
+       18,
+       "Jon Guridi",
+       "ŚP",
+       "",
+       false
+      ],
+      [
+       8,
+       "Giorgi Kochorashvili",
+       "ŚP",
+       "",
+       false
+      ],
+      [
+       15,
+       "Fábio Cardoso",
+       "ŚO",
+       "",
+       false
+      ],
+      [
+       12,
+       "Sanganté",
+       "ŚO",
+       "",
+       false
+      ],
+      [
+       9,
+       "Robbie Ure",
+       "N",
+       "",
+       false
+      ],
+      [
+       11,
+       "Rubén Vargas",
+       "PS",
+       "",
+       false
+      ],
+      [
+       14,
+       "Manu Bueno",
+       "ŚP",
+       "",
+       false
+      ],
+      [
+       22,
+       "José Ángel Carmona",
+       "PO",
+       "",
+       false
+      ]
+     ],
+     "away": [
+      [
+       13,
+       "Aitor Fernández",
+       "BR",
+       "",
+       true
+      ],
+      [
+       19,
+       "Valentin Rosier",
+       "PO",
+       "",
+       true
+      ],
+      [
+       22,
+       "Flavien Boyomo",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       24,
+       "Alejandro Catena",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       23,
+       "Abel Bretones",
+       "LO",
+       "",
+       true
+      ],
+      [
+       16,
+       "Moi Gómez",
+       "ŚP",
+       "",
+       true
+      ],
+      [
+       6,
+       "Lucas Torró",
+       "DP",
+       "",
+       true
+      ],
+      [
+       7,
+       "Jon Moncayola",
+       "ŚP",
+       "",
+       true
+      ],
+      [
+       14,
+       "Rubén García",
+       "PS",
+       "",
+       true
+      ],
+      [
+       17,
+       "Ante Budimir",
+       "N",
+       "",
+       true
+      ],
+      [
+       21,
+       "Jonathan Dubasin",
+       "LS",
+       "",
+       true
+      ],
+      [
+       1,
+       "Sergio Herrera",
+       "BR",
+       "",
+       false
+      ],
+      [
+       31,
+       "Rafael Fernández",
+       "BR",
+       "",
+       false
+      ],
+      [
+       35,
+       "U. Santos",
+       "",
+       "",
+       false
+      ],
+      [
+       48,
+       "Rockson Yeboah",
+       "",
+       "",
+       false
+      ],
+      [
+       15,
+       "Diego Rico",
+       "LO",
+       "",
+       false
+      ],
+      [
+       26,
+       "Mauro Echegoyen",
+       "",
+       "",
+       false
+      ],
+      [
+       8,
+       "Iker Muñoz",
+       "ŚP",
+       "",
+       false
+      ],
+      [
+       18,
+       "Raúl Moro",
+       "PS",
+       "",
+       false
+      ],
+      [
+       9,
+       "Raúl García",
+       "N",
+       "",
+       false
+      ],
+      [
+       11,
+       "Kike Barja",
+       "LS",
+       "",
+       false
+      ],
+      [
+       29,
+       "Asier Osambela",
+       "ŚP",
+       "",
+       false
+      ],
+      [
+       27,
+       "Arguibide",
+       "PO",
+       "",
+       false
+      ]
+     ]
+    },
+    "events": [
+     {
+      "m": 24,
+      "t": "goal",
+      "s_": "h",
+      "who": "Isaac Romero",
+      "as": "Fofana"
+     },
+     {
+      "m": 29,
+      "t": "yc",
+      "s_": "a",
+      "who": "Alejandro Catena"
+     },
+     {
+      "m": 55,
+      "t": "yc",
+      "s_": "h",
+      "who": "Isaac Romero"
+     },
+     {
+      "m": 63,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Robbie Ure",
+      "out": "Lucas Stassin"
+     },
+     {
+      "m": 63,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Raúl Moro",
+      "out": "Rubén García"
+     },
+     {
+      "m": 63,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Raúl García",
+      "out": "Jonathan Dubasin"
+     },
+     {
+      "m": 68,
+      "t": "yc",
+      "s_": "a",
+      "who": "Valentin Rosier"
+     },
+     {
+      "m": 71,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Rubén Vargas",
+      "out": "Chidera Ejuke"
+     },
+     {
+      "m": 71,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Manu Bueno",
+      "out": "Isaac Romero"
+     },
+     {
+      "m": 79,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Asier Osambela",
+      "out": "Lucas Torró"
+     },
+     {
+      "m": 79,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Kike Barja",
+      "out": "Moi Gómez"
+     },
+     {
+      "m": 79,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Arguibide",
+      "out": "Valentin Rosier"
+     },
+     {
+      "m": 82,
+      "t": "goal",
+      "s_": "h",
+      "who": "Félix Correia",
+      "as": "Fofana"
+     },
+     {
+      "m": 86,
+      "t": "sub",
+      "s_": "h",
+      "inn": "José Ángel Carmona",
+      "out": "Félix Correia"
+     }
+    ],
+    "teamStats": [
+     [
+      "Posiadanie %",
+      44,
+      56
+     ],
+     [
+      "xG",
+      1.18,
+      0.79
+     ],
+     [
+      "Strzały",
+      17,
+      10
+     ],
+     [
+      "Celne",
+      7,
+      2
+     ],
+     [
+      "Niecelne",
+      7,
+      4
+     ],
+     [
+      "Zablokowane",
+      3,
+      4
+     ],
+     [
+      "Rzuty rożne",
+      7,
+      4
+     ],
+     [
+      "Faule",
+      11,
+      8
+     ],
+     [
+      "Spalone",
+      0,
+      1
+     ]
+    ],
+    "ind": {
+     "Félix Correia": {
+      "r": 8.1
+     },
+     "Isaac Romero": {
+      "r": 7.8
+     },
+     "Fofana": {
+      "r": 7.6
+     },
+     "Aitor Fernández": {
+      "r": 7.6
+     }
+    },
+    "notes": "Fofana z dwiema asystami; zawodnik meczu: Félix Correia. Rozmieszczenie w liniach przybliżone.",
+    "officials": [
+     {
+      "r": "GŁ",
+      "role": "Sędzia główny",
+      "name": "Miguel Ángel Ortiz Arias",
+      "nat": "ESP"
+     }
+    ]
+   }
+  ],
+  "11": [
+   {
+    "id": "LL-2026-27-R11-VIL-ESP",
+    "date": "2026-10-30",
+    "time": "21:00",
+    "home": "VIL",
+    "away": "ESP",
+    "status": "ns",
+    "venue": {
+     "name": "Estadio de la Cerámica",
+     "city": "Villarreal"
+    },
+    "odds": {
+     "src": "Wincomparator/Oddslot – przedział kursów kilkunastu bukmacherów (podana mediana/typowa wartość), stan na 27.10.2026",
+     "1": 1.52,
+     "X": 4.6,
+     "2": 5.75,
+     "1X": 1.14,
+     "X2": 2.5,
+     "12": 1.2,
+     "dnb1": 1.19,
+     "dnb2": 4.3,
+     "o25": 1.55,
+     "u25": 2.42,
+     "bttsY": 1.64,
+     "bttsN": 2.14
+    },
+    "info": {
+     "injuries": {
+      "home": [
+       "Ilias Akhomach (niepewny)",
+       "Nathan Saliba (niepewny, uraz mięśniowy)"
+      ],
+      "away": [
+       "Jofre Carreras",
+       "Kike García (dwugłowy uda, do listopada)"
+      ]
+     },
+     "suspensions": {
+      "home": [
+       "Pape Gueye (czerwona kartka)"
+      ],
+      "away": []
+     },
+     "restDays": {
+      "home": 3,
+      "away": 3
+     },
+     "homeAway": "Villarreal: ostatnie 5 – 2W 1R 2P (8:7), w tym LM: 3:4 z Liverpoolem, 3:1 z Napoli; Espanyol: ostatnie 5 – 0W 1R 4P (4:9). Puchar Króla 27.10: Manacor 0:3 Villarreal; Sestao 4:3 Espanyol po dogrywce (odpadł).",
+     "stakes": "10. Villarreal (12 pkt) vs 18. Espanyol (8 pkt, strefa spadkowa). Villarreal ma w tle Ligę Mistrzów (rotacja możliwa w kolejnym tygodniu). 27.10 Espanyol zwolnił trenera Manolo Gonzáleza po porażce w Pucharze – nowy/tymczasowy trener nieznany w źródłach.",
+     "h2h": [
+      "2026-02-09 VIL 4:1 ESP",
+      "2025-11-08 ESP 0:2 VIL",
+      "2025-04-27 VIL 1:0 ESP",
+      "2024-09-26 ESP 1:2 VIL",
+      "2023-04-27 VIL 4:2 ESP"
+     ]
+    },
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Kurs ~1,52 na Villarreal (ok. 64% po marży) odpowiada mojej ocenie (~62–64%) – brak przewagi ≥5%.",
+      "Forma Villarrealu niestabilna (2W 1R 2P), u siebie w lidze tylko 3:3 bilans punktowy; wysoki kurs nie jest argumentem.",
+      "Espanyol w kryzysie (0 zwycięstw w 5), ale bilans bramkowy tylko −2 – nie jest zespołem rozbijanym.",
+      "Over 2,5 po 1,55 (~64%) – mecze Espanyolu średnio 2,6 gola; brak value.",
+      "H2H 6:0 dla Villarrealu – nie opieram typu na samym H2H.",
+      "Sędzia i składy nieogłoszone, niepewny Saliba, zawieszony Gueye – zbyt dużo niewiadomych dla rynków niszowych.",
+      "Aktualizacja 28.10: zmiana trenera Espanyolu (efekt „nowej miotły” lub dalszy chaos) i 120 min gry w Pucharze zwiększają niepewność – utrzymuję NO BET."
+     ]
+    },
+    "notes": "Sędzia jeszcze nieogłoszony. Espanyol bez trenera po zwolnieniu Manolo Gonzáleza (27.10)."
+   },
+   {
+    "id": "LL-2026-27-R11-LEV-ATM",
+    "date": "2026-10-31",
+    "time": "14:00",
+    "home": "LEV",
+    "away": "ATM",
+    "status": "ns",
+    "venue": {
+     "name": "Ciutat de València",
+     "city": "Walencja"
+    },
+    "notes": "Przewidywane składy (comuniate): LEV – Ryan; Nacho Pérez, Ndukwe, De la Fuente/Mandi, Manu Sánchez; Olasagasti, Oriol Rey; Requena, Brugui, Iván Romero; Thiago Fernández. ATM – Oblak; Llorente, Pubill, Hancko, Grimaldo; G. Simeone, Barrios, Hjulmand, Baena; Kang-In Lee, J. Álvarez. Sędzia nieogłoszony.",
+    "odds": {
+     "src": "Rotowire – Betr (przeliczone z kursów amerykańskich), stan na 28.10.2026",
+     "1": 4.93,
+     "X": 4.22,
+     "2": 1.55
+    },
+    "info": {
+     "injuries": {
+      "home": [],
+      "away": []
+     },
+     "restDays": {
+      "home": 6,
+      "away": 6
+     },
+     "homeAway": "Levante: 2W 4R 4P (16:19), forma LDDWL; Atlético: 8W 1R 1P (20:8), 5 zwycięstw z rzędu",
+     "stakes": "14. Levante (10 pkt) vs 2. Atlético (25 pkt, 2 pkt straty do Barcelony). Atlético w Lidze Mistrzów (kolejny mecz LM na początku listopada)",
+     "h2h": []
+    },
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Kurs 1,55 na Atlético ≈ 60% po usunięciu marży – moja ocena ok. 58–62%, brak przewagi.",
+      "Levante u siebie gra otwarcie (16 goli strzelonych), ale traci 1,9 gola/mecz – sugeruje over, jednak brak kursów na rynki bramkowe.",
+      "Atlético w serii 5 zwycięstw, ale 20 goli w 10 meczach – wygrane często skromne, handicap −1 bez wyceny.",
+      "Możliwa rotacja Simeone przed Ligą Mistrzów; przewidywany skład (comuniate) jednak podstawowy.",
+      "Brak potwierdzonych informacji o kontuzjach – za mało danych na rynki niszowe."
+     ]
+    }
+   },
+   {
+    "id": "LL-2026-27-R11-RAY-CEL",
+    "date": "2026-10-31",
+    "time": "16:15",
+    "home": "RAY",
+    "away": "CEL",
+    "status": "ns",
+    "venue": {
+     "name": "Estadio de Vallecas",
+     "city": "Madryt"
+    },
+    "notes": "Przewidywane składy (comuniate): RAY – Audero; Balliu, Lejeune, Sadick, Pedrosa; Óscar Valentín, Unai López; De Frutos, Isi Palazón, Álvaro García; Camello. CEL – Radu; J. Rodríguez, Yoel Lago, M. Alonso; Javi Rueda, Febas, Ilaix Moriba, Javi Galán; Aspas, Hugo Álvarez; Jutglà. Sędzia nieogłoszony.",
+    "odds": {
+     "src": "Gainblers – średnia DraftKings/bet365 (przeliczone z kursów amerykańskich), stan na 28.10.2026",
+     "1": 2.3,
+     "X": 3.28,
+     "2": 3.05
+    },
+    "info": {
+     "injuries": {
+      "home": [],
+      "away": []
+     },
+     "suspensions": {
+      "home": [],
+      "away": []
+     },
+     "restDays": {
+      "home": 3
+     },
+     "homeAway": "Rayo: 2W 3R 4P (12:20) w 9 meczach (zaległy mecz z Athletikiem), forma LWDDL; Celta: 2W 6R 2P (10:7), forma DWDWD",
+     "stakes": "16. Rayo (9 pkt) vs 9. Celta (12 pkt). Rayo 27.10 grało 120 min w Pucharze Króla (Recreativo 2:3 Rayo po dogrywce; czerwona kartka Lejeune – kara dotyczy Pucharu)",
+     "h2h": []
+    },
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Kursy (2,30 / 3,28 / 3,05) dają ok. 41% / 29% / 31% – zbliżone do mojej oceny; brak przewagi ≥5%.",
+      "Rayo zmęczone 120 min w Pucharze (3 dni odpoczynku) – argument za Celtą, ale Celta remisuje 60% meczów i strzela tylko 1 gol/mecz.",
+      "Brak kursów na podwójną szansę/DNB i rynki bramkowe – nie mogę wycenić X2.",
+      "Mecz o wyrównanym rozkładzie szans – zbyt duża niepewność."
+     ]
+    }
+   },
+   {
+    "id": "LL-2026-27-R11-BET-MAL",
+    "date": "2026-10-31",
+    "time": "18:30",
+    "home": "BET",
+    "away": "MAL",
+    "status": "ns",
+    "venue": {
+     "name": "Estadio La Cartuja",
+     "city": "Sewilla"
+    },
+    "notes": "Przewidywane składy (comuniate): BET – Valles; Bellerín, D. Llorente/Bartra, Natan, Fran García; Marc Roca, Fornals; Antony, Isco, Abde; Parrot. MAL – Herrero; Puga, Galilea, Recio, Rafita Garrido; Dani Lorenzo, Ramón Enríquez, Dotor; Larrubia, Adrián Niño, Aznou. Sędzia nieogłoszony.",
+    "odds": {
+     "src": "Gainblers – średnia DraftKings/bet365 (przeliczone z kursów amerykańskich), stan na 28.10.2026",
+     "1": 1.37,
+     "X": 5.0,
+     "2": 7.0
+    },
+    "info": {
+     "injuries": {
+      "home": [],
+      "away": []
+     },
+     "restDays": {
+      "home": 3,
+      "away": 4
+     },
+     "homeAway": "Betis: 6W 2R 2P (16:14), forma WDWLD; Málaga: 0W 5R 5P (7:19), ostatnia w tabeli",
+     "stakes": "4. Betis (20 pkt) vs 20. Málaga (5 pkt). Derby Andaluzji. Betis gra w Pucharze Króla 28.10 (Navalcarnero – Betis, 21:00); Málaga grała 27.10 w Pucharze (Sporting de Alcázar)",
+     "h2h": []
+    },
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Kurs 1,37 na Betis ≈ 69–70% po marży; moja ocena ok. 65–70% – EV ≤ 0.",
+      "Betis wygrywa, ale z małą różnicą bramek (+2 w 10 meczach) – nie jest drużyną rozbijającą rywali.",
+      "Málaga bez zwycięstwa, lecz 5 remisów – potrafi punktować.",
+      "Betis gra w środę w Pucharze (możliwa rotacja i zmęczenie), mecz derbowy podnosi zmienność.",
+      "Brak kursów na handicap i gole – niski kurs na 1X2 nie jest argumentem."
+     ]
+    }
+   },
+   {
+    "id": "LL-2026-27-R11-BAR-ALA",
+    "date": "2026-10-31",
+    "time": "21:00",
+    "home": "BAR",
+    "away": "ALA",
+    "status": "ns",
+    "venue": {
+     "name": "Spotify Camp Nou",
+     "city": "Barcelona"
+    },
+    "notes": "Przewidywane składy (comuniate): BAR – Joan García; Cancelo, Cubarsí, Gerard Martín, Balde; Pedri, Fermín, Rodri Hernández; Lamine Yamal, Raphinha, Gordon. ALA – Sivera; Tenaglia, Koski, Valentini, Novoa/Denis Suárez; Blanco, Ibáñez, Á. Pérez, Y. Enríquez/Rebbach; Boyé, Toni Martínez/Mañas. Sędzia nieogłoszony.",
+    "odds": {
+     "src": "Gainblers – średnia DraftKings/bet365 (przeliczone z kursów amerykańskich), stan na 28.10.2026",
+     "1": 1.11,
+     "X": 8.5,
+     "2": 21.0
+    },
+    "info": {
+     "injuries": {
+      "home": [],
+      "away": []
+     },
+     "restDays": {
+      "home": 6,
+      "away": 3
+     },
+     "homeAway": "Barcelona: 9W 0R 1P (40:11), porażka 1:2 z Realem w ostatniej kolejce; Alavés: 3W 3R 4P (14:11), forma LDLLD",
+     "stakes": "1. Barcelona (27 pkt) vs 7. Alavés (12 pkt). Alavés gra w Pucharze Króla 28.10 (Anaitasuna – Alavés). Barcelona przed meczem Ligi Mistrzów",
+     "h2h": []
+    },
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Kurs 1,11 na Barcelonę (~87% po marży) – nawet przy mojej ocenie 85–88% EV ≈ 0; zbyt niski kurs.",
+      "Barcelona strzela 4 gole/mecz – rynki over/handicap byłyby interesujące, ale brak ich kursów w źródłach.",
+      "Alavés broni się solidnie (1,1 straconego gola/mecz) – handicap −2 bez wyceny byłby zgadywaniem.",
+      "Możliwa rotacja Flicka przed Ligą Mistrzów."
+     ]
+    }
+   },
+   {
+    "id": "LL-2026-27-R11-GET-SEV",
+    "date": "2026-11-01",
+    "time": "14:00",
+    "home": "GET",
+    "away": "SEV",
+    "status": "ns",
+    "venue": {
+     "name": "Coliseum",
+     "city": "Getafe"
+    },
+    "notes": "Godzina z footballwebpages/sport-flash (przeliczona), niepotwierdzona na laliga.com."
+   },
+   {
+    "id": "LL-2026-27-R11-RAC-RMA",
+    "date": "2026-11-01",
+    "time": "16:15",
+    "home": "RAC",
+    "away": "RMA",
+    "status": "ns",
+    "venue": {
+     "name": "El Sardinero",
+     "city": "Santander"
+    },
+    "notes": "Godzina z footballwebpages/sport-flash (przeliczona), niepotwierdzona na laliga.com."
+   },
+   {
+    "id": "LL-2026-27-R11-ELC-VAL",
+    "date": "2026-11-01",
+    "time": "18:30",
+    "home": "ELC",
+    "away": "VAL",
+    "status": "ns",
+    "venue": {
+     "name": "Martínez Valero",
+     "city": "Elche"
+    },
+    "notes": "Godzina z footballwebpages/sport-flash (przeliczona), niepotwierdzona na laliga.com."
+   },
+   {
+    "id": "LL-2026-27-R11-ATH-RSO",
+    "date": "2026-11-01",
+    "time": "21:00",
+    "home": "ATH",
+    "away": "RSO",
+    "status": "ns",
+    "venue": {
+     "name": "San Mamés",
+     "city": "Bilbao"
+    },
+    "notes": "Godzina z footballwebpages/sport-flash (przeliczona), niepotwierdzona na laliga.com."
+   },
+   {
+    "id": "LL-2026-27-R11-DEP-OSA",
+    "date": "2026-11-02",
+    "time": "21:00",
+    "home": "DEP",
+    "away": "OSA",
+    "status": "ns",
+    "venue": {
+     "name": "Riazor",
+     "city": "A Coruña"
+    },
+    "notes": "Termin potwierdzony przez LaLiga: pon. 2.11, 21:00."
+   }
+  ],
+  "12": [
+   {
+    "id": "LL-2026-27-R12-SEV-ALA",
+    "date": "2026-11-06",
+    "time": "21:00",
+    "home": "SEV",
+    "away": "ALA",
+    "status": "ns"
+   },
+   {
+    "id": "LL-2026-27-R12-MAL-RAC",
+    "date": "2026-11-07",
+    "time": "14:00",
+    "home": "MAL",
+    "away": "RAC",
+    "status": "ns"
+   },
+   {
+    "id": "LL-2026-27-R12-ESP-DEP",
+    "date": "2026-11-07",
+    "time": "16:15",
+    "home": "ESP",
+    "away": "DEP",
+    "status": "ns"
+   },
+   {
+    "id": "LL-2026-27-R12-OSA-ATH",
+    "date": "2026-11-07",
+    "time": "18:30",
+    "home": "OSA",
+    "away": "ATH",
+    "status": "ns"
+   },
+   {
+    "id": "LL-2026-27-R12-VAL-RMA",
+    "date": "2026-11-07",
+    "time": "21:00",
+    "home": "VAL",
+    "away": "RMA",
+    "status": "ns"
+   },
+   {
+    "id": "LL-2026-27-R12-ELC-BET",
+    "date": "2026-11-08",
+    "time": "14:00",
+    "home": "ELC",
+    "away": "BET",
+    "status": "ns"
+   },
+   {
+    "id": "LL-2026-27-R12-RSO-RAY",
+    "date": "2026-11-08",
+    "time": "16:15",
+    "home": "RSO",
+    "away": "RAY",
+    "status": "ns"
+   },
+   {
+    "id": "LL-2026-27-R12-CEL-LEV",
+    "date": "2026-11-08",
+    "time": "18:30",
+    "home": "CEL",
+    "away": "LEV",
+    "status": "ns"
+   },
+   {
+    "id": "LL-2026-27-R12-VIL-GET",
+    "date": "2026-11-08",
+    "time": "—",
+    "home": "VIL",
+    "away": "GET",
+    "status": "ns",
+    "notes": "Godzina nieustalona w komunikacie LaLiga (EFE, 12.10.2026)."
+   },
+   {
+    "id": "LL-2026-27-R12-ATM-BAR",
+    "date": "2026-11-08",
+    "time": "21:00",
+    "home": "ATM",
+    "away": "BAR",
+    "status": "ns"
+   }
+  ]
+ }
 }

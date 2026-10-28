@@ -1,9 +1,9 @@
 {
- "updated": "2026-10-27T05:45:00+01:00",
+ "updated": "2026-10-28T05:40:00+01:00",
  "season": "2026/27",
  "competition": "Premier League",
  "currentRound": 9,
- "note": "Źródła: footballwebpages.co.uk (wyniki i tabela 25.10), VAVEL (przebieg meczów 25.10), Sky Sports, NBC Sports, premierleague.com (terminarz listopada), Fox Sports/liga.id (termin AVL–FUL), wcześniej: premierleague.com, ESPN, TNT Sports, Opta, Sportsgambler, Dimers, Ladbrokes. Godziny w czasie polskim (CET). Analiza typów 9. kolejki pojawi się przy aktualizacji na ≤3 dni przed meczami.",
+ "note": "Źródła: Oddsportal (kursy 1X2 R9/R10, stan 28.10), KickOff.co.uk i SportyTrader (O/U, BTTS – najlepsze ceny, 28.10), starting11.com (kadry, absencje, H2H, termin AVL–FUL: sob. 20:00 GMT), Fantasy Football Scout (27.10), premierleague.com (obsada sędziowska MW9 bez przypisania do meczów – pominięta); wcześniej: footballwebpages.co.uk, VAVEL, Sky Sports, NBC Sports, ESPN, TNT Sports, Opta, Sportsgambler, Dimers, Ladbrokes. Godziny w czasie polskim (CET). Brak składów meczowych 8. kolejki w dostępnych źródłach.",
  "teams": {
   "ARS": {
    "id": "ARS",
@@ -2191,6 +2191,62 @@
        "Michael Carrick"
       ]
      ]
+    },
+    "odds": {
+     "src": "Oddsportal 1X2 (stan na 28.10); O/U i BTTS – najlepsze ceny SportyTrader 28.10",
+     "1": 1.86,
+     "X": 4.0,
+     "2": 4.2,
+     "o25": 1.58,
+     "u25": 3.82,
+     "bttsY": 1.5,
+     "bttsN": 3.43
+    },
+    "info": {
+     "injuries": {
+      "home": [
+       "João Pedro (udo, kilka tygodni)",
+       "Emiliano Martínez (szczęka)",
+       "Reece James (kolano)",
+       "Jamie Bynoe-Gittens (kostka)",
+       "Pep Chavarría (uraz mięśniowy)",
+       "Malo Gusto (choroba – niepewny)"
+      ],
+      "away": [
+       "Patrick Dorgu (ścięgno)",
+       "Kobbie Mainoo",
+       "Benjamin Šeško (noga)",
+       "Luke Shaw",
+       "Manuel Ugarte (kolano)",
+       "Marcus Rashford (biodro – niepewny)",
+       "Lisandro Martínez (niepewny)"
+      ]
+     },
+     "suspensions": {
+      "home": [
+       "Cole Palmer – sprzeczne informacje: FFS podaje, że pauzę odbywa w Pucharze Ligi i zagra w lidze; starting11 wciąż wymienia go jako zawieszonego"
+      ],
+      "away": []
+     },
+     "restDays": {
+      "home": 3,
+      "away": 6
+     },
+     "homeAway": "CHE u siebie 7 pkt w 4 meczach (ostatnio 0:2 z TOT); MUN na wyjeździe 3 pkt w 4 meczach",
+     "stakes": "Chelsea 5. (13 pkt) po porażce z Tottenhamem, w środę grała w Pucharze Ligi z Liverpoolem; United 16. (7 pkt), bez zwycięstwa od 6 kolejek (DDDL + 0:3 z Bournemouth), we wtorek/środę gra w Lidze Mistrzów – możliwa rotacja.",
+     "h2h": [
+      "2026-04-18 CHE 0:1 MUN",
+      "Bilans 40 meczów: 13 W CHE – 14 R – 13 W MUN"
+     ]
+    },
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Kurs 1,86 na Chelsea (54%) nie uwzględnia w pełni osłabień: bez Pedro, Jamesa, Martíneza i z niepewnym Palmerem, 3 dni po meczu pucharowym z Liverpoolem.",
+      "United w słabej formie, ale z dłuższym odpoczynkiem (6 dni); rotacja przed Ligą Mistrzów to dodatkowa niewiadoma.",
+      "Over 2,5 po 1,58 (63%) – mecze Chelsea są bramkowe, ale United w 4 z 5 ostatnich meczów ≤2 gole; brak przewagi.",
+      "Sprzeczne dane o dostępności Palmera – zbyt duża niepewność."
+     ]
     }
    },
    {
@@ -2217,6 +2273,48 @@
        "Trener",
        "Daniel Farke"
       ]
+     ]
+    },
+    "odds": {
+     "src": "Oddsportal 1X2 (stan na 28.10)",
+     "1": 2.1,
+     "X": 3.5,
+     "2": 3.5
+    },
+    "info": {
+     "injuries": {
+      "home": [
+       "Alex Scott (udo)",
+       "Julio César Araujo (udo)",
+       "Veljko Milosavljević (brak rytmu meczowego)",
+       "Eli Junior Kroupi (niepewny)",
+       "Amine Adli (niepewny)",
+       "Justin Kluivert (niepewny)"
+      ],
+      "away": [
+       "Daniel James (plecy)",
+       "Willy Joseph (kolano)",
+       "Joe Rodon (mięsień)",
+       "Dominic Calvert-Lewin (niepewny)",
+       "Nico Elvedi (niepewny)",
+       "Noah Okafor (niepewny)",
+       "Anton Stach (niepewny)"
+      ]
+     },
+     "suspensions": {
+      "home": [
+       "Diakité"
+      ],
+      "away": []
+     },
+     "stakes": "Bournemouth po 3:0 na Old Trafford (2 wygrane z rzędu); Leeds 7. z jedną z najlepszych obron (6 straconych w 8 meczach), 5 remisów."
+    },
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Brak kursów na rynki goli/DNB – na 1X2 kurs 2,10 (48%) dla Bournemouth odpowiada mniej więcej realnej ocenie.",
+      "Leeds remisuje w 5 z 8 meczów i traci mało – mecz o wysokim prawdopodobieństwie remisu, ale 3,50 (29%) to rynkowa cena bez wyraźnej przewagi.",
+      "Wiele niepewnych występów po obu stronach (Kluivert, Adli, Calvert-Lewin, Stach)."
      ]
     }
    },
@@ -2245,6 +2343,51 @@
        "Oliver Glasner"
       ]
      ]
+    },
+    "odds": {
+     "src": "Oddsportal 1X2 (stan na 28.10)",
+     "1": 2.0,
+     "X": 3.8,
+     "2": 3.75
+    },
+    "info": {
+     "injuries": {
+      "home": [
+       "Rico Henry (biodro)",
+       "Josh Dasilva (mięsień)",
+       "Kaye Furo (operacja kolana)",
+       "Christoffer Schuster (niepewny)",
+       "Nathan Collins (niepewny)",
+       "Mikkel Damsgaard (niepewny)",
+       "Kevin Schade (niepewny)"
+      ],
+      "away": [
+       "Igor Jesus (łydka)",
+       "Nicolò Savona (kolano)",
+       "Nicolás Domínguez (niepewny)",
+       "Neco Williams (niepewny)",
+       "Morgan Gibbs-White (niepewny)",
+       "Nikola Milenković (niepewny)"
+      ]
+     },
+     "suspensions": {
+      "home": [
+       "Yehor Yarmolyuk (3 mecze)"
+      ],
+      "away": []
+     },
+     "restDays": {
+      "home": 3
+     },
+     "stakes": "Brentford 6. (5 remisów w 8 meczach), w środę grał w Pucharze Ligi; Forest 18. z 6 golami w 8 meczach."
+    },
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Kurs 2,00 (50%) na Brentford – zespół remisuje często (5/8), więc szansa na wygraną nie przekracza wyraźnie 50%.",
+      "Lista niepewnych występów Forest (Gibbs-White, Milenković, Williams) nieznana do dnia meczu – wycena niepewna.",
+      "Brentford 3 dni po meczu pucharowym; brak kursów DNB/goli do porównania."
+     ]
     }
    },
    {
@@ -2271,6 +2414,47 @@
        "Trener",
        "Régis Le Bris"
       ]
+     ]
+    },
+    "odds": {
+     "src": "Oddsportal 1X2 (stan na 28.10)",
+     "1": 3.0,
+     "X": 3.4,
+     "2": 2.4
+    },
+    "info": {
+     "injuries": {
+      "home": [
+       "Jerry Amenda (łydka)",
+       "Josh Eccles (kostka)",
+       "Luke Woolfenden (kolano)",
+       "Haji Wright (mięsień)",
+       "Bobby Thomas (niepewny)",
+       "Kesler-Hayden (niepewny)"
+      ],
+      "away": [
+       "Dan Ballard (mięsień)",
+       "Romaine Mundle (kolano)",
+       "Nilson Angulo",
+       "Wilson Isidor (niepewny)",
+       "Brian Brobbey (niepewny)",
+       "Thomas Meunier (niepewny)"
+      ]
+     },
+     "suspensions": {
+      "home": [],
+      "away": [
+       "Kevin Danso"
+      ]
+     },
+     "stakes": "Mecz dołu tabeli: Coventry 19. (6 pkt, 3 porażki z rzędu), Sunderland 20. (5 pkt, bez wygranej od 5 kolejek, 0:0 z Leeds). Sunderland gra też w europejskich pucharach."
+    },
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Rynek faworyzuje Sunderland (2,40 = 42%) mimo że to ostatnia drużyna ligi z 6 golami w 8 meczach – brak podstaw, by uznać którąkolwiek stronę za wyraźnie lepszą.",
+      "Obie drużyny bez kluczowych zawodników (Wright, Ballard, Danso, Isidor niepewny).",
+      "Brak kursów na rynki goli; przy dwóch słabych ofensywach remis/Under mogą mieć wartość, ale bez cen nie można tego zweryfikować."
      ]
     }
    },
@@ -2299,6 +2483,38 @@
        "Gary O'Neil"
       ]
      ]
+    },
+    "odds": {
+     "src": "Oddsportal 1X2 (stan na 28.10)",
+     "1": 2.65,
+     "X": 3.5,
+     "2": 2.65
+    },
+    "info": {
+     "injuries": {
+      "home": [
+       "Ansah (plecy)",
+       "Butland (ręka)",
+       "Gyabi (pachwina)",
+       "Hughes (pachwina)",
+       "Cho (niepewny)",
+       "Gourna-Douath (niepewny)",
+       "Vaz (niepewny)"
+      ],
+      "away": [
+       "Lukić (pachwina)",
+       "Taylor (kolano)"
+      ]
+     },
+     "stakes": "Wyrównany mecz beniaminków/zespołów środka tabeli: Hull 10. (10 pkt, 4 remisy), Ipswich 12. (10 pkt)."
+    },
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Kursy symetryczne (2,65 / 3,50 / 2,65) – rynek widzi mecz 50/50 i nie ma danych, które by to podważały.",
+      "Hull z dłuższą listą absencji, ale Ipswich traci dużo na wyjazdach (16 straconych w 8 meczach) – argumenty się znoszą.",
+      "Brak kursów na rynki goli."
+     ]
     }
    },
    {
@@ -2325,6 +2541,57 @@
        "Trener",
        "Fabian Hürzeler"
       ]
+     ]
+    },
+    "odds": {
+     "src": "Oddsportal 1X2 (stan na 28.10); O/U, BTTS, podwójna szansa – najlepsze ceny SportyTrader 28.10",
+     "1": 1.68,
+     "X": 4.4,
+     "2": 4.5,
+     "1X": 1.23,
+     "X2": 2.28,
+     "12": 1.25,
+     "o25": 1.47,
+     "u25": 2.7,
+     "bttsY": 1.5,
+     "bttsN": 2.58
+    },
+    "info": {
+     "injuries": {
+      "home": [
+       "Antoine Semenyo (kolano, do połowy grudnia)",
+       "Mateo Kovačić (niepewny)",
+       "Matheus Nunes (niepewny)",
+       "Nico O'Reilly (plecy – niepewny)"
+      ],
+      "away": [
+       "Mats Wieffer (kolano – niepewny)",
+       "Kaoru Mitoma (ścięgno)",
+       "Evan Ferguson (kostka)",
+       "Yankuba Minteh (noga)",
+       "Stefanos Tzimas (kolano)",
+       "Struijk (niepewny)",
+       "Kadıoğlu (niepewny)",
+       "Osman (niepewny)",
+       "Azeez (brzuch)"
+      ]
+     },
+     "restDays": {
+      "home": 3,
+      "away": 3
+     },
+     "stakes": "Te same drużyny grają ze sobą w środę 28.10 w Pucharze Ligi (City oszczędzało Haalanda, Donnarummę, Diasa, Gvardiola). City 1. (21 pkt) po porażce w Birmingham; Brighton 3. (16 pkt, bilans 23:7) po 0:2 na Anfield.",
+     "h2h": [
+      "2026-01-07 MCI 1:1 BHA",
+      "Bilans 19 meczów: 13 W MCI – 3 R – 3 W BHA"
+     ]
+    },
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Mecz pucharowy tych samych drużyn 3 dni wcześniej – nieznany wynik i obciążenie zawodników zmieniają ocenę.",
+      "Kurs 1,68 (60%) na City przy dobrze dysponowanym Brightonie (najlepszy bilans bramkowy ligi) nie daje przewagi.",
+      "Over 2,5 po 1,47 (68%) – zbyt niski kurs na rynek z dużą zmiennością."
      ]
     }
    },
@@ -2353,12 +2620,67 @@
        "Pierre Sage"
       ]
      ]
+    },
+    "odds": {
+     "src": "Oddsportal 1X2 (stan na 28.10); O/U i BTTS – najlepsze ceny KickOff.co.uk 28.10",
+     "1": 1.53,
+     "X": 4.75,
+     "2": 5.75,
+     "o25": 1.57,
+     "u25": 2.38,
+     "bttsY": 1.67,
+     "bttsN": 2.1
+    },
+    "info": {
+     "injuries": {
+      "home": [
+       "Destiny Udogie",
+       "Xavi Simons",
+       "Sávio (mięsień)",
+       "Lucas Bergvall (kolano)",
+       "Wilson Odobert (kolano)",
+       "Mychajło Mudryk (kostka)",
+       "James Maddison (niepewny)",
+       "Dejan Kulusevski (niepewny)",
+       "Pedro Porro (niepewny)",
+       "Robertson (niepewny)",
+       "Adarabioyo (niepewny)"
+      ],
+      "away": [
+       "Riad (kolano)",
+       "Takehiro Tomiyasu (łydka)",
+       "Cheick Doucouré",
+       "Lerma",
+       "Dean Henderson (niepewny)",
+       "Ismaïla Sarr (pachwina – niepewny)",
+       "Larsen (niepewny)",
+       "Timber (niepewny)"
+      ]
+     },
+     "restDays": {
+      "away": 3
+     },
+     "homeAway": "TOT u siebie 1W-1R-2P, bramki 5:6; CRY na wyjeździe najsłabsza obrona (19 straconych łącznie, 2,4/mecz)",
+     "stakes": "Spurs po dwóch wygranych (m.in. 2:0 na Stamford Bridge), Palace 17. z 3 porażkami w 4 meczach, po meczu Pucharu Ligi w środę.",
+     "h2h": [
+      "2026-03-05 TOT 1:3 CRY",
+      "Bilans 28 meczów: 18 W TOT – 3 R – 7 W CRY"
+     ]
+    },
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Kurs 1,53 (65%) na Spurs jest zbyt niski względem ich bilansu domowego (1 wygrana w 4 meczach, 5:6) i długiej listy kontuzji.",
+      "Palace traci najwięcej goli w lidze, ale ostatnie H2H na tym stadionie wygrało 3:1.",
+      "Over 2,5 po 1,57 (64%): Spurs u siebie średnio 2,75 gola/mecz, Palace 3,5 – moja ocena ok. 58–60%, EV ujemne.",
+      "BTTS tak po 1,67 (60%) – brak wyraźnej przewagi przy przewidywanych zmianach w obronie Palace."
+     ]
     }
    },
    {
     "id": "PL-2026-27-R9-AVL-FUL",
-    "date": "2026-11-01",
-    "time": "15:00",
+    "date": "2026-10-31",
+    "time": "21:00",
     "home": "AVL",
     "away": "FUL",
     "status": "ns",
@@ -2379,6 +2701,54 @@
        "Trener",
        "Álvaro Arbeloa"
       ]
+     ]
+    },
+    "odds": {
+     "src": "Oddsportal 1X2 (stan na 28.10)",
+     "1": 2.0,
+     "X": 3.8,
+     "2": 3.7
+    },
+    "info": {
+     "injuries": {
+      "home": [
+       "Aaron Wan-Bissaka (mięsień)",
+       "Matteo Ruggeri (mięsień)",
+       "Amadou Onana (kolano)",
+       "Manzambi (łydka – niepewny)",
+       "Cissé (biodro)",
+       "Hemmings (kolano – niepewny)",
+       "Ian Maatsen (kostka – niepewny)",
+       "Ross Barkley (niepewny)"
+      ],
+      "away": [
+       "Larsson (pachwina – niepewny)",
+       "Emile Smith Rowe (niepewny)",
+       "Tom Cairney (niepewny)",
+       "Antonee Robinson (niepewny)"
+      ]
+     },
+     "suspensions": {
+      "home": [],
+      "away": [
+       "Ryan Sessegnon"
+      ]
+     },
+     "restDays": {
+      "away": 3
+     },
+     "stakes": "Villa po 2:1 z Man City (3 wygrane w 4 meczach), we wtorek/środę gra w Lidze Mistrzów – możliwa rotacja; Fulham dwie wygrane z rzędu, w środę Puchar Ligi.",
+     "h2h": [
+      "2026-04-25 FUL 1:0 AVL",
+      "Bilans 25 meczów: 12 W AVL – 4 R – 9 W FUL"
+     ]
+    },
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Kurs 2,00 (50%) na Villę – forma za nimi, ale 6 absencji/niepewnych i rotacja przed Ligą Mistrzów.",
+      "Fulham w dobrej passie, wygrał ostatnie H2H; zespół zmęczony meczem pucharowym – czynniki się równoważą.",
+      "Wieczorny mecz (21:00) po wynikach rywali; brak kursów na inne rynki."
      ]
     }
    },
@@ -2407,6 +2777,12 @@
        "Mikel Arteta"
       ]
      ]
+    },
+    "odds": {
+     "src": "Oddsportal 1X2 (stan na 28.10)",
+     "1": 3.1,
+     "X": 3.55,
+     "2": 2.3
     }
    },
    {
@@ -2434,6 +2810,12 @@
        "David Moyes"
       ]
      ]
+    },
+    "odds": {
+     "src": "Oddsportal 1X2 (stan na 28.10)",
+     "1": 2.25,
+     "X": 3.7,
+     "2": 3.0
     }
    }
   ],
@@ -2444,7 +2826,13 @@
     "time": "21:00",
     "home": "EVE",
     "away": "COV",
-    "status": "ns"
+    "status": "ns",
+    "odds": {
+     "src": "Oddsportal 1X2 (stan na 28.10)",
+     "1": 1.7,
+     "X": 4.0,
+     "2": 4.75
+    }
    },
    {
     "id": "PL-2026-27-R10-LEE-TOT",
@@ -2452,7 +2840,13 @@
     "time": "13:30",
     "home": "LEE",
     "away": "TOT",
-    "status": "ns"
+    "status": "ns",
+    "odds": {
+     "src": "Oddsportal 1X2 (stan na 28.10)",
+     "1": 2.6,
+     "X": 3.4,
+     "2": 2.85
+    }
    },
    {
     "id": "PL-2026-27-R10-ARS-HUL",
@@ -2460,7 +2854,13 @@
     "time": "16:00",
     "home": "ARS",
     "away": "HUL",
-    "status": "ns"
+    "status": "ns",
+    "odds": {
+     "src": "Oddsportal 1X2 (stan na 28.10)",
+     "1": 1.13,
+     "X": 8.0,
+     "2": 18.0
+    }
    },
    {
     "id": "PL-2026-27-R10-FUL-NEW",
@@ -2468,7 +2868,13 @@
     "time": "16:00",
     "home": "FUL",
     "away": "NEW",
-    "status": "ns"
+    "status": "ns",
+    "odds": {
+     "src": "Oddsportal 1X2 (stan na 28.10)",
+     "1": 2.2,
+     "X": 3.7,
+     "2": 3.1
+    }
    },
    {
     "id": "PL-2026-27-R10-NFO-MCI",
@@ -2476,7 +2882,13 @@
     "time": "18:30",
     "home": "NFO",
     "away": "MCI",
-    "status": "ns"
+    "status": "ns",
+    "odds": {
+     "src": "Oddsportal 1X2 (stan na 28.10)",
+     "1": 5.0,
+     "X": 4.2,
+     "2": 1.64
+    }
    },
    {
     "id": "PL-2026-27-R10-BHA-BRE",
@@ -2484,7 +2896,13 @@
     "time": "15:00",
     "home": "BHA",
     "away": "BRE",
-    "status": "ns"
+    "status": "ns",
+    "odds": {
+     "src": "Oddsportal 1X2 (stan na 28.10)",
+     "1": 1.86,
+     "X": 3.9,
+     "2": 3.8
+    }
    },
    {
     "id": "PL-2026-27-R10-CRY-LIV",
@@ -2492,7 +2910,13 @@
     "time": "15:00",
     "home": "CRY",
     "away": "LIV",
-    "status": "ns"
+    "status": "ns",
+    "odds": {
+     "src": "Oddsportal 1X2 (stan na 28.10)",
+     "1": 4.3,
+     "X": 4.1,
+     "2": 1.76
+    }
    },
    {
     "id": "PL-2026-27-R10-IPS-BOU",
@@ -2500,7 +2924,13 @@
     "time": "15:00",
     "home": "IPS",
     "away": "BOU",
-    "status": "ns"
+    "status": "ns",
+    "odds": {
+     "src": "Oddsportal 1X2 (stan na 28.10)",
+     "1": 3.75,
+     "X": 3.8,
+     "2": 1.95
+    }
    },
    {
     "id": "PL-2026-27-R10-SUN-CHE",
@@ -2508,7 +2938,13 @@
     "time": "15:00",
     "home": "SUN",
     "away": "CHE",
-    "status": "ns"
+    "status": "ns",
+    "odds": {
+     "src": "Oddsportal 1X2 (stan na 28.10)",
+     "1": 3.4,
+     "X": 3.5,
+     "2": 2.15
+    }
    },
    {
     "id": "PL-2026-27-R10-MUN-AVL",
@@ -2516,7 +2952,13 @@
     "time": "17:30",
     "home": "MUN",
     "away": "AVL",
-    "status": "ns"
+    "status": "ns",
+    "odds": {
+     "src": "Oddsportal 1X2 (stan na 28.10)",
+     "1": 2.2,
+     "X": 3.8,
+     "2": 3.0
+    }
    }
   ]
  }

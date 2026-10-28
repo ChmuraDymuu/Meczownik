@@ -1,9 +1,9 @@
 {
- "updated": "2026-10-27T06:40:00+01:00",
+ "updated": "2026-10-28T06:55:00+01:00",
  "season": "2026/27",
  "competition": "Ligue 1",
  "currentRound": 9,
- "note": "Źródła: t-online.de (relacje 8. kolejki: składy, zdarzenia, statystyki), Foot01/Ski-nordique (wyniki i tabela), Soccerway, ligue1.com (terminarz J10), psg.fr (godzina J9), BettingNews (kursy J9), Le Petit Lillois, But! Football Club; wcześniej: Foot Mercato, Wincomparator, Maxifoot, Eurosport, L'Équipe, Flashscore, FotMob, Sofascore, ESPN, Oddschecker. Godziny w czasie polskim.",
+ "note": "Źródła: ligue1.com (sędziowie J9), Foot-sur7/Footeo/Lensois (zmiany terminów J9 na wniosek prefektur), psg.fr, Parisfans, BettingNews i Rue des Joueurs/Oddscalendar (kursy J9), But! Football Club, Le Petit Lillois, FootballPredictions (kadry i statystyki); wcześniej: t-online.de (relacje 8. kolejki), Foot01, Soccerway, Foot Mercato, Wincomparator, Maxifoot, Eurosport, L'Équipe.",
  "teams": {
   "ANG": {
    "id": "ANG",
@@ -3936,7 +3936,123 @@
       "Brak kursów na rynki gole/handicap w sprawdzonych źródłach."
      ]
     },
-    "notes": "Godzina 19:00 potwierdzona (psg.fr, Ligue 1+)."
+    "notes": "Godzina 19:00 potwierdzona (psg.fr, LFP). Sędziowie wg LFP.",
+    "officials": [
+     {
+      "r": "GŁ",
+      "role": "Sędzia główny",
+      "name": "François Letexier",
+      "nat": "FRA"
+     },
+     {
+      "r": "AS1",
+      "role": "Asystent 1",
+      "name": "Cyril Mugnier"
+     },
+     {
+      "r": "AS2",
+      "role": "Asystent 2",
+      "name": "Steven Torregrossa"
+     },
+     {
+      "r": "4.",
+      "role": "Sędzia techniczny",
+      "name": "Karim Abed"
+     },
+     {
+      "r": "VAR",
+      "role": "Sędzia VAR",
+      "name": "Hamid Guenaoui"
+     },
+     {
+      "r": "AVAR",
+      "role": "Asystent VAR",
+      "name": "William Lavis"
+     }
+    ]
+   },
+   {
+    "id": "L1-2026-27-R9-NIC-REN",
+    "date": "2026-10-30",
+    "time": "19:00",
+    "home": "NIC",
+    "away": "REN",
+    "status": "ns",
+    "venue": {
+     "name": "Allianz Riviera",
+     "city": "Nicea",
+     "capacity": 35624
+    },
+    "notes": "Mecz przeniesiony z soboty 17:15 na piątek 19:00 na wniosek prefektury Alpes-Maritimes (zabezpieczenie policyjne w związku z protestami społecznymi). Sędziowie wg LFP.",
+    "officials": [
+     {
+      "r": "GŁ",
+      "role": "Sędzia główny",
+      "name": "Éric Wattellier",
+      "nat": "FRA"
+     },
+     {
+      "r": "AS1",
+      "role": "Asystent 1",
+      "name": "Brice Parinet Le Tellier"
+     },
+     {
+      "r": "AS2",
+      "role": "Asystent 2",
+      "name": "Vianney Rozand"
+     },
+     {
+      "r": "4.",
+      "role": "Sędzia techniczny",
+      "name": "Gaël Angoula"
+     },
+     {
+      "r": "VAR",
+      "role": "Sędzia VAR",
+      "name": "Cyril Gringore"
+     },
+     {
+      "r": "AVAR",
+      "role": "Asystent VAR",
+      "name": "Julien Schmitt"
+     }
+    ],
+    "odds": {
+     "src": "BettingNews – Lucky Rebel/Bovada (kursy US przeliczone), stan na 28.10.2026; inne: Nice +170–182, Rennes +130–141",
+     "1": 2.75,
+     "X": 3.75,
+     "2": 2.4
+    },
+    "info": {
+     "injuries": {
+      "home": [
+       "Jonathan Clauss – bez skręcenia, prawdopodobnie w kadrze"
+      ],
+      "away": []
+     },
+     "suspensions": {
+      "home": [
+       "Alidu Seidu – nie może grać (klauzula wypożyczenia z Rennes)"
+      ],
+      "away": []
+     },
+     "restDays": {
+      "home": 6,
+      "away": 4
+     },
+     "homeAway": "Rennes 2. (16 pkt, 18:14), w ostatnich 5 meczach WLWLW, po 3:0 ze Strasbourgiem; Nice 10. (11 pkt, 8:10), dwie wygrane w trzech ostatnich, w 8. kolejce 2:1 w Brześciu.",
+     "stakes": "Rennes walczy o pozycję wicelidera; Nice o zbliżenie się do czołowej szóstki. Mecz przełożony na piątek na wniosek prefektury.",
+     "h2h": []
+    },
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Rynek wycenia Rennes jako lekkiego faworyta (implik. ok. 40% / 26% / 35% po marży) — moja ocena ok. 37% / 28% / 35% dla Nice/remis/Rennes; brak dodatniego EV na 1X2.",
+      "Rennes strzela dużo, ale też dużo traci (14 straconych) — przewaga w tabeli nie przekłada się na stabilną formę (WLWLW).",
+      "Nice ma najmniej goli w meczach w czołówce (8:10), co osłabia argument za over — a kursów na O/U i BTTS nie znaleziono.",
+      "Krótszy odpoczynek Rennes (4 dni) vs Nice (6 dni) i zmiana terminu meczu zwiększają niepewność."
+     ]
+    }
    },
    {
     "id": "L1-2026-27-R9-LIL-LEN",
@@ -3950,7 +4066,7 @@
      "city": "Lille",
      "capacity": 50186
     },
-    "notes": "Godzina wstępna (Oddschecker/Maxifoot), do potwierdzenia przez LFP.",
+    "notes": "Termin i sędziowie potwierdzeni przez LFP (ligue1.com, 27–28.10.2026).",
     "odds": {
      "src": "BettingNews – Lucky Rebel/Bovada (kursy US przeliczone), stan na 27.10.2026",
      "1": 2.35,
@@ -3959,16 +4075,22 @@
     },
     "info": {
      "injuries": {
-      "home": [],
+      "home": [
+       "Tiago Santos (zerwane więzadło krzyżowe)",
+       "Ayase Ueda (stopa, powrót najwcześniej po przerwie listopadowej)",
+       "Hamza Igamane (powrót planowany w grudniu)"
+      ],
       "away": [
-       "Ismaëlo Ganiou (kolano, kilka tygodni)",
-       "Abdallah Sima",
-       "Maik Nawrocki"
+       "Ismaëlo Ganiou (kolano)",
+       "Abdallah Sima (udo)",
+       "Maik Nawrocki (kolano)",
+       "Odsonne Edouard (niepewny – poza kadrą na Paris FC)",
+       "Jonathan Gradit (niepewny – wraca do formy)"
       ]
      },
      "suspensions": {
       "home": [
-       "Tanguy Nianzou (czerwona kartka z Monaco; komisja 28.10)"
+       "Tanguy Nianzou (czerwona kartka w Monaco)"
       ],
       "away": []
      },
@@ -3986,53 +4108,45 @@
      "decision": "NO BET",
      "reasons": [
       "Kursy 2,35 / 3,60 / 2,90 bliskie mojej ocenie (ok. 42% / 28% / 30%) — brak dodatniego EV.",
-      "Zawieszenie Nianzou osłabia Lille, Lens ma braki w obronie (Ganiou, Nawrocki) — czynniki się znoszą.",
+      "Lille bez Nianzou i trzech kontuzjowanych (Santos, Ueda, Igamane); Lens bez trzech obrońców/skrzydłowego, niepewni Edouard i Gradit — czynniki się znoszą.",
+      "Statystyki ostatnich 10 meczów: BTTS 60% u obu, H2H BTTS tylko 47% — brak spójnego sygnału na rynek goli.",
       "Derby + Liga Mistrzów w kolejnym tygodniu = wysoka niepewność składów.",
-      "Nie znaleziono wiarygodnych kursów na gole/BTTS dla tego meczu."
+      "Brak wiarygodnych kursów na gole/BTTS w sprawdzonych źródłach."
      ]
-    }
-   },
-   {
-    "id": "L1-2026-27-R9-NIC-REN",
-    "date": "2026-10-31",
-    "time": "17:15",
-    "home": "NIC",
-    "away": "REN",
-    "status": "ns",
-    "venue": {
-     "name": "Allianz Riviera",
-     "city": "Nicea",
-     "capacity": 35624
     },
-    "notes": "Godzina wstępna (Oddschecker/Maxifoot), do potwierdzenia przez LFP."
-   },
-   {
-    "id": "L1-2026-27-R9-LOR-BRE",
-    "date": "2026-10-31",
-    "time": "20:45",
-    "home": "LOR",
-    "away": "BRE",
-    "status": "ns",
-    "venue": {
-     "name": "Stade du Moustoir",
-     "city": "Lorient",
-     "capacity": 18890
-    },
-    "notes": "Godzina wstępna (Oddschecker/Maxifoot), do potwierdzenia przez LFP."
-   },
-   {
-    "id": "L1-2026-27-R9-LYO-ANG",
-    "date": "2026-10-31",
-    "time": "20:45",
-    "home": "LYO",
-    "away": "ANG",
-    "status": "ns",
-    "venue": {
-     "name": "Groupama Stadium",
-     "city": "Lyon",
-     "capacity": 59186
-    },
-    "notes": "Godzina wstępna (Oddschecker/Maxifoot), do potwierdzenia przez LFP."
+    "officials": [
+     {
+      "r": "GŁ",
+      "role": "Sędzia główny",
+      "name": "Jérôme Brisard",
+      "nat": "FRA"
+     },
+     {
+      "r": "AS1",
+      "role": "Asystent 1",
+      "name": "Alexis Auger"
+     },
+     {
+      "r": "AS2",
+      "role": "Asystent 2",
+      "name": "Aurélien Berthomieu"
+     },
+     {
+      "r": "4.",
+      "role": "Sędzia techniczny",
+      "name": "Ruddy Buquet"
+     },
+     {
+      "r": "VAR",
+      "role": "Sędzia VAR",
+      "name": "Mathieu Vernice"
+     },
+     {
+      "r": "AVAR",
+      "role": "Asystent VAR",
+      "name": "Pierre Gaillouste"
+     }
+    ]
    },
    {
     "id": "L1-2026-27-R9-TRO-LMA",
@@ -4046,7 +4160,68 @@
      "city": "Troyes",
      "capacity": 20400
     },
-    "notes": "Godzina wstępna (Oddschecker/Maxifoot), do potwierdzenia przez LFP."
+    "notes": "Termin i sędziowie potwierdzeni przez LFP (ligue1.com, 27–28.10.2026).",
+    "officials": [
+     {
+      "r": "GŁ",
+      "role": "Sędzia główny",
+      "name": "Azzedine Souifi",
+      "nat": "FRA"
+     },
+     {
+      "r": "AS1",
+      "role": "Asystent 1",
+      "name": "Nicolas Danos"
+     },
+     {
+      "r": "AS2",
+      "role": "Asystent 2",
+      "name": "Benjamin Pages"
+     },
+     {
+      "r": "4.",
+      "role": "Sędzia techniczny",
+      "name": "Clément Turpin"
+     },
+     {
+      "r": "VAR",
+      "role": "Sędzia VAR",
+      "name": "Aurélien Petit"
+     },
+     {
+      "r": "AVAR",
+      "role": "Asystent VAR",
+      "name": "Yann Flament"
+     }
+    ],
+    "odds": {
+     "src": "Rue des Joueurs – najlepsze kursy (Winamax 1, Unibet X/2), stan na 26.10.2026; Megapari: 2,30 / 3,62 / 3,29",
+     "1": 2.2,
+     "X": 3.5,
+     "2": 3.05
+    },
+    "info": {
+     "injuries": {
+      "home": [],
+      "away": []
+     },
+     "restDays": {
+      "home": 5,
+      "away": 5
+     },
+     "homeAway": "Troyes ostatnie 5 meczów: DLLLL (1 bramka strzelona w 5 meczach), najsłabszy atak ligi (5 goli w 8 meczach). Le Mans: 1 wygrana w 8 meczach, 16 straconych goli.",
+     "stakes": "Mecz o utrzymanie: Troyes 17. (5 pkt), Le Mans 15. (7 pkt). Troyes po 0:0 w Tuluzie, Le Mans po 1:1 w Auxerre.",
+     "h2h": []
+    },
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Implikowane ok. 43% / 27% / 31% (po marży) vs moja ocena ok. 40% / 30% / 30% — 1 i 2 z ujemnym EV.",
+      "Remis (3,50) daje teoretycznie EV ok. +0,05, ale przewaga zbyt mała i oparta na ogólnej ocenie dwóch słabych drużyn — rating <6.",
+      "Troyes strzela bardzo mało (5 goli w 8 meczach), Le Mans dużo traci — sygnały na rynek goli sprzeczne, a kursów O/U nie znaleziono.",
+      "Brak informacji o kontuzjach i składach w sprawdzonych źródłach."
+     ]
+    }
    },
    {
     "id": "L1-2026-27-R9-STR-AUX",
@@ -4060,7 +4235,87 @@
      "city": "Strasburg",
      "capacity": 29230
     },
-    "notes": "Godzina wstępna (Oddschecker/Maxifoot), do potwierdzenia przez LFP."
+    "notes": "Termin i sędziowie potwierdzeni przez LFP (ligue1.com, 27–28.10.2026).",
+    "officials": [
+     {
+      "r": "GŁ",
+      "role": "Sędzia główny",
+      "name": "Guillaume Paradis",
+      "nat": "FRA"
+     },
+     {
+      "r": "AS1",
+      "role": "Asystent 1",
+      "name": "Nicolas Durand"
+     },
+     {
+      "r": "AS2",
+      "role": "Asystent 2",
+      "name": "Gwenaël Pasqualotti"
+     },
+     {
+      "r": "4.",
+      "role": "Sędzia techniczny",
+      "name": "Robin Chapapria"
+     },
+     {
+      "r": "VAR",
+      "role": "Sędzia VAR",
+      "name": "Yohann Rouinsard"
+     },
+     {
+      "r": "AVAR",
+      "role": "Asystent VAR",
+      "name": "Julien Schmitt"
+     }
+    ]
+   },
+   {
+    "id": "L1-2026-27-R9-LYO-ANG",
+    "date": "2026-11-01",
+    "time": "17:15",
+    "home": "LYO",
+    "away": "ANG",
+    "status": "ns",
+    "venue": {
+     "name": "Groupama Stadium",
+     "city": "Lyon",
+     "capacity": 59186
+    },
+    "notes": "Mecz przeniesiony z soboty 20:45 na niedzielę 17:15 na wniosek prefektury Rodanu. Sędziowie wg LFP.",
+    "officials": [
+     {
+      "r": "GŁ",
+      "role": "Sędzia główny",
+      "name": "Marc Bollengier",
+      "nat": "FRA"
+     },
+     {
+      "r": "AS1",
+      "role": "Asystent 1",
+      "name": "Thomas Luczynski"
+     },
+     {
+      "r": "AS2",
+      "role": "Asystent 2",
+      "name": "Mikaël Berchebru"
+     },
+     {
+      "r": "4.",
+      "role": "Sędzia techniczny",
+      "name": "Gabriel Henry"
+     },
+     {
+      "r": "VAR",
+      "role": "Sędzia VAR",
+      "name": "Mathieu Vernice"
+     },
+     {
+      "r": "AVAR",
+      "role": "Asystent VAR",
+      "name": "Ludovic Rémy"
+     }
+    ]
    },
    {
     "id": "L1-2026-27-R9-PFC-MON",
@@ -4074,7 +4329,40 @@
      "city": "Paryż",
      "capacity": 20000
     },
-    "notes": "Godzina wstępna (Oddschecker/Maxifoot), do potwierdzenia przez LFP."
+    "notes": "Termin i sędziowie potwierdzeni przez LFP (ligue1.com, 27–28.10.2026).",
+    "officials": [
+     {
+      "r": "GŁ",
+      "role": "Sędzia główny",
+      "name": "Jérémy Stinat",
+      "nat": "FRA"
+     },
+     {
+      "r": "AS1",
+      "role": "Asystent 1",
+      "name": "Christophe Mouysset"
+     },
+     {
+      "r": "AS2",
+      "role": "Asystent 2",
+      "name": "Julien Aube"
+     },
+     {
+      "r": "4.",
+      "role": "Sędzia techniczny",
+      "name": "Geoffrey Kubler"
+     },
+     {
+      "r": "VAR",
+      "role": "Sędzia VAR",
+      "name": "Willy Delajod"
+     },
+     {
+      "r": "AVAR",
+      "role": "Asystent VAR",
+      "name": "Cédric Dos Santos"
+     }
+    ]
    },
    {
     "id": "L1-2026-27-R9-OLM-TOU",
@@ -4088,7 +4376,87 @@
      "city": "Marsylia",
      "capacity": 67394
     },
-    "notes": "Godzina wstępna (Oddschecker/Maxifoot), do potwierdzenia przez LFP."
+    "notes": "Termin i sędziowie potwierdzeni przez LFP (ligue1.com, 27–28.10.2026).",
+    "officials": [
+     {
+      "r": "GŁ",
+      "role": "Sędzia główny",
+      "name": "Hakim Ben El Hadj",
+      "nat": "FRA"
+     },
+     {
+      "r": "AS1",
+      "role": "Asystent 1",
+      "name": "Huseyin Ocak"
+     },
+     {
+      "r": "AS2",
+      "role": "Asystent 2",
+      "name": "Julien Haulbert"
+     },
+     {
+      "r": "4.",
+      "role": "Sędzia techniczny",
+      "name": "Tifenn Leprodhomme"
+     },
+     {
+      "r": "VAR",
+      "role": "Sędzia VAR",
+      "name": "Nicolas Rainville"
+     },
+     {
+      "r": "AVAR",
+      "role": "Asystent VAR",
+      "name": "Ludovic Zmyslony"
+     }
+    ]
+   },
+   {
+    "id": "L1-2026-27-R9-LOR-BRE",
+    "date": "2026-11-02",
+    "time": "20:45",
+    "home": "LOR",
+    "away": "BRE",
+    "status": "ns",
+    "venue": {
+     "name": "Stade du Moustoir",
+     "city": "Lorient",
+     "capacity": 18890
+    },
+    "notes": "Mecz przeniesiony z soboty na poniedziałek 20:45 na wniosek prefektury Morbihan. Sędziowie wg LFP.",
+    "officials": [
+     {
+      "r": "GŁ",
+      "role": "Sędzia główny",
+      "name": "Jérémie Pignard",
+      "nat": "FRA"
+     },
+     {
+      "r": "AS1",
+      "role": "Asystent 1",
+      "name": "Aurélien Drouet"
+     },
+     {
+      "r": "AS2",
+      "role": "Asystent 2",
+      "name": "Hicham Zakrani"
+     },
+     {
+      "r": "4.",
+      "role": "Sędzia techniczny",
+      "name": "Pierre Retail"
+     },
+     {
+      "r": "VAR",
+      "role": "Sędzia VAR",
+      "name": "Nicolas Rainville"
+     },
+     {
+      "r": "AVAR",
+      "role": "Asystent VAR",
+      "name": "Pierre Gaillouste"
+     }
+    ]
    }
   ],
   "10": [

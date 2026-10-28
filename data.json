@@ -1,9 +1,9 @@
 {
- "updated": "2026-10-27T06:55:00+01:00",
+ "updated": "2026-10-28T06:55:00+01:00",
  "season": "2026/27",
  "competition": "Ekstraklasa",
  "currentRound": 13,
- "note": "Źródła: ekstraklasa.org (wyniki, frekwencja, terminarz 13. i 14. kolejki), kkslech.com (tabela, Puchar Polski), polsatsport.pl, igol.pl, kronika24.pl, legia.com, legia.net (H2H), Oddsportal (kursy 1X2). Tabela po 12. kolejce. Forma: ostatnie 5 meczów ligowych. Godziny w czasie zimowym (CET). Składy meczów 23–25.10 bez numerów — podane w uwagach. Godziny 14. kolejki mogą się zmienić.",
+ "note": "Źródła: ekstraklasa.org (wyniki, terminarz), kkslech.com (tabela, Puchar Polski), gol24.pl (Puchar Polski 27.10), polsatsport.pl, igol.pl, legia.com, legia.net (H2H), Oddsportal (kursy 1X2, 28.10), LV BET blog (kursy GZA–LEG). Tabela po 12. kolejce (LPO, POG, JAG, WPL z zaległymi meczami; WPL–LPO przełożony na 17.12). Forma: ostatnie 5 meczów ligowych. Godziny w czasie zimowym (CET). Obsada sędziowska 13. kolejki jeszcze nieogłoszona.",
  "teams": {
   "LEG": {
    "id": "LEG",
@@ -1809,10 +1809,10 @@
      "capacity": 15016
     },
     "odds": {
-     "src": "Oddsportal 1X2 (stan na 27.10 ~06:50)",
-     "1": 2.05,
+     "src": "Oddsportal 1X2 (stan na 28.10 ~06:50)",
+     "1": 2.1,
      "X": 3.6,
-     "2": 3.2
+     "2": 3.1
     },
     "info": {
      "restDays": {
@@ -1833,10 +1833,10 @@
     "tip": {
      "decision": "NO BET",
      "reasons": [
-      "Dostępne tylko kursy 1X2 (marża ok. 8%). Motor gra we wtorek 27.10 w Pucharze Polski z Rakowem (3 dni odpoczynku) — skala rotacji nieznana. Cracovia w słabej formie, ale faworyt u bukmacherów; brak danych o kontuzjach i składach, by znaleźć przewagę na którymkolwiek rynku."
+      "Dostępne tylko kursy 1X2 (marża ok. 8%). Motor rozegrał we wtorek 120 minut w pucharze, co lekko przemawia za Cracovią, ale kurs 2,10 (ok. 44% po zdjęciu marży) już ją faworyzuje, a Cracovia przegrała 4 z 5 ostatnich meczów ligowych. Brak potwierdzonych składów i kursów na inne rynki — nie widzę dodatniego EV."
      ]
     },
-    "notes": "Motor Lublin gra 27.10 (17:30) mecz 1/16 finału Pucharu Polski z Rakowem; Cracovia nie gra w tej rundzie pucharu."
+    "notes": "Motor zremisował 27.10 z Rakowem 1:1 po dogrywce w 1/16 Pucharu Polski i odpadł po karnych (1–3) — 120 minut gry na 3 dni przed meczem. Cracovia nie grała w tej rundzie pucharu."
    },
    {
     "id": "2026-27-R13-GZA-LEG",
@@ -1851,10 +1851,16 @@
      "capacity": 28236
     },
     "odds": {
-     "src": "Oddsportal 1X2 (stan na 27.10 ~06:50)",
-     "1": 2.05,
-     "X": 3.5,
-     "2": 3.3
+     "src": "LV BET (blog LV BET, 28.10 06:05): 1X2, podwójna szansa, gole, BTTS; Oddsportal 28.10: 2,10 / 3,45 / 3,30",
+     "1": 2.07,
+     "X": 3.65,
+     "2": 3.5,
+     "1X": 1.33,
+     "X2": 1.82,
+     "o25": 1.95,
+     "u25": 1.85,
+     "bttsY": 1.8,
+     "bttsN": 1.98
     },
     "info": {
      "restDays": {
@@ -1880,10 +1886,10 @@
     "tip": {
      "decision": "NO BET",
      "reasons": [
-      "Górnik gra we wtorek 27.10 o 20:30 w Pucharze Polski z Piastem (3 dni odpoczynku, możliwa rotacja), Legia ma 5 dni. Kursy 1X2 wyrównane (2,05 / 3,50 / 3,30), brak kursów na inne rynki i brak potwierdzonych składów — nie widzę wyceny z dodatnim EV."
+      "Górnik ma w nogach 120 minut z wtorku (3 dni odpoczynku, Legia 5), co przemawia za X2, ale przy kursie 1,82 (ok. 53% po marży) moja wycena ~56–57% daje EV ok. +3% — poniżej progu. Rynki goli (2,5: 1,95/1,85) i BTTS wycenione blisko średnich obu drużyn (~1,8–1,9 gola strzelonego i ~0,9 straconego na mecz). Brak potwierdzonych składów; stan Adamskiego nieznany."
      ]
     },
-    "notes": "Górnik gra 27.10 (20:30) mecz 1/16 finału Pucharu Polski z Piastem Gliwice w Gliwicach; Legia nie gra w tej rundzie pucharu."
+    "notes": "Górnik zagrał 27.10 w Gliwicach z Piastem 0:0 po dogrywce i awansował do 1/8 Pucharu Polski po karnych (3–1); w bramce grał rezerwowy Tomasz Loska. Legia nie grała w tej rundzie pucharu."
    },
    {
     "id": "2026-27-R13-WPL-PIA",
@@ -1891,7 +1897,27 @@
     "time": "12:15",
     "home": "WPL",
     "away": "PIA",
-    "status": "ns"
+    "status": "ns",
+    "odds": {
+     "src": "Oddsportal 1X2 (stan na 28.10 ~06:50)",
+     "1": 2.05,
+     "X": 3.5,
+     "2": 3.5
+    },
+    "info": {
+     "restDays": {
+      "home": 3,
+      "away": 4
+     },
+     "stakes": "11. Wisła Płock (14 pkt, mecz zaległy) vs 6. Piast (20 pkt)"
+    },
+    "notes": "Wisła Płock gra 28.10 (17:30) w 1/16 Pucharu Polski z Puszczą Niepołomice. Piast odpadł 27.10 z Górnikiem po 120 minutach i karnych.",
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Tylko kursy 1X2, a obie drużyny grają w pucharze w tym tygodniu (Piast 120 minut, Wisła w środę) — rotacja nieznana. Kursy bliskie wycenie z tabeli, brak przewagi."
+     ]
+    }
    },
    {
     "id": "2026-27-R13-WIE-JAG",
@@ -1899,7 +1925,27 @@
     "time": "14:45",
     "home": "WIE",
     "away": "JAG",
-    "status": "ns"
+    "status": "ns",
+    "odds": {
+     "src": "Oddsportal 1X2 (stan na 28.10 ~06:50)",
+     "1": 2.1,
+     "X": 3.9,
+     "2": 2.9
+    },
+    "info": {
+     "restDays": {
+      "home": 6,
+      "away": 3
+     },
+     "stakes": "16. Wieczysta (8 pkt) walczy o wyjście ze strefy spadkowej; 10. Jagiellonia (15 pkt, mecz zaległy)"
+    },
+    "notes": "Jagiellonia gra 28.10 (20:30) w Gdańsku z Lechią w 1/16 Pucharu Polski; Wieczysta nie gra w tej rundzie pucharu.",
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Tylko kursy 1X2. Wieczysta jest faworytem bukmacherów mimo 2 wygranych w 12 meczach, ale Jagiellonia gra w środę wieczorem w pucharze (3 dni odpoczynku, możliwa rotacja). Zbyt duża niepewność składu, by ocenić value."
+     ]
+    }
    },
    {
     "id": "2026-27-R13-LPO-WIS",
@@ -1907,7 +1953,27 @@
     "time": "17:30",
     "home": "LPO",
     "away": "WIS",
-    "status": "ns"
+    "status": "ns",
+    "odds": {
+     "src": "Oddsportal 1X2 (stan na 28.10 ~06:50)",
+     "1": 1.76,
+     "X": 4.1,
+     "2": 4.0
+    },
+    "info": {
+     "restDays": {
+      "home": 3,
+      "away": 7
+     },
+     "stakes": "1. Lech (28 pkt, mecz zaległy) vs 5. Wisła Kraków (21 pkt) — mecz czołówki"
+    },
+    "notes": "Lech gra 28.10 (12:30) w Tarnobrzegu z Siarką w 1/16 Pucharu Polski; Wisła Kraków nie gra w tej rundzie pucharu.",
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Kurs 1,76 (ok. 54% po marży) dobrze oddaje przewagę lidera (2,6 gola strzelonego na mecz, 0,9 straconego) nad Wisłą (1,6 / 1,25). Lech gra w środę w pucharze, Wisła ma tydzień odpoczynku. Brak kursów na inne rynki i składów — brak przewagi."
+     ]
+    }
    },
    {
     "id": "2026-27-R13-GKS-WID",
@@ -1915,7 +1981,27 @@
     "time": "20:15",
     "home": "GKS",
     "away": "WID",
-    "status": "ns"
+    "status": "ns",
+    "odds": {
+     "src": "Oddsportal 1X2 (stan na 28.10 ~06:50)",
+     "1": 2.05,
+     "X": 3.65,
+     "2": 3.1
+    },
+    "info": {
+     "restDays": {
+      "home": 4,
+      "away": 8
+     },
+     "stakes": "8. GKS (18 pkt) vs 14. Widzew (11 pkt, 8 remisów w 12 meczach)"
+    },
+    "notes": "GKS Katowice odpadł 27.10 z Pucharu Polski po porażce 0:1 z Górnikiem Łęczna. Widzew nie gra w tej rundzie pucharu.",
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Widzew zremisował 8 z 12 meczów, ale kurs na remis 3,65 (ok. 25% po marży) i tak wycenia go blisko mojej oceny (~28%, EV ok. +2%). GKS przegrał 2 ostatnie mecze ligowe i odpadł z pucharu z I-ligowcem. Tylko kursy 1X2 — NO BET."
+     ]
+    }
    },
    {
     "id": "2026-27-R13-RAD-SLA",

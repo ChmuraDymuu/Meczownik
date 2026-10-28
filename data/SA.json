@@ -1,9 +1,9 @@
 {
- "updated": "2026-10-27T20:45:00+01:00",
+ "updated": "2026-10-28T05:54:09+01:00",
  "season": "2026/27",
  "competition": "Serie A",
  "currentRound": 9,
- "note": "Źródła: Sky Sport (wyniki, gole 8. kolejki, Lecce–Juventus), Virgilio Sport (Atalanta–Frosinone: składy z numerami, zmiany, kartki), Pianetafanta (strzelcy, asysty, kartki), Fantacalcio.it (Udinese–Milan, składy), Italpress (sędziowie 9. kolejki), Fantamaster (terminarz 10. kolejki), commentierecensioni.com/Snai, thefootballfaithful, footballpredictions.com, oddslot (kursy), sportsgambler, Tuttosport. Mecze 8. kolejki z 25.10 bez pełnych składów (poza Atalanta–Frosinone). Tabela po 8. kolejce (wszystkie drużyny po 8 meczów). Godziny w czasie polskim (= włoskim).",
+ "note": "Źródła: ESPN, OA Sport, spettacolomusicasport.com, Football Italia (wyniki i gole 27.10), Fantacalcio.it (sędziowie 9. kolejki), Sky Sport, Virgilio Sport, Pianetafanta, Italpress, Fantamaster (wcześniejsze dane), oddslot/BC.Game, footballpredictions.com, commentierecensioni/Snai, thefootballfaithful (kursy). Mecze z 27.10 bez pełnych składów i statystyk. Tabela po meczach z 27.10 (SAS, LAZ, ROM, CAG, TOR, COM po 9 meczów, reszta po 8). Godziny w czasie polskim (= włoskim).",
  "teams": {
   "ATA": {
    "id": "ATA",
@@ -188,6 +188,17 @@
  },
  "table": [
   {
+   "team": "LAZ",
+   "p": 9,
+   "w": 8,
+   "d": 1,
+   "l": 0,
+   "gf": 22,
+   "ga": 7,
+   "pts": 25,
+   "form": "WWWWW"
+  },
+  {
    "team": "INT",
    "p": 8,
    "w": 7,
@@ -199,26 +210,26 @@
    "form": "WDWWW"
   },
   {
-   "team": "LAZ",
-   "p": 8,
-   "w": 7,
-   "d": 1,
-   "l": 0,
-   "gf": 16,
-   "ga": 5,
-   "pts": 22,
-   "form": "DWWWW"
-  },
-  {
    "team": "ROM",
-   "p": 8,
-   "w": 5,
+   "p": 9,
+   "w": 6,
    "d": 3,
    "l": 0,
-   "gf": 19,
-   "ga": 6,
-   "pts": 18,
-   "form": "WDDWD"
+   "gf": 23,
+   "ga": 8,
+   "pts": 21,
+   "form": "DDWDW"
+  },
+  {
+   "team": "COM",
+   "p": 9,
+   "w": 6,
+   "d": 2,
+   "l": 1,
+   "gf": 17,
+   "ga": 8,
+   "pts": 20,
+   "form": "LDWWW"
   },
   {
    "team": "MIL",
@@ -230,17 +241,6 @@
    "ga": 7,
    "pts": 18,
    "form": "DWDWW"
-  },
-  {
-   "team": "COM",
-   "p": 8,
-   "w": 5,
-   "d": 2,
-   "l": 1,
-   "gf": 14,
-   "ga": 7,
-   "pts": 17,
-   "form": "WLDWW"
   },
   {
    "team": "FRO",
@@ -266,25 +266,25 @@
   },
   {
    "team": "TOR",
-   "p": 8,
+   "p": 9,
    "w": 4,
    "d": 1,
-   "l": 3,
-   "gf": 13,
-   "ga": 11,
+   "l": 4,
+   "gf": 14,
+   "ga": 14,
    "pts": 13,
-   "form": "LDWWW"
+   "form": "DWWWL"
   },
   {
    "team": "CAG",
-   "p": 8,
+   "p": 9,
    "w": 4,
    "d": 1,
-   "l": 3,
-   "gf": 6,
-   "ga": 9,
+   "l": 4,
+   "gf": 8,
+   "ga": 13,
    "pts": 13,
-   "form": "WWDLL"
+   "form": "WDLLL"
   },
   {
    "team": "NAP",
@@ -332,14 +332,14 @@
   },
   {
    "team": "SAS",
-   "p": 8,
+   "p": 9,
    "w": 2,
    "d": 2,
-   "l": 4,
-   "gf": 12,
-   "ga": 16,
+   "l": 5,
+   "gf": 14,
+   "ga": 22,
    "pts": 8,
-   "form": "WLDLL"
+   "form": "LDLLL"
   },
   {
    "team": "MON",
@@ -408,7 +408,12 @@
    "form": "LLLWL"
   }
  ],
- "picks": [],
+ "picks": [
+  {
+   "match": "SA-2026-27-R9-MIL-BOL",
+   "rank": 1
+  }
+ ],
  "rounds": {
   "8": [
    {
@@ -4669,61 +4674,83 @@
      },
      {
       "m": 7,
-      "t": "goal",
+      "t": "og",
       "s_": "h",
-      "who": "Kristian Thorstvedt",
-      "as": "Doig"
+      "who": "Josip Šutalo"
      },
      {
       "m": 13,
       "t": "goal",
       "s_": "a",
       "who": "Gustav Isaksen",
-      "as": "Zaccagni"
+      "as": "Mattia Zaccagni",
+      "how": "Lewa noga"
      },
      {
-      "m": 18,
+      "m": 16,
+      "t": "var",
+      "s_": "a",
+      "kind": "Bramka – możliwy spalony",
+      "init": "Gol anulowany",
+      "fin": "Gol uznany"
+     },
+     {
+      "m": 16,
       "t": "goal",
       "s_": "a",
       "who": "Romano Floriani Mussolini",
-      "as": "Taylor"
+      "as": "Kenneth Taylor"
      },
      {
       "m": 31,
       "t": "rc",
       "s_": "h",
-      "who": "Kristian Thorstvedt"
+      "who": "Kristian Thorstvedt",
+      "why": "Brutalny faul na Zaccagnim"
      },
      {
       "m": 43,
       "t": "goal",
       "s_": "h",
-      "who": "Sebastiano Esposito",
-      "as": "Cinquegrano"
+      "who": "Sebastiano Esposito"
      },
      {
-      "m": 46,
+      "m": 45,
+      "s": "+1",
       "t": "goal",
       "s_": "a",
       "who": "Mattia Zaccagni",
-      "as": "Isaksen"
+      "how": "Głowa"
      },
      {
-      "m": 56,
+      "m": 50,
+      "t": "pen",
+      "s_": "a",
+      "who": "Mattia Zaccagni",
+      "res": "Obroniony"
+     },
+     {
+      "m": 55,
       "t": "goal",
       "s_": "a",
       "who": "Tijjani Noslin",
-      "as": "Zaccagni"
+      "how": "Strzał zza pola karnego"
      },
      {
-      "m": 62,
+      "m": 60,
+      "t": "pen",
+      "s_": "a",
+      "who": "Davide Frattesi",
+      "res": "Obroniony"
+     },
+     {
+      "m": 65,
       "t": "goal",
       "s_": "a",
-      "who": "Tijjani Noslin",
-      "as": "Dele-Bashiru"
+      "who": "Tijjani Noslin"
      }
     ],
-    "notes": "Sassuolo w dziesiątkę od 31'. W meczu zmarnowano dwa rzuty karne. Tabela zaktualizuje się przy porannej aktualizacji."
+    "notes": "Gol na 1:1 (7') to samobój Šutalo po strzale Thorstvedta (asysta Doig). Gol Florianiego najpierw anulowany za spalonego, uznany po VAR. Sassuolo od 31' w dziesiątkę. Turati obronił dwa karne (Zaccagni – ręka Cinquegrano; Frattesi – faul Čalety-Cara na Isaksenie). Lazio liderem z 25 pkt. Brak pełnych składów i statystyk w dostępnych źródłach."
    },
    {
     "id": "SA-2026-27-R9-ROM-CAG",
@@ -4731,7 +4758,7 @@
     "time": "20:45",
     "home": "ROM",
     "away": "CAG",
-    "status": "ns",
+    "status": "ft",
     "odds": {
      "src": "Snai/kursy wg commentierecensioni.com (1X2, podwójna szansa) + rynki bramkowe wg footballpredictions.com / Betfred, William Hill (thefootballfaithful) – stan na 26–27.10.2026",
      "1": 1.33,
@@ -4791,7 +4818,60 @@
       "name": "Ermanno Feliciani",
       "nat": "ITA"
      }
-    ]
+    ],
+    "score": [
+     4,
+     2
+    ],
+    "events": [
+     {
+      "m": 10,
+      "t": "pen",
+      "s_": "a",
+      "who": "M'Bala Nzola",
+      "res": "Gol"
+     },
+     {
+      "m": 15,
+      "t": "goal",
+      "s_": "h",
+      "who": "Emanuele Lulli"
+     },
+     {
+      "m": 21,
+      "t": "goal",
+      "s_": "h",
+      "who": "Niccolò Pisilli"
+     },
+     {
+      "m": 81,
+      "t": "goal",
+      "s_": "a",
+      "who": "Daniel Maldini",
+      "as": "Adam Obert"
+     },
+     {
+      "m": 83,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Daniele Ghilardi",
+      "out": "Gianluca Mancini"
+     },
+     {
+      "m": 85,
+      "t": "goal",
+      "s_": "h",
+      "who": "Rodrigo Mora",
+      "how": "Głowa"
+     },
+     {
+      "m": 87,
+      "t": "goal",
+      "s_": "h",
+      "who": "Donyell Malen"
+     }
+    ],
+    "notes": "Karny dla Cagliari za zagranie ręką Pisillego. Roma odwróciła wynik w 11 minut, Maldini wyrównał na 2:2 w 81', a Mora i Malen dali wygraną w końcówce. Lista zmian i kartek niepełna."
    },
    {
     "id": "SA-2026-27-R9-TOR-COM",
@@ -4799,7 +4879,7 @@
     "time": "20:45",
     "home": "TOR",
     "away": "COM",
-    "status": "ns",
+    "status": "ft",
     "odds": {
      "src": "Snai/kursy wg commentierecensioni.com (1X2, podwójna szansa) + rynki bramkowe wg footballpredictions.com / Betfred, William Hill (thefootballfaithful) – stan na 26–27.10.2026",
      "2": 1.75,
@@ -4859,7 +4939,43 @@
       "name": "Giuseppe Collu",
       "nat": "ITA"
      }
-    ]
+    ],
+    "score": [
+     1,
+     3
+    ],
+    "events": [
+     {
+      "m": 24,
+      "t": "goal",
+      "s_": "h",
+      "who": "Che Adams",
+      "as": "Kaye Fitz-Jim"
+     },
+     {
+      "m": 81,
+      "t": "goal",
+      "s_": "a",
+      "who": "Jacobo Ramón",
+      "as": "Nico Paz"
+     },
+     {
+      "m": 87,
+      "t": "goal",
+      "s_": "a",
+      "who": "Nico Paz",
+      "as": "Yan Couto",
+      "how": "Głowa"
+     },
+     {
+      "m": 90,
+      "s": "+2",
+      "t": "goal",
+      "s_": "a",
+      "who": "Martin Baturina"
+     }
+    ],
+    "notes": "Gol Douvikasa w 5' anulowany (spalony). Como odwróciło wynik w ostatnich 10 minutach; trzeci gol po błędzie Vlašicia. Brak składów i kartek w dostępnych źródłach."
    },
    {
     "id": "SA-2026-27-R9-MIL-BOL",
@@ -4869,9 +4985,16 @@
     "away": "BOL",
     "status": "ns",
     "odds": {
-     "src": "Snai/kursy wg commentierecensioni.com (1X2, podwójna szansa) + rynki bramkowe wg footballpredictions.com / Betfred, William Hill (thefootballfaithful) – stan na 26–27.10.2026",
+     "src": "BC.Game wg oddslot (1X2, podwójna szansa, stan 28.10); powyżej 2,5 – oddslot (1,83); poniżej 2,5 i BTTS nie – footballpredictions.com (+100, bukmacher nieokreślony)",
      "1": 1.62,
-     "1X": 1.13
+     "X": 3.75,
+     "2": 6.0,
+     "1X": 1.12,
+     "12": 1.25,
+     "X2": 2.25,
+     "o25": 1.83,
+     "u25": 2.0,
+     "bttsN": 2.0
     },
     "venue": {
      "name": "San Siro",
@@ -4911,15 +5034,36 @@
       "home": 3,
       "away": 4
      },
-     "stakes": "Milan gra w niedzielę wieczorem w Udine, w środę o 18:30 z Bologną; Bologna po pierwszej wygranej za Palladino (2:0 w Cagliari)."
+     "stakes": "Milan gra w niedzielę wieczorem w Udine, w środę o 18:30 z Bologną; Bologna po pierwszej wygranej za Palladino (2:0 w Cagliari).",
+     "homeAway": "Milan u siebie (ost. 10, wszystkie rozgr.): 2,0 strzel./1,0 strac., BTTS 25%, xG 1,54/xGA 1,07. Bologna na wyjeździe: 0,8 strzel./0,8 strac., średnio 1,6 gola/mecz, BTTS 20%, nie strzeliła w 60% meczów.",
+     "h2h": [
+      "2026-02-03 BOL 0:3 MIL"
+     ]
     },
     "tip": {
-     "decision": "NO BET",
+     "decision": "BET",
+     "market": "Poniżej 2,5 gola",
+     "odds": 2.0,
+     "prob": 0.54,
+     "ev": 0.08,
+     "rating": 6,
+     "risk": "średnie",
      "reasons": [
-      "Milan 1,62 (ok. 62%) po 2:0 w Udine, ale trzeci mecz w 7 dni – szacunek ok. 60%",
-      "Bologna bez Piccolego, za to po wygranej 2:0 w Cagliari – brak przewagi",
-      "Brak wiarygodnych kursów na rynkach bramkowych"
-     ]
+      "Bologna na wyjazdach (ost. 10): średnio 1,6 gola w meczu, BTTS tylko 20%, brak gola w 60% spotkań",
+      "Milan u siebie: BTTS 25%, 50% czystych kont, xGA 1,07 – mecze kontrolowane",
+      "Bologna bez Piccolego, Orsoliniego i Holma – najgroźniejsze opcje ofensywne poza składem",
+      "Bologna w lidze: 8 goli strzelonych w 8 meczach (1,0/mecz)",
+      "Model Poissona z tabeli (regresja do średniej) daje ok. 52% na ≤2 gole; dane dom/wyjazd przesuwają szacunek do ok. 54% wobec 50% z kursu 2,00",
+      "Milan gra trzeci mecz w 7 dni – możliwa rotacja i niższe tempo"
+     ],
+     "risks": [
+      "Milan strzela u siebie 2,0 gola/mecz – 3:0 wystarczy, by typ przegrał",
+      "Kurs na under z jednego, nieokreślonego źródła (over 1,83 w oddslot jest z nim spójny)",
+      "H2H: powyżej 2,5 w 54% meczów",
+      "Przewaga niewielka – mała próbka sezonu"
+     ],
+     "value": "Kurs 2,00 wycenia under na 50%, mój szacunek ok. 54% – EV ok. +8%, typ umiarkowany.",
+     "stake": "0,5–1% bankrollu"
     },
     "officials": [
      {
@@ -4938,9 +5082,12 @@
     "away": "UDI",
     "status": "ns",
     "odds": {
-     "src": "Snai/kursy wg commentierecensioni.com (1X2, podwójna szansa) + rynki bramkowe wg footballpredictions.com / Betfred, William Hill (thefootballfaithful) – stan na 26–27.10.2026",
+     "src": "Snai/kursy wg commentierecensioni.com (1X2, podwójna szansa) + rynki bramkowe wg footballpredictions.com / Betfred, William Hill (thefootballfaithful) – stan na 26–27.10.2026; under 2,5, BTTS, 1X – footballpredictions.com (28.10)",
      "2": 2.5,
-     "X2": 1.33
+     "X2": 1.33,
+     "u25": 1.67,
+     "bttsY": 1.9,
+     "1X": 1.5
     },
     "venue": {
      "name": "Stadio Ennio Tardini",
@@ -4977,14 +5124,16 @@
       "home": 4,
       "away": 3
      },
-     "stakes": "Mecz dołu tabeli: Parma 4 pkt (19. miejsce), Udinese 4 pkt przed niedzielnym meczem z Milanem (5 porażek z rzędu)."
+     "stakes": "Mecz dołu tabeli: Parma 4 pkt (19. miejsce), Udinese 4 pkt przed niedzielnym meczem z Milanem (5 porażek z rzędu).",
+     "homeAway": "Parma (ost. 10): 0,6 strzel./1,8 strac., nie strzeliła w 50% meczów; Udinese 6 porażek z rzędu, na wyjazdach strzela w każdym meczu (2,0/mecz)."
     },
     "tip": {
      "decision": "NO BET",
      "reasons": [
       "Udinese w serii porażek (0:2 z Milanem, 4 pkt), Parma 6 porażek w 8 meczach (4 pkt) – brak podstaw do wyboru strony",
       "Udinese faworytem na wyjeździe mimo fatalnej formy – rynek niejasny",
-      "Brak wiarygodnych kursów na rynkach bramkowych"
+      "Brak wiarygodnych kursów na rynkach bramkowych",
+      "Under 2,5 po 1,67 (60%) vs model ok. 50% i 5 kolejnych meczów Parmy z over 2,5 – brak przewagi"
      ]
     },
     "officials": [
@@ -5004,9 +5153,11 @@
     "away": "INT",
     "status": "ns",
     "odds": {
-     "src": "Snai/kursy wg commentierecensioni.com (1X2, podwójna szansa) + rynki bramkowe wg footballpredictions.com / Betfred, William Hill (thefootballfaithful) – stan na 26–27.10.2026",
+     "src": "Snai/kursy wg commentierecensioni.com (1X2, podwójna szansa) + rynki bramkowe wg footballpredictions.com / Betfred, William Hill (thefootballfaithful) – stan na 26–27.10.2026; over 2,5 i BTTS – footballpredictions.com (28.10)",
      "2": 1.33,
-     "12": 1.14
+     "12": 1.14,
+     "o25": 1.36,
+     "bttsY": 1.57
     },
     "venue": {
      "name": "Stadio Pier Luigi Penzo",
@@ -5057,7 +5208,8 @@
      "reasons": [
       "Inter 1,33 (ok. 75%) – bez Lautaro, Pavarda i Jonesa, trzeci mecz w tygodniu; z Fiorentiną wygrał dopiero w doliczonym czasie",
       "Venezia ostatnia (3 pkt), ale u siebie pokonała Napoli – kurs nie daje wartości",
-      "Brak rynku z przewagą"
+      "Brak rynku z przewagą",
+      "BTTS tak 1,57 (64%) i over 2,5 po 1,36 (74%) – Venezia nie strzeliła w 40% meczów, kursy bez wartości"
      ]
     },
     "officials": [
@@ -5107,9 +5259,12 @@
     "away": "JUV",
     "status": "ns",
     "odds": {
-     "src": "Snai/kursy wg commentierecensioni.com (1X2, podwójna szansa) + rynki bramkowe wg footballpredictions.com / Betfred, William Hill (thefootballfaithful) – stan na 26–27.10.2026",
+     "src": "Snai/kursy wg commentierecensioni.com (1X2, podwójna szansa) + rynki bramkowe wg footballpredictions.com / Betfred, William Hill (thefootballfaithful) – stan na 26–27.10.2026; under 2,5, BTTS nie, DNB 2 – footballpredictions.com (28.10)",
      "2": 1.72,
-     "X2": 1.17
+     "X2": 1.17,
+     "u25": 1.72,
+     "bttsN": 1.8,
+     "dnb2": 1.25
     },
     "venue": {
      "name": "Stadio Luigi Ferraris",
@@ -5154,14 +5309,23 @@
       "home": 3,
       "away": 3
      },
-     "stakes": "Obie drużyny grają w niedzielę (Genoa z Venezią, Juventus w Lecce). Juventus przed 8. kolejką po 0:3 z Lazio i 2:2 z Rennes w LE."
+     "stakes": "Obie drużyny grają w niedzielę (Genoa z Venezią, Juventus w Lecce). Juventus przed 8. kolejką po 0:3 z Lazio i 2:2 z Rennes w LE.",
+     "h2h": [
+      "2026-04-06 JUV 2:0 GEN",
+      "2025-08-31 GEN 0:1 JUV",
+      "2025-03-29 JUV 1:0 GEN",
+      "2024-09-28 GEN 0:3 JUV",
+      "2024-03-17 JUV 0:0 GEN"
+     ],
+     "homeAway": "Genoa u siebie (ost. 10): 1,0 strzel./1,33 strac.; Juventus na wyjeździe: 1,75 strzel./1,25 strac., BTTS 75%, xG 2,08."
     },
     "tip": {
      "decision": "NO BET",
      "reasons": [
-      "Juventus 1,72 (ok. 58%) po 2:0 w Lecce, ale bez Yıldıza, K. Thurama i Locatellego – szacunek ok. 55%",
-      "Genoa po wygranej 1:0 z Venezią (7 pkt) – mecz u siebie, trudny do wyceny",
-      "Over 1,5 po 1,30 – zbyt niski kurs; brak przewagi"
+      "Poniżej 2,5 po 1,72 (58%): model z tabeli ok. 62%, ale Juventus na wyjazdach średnio 3,0 gola/mecz i BTTS 75% – szacunek ok. 58–60%, EV ≈ 0–3%",
+      "Juventus 1,72 (58%) bez Yıldıza, K. Thurama, Conceição i Locatellego – szacunek ok. 52–55%, EV ujemne",
+      "Genoa strzela 0,7 gola/mecz – BTTS nie 1,80 (56%) blisko uczciwej wyceny",
+      "Brak rynku z wyraźną przewagą"
      ]
     },
     "officials": [
@@ -5181,7 +5345,7 @@
     "away": "NAP",
     "status": "ns",
     "odds": {
-     "src": "BC.Game wg oddslot (1X2, podwójna szansa); over 2,5 i BTTS – footballpredictions.com; stan na 26–27.10.2026",
+     "src": "BC.Game wg oddslot (1X2, podwójna szansa, 28.10); over 2,5, BTTS, DNB – footballpredictions.com (28.10, bukmacher nieokreślony)",
      "1": 4.5,
      "X": 3.9,
      "2": 1.75,
@@ -5189,7 +5353,8 @@
      "12": 1.22,
      "X2": 1.18,
      "o25": 1.72,
-     "bttsY": 1.67
+     "bttsY": 1.7,
+     "dnb2": 1.33
     },
     "venue": {
      "name": "Stadio Brianteo",
@@ -5217,22 +5382,24 @@
        "Buongiorno (do 31.10)",
        "Favasuli (do 30.11)",
        "Neres (do 10.11)",
-       "Alisson Santos"
+       "Alisson Santos",
+       "Badiashile (uraz z meczu z Romą)"
       ]
      },
      "restDays": {
       "home": 5,
       "away": 4
      },
-     "stakes": "Mecze Monzy: 33 gole w 8 kolejkach (4,1/mecz); Napoli po 3:3 z Romą. Allegri usunięty z ławki w sobotę – możliwa kara (decyzja w poniedziałek)."
+     "stakes": "Allegri zawieszony – ogląda mecz z trybun. Mecze Monzy: 33 gole w 8 kolejkach (4,1/mecz); Napoli bez wygranej w 4 ostatnich meczach wyjazdowych.",
+     "homeAway": "Monza u siebie (ost. 10): 2,75 strzel./1,0 strac., ani razu bez gola w 10 meczach; Napoli na wyjeździe: 1,0 strzel./2,0 strac., 0 czystych kont, BTTS 75%."
     },
     "tip": {
      "decision": "NO BET",
      "reasons": [
-      "Powyżej 2,5 po 1,72 (58% z kursu): mecze Monzy 4,1 gola/mecz, Napoli traci 1,7–1,9 xGA – szacunek ok. 57–60%, EV ok. 0–3% – za mało",
-      "BTTS tak 1,67 (60%) – Monza strzela u siebie, ale H2H niskobramkowe (BTTS 1/6) – brak przewagi",
-      "Napoli 1,75 – forma 2-1-2 w 5 ostatnich, kurs adekwatny",
-      "Wartość na rynkach bramkowych jest już wyceniona przez bukmacherów"
+      "BTTS tak po 1,70 (59% z kursu): Monza strzelała w każdym z 10 ostatnich meczów, Napoli na wyjazdach bez czystego konta – szacunek ok. 61–63%, EV ok. +4–7% – na granicy, poniżej progu przy dużej niepewności",
+      "Powyżej 2,5 po 1,72 (58%): model daje więcej, ale Napoli w lidze traci tylko 1,25 gola/mecz – szacunek ok. 60%, EV ok. +3%",
+      "Napoli 1,75 bez Allegriego na ławce, Buongiorna i Badiashile – brak podstaw do gry na faworyta",
+      "H2H niskobramkowe (BTTS 1/6) dokłada niepewności – lepiej odpuścić"
      ]
     },
     "officials": [

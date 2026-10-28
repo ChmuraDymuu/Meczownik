@@ -1,9 +1,9 @@
 {
- "updated": "2026-10-27T06:40:00+01:00",
+ "updated": "2026-10-28T06:25:00+01:00",
  "season": "2026/27",
  "competition": "Bundesliga",
  "currentRound": 8,
- "note": "Źródła: bundesliga.com, fcbayern.com, ZDFheute, flashscore, fussballnationalmannschaft.net, t-online.de, DFB, sportwetten24, bettingnews (kursy), ms-aktuell/dpa, ligaoutsider, ESPN; wcześniej: rbleipzig.com, Sofascore, sportschau.de, Wettbasis, tipsterio.de, Wincomparator. Godziny w czasie polskim (CET).",
+ "note": "Źródła: bundesliga.com, DFB, oddschecker (kursy), wettbasis, rotowire, futboltotal, ms-aktuell/Sky, ZDFheute; wcześniej: fcbayern.com, flashscore, t-online.de, sportwetten24, bettingnews, ligaoutsider, ESPN, rbleipzig.com, Sofascore, sportschau.de. Godziny w czasie polskim (CET).",
  "teams": {
   "BAY": {
    "id": "BAY",
@@ -2870,9 +2870,9 @@
      "capacity": 10000
     },
     "odds": {
-     "src": "bettingnews.com – średnia US (Lucky Rebel, BetOnline, Bovada, BetUS, DraftKings) i sportwetten24, stan na 27.10.2026",
-     "1": 3.15,
-     "X": 3.8,
+     "src": "oddschecker – kursy wyświetlane na liście meczów, stan na 28.10.2026",
+     "1": 3.25,
+     "X": 4.0,
      "2": 2.12
     },
     "staff": {
@@ -2901,15 +2901,15 @@
       "away": 3
      },
      "homeAway": "Elversberg u siebie: 2 zwycięstwa i 1 porażka (8 goli), w ostatniej kolejce 0:4 w Lipsku. Mainz u siebie tylko 1 pkt w 4 meczach, ale na wyjazdach komplet 9 pkt (10:3). Oba zespoły: 10 pkt po 7 kolejkach.",
-     "stakes": "7. Mainz vs 8. Elversberg (obie po 10 pkt). Oba zespoły grają we wtorek 27.10 w DFB-Pokal (Elversberg – Darmstadt 20:45, Bochum – Mainz 18:00) – możliwa dogrywka i rotacja."
+     "stakes": "7. Mainz vs 8. Elversberg (obie po 10 pkt). Obie drużyny odpadły we wtorek z DFB-Pokal: 27.10 DFB-Pokal: Elversberg – Darmstadt 0:2 (bez dogrywki, 5 zmian w składzie); 27.10 DFB-Pokal: Bochum – Mainz 2:0 (bez dogrywki)."
     },
     "tip": {
      "decision": "NO BET",
      "reasons": [
-      "Kursy 3,15 / 3,80 / 2,12 wyceniają Mainz na ok. 45% (po marży) – moja ocena ok. 44–47%: EV na 2 ≈ −2…0%, brak przewagi.",
-      "Mecze obu drużyn są bardzo bramkostrzelne (over 3,5 w 7 z 14 meczów), ale kurs ok. 2,20 bez wskazanego bukmachera i próba 7 meczów to za mało – bez typu.",
-      "Oba zespoły grają we wtorek w Pucharze Niemiec (wynik i ewentualna dogrywka nieznane w chwili analizy) – ryzyko rotacji.",
-      "Elversberg ma kilka absencji (Gyamerah, Seifert, Zimmerschied), ale u siebie gra skutecznie; Mainz bez punktu do zgubienia na wyjazdach – kontrastujące serie, zbyt duża niepewność."
+      "Kursy 3,25 / 4,00 / 2,12 wyceniają Mainz na ok. 45% (po marży) – moja ocena ok. 44–47%: EV na 2 ≈ −2…+1%, brak przewagi.",
+      "Obie drużyny odpadły we wtorek z Pucharu Niemiec bez dogrywki (Elversberg 0:2 z Darmstadt po 5 zmianach w składzie, Mainz 0:2 w Bochum) – podobne obciążenie, brak argumentu zmęczeniowego.",
+      "Mainz na wyjazdach w lidze 3/3 zwycięstw (10:3), u siebie słabo; Elversberg u siebie 2W 1P – kontrastujące serie przy małej próbie (7 meczów).",
+      "Elversberg z kilkoma absencjami (Gyamerah, Seifert, Zimmerschied), Mainz po pucharowej porażce bez gola – zbyt duża niepewność na typ."
      ]
     }
    },
@@ -2924,6 +2924,27 @@
      "name": "BayArena",
      "city": "Leverkusen",
      "capacity": 30210
+    },
+    "odds": {
+     "src": "oddschecker – kursy wyświetlane na liście meczów, stan na 28.10.2026",
+     "1": 1.83,
+     "X": 4.5,
+     "2": 4.0
+    },
+    "info": {
+     "restDays": {
+      "home": 3,
+      "away": 3
+     },
+     "stakes": "4. (13 pkt) vs 15. (6 pkt). Tydzień pucharowy: 28.10 20:45 DFB-Pokal: Leverkusen – Norymberga; 28.10 18:00 DFB-Pokal: Paderborn – Stuttgart."
+    },
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Kursy 1.83 / 4.50 / 4.00 (marża ok. 2%) – po zdjęciu marży ok. 54% / 22% / 25%; moja ocena nie odbiega od rynku o więcej niż 2–3 pkt proc., więc EV ≤ 0 na 1X2.",
+      "Brak wiarygodnych kursów na rynki poboczne (gole, BTTS, handicap, kartki, rożne) z jednego, sprawdzonego źródła – nie wyceniam ich na siłę.",
+      "Mecz po tygodniu pucharowym (dni odpoczynku 3 / 3); składy i rotacja niepotwierdzone."
+     ]
     }
    },
    {
@@ -2937,6 +2958,27 @@
      "name": "WWK Arena",
      "city": "Augsburg",
      "capacity": 30660
+    },
+    "odds": {
+     "src": "oddschecker – kursy wyświetlane na liście meczów, stan na 28.10.2026",
+     "1": 3.0,
+     "X": 4.0,
+     "2": 2.25
+    },
+    "info": {
+     "restDays": {
+      "home": 4,
+      "away": 3
+     },
+     "stakes": "9. (9 pkt) vs 3. (13 pkt). Tydzień pucharowy: 27.10 18:00 DFB-Pokal: Großaspach – Augsburg; 28.10 18:00 DFB-Pokal: Freiburg – Wolfsburg."
+    },
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Kursy 3.00 / 4.00 / 2.25 (marża ok. 3%) – po zdjęciu marży ok. 32% / 24% / 43%; moja ocena nie odbiega od rynku o więcej niż 2–3 pkt proc., więc EV ≤ 0 na 1X2.",
+      "Brak wiarygodnych kursów na rynki poboczne (gole, BTTS, handicap, kartki, rożne) z jednego, sprawdzonego źródła – nie wyceniam ich na siłę.",
+      "Mecz po tygodniu pucharowym (dni odpoczynku 4 / 3); składy i rotacja niepotwierdzone."
+     ]
     }
    },
    {
@@ -2950,6 +2992,27 @@
      "name": "Borussia-Park",
      "city": "Mönchengladbach",
      "capacity": 54057
+    },
+    "odds": {
+     "src": "oddschecker – kursy wyświetlane na liście meczów, stan na 28.10.2026",
+     "1": 1.95,
+     "X": 4.2,
+     "2": 3.6
+    },
+    "info": {
+     "restDays": {
+      "home": 4,
+      "away": 3
+     },
+     "stakes": "18. (3 pkt) vs 13. (8 pkt). Tydzień pucharowy: 27.10 20:45 DFB-Pokal: Gladbach – Karlsruher SC; 28.10 18:00 DFB-Pokal: Paderborn – Stuttgart."
+    },
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Kursy 1.95 / 4.20 / 3.60 (marża ok. 3%) – po zdjęciu marży ok. 50% / 23% / 27%; moja ocena nie odbiega od rynku o więcej niż 2–3 pkt proc., więc EV ≤ 0 na 1X2.",
+      "Brak wiarygodnych kursów na rynki poboczne (gole, BTTS, handicap, kartki, rożne) z jednego, sprawdzonego źródła – nie wyceniam ich na siłę.",
+      "Mecz po tygodniu pucharowym (dni odpoczynku 4 / 3); składy i rotacja niepotwierdzone."
+     ]
     }
    },
    {
@@ -2963,6 +3026,28 @@
      "name": "Weserstadion",
      "city": "Brema",
      "capacity": 42100
+    },
+    "odds": {
+     "src": "oddschecker – kursy wyświetlane na liście meczów, stan na 28.10.2026",
+     "1": 2.9,
+     "X": 4.0,
+     "2": 2.25
+    },
+    "info": {
+     "restDays": {
+      "home": 4,
+      "away": 3
+     },
+     "stakes": "6. (12 pkt) vs 10. (9 pkt). Tydzień pucharowy: 27.10 DFB-Pokal: Dortmund – Werder 3:2; 28.10 20:45 DFB-Pokal: Holstein Kiel – Hoffenheim."
+    },
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Kursy 2.90 / 4.00 / 2.25 (marża ok. 4%) – po zdjęciu marży ok. 33% / 24% / 43%; moja ocena nie odbiega od rynku o więcej niż 2–3 pkt proc., więc EV ≤ 0 na 1X2.",
+      "Werder bez porażki w 6 meczach ligowych, Hoffenheim z obciążeniem (puchar w środę, Liga Europy) – ale rynek (2,90 / 2,25) już uwzględnia formę; DNB 2,15 sugerowane przez Wettbasis to pojedyncza oferta bez weryfikacji.",
+      "Brak wiarygodnych kursów na rynki poboczne (gole, BTTS, handicap, kartki, rożne) z jednego, sprawdzonego źródła – nie wyceniam ich na siłę.",
+      "Mecz po tygodniu pucharowym (dni odpoczynku 4 / 3); składy i rotacja niepotwierdzone."
+     ]
     }
    },
    {
@@ -2976,6 +3061,28 @@
      "name": "Veltins-Arena",
      "city": "Gelsenkirchen",
      "capacity": 62271
+    },
+    "odds": {
+     "src": "oddschecker – kursy wyświetlane na liście meczów, stan na 28.10.2026",
+     "1": 4.0,
+     "X": 4.0,
+     "2": 1.94
+    },
+    "info": {
+     "restDays": {
+      "home": 3,
+      "away": 4
+     },
+     "stakes": "16. (6 pkt) vs 5. (12 pkt). Tydzień pucharowy: 28.10 18:00 DFB-Pokal: Dynamo Drezno – Schalke; 27.10 18:00 DFB-Pokal: RW Essen – Leipzig."
+    },
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Kursy 4.00 / 4.00 / 1.94 (marża ok. 2%) – po zdjęciu marży ok. 25% / 25% / 51%; moja ocena nie odbiega od rynku o więcej niż 2–3 pkt proc., więc EV ≤ 0 na 1X2.",
+      "Wettbasis wskazuje DNB Schalke 3,00 (bet365) z uwagi na słabość Lipska na wyjazdach (3 porażki) i rotację – to opinia tipstera, dane xG (1,24 – 1,69) przemawiają raczej za Lipskiem; brak przewagi.",
+      "Brak wiarygodnych kursów na rynki poboczne (gole, BTTS, handicap, kartki, rożne) z jednego, sprawdzonego źródła – nie wyceniam ich na siłę.",
+      "Mecz po tygodniu pucharowym (dni odpoczynku 3 / 4); składy i rotacja niepotwierdzone."
+     ]
     }
    },
    {
@@ -2989,6 +3096,40 @@
      "name": "Allianz Arena",
      "city": "Monachium",
      "capacity": 75000
+    },
+    "odds": {
+     "src": "oddschecker – kursy wyświetlane na liście meczów, stan na 28.10.2026",
+     "1": 1.37,
+     "X": 6.0,
+     "2": 7.5
+    },
+    "info": {
+     "restDays": {
+      "home": 3,
+      "away": 4
+     },
+     "stakes": "1. vs 2. – obie po 17 pkt; bezpośrednie starcie o fotel lidera. Bayern gra w środę 28.10 (20:45) z Magdeburgiem w Pucharze, BVB grał we wtorek.",
+     "injuries": {
+      "home": [
+       "Jamal Musiala (naderwanie mięśnia uda – wg Sky możliwy powrót przy Magdeburgu lub BVB, niepotwierdzony)",
+       "Manuel Neuer (problemy ze stopą – stan na 19.10, status niepewny)"
+      ],
+      "away": []
+     },
+     "suspensions": {
+      "home": [],
+      "away": []
+     },
+     "homeAway": "Bayern: 25:6 w 7 meczach, 5W 2R. BVB: najlepsza obrona ligi (4 stracone), bez porażki (5W 2R). BVB w pucharze 3:2 z Werderem (gol Sabitzera w 90+3'). Trener Vincent Kompany po zasłabnięciu na treningu (23.10) – wg Maxa Eberla nieobecny przez kilka tygodni."
+    },
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Kurs 1,37 na Bayern = ok. 70% po marży – przy nieobecności trenera Kompany'ego, środowym meczu pucharowym i najlepszej obronie ligi po stronie BVB nie widzę podstaw, by ocenić Bayern wyżej.",
+      "Remis 6,00 / BVB 7,50 – BVB bez porażki, ale moja ocena szans (ok. 12–14% na wygraną) jest zbliżona do rynku; brak dodatniego EV.",
+      "Wettbasis proponuje BVB +1 (AH) po 2,60 – kurs od pojedynczego bukmachera, bez możliwości weryfikacji; nie typuję.",
+      "Niepewny status Musiali i Neuera oraz brak potwierdzonych składów – zbyt duża niepewność."
+     ]
     }
    },
    {
@@ -3002,6 +3143,19 @@
      "name": "Stadion An der Alten Försterei",
      "city": "Berlin",
      "capacity": 22012
+    },
+    "odds": {
+     "src": "oddschecker – kursy wyświetlane na liście meczów, stan na 28.10.2026",
+     "1": 2.5,
+     "X": 3.7,
+     "2": 2.65
+    },
+    "info": {
+     "restDays": {
+      "home": 5,
+      "away": 5
+     },
+     "stakes": "17. (6 pkt) vs 12. (8 pkt). Tydzień pucharowy: 27.10 20:45 DFB-Pokal: Köln – Union; 27.10 20:45 DFB-Pokal: Köln – Union."
     }
    },
    {
@@ -3015,6 +3169,19 @@
      "name": "Deutsche Bank Park",
      "city": "Frankfurt nad Menem",
      "capacity": 59500
+    },
+    "odds": {
+     "src": "oddschecker – kursy wyświetlane na liście meczów, stan na 28.10.2026",
+     "1": 1.7,
+     "X": 4.33,
+     "2": 4.5
+    },
+    "info": {
+     "restDays": {
+      "home": 5,
+      "away": 5
+     },
+     "stakes": "14. (8 pkt) vs 11. (9 pkt). Tydzień pucharowy: 27.10 18:00 DFB-Pokal: HSV – Eintracht; 27.10 18:00 DFB-Pokal: HSV – Eintracht."
     }
    }
   ],
