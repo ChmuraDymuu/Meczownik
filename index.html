@@ -1518,6 +1518,9 @@ function renderToday(){
       :`<div class="empty"><b style="color:var(--fg)">BRAK WARTOŚCIOWEGO TYPU — NO BET.</b><br>Żaden ${TM?"jutrzejszy":"dzisiejszy"} mecz nie daje wystarczającej przewagi.</div>`;
     html+=`<section class="panel"><div class="day"><h2>Typy na ${TM?"jutro":"dziś"}</h2><small>wszystkie ligi${loading?" · wczytuję…":""}</small></div><div class="card">${body}</div>${RESP}</section>`;
   }
+  { const OP=typeof allOpps==="function"?allOpps().filter(o=>o.x.date===D):[];
+    if(OP.length) html+=`<section class="panel"><div class="day"><h2>Okazje z porównania kursów</h2><small>${OP.length} · ${TM?"jutro":"dziś"}</small></div><div class="card">${OP.slice(0,15).map(o=>{const col=o.evt>=CFG.minEv?"#2f8a52":o.evt>=0?"var(--accent)":"var(--red)";
+      return `<button class="rank" data-tip="${esc(o.x.id)}" data-lg="${o.c}"><span class="medal" style="background:${col};color:#fff">${o.evt>=CFG.minEv?"VALUE":o.evt>=0?"NA STYK":"−EV"}</span><span><b>${esc(o.market)}</b><small>${esc(o.hn)} – ${esc(o.an)} · ${esc(leagueName(o.c))} · ${o.x.time}<br>${esc(o.book)} · uczciwy ${(1/o.p).toFixed(2).replace(".",",")} · bez podatku ${evTxt(o.ev)}</small></span><span class="ev">${o.odds.toFixed(2)}<small><b style="color:${col}">${evTxt(o.evt)}</b> po pod.</small></span></button>`}).join("")}</div><div class="hint" style="text-align:left;padding:8px 2px 0">Kurs u jednego bukmachera wyższy od ceny uczciwej (Pinnacle bez marży). Opłaca się tylko, jeśli Twój bukmacher daje co najmniej taki kurs — wpisz go w karcie meczu.</div></section>`; }
   if(FAV.length){
     favRows.sort((a,b)=>a.k.localeCompare(b.k));
     html+=`<section class="panel"><div class="day"><h2>★ Twoje drużyny</h2><small>wczoraj – 7 dni</small></div><div class="card">${favRows.length?favRows.slice(0,12).map(r=>r.html).join(""):'<div class="hint">Twoje drużyny nie grają w najbliższych dniach.</div>'}</div></section>`;
