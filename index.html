@@ -663,7 +663,7 @@ function loadLeague(c){
   if(LD[c]!==undefined&&LD[c]!=="loading") return Promise.resolve(LD[c]);
   if(LD["_p"+c]) return LD["_p"+c];
   LD[c]="loading";
-  return LD["_p"+c]=fetchLeague(c).then(x=>{LD[c]=x; delete LD["_p"+c]; try{recordTips(c,x)}catch(e){} return x;});
+  return LD["_p"+c]=fetchLeague(c).then(x=>{LD[c]=x; delete LD["_p"+c]; try{recordTips(c,x)}catch(e){} if(c==="TEN"&&x) setTimeout(()=>tennisOdds(),0); return x;});
 }
 function activate(c){
   state.league=c; state.filter="all"; state.comp="all"; state.ret=null; state.retTeam=null; save();
@@ -791,6 +791,7 @@ function renderHome(){
   const list=sorted.filter(f=>(state.filter==="all"||f.kind===state.filter)&&(state.comp==="all"||f.raw.comp===state.comp));
   let html=`<div class="filters" role="group" aria-label="Filtr meczów">${F.map(([k,l])=>`<button data-filter="${k}" aria-pressed="${state.filter===k}">${l}${k==="live"&&live?`<span class="cnt">${live}</span>`:""}</button>`).join("")}</div>`;
   if(comps.length>1) html+=`<div class="filters" role="group" aria-label="Rozgrywki" style="margin-top:8px">${[["all","Wszystkie rozgrywki"]].concat(comps.map(c=>[c,c.replace(/ \(.*\)$/,"")])).map(([k,l])=>`<button data-comp="${esc(k)}" aria-pressed="${state.comp===k}">${esc(l)}<span class="cnt">${k==="all"?fx.length:fx.filter(f=>f.raw.comp===k).length}</span></button>`).join("")}</div>`;
+  if(isTEN()&&!OKEY&&!Object.values(DATA.days||{}).flat().some(x=>x.odds)) html+=`<div class="card empty" style="margin-top:12px">Kursy i typy dla tenisa: dodaj darmowy klucz The Odds API w <button class="retry" data-goval style="padding:3px 10px;font-size:13px">Value i stawki</button></div>`;
   if(state.filter==="all"||state.filter==="ns") html+=picksCard();
   if(!list.length) html+=`<div class="card empty">${isDays()?"Tego dnia nie ma meczów w tej kategorii.<br>Zmień filtr albo przejdź do innego dnia.":"W tej kolejce nie ma meczów w tej kategorii.<br>Zmień filtr albo przejdź do innej kolejki."}</div>`;
   for(const d of [...new Set(list.map(f=>f.date))]){
@@ -1349,10 +1350,12 @@ const VT={
       h+=`<section><h2>Wynik w setach${act?" · faktycznie "+act:""}</h2><div class="card">${R.sets.map(([x,y,w])=>{const hit=act===x+":"+y;return `<div class="dist${hit?" hit":""}"><span>${x>y?H:A} ${x}:${y}${hit?" ✓":""}</span><div class="dbar"><i style="width:${Math.min(100,Math.round(w*100/0.6*100)/100)}%;background:${x>y?M.home.col:M.away.col}"></i></div><b>${pc(w)}</b></div>`}).join("")}</div></section>`;
       const L=[-3,-1,1,3].map(d=>Math.floor(R.muT+d)+.5), pO=x=>1-ncdf((x-R.muT)/R.SDT);
       h+=`<section><h2>Suma gemów${R.hasTot?"":" (szacunek)"}</h2><div class="tiles" style="grid-template-columns:repeat(4,1fr)">${L.map(x=>tile("Ponad "+num(x),pc(pO(x)))).join("")}</div>${R.hasTot?"":`<p class="method" style="margin:6px 2px 0">Brak linii gemów w kursach — szacuję z oczekiwanej liczby setów (ok. 9,8 gema na set).</p>`}</section>`;
-    } else if(k==="ns") h+=`<div class="card empty">Brak kursów bukmacherów na zwycięzcę, więc nie policzę szans.<br>Pojawią się przy porannej aktualizacji.</div>`;
+    } else if(k==="ns") h+=`<div class="card empty">Brak kursów bukmacherów na zwycięzcę, więc nie policzę szans.<br>${OKEY?"Pojawią się, gdy bukmacherzy je wystawią.":"Dodaj darmowy klucz The Odds API w „Value i stawki” albo poczekaj na poranną aktualizację."}</div>`;
     if(t) h+=`<section><h2>${k==="ns"?"Analiza typu":"Analiza typu (sprzed meczu)"}</h2>${tipCard(t,M)}</section>`;
     if(o){const f=v=>v!=null?Number(v).toFixed(2).replace(".",","):"—", sg=v=>(v>0?"+":"")+String(v).replace(".",","), rows=[];
-      if(o.ml1!=null||o.ml2!=null) rows.push(["Zwycięzca – "+M.home.name,f(o.ml1)],["Zwycięzca – "+M.away.name,f(o.ml2)]);
+      if(o.ml1!=null||o.ml2!=null) rows.push([(o.api?"Średni kurs – ":"Zwycięzca – ")+M.home.name,f(o.ml1)],[(o.api?"Średni kurs – ":"Zwycięzca – ")+M.away.name,f(o.ml2)]);
+      if(o.best&&o.best.ml1) rows.push([`Najlepszy – ${M.home.name}${o.best.b1?" ("+o.best.b1+")":""}`,f(o.best.ml1)],[`Najlepszy – ${M.away.name}${o.best.b2?" ("+o.best.b2+")":""}`,f(o.best.ml2)]);
+      if(o.pin&&o.pin.ml1) rows.push([`Pinnacle – ${M.home.name}`,f(o.pin.ml1)],[`Pinnacle – ${M.away.name}`,f(o.pin.ml2)]);
       if(typeof o.hcp==="number") rows.push([`Handicap gemów ${M.home.short} ${sg(o.hcp)}`,f(o.hc1)],[`Handicap gemów ${M.away.short} ${sg(-o.hcp)}`,f(o.hc2)]);
       if(typeof o.tot==="number") rows.push([`Ponad ${String(o.tot).replace(".",",")} gema`,f(o.over)],[`Poniżej ${String(o.tot).replace(".",",")} gema`,f(o.under)]);
       if(rows.length) h+=`<section><h2>Kursy</h2>${kv(rows.map(([a,b])=>[esc(a),`<span class="num">${b}</span>`]))}${o.src?`<p class="resp" style="text-align:left">${esc(o.src)}</p>`:""}</section>`;}
@@ -1584,8 +1587,9 @@ function renderValue(){
     <label>Bankroll (zł)<input type="number" inputmode="numeric" min="0" step="50" data-cfg="bank" value="${CFG.bank}"></label>
     <label>Ułamek Kelly'ego<select data-cfg="kf">${opt("kf",[[0.125,"1/8 — bardzo ostrożnie"],[0.25,"1/4 — zalecane"],[0.5,"1/2 — agresywnie"]])}</select></label>
     <label>Minimalne EV<select data-cfg="minEv">${opt("minEv",[[0,"0%"],[0.02,"2%"],[0.03,"3%"],[0.05,"5%"]])}</select></label>
+    <label>Klucz The Odds API (kursy tenisowe)<input type="text" id="okey" autocomplete="off" spellcheck="false" placeholder="wklej klucz" value="${esc(OKEY)}" style="width:170px"></label>
     <label>Zaufanie do typera<select data-cfg="trust">${opt("trust",[[0,"0% — tylko rynek"],[0.2,"20%"],[0.35,"35% — zalecane"],[0.5,"50%"]])}</select></label>
-  </div><div class="hint" style="text-align:left;padding:8px 2px 0">Ustawienia zapisują się w tej przeglądarce i działają w całej aplikacji (karty typów, „Dziś”, tabele kursów).</div></section>`;
+  </div><div class="hint" style="text-align:left;padding:8px 2px 0">${OKEY?`Kursy tenisowe: ${OSTAT.err?`<b style="color:var(--red)">${esc(OSTAT.err)}</b>`:OSTAT.left!=null?`pozostało ${OSTAT.left} kredytów w tym miesiącu`:"klucz zapisany"} · <button class="retry" data-oddsnow style="padding:3px 10px;font-size:12px">Odśwież kursy</button>`:`Kursy i automatyczne typy dla tenisa: załóż darmowe konto na <a href="https://the-odds-api.com" target="_blank" rel="noopener">the-odds-api.com</a> (500 kredytów miesięcznie, bez karty) i wklej klucz powyżej. Kursy odświeżam co 3 godziny, żeby limit wystarczył na cały miesiąc.`}</div><div class="hint" style="text-align:left;padding:8px 2px 0">Ustawienia zapisują się w tej przeglądarce i działają w całej aplikacji (karty typów, „Dziś”, tabele kursów).</div></section>`;
   const pos=L.filter(x=>x.v.verdict==="value").length;
   h+=`<section class="panel"><div class="day"><h2>Nadchodzące typy wg EV</h2><small>${loading?"wczytuję…":`${pos} z ${L.length} z value`}</small></div><div class="card">${L.length?L.map(x=>{const V=VERD[x.v.verdict];
     return `<button class="rank" data-tip="${esc(x.m.id)}" data-lg="${x.c}"><span class="medal" style="background:${V[1]};color:#fff">${V[0]}</span><span><b>${esc(x.t.market)}</b><small>${esc(x.m.home.name)} – ${esc(x.m.away.name)} · ${esc(leagueName(x.c))} · ${dayShort(x.f.date)} ${x.f.time}<br>rynek ${pc(x.v.pm)} · do wyceny ${pc(x.v.pa)} · kurs min. ${x.v.need>1&&x.v.need<50?n2(x.v.need):"—"}</small></span><span class="ev">${x.t.odds.toFixed(2)}<small><b style="color:${V[1]}">${evTxt(x.v.ev)}</b> · ${x.v.stake>0?x.v.stake+" zł":"0 zł"}</small></span></button>`}).join("")
@@ -1709,6 +1713,8 @@ $("#view").addEventListener("click",e=>{
 });
 $("#view").addEventListener("change",e=>{if(e.target.id==="psel"){state.player=e.target.value;render();return}
   const c=e.target.closest("[data-cfg]"); if(c){const v=parseFloat(String(c.value).replace(",","."));if(isFinite(v)&&v>=0){CFG[c.dataset.cfg]=v;saveCfg();}render();}});
+$("#view").addEventListener("change",e=>{ if(e.target.id!=="okey") return; OKEY=e.target.value.trim(); try{localStorage.setItem("meczownik-oddskey",OKEY)}catch(_){} OSTAT.err=null; if(OKEY) loadLeague("TEN").then(()=>tennisOdds(true).then(()=>{ if(state.league===VALUE_ID) render(); })); render(); });
+$("#view").addEventListener("click",e=>{ if(e.target.closest("[data-goval]")){ activate(VALUE_ID); return; } if(e.target.closest("[data-oddsnow]")) tennisOdds(true).then(()=>render()); });
 $("#view").addEventListener("input",e=>{const i=e.target.closest("[data-myodds]"); if(!i||!M) return; const v=parseFloat(String(i.value).replace(",","."));
   if(v>1) MYODDS[i.dataset.myodds]=v; else delete MYODDS[i.dataset.myodds];
   const box=document.getElementById("vbox-"+i.dataset.myodds), t=tipOf(M); if(box&&t) box.innerHTML=valueBody(t,M);});
@@ -1743,6 +1749,83 @@ async function tennisFromESPN(){
   if(!any) return null;
   return {sport:"tennis",updated:new Date().toISOString(),season:String(new Date().getFullYear()),competition:"Tenis",espn:true,
     note:"Terminarz i wyniki na żywo z ESPN. Kursy, szanse i typy pojawią się po porannej aktualizacji.",teams,picks:[],days};
+}
+/* ---------- Kursy tenisowe z The Odds API (darmowy klucz użytkownika) + automatyczne typy value ---------- */
+const OAPI="https://api.the-odds-api.com/v4/";
+let OKEY=""; try{ OKEY=localStorage.getItem("meczownik-oddskey")||""; }catch(e){}
+const OSTAT={left:null,err:null,busy:false,at:0};
+try{ const s=JSON.parse(localStorage.getItem("meczownik-odds-stat")||"null"); if(s&&s.left!=null) OSTAT.left=s.left; }catch(e){}
+const OTTL=3*3600e3; // kursy z pamięci podręcznej przez 3 godz. — oszczędza darmowy limit (500 kredytów/mies.)
+async function oget(path){
+  const r=await fetch(OAPI+path+(path.includes("?")?"&":"?")+"apiKey="+encodeURIComponent(OKEY),{cache:"no-store"});
+  const left=r.headers.get("x-requests-remaining"); if(left!=null){ OSTAT.left=+left; try{localStorage.setItem("meczownik-odds-stat",JSON.stringify({left:OSTAT.left}))}catch(e){} }
+  if(r.status===401) throw new Error("Nieprawidłowy klucz API");
+  if(r.status===429) throw new Error("Wyczerpany limit kredytów");
+  if(!r.ok) throw new Error("Błąd "+r.status);
+  return r.json();
+}
+async function tennisOdds(force){
+  const d=LD.TEN; if(!OKEY||!d||d==="loading"||OSTAT.busy) return; OSTAT.busy=true; OSTAT.err=null;
+  try{
+    const list=Object.values(d.days||{}).flat().filter(x=>x.status==="ns"||x.status==="live");
+    if(!list.length) return;
+    let sports=null; try{ const c=JSON.parse(localStorage.getItem("meczownik-odds-sports")||"null"); if(c&&Date.now()-c.t<12*3600e3) sports=c.d; }catch(e){}
+    if(!sports){ sports=(await oget("sports")).filter(s=>/^tennis_/.test(s.key)&&s.active).map(s=>s.key); try{localStorage.setItem("meczownik-odds-sports",JSON.stringify({t:Date.now(),d:sports}))}catch(e){} }
+    // tylko turnieje, których mecze są w danych (dopasowanie po słowach z nazwy turnieju)
+    const comps=[...new Set(list.map(x=>fold(x.comp||"")))];
+    const want=sports.filter(k=>{const w=k.replace(/^tennis_(atp|wta)_/,"").split("_").filter(t=>t.length>=4&&!["open","masters","championships","champ","finals"].includes(t));
+      const tour=/_wta_/.test(k)?"wta":"atp"; return comps.some(c=>c.includes(tour)&&(w.length?w.some(t=>c.includes(t.slice(0,5))):/final/.test(c)));});
+    const keys=want.length?want:sports.slice(0,4);
+    const evs=[];
+    for(const k of keys){
+      let c=null; try{ c=JSON.parse(localStorage.getItem("meczownik-odds-"+k)||"null"); }catch(e){}
+      if(!c||force||Date.now()-c.t>OTTL){ const data=await oget(`sports/${k}/odds?regions=eu&markets=h2h&oddsFormat=decimal`); c={t:Date.now(),d:data}; try{localStorage.setItem("meczownik-odds-"+k,JSON.stringify(c))}catch(e){} }
+      for(const e of c.d||[]) evs.push({...e,_t:c.t});
+    }
+    let ch=false;
+    for(const x of list){
+      const hn=(d.teams[x.home]||{}).name||x.home, an=(d.teams[x.away]||{}).name||x.away, t=warsawToUTC(x.date,x.time).getTime();
+      let best=null;
+      for(const e of evs){ if(Math.abs(new Date(e.commence_time).getTime()-t)>20*3600e3) continue;
+        const s=lsim(hn,[e.home_team])+lsim(an,[e.away_team]), r=lsim(hn,[e.away_team])+lsim(an,[e.home_team]);
+        const k=s>=r?{e,sc:s,swap:false}:{e,sc:r,swap:true}; if(k.sc>=1.2&&(!best||k.sc>best.sc)) best=k; }
+      if(!best) continue;
+      const o=oddsFromBooks(best.e,best.swap?[best.e.away_team,best.e.home_team]:[best.e.home_team,best.e.away_team]);
+      if(!o) continue;
+      if(!x.odds||x.odds.api){ x.odds=o; ch=true; }
+      if(!x.tip||x.tip.auto){ const tp=autoTennisTip(x,o,hn,an); if(JSON.stringify(tp)!==JSON.stringify(x.tip)){ x.tip=tp; ch=true; } }
+    }
+    if(ch){ try{recordTips("TEN",d)}catch(e){} liveRefresh(); }
+  }catch(e){ OSTAT.err=e.message||String(e); }
+  finally{ OSTAT.busy=false; OSTAT.at=Date.now(); }
+}
+function oddsFromBooks(e,[n1,n2]){
+  const P=[[],[]]; let pin=null;
+  for(const b of e.bookmakers||[]){ const m=(b.markets||[]).find(m=>m.key==="h2h"); if(!m) continue;
+    const p1=(m.outcomes.find(o=>o.name===n1)||{}).price, p2=(m.outcomes.find(o=>o.name===n2)||{}).price; if(!(p1>1&&p2>1)) continue;
+    P[0].push([p1,b.title]); P[1].push([p2,b.title]); if(b.key==="pinnacle") pin={ml1:p1,ml2:p2}; }
+  if(P[0].length<2) return null;
+  const med=a=>{const s=a.map(x=>x[0]).sort((x,y)=>x-y);return s[Math.floor(s.length/2)]}, avg=a=>+(a.reduce((s,x)=>s+x[0],0)/a.length).toFixed(2);
+  const bestOf=(a,m)=>a.filter(x=>x[0]<=m*1.15).sort((x,y)=>y[0]-x[0])[0]; // odrzucam ceny >15% od mediany (zwykle błąd lub nieaktualne)
+  const b1=bestOf(P[0],med(P[0])), b2=bestOf(P[1],med(P[1]));
+  const o={api:true,src:`The Odds API — średnia z ${P[0].length} bukmacherów${pin?", w tym Pinnacle":""}, stan na ${new Date().toLocaleString("pl-PL",{day:"2-digit",month:"2-digit",hour:"2-digit",minute:"2-digit",timeZone:"Europe/Warsaw"})}`,
+    ml1:avg(P[0]),ml2:avg(P[1]),best:{ml1:b1[0],ml2:b2[0],b1:b1[1],b2:b2[1]},n:P[0].length};
+  if(pin) o.pin=pin;
+  return o;
+}
+function autoTennisTip(x,o,hn,an){
+  const ref=o.pin||{ml1:o.ml1,ml2:o.ml2}, fair=devig([ref.ml1,ref.ml2]); if(!fair) return null;
+  const need=o.pin?0.03:0.05, C=[[0,hn,o.best.ml1,o.best.b1],[1,an,o.best.ml2,o.best.b2]].map(([i,n,pr,bk])=>({i,n,pr,bk,p:fair[i],ev:fair[i]*pr-1})).filter(c=>c.pr>=1.2&&c.pr<=5).sort((a,b)=>b.ev-a.ev);
+  const c=C[0];
+  if(!c||c.ev<need) return {decision:"NO BET",auto:true,reasons:[`Automatyczna wycena: najlepszy kurs na żadnego z zawodników nie przebija ceny uczciwej${o.pin?" (Pinnacle bez marży)":" (średnia bez marży)"} o co najmniej ${Math.round(need*100)}%.`]};
+  const ev=c.p*c.pr-1, rating=ev>=0.1?8:ev>=0.06?7:6;
+  return {decision:"BET",auto:true,market:"Wygrana "+c.n,odds:c.pr,book:c.bk,pm:c.p,prob:c.p,ev:+(c.p*c.pr*0.88-1).toFixed(3),evNoTax:+ev.toFixed(3),rating,risk:c.p>0.6?"niskie":c.p>0.42?"średnie":"wysokie",
+    reasons:[`Cena uczciwa ${o.pin?"wg Pinnacle (najostrzejszy bukmacher)":"ze średniej "+o.n+" bukmacherów"} po zdjęciu marży: ${pc(c.p)} → kurs uczciwy ${(1/c.p).toFixed(2)}.`,
+      `Najlepszy kurs: ${c.pr.toFixed(2)} (${c.bk}) — o ${Math.round(ev*100)}% powyżej ceny uczciwej.`,
+      `To typ z porównania kursów (line shopping), nie z oceny formy — przewaga istnieje tylko przy kursie co najmniej ${(1.02/c.p).toFixed(2)}.`,
+      `Z podatkiem 12% EV wynosi ${evTxt(c.p*c.pr*0.88-1)} — opłacalne głównie u bukmachera, który pokrywa podatek.`],
+    risks:["Najlepszy kurs bywa dostępny krótko albo tylko u zagranicznego bukmachera — sprawdź kurs u swojego legalnego bukmachera i wpisz go w polu „Twój kurs”.","Krecz: zasady rozliczenia różnią się między bukmacherami."],
+    value:`Kurs ${c.pr.toFixed(2)} wobec uczciwego ${(1/c.p).toFixed(2)}.`};
 }
 /* ---------- Wyniki na żywo (ESPN, pobierane przez przeglądarkę co minutę) ---------- */
 const ESPN="https://site.api.espn.com/apis/site/v2/sports/";
@@ -1838,6 +1921,7 @@ function liveRefresh(){
   $("#main").scrollTop=sc;
 }
 setInterval(()=>liveTick(),60000);
+setInterval(()=>{ if(!document.hidden) tennisOdds(); },15*60000);
 setTimeout(()=>liveTick(true),2500);
 document.addEventListener("visibilitychange",()=>{ if(!document.hidden&&Date.now()-LIVE.at>30000) liveTick(); });
 
