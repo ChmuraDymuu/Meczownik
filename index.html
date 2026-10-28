@@ -273,6 +273,7 @@ select{width:100%;font:500 15px var(--f-body);padding:10px 12px;border-radius:8p
 .cfg label:last-child{border-bottom:0}
 .cfg select{width:auto}
 .math{margin:0;padding-left:20px;display:flex;flex-direction:column;gap:10px;font-size:14px;line-height:1.5}
+.more{display:block;width:100%;padding:12px;border:0;border-top:1px solid var(--line);background:none;color:var(--accent);font:600 14px var(--f-body);cursor:pointer}
 .pick h3{font:700 12px var(--f-body);text-transform:uppercase;letter-spacing:.06em;color:var(--muted);margin:2px 0 0}
 .rate{display:flex;gap:3px}.rate i{flex:1;height:6px;border-radius:3px;background:var(--line)}.rate i.on{background:var(--accent)}
 .rank{display:grid;grid-template-columns:auto 1fr auto;gap:10px;align-items:center;padding:12px;border:0;border-top:1px solid var(--line);background:none;width:100%;color:inherit;font:inherit;text-align:left;cursor:pointer}
@@ -1505,7 +1506,9 @@ function renderToday(){
     const fx=allFx(), today=fx.filter(f=>f.date===D).sort((a,b)=>a.time.localeCompare(b.time));
     if(FAV.length) fx.filter(f=>f.date>=from&&f.date<=to).forEach(f=>{const m=getMatch(f);if(isFav(m.home.name)||isFav(m.away.name))favRows.push({k:f.date+f.time,html:matchRow(f,c),d:f.date})});
     for(const f of today){ if(f.pst) continue; if(f.kind==="ns") nsToday++; const m=getMatch(f), t=tipOf(m); if(t&&t.decision==="BET") tips.push({c,f,m,t,ns:f.kind==="ns"}); }
-    if(today.length){const live=today.filter(f=>f.kind==="live").length;groups.push({c,live,html:today.map(f=>matchRow(f,c)).join("")});}
+    if(today.length){const live=today.filter(f=>f.kind==="live").length;
+      const rows=today.map(f=>{const m=getMatch(f),t=tipOf(m);return {f,comp:f.raw&&f.raw.comp||"",tip:!!(t&&t.decision==="BET"),html:matchRow(f,c)}});
+      groups.push({c,live,rows});}
   }
   DATA=null; TEAMS={}; FIXTURES={}; for(const k in CACHE) delete CACHE[k];
   let html="";
@@ -1526,7 +1529,20 @@ function renderToday(){
     html+=`<section class="panel"><div class="day"><h2>★ Twoje drużyny</h2><small>wczoraj – 7 dni</small></div><div class="card">${favRows.length?favRows.slice(0,12).map(r=>r.html).join(""):'<div class="hint">Twoje drużyny nie grają w najbliższych dniach.</div>'}</div></section>`;
   }
   groups.sort((a,b)=>(b.live>0)-(a.live>0)||DATA_LEAGUES.indexOf(a.c)-DATA_LEAGUES.indexOf(b.c));
-  for(const g of groups) html+=`<section class="panel"><div class="day"><h2>${esc(leagueName(g.c))}</h2>${g.live?`<small style="color:var(--accent)">na żywo: ${g.live}</small>`:""}</div><div class="card">${g.html}</div></section>`;
+  // filtry i zwijanie — przy wielu meczach (zwłaszcza tenis) lista była nieczytelna
+  const SPF=[["all","Wszystkie"],["live","Na żywo"],["tip","Z typem"],["fb","Piłka"],["bb","Koszykówka"],["te","Tenis"]], tf=state.tfilter||"all";
+  const spOfLg=c=>(SPORTS.find(sp=>sp.leagues.includes(c))||{}).id;
+  const cnt=k=>groups.reduce((n,g)=>n+(k==="all"?g.rows.length:k==="live"?g.rows.filter(r=>r.f.kind==="live").length:k==="tip"?g.rows.filter(r=>r.tip).length:spOfLg(g.c)===k?g.rows.length:0),0);
+  if(groups.length) html+=`<div class="filters" role="group" aria-label="Filtr meczów" style="margin-top:14px">${SPF.filter(([k])=>k==="all"||cnt(k)).map(([k,l])=>`<button data-tfilter="${k}" aria-pressed="${tf===k}">${l}<span class="cnt">${cnt(k)}</span></button>`).join("")}</div>`;
+  const EXP=state.texp||(state.texp={}), LIM=6;
+  for(const g of groups){
+    let rows=g.rows.filter(r=>tf==="all"||(tf==="live"?r.f.kind==="live":tf==="tip"?r.tip:spOfLg(g.c)===tf));
+    if(!rows.length) continue;
+    rows=rows.slice().sort((a,b)=>(b.f.kind==="live")-(a.f.kind==="live")||a.comp.localeCompare(b.comp,"pl")||a.f.time.localeCompare(b.f.time));
+    const open=EXP[g.c]||rows.length<=LIM+2, shown=open?rows:rows.slice(0,LIM);
+    const body=shown.map((r,i,arr)=>(r.comp&&(i===0||arr[i-1].comp!==r.comp)?`<div class="period">${esc(r.comp)}</div>`:"")+r.html).join("");
+    html+=`<section class="panel"><div class="day"><h2>${esc(leagueName(g.c))}</h2><small>${g.live?`<span style="color:var(--accent)">na żywo: ${g.live}</span> · `:""}${rows.length} ${rows.length===1?"mecz":rows.length%10>=2&&rows.length%10<=4&&(rows.length%100<10||rows.length%100>=20)?"mecze":"meczów"}</small></div><div class="card">${body}${rows.length>LIM+2?`<button class="more" data-texp="${g.c}">${open?"Zwiń":`Pokaż wszystkie (${rows.length})`}</button>`:""}</div></section>`;
+  }
   if(!groups.length) html+=`<div class="card empty">${loading?"Wczytuję mecze ze wszystkich lig…":(TM?"Jutro":"Dziś")+" nie ma meczów w żadnej lidze."}</div>`;
   else if(loading) html+=`<div class="hint">Wczytuję pozostałe ligi…</div>`;
   if(!FAV.length) html+=`<div class="hint">Wskazówka: dotknij ☆ przy nazwie drużyny w widoku meczu, aby dodać ją do ulubionych — jej mecze pojawią się tu na górze.</div>`;
@@ -1726,7 +1742,7 @@ $("#view").addEventListener("click",e=>{
 $("#view").addEventListener("change",e=>{if(e.target.id==="psel"){state.player=e.target.value;render();return}
   const c=e.target.closest("[data-cfg]"); if(c){const v=parseFloat(String(c.value).replace(",","."));if(isFinite(v)&&v>=0){CFG[c.dataset.cfg]=v;saveCfg();}render();}});
 $("#view").addEventListener("change",e=>{ if(e.target.id!=="okey") return; OKEY=e.target.value.trim(); try{localStorage.setItem("meczownik-oddskey",OKEY)}catch(_){} OSTAT.err=null; if(OKEY) Promise.all(DATA_LEAGUES.map(c=>loadLeague(c).then(()=>leagueOdds(c)))).then(()=>{ if(state.league===VALUE_ID) render(); }); render(); });
-$("#view").addEventListener("click",e=>{ if(e.target.closest("[data-goval]")){ activate(VALUE_ID); return; } if(e.target.closest("[data-oddsnow]")){ e.target.closest("[data-oddsnow]").textContent="Pobieram…"; Promise.all(DATA_LEAGUES.map(c=>leagueOdds(c,true))).then(()=>render()); } });
+$("#view").addEventListener("click",e=>{ const tfb=e.target.closest("[data-tfilter]"); if(tfb){ state.tfilter=tfb.dataset.tfilter; render(); return; } const tx=e.target.closest("[data-texp]"); if(tx){ const k=tx.dataset.texp; state.texp={...(state.texp||{}),[k]:!(state.texp||{})[k]}; render(); return; } if(e.target.closest("[data-goval]")){ activate(VALUE_ID); return; } if(e.target.closest("[data-oddsnow]")){ e.target.closest("[data-oddsnow]").textContent="Pobieram…"; Promise.all(DATA_LEAGUES.map(c=>leagueOdds(c,true))).then(()=>render()); } });
 $("#view").addEventListener("input",e=>{const i=e.target.closest("[data-myodds]"); if(!i||!M) return; const v=parseFloat(String(i.value).replace(",","."));
   if(v>1) MYODDS[i.dataset.myodds]=v; else delete MYODDS[i.dataset.myodds];
   const box=document.getElementById("vbox-"+i.dataset.myodds), t=tipOf(M); if(box&&t) box.innerHTML=valueBody(t,M);});
@@ -1737,7 +1753,7 @@ async function tennisFromESPN(){
   const day=d=>new Date(d).toLocaleDateString("sv-SE",{timeZone:"Europe/Warsaw"}), hm=d=>new Date(d).toLocaleTimeString("pl-PL",{timeZone:"Europe/Warsaw",hour:"2-digit",minute:"2-digit"});
   const plus=n=>{const d=new Date(TODAY+"T12:00:00");d.setDate(d.getDate()+n);return d.toLocaleDateString("sv-SE")}, from=plus(-1), to=plus(2);
   const teams={}, days={}, seen=new Set(), COLS=["#1f4e79","#8b1c1c","#2f6b3a","#6b3fa0","#a35b12","#0a5c6b","#7a2848","#3d4f7a"];
-  const pid=a=>{const n=(a&&(a.displayName||a.fullName))||"?", k=fold(n).replace(/[^a-z]/g,"").toUpperCase()||"X";
+  const pid=a=>{const n=(a&&(a.displayName||a.fullName))||"?", k=fold(n).replace(/[^a-z0-9]/g,"").toUpperCase()||"X";
     if(!teams[k]){const sur=n.split(" ").pop(); teams[k]={id:k,short:fold(sur).replace(/[^a-z]/g,"").slice(0,3).toUpperCase()||"???",name:n,city:(a&&a.flag&&a.flag.alt)||"",col:COLS[[...k].reduce((s,c)=>s+c.charCodeAt(0),0)%COLS.length]};} return k;};
   let any=false;
   for(const tour of ["atp","wta"]){
