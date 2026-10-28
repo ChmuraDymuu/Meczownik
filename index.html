@@ -1351,7 +1351,7 @@ const VT={
       h+=`<section><h2>Wynik w setach${act?" · faktycznie "+act:""}</h2><div class="card">${R.sets.map(([x,y,w])=>{const hit=act===x+":"+y;return `<div class="dist${hit?" hit":""}"><span>${x>y?H:A} ${x}:${y}${hit?" ✓":""}</span><div class="dbar"><i style="width:${Math.min(100,Math.round(w*100/0.6*100)/100)}%;background:${x>y?M.home.col:M.away.col}"></i></div><b>${pc(w)}</b></div>`}).join("")}</div></section>`;
       const L=[-3,-1,1,3].map(d=>Math.floor(R.muT+d)+.5), pO=x=>1-ncdf((x-R.muT)/R.SDT);
       h+=`<section><h2>Suma gemów${R.hasTot?"":" (szacunek)"}</h2><div class="tiles" style="grid-template-columns:repeat(4,1fr)">${L.map(x=>tile("Ponad "+num(x),pc(pO(x)))).join("")}</div>${R.hasTot?"":`<p class="method" style="margin:6px 2px 0">Brak linii gemów w kursach — szacuję z oczekiwanej liczby setów (ok. 9,8 gema na set).</p>`}</section>`;
-    } else if(k==="ns") h+=`<div class="card empty">Brak kursów bukmacherów na zwycięzcę, więc nie policzę szans.<br>${OKEY?"Pojawią się, gdy bukmacherzy je wystawią.":"Dodaj darmowy klucz The Odds API w „Value i stawki” albo poczekaj na poranną aktualizację."}</div>`;
+    } else h+=`<div class="card empty">${k==="ns"||k==="live"?`Brak kursów na ten mecz, więc nie policzę szans ani typu.<br>${!OKEY?"Dodaj klucz The Odds API w „Value i stawki” albo poczekaj na poranną aktualizację.":OSTAT.busy.TEN?"Pobieram kursy…":"Serwis kursów obejmuje głównie Wielkie Szlemy, Finals oraz turnieje rangi 1000 i 500 — mniejsze turnieje (250, Challengery, kwalifikacje) zwykle nie mają kursów. Mogły też jeszcze nie zostać wystawione."}`:"Mecz zakończony — szanse liczę z kursów sprzed meczu, a tych nie było w danych."}</div>`;
     if(t) h+=`<section><h2>${k==="ns"?"Analiza typu":"Analiza typu (sprzed meczu)"}</h2>${tipCard(t,M)}</section>`;
     if(o){const f=v=>v!=null?Number(v).toFixed(2).replace(".",","):"—", sg=v=>(v>0?"+":"")+String(v).replace(".",","), rows=[];
       if(o.ml1!=null||o.ml2!=null) rows.push([(o.api?"Średni kurs – ":"Zwycięzca – ")+M.home.name,f(o.ml1)],[(o.api?"Średni kurs – ":"Zwycięzca – ")+M.away.name,f(o.ml2)]);
@@ -1741,7 +1741,7 @@ async function tennisFromESPN(){
     for(const ev of j.events||[]) for(const g of ev.groupings||[]){
       if(!/singles/i.test((g.grouping&&(g.grouping.slug||g.grouping.displayName))||"")) continue;
       for(const c of g.competitions||[]){
-        if(!c.date||seen.has(c.id)) continue; const d=day(c.date); if(d<from||d>to) continue; seen.add(c.id);
+        if(!c.date||seen.has(c.id)||/qualif/i.test((c.round&&c.round.displayName)||"")) continue; /* bez kwalifikacji — brak kursów */ const d=day(c.date); if(d<from||d>to) continue; seen.add(c.id);
         const C=c.competitors||[]; if(C.length!==2) continue;
         const H=C.find(x=>x.homeAway==="home")||C.find(x=>x.order===1)||C[0], A=C.find(x=>x!==H);
         if(!(H.athlete&&A.athlete)) continue;
