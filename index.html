@@ -594,8 +594,17 @@ function normalizeBB(x){
     arena:x.arena||null,attendance:x.attendance??null,quarters:x.quarters||null,officials:x.officials||[],teamStats:x.teamStats||[],
     players:{home:(x.players&&x.players.home)||[],away:(x.players&&x.players.away)||[]},events:[],notes:x.notes||"",odds:x.odds||null,tip:x.tip||null,info:x.info||null,coach:x.coach||null};
 }
+function normalizeTEN(x){
+  const ret=x.status==="ret"||x.status==="wo";
+  const st=x.status==="live"?{code:x.set?("SET "+x.set):"LIVE",label:"W trakcie",min:x.set?(x.set+". set"):"LIVE",kind:"live"}:(x.status==="ft"||ret)?{...STATUS.ft,code:x.status==="wo"?"W.O.":ret?"KRECZ":"FT",min:"Koniec"}:(STATUS[x.status]||STATUS.ns);
+  const tm=c=>TEAMS[c]||{id:c,short:String(c).slice(0,3).toUpperCase(),name:c,city:"",col:"#556"};
+  return {real:true,ten:true,bb:false,id:x.id,round:x.round,date:x.date,time:x.time||"—",home:tm(x.home),away:tm(x.away),score:x.score||null,status:st,
+    comp:x.comp||null,stage:x.stage||null,surface:x.surface||null,bestOf:x.bestOf===5?5:3,sets:Array.isArray(x.sets)?x.sets:null,court:x.court||null,
+    officials:[],teamStats:x.stats||[],players:{home:[],away:[]},events:[],notes:x.notes||"",odds:x.odds||null,tip:x.tip||null,info:x.info||null};
+}
 function normalize(x){
   if(isBB()) return normalizeBB(x);
+  if(isTEN()) return normalizeTEN(x);
   const st=x.status==="live"?{code:(x.minute||0)>45?"2H":"1H",label:"W trakcie",min:(x.minute||"?")+"'",kind:"live"}:(STATUS[x.status]||STATUS.ns);
   const ev=(x.events||[]).filter(e=>e&&e.m!=null&&e.t).map(e=>({...e,p:e.m<=45?1:2})).sort((a,b)=>a.m-b.m||((+a.s||0)-(+b.s||0)));
   const tm=c=>TEAMS[c]||{id:c,short:c,name:c,city:"",col:"#556",stadium:"",capacity:null};
@@ -613,7 +622,7 @@ function loadReal(d){
   if(d&&d.days&&d.teams){
     DATA=d; TEAMS=d.teams; FIXTURES={};
     const days=Object.keys(d.days).sort();
-    days.forEach((day,i)=>{FIXTURES[i+1]=d.days[day].map(x=>({round:i+1,id:x.id,h:x.home,a:x.away,date:x.date||day,time:x.time||"—",kind:x.status==="live"?"live":x.status==="ft"?"ft":"ns",pst:x.status==="pst"||x.status==="canc",score:x.score||null,raw:{...x,date:x.date||day,round:i+1}}))});
+    days.forEach((day,i)=>{FIXTURES[i+1]=d.days[day].map(x=>({round:i+1,id:x.id,h:x.home,a:x.away,date:x.date||day,time:x.time||"—",kind:x.status==="live"?"live":x.status==="ft"||x.status==="ret"||x.status==="wo"?"ft":"ns",pst:x.status==="pst"||x.status==="canc",score:x.score||null,raw:{...x,date:x.date||day,round:i+1}}))});
     let k=days.indexOf(TODAY); if(k<0){k=days.findIndex(x=>x>TODAY); if(k<0)k=days.length-1;}
     state.round=k+1; state.filter="all"; return;
   }
@@ -627,17 +636,19 @@ function loadReal(d){
 
 /* ---------- Stan ---------- */
 let state={view:"home", league:"EKS", round:14, filter:"all", comp:"all", tab:"mecz", side:"h", player:null, mid:null};
-const LEAGUES=[["EKS","Ekstraklasa","Polska"],["PL","Premier League","Anglia"],["LL","LaLiga","Hiszpania"],["SA","Serie A","Włochy"],["BL","Bundesliga","Niemcy"],["L1","Ligue 1","Francja"],["UCL","Liga Mistrzów","Europa"],["NBA","NBA","USA"],["CUP","Puchary","Krajowe puchary"]];
+const LEAGUES=[["EKS","Ekstraklasa","Polska"],["PL","Premier League","Anglia"],["LL","LaLiga","Hiszpania"],["SA","Serie A","Włochy"],["BL","Bundesliga","Niemcy"],["L1","Ligue 1","Francja"],["UCL","Liga Mistrzów","Europa"],["NBA","NBA","USA"],["CUP","Puchary","Krajowe puchary"],["TEN","Tenis","ATP i WTA"]];
 const SPORTS=[
  {id:"fb",name:"Piłka nożna",leagues:["EKS","PL","LL","SA","BL","L1","UCL","CUP"],icon:'<circle cx="12" cy="12" r="9.5"/><path d="M12 7.2l4 2.9-1.5 4.7h-5L8 10.1z"/><path d="M12 7.2V2.6M16 10.1l4.3-1.6M14.5 14.8l2.8 3.8M9.5 14.8l-2.8 3.8M8 10.1L3.7 8.5"/>'},
- {id:"bb",name:"Koszykówka",leagues:["NBA"],icon:'<circle cx="12" cy="12" r="9.5"/><path d="M2.5 12h19M12 2.5v19"/><path d="M5.3 5.3a13 13 0 0 1 0 13.4M18.7 5.3a13 13 0 0 0 0 13.4"/>'}];
-const TODAY_ID="DZIS", BILANS_ID="BILANS", VALUE_ID="VALUE", PSEUDO=["DZIS","BILANS","VALUE"], DATA_LEAGUES=["EKS","PL","LL","SA","BL","L1","UCL","CUP","NBA"];
+ {id:"bb",name:"Koszykówka",leagues:["NBA"],icon:'<circle cx="12" cy="12" r="9.5"/><path d="M2.5 12h19M12 2.5v19"/><path d="M5.3 5.3a13 13 0 0 1 0 13.4M18.7 5.3a13 13 0 0 0 0 13.4"/>'},
+ {id:"te",name:"Tenis",leagues:["TEN"],icon:'<circle cx="12" cy="12" r="9.5"/><path d="M4.6 6.2a12 12 0 0 1 0 11.6M19.4 6.2a12 12 0 0 0 0 11.6"/>'}];
+const TODAY_ID="DZIS", BILANS_ID="BILANS", VALUE_ID="VALUE", PSEUDO=["DZIS","BILANS","VALUE"], DATA_LEAGUES=["EKS","PL","LL","SA","BL","L1","UCL","CUP","NBA","TEN"];
 const isBB=()=>!!(DATA&&DATA.sport==="basketball");
+const isTEN=()=>!!(DATA&&DATA.sport==="tennis");
 const isDays=()=>!!(DATA&&DATA.days);
 const COMPORD=["Puchar Polski","Puchar Ligi Angielskiej","Puchar Niemiec","Puchar Króla","Puchar Włoch","Puchar Francji","Puchar Ligi Portugalskiej"];
 const compRank=c=>{const i=COMPORD.findIndex(x=>(c||"").startsWith(x));return i<0?99:i};
 const leagueName=c=>c==="DZIS"?"Dziś":c==="BILANS"?"Skuteczność typów":(LEAGUES.find(l=>l[0]===c)||[c,c])[1];
-state.fold={fb:true,bb:true};
+state.fold={fb:true,bb:true,te:true};
 try{const s=JSON.parse(localStorage.getItem("meczownik2")||"{}");["filter","league","fold"].forEach(k=>{if(s[k]!=null)state[k]=s[k]});if(!PSEUDO.includes(state.league)&&!LEAGUES.some(l=>l[0]===state.league))state.league="EKS";if(typeof state.fold!=="object"||!state.fold)state.fold={fb:state.fold!==false,bb:true}}catch(e){}
 const save=()=>{try{localStorage.setItem("meczownik2",JSON.stringify({filter:state.filter,league:state.ret||state.league,fold:state.fold}))}catch(e){}};
 const SAMPLE={teams:TEAMS,fixtures:FIXTURES}, LD={};
@@ -672,8 +683,12 @@ applyTheme();
 let HIST={}; try{ HIST=JSON.parse(localStorage.getItem("meczownik-hist")||"{}")||{}; }catch(e){ HIST={}; }
 function settle(e){
   if(!e.score||e.score.length<2) return null;
-  const [a,b]=e.score.map(Number), tot=a+b, s=String(e.market||"").toLowerCase().replace(/,/g,".").replace(/[–—−]/g,"-");
-  if(e.key&&typeof mWon==="function"&&!e.bb){ const r=mWon([a,b],e.key); if(r!==undefined) return r===null?"V":r?"W":"L"; }
+  let [a,b]=e.score.map(Number), tot=a+b; const s=String(e.market||"").toLowerCase().replace(/,/g,".").replace(/[–—−]/g,"-");
+  if(e.ten){ // tenis: score = sety; rynki „gem…” liczone na gemach
+    if(/gem/.test(s)){ const G=e.games||(Array.isArray(e.sets)&&e.sets.length?e.sets.reduce((g,x)=>[g[0]+(+x[0]||0),g[1]+(+x[1]||0)],[0,0]):null); if(!G) return "?"; [a,b]=G; tot=a+b; }
+    if(/(dokładn|wynik\s*\d)/.test(s)) return "?";
+  }
+  if(e.key&&typeof mWon==="function"&&!e.bb&&!e.ten){ const r=mWon([a,b],e.key); if(r!==undefined) return r===null?"V":r?"W":"L"; }
   const nm=n=>n&&s.includes(String(n).toLowerCase()), sh=n=>n&&new RegExp("(^|[^a-z])"+String(n).toLowerCase().replace(/[.*+?^${}()|[\]\\]/g,"\\$&")+"([^a-z]|$)").test(s);
   const inH=nm(e.home)||sh(e.hs), inA=nm(e.away)||sh(e.as), side=inH&&!inA?"h":inA&&!inH?"a":null;
   if(/90 min/.test(s)&&e.et) return "?";
@@ -684,23 +699,25 @@ function settle(e){
   if(/handicap|spread/.test(s)&&(m=/([+-])\s*(\d+(?:\.\d+)?)/.exec(s))&&side){ const hc=(m[1]==="-"?-1:1)*+m[2], d=(side==="h"?a-b:b-a)+hc; return d>0?"W":d<0?"L":"V"; }
   if(/dnb|bez remisu/.test(s)&&side){ if(a===b) return "V"; return (side==="h")===(a>b)?"W":"L"; }
   if(/podwójn|(^|\W)(1x|x2|12)(\W|$)/.test(s)){ if(/(^|\W)1x(\W|$)/.test(s)) return a>=b?"W":"L"; if(/(^|\W)x2(\W|$)/.test(s)) return a<=b?"W":"L"; if(/(^|\W)12(\W|$)/.test(s)) return a!==b?"W":"L"; if(side) return (side==="h"?a>=b:b>=a)?"W":"L"; return "?"; }
+  if(e.ten&&side&&/co najmniej (jednego )?seta|wygra seta/.test(s)) return (side==="h"?a:b)>=1?"W":"L";
   if(/^\s*remis\b/.test(s)) return a===b?"W":"L";
   if(/wygra|zwyci|moneyline|\(1\)|\(2\)/.test(s)&&side) return (side==="h"?a>b:b>a)?"W":"L";
   return "?";
 }
 function recordTips(c,d){
   if(!d||typeof d!=="object") return;
-  const list=d.days?Object.values(d.days).flat():d.rounds?Object.values(d.rounds).flat():[], bb=d.sport==="basketball"; let ch=false;
+  const list=d.days?Object.values(d.days).flat():d.rounds?Object.values(d.rounds).flat():[], bb=d.sport==="basketball", ten=d.sport==="tennis"; let ch=false;
   for(const x of list){
     const t=x&&x.tip; if(!t||t.decision!=="BET"||!t.market) continue;
     const k=c+"|"+x.id, tm=id=>(d.teams&&d.teams[id])||{name:id,short:id}, h=tm(x.home), a=tm(x.away), old=HIST[k];
     if(old&&old.res&&old.res!=="?") continue;
     const e=old||{lg:c,id:x.id};
-    Object.assign(e,{date:x.date,time:x.time,home:h.name,away:a.name,hs:h.short||x.home,as:a.short||x.away,bb,comp:x.comp||null});
+    Object.assign(e,{date:x.date,time:x.time,home:h.name,away:a.name,hs:h.short||x.home,as:a.short||x.away,bb,ten,comp:x.comp||null});
+    const sp=ten?"ten"+(x.bestOf===5?5:3):bb;
     if(!old||x.status==="ns"||!e.market) Object.assign(e,{market:t.market,odds:t.odds,rating:t.rating,key:t.key||null});
-    if(x.status==="ns"&&x.odds&&typeof tipEval==="function"){ try{ const v=tipEval(t,refOdds(x.odds,bb),h,a,bb); if(v&&v.ref){ if(e.pm0==null){e.pm0=v.pm;e.pv0=v.pv;} e.pmC=v.pm; e.pvC=v.pv; } }catch(_){} }
+    if(x.status==="ns"&&x.odds&&typeof tipEval==="function"){ try{ const v=tipEval(t,refOdds(x.odds,sp),h,a,sp); if(v&&v.ref){ if(e.pm0==null){e.pm0=v.pm;e.pv0=v.pv;} e.pmC=v.pm; e.pvC=v.pv; } }catch(_){} }
     if(x.status==="canc"){ e.res="V"; }
-    else if(x.status==="ft"&&Array.isArray(x.score)){ e.score=x.score; e.et=/dogryw|karn|po d\./i.test(x.notes||""); e.res=settle(e); }
+    else if((x.status==="ft"||x.status==="ret"||x.status==="wo")&&Array.isArray(x.score)){ e.score=x.score; if(ten) e.sets=x.sets||null; e.et=/dogryw|karn|po d\./i.test(x.notes||""); e.res=x.status==="ft"?settle(e):"?"; }
     HIST[k]=e; ch=true;
   }
   if(ch) try{ localStorage.setItem("meczownik-hist",JSON.stringify(HIST)); }catch(e){}
@@ -817,7 +834,7 @@ ICONS.tabela='<path d="M5 6h14M5 12h14M5 18h14"/><circle cx="3" cy="6" r=".6"/><
 const TABS_BB=[["mecz","Mecz"],["box","Box score"],["tabela","Tabela"],["szanse","Szanse"]];
 let tabsFor=null;
 function buildTabs(bb){
-  if(tabsFor===bb) return; tabsFor=bb; const T=bb?TABS_BB:TABS;
+  if(tabsFor===bb) return; tabsFor=bb; const T=bb==="ten"?TABS_TEN:bb?TABS_BB:TABS;
   $("#tabs").style.gridTemplateColumns=`1.05fr repeat(${T.length},1fr)`;
   $("#tabs").innerHTML=`<button class="home" data-home="1" aria-label="Wróć do listy meczów"><svg viewBox="0 0 24 24"><path d="M4 11l8-7 8 7"/><path d="M6 10v10h12V10"/><path d="M10 20v-5h4v5"/></svg>Mecze</button>`+T.map(([k,l])=>`<button role="tab" data-t="${k}" aria-selected="false"><svg viewBox="0 0 24 24">${ICONS[k]}</svg>${l}</button>`).join("");
 }
@@ -1082,7 +1099,7 @@ function tipCard(t,m){
   if(!t) return "";
   if(t.decision!=="BET") return `<div class="card pick"><div class="top"><span class="mk" style="font-size:20px">NO BET</span><span class="dec no">NO BET</span></div><div style="font-size:14px">Brak wystarczającej przewagi.</div>${(t.reasons||[]).length?`<ul>${t.reasons.map(x=>`<li>${esc(x)}</li>`).join("")}</ul>`:""}</div>`;
   const imp=t.odds?1/t.odds:null, ev=t.ev!=null?t.ev:(t.prob&&t.odds?t.prob*t.odds-1:null);
-  const rs=m&&m.status&&m.status.kind==="ft"&&m.score?settle({score:m.score,market:t.market,key:t.key,home:m.home.name,away:m.away.name,hs:m.home.short,as:m.away.short,bb:!!m.bb,et:/dogryw|karn/i.test(m.notes||"")}):null;
+  const rs=m&&m.status&&m.status.kind==="ft"&&m.score?settle({score:m.score,market:t.market,key:t.key,home:m.home.name,away:m.away.name,hs:m.home.short,as:m.away.short,bb:!!m.bb,ten:!!m.ten,sets:m.sets,et:/dogryw|karn/i.test(m.notes||"")}):null;
   return `<div class="card pick">
     <div class="top"><span class="mk">${esc(t.market)}</span>${rs?`<span class="dec" style="background:${RES[rs][2]};color:#fff">${RES[rs][0]} ${RES[rs][1].toUpperCase()}</span>`:`<span class="dec bet">BET</span>`}</div>
     <div class="tiles">${tile("Kurs",t.odds?t.odds.toFixed(2).replace(".",","):"—")}${tile("Moje prawd.",t.prob!=null?pc(t.prob):"—")}${tile("Z kursu",imp?pc(imp):"—")}${tile("EV typera",ev!=null?evTxt(ev):"—")}${tile("Ocena",(t.rating||"—")+"/10")}${tile("Ryzyko",esc(t.risk||"—"))}</div>
@@ -1181,14 +1198,41 @@ function bbDist(odds){
     D={cells,noTot:T0==null};}
   ML_CACHE.set(ck,D); return D;
 }
+/* ---------- Tenis: model z kursów ---------- */
+// Z szansy na wygranie meczu (kursy bez marży) wyznaczam szansę na wygranie seta, rozkład wyników w setach,
+// a gemy — z linii handicapu i sumy gemów (rozkład normalny wokół linii rynku).
+function tenModel(o,bo){
+  if(!o) return null; bo=bo===5?5:3;
+  if(!(o.ml1>1&&o.ml2>1)) return null;
+  const p=devig([o.ml1,o.ml2])[0], P=bo===5?s=>s*s*s*(10-15*s+6*s*s):s=>s*s*(3-2*s);
+  let lo=0,hi=1,sp=.5; for(let i=0;i<60;i++){sp=(lo+hi)/2; if(P(sp)<p) lo=sp; else hi=sp;}
+  const q=1-sp, sets=bo===5?[[3,0,sp**3],[3,1,3*sp**3*q],[3,2,6*sp**3*q*q],[2,3,6*q**3*sp*sp],[1,3,3*q**3*sp],[0,3,q**3]]:[[2,0,sp*sp],[2,1,2*sp*sp*q],[1,2,2*q*q*sp],[0,2,q*q]];
+  const SDT=bo===5?6.5:4.2, SDD=bo===5?6.5:4.6, inv=x=>Math.SQRT2*erfinv(Math.max(-.999,Math.min(.999,2*x-1)));
+  const expSets=sets.reduce((a,[x,y,w])=>a+(x+y)*w,0), hasTot=typeof o.tot==="number", hasHcp=typeof o.hcp==="number";
+  let muT=hasTot?o.tot:expSets*9.8; if(hasTot&&o.over>1&&o.under>1){const z=devig([o.over,o.under]); muT=o.tot+SDT*inv(z[0]);}
+  let muD=SDD*inv(p); if(hasHcp){muD=-o.hcp; if(o.hc1>1&&o.hc2>1){const z=devig([o.hc1,o.hc2]); muD=-o.hcp+SDD*inv(z[0]);}}
+  return {p,sp,bo,sets,expSets,muT,muD,SDT,SDD,hasTot,hasHcp};
+}
+function tenDist(odds,bo,games){
+  const ck="ten"+bo+(games?"g":"s")+JSON.stringify(odds); if(ML_CACHE.has(ck)) return ML_CACHE.get(ck);
+  const R=tenModel(odds,bo); let D=null;
+  if(R&&!games) D={cells:R.sets.map(x=>x.slice()),R};
+  if(R&&games){const cells=[];let S=0;const T0=Math.round(R.muT),mn=bo===5?18:12;
+    for(let d=-26;d<=26;d++){const wd=ncdf((d+.5-R.muD)/R.SDD)-ncdf((d-.5-R.muD)/R.SDD);
+      for(let t=Math.max(mn,T0-24);t<=T0+24;t++){if((t+d)&1||Math.abs(d)>t)continue;const w=wd*(ncdf((t+.5-R.muT)/R.SDT)-ncdf((t-.5-R.muT)/R.SDT));cells.push([(t+d)/2,(t-d)/2,w]);S+=w;}}
+    cells.forEach(c=>c[2]/=S); D={cells,R,games:true};}
+  ML_CACHE.set(ck,D); return D;
+}
 // Prawdopodobieństwo wygranej (w) i zwrotu (v) typu wg rynku: rozliczam typ na każdym możliwym wyniku i sumuję wagi.
 const P_CACHE=new Map();
 function probOf(t,odds,H,A,bb){
   const ck=[t.market,t.key||"",JSON.stringify(odds||{}),H.name,A.name,bb?1:0].join("|"); if(P_CACHE.has(ck)) return P_CACHE.get(ck);
-  const D=odds?(bb?bbDist(odds):fbDist(odds)):null; let res=null;
-  if(D){let w=0,v=0,l=0,u=0;const e={market:t.market,key:t.key||null,home:H.name,away:A.name,hs:H.short,as:A.short,bb:!!bb,et:false};
-    for(const [a,b,p] of D.cells){e.score=[a,b];const r=settle(e);if(r==="W")w+=p;else if(r==="V")v+=p;else if(r==="L")l+=p;else u+=p;}
-    const s=w+v+l; if(u<0.02&&s>0&&!(bb&&D.noTot&&/(poniżej|powyżej|ponad|under|over)/i.test(t.market))) res={w:w/s,v:v/s};}
+  const ten=typeof bb==="string"&&bb.startsWith("ten"), gm=ten&&/gem/i.test(t.market||"");
+  const D=odds?(ten?tenDist(odds,+bb.slice(3)||3,gm):bb?bbDist(odds):fbDist(odds)):null; let res=null;
+  const lineless=ten&&D&&gm&&((/(poniżej|powyżej|ponad|under|over)/i.test(t.market)&&!D.R.hasTot)||(/handicap/i.test(t.market)&&!D.R.hasHcp));
+  if(D&&!lineless){let w=0,v=0,l=0,u=0;const e={market:t.market,key:t.key||null,home:H.name,away:A.name,hs:H.short,as:A.short,bb:!!bb&&!ten,ten,et:false};
+    for(const [a,b,p] of D.cells){if(D.games){e.games=[a,b];e.score=[1,0];}else e.score=[a,b];const r=settle(e);if(r==="W")w+=p;else if(r==="V")v+=p;else if(r==="L")l+=p;else u+=p;}
+    const s=w+v+l; if(u<0.02&&s>0&&!(bb&&!ten&&D.noTot&&/(poniżej|powyżej|ponad|under|over)/i.test(t.market))) res={w:w/s,v:v/s};}
   P_CACHE.set(ck,res); return res;
 }
 function tipEval(t,odds,H,A,bb,myOdds){
@@ -1204,7 +1248,8 @@ function tipEval(t,odds,H,A,bb,myOdds){
 }
 // Kursy odniesienia: Pinnacle (najostrzejszy rynek), gdy plik je podaje; inaczej średnie rynkowe.
 const refOdds=(o,bb)=>{if(!o) return o; const p=o.pin; if(p&&typeof p==="object"&&(bb?(p.ml1>1&&p.ml2>1)||typeof p.spread==="number":(p["1"]>1&&p["X"]>1&&p["2"]>1))) return {...p}; return o;};
-const evalOf=(t,m,my)=>tipEval(t,refOdds(m.odds||(m.real?null:oddsOf(m)),!!m.bb),m.home,m.away,!!m.bb,my);
+const spOf=m=>m.ten?"ten"+(m.bestOf||3):!!m.bb;
+const evalOf=(t,m,my)=>tipEval(t,refOdds(m.odds||(m.real?null:oddsOf(m)),spOf(m)),m.home,m.away,spOf(m),my);
 const VERD={value:["VALUE","#2f8a52"],edge:["NA STYK","var(--accent)"],neg:["−EV","var(--red)"]};
 const evSmall=v=>v?`<b style="color:${VERD[v.verdict][1]}">${evTxt(v.ev)}</b> po podatku`:"";
 const MYODDS={};
@@ -1225,7 +1270,7 @@ function valueBody(t,m){
     ${t.book&&!MYODDS[m.id]?`<small class="vnote">Kurs typu: ${n2(t.odds)} (${esc(t.book)}).</small>`:""}
     ${MYODDS[m.id]?`<small class="vnote">Liczę dla Twojego kursu ${n2(v.o)} (typ podano przy ${n2(t.odds)}).</small>`:""}
     ${warn.length?`<ul>${warn.map(w=>`<li>${esc(w)}</li>`).join("")}</ul>`:""}
-    <small class="vnote">Bez podatku EV wynosi ${evTxt(v.evNoTax)}. Rynek = kursy ${refOdds(m.odds,!!m.bb)!==m.odds?"Pinnacle":"średnie"} bez marży; „do wyceny” = rynek + ${Math.round(CFG.trust*100)}% różnicy zdania typera. Ustawienia: menu → Value i stawki.</small>`;
+    <small class="vnote">Bez podatku EV wynosi ${evTxt(v.evNoTax)}. Rynek = kursy ${refOdds(m.odds,spOf(m))!==m.odds?"Pinnacle":"średnie"} bez marży; „do wyceny” = rynek + ${Math.round(CFG.trust*100)}% różnicy zdania typera. Ustawienia: menu → Value i stawki.</small>`;
 }
 V.szanse=function(){
   const st0=lambdas(), mk0=marketLambdas(M), bl=(x,y)=>Math.exp(.85*Math.log(x)+.15*Math.log(y));
@@ -1267,6 +1312,61 @@ V.szanse=function(){
   return `<div class="panel" style="display:flex;flex-direction:column;gap:18px">${html}</div>`;
 };
 
+/* ---------- Tenis: widoki meczu ---------- */
+const TABS_TEN=[["mecz","Mecz"],["szanse","Szanse"]];
+const tenRank=p=>p&&p.rank?`${p.rank}. ${esc(p.tour||"")}`.trim():"—";
+const VT={
+  mecz(){
+    const ns=M.status.kind==="ns", S=M.sets||[];
+    let h=`<section class="panel"><h2>Status</h2><div class="tiles">${tile("Status",esc(M.status.code))}${tile(ns?"Początek":"Wynik w setach",ns?esc(M.time):(M.score?M.score.join(":"):"—"))}${tile("Format",M.bestOf===5?"do 3 setów":"do 2 setów")}</div></section>`;
+    if(S.length){
+      const row=(p,i)=>`<tr><td>${esc(p.name)}</td>${S.map(x=>{const g=+x[i],o=+x[1-i],tb=x[2]!=null&&Math.abs(g-o)===1&&Math.max(g,o)===7;return `<td>${g>o?`<b>${g}</b>`:g}${tb&&g<o?`<sup>${x[2]}</sup>`:""}</td>`}).join("")}<td><b>${M.score?M.score[i]:"—"}</b></td></tr>`;
+      h+=`<section><h2>Sety (gemy)</h2><div class="card tableScroll"><table class="odds"><thead><tr><th>Zawodnik</th>${S.map((_,i)=>`<th>${i+1}. set</th>`).join("")}<th>Sety</th></tr></thead><tbody>${row(M.home,0)}${row(M.away,1)}</tbody></table></div><div class="legend"><span>Indeks górny: punkty przegranego w tie-breaku</span></div></section>`;
+    }
+    const lowerBetter=["Podwójne błędy","Niewymuszone błędy"];
+    const rows=M.teamStats.filter(r=>typeof r[1]==="number"&&typeof r[2]==="number").map(([l,x,y])=>{const t=x+y||1,lb=lowerBetter.includes(l),aw=lb?x<y:x>y,bw=lb?y<x:y>x;
+      return `<div class="cmp"><div class="row"><b class="${aw?"lead":""}">${fmt(x)}</b><span>${esc(l)}</span><b class="${bw?"lead":""}">${fmt(y)}</b></div><div class="bar"><i style="flex:${x/t||.5}"></i><i style="flex:${y/t||.5}"></i></div></div>`}).join("");
+    if(rows) h+=`<section><h2>Statystyki meczu</h2><div class="card"><div class="cmp"><div class="row" style="margin:0"><b style="color:var(--home)">${esc(M.home.short)}</b><span></span><b style="color:var(--away)">${esc(M.away.short)}</b></div></div>${rows}</div></section>`;
+    h+=`<section><h2>Spotkanie</h2>${kv([["Turniej",esc(dash(M.comp))],["Runda",esc(dash(M.stage))],["Nawierzchnia",esc(dash(M.surface))],["Kort",esc(dash(M.court))],["Data",dayLabel(M.date)],["Godzina (czas polski)",esc(M.time)],
+      [esc(M.home.name),`${esc(M.home.city||"")} · ranking ${tenRank(M.home)}`],[esc(M.away.name),`${esc(M.away.city||"")} · ranking ${tenRank(M.away)}`]])}</section>`;
+    if(M.notes) h+=`<section><h2>Uwagi</h2><div class="card empty" style="text-align:left">${esc(M.notes)}</div></section>`;
+    return h;
+  },
+  szanse(){
+    const t=M.tip, o=M.odds, R=tenModel(refOdds(o,spOf(M)),M.bestOf), k=M.status.kind, sc=M.score, H=esc(M.home.short), A=esc(M.away.short), num=v=>(Math.round(v*10)/10).toString().replace(".",",");
+    let h=`<div class="panel" style="display:flex;flex-direction:column;gap:18px">`;
+    if(R){
+      let note="Wg bukmacherów — kursy na zwycięzcę po odjęciu marży.";
+      if(k==="ft"&&sc){const p=sc[0]>sc[1]?R.p:1-R.p;note=`Wynik ${sc[0]}:${sc[1]} w setach miał przed meczem ${pc(p)} szans${p<0.3?" — to była niespodzianka.":"."}`;}
+      h+=`<section><h2>${k==="ns"?"Szanse na zwycięstwo":"Szanse przed meczem"}</h2><div class="card prob">
+        <div class="lbls" style="grid-template-columns:1fr 1fr"><span>${esc(M.home.name)}</span><span style="text-align:right">${esc(M.away.name)}</span></div>
+        <div class="pcts" style="grid-template-columns:1fr 1fr"><b style="color:var(--home)">${pc(R.p)}</b><b style="text-align:right;font-size:34px;color:var(--away)">${pc(1-R.p)}</b></div>
+        <div class="pbar" role="img" aria-label="Wygrana ${esc(M.home.name)} ${pc(R.p)}, wygrana ${esc(M.away.name)} ${pc(1-R.p)}"><i style="flex:${R.p};background:${M.home.col}"></i><i style="flex:${1-R.p};background:${M.away.col}"></i></div>
+        <small>${note}</small></div></section>`;
+      const full=R.sets.filter(([x,y])=>x+y===R.bo).reduce((a,x)=>a+x[2],0), win1=R.sets.filter(([x])=>x>0).reduce((a,x)=>a+x[2],0), win2=R.sets.filter(([,y])=>y>0).reduce((a,x)=>a+x[2],0);
+      h+=`<section><h2>Sety</h2><div class="tiles">${tile(H+" wygra seta (każdy)",pc(R.sp))}${tile(R.bo===5?"Pełne 5 setów":"Trzy sety",pc(full))}${tile("Oczekiwane sety",num(R.expSets))}${tile(H+" wygra min. seta",pc(win1))}${tile(A+" wygra min. seta",pc(win2))}${tile("Oczekiwane gemy",num(R.muT))}</div></section>`;
+      const act=k==="ft"&&sc?sc.join(":"):null;
+      h+=`<section><h2>Wynik w setach${act?" · faktycznie "+act:""}</h2><div class="card">${R.sets.map(([x,y,w])=>{const hit=act===x+":"+y;return `<div class="dist${hit?" hit":""}"><span>${x>y?H:A} ${x}:${y}${hit?" ✓":""}</span><div class="dbar"><i style="width:${Math.min(100,Math.round(w*100/0.6*100)/100)}%;background:${x>y?M.home.col:M.away.col}"></i></div><b>${pc(w)}</b></div>`}).join("")}</div></section>`;
+      const L=[-3,-1,1,3].map(d=>Math.floor(R.muT+d)+.5), pO=x=>1-ncdf((x-R.muT)/R.SDT);
+      h+=`<section><h2>Suma gemów${R.hasTot?"":" (szacunek)"}</h2><div class="tiles" style="grid-template-columns:repeat(4,1fr)">${L.map(x=>tile("Ponad "+num(x),pc(pO(x)))).join("")}</div>${R.hasTot?"":`<p class="method" style="margin:6px 2px 0">Brak linii gemów w kursach — szacuję z oczekiwanej liczby setów (ok. 9,8 gema na set).</p>`}</section>`;
+    } else if(k==="ns") h+=`<div class="card empty">Brak kursów bukmacherów na zwycięzcę, więc nie policzę szans.<br>Pojawią się przy porannej aktualizacji.</div>`;
+    if(t) h+=`<section><h2>${k==="ns"?"Analiza typu":"Analiza typu (sprzed meczu)"}</h2>${tipCard(t,M)}</section>`;
+    if(o){const f=v=>v!=null?Number(v).toFixed(2).replace(".",","):"—", sg=v=>(v>0?"+":"")+String(v).replace(".",","), rows=[];
+      if(o.ml1!=null||o.ml2!=null) rows.push(["Zwycięzca – "+M.home.name,f(o.ml1)],["Zwycięzca – "+M.away.name,f(o.ml2)]);
+      if(typeof o.hcp==="number") rows.push([`Handicap gemów ${M.home.short} ${sg(o.hcp)}`,f(o.hc1)],[`Handicap gemów ${M.away.short} ${sg(-o.hcp)}`,f(o.hc2)]);
+      if(typeof o.tot==="number") rows.push([`Ponad ${String(o.tot).replace(".",",")} gema`,f(o.over)],[`Poniżej ${String(o.tot).replace(".",",")} gema`,f(o.under)]);
+      if(rows.length) h+=`<section><h2>Kursy</h2>${kv(rows.map(([a,b])=>[esc(a),`<span class="num">${b}</span>`]))}${o.src?`<p class="resp" style="text-align:left">${esc(o.src)}</p>`:""}</section>`;}
+    const i=M.info||{}, ex=[];
+    if(M.home.rank||M.away.rank) ex.push(["Ranking",`${tenRank(M.home)} / ${tenRank(M.away)}`]);
+    if(i.form) ex.push(["Forma (ost. mecze)",`${formHtml(i.form.home)} / ${formHtml(i.form.away)}`]);
+    if(i.surface) ex.push(["Bilans na nawierzchni",`${esc(dash(i.surface.home))} / ${esc(dash(i.surface.away))}`]);
+    if(i.fatigue) ex.push(["Obciążenie",esc(i.fatigue)]);
+    if(ex.length) h+=`<section><h2>Zawodnicy (${H} / ${A})</h2>${kv(ex)}</section>`;
+    h+=infoSection(M)+RESP;
+    if(R) h+=`<p class="method">Jak to liczę: szansę na wygranie meczu biorę z kursów na zwycięzcę po odjęciu marży. Z niej wyznaczam szansę na wygranie pojedynczego seta (zakładając, że sety są od siebie niezależne), a z tego rozkład wyników w setach. Liczbę gemów i ich różnicę modeluję rozkładem normalnym wokół linii rynku (odchylenie ok. ${num(R.SDT)} gema dla sumy i ${num(R.SDD)} dla różnicy). Krecz lub walkower: rozliczenie zależy od regulaminu bukmachera. To wycena rynku, nie pewnik.</p>`;
+    return h+`</div>`;
+  }
+};
 /* ---------- Koszykówka ---------- */
 const VB={
   mecz(){
@@ -1527,8 +1627,8 @@ function renderBilans(){
   $("#view").innerHTML=html;
 }
 function renderMatch(){
-  renderBoard(); buildTabs(!!M.bb);
-  const VV=M.bb?VB:V; if(!VV[state.tab]) state.tab="mecz";
+  renderBoard(); buildTabs(M.ten?"ten":!!M.bb);
+  const VV=M.ten?VT:M.bb?VB:V; if(!VV[state.tab]) state.tab="mecz";
   $("#view").innerHTML=VV[state.tab]();
   $("#nav").hidden=false;
   document.querySelectorAll("nav button[data-t]").forEach(b=>b.setAttribute("aria-selected",b.dataset.t===state.tab));
