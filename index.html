@@ -592,7 +592,7 @@ function normalizeBB(x){
   const tm=c=>TEAMS[c]||{id:c,short:c,name:c,city:"",col:"#556"};
   return {real:true,bb:true,id:x.id,round:x.round,date:x.date,time:x.time||"—",home:tm(x.home),away:tm(x.away),score:x.score||null,status:st,
     arena:x.arena||null,attendance:x.attendance??null,quarters:x.quarters||null,officials:x.officials||[],teamStats:x.teamStats||[],
-    players:{home:(x.players&&x.players.home)||[],away:(x.players&&x.players.away)||[]},events:[],notes:x.notes||"",odds:x.odds||null,tip:x.tip||null,info:x.info||null,coach:x.coach||null};
+    players:{home:(x.players&&x.players.home)||[],away:(x.players&&x.players.away)||[]},events:[],notes:x.notes||"",odds:x.odds||null,tip:x.tip||null,info:x.info||null,coach:x.coach||null,mkt:x.mkt||null};
 }
 function normalizeTEN(x){
   const ret=x.status==="ret"||x.status==="wo";
@@ -600,7 +600,7 @@ function normalizeTEN(x){
   const tm=c=>TEAMS[c]||{id:c,short:String(c).slice(0,3).toUpperCase(),name:c,city:"",col:"#556"};
   return {real:true,ten:true,bb:false,id:x.id,round:x.round,date:x.date,time:x.time||"—",home:tm(x.home),away:tm(x.away),score:x.score||null,status:st,
     comp:x.comp||null,stage:x.stage||null,surface:x.surface||null,bestOf:x.bestOf===5?5:3,sets:Array.isArray(x.sets)?x.sets:null,court:x.court||null,
-    officials:[],teamStats:x.stats||[],players:{home:[],away:[]},events:[],notes:x.notes||"",odds:x.odds||null,tip:x.tip||null,info:x.info||null};
+    officials:[],teamStats:x.stats||[],players:{home:[],away:[]},events:[],notes:x.notes||"",odds:x.odds||null,tip:x.tip||null,info:x.info||null,mkt:x.mkt||null};
 }
 function normalize(x){
   if(isBB()) return normalizeBB(x);
@@ -611,7 +611,7 @@ function normalize(x){
   const m={real:true,id:x.id,round:x.round,date:x.date,time:x.time||"—",limit:x.status==="ft"?90:x.status==="live"?(x.minute||0):0,
     home:tm(x.home),away:tm(x.away),score:x.score||null,venue:x.venue||null,attendance:x.attendance??null,turf:x.turf||null,weather:x.weather||null,
     status:st,officials:x.officials||[],staff:{home:(x.staff&&x.staff.home)||[],away:(x.staff&&x.staff.away)||[]},formation:x.formation||{},
-    players:{home:(x.players&&x.players.home)||[],away:(x.players&&x.players.away)||[]},events:ev,teamStats:x.teamStats||[],shots:x.shots||[],ind:x.ind||{},notes:x.notes||"",odds:x.odds||null,tip:x.tip||null,info:x.info||null,comp:x.comp||null,stage:x.stage||null};
+    players:{home:(x.players&&x.players.home)||[],away:(x.players&&x.players.away)||[]},events:ev,teamStats:x.teamStats||[],shots:x.shots||[],ind:x.ind||{},notes:x.notes||"",odds:x.odds||null,tip:x.tip||null,info:x.info||null,comp:x.comp||null,stage:x.stage||null,mkt:x.mkt||null};
   if(x.refStats) m.refStats=x.refStats;
   else if(st.kind!=="ns"){const f=m.teamStats.find(r=>r[0]==="Faule"),vars=ev.filter(e=>e.t==="var");
     m.refStats={fouls:f?f[1]+f[2]:"—",yc:ev.length?ev.filter(e=>e.t==="yc").length:"—",rc:ev.length?ev.filter(e=>e.t==="rc").length:"—",pens:ev.length?ev.filter(e=>e.t==="pen").length:"—",varChecks:ev.length?vars.length:"—",ofr:ev.length?vars.filter(v=>(v.kind||"").includes("OFR")).length:"—",varTime:"—",note:"—"};}
@@ -663,7 +663,7 @@ function loadLeague(c){
   if(LD[c]!==undefined&&LD[c]!=="loading") return Promise.resolve(LD[c]);
   if(LD["_p"+c]) return LD["_p"+c];
   LD[c]="loading";
-  return LD["_p"+c]=fetchLeague(c).then(x=>{LD[c]=x; delete LD["_p"+c]; try{recordTips(c,x)}catch(e){} if(c==="TEN"&&x) setTimeout(()=>tennisOdds(),0); return x;});
+  return LD["_p"+c]=fetchLeague(c).then(x=>{LD[c]=x; delete LD["_p"+c]; try{recordTips(c,x)}catch(e){} if(x) setTimeout(()=>leagueOdds(c),0); return x;});
 }
 function activate(c){
   state.league=c; state.filter="all"; state.comp="all"; state.ret=null; state.retTeam=null; save();
@@ -1280,7 +1280,7 @@ V.szanse=function(){
     let h=`<div class="panel" style="display:flex;flex-direction:column;gap:18px">`;
     if(o&&o["1"]&&o["X"]&&o["2"]){const a=1/o["1"],b=1/o["X"],c=1/o["2"],s=a+b+c;h+=probCard({pH:a/s,pD:b/s,pA:c/s},M.status.kind==="ft"?"Szanse przed meczem (wg bukmacherów)":"Szanse wg bukmacherów","Prawdopodobieństwa z kursów 1X2 po odjęciu marży bukmachera, w regularnym czasie gry (90 min).");}
     h+=t?`<section><h2>Analiza typu</h2>${tipCard(t,M)}</section>`:"";
-    h+=oddsList(M);
+    h+=oddsList(M)+mktTable(M);
     if(!o) h+=`<div class="card empty">${isDays()?"Brak kursów dla tego meczu — bukmacherzy ich nie wystawili albo nie udało się ich znaleźć w wiarygodnych źródłach.":"Brak tabeli ligowej, więc model nie policzy szans.<br>Tabela pojawi się przy najbliższej porannej aktualizacji."}</div>`;
     return h+infoSection(M)+(t?RESP:"")+`</div>`;}
   if(M.status.pst) return empty("Mecz przełożony. Szanse policzę, gdy pojawi się nowy termin.");
@@ -1307,6 +1307,7 @@ V.szanse=function(){
   </div></section>`:""}
   ${(()=>{const t=tipOf(M),hdr=M.status.kind==="ns"?"Analiza typu":"Analiza typu (sprzed meczu)";return t?`<section><h2>${hdr}${t.auto?" · wycena modelu":""}</h2>${tipCard(t,M)}</section>`:(M.status.kind==="ns"?`<section><h2>Analiza typu</h2><div class="card empty">Analiza pojawi się przy porannej aktualizacji${oddsOf(M)?"":", gdy będą dostępne kursy"}.</div></section>`:"")})()}
   ${lm.mkt?oddsList(M):`<section><h2>Kursy i wartość (EV)</h2>${oddsTable(M,pre)}</section>`}
+  ${mktTable(M)}
   ${infoSection(M)}
   ${RESP}
   ${lm.mkt?`<p class="method">Jak to liczę: w pucharach drużyny pochodzą z różnych lig, więc nie ma wspólnej tabeli. Dlatego oczekiwane gole dobieram tak, by rozkład Poissona odtwarzał kursy bukmacherów na 1X2${lm.withTotal?" i liczbę goli (ponad/poniżej 2,5)":""} po odjęciu marży. Pozostałe szanse (dokładny wynik, obie strzelą, czyste konto) wynikają z tego dopasowania. To wycena rynku, nie pewnik.</p>`:`<p class="method">Jak to liczę: ${lm.blend?"oczekiwane gole dobieram tak, by rozkład Poissona odtwarzał kursy 1X2 i ponad/poniżej 2,5 po zdjęciu marży (metoda potęgowa), i mieszam je w 85% z rynkiem, w 15% z modelem z tabeli (siła ataku i obrony wygładzona w stronę średniej ligi, przewaga boiska). Rynek ma tak dużą wagę, bo kursy zawierają informacje o składach i kontuzjach, których tabela nie zna — model, który mocno się z nimi nie zgadza, zwykle się myli. EV w tabeli kursów liczę po podatku od stawki.":"siła ataku i obrony każdej drużyny z bramek w tabeli (wygładzona w stronę średniej ligowej), przewaga własnego boiska, a potem rozkład Poissona dla liczby goli. Brak kursów, więc to sam model statystyczny — bez informacji o składach i kontuzjach."} To szacunek, nie pewnik.</p>`}`;
@@ -1359,6 +1360,7 @@ const VT={
       if(typeof o.hcp==="number") rows.push([`Handicap gemów ${M.home.short} ${sg(o.hcp)}`,f(o.hc1)],[`Handicap gemów ${M.away.short} ${sg(-o.hcp)}`,f(o.hc2)]);
       if(typeof o.tot==="number") rows.push([`Ponad ${String(o.tot).replace(".",",")} gema`,f(o.over)],[`Poniżej ${String(o.tot).replace(".",",")} gema`,f(o.under)]);
       if(rows.length) h+=`<section><h2>Kursy</h2>${kv(rows.map(([a,b])=>[esc(a),`<span class="num">${b}</span>`]))}${o.src?`<p class="resp" style="text-align:left">${esc(o.src)}</p>`:""}</section>`;}
+    h+=mktTable(M);
     const i=M.info||{}, ex=[];
     if(M.home.rank||M.away.rank) ex.push(["Ranking",`${tenRank(M.home)} / ${tenRank(M.away)}`]);
     if(i.form) ex.push(["Forma (ost. mecze)",`${formHtml(i.form.home)} / ${formHtml(i.form.away)}`]);
@@ -1422,6 +1424,7 @@ const VB={
       if(o.spread!=null) rows.push([`Handicap ${M.home.short} ${sg(o.spread)}`,f(o.sp1)],[`Handicap ${M.away.short} ${sg(-o.spread)}`,f(o.sp2)]);
       if(o.total!=null) rows.push([`Powyżej ${String(o.total).replace(".",",")} pkt`,f(o.over)],[`Poniżej ${String(o.total).replace(".",",")} pkt`,f(o.under)]);
       if(rows.length) h+=`<section><h2>Kursy</h2>${kv(rows.map(([k,v])=>[esc(k),`<span class="num">${v}</span>`]))}${o.src?`<p class="resp" style="text-align:left">${esc(o.src)}</p>`:""}</section>`;}
+    h+=mktTable(M);
     const i=M.info;
     if(i&&i.b2b) h+=`<section><h2>Mecz dzień po dniu (back-to-back)</h2>${kv([[esc(M.home.short),i.b2b.home?"tak":"nie"],[esc(M.away.short),i.b2b.away?"tak":"nie"]])}</section>`;
     h+=infoSection(M)+RESP;
@@ -1587,14 +1590,18 @@ function renderValue(){
     <label>Bankroll (zł)<input type="number" inputmode="numeric" min="0" step="50" data-cfg="bank" value="${CFG.bank}"></label>
     <label>Ułamek Kelly'ego<select data-cfg="kf">${opt("kf",[[0.125,"1/8 — bardzo ostrożnie"],[0.25,"1/4 — zalecane"],[0.5,"1/2 — agresywnie"]])}</select></label>
     <label>Minimalne EV<select data-cfg="minEv">${opt("minEv",[[0,"0%"],[0.02,"2%"],[0.03,"3%"],[0.05,"5%"]])}</select></label>
-    <label>Klucz The Odds API (kursy tenisowe)<input type="text" id="okey" autocomplete="off" spellcheck="false" placeholder="wklej klucz" value="${esc(OKEY)}" style="width:170px"></label>
+    <label>Klucz The Odds API<input type="text" id="okey" autocomplete="off" spellcheck="false" placeholder="wklej klucz" value="${esc(OKEY)}" style="width:170px"></label>
     <label>Zaufanie do typera<select data-cfg="trust">${opt("trust",[[0,"0% — tylko rynek"],[0.2,"20%"],[0.35,"35% — zalecane"],[0.5,"50%"]])}</select></label>
-  </div><div class="hint" style="text-align:left;padding:8px 2px 0">${OKEY?`Kursy tenisowe: ${OSTAT.err?`<b style="color:var(--red)">${esc(OSTAT.err)}</b>`:OSTAT.left!=null?`pozostało ${OSTAT.left} kredytów w tym miesiącu`:"klucz zapisany"} · <button class="retry" data-oddsnow style="padding:3px 10px;font-size:12px">Odśwież kursy</button>`:`Kursy i automatyczne typy dla tenisa: załóż darmowe konto na <a href="https://the-odds-api.com" target="_blank" rel="noopener">the-odds-api.com</a> (500 kredytów miesięcznie, bez karty) i wklej klucz powyżej. Kursy odświeżam co 3 godziny, żeby limit wystarczył na cały miesiąc.`}</div><div class="hint" style="text-align:left;padding:8px 2px 0">Ustawienia zapisują się w tej przeglądarce i działają w całej aplikacji (karty typów, „Dziś”, tabele kursów).</div></section>`;
+  </div><div class="hint" style="text-align:left;padding:8px 2px 0">${OKEY?`Kursy bukmacherów: ${OSTAT.err?`<b style="color:var(--red)">${esc(OSTAT.err)}</b>`:OSTAT.left!=null?`pozostało ${OSTAT.left} kredytów w tym miesiącu`:"klucz zapisany"} · <button class="retry" data-oddsnow style="padding:3px 10px;font-size:12px">Odśwież kursy</button>`:`Kursy wielu bukmacherów (piłka, NBA, tenis) i okazje value: załóż darmowe konto na <a href="https://the-odds-api.com" target="_blank" rel="noopener">the-odds-api.com</a> (500 kredytów miesięcznie, bez karty) i wklej klucz powyżej. Kursy odświeżam co 3 godziny, żeby limit wystarczył na cały miesiąc.`}</div><div class="hint" style="text-align:left;padding:8px 2px 0">Ustawienia zapisują się w tej przeglądarce i działają w całej aplikacji (karty typów, „Dziś”, tabele kursów).</div></section>`;
   const pos=L.filter(x=>x.v.verdict==="value").length;
   h+=`<section class="panel"><div class="day"><h2>Nadchodzące typy wg EV</h2><small>${loading?"wczytuję…":`${pos} z ${L.length} z value`}</small></div><div class="card">${L.length?L.map(x=>{const V=VERD[x.v.verdict];
     return `<button class="rank" data-tip="${esc(x.m.id)}" data-lg="${x.c}"><span class="medal" style="background:${V[1]};color:#fff">${V[0]}</span><span><b>${esc(x.t.market)}</b><small>${esc(x.m.home.name)} – ${esc(x.m.away.name)} · ${esc(leagueName(x.c))} · ${dayShort(x.f.date)} ${x.f.time}<br>rynek ${pc(x.v.pm)} · do wyceny ${pc(x.v.pa)} · kurs min. ${x.v.need>1&&x.v.need<50?n2(x.v.need):"—"}</small></span><span class="ev">${x.t.odds.toFixed(2)}<small><b style="color:${V[1]}">${evTxt(x.v.ev)}</b> · ${x.v.stake>0?x.v.stake+" zł":"0 zł"}</small></span></button>`}).join("")
     :`<div class="empty">${loading?"Wczytuję typy ze wszystkich lig…":"Brak nadchodzących typów BET."}</div>`}</div>
     ${L.length&&!pos?`<div class="hint">Żaden typ nie przechodzi progu EV po podatku. To normalne: przy kursach przeciętnych bukmacherów marża i podatek zjadają przewagę. Wpisz w karcie typu kurs ze swojego bukmachera — jeśli jest wyższy od „kursu min.”, typ staje się opłacalny.</div>`:""}</section>`;
+  const OP=allOpps();
+  h+=`<section class="panel"><div class="day"><h2>Okazje z porównania kursów</h2><small>${OKEY?`${OP.length} okazji`:"wymaga klucza"}</small></div><div class="card">${!OKEY?`<div class="empty">Dodaj klucz The Odds API w ustawieniach powyżej — strona porówna kursy kilkudziesięciu bukmacherów i znajdzie te wyższe od ceny uczciwej.</div>`:OP.length?OP.slice(0,25).map(o=>{const col=o.evt>=CFG.minEv?"#2f8a52":o.evt>=0?"var(--accent)":"var(--red)";
+    return `<button class="rank" data-tip="${esc(o.x.id)}" data-lg="${o.c}"><span class="medal" style="background:${col};color:#fff">${o.evt>=CFG.minEv?"VALUE":o.evt>=0?"NA STYK":"−EV"}</span><span><b>${esc(o.market)}</b><small>${esc(o.hn)} – ${esc(o.an)} · ${esc(leagueName(o.c))} · ${dayShort(o.x.date)} ${o.x.time}<br>${esc(o.book)} · uczciwy ${(1/o.p).toFixed(2).replace(".",",")}${o.sharp?" (Pinnacle)":""} · bez podatku ${evTxt(o.ev)}</small></span><span class="ev">${o.odds.toFixed(2)}<small><b style="color:${col}">${evTxt(o.evt)}</b> po pod.</small></span></button>`}).join(""):`<div class="empty">${Object.values(OSTAT.busy).some(Boolean)?"Pobieram kursy…":"Teraz żaden najlepszy kurs nie przebija ceny uczciwej o wymagany próg. To normalne — okazje pojawiają się i znikają w ciągu godzin."}</div>`}</div>
+  ${OP.length?`<div class="hint" style="text-align:left;padding:8px 2px 0">Okazja = najlepszy kurs na rynku jest wyższy od ceny uczciwej (kurs Pinnacle po zdjęciu marży) o co najmniej 3%. To najprostsza matematycznie uzasadniona przewaga, ale tylko jeśli Twój bukmacher daje taki kurs — część ofert jest u bukmacherów zagranicznych.</div>`:""}</section>`;
   const be=1/(1-CFG.tax);
   h+=`<section class="panel"><h2>Matematyka w skrócie</h2><div class="card" style="padding:14px 14px 4px"><ol class="math">
     <li><b>Rynek wie najwięcej.</b> Kursy po zdjęciu marży (metoda potęgowa) to najlepsza dostępna ocena szans — zawierają składy, kontuzje i pieniądze zawodowców. Typ ma sens tylko wtedy, gdy kurs u Ciebie jest <i>wyższy</i> od kursu uczciwego.</li>
@@ -1713,8 +1720,8 @@ $("#view").addEventListener("click",e=>{
 });
 $("#view").addEventListener("change",e=>{if(e.target.id==="psel"){state.player=e.target.value;render();return}
   const c=e.target.closest("[data-cfg]"); if(c){const v=parseFloat(String(c.value).replace(",","."));if(isFinite(v)&&v>=0){CFG[c.dataset.cfg]=v;saveCfg();}render();}});
-$("#view").addEventListener("change",e=>{ if(e.target.id!=="okey") return; OKEY=e.target.value.trim(); try{localStorage.setItem("meczownik-oddskey",OKEY)}catch(_){} OSTAT.err=null; if(OKEY) loadLeague("TEN").then(()=>tennisOdds(true).then(()=>{ if(state.league===VALUE_ID) render(); })); render(); });
-$("#view").addEventListener("click",e=>{ if(e.target.closest("[data-goval]")){ activate(VALUE_ID); return; } if(e.target.closest("[data-oddsnow]")) tennisOdds(true).then(()=>render()); });
+$("#view").addEventListener("change",e=>{ if(e.target.id!=="okey") return; OKEY=e.target.value.trim(); try{localStorage.setItem("meczownik-oddskey",OKEY)}catch(_){} OSTAT.err=null; if(OKEY) Promise.all(DATA_LEAGUES.map(c=>loadLeague(c).then(()=>leagueOdds(c)))).then(()=>{ if(state.league===VALUE_ID) render(); }); render(); });
+$("#view").addEventListener("click",e=>{ if(e.target.closest("[data-goval]")){ activate(VALUE_ID); return; } if(e.target.closest("[data-oddsnow]")){ e.target.closest("[data-oddsnow]").textContent="Pobieram…"; Promise.all(DATA_LEAGUES.map(c=>leagueOdds(c,true))).then(()=>render()); } });
 $("#view").addEventListener("input",e=>{const i=e.target.closest("[data-myodds]"); if(!i||!M) return; const v=parseFloat(String(i.value).replace(",","."));
   if(v>1) MYODDS[i.dataset.myodds]=v; else delete MYODDS[i.dataset.myodds];
   const box=document.getElementById("vbox-"+i.dataset.myodds), t=tipOf(M); if(box&&t) box.innerHTML=valueBody(t,M);});
@@ -1750,82 +1757,145 @@ async function tennisFromESPN(){
   return {sport:"tennis",updated:new Date().toISOString(),season:String(new Date().getFullYear()),competition:"Tenis",espn:true,
     note:"Terminarz i wyniki na żywo z ESPN. Kursy, szanse i typy pojawią się po porannej aktualizacji.",teams,picks:[],days};
 }
-/* ---------- Kursy tenisowe z The Odds API (darmowy klucz użytkownika) + automatyczne typy value ---------- */
+/* ---------- Kursy z The Odds API: piłka, NBA, tenis — porównanie bukmacherów i okazje value ---------- */
 const OAPI="https://api.the-odds-api.com/v4/";
 let OKEY=""; try{ OKEY=localStorage.getItem("meczownik-oddskey")||""; }catch(e){}
-const OSTAT={left:null,err:null,busy:false,at:0};
+// klucz można też przekazać linkiem …/#klucz=XXXX — zapisuję go tylko w tej przeglądarce i usuwam z adresu
+(()=>{ const m=/[#&]klucz=([A-Za-z0-9]{16,64})/.exec(location.hash); if(!m) return; OKEY=m[1]; try{localStorage.setItem("meczownik-oddskey",OKEY)}catch(e){} try{history.replaceState(null,"",location.pathname+location.search)}catch(e){} })();
+const OSTAT={left:null,err:null,busy:{},at:0};
 try{ const s=JSON.parse(localStorage.getItem("meczownik-odds-stat")||"null"); if(s&&s.left!=null) OSTAT.left=s.left; }catch(e){}
-const OTTL=3*3600e3; // kursy z pamięci podręcznej przez 3 godz. — oszczędza darmowy limit (500 kredytów/mies.)
+const OTTL=6*3600e3; // kursy z pamięci podręcznej przez 6 godz. — darmowy limit to 500 kredytów miesięcznie
+const OSPORT={EKS:["soccer_poland_ekstraklasa"],PL:["soccer_epl"],LL:["soccer_spain_la_liga"],SA:["soccer_italy_serie_a"],BL:["soccer_germany_bundesliga"],L1:["soccer_france_ligue_one"],UCL:["soccer_uefa_champs_league"],
+  CUP:["soccer_england_efl_cup","soccer_fa_cup","soccer_germany_dfb_pokal","soccer_spain_copa_del_rey","soccer_italy_coppa_italia","soccer_france_coupe_de_france","soccer_poland_cup"],NBA:["basketball_nba"],TEN:null};
+const OMK=c=>c==="TEN"?"h2h":c==="NBA"?"h2h,spreads,totals":"h2h,totals";
+const okLS=(k,v)=>{try{ if(v===undefined) return JSON.parse(localStorage.getItem(k)||"null"); localStorage.setItem(k,JSON.stringify(v)); }catch(e){ return null; }};
 async function oget(path){
   const r=await fetch(OAPI+path+(path.includes("?")?"&":"?")+"apiKey="+encodeURIComponent(OKEY),{cache:"no-store"});
-  const left=r.headers.get("x-requests-remaining"); if(left!=null){ OSTAT.left=+left; try{localStorage.setItem("meczownik-odds-stat",JSON.stringify({left:OSTAT.left}))}catch(e){} }
+  const left=r.headers.get("x-requests-remaining"); if(left!=null){ OSTAT.left=+left; okLS("meczownik-odds-stat",{left:OSTAT.left}); }
   if(r.status===401) throw new Error("Nieprawidłowy klucz API");
   if(r.status===429) throw new Error("Wyczerpany limit kredytów");
   if(!r.ok) throw new Error("Błąd "+r.status);
   return r.json();
 }
-async function tennisOdds(force){
-  const d=LD.TEN; if(!OKEY||!d||d==="loading"||OSTAT.busy) return; OSTAT.busy=true; OSTAT.err=null;
+// dzienny budżet: pozostałe kredyty / dni do końca miesiąca — automatyczne odświeżanie go nie przekracza
+function canSpend(cost){
+  if(OSTAT.left==null) return true; if(OSTAT.left<cost+5) return false;
+  const n=new Date(), dl=new Date(n.getFullYear(),n.getMonth()+1,0).getDate()-n.getDate()+1, spent=+(okLS("meczownik-odds-day-"+TODAY)||0);
+  return spent+cost<=Math.max(OSTAT.left/dl,4);
+}
+const spend=c=>okLS("meczownik-odds-day-"+TODAY,(+(okLS("meczownik-odds-day-"+TODAY)||0))+c);
+async function oddsSports(){
+  const c=okLS("meczownik-odds-sports"); if(c&&Date.now()-c.t<12*3600e3) return c.d;
+  const d=(await oget("sports")).filter(s=>s.active).map(s=>s.key); okLS("meczownik-odds-sports",{t:Date.now(),d}); return d;
+}
+async function leagueOdds(c,force){
+  const d=LD[c]; if(!OKEY||!d||d==="loading"||!(c in OSPORT)||OSTAT.busy[c]) return; OSTAT.busy[c]=true;
   try{
-    const list=Object.values(d.days||{}).flat().filter(x=>x.status==="ns"||x.status==="live");
+    const now=Date.now(), all=d.days?Object.values(d.days).flat():d.rounds?Object.values(d.rounds).flat():[];
+    const list=all.filter(x=>x&&(x.status==="ns"||x.status==="live")&&x.date&&/^\d{1,2}:\d{2}$/.test(x.time||"")).filter(x=>{const t=warsawToUTC(x.date,x.time).getTime();return t>now-3*3600e3&&t<now+4*86400e3;});
     if(!list.length) return;
-    let sports=null; try{ const c=JSON.parse(localStorage.getItem("meczownik-odds-sports")||"null"); if(c&&Date.now()-c.t<12*3600e3) sports=c.d; }catch(e){}
-    if(!sports){ sports=(await oget("sports")).filter(s=>/^tennis_/.test(s.key)&&s.active).map(s=>s.key); try{localStorage.setItem("meczownik-odds-sports",JSON.stringify({t:Date.now(),d:sports}))}catch(e){} }
-    // tylko turnieje, których mecze są w danych (dopasowanie po słowach z nazwy turnieju)
-    const comps=[...new Set(list.map(x=>fold(x.comp||"")))];
-    const want=sports.filter(k=>{const w=k.replace(/^tennis_(atp|wta)_/,"").split("_").filter(t=>t.length>=4&&!["open","masters","championships","champ","finals"].includes(t));
-      const tour=/_wta_/.test(k)?"wta":"atp"; return comps.some(c=>c.includes(tour)&&(w.length?w.some(t=>c.includes(t.slice(0,5))):/final/.test(c)));});
-    const keys=want.length?want:sports.slice(0,4);
-    const evs=[];
+    const active=await oddsSports();
+    let keys;
+    if(c==="TEN"){ const comps=[...new Set(list.map(x=>fold(x.comp||"")))];
+      keys=active.filter(k=>/^tennis_/.test(k)).filter(k=>{const w=k.replace(/^tennis_(atp|wta)_/,"").split("_").filter(t=>t.length>=4&&!["open","masters","championships","champ","finals"].includes(t)), tour=/_wta_/.test(k)?"wta":"atp";
+        return comps.some(cp=>cp.includes(tour)&&(w.length?w.some(t=>cp.includes(t.slice(0,5))):/final/.test(cp)));});
+      if(!keys.length) keys=active.filter(k=>/^tennis_/.test(k)).slice(0,4);
+    } else keys=OSPORT[c].filter(k=>active.includes(k));
+    const cost=OMK(c).split(",").length, evs=[];
     for(const k of keys){
-      let c=null; try{ c=JSON.parse(localStorage.getItem("meczownik-odds-"+k)||"null"); }catch(e){}
-      if(!c||force||Date.now()-c.t>OTTL){ const data=await oget(`sports/${k}/odds?regions=eu&markets=h2h&oddsFormat=decimal`); c={t:Date.now(),d:data}; try{localStorage.setItem("meczownik-odds-"+k,JSON.stringify(c))}catch(e){} }
-      for(const e of c.d||[]) evs.push({...e,_t:c.t});
+      let ca=okLS("meczownik-odds-"+k);
+      if(!ca||Date.now()-ca.t>OTTL||force){
+        if(force||canSpend(cost)){ try{ const data=await oget(`sports/${k}/odds?regions=eu&markets=${OMK(c)}&oddsFormat=decimal`); spend(cost); ca={t:Date.now(),d:data}; okLS("meczownik-odds-"+k,ca); }catch(e){ OSTAT.err=e.message; if(/klucz|limit/.test(e.message)) break; } }
+      }
+      if(ca) for(const e of ca.d||[]) evs.push({...e,_t:ca.t});
     }
     let ch=false;
     for(const x of list){
       const hn=(d.teams[x.home]||{}).name||x.home, an=(d.teams[x.away]||{}).name||x.away, t=warsawToUTC(x.date,x.time).getTime();
       let best=null;
-      for(const e of evs){ if(Math.abs(new Date(e.commence_time).getTime()-t)>20*3600e3) continue;
-        const s=lsim(hn,[e.home_team])+lsim(an,[e.away_team]), r=lsim(hn,[e.away_team])+lsim(an,[e.home_team]);
-        const k=s>=r?{e,sc:s,swap:false}:{e,sc:r,swap:true}; if(k.sc>=1.2&&(!best||k.sc>best.sc)) best=k; }
+      for(const e of evs){ if(Math.abs(new Date(e.commence_time).getTime()-t)>(c==="TEN"?20:3)*3600e3) continue;
+        const s1=lsim(hn,[e.home_team]),s2=lsim(an,[e.away_team]),r1=lsim(hn,[e.away_team]),r2=lsim(an,[e.home_team]);
+        const k=Math.min(s1,s2)>=0.3&&s1+s2>=r1+r2?{e,sc:s1+s2,swap:false}:Math.min(r1,r2)>=0.3?{e,sc:r1+r2,swap:true}:null;
+        if(k&&k.sc>=0.9&&(!best||k.sc>best.sc)) best=k; }
       if(!best) continue;
-      const o=oddsFromBooks(best.e,best.swap?[best.e.away_team,best.e.home_team]:[best.e.home_team,best.e.away_team]);
-      if(!o) continue;
-      if(!x.odds||x.odds.api){ x.odds=o; ch=true; }
-      if(!x.tip||x.tip.auto){ const tp=autoTennisTip(x,o,hn,an); if(JSON.stringify(tp)!==JSON.stringify(x.tip)){ x.tip=tp; ch=true; } }
+      const mk=marketFromBooks(best.e,best.swap,c); if(!mk) continue;
+      if(JSON.stringify(mk)===JSON.stringify(x.mkt)) continue;
+      x.mkt=mk; ch=true;
+      if(!x.odds||x.odds.api){ x.odds={api:true,src:mk.src,...mk.avg}; if(mk.pin) x.odds.pin=mk.pin; }
+      else if(mk.pin&&!x.odds.pin) x.odds.pin=mk.pin;
+      if(c==="TEN"&&(!x.tip||x.tip.auto)) x.tip=autoValueTip(x,mk,hn,an,c);
     }
-    if(ch){ try{recordTips("TEN",d)}catch(e){} liveRefresh(); }
+    if(ch){ try{recordTips(c,d)}catch(e){} liveRefresh(); }
   }catch(e){ OSTAT.err=e.message||String(e); }
-  finally{ OSTAT.busy=false; OSTAT.at=Date.now(); }
+  finally{ OSTAT.busy[c]=false; OSTAT.at=Date.now(); }
 }
-function oddsFromBooks(e,[n1,n2]){
-  const P=[[],[]]; let pin=null;
-  for(const b of e.bookmakers||[]){ const m=(b.markets||[]).find(m=>m.key==="h2h"); if(!m) continue;
-    const p1=(m.outcomes.find(o=>o.name===n1)||{}).price, p2=(m.outcomes.find(o=>o.name===n2)||{}).price; if(!(p1>1&&p2>1)) continue;
-    P[0].push([p1,b.title]); P[1].push([p2,b.title]); if(b.key==="pinnacle") pin={ml1:p1,ml2:p2}; }
-  if(P[0].length<2) return null;
-  const med=a=>{const s=a.map(x=>x[0]).sort((x,y)=>x-y);return s[Math.floor(s.length/2)]}, avg=a=>+(a.reduce((s,x)=>s+x[0],0)/a.length).toFixed(2);
-  const bestOf=(a,m)=>a.filter(x=>x[0]<=m*1.15).sort((x,y)=>y[0]-x[0])[0]; // odrzucam ceny >15% od mediany (zwykle błąd lub nieaktualne)
-  const b1=bestOf(P[0],med(P[0])), b2=bestOf(P[1],med(P[1]));
-  const o={api:true,src:`The Odds API — średnia z ${P[0].length} bukmacherów${pin?", w tym Pinnacle":""}, stan na ${new Date().toLocaleString("pl-PL",{day:"2-digit",month:"2-digit",hour:"2-digit",minute:"2-digit",timeZone:"Europe/Warsaw"})}`,
-    ml1:avg(P[0]),ml2:avg(P[1]),best:{ml1:b1[0],ml2:b2[0],b1:b1[1],b2:b2[1]},n:P[0].length};
-  if(pin) o.pin=pin;
-  return o;
+function marketFromBooks(e,swap,c){
+  const H=swap?e.away_team:e.home_team, A=swap?e.home_team:e.away_team, rows=[];
+  for(const b of e.bookmakers||[]){ const r={book:b.title,key:b.key};
+    for(const m of b.markets||[]){ const O=m.outcomes||[], f=n=>(O.find(o=>o.name===n)||{});
+      if(m.key==="h2h"){ if(c==="TEN"||c==="NBA"){ r.ml1=f(H).price; r.ml2=f(A).price; } else { r["1"]=f(H).price; r.X=f("Draw").price; r["2"]=f(A).price; } }
+      if(m.key==="totals"){ const ov=O.find(o=>o.name==="Over"), un=O.find(o=>o.name==="Under"); if(ov&&un&&ov.point===un.point){ if(c==="NBA") r.tot=[ov.point,ov.price,un.price]; else if(ov.point===2.5){ r.o25=ov.price; r.u25=un.price; } } }
+      if(m.key==="spreads"&&c==="NBA"){ const h=f(H), a=f(A); if(h.price&&a.price) r.sp=[h.point,h.price,a.price]; }
+    }
+    rows.push(r); }
+  if(rows.length<2) return null;
+  const pinR=rows.find(r=>r.key==="pinnacle"), avg={}, best={}, bbook={}, pin={};
+  const med=a=>{const s=a.slice().sort((x,y)=>x-y);return s[Math.floor(s.length/2)]};
+  const agg=(k,get)=>{const L=rows.map(r=>[get(r),r.book]).filter(([v])=>v>1); if(L.length<2) return; const m=med(L.map(x=>x[0])), ok=L.filter(([v])=>v<=m*1.15);
+    avg[k]=+(L.reduce((s,[v])=>s+v,0)/L.length).toFixed(2); const b=ok.sort((x,y)=>y[0]-x[0])[0]; best[k]=b[0]; bbook[k]=b[1]; const pv=pinR&&get(pinR); if(pv>1) pin[k]=pv; };
+  const K=c==="TEN"||c==="NBA"?["ml1","ml2"]:["1","X","2","o25","u25"];
+  K.forEach(k=>agg(k,r=>r[k]));
+  if(c==="NBA"){ const mode=a=>{const m={};a.forEach(v=>m[v]=(m[v]||0)+1);const k=Object.keys(m).sort((x,y)=>m[y]-m[x])[0];return k==null?null:+k};
+    const spP=mode(rows.filter(r=>r.sp).map(r=>r.sp[0])), toP=mode(rows.filter(r=>r.tot).map(r=>r.tot[0]));
+    if(spP!=null){ avg.spread=spP; agg("sp1",r=>r.sp&&r.sp[0]===spP?r.sp[1]:0); agg("sp2",r=>r.sp&&r.sp[0]===spP?r.sp[2]:0); if(pin.sp1) pin.spread=spP; }
+    if(toP!=null){ avg.total=toP; agg("over",r=>r.tot&&r.tot[0]===toP?r.tot[1]:0); agg("under",r=>r.tot&&r.tot[0]===toP?r.tot[2]:0); if(pin.over) pin.total=toP; } }
+  if(!Object.keys(avg).length) return null;
+  return {n:rows.length,avg,best,bbook,pin:Object.keys(pin).length?pin:null,t:e._t||Date.now(),
+    src:`The Odds API — średnia z ${rows.length} bukmacherów${pinR?", w tym Pinnacle":""}, stan na ${new Date(e._t||Date.now()).toLocaleString("pl-PL",{day:"2-digit",month:"2-digit",hour:"2-digit",minute:"2-digit",timeZone:"Europe/Warsaw"})}`};
 }
-function autoTennisTip(x,o,hn,an){
-  const ref=o.pin||{ml1:o.ml1,ml2:o.ml2}, fair=devig([ref.ml1,ref.ml2]); if(!fair) return null;
-  const need=o.pin?0.03:0.05, C=[[0,hn,o.best.ml1,o.best.b1],[1,an,o.best.ml2,o.best.b2]].map(([i,n,pr,bk])=>({i,n,pr,bk,p:fair[i],ev:fair[i]*pr-1})).filter(c=>c.pr>=1.2&&c.pr<=5).sort((a,b)=>b.ev-a.ev);
-  const c=C[0];
-  if(!c||c.ev<need) return {decision:"NO BET",auto:true,reasons:[`Automatyczna wycena: najlepszy kurs na żadnego z zawodników nie przebija ceny uczciwej${o.pin?" (Pinnacle bez marży)":" (średnia bez marży)"} o co najmniej ${Math.round(need*100)}%.`]};
-  const ev=c.p*c.pr-1, rating=ev>=0.1?8:ev>=0.06?7:6;
-  return {decision:"BET",auto:true,market:"Wygrana "+c.n,odds:c.pr,book:c.bk,pm:c.p,prob:c.p,ev:+(c.p*c.pr*0.88-1).toFixed(3),evNoTax:+ev.toFixed(3),rating,risk:c.p>0.6?"niskie":c.p>0.42?"średnie":"wysokie",
-    reasons:[`Cena uczciwa ${o.pin?"wg Pinnacle (najostrzejszy bukmacher)":"ze średniej "+o.n+" bukmacherów"} po zdjęciu marży: ${pc(c.p)} → kurs uczciwy ${(1/c.p).toFixed(2)}.`,
-      `Najlepszy kurs: ${c.pr.toFixed(2)} (${c.bk}) — o ${Math.round(ev*100)}% powyżej ceny uczciwej.`,
-      `To typ z porównania kursów (line shopping), nie z oceny formy — przewaga istnieje tylko przy kursie co najmniej ${(1.02/c.p).toFixed(2)}.`,
-      `Z podatkiem 12% EV wynosi ${evTxt(c.p*c.pr*0.88-1)} — opłacalne głównie u bukmachera, który pokrywa podatek.`],
-    risks:["Najlepszy kurs bywa dostępny krótko albo tylko u zagranicznego bukmachera — sprawdź kurs u swojego legalnego bukmachera i wpisz go w polu „Twój kurs”.","Krecz: zasady rozliczenia różnią się między bukmacherami."],
-    value:`Kurs ${c.pr.toFixed(2)} wobec uczciwego ${(1/c.p).toFixed(2)}.`};
+// Okazje: najlepszy kurs wyższy od ceny uczciwej (Pinnacle bez marży; bez Pinnacle — średnia bez marży i wyższy próg)
+function valueOpps(x,c,hn,an){
+  const mk=x.mkt; if(!mk) return [];
+  const ref=mk.pin||mk.avg, need=mk.pin?0.03:0.05, out=[], sg=v=>(v>0?"+":v<0?"−":"")+String(Math.abs(v)).replace(".",",");
+  const groups=c==="TEN"||c==="NBA"?[[["ml1","Wygrana "+hn],["ml2","Wygrana "+an]]]:[[["1","Wygrana "+hn],["X","Remis"],["2","Wygrana "+an]],[["o25","Ponad 2,5 gola"],["u25","Poniżej 2,5 gola"]]];
+  if(c==="NBA"&&mk.avg.spread!=null&&(!mk.pin||mk.pin.spread===mk.avg.spread)) groups.push([["sp1",`Handicap ${hn} ${sg(mk.avg.spread)}`],["sp2",`Handicap ${an} ${sg(-mk.avg.spread)}`]]);
+  if(c==="NBA"&&mk.avg.total!=null&&(!mk.pin||mk.pin.total===mk.avg.total)){ const L=String(mk.avg.total).replace(".",","); groups.push([["over",`Ponad ${L} pkt`],["under",`Poniżej ${L} pkt`]]); }
+  for(const g of groups){ if(!g.every(([k])=>ref[k]>1&&mk.best[k]>1)) continue; const f=devig(g.map(([k])=>ref[k])); if(!f) continue;
+    g.forEach(([k,lab],i)=>{const pr=mk.best[k], ev=f[i]*pr-1; if(ev>=need&&pr>=1.15&&pr<=6&&mk.n>=3) out.push({k,market:lab,odds:pr,book:mk.bbook[k],p:f[i],ev,sharp:!!mk.pin});}); }
+  return out.sort((a,b)=>b.ev-a.ev);
+}
+function autoValueTip(x,mk,hn,an,c){
+  const o=valueOpps(x,c,hn,an)[0];
+  if(!o) return {decision:"NO BET",auto:true,reasons:[`Automatyczna wycena: żaden kurs nie przebija ceny uczciwej${mk.pin?" (Pinnacle bez marży)":" (średnia bez marży)"} o co najmniej ${mk.pin?3:5}%.`]};
+  const ev=o.ev;
+  return {decision:"BET",auto:true,market:o.market,odds:o.odds,book:o.book,pm:o.p,prob:o.p,ev:+(o.p*o.odds*0.88-1).toFixed(3),evNoTax:+ev.toFixed(3),rating:ev>=0.1?8:ev>=0.06?7:6,risk:o.p>0.6?"niskie":o.p>0.42?"średnie":"wysokie",
+    reasons:[`Cena uczciwa ${o.sharp?"wg Pinnacle (najdokładniej wyceniający bukmacher)":"ze średniej "+mk.n+" bukmacherów"} po zdjęciu marży: ${pc(o.p)} → kurs uczciwy ${(1/o.p).toFixed(2)}.`,
+      `Najlepszy kurs: ${o.odds.toFixed(2)} (${o.book}) — o ${Math.round(ev*100)}% powyżej ceny uczciwej.`,
+      `To typ z porównania kursów, nie z oceny formy — przewaga istnieje tylko przy kursie co najmniej ${(1.02/o.p).toFixed(2)}.`,
+      `Z podatkiem 12% EV wynosi ${evTxt(o.p*o.odds*0.88-1)} — opłacalne głównie u bukmachera, który pokrywa podatek.`],
+    risks:["Najlepszy kurs bywa dostępny krótko albo tylko u zagranicznego bukmachera — sprawdź kurs u swojego legalnego bukmachera i wpisz go w polu „Twój kurs”."],
+    value:`Kurs ${o.odds.toFixed(2)} wobec uczciwego ${(1/o.p).toFixed(2)}.`};
+}
+function mktTable(m){
+  const mk=m.mkt; if(!mk) return "";
+  const n2=v=>v>1?v.toFixed(2).replace(".",","):"—", c=m.ten?"TEN":m.bb?"NBA":"PL", sg=v=>(v>0?"+":v<0?"−":"")+String(Math.abs(v)).replace(".",",");
+  const L=c==="PL"?[["1","1 · "+m.home.short],["X","X · remis"],["2","2 · "+m.away.short],["o25","Ponad 2,5"],["u25","Poniżej 2,5"]]:[["ml1",m.home.short+" wygra"],["ml2",m.away.short+" wygra"]];
+  if(c==="NBA"&&mk.avg.spread!=null) L.push(["sp1",`${m.home.short} ${sg(mk.avg.spread)}`],["sp2",`${m.away.short} ${sg(-mk.avg.spread)}`]);
+  if(c==="NBA"&&mk.avg.total!=null) L.push(["over","Ponad "+String(mk.avg.total).replace(".",",")],["under","Poniżej "+String(mk.avg.total).replace(".",",")]);
+  const opp=valueOpps({mkt:mk},c,m.home.name,m.away.name), ok=new Set(opp.map(o=>o.k));
+  const rows=L.filter(([k])=>mk.avg[k]>1).map(([k,l])=>`<tr class="${ok.has(k)?"val":""}"><td>${esc(l)}</td><td>${n2(mk.avg[k])}</td><td>${n2(mk.best[k])}<small style="display:block;color:var(--muted);font-size:11px">${esc(mk.bbook[k]||"")}</small></td><td>${mk.pin&&mk.pin[k]?n2(mk.pin[k]):"—"}</td></tr>`).join("");
+  return `<section><h2>Porównanie kursów (${mk.n} bukmacherów)</h2><div class="card tableScroll"><table class="odds"><thead><tr><th>Rynek</th><th>Średni</th><th>Najlepszy</th><th>Pinnacle</th></tr></thead><tbody>${rows}</tbody></table></div>
+    <div class="legend"><span>${esc(mk.src)} · podświetlone: najlepszy kurs ≥ ${mk.pin?3:5}% powyżej ceny uczciwej (przed podatkiem)</span></div>
+    ${opp.length?`<div class="card" style="margin-top:8px">${opp.map(o=>{const evt=o.p*o.odds*(1-CFG.tax)-1;return `<div class="vs" style="grid-template-columns:1fr auto"><span style="text-align:left;color:var(--fg)"><b>${esc(o.market)}</b> po ${n2(o.odds)} (${esc(o.book)}) · uczciwy ${n2(1/o.p)}</span><b style="color:${evt>=CFG.minEv?"#2f8a52":evt>=0?"var(--accent)":"var(--red)"}">${evTxt(evt)}</b></div>`}).join("")}</div><p class="method" style="margin:6px 2px 0">EV po podatku ${Math.round(CFG.tax*100)}%. Sprawdź, czy Twój bukmacher daje taki kurs.</p>`:""}</section>`;
+}
+function allOpps(){
+  const out=[], now=Date.now();
+  for(const c of DATA_LEAGUES){ const d=LD[c]; if(!d||d==="loading") continue;
+    const all=d.days?Object.values(d.days).flat():d.rounds?Object.values(d.rounds).flat():[];
+    for(const x of all){ if(!x||!x.mkt||x.status!=="ns"||!/^\d{1,2}:\d{2}$/.test(x.time||"")||warsawToUTC(x.date,x.time).getTime()<now) continue;
+      const hn=(d.teams[x.home]||{}).name||x.home, an=(d.teams[x.away]||{}).name||x.away;
+      for(const o of valueOpps(x,c,hn,an)) out.push({...o,c,x,hn,an,evt:o.p*o.odds*(1-CFG.tax)-1}); } }
+  return out.sort((a,b)=>b.ev-a.ev);
 }
 /* ---------- Wyniki na żywo (ESPN, pobierane przez przeglądarkę co minutę) ---------- */
 const ESPN="https://site.api.espn.com/apis/site/v2/sports/";
@@ -1921,7 +1991,7 @@ function liveRefresh(){
   $("#main").scrollTop=sc;
 }
 setInterval(()=>liveTick(),60000);
-setInterval(()=>{ if(!document.hidden) tennisOdds(); },15*60000);
+setInterval(()=>{ if(!document.hidden) DATA_LEAGUES.forEach(c=>leagueOdds(c)); },20*60000);
 setTimeout(()=>liveTick(true),2500);
 document.addEventListener("visibilitychange",()=>{ if(!document.hidden&&Date.now()-LIVE.at>30000) liveTick(); });
 
