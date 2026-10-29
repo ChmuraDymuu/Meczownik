@@ -1,9 +1,9 @@
 {
- "updated": "2026-10-28T06:25:00+01:00",
+ "updated": "2026-10-29T06:40:00+01:00",
  "season": "2026/27",
  "competition": "Bundesliga",
  "currentRound": 8,
- "note": "Źródła: bundesliga.com, DFB, oddschecker (kursy), wettbasis, rotowire, futboltotal, ms-aktuell/Sky, ZDFheute; wcześniej: fcbayern.com, flashscore, t-online.de, sportwetten24, bettingnews, ligaoutsider, ESPN, rbleipzig.com, Sofascore, sportschau.de. Godziny w czasie polskim (CET).",
+ "note": "Źródła: bundesliga.com, DFB / ig-schiedsrichter.de (obsada sędziowska 8. kolejki), oddschecker i Wettbasis (kursy), fcbayern.com, sport1, sport.orf.at, t-online.de, osthessen-zeitung (wyniki DFB-Pokal), spox, fcbinside, goal.com, sportwetten24; wcześniej: flashscore, ESPN, rotowire, futboltotal, Sofascore, sportschau.de. Godziny w czasie polskim (CET).",
  "teams": {
   "BAY": {
    "id": "BAY",
@@ -2870,7 +2870,7 @@
      "capacity": 10000
     },
     "odds": {
-     "src": "oddschecker – kursy wyświetlane na liście meczów, stan na 28.10.2026",
+     "src": "oddschecker, stan na 28.10.2026 (Wettbasis 29.10: Mainz 2,05 Winamax)",
      "1": 3.25,
      "X": 4.0,
      "2": 2.12
@@ -2890,7 +2890,8 @@
        "Jan Gyamerah (uraz mięśniowy, prawdopodobnie do przerwy reprezentacyjnej)",
        "Luis Seifert (syndesmoza)",
        "Tom Zimmerschied (więzadła)",
-       "Noah Darvich (niepewny)"
+       "Noah Darvich (niepewny)",
+       "Nicolas Verkooijen (zszedł z urazem w ~20' meczu pucharowego z Darmstadt 27.10)"
       ],
       "away": [
        "Robin Zentner (ręka – stan na 6.10)"
@@ -2901,7 +2902,7 @@
       "away": 3
      },
      "homeAway": "Elversberg u siebie: 2 zwycięstwa i 1 porażka (8 goli), w ostatniej kolejce 0:4 w Lipsku. Mainz u siebie tylko 1 pkt w 4 meczach, ale na wyjazdach komplet 9 pkt (10:3). Oba zespoły: 10 pkt po 7 kolejkach.",
-     "stakes": "7. Mainz vs 8. Elversberg (obie po 10 pkt). Obie drużyny odpadły we wtorek z DFB-Pokal: 27.10 DFB-Pokal: Elversberg – Darmstadt 0:2 (bez dogrywki, 5 zmian w składzie); 27.10 DFB-Pokal: Bochum – Mainz 2:0 (bez dogrywki)."
+     "stakes": "7. Mainz vs 8. Elversberg (obie po 10 pkt). Obie drużyny odpadły we wtorek z DFB-Pokal: Elversberg – Darmstadt 0:2; Bochum – Mainz 2:0 (Rasmussen 46', Hofmann 75')."
     },
     "tip": {
      "decision": "NO BET",
@@ -2911,7 +2912,21 @@
       "Mainz na wyjazdach w lidze 3/3 zwycięstw (10:3), u siebie słabo; Elversberg u siebie 2W 1P – kontrastujące serie przy małej próbie (7 meczów).",
       "Elversberg z kilkoma absencjami (Gyamerah, Seifert, Zimmerschied), Mainz po pucharowej porażce bez gola – zbyt duża niepewność na typ."
      ]
-    }
+    },
+    "officials": [
+     {
+      "r": "GŁ",
+      "role": "Sędzia główny",
+      "name": "Sascha Stegemann",
+      "nat": "GER"
+     },
+     {
+      "r": "VAR",
+      "role": "Sędzia VAR",
+      "name": "Benjamin Cortus",
+      "nat": "GER"
+     }
+    ]
    },
    {
     "id": "BL-2026-27-R8-LEV-STU",
@@ -2936,7 +2951,7 @@
       "home": 3,
       "away": 3
      },
-     "stakes": "4. (13 pkt) vs 15. (6 pkt). Tydzień pucharowy: 28.10 20:45 DFB-Pokal: Leverkusen – Norymberga; 28.10 18:00 DFB-Pokal: Paderborn – Stuttgart."
+     "stakes": "4. (13 pkt) vs 15. (6 pkt). DFB-Pokal 28.10: Leverkusen – Norymberga 5:2 (odrobione 0:2); Paderborn – Stuttgart 0:1 (Undav w doliczonym czasie)."
     },
     "tip": {
      "decision": "NO BET",
@@ -2945,7 +2960,21 @@
       "Brak wiarygodnych kursów na rynki poboczne (gole, BTTS, handicap, kartki, rożne) z jednego, sprawdzonego źródła – nie wyceniam ich na siłę.",
       "Mecz po tygodniu pucharowym (dni odpoczynku 3 / 3); składy i rotacja niepotwierdzone."
      ]
-    }
+    },
+    "officials": [
+     {
+      "r": "GŁ",
+      "role": "Sędzia główny",
+      "name": "Benjamin Brand",
+      "nat": "GER"
+     },
+     {
+      "r": "VAR",
+      "role": "Sędzia VAR",
+      "name": "Robert Schröder",
+      "nat": "GER"
+     }
+    ]
    },
    {
     "id": "BL-2026-27-R8-AUG-SCF",
@@ -2970,7 +2999,7 @@
       "home": 4,
       "away": 3
      },
-     "stakes": "9. (9 pkt) vs 3. (13 pkt). Tydzień pucharowy: 27.10 18:00 DFB-Pokal: Großaspach – Augsburg; 28.10 18:00 DFB-Pokal: Freiburg – Wolfsburg."
+     "stakes": "9. (9 pkt) vs 3. (13 pkt). DFB-Pokal: 27.10 Großaspach – Augsburg 2:4; 28.10 Freiburg – Wolfsburg 3:2 (zwycięski gol Goto w 92')."
     },
     "tip": {
      "decision": "NO BET",
@@ -2979,7 +3008,21 @@
       "Brak wiarygodnych kursów na rynki poboczne (gole, BTTS, handicap, kartki, rożne) z jednego, sprawdzonego źródła – nie wyceniam ich na siłę.",
       "Mecz po tygodniu pucharowym (dni odpoczynku 4 / 3); składy i rotacja niepotwierdzone."
      ]
-    }
+    },
+    "officials": [
+     {
+      "r": "GŁ",
+      "role": "Sędzia główny",
+      "name": "Christian Dingert",
+      "nat": "GER"
+     },
+     {
+      "r": "VAR",
+      "role": "Sędzia VAR",
+      "name": "Robert Kampka",
+      "nat": "GER"
+     }
+    ]
    },
    {
     "id": "BL-2026-27-R8-BMG-PAD",
@@ -3004,7 +3047,11 @@
       "home": 4,
       "away": 3
      },
-     "stakes": "18. (3 pkt) vs 13. (8 pkt). Tydzień pucharowy: 27.10 20:45 DFB-Pokal: Gladbach – Karlsruher SC; 28.10 18:00 DFB-Pokal: Paderborn – Stuttgart."
+     "stakes": "18. (3 pkt) vs 13. (8 pkt). DFB-Pokal: 27.10 Gladbach – Karlsruher SC 2:0 (Gladbach od 39' w dziesiątkę – czerwona kartka Philippa Sandera); 28.10 Paderborn – Stuttgart 0:1 (Paderborn odpadł).",
+     "injuries": {
+      "home": [],
+      "away": []
+     }
     },
     "tip": {
      "decision": "NO BET",
@@ -3013,7 +3060,21 @@
       "Brak wiarygodnych kursów na rynki poboczne (gole, BTTS, handicap, kartki, rożne) z jednego, sprawdzonego źródła – nie wyceniam ich na siłę.",
       "Mecz po tygodniu pucharowym (dni odpoczynku 4 / 3); składy i rotacja niepotwierdzone."
      ]
-    }
+    },
+    "officials": [
+     {
+      "r": "GŁ",
+      "role": "Sędzia główny",
+      "name": "Timo Gerach",
+      "nat": "GER"
+     },
+     {
+      "r": "VAR",
+      "role": "Sędzia VAR",
+      "name": "Nicolas Winter",
+      "nat": "GER"
+     }
+    ]
    },
    {
     "id": "BL-2026-27-R8-BRE-HOF",
@@ -3038,7 +3099,7 @@
       "home": 4,
       "away": 3
      },
-     "stakes": "6. (12 pkt) vs 10. (9 pkt). Tydzień pucharowy: 27.10 DFB-Pokal: Dortmund – Werder 3:2; 28.10 20:45 DFB-Pokal: Holstein Kiel – Hoffenheim."
+     "stakes": "6. (12 pkt) vs 10. (9 pkt). DFB-Pokal: 27.10 Dortmund – Werder 3:2; 28.10 Holstein Kiel – Hoffenheim 1:1 po dogrywce, karne 4:3 dla Kiel – Hoffenheim odpadł po 120 minutach, 3 dni przed meczem w Bremie."
     },
     "tip": {
      "decision": "NO BET",
@@ -3048,7 +3109,21 @@
       "Brak wiarygodnych kursów na rynki poboczne (gole, BTTS, handicap, kartki, rożne) z jednego, sprawdzonego źródła – nie wyceniam ich na siłę.",
       "Mecz po tygodniu pucharowym (dni odpoczynku 4 / 3); składy i rotacja niepotwierdzone."
      ]
-    }
+    },
+    "officials": [
+     {
+      "r": "GŁ",
+      "role": "Sędzia główny",
+      "name": "Tobias Reichel",
+      "nat": "GER"
+     },
+     {
+      "r": "VAR",
+      "role": "Sędzia VAR",
+      "name": "Tobias Welz",
+      "nat": "GER"
+     }
+    ]
    },
    {
     "id": "BL-2026-27-R8-SCH-RBL",
@@ -3073,7 +3148,7 @@
       "home": 3,
       "away": 4
      },
-     "stakes": "16. (6 pkt) vs 5. (12 pkt). Tydzień pucharowy: 28.10 18:00 DFB-Pokal: Dynamo Drezno – Schalke; 27.10 18:00 DFB-Pokal: RW Essen – Leipzig."
+     "stakes": "16. (6 pkt) vs 5. (12 pkt). DFB-Pokal: 28.10 Dynamo Drezno – Schalke 2:0 (Schalke odpadło); 27.10 RW Essen – Lipsk 1:2 (Lipsk od 44' w dziesiątkę po żółto-czerwonej Seiwalda, 2 gole Baumgartnera w 78' i 82')."
     },
     "tip": {
      "decision": "NO BET",
@@ -3083,7 +3158,21 @@
       "Brak wiarygodnych kursów na rynki poboczne (gole, BTTS, handicap, kartki, rożne) z jednego, sprawdzonego źródła – nie wyceniam ich na siłę.",
       "Mecz po tygodniu pucharowym (dni odpoczynku 3 / 4); składy i rotacja niepotwierdzone."
      ]
-    }
+    },
+    "officials": [
+     {
+      "r": "GŁ",
+      "role": "Sędzia główny",
+      "name": "Max Burda",
+      "nat": "GER"
+     },
+     {
+      "r": "VAR",
+      "role": "Sędzia VAR",
+      "name": "Günter Perl",
+      "nat": "GER"
+     }
+    ]
    },
    {
     "id": "BL-2026-27-R8-BAY-BVB",
@@ -3108,29 +3197,51 @@
       "home": 3,
       "away": 4
      },
-     "stakes": "1. vs 2. – obie po 17 pkt; bezpośrednie starcie o fotel lidera. Bayern gra w środę 28.10 (20:45) z Magdeburgiem w Pucharze, BVB grał we wtorek.",
+     "stakes": "1. vs 2. – obie po 17 pkt; bezpośrednie starcie o fotel lidera. Bayern w środę 28.10 6:1 z Magdeburgiem w Pucharze (rotacja: Kane na ławce, bez Kimmicha, Neuera, Musiali). BVB we wtorek 3:2 z Werderem (Sabitzer 90+3').",
      "injuries": {
       "home": [
-       "Jamal Musiala (naderwanie mięśnia uda – wg Sky możliwy powrót przy Magdeburgu lub BVB, niepotwierdzony)",
-       "Manuel Neuer (problemy ze stopą – stan na 19.10, status niepewny)"
+       "Manuel Neuer (podrażnienie ścięgna w stopie – wg fcbinside/spox powrót możliwy na BVB, niepotwierdzony)",
+       "Luis Díaz (naderwanie włókien mięśnia uda – kilka tygodni)",
+       "Jamal Musiala (uraz uda – nie trenował z drużyną, występ niepewny)",
+       "Aleksandar Pavlović (wraca do treningów, niepewny)",
+       "Tarek Buchmann"
       ],
-      "away": []
+      "away": [
+       "Emre Can",
+       "Giannis Konstantelias",
+       "Justin Lerma"
+      ]
      },
      "suspensions": {
       "home": [],
       "away": []
      },
-     "homeAway": "Bayern: 25:6 w 7 meczach, 5W 2R. BVB: najlepsza obrona ligi (4 stracone), bez porażki (5W 2R). BVB w pucharze 3:2 z Werderem (gol Sabitzera w 90+3'). Trener Vincent Kompany po zasłabnięciu na treningu (23.10) – wg Maxa Eberla nieobecny przez kilka tygodni."
+     "homeAway": "Bayern: 25:6 w 7 meczach (18 goli w 3 meczach u siebie). BVB: najlepsza obrona ligi (4 stracone), bez porażki, na wyjazdach 2W 1R. Trener Vincent Kompany (podrażnienie opon mózgowych) wypisany ze szpitala 28.10, ale wg Sport1 nie poprowadzi drużyny w sobotę – na ławce Aaron Danks. Joshua Kimmich (pauza z powodów osobistych) – wg spox powrót na BVB „bardzo możliwy”."
     },
     "tip": {
      "decision": "NO BET",
      "reasons": [
-      "Kurs 1,37 na Bayern = ok. 70% po marży – przy nieobecności trenera Kompany'ego, środowym meczu pucharowym i najlepszej obronie ligi po stronie BVB nie widzę podstaw, by ocenić Bayern wyżej.",
-      "Remis 6,00 / BVB 7,50 – BVB bez porażki, ale moja ocena szans (ok. 12–14% na wygraną) jest zbliżona do rynku; brak dodatniego EV.",
-      "Wettbasis proponuje BVB +1 (AH) po 2,60 – kurs od pojedynczego bukmachera, bez możliwości weryfikacji; nie typuję.",
-      "Niepewny status Musiali i Neuera oraz brak potwierdzonych składów – zbyt duża niepewność."
+      "Kurs 1,37 na Bayern = ok. 70% po marży – bez trenera Kompany'ego (Danks na ławce), z niepewnym Neuerem i Musialą oraz przeciw najlepszej obronie ligi nie widzę podstaw do wyższej oceny.",
+      "Remis 6,00 / BVB 7,50 – moja ocena wygranej BVB ok. 12–14%, zbliżona do rynku; brak dodatniego EV.",
+      "Over 3,5 po 1,67 (bet365, Wettbasis) wycenia ok. 60% – przy oczekiwanych ok. 3,3 golach rozkład Poissona daje ok. 42%; EV ujemne.",
+      "Bayern rotował w środę (Kane na ławce) – plus dla świeżości, ale składy niepotwierdzone."
      ]
-    }
+    },
+    "officials": [
+     {
+      "r": "GŁ",
+      "role": "Sędzia główny",
+      "name": "Tobias Stieler",
+      "nat": "GER"
+     },
+     {
+      "r": "VAR",
+      "role": "Sędzia VAR",
+      "name": "Matthias Jöllenbeck",
+      "nat": "GER"
+     }
+    ],
+    "notes": "Sędzia Tobias Stieler zastąpił kontuzjowanego Daniela Sieberta."
    },
    {
     "id": "BL-2026-27-R8-UNI-KOE",
@@ -3155,7 +3266,30 @@
       "home": 5,
       "away": 5
      },
-     "stakes": "17. (6 pkt) vs 12. (8 pkt). Tydzień pucharowy: 27.10 20:45 DFB-Pokal: Köln – Union; 27.10 20:45 DFB-Pokal: Köln – Union."
+     "stakes": "17. (6 pkt) vs 12. (8 pkt). 27.10 DFB-Pokal: Köln – Union 5:0 (2× El Mala, Maina, Johannesson, Sebulonsen) – rewanż w lidze 5 dni później w Berlinie."
+    },
+    "officials": [
+     {
+      "r": "GŁ",
+      "role": "Sędzia główny",
+      "name": "Richard Hempel",
+      "nat": "GER"
+     },
+     {
+      "r": "VAR",
+      "role": "Sędzia VAR",
+      "name": "Patrick Hanslbauer",
+      "nat": "GER"
+     }
+    ],
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Kursy ok. 2,50 / 3,70 / 2,65 (oddschecker) – po zdjęciu marży ok. 39% / 26% / 36%; moja ocena nie odbiega od rynku, EV ≤ 0 na 1X2 i DNB.",
+      "Over 2,5 po 1,67 (bet365, Wettbasis) wycenia ok. 60% – przy bilansach 6:18 (Union) i 8:11 (Köln) oraz Kolonii bez gola w lidze od ponad 180 minut nie widzę podstaw, by ocenić over wyżej.",
+      "BTTS Nie ok. 2,37 i under 2,5 ok. 2,20 (sportwetten24, pojedyncze oferty, sprzed pucharu) – bez weryfikacji w porównywarce; nie typuję.",
+      "Pucharowe 5:0 Kolonii sprzed 5 dni to jeden mecz w innych rozgrywkach i na innym stadionie – nie opieram typu na ostatnim wyniku."
+     ]
     }
    },
    {
@@ -3181,7 +3315,30 @@
       "home": 5,
       "away": 5
      },
-     "stakes": "14. (8 pkt) vs 11. (9 pkt). Tydzień pucharowy: 27.10 18:00 DFB-Pokal: HSV – Eintracht; 27.10 18:00 DFB-Pokal: HSV – Eintracht."
+     "stakes": "14. (8 pkt) vs 11. (9 pkt). 27.10 DFB-Pokal: HSV – Eintracht 1:3 (0:0 do przerwy) – rewanż w lidze 5 dni później we Frankfurcie."
+    },
+    "officials": [
+     {
+      "r": "GŁ",
+      "role": "Sędzia główny",
+      "name": "Florian Exner",
+      "nat": "GER"
+     },
+     {
+      "r": "VAR",
+      "role": "Sędzia VAR",
+      "name": "Katrin Rafalski",
+      "nat": "GER"
+     }
+    ],
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Kursy 1,70 / 4,33 / 4,50 (oddschecker) – po zdjęciu marży ok. 57% / 22% / 21%; moja ocena dla Eintrachtu w okolicach 55–58%, brak dodatniego EV.",
+      "Eintracht w lidze traci dużo (10:17 w 7 meczach), HSV słabo atakuje (6:16) – sprzeczne sygnały dla rynku goli; under 3,5 po 1,78 (Betano, Wettbasis) to pojedyncza oferta bez weryfikacji w porównywarce – nie wyceniam go na siłę.",
+      "Wygrana 3:1 Eintrachtu w Hamburgu we wtorek (Puchar) – nie przenoszę wprost na ligę; brak potwierdzonych informacji o kontuzjach obu drużyn.",
+      "Zbyt duża niepewność na typ o ocenie ≥ 6."
+     ]
     }
    }
   ],

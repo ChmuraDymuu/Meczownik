@@ -1,9 +1,9 @@
 {
- "updated": "2026-10-28T05:54:09+01:00",
+ "updated": "2026-10-29T06:30:00+01:00",
  "season": "2026/27",
  "competition": "Serie A",
  "currentRound": 9,
- "note": "Źródła: ESPN, OA Sport, spettacolomusicasport.com, Football Italia (wyniki i gole 27.10), Fantacalcio.it (sędziowie 9. kolejki), Sky Sport, Virgilio Sport, Pianetafanta, Italpress, Fantamaster (wcześniejsze dane), oddslot/BC.Game, footballpredictions.com, commentierecensioni/Snai, thefootballfaithful (kursy). Mecze z 27.10 bez pełnych składów i statystyk. Tabela po meczach z 27.10 (SAS, LAZ, ROM, CAG, TOR, COM po 9 meczów, reszta po 8). Godziny w czasie polskim (= włoskim).",
+ "note": "Źródła: Football Italia (składy/zmiany/kartki 28.10), OA Sport, ANSA, beIN Sports, Radio Marte, LaPresse (wyniki i gole 28.10), Fanpage (terminarz 10. kolejki), oddslot/BC.Game (kursy 10. kolejki), Lazionews (absencje Lazio–Cagliari), Docsports, Wikipedia; wcześniejsze dane: ESPN, Sky Sport, Fantacalcio.it, Fantamaster, footballpredictions.com, Snai/commentierecensioni.",
  "teams": {
   "ATA": {
    "id": "ATA",
@@ -188,6 +188,17 @@
  },
  "table": [
   {
+   "team": "INT",
+   "p": 9,
+   "w": 8,
+   "d": 1,
+   "l": 0,
+   "gf": 25,
+   "ga": 10,
+   "pts": 25,
+   "form": "DWWWW"
+  },
+  {
    "team": "LAZ",
    "p": 9,
    "w": 8,
@@ -197,17 +208,6 @@
    "ga": 7,
    "pts": 25,
    "form": "WWWWW"
-  },
-  {
-   "team": "INT",
-   "p": 8,
-   "w": 7,
-   "d": 1,
-   "l": 0,
-   "gf": 23,
-   "ga": 10,
-   "pts": 22,
-   "form": "WDWWW"
   },
   {
    "team": "ROM",
@@ -233,14 +233,25 @@
   },
   {
    "team": "MIL",
-   "p": 8,
+   "p": 9,
    "w": 5,
    "d": 3,
-   "l": 0,
-   "gf": 16,
-   "ga": 7,
+   "l": 1,
+   "gf": 18,
+   "ga": 11,
    "pts": 18,
-   "form": "DWDWW"
+   "form": "WDWWL"
+  },
+  {
+   "team": "NAP",
+   "p": 9,
+   "w": 4,
+   "d": 2,
+   "l": 3,
+   "gf": 17,
+   "ga": 11,
+   "pts": 14,
+   "form": "DWLDW"
   },
   {
    "team": "FRO",
@@ -255,14 +266,14 @@
   },
   {
    "team": "JUV",
-   "p": 8,
+   "p": 9,
    "w": 4,
    "d": 2,
-   "l": 2,
+   "l": 3,
    "gf": 11,
-   "ga": 8,
+   "ga": 10,
    "pts": 14,
-   "form": "LWDLW"
+   "form": "WDLWL"
   },
   {
    "team": "TOR",
@@ -287,15 +298,15 @@
    "form": "WDLLL"
   },
   {
-   "team": "NAP",
-   "p": 8,
+   "team": "BOL",
+   "p": 9,
    "w": 3,
    "d": 2,
-   "l": 3,
-   "gf": 13,
-   "ga": 10,
+   "l": 4,
+   "gf": 12,
+   "ga": 12,
    "pts": 11,
-   "form": "WDWLD"
+   "form": "DWLWW"
   },
   {
    "team": "ATA",
@@ -309,6 +320,17 @@
    "form": "LLWLD"
   },
   {
+   "team": "GEN",
+   "p": 9,
+   "w": 3,
+   "d": 1,
+   "l": 5,
+   "gf": 8,
+   "ga": 13,
+   "pts": 10,
+   "form": "LWLWW"
+  },
+  {
    "team": "LEC",
    "p": 8,
    "w": 3,
@@ -318,17 +340,6 @@
    "ga": 14,
    "pts": 9,
    "form": "WLLWL"
-  },
-  {
-   "team": "BOL",
-   "p": 8,
-   "w": 2,
-   "d": 2,
-   "l": 4,
-   "gf": 8,
-   "ga": 10,
-   "pts": 8,
-   "form": "LDWLW"
   },
   {
    "team": "SAS",
@@ -343,36 +354,36 @@
   },
   {
    "team": "MON",
-   "p": 8,
+   "p": 9,
    "w": 2,
    "d": 1,
-   "l": 5,
-   "gf": 15,
-   "ga": 18,
+   "l": 6,
+   "gf": 16,
+   "ga": 22,
    "pts": 7,
-   "form": "LWLWL"
-  },
-  {
-   "team": "GEN",
-   "p": 8,
-   "w": 2,
-   "d": 1,
-   "l": 5,
-   "gf": 6,
-   "ga": 13,
-   "pts": 7,
-   "form": "DLWLW"
+   "form": "WLWLL"
   },
   {
    "team": "UDI",
-   "p": 8,
+   "p": 9,
    "w": 1,
-   "d": 1,
+   "d": 2,
    "l": 6,
    "gf": 9,
    "ga": 18,
-   "pts": 4,
-   "form": "LLLLL"
+   "pts": 5,
+   "form": "LLLLD"
+  },
+  {
+   "team": "PAR",
+   "p": 9,
+   "w": 1,
+   "d": 2,
+   "l": 6,
+   "gf": 5,
+   "ga": 15,
+   "pts": 5,
+   "form": "WLLLD"
   },
   {
    "team": "FIO",
@@ -386,31 +397,20 @@
    "form": "WDLLL"
   },
   {
-   "team": "PAR",
-   "p": 8,
-   "w": 1,
-   "d": 1,
-   "l": 6,
-   "gf": 5,
-   "ga": 15,
-   "pts": 4,
-   "form": "LWLLL"
-  },
-  {
    "team": "VEN",
-   "p": 8,
+   "p": 9,
    "w": 1,
    "d": 0,
-   "l": 7,
+   "l": 8,
    "gf": 6,
-   "ga": 17,
+   "ga": 19,
    "pts": 3,
-   "form": "LLLWL"
+   "form": "LLWLL"
   }
  ],
  "picks": [
   {
-   "match": "SA-2026-27-R9-MIL-BOL",
+   "match": "SA-2026-27-R10-BOL-MON",
    "rank": 1
   }
  ],
@@ -4983,7 +4983,7 @@
     "time": "18:30",
     "home": "MIL",
     "away": "BOL",
-    "status": "ns",
+    "status": "ft",
     "odds": {
      "src": "BC.Game wg oddslot (1X2, podwójna szansa, stan 28.10); powyżej 2,5 – oddslot (1,83); poniżej 2,5 i BTTS nie – footballpredictions.com (+100, bukmacher nieokreślony)",
      "1": 1.62,
@@ -5072,7 +5072,53 @@
       "name": "Sacchi",
       "nat": "ITA"
      }
-    ]
+    ],
+    "score": [
+     2,
+     4
+    ],
+    "events": [
+     {
+      "m": 8,
+      "t": "goal",
+      "s_": "a",
+      "who": "Samuel Mbangula",
+      "as": "Nadir Zortea"
+     },
+     {
+      "m": 14,
+      "t": "goal",
+      "s_": "h",
+      "who": "Alphadjo Cissé"
+     },
+     {
+      "m": 27,
+      "t": "goal",
+      "s_": "h",
+      "who": "Alphadjo Cissé"
+     },
+     {
+      "m": 60,
+      "t": "og",
+      "s_": "a",
+      "who": "Davide Bartesaghi"
+     },
+     {
+      "m": 61,
+      "t": "goal",
+      "s_": "a",
+      "who": "Samuel Mbangula",
+      "as": "Juan Miranda"
+     },
+     {
+      "m": 86,
+      "t": "goal",
+      "s_": "a",
+      "who": "Samuel Mbangula",
+      "as": "Jens Odgaard"
+     }
+    ],
+    "notes": "Hat-trick Mbanguli; Bologna odrobiła straty z 1:2 po przerwie. Samobój Bartesaghiego po rzucie wolnym rezerwowego Juana Mirandy, który asystował też przy drugim golu Mbanguli. Pierwsza ligowa porażka Milanu w sezonie."
    },
    {
     "id": "SA-2026-27-R9-PAR-UDI",
@@ -5080,7 +5126,7 @@
     "time": "18:30",
     "home": "PAR",
     "away": "UDI",
-    "status": "ns",
+    "status": "ft",
     "odds": {
      "src": "Snai/kursy wg commentierecensioni.com (1X2, podwójna szansa) + rynki bramkowe wg footballpredictions.com / Betfred, William Hill (thefootballfaithful) – stan na 26–27.10.2026; under 2,5, BTTS, 1X – footballpredictions.com (28.10)",
      "2": 2.5,
@@ -5143,7 +5189,13 @@
       "name": "Massa",
       "nat": "ITA"
      }
-    ]
+    ],
+    "score": [
+     0,
+     0
+    ],
+    "events": [],
+    "notes": "Bezbramkowy remis w meczu dołu tabeli."
    },
    {
     "id": "SA-2026-27-R9-VEN-INT",
@@ -5151,7 +5203,7 @@
     "time": "18:30",
     "home": "VEN",
     "away": "INT",
-    "status": "ns",
+    "status": "ft",
     "odds": {
      "src": "Snai/kursy wg commentierecensioni.com (1X2, podwójna szansa) + rynki bramkowe wg footballpredictions.com / Betfred, William Hill (thefootballfaithful) – stan na 26–27.10.2026; over 2,5 i BTTS – footballpredictions.com (28.10)",
      "2": 1.33,
@@ -5165,12 +5217,6 @@
      "capacity": 12048
     },
     "staff": {
-     "home": [
-      [
-       "Trener",
-       "Giovanni Stroppa"
-      ]
-     ],
      "away": [
       [
        "Trener",
@@ -5249,7 +5295,88 @@
       "name": "Volpi",
       "nat": "ITA"
      }
-    ]
+    ],
+    "score": [
+     0,
+     2
+    ],
+    "events": [
+     {
+      "m": 28,
+      "t": "yc",
+      "s_": "a",
+      "who": "Alessandro Bastoni"
+     },
+     {
+      "m": 56,
+      "t": "yc",
+      "s_": "a",
+      "who": "Nicolò Barella"
+     },
+     {
+      "m": 61,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Gianluca Busio",
+      "out": "Kike Pérez"
+     },
+     {
+      "m": 65,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Francesco Pio Esposito",
+      "out": "Ange-Yoan Bonny"
+     },
+     {
+      "m": 68,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Toma Bašić",
+      "out": "Thórir Helgason"
+     },
+     {
+      "m": 68,
+      "t": "sub",
+      "s_": "h",
+      "inn": "John Yeboah",
+      "out": "Lion Lauberbach"
+     },
+     {
+      "m": 71,
+      "t": "var",
+      "s_": "h",
+      "kind": "Bramka – spalony",
+      "init": "Gol (Akor Adams)",
+      "fin": "Gol anulowany"
+     },
+     {
+      "m": 76,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Ridgeciano Haps",
+      "out": "Pasquale Mazzocchi"
+     },
+     {
+      "m": 79,
+      "t": "og",
+      "s_": "a",
+      "who": "Matías Moreno"
+     },
+     {
+      "m": 82,
+      "t": "og",
+      "s_": "a",
+      "who": "Redouane Halhal"
+     },
+     {
+      "m": 86,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Djed Spence",
+      "out": "Marcus Thuram"
+     }
+    ],
+    "notes": "Dwa samobóje Venezii w końcówce (Moreno, Halhal po główce Carlosa Augusto z rożnego Calhanoglu). Venezii anulowano dwa gole ze spalonego (Lauberbach po VAR, Adams w 71.). W przerwie Inter wprowadził Calhanoglu, Barellę i Akanjiego. Inter zrównał się punktami z Lazio."
    },
    {
     "id": "SA-2026-27-R9-GEN-JUV",
@@ -5257,7 +5384,7 @@
     "time": "20:45",
     "home": "GEN",
     "away": "JUV",
-    "status": "ns",
+    "status": "ft",
     "odds": {
      "src": "Snai/kursy wg commentierecensioni.com (1X2, podwójna szansa) + rynki bramkowe wg footballpredictions.com / Betfred, William Hill (thefootballfaithful) – stan na 26–27.10.2026; under 2,5, BTTS nie, DNB 2 – footballpredictions.com (28.10)",
      "2": 1.72,
@@ -5335,7 +5462,103 @@
       "name": "Doveri",
       "nat": "ITA"
      }
-    ]
+    ],
+    "score": [
+     2,
+     0
+    ],
+    "events": [
+     {
+      "m": 12,
+      "t": "goal",
+      "s_": "h",
+      "who": "Kingsley Ehizibue",
+      "as": "Tommaso Baldanzi"
+     },
+     {
+      "m": 28,
+      "t": "goal",
+      "s_": "h",
+      "who": "Tommaso Baldanzi"
+     },
+     {
+      "m": 41,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Mario Mitaj",
+      "out": "Mikael Egill Ellertsson"
+     },
+     {
+      "m": 46,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Nick Woltemade",
+      "out": "Kerim Alajbegović"
+     },
+     {
+      "m": 46,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Edon Zhegrova",
+      "out": "Federico Gatti"
+     },
+     {
+      "m": 59,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Jeremie Boga",
+      "out": "Pape Matar Sarr"
+     },
+     {
+      "m": 59,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Juan Cabal",
+      "out": "Andrea Cambiaso"
+     },
+     {
+      "m": 69,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Franz-Ethan Meichtry",
+      "out": "Tommaso Baldanzi"
+     },
+     {
+      "m": 69,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Junior Messias",
+      "out": "Vitinha"
+     },
+     {
+      "m": 70,
+      "t": "yc",
+      "s_": "a",
+      "who": "Edon Zhegrova"
+     },
+     {
+      "m": 77,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Teun Koopmeiners",
+      "out": "Douglas Luiz"
+     },
+     {
+      "m": 82,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Lorenzo Colombo",
+      "out": "Milutin Osmajić"
+     },
+     {
+      "m": 82,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Samuel Wiafe",
+      "out": "Amorim"
+     }
+    ],
+    "notes": "Obie bramki przed przerwą; Baldanzi gol + asysta. Trzecia porażka Juventusu w 9 kolejkach. Wyjściowe składy wg Football Italia – Genoa: Bijlow; Marcandalli, Vásquez, Ehizibue, Østigård; Amorim, Frendrup, Baldanzi; Ellertsson, Osmajić, Vitinha. Juventus: Vicario; Cambiaso, Bremer, Gatti, Lucumí, Kalulu; Douglas Luiz, Sarr, McKennie; Alajbegović, Kolo Muani."
    },
    {
     "id": "SA-2026-27-R9-MON-NAP",
@@ -5343,7 +5566,7 @@
     "time": "20:45",
     "home": "MON",
     "away": "NAP",
-    "status": "ns",
+    "status": "ft",
     "odds": {
      "src": "BC.Game wg oddslot (1X2, podwójna szansa, 28.10); over 2,5, BTTS, DNB – footballpredictions.com (28.10, bukmacher nieokreślony)",
      "1": 4.5,
@@ -5362,16 +5585,10 @@
      "capacity": 17102
     },
     "staff": {
-     "home": [
-      [
-       "Trener",
-       "Ivan Jurić"
-      ]
-     ],
      "away": [
       [
-       "Trener",
-       "Massimiliano Allegri"
+       "Trener (zastępca, Allegri zawieszony)",
+       "Marco Landucci"
       ]
      ]
     },
@@ -5409,7 +5626,58 @@
       "name": "Ayroldi",
       "nat": "ITA"
      }
-    ]
+    ],
+    "score": [
+     1,
+     4
+    ],
+    "events": [
+     {
+      "m": 10,
+      "t": "goal",
+      "s_": "a",
+      "who": "Rasmus Højlund",
+      "as": "Giovanni Di Lorenzo"
+     },
+     {
+      "m": 17,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Billy Gilmour",
+      "out": "Stanislav Lobotka",
+      "why": "Uraz kostki"
+     },
+     {
+      "m": 43,
+      "t": "goal",
+      "s_": "h",
+      "who": "Varela",
+      "as": "Robinson",
+      "how": "Głowa"
+     },
+     {
+      "m": 74,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Antov",
+      "out": "Lucchesi"
+     },
+     {
+      "m": 82,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Lorenzo Lucca",
+      "out": "Rasmus Højlund"
+     },
+     {
+      "m": 88,
+      "t": "yc",
+      "s_": "h",
+      "who": "Colombo",
+      "why": "Faul na McTominayu"
+     }
+    ],
+    "notes": "Po przerwie gole Politano (ok. 48.), Rafy Marína (głową po rożnym Politano) i De Bruyne (as. Lang) – źródła podają rozbieżne minuty dwóch ostatnich goli, dlatego nie ma ich na osi czasu. Lobotka zniesiony na noszach w 17. min (kostka, po starciu z Mangasem). Allegri oglądał mecz z trybun."
    },
    {
     "id": "SA-2026-27-R9-FRO-LEC",
@@ -5572,6 +5840,55 @@
      "name": "Stadio Renato Dall'Ara",
      "city": "Bolonia",
      "capacity": 38279
+    },
+    "odds": {
+     "src": "BC.Game wg oddslot (stan na 29.10.2026); powyżej 1,5 gola 1,28 – oddslot, bukmacher nieokreślony",
+     "1": 1.75,
+     "X": 3.5,
+     "2": 4.75,
+     "1X": 1.18,
+     "12": 1.28,
+     "X2": 2.0
+    },
+    "info": {
+     "injuries": {
+      "home": [
+       "Holm (do 29.01)",
+       "Orsolini (do 3.11)",
+       "Piccoli (do 7.11)"
+      ],
+      "away": []
+     },
+     "restDays": {
+      "home": 3,
+      "away": 3
+     },
+     "stakes": "Bologna (11 pkt) po dwóch wygranych z rzędu, w tym 4:2 na San Siro; Monza (7 pkt) po 1:4 u siebie z Napoli.",
+     "homeAway": "Mecze Monzy w sezonie: 38 goli w 9 kolejkach (16:22, ok. 4,2/mecz), m.in. 1:4, 2:3, 2:1, 4:0, 2:3, 1:4. Mecze Bologny: 24 gole w 9 (12:12), u siebie m.in. 1:3, 0:1, 2:2, 1:1."
+    },
+    "tip": {
+     "decision": "BET",
+     "market": "Powyżej 1,5 gola",
+     "odds": 1.28,
+     "prob": 0.83,
+     "ev": 0.062,
+     "rating": 6,
+     "risk": "niskie",
+     "reasons": [
+      "Mecze Monzy średnio ok. 4,2 gola – w każdym znanym wyniku tego sezonu padły co najmniej 2 gole (suma 3 pozostałych meczów: 11 goli)",
+      "Monza traci 2,4 gola/mecz (22 w 9) – najgorsza obrona w lidze obok Sassuolo",
+      "Bologna złapała skuteczność: 4 gole na San Siro i 2:0 w Cagliari w poprzedniej kolejce",
+      "Monza strzela regularnie (16 goli, gol m.in. w Mediolanie z Interem i z Napoli) – wystarczy po golu z każdej strony",
+      "Rynek 1X2 (Bologna 1,75) obciążony brakiem Orsoliniego, Piccolego i Holma – rynek bramkowy mniej wrażliwy na składy",
+      "Wysokie prawdopodobieństwo przy umiarkowanym kursie – przewaga ok. 5 pkt proc. nad ceną rynku"
+     ],
+     "risks": [
+      "Kurs 1,28 z jednego źródła bez wskazanego bukmachera – sprawdzić przed grą",
+      "Bologna u siebie gra ostrożnie (m.in. 0:1, 1:1) i bez Piccolego/Orsoliniego",
+      "Niski kurs – jedna wpadka niweluje zysk z kilku trafień"
+     ],
+     "value": "Kurs 1,28 wycenia szansę na ok. 78%, mój szacunek ok. 83% → EV ok. +6%.",
+     "stake": "1% bankrollu"
     }
    },
    {
@@ -5585,6 +5902,31 @@
      "name": "Bluenergy Stadium",
      "city": "Udine",
      "capacity": 25132
+    },
+    "odds": {
+     "src": "BC.Game wg oddslot (stan na 29.10.2026)",
+     "1": 5.5,
+     "X": 3.9,
+     "2": 1.57,
+     "1X": 2.4,
+     "12": 1.22,
+     "X2": 1.18
+    },
+    "info": {
+     "restDays": {
+      "home": 3,
+      "away": 4
+     },
+     "stakes": "Roma (21 pkt) bez porażki w lidze (6-3-0, 23:8); Udinese (5 pkt) 1 wygrana w 9 meczach, ostatnio 0:0 w Parmie po serii porażek."
+    },
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Roma 1,57 (64% z kursu) – szacunek ok. 64–66%, EV ok. +1–3% – za mało przy jednym źródle kursów",
+      "Brak potwierdzonych informacji o kontuzjach przed meczem",
+      "Roma zagra 4 dni po meczu z Cagliari, a w kolejnym tygodniu puchary – możliwa rotacja",
+      "Brak kursów na rynkach bramkowych"
+     ]
     }
    },
    {
@@ -5598,6 +5940,46 @@
      "name": "San Siro",
      "city": "Mediolan",
      "capacity": 75710
+    },
+    "odds": {
+     "src": "BC.Game wg oddslot (stan na 29.10.2026)",
+     "1": 3.2,
+     "X": 3.6,
+     "2": 2.1,
+     "1X": 1.78,
+     "12": 1.27,
+     "X2": 1.36
+    },
+    "info": {
+     "injuries": {
+      "home": [
+       "P. Terracciano",
+       "Gabbia (do 13.01)",
+       "Chukwueze",
+       "Loftus-Cheek",
+       "Saelemaekers (do 8.02)"
+      ],
+      "away": [
+       "Lautaro Martínez (do 22.11)",
+       "Pavard (do 5.11)",
+       "Stones",
+       "Luis Henrique"
+      ]
+     },
+     "restDays": {
+      "home": 3,
+      "away": 3
+     },
+     "stakes": "Derby Mediolanu. Inter (25 pkt) ex aequo z Lazio na czele; Milan (18 pkt) po pierwszej porażce w sezonie (2:4 z Bologną)."
+    },
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Inter 2,10 (48%) bez Lautaro i Pavarda; z Venezią wygrał dzięki dwóm samobójom w końcówce",
+      "Milan po 2:4 z Bologną – forma niejasna, ale u siebie wcześniej bez porażki",
+      "Derby – wysoka zmienność, brak rynku z wyraźną przewagą",
+      "Brak kursów bramkowych z wiarygodnego źródła"
+     ]
     }
    },
    {
@@ -5611,6 +5993,31 @@
      "name": "Stadio Giuseppe Sinigaglia",
      "city": "Como",
      "capacity": 13602
+    },
+    "odds": {
+     "src": "BC.Game wg oddslot (stan na 29.10.2026)",
+     "1": 1.3,
+     "X": 5.5,
+     "2": 9.5,
+     "1X": 1.08,
+     "12": 1.17,
+     "X2": 3.25
+    },
+    "info": {
+     "restDays": {
+      "home": 5,
+      "away": 4
+     },
+     "stakes": "Como (20 pkt, 4. miejsce) po 3:1 w Turynie; Venezia ostatnia (3 pkt), bez gola w dwóch ostatnich meczach.",
+     "homeAway": "Como w 5 ostatnich: 4 wygrane, 14:6; Venezia: 1 wygrana, 2:8."
+    },
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Como 1,30 (77% z kursu) – szacunek ok. 76–78%, brak przewagi",
+      "Rynki Como -1 / czyste konto bez kursów",
+      "Niski kurs nie rekompensuje ryzyka"
+     ]
     }
    },
    {
@@ -5624,6 +6031,30 @@
      "name": "Stadio Benito Stirpe",
      "city": "Frosinone",
      "capacity": 16227
+    },
+    "odds": {
+     "src": "BC.Game wg oddslot (stan na 29.10.2026)",
+     "1": 2.15,
+     "X": 3.6,
+     "2": 3.0,
+     "1X": 1.36,
+     "12": 1.28,
+     "X2": 1.67
+    },
+    "info": {
+     "restDays": {
+      "home": 3,
+      "away": 5
+     },
+     "stakes": "Frosinone gra 29.10 z Lecce, Torino 27.10 przegrało 1:3 z Como."
+    },
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Frosinone gra trzy dni wcześniej – wynik i obciążenie nieznane",
+      "Kursy 1X2 bliskie realnym szansom",
+      "Brak danych o kontuzjach przed meczem"
+     ]
     }
    },
    {
@@ -5637,6 +6068,50 @@
      "name": "Stadio Olimpico",
      "city": "Rzym",
      "capacity": 70634
+    },
+    "odds": {
+     "src": "BC.Game wg oddslot (stan na 29.10.2026); poniżej 2,5 (1,99) i BTTS tak (2,06) – oddslot, bukmacher nieokreślony",
+     "1": 1.42,
+     "X": 4.33,
+     "2": 7.0,
+     "1X": 1.12,
+     "12": 1.2,
+     "X2": 2.8,
+     "u25": 1.99,
+     "bttsY": 2.06
+    },
+    "info": {
+     "injuries": {
+      "home": [
+       "Gudmundsson"
+      ],
+      "away": [
+       "Idrissi",
+       "Winks",
+       "Felici"
+      ]
+     },
+     "restDays": {
+      "home": 4,
+      "away": 4
+     },
+     "stakes": "Lazio (25 pkt) bez porażki (8-1-0), ostatnio 6:2 w Sassuolo; Cagliari (13 pkt) 3 porażki z rzędu, ostatnio 2:4 z Romą.",
+     "h2h": [
+      "2024-11-05 LAZ 2:1 CAG",
+      "2023-12-03 LAZ 1:0 CAG",
+      "2022-03-06 CAG 0:3 LAZ",
+      "2021-09-20 LAZ 2:2 CAG",
+      "2021-02-08 LAZ 1:0 CAG"
+     ]
+    },
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Lazio 1,42 (70% z kursu) – szacunek ok. 68–70%, EV ≈ 0",
+      "Lazio wg części danych punktuje ponad xG – ryzyko regresji",
+      "Poniżej 2,5 po 1,99 sprzeczne z ostatnimi wynikami obu drużyn (6:2, 2:4)",
+      "Brak rynku z dodatnim EV"
+     ]
     }
    },
    {
@@ -5650,6 +6125,30 @@
      "name": "Stadio Via del Mare",
      "city": "Lecce",
      "capacity": 30354
+    },
+    "odds": {
+     "src": "BC.Game wg oddslot (stan na 29.10.2026)",
+     "1": 2.62,
+     "X": 3.1,
+     "2": 2.7,
+     "1X": 1.44,
+     "12": 1.36,
+     "X2": 1.44
+    },
+    "info": {
+     "restDays": {
+      "home": 3,
+      "away": 4
+     },
+     "stakes": "Genoa (10 pkt) po 2:0 z Juventusem; Lecce (9 pkt) gra 29.10 we Frosinone."
+    },
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Wyrównane kursy, Lecce gra w czwartek – wynik i rotacja nieznane",
+      "Brak kursów bramkowych",
+      "Zbyt duża niepewność"
+     ]
     }
    },
    {
@@ -5663,6 +6162,47 @@
      "name": "Allianz Stadium",
      "city": "Turyn",
      "capacity": 41507
+    },
+    "odds": {
+     "src": "BC.Game wg oddslot (stan na 29.10.2026); powyżej 2,5 (1,94) – oddslot, bukmacher nieokreślony",
+     "1": 1.8,
+     "X": 3.6,
+     "2": 4.2,
+     "1X": 1.25,
+     "12": 1.29,
+     "X2": 1.95,
+     "o25": 1.94
+    },
+    "info": {
+     "injuries": {
+      "home": [
+       "Grabara",
+       "Çelik (do 18.11)",
+       "F. Conceição (do 22.11)",
+       "Locatelli (do 8.02)",
+       "K. Thuram (do 1.01)",
+       "Yıldız (do 26.11)"
+      ],
+      "away": [
+       "Lobotka (kostka, uraz z 28.10)",
+       "Favasuli (do 30.11)",
+       "Neres (do 10.11)"
+      ]
+     },
+     "restDays": {
+      "home": 4,
+      "away": 4
+     },
+     "stakes": "Obie drużyny po 14 pkt. Juventus po 0:2 w Genui (3. porażka), Napoli po 4:1 w Monzy; Allegri zawieszony w ostatnim meczu."
+    },
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Juventus 1,80 (56%) w kryzysie i bez Yıldıza, Thurama, Locatellego – kurs bez wartości",
+      "Napoli 4,20 – lepsza forma, ale bez Lobotki",
+      "Over 2,5 po 1,94 (52%) – szacunek ok. 50%",
+      "Brak rynku z przewagą"
+     ]
     }
    },
    {
@@ -5676,6 +6216,12 @@
      "name": "Mapei Stadium – Città del Tricolore",
      "city": "Sassuolo",
      "capacity": 21515
+    },
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Mecz 2.11 – poza oknem 3 dni; analiza w kolejnej aktualizacji"
+     ]
     }
    },
    {
@@ -5689,6 +6235,12 @@
      "name": "New Balance Arena",
      "city": "Bergamo",
      "capacity": 23439
+    },
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Mecz 2.11 – poza oknem 3 dni; analiza w kolejnej aktualizacji"
+     ]
     }
    }
   ]

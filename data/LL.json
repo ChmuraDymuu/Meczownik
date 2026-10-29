@@ -1,9 +1,9 @@
 {
- "updated": "2026-10-28T05:55:00+01:00",
+ "updated": "2026-10-29T05:55:00+01:00",
  "season": "2026/27",
  "competition": "LaLiga",
  "currentRound": 11,
- "note": "Źródła: laliga.com (tabela po 10. kol., terminarz), futboltotal.futbol (protokoły 10. kol.), comuniate.com (przewidywane składy 11. kol.), eldesmarque/elgoldigital/Infobae/ElNacional (Puchar Króla 27.10, zwolnienie M. Gonzáleza), Rotowire/Betr i Gainblers (DraftKings, bet365) – kursy 11. kol. z 28.10; Wincomparator/Oddslot (kursy VIL–ESP z 27.10). Sędziowie 11. kol. jeszcze nieogłoszeni. Godziny w czasie polskim.",
+ "note": "Źródła: laliga.com (tabela po 10. kol., terminarz), futboltotal.futbol (protokoły 10. kol.), Oddsportal (1X2 11. kol., 29.10), Stats Insider/bet365 (kursy na gole, 29.10), comuniate/futbolfantasy/jornadaperfecta (kontuzje, zawieszenia, przewidywane składy), Sporza/BioBioChile/Athlon (Puchar Króla – przełożenia po katastrofie kolejowej), ElNacional/mundiario (Eder Sarabia trenerem Espanyolu). Sędziowie 11. kol. jeszcze nieogłoszeni. Godziny w czasie polskim.",
  "teams": {
   "ALA": {
    "id": "ALA",
@@ -6147,19 +6147,12 @@
      "city": "Villarreal"
     },
     "odds": {
-     "src": "Wincomparator/Oddslot – przedział kursów kilkunastu bukmacherów (podana mediana/typowa wartość), stan na 27.10.2026",
-     "1": 1.52,
-     "X": 4.6,
-     "2": 5.75,
-     "1X": 1.14,
-     "X2": 2.5,
-     "12": 1.2,
-     "dnb1": 1.19,
-     "dnb2": 4.3,
-     "o25": 1.55,
-     "u25": 2.42,
-     "bttsY": 1.64,
-     "bttsN": 2.14
+     "src": "1X2: Oddsportal; gole: bet365 (via Stats Insider), stan na 29.10.2026",
+     "1": 1.46,
+     "X": 5.0,
+     "2": 7.0,
+     "o25": 1.5,
+     "u25": 2.62
     },
     "info": {
      "injuries": {
@@ -6182,8 +6175,8 @@
       "home": 3,
       "away": 3
      },
-     "homeAway": "Villarreal: ostatnie 5 – 2W 1R 2P (8:7), w tym LM: 3:4 z Liverpoolem, 3:1 z Napoli; Espanyol: ostatnie 5 – 0W 1R 4P (4:9). Puchar Króla 27.10: Manacor 0:3 Villarreal; Sestao 4:3 Espanyol po dogrywce (odpadł).",
-     "stakes": "10. Villarreal (12 pkt) vs 18. Espanyol (8 pkt, strefa spadkowa). Villarreal ma w tle Ligę Mistrzów (rotacja możliwa w kolejnym tygodniu). 27.10 Espanyol zwolnił trenera Manolo Gonzáleza po porażce w Pucharze – nowy/tymczasowy trener nieznany w źródłach.",
+     "homeAway": "Villarreal: ostatnie 5 – 2W 1R 2P (8:7), w tym LM: 3:4 z Liverpoolem, 3:1 z Napoli; Espanyol: ostatnie 5 – 0W 1R 4P (4:9). Puchar Króla: Manacor 0:5 Villarreal (wg Sporza); Sestao 4:3 Espanyol po dogrywce (odpadł).",
+     "stakes": "10. Villarreal (12 pkt) vs 18. Espanyol (8 pkt, strefa spadkowa). Debiut Edera Sarabii na ławce Espanyolu (oficjalnie 28.10, kontrakt do 2028). Villarreal ma w tle Ligę Mistrzów.",
      "h2h": [
       "2026-02-09 VIL 4:1 ESP",
       "2025-11-08 ESP 0:2 VIL",
@@ -6195,16 +6188,22 @@
     "tip": {
      "decision": "NO BET",
      "reasons": [
-      "Kurs ~1,52 na Villarreal (ok. 64% po marży) odpowiada mojej ocenie (~62–64%) – brak przewagi ≥5%.",
-      "Forma Villarrealu niestabilna (2W 1R 2P), u siebie w lidze tylko 3:3 bilans punktowy; wysoki kurs nie jest argumentem.",
-      "Espanyol w kryzysie (0 zwycięstw w 5), ale bilans bramkowy tylko −2 – nie jest zespołem rozbijanym.",
-      "Over 2,5 po 1,55 (~64%) – mecze Espanyolu średnio 2,6 gola; brak value.",
-      "H2H 6:0 dla Villarrealu – nie opieram typu na samym H2H.",
-      "Sędzia i składy nieogłoszone, niepewny Saliba, zawieszony Gueye – zbyt dużo niewiadomych dla rynków niszowych.",
-      "Aktualizacja 28.10: zmiana trenera Espanyolu (efekt „nowej miotły” lub dalszy chaos) i 120 min gry w Pucharze zwiększają niepewność – utrzymuję NO BET."
+      "Kurs 1,46 na Villarreal (~65% po marży) vs moja ocena ~62% – EV ≈ −0,09.",
+      "Espanyol 6,25–7,00 (~14–15%): zmiana trenera to czynnik niepewności, nie mierzalna przewaga.",
+      "Under 2,5 po 2,62 (~37% z kursu): prosty model Poissona daje ok. 45–48%, ale ten sam rozjazd z rynkiem występuje w niemal wszystkich meczach kolejki – traktuję to jako błąd modelu (średnia ligi ~3 gole/mecz, mała próba 10 kolejek), nie value.",
+      "Pierwszy mecz Sarabii – brak danych o jego ustawieniu i składzie; Gueye zawieszony, Saliba niepewny, Akhomach kontuzjowany.",
+      "Sędzia nieogłoszony; zbyt duża niepewność → NO BET."
      ]
     },
-    "notes": "Sędzia jeszcze nieogłoszony. Espanyol bez trenera po zwolnieniu Manolo Gonzáleza (27.10)."
+    "notes": "Sędzia jeszcze nieogłoszony (stan na 29.10 rano). Nowy trener Espanyolu: Eder Sarabia (oficjalnie 28.10).",
+    "staff": {
+     "away": [
+      [
+       "Trener",
+       "Eder Sarabia"
+      ]
+     ]
+    }
    },
    {
     "id": "LL-2026-27-R11-LEV-ATM",
@@ -6217,17 +6216,24 @@
      "name": "Ciutat de València",
      "city": "Walencja"
     },
-    "notes": "Przewidywane składy (comuniate): LEV – Ryan; Nacho Pérez, Ndukwe, De la Fuente/Mandi, Manu Sánchez; Olasagasti, Oriol Rey; Requena, Brugui, Iván Romero; Thiago Fernández. ATM – Oblak; Llorente, Pubill, Hancko, Grimaldo; G. Simeone, Barrios, Hjulmand, Baena; Kang-In Lee, J. Álvarez. Sędzia nieogłoszony.",
+    "notes": "Przewidywane składy (futbolfantasy 29.10): LEV – Ryan; Nacho Pérez/Toljan, Ndukwe, Mandi lub De la Fuente, Manu Sánchez; Requena, Olasagasti (Oriol Rey); Iván Romero, Thiago Fernández, Brugué (lub Ratkov). ATM – Oblak; Llorente, Pubill, Hancko, Grimaldo; Barrios, Hjulmand, Baena; G. Simeone/Lookman/Kang-in Lee, J. Álvarez. Sędzia nieogłoszony.",
     "odds": {
-     "src": "Rotowire – Betr (przeliczone z kursów amerykańskich), stan na 28.10.2026",
-     "1": 4.93,
-     "X": 4.22,
-     "2": 1.55
+     "src": "Oddsportal – kursy z listy meczów, stan na 29.10.2026",
+     "1": 5.2,
+     "X": 4.6,
+     "2": 1.62
     },
     "info": {
      "injuries": {
-      "home": [],
-      "away": []
+      "home": [
+       "Enzo Bardeli (dwugłowy uda)",
+       "Adrián de la Fuente (niepewny, przeciążenie)"
+      ],
+      "away": [
+       "Koke (dwugłowy uda, prawdopodobnie poza)",
+       "Johnny Cardoso (uraz mięśniowy z meczu ze Stuttgartem)",
+       "Cristian Romero (niepewny, przywodziciel)"
+      ]
      },
      "restDays": {
       "home": 6,
@@ -6235,16 +6241,20 @@
      },
      "homeAway": "Levante: 2W 4R 4P (16:19), forma LDDWL; Atlético: 8W 1R 1P (20:8), 5 zwycięstw z rzędu",
      "stakes": "14. Levante (10 pkt) vs 2. Atlético (25 pkt, 2 pkt straty do Barcelony). Atlético w Lidze Mistrzów (kolejny mecz LM na początku listopada)",
-     "h2h": []
+     "h2h": [],
+     "suspensions": {
+      "home": [],
+      "away": []
+     }
     },
     "tip": {
      "decision": "NO BET",
      "reasons": [
-      "Kurs 1,55 na Atlético ≈ 60% po usunięciu marży – moja ocena ok. 58–62%, brak przewagi.",
-      "Levante u siebie gra otwarcie (16 goli strzelonych), ale traci 1,9 gola/mecz – sugeruje over, jednak brak kursów na rynki bramkowe.",
-      "Atlético w serii 5 zwycięstw, ale 20 goli w 10 meczach – wygrane często skromne, handicap −1 bez wyceny.",
-      "Możliwa rotacja Simeone przed Ligą Mistrzów; przewidywany skład (comuniate) jednak podstawowy.",
-      "Brak potwierdzonych informacji o kontuzjach – za mało danych na rynki niszowe."
+      "Kurs 1,62 na Atlético (~59% po marży) – moja ocena 58–60%, EV ≈ −0,04.",
+      "Atlético bez Koke i Cardoso w środku pola, w tle Liga Mistrzów – możliwa rotacja.",
+      "Levante traci 1,9 gola/mecz, ale brak wiarygodnych kursów na gole/handicap.",
+      "Seria 5 wygranych Atlético nie jest argumentem samym w sobie – wygrane często skromne (20 goli w 10 meczach).",
+      "Sędzia nieogłoszony; brak przewagi → NO BET."
      ]
     }
    },
@@ -6259,24 +6269,37 @@
      "name": "Estadio de Vallecas",
      "city": "Madryt"
     },
-    "notes": "Przewidywane składy (comuniate): RAY – Audero; Balliu, Lejeune, Sadick, Pedrosa; Óscar Valentín, Unai López; De Frutos, Isi Palazón, Álvaro García; Camello. CEL – Radu; J. Rodríguez, Yoel Lago, M. Alonso; Javi Rueda, Febas, Ilaix Moriba, Javi Galán; Aspas, Hugo Álvarez; Jutglà. Sędzia nieogłoszony.",
+    "notes": "Przewidywane składy (futbolfantasy 29.10): RAY – Audero; Balliu (Ratiu), Lejeune, Sadick (Kumbulla), Pedrosa; Unai López, Óscar Valentín, Isi Palazón; De Frutos, Álvaro García, Camello. CEL – Radu; Yoel Lago, Javi Rodríguez, M. Alonso; Javi Rueda, Ilaix Moriba, Febas, Javi Galán; Hugo Álvarez, Durán/H. González/Aspas, Jutglà. Yoel Lago ma 4 żółte kartki. Sędzia nieogłoszony.",
     "odds": {
-     "src": "Gainblers – średnia DraftKings/bet365 (przeliczone z kursów amerykańskich), stan na 28.10.2026",
-     "1": 2.3,
-     "X": 3.28,
-     "2": 3.05
+     "src": "Oddsportal – kursy z listy meczów, stan na 29.10.2026",
+     "1": 2.35,
+     "X": 3.4,
+     "2": 3.1
     },
     "info": {
      "injuries": {
-      "home": [],
-      "away": []
+      "home": [
+       "Augusto Batalla (złamanie piszczeli)",
+       "Luiz Felipe (więzadło krzyżowe)",
+       "Andrei Ratiu (niepewny, uraz mięśniowy)"
+      ],
+      "away": [
+       "Carl Starfelt (dwugłowy uda)",
+       "Borja Iglesias (płaszczkowaty, ok. 6 tyg.)",
+       "Álvaro Núñez (przywodziciel)",
+       "Miguel Román (kolano)",
+       "Jones El-Abdellaoui (kolano)"
+      ]
      },
      "suspensions": {
-      "home": [],
+      "home": [
+       "Pathé Ciss (5. żółta kartka, odwołanie odrzucone)"
+      ],
       "away": []
      },
      "restDays": {
-      "home": 3
+      "home": 3,
+      "away": 6
      },
      "homeAway": "Rayo: 2W 3R 4P (12:20) w 9 meczach (zaległy mecz z Athletikiem), forma LWDDL; Celta: 2W 6R 2P (10:7), forma DWDWD",
      "stakes": "16. Rayo (9 pkt) vs 9. Celta (12 pkt). Rayo 27.10 grało 120 min w Pucharze Króla (Recreativo 2:3 Rayo po dogrywce; czerwona kartka Lejeune – kara dotyczy Pucharu)",
@@ -6285,10 +6308,10 @@
     "tip": {
      "decision": "NO BET",
      "reasons": [
-      "Kursy (2,30 / 3,28 / 3,05) dają ok. 41% / 29% / 31% – zbliżone do mojej oceny; brak przewagi ≥5%.",
-      "Rayo zmęczone 120 min w Pucharze (3 dni odpoczynku) – argument za Celtą, ale Celta remisuje 60% meczów i strzela tylko 1 gol/mecz.",
-      "Brak kursów na podwójną szansę/DNB i rynki bramkowe – nie mogę wycenić X2.",
-      "Mecz o wyrównanym rozkładzie szans – zbyt duża niepewność."
+      "Kursy 2,35 / 3,40 / 3,10 (~41% / 28% / 31% po marży) – moja ocena zbliżona, brak przewagi ≥5%.",
+      "Rayo po 120 min w Pucharze (27.10) i bez zawieszonego Pathé Ciss – argument za Celtą, ale Celta bez Borji Iglesiasa i Starfelta, remisuje 60% meczów.",
+      "Brak wiarygodnych kursów na X2/DNB i gole – nie wyceniam rynków pochodnych.",
+      "Wyrównany mecz – zbyt duża niepewność → NO BET."
      ]
     }
    },
@@ -6303,34 +6326,48 @@
      "name": "Estadio La Cartuja",
      "city": "Sewilla"
     },
-    "notes": "Przewidywane składy (comuniate): BET – Valles; Bellerín, D. Llorente/Bartra, Natan, Fran García; Marc Roca, Fornals; Antony, Isco, Abde; Parrot. MAL – Herrero; Puga, Galilea, Recio, Rafita Garrido; Dani Lorenzo, Ramón Enríquez, Dotor; Larrubia, Adrián Niño, Aznou. Sędzia nieogłoszony.",
+    "notes": "Betis: pewni Valles, Natan, Fran García, Marc Roca, Isco, Abde; Parrot w ataku; Aitor Ruibal wraca po kontuzji (jornadaperfecta 28.10). Málaga: Adrián Niño w ataku, Dani Lorenzo i Ramón w środku. Sędzia nieogłoszony.",
     "odds": {
-     "src": "Gainblers – średnia DraftKings/bet365 (przeliczone z kursów amerykańskich), stan na 28.10.2026",
-     "1": 1.37,
-     "X": 5.0,
-     "2": 7.0
+     "src": "1X2: Oddsportal; gole: bet365 (via Stats Insider), stan na 29.10.2026",
+     "1": 1.4,
+     "X": 5.3,
+     "2": 8.0,
+     "o25": 1.5,
+     "u25": 2.62
     },
     "info": {
      "injuries": {
-      "home": [],
-      "away": []
+      "home": [
+       "Cucho Hernández",
+       "Junior Firpo"
+      ],
+      "away": [
+       "Pablo Martínez (niepewny)",
+       "Einar Galilea (niepewny)"
+      ]
      },
      "restDays": {
-      "home": 3,
+      "home": 6,
       "away": 4
      },
      "homeAway": "Betis: 6W 2R 2P (16:14), forma WDWLD; Málaga: 0W 5R 5P (7:19), ostatnia w tabeli",
-     "stakes": "4. Betis (20 pkt) vs 20. Málaga (5 pkt). Derby Andaluzji. Betis gra w Pucharze Króla 28.10 (Navalcarnero – Betis, 21:00); Málaga grała 27.10 w Pucharze (Sporting de Alcázar)",
-     "h2h": []
+     "stakes": "4. Betis (20 pkt) vs 20. Málaga (5 pkt). Derby Andaluzji. Mecz Pucharu Navalcarnero – Betis (28.10) przełożony przez RFEF po katastrofie kolejowej w prowincji Toledo – Betis wypoczęty; 4.11 mecz europejski z Borussią Dortmund. Málaga wygrała 27.10 w Pucharze 3:0 z Sporting de Alcázar.",
+     "h2h": [],
+     "suspensions": {
+      "home": [
+       "Facundo Bernal"
+      ],
+      "away": []
+     }
     },
     "tip": {
      "decision": "NO BET",
      "reasons": [
-      "Kurs 1,37 na Betis ≈ 69–70% po marży; moja ocena ok. 65–70% – EV ≤ 0.",
-      "Betis wygrywa, ale z małą różnicą bramek (+2 w 10 meczach) – nie jest drużyną rozbijającą rywali.",
-      "Málaga bez zwycięstwa, lecz 5 remisów – potrafi punktować.",
-      "Betis gra w środę w Pucharze (możliwa rotacja i zmęczenie), mecz derbowy podnosi zmienność.",
-      "Brak kursów na handicap i gole – niski kurs na 1X2 nie jest argumentem."
+      "Kurs 1,40 na Betis (~68% po marży) vs moja ocena 65–68% – EV ≤ 0.",
+      "Betis wygrywa z małą różnicą (+2 w 10 meczach) i bez Cucho, Firpo i zawieszonego Bernala.",
+      "Under 2,5 po 2,62: prosty model daje więcej niż rynek, ale ten rozjazd jest systematyczny w całej kolejce – nie uznaję go za value.",
+      "Dodatkowy dzień odpoczynku Betisu (Puchar przełożony) już jest w kursie; w tle mecz z Dortmundem 4.11 (możliwa rotacja).",
+      "Derby podnoszą zmienność → NO BET."
      ]
     }
    },
@@ -6345,33 +6382,46 @@
      "name": "Spotify Camp Nou",
      "city": "Barcelona"
     },
-    "notes": "Przewidywane składy (comuniate): BAR – Joan García; Cancelo, Cubarsí, Gerard Martín, Balde; Pedri, Fermín, Rodri Hernández; Lamine Yamal, Raphinha, Gordon. ALA – Sivera; Tenaglia, Koski, Valentini, Novoa/Denis Suárez; Blanco, Ibáñez, Á. Pérez, Y. Enríquez/Rebbach; Boyé, Toni Martínez/Mañas. Sędzia nieogłoszony.",
+    "notes": "Przewidywane składy (comuniate 28.10): BAR – Joan García; Cancelo, Cubarsí, Gerard Martín, Balde; Pedri, Fermín, Rodri Hernández; Lamine Yamal, Raphinha, Gordon. ALA – Sivera; Tenaglia, Koski, Valentini, Novoa/Denis Suárez; Blanco, Ibáñez, Á. Pérez, Y. Enríquez/Rebbach; Boyé, Toni Martínez/Mañas. Sędzia nieogłoszony.",
     "odds": {
-     "src": "Gainblers – średnia DraftKings/bet365 (przeliczone z kursów amerykańskich), stan na 28.10.2026",
-     "1": 1.11,
-     "X": 8.5,
-     "2": 21.0
+     "src": "Oddsportal – kursy z listy meczów, stan na 29.10.2026",
+     "1": 1.12,
+     "X": 10.5,
+     "2": 23.0
     },
     "info": {
      "injuries": {
-      "home": [],
-      "away": []
+      "home": [
+       "Andreas Christensen (uraz mięśniowy)",
+       "Eric García (udo, do poł. listopada)",
+       "Jules Koundé (skręcenie stawu skokowego)",
+       "Dani Olmo (dwugłowy uda, do poł. listopada)",
+       "Xavi Espart (kostka)",
+       "Roony Bardghji (więzadło krzyżowe)"
+      ],
+      "away": [
+       "Facundo Garcés (więzadło krzyżowe)",
+       "Mikel Rodríguez (więzadło krzyżowe)"
+      ]
      },
      "restDays": {
       "home": 6,
-      "away": 3
+      "away": 8
      },
      "homeAway": "Barcelona: 9W 0R 1P (40:11), porażka 1:2 z Realem w ostatniej kolejce; Alavés: 3W 3R 4P (14:11), forma LDLLD",
-     "stakes": "1. Barcelona (27 pkt) vs 7. Alavés (12 pkt). Alavés gra w Pucharze Króla 28.10 (Anaitasuna – Alavés). Barcelona przed meczem Ligi Mistrzów",
-     "h2h": []
+     "stakes": "1. Barcelona (27 pkt) vs 7. Alavés (12 pkt). Mecz Pucharu Anaitasuna – Alavés (28.10) przełożony przez RFEF (żałoba po katastrofie kolejowej) – Alavés wypoczęty. Barcelona przed meczem Ligi Mistrzów.",
+     "h2h": [
+      "2026-05-13 ALA 1:0 BAR",
+      "2025-11-29 BAR 3:1 ALA"
+     ]
     },
     "tip": {
      "decision": "NO BET",
      "reasons": [
-      "Kurs 1,11 na Barcelonę (~87% po marży) – nawet przy mojej ocenie 85–88% EV ≈ 0; zbyt niski kurs.",
-      "Barcelona strzela 4 gole/mecz – rynki over/handicap byłyby interesujące, ale brak ich kursów w źródłach.",
-      "Alavés broni się solidnie (1,1 straconego gola/mecz) – handicap −2 bez wyceny byłby zgadywaniem.",
-      "Możliwa rotacja Flicka przed Ligą Mistrzów."
+      "Kurs 1,12 na Barcelonę (~87% po marży) – przy mojej ocenie 85–88% EV ≈ 0; zbyt niski kurs.",
+      "Barcelona bez Koundé, Christensena, Erica Garcii i Olmo – osłabiona obrona, możliwa rotacja przed LM.",
+      "Alavés traci tylko 1,1 gola/mecz i jest wypoczęty (8 dni przerwy).",
+      "Brak wiarygodnych kursów na handicap/gole → NO BET."
      ]
     }
    },
@@ -6386,7 +6436,53 @@
      "name": "Coliseum",
      "city": "Getafe"
     },
-    "notes": "Godzina z footballwebpages/sport-flash (przeliczona), niepotwierdzona na laliga.com."
+    "notes": "Godzina potwierdzona (comuniate): niedz. 1.11, 14:00. Sędzia nieogłoszony.",
+    "odds": {
+     "src": "1X2: Oddsportal; gole: bet365 (via Stats Insider), stan na 29.10.2026",
+     "1": 3.3,
+     "X": 3.0,
+     "2": 2.5,
+     "o25": 2.75,
+     "u25": 1.44
+    },
+    "info": {
+     "injuries": {
+      "home": [
+       "Zaid Romero (uraz mięśniowy)",
+       "Christantus Uche (więzadło krzyżowe i łąkotka, do kwietnia)",
+       "Orel Mangala (niepewny)",
+       "Juanmi Jiménez (niepewny)"
+      ],
+      "away": [
+       "Marcão (uraz mięśniowy)",
+       "Miguel Sierra (zwichnięcie barku, do stycznia)"
+      ]
+     },
+     "suspensions": {
+      "home": [
+       "Johan Mojica (5 żółtych kartek)",
+       "Mario Martín (czerwona kartka)"
+      ],
+      "away": []
+     },
+     "restDays": {
+      "home": 3,
+      "away": 3
+     },
+     "homeAway": "Getafe: 2W 3R 5P (5:15), forma LWLDL – najsłabszy atak ligi; Sevilla: 5W 2R 3P (16:16), forma WLDLW",
+     "stakes": "17. Getafe (9 pkt) vs 6. Sevilla (17 pkt). Obie drużyny grają w czwartek 29.10 w Pucharze Króla (UB Lebrijana – Getafe, Sporting de Hortaleza – Sevilla), więc tylko 2 pełne dni przerwy.",
+     "h2h": []
+    },
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Kursy 3,30 / 3,00 / 2,50 (~29% / 32% / 38% po marży) – moja ocena zbliżona; brak przewagi na 1X2.",
+      "Under 2,5 po 1,44 (~66% po marży) – Getafe strzela 0,5 gola/mecz, ale mecze Sevilli to średnio 3,2 gola; mój szacunek ok. 60–63% → EV ≈ −0,10.",
+      "Getafe bez Mojiki i Mario Martína (zawieszenia) oraz Uche – osłabienie, ale już widoczne w kursie.",
+      "Obie drużyny grają w Pucharze 29.10 – nieznana skala rotacji; składy i sędzia nieznane.",
+      "Brak przewagi → NO BET."
+     ]
+    }
    },
    {
     "id": "LL-2026-27-R11-RAC-RMA",
@@ -6399,7 +6495,52 @@
      "name": "El Sardinero",
      "city": "Santander"
     },
-    "notes": "Godzina z footballwebpages/sport-flash (przeliczona), niepotwierdzona na laliga.com."
+    "notes": "Godzina potwierdzona (comuniate): niedz. 1.11, 16:15. Sędzia nieogłoszony.",
+    "odds": {
+     "src": "1X2: Oddsportal; gole: bet365 (via Stats Insider), stan na 29.10.2026",
+     "1": 10.0,
+     "X": 7.5,
+     "2": 1.24,
+     "o25": 1.2,
+     "u25": 4.5
+    },
+    "info": {
+     "injuries": {
+      "home": [],
+      "away": [
+       "Thibaut Courtois (niepewny, grypa)",
+       "Federico Valverde (kontuzja potwierdzona przez trenera – stopień nieznany)",
+       "Ferland Mendy (do grudnia)",
+       "Raúl Asencio (do stycznia)",
+       "Rodrygo (do grudnia)"
+      ]
+     },
+     "suspensions": {
+      "home": [
+       "Jorge Salinas (5 żółtych kartek)"
+      ],
+      "away": [
+       "Vinícius Júnior (czerwona kartka – pauza w kolejkach 9–12)"
+      ]
+     },
+     "restDays": {
+      "home": 3,
+      "away": 7
+     },
+     "homeAway": "Racing: 3W 2R 5P (15:26) – najwięcej straconych goli w lidze, forma LLDLW; Real: 8W 0R 2P (25:10), wygrał 2:1 na Camp Nou",
+     "stakes": "13. Racing (11 pkt) vs 3. Real Madryt (24 pkt, 3 pkt straty do Barcelony). Racing gra 29.10 w Pucharze (Ribadesella – Racing).",
+     "h2h": []
+    },
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Kurs 1,24 na Real (~78% po marży) vs moja ocena ~75–78% – EV ≤ 0.",
+      "Over 2,5 po 1,20 (~80% po marży): mecze Racingu średnio 4,1 gola, ale mój szacunek to ok. 70–74% → EV ≈ −0,13.",
+      "Real bez Viníciusa (zawieszony), Rodrygo, Mendy'ego, Asencio; niepewni Courtois i Valverde.",
+      "Racing po meczu pucharowym 29.10 (3 dni przerwy) – argument za Realem, ale już w niskim kursie.",
+      "Zbyt niskie kursy przy realnych osłabieniach → NO BET."
+     ]
+    }
    },
    {
     "id": "LL-2026-27-R11-ELC-VAL",
@@ -6412,7 +6553,52 @@
      "name": "Martínez Valero",
      "city": "Elche"
     },
-    "notes": "Godzina z footballwebpages/sport-flash (przeliczona), niepotwierdzona na laliga.com."
+    "notes": "Godzina potwierdzona (comuniate): niedz. 1.11, 18:30. Sędzia nieogłoszony.",
+    "odds": {
+     "src": "Oddsportal – kursy z listy meczów, stan na 29.10.2026",
+     "1": 2.45,
+     "X": 3.4,
+     "2": 3.0
+    },
+    "info": {
+     "injuries": {
+      "home": [
+       "Marc Aguado (skręcenie stawu skokowego)"
+      ],
+      "away": [
+       "Kenny Foulquier (uraz mięśniowy)",
+       "Diego López (więzadło krzyżowe, do stycznia)",
+       "Sergi Canós (kolano, do listopada)",
+       "Otorbi (uraz mięśniowy)",
+       "Umar Sadiq (dwugłowy uda, do listopada)"
+      ]
+     },
+     "suspensions": {
+      "home": [],
+      "away": [
+       "Harvey Elliott (czerwona kartka za dwie żółte)"
+      ]
+     },
+     "restDays": {
+      "home": 5,
+      "away": 8
+     },
+     "homeAway": "Elche: ostatnie 5 – 3W 2R (w tym 3:0 w Vallecas i 3:1 w Pucharze z Pinatar), w domu w tym okresie tylko 0:0 z Celtą; Valencia: 1W 3R 6P (7:17), ostatnie 5 – 1W 2R 2P",
+     "stakes": "15. Elche (10 pkt) vs 19. Valencia (6 pkt, strefa spadkowa). Mecz Pucharu Valencii (Tavernes – Valencia) przełożony – Valencia wypoczęta.",
+     "h2h": [
+      "2026-04-11 ELC 1:0 VAL"
+     ]
+    },
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Kurs 2,45 na Elche (~39% po marży) vs moja ocena 41–44% – EV +0,01 do +0,08; przewaga niepewna i zależna głównie od formy/tabeli.",
+      "Elche w dobrej serii (bez porażki w 5), ale u siebie w tym okresie tylko 0:0 – brak danych o bilansie domowym.",
+      "Valencia mocno osłabiona (bez Elliotta, Sadiqa, Diego Lópeza, Foulquiera), ale wypoczęta (8 dni).",
+      "Brak kursów na DNB/1X, które lepiej pasowałyby do tej oceny.",
+      "Przewaga zbyt mała przy dużej niepewności → NO BET."
+     ]
+    }
    },
    {
     "id": "LL-2026-27-R11-ATH-RSO",
@@ -6425,7 +6611,44 @@
      "name": "San Mamés",
      "city": "Bilbao"
     },
-    "notes": "Godzina z footballwebpages/sport-flash (przeliczona), niepotwierdzona na laliga.com."
+    "notes": "Godzina potwierdzona (comuniate): niedz. 1.11, 21:00. Sędzia nieogłoszony.",
+    "odds": {
+     "src": "Oddsportal – kursy z listy meczów, stan na 29.10.2026",
+     "1": 2.15,
+     "X": 3.7,
+     "2": 3.4
+    },
+    "info": {
+     "injuries": {
+      "home": [
+       "Oihan Sancet (płaszczkowaty, do listopada)",
+       "Mikel Ruiz de Galarreta (dwugłowy uda, do poł. listopada)",
+       "Gorka Guruzeta (więzadło krzyżowe, do czerwca)",
+       "Unai Egiluz (więzadło krzyżowe, do stycznia)"
+      ],
+      "away": [
+       "Luken Beitia (niepewny, kolano)",
+       "Álvaro Odriozola (więzadło krzyżowe)"
+      ]
+     },
+     "restDays": {
+      "home": 3,
+      "away": 7
+     },
+     "homeAway": "Athletic: 3W 3R 3P (12:9) w 9 meczach, forma DDDLW (4:0 z Getafe); Real Sociedad: 6W 1R 3P (19:18), forma LWWWW",
+     "stakes": "Derby Kraju Basków. 8. Athletic (12 pkt, mecz zaległy) vs 5. Real Sociedad (19 pkt). Athletic gra 29.10 w Pucharze (AE Prat – Athletic).",
+     "h2h": []
+    },
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Kursy 2,15 / 3,70 / 3,40 (~45% / 26% / 29% po marży) – moja ocena: Athletic ~42%, Real Sociedad ~31%; EV dla RSO ok. +0,05, ale bez marginesu bezpieczeństwa.",
+      "Athletic bez Sanceta, Galarrety i Guruzety, po meczu pucharowym 29.10 (3 dni przerwy) – argumenty za gośćmi.",
+      "Real Sociedad w serii 4 zwycięstw, ale traci 1,8 gola/mecz – niestabilna defensywa.",
+      "Derby podnoszą zmienność; brak kursów na DNB/X2 i gole.",
+      "Za mała i niepewna przewaga → NO BET."
+     ]
+    }
    },
    {
     "id": "LL-2026-27-R11-DEP-OSA",

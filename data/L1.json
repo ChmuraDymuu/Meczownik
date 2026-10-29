@@ -1,9 +1,9 @@
 {
- "updated": "2026-10-28T06:55:00+01:00",
+ "updated": "2026-10-29T06:45:00+01:00",
  "season": "2026/27",
  "competition": "Ligue 1",
  "currentRound": 9,
- "note": "Źródła: ligue1.com (sędziowie J9), Foot-sur7/Footeo/Lensois (zmiany terminów J9 na wniosek prefektur), psg.fr, Parisfans, BettingNews i Rue des Joueurs/Oddscalendar (kursy J9), But! Football Club, Le Petit Lillois, FootballPredictions (kadry i statystyki); wcześniej: t-online.de (relacje 8. kolejki), Foot01, Soccerway, Foot Mercato, Wincomparator, Maxifoot, Eurosport, L'Équipe.",
+ "note": "Źródła: ligue1.com (sędziowie J9), Rue des Joueurs (kursy i wiadomości J9, stan na 26–28.10), RotoWire/Betr (kurs Lyon–Angers), FootballPredictions (kadry, forma, xG, H2H), Foot-sur7/Footeo/Lensois (zmiany terminów J9), psg.fr, BettingNews; wcześniej: t-online.de (relacje 8. kolejki), Foot01, Soccerway, Foot Mercato, Wincomparator, Maxifoot, Eurosport, L'Équipe.",
  "teams": {
   "ANG": {
    "id": "ANG",
@@ -3907,7 +3907,7 @@
      "capacity": 25178
     },
     "odds": {
-     "src": "BettingNews – Lucky Rebel (kursy US przeliczone), stan na 27.10.2026; PSG 1,18–1,24 w 6 bukmacherach",
+     "src": "BettingNews – Lucky Rebel (kursy US przeliczone), stan na 27.10.2026; PSG 1,18–1,24 w 6 bukmacherach; Rue des Joueurs 28.10: 10,00 / 7,25 / 1,22",
      "1": 10.0,
      "X": 6.75,
      "2": 1.24
@@ -4068,7 +4068,7 @@
     },
     "notes": "Termin i sędziowie potwierdzeni przez LFP (ligue1.com, 27–28.10.2026).",
     "odds": {
-     "src": "BettingNews – Lucky Rebel/Bovada (kursy US przeliczone), stan na 27.10.2026",
+     "src": "BettingNews – Lucky Rebel/Bovada (kursy US przeliczone), stan na 27.10.2026; Rue des Joueurs 28.10: 2,38 / 3,55 / 2,75",
      "1": 2.35,
      "X": 3.6,
      "2": 2.9
@@ -4268,7 +4268,56 @@
       "role": "Asystent VAR",
       "name": "Julien Schmitt"
      }
-    ]
+    ],
+    "odds": {
+     "src": "Rue des Joueurs – najlepsze kursy (Unibet 1/2, Winamax X), stan na 28.10.2026",
+     "1": 1.79,
+     "X": 4.0,
+     "2": 4.0,
+     "bttsY": 1.46
+    },
+    "info": {
+     "injuries": {
+      "home": [
+       "Joaquín Panichelli (kolano)",
+       "Félix Baldé (noga)",
+       "Washington – jeszcze niedostępny",
+       "Samuel Amo-Ameyaw – niepewny"
+      ],
+      "away": [
+       "Okoh",
+       "Assane Dioussé (kolano)",
+       "Rudy Labeau-Lascary",
+       "Sékou Fofana (pachwina)",
+       "Siwe, Senaya i Sy – niepewni po urazach"
+      ]
+     },
+     "suspensions": {
+      "home": [],
+      "away": []
+     },
+     "restDays": {
+      "home": 7,
+      "away": 7
+     },
+     "homeAway": "Strasbourg: 4 porażki ligowe z rzędu (Paris FC 1:2, Nice 1:2, PSG 1:3, Rennes 0:3), 16. miejsce, 18 straconych goli w 8 meczach. Auxerre: 3 wygrane w 5 ostatnich, ostatnio 1:1 z Le Mans. Ostatnie 10 meczów: xG/xGA Strasbourg 1,40/1,82, Auxerre 1,46/1,60; BTTS 70% u obu.",
+     "stakes": "Mecz drużyn z dolnej połowy: Strasbourg (7 pkt) tuż nad strefą spadkową, Auxerre (10 pkt) chce się od niej oddalić. Do składu Strasbourga wracają Doukouré i Nanasi.",
+     "h2h": [
+      "2026-03-07 AUX 0:0 STR",
+      "2025-10-29 STR 3:0 AUX",
+      "2025-03-02 AUX 0:1 STR",
+      "2025-01-05 STR 3:1 AUX"
+     ]
+    },
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Kursy 1,79 / 4,00 / 4,00 po marży ≈ 53% / 24% / 24%; moja ocena ok. 45% / 27% / 28% — rynek przecenia Strasbourga mimo 4 porażek z rzędu.",
+      "Teoretyczne dodatnie EV na Auxerre (≈ +0,12) lub remis (≈ +0,08) opiera się na niskim prawdopodobieństwie i szerokim marginesie błędu — ocena poniżej 6.",
+      "Strasbourg odzyskuje Doukouré i Nanasiego, a Auxerre ma 4 kontuzjowanych i 3 niepewnych — kadrowo przewaga gospodarzy.",
+      "BTTS tak 1,46 (68%) zgodne ze statystyką obu drużyn (70%) — brak przewagi; kursów O/U i X2 nie znaleziono."
+     ]
+    }
    },
    {
     "id": "L1-2026-27-R9-LYO-ANG",
@@ -4315,7 +4364,30 @@
       "role": "Asystent VAR",
       "name": "Ludovic Rémy"
      }
-    ]
+    ],
+    "odds": {
+     "src": "RotoWire – Betr (kursy US przeliczone: -270 / +380 / +579), stan na 29.10.2026",
+     "1": 1.37,
+     "X": 4.8,
+     "2": 6.79
+    },
+    "info": {
+     "restDays": {
+      "home": 6,
+      "away": 7
+     },
+     "homeAway": "Lyon 5. (14 pkt, 13:7), w poniedziałek przegrał 0:2 w Paryżu z PSG; Angers 14. (8 pkt, 9:15), bez zwycięstwa w 3 ostatnich meczach (L, L, D).",
+     "stakes": "Lyon chce wrócić do czołówki po porażce z liderem; Angers broni się przed strefą spadkową. Mecz przeniesiony na niedzielę 17:15 na wniosek prefektury."
+    },
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Kurs 1,37 na Lyon po marży ≈ 67% — moja ocena ok. 65–68%, brak dodatniego EV.",
+      "Nie znaleziono wiarygodnych kursów na handicap, gole ani BTTS — nie da się sprawdzić lepszego rynku.",
+      "Brak potwierdzonych informacji o kontuzjach i składach obu drużyn w sprawdzonych źródłach.",
+      "Lyon traci mało (7 goli w 8 meczach), ale strzela przeciętnie — wyższe handicapy byłyby ryzykowne."
+     ]
+    }
    },
    {
     "id": "L1-2026-27-R9-PFC-MON",
@@ -4362,7 +4434,52 @@
       "role": "Asystent VAR",
       "name": "Cédric Dos Santos"
      }
-    ]
+    ],
+    "odds": {
+     "src": "Rue des Joueurs – najlepsze kursy (Unibet 1, Winamax X, Betclic 2), stan na 26.10.2026; X2, BTTS i u2,5 wg FootballPredictions (kursy US przeliczone)",
+     "1": 2.25,
+     "X": 3.55,
+     "2": 2.92,
+     "X2": 1.67,
+     "u25": 2.0,
+     "bttsY": 1.67
+    },
+    "info": {
+     "injuries": {
+      "home": [
+       "Jonathan Ikoné (udo)",
+       "Nhoa Sangui (mięsień)"
+      ],
+      "away": [
+       "Eric Dier (mięsień)",
+       "Simon Idumbo (pachwina)"
+      ]
+     },
+     "suspensions": {
+      "home": [],
+      "away": []
+     },
+     "restDays": {
+      "home": 8,
+      "away": 7
+     },
+     "homeAway": "Paris FC u siebie w 10 ostatnich meczach: 3W-1D (2,25 gola/mecz, 1,00 straconych); Monaco na wyjeździe: 2W-1D-1L. xG/xGA (10 m.): Paris FC 1,31/1,26, Monaco 1,42/1,39.",
+     "stakes": "Bezpośredni rywale w czołówce: Monaco 4. (15 pkt), Paris FC 6. (14 pkt). Paris FC przegrał ostatnio 1:2 w Lens, Monaco zremisowało 1:1 z Lille.",
+     "h2h": [
+      "2026-04-10 PFC 4:1 MON",
+      "2025-11-01 MON 0:1 PFC"
+     ]
+    },
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Kursy 2,25 / 3,55 / 2,92 po marży ≈ 42% / 26% / 32%; moja ocena ok. 38% / 27% / 35% — ani 1, ani 2 nie daje przewagi ≥5%.",
+      "X2 po 1,67 przy mojej ocenie ok. 62% daje EV tylko ≈ +0,03 — za mało przy tej niepewności.",
+      "BTTS tak 1,67 (60%) i u2,5 po 2,00 (50%) bliskie statystyk obu drużyn — brak sygnału.",
+      "Kursy na rynki dodatkowe pochodzą z agregatora bez wskazanego bukmachera — mniejsza wiarygodność.",
+      "H2H (2 wygrane Paris FC) to za mała próba, by na nim opierać typ."
+     ]
+    }
    },
    {
     "id": "L1-2026-27-R9-OLM-TOU",
@@ -4409,7 +4526,49 @@
       "role": "Asystent VAR",
       "name": "Ludovic Zmyslony"
      }
-    ]
+    ],
+    "odds": {
+     "src": "Rue des Joueurs – kursy z porównywarki, stan na 28.10.2026 (Unibet: 1,81 / 3,85 / 3,85)",
+     "1": 1.86,
+     "X": 3.95,
+     "2": 3.65
+    },
+    "info": {
+     "injuries": {
+      "home": [
+       "Cornelius (biodro)"
+      ],
+      "away": [
+       "Niflore",
+       "Oppong (łydka)"
+      ]
+     },
+     "suspensions": {
+      "home": [],
+      "away": []
+     },
+     "restDays": {
+      "home": 7,
+      "away": 7
+     },
+     "homeAway": "Marsylia 8. (12 pkt, 18:13), 3 wygrane z rzędu, ostatnio 4:3 z Le Havre; u siebie w 10 ostatnich meczach tylko 1W-3L i 2,25 straconego gola/mecz. Toulouse 11. (10 pkt), 4 remisy w 8 meczach, na wyjeździe DDDW. xG/xGA (10 m.): OM 1,51/1,84, Toulouse 1,40/1,43.",
+     "stakes": "Marsylia chce dogonić czołówkę; Toulouse w środku tabeli.",
+     "h2h": [
+      "2026-03-07 TOU 0:1 OLM",
+      "2026-03-04 OLM 2:2 TOU",
+      "2025-11-29 OLM 2:2 TOU",
+      "2025-04-06 OLM 3:2 TOU"
+     ]
+    },
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Kursy 1,86 / 3,95 / 3,65 po marży ≈ 50% / 24% / 26% — zgodne z moją oceną (ok. 50% / 26% / 24%), brak EV.",
+      "OM wygrywa w lidze, ale u siebie traci dużo goli (xGA 2,08 w meczach domowych) — niestabilna defensywa.",
+      "Toulouse dobrze punktuje na wyjazdach (DDDW), a H2H to 2 remisy w ostatnich 3 meczach — remis realny, ale kurs 3,95 tego nie przecenia wyraźnie.",
+      "Mecze OM w tym sezonie są bramkostrzelne (31 goli w 8), lecz kursów na gole nie znaleziono."
+     ]
+    }
    },
    {
     "id": "L1-2026-27-R9-LOR-BRE",
