@@ -1,9 +1,9 @@
 {
- "updated": "2026-10-29T05:40:00+01:00",
+ "updated": "2026-10-30T05:45:00+01:00",
  "season": "2026/27",
  "competition": "Premier League",
  "currentRound": 9,
- "note": "Źródła: Oddsportal (1X2, stan 28.10), rg.org – kursy DK/FD/BetRivers/LBMD z 28.10 (O/U), KickOff.co.uk (LIV–ARS: O/U, BTTS, Bet365), oddslot (podwójna szansa LIV–ARS), footballpredictions.com i footballdream.in (absencje, H2H, forma LIV–ARS), Sky Sports, ESPN, FPL Zone, VAVEL (wyniki Pucharu Ligi 28.10); wcześniej: starting11, Fantasy Football Scout, SportyTrader, footballwebpages, Opta. Obsada sędziowska MW9 (premierleague.com, 26.10) bez przypisania do meczów – pominięta. Godziny w czasie polskim (CET).",
+ "note": "Źródła: Oddsportal (1X2, stan 30.10), rg.org (O/U, BTTS – kursy z 28.10), DraftKings via ESPN (NEW–EVE), premierleaguenewsnow.com (LIV–ARS: absencje, obsada sędziowska, H2H), theScore/Reuters (EVE 3:1 NEW w Pucharze Ligi 29.10), Fan Banter (NEW–EVE: absencje, forma), bets.co.za i onefpl (CHE–MUN: Palmer, João Pedro), VAVEL (Puchar Ligi 27–28.10); wcześniej: KickOff.co.uk, oddslot, SportyTrader, footballpredictions.com, Sky Sports, ESPN, FPL Zone, starting11, Fantasy Football Scout, Opta. Obsada sędziowska MW9 (premierleague.com, 26.10) opublikowana bez przypisania do meczów – podana tylko dla LIV–ARS (potwierdzona w zapowiedzi). Godziny w czasie polskim (CET).",
  "teams": {
   "ARS": {
    "id": "ARS",
@@ -2198,10 +2198,10 @@
      ]
     },
     "odds": {
-     "src": "Oddsportal 1X2 (stan na 28.10); O/U i BTTS – najlepsze ceny SportyTrader 28.10; potwierdzenie 1X2 rg.org (DK/FD) 28.10",
+     "src": "Oddsportal 1X2 (stan na 30.10); O/U – rg.org (Tonybet/22Bet, 28.10); O/U 2,5 i BTTS – SportyTrader (28.10)",
      "1": 1.86,
-     "X": 4.0,
-     "2": 4.2,
+     "X": 3.95,
+     "2": 4.0,
      "o25": 1.58,
      "u25": 3.82,
      "bttsY": 1.5,
@@ -2210,7 +2210,7 @@
     "info": {
      "injuries": {
       "home": [
-       "João Pedro (udo – czeka na wyniki badań)",
+       "João Pedro (udo – kilka tygodni przerwy)",
        "Emiliano Martínez (szczęka)",
        "Reece James (kolano)",
        "Jamie Bynoe-Gittens (kostka)",
@@ -2227,9 +2227,7 @@
       ]
      },
      "suspensions": {
-      "home": [
-       "Cole Palmer – sprzeczne informacje: FFS podaje, że pauzę odbywa w Pucharze Ligi i zagra w lidze; starting11 wciąż wymienia go jako zawieszonego"
-      ],
+      "home": [],
       "away": []
      },
      "restDays": {
@@ -2237,7 +2235,7 @@
       "away": 6
      },
      "homeAway": "CHE u siebie 7 pkt w 4 meczach (ostatnio 0:2 z TOT); MUN na wyjeździe 3 pkt w 4 meczach",
-     "stakes": "Chelsea 5. (13 pkt) po 0:2 z Tottenhamem; w środę 28.10 odpadła z Pucharu Ligi po 1:1 na Anfield i karnych 5:6 (rezerwowy skład z Caicedo, Lavią, Fofaną, Gusto, Rogersem w wyjściowej jedenastce). United 16. (7 pkt), bez zwycięstwa od 6 kolejek, przed meczem Ligi Mistrzów – możliwa rotacja.",
+     "stakes": "Chelsea 5. (13 pkt) po 0:2 z Tottenhamem; w środę 28.10 odpadła z Pucharu Ligi po 1:1 na Anfield i karnych 5:6 (rezerwowy skład z Caicedo, Lavią, Fofaną, Gusto, Rogersem w wyjściowej jedenastce). United 16. (7 pkt), bez zwycięstwa od 6 kolejek, przed meczem Ligi Mistrzów – możliwa rotacja. Palmer odbył pauzę za czerwoną kartkę w meczu Pucharu Ligi – w lidze dostępny.",
      "h2h": [
       "2026-04-18 CHE 0:1 MUN",
       "Bilans 40 meczów: 13 W CHE – 14 R – 13 W MUN"
@@ -2246,10 +2244,10 @@
     "tip": {
      "decision": "NO BET",
      "reasons": [
-      "Kurs 1,86 na Chelsea (54%) nie uwzględnia w pełni osłabień: bez Jamesa i Martíneza, João Pedro czeka na badania, Palmer niepewny; 3 dni po 90 min + karnych z Liverpoolem.",
-      "United w słabej formie, ale z dłuższym odpoczynkiem (6 dni); rotacja przed Ligą Mistrzów to dodatkowa niewiadoma.",
-      "Over 2,5 po 1,58 (63%) – mecze Chelsea są bramkowe, ale United w 4 z 5 ostatnich meczów ≤2 gole; brak przewagi.",
-      "Sprzeczne dane o dostępności Palmera – zbyt duża niepewność."
+      "Kurs 1,86 na Chelsea (54%) nie uwzględnia w pełni osłabień: bez Jamesa, Martíneza i João Pedro (kilka tygodni), 3 dni po 90 min + karnych z Liverpoolem.",
+      "Palmer wraca po odbyciu pauzy w pucharze, ale Chelsea straciła 15 goli w 8 meczach – brak podstaw do wyższej oceny niż rynek.",
+      "United w słabej formie (bez wygranej od 6 kolejek), ale z dłuższym odpoczynkiem (6 dni); rotacja przed Ligą Mistrzów to dodatkowa niewiadoma.",
+      "Over 2,5 po 1,58 (63%) – mecze Chelsea są bramkowe, ale United w 4 z 5 ostatnich meczów ≤2 gole; brak przewagi."
      ]
     }
    },
@@ -2280,12 +2278,12 @@
      ]
     },
     "odds": {
-     "src": "Oddsportal 1X2 (stan na 28.10); O/U – LBMD wg rg.org 28.10",
-     "1": 2.1,
-     "X": 3.5,
+     "src": "Oddsportal 1X2 (stan na 30.10); O/U – rg.org (Tonybet/22Bet, 28.10)",
+     "1": 2.15,
+     "X": 3.45,
      "2": 3.5,
-     "o25": 1.82,
-     "u25": 1.92
+     "o25": 1.87,
+     "u25": 1.95
     },
     "info": {
      "injuries": {
@@ -2321,7 +2319,7 @@
     "tip": {
      "decision": "NO BET",
      "reasons": [
-      "Na 1X2 kurs 2,10 (48%) dla Bournemouth odpowiada mniej więcej realnej ocenie; O/U 2,5 wycenione ok. 50/50 (1,82/1,92) – zgodne z profilem (BOU mecze bramkowe, LEE szczelna obrona).",
+      "Na 1X2 kurs 2,15 (47%) dla Bournemouth odpowiada mniej więcej realnej ocenie; O/U 2,5 wycenione ok. 50/50 (1,87/1,95) – zgodne z profilem (BOU mecze bramkowe, LEE szczelna obrona).",
       "Leeds remisuje w 5 z 8 meczów i traci mało – mecz o wysokim prawdopodobieństwie remisu, ale 3,50 (29%) to rynkowa cena bez wyraźnej przewagi.",
       "Wiele niepewnych występów po obu stronach (Kluivert, Adli, Calvert-Lewin, Stach)."
      ]
@@ -2354,12 +2352,12 @@
      ]
     },
     "odds": {
-     "src": "Oddsportal 1X2 (stan na 28.10); O/U – BetRivers wg rg.org 28.10",
-     "1": 2.0,
-     "X": 3.8,
-     "2": 3.75,
-     "o25": 1.68,
-     "u25": 2.15
+     "src": "Oddsportal 1X2 (stan na 30.10); O/U – rg.org (Tonybet/22Bet, 28.10)",
+     "1": 2.05,
+     "X": 3.7,
+     "2": 3.6,
+     "o25": 1.72,
+     "u25": 2.13
     },
     "info": {
      "injuries": {
@@ -2395,7 +2393,7 @@
     "tip": {
      "decision": "NO BET",
      "reasons": [
-      "Kurs 2,00 (50%) na Brentford – zespół remisuje często (5/8), więc szansa na wygraną nie przekracza wyraźnie 50%.",
+      "Kurs 2,05 (49%) na Brentford – zespół remisuje często (5/8), więc szansa na wygraną nie przekracza wyraźnie 50%.",
       "Lista niepewnych występów Forest (Gibbs-White, Milenković, Williams) nieznana do dnia meczu – wycena niepewna.",
       "Brentford 3 dni po meczu pucharowym; brak kursów DNB/goli do porównania."
      ]
@@ -2428,11 +2426,11 @@
      ]
     },
     "odds": {
-     "src": "Oddsportal 1X2 (stan na 28.10); O/U – BetRivers wg rg.org 28.10",
-     "1": 3.0,
-     "X": 3.4,
-     "2": 2.4,
-     "o25": 1.88,
+     "src": "Oddsportal 1X2 (stan na 30.10); O/U – rg.org (Tonybet/22Bet, 28.10)",
+     "1": 3.1,
+     "X": 3.5,
+     "2": 2.35,
+     "o25": 1.93,
      "u25": 1.88
     },
     "info": {
@@ -2468,9 +2466,9 @@
     "tip": {
      "decision": "NO BET",
      "reasons": [
-      "Rynek faworyzuje Sunderland (2,40 = 42%) mimo że to ostatnia drużyna ligi z 6 golami w 8 meczach – brak podstaw, by uznać którąkolwiek stronę za wyraźnie lepszą.",
+      "Rynek faworyzuje Sunderland (2,35 = 43%) mimo że to ostatnia drużyna ligi z 6 golami w 8 meczach – brak podstaw, by uznać którąkolwiek stronę za wyraźnie lepszą.",
       "Obie drużyny bez kluczowych zawodników (Wright, Ballard, Danso, Isidor niepewny).",
-      "O/U 2,5 po 1,88/1,88 (ok. 50%) – mecze obu drużyn średnio 2,5–2,6 gola, brak przewagi na żadnej stronie."
+      "O/U 2,5 po 1,93/1,88 (ok. 50%) – mecze obu drużyn średnio 2,5–2,6 gola, brak przewagi na żadnej stronie."
      ]
     }
    },
@@ -2501,12 +2499,12 @@
      ]
     },
     "odds": {
-     "src": "Oddsportal 1X2 (stan na 28.10); O/U – BetRivers wg rg.org 28.10",
+     "src": "Oddsportal 1X2 (stan na 30.10); O/U – rg.org (Tonybet/22Bet, 28.10)",
      "1": 2.65,
      "X": 3.5,
      "2": 2.65,
-     "o25": 1.88,
-     "u25": 1.89
+     "o25": 1.83,
+     "u25": 1.98
     },
     "info": {
      "injuries": {
@@ -2531,7 +2529,7 @@
      "reasons": [
       "Kursy symetryczne (2,65 / 3,50 / 2,65) – rynek widzi mecz 50/50 i nie ma danych, które by to podważały.",
       "Hull z dłuższą listą absencji, ale Ipswich traci dużo na wyjazdach (16 straconych w 8 meczach) – argumenty się znoszą.",
-      "O/U 2,5 po 1,88/1,89 – rynek 50/50, brak danych wskazujących przewagę."
+      "O/U 2,5 po 1,83/1,98 – rynek 50/50, brak danych wskazujących przewagę."
      ]
     }
    },
@@ -2562,17 +2560,17 @@
      ]
     },
     "odds": {
-     "src": "Oddsportal 1X2 (stan na 28.10); O/U, BTTS, podwójna szansa – najlepsze ceny SportyTrader 28.10; potwierdzenie 1X2 rg.org 28.10 (LBMD 1,65/4,35/4,60)",
-     "1": 1.68,
-     "X": 4.4,
-     "2": 4.5,
+     "src": "Oddsportal 1X2 (stan na 30.10); O/U – rg.org (Tonybet/22Bet, 28.10); BTTS – rg.org (Tonybet, 28.10); O/U 2,5 i podwójna szansa – SportyTrader (28.10)",
+     "1": 1.65,
+     "X": 4.6,
+     "2": 4.75,
      "1X": 1.23,
      "X2": 2.28,
      "12": 1.25,
      "o25": 1.47,
      "u25": 2.7,
-     "bttsY": 1.5,
-     "bttsN": 2.58
+     "bttsY": 1.54,
+     "bttsN": 2.5
     },
     "info": {
      "injuries": {
@@ -2608,7 +2606,7 @@
      "decision": "NO BET",
      "reasons": [
       "Środowy mecz pucharowy (2:2) pokazał, że Brighton potrafi grać z City jak równy z równym; City wypoczęło kluczowych graczy, Brighton zostaje w Manchesterze – czynniki się znoszą.",
-      "Kurs 1,68 (60%) na City przy dobrze dysponowanym Brightonie (najlepszy bilans bramkowy ligi) nie daje przewagi.",
+      "Kurs 1,65 (61%) na City przy dobrze dysponowanym Brightonie (najlepszy bilans bramkowy ligi) nie daje przewagi.",
       "Over 2,5 po 1,47 (68%) – zbyt niski kurs na rynek z dużą zmiennością."
      ]
     }
@@ -2640,11 +2638,11 @@
      ]
     },
     "odds": {
-     "src": "Oddsportal 1X2 (stan na 28.10); O/U i BTTS – najlepsze ceny KickOff.co.uk 28.10",
-     "1": 1.53,
+     "src": "Oddsportal 1X2 (stan na 30.10); O/U – rg.org (Tonybet/22Bet, 28.10); BTTS – KickOff.co.uk (28.10)",
+     "1": 1.55,
      "X": 4.75,
      "2": 5.75,
-     "o25": 1.57,
+     "o25": 1.58,
      "u25": 2.38,
      "bttsY": 1.67,
      "bttsN": 2.1
@@ -2688,9 +2686,9 @@
     "tip": {
      "decision": "NO BET",
      "reasons": [
-      "Kurs 1,53 (65%) na Spurs jest zbyt niski względem ich bilansu domowego (1 wygrana w 4 meczach, 5:6) i długiej listy kontuzji.",
+      "Kurs 1,55 (65%) na Spurs jest zbyt niski względem ich bilansu domowego (1 wygrana w 4 meczach, 5:6) i długiej listy kontuzji.",
       "Palace traci najwięcej goli w lidze, ale ostatnie H2H na tym stadionie wygrało 3:1.",
-      "Over 2,5 po 1,57 (64%): Spurs u siebie średnio 2,75 gola/mecz, Palace 3,5 – moja ocena ok. 58–60%, EV ujemne.",
+      "Over 2,5 po 1,58 (63%): Spurs u siebie średnio 2,75 gola/mecz, Palace 3,5 – moja ocena ok. 58–60%, EV ujemne.",
       "BTTS tak po 1,67 (60%) – brak wyraźnej przewagi przy przewidywanych zmianach w obronie Palace."
      ]
     }
@@ -2722,12 +2720,12 @@
      ]
     },
     "odds": {
-     "src": "Oddsportal 1X2 (stan na 28.10); O/U – BetRivers wg rg.org 28.10",
-     "1": 2.0,
+     "src": "Oddsportal 1X2 (stan na 30.10); O/U – rg.org (Tonybet/22Bet, 28.10)",
+     "1": 1.95,
      "X": 3.8,
-     "2": 3.7,
-     "o25": 1.72,
-     "u25": 2.1
+     "2": 3.8,
+     "o25": 1.69,
+     "u25": 2.17
     },
     "info": {
      "injuries": {
@@ -2767,9 +2765,9 @@
     "tip": {
      "decision": "NO BET",
      "reasons": [
-      "Kurs 2,00 (50%) na Villę – forma za nimi, ale 6 absencji/niepewnych i rotacja przed Ligą Mistrzów.",
+      "Kurs 1,95 (51%) na Villę – forma za nimi, ale 6 absencji/niepewnych i rotacja przed Ligą Mistrzów.",
       "Fulham w dobrej passie, wygrał ostatnie H2H; zespół zmęczony meczem pucharowym – czynniki się równoważą.",
-      "Over 2,5 po 1,72 (58%) – Villa traci mało (12 w 8), Fulham strzela mało (8 w 8); brak przewagi ani na Over, ani na Under 2,10."
+      "Over 2,5 po 1,69 (59%) – Villa traci mało (12 w 8), Fulham strzela mało (8 w 8); brak przewagi ani na Over, ani na Under 2,17."
      ]
     }
    },
@@ -2800,80 +2798,116 @@
      ]
     },
     "odds": {
-     "src": "Oddsportal 1X2 (28.10); podwójna szansa – oddslot; O/U 2,5 – LBMD wg rg.org 28.10 (Bet365 Over 1,80, najlepsza cena Under 2,00 wg KickOff); BTTS – KickOff.co.uk",
-     "1": 3.1,
-     "X": 3.55,
-     "2": 2.3,
+     "src": "Oddsportal 1X2 (stan na 30.10); O/U – rg.org (Tonybet/22Bet, 28.10); podwójna szansa – oddslot, BTTS – KickOff.co.uk (28.10)",
+     "1": 3.0,
+     "X": 3.5,
+     "2": 2.4,
      "1X": 1.62,
      "X2": 1.36,
      "12": 1.3,
-     "o25": 1.8,
-     "u25": 1.95,
+     "o25": 1.81,
+     "u25": 1.97,
      "bttsY": 1.67,
      "bttsN": 2.1
     },
     "info": {
      "injuries": {
       "home": [
-       "Hugo Ekitike (ścięgno Achillesa)",
-       "Jeremie Frimpong (mięsień)",
-       "Vitor Muñoz (kolano)",
+       "Hugo Ekitike (ścięgno Achillesa – do końca grudnia)",
+       "Jeremie Frimpong (nowy uraz mięśniowy – do przerwy reprezentacyjnej)",
+       "Victor Muñoz (kolano – niepewny)",
        "Conor Bradley (kolano)",
        "Giovanni Leoni (kolano)",
-       "Dominik Szoboszlai (mięsień – niepewny)",
-       "Florian Wirtz (niepewny)"
+       "Dominik Szoboszlai (ścięgno udowe – niepewny)"
       ],
       "away": [
-       "Bukayo Saka (udo)",
-       "William Saliba (plecy)",
-       "Christos Tzolis (ścięgno – niepewny)",
-       "Riccardo Calafiori (niepewny)",
-       "Piero Hincapié (kostka – niepewny)"
+       "Bukayo Saka (mięsień czworogłowy – 6–8 tygodni)",
+       "William Saliba (plecy – do przerwy reprezentacyjnej)",
+       "Christos Tzolis (ścięgno – końcówka rehabilitacji)",
+       "Noni Madueke (kostka – niepewny, opuścił mecz pucharowy)",
+       "Riccardo Calafiori (drobny uraz – niepewny)",
+       "Declan Rice (ścięgno – prawdopodobnie zagra)"
       ]
      },
      "suspensions": {
       "home": [],
-      "away": []
+      "away": [
+       "Max Dowman (3 mecze krajowe – odrzucone odwołanie)"
+      ]
      },
      "restDays": {
       "home": 4,
-      "away": 8
+      "away": 5
      },
      "homeAway": "LIV u siebie w lidze tylko 2 pkt w 3 pierwszych meczach (potem 2:0 z Brighton); ARS na wyjazdach 9+ pkt, w lidze tylko 5 straconych goli w 8 meczach",
-     "stakes": "Arsenal 2. (21 pkt) goni Man City; Liverpool 4. (15 pkt). Liverpool w środę 90 min + karne w Pucharze Ligi z Chelsea (1:1, 6:5 k.) – grali m.in. van Dijk, Gravenberch, Gakpo; Arsenal bez meczu od 24.10. Liverpool gra w przyszłym tygodniu w Lidze Mistrzów.",
+     "stakes": "Arsenal 2. (21 pkt) goni Man City; Liverpool 4. (15 pkt), bez porażki od 3:0 z City 11.10. Liverpool w środę 90 min + karne w Pucharze Ligi z Chelsea (1:1, 6:5 k.; Wirtz wszedł z ławki i strzelił karnego – wraca do gry). Arsenal we wtorek 27.10 odpadł z Pucharu Ligi z Fleetwood (1:1, 3:5 k.). Arsenal nie wygrał ligowego meczu na Anfield od 2.09.2012 (13 wizyt).",
      "h2h": [
       "2026-01-08 ARS 0:0 LIV",
       "2025-08-31 LIV 1:0 ARS",
       "2025-05-11 LIV 2:2 ARS",
       "2024-10-27 ARS 2:2 LIV",
-      "Bilans 47 meczów (wg footballpredictions): 15 W LIV – 21 R – 11 W ARS"
+      "Bilans 68 meczów w Premier League: 26 W LIV – 24 R – 18 W ARS"
      ]
     },
     "tip": {
      "decision": "BET",
      "market": "Poniżej 2,5 gola",
-     "odds": 1.95,
-     "prob": 0.55,
-     "ev": 0.0725,
+     "odds": 1.97,
+     "prob": 0.54,
+     "ev": 0.0638,
      "rating": 6,
      "risk": "średnie",
      "reasons": [
-      "Arsenal ma najszczelniejszą obronę wśród czołówki: 5 straconych goli w 8 meczach ligowych (xGA ok. 0,9–1,1 na mecz).",
-      "Liverpool bez Ekitike i Frimponga, z niepewnymi Szoboszlaiem i Wirtzem – osłabiona ofensywa (11 goli w 8 meczach ligowych).",
+      "Arsenal ma najszczelniejszą obronę wśród czołówki: 5 straconych goli w 8 meczach ligowych.",
+      "Liverpool bez Ekitike i Frimponga, z niepewnymi Szoboszlaiem i Muñozem – ofensywa poniżej poziomu (11 goli w 8 meczach ligowych).",
       "Ostatnie dwa mecze bezpośrednie zakończyły się 0:0 i 1:0; mecze na szczycie zwykle są ostrożne taktycznie.",
-      "Modele bramkowe kilku serwisów dają łącznie 2,1–2,2 oczekiwanego gola (np. KickOff 1,0–1,2; footballdream 0,9–1,2); Poisson dla λ≈2,25 daje ok. 58–60% na ≤2 gole.",
+      "Modele bramkowe kilku serwisów dają łącznie ok. 2,1–2,2 oczekiwanego gola; przewidywania serwisów to głównie 1:1; Poisson dla λ≈2,25 daje ok. 58–60% na ≤2 gole.",
       "W lidze 3 z 5 ostatnich meczów każdej z drużyn kończyło się Under 2,5 (LIV: 2:0, 2:1, 0:3, 1:0, 0:0; ARS: 2:0, 1:0, 2:1, 0:3, 2:0).",
-      "Liverpool 4 dni po 90 min + karnych w pucharze – mniejsza intensywność ofensywna gospodarzy."
+      "Liverpool 4 dni po 90 min + karnych w pucharze; Arsenal bez Saki, Dowmana (pauza) i z niepewnym Madueke – mniej jakości w ataku gości."
      ],
      "risks": [
       "Brak Saliby osłabia obronę Arsenalu – realne ryzyko większej liczby goli.",
-      "Liverpool w pucharach gra bardzo bramkowo (4:3 z Villarrealem, 6:3 z LASK) – we wszystkich rozgrywkach średnio ok. 3,4 gola na mecz.",
-      "Ceny Under zróżnicowane (1,89–2,00); przy kursie poniżej 1,85 przewaga znika.",
-      "Składy ogłaszane godzinę przed meczem – powrót Wirtza/Szoboszlaia zwiększa potencjał ofensywny Liverpoolu."
+      "Wirtz wrócił do gry (wszedł z ławki z Chelsea) – zwiększa potencjał ofensywny Liverpoolu; dlatego obniżam swoją ocenę do 54%.",
+      "Liverpool w pucharach gra bardzo bramkowo – we wszystkich rozgrywkach średnio ok. 3,4 gola na mecz.",
+      "Ceny Under zróżnicowane (1,95–2,06); przy kursie poniżej 1,90 przewaga praktycznie znika.",
+      "Konferencja Iraoli w piątek – aktualizacja stanu Szoboszlaia może zmienić wycenę."
      ],
-     "value": "Kurs 1,95 wycenia Under 2,5 na ok. 51%; moja ocena to ok. 55% (konserwatywnie poniżej wyniku modelu Poissona), EV ≈ +7%.",
+     "value": "Kurs 1,97 wycenia Under 2,5 na ok. 51%; moja ocena to ok. 54% (konserwatywnie poniżej wyniku modelu Poissona), EV ≈ +6%.",
      "stake": "1% bankrollu (typ umiarkowany, ocena 6/10)"
-    }
+    },
+    "officials": [
+     {
+      "r": "GŁ",
+      "role": "Sędzia główny",
+      "name": "Andy Madley",
+      "nat": "ENG"
+     },
+     {
+      "r": "AS1",
+      "role": "Asystent 1",
+      "name": "Nick Hopton"
+     },
+     {
+      "r": "AS2",
+      "role": "Asystent 2",
+      "name": "Tim Wood"
+     },
+     {
+      "r": "4.",
+      "role": "Sędzia techniczny",
+      "name": "Tom Bramall"
+     },
+     {
+      "r": "VAR",
+      "role": "Sędzia VAR",
+      "name": "Stuart Attwell"
+     },
+     {
+      "r": "AVAR",
+      "role": "Asystent VAR",
+      "name": "James Bell"
+     }
+    ]
    },
    {
     "id": "PL-2026-27-R9-NEW-EVE",
@@ -2902,13 +2936,48 @@
      ]
     },
     "odds": {
-     "src": "Oddsportal 1X2 (stan na 28.10)",
-     "1": 2.25,
+     "src": "Oddsportal 1X2 (stan na 30.10); O/U 2,5 – rg.org (22Bet, 28.10; DraftKings 1,71/2,10); BTTS – DraftKings via ESPN (30.10)",
+     "1": 2.3,
      "X": 3.7,
-     "2": 3.0
+     "2": 3.0,
+     "o25": 1.71,
+     "u25": 2.14,
+     "bttsY": 1.56,
+     "bttsN": 2.35
     },
     "info": {
-     "stakes": "Te same drużyny grają ze sobą w czwartek 29.10 w Pucharze Ligi (Everton u siebie) – wynik i rotacja wpłyną na poniedziałkowy mecz ligowy."
+     "injuries": {
+      "home": [
+       "Tino Livramento",
+       "Ewen Jaouen",
+       "Lewis Miley (pośladek – niepewny)"
+      ],
+      "away": []
+     },
+     "suspensions": {
+      "home": [],
+      "away": []
+     },
+     "restDays": {
+      "home": 3,
+      "away": 3
+     },
+     "homeAway": "NEW: 12 goli strzelonych, 14 straconych w 8 meczach; EVE: 8:9, na wyjazdach dwie porażki z rzędu (ostatnio 0:2 z Arsenalem)",
+     "stakes": "W czwartek 29.10 Everton wygrał z Newcastle 3:1 w 1/8 Pucharu Ligi (Garner 34', Hackney ok. 45', Barry 69' – Burn 88'); po golu Burna doszło do przepychanki. Jaissle wprowadził w przerwie Joelintona, Elangę i Wissę. Grealish (Everton) nie zagrał w pucharze z powodu naruszenia dyscypliny klubowej – status na poniedziałek nieznany. Newcastle 8. (11 pkt, forma LWLLW, ostatnio 2:0 w Palace), Everton 11. (10 pkt, forma DWDLL).",
+     "h2h": [
+      "2026-10-29 EVE 3:1 NEW (Puchar Ligi)",
+      "Ostatnie 10 lat w lidze (18 meczów): 7 W NEW – 4 R – 7 W EVE"
+     ]
+    },
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Kursy 2,30 / 3,70 / 3,00 (43% / 27% / 33%) odpowiadają wyrównanemu meczowi dwóch drużyn środka tabeli o podobnym dorobku (11 i 10 pkt).",
+      "Świeży wynik pucharowy (3:1 dla Evertonu) to argument za gośćmi, ale opieranie się na jednym meczu jest zawodne; Newcastle u siebie i z możliwością zmian w składzie.",
+      "Niejasna sytuacja kadrowa: Grealish (dyscyplina), Miley (niepewny), rotacje po meczu pucharowym – składy nieprzewidywalne.",
+      "Over 2,5 po 1,71 (58%) i BTTS tak po 1,56 (64%) – Everton strzela mało (8 w 8), brak przewagi na rynkach bramkowych.",
+      "Zbyt duża niepewność – NO BET."
+     ]
     }
    }
   ],

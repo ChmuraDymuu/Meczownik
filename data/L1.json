@@ -1,9 +1,9 @@
 {
- "updated": "2026-10-29T06:45:00+01:00",
+ "updated": "2026-10-30T06:45:00+01:00",
  "season": "2026/27",
  "competition": "Ligue 1",
  "currentRound": 9,
- "note": "Źródła: ligue1.com (sędziowie J9), Rue des Joueurs (kursy i wiadomości J9, stan na 26–28.10), RotoWire/Betr (kurs Lyon–Angers), FootballPredictions (kadry, forma, xG, H2H), Foot-sur7/Footeo/Lensois (zmiany terminów J9), psg.fr, BettingNews; wcześniej: t-online.de (relacje 8. kolejki), Foot01, Soccerway, Foot Mercato, Wincomparator, Maxifoot, Eurosport, L'Équipe.",
+ "note": "Źródła: foot-sur7.fr (składy i absencje Le Havre–PSG, 29.10), lyonfoot.com (kadra OL, 29.10), Rue des Joueurs/BettingNews/RotoWire (kursy Lorient–Brest), ligue1.com (sędziowie J9), Rue des Joueurs (kursy i wiadomości J9, stan na 26–28.10), RotoWire/Betr (kurs Lyon–Angers), FootballPredictions (kadry, forma, xG, H2H), Foot-sur7/Footeo/Lensois (zmiany terminów J9), psg.fr, BettingNews; wcześniej: t-online.de (relacje 8. kolejki), Foot01, Soccerway, Foot Mercato, Wincomparator, Maxifoot, Eurosport, L'Équipe.",
  "teams": {
   "ANG": {
    "id": "ANG",
@@ -3914,8 +3914,18 @@
     },
     "info": {
      "injuries": {
-      "home": [],
-      "away": []
+      "home": [
+       "Felix Mambimbi (ścięgno Achillesa)",
+       "Timothée Pembélé",
+       "Elias Jelert"
+      ],
+      "away": [
+       "Ousmane Dembélé (lewe udo)",
+       "Marquinhos (prawe udo)",
+       "Chwicza Kwaracchelia (zerwane więzadło krzyżowe, przerwa kilkumiesięczna)",
+       "Mika Godts – niepewny (sprawy rodzinne)",
+       "Nuno Mendes – niepewny"
+      ]
      },
      "restDays": {
       "home": 4,
@@ -3931,12 +3941,13 @@
      "decision": "NO BET",
      "reasons": [
       "Kurs 1,24 na PSG (81% implikowane) nie daje przewagi — moja ocena ok. 78–80%.",
+      "PSG bez Dembélé, Marquinhosa i Kwaracchelii, niepewni Mendes i Godts — osłabienie potwierdza, że kurs 1,24 jest za niski.",
       "PSG grał w poniedziałek, możliwa rotacja przed Ligą Mistrzów.",
       "Le Havre strzelił 3 gole w ostatnim kwadransie w Marsylii — ryzyko gola gospodarzy.",
       "Brak kursów na rynki gole/handicap w sprawdzonych źródłach."
      ]
     },
-    "notes": "Godzina 19:00 potwierdzona (psg.fr, LFP). Sędziowie wg LFP.",
+    "notes": "Godzina 19:00 potwierdzona (psg.fr, LFP). Sędziowie wg LFP. Przewidywane składy (foot-sur7, 29.10): Le Havre 5-3-2 – Gallon; Koffi, Touba, Mwanga, Seko, Ouziad; Richardson, Ebonog, Ndiaye; Samatta, Maja. PSG 4-3-3 – Safonow; Hakimi, Zabarnyi, Pacho, Hernandez; Neves, Vitinha, Ruiz; Akliouche, Torres, Doué.",
     "officials": [
      {
       "r": "GŁ",
@@ -3969,7 +3980,11 @@
       "role": "Asystent VAR",
       "name": "William Lavis"
      }
-    ]
+    ],
+    "formation": {
+     "home": "5-3-2",
+     "away": "4-3-3"
+    }
    },
    {
     "id": "L1-2026-27-R9-NIC-REN",
@@ -4377,14 +4392,22 @@
       "away": 7
      },
      "homeAway": "Lyon 5. (14 pkt, 13:7), w poniedziałek przegrał 0:2 w Paryżu z PSG; Angers 14. (8 pkt, 9:15), bez zwycięstwa w 3 ostatnich meczach (L, L, D).",
-     "stakes": "Lyon chce wrócić do czołówki po porażce z liderem; Angers broni się przed strefą spadkową. Mecz przeniesiony na niedzielę 17:15 na wniosek prefektury."
+     "stakes": "Lyon chce wrócić do czołówki po porażce z liderem; Angers broni się przed strefą spadkową. Mecz przeniesiony na niedzielę 17:15 na wniosek prefektury.",
+     "injuries": {
+      "home": [
+       "Tyler Morton – niepewny (przywodziciele, początki pubalgii)",
+       "Corentin Tolisso – niepewny (przywodziciele)",
+       "Mads Bidstrup – niepewny (kolano)"
+      ],
+      "away": []
+     }
     },
     "tip": {
      "decision": "NO BET",
      "reasons": [
       "Kurs 1,37 na Lyon po marży ≈ 67% — moja ocena ok. 65–68%, brak dodatniego EV.",
       "Nie znaleziono wiarygodnych kursów na handicap, gole ani BTTS — nie da się sprawdzić lepszego rynku.",
-      "Brak potwierdzonych informacji o kontuzjach i składach obu drużyn w sprawdzonych źródłach.",
+      "Trzech środkowych pomocników Lyonu niepewnych (Morton, Tolisso, Bidstrup) — możliwe osłabienie drugiej linii; brak informacji o absencjach Angers.",
       "Lyon traci mało (7 goli w 8 meczach), ale strzela przeciętnie — wyższe handicapy byłyby ryzykowne."
      ]
     }
@@ -4615,7 +4638,30 @@
       "role": "Asystent VAR",
       "name": "Pierre Gaillouste"
      }
-    ]
+    ],
+    "odds": {
+     "src": "Rue des Joueurs – najlepsze kursy (Winamax 1/X, Unibet 2), stan na 27.10.2026; BettingNews (6 bukmacherów US) 2,45–2,52 / 3,30–3,32 / 2,85–2,97; RotoWire/Betr 2,41 / 3,14 / 2,80",
+     "1": 2.4,
+     "X": 3.3,
+     "2": 2.95
+    },
+    "info": {
+     "restDays": {
+      "home": 8,
+      "away": 10
+     },
+     "homeAway": "Lorient 9. (12 pkt, 7:6) – druga najlepsza obrona ligi, ostatnio 0:0 w Angers (forma DLWWD). Brest 13. (9 pkt, 14:12), forma LLWDL, ostatnio 1:2 z Nice u siebie.",
+     "stakes": "Derby Bretanii. Lorient może dogonić górną połowę tabeli, Brest chce oddalić się od strefy spadkowej. Mecz przeniesiony na poniedziałek 20:45 na wniosek prefektury Morbihan."
+    },
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Kursy 2,40 / 3,30 / 2,95 po marży ≈ 39% / 29% / 32%; moja ocena ok. 40% / 30% / 30% — brak dodatniego EV na żadnym wyniku 1X2.",
+      "Lorient traci bardzo mało (6 goli w 8 meczach), ale też mało strzela (7) — typ na under byłby logiczny, lecz kursów O/U nie znaleziono.",
+      "Brak potwierdzonych informacji o kontuzjach i przewidywanych składach obu drużyn.",
+      "Derby i długa przerwa (8 i 10 dni) zwiększają nieprzewidywalność."
+     ]
+    }
    }
   ],
   "10": [

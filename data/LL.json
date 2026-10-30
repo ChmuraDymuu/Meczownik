@@ -1,9 +1,9 @@
 {
- "updated": "2026-10-29T05:55:00+01:00",
+ "updated": "2026-10-30T05:50:00+01:00",
  "season": "2026/27",
  "competition": "LaLiga",
  "currentRound": 11,
- "note": "Źródła: laliga.com (tabela po 10. kol., terminarz), futboltotal.futbol (protokoły 10. kol.), Oddsportal (1X2 11. kol., 29.10), Stats Insider/bet365 (kursy na gole, 29.10), comuniate/futbolfantasy/jornadaperfecta (kontuzje, zawieszenia, przewidywane składy), Sporza/BioBioChile/Athlon (Puchar Króla – przełożenia po katastrofie kolejowej), ElNacional/mundiario (Eder Sarabia trenerem Espanyolu). Sędziowie 11. kol. jeszcze nieogłoszeni. Godziny w czasie polskim.",
+ "note": "Źródła: laliga.com (tabela po 10. kol., terminarz), futboltotal.futbol (protokoły 10. kol.), Oddsportal (1X2 11. kol., 29.10), Stats Insider/bet365 (kursy, 29–30.10), comuniate/futbolfantasy/jornadaperfecta (kontuzje, zawieszenia, przewidywane składy), Sporza (wyniki Pucharu Króla 27–29.10), lagrada.org (sędziowie VIL–ESP), ElNacional/mundiario (Eder Sarabia trenerem Espanyolu). Sędziowie pozostałych meczów 11. kol. jeszcze nieogłoszeni. Godziny w czasie polskim.",
  "teams": {
   "ALA": {
    "id": "ALA",
@@ -6147,7 +6147,7 @@
      "city": "Villarreal"
     },
     "odds": {
-     "src": "1X2: Oddsportal; gole: bet365 (via Stats Insider), stan na 29.10.2026",
+     "src": "1X2: Oddsportal (29.10) / bet365 via Stats Insider (30.10: 1,42 / 4,75 / 6,25); gole: bet365 via Stats Insider, stan na 30.10.2026",
      "1": 1.46,
      "X": 5.0,
      "2": 7.0,
@@ -6189,10 +6189,11 @@
      "decision": "NO BET",
      "reasons": [
       "Kurs 1,46 na Villarreal (~65% po marży) vs moja ocena ~62% – EV ≈ −0,09.",
+      "Aktualizacja 30.10: bet365 1,42 / 4,75 / 6,25, model Stats Insider 61% / 20% / 19% – rynek nadal wycenia Villarreal powyżej mojej oceny.",
       "Espanyol 6,25–7,00 (~14–15%): zmiana trenera to czynnik niepewności, nie mierzalna przewaga.",
       "Under 2,5 po 2,62 (~37% z kursu): prosty model Poissona daje ok. 45–48%, ale ten sam rozjazd z rynkiem występuje w niemal wszystkich meczach kolejki – traktuję to jako błąd modelu (średnia ligi ~3 gole/mecz, mała próba 10 kolejek), nie value.",
       "Pierwszy mecz Sarabii – brak danych o jego ustawieniu i składzie; Gueye zawieszony, Saliba niepewny, Akhomach kontuzjowany.",
-      "Sędzia nieogłoszony; zbyt duża niepewność → NO BET."
+      "Sędzia: José María Sánchez Martínez (VAR: Alejandro Muñiz Ruiz) – brak czynnika zmieniającego wycenę; zbyt duża niepewność → NO BET."
      ]
     },
     "notes": "Sędzia jeszcze nieogłoszony (stan na 29.10 rano). Nowy trener Espanyolu: Eder Sarabia (oficjalnie 28.10).",
@@ -6203,7 +6204,21 @@
        "Eder Sarabia"
       ]
      ]
-    }
+    },
+    "officials": [
+     {
+      "r": "GŁ",
+      "role": "Sędzia główny",
+      "name": "José María Sánchez Martínez",
+      "nat": "ESP"
+     },
+     {
+      "r": "VAR",
+      "role": "Sędzia VAR",
+      "name": "Alejandro Muñiz Ruiz",
+      "nat": "ESP"
+     }
+    ]
    },
    {
     "id": "LL-2026-27-R11-LEV-ATM",
@@ -6470,7 +6485,7 @@
       "away": 3
      },
      "homeAway": "Getafe: 2W 3R 5P (5:15), forma LWLDL – najsłabszy atak ligi; Sevilla: 5W 2R 3P (16:16), forma WLDLW",
-     "stakes": "17. Getafe (9 pkt) vs 6. Sevilla (17 pkt). Obie drużyny grają w czwartek 29.10 w Pucharze Króla (UB Lebrijana – Getafe, Sporting de Hortaleza – Sevilla), więc tylko 2 pełne dni przerwy.",
+     "stakes": "17. Getafe (9 pkt) vs 6. Sevilla (17 pkt). Obie drużyny grały 29.10 w Pucharze Króla: UB Lebrijana 2:3 Getafe, Sporting de Hortaleza 0:3 Sevilla – tylko 2 pełne dni przerwy.",
      "h2h": []
     },
     "tip": {
@@ -6506,13 +6521,14 @@
     },
     "info": {
      "injuries": {
-      "home": [],
+      "home": [
+       "Eriksson (niepewny)"
+      ],
       "away": [
-       "Thibaut Courtois (niepewny, grypa)",
-       "Federico Valverde (kontuzja potwierdzona przez trenera – stopień nieznany)",
-       "Ferland Mendy (do grudnia)",
+       "Ferland Mendy (niepewny)",
        "Raúl Asencio (do stycznia)",
-       "Rodrygo (do grudnia)"
+       "Rodrygo (do grudnia)",
+       "Federico Valverde (badania wykluczyły poważny uraz – występ niepewny)"
       ]
      },
      "suspensions": {
@@ -6528,7 +6544,7 @@
       "away": 7
      },
      "homeAway": "Racing: 3W 2R 5P (15:26) – najwięcej straconych goli w lidze, forma LLDLW; Real: 8W 0R 2P (25:10), wygrał 2:1 na Camp Nou",
-     "stakes": "13. Racing (11 pkt) vs 3. Real Madryt (24 pkt, 3 pkt straty do Barcelony). Racing gra 29.10 w Pucharze (Ribadesella – Racing).",
+     "stakes": "13. Racing (11 pkt) vs 3. Real Madryt (24 pkt, 3 pkt straty do Barcelony). Racing wygrał 29.10 w Pucharze 2:0 z Ribadesellą (3 dni przerwy). Courtois w przewidywanym składzie (jornadaperfecta).",
      "h2h": []
     },
     "tip": {
@@ -6536,7 +6552,7 @@
      "reasons": [
       "Kurs 1,24 na Real (~78% po marży) vs moja ocena ~75–78% – EV ≤ 0.",
       "Over 2,5 po 1,20 (~80% po marży): mecze Racingu średnio 4,1 gola, ale mój szacunek to ok. 70–74% → EV ≈ −0,13.",
-      "Real bez Viníciusa (zawieszony), Rodrygo, Mendy'ego, Asencio; niepewni Courtois i Valverde.",
+      "Real bez Viníciusa (zawieszony), Rodrygo i Asencio; niepewni Mendy i Valverde (badania wykluczyły poważny uraz).",
       "Racing po meczu pucharowym 29.10 (3 dni przerwy) – argument za Realem, ale już w niskim kursie.",
       "Zbyt niskie kursy przy realnych osłabieniach → NO BET."
      ]
@@ -6636,7 +6652,7 @@
       "away": 7
      },
      "homeAway": "Athletic: 3W 3R 3P (12:9) w 9 meczach, forma DDDLW (4:0 z Getafe); Real Sociedad: 6W 1R 3P (19:18), forma LWWWW",
-     "stakes": "Derby Kraju Basków. 8. Athletic (12 pkt, mecz zaległy) vs 5. Real Sociedad (19 pkt). Athletic gra 29.10 w Pucharze (AE Prat – Athletic).",
+     "stakes": "Derby Kraju Basków. 8. Athletic (12 pkt, mecz zaległy) vs 5. Real Sociedad (19 pkt). Athletic wygrał 29.10 w Pucharze 6:1 z AE Prat (3 dni przerwy).",
      "h2h": []
     },
     "tip": {
@@ -6661,7 +6677,50 @@
      "name": "Riazor",
      "city": "A Coruña"
     },
-    "notes": "Termin potwierdzony przez LaLiga: pon. 2.11, 21:00."
+    "notes": "Termin potwierdzony przez LaLiga: pon. 2.11, 21:00.",
+    "odds": {
+     "src": "bet365 via Stats Insider, stan na 30.10.2026",
+     "1": 2.1,
+     "X": 3.2,
+     "2": 3.5,
+     "o25": 2.2,
+     "u25": 1.67
+    },
+    "info": {
+     "injuries": {
+      "home": [
+       "Bright Ede (dwugłowy uda)",
+       "Marc Casadó (złamanie obojczyka, do grudnia)",
+       "Zakaria (złamanie ręki)",
+       "Aubameyang (niepewny, łąkotka)"
+      ],
+      "away": [
+       "Herrando (przywodziciel, do listopada)",
+       "Aimar Oroz (uraz mięśniowy)",
+       "Del Castillo (uraz mięśniowy)"
+      ]
+     },
+     "suspensions": {
+      "home": [],
+      "away": []
+     },
+     "restDays": {
+      "home": 7,
+      "away": 4
+     },
+     "homeAway": "Deportivo: 2W 5R 3P (13:13), forma LDLDL; Osasuna: 3W 2R 5P (10:20), forma LDLWL. Puchar Króla: Auriense 0:3 Deportivo (27–29.10), Atlético Calatayud 0:6 Osasuna.",
+     "stakes": "11. Deportivo (11 pkt) vs 12. Osasuna (11 pkt) – bezpośredni rywal w środku tabeli."
+    },
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Kursy 2,10 / 3,20 / 3,50 (~44% / 29% / 27% po marży) – model Stats Insider 42% / 27% / 31%; moja ocena zbliżona do rynku.",
+      "Under 2,5 po 1,67 (~57% po marży): mecze Deportivo średnio 2,6 gola, Osasuny 3,0 – brak przewagi.",
+      "Obie drużyny osłabione (Deportivo bez Casadó, Ede, Zakarii; Osasuna bez Oroza, Herrando, Del Castillo) – efekty się znoszą.",
+      "Deportivo bez wygranej w 5 ostatnich – forma nie potwierdza faworyta.",
+      "Sędzia nieogłoszony, składy niepewne → NO BET."
+     ]
+    }
    }
   ],
   "12": [

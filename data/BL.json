@@ -1,9 +1,9 @@
 {
- "updated": "2026-10-29T06:40:00+01:00",
+ "updated": "2026-10-30T06:30:00+01:00",
  "season": "2026/27",
  "competition": "Bundesliga",
  "currentRound": 8,
- "note": "Źródła: bundesliga.com, DFB / ig-schiedsrichter.de (obsada sędziowska 8. kolejki), oddschecker i Wettbasis (kursy), fcbayern.com, sport1, sport.orf.at, t-online.de, osthessen-zeitung (wyniki DFB-Pokal), spox, fcbinside, goal.com, sportwetten24; wcześniej: flashscore, ESPN, rotowire, futboltotal, Sofascore, sportschau.de. Godziny w czasie polskim (CET).",
+ "note": "Źródła: bundesliga.com, DFB, kicker, comunio-magazin (29.10), khelnow (30.10), t-online/dpa, wettbasis (BETSiE, kursy Betano/Interwetten), wettfreunde, oddschecker; wcześniej: flashscore, ESPN, sport1, spox, fcbinside, goal.com, sportwetten24. Stan 30.10.2026 rano.",
  "teams": {
   "BAY": {
    "id": "BAY",
@@ -2870,7 +2870,7 @@
      "capacity": 10000
     },
     "odds": {
-     "src": "oddschecker, stan na 28.10.2026 (Wettbasis 29.10: Mainz 2,05 Winamax)",
+     "src": "oddschecker, stan na 28.10.2026; Betano 29.10: 3,15 / 4,00 / 2,20, Interwetten: Mainz 2,15",
      "1": 3.25,
      "X": 4.0,
      "2": 2.12
@@ -2901,13 +2901,18 @@
       "home": 3,
       "away": 3
      },
-     "homeAway": "Elversberg u siebie: 2 zwycięstwa i 1 porażka (8 goli), w ostatniej kolejce 0:4 w Lipsku. Mainz u siebie tylko 1 pkt w 4 meczach, ale na wyjazdach komplet 9 pkt (10:3). Oba zespoły: 10 pkt po 7 kolejkach.",
-     "stakes": "7. Mainz vs 8. Elversberg (obie po 10 pkt). Obie drużyny odpadły we wtorek z DFB-Pokal: Elversberg – Darmstadt 0:2; Bochum – Mainz 2:0 (Rasmussen 46', Hofmann 75')."
+     "homeAway": "Elversberg u siebie: 2 zwycięstwa i 1 porażka (8 goli), w ostatniej kolejce 0:4 w Lipsku. Mainz u siebie tylko 1 pkt w 4 meczach, ale na wyjazdach komplet 9 pkt (10:3). Oba zespoły: 10 pkt po 7 kolejkach. Mainz bez porażki w 9 kolejnych ligowych meczach wyjazdowych. Elversberg ma najgorsze xGA ligi; bramkarz Kristof stracił 15 goli w 7 meczach.",
+     "stakes": "7. Mainz vs 8. Elversberg (obie po 10 pkt). Obie drużyny odpadły we wtorek z DFB-Pokal: Elversberg – Darmstadt 0:2; Bochum – Mainz 2:0 (Rasmussen 46', Hofmann 75').",
+     "h2h": [
+      "2023 DFB-Pokal Elversberg 0:1 Mainz",
+      "2021 DFB-Pokal remis, Mainz wygrał w karnych 4:2"
+     ]
     },
     "tip": {
      "decision": "NO BET",
      "reasons": [
       "Kursy 3,25 / 4,00 / 2,12 wyceniają Mainz na ok. 45% (po marży) – moja ocena ok. 44–47%: EV na 2 ≈ −2…+1%, brak przewagi.",
+      "Model BETSiE (Wettbasis): 31% / 23% / 45%, xG 1,42 – 1,74 – przy kursie 2,20 (Betano) EV na Mainz ≈ 0%; X2 ok. 1,40 implikuje ok. 71%, model ok. 69% – także brak przewagi.",
       "Obie drużyny odpadły we wtorek z Pucharu Niemiec bez dogrywki (Elversberg 0:2 z Darmstadt po 5 zmianach w składzie, Mainz 0:2 w Bochum) – podobne obciążenie, brak argumentu zmęczeniowego.",
       "Mainz na wyjazdach w lidze 3/3 zwycięstw (10:3), u siebie słabo; Elversberg u siebie 2W 1P – kontrastujące serie przy małej próbie (7 meczów).",
       "Elversberg z kilkoma absencjami (Gyamerah, Seifert, Zimmerschied), Mainz po pucharowej porażce bez gola – zbyt duża niepewność na typ."
@@ -3200,23 +3205,25 @@
      "stakes": "1. vs 2. – obie po 17 pkt; bezpośrednie starcie o fotel lidera. Bayern w środę 28.10 6:1 z Magdeburgiem w Pucharze (rotacja: Kane na ławce, bez Kimmicha, Neuera, Musiali). BVB we wtorek 3:2 z Werderem (Sabitzer 90+3').",
      "injuries": {
       "home": [
-       "Manuel Neuer (podrażnienie ścięgna w stopie – wg fcbinside/spox powrót możliwy na BVB, niepotwierdzony)",
-       "Luis Díaz (naderwanie włókien mięśnia uda – kilka tygodni)",
-       "Jamal Musiala (uraz uda – nie trenował z drużyną, występ niepewny)",
-       "Aleksandar Pavlović (wraca do treningów, niepewny)",
+       "Manuel Neuer (podrażnienie ścięgna w stopie – niepewny; przewidywany w bramce Jonas Urbig)",
+       "Jamal Musiala (naderwanie włókien mięśniowych – niepewny)",
+       "Luis Díaz (naderwanie wiązki mięśniowej – wypada)",
+       "Bara Ndiaye (zapalenie wyrostka – wypada)",
        "Tarek Buchmann"
       ],
       "away": [
-       "Emre Can",
-       "Giannis Konstantelias",
-       "Justin Lerma"
+       "Emre Can (zerwane więzadło krzyżowe)",
+       "Giannis Konstantelias (zerwane więzadło krzyżowe)",
+       "Justin Lerma (uraz mięśniowy)",
+       "Konstantinos Karetsas (uraz więzadeł)",
+       "Niepewni: Meyer (infekcja), Bensebaini (stłuczenie uda), Kauã Prates (mięśnie), Kaba (bark)"
       ]
      },
      "suspensions": {
       "home": [],
       "away": []
      },
-     "homeAway": "Bayern: 25:6 w 7 meczach (18 goli w 3 meczach u siebie). BVB: najlepsza obrona ligi (4 stracone), bez porażki, na wyjazdach 2W 1R. Trener Vincent Kompany (podrażnienie opon mózgowych) wypisany ze szpitala 28.10, ale wg Sport1 nie poprowadzi drużyny w sobotę – na ławce Aaron Danks. Joshua Kimmich (pauza z powodów osobistych) – wg spox powrót na BVB „bardzo możliwy”."
+     "homeAway": "Bayern: 25:6 w 7 meczach (18 goli w 3 meczach u siebie). BVB: najlepsza obrona ligi (4 stracone), bez porażki, na wyjazdach 2W 1R. Trener Vincent Kompany (podrażnienie opon mózgowych) wypisany ze szpitala 28.10, ale wg Sport1 nie poprowadzi drużyny w sobotę – na ławce Aaron Danks. Joshua Kimmich (pauza z powodów osobistych) – wg spox powrót na BVB „bardzo możliwy”. Kimmich wg komunikatów Bayernu/dpa wraca na mecz z BVB; Pavlović w przewidywanych składach (comunio, khelnow)."
     },
     "tip": {
      "decision": "NO BET",
@@ -3224,7 +3231,8 @@
       "Kurs 1,37 na Bayern = ok. 70% po marży – bez trenera Kompany'ego (Danks na ławce), z niepewnym Neuerem i Musialą oraz przeciw najlepszej obronie ligi nie widzę podstaw do wyższej oceny.",
       "Remis 6,00 / BVB 7,50 – moja ocena wygranej BVB ok. 12–14%, zbliżona do rynku; brak dodatniego EV.",
       "Over 3,5 po 1,67 (bet365, Wettbasis) wycenia ok. 60% – przy oczekiwanych ok. 3,3 golach rozkład Poissona daje ok. 42%; EV ujemne.",
-      "Bayern rotował w środę (Kane na ławce) – plus dla świeżości, ale składy niepotwierdzone."
+      "Bayern rotował w środę (Kane na ławce) – plus dla świeżości, ale składy niepotwierdzone.",
+      "Aktualizacja 30.10: Neuer i Musiala nadal niepewni, Kimmich i Pavlović prawdopodobnie wracają; Coral 4/11 (1,36) na Bayern – wycena bez zmian, brak przewagi."
      ]
     },
     "officials": [

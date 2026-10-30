@@ -1,9 +1,9 @@
 {
- "updated": "2026-10-29T06:55:00+01:00",
+ "updated": "2026-10-30T06:55:00+01:00",
  "season": "2026/27",
  "competition": "Ekstraklasa",
  "currentRound": 13,
- "note": "Źródła: ekstraklasa.org / sportowefakty.wp.pl / piast-gliwice.eu (terminarz), Oddsportal (kursy 1X2, 29.10), sportowefakty.wp.pl, tvp.pl, kkslech.com, pilkanozna.pl (Puchar Polski 27–28.10), transfery.info (Adamski), sport1.pl, legia.net (H2H). Tabela po 12. kolejce (LPO, POG, JAG, WPL z zaległymi meczami; WPL–LPO przełożony na 17.12). Forma: ostatnie 5 meczów ligowych. Godziny w czasie zimowym (CET). Obsada sędziowska 13. kolejki jeszcze nieopublikowana.",
+ "note": "Źródła: ekstraklasa.org / sportowefakty.wp.pl (terminarz, obsada sędziowska 13. kol.), interia.pl (zmiana sędziego Górnik–Legia), lechpoznan.pl (obsada Lech–Wisła), Oddsportal (kursy 1X2, 30.10), weszlo.com / flashscore.pl (Superbet), sport1.pl (skład Górnika), weszlo.com (wyniki 1/16 PP). Tabela po 12. kolejce (LPO, POG, JAG, WPL z zaległymi meczami; WPL–LPO przełożony na 17.12). Forma: ostatnie 5 meczów ligowych. Godziny w czasie zimowym (CET).",
  "teams": {
   "LEG": {
    "id": "LEG",
@@ -1809,7 +1809,7 @@
      "capacity": 15016
     },
     "odds": {
-     "src": "Oddsportal 1X2 (stan na 29.10 ~06:50)",
+     "src": "Oddsportal 1X2 (stan na 30.10 ~06:45)",
      "1": 2.1,
      "X": 3.6,
      "2": 3.2
@@ -1836,7 +1836,16 @@
       "Kursy 2,10 / 3,60 / 3,20 bez istotnych zmian. Motor rozegrał we wtorek 120 minut w pucharze, co lekko przemawia za Cracovią, ale ona przegrała 4 z 5 ostatnich meczów ligowych, a 2,10 (ok. 45% po marży) już ją faworyzuje. Tylko rynek 1X2 — brak dodatniego EV."
      ]
     },
-    "notes": "Motor zremisował 27.10 z Rakowem 1:1 po dogrywce w 1/16 Pucharu Polski i odpadł po karnych (1–3) — 120 minut gry na 3 dni przed meczem. Cracovia nie grała w tej rundzie pucharu."
+    "notes": "Motor zremisował 27.10 z Rakowem 1:1 po dogrywce w 1/16 Pucharu Polski i odpadł po karnych (1–3) — 120 minut gry na 3 dni przed meczem. Cracovia nie grała w tej rundzie pucharu.",
+    "officials": [
+     {
+      "r": "GŁ",
+      "role": "Sędzia główny",
+      "name": "Daniel Stefański",
+      "nat": "POL",
+      "city": "Bydgoszcz"
+     }
+    ]
    },
    {
     "id": "2026-27-R13-GZA-LEG",
@@ -1851,16 +1860,16 @@
      "capacity": 28236
     },
     "odds": {
-     "src": "Oddsportal 1X2 (29.10 ~06:50); podwójna szansa, gole, BTTS: LV BET (blog LV BET, 28.10)",
+     "src": "Oddsportal 1X2 (30.10 ~06:45); podwójna szansa, gole, BTTS: Superbet (weszlo.com, 29–30.10)",
      "1": 2.1,
-     "X": 3.5,
-     "2": 3.4,
-     "1X": 1.33,
-     "X2": 1.82,
-     "o25": 1.95,
-     "u25": 1.85,
-     "bttsY": 1.8,
-     "bttsN": 1.98
+     "X": 3.45,
+     "2": 3.3,
+     "1X": 1.32,
+     "X2": 1.7,
+     "o25": 1.92,
+     "u25": 1.87,
+     "bttsY": 1.76,
+     "bttsN": 2.05
     },
     "info": {
      "restDays": {
@@ -1886,10 +1895,19 @@
     "tip": {
      "decision": "NO BET",
      "reasons": [
-      "Kursy 2,10 / 3,50 / 3,40 (ok. 45% / 27% / 28% po zdjęciu marży) praktycznie bez zmian. Górnik ma w nogach 120 minut z wtorku (3 dni odpoczynku, Legia 5), co lekko przemawia za X2, ale moja wycena ~55–57% przy kursie ok. 1,80 daje EV w granicach +0–3% — poniżej progu. Niepewny występ Adamskiego, brak składów i obsady sędziowskiej."
+      "Kursy 2,10 / 3,45 / 3,30 i X2 1,70 (Superbet) — po zdjęciu marży X2 ok. 57%, moja wycena ~55–58% (Górnik 3 dni odpoczynku po 120 min, Legia 5 dni, ale Górnik wraca do pierwszego składu). EV X2 ok. −2…+0% — brak przewagi. BTTS tak 1,76 (57% z kursu) zgodne z moją oceną ~56%. Niepewny występ Adamskiego, brak oficjalnych składów."
      ]
     },
-    "notes": "Górnik zagrał 27.10 w Gliwicach z Piastem 0:0 po dogrywce i awansował do 1/8 Pucharu Polski po karnych (3–1); w bramce grał rezerwowy Tomasz Loska. Legia nie grała w tej rundzie pucharu."
+    "notes": "Górnik zagrał 27.10 w Gliwicach z Piastem 0:0 po dogrywce i awansował do 1/8 Pucharu Polski po karnych (3–1); w bramce grał rezerwowy Tomasz Loska. Legia nie grała w tej rundzie pucharu. Dzień przed meczem PZPN zmienił sędziego: Łukasza Kuźmę (Białystok) zastąpił Marcin Szczerbowicz (Olsztyn); przyczyny nie podano. Trener Górnika Michal Gašparík zapowiedział co najmniej 4 zmiany w polu względem meczu pucharowego — do składu mają wrócić Josema, Paolo Bernardo, Peter Federico i Sondre Liseth; obsada bramki otwarta.",
+    "officials": [
+     {
+      "r": "GŁ",
+      "role": "Sędzia główny",
+      "name": "Marcin Szczerbowicz",
+      "nat": "POL",
+      "city": "Olsztyn"
+     }
+    ]
    },
    {
     "id": "2026-27-R13-WPL-PIA",
@@ -1899,10 +1917,10 @@
     "away": "PIA",
     "status": "ns",
     "odds": {
-     "src": "Oddsportal 1X2 (stan na 29.10 ~06:50)",
+     "src": "Oddsportal 1X2 (stan na 30.10 ~06:45)",
      "1": 2.1,
      "X": 3.6,
-     "2": 3.5
+     "2": 3.25
     },
     "info": {
      "restDays": {
@@ -1917,7 +1935,16 @@
      "reasons": [
       "Obie drużyny zagrały w tym tygodniu po 120 minut w pucharze (Wisła w środę, Piast we wtorek), rotacja nieznana. Kursy 2,10 / 3,60 / 3,50 bliskie wycenie z tabeli; tylko rynek 1X2 — brak przewagi."
      ]
-    }
+    },
+    "officials": [
+     {
+      "r": "GŁ",
+      "role": "Sędzia główny",
+      "name": "Piotr Urban",
+      "nat": "POL",
+      "city": "Warszawa"
+     }
+    ]
    },
    {
     "id": "2026-27-R13-WIE-JAG",
@@ -1927,8 +1954,8 @@
     "away": "JAG",
     "status": "ns",
     "odds": {
-     "src": "Oddsportal 1X2 (stan na 29.10 ~06:50)",
-     "1": 2.1,
+     "src": "Oddsportal 1X2 (stan na 30.10 ~06:45)",
+     "1": 2.15,
      "X": 3.9,
      "2": 3.0
     },
@@ -1945,7 +1972,16 @@
      "reasons": [
       "Bukmacherzy faworyzują Wieczystą (2,10) mimo 2 wygranych w 12 meczach i 23 straconych goli, a Jagiellonia jest w dobrym nastroju po pucharowym pogromie. X2 po kursach 3,90/3,00 wyceniane ok. 56% (uczciwy kurs ~1,80) — moja ocena podobna, a krótki odpoczynek i możliwa rotacja Jagiellonii zwiększają niepewność. Tylko 1X2 — NO BET."
      ]
-    }
+    },
+    "officials": [
+     {
+      "r": "GŁ",
+      "role": "Sędzia główny",
+      "name": "Damian Sylwestrzak",
+      "nat": "POL",
+      "city": "Wrocław"
+     }
+    ]
    },
    {
     "id": "2026-27-R13-LPO-WIS",
@@ -1955,7 +1991,7 @@
     "away": "WIS",
     "status": "ns",
     "odds": {
-     "src": "Oddsportal 1X2 (stan na 29.10 ~06:50)",
+     "src": "Oddsportal 1X2 (stan na 30.10 ~06:45)",
      "1": 1.76,
      "X": 4.1,
      "2": 4.1
@@ -1965,15 +2001,58 @@
       "home": 3,
       "away": 7
      },
-     "stakes": "1. Lech (28 pkt, mecz zaległy) vs 5. Wisła Kraków (21 pkt) — mecz czołówki; Lech po pucharowej kompromitacji"
+     "stakes": "1. Lech (28 pkt, mecz zaległy) vs 5. Wisła Kraków (21 pkt) — mecz czołówki; Lech po pucharowej kompromitacji",
+     "injuries": {
+      "home": [
+       "Mikael Ishak (uraz — wg flashscore.pl, bez terminu powrotu)"
+      ],
+      "away": []
+     },
+     "suspensions": {
+      "home": [],
+      "away": []
+     }
     },
-    "notes": "Lech przegrał 28.10 w Tarnobrzegu z III-ligową Siarką 0:1 (gol Arkadiusza Kasi, 64') i odpadł z Pucharu Polski; od końca 1. połowy grał w dziesiątkę po 2. żółtej kartce Yannicka Agnero (kara pucharowa). Frederiksen rotował składem i mówił o „sporej liczbie kontuzji”. Wisła Kraków nie grała w tej rundzie pucharu (7 dni odpoczynku). Ostatni mecz Lech–Wisła w Poznaniu: 5:0.",
+    "notes": "Lech przegrał 28.10 w Tarnobrzegu z III-ligową Siarką 0:1 (gol Arkadiusza Kasi, 64') i odpadł z Pucharu Polski; od końca 1. połowy grał w dziesiątkę po 2. żółtej kartce Yannicka Agnero (kara pucharowa). Frederiksen rotował składem i mówił o „sporej liczbie kontuzji”. Wisła Kraków nie grała w tej rundzie pucharu (7 dni odpoczynku). Ostatni mecz Lech–Wisła w Poznaniu: 5:0. Obsada wg lechpoznan.pl; sędzia techniczny pominięty, bo podany tam Marcin Szczerbowicz został przesunięty na mecz Górnik–Legia.",
     "tip": {
      "decision": "NO BET",
      "reasons": [
-      "Kurs 1,76 (ok. 54% po marży) dobrze oddaje przewagę lidera (2,6 gola strzelonego i 0,9 straconego na mecz) nad Wisłą (1,6 / 1,25). Po stronie Lecha niewiadome: nieujawnione kontuzje i reakcja na porażkę z Siarką; Wisła ma tydzień odpoczynku. Tylko kursy 1X2 — brak przewagi."
+      "Kurs 1,76 (ok. 54% po marży) bez zmian. Dochodzi niepewność wokół zdrowia Mikaela Ishaka i nieujawnionych urazów po meczu z Siarką; Wisła wypoczęta (7 dni). Brak kursów na inne rynki niż 1X2 — brak dodatniego EV."
      ]
-    }
+    },
+    "officials": [
+     {
+      "r": "GŁ",
+      "role": "Sędzia główny",
+      "name": "Paweł Raczkowski",
+      "nat": "POL",
+      "city": "Warszawa"
+     },
+     {
+      "r": "AS1",
+      "role": "Asystent 1",
+      "name": "Marcin Boniek",
+      "nat": "POL"
+     },
+     {
+      "r": "AS2",
+      "role": "Asystent 2",
+      "name": "Filip Sierant",
+      "nat": "POL"
+     },
+     {
+      "r": "VAR",
+      "role": "Sędzia VAR",
+      "name": "Piotr Lasyk",
+      "nat": "POL"
+     },
+     {
+      "r": "AVAR",
+      "role": "Asystent VAR",
+      "name": "Tomasz Listkiewicz",
+      "nat": "POL"
+     }
+    ]
    },
    {
     "id": "2026-27-R13-GKS-WID",
@@ -1983,10 +2062,11 @@
     "away": "WID",
     "status": "ns",
     "odds": {
-     "src": "Oddsportal 1X2 (stan na 29.10 ~06:50)",
-     "1": 2.05,
+     "src": "Oddsportal 1X2 (stan na 30.10 ~06:45); poniżej 2,5: Superbet (flashscore.pl)",
+     "1": 2.1,
      "X": 3.65,
-     "2": 3.1
+     "2": 3.1,
+     "u25": 2.3
     },
     "info": {
      "restDays": {
@@ -1999,9 +2079,18 @@
     "tip": {
      "decision": "NO BET",
      "reasons": [
-      "Widzew zremisował 8 z 12 meczów, ale kurs na remis 3,65 (ok. 26% po marży) wycenia to blisko mojej oceny (~28%, EV ok. +2%). GKS przegrał 2 ostatnie mecze ligowe i odpadł z pucharu z I-ligowcem. Tylko kursy 1X2 — NO BET."
+      "1X2 bez zmian (2,10 / 3,65 / 3,10). Poniżej 2,5 gola po 2,30 (Superbet, 43% z kursu): mecze GKS średnio 3,25 gola, Widzewa 2,6 — Poisson przy ok. 2,9 gola daje ok. 45%, EV ok. +3% — poniżej progu, kurs z jednego źródła. NO BET."
      ]
-    }
+    },
+    "officials": [
+     {
+      "r": "GŁ",
+      "role": "Sędzia główny",
+      "name": "Wojciech Myć",
+      "nat": "POL",
+      "city": "Włodawa"
+     }
+    ]
    },
    {
     "id": "2026-27-R13-RAD-SLA",
@@ -2011,10 +2100,31 @@
     "away": "SLA",
     "status": "ns",
     "odds": {
-     "src": "Oddsportal 1X2 (stan na 29.10 ~06:50)",
+     "src": "Oddsportal 1X2 (stan na 30.10 ~06:45); 1X: Superbet (flashscore.pl)",
      "1": 2.15,
-     "X": 3.55,
-     "2": 3.0
+     "X": 3.65,
+     "2": 3.0,
+     "1X": 1.44
+    },
+    "officials": [
+     {
+      "r": "GŁ",
+      "role": "Sędzia główny",
+      "name": "Damian Kos",
+      "nat": "POL",
+      "city": "Wejherowo"
+     }
+    ],
+    "notes": "Obie drużyny odpadły w 1/16 Pucharu Polski po dogrywkach: Radomiak przegrał z Avią Świdnik 1:2, Śląsk z Odrą Opole 1:2.",
+    "info": {
+     "homeAway": "Radomiak przegrał 5 ostatnich meczów ligowych (LLLLL), 28 straconych goli w 12 meczach; Śląsk 4 porażki i ostatnio zwycięstwo 2:0 z Wieczystą (LLLLW)",
+     "stakes": "17. Radomiak (8 pkt) vs 15. Śląsk (9 pkt) — bezpośredni mecz o utrzymanie"
+    },
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Kursy 2,15 / 3,65 / 3,00 (ok. 45% / 26% / 31% po marży) — dwie słabe drużyny po pucharowych dogrywkach i porażkach, Radomiak bez punktu od 5 kolejek. Brak wiarygodnych danych o składach i kontuzjach, tylko rynek 1X2 — bez przewagi."
+     ]
     }
    },
    {
@@ -2025,10 +2135,31 @@
     "away": "KOR",
     "status": "ns",
     "odds": {
-     "src": "Oddsportal 1X2 (stan na 29.10 ~06:50)",
-     "1": 2.55,
+     "src": "Oddsportal 1X2 (stan na 30.10 ~06:45); BTTS: Superbet (flashscore.pl)",
+     "1": 2.5,
      "X": 3.3,
-     "2": 2.7
+     "2": 2.65,
+     "bttsY": 1.7
+    },
+    "officials": [
+     {
+      "r": "GŁ",
+      "role": "Sędzia główny",
+      "name": "Piotr Lasyk",
+      "nat": "POL",
+      "city": "Bytom"
+     }
+    ],
+    "notes": "Korona odpadła w 1/16 Pucharu Polski po porażce 1:2 z Polonią Warszawa.",
+    "info": {
+     "homeAway": "Zagłębie: forma WLLWD, bilans bramek 15:15; Korona: WWLLW, 14:18",
+     "stakes": "7. Zagłębie (19 pkt) vs 9. Korona (18 pkt) — środek tabeli"
+    },
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Kursy 2,50 / 3,30 / 2,65 oddają wyrównany mecz drużyn z sąsiednich miejsc; BTTS tak 1,70 (Superbet) przy średnio 2,5–2,7 gola w meczach obu ekip daje wycenę ok. 55–57% — EV ≤ 0. Brak przewagi."
+     ]
     }
    },
    {
@@ -2039,10 +2170,33 @@
     "away": "POG",
     "status": "ns",
     "odds": {
-     "src": "Oddsportal 1X2 (stan na 29.10 ~06:50)",
+     "src": "Oddsportal 1X2 (stan na 30.10 ~06:45)",
      "1": 2.25,
-     "X": 3.65,
-     "2": 2.75
+     "X": 3.7,
+     "2": 2.8
+    },
+    "officials": [
+     {
+      "r": "GŁ",
+      "role": "Sędzia główny",
+      "name": "Szymon Marciniak",
+      "nat": "POL",
+      "city": "Płock"
+     }
+    ],
+    "notes": "Raków awansował do 1/8 Pucharu Polski: 27.10 w Lublinie 1:1 z Motorem po dogrywce, karne 3–1.",
+    "info": {
+     "restDays": {
+      "home": 6
+     },
+     "homeAway": "Raków ostatni w tabeli (2-0-10, 16:28); Pogoń 5 zwycięstw z rzędu (WWWWW), ostatnio 4:3 z Radomiakiem",
+     "stakes": "18. Raków (6 pkt) vs 3. Pogoń (24 pkt, mecz zaległy)"
+    },
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Rynek mimo tabeli faworyzuje Raków (2,25 / 3,70 / 2,80; Pogoń ok. 36% po marży). Tabela przemawia za Pogonią, ale kursy wskazują, że bukmacherzy wyceniają potencjał kadry Rakowa wyżej niż jego wyniki — bez xG i informacji o składach nie potrafię wiarygodnie ocenić, kto ma rację. Zbyt duża niepewność."
+     ]
     }
    }
   ],
