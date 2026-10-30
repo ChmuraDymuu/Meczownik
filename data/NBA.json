@@ -1,9 +1,9 @@
 {
  "sport": "basketball",
- "updated": "2026-10-29T07:44:35+01:00",
+ "updated": "2026-10-30T07:35:00+01:00",
  "season": "2026/27",
  "competition": "NBA",
- "note": "Źródła: landofbasketball.com (terminarz), StatMuse i Covers (box score), ESPN/AP, Yahoo Sports/AP, TSN, WSVN, CBS Minnesota, KSAT, The Gazette, News9, Deadspin, Field Level Media (relacje 28.10), PickDawgz, Dimers, iHeart/SportsGrid, FanDuel Research (kursy), Covers (kontuzje). Godziny w czasie polskim. Tabela wyliczona z wyników do 28.10 (czas USA). Pełny box score niedostępny dla WAS–CLE, ORL–TOR, HOU–MIL, LAL–LAC; w box score ze źródła Covers zawodnicy w skrótach imion.",
+ "note": "Źródła: ESPN (box score, sędziowie, tabela, raport kontuzji, kursy DraftKings), SI.com i Fox Sports (box score SAC–NOP, MEM–POR), FanDuel Research/numberFire, Dimers, TheRX/BookMaker (kursy i modele), Heavy.com (kontuzje Lakers), landofbasketball.com i NBA.com (terminarz). Godziny w czasie polskim. Tabela po meczach z 29.10 (czas USA). MEM–POR bez pełnego box score; w CLE–ATL zawodnicy w skrótach imion (jak w źródle).",
  "teams": {
   "ATL": {
    "id": "ATL",
@@ -279,16 +279,6 @@
     "strk": "W3"
    },
    {
-    "team": "CLE",
-    "w": 3,
-    "l": 1,
-    "gb": "0.5",
-    "home": "3-0",
-    "away": "0-1",
-    "l10": "3-1",
-    "strk": "W3"
-   },
-   {
     "team": "TOR",
     "w": 3,
     "l": 1,
@@ -309,24 +299,24 @@
     "strk": "L1"
    },
    {
-    "team": "ATL",
-    "w": 2,
-    "l": 3,
-    "gb": "2",
-    "home": "0-2",
-    "away": "2-1",
-    "l10": "2-3",
-    "strk": "L3"
+    "team": "CLE",
+    "w": 3,
+    "l": 2,
+    "gb": "1",
+    "home": "3-0",
+    "away": "0-2",
+    "l10": "3-2",
+    "strk": "L1"
    },
    {
-    "team": "IND",
-    "w": 2,
+    "team": "ATL",
+    "w": 3,
     "l": 3,
-    "gb": "2",
-    "home": "0-2",
+    "gb": "1.5",
+    "home": "1-2",
     "away": "2-1",
-    "l10": "2-3",
-    "strk": "L2"
+    "l10": "3-3",
+    "strk": "W1"
    },
    {
     "team": "NYK",
@@ -345,6 +335,16 @@
     "gb": "2",
     "home": "1-1",
     "away": "1-2",
+    "l10": "2-3",
+    "strk": "L2"
+   },
+   {
+    "team": "IND",
+    "w": 2,
+    "l": 3,
+    "gb": "2",
+    "home": "0-2",
+    "away": "2-1",
     "l10": "2-3",
     "strk": "L2"
    },
@@ -412,23 +412,13 @@
    },
    {
     "team": "MEM",
-    "w": 4,
+    "w": 5,
     "l": 0,
-    "gb": "0.5",
+    "gb": "—",
     "home": "1-0",
-    "away": "3-0",
-    "l10": "4-0",
-    "strk": "W4"
-   },
-   {
-    "team": "POR",
-    "w": 3,
-    "l": 0,
-    "gb": "1",
-    "home": "1-0",
-    "away": "2-0",
-    "l10": "3-0",
-    "strk": "W3"
+    "away": "4-0",
+    "l10": "5-0",
+    "strk": "W5"
    },
    {
     "team": "LAL",
@@ -451,6 +441,26 @@
     "strk": "L1"
    },
    {
+    "team": "POR",
+    "w": 3,
+    "l": 1,
+    "gb": "1.5",
+    "home": "1-1",
+    "away": "2-0",
+    "l10": "3-1",
+    "strk": "L1"
+   },
+   {
+    "team": "SAS",
+    "w": 3,
+    "l": 2,
+    "gb": "2",
+    "home": "1-2",
+    "away": "2-0",
+    "l10": "3-2",
+    "strk": "W3"
+   },
+   {
     "team": "DAL",
     "w": 3,
     "l": 2,
@@ -469,16 +479,6 @@
     "away": "2-1",
     "l10": "3-2",
     "strk": "L2"
-   },
-   {
-    "team": "SAS",
-    "w": 3,
-    "l": 2,
-    "gb": "2",
-    "home": "1-2",
-    "away": "2-0",
-    "l10": "3-2",
-    "strk": "W3"
    },
    {
     "team": "DEN",
@@ -532,257 +532,28 @@
    },
    {
     "team": "NOP",
-    "w": 0,
+    "w": 1,
     "l": 4,
-    "gb": "4.5",
-    "home": "0-2",
+    "gb": "4",
+    "home": "1-2",
     "away": "0-2",
-    "l10": "0-4",
-    "strk": "L4"
+    "l10": "1-4",
+    "strk": "W1"
    },
    {
     "team": "SAC",
     "w": 0,
-    "l": 4,
-    "gb": "4.5",
+    "l": 5,
+    "gb": "5",
     "home": "0-2",
-    "away": "0-2",
-    "l10": "0-4",
-    "strk": "L4"
+    "away": "0-3",
+    "l10": "0-5",
+    "strk": "L5"
    }
   ]
  },
  "picks": [],
  "days": {
-  "2026-10-28": [
-   {
-    "id": "NBA-2026-10-28-BKN-BOS",
-    "date": "2026-10-28",
-    "time": "00:30",
-    "home": "BOS",
-    "away": "BKN",
-    "status": "ft",
-    "arena": {
-     "name": "TD Garden",
-     "city": "Boston"
-    },
-    "odds": {
-     "src": "SGPN (spread), Legz – najlepsze ceny ML (Dabble/Neds), stan na 26.10",
-     "ml1": 1.18,
-     "ml2": 6.0,
-     "spread": -11.5,
-     "sp1": 1.88,
-     "total": 222.5
-    },
-    "info": {
-     "injuries": {
-      "home": [],
-      "away": []
-     },
-     "restDays": {
-      "home": 0,
-      "away": 1
-     },
-     "b2b": {
-      "home": true,
-      "away": false
-     },
-     "homeAway": "BOS u siebie 2-0 (ogółem 2-1), BKN na wyjeździe 0-1 (ogółem 0-3)",
-     "stakes": "Celtics drugi mecz back-to-back po 134:99 z Bulls; Nets bez zwycięstwa (L3)"
-    },
-    "tip": {
-     "decision": "NO BET",
-     "reasons": [
-      "Linia -11,5 już uwzględnia słabość Nets (bilans punktowy -12,7/mecz).",
-      "Celtics grają drugi dzień z rzędu – ryzyko krótszych minut liderów przy wysokim prowadzeniu.",
-      "Brak pełnego zestawu kursów (total bez cen) – nie da się rzetelnie policzyć EV.",
-      "Próbka 2–3 meczów w sezonie zbyt mała na przewagę."
-     ]
-    },
-    "score": [
-     125,
-     124
-    ],
-    "notes": "Celtics wygrali po dogrywce (117:117 po regulaminowym czasie) – Jayson Tatum 40 pkt (10/20 z gry, 18/22 z wolnych) i 8 asyst, rzut z ok. 5 m z syreną kończącą dogrywkę. Paul George 20 pkt, Derrick White 16. Dla Nets Michael Porter Jr. 27 pkt i 12 zbiórek, Julius Randle 24, debiutant Mikel Brown Jr. 17 (w tym trójka na 117:117 na 0,2 s przed końcem). Do przerwy 61:56 dla Nets; Celtics trafili 2/16 za 3 w 1. połowie. Nets 0-4.",
-    "period": "OT"
-   },
-   {
-    "id": "NBA-2026-10-28-DET-NYK",
-    "date": "2026-10-28",
-    "time": "01:00",
-    "home": "NYK",
-    "away": "DET",
-    "status": "ft",
-    "arena": {
-     "name": "Madison Square Garden",
-     "city": "New York"
-    },
-    "odds": {
-     "src": "therx – BookMaker, stan na 26.10 22:39 UTC",
-     "ml1": 1.83,
-     "ml2": 2.0,
-     "spread": -1.5,
-     "sp1": 1.91,
-     "sp2": 1.91,
-     "total": 225.5,
-     "over": 1.91,
-     "under": 1.91
-    },
-    "info": {
-     "injuries": {
-      "home": [
-       "Jose Alvarado (kostka, out)"
-      ],
-      "away": [
-       "Jalen Duren (ścięgno podkolanowe, out)",
-       "Ausar Thompson (kostka, questionable)",
-       "Isaiah Joe (biodro, questionable)"
-      ]
-     },
-     "restDays": {
-      "home": 1,
-      "away": 1
-     },
-     "b2b": {
-      "home": false,
-      "away": false
-     },
-     "homeAway": "NYK u siebie 0-2 (ogółem 0-3), DET na wyjeździe 2-0 (ogółem 3-0)",
-     "stakes": "Lider Wschodu 3-0 kontra Knicks szukający pierwszej wygranej"
-    },
-    "tip": {
-     "decision": "NO BET",
-     "reasons": [
-      "Rynek niemal pick'em (NYK -1,5) – forma DET 3-0 równoważona brakiem Durena i niepewnym Thompsonem.",
-      "Knicks 0-3, ale przegrywali z mocnymi rywalami; mała próbka.",
-      "Brak ratingów ofensywnych/defensywnych z bieżącego sezonu o wystarczającej wiarygodności.",
-      "Żaden rynek nie daje dodatniego EV przy rozsądnym prawdopodobieństwie."
-     ]
-    },
-    "score": [
-     111,
-     97
-    ],
-    "notes": "Pierwsze zwycięstwo Knicks w sezonie – Karl-Anthony Towns 27 pkt i 20 zbiórek, Jalen Brunson 23 pkt i 7 asyst (1/9 z gry w 1. połowie). Pistons prowadzili 13 pkt w 2. kwarcie, ale w 2. i 3. kwarcie zdobyli łącznie tylko 25 pkt; po 3 kwartach NYK +25. Dla DET Paul Reed 22 pkt, Cade Cunningham 19 pkt, 9 zb., 8 as. Pierwsza porażka Pistons (3-1)."
-   },
-   {
-    "id": "NBA-2026-10-28-SAC-SAS",
-    "date": "2026-10-28",
-    "time": "01:00",
-    "home": "SAS",
-    "away": "SAC",
-    "status": "ft",
-    "arena": {
-     "name": "Frost Bank Center",
-     "city": "San Antonio"
-    },
-    "odds": {
-     "src": "iHeart/BetMGM-konsensus (spread, total, ML SAS), SGPN (cena SAC +18,5), stan na 27.10",
-     "ml1": 1.06,
-     "spread": -18.5,
-     "sp2": 1.87,
-     "total": 230.5
-    },
-    "info": {
-     "injuries": {
-      "home": [
-       "Tobias Harris (łydka, out)",
-       "Jayden Quaintance (kolano, out)"
-      ],
-      "away": [
-       "Keegan Murray (out)",
-       "Maxime Raynaud (kolano, out)",
-       "Dylan Cardwell (łydka, out)",
-       "Ben Simmons (Achilles, out na sezon)"
-      ]
-     },
-     "restDays": {
-      "home": 2,
-      "away": 1
-     },
-     "b2b": {
-      "home": false,
-      "away": false
-     },
-     "homeAway": "SAS u siebie 0-2 (ogółem 1-2), SAC na wyjeździe 0-1 (ogółem 0-3)",
-     "stakes": "Kings bez zwycięstwa i z wieloma brakami w strefie podkoszowej"
-    },
-    "tip": {
-     "decision": "NO BET",
-     "reasons": [
-      "Handicap 18,5 pkt to ekstremalna linia – duża wariancja w końcówce (garbage time).",
-      "Spurs u siebie 0-2 mimo statusu faworyta ligi.",
-      "Kurs ML SAS ~1,06 bez wartości.",
-      "Brak pełnych cen na total – EV nie do policzenia."
-     ]
-    },
-    "score": [
-     130,
-     103
-    ],
-    "notes": "Victor Wembanyama 29 pkt, 10 zbiórek, 5 bloków i 2 przechwyty, Julian Champagnie 26 pkt (8 trójek). Do przerwy 80:54 dla Spurs. Dla Kings Domantas Sabonis 20 pkt, 14 zb., 8 as. Spurs 2-2, Kings 0-4."
-   },
-   {
-    "id": "NBA-2026-10-28-POR-LAL",
-    "date": "2026-10-28",
-    "time": "04:00",
-    "home": "LAL",
-    "away": "POR",
-    "status": "ft",
-    "arena": {
-     "name": "Crypto.com Arena",
-     "city": "Los Angeles"
-    },
-    "odds": {
-     "src": "therx – BookMaker, stan na 26.10 22:37 UTC",
-     "ml1": 1.42,
-     "ml2": 3.0,
-     "spread": -6.0,
-     "sp1": 1.91,
-     "sp2": 1.91,
-     "total": 221.5,
-     "over": 1.91,
-     "under": 1.91
-    },
-    "info": {
-     "injuries": {
-      "home": [
-       "Adou Thiero (kolano, out)",
-       "Cameron Carr (mięsień skośny brzucha, out)"
-      ],
-      "away": [
-       "Shaedon Sharpe (łąkotka, out)",
-       "Chris Youngblood (kostka, out)",
-       "Scoot Henderson (kostka, questionable)"
-      ]
-     },
-     "restDays": {
-      "home": 1,
-      "away": 3
-     },
-     "b2b": {
-      "home": false,
-      "away": false
-     },
-     "homeAway": "LAL u siebie 2-0 (ogółem 3-0), POR na wyjeździe 1-0 (ogółem 2-0)",
-     "stakes": "Starcie niepokonanych: Lakers 3-0, Blazers 2-0"
-    },
-    "tip": {
-     "decision": "NO BET",
-     "reasons": [
-      "Obie drużyny niepokonane – rynek (-6) dobrze odzwierciedla przewagę parkietu i brak Sharpe'a.",
-      "Blazers wypoczęci (3 dni przerwy) vs Lakers po meczu w Utah – czynniki się znoszą.",
-      "Henderson questionable – niepewność składu POR.",
-      "Własna ocena p ≈ wycena rynku; brak dodatniego EV."
-     ]
-    },
-    "score": [
-     129,
-     136
-    ],
-    "notes": "Pierwsza porażka Lakers mimo 41 pkt Luki Dončicia (9 asyst, 6 trójek, 16 pkt w 1. kwarcie); Austin Reaves 26, Sandro Mamukelashvili 17. Dla niepokonanych Blazers (3-0) Ja Morant 23, Deni Avdija 23, Jrue Holiday 22, Damian Lillard 21 (trójka na prowadzenie 43 s przed końcem). Portland zakończyło mecz serią 15:8."
-   }
-  ],
   "2026-10-29": [
    {
     "id": "NBA-2026-10-29-PHI-IND",
@@ -4469,7 +4240,7 @@
     "time": "01:00",
     "home": "ATL",
     "away": "CLE",
-    "status": "ns",
+    "status": "ft",
     "arena": {
      "name": "State Farm Arena",
      "city": "Atlanta"
@@ -4515,7 +4286,364 @@
       "Model Dimers daje CLE ok. 55% – zbyt mała różnica wobec kursu i niepewny podział minut w drugim dniu b2b.",
       "Total 239,5 bardzo wysoki przy krótkiej próbce sezonu – brak podstaw do over/under."
      ]
-    }
+    },
+    "score": [
+     114,
+     111
+    ],
+    "quarters": {
+     "home": [
+      16,
+      30,
+      43,
+      25
+     ],
+     "away": [
+      28,
+      16,
+      38,
+      29
+     ]
+    },
+    "officials": [
+     "Jacyn Goble",
+     "Justin Van Duyne",
+     "Matt Kallio"
+    ],
+    "teamStats": [
+     [
+      "Z gry %",
+      44.2,
+      43.7
+     ],
+     [
+      "Za 3 %",
+      39.5,
+      31.0
+     ],
+     [
+      "Wolne %",
+      72.2,
+      75.9
+     ],
+     [
+      "Zbiórki",
+      53,
+      45
+     ],
+     [
+      "Asysty",
+      34,
+      26
+     ],
+     [
+      "Przechwyty",
+      4,
+      3
+     ],
+     [
+      "Bloki",
+      3,
+      5
+     ],
+     [
+      "Straty",
+      11,
+      9
+     ]
+    ],
+    "players": {
+     "home": [
+      {
+       "n": "O. Okongwu",
+       "start": true,
+       "min": "33",
+       "pts": 29,
+       "reb": 12,
+       "ast": 2,
+       "stl": 1,
+       "blk": 1,
+       "tov": 1,
+       "fg": "11/17",
+       "tp": "4/6",
+       "ft": "3/4",
+       "pm": "0"
+      },
+      {
+       "n": "J. Johnson",
+       "start": true,
+       "min": "34",
+       "pts": 17,
+       "reb": 8,
+       "ast": 7,
+       "stl": 0,
+       "blk": 0,
+       "tov": 4,
+       "fg": "7/16",
+       "tp": "2/5",
+       "ft": "1/1",
+       "pm": "-3"
+      },
+      {
+       "n": "CJ McCollum",
+       "start": true,
+       "min": "31",
+       "pts": 5,
+       "reb": 3,
+       "ast": 8,
+       "stl": 2,
+       "blk": 0,
+       "tov": 4,
+       "fg": "1/8",
+       "tp": "0/4",
+       "ft": "3/4",
+       "pm": "+2"
+      },
+      {
+       "n": "N. Alexander-Walker",
+       "start": true,
+       "min": "31",
+       "pts": 25,
+       "reb": 3,
+       "ast": 1,
+       "stl": 0,
+       "blk": 1,
+       "tov": 0,
+       "fg": "8/17",
+       "tp": "4/12",
+       "ft": "5/5",
+       "pm": "+1"
+      },
+      {
+       "n": "D. Daniels",
+       "start": true,
+       "min": "32",
+       "pts": 4,
+       "reb": 6,
+       "ast": 5,
+       "stl": 1,
+       "blk": 0,
+       "tov": 0,
+       "fg": "2/8",
+       "tp": "0/1",
+       "ft": "0/0",
+       "pm": "-3"
+      },
+      {
+       "n": "J. Landale",
+       "start": false,
+       "min": "15",
+       "pts": 6,
+       "reb": 10,
+       "ast": 1,
+       "stl": 0,
+       "blk": 0,
+       "tov": 0,
+       "fg": "2/6",
+       "tp": "2/4",
+       "ft": "0/2",
+       "pm": "+3"
+      },
+      {
+       "n": "L. Dort",
+       "start": false,
+       "min": "22",
+       "pts": 6,
+       "reb": 3,
+       "ast": 2,
+       "stl": 0,
+       "blk": 0,
+       "tov": 1,
+       "fg": "2/5",
+       "tp": "1/3",
+       "ft": "1/2",
+       "pm": "-3"
+      },
+      {
+       "n": "A. Wiggins",
+       "start": false,
+       "min": "24",
+       "pts": 20,
+       "reb": 7,
+       "ast": 3,
+       "stl": 0,
+       "blk": 1,
+       "tov": 1,
+       "fg": "8/14",
+       "tp": "4/7",
+       "ft": "0/0",
+       "pm": "+17"
+      },
+      {
+       "n": "K. Flemings",
+       "start": false,
+       "min": "16",
+       "pts": 2,
+       "reb": 1,
+       "ast": 5,
+       "stl": 0,
+       "blk": 0,
+       "tov": 0,
+       "fg": "1/4",
+       "tp": "0/1",
+       "ft": "0/0",
+       "pm": "+1"
+      }
+     ],
+     "away": [
+      {
+       "n": "J. Allen",
+       "start": true,
+       "min": "30",
+       "pts": 14,
+       "reb": 8,
+       "ast": 1,
+       "stl": 0,
+       "blk": 2,
+       "tov": 1,
+       "fg": "5/8",
+       "tp": "1/1",
+       "ft": "3/4",
+       "pm": "+5"
+      },
+      {
+       "n": "E. Mobley",
+       "start": true,
+       "min": "33",
+       "pts": 11,
+       "reb": 4,
+       "ast": 7,
+       "stl": 0,
+       "blk": 1,
+       "tov": 1,
+       "fg": "4/9",
+       "tp": "0/3",
+       "ft": "3/4",
+       "pm": "-1"
+      },
+      {
+       "n": "J. Harden",
+       "start": true,
+       "min": "36",
+       "pts": 24,
+       "reb": 5,
+       "ast": 4,
+       "stl": 0,
+       "blk": 0,
+       "tov": 3,
+       "fg": "7/14",
+       "tp": "3/8",
+       "ft": "7/9",
+       "pm": "0"
+      },
+      {
+       "n": "D. Mitchell",
+       "start": true,
+       "min": "33",
+       "pts": 22,
+       "reb": 3,
+       "ast": 3,
+       "stl": 1,
+       "blk": 0,
+       "tov": 0,
+       "fg": "7/19",
+       "tp": "1/9",
+       "ft": "7/8",
+       "pm": "+1"
+      },
+      {
+       "n": "P. Watson",
+       "start": true,
+       "min": "22",
+       "pts": 4,
+       "reb": 4,
+       "ast": 3,
+       "stl": 0,
+       "blk": 2,
+       "tov": 2,
+       "fg": "1/8",
+       "tp": "0/3",
+       "ft": "2/4",
+       "pm": "-10"
+      },
+      {
+       "n": "M. Hezonja",
+       "start": false,
+       "min": "17",
+       "pts": 10,
+       "reb": 6,
+       "ast": 2,
+       "stl": 1,
+       "blk": 0,
+       "tov": 0,
+       "fg": "4/6",
+       "tp": "2/3",
+       "ft": "0/0",
+       "pm": "-13"
+      },
+      {
+       "n": "S. Merrill",
+       "start": false,
+       "min": "27",
+       "pts": 16,
+       "reb": 2,
+       "ast": 3,
+       "stl": 1,
+       "blk": 0,
+       "tov": 2,
+       "fg": "6/11",
+       "tp": "4/8",
+       "ft": "0/0",
+       "pm": "+8"
+      },
+      {
+       "n": "J. Tyson",
+       "start": false,
+       "min": "18",
+       "pts": 3,
+       "reb": 6,
+       "ast": 1,
+       "stl": 0,
+       "blk": 0,
+       "tov": 0,
+       "fg": "1/7",
+       "tp": "1/5",
+       "ft": "0/0",
+       "pm": "0"
+      },
+      {
+       "n": "C. Porter Jr.",
+       "start": false,
+       "min": "4",
+       "pts": 0,
+       "reb": 1,
+       "ast": 0,
+       "stl": 0,
+       "blk": 0,
+       "tov": 0,
+       "fg": "0/0",
+       "tp": "0/0",
+       "ft": "0/0",
+       "pm": "-10"
+      },
+      {
+       "n": "T. Proctor",
+       "start": false,
+       "min": "20",
+       "pts": 7,
+       "reb": 6,
+       "ast": 2,
+       "stl": 0,
+       "blk": 0,
+       "tov": 0,
+       "fg": "3/5",
+       "tp": "1/2",
+       "ft": "0/0",
+       "pm": "+5"
+      }
+     ]
+    },
+    "notes": "Hawks przerwali serię 3 porażek mimo straty 15 pkt w 1. kwarcie; zryw 19-2 pod koniec 2. kwarty. Onyeka Okongwu 29 pkt (rekord sezonu) i 12 zb., Nickeil Alexander-Walker 25 pkt (2 wolne na 15,3 s przed końcem), Aaron Wiggins 20 z ławki. Dla Cavs James Harden 24, Donovan Mitchell 22 (spudłował dwie próby wyrównania). Koniec serii 3 zwycięstw CLE. Frekwencja niepodana w źródłach."
    },
    {
     "id": "NBA-2026-10-30-SAC-NOP",
@@ -4523,7 +4651,7 @@
     "time": "01:00",
     "home": "NOP",
     "away": "SAC",
-    "status": "ns",
+    "status": "ft",
     "arena": {
      "name": "Smoothie King Center",
      "city": "New Orleans"
@@ -4559,7 +4687,335 @@
       "Model Dimers ~52,7% dla Kings +5,5 przy kursie ~2,04 – minimalna przewaga, poniżej progu.",
       "Obie drużyny 0-4 – forma bez wartości prognostycznej, brak raportu kontuzji Kings."
      ]
-    }
+    },
+    "score": [
+     132,
+     120
+    ],
+    "quarters": {
+     "home": [
+      24,
+      39,
+      39,
+      30
+     ],
+     "away": [
+      30,
+      31,
+      27,
+      32
+     ]
+    },
+    "officials": [
+     "Josh Tiven",
+     "Gediminas Petraitis",
+     "Chelisa Painter"
+    ],
+    "teamStats": [
+     [
+      "Z gry %",
+      59.5,
+      52.3
+     ],
+     [
+      "Za 3 %",
+      34.5,
+      32.4
+     ],
+     [
+      "Wolne %",
+      68.8,
+      80.0
+     ],
+     [
+      "Asysty",
+      32,
+      31
+     ],
+     [
+      "Przechwyty",
+      18,
+      11
+     ],
+     [
+      "Bloki",
+      6,
+      1
+     ]
+    ],
+    "players": {
+     "home": [
+      {
+       "n": "Zion Williamson",
+       "start": true,
+       "min": "31",
+       "pts": 22,
+       "reb": 6,
+       "ast": 2,
+       "stl": 5,
+       "blk": 1,
+       "tov": 3,
+       "fg": "10/12",
+       "tp": "0/0",
+       "ft": "2/4"
+      },
+      {
+       "n": "Jeremiah Fears",
+       "start": true,
+       "min": "29",
+       "pts": 22,
+       "reb": 8,
+       "ast": 13,
+       "stl": 2,
+       "blk": 4,
+       "tov": 3,
+       "fg": "9/16",
+       "tp": "3/5",
+       "ft": "1/3"
+      },
+      {
+       "n": "Trey Murphy III",
+       "start": true,
+       "min": "32",
+       "pts": 19,
+       "reb": 5,
+       "ast": 3,
+       "stl": 1,
+       "blk": 0,
+       "tov": 0,
+       "fg": "6/12",
+       "tp": "2/7",
+       "ft": "5/8"
+      },
+      {
+       "n": "Herbert Jones",
+       "start": true,
+       "min": "32",
+       "pts": 16,
+       "reb": 4,
+       "ast": 1,
+       "stl": 2,
+       "blk": 0,
+       "tov": 3,
+       "fg": "7/12",
+       "tp": "0/3",
+       "ft": "2/3"
+      },
+      {
+       "n": "Karlo Matković",
+       "start": true,
+       "min": "28",
+       "pts": 12,
+       "reb": 4,
+       "ast": 1,
+       "stl": 3,
+       "blk": 1,
+       "tov": 2,
+       "fg": "4/7",
+       "tp": "1/4",
+       "ft": "3/4"
+      },
+      {
+       "n": "Bennedict Mathurin",
+       "start": false,
+       "min": "19",
+       "pts": 10,
+       "reb": 3,
+       "ast": 2,
+       "stl": 0,
+       "blk": 0,
+       "tov": 2,
+       "fg": "3/6",
+       "tp": "2/4",
+       "ft": "2/2"
+      },
+      {
+       "n": "Saddiq Bey",
+       "start": false,
+       "min": "24",
+       "pts": 10,
+       "reb": 4,
+       "ast": 3,
+       "stl": 0,
+       "blk": 0,
+       "tov": 2,
+       "fg": "3/6",
+       "tp": "1/2",
+       "ft": "3/3"
+      },
+      {
+       "n": "Derik Queen",
+       "start": false,
+       "min": "22",
+       "pts": 9,
+       "reb": 2,
+       "ast": 3,
+       "stl": 1,
+       "blk": 0,
+       "tov": 4,
+       "fg": "4/7",
+       "tp": "1/2",
+       "ft": "0/0"
+      },
+      {
+       "n": "Trendon Watford",
+       "start": false,
+       "min": "17",
+       "pts": 8,
+       "reb": 1,
+       "ast": 2,
+       "stl": 3,
+       "blk": 0,
+       "tov": 1,
+       "fg": "2/3",
+       "tp": "0/1",
+       "ft": "4/5"
+      },
+      {
+       "n": "Bryce McGowens",
+       "start": false,
+       "min": "6",
+       "pts": 4,
+       "reb": 1,
+       "ast": 2,
+       "stl": 1,
+       "blk": 0,
+       "tov": 1,
+       "fg": "2/3",
+       "tp": "0/1",
+       "ft": "0/0"
+      }
+     ],
+     "away": [
+      {
+       "n": "Darius Acuff Jr.",
+       "start": true,
+       "min": "41",
+       "pts": 34,
+       "reb": 6,
+       "ast": 14,
+       "stl": 1,
+       "blk": 0,
+       "tov": 6,
+       "fg": "13/26",
+       "tp": "3/11",
+       "ft": "5/5"
+      },
+      {
+       "n": "De'Andre Hunter",
+       "start": true,
+       "min": "37",
+       "pts": 24,
+       "reb": 5,
+       "ast": 1,
+       "stl": 0,
+       "blk": 0,
+       "tov": 3,
+       "fg": "7/13",
+       "tp": "4/8",
+       "ft": "6/6"
+      },
+      {
+       "n": "Precious Achiuwa",
+       "start": true,
+       "min": "41",
+       "pts": 24,
+       "reb": 9,
+       "ast": 2,
+       "stl": 4,
+       "blk": 0,
+       "tov": 1,
+       "fg": "12/17",
+       "tp": "0/2",
+       "ft": "0/1"
+      },
+      {
+       "n": "Zach LaVine",
+       "start": true,
+       "min": "39",
+       "pts": 21,
+       "reb": 3,
+       "ast": 5,
+       "stl": 3,
+       "blk": 0,
+       "tov": 3,
+       "fg": "7/17",
+       "tp": "3/10",
+       "ft": "4/6"
+      },
+      {
+       "n": "Domantas Sabonis",
+       "start": true,
+       "min": "40",
+       "pts": 9,
+       "reb": 15,
+       "ast": 7,
+       "stl": 2,
+       "blk": 1,
+       "tov": 7,
+       "fg": "4/7",
+       "tp": "0/0",
+       "ft": "1/2"
+      },
+      {
+       "n": "Alex Karaban",
+       "start": false,
+       "min": "12",
+       "pts": 6,
+       "reb": 0,
+       "ast": 0,
+       "stl": 1,
+       "blk": 0,
+       "tov": 3,
+       "fg": "2/3",
+       "tp": "2/3",
+       "ft": "0/0"
+      },
+      {
+       "n": "Malik Monk",
+       "start": false,
+       "min": "8",
+       "pts": 2,
+       "reb": 1,
+       "ast": 1,
+       "stl": 0,
+       "blk": 0,
+       "tov": 2,
+       "fg": "1/3",
+       "tp": "0/1",
+       "ft": "0/0"
+      },
+      {
+       "n": "Nique Clifford",
+       "start": false,
+       "min": "4",
+       "pts": 0,
+       "reb": 0,
+       "ast": 1,
+       "stl": 0,
+       "blk": 0,
+       "tov": 0,
+       "fg": "0/0",
+       "tp": "0/0",
+       "ft": "0/0"
+      },
+      {
+       "n": "Emanuel Sharp",
+       "start": false,
+       "min": "18",
+       "pts": 0,
+       "reb": 0,
+       "ast": 0,
+       "stl": 1,
+       "blk": 0,
+       "tov": 0,
+       "fg": "0/2",
+       "tp": "0/2",
+       "ft": "0/0"
+      }
+     ]
+    },
+    "notes": "Pierwsze zwycięstwo Pelicans w sezonie (1-4), Kings nadal bez wygranej (0-5). Zion Williamson 22 pkt (10/12 z gry, 5 przechwytów), Jeremiah Fears 22 pkt, 13 as., 4 bloki. Darius Acuff Jr. 34 pkt i 14 as. dla SAC, ale Kings popełnili ok. 25 strat. Statystyki drużynowe zsumowane z linii zawodników (bez zbiórek drużynowych); frekwencja niepodana."
    },
    {
     "id": "NBA-2026-10-30-MEM-POR",
@@ -4567,7 +5023,7 @@
     "time": "03:00",
     "home": "POR",
     "away": "MEM",
-    "status": "ns",
+    "status": "ft",
     "arena": {
      "name": "Moda Center",
      "city": "Portland"
@@ -4603,7 +5059,31 @@
       "Brak cen handicapu i totalu – nie da się policzyć EV dla -7,5 / 234,5.",
       "Grizzlies 4-0 jako wysoki underdog – sygnały sprzeczne, zbyt duża niepewność."
      ]
-    }
+    },
+    "score": [
+     103,
+     124
+    ],
+    "quarters": {
+     "home": [
+      25,
+      33,
+      25,
+      20
+     ],
+     "away": [
+      25,
+      33,
+      33,
+      33
+     ]
+    },
+    "officials": [
+     "Tyler Ford",
+     "Kevin Cutler",
+     "Catherine Chang"
+    ],
+    "notes": "Grizzlies 5-0 (4-0 na wyjeździe) – rozstrzygnęli mecz w 2. połowie (66:45). Cameron Boozer triple-double (18 pkt, 11 zb., 12 as.), Cedric Coward 17 pkt, 8 zb., 3 przechwyty. Dla Blazers (pierwsza porażka, 3-1) Deni Avdija 24 pkt i 9 zb., Donovan Clingan 11 pkt, 8 zb., 5 bloków. Pełny box score, statystyki drużynowe i frekwencja niedostępne w źródłach."
    }
   ],
   "2026-10-31": [
@@ -4617,6 +5097,52 @@
     "arena": {
      "name": "Capital One Arena",
      "city": "Washington"
+    },
+    "odds": {
+     "src": "ESPN/DraftKings, stan na 30.10 rano",
+     "ml1": 1.95,
+     "ml2": 1.87,
+     "spread": 1.5,
+     "sp1": 1.87,
+     "sp2": 1.95,
+     "total": 223.5,
+     "over": 1.91,
+     "under": 1.91
+    },
+    "info": {
+     "injuries": {
+      "home": [
+       "Tre Johnson (ścięgno Achillesa, day-to-day)",
+       "Justin Champagnie (stopa, out)",
+       "Tristan Vukcevic (biodro, out)",
+       "Jamir Watkins (ACL, out)"
+      ],
+      "away": [
+       "Kon Knueppel (ścięgno podkolanowe, out)",
+       "Coby White (łydka, out)",
+       "Grant Williams (ścięgno podkolanowe, out)",
+       "Kylan Boswell (kolano, out)"
+      ]
+     },
+     "homeAway": "WAS u siebie 1-1, CHA na wyjeździe 1-1",
+     "stakes": "NBA Cup (East C). Hornets 3-2 bez Knueppela i White'a; Wizards 2-3, dwie porażki z rzędu. CHA gra następnego dnia z PHI.",
+     "restDays": {
+      "home": 1,
+      "away": 1
+     },
+     "b2b": {
+      "home": false,
+      "away": false
+     }
+    },
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Rynek pick'em (WAS 1,95 / CHA 1,87) – brak przewagi.",
+      "numberFire daje CHA ok. 77%, ale nie uwzględnia w pełni absencji Knueppela i White'a – rozbieżność model–rynek niewiarygodna.",
+      "Hornets przed back-to-back – ryzyko rotacji minut.",
+      "Brak danych o tempie/ratingach z tego sezonu do oceny totalu 223,5."
+     ]
     }
    },
    {
@@ -4629,6 +5155,48 @@
     "arena": {
      "name": "Barclays Center",
      "city": "Brooklyn"
+    },
+    "odds": {
+     "src": "ESPN/DraftKings, stan na 30.10 rano",
+     "ml1": 3.8,
+     "ml2": 1.28,
+     "spread": 8.5,
+     "sp1": 1.87,
+     "sp2": 1.95,
+     "total": 227.5,
+     "over": 1.91,
+     "under": 1.91
+    },
+    "info": {
+     "injuries": {
+      "home": [
+       "Egor Demin (out)",
+       "Tyler Bilodeau (bark, out)"
+      ],
+      "away": [
+       "Jalen Duren (ścięgno podkolanowe, out)",
+       "Isaiah Joe (biodro, day-to-day)"
+      ]
+     },
+     "homeAway": "BKN u siebie 0-2, DET na wyjeździe 2-1",
+     "stakes": "NBA Cup (East A). Pistons 4-1 (współlider Wschodu) bez Durena; Nets 0-4.",
+     "restDays": {
+      "home": 2,
+      "away": 1
+     },
+     "b2b": {
+      "home": false,
+      "away": false
+     }
+    },
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "ML Pistons 1,28 – za niski kurs, EV bliskie zera nawet przy p ~80%.",
+      "Modele sprzeczne co do handicapu: Dimers widzi value w Nets +6,5, numberFire daje DET ok. 82%.",
+      "Brak Jalena Durena osłabia DET pod koszem – niepewny wpływ na margines.",
+      "Handicap -8,5 przy próbce 4–5 meczów zbyt niepewny."
+     ]
     }
    },
    {
@@ -4641,6 +5209,51 @@
     "arena": {
      "name": "Scotiabank Arena",
      "city": "Toronto"
+    },
+    "odds": {
+     "src": "ESPN/DraftKings, stan na 30.10 rano",
+     "ml1": 1.57,
+     "ml2": 2.45,
+     "spread": -4.5,
+     "sp1": 1.87,
+     "sp2": 1.95,
+     "total": 222.5,
+     "over": 1.91,
+     "under": 1.91
+    },
+    "info": {
+     "injuries": {
+      "home": [
+       "Kawhi Leonard (kolano, out)",
+       "Nate Bittle (stopa, out)"
+      ],
+      "away": [
+       "Paolo Banchero (staw skokowy, out)",
+       "Jalen Suggs (kolano, out)",
+       "Jonathan Isaac (kolano, out)",
+       "Noah Penda (ścięgno podkolanowe, out)",
+       "Izaiyah Nelson (kostka, out)"
+      ]
+     },
+     "homeAway": "TOR u siebie 2-0, ORL na wyjeździe 1-1",
+     "stakes": "NBA Cup (East A). Rewanż za mecz z 28.10 (czas USA), wygrany przez TOR 129:99. Magic bez Banchero, Suggsa i Isaaca; Raptors bez Kawhiego Leonarda.",
+     "restDays": {
+      "home": 1,
+      "away": 1
+     },
+     "b2b": {
+      "home": false,
+      "away": false
+     }
+    },
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Kurs TOR 1,57 (ok. 64%) – numberFire ok. 70%, przewaga zbyt mała i oparta na jednym modelu.",
+      "Liczne absencje po obu stronach (Banchero, Suggs vs Leonard) – trudne do wyceny.",
+      "Wysoka wygrana TOR w poprzednim meczu (129:99) już wliczona w linię – nie opieramy typu na jednym meczu H2H.",
+      "Zbyt duża niepewność składów → NO BET."
+     ]
     }
    },
    {
@@ -4655,11 +5268,46 @@
      "city": "Philadelphia"
     },
     "odds": {
-     "src": "FanDuel Research, stan na 29.10",
-     "ml1": 1.65,
-     "ml2": 2.3,
-     "spread": -3.5,
-     "total": 230.5
+     "src": "ESPN/DraftKings, stan na 30.10 rano",
+     "ml1": 1.95,
+     "ml2": 1.87,
+     "spread": 1.5,
+     "sp1": 1.87,
+     "sp2": 1.95,
+     "total": 229.5,
+     "over": 1.87,
+     "under": 1.95
+    },
+    "info": {
+     "injuries": {
+      "home": [
+       "Jabari Walker (kolano, day-to-day)",
+       "Tacko Fall (mięsień czworogłowy, out)",
+       "Dominick Barlow (odcinek lędźwiowy, out)",
+       "Ariel Hukporti (ścięgno Achillesa, out)"
+      ],
+      "away": [
+       "Jose Alvarado (kostka, out)"
+      ]
+     },
+     "homeAway": "PHI u siebie 2-1, NYK na wyjeździe 1-1",
+     "stakes": "NBA Cup (East B). 76ers 4-1 grają dzień później w Charlotte (back-to-back). Linia przesunęła się z PHI -3,5 (FanDuel) na NYK -1,5 (DraftKings).",
+     "restDays": {
+      "home": 1,
+      "away": 1
+     },
+     "b2b": {
+      "home": false,
+      "away": false
+     }
+    },
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Duży ruch linii (ok. 5 pkt w stronę Knicks) bez potwierdzonej przyczyny w raportach – możliwy odpoczynek liderów PHI przed back-to-back.",
+      "numberFire daje NYK ok. 61%, ale inne źródła (TheRX/BookMaker) wyceniają PHI jako faworyta – brak spójności.",
+      "Bez potwierdzonego składu 76ers ryzyko zbyt duże."
+     ]
     }
    },
    {
@@ -4672,6 +5320,48 @@
     "arena": {
      "name": "TD Garden",
      "city": "Boston"
+    },
+    "odds": {
+     "src": "ESPN/DraftKings, stan na 30.10 rano",
+     "ml1": 1.14,
+     "ml2": 6.0,
+     "spread": -15.5,
+     "sp1": 1.91,
+     "sp2": 1.91,
+     "total": 230.5,
+     "over": 1.91,
+     "under": 1.91
+    },
+    "info": {
+     "injuries": {
+      "home": [
+       "Devin Carter (mononukleoza, out)"
+      ],
+      "away": [
+       "Patrick Williams (przywodziciel, out)",
+       "Nic Claxton (ścięgno podkolanowe, out)",
+       "Jalen Smith (palec, day-to-day)",
+       "Tobe Awaka (kostka, day-to-day)"
+      ]
+     },
+     "homeAway": "BOS u siebie 3-0, CHI na wyjeździe 1-2",
+     "stakes": "NBA Cup (East C). Celtics 3-0 u siebie, seria 3 zwycięstw; Bulls 1-4, 3 porażki z rzędu, bez Patricka Williamsa i Claxtona.",
+     "restDays": {
+      "home": 2,
+      "away": 1
+     },
+     "b2b": {
+      "home": false,
+      "away": false
+     }
+    },
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "ML Celtics 1,14 – kurs bez wartości.",
+      "Handicap -15,5 bardzo wysoki; Dimers widzi value w Bulls +14,5, numberFire ok. 84% na BOS – brak konsensusu co do marży.",
+      "Ryzyko 'garbage time' przy wysokim prowadzeniu – handicap loteryjny."
+     ]
     }
    },
    {
@@ -4684,6 +5374,53 @@
     "arena": {
      "name": "American Airlines Center",
      "city": "Dallas"
+    },
+    "odds": {
+     "src": "ESPN/DraftKings, stan na 30.10 rano",
+     "ml1": 2.6,
+     "ml2": 1.52,
+     "spread": 5.5,
+     "sp1": 1.91,
+     "sp2": 1.91,
+     "total": 227.5,
+     "over": 1.91,
+     "under": 1.91
+    },
+    "info": {
+     "injuries": {
+      "home": [
+       "Dereck Lively II (stopa, out)",
+       "Santi Aldama (kolano, out)",
+       "Tarik Biberovic (kolano, out)",
+       "Naji Marshall (choroba, day-to-day)",
+       "Sergio de Larrea (kolano, day-to-day)"
+      ],
+      "away": [
+       "Alperen Şengün (plecy, day-to-day)",
+       "Reed Sheppard (plecy, out)",
+       "Marcus Smart (przedramię, out)",
+       "Steven Adams (łydka, out)"
+      ]
+     },
+     "homeAway": "DAL u siebie 1-1, HOU na wyjeździe 3-0",
+     "stakes": "NBA Cup (West A). Rockets 5-0 (3-0 na wyjeździe); Mavericks 3-2, dwie wygrane z rzędu. Şengün z problemami z plecami (day-to-day).",
+     "restDays": {
+      "home": 1,
+      "away": 1
+     },
+     "b2b": {
+      "home": false,
+      "away": false
+     }
+    },
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Kurs HOU 1,52 (ok. 66%); numberFire ok. 75% – potencjalna przewaga, ale status Alperena Şengüna niepewny.",
+      "Rockets bez Sheppard'a, Smarta i Adamsa – wąska rotacja.",
+      "Mavericks bez Lively'ego i Aldamy, ale grają u siebie – sygnały mieszane.",
+      "Niepewny kluczowy zawodnik = NO BET wg regulaminu."
+     ]
     }
    },
    {
@@ -4696,6 +5433,39 @@
     "arena": {
      "name": "Target Center",
      "city": "Minneapolis"
+    },
+    "info": {
+     "injuries": {
+      "home": [
+       "Anthony Edwards (prawe kolano po artroskopii, out)",
+       "Donte DiVincenzo (ścięgno Achillesa, out)"
+      ],
+      "away": [
+       "Bradley Beal (kolano, out)",
+       "Brandon Ingram (ścięgno Achillesa, out)",
+       "Max Strus (stopa, out)",
+       "Jordan Miller (stożek rotatorów, out)",
+       "Yanic Konan Niederhauser (stopa, out)",
+       "Rui Hachimura (mięsień czworogłowy, day-to-day)"
+      ]
+     },
+     "homeAway": "MIN u siebie 1-1, LAC na wyjeździe 0-2",
+     "stakes": "NBA Cup (West B). Timberwolves bez Anthony'ego Edwardsa (po artroskopii kolana); Clippers 1-3, 3 porażki z rzędu, bez Beala i Ingrama.",
+     "restDays": {
+      "home": 1,
+      "away": 1
+     },
+     "b2b": {
+      "home": false,
+      "away": false
+     }
+    },
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Brak potwierdzonych kursów w źródłach – nie da się policzyć EV.",
+      "Brak Edwardsa radykalnie zmienia siłę MIN – model numberFire (68% MIN) mógł tego nie uwzględnić."
+     ]
     }
    },
    {
@@ -4708,6 +5478,50 @@
     "arena": {
      "name": "Kaseya Center",
      "city": "Miami"
+    },
+    "odds": {
+     "src": "ESPN/DraftKings, stan na 30.10 rano",
+     "ml1": 1.57,
+     "ml2": 2.45,
+     "spread": -3.5,
+     "sp1": 1.91,
+     "sp2": 1.91,
+     "total": 239.5,
+     "over": 1.91,
+     "under": 1.91
+    },
+    "info": {
+     "injuries": {
+      "home": [
+       "Simone Fontecchio (choroba, day-to-day)"
+      ],
+      "away": [
+       "Tyrese Haliburton (ścięgno podkolanowe, out)",
+       "T.J. McConnell (ścięgno podkolanowe, out)",
+       "Ben Sheppard (łąkotka, out)",
+       "Johnny Furphy (ACL, out)",
+       "Ivica Zubac (kostka, day-to-day)"
+      ]
+     },
+     "homeAway": "MIA u siebie 0-3, IND na wyjeździe 2-1",
+     "stakes": "NBA Cup (East B). Heat 1-4 (0-3 u siebie); Pacers 2-3, bez Haliburtona, McConnella i Sheppard'a, Zubac day-to-day.",
+     "restDays": {
+      "home": 1,
+      "away": 1
+     },
+     "b2b": {
+      "home": false,
+      "away": false
+     }
+    },
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Skrajnie sprzeczne modele: numberFire MIA 84%, Dimers – value w Pacers +6,5 (55%).",
+      "Heat 0-3 u siebie – forma nie potwierdza roli faworyta.",
+      "Status Zubaca niepewny – wpływa na zbiórki i obronę IND.",
+      "Zbyt duża niepewność → NO BET."
+     ]
     }
    },
    {
@@ -4720,6 +5534,45 @@
     "arena": {
      "name": "Mortgage Matchup Center",
      "city": "Phoenix"
+    },
+    "odds": {
+     "src": "TheRX/BookMaker, stan na 30.10",
+     "ml1": 2.2,
+     "ml2": 1.71,
+     "spread": 2.5,
+     "sp1": 1.91,
+     "sp2": 1.91,
+     "total": 233.5,
+     "over": 1.91,
+     "under": 1.91
+    },
+    "info": {
+     "injuries": {
+      "home": [
+       "Mark Williams (obrąbek barku, out)",
+       "Oso Ighodaro (biodro/mięsień skośny, day-to-day)"
+      ],
+      "away": [
+       "Cameron Johnson (kostka, out/doubtful)",
+       "Julian Strawther (kolano, out)",
+       "Spencer Jones (ścięgna podkolanowe, out)",
+       "Alpha Diallo (sprawy osobiste, out)"
+      ]
+     },
+     "homeAway": "PHX u siebie 1-0, DEN na wyjeździe 1-1",
+     "stakes": "NBA Cup (West A). Nuggets 2-2 bez Camerona Johnsona (doubtful/out), Strawthera i S. Jonesa; Suns 1-2, bez Marka Williamsa.",
+     "b2b": {
+      "home": false,
+      "away": false
+     }
+    },
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "DEN -140 (ok. 58%) vs numberFire 53% dla PHX – modele nie potwierdzają faworyta.",
+      "Absencje skrzydłowych DEN zmniejszają głębię składu.",
+      "Brak przewagi na żadnym rynku."
+     ]
     }
    },
    {
@@ -4733,14 +5586,45 @@
      "name": "Chase Center",
      "city": "San Francisco"
     },
+    "odds": {
+     "src": "FanDuel Research, stan na 30.10",
+     "ml1": 2.04,
+     "ml2": 1.82,
+     "spread": 1.5,
+     "total": 233.5
+    },
     "info": {
      "injuries": {
-      "home": [],
+      "home": [
+       "Jimmy Butler III (ACL, out)",
+       "Moses Moody (ścięgno rzepki, out)",
+       "Kristaps Porziņģis (sprawy zdrowotne/osobiste, out)",
+       "Gui Santos (kolano, day-to-day)"
+      ],
       "away": [
-       "Luka Dončić (plecy, przewidywany powrót 30.10)",
-       "Ziaire Williams (stopa)"
+       "Ziaire Williams (stopa, questionable)",
+       "Cameron Carr (mięsień skośny, out)",
+       "Adou Thiero (kolano, out)"
       ]
+     },
+     "homeAway": "GSW u siebie 0-1, LAL na wyjeździe 2-0",
+     "stakes": "NBA Cup (West C). Luka Dončić wraca po odpoczynku (plecy) – zgłoszony do gry. Lakers 4-1; Warriors 2-3 bez Butlera, Moody'ego i Porziņģisa.",
+     "restDays": {
+      "home": 1,
+      "away": 1
+     },
+     "b2b": {
+      "home": false,
+      "away": false
      }
+    },
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Kurs LAL 1,82 (ok. 55%) – numberFire 54% (EV ujemne), Dimers 64% – modele rozbieżne.",
+      "Dončić wraca po problemach z plecami – ryzyko ograniczonych minut.",
+      "Brak cen handicapu i totalu – pełne porównanie rynków niemożliwe."
+     ]
     }
    },
    {
@@ -4753,6 +5637,38 @@
     "arena": {
      "name": "Delta Center",
      "city": "Salt Lake City"
+    },
+    "info": {
+     "injuries": {
+      "home": [
+       "Jaren Jackson Jr. (MCL, out)",
+       "Jusuf Nurkić (stopa, out)",
+       "Trey Alexander (kolano, out)",
+       "Lauri Markkanen (nadgarstek, day-to-day)"
+      ],
+      "away": [
+       "Shaedon Sharpe (łąkotka, out)",
+       "Chris Youngblood (kostka, out)",
+       "Robert Williams III (kolano, day-to-day)"
+      ]
+     },
+     "homeAway": "UTA u siebie 1-3, POR na wyjeździe 2-0",
+     "stakes": "Jazz 1-4 (3 porażki z rzędu) bez Jacksona Jr. i Nurkicia, Markkanen day-to-day; Blazers po pierwszej porażce (103:124 z MEM).",
+     "restDays": {
+      "home": 2,
+      "away": 1
+     },
+     "b2b": {
+      "home": false,
+      "away": false
+     }
+    },
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Brak kursów w źródłach w chwili aktualizacji.",
+      "Niepewny status Markkanena i R. Williamsa III."
+     ]
     }
    },
    {
@@ -4765,6 +5681,137 @@
     "arena": {
      "name": "Spectrum Center",
      "city": "Charlotte"
+    },
+    "info": {
+     "injuries": {
+      "home": [
+       "Kon Knueppel (ścięgno podkolanowe, out)",
+       "Coby White (łydka, out)",
+       "Grant Williams (ścięgno podkolanowe, out)",
+       "Kylan Boswell (kolano, out)"
+      ],
+      "away": [
+       "Jabari Walker (kolano, day-to-day)",
+       "Tacko Fall (mięsień czworogłowy, out)",
+       "Dominick Barlow (odcinek lędźwiowy, out)",
+       "Ariel Hukporti (ścięgno Achillesa, out)"
+      ]
+     },
+     "homeAway": "CHA u siebie 2-1, PHI na wyjeździe 2-0",
+     "stakes": "Obie drużyny drugi dzień z rzędu (PHI po meczu z NYK, CHA po meczu w Waszyngtonie). Hornets bez Knueppela i White'a.",
+     "restDays": {
+      "home": 0,
+      "away": 0
+     },
+     "b2b": {
+      "home": true,
+      "away": true
+     }
+    },
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Brak kursów w źródłach w chwili aktualizacji.",
+      "Obie drużyny na back-to-back – możliwe odpoczynki gwiazd, składy niepewne."
+     ]
+    }
+   }
+  ],
+  "2026-11-01": [
+   {
+    "id": "NBA-2026-11-01-ATL-NOP",
+    "date": "2026-11-01",
+    "time": "00:00",
+    "home": "NOP",
+    "away": "ATL",
+    "status": "ns",
+    "arena": {
+     "name": "Smoothie King Center",
+     "city": "New Orleans"
+    }
+   },
+   {
+    "id": "NBA-2026-11-01-MIN-SAS",
+    "date": "2026-11-01",
+    "time": "01:00",
+    "home": "SAS",
+    "away": "MIN",
+    "status": "ns",
+    "arena": {
+     "name": "Frost Bank Center",
+     "city": "San Antonio"
+    }
+   },
+   {
+    "id": "NBA-2026-11-01-CLE-MIL",
+    "date": "2026-11-01",
+    "time": "01:00",
+    "home": "MIL",
+    "away": "CLE",
+    "status": "ns",
+    "arena": {
+     "name": "Fiserv Forum",
+     "city": "Milwaukee"
+    }
+   },
+   {
+    "id": "NBA-2026-11-01-SAC-MEM",
+    "date": "2026-11-01",
+    "time": "01:00",
+    "home": "MEM",
+    "away": "SAC",
+    "status": "ns",
+    "arena": {
+     "name": "FedExForum",
+     "city": "Memphis"
+    }
+   },
+   {
+    "id": "NBA-2026-11-01-OKC-HOU",
+    "date": "2026-11-01",
+    "time": "01:30",
+    "home": "HOU",
+    "away": "OKC",
+    "status": "ns",
+    "arena": {
+     "name": "Toyota Center",
+     "city": "Houston"
+    }
+   },
+   {
+    "id": "NBA-2026-11-01-BOS-ORL",
+    "date": "2026-11-01",
+    "time": "21:30",
+    "home": "ORL",
+    "away": "BOS",
+    "status": "ns",
+    "arena": {
+     "name": "Kia Center",
+     "city": "Orlando"
+    }
+   },
+   {
+    "id": "NBA-2026-11-01-BKN-IND",
+    "date": "2026-11-01",
+    "time": "23:00",
+    "home": "IND",
+    "away": "BKN",
+    "status": "ns",
+    "arena": {
+     "name": "Gainbridge Fieldhouse",
+     "city": "Indianapolis"
+    }
+   },
+   {
+    "id": "NBA-2026-11-01-LAC-GSW",
+    "date": "2026-11-01",
+    "time": "23:30",
+    "home": "GSW",
+    "away": "LAC",
+    "status": "ns",
+    "arena": {
+     "name": "Chase Center",
+     "city": "San Francisco"
     }
    }
   ]
