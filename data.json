@@ -1,9 +1,9 @@
 {
- "updated": "2026-10-30T06:55:00+01:00",
+ "updated": "2026-10-31T06:55:00+01:00",
  "season": "2026/27",
  "competition": "Ekstraklasa",
  "currentRound": 13,
- "note": "Źródła: ekstraklasa.org / sportowefakty.wp.pl (terminarz, obsada sędziowska 13. kol.), interia.pl (zmiana sędziego Górnik–Legia), lechpoznan.pl (obsada Lech–Wisła), Oddsportal (kursy 1X2, 30.10), weszlo.com / flashscore.pl (Superbet), sport1.pl (skład Górnika), weszlo.com (wyniki 1/16 PP). Tabela po 12. kolejce (LPO, POG, JAG, WPL z zaległymi meczami; WPL–LPO przełożony na 17.12). Forma: ostatnie 5 meczów ligowych. Godziny w czasie zimowym (CET).",
+ "note": "Źródła: ekstraklasa.org / sportowefakty.wp.pl (terminarz, obsada sędziowska), weszlo.com i krknews.pl (Cracovia–Motor 1:2), gornikzabrze.pl / tylkoslask.pl / interia.pl (Górnik–Legia 0:0: składy, zmiany, kartki, frekwencja, statystyki strzałów), lechpoznan.pl (obsada Lech–Wisła), Oddsportal (kursy 1X2, 31.10 rano), weszlo.com / flashscore.pl (Superbet). Tabela po piątkowych meczach 13. kolejki (LPO, POG, JAG, WPL z zaległymi meczami; WPL–LPO 17.12). Forma: ostatnie 5 meczów ligowych. Godziny w czasie zimowym (CET).",
  "teams": {
   "LEG": {
    "id": "LEG",
@@ -1802,7 +1802,7 @@
     "time": "18:00",
     "home": "CRA",
     "away": "MOT",
-    "status": "ns",
+    "status": "ft",
     "venue": {
      "name": "Stadion Cracovii im. Józefa Piłsudskiego",
      "city": "Kraków",
@@ -1836,7 +1836,7 @@
       "Kursy 2,10 / 3,60 / 3,20 bez istotnych zmian. Motor rozegrał we wtorek 120 minut w pucharze, co lekko przemawia za Cracovią, ale ona przegrała 4 z 5 ostatnich meczów ligowych, a 2,10 (ok. 45% po marży) już ją faworyzuje. Tylko rynek 1X2 — brak dodatniego EV."
      ]
     },
-    "notes": "Motor zremisował 27.10 z Rakowem 1:1 po dogrywce w 1/16 Pucharu Polski i odpadł po karnych (1–3) — 120 minut gry na 3 dni przed meczem. Cracovia nie grała w tej rundzie pucharu.",
+    "notes": "Motor zremisował 27.10 z Rakowem 1:1 po dogrywce w 1/16 Pucharu Polski i odpadł po karnych (1–3) — 120 minut gry na 3 dni przed meczem. Cracovia nie grała w tej rundzie pucharu. | PO MECZU: Motor wygrał 2:1, wszystkie gole w 1. połowie (Hasić 13' po dośrodkowaniu i błędzie Yacine'a Bourhane'a; Plavotić 23' po rzucie rożnym; Rony Lopes 40'). Prezes Cracovii Murat Colak został odwołany tuż przed meczem. Motor ma 10 pkt z 4 ostatnich meczów. Kartki, składy i frekwencja nie zostały jednoznacznie podane w dostępnych źródłach.",
     "officials": [
      {
       "r": "GŁ",
@@ -1844,6 +1844,46 @@
       "name": "Daniel Stefański",
       "nat": "POL",
       "city": "Bydgoszcz"
+     }
+    ],
+    "score": [
+     1,
+     2
+    ],
+    "staff": {
+     "home": [
+      [
+       "Trener",
+       "Bartosz Grzelak"
+      ]
+     ],
+     "away": [
+      [
+       "Trener",
+       "Mariusz Misiura"
+      ]
+     ]
+    },
+    "events": [
+     {
+      "m": 13,
+      "t": "goal",
+      "s_": "h",
+      "who": "Ajdin Hasić"
+     },
+     {
+      "m": 23,
+      "t": "goal",
+      "s_": "a",
+      "who": "Tin Plavotić",
+      "how": "Po rzucie rożnym"
+     },
+     {
+      "m": 40,
+      "t": "goal",
+      "s_": "a",
+      "who": "Rony Lopes",
+      "as": "Christopher Simon"
      }
     ]
    },
@@ -1853,7 +1893,7 @@
     "time": "20:30",
     "home": "GZA",
     "away": "LEG",
-    "status": "ns",
+    "status": "ft",
     "venue": {
      "name": "Stadion im. Ernesta Pohla",
      "city": "Zabrze",
@@ -1898,7 +1938,7 @@
       "Kursy 2,10 / 3,45 / 3,30 i X2 1,70 (Superbet) — po zdjęciu marży X2 ok. 57%, moja wycena ~55–58% (Górnik 3 dni odpoczynku po 120 min, Legia 5 dni, ale Górnik wraca do pierwszego składu). EV X2 ok. −2…+0% — brak przewagi. BTTS tak 1,76 (57% z kursu) zgodne z moją oceną ~56%. Niepewny występ Adamskiego, brak oficjalnych składów."
      ]
     },
-    "notes": "Górnik zagrał 27.10 w Gliwicach z Piastem 0:0 po dogrywce i awansował do 1/8 Pucharu Polski po karnych (3–1); w bramce grał rezerwowy Tomasz Loska. Legia nie grała w tej rundzie pucharu. Dzień przed meczem PZPN zmienił sędziego: Łukasza Kuźmę (Białystok) zastąpił Marcin Szczerbowicz (Olsztyn); przyczyny nie podano. Trener Górnika Michal Gašparík zapowiedział co najmniej 4 zmiany w polu względem meczu pucharowego — do składu mają wrócić Josema, Paolo Bernardo, Peter Federico i Sondre Liseth; obsada bramki otwarta.",
+    "notes": "Górnik zagrał 27.10 w Gliwicach z Piastem 0:0 po dogrywce i awansował do 1/8 Pucharu Polski po karnych (3–1); w bramce grał rezerwowy Tomasz Loska. Legia nie grała w tej rundzie pucharu. Dzień przed meczem PZPN zmienił sędziego: Łukasza Kuźmę (Białystok) zastąpił Marcin Szczerbowicz (Olsztyn); przyczyny nie podano. Trener Górnika Michal Gašparík zapowiedział co najmniej 4 zmiany w polu względem meczu pucharowego — do składu mają wrócić Josema, Paolo Bernardo, Peter Federico i Sondre Liseth; obsada bramki otwarta. | PO MECZU: 0:0, żadna z drużyn nie oddała celnego strzału (Górnik 17 strzałów, Legia 4). Okazje: Szczepaniak 17' przestrzelił z dogodnej pozycji, Kubicki 41' głową niecelnie, Zmrzlý 72' w poprzeczkę. Składy wyjściowe — Górnik: Schulze – Zmrzlý, Janicki, Josema, Janża, Kubicki, Bernardo, Urbański, Federico, Antiste, Liseth. Legia: Hindrich – Piątkowski, Augustyniak, Deziel Jr, Wszołek, Kapustka, Urbański, Chodyna, Ševčík, Zjawiński, Szczepaniak. Żółte kartki (minuty niepodane): Antiste, Janża, Højholt, Janicki (Górnik); Augustyniak, Kapustka, Szymański (Legia). Sędziował Marcin Szczerbowicz. Lech pozostaje liderem.",
     "officials": [
      {
       "r": "GŁ",
@@ -1907,6 +1947,117 @@
       "nat": "POL",
       "city": "Olsztyn"
      }
+    ],
+    "score": [
+     0,
+     0
+    ],
+    "attendance": 27659,
+    "staff": {
+     "home": [
+      [
+       "Trener",
+       "Michal Gašparík"
+      ]
+     ],
+     "away": [
+      [
+       "Trener",
+       "Marek Papszun"
+      ]
+     ]
+    },
+    "events": [
+     {
+      "m": 46,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Bohdan Wjunnyk",
+      "out": "Mateusz Szczepaniak"
+     },
+     {
+      "m": 73,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Malthe Højholt",
+      "out": "Kubicki"
+     },
+     {
+      "m": 73,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Chłań",
+      "out": "Antiste"
+     },
+     {
+      "m": 73,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Prekop",
+      "out": "Sondre Liseth"
+     },
+     {
+      "m": 73,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Reca",
+      "out": "Kacper Chodyna"
+     },
+     {
+      "m": 73,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Biczachczjan",
+      "out": "Ševčík"
+     },
+     {
+      "m": 81,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Fukuda",
+      "out": "Paweł Wszołek"
+     },
+     {
+      "m": 88,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Szymański",
+      "out": "Kapustka"
+     },
+     {
+      "m": 90,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Durdov",
+      "out": "Urbański"
+     }
+    ],
+    "teamStats": [
+     [
+      "Posiadanie %",
+      49,
+      51
+     ],
+     [
+      "Strzały",
+      17,
+      4
+     ],
+     [
+      "Celne",
+      0,
+      0
+     ],
+     [
+      "Niecelne",
+      11,
+      3
+     ],
+     [
+      "Zablokowane",
+      6,
+      1
+     ]
     ]
    },
    {
@@ -1917,10 +2068,10 @@
     "away": "PIA",
     "status": "ns",
     "odds": {
-     "src": "Oddsportal 1X2 (stan na 30.10 ~06:45)",
+     "src": "Oddsportal 1X2 (stan na 31.10 ~06:50)",
      "1": 2.1,
      "X": 3.6,
-     "2": 3.25
+     "2": 3.35
     },
     "info": {
      "restDays": {
@@ -1933,7 +2084,7 @@
     "tip": {
      "decision": "NO BET",
      "reasons": [
-      "Obie drużyny zagrały w tym tygodniu po 120 minut w pucharze (Wisła w środę, Piast we wtorek), rotacja nieznana. Kursy 2,10 / 3,60 / 3,50 bliskie wycenie z tabeli; tylko rynek 1X2 — brak przewagi."
+      "Kursy 2,10 / 3,60 / 3,35 (ok. 46% / 27% / 28% po marży) praktycznie bez zmian. Obie drużyny po 120 minutach w pucharze w tym tygodniu, rotacja nieznana; tylko rynek 1X2 — brak przewagi."
      ]
     },
     "officials": [
@@ -1954,10 +2105,10 @@
     "away": "JAG",
     "status": "ns",
     "odds": {
-     "src": "Oddsportal 1X2 (stan na 30.10 ~06:45)",
-     "1": 2.15,
-     "X": 3.9,
-     "2": 3.0
+     "src": "Oddsportal 1X2 (stan na 31.10 ~06:50)",
+     "1": 2.25,
+     "X": 3.95,
+     "2": 2.88
     },
     "info": {
      "restDays": {
@@ -1970,7 +2121,7 @@
     "tip": {
      "decision": "NO BET",
      "reasons": [
-      "Bukmacherzy faworyzują Wieczystą (2,10) mimo 2 wygranych w 12 meczach i 23 straconych goli, a Jagiellonia jest w dobrym nastroju po pucharowym pogromie. X2 po kursach 3,90/3,00 wyceniane ok. 56% (uczciwy kurs ~1,80) — moja ocena podobna, a krótki odpoczynek i możliwa rotacja Jagiellonii zwiększają niepewność. Tylko 1X2 — NO BET."
+      "Kurs Jagiellonii lekko spadł (3,00 → 2,88), Wieczysta 2,25. X2 po marży ok. 57% (uczciwy kurs ~1,74) — moja ocena podobna; krótki odpoczynek i podróż Jagiellonii po pucharze zwiększają niepewność. Tylko 1X2 — NO BET."
      ]
     },
     "officials": [
@@ -1991,8 +2142,8 @@
     "away": "WIS",
     "status": "ns",
     "odds": {
-     "src": "Oddsportal 1X2 (stan na 30.10 ~06:45)",
-     "1": 1.76,
+     "src": "Oddsportal 1X2 (stan na 31.10 ~06:50)",
+     "1": 1.73,
      "X": 4.1,
      "2": 4.1
     },
@@ -2017,7 +2168,7 @@
     "tip": {
      "decision": "NO BET",
      "reasons": [
-      "Kurs 1,76 (ok. 54% po marży) bez zmian. Dochodzi niepewność wokół zdrowia Mikaela Ishaka i nieujawnionych urazów po meczu z Siarką; Wisła wypoczęta (7 dni). Brak kursów na inne rynki niż 1X2 — brak dodatniego EV."
+      "Kurs Lecha 1,73 (ok. 54% po marży). Niepewność wokół zdrowia Ishaka i urazów po meczu z Siarką, Wisła wypoczęta (7 dni). Brak kursów na inne rynki niż 1X2 — brak dodatniego EV."
      ]
     },
     "officials": [
@@ -2062,9 +2213,9 @@
     "away": "WID",
     "status": "ns",
     "odds": {
-     "src": "Oddsportal 1X2 (stan na 30.10 ~06:45); poniżej 2,5: Superbet (flashscore.pl)",
+     "src": "Oddsportal 1X2 (stan na 31.10 ~06:50); poniżej 2,5: Superbet (flashscore.pl)",
      "1": 2.1,
-     "X": 3.65,
+     "X": 3.7,
      "2": 3.1,
      "u25": 2.3
     },
@@ -2079,7 +2230,7 @@
     "tip": {
      "decision": "NO BET",
      "reasons": [
-      "1X2 bez zmian (2,10 / 3,65 / 3,10). Poniżej 2,5 gola po 2,30 (Superbet, 43% z kursu): mecze GKS średnio 3,25 gola, Widzewa 2,6 — Poisson przy ok. 2,9 gola daje ok. 45%, EV ok. +3% — poniżej progu, kurs z jednego źródła. NO BET."
+      "1X2 bez zmian (2,10 / 3,70 / 3,10). Poniżej 2,5 gola 2,30 (Superbet) — Poisson przy ok. 2,9 gola daje ok. 45%, EV ok. +3% — poniżej progu, kurs z jednego źródła. NO BET."
      ]
     },
     "officials": [
@@ -2100,7 +2251,7 @@
     "away": "SLA",
     "status": "ns",
     "odds": {
-     "src": "Oddsportal 1X2 (stan na 30.10 ~06:45); 1X: Superbet (flashscore.pl)",
+     "src": "Oddsportal 1X2 (stan na 31.10 ~06:50); 1X: Superbet (flashscore.pl)",
      "1": 2.15,
      "X": 3.65,
      "2": 3.0,
@@ -2135,10 +2286,10 @@
     "away": "KOR",
     "status": "ns",
     "odds": {
-     "src": "Oddsportal 1X2 (stan na 30.10 ~06:45); BTTS: Superbet (flashscore.pl)",
+     "src": "Oddsportal 1X2 (stan na 31.10 ~06:50); BTTS: Superbet (flashscore.pl)",
      "1": 2.5,
-     "X": 3.3,
-     "2": 2.65,
+     "X": 3.35,
+     "2": 2.7,
      "bttsY": 1.7
     },
     "officials": [
@@ -2158,7 +2309,7 @@
     "tip": {
      "decision": "NO BET",
      "reasons": [
-      "Kursy 2,50 / 3,30 / 2,65 oddają wyrównany mecz drużyn z sąsiednich miejsc; BTTS tak 1,70 (Superbet) przy średnio 2,5–2,7 gola w meczach obu ekip daje wycenę ok. 55–57% — EV ≤ 0. Brak przewagi."
+      "Kursy 2,50 / 3,35 / 2,70 oddają wyrównany mecz sąsiadów w tabeli; BTTS tak 1,70 (Superbet) przy wycenie ok. 55–57% — EV ≤ 0. Brak przewagi."
      ]
     }
    },
@@ -2170,7 +2321,7 @@
     "away": "POG",
     "status": "ns",
     "odds": {
-     "src": "Oddsportal 1X2 (stan na 30.10 ~06:45)",
+     "src": "Oddsportal 1X2 (stan na 31.10 ~06:50)",
      "1": 2.25,
      "X": 3.7,
      "2": 2.8
@@ -2289,14 +2440,25 @@
   },
   {
    "team": "GZA",
-   "p": 12,
+   "p": 13,
    "w": 8,
-   "d": 3,
+   "d": 4,
    "l": 1,
    "gf": 21,
    "ga": 11,
-   "pts": 27,
-   "form": "WDWDD"
+   "pts": 28,
+   "form": "DWDDD"
+  },
+  {
+   "team": "LEG",
+   "p": 13,
+   "w": 6,
+   "d": 6,
+   "l": 1,
+   "gf": 23,
+   "ga": 11,
+   "pts": 24,
+   "form": "WWDLD"
   },
   {
    "team": "POG",
@@ -2308,17 +2470,6 @@
    "ga": 9,
    "pts": 24,
    "form": "WWWWW"
-  },
-  {
-   "team": "LEG",
-   "p": 12,
-   "w": 6,
-   "d": 5,
-   "l": 1,
-   "gf": 23,
-   "ga": 11,
-   "pts": 23,
-   "form": "DWWDL"
   },
   {
    "team": "WIS",
@@ -2376,6 +2527,17 @@
    "form": "WWLLW"
   },
   {
+   "team": "MOT",
+   "p": 13,
+   "w": 4,
+   "d": 4,
+   "l": 5,
+   "gf": 19,
+   "ga": 22,
+   "pts": 16,
+   "form": "DWWDW"
+  },
+  {
    "team": "JAG",
    "p": 11,
    "w": 5,
@@ -2398,26 +2560,15 @@
    "form": "WWLWL"
   },
   {
-   "team": "MOT",
-   "p": 12,
-   "w": 3,
-   "d": 4,
-   "l": 5,
-   "gf": 17,
-   "ga": 21,
-   "pts": 13,
-   "form": "LDWWD"
-  },
-  {
    "team": "CRA",
-   "p": 12,
+   "p": 13,
    "w": 3,
    "d": 3,
-   "l": 6,
-   "gf": 14,
-   "ga": 19,
+   "l": 7,
+   "gf": 15,
+   "ga": 21,
    "pts": 12,
-   "form": "LLWDL"
+   "form": "LWDLL"
   },
   {
    "team": "WID",

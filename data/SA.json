@@ -1,9 +1,9 @@
 {
- "updated": "2026-10-30T06:10:00+01:00",
+ "updated": "2026-10-31T06:30:00+01:00",
  "season": "2026/27",
  "competition": "Serie A",
  "currentRound": 10,
- "note": "Źródła: Virgilio Sport (relacje Frosinone–Lecce 5:1 i Fiorentina–Atalanta 2:2, 29.10), ANSA, Calcio e Finanza (terminarz 10. i 11. kolejki), RG.org (kursy i kadry derby, 29.10), oddslot/BC.Game (kursy 10. kolejki), footballpredictions.com (kontuzje i forma Bologna–Monza); wcześniejsze dane: Football Italia, OA Sport, LaPresse, Fanpage, Lazionews, ESPN, Sky Sport, Wikipedia. Sędziowie 10. kolejki jeszcze nieogłoszeni w chwili aktualizacji.",
+ "note": "Źródła: TuttoMercatoWeb, Gianluca Di Marzio, Corriere dello Sport (sędziowie 10. kolejki, 30.10), TuttoMercatoWeb (przewidywane składy, kontuzje i pauzy, 30.10), Goal.com Italia, Fantacalcio.it (zawieszeni), Oddsportal (kursy 1X2, 31.10), RG.org i Sportsgambler (kursy bramkowe, 29.10); wcześniejsze dane: Virgilio Sport, ANSA, Calcio e Finanza, oddslot/BC.Game, footballpredictions.com, Football Italia, OA Sport, LaPresse, Fanpage, ESPN, Sky Sport, Wikipedia.",
  "teams": {
   "ATA": {
    "id": "ATA",
@@ -408,12 +408,7 @@
    "form": "LLWLL"
   }
  ],
- "picks": [
-  {
-   "match": "SA-2026-27-R10-BOL-MON",
-   "rank": 1
-  }
- ],
+ "picks": [],
  "rounds": {
   "9": [
    {
@@ -2641,27 +2636,25 @@
      "capacity": 38279
     },
     "odds": {
-     "src": "BC.Game wg oddslot (stan na 29.10.2026); powyżej 1,5 gola 1,28 – oddslot, bukmacher nieokreślony",
-     "1": 1.75,
-     "X": 3.5,
-     "2": 4.75,
-     "1X": 1.18,
-     "12": 1.28,
-     "X2": 2.0
+     "src": "Oddsportal 1X2 (stan na 31.10.2026, rano); powyżej/poniżej 2,5 – BetRivers wg RG.org (29.10.2026); BTTS – BetMGM wg Sportsgambler (29.10.2026)",
+     "1": 1.72,
+     "X": 3.9,
+     "2": 5.0,
+     "o25": 1.87,
+     "u25": 1.89,
+     "bttsY": 1.77
     },
     "info": {
      "injuries": {
       "home": [
        "Holm",
-       "Orsolini",
        "Piccoli",
-       "Enem (niepewny)"
+       "Enem"
       ],
       "away": [
-       "Maye",
        "Pessina",
        "Ziółkowski",
-       "Folorunsho (decyzja trenera)"
+       "Folorunsho"
       ]
      },
      "restDays": {
@@ -2669,33 +2662,50 @@
       "away": 3
      },
      "stakes": "Bologna (11 pkt) po dwóch wygranych z rzędu, w tym 4:2 na San Siro; Monza (7 pkt) po 1:4 u siebie z Napoli.",
-     "homeAway": "Ostatnie 10 meczów (wszystkie rozgrywki, footballpredictions): Bologna 2,5 gola/mecz, xG 1,19 / xGA 1,41; Monza 3,9 gola/mecz, xG 1,57 / xGA 1,55, BTTS 80%. H2H: 4 wygrane Bologny, 2 remisy, 1 Monzy w 7 meczach, powyżej 2,5 w 4 z 7."
+     "homeAway": "Ostatnie 10 meczów (wszystkie rozgrywki, footballpredictions): Bologna 2,5 gola/mecz, xG 1,19 / xGA 1,41; Monza 3,9 gola/mecz, xG 1,57 / xGA 1,55, BTTS 80%. H2H: 4 wygrane Bologny, 2 remisy, 1 Monzy w 7 meczach, powyżej 2,5 w 4 z 7.",
+     "suspensions": {
+      "home": [],
+      "away": []
+     }
     },
     "tip": {
-     "decision": "BET",
-     "market": "Powyżej 1,5 gola",
-     "odds": 1.28,
-     "prob": 0.81,
-     "ev": 0.037,
-     "rating": 6,
-     "risk": "niskie",
+     "decision": "NO BET",
      "reasons": [
-      "Mecze Monzy średnio ok. 4,2 gola – w każdym znanym wyniku tego sezonu padły co najmniej 2 gole (suma 3 pozostałych meczów: 11 goli)",
-      "Monza traci 2,4 gola/mecz (22 w 9) – najgorsza obrona w lidze obok Sassuolo",
-      "Bologna złapała skuteczność: 4 gole na San Siro i 2:0 w Cagliari w poprzedniej kolejce",
-      "Monza strzela regularnie (16 goli, gol m.in. w Mediolanie z Interem i z Napoli) – wystarczy po golu z każdej strony",
-      "Rynek 1X2 (Bologna 1,75) obciążony brakiem Orsoliniego, Piccolego i Holma – rynek bramkowy mniej wrażliwy na składy",
-      "Wysokie prawdopodobieństwo przy umiarkowanym kursie – przewaga ok. 5 pkt proc. nad ceną rynku",
-      "Łączne xG obu drużyn w ostatnich 10 meczach ok. 2,8–3,0 na mecz – model Poissona daje ok. 80% na co najmniej 2 gole"
+      "Poprzedni typ (powyżej 1,5 po 1,28) wycofany: rynek over 2,5 ok. 1,87 (BetRivers) wycenia sumę ok. 2,8 gola – P(powyżej 1,5) ok. 77–79%, czyli tyle, ile daje kurs 1,28 (78%); EV ≈ 0",
+      "BTTS tak 1,77 (BetMGM, 56,5%) – szacunek ok. 57–59% (Monza BTTS w 8 z 10 ostatnich, Bologna 6 z 10), EV ok. +1–4% – za mało",
+      "Bologna 1,72 (58%) – szacunek ok. 57–59%; bez Holma, Piccolego i Enema, wraca Orsolini",
+      "xG z ostatnich 10 meczów (Bologna 1,19 / 1,41, Monza 1,57 / 1,55) nie potwierdza wyraźnej przewagi żadnego rynku"
+     ]
+    },
+    "officials": [
+     {
+      "r": "GŁ",
+      "role": "Sędzia główny",
+      "name": "Zanotti",
+      "nat": "ITA"
+     },
+     {
+      "r": "VAR",
+      "role": "Sędzia VAR",
+      "name": "Dionisi",
+      "nat": "ITA"
+     }
+    ],
+    "staff": {
+     "home": [
+      [
+       "Trener",
+       "Raffaele Palladino"
+      ]
      ],
-     "risks": [
-      "Kurs 1,28 z jednego źródła bez wskazanego bukmachera – sprawdzić przed grą",
-      "Bologna u siebie gra ostrożnie (m.in. 0:1, 1:1) i bez Piccolego/Orsoliniego",
-      "Niski kurs – jedna wpadka niweluje zysk z kilku trafień"
-     ],
-     "value": "Kurs 1,28 wycenia szansę na ok. 78%, mój szacunek ok. 83% → EV ok. +6%.",
-     "stake": "1% bankrollu"
-    }
+     "away": [
+      [
+       "Trener",
+       "Ivan Jurić"
+      ]
+     ]
+    },
+    "notes": "Przewidywane składy (TuttoMercatoWeb, 30.10): Bologna (3-4-2-1): Skorupski; Vitík, Casale, Theate; Darmian, Moro, Pobega, Miranda; Bernardeschi, Cambiaghi; Dovbyk. Monza (3-4-2-1): Törnqvist; Goglichidze, Lucchesi, Carboni; Birindelli, Akinsanmiro, Foé Ondoa, Mangas; Mota, Robinson; Varela."
    },
    {
     "id": "SA-2026-27-R10-UDI-ROM",
@@ -2710,30 +2720,76 @@
      "capacity": 25132
     },
     "odds": {
-     "src": "BC.Game wg oddslot (stan na 29.10.2026)",
-     "1": 5.5,
-     "X": 3.9,
+     "src": "Oddsportal 1X2 (stan na 31.10.2026, rano); powyżej/poniżej 2,5 – BetRivers wg RG.org (29.10.2026)",
+     "1": 5.8,
+     "X": 4.5,
      "2": 1.57,
-     "1X": 2.4,
-     "12": 1.22,
-     "X2": 1.18
+     "o25": 1.63,
+     "u25": 2.23
     },
     "info": {
      "restDays": {
       "home": 3,
       "away": 4
      },
-     "stakes": "Roma (21 pkt) bez porażki w lidze (6-3-0, 23:8); Udinese (5 pkt) 1 wygrana w 9 meczach, ostatnio 0:0 w Parmie po serii porażek."
+     "stakes": "Roma (21 pkt) bez porażki w lidze (6-3-0, 23:8); Udinese (5 pkt) 1 wygrana w 9 meczach, ostatnio 0:0 w Parmie po serii porażek.",
+     "injuries": {
+      "home": [
+       "Alaba",
+       "Gueye",
+       "Bayo",
+       "Solet"
+      ],
+      "away": [
+       "Svilar",
+       "Koné",
+       "Pellegrini",
+       "Dybala"
+      ]
+     },
+     "suspensions": {
+      "home": [],
+      "away": []
+     }
     },
     "tip": {
      "decision": "NO BET",
      "reasons": [
-      "Roma 1,57 (64% z kursu) – szacunek ok. 64–66%, EV ok. +1–3% – za mało przy jednym źródle kursów",
-      "Brak potwierdzonych informacji o kontuzjach przed meczem",
-      "Roma zagra 4 dni po meczu z Cagliari, a w kolejnym tygodniu puchary – możliwa rotacja",
-      "Brak kursów na rynkach bramkowych"
+      "Roma 1,57 (64%) – szacunek ok. 63–65%, brak przewagi",
+      "Roma bez Svilara, Koné, Pellegriniego i Dybali; w bramce Gollini",
+      "Powyżej 2,5 po 1,63 (61%) ≈ średnia goli w meczach obu drużyn (Roma 3,4, Udinese 3,0) – brak value",
+      "Rotacja przed pucharami możliwa"
      ]
-    }
+    },
+    "officials": [
+     {
+      "r": "GŁ",
+      "role": "Sędzia główny",
+      "name": "Maresca",
+      "nat": "ITA"
+     },
+     {
+      "r": "VAR",
+      "role": "Sędzia VAR",
+      "name": "Paterna",
+      "nat": "ITA"
+     }
+    ],
+    "staff": {
+     "home": [
+      [
+       "Trener",
+       "Kosta Runjaić"
+      ]
+     ],
+     "away": [
+      [
+       "Trener",
+       "Gian Piero Gasperini"
+      ]
+     ]
+    },
+    "notes": "Przewidywane składy (TuttoMercatoWeb, 30.10): Udinese (3-4-2-1): Okoye; Abankwah, Kabasele, Palma; Vojvoda, Piotrowski, Karlström, Kamara; Zaniolo, Ekkelenkamp; Davis. Roma (3-4-2-1): Gollini; Ghilardi, Ndicka, Hermoso; Lulli, Cristante, de Roon, Wesley; Soulé, Mora; Malen."
    },
    {
     "id": "SA-2026-27-R10-MIL-INT",
@@ -2748,10 +2804,10 @@
      "capacity": 75710
     },
     "odds": {
-     "src": "FanDuel / DraftKings / BetRivers wg RG.org (stan na 29.10.2026, przeliczone z kursów amerykańskich); over/under 2,5 – BetRivers",
-     "1": 3.4,
-     "X": 3.8,
-     "2": 1.95,
+     "src": "Oddsportal 1X2 (stan na 31.10.2026, rano); powyżej/poniżej 2,5 – BetRivers wg RG.org (29.10.2026)",
+     "1": 3.6,
+     "X": 3.75,
+     "2": 2.0,
      "o25": 1.63,
      "u25": 2.23
     },
@@ -2761,17 +2817,15 @@
        "Gabbia",
        "Saelemaekers",
        "Chukwueze",
-       "Loftus-Cheek",
        "P. Terracciano",
-       "Rabiot (niepewny)",
-       "Moreira (niepewny)",
-       "Gila (niepewny)"
+       "Tomori"
       ],
       "away": [
        "Lautaro Martínez",
-       "Pavard (niepewny)",
-       "Stones (niepewny)",
-       "C. Jones (niepewny)"
+       "Stones",
+       "Pavard",
+       "Luis Henrique",
+       "C. Jones"
       ]
      },
      "restDays": {
@@ -2781,17 +2835,50 @@
      "stakes": "Derby Mediolanu. Inter (25 pkt) ex aequo z Lazio na czele; Milan (18 pkt) po pierwszej porażce w sezonie (2:4 z Bologną).",
      "h2h": [
       "2025/26: Milan wygrał oba ligowe derby 1:0"
-     ]
+     ],
+     "suspensions": {
+      "home": [],
+      "away": []
+     }
     },
     "tip": {
      "decision": "NO BET",
      "reasons": [
-      "Inter 1,95 (51% z kursu) – szacunek ok. 48–50% bez Lautaro i z niepewnymi Pavardem, Stonesem, Jonesem: EV ujemne",
-      "Milan 3,40 – u siebie bez porażki do 2:4 z Bologną, ale lista nieobecności długa (Rabiot, Gila niepewni)",
-      "Powyżej 2,5 po 1,63 (61%) – derby bywają zamknięte (oba mecze 2025/26 po 1:0), szacunek ok. 55–58%",
+      "Inter 2,00 (50%) – szacunek ok. 48–50% bez Lautaro, Pavarda, Stonesa i C. Jonesa: EV ≤ 0",
+      "Milan 3,60 – wraca Rabiot, ale brak Gabbii, Tomoriego, Saelemaekersa, Chukwueze",
+      "Powyżej 2,5 po 1,63 (61%) – derby 2025/26 kończyły się 1:0, szacunek ok. 55–58%",
       "Derby – wysoka zmienność, brak rynku z przewagą"
      ]
-    }
+    },
+    "officials": [
+     {
+      "r": "GŁ",
+      "role": "Sędzia główny",
+      "name": "Guida",
+      "nat": "ITA"
+     },
+     {
+      "r": "VAR",
+      "role": "Sędzia VAR",
+      "name": "Mazzoleni",
+      "nat": "ITA"
+     }
+    ],
+    "staff": {
+     "home": [
+      [
+       "Trener",
+       "Rúben Amorim"
+      ]
+     ],
+     "away": [
+      [
+       "Trener",
+       "Cristian Chivu"
+      ]
+     ]
+    },
+    "notes": "Przewidywane składy (TuttoMercatoWeb, 30.10): Milan (4-2-3-1): Maignan; Gila, De Winter, Pavlović, Estupiñán; Modrić, Rabiot; Hutchinson, Pulisic, Moreira; G. Ramos. Inter (3-5-2): J. Martínez; Bisseck, Akanji, Bastoni; Diouf, Barella, Çalhanoğlu, Zieliński, Dimarco; Thuram, Pio Esposito."
    },
    {
     "id": "SA-2026-27-R10-COM-VEN",
@@ -2806,13 +2893,10 @@
      "capacity": 13602
     },
     "odds": {
-     "src": "BC.Game wg oddslot (stan na 29.10.2026)",
-     "1": 1.3,
-     "X": 5.5,
-     "2": 9.5,
-     "1X": 1.08,
-     "12": 1.17,
-     "X2": 3.25
+     "src": "Oddsportal 1X2 (stan na 31.10.2026, rano)",
+     "1": 1.32,
+     "X": 6.0,
+     "2": 9.5
     },
     "info": {
      "restDays": {
@@ -2820,16 +2904,66 @@
       "away": 4
      },
      "stakes": "Como (20 pkt, 4. miejsce) po 3:1 w Turynie; Venezia ostatnia (3 pkt), bez gola w dwóch ostatnich meczach.",
-     "homeAway": "Como w 5 ostatnich: 4 wygrane, 14:6; Venezia: 1 wygrana, 2:8."
+     "homeAway": "Como w 5 ostatnich: 4 wygrane, 14:6; Venezia: 1 wygrana, 2:8.",
+     "injuries": {
+      "home": [
+       "Kean",
+       "Jesús Rodríguez",
+       "Addai",
+       "Diao",
+       "Chalobah",
+       "Liberali"
+      ],
+      "away": [
+       "Correia",
+       "Adorante",
+       "Sverko",
+       "Franjić"
+      ]
+     },
+     "suspensions": {
+      "home": [],
+      "away": []
+     }
     },
     "tip": {
      "decision": "NO BET",
      "reasons": [
-      "Como 1,30 (77% z kursu) – szacunek ok. 76–78%, brak przewagi",
-      "Rynki Como -1 / czyste konto bez kursów",
-      "Niski kurs nie rekompensuje ryzyka"
+      "Como 1,32 (76%) – szacunek ok. 75–77%, brak przewagi",
+      "Como bez Keana, Jesúsa Rodrígueza, Addaia, Diao i Chalobaha – szeroka lista nieobecności",
+      "Linia gole 3,5 z RG.org (LetsBetMD) nietypowa dla tego meczu – nie traktuję jej jako wiarygodnej",
+      "Como -1,5 po 1,75 (57%) – szacunek ok. 52–56%, EV ujemne"
      ]
-    }
+    },
+    "officials": [
+     {
+      "r": "GŁ",
+      "role": "Sędzia główny",
+      "name": "Ferrieri Caputi",
+      "nat": "ITA"
+     },
+     {
+      "r": "VAR",
+      "role": "Sędzia VAR",
+      "name": "Cosso",
+      "nat": "ITA"
+     }
+    ],
+    "staff": {
+     "home": [
+      [
+       "Trener",
+       "Cesc Fàbregas"
+      ]
+     ],
+     "away": [
+      [
+       "Trener",
+       "Davide Nicola"
+      ]
+     ]
+    },
+    "notes": "Przewidywane składy (TuttoMercatoWeb, 30.10): Como (4-2-3-1): Butez; Couto, Ramón, Kempf, Kaiki; Milla, Perrone; Caqueret, Nico Paz, Baturina; Douvikas. Venezia (3-5-2): Stanković; Halhal, Moreno, Juan Jesus; Hainaut, Kike Pérez, Sohm, Bašić, Mazzocchi; Lauberbach, Adams."
    },
    {
     "id": "SA-2026-27-R10-FRO-TOR",
@@ -2844,30 +2978,71 @@
      "capacity": 16227
     },
     "odds": {
-     "src": "BC.Game wg oddslot (stan na 29.10.2026)",
+     "src": "Oddsportal 1X2 (stan na 31.10.2026, rano)",
      "1": 2.15,
-     "X": 3.6,
-     "2": 3.0,
-     "1X": 1.36,
-     "12": 1.28,
-     "X2": 1.67
+     "X": 4.0,
+     "2": 3.2
     },
     "info": {
      "restDays": {
       "home": 3,
       "away": 5
      },
-     "stakes": "Frosinone (17 pkt, 6. miejsce) po 5:1 z Lecce 29.10 – 3 dni odpoczynku; Torino (13 pkt) po 1:3 z Como 27.10."
+     "stakes": "Frosinone (17 pkt, 6. miejsce) po 5:1 z Lecce 29.10 – 3 dni odpoczynku; Torino (13 pkt) po 1:3 z Como 27.10.",
+     "injuries": {
+      "home": [
+       "Grillitsch"
+      ],
+      "away": [
+       "Fortini",
+       "Israel",
+       "Mandragora",
+       "Rodríguez"
+      ]
+     },
+     "suspensions": {
+      "home": [],
+      "away": []
+     }
     },
     "tip": {
      "decision": "NO BET",
      "reasons": [
-      "Kurs Frosinone 2,15 sprzed meczu z Lecce – po 5:1 prawdopodobnie się skrócił, brak aktualnego notowania",
-      "Frosinone gra 3 dni po czwartkowym meczu, Torino ma 5 dni odpoczynku",
-      "Brak danych o kontuzjach i kursów bramkowych",
+      "Frosinone 2,15 (47%) – szacunek ok. 44–46% (3 dni odpoczynku po czwartkowym 5:1)",
+      "Torino bez Mandragory, Israela, Fortiniego i Rodrígueza – trudne do wyceny",
+      "Mecze Frosinone średnio 4,0 gola, ale rynek już to uwzględnia (linia ok. 3 gole)",
       "Brak rynku z potwierdzoną przewagą"
      ]
-    }
+    },
+    "officials": [
+     {
+      "r": "GŁ",
+      "role": "Sędzia główny",
+      "name": "Mucera",
+      "nat": "ITA"
+     },
+     {
+      "r": "VAR",
+      "role": "Sędzia VAR",
+      "name": "Ghersini",
+      "nat": "ITA"
+     }
+    ],
+    "staff": {
+     "home": [
+      [
+       "Trener",
+       "Massimiliano Alvini"
+      ]
+     ],
+     "away": [
+      [
+       "Trener",
+       "Ignazio Abate"
+      ]
+     ]
+    },
+    "notes": "Przewidywane składy (TuttoMercatoWeb, 30.10): Frosinone (4-2-3-1): Palmisani; Oyono, Calvani, Cittadini, Terzić; Masini, Calò; Ghedjemis, Schmid, Kvernadze; Raimondo. Torino (3-4-1-2): Perri; Coco, Ismajli, Comuzzo; Belghali, Bragança, Fitz-Jim, Patterson; Vlašić; Simeone, Adams."
    },
    {
     "id": "SA-2026-27-R10-LAZ-CAG",
@@ -2882,25 +3057,24 @@
      "capacity": 70634
     },
     "odds": {
-     "src": "BC.Game wg oddslot (stan na 29.10.2026); poniżej 2,5 (1,99) i BTTS tak (2,06) – oddslot, bukmacher nieokreślony",
-     "1": 1.42,
-     "X": 4.33,
-     "2": 7.0,
-     "1X": 1.12,
-     "12": 1.2,
-     "X2": 2.8,
-     "u25": 1.99,
-     "bttsY": 2.06
+     "src": "Oddsportal 1X2 (stan na 31.10.2026, rano); powyżej/poniżej 2,5 – BetRivers wg RG.org (29.10.2026)",
+     "1": 1.47,
+     "X": 4.5,
+     "2": 7.5,
+     "o25": 1.83,
+     "u25": 1.93
     },
     "info": {
      "injuries": {
       "home": [
-       "Gudmundsson"
+       "Gudmundsson",
+       "Marušić",
+       "Rovella"
       ],
       "away": [
        "Idrissi",
-       "Winks",
-       "Felici"
+       "Felici",
+       "Winks"
       ]
      },
      "restDays": {
@@ -2914,17 +3088,50 @@
       "2022-03-06 CAG 0:3 LAZ",
       "2021-09-20 LAZ 2:2 CAG",
       "2021-02-08 LAZ 1:0 CAG"
-     ]
+     ],
+     "suspensions": {
+      "home": [],
+      "away": []
+     }
     },
     "tip": {
      "decision": "NO BET",
      "reasons": [
-      "Lazio 1,42 (70% z kursu) – szacunek ok. 68–70%, EV ≈ 0",
-      "Lazio wg części danych punktuje ponad xG – ryzyko regresji",
-      "Poniżej 2,5 po 1,99 sprzeczne z ostatnimi wynikami obu drużyn (6:2, 2:4)",
+      "Lazio 1,47 (68%) – szacunek ok. 67–69%, EV ≈ 0",
+      "Lazio bez Gudmundssona, Marušicia i Rovelli",
+      "Powyżej 2,5 po 1,83 (55%) – Cagliari strzela mało (8 goli w 9), szacunek ok. 52–55%",
       "Brak rynku z dodatnim EV"
      ]
-    }
+    },
+    "officials": [
+     {
+      "r": "GŁ",
+      "role": "Sędzia główny",
+      "name": "Colombo",
+      "nat": "ITA"
+     },
+     {
+      "r": "VAR",
+      "role": "Sędzia VAR",
+      "name": "Pezzuto",
+      "nat": "ITA"
+     }
+    ],
+    "staff": {
+     "home": [
+      [
+       "Trener",
+       "Gennaro Gattuso"
+      ]
+     ],
+     "away": [
+      [
+       "Trener",
+       "Fabio Pisacane"
+      ]
+     ]
+    },
+    "notes": "Przewidywane składy (TuttoMercatoWeb, 30.10): Lazio (4-3-3): Mandas; Floriani Mussolini, Šutalo, Provstgaard, Nuno Tavares; Frattesi, Belahyane, Taylor; Isaksen, Noslin, Zaccagni. Cagliari (4-3-3): Caprile; Zé Pedro, Mina, Rodríguez, Obert; Romano, Deiola, Adopo; Maldini, Nzola, Mendy."
    },
    {
     "id": "SA-2026-27-R10-LEC-GEN",
@@ -2939,30 +3146,79 @@
      "capacity": 30354
     },
     "odds": {
-     "src": "BC.Game wg oddslot (stan na 29.10.2026)",
-     "1": 2.62,
+     "src": "Oddsportal 1X2 (stan na 31.10.2026, rano); powyżej/poniżej 2,5 – BetRivers wg RG.org (29.10.2026)",
+     "1": 3.4,
      "X": 3.1,
-     "2": 2.7,
-     "1X": 1.44,
-     "12": 1.36,
-     "X2": 1.44
+     "2": 2.4,
+     "o25": 2.3,
+     "u25": 1.57
     },
     "info": {
      "restDays": {
       "home": 3,
       "away": 4
      },
-     "stakes": "Lecce (9 pkt) po 1:5 we Frosinone 29.10 (3 dni odpoczynku); Genoa (10 pkt) po 2:0 z Juventusem."
+     "stakes": "Lecce (9 pkt) po 1:5 we Frosinone 29.10 (3 dni odpoczynku); Genoa (10 pkt) po 2:0 z Juventusem.",
+     "injuries": {
+      "home": [
+       "Ilić",
+       "Berisha",
+       "Coulibaly",
+       "Pierotti",
+       "Geubbels"
+      ],
+      "away": [
+       "Nuredini",
+       "Venturino",
+       "Ellertsson",
+       "Havel"
+      ]
+     },
+     "suspensions": {
+      "home": [
+       "Gaspar"
+      ],
+      "away": []
+     }
     },
     "tip": {
      "decision": "NO BET",
      "reasons": [
-      "X2 1,44 (69%) – szacunek ok. 66–70% mimo lepszej formy Genui (3 wygrane w 4)",
-      "Lecce po klęsce 1:5, ale u siebie i z problemami kadrowymi trudnymi do wyceny",
-      "Kursy sprzed czwartkowego meczu Lecce – brak aktualnych",
-      "Brak kursów bramkowych, zbyt duża niepewność"
+      "Genoa 2,40 (42%) – szacunek ok. 40–43% mimo 3 wygranych w 4 meczach",
+      "Lecce bez zawieszonego Gaspara oraz Ilicia, Berishy, Coulibaly'ego, Pierottiego i Geubbelsa – częściowo już w kursie",
+      "Poniżej 2,5 po 1,57 (64%) – szacunek ok. 58–60% (mecze Lecce 3,2 gola/mecz), EV ujemne",
+      "Zbyt duża niepewność"
      ]
-    }
+    },
+    "officials": [
+     {
+      "r": "GŁ",
+      "role": "Sędzia główny",
+      "name": "Marchetti",
+      "nat": "ITA"
+     },
+     {
+      "r": "VAR",
+      "role": "Sędzia VAR",
+      "name": "Maggioni",
+      "nat": "ITA"
+     }
+    ],
+    "staff": {
+     "home": [
+      [
+       "Trener",
+       "Eusebio Di Francesco"
+      ]
+     ],
+     "away": [
+      [
+       "Trener",
+       "Daniele De Rossi"
+      ]
+     ]
+    },
+    "notes": "Przewidywane składy (TuttoMercatoWeb, 30.10): Lecce (4-3-3): Falcone; Veiga, Tiago Gabriel, Siebert, Gallo; Gorter, Ngom, Maleh; Fatah, Esteban, Monteiro. Genoa (3-4-2-1): Bijlow; Marcandalli, Østigård, Vásquez; Ehizibue, Traoré, Frendrup, Mitaj; Baldanzi, El Shaarawy; Ostojić."
    },
    {
     "id": "SA-2026-27-R10-JUV-NAP",
@@ -2977,46 +3233,84 @@
      "capacity": 41507
     },
     "odds": {
-     "src": "BC.Game wg oddslot (stan na 29.10.2026); powyżej 2,5 (1,94) – oddslot, bukmacher nieokreślony",
-     "1": 1.8,
-     "X": 3.6,
-     "2": 4.2,
-     "1X": 1.25,
-     "12": 1.29,
-     "X2": 1.95,
-     "o25": 1.94
+     "src": "Oddsportal 1X2 (stan na 31.10.2026, rano); powyżej/poniżej 2,5 – BetRivers wg RG.org (29.10.2026)",
+     "1": 2.3,
+     "X": 3.4,
+     "2": 3.4,
+     "o25": 1.95,
+     "u25": 1.81
     },
     "info": {
      "injuries": {
       "home": [
        "Grabara",
-       "Çelik (do 18.11)",
-       "F. Conceição (do 22.11)",
-       "Locatelli (do 8.02)",
-       "K. Thuram (do 1.01)",
-       "Yıldız (do 26.11)"
+       "Yıldız",
+       "K. Thuram",
+       "Locatelli",
+       "Milik",
+       "Ekhator",
+       "F. Conceição",
+       "Nico González",
+       "Çelik"
       ],
       "away": [
-       "Lobotka (kostka, uraz z 28.10)",
-       "Favasuli (do 30.11)",
-       "Neres (do 10.11)"
+       "Buongiorno",
+       "Favasuli",
+       "David Neres",
+       "Alisson Santos",
+       "Badiashile",
+       "Spinazzola",
+       "Lobotka"
       ]
      },
      "restDays": {
       "home": 4,
       "away": 4
      },
-     "stakes": "Obie drużyny po 14 pkt. Juventus po 0:2 w Genui (3. porażka), Napoli po 4:1 w Monzy; Allegri zawieszony w ostatnim meczu."
+     "stakes": "Obie drużyny po 14 pkt. Juventus po 0:2 w Genui (3. porażka), Napoli po 4:1 w Monzy; Allegri zawieszony w ostatnim meczu.",
+     "suspensions": {
+      "home": [],
+      "away": []
+     }
     },
     "tip": {
      "decision": "NO BET",
      "reasons": [
-      "Juventus 1,80 (56%) w kryzysie i bez Yıldıza, Thurama, Locatellego – kurs bez wartości",
-      "Napoli 4,20 – lepsza forma, ale bez Lobotki",
-      "Over 2,5 po 1,94 (52%) – szacunek ok. 50%",
+      "Kurs Juventusu wydłużył się z 1,80 do 2,30 (43%) – szacunek ok. 40–42% przy 9 nieobecnych (m.in. Yıldız, K. Thuram, Locatelli)",
+      "Napoli 3,40 (29%) bez Lobotki, Buongiorno, Neresa i Spinazzoli",
+      "Powyżej 2,5 po 1,95 (51%) – szacunek ok. 48–50%",
       "Brak rynku z przewagą"
      ]
-    }
+    },
+    "officials": [
+     {
+      "r": "GŁ",
+      "role": "Sędzia główny",
+      "name": "Sozza",
+      "nat": "ITA"
+     },
+     {
+      "r": "VAR",
+      "role": "Sędzia VAR",
+      "name": "Meraviglia",
+      "nat": "ITA"
+     }
+    ],
+    "staff": {
+     "home": [
+      [
+       "Trener",
+       "Luciano Spalletti"
+      ]
+     ],
+     "away": [
+      [
+       "Trener",
+       "Massimiliano Allegri"
+      ]
+     ]
+    },
+    "notes": "Przewidywane składy (TuttoMercatoWeb, 30.10): Juventus (3-5-2): Vicario; Gatti, Bremer, Lucumí; Kalulu, Koopmeiners, Douglas Luiz, McKennie, Cambiaso; Woltemade, Kolo Muani. Napoli (4-3-3): Meret; Di Lorenzo, Rrahmani, R. Marín, Olivera; McTominay, De Bruyne, Anguissa; Politano, Højlund, Lang."
    },
    {
     "id": "SA-2026-27-R10-SAS-FIO",
@@ -3033,21 +3327,19 @@
     "tip": {
      "decision": "NO BET",
      "reasons": [
-      "Fiorentina 2,35 (43%) – lepsza gra w ostatnim meczu, ale tylko 1 wygrana w sezonie; szacunek ok. 40–43%",
-      "Sassuolo w kryzysie, lecz u siebie – remis realny",
-      "Brak danych o kontuzjach przed meczem",
-      "Brak rynku z dodatnim EV"
+      "Powyżej 2,5 po 1,63 (61%) – mecze Sassuolo 4,0 gola/mecz, Fiorentiny 3,6, szacunek ok. 62–64%: EV ok. +2–4%, za mało",
+      "Fiorentina 2,35 (43%) – szacunek ok. 40–43%",
+      "Sassuolo bez zawieszonego Thorstvedta oraz Koné, Leysena i Boloki",
+      "Brak rynku z dodatnim EV powyżej progu"
      ]
     },
     "odds": {
-     "src": "BC.Game wg oddslot (stan na 30.10.2026); powyżej 1,5 – oddslot, bukmacher nieokreślony",
-     "1": 2.8,
-     "X": 3.5,
+     "src": "Oddsportal 1X2 (stan na 31.10.2026, rano); powyżej/poniżej 2,5 – BetRivers wg RG.org (29.10.2026)",
+     "1": 2.88,
+     "X": 3.7,
      "2": 2.35,
-     "1X": 1.57,
-     "12": 1.28,
-     "X2": 1.4,
-     "o15": 1.2
+     "o25": 1.63,
+     "u25": 2.23
     },
     "info": {
      "restDays": {
@@ -3055,8 +3347,56 @@
       "away": 4
      },
      "stakes": "Sassuolo (8 pkt) bez wygranej w 5 meczach (0-1-4, 6:15), ostatnio 2:6 z Lazio; Fiorentina (5 pkt, 18. miejsce) po 2:2 z Atalantą.",
-     "homeAway": "Sassuolo traci 2,4 gola/mecz (22 w 9); Fiorentina 1 wygrana w 9 meczach."
-    }
+     "homeAway": "Sassuolo traci 2,4 gola/mecz (22 w 9); Fiorentina 1 wygrana w 9 meczach.",
+     "injuries": {
+      "home": [
+       "Koné",
+       "Leysen",
+       "Boloca"
+      ],
+      "away": [
+       "Atta",
+       "Parisi",
+       "Pongračić",
+       "Ranieri"
+      ]
+     },
+     "suspensions": {
+      "home": [
+       "Thorstvedt"
+      ],
+      "away": []
+     }
+    },
+    "officials": [
+     {
+      "r": "GŁ",
+      "role": "Sędzia główny",
+      "name": "Marcenaro",
+      "nat": "ITA"
+     },
+     {
+      "r": "VAR",
+      "role": "Sędzia VAR",
+      "name": "Aureliano",
+      "nat": "ITA"
+     }
+    ],
+    "staff": {
+     "home": [
+      [
+       "Trener",
+       "Alberto Aquilani"
+      ]
+     ],
+     "away": [
+      [
+       "Trener",
+       "Paolo Vanoli"
+      ]
+     ]
+    },
+    "notes": "Przewidywane składy (TuttoMercatoWeb, 30.10): Sassuolo (4-3-3): Turati; Van der Brempt, Idzes, Ćaleta-Car, Doig; Sulemana, Matić, Adžić; Berardi, Esposito, Laurienté. Fiorentina (4-3-3): De Gea; Jiménez, Drăgușin, Viëri, João Mário; Ndour, Oulai, Brescianini; Mastantuono, Pellegrino, Njie."
    },
    {
     "id": "SA-2026-27-R10-ATA-PAR",
@@ -3073,22 +3413,19 @@
     "tip": {
      "decision": "NO BET",
      "reasons": [
-      "Atalanta 1,45 (69%) – kryzys formy (4 mecze bez wygranej) i możliwa rotacja przed Ligą Mistrzów",
-      "Parma strzela 0,56 gola/mecz – over 2,5 po 1,75 (57%) i BTTS 1,90 bez przewagi",
-      "Kristensen zszedł z urazem w 4. min meczu z Fiorentiną – stan nieznany",
+      "Atalanta 1,50 (67%) bez 9 zawodników (m.in. Hien, Kossounou, Raspadori, Scamacca, Kessié) i 4 meczów bez wygranej – szacunek ok. 63–66%, EV ujemne",
+      "Parma strzela 0,56 gola/mecz, ale brak kursu na BTTS nie lub gole Parmy poniżej 0,5",
+      "Atalanta -1,25 po 1,92 – szacunek zbyt niepewny",
       "Brak rynku z dodatnim EV"
      ]
     },
     "odds": {
-     "src": "BC.Game wg oddslot (stan na 30.10.2026); over 2,5 i BTTS – oddslot, bukmacher nieokreślony",
-     "1": 1.45,
-     "X": 4.2,
-     "2": 6.5,
-     "1X": 1.11,
-     "12": 1.22,
-     "X2": 2.62,
-     "o25": 1.75,
-     "bttsY": 1.9
+     "src": "Oddsportal 1X2 (stan na 31.10.2026, rano); powyżej/poniżej 2,5 – BetRivers wg RG.org (29.10.2026)",
+     "1": 1.5,
+     "X": 4.6,
+     "2": 6.25,
+     "o25": 1.72,
+     "u25": 2.08
     },
     "info": {
      "restDays": {
@@ -3096,8 +3433,57 @@
       "away": 5
      },
      "stakes": "Atalanta (11 pkt) bez wygranej od 4 meczów, po 2:2 we Florencji; Parma (5 pkt) najsłabszy atak ligi (5 goli w 9).",
-     "homeAway": "Parma w 5 ostatnich: 1 wygrana, 4:11 w bramkach."
-    }
+     "homeAway": "Parma w 5 ostatnich: 1 wygrana, 4:11 w bramkach.",
+     "injuries": {
+      "home": [
+       "Hien",
+       "Kossounou",
+       "Raspadori",
+       "Kessié",
+       "Scamacca",
+       "Pompei",
+       "Kolašinac",
+       "Bellanova",
+       "Kristensen"
+      ],
+      "away": [
+       "Elphege"
+      ]
+     },
+     "suspensions": {
+      "home": [],
+      "away": []
+     }
+    },
+    "officials": [
+     {
+      "r": "GŁ",
+      "role": "Sędzia główny",
+      "name": "Crezzini",
+      "nat": "ITA"
+     },
+     {
+      "r": "VAR",
+      "role": "Sędzia VAR",
+      "name": "Prontera",
+      "nat": "ITA"
+     }
+    ],
+    "staff": {
+     "home": [
+      [
+       "Trener",
+       "Maurizio Sarri"
+      ]
+     ],
+     "away": [
+      [
+       "Trener",
+       "Alberto Gilardino"
+      ]
+     ]
+    },
+    "notes": "Przewidywane składy (TuttoMercatoWeb, 30.10): Atalanta (4-2-3-1): Carnesecchi; Zappacosta, Scalvini, Obrić, Bernasconi; Pašalić, Ederson; De Ketelaere, Elmas, Zalewski; Krstović. Parma (3-5-2): Corvi; Diego Carlos, Troilo, Ndiaye; Delprato, Fabbian, Bernabé, Keita, Valeri; Romero, Touré."
    }
   ],
   "11": [

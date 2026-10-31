@@ -1,9 +1,9 @@
 {
- "updated": "2026-10-30T06:45:00+01:00",
+ "updated": "2026-10-31T06:50:00+01:00",
  "season": "2026/27",
  "competition": "Ligue 1",
  "currentRound": 9,
- "note": "Źródła: foot-sur7.fr (składy i absencje Le Havre–PSG, 29.10), lyonfoot.com (kadra OL, 29.10), Rue des Joueurs/BettingNews/RotoWire (kursy Lorient–Brest), ligue1.com (sędziowie J9), Rue des Joueurs (kursy i wiadomości J9, stan na 26–28.10), RotoWire/Betr (kurs Lyon–Angers), FootballPredictions (kadry, forma, xG, H2H), Foot-sur7/Footeo/Lensois (zmiany terminów J9), psg.fr, BettingNews; wcześniej: t-online.de (relacje 8. kolejki), Foot01, Soccerway, Foot Mercato, Wincomparator, Maxifoot, Eurosport, L'Équipe.",
+ "note": "Źródła: livefoot.fr, ESPN, Foot Mercato (Le Havre–PSG), Maxifoot, Stade Rennais Online, eurofootnews (Nice–Rennes), ESPN, Footeo (Lille–Lens), Rue des Joueurs (kursy i absencje Strasbourg–Auxerre, OM–Toulouse, 29–30.10), Sportsgambler (Troyes–Le Mans, AH, przewidywane składy); wcześniej: foot-sur7.fr (składy i absencje Le Havre–PSG, 29.10), lyonfoot.com (kadra OL, 29.10), Rue des Joueurs/BettingNews/RotoWire (kursy Lorient–Brest), ligue1.com (sędziowie J9), Rue des Joueurs (kursy i wiadomości J9, stan na 26–28.10), RotoWire/Betr (kurs Lyon–Angers), FootballPredictions (kadry, forma, xG, H2H), Foot-sur7/Footeo/Lensois (zmiany terminów J9), psg.fr, BettingNews; wcześniej: t-online.de (relacje 8. kolejki), Foot01, Soccerway, Foot Mercato, Wincomparator, Maxifoot, Eurosport, L'Équipe.",
  "teams": {
   "ANG": {
    "id": "ANG",
@@ -171,36 +171,36 @@
  "table": [
   {
    "team": "PSG",
-   "p": 8,
-   "w": 5,
+   "p": 9,
+   "w": 6,
    "d": 2,
    "l": 1,
-   "gf": 16,
-   "ga": 9,
-   "pts": 17,
+   "gf": 21,
+   "ga": 10,
+   "pts": 20,
    "form": "WWWWW"
   },
   {
-   "team": "REN",
-   "p": 8,
-   "w": 5,
-   "d": 1,
-   "l": 2,
-   "gf": 18,
-   "ga": 14,
-   "pts": 16,
-   "form": "WLWLW"
-  },
-  {
    "team": "LIL",
-   "p": 8,
-   "w": 4,
+   "p": 9,
+   "w": 5,
    "d": 3,
    "l": 1,
-   "gf": 11,
+   "gf": 12,
    "ga": 6,
-   "pts": 15,
-   "form": "WLWDD"
+   "pts": 18,
+   "form": "LWDDW"
+  },
+  {
+   "team": "REN",
+   "p": 9,
+   "w": 5,
+   "d": 1,
+   "l": 3,
+   "gf": 20,
+   "ga": 19,
+   "pts": 16,
+   "form": "LWLWL"
   },
   {
    "team": "MON",
@@ -236,15 +236,26 @@
    "form": "DWLWL"
   },
   {
+   "team": "NIC",
+   "p": 9,
+   "w": 4,
+   "d": 2,
+   "l": 3,
+   "gf": 13,
+   "ga": 12,
+   "pts": 14,
+   "form": "WWLWW"
+  },
+  {
    "team": "LEN",
-   "p": 8,
+   "p": 9,
    "w": 4,
    "d": 1,
-   "l": 3,
+   "l": 4,
    "gf": 16,
-   "ga": 12,
+   "ga": 13,
    "pts": 13,
-   "form": "DLWWW"
+   "form": "LWWWL"
   },
   {
    "team": "OLM",
@@ -267,17 +278,6 @@
    "ga": 6,
    "pts": 12,
    "form": "DLWWD"
-  },
-  {
-   "team": "NIC",
-   "p": 8,
-   "w": 3,
-   "d": 2,
-   "l": 3,
-   "gf": 8,
-   "ga": 10,
-   "pts": 11,
-   "form": "LWWLW"
   },
   {
    "team": "TOU",
@@ -358,14 +358,14 @@
   },
   {
    "team": "HAV",
-   "p": 8,
+   "p": 9,
    "w": 0,
    "d": 2,
-   "l": 6,
-   "gf": 8,
-   "ga": 15,
+   "l": 7,
+   "gf": 9,
+   "ga": 20,
    "pts": 2,
-   "form": "DLLLL"
+   "form": "LLLLL"
   }
  ],
  "picks": [],
@@ -3900,7 +3900,7 @@
     "time": "19:00",
     "home": "HAV",
     "away": "PSG",
-    "status": "ns",
+    "status": "ft",
     "venue": {
      "name": "Stade Océane",
      "city": "Hawr",
@@ -3947,7 +3947,7 @@
       "Brak kursów na rynki gole/handicap w sprawdzonych źródłach."
      ]
     },
-    "notes": "Godzina 19:00 potwierdzona (psg.fr, LFP). Sędziowie wg LFP. Przewidywane składy (foot-sur7, 29.10): Le Havre 5-3-2 – Gallon; Koffi, Touba, Mwanga, Seko, Ouziad; Richardson, Ebonog, Ndiaye; Samatta, Maja. PSG 4-3-3 – Safonow; Hakimi, Zabarnyi, Pacho, Hernandez; Neves, Vitinha, Ruiz; Akliouche, Torres, Doué.",
+    "notes": "Hat-trick Achrafa Hakimiego (w tym gol z rzutu wolnego) i 2 asysty. Do przerwy 1:2. Brak kartek. PSG ma 3 pkt przewagi nad Lille. Źródła: livefoot.fr, ESPN, Foot Mercato (sędziowie).",
     "officials": [
      {
       "r": "GŁ",
@@ -3958,12 +3958,12 @@
      {
       "r": "AS1",
       "role": "Asystent 1",
-      "name": "Cyril Mugnier"
+      "name": "Steven Torregrossa"
      },
      {
       "r": "AS2",
       "role": "Asystent 2",
-      "name": "Steven Torregrossa"
+      "name": "Cyril Mugnier"
      },
      {
       "r": "4.",
@@ -3973,18 +3973,380 @@
      {
       "r": "VAR",
       "role": "Sędzia VAR",
-      "name": "Hamid Guenaoui"
+      "name": "William Lavis"
      },
      {
       "r": "AVAR",
       "role": "Asystent VAR",
-      "name": "William Lavis"
+      "name": "Hamid Guenaoui"
      }
     ],
     "formation": {
-     "home": "5-3-2",
+     "home": "3-4-2-1",
      "away": "4-3-3"
-    }
+    },
+    "score": [
+     1,
+     5
+    ],
+    "staff": {
+     "home": [
+      [
+       "Trener",
+       "Didier Digard"
+      ]
+     ],
+     "away": [
+      [
+       "Trener",
+       "Luis Enrique"
+      ]
+     ]
+    },
+    "players": {
+     "home": [
+      [
+       16,
+       "Arnaud Bodart",
+       "BR",
+       "",
+       true
+      ],
+      [
+       5,
+       "Ahmed Touba",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       6,
+       "Junior Mwanga",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       15,
+       "Ayumu Seko",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       7,
+       "Amir Richardson",
+       "ŚP",
+       "",
+       true
+      ],
+      [
+       20,
+       "Djibril Ouziad",
+       "ŚP",
+       "",
+       true
+      ],
+      [
+       26,
+       "Simon Ebonog",
+       "ŚP",
+       "",
+       true
+      ],
+      [
+       97,
+       "Mouhamed Lamine Ndiaye",
+       "ŚP",
+       "",
+       true
+      ],
+      [
+       9,
+       "Josh Maja",
+       "OP",
+       "",
+       true
+      ],
+      [
+       30,
+       "Sota Nakamura",
+       "OP",
+       "",
+       true
+      ],
+      [
+       38,
+       "Rayan Fofana",
+       "N",
+       "",
+       true
+      ],
+      [
+       "",
+       "Ally Samatta",
+       "N",
+       "",
+       false
+      ],
+      [
+       "",
+       "Rassoul Ndiaye",
+       "ŚP",
+       "",
+       false
+      ],
+      [
+       "",
+       "Enzo Koffi Vinette",
+       "ŚP",
+       "",
+       false
+      ],
+      [
+       "",
+       "Hakim Dongopandji",
+       "N",
+       "",
+       false
+      ],
+      [
+       "",
+       "Daren Mosengo",
+       "ŚP",
+       "",
+       false
+      ]
+     ],
+     "away": [
+      [
+       39,
+       "Matwiej Safonow",
+       "BR",
+       "",
+       true
+      ],
+      [
+       2,
+       "Achraf Hakimi",
+       "PO",
+       "",
+       true
+      ],
+      [
+       6,
+       "Illia Zabarnyi",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       21,
+       "Lucas Hernández",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       12,
+       "Lucas Digne",
+       "LO",
+       "",
+       true
+      ],
+      [
+       11,
+       "Maghnes Akliouche",
+       "ŚP",
+       "",
+       true
+      ],
+      [
+       27,
+       "Dro Fernández",
+       "ŚP",
+       "",
+       true
+      ],
+      [
+       33,
+       "Warren Zaïre-Emery",
+       "ŚP",
+       "",
+       true
+      ],
+      [
+       24,
+       "Senny Mayulu",
+       "PS",
+       "",
+       true
+      ],
+      [
+       9,
+       "Ferran Torres",
+       "N",
+       "",
+       true
+      ],
+      [
+       22,
+       "Mika Godts",
+       "LS",
+       "",
+       true
+      ],
+      [
+       4,
+       "Lucas Beraldo",
+       "ŚO",
+       "",
+       false
+      ],
+      [
+       "",
+       "David Boly",
+       "ŚO",
+       "",
+       false
+      ],
+      [
+       "",
+       "Quentin Ndjantou",
+       "N",
+       "",
+       false
+      ]
+     ]
+    },
+    "events": [
+     {
+      "m": 18,
+      "t": "goal",
+      "s_": "h",
+      "who": "Josh Maja",
+      "as": "Rayan Fofana"
+     },
+     {
+      "m": 26,
+      "t": "goal",
+      "s_": "a",
+      "who": "Mika Godts",
+      "as": "Achraf Hakimi"
+     },
+     {
+      "m": 28,
+      "t": "goal",
+      "s_": "a",
+      "who": "Achraf Hakimi",
+      "as": "Senny Mayulu"
+     },
+     {
+      "m": 55,
+      "t": "goal",
+      "s_": "a",
+      "who": "Achraf Hakimi",
+      "how": "Rzut wolny bezpośredni"
+     },
+     {
+      "m": 62,
+      "t": "goal",
+      "s_": "a",
+      "who": "Senny Mayulu",
+      "as": "Achraf Hakimi",
+      "how": "Lewa noga (kontratak)"
+     },
+     {
+      "m": 63,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Lucas Beraldo",
+      "out": "Maghnes Akliouche"
+     },
+     {
+      "m": 65,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Ally Samatta",
+      "out": "Sota Nakamura"
+     },
+     {
+      "m": 65,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Rassoul Ndiaye",
+      "out": "Mouhamed Lamine Ndiaye"
+     },
+     {
+      "m": 65,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Enzo Koffi Vinette",
+      "out": "Amir Richardson"
+     },
+     {
+      "m": 69,
+      "t": "goal",
+      "s_": "a",
+      "who": "Achraf Hakimi",
+      "as": "Mika Godts"
+     },
+     {
+      "m": 71,
+      "t": "sub",
+      "s_": "a",
+      "inn": "David Boly",
+      "out": "Achraf Hakimi"
+     },
+     {
+      "m": 71,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Quentin Ndjantou",
+      "out": "Mika Godts"
+     },
+     {
+      "m": 79,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Hakim Dongopandji",
+      "out": "Rayan Fofana"
+     },
+     {
+      "m": 83,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Daren Mosengo",
+      "out": "Simon Ebonog"
+     }
+    ],
+    "teamStats": [
+     [
+      "Posiadanie %",
+      29,
+      71
+     ],
+     [
+      "Strzały",
+      14,
+      15
+     ],
+     [
+      "Celne",
+      5,
+      10
+     ],
+     [
+      "Rzuty rożne",
+      5,
+      3
+     ],
+     [
+      "Faule",
+      14,
+      11
+     ]
+    ]
    },
    {
     "id": "L1-2026-27-R9-NIC-REN",
@@ -3992,13 +4354,13 @@
     "time": "19:00",
     "home": "NIC",
     "away": "REN",
-    "status": "ns",
+    "status": "ft",
     "venue": {
      "name": "Allianz Riviera",
      "city": "Nicea",
      "capacity": 35624
     },
-    "notes": "Mecz przeniesiony z soboty 17:15 na piątek 19:00 na wniosek prefektury Alpes-Maritimes (zabezpieczenie policyjne w związku z protestami społecznymi). Sędziowie wg LFP.",
+    "notes": "Hat-trick Elye Wahiego (2 karne: faul Lemaître'a i faul Rongiera na Claussie). Gol Nagidy anulowany (spalony). Karny dla Rennes wywalczył Al-Tamari. Lemaître w bramce zamiast Samby. Kartki wg Stade Rennais Online (eurofootnews podaje 2 żółte dla Nice). Źródła: Maxifoot, Stade Rennais Online, eurofootnews.",
     "officials": [
      {
       "r": "GŁ",
@@ -4067,7 +4429,437 @@
       "Nice ma najmniej goli w meczach w czołówce (8:10), co osłabia argument za over — a kursów na O/U i BTTS nie znaleziono.",
       "Krótszy odpoczynek Rennes (4 dni) vs Nice (6 dni) i zmiana terminu meczu zwiększają niepewność."
      ]
-    }
+    },
+    "score": [
+     5,
+     2
+    ],
+    "formation": {
+     "home": "3-4-2-1",
+     "away": "3-5-2"
+    },
+    "staff": {
+     "home": [
+      [
+       "Trener",
+       "Olivier Pantaloni"
+      ]
+     ],
+     "away": [
+      [
+       "Trener",
+       "Franck Haise"
+      ]
+     ]
+    },
+    "players": {
+     "home": [
+      [
+       "",
+       "Yehvann Diouf",
+       "BR",
+       "",
+       true
+      ],
+      [
+       "",
+       "Mohamed Abdelmonem",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       "",
+       "Youssouf Ndayishimiye",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       "",
+       "Mandza",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       "",
+       "Jonathan Clauss",
+       "PO",
+       "",
+       true
+      ],
+      [
+       "",
+       "Djibril Coulibaly",
+       "ŚP",
+       "",
+       true
+      ],
+      [
+       "",
+       "Hicham Boudaoui",
+       "ŚP",
+       "",
+       true
+      ],
+      [
+       "",
+       "Niels Nkounkou",
+       "LO",
+       "",
+       true
+      ],
+      [
+       "",
+       "Sofiane Diop",
+       "OP",
+       "",
+       true
+      ],
+      [
+       "",
+       "Mohamed Amoura",
+       "OP",
+       "",
+       true
+      ],
+      [
+       "",
+       "Elye Wahi",
+       "N",
+       "",
+       true
+      ],
+      [
+       "",
+       "Hamza Koutoune",
+       "PO",
+       "",
+       false
+      ],
+      [
+       "",
+       "Morgan Sanson",
+       "ŚP",
+       "",
+       false
+      ],
+      [
+       "",
+       "Gauthier Hein",
+       "OP",
+       "",
+       false
+      ],
+      [
+       "",
+       "Ngoumou",
+       "N",
+       "",
+       false
+      ]
+     ],
+     "away": [
+      [
+       "",
+       "Lemaître",
+       "BR",
+       "",
+       true
+      ],
+      [
+       "",
+       "Abdelhamid Aït Boudlal",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       "",
+       "Charlie Cresswell",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       "",
+       "Anthony Rouault",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       "",
+       "Przemysław Frankowski",
+       "PO",
+       "",
+       true
+      ],
+      [
+       "",
+       "Sebastian Szymański",
+       "ŚP",
+       "",
+       true
+      ],
+      [
+       "",
+       "Valentin Rongier",
+       "DP",
+       "",
+       true
+      ],
+      [
+       "",
+       "Adrien Thomasson",
+       "ŚP",
+       "",
+       true
+      ],
+      [
+       "",
+       "Nagida",
+       "LO",
+       "",
+       true
+      ],
+      [
+       "",
+       "Mousa Al-Tamari",
+       "N",
+       "",
+       true
+      ],
+      [
+       "",
+       "Boulaye Dia",
+       "N",
+       "",
+       true
+      ],
+      [
+       "",
+       "Reynolds",
+       "PO",
+       "",
+       false
+      ],
+      [
+       "",
+       "Mahdi Camara",
+       "ŚP",
+       "",
+       false
+      ],
+      [
+       "",
+       "Djaoui Cissé",
+       "ŚP",
+       "",
+       false
+      ],
+      [
+       "",
+       "Soumaré",
+       "N",
+       "",
+       false
+      ],
+      [
+       "",
+       "Eliezer Mayenda",
+       "N",
+       "",
+       false
+      ]
+     ]
+    },
+    "events": [
+     {
+      "m": 12,
+      "t": "pen",
+      "s_": "h",
+      "who": "Elye Wahi",
+      "res": "Gol"
+     },
+     {
+      "m": 15,
+      "t": "goal",
+      "s_": "a",
+      "who": "Sebastian Szymański",
+      "as": "Nagida",
+      "how": "Głowa"
+     },
+     {
+      "m": 35,
+      "t": "pen",
+      "s_": "h",
+      "who": "Elye Wahi",
+      "res": "Gol"
+     },
+     {
+      "m": 45,
+      "t": "goal",
+      "s_": "h",
+      "who": "Jonathan Clauss",
+      "s": "+2",
+      "as": "Elye Wahi"
+     },
+     {
+      "m": 46,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Reynolds",
+      "out": "Przemysław Frankowski"
+     },
+     {
+      "m": 46,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Mahdi Camara",
+      "out": "Adrien Thomasson"
+     },
+     {
+      "m": 52,
+      "t": "goal",
+      "s_": "h",
+      "who": "Mohamed Amoura",
+      "how": "Lewa noga"
+     },
+     {
+      "m": 58,
+      "t": "pen",
+      "s_": "a",
+      "who": "Boulaye Dia",
+      "res": "Gol"
+     },
+     {
+      "m": 61,
+      "t": "yc",
+      "s_": "a",
+      "who": "Anthony Rouault"
+     },
+     {
+      "m": 62,
+      "t": "yc",
+      "s_": "h",
+      "who": "Elye Wahi"
+     },
+     {
+      "m": 68,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Gauthier Hein",
+      "out": "Sofiane Diop"
+     },
+     {
+      "m": 68,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Djaoui Cissé",
+      "out": "Valentin Rongier"
+     },
+     {
+      "m": 68,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Soumaré",
+      "out": "Boulaye Dia"
+     },
+     {
+      "m": 73,
+      "t": "goal",
+      "s_": "h",
+      "who": "Elye Wahi",
+      "as": "Gauthier Hein"
+     },
+     {
+      "m": 74,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Morgan Sanson",
+      "out": "Djibril Coulibaly"
+     },
+     {
+      "m": 74,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Eliezer Mayenda",
+      "out": "Mousa Al-Tamari"
+     },
+     {
+      "m": 84,
+      "t": "yc",
+      "s_": "h",
+      "who": "Mohamed Abdelmonem"
+     },
+     {
+      "m": 84,
+      "t": "yc",
+      "s_": "a",
+      "who": "Charlie Cresswell"
+     },
+     {
+      "m": 85,
+      "t": "yc",
+      "s_": "h",
+      "who": "Youssouf Ndayishimiye"
+     },
+     {
+      "m": 85,
+      "t": "yc",
+      "s_": "a",
+      "who": "Mahdi Camara"
+     },
+     {
+      "m": 85,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Hamza Koutoune",
+      "out": "Jonathan Clauss"
+     },
+     {
+      "m": 85,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Ngoumou",
+      "out": "Elye Wahi"
+     },
+     {
+      "m": 88,
+      "t": "yc",
+      "s_": "h",
+      "who": "Mohamed Amoura"
+     }
+    ],
+    "teamStats": [
+     [
+      "Posiadanie %",
+      47,
+      53
+     ],
+     [
+      "xG",
+      3.38,
+      2.6
+     ],
+     [
+      "Strzały",
+      17,
+      18
+     ],
+     [
+      "Celne",
+      8,
+      9
+     ],
+     [
+      "Rzuty rożne",
+      4,
+      7
+     ]
+    ]
    },
    {
     "id": "L1-2026-27-R9-LIL-LEN",
@@ -4075,13 +4867,13 @@
     "time": "21:05",
     "home": "LIL",
     "away": "LEN",
-    "status": "ns",
+    "status": "ft",
     "venue": {
      "name": "Stade Pierre-Mauroy",
      "city": "Lille",
      "capacity": 50186
     },
-    "notes": "Termin i sędziowie potwierdzeni przez LFP (ligue1.com, 27–28.10.2026).",
+    "notes": "125. Derby Północy. Gol rezerwowego Giroud w 86. min po nieutrzymanym przez Rissera strzale Bentaleba. Diaouné trafił w poprzeczkę (33.). Ponad 45 tys. widzów, bez kibiców Lens. Lille przerwało serię 4 meczów bez wygranej i awansowało na 2. miejsce. Kartki niekompletne w źródłach (pominięte). Źródła: ESPN, Footeo, Foot Mercato.",
     "odds": {
      "src": "BettingNews – Lucky Rebel/Bovada (kursy US przeliczone), stan na 27.10.2026; Rue des Joueurs 28.10: 2,38 / 3,55 / 2,75",
      "1": 2.35,
@@ -4139,12 +4931,12 @@
      {
       "r": "AS1",
       "role": "Asystent 1",
-      "name": "Alexis Auger"
+      "name": "Aurélien Berthomieu"
      },
      {
       "r": "AS2",
       "role": "Asystent 2",
-      "name": "Aurélien Berthomieu"
+      "name": "Alexis Auger"
      },
      {
       "r": "4.",
@@ -4154,13 +4946,421 @@
      {
       "r": "VAR",
       "role": "Sędzia VAR",
-      "name": "Mathieu Vernice"
+      "name": "Pierre Gaillouste"
      },
      {
       "r": "AVAR",
       "role": "Asystent VAR",
-      "name": "Pierre Gaillouste"
+      "name": "Mathieu Vernice"
      }
+    ],
+    "score": [
+     1,
+     0
+    ],
+    "formation": {
+     "home": "4-3-3",
+     "away": "3-4-2-1"
+    },
+    "staff": {
+     "home": [
+      [
+       "Trener",
+       "Davide Ancelotti"
+      ]
+     ],
+     "away": [
+      [
+       "Trener",
+       "Y. Cahuzac"
+      ]
+     ]
+    },
+    "players": {
+     "home": [
+      [
+       1,
+       "Berke Özer",
+       "BR",
+       "",
+       true
+      ],
+      [
+       38,
+       "Maxima Goffi",
+       "PO",
+       "",
+       true
+      ],
+      [
+       3,
+       "Nathan Ngoy",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       4,
+       "Alexsandro",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       15,
+       "Romain Perraud",
+       "LO",
+       "",
+       true
+      ],
+      [
+       17,
+       "Ngal'ayel Mukau",
+       "ŚP",
+       "",
+       true
+      ],
+      [
+       6,
+       "Nabil Bentaleb",
+       "ŚP",
+       "",
+       true
+      ],
+      [
+       21,
+       "Benjamin André",
+       "DP",
+       "",
+       true
+      ],
+      [
+       8,
+       "Ethan Mbappé",
+       "PS",
+       "",
+       true
+      ],
+      [
+       10,
+       "Hákon Haraldsson",
+       "N",
+       "",
+       true
+      ],
+      [
+       35,
+       "Soriba Diaouné",
+       "LS",
+       "",
+       true
+      ],
+      [
+       "",
+       "Dilane Bakwa",
+       "PS",
+       "",
+       false
+      ],
+      [
+       "",
+       "Olivier Giroud",
+       "N",
+       "",
+       false
+      ],
+      [
+       "",
+       "Calvin Verdonk",
+       "LO",
+       "",
+       false
+      ],
+      [
+       "",
+       "Gaëtan Perrin",
+       "OP",
+       "",
+       false
+      ],
+      [
+       14,
+       "Maurits Kjærgaard",
+       "ŚP",
+       "",
+       false
+      ],
+      [
+       19,
+       "Başar Önal",
+       "N",
+       "",
+       false
+      ],
+      [
+       11,
+       "Osame Sahraoui",
+       "LS",
+       "",
+       false
+      ],
+      [
+       12,
+       "Orlando Gill",
+       "BR",
+       "",
+       false
+      ],
+      [
+       26,
+       "Isaac Cossier",
+       "ŚO",
+       "",
+       false
+      ]
+     ],
+     "away": [
+      [
+       40,
+       "Robin Risser",
+       "BR",
+       "",
+       true
+      ],
+      [
+       2,
+       "Rubén Aguilar",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       6,
+       "Samson Baidoo",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       20,
+       "Jean-Clair Todibo",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       23,
+       "Saud Abdulhamid",
+       "PO",
+       "",
+       true
+      ],
+      [
+       27,
+       "Michael Cuisance",
+       "ŚP",
+       "",
+       true
+      ],
+      [
+       21,
+       "Amadou Haïdara",
+       "ŚP",
+       "",
+       true
+      ],
+      [
+       14,
+       "Matthieu Udol",
+       "LO",
+       "",
+       true
+      ],
+      [
+       10,
+       "Florian Thauvin",
+       "OP",
+       "",
+       true
+      ],
+      [
+       7,
+       "Florian Sotoca",
+       "OP",
+       "",
+       true
+      ],
+      [
+       9,
+       "Thorgan Hazard",
+       "N",
+       "",
+       true
+      ],
+      [
+       "",
+       "Kyllian Antonio",
+       "ŚO",
+       "",
+       false
+      ],
+      [
+       "",
+       "Junior Kadilé",
+       "N",
+       "",
+       false
+      ],
+      [
+       "",
+       "Franjo Ivanović",
+       "N",
+       "",
+       false
+      ],
+      [
+       "",
+       "Yassine Titraoui",
+       "ŚP",
+       "",
+       false
+      ],
+      [
+       "",
+       "Andrija Bulatović",
+       "ŚP",
+       "",
+       false
+      ],
+      [
+       16,
+       "Mathieu Gorgelin",
+       "BR",
+       "",
+       false
+      ],
+      [
+       24,
+       "Jonathan Gradit",
+       "ŚO",
+       "",
+       false
+      ],
+      [
+       38,
+       "Mezian Soares",
+       "ŚP",
+       "",
+       false
+      ],
+      [
+       22,
+       "Michał Skóraś",
+       "PS",
+       "",
+       false
+      ]
+     ]
+    },
+    "events": [
+     {
+      "m": 62,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Kyllian Antonio",
+      "out": "Jean-Clair Todibo"
+     },
+     {
+      "m": 62,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Junior Kadilé",
+      "out": "Florian Sotoca"
+     },
+     {
+      "m": 69,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Franjo Ivanović",
+      "out": "Thorgan Hazard"
+     },
+     {
+      "m": 69,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Yassine Titraoui",
+      "out": "Michael Cuisance"
+     },
+     {
+      "m": 73,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Dilane Bakwa",
+      "out": "Ngal'ayel Mukau"
+     },
+     {
+      "m": 73,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Olivier Giroud",
+      "out": "Ethan Mbappé"
+     },
+     {
+      "m": 78,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Calvin Verdonk",
+      "out": "Romain Perraud"
+     },
+     {
+      "m": 80,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Andrija Bulatović",
+      "out": "Amadou Haïdara"
+     },
+     {
+      "m": 86,
+      "t": "goal",
+      "s_": "h",
+      "who": "Olivier Giroud",
+      "how": "Dobitka po strzale Bentaleba z ok. 25 m"
+     },
+     {
+      "m": 90,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Gaëtan Perrin",
+      "out": "Hákon Haraldsson",
+      "s": "+1"
+     }
+    ],
+    "teamStats": [
+     [
+      "Posiadanie %",
+      62,
+      38
+     ],
+     [
+      "xG",
+      1.72,
+      0.18
+     ],
+     [
+      "Celne",
+      7,
+      3
+     ],
+     [
+      "Rzuty rożne",
+      10,
+      2
+     ],
+     [
+      "Faule",
+      7,
+      14
+     ]
     ]
    },
    {
@@ -4175,7 +5375,7 @@
      "city": "Troyes",
      "capacity": 20400
     },
-    "notes": "Termin i sędziowie potwierdzeni przez LFP (ligue1.com, 27–28.10.2026).",
+    "notes": "Termin i sędziowie potwierdzeni przez LFP (ligue1.com, 27–28.10.2026). Przewidywane składy (Sportsgambler): Troyes 4-3-3 – Konate; Maronnier, Monfray, Diaz, Gozzi; Mille, Karim, Diop; Ifnaou, Le Douaron, Nkada. Le Mans 3-5-2 – Kocik; Boisse, Yohou, Torrente; Buades, Bretelle, Lauray, Vercruysse, Calodat; Mafouta, Diallo.",
     "officials": [
      {
       "r": "GŁ",
@@ -4224,7 +5424,7 @@
       "home": 5,
       "away": 5
      },
-     "homeAway": "Troyes ostatnie 5 meczów: DLLLL (1 bramka strzelona w 5 meczach), najsłabszy atak ligi (5 goli w 8 meczach). Le Mans: 1 wygrana w 8 meczach, 16 straconych goli.",
+     "homeAway": "Troyes ostatnie 5 meczów: DLLLL (1 bramka strzelona w 5 meczach), najsłabszy atak ligi (5 goli w 8 meczach). Le Mans: 1 wygrana w 8 meczach, 16 straconych goli. Le Mans pokrył AH +0,25 w 5 z 8 meczów; Troyes nie pokrył −0,25 w 7 z 8. Mafouta 4 gole.",
      "stakes": "Mecz o utrzymanie: Troyes 17. (5 pkt), Le Mans 15. (7 pkt). Troyes po 0:0 w Tuluzie, Le Mans po 1:1 w Auxerre.",
      "h2h": []
     },
@@ -4234,7 +5434,8 @@
       "Implikowane ok. 43% / 27% / 31% (po marży) vs moja ocena ok. 40% / 30% / 30% — 1 i 2 z ujemnym EV.",
       "Remis (3,50) daje teoretycznie EV ok. +0,05, ale przewaga zbyt mała i oparta na ogólnej ocenie dwóch słabych drużyn — rating <6.",
       "Troyes strzela bardzo mało (5 goli w 8 meczach), Le Mans dużo traci — sygnały na rynek goli sprzeczne, a kursów O/U nie znaleziono.",
-      "Brak informacji o kontuzjach i składach w sprawdzonych źródłach."
+      "Brak informacji o kontuzjach i składach w sprawdzonych źródłach.",
+      "Aktualizacja 31.10: BetMGM Le Mans AH +0,25 po 1,84 — przy ocenie 40/30/30 EV ≈ 0,30×1,84 + 0,30×1,42 − 1 ≈ −0,02; brak wartości."
      ]
     }
    },
@@ -4250,7 +5451,7 @@
      "city": "Strasburg",
      "capacity": 29230
     },
-    "notes": "Termin i sędziowie potwierdzeni przez LFP (ligue1.com, 27–28.10.2026).",
+    "notes": "Termin i sędziowie potwierdzeni przez LFP (ligue1.com, 27–28.10.2026). Przewidywane składy (Rue des Joueurs, 30.10): Strasbourg 4-2-3-1 – Jörgensen; Antwi, Mitchell, Coulibaly, Oso; Diop, Essugo; Yassine, El Mourabet, Reyna; Harder. Auxerre 3-4-3 – Nardi; Diomandé, Piedfort, Legros; Sy, Ahamada, Danois, Oppegard; Faivre, Archer, Namaso.",
     "officials": [
      {
       "r": "GŁ",
@@ -4285,9 +5486,9 @@
      }
     ],
     "odds": {
-     "src": "Rue des Joueurs – najlepsze kursy (Unibet 1/2, Winamax X), stan na 28.10.2026",
-     "1": 1.79,
-     "X": 4.0,
+     "src": "Rue des Joueurs – najlepsze kursy (Unibet 1/2, Winamax X), stan na 30.10.2026 18:20",
+     "1": 1.77,
+     "X": 4.1,
      "2": 4.0,
      "bttsY": 1.46
     },
@@ -4304,7 +5505,7 @@
        "Assane Dioussé (kolano)",
        "Rudy Labeau-Lascary",
        "Sékou Fofana (pachwina)",
-       "Siwe, Senaya i Sy – niepewni po urazach"
+       "Makosso, Akpa, Tuanzebe – niepewni"
       ]
      },
      "suspensions": {
@@ -4327,10 +5528,11 @@
     "tip": {
      "decision": "NO BET",
      "reasons": [
-      "Kursy 1,79 / 4,00 / 4,00 po marży ≈ 53% / 24% / 24%; moja ocena ok. 45% / 27% / 28% — rynek przecenia Strasbourga mimo 4 porażek z rzędu.",
-      "Teoretyczne dodatnie EV na Auxerre (≈ +0,12) lub remis (≈ +0,08) opiera się na niskim prawdopodobieństwie i szerokim marginesie błędu — ocena poniżej 6.",
-      "Strasbourg odzyskuje Doukouré i Nanasiego, a Auxerre ma 4 kontuzjowanych i 3 niepewnych — kadrowo przewaga gospodarzy.",
-      "BTTS tak 1,46 (68%) zgodne ze statystyką obu drużyn (70%) — brak przewagi; kursów O/U i X2 nie znaleziono."
+      "Kursy 1,77 / 4,10 / 4,00 po marży ≈ 54% / 23% / 23%. xG/xGA z 10 meczów (1,40/1,82 vs 1,46/1,60) sugerują wyrównany mecz, ale rynek wycenia wyższą jakość kadry Strasbourga.",
+      "Auxerre 2 (4,00) daje dodatnie EV tylko przy p ≥ 25% — moja ocena ok. 25–27%, przewaga marginalna i niepewna (rating <6).",
+      "BTTS 1,46 (implik. 68%) przy ocenie ok. 62–65% — ujemne EV mimo 70% BTTS u obu w 10 meczach.",
+      "Strasbourg 4 porażki z rzędu, ale wracają Doukouré i Nanasi; Auxerre bez 4 graczy i z trzema niepewnymi — sygnały sprzeczne.",
+      "Brak kursów O/U i DNB w sprawdzonych źródłach."
      ]
     }
    },
@@ -4551,19 +5753,21 @@
      }
     ],
     "odds": {
-     "src": "Rue des Joueurs – kursy z porównywarki, stan na 28.10.2026 (Unibet: 1,81 / 3,85 / 3,85)",
-     "1": 1.86,
-     "X": 3.95,
-     "2": 3.65
+     "src": "Rue des Joueurs – najlepsze kursy (Unibet 1/2, Winamax X), stan na 29.10.2026; X2 Unibet",
+     "1": 1.88,
+     "X": 4.1,
+     "2": 3.65,
+     "X2": 1.68
     },
     "info": {
      "injuries": {
       "home": [
-       "Cornelius (biodro)"
+       "Cornelius (biodro)",
+       "Abdallah – niepewny (decyzja taktyczna)"
       ],
       "away": [
-       "Niflore",
-       "Oppong (łydka)"
+       "Messali (koniec sezonu 2026)",
+       "Francis – niepewny"
       ]
      },
      "suspensions": {
@@ -4575,7 +5779,7 @@
       "away": 7
      },
      "homeAway": "Marsylia 8. (12 pkt, 18:13), 3 wygrane z rzędu, ostatnio 4:3 z Le Havre; u siebie w 10 ostatnich meczach tylko 1W-3L i 2,25 straconego gola/mecz. Toulouse 11. (10 pkt), 4 remisy w 8 meczach, na wyjeździe DDDW. xG/xGA (10 m.): OM 1,51/1,84, Toulouse 1,40/1,43.",
-     "stakes": "Marsylia chce dogonić czołówkę; Toulouse w środku tabeli.",
+     "stakes": "Marsylia chce dogonić czołówkę (3 wygrane z rzędu), w czwartek gra z Bayerem Leverkusen w Lidze Europy — możliwa rotacja. Toulouse 5 meczów bez porażki pod wodzą Jensa Berthela Askou; wracają Niflore i Oppong.",
      "h2h": [
       "2026-03-07 TOU 0:1 OLM",
       "2026-03-04 OLM 2:2 TOU",
@@ -4589,7 +5793,8 @@
       "Kursy 1,86 / 3,95 / 3,65 po marży ≈ 50% / 24% / 26% — zgodne z moją oceną (ok. 50% / 26% / 24%), brak EV.",
       "OM wygrywa w lidze, ale u siebie traci dużo goli (xGA 2,08 w meczach domowych) — niestabilna defensywa.",
       "Toulouse dobrze punktuje na wyjazdach (DDDW), a H2H to 2 remisy w ostatnich 3 meczach — remis realny, ale kurs 3,95 tego nie przecenia wyraźnie.",
-      "Mecze OM w tym sezonie są bramkostrzelne (31 goli w 8), lecz kursów na gole nie znaleziono."
+      "Mecze OM w tym sezonie są bramkostrzelne (31 goli w 8), lecz kursów na gole nie znaleziono.",
+      "Aktualizacja 31.10: X2 po 1,68 (implik. 59,5%) vs moja ocena ok. 50% — ujemne EV; 1 po 1,88 bez przewagi przy słabej defensywie OM u siebie."
      ]
     }
    },

@@ -1,9 +1,9 @@
 {
- "updated": "2026-10-30T05:50:00+01:00",
+ "updated": "2026-10-31T05:55:00+01:00",
  "season": "2026/27",
  "competition": "LaLiga",
  "currentRound": 11,
- "note": "Źródła: laliga.com (tabela po 10. kol., terminarz), futboltotal.futbol (protokoły 10. kol.), Oddsportal (1X2 11. kol., 29.10), Stats Insider/bet365 (kursy, 29–30.10), comuniate/futbolfantasy/jornadaperfecta (kontuzje, zawieszenia, przewidywane składy), Sporza (wyniki Pucharu Króla 27–29.10), lagrada.org (sędziowie VIL–ESP), ElNacional/mundiario (Eder Sarabia trenerem Espanyolu). Sędziowie pozostałych meczów 11. kol. jeszcze nieogłoszeni. Godziny w czasie polskim.",
+ "note": "Źródła: laliga.com (terminarz, tabela po 10. kol.), futboltotal.futbol i lagrada.org (protokół VIL–ESP 30.10), iusport (obsada sędziowska meczów 31.10), Oddsportal (1X2, stan na 31.10 rano), Stats Insider/bet365 (kursy goli, 29–31.10), Infobae/EFE (przedmeczowe LEV–ATM), jornadaperfecta/comuniate/futbolfantasy (kontuzje, zawieszenia, przewidywane składy). Sędziowie meczów 1–2.11 jeszcze nieogłoszeni. Tabela po meczu VIL–ESP (11. kol. w toku). Godziny w czasie polskim.",
  "teams": {
   "ALA": {
    "id": "ALA",
@@ -268,14 +268,14 @@
   },
   {
    "team": "VIL",
-   "p": 10,
+   "p": 11,
    "w": 3,
    "d": 3,
-   "l": 4,
+   "l": 5,
    "gf": 15,
-   "ga": 14,
+   "ga": 15,
    "pts": 12,
-   "form": "WWLDW"
+   "form": "WLDWL"
   },
   {
    "team": "DEP",
@@ -287,6 +287,17 @@
    "ga": 13,
    "pts": 11,
    "form": "LDLDL"
+  },
+  {
+   "team": "ESP",
+   "p": 11,
+   "w": 3,
+   "d": 2,
+   "l": 6,
+   "gf": 13,
+   "ga": 14,
+   "pts": 11,
+   "form": "LDLLW"
   },
   {
    "team": "OSA",
@@ -353,17 +364,6 @@
    "ga": 15,
    "pts": 9,
    "form": "LWLDL"
-  },
-  {
-   "team": "ESP",
-   "p": 10,
-   "w": 2,
-   "d": 2,
-   "l": 6,
-   "gf": 12,
-   "ga": 14,
-   "pts": 8,
-   "form": "LLDLL"
   },
   {
    "team": "VAL",
@@ -6141,7 +6141,7 @@
     "time": "21:00",
     "home": "VIL",
     "away": "ESP",
-    "status": "ns",
+    "status": "ft",
     "venue": {
      "name": "Estadio de la Cerámica",
      "city": "Villarreal"
@@ -6196,8 +6196,14 @@
       "Sędzia: José María Sánchez Martínez (VAR: Alejandro Muñiz Ruiz) – brak czynnika zmieniającego wycenę; zbyt duża niepewność → NO BET."
      ]
     },
-    "notes": "Sędzia jeszcze nieogłoszony (stan na 29.10 rano). Nowy trener Espanyolu: Eder Sarabia (oficjalnie 28.10).",
+    "notes": "Niespodzianka: zwycięstwo Espanyolu w debiucie Edera Sarabii. W 1. połowie VAR sprawdzał możliwy karny dla Villarrealu (bez zmiany decyzji). Gerard Moreno zszedł już w 18. min. Pozycje w drugiej linii Espanyolu (Alejandro Santiago, Javi Hernández) nie są podane w źródłach. Frekwencja nieopublikowana.",
     "staff": {
+     "home": [
+      [
+       "Trener",
+       "Iñigo Pérez"
+      ]
+     ],
      "away": [
       [
        "Trener",
@@ -6218,7 +6224,520 @@
       "name": "Alejandro Muñiz Ruiz",
       "nat": "ESP"
      }
-    ]
+    ],
+    "score": [
+     0,
+     1
+    ],
+    "formation": {
+     "home": "4-4-2",
+     "away": "4-2-3-1"
+    },
+    "players": {
+     "home": [
+      [
+       25,
+       "Péter Gulácsi",
+       "BR",
+       "",
+       true
+      ],
+      [
+       6,
+       "Pau Navarro",
+       "PO",
+       "",
+       true
+      ],
+      [
+       15,
+       "Santiago Mouriño",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       12,
+       "Renato Veiga",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       23,
+       "Sergi Cardona",
+       "LO",
+       "",
+       true
+      ],
+      [
+       17,
+       "Tajon Buchanan",
+       "PS",
+       "",
+       true
+      ],
+      [
+       14,
+       "Santi Comesaña",
+       "ŚP",
+       "",
+       true
+      ],
+      [
+       16,
+       "Carlos Macià",
+       "ŚP",
+       "",
+       true
+      ],
+      [
+       10,
+       "Alberto Moleiro",
+       "LS",
+       "",
+       true
+      ],
+      [
+       7,
+       "Gerard Moreno",
+       "N",
+       "",
+       true
+      ],
+      [
+       9,
+       "Georges Mikautadze",
+       "N",
+       "",
+       true
+      ],
+      [
+       19,
+       "Nicolas Pépé",
+       "PS",
+       "",
+       false
+      ],
+      [
+       22,
+       "Ayoze Pérez",
+       "N",
+       "",
+       false
+      ],
+      [
+       20,
+       "Carlos Romero",
+       "LO",
+       "",
+       false
+      ],
+      [
+       21,
+       "Tani Oluwaseyi",
+       "N",
+       "",
+       false
+      ],
+      [
+       3,
+       "Alex Freeman",
+       "PO",
+       "",
+       false
+      ],
+      [
+       13,
+       "Rubén Gómez",
+       "BR",
+       "",
+       false
+      ],
+      [
+       1,
+       "Luiz Júnior",
+       "BR",
+       "",
+       false
+      ],
+      [
+       2,
+       "Logan Costa",
+       "ŚO",
+       "",
+       false
+      ],
+      [
+       27,
+       "N. El Jmili",
+       "",
+       "",
+       false
+      ],
+      [
+       30,
+       "C. Tidiane Thiam",
+       "",
+       "",
+       false
+      ]
+     ],
+     "away": [
+      [
+       1,
+       "Ángel Fortuño",
+       "BR",
+       "",
+       true
+      ],
+      [
+       23,
+       "Omar El Hilali",
+       "PO",
+       "",
+       true
+      ],
+      [
+       6,
+       "Leandro Cabrera",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       16,
+       "Vanja Drkušić",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       21,
+       "Roger Hinojo",
+       "LO",
+       "",
+       true
+      ],
+      [
+       26,
+       "Rafel Bauzà",
+       "ŚP",
+       "",
+       true
+      ],
+      [
+       8,
+       "Edu Expósito",
+       "ŚP",
+       "",
+       true
+      ],
+      [
+       "",
+       "Alejandro Santiago",
+       "",
+       "",
+       true
+      ],
+      [
+       28,
+       "Javi Hernández",
+       "",
+       "",
+       true
+      ],
+      [
+       15,
+       "Bryan Zaragoza",
+       "LS",
+       "",
+       true
+      ],
+      [
+       9,
+       "Roberto Fernández",
+       "N",
+       "",
+       true
+      ],
+      [
+       32,
+       "J. A. López",
+       "",
+       "",
+       false
+      ],
+      [
+       10,
+       "Pol Lozano",
+       "ŚP",
+       "",
+       false
+      ],
+      [
+       7,
+       "Javi Puado",
+       "N",
+       "",
+       false
+      ],
+      [
+       "",
+       "Jan Peries",
+       "",
+       "",
+       false
+      ],
+      [
+       20,
+       "Gabriel Moscardó",
+       "ŚP",
+       "",
+       false
+      ],
+      [
+       13,
+       "Marko Dmitrović",
+       "BR",
+       "",
+       false
+      ],
+      [
+       24,
+       "Tyrhys Dolan",
+       "PS",
+       "",
+       false
+      ],
+      [
+       18,
+       "Marcos Fernández",
+       "",
+       "",
+       false
+      ],
+      [
+       3,
+       "Quilindschy Hartman",
+       "LO",
+       "",
+       false
+      ],
+      [
+       11,
+       "Pere Milla",
+       "N",
+       "",
+       false
+      ],
+      [
+       14,
+       "Unai Núñez",
+       "ŚO",
+       "",
+       false
+      ],
+      [
+       27,
+       "Adama Timera",
+       "",
+       "",
+       false
+      ]
+     ]
+    },
+    "events": [
+     {
+      "m": 18,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Nicolas Pépé",
+      "out": "Gerard Moreno"
+     },
+     {
+      "m": 21,
+      "t": "yc",
+      "s_": "a",
+      "who": "Rafel Bauzà"
+     },
+     {
+      "m": 41,
+      "t": "yc",
+      "s_": "a",
+      "who": "Roger Hinojo"
+     },
+     {
+      "m": 50,
+      "t": "var",
+      "s_": "a",
+      "kind": "Bramka – faul napastnika",
+      "init": "Gol",
+      "fin": "Gol anulowany (przytrzymanie Pau Navarro przez Roberto Fernándeza)"
+     },
+     {
+      "m": 53,
+      "t": "yc",
+      "s_": "h",
+      "who": "Sergi Cardona"
+     },
+     {
+      "m": 56,
+      "t": "yc",
+      "s_": "h",
+      "who": "Santi Comesaña"
+     },
+     {
+      "m": 59,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Ayoze Pérez",
+      "out": "Alberto Moleiro"
+     },
+     {
+      "m": 59,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Carlos Romero",
+      "out": "Sergi Cardona"
+     },
+     {
+      "m": 60,
+      "t": "goal",
+      "s_": "a",
+      "who": "Leandro Cabrera",
+      "as": "Bryan Zaragoza"
+     },
+     {
+      "m": 61,
+      "t": "sub",
+      "s_": "a",
+      "inn": "J. A. López",
+      "out": "Roger Hinojo"
+     },
+     {
+      "m": 61,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Pol Lozano",
+      "out": "Rafel Bauzà"
+     },
+     {
+      "m": 75,
+      "t": "yc",
+      "s_": "a",
+      "who": "Bryan Zaragoza"
+     },
+     {
+      "m": 77,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Javi Puado",
+      "out": "Bryan Zaragoza"
+     },
+     {
+      "m": 77,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Jan Peries",
+      "out": "Alejandro Santiago"
+     },
+     {
+      "m": 80,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Tani Oluwaseyi",
+      "out": "Tajon Buchanan"
+     },
+     {
+      "m": 80,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Alex Freeman",
+      "out": "Pau Navarro"
+     },
+     {
+      "m": 88,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Gabriel Moscardó",
+      "out": "Javi Hernández"
+     },
+     {
+      "m": 90,
+      "s": "+1",
+      "t": "yc",
+      "s_": "h",
+      "who": "Carlos Macià"
+     }
+    ],
+    "teamStats": [
+     [
+      "Posiadanie %",
+      63,
+      37
+     ],
+     [
+      "xG",
+      0.92,
+      0.26
+     ],
+     [
+      "Strzały",
+      14,
+      5
+     ],
+     [
+      "Celne",
+      4,
+      3
+     ],
+     [
+      "Rzuty rożne",
+      7,
+      3
+     ],
+     [
+      "Faule",
+      15,
+      13
+     ]
+    ],
+    "ind": {
+     "Renato Veiga": {
+      "r": 7.3
+     },
+     "Santiago Mouriño": {
+      "r": 7.1
+     },
+     "Alberto Moleiro": {
+      "r": 7.0
+     },
+     "Georges Mikautadze": {
+      "r": 6.9
+     },
+     "Pau Navarro": {
+      "r": 6.9
+     },
+     "Péter Gulácsi": {
+      "r": 6.8
+     },
+     "Ángel Fortuño": {
+      "r": 8.1
+     },
+     "Leandro Cabrera": {
+      "r": 7.6
+     },
+     "Bryan Zaragoza": {
+      "r": 7.5
+     },
+     "Omar El Hilali": {
+      "r": 7.5
+     },
+     "Vanja Drkušić": {
+      "r": 7.2
+     }
+    }
    },
    {
     "id": "LL-2026-27-R11-LEV-ATM",
@@ -6231,30 +6750,28 @@
      "name": "Ciutat de València",
      "city": "Walencja"
     },
-    "notes": "Przewidywane składy (futbolfantasy 29.10): LEV – Ryan; Nacho Pérez/Toljan, Ndukwe, Mandi lub De la Fuente, Manu Sánchez; Requena, Olasagasti (Oriol Rey); Iván Romero, Thiago Fernández, Brugué (lub Ratkov). ATM – Oblak; Llorente, Pubill, Hancko, Grimaldo; Barrios, Hjulmand, Baena; G. Simeone/Lookman/Kang-in Lee, J. Álvarez. Sędzia nieogłoszony.",
+    "notes": "Przewidywane składy (futbolfantasy 29.10): LEV – Ryan; Nacho Pérez/Toljan, Ndukwe, Mandi lub De la Fuente, Manu Sánchez; Requena, Olasagasti (Oriol Rey); Iván Romero, Thiago Fernández, Brugué (lub Ratkov). ATM – Oblak; Llorente, Pubill, Hancko, Grimaldo; Barrios, Hjulmand, Baena; G. Simeone/Lookman/Kang-in Lee, J. Álvarez. Sędzia: Ricardo de Burgos Bengoetxea (VAR: Guillermo Cuadra Fernández). Infobae/EFE (30.10): ATM – Oblak; Giuliano, Pubill, Cuti Romero, Hancko, Grimaldo; Barrios, Llorente, Baena; J. Álvarez, Jonathan David (Kang-in Lee na ławce); LEV – Ryan; Toljan, Mandi, Ndukwe, Manu Sánchez; Olasagasti, Requena, Brugué, Thiago, Iván Romero; Ratkov.",
     "odds": {
-     "src": "Oddsportal – kursy z listy meczów, stan na 29.10.2026",
-     "1": 5.2,
-     "X": 4.6,
-     "2": 1.62
+     "src": "1X2: Oddsportal, stan na 31.10.2026 rano",
+     "1": 5.4,
+     "X": 4.8,
+     "2": 1.55
     },
     "info": {
      "injuries": {
       "home": [
-       "Enzo Bardeli (dwugłowy uda)",
-       "Adrián de la Fuente (niepewny, przeciążenie)"
+       "Enzo Bardeli (dwugłowy uda)"
       ],
       "away": [
-       "Koke (dwugłowy uda, prawdopodobnie poza)",
-       "Johnny Cardoso (uraz mięśniowy z meczu ze Stuttgartem)",
-       "Cristian Romero (niepewny, przywodziciel)"
+       "Koke (dwugłowy uda – 5. mecz z rzędu poza)",
+       "Johnny Cardoso (uraz mięśniowy)"
       ]
      },
      "restDays": {
       "home": 6,
       "away": 6
      },
-     "homeAway": "Levante: 2W 4R 4P (16:19), forma LDDWL; Atlético: 8W 1R 1P (20:8), 5 zwycięstw z rzędu",
+     "homeAway": "Levante: 2W 4R 4P (16:19), forma LDDWL; Atlético: 8W 1R 1P (20:8), 5 zwycięstw z rzędu. Atlético za Simeone wygrało tylko 2 z 11 ligowych wizyt na Ciutat de València; Levante nie pokonało Atlético u siebie od maja 2016 (Infobae).",
      "stakes": "14. Levante (10 pkt) vs 2. Atlético (25 pkt, 2 pkt straty do Barcelony). Atlético w Lidze Mistrzów (kolejny mecz LM na początku listopada)",
      "h2h": [],
      "suspensions": {
@@ -6265,13 +6782,27 @@
     "tip": {
      "decision": "NO BET",
      "reasons": [
-      "Kurs 1,62 na Atlético (~59% po marży) – moja ocena 58–60%, EV ≈ −0,04.",
-      "Atlético bez Koke i Cardoso w środku pola, w tle Liga Mistrzów – możliwa rotacja.",
+      "Kurs 1,55 na Atlético (~62% po marży) – moja ocena 58–60%, EV ≈ −0,08.",
+      "Atlético bez Koke i Cardoso; Cuti Romero wraca do składu. W tle Liga Mistrzów – możliwa rotacja (Kang-in Lee na ławce).",
+      "Historycznie trudny teren: 2 wygrane w 11 wizytach za Simeone – argument przeciw krótkiemu kursowi.",
       "Levante traci 1,9 gola/mecz, ale brak wiarygodnych kursów na gole/handicap.",
-      "Seria 5 wygranych Atlético nie jest argumentem samym w sobie – wygrane często skromne (20 goli w 10 meczach).",
-      "Sędzia nieogłoszony; brak przewagi → NO BET."
+      "Seria 6 ligowych wygranych Atlético już w cenie (kurs spadł z 1,62 do 1,55) → NO BET."
      ]
-    }
+    },
+    "officials": [
+     {
+      "r": "GŁ",
+      "role": "Sędzia główny",
+      "name": "Ricardo de Burgos Bengoetxea",
+      "nat": "ESP"
+     },
+     {
+      "r": "VAR",
+      "role": "Sędzia VAR",
+      "name": "Guillermo Cuadra Fernández",
+      "nat": "ESP"
+     }
+    ]
    },
    {
     "id": "LL-2026-27-R11-RAY-CEL",
@@ -6284,12 +6815,12 @@
      "name": "Estadio de Vallecas",
      "city": "Madryt"
     },
-    "notes": "Przewidywane składy (futbolfantasy 29.10): RAY – Audero; Balliu (Ratiu), Lejeune, Sadick (Kumbulla), Pedrosa; Unai López, Óscar Valentín, Isi Palazón; De Frutos, Álvaro García, Camello. CEL – Radu; Yoel Lago, Javi Rodríguez, M. Alonso; Javi Rueda, Ilaix Moriba, Febas, Javi Galán; Hugo Álvarez, Durán/H. González/Aspas, Jutglà. Yoel Lago ma 4 żółte kartki. Sędzia nieogłoszony.",
+    "notes": "Przewidywane składy (futbolfantasy 29.10): RAY – Audero; Balliu (Ratiu), Lejeune, Sadick (Kumbulla), Pedrosa; Unai López, Óscar Valentín, Isi Palazón; De Frutos, Álvaro García, Camello. CEL – Radu; Yoel Lago, Javi Rodríguez, M. Alonso; Javi Rueda, Ilaix Moriba, Febas, Javi Galán; Hugo Álvarez, Durán/H. González/Aspas, Jutglà. Yoel Lago ma 4 żółte kartki. Sędzia: Manuel Jesús Orellana Cid (VAR: Iván Caparrós Hernández).",
     "odds": {
-     "src": "Oddsportal – kursy z listy meczów, stan na 29.10.2026",
-     "1": 2.35,
-     "X": 3.4,
-     "2": 3.1
+     "src": "1X2: Oddsportal, stan na 31.10.2026 rano",
+     "1": 2.4,
+     "X": 3.3,
+     "2": 3.15
     },
     "info": {
      "injuries": {
@@ -6328,7 +6859,21 @@
       "Brak wiarygodnych kursów na X2/DNB i gole – nie wyceniam rynków pochodnych.",
       "Wyrównany mecz – zbyt duża niepewność → NO BET."
      ]
-    }
+    },
+    "officials": [
+     {
+      "r": "GŁ",
+      "role": "Sędzia główny",
+      "name": "Manuel Jesús Orellana Cid",
+      "nat": "ESP"
+     },
+     {
+      "r": "VAR",
+      "role": "Sędzia VAR",
+      "name": "Iván Caparrós Hernández",
+      "nat": "ESP"
+     }
+    ]
    },
    {
     "id": "LL-2026-27-R11-BET-MAL",
@@ -6341,12 +6886,12 @@
      "name": "Estadio La Cartuja",
      "city": "Sewilla"
     },
-    "notes": "Betis: pewni Valles, Natan, Fran García, Marc Roca, Isco, Abde; Parrot w ataku; Aitor Ruibal wraca po kontuzji (jornadaperfecta 28.10). Málaga: Adrián Niño w ataku, Dani Lorenzo i Ramón w środku. Sędzia nieogłoszony.",
+    "notes": "Betis: pewni Valles, Natan, Fran García, Marc Roca, Isco, Abde; Parrot w ataku; Aitor Ruibal wraca po kontuzji (jornadaperfecta 28.10). Málaga: Adrián Niño w ataku, Dani Lorenzo i Ramón w środku. Sędzia: Mateo Busquets Ferrer (VAR: Javier Iglesias Villanueva).",
     "odds": {
-     "src": "1X2: Oddsportal; gole: bet365 (via Stats Insider), stan na 29.10.2026",
-     "1": 1.4,
-     "X": 5.3,
-     "2": 8.0,
+     "src": "1X2: Oddsportal, stan na 31.10.2026 rano; gole: bet365 via Stats Insider (29–31.10)",
+     "1": 1.37,
+     "X": 5.6,
+     "2": 9.0,
      "o25": 1.5,
      "u25": 2.62
     },
@@ -6384,7 +6929,21 @@
       "Dodatkowy dzień odpoczynku Betisu (Puchar przełożony) już jest w kursie; w tle mecz z Dortmundem 4.11 (możliwa rotacja).",
       "Derby podnoszą zmienność → NO BET."
      ]
-    }
+    },
+    "officials": [
+     {
+      "r": "GŁ",
+      "role": "Sędzia główny",
+      "name": "Mateo Busquets Ferrer",
+      "nat": "ESP"
+     },
+     {
+      "r": "VAR",
+      "role": "Sędzia VAR",
+      "name": "Javier Iglesias Villanueva",
+      "nat": "ESP"
+     }
+    ]
    },
    {
     "id": "LL-2026-27-R11-BAR-ALA",
@@ -6397,12 +6956,14 @@
      "name": "Spotify Camp Nou",
      "city": "Barcelona"
     },
-    "notes": "Przewidywane składy (comuniate 28.10): BAR – Joan García; Cancelo, Cubarsí, Gerard Martín, Balde; Pedri, Fermín, Rodri Hernández; Lamine Yamal, Raphinha, Gordon. ALA – Sivera; Tenaglia, Koski, Valentini, Novoa/Denis Suárez; Blanco, Ibáñez, Á. Pérez, Y. Enríquez/Rebbach; Boyé, Toni Martínez/Mañas. Sędzia nieogłoszony.",
+    "notes": "Przewidywane składy (comuniate 28.10): BAR – Joan García; Cancelo, Cubarsí, Gerard Martín, Balde; Pedri, Fermín, Rodri Hernández; Lamine Yamal, Raphinha, Gordon. ALA – Sivera; Tenaglia, Koski, Valentini, Novoa/Denis Suárez; Blanco, Ibáñez, Á. Pérez, Y. Enríquez/Rebbach; Boyé, Toni Martínez/Mañas. Sędzia: Adrián Cordero Vega (VAR: Valentín Pizarro Gómez).",
     "odds": {
-     "src": "Oddsportal – kursy z listy meczów, stan na 29.10.2026",
-     "1": 1.12,
-     "X": 10.5,
-     "2": 23.0
+     "src": "1X2: Oddsportal, stan na 31.10.2026 rano",
+     "1": 1.11,
+     "X": 11.0,
+     "2": 21.0,
+     "o25": 1.22,
+     "u25": 4.33
     },
     "info": {
      "injuries": {
@@ -6433,12 +6994,27 @@
     "tip": {
      "decision": "NO BET",
      "reasons": [
-      "Kurs 1,12 na Barcelonę (~87% po marży) – przy mojej ocenie 85–88% EV ≈ 0; zbyt niski kurs.",
+      "Kurs 1,11 na Barcelonę (~87% po marży) – przy mojej ocenie 85–88% EV ≈ −0,03 do 0; zbyt niski kurs.",
+      "Over 2,5 po 1,22 (bet365, ~79% po marży): Barcelona strzela 4 gole/mecz, ale Alavés traci tylko 1,1 – mój szacunek ok. 75–78% → EV ≈ −0,06.",
+      "Model Stats Insider: 82% / 11,5% / 6,4% – rynek wycenia Barcelonę jeszcze wyżej.",
       "Barcelona bez Koundé, Christensena, Erica Garcii i Olmo – osłabiona obrona, możliwa rotacja przed LM.",
-      "Alavés traci tylko 1,1 gola/mecz i jest wypoczęty (8 dni przerwy).",
-      "Brak wiarygodnych kursów na handicap/gole → NO BET."
+      "Alavés wypoczęty (8 dni przerwy, mecz Pucharu przełożony). Sędzia: Adrián Cordero Vega. Brak przewagi → NO BET."
      ]
-    }
+    },
+    "officials": [
+     {
+      "r": "GŁ",
+      "role": "Sędzia główny",
+      "name": "Adrián Cordero Vega",
+      "nat": "ESP"
+     },
+     {
+      "r": "VAR",
+      "role": "Sędzia VAR",
+      "name": "Valentín Pizarro Gómez",
+      "nat": "ESP"
+     }
+    ]
    },
    {
     "id": "LL-2026-27-R11-GET-SEV",
@@ -6453,9 +7029,9 @@
     },
     "notes": "Godzina potwierdzona (comuniate): niedz. 1.11, 14:00. Sędzia nieogłoszony.",
     "odds": {
-     "src": "1X2: Oddsportal; gole: bet365 (via Stats Insider), stan na 29.10.2026",
-     "1": 3.3,
-     "X": 3.0,
+     "src": "1X2: Oddsportal, stan na 31.10.2026 rano; gole: bet365 via Stats Insider (29–31.10)",
+     "1": 3.2,
+     "X": 3.1,
      "2": 2.5,
      "o25": 2.75,
      "u25": 1.44
@@ -6512,9 +7088,9 @@
     },
     "notes": "Godzina potwierdzona (comuniate): niedz. 1.11, 16:15. Sędzia nieogłoszony.",
     "odds": {
-     "src": "1X2: Oddsportal; gole: bet365 (via Stats Insider), stan na 29.10.2026",
-     "1": 10.0,
-     "X": 7.5,
+     "src": "1X2: Oddsportal, stan na 31.10.2026 rano; gole: bet365 via Stats Insider (29–31.10)",
+     "1": 10.5,
+     "X": 8.0,
      "2": 1.24,
      "o25": 1.2,
      "u25": 4.5
@@ -6571,10 +7147,10 @@
     },
     "notes": "Godzina potwierdzona (comuniate): niedz. 1.11, 18:30. Sędzia nieogłoszony.",
     "odds": {
-     "src": "Oddsportal – kursy z listy meczów, stan na 29.10.2026",
-     "1": 2.45,
+     "src": "1X2: Oddsportal, stan na 31.10.2026 rano",
+     "1": 2.4,
      "X": 3.4,
-     "2": 3.0
+     "2": 3.2
     },
     "info": {
      "injuries": {
@@ -6608,7 +7184,7 @@
     "tip": {
      "decision": "NO BET",
      "reasons": [
-      "Kurs 2,45 na Elche (~39% po marży) vs moja ocena 41–44% – EV +0,01 do +0,08; przewaga niepewna i zależna głównie od formy/tabeli.",
+      "Kurs 2,40 na Elche (~40% po marży) vs moja ocena 41–44% – EV −0,02 do +0,06; przewaga niepewna i zależna głównie od formy/tabeli.",
       "Elche w dobrej serii (bez porażki w 5), ale u siebie w tym okresie tylko 0:0 – brak danych o bilansie domowym.",
       "Valencia mocno osłabiona (bez Elliotta, Sadiqa, Diego Lópeza, Foulquiera), ale wypoczęta (8 dni).",
       "Brak kursów na DNB/1X, które lepiej pasowałyby do tej oceny.",
@@ -6629,10 +7205,10 @@
     },
     "notes": "Godzina potwierdzona (comuniate): niedz. 1.11, 21:00. Sędzia nieogłoszony.",
     "odds": {
-     "src": "Oddsportal – kursy z listy meczów, stan na 29.10.2026",
+     "src": "1X2: Oddsportal, stan na 31.10.2026 rano",
      "1": 2.15,
      "X": 3.7,
-     "2": 3.4
+     "2": 3.3
     },
     "info": {
      "injuries": {
@@ -6679,10 +7255,10 @@
     },
     "notes": "Termin potwierdzony przez LaLiga: pon. 2.11, 21:00.",
     "odds": {
-     "src": "bet365 via Stats Insider, stan na 30.10.2026",
-     "1": 2.1,
-     "X": 3.2,
-     "2": 3.5,
+     "src": "1X2: Oddsportal, stan na 31.10.2026 rano; gole: bet365 via Stats Insider (29–31.10)",
+     "1": 2.15,
+     "X": 3.25,
+     "2": 3.55,
      "o25": 2.2,
      "u25": 1.67
     },

@@ -1,9 +1,9 @@
 {
- "updated": "2026-10-30T06:30:00+01:00",
+ "updated": "2026-10-31T06:45:00+01:00",
  "season": "2026/27",
  "competition": "Bundesliga",
  "currentRound": 8,
- "note": "Źródła: bundesliga.com, DFB, kicker, comunio-magazin (29.10), khelnow (30.10), t-online/dpa, wettbasis (BETSiE, kursy Betano/Interwetten), wettfreunde, oddschecker; wcześniej: flashscore, ESPN, sport1, spox, fcbinside, goal.com, sportwetten24. Stan 30.10.2026 rano.",
+ "note": "Źródła: bundesliga.com (raport ELV–MAI, przewidywane składy 8. kolejki), news.de, news-stadt.de, fcbinside, kickoff.co.uk (kursy bet365); wcześniej: DFB, kicker, comunio-magazin, khelnow, t-online/dpa, wettbasis, oddschecker, flashscore, ESPN. Stan 31.10.2026 rano.",
  "teams": {
   "BAY": {
    "id": "BAY",
@@ -214,6 +214,17 @@
    "form": "DWWWL"
   },
   {
+   "team": "ELV",
+   "p": 8,
+   "w": 4,
+   "d": 1,
+   "l": 3,
+   "gf": 16,
+   "ga": 16,
+   "pts": 13,
+   "form": "DLWLW"
+  },
+  {
    "team": "RBL",
    "p": 7,
    "w": 4,
@@ -237,25 +248,14 @@
   },
   {
    "team": "MAI",
-   "p": 7,
+   "p": 8,
    "w": 3,
    "d": 1,
-   "l": 3,
-   "gf": 16,
-   "ga": 13,
+   "l": 4,
+   "gf": 17,
+   "ga": 17,
    "pts": 10,
-   "form": "LWLWL"
-  },
-  {
-   "team": "ELV",
-   "p": 7,
-   "w": 3,
-   "d": 1,
-   "l": 3,
-   "gf": 12,
-   "ga": 15,
-   "pts": 10,
-   "form": "LDLWL"
+   "form": "WLWLW"
   },
   {
    "team": "AUG",
@@ -2863,11 +2863,10 @@
     "time": "20:30",
     "home": "ELV",
     "away": "MAI",
-    "status": "ns",
+    "status": "ft",
     "venue": {
-     "name": "Ursapharm-Arena an der Kaiserlinde",
-     "city": "Spiesen-Elversberg",
-     "capacity": 10000
+     "name": "URSAPHARM-Arena an der Kaiserlinde",
+     "city": "Spiesen-Elversberg"
     },
     "odds": {
      "src": "oddschecker, stan na 28.10.2026; Betano 29.10: 3,15 / 4,00 / 2,20, Interwetten: Mainz 2,15",
@@ -2882,7 +2881,12 @@
        "Vincent Wagner"
       ]
      ],
-     "away": []
+     "away": [
+      [
+       "Trener",
+       "Urs Fischer"
+      ]
+     ]
     },
     "info": {
      "injuries": {
@@ -2931,7 +2935,462 @@
       "name": "Benjamin Cortus",
       "nat": "GER"
      }
-    ]
+    ],
+    "score": [
+     4,
+     1
+    ],
+    "attendance": 9307,
+    "formation": {
+     "home": "4-5-1",
+     "away": "3-5-2"
+    },
+    "players": {
+     "home": [
+      [
+       20,
+       "Nicolas Kristof",
+       "BR",
+       "",
+       true
+      ],
+      [
+       19,
+       "Lukas Pinckert",
+       "PO",
+       "",
+       true
+      ],
+      [
+       26,
+       "Luca Sirch",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       31,
+       "Maximilian Rohr",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       21,
+       "Lasse Günther",
+       "LO",
+       "",
+       true
+      ],
+      [
+       7,
+       "Maurice Krattenmacher",
+       "PS",
+       "",
+       true
+      ],
+      [
+       8,
+       "Łukasz Poręba",
+       "ŚP",
+       "",
+       true
+      ],
+      [
+       25,
+       "Lukas Petkov",
+       "ŚP",
+       "",
+       true
+      ],
+      [
+       40,
+       "Francis Onyeka",
+       "ŚP",
+       "",
+       true
+      ],
+      [
+       43,
+       "Felix Keidel",
+       "LS",
+       "",
+       true
+      ],
+      [
+       42,
+       "David Mokwa",
+       "N",
+       "",
+       true
+      ],
+      [
+       "",
+       "Tim Boss",
+       "BR",
+       "",
+       false
+      ],
+      [
+       "",
+       "Nicholas Mickelson",
+       "PO",
+       "",
+       false
+      ],
+      [
+       "",
+       "Florian Le Joncour",
+       "ŚO",
+       "",
+       false
+      ],
+      [
+       "",
+       "Amara Condé",
+       "ŚP",
+       "",
+       false
+      ],
+      [
+       "",
+       "Frederik Schmahl",
+       "ŚP",
+       "",
+       false
+      ],
+      [
+       "",
+       "Luca Schnellbacher",
+       "N",
+       "",
+       false
+      ],
+      [
+       "",
+       "Noel Futkeu",
+       "N",
+       "",
+       false
+      ],
+      [
+       "",
+       "Raif Adam",
+       "ŚP",
+       "",
+       false
+      ],
+      [
+       "",
+       "Cole Campbell",
+       "N",
+       "",
+       false
+      ]
+     ],
+     "away": [
+      [
+       27,
+       "Robin Zentner",
+       "BR",
+       "",
+       true
+      ],
+      [
+       4,
+       "Stefan Posch",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       21,
+       "Danny Da Costa",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       48,
+       "Kacper Potulski",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       2,
+       "Phillipp Mwene",
+       "PS",
+       "",
+       true
+      ],
+      [
+       6,
+       "Kaishū Sano",
+       "ŚP",
+       "",
+       true
+      ],
+      [
+       8,
+       "Paul Nebel",
+       "ŚP",
+       "",
+       true
+      ],
+      [
+       10,
+       "Nadiem Amiri",
+       "ŚP",
+       "",
+       true
+      ],
+      [
+       19,
+       "Anthony Caci",
+       "LS",
+       "",
+       true
+      ],
+      [
+       9,
+       "Phillip Tietz",
+       "N",
+       "",
+       true
+      ],
+      [
+       23,
+       "Sheraldo Becker",
+       "N",
+       "",
+       true
+      ],
+      [
+       "",
+       "Alexander Schwolow",
+       "BR",
+       "",
+       false
+      ],
+      [
+       "",
+       "Fabio Gruber",
+       "ŚO",
+       "",
+       false
+      ],
+      [
+       "",
+       "Stefan Bell",
+       "ŚO",
+       "",
+       false
+      ],
+      [
+       "",
+       "Silvan Widmer",
+       "PO",
+       "",
+       false
+      ],
+      [
+       "",
+       "Eric Martel",
+       "DP",
+       "",
+       false
+      ],
+      [
+       "",
+       "Jae-sung Lee",
+       "OP",
+       "",
+       false
+      ],
+      [
+       "",
+       "Lennard Maloney",
+       "ŚP",
+       "",
+       false
+      ],
+      [
+       "",
+       "Ransford Königsdörffer",
+       "N",
+       "",
+       false
+      ],
+      [
+       "",
+       "Benedict Hollerbach",
+       "N",
+       "",
+       false
+      ]
+     ]
+    },
+    "events": [
+     {
+      "m": 4,
+      "t": "yc",
+      "s_": "a",
+      "who": "Phillipp Mwene"
+     },
+     {
+      "m": 7,
+      "t": "goal",
+      "s_": "h",
+      "who": "Felix Keidel",
+      "how": "Rzut wolny bezpośredni (ok. 20 m)"
+     },
+     {
+      "m": 26,
+      "t": "goal",
+      "s_": "h",
+      "who": "Francis Onyeka",
+      "as": "David Mokwa"
+     },
+     {
+      "m": 33,
+      "t": "yc",
+      "s_": "a",
+      "who": "Danny Da Costa"
+     },
+     {
+      "m": 45,
+      "s": "+1",
+      "t": "goal",
+      "s_": "h",
+      "who": "Maurice Krattenmacher",
+      "how": "Płaski strzał po wybiciu Zentnera (akcja z rożnego)"
+     },
+     {
+      "m": 63,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Benedict Hollerbach",
+      "out": "Nadiem Amiri"
+     },
+     {
+      "m": 64,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Silvan Widmer",
+      "out": "Phillipp Mwene"
+     },
+     {
+      "m": 64,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Ransford Königsdörffer",
+      "out": "Phillip Tietz"
+     },
+     {
+      "m": 64,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Lennard Maloney",
+      "out": "Paul Nebel"
+     },
+     {
+      "m": 66,
+      "t": "var",
+      "s_": "a",
+      "kind": "Bramka – spalony",
+      "init": "Gol Königsdörffera",
+      "fin": "Gol anulowany"
+     },
+     {
+      "m": 68,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Nicholas Mickelson",
+      "out": "Lasse Günther"
+     },
+     {
+      "m": 76,
+      "t": "yc",
+      "s_": "a",
+      "who": "Ransford Königsdörffer"
+     },
+     {
+      "m": 77,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Frederik Schmahl",
+      "out": "Francis Onyeka"
+     },
+     {
+      "m": 78,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Cole Campbell",
+      "out": "Maurice Krattenmacher"
+     },
+     {
+      "m": 85,
+      "t": "yc",
+      "s_": "a",
+      "who": "Stefan Posch"
+     },
+     {
+      "m": 87,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Eric Martel",
+      "out": "Kaishū Sano"
+     },
+     {
+      "m": 88,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Luca Schnellbacher",
+      "out": "David Mokwa"
+     },
+     {
+      "m": 88,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Raif Adam",
+      "out": "Lukas Petkov"
+     },
+     {
+      "m": 90,
+      "s": "+1",
+      "t": "goal",
+      "s_": "h",
+      "who": "Cole Campbell",
+      "as": "Nicholas Mickelson",
+      "how": "Przewrotka"
+     },
+     {
+      "m": 90,
+      "s": "+2",
+      "t": "goal",
+      "s_": "a",
+      "who": "Benedict Hollerbach",
+      "as": "Ransford Königsdörffer",
+      "how": "Z bliska"
+     },
+     {
+      "m": 90,
+      "s": "+5",
+      "t": "rc",
+      "s_": "a",
+      "who": "Stefan Posch",
+      "why": "Druga żółta kartka (faul taktyczny)"
+     }
+    ],
+    "teamStats": [
+     [
+      "xG",
+      1.48,
+      2.0
+     ]
+    ],
+    "notes": "Do przerwy 3:0. Felix Keidel – zawodnik meczu (głosowanie kibiców), drugi gol z rzutu wolnego w sezonie. Elversberg zmienił 5 pozycji względem poprzedniego meczu. Stefan Posch (czerwona za 2. żółtą) pauzuje w meczu z Bayernem. Minuty kartek Mainz wg news.de; numery rezerwowych niepodane."
    },
    {
     "id": "BL-2026-27-R8-LEV-STU",
@@ -2956,14 +3415,34 @@
       "home": 3,
       "away": 3
      },
-     "stakes": "4. (13 pkt) vs 15. (6 pkt). DFB-Pokal 28.10: Leverkusen – Norymberga 5:2 (odrobione 0:2); Paderborn – Stuttgart 0:1 (Undav w doliczonym czasie)."
+     "stakes": "4. (13 pkt) vs 15. (6 pkt). DFB-Pokal 28.10: Leverkusen – Norymberga 5:2 (odrobione 0:2); Paderborn – Stuttgart 0:1 (Undav w doliczonym czasie).",
+     "injuries": {
+      "home": [
+       "Ben Seghir (mięsień dwugłowy)",
+       "Diaby (mięsień dwugłowy)",
+       "Doué (łydka)",
+       "Eichhorn (choroba)",
+       "Kofane (udo)",
+       "Terrier (uraz mięśniowy)",
+       "Niepewny: Badé (głowa)"
+      ],
+      "away": [
+       "Diehl (udo)",
+       "Malanga (mięśnie brzucha)",
+       "Tomás (uraz mięśniowy)",
+       "Vagnoman (mięsień dwugłowy)",
+       "Zagadou (mięsień dwugłowy)",
+       "Niepewni: Nartey, Stiller"
+      ]
+     }
     },
     "tip": {
      "decision": "NO BET",
      "reasons": [
       "Kursy 1.83 / 4.50 / 4.00 (marża ok. 2%) – po zdjęciu marży ok. 54% / 22% / 25%; moja ocena nie odbiega od rynku o więcej niż 2–3 pkt proc., więc EV ≤ 0 na 1X2.",
       "Brak wiarygodnych kursów na rynki poboczne (gole, BTTS, handicap, kartki, rożne) z jednego, sprawdzonego źródła – nie wyceniam ich na siłę.",
-      "Mecz po tygodniu pucharowym (dni odpoczynku 3 / 3); składy i rotacja niepotwierdzone."
+      "Mecz po tygodniu pucharowym (dni odpoczynku 3 / 3); składy i rotacja niepotwierdzone.",
+      "Aktualizacja 31.10: absencje wg bundesliga.com (przewidywane składy) nie zmieniają wyceny w stopniu dającym przewagę; brak świeżych kursów z porównywarki – NO BET podtrzymane."
      ]
     },
     "officials": [
@@ -3004,14 +3483,37 @@
       "home": 4,
       "away": 3
      },
-     "stakes": "9. (9 pkt) vs 3. (13 pkt). DFB-Pokal: 27.10 Großaspach – Augsburg 2:4; 28.10 Freiburg – Wolfsburg 3:2 (zwycięski gol Goto w 92')."
+     "stakes": "9. (9 pkt) vs 3. (13 pkt). DFB-Pokal: 27.10 Großaspach – Augsburg 2:4; 28.10 Freiburg – Wolfsburg 3:2 (zwycięski gol Goto w 92').",
+     "injuries": {
+      "home": [
+       "Banks (kolano)",
+       "Brackelmann (głowa)",
+       "Breithaupt (palec)",
+       "Mounié (brak formy meczowej)",
+       "Sakar (kostka)",
+       "Niepewny: Claude-Maurice"
+      ],
+      "away": [
+       "Muslija (kolano)",
+       "Ogbus (uraz mięśniowy)",
+       "Yilmaz (ząb)",
+       "Niepewny: Treu (kostka)"
+      ]
+     },
+     "suspensions": {
+      "home": [
+       "Bah"
+      ],
+      "away": []
+     }
     },
     "tip": {
      "decision": "NO BET",
      "reasons": [
       "Kursy 3.00 / 4.00 / 2.25 (marża ok. 3%) – po zdjęciu marży ok. 32% / 24% / 43%; moja ocena nie odbiega od rynku o więcej niż 2–3 pkt proc., więc EV ≤ 0 na 1X2.",
       "Brak wiarygodnych kursów na rynki poboczne (gole, BTTS, handicap, kartki, rożne) z jednego, sprawdzonego źródła – nie wyceniam ich na siłę.",
-      "Mecz po tygodniu pucharowym (dni odpoczynku 4 / 3); składy i rotacja niepotwierdzone."
+      "Mecz po tygodniu pucharowym (dni odpoczynku 4 / 3); składy i rotacja niepotwierdzone.",
+      "Aktualizacja 31.10: absencje wg bundesliga.com (przewidywane składy) nie zmieniają wyceny w stopniu dającym przewagę; brak świeżych kursów z porównywarki – NO BET podtrzymane."
      ]
     },
     "officials": [
@@ -3054,8 +3556,20 @@
      },
      "stakes": "18. (3 pkt) vs 13. (8 pkt). DFB-Pokal: 27.10 Gladbach – Karlsruher SC 2:0 (Gladbach od 39' w dziesiątkę – czerwona kartka Philippa Sandera); 28.10 Paderborn – Stuttgart 0:1 (Paderborn odpadł).",
      "injuries": {
-      "home": [],
-      "away": []
+      "home": [
+       "Honorat (uraz mięśniowy)",
+       "Kleindienst (uraz mięśniowy)",
+       "Leopold (kolano)",
+       "Leszczyński (kolano)",
+       "Niepewni: Kühn, Lidberg"
+      ],
+      "away": [
+       "Awortwie-Grant (kostka)",
+       "Batista Meier (kostka)",
+       "Gayret (kolano)",
+       "Hoffmeier (uraz mięśniowy)",
+       "Klaas (uraz mięśniowy)"
+      ]
      }
     },
     "tip": {
@@ -3063,7 +3577,8 @@
      "reasons": [
       "Kursy 1.95 / 4.20 / 3.60 (marża ok. 3%) – po zdjęciu marży ok. 50% / 23% / 27%; moja ocena nie odbiega od rynku o więcej niż 2–3 pkt proc., więc EV ≤ 0 na 1X2.",
       "Brak wiarygodnych kursów na rynki poboczne (gole, BTTS, handicap, kartki, rożne) z jednego, sprawdzonego źródła – nie wyceniam ich na siłę.",
-      "Mecz po tygodniu pucharowym (dni odpoczynku 4 / 3); składy i rotacja niepotwierdzone."
+      "Mecz po tygodniu pucharowym (dni odpoczynku 4 / 3); składy i rotacja niepotwierdzone.",
+      "Aktualizacja 31.10: absencje wg bundesliga.com (przewidywane składy) nie zmieniają wyceny w stopniu dającym przewagę; brak świeżych kursów z porównywarki – NO BET podtrzymane."
      ]
     },
     "officials": [
@@ -3104,7 +3619,32 @@
       "home": 4,
       "away": 3
      },
-     "stakes": "6. (12 pkt) vs 10. (9 pkt). DFB-Pokal: 27.10 Dortmund – Werder 3:2; 28.10 Holstein Kiel – Hoffenheim 1:1 po dogrywce, karne 4:3 dla Kiel – Hoffenheim odpadł po 120 minutach, 3 dni przed meczem w Bremie."
+     "stakes": "6. (12 pkt) vs 10. (9 pkt). DFB-Pokal: 27.10 Dortmund – Werder 3:2; 28.10 Holstein Kiel – Hoffenheim 1:1 po dogrywce, karne 4:3 dla Kiel – Hoffenheim odpadł po 120 minutach, 3 dni przed meczem w Bremie.",
+     "injuries": {
+      "home": [
+       "Agu",
+       "Alvero (łydka)",
+       "Musah (mięsień dwugłowy)",
+       "Ndiaye (pachwina)",
+       "Stage (udo)",
+       "Stark",
+       "Topp (kolano)",
+       "Niepewny: Njinmah"
+      ],
+      "away": [
+       "De Cat (kolano)",
+       "Gendrey (złamanie nogi)",
+       "Hajdari (stopa)",
+       "Wimmer (mięsień dwugłowy)",
+       "Niepewni: Lemperle, Moerstedt"
+      ]
+     },
+     "suspensions": {
+      "home": [],
+      "away": [
+       "Prass"
+      ]
+     }
     },
     "tip": {
      "decision": "NO BET",
@@ -3112,7 +3652,8 @@
       "Kursy 2.90 / 4.00 / 2.25 (marża ok. 4%) – po zdjęciu marży ok. 33% / 24% / 43%; moja ocena nie odbiega od rynku o więcej niż 2–3 pkt proc., więc EV ≤ 0 na 1X2.",
       "Werder bez porażki w 6 meczach ligowych, Hoffenheim z obciążeniem (puchar w środę, Liga Europy) – ale rynek (2,90 / 2,25) już uwzględnia formę; DNB 2,15 sugerowane przez Wettbasis to pojedyncza oferta bez weryfikacji.",
       "Brak wiarygodnych kursów na rynki poboczne (gole, BTTS, handicap, kartki, rożne) z jednego, sprawdzonego źródła – nie wyceniam ich na siłę.",
-      "Mecz po tygodniu pucharowym (dni odpoczynku 4 / 3); składy i rotacja niepotwierdzone."
+      "Mecz po tygodniu pucharowym (dni odpoczynku 4 / 3); składy i rotacja niepotwierdzone.",
+      "Aktualizacja 31.10: absencje wg bundesliga.com (przewidywane składy) nie zmieniają wyceny w stopniu dającym przewagę; brak świeżych kursów z porównywarki – NO BET podtrzymane."
      ]
     },
     "officials": [
@@ -3153,7 +3694,23 @@
       "home": 3,
       "away": 4
      },
-     "stakes": "16. (6 pkt) vs 5. (12 pkt). DFB-Pokal: 28.10 Dynamo Drezno – Schalke 2:0 (Schalke odpadło); 27.10 RW Essen – Lipsk 1:2 (Lipsk od 44' w dziesiątkę po żółto-czerwonej Seiwalda, 2 gole Baumgartnera w 78' i 82')."
+     "stakes": "16. (6 pkt) vs 5. (12 pkt). DFB-Pokal: 28.10 Dynamo Drezno – Schalke 2:0 (Schalke odpadło); 27.10 RW Essen – Lipsk 1:2 (Lipsk od 44' w dziesiątkę po żółto-czerwonej Seiwalda, 2 gole Baumgartnera w 78' i 82').",
+     "injuries": {
+      "home": [
+       "Gantenbein",
+       "Højlund (Achilles)",
+       "Schallenberg (noga)",
+       "Siebeking (mięśnie brzucha)",
+       "Sylla (noga)",
+       "Niepewni: Gosens (głowa), Ljubičić (kolano)"
+      ],
+      "away": [
+       "Gebel (kolano)",
+       "Guiu (mięsień dwugłowy)",
+       "Ouédraogo (bark)",
+       "Niepewny: Nkunku (przywodziciel)"
+      ]
+     }
     },
     "tip": {
      "decision": "NO BET",
@@ -3161,7 +3718,8 @@
       "Kursy 4.00 / 4.00 / 1.94 (marża ok. 2%) – po zdjęciu marży ok. 25% / 25% / 51%; moja ocena nie odbiega od rynku o więcej niż 2–3 pkt proc., więc EV ≤ 0 na 1X2.",
       "Wettbasis wskazuje DNB Schalke 3,00 (bet365) z uwagi na słabość Lipska na wyjazdach (3 porażki) i rotację – to opinia tipstera, dane xG (1,24 – 1,69) przemawiają raczej za Lipskiem; brak przewagi.",
       "Brak wiarygodnych kursów na rynki poboczne (gole, BTTS, handicap, kartki, rożne) z jednego, sprawdzonego źródła – nie wyceniam ich na siłę.",
-      "Mecz po tygodniu pucharowym (dni odpoczynku 3 / 4); składy i rotacja niepotwierdzone."
+      "Mecz po tygodniu pucharowym (dni odpoczynku 3 / 4); składy i rotacja niepotwierdzone.",
+      "Aktualizacja 31.10: absencje wg bundesliga.com (przewidywane składy) nie zmieniają wyceny w stopniu dającym przewagę; brak świeżych kursów z porównywarki – NO BET podtrzymane."
      ]
     },
     "officials": [
@@ -3192,10 +3750,14 @@
      "capacity": 75000
     },
     "odds": {
-     "src": "oddschecker – kursy wyświetlane na liście meczów, stan na 28.10.2026",
-     "1": 1.37,
-     "X": 6.0,
-     "2": 7.5
+     "src": "bet365 via kickoff.co.uk, stan na 31.10.2026 rano (wcześniej oddschecker 28.10: 1,37 / 6,00 / 7,50)",
+     "1": 1.33,
+     "X": 5.75,
+     "2": 7.5,
+     "o25": 1.25,
+     "u25": 4.0,
+     "bttsY": 1.44,
+     "bttsN": 2.63
     },
     "info": {
      "restDays": {
@@ -3205,25 +3767,24 @@
      "stakes": "1. vs 2. – obie po 17 pkt; bezpośrednie starcie o fotel lidera. Bayern w środę 28.10 6:1 z Magdeburgiem w Pucharze (rotacja: Kane na ławce, bez Kimmicha, Neuera, Musiali). BVB we wtorek 3:2 z Werderem (Sabitzer 90+3').",
      "injuries": {
       "home": [
-       "Manuel Neuer (podrażnienie ścięgna w stopie – niepewny; przewidywany w bramce Jonas Urbig)",
-       "Jamal Musiala (naderwanie włókien mięśniowych – niepewny)",
-       "Luis Díaz (naderwanie wiązki mięśniowej – wypada)",
-       "Bara Ndiaye (zapalenie wyrostka – wypada)",
-       "Tarek Buchmann"
+       "Manuel Neuer (stopa – wypada, potwierdził asystent Aaron Danks)",
+       "Jamal Musiala (mięsień dwugłowy – poza kadrą, wg Sky także na wtorkowy mecz LM z Atlético)",
+       "Luis Díaz (uraz mięśniowy)",
+       "Bara Ndiaye (wyrostek)"
       ],
       "away": [
-       "Emre Can (zerwane więzadło krzyżowe)",
-       "Giannis Konstantelias (zerwane więzadło krzyżowe)",
+       "Emre Can (kolano)",
+       "Konstantinos Karetsas (stopa)",
+       "Giannis Konstantelias (kolano)",
        "Justin Lerma (uraz mięśniowy)",
-       "Konstantinos Karetsas (uraz więzadeł)",
-       "Niepewni: Meyer (infekcja), Bensebaini (stłuczenie uda), Kauã Prates (mięśnie), Kaba (bark)"
+       "Niepewny: Meyer (choroba)"
       ]
      },
      "suspensions": {
       "home": [],
       "away": []
      },
-     "homeAway": "Bayern: 25:6 w 7 meczach (18 goli w 3 meczach u siebie). BVB: najlepsza obrona ligi (4 stracone), bez porażki, na wyjazdach 2W 1R. Trener Vincent Kompany (podrażnienie opon mózgowych) wypisany ze szpitala 28.10, ale wg Sport1 nie poprowadzi drużyny w sobotę – na ławce Aaron Danks. Joshua Kimmich (pauza z powodów osobistych) – wg spox powrót na BVB „bardzo możliwy”. Kimmich wg komunikatów Bayernu/dpa wraca na mecz z BVB; Pavlović w przewidywanych składach (comunio, khelnow)."
+     "homeAway": "Bayern: 25:6 w 7 meczach (18 goli w 3 meczach u siebie). BVB: najlepsza obrona ligi (4 stracone), bez porażki, na wyjazdach 2W 1R. Trener Vincent Kompany (podrażnienie opon mózgowych) wypisany ze szpitala 28.10, ale wg Sport1 nie poprowadzi drużyny w sobotę – na ławce Aaron Danks. Joshua Kimmich (pauza z powodów osobistych) – wg spox powrót na BVB „bardzo możliwy”. Kimmich wg komunikatów Bayernu/dpa wraca na mecz z BVB; Pavlović w przewidywanych składach (comunio, khelnow). Przewidywane składy (bundesliga.com): Bayern – Urbig; Laimer, Upamecano, Tah, Brown; Kimmich, Pavlović; Olise, Saibari, Davies; Kane. BVB – Kobel; Gadou, Anton, Schlotterbeck; Ryerson, Bellingham, Nmecha, Svensson; Sabitzer, Beier; Guirassy. Bayern we wtorek gra w LM w Madrycie (Atlético)."
     },
     "tip": {
      "decision": "NO BET",
@@ -3232,7 +3793,9 @@
       "Remis 6,00 / BVB 7,50 – moja ocena wygranej BVB ok. 12–14%, zbliżona do rynku; brak dodatniego EV.",
       "Over 3,5 po 1,67 (bet365, Wettbasis) wycenia ok. 60% – przy oczekiwanych ok. 3,3 golach rozkład Poissona daje ok. 42%; EV ujemne.",
       "Bayern rotował w środę (Kane na ławce) – plus dla świeżości, ale składy niepotwierdzone.",
-      "Aktualizacja 30.10: Neuer i Musiala nadal niepewni, Kimmich i Pavlović prawdopodobnie wracają; Coral 4/11 (1,36) na Bayern – wycena bez zmian, brak przewagi."
+      "Aktualizacja 30.10: Neuer i Musiala nadal niepewni, Kimmich i Pavlović prawdopodobnie wracają; Coral 4/11 (1,36) na Bayern – wycena bez zmian, brak przewagi.",
+      "Aktualizacja 31.10: Neuer i Musiala potwierdzeni jako nieobecni; bet365 1,33 / 5,75 / 7,50 – rynek przesunął się nieco na Bayern, nadal brak przewagi.",
+      "Over 2,5 po 1,25 / under 2,5 po 4,00 – rynek oczekuje ok. 3,5+ goli; moja ocena under ok. 22–27% daje EV ok. −10…+8% przy dużej niepewności – nie typuję wbrew tak wyraźnej wycenie."
      ]
     },
     "officials": [
@@ -3274,7 +3837,29 @@
       "home": 5,
       "away": 5
      },
-     "stakes": "17. (6 pkt) vs 12. (8 pkt). 27.10 DFB-Pokal: Köln – Union 5:0 (2× El Mala, Maina, Johannesson, Sebulonsen) – rewanż w lidze 5 dni później w Berlinie."
+     "stakes": "17. (6 pkt) vs 12. (8 pkt). 27.10 DFB-Pokal: Köln – Union 5:0 (2× El Mala, Maina, Johannesson, Sebulonsen) – rewanż w lidze 5 dni później w Berlinie.",
+     "injuries": {
+      "home": [
+       "Ilić (brak formy meczowej)",
+       "Markgraf (kolano)",
+       "Nsoki (łydka)",
+       "Niepewny: Juranović (choroba)"
+      ],
+      "away": [
+       "Dallinga (kolano)",
+       "Hübers (kolano)",
+       "Rondić",
+       "Skhiri (kostka)",
+       "Van den Berg",
+       "Niepewny: Ache"
+      ]
+     },
+     "suspensions": {
+      "home": [
+       "Uduokhai"
+      ],
+      "away": []
+     }
     },
     "officials": [
      {
@@ -3296,7 +3881,8 @@
       "Kursy ok. 2,50 / 3,70 / 2,65 (oddschecker) – po zdjęciu marży ok. 39% / 26% / 36%; moja ocena nie odbiega od rynku, EV ≤ 0 na 1X2 i DNB.",
       "Over 2,5 po 1,67 (bet365, Wettbasis) wycenia ok. 60% – przy bilansach 6:18 (Union) i 8:11 (Köln) oraz Kolonii bez gola w lidze od ponad 180 minut nie widzę podstaw, by ocenić over wyżej.",
       "BTTS Nie ok. 2,37 i under 2,5 ok. 2,20 (sportwetten24, pojedyncze oferty, sprzed pucharu) – bez weryfikacji w porównywarce; nie typuję.",
-      "Pucharowe 5:0 Kolonii sprzed 5 dni to jeden mecz w innych rozgrywkach i na innym stadionie – nie opieram typu na ostatnim wyniku."
+      "Pucharowe 5:0 Kolonii sprzed 5 dni to jeden mecz w innych rozgrywkach i na innym stadionie – nie opieram typu na ostatnim wyniku.",
+      "Aktualizacja 31.10: absencje wg bundesliga.com (przewidywane składy) nie zmieniają wyceny w stopniu dającym przewagę; brak świeżych kursów z porównywarki – NO BET podtrzymane."
      ]
     }
    },
@@ -3323,7 +3909,21 @@
       "home": 5,
       "away": 5
      },
-     "stakes": "14. (8 pkt) vs 11. (9 pkt). 27.10 DFB-Pokal: HSV – Eintracht 1:3 (0:0 do przerwy) – rewanż w lidze 5 dni później we Frankfurcie."
+     "stakes": "14. (8 pkt) vs 11. (9 pkt). 27.10 DFB-Pokal: HSV – Eintracht 1:3 (0:0 do przerwy) – rewanż w lidze 5 dni później we Frankfurcie.",
+     "injuries": {
+      "home": [
+       "Ngankam (mięsień dwugłowy)"
+      ],
+      "away": [
+       "Capaldo",
+       "Dickes (bark)",
+       "Nadir (udo)",
+       "Poulsen (biodro)",
+       "Remberg (kolano)",
+       "Vieira (mięsień dwugłowy)",
+       "Niepewny: Torunarigha"
+      ]
+     }
     },
     "officials": [
      {
@@ -3345,7 +3945,8 @@
       "Kursy 1,70 / 4,33 / 4,50 (oddschecker) – po zdjęciu marży ok. 57% / 22% / 21%; moja ocena dla Eintrachtu w okolicach 55–58%, brak dodatniego EV.",
       "Eintracht w lidze traci dużo (10:17 w 7 meczach), HSV słabo atakuje (6:16) – sprzeczne sygnały dla rynku goli; under 3,5 po 1,78 (Betano, Wettbasis) to pojedyncza oferta bez weryfikacji w porównywarce – nie wyceniam go na siłę.",
       "Wygrana 3:1 Eintrachtu w Hamburgu we wtorek (Puchar) – nie przenoszę wprost na ligę; brak potwierdzonych informacji o kontuzjach obu drużyn.",
-      "Zbyt duża niepewność na typ o ocenie ≥ 6."
+      "Zbyt duża niepewność na typ o ocenie ≥ 6.",
+      "Aktualizacja 31.10: absencje wg bundesliga.com (przewidywane składy) nie zmieniają wyceny w stopniu dającym przewagę; brak świeżych kursów z porównywarki – NO BET podtrzymane."
      ]
     }
    }
@@ -3375,6 +3976,14 @@
      "name": "MEWA Arena",
      "city": "Moguncja",
      "capacity": 33305
+    },
+    "info": {
+     "suspensions": {
+      "home": [
+       "Stefan Posch (czerwona kartka za 2. żółtą, 30.10 z Elversbergiem)"
+      ],
+      "away": []
+     }
     }
    },
    {

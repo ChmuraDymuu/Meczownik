@@ -1,9 +1,9 @@
 {
- "updated": "2026-10-30T05:45:00+01:00",
+ "updated": "2026-10-31T05:40:00+01:00",
  "season": "2026/27",
  "competition": "Premier League",
  "currentRound": 9,
- "note": "Źródła: Oddsportal (1X2, stan 30.10), rg.org (O/U, BTTS – kursy z 28.10), DraftKings via ESPN (NEW–EVE), premierleaguenewsnow.com (LIV–ARS: absencje, obsada sędziowska, H2H), theScore/Reuters (EVE 3:1 NEW w Pucharze Ligi 29.10), Fan Banter (NEW–EVE: absencje, forma), bets.co.za i onefpl (CHE–MUN: Palmer, João Pedro), VAVEL (Puchar Ligi 27–28.10); wcześniej: KickOff.co.uk, oddslot, SportyTrader, footballpredictions.com, Sky Sports, ESPN, FPL Zone, starting11, Fantasy Football Scout, Opta. Obsada sędziowska MW9 (premierleague.com, 26.10) opublikowana bez przypisania do meczów – podana tylko dla LIV–ARS (potwierdzona w zapowiedzi). Godziny w czasie polskim (CET).",
+ "note": "Źródła: Oddsportal (1X2, stan 31.10 rano), Bet365 via Stats Insider (LIV–ARS O/U 2,5 i model, 31.10), theScore (obsada sędziowska MW9: CHE–MUN, MCI–BHA, HUL–IPS, COV–SUN, BRE–NFO), premierleaguenewsnow.com (lista kontuzji MW9, 31.10), Fantasy Football Scout (konferencje 30.10); wcześniej: rg.org, DraftKings via ESPN, theScore/Reuters, Fan Banter, bets.co.za, onefpl, VAVEL, KickOff.co.uk, oddslot, SportyTrader, Sky Sports, ESPN, Opta. Godziny w czasie polskim (CET).",
  "teams": {
   "ARS": {
    "id": "ARS",
@@ -408,12 +408,7 @@
    "form": "LLLLD"
   }
  ],
- "picks": [
-  {
-   "match": "PL-2026-27-R9-LIV-ARS",
-   "rank": 1
-  }
- ],
+ "picks": [],
  "rounds": {
   "8": [
    {
@@ -2198,10 +2193,10 @@
      ]
     },
     "odds": {
-     "src": "Oddsportal 1X2 (stan na 30.10); O/U – rg.org (Tonybet/22Bet, 28.10); O/U 2,5 i BTTS – SportyTrader (28.10)",
-     "1": 1.86,
-     "X": 3.95,
-     "2": 4.0,
+     "src": "Oddsportal 1X2 (stan na 31.10, rano); O/U – rg.org (Tonybet/22Bet, 28.10); O/U 2,5 i BTTS – SportyTrader (28.10)",
+     "1": 2.0,
+     "X": 3.8,
+     "2": 3.7,
      "o25": 1.58,
      "u25": 3.82,
      "bttsY": 1.5,
@@ -2210,20 +2205,21 @@
     "info": {
      "injuries": {
       "home": [
-       "João Pedro (udo – kilka tygodni przerwy)",
-       "Emiliano Martínez (szczęka)",
+       "Maxence Lacroix (ścięgno udowe – do przerwy reprezentacyjnej)",
+       "João Pedro (udo)",
        "Reece James (kolano)",
-       "Jamie Bynoe-Gittens (kostka)",
-       "Pep Chavarría (uraz mięśniowy)"
+       "Emiliano Martínez (szczęka)",
+       "Jamie Gittens (kostka)",
+       "Aaron Anselmino",
+       "Jorrel Hato"
       ],
       "away": [
-       "Patrick Dorgu (ścięgno)",
-       "Kobbie Mainoo",
-       "Benjamin Šeško (noga)",
+       "Benjamin Šeško (goleń – co najmniej do stycznia)",
        "Luke Shaw",
        "Manuel Ugarte (kolano)",
-       "Marcus Rashford (biodro – niepewny)",
-       "Lisandro Martínez (niepewny)"
+       "Patrick Dorgu (ścięgno udowe)",
+       "Marcus Rashford (biodro – prawdopodobnie nie zagra)",
+       "Kobbie Mainoo (niepewny – wrócił do treningów, może usiąść na ławce)"
       ]
      },
      "suspensions": {
@@ -2244,12 +2240,25 @@
     "tip": {
      "decision": "NO BET",
      "reasons": [
-      "Kurs 1,86 na Chelsea (54%) nie uwzględnia w pełni osłabień: bez Jamesa, Martíneza i João Pedro (kilka tygodni), 3 dni po 90 min + karnych z Liverpoolem.",
+      "Kurs na Chelsea wzrósł z 1,86 do 2,00 (50%) – rynek uwzględnia osłabienia: bez Lacroix, Jamesa, Martíneza i João Pedro, 3 dni po 90 min + karnych z Liverpoolem.",
       "Palmer wraca po odbyciu pauzy w pucharze, ale Chelsea straciła 15 goli w 8 meczach – brak podstaw do wyższej oceny niż rynek.",
       "United w słabej formie (bez wygranej od 6 kolejek), ale z dłuższym odpoczynkiem (6 dni); rotacja przed Ligą Mistrzów to dodatkowa niewiadoma.",
       "Over 2,5 po 1,58 (63%) – mecze Chelsea są bramkowe, ale United w 4 z 5 ostatnich meczów ≤2 gole; brak przewagi."
      ]
-    }
+    },
+    "officials": [
+     {
+      "r": "GŁ",
+      "role": "Sędzia główny",
+      "name": "Peter Bankes",
+      "nat": "ENG"
+     },
+     {
+      "r": "VAR",
+      "role": "Sędzia VAR",
+      "name": "James Bell"
+     }
+    ]
    },
    {
     "id": "PL-2026-27-R9-BOU-LEE",
@@ -2278,31 +2287,25 @@
      ]
     },
     "odds": {
-     "src": "Oddsportal 1X2 (stan na 30.10); O/U – rg.org (Tonybet/22Bet, 28.10)",
+     "src": "Oddsportal 1X2 (stan na 31.10, rano); O/U – rg.org (Tonybet/22Bet, 28.10)",
      "1": 2.15,
-     "X": 3.45,
-     "2": 3.5,
+     "X": 3.5,
+     "2": 3.6,
      "o25": 1.87,
      "u25": 1.95
     },
     "info": {
      "injuries": {
       "home": [
-       "Alex Scott (udo)",
+       "Alex Tóth (ścięgno)",
        "Julio César Araujo (udo)",
-       "Veljko Milosavljević (brak rytmu meczowego)",
-       "Eli Junior Kroupi (niepewny)",
-       "Amine Adli (niepewny)",
-       "Justin Kluivert (niepewny)"
+       "Alex Scott (ścięgno – możliwy powrót w 10. kolejce)",
+       "Veljko Milosavljević (kolano – niepewny)"
       ],
       "away": [
-       "Daniel James (plecy)",
-       "Willy Joseph (kolano)",
-       "Joe Rodon (mięsień)",
-       "Dominic Calvert-Lewin (niepewny)",
-       "Nico Elvedi (niepewny)",
-       "Noah Okafor (niepewny)",
-       "Anton Stach (niepewny)"
+       "Mateo Joseph (kolano)",
+       "Joe Rodon (ścięgno – częściowo trenuje z drużyną)",
+       "Anton Stach (stopa – niepewny)"
       ]
      },
      "suspensions": {
@@ -2352,10 +2355,10 @@
      ]
     },
     "odds": {
-     "src": "Oddsportal 1X2 (stan na 30.10); O/U – rg.org (Tonybet/22Bet, 28.10)",
+     "src": "Oddsportal 1X2 (stan na 31.10, rano); O/U – rg.org (Tonybet/22Bet, 28.10)",
      "1": 2.05,
      "X": 3.7,
-     "2": 3.6,
+     "2": 3.5,
      "o25": 1.72,
      "u25": 2.13
     },
@@ -2363,20 +2366,16 @@
      "injuries": {
       "home": [
        "Rico Henry (biodro)",
-       "Josh Dasilva (mięsień)",
-       "Kaye Furo (operacja kolana)",
-       "Christoffer Schuster (niepewny)",
-       "Nathan Collins (niepewny)",
-       "Mikkel Damsgaard (niepewny)",
-       "Kevin Schade (niepewny)"
+       "Kaye Furo (kolano)",
+       "Fábio Carvalho (stłuczenie – do przerwy reprezentacyjnej)",
+       "Antoni Milambo (kolano – niepewny, blisko powrotu)",
+       "Josh Dasilva (ścięgno – niepewny, blisko powrotu)"
       ],
       "away": [
        "Igor Jesus (łydka)",
        "Nicolò Savona (kolano)",
-       "Nicolás Domínguez (niepewny)",
-       "Neco Williams (niepewny)",
-       "Morgan Gibbs-White (niepewny)",
-       "Nikola Milenković (niepewny)"
+       "Dan Ndoye (ścięgno – niepewny)",
+       "Nicolás Domínguez (mięsień – niepewny, raczej od 10. kolejki)"
       ]
      },
      "suspensions": {
@@ -2397,7 +2396,20 @@
       "Lista niepewnych występów Forest (Gibbs-White, Milenković, Williams) nieznana do dnia meczu – wycena niepewna.",
       "Brentford 3 dni po meczu pucharowym; brak kursów DNB/goli do porównania."
      ]
-    }
+    },
+    "officials": [
+     {
+      "r": "GŁ",
+      "role": "Sędzia główny",
+      "name": "Darren England",
+      "nat": "ENG"
+     },
+     {
+      "r": "VAR",
+      "role": "Sędzia VAR",
+      "name": "Andrew Kitchen"
+     }
+    ]
    },
    {
     "id": "PL-2026-27-R9-COV-SUN",
@@ -2426,9 +2438,9 @@
      ]
     },
     "odds": {
-     "src": "Oddsportal 1X2 (stan na 30.10); O/U – rg.org (Tonybet/22Bet, 28.10)",
-     "1": 3.1,
-     "X": 3.5,
+     "src": "Oddsportal 1X2 (stan na 31.10, rano); O/U – rg.org (Tonybet/22Bet, 28.10)",
+     "1": 3.2,
+     "X": 3.4,
      "2": 2.35,
      "o25": 1.93,
      "u25": 1.88
@@ -2436,20 +2448,19 @@
     "info": {
      "injuries": {
       "home": [
-       "Jerry Amenda (łydka)",
-       "Josh Eccles (kostka)",
+       "Haji Wright (mięsień czworogłowy)",
        "Luke Woolfenden (kolano)",
-       "Haji Wright (mięsień)",
-       "Bobby Thomas (niepewny)",
-       "Kesler-Hayden (niepewny)"
+       "Josh Eccles (kostka)",
+       "Jerry Amenda (łydka)",
+       "Bobby Thomas (łydka – niepewny, drobny uraz)"
       ],
       "away": [
-       "Dan Ballard (mięsień)",
+       "Dan Ballard (ścięgno)",
        "Romaine Mundle (kolano)",
-       "Nilson Angulo",
-       "Wilson Isidor (niepewny)",
-       "Brian Brobbey (niepewny)",
-       "Thomas Meunier (niepewny)"
+       "Wilson Isidor (stłuczenie – niepewny, raczej zagra)",
+       "Nordi Mukiele (niepewny – decyzja w dniu meczu)",
+       "Jocelin Ta Bi (łydka – niepewny)",
+       "Omar Alderete (stłuczenie – niepewny)"
       ]
      },
      "suspensions": {
@@ -2470,7 +2481,20 @@
       "Obie drużyny bez kluczowych zawodników (Wright, Ballard, Danso, Isidor niepewny).",
       "O/U 2,5 po 1,93/1,88 (ok. 50%) – mecze obu drużyn średnio 2,5–2,6 gola, brak przewagi na żadnej stronie."
      ]
-    }
+    },
+    "officials": [
+     {
+      "r": "GŁ",
+      "role": "Sędzia główny",
+      "name": "Simon Hooper",
+      "nat": "ENG"
+     },
+     {
+      "r": "VAR",
+      "role": "Sędzia VAR",
+      "name": "Constantine Hatzidakis"
+     }
+    ]
    },
    {
     "id": "PL-2026-27-R9-HUL-IPS",
@@ -2499,27 +2523,27 @@
      ]
     },
     "odds": {
-     "src": "Oddsportal 1X2 (stan na 30.10); O/U – rg.org (Tonybet/22Bet, 28.10)",
+     "src": "Oddsportal 1X2 (stan na 31.10, rano); O/U – rg.org (Tonybet/22Bet, 28.10)",
      "1": 2.65,
-     "X": 3.5,
-     "2": 2.65,
+     "X": 3.45,
+     "2": 2.75,
      "o25": 1.83,
      "u25": 1.98
     },
     "info": {
      "injuries": {
       "home": [
-       "Ansah (plecy)",
-       "Butland (ręka)",
-       "Gyabi (pachwina)",
-       "Hughes (pachwina)",
-       "Cho (niepewny)",
-       "Gourna-Douath (niepewny)",
-       "Vaz (niepewny)"
+       "Matt Targett (kostka)",
+       "Ilyas Ansah (plecy)",
+       "Charlie Hughes (pachwina)",
+       "Eliot Matazo (kolano)",
+       "Darko Gyabi (pachwina)",
+       "Jack Butland (bark – niepewny)",
+       "Lucas Gourna-Douath (łydka – niepewny)",
+       "Nobel Mendy (pachwina – niepewny, raczej w kadrze)"
       ],
       "away": [
-       "Lukić (pachwina)",
-       "Taylor (kolano)"
+       "Saša Lukić (pachwina – niepewny, decyzja w sobotę)"
       ]
      },
      "stakes": "Wyrównany mecz beniaminków/zespołów środka tabeli: Hull 10. (10 pkt, 4 remisy), Ipswich 12. (10 pkt)."
@@ -2531,7 +2555,20 @@
       "Hull z dłuższą listą absencji, ale Ipswich traci dużo na wyjazdach (16 straconych w 8 meczach) – argumenty się znoszą.",
       "O/U 2,5 po 1,83/1,98 – rynek 50/50, brak danych wskazujących przewagę."
      ]
-    }
+    },
+    "officials": [
+     {
+      "r": "GŁ",
+      "role": "Sędzia główny",
+      "name": "Thomas Kirk",
+      "nat": "ENG"
+     },
+     {
+      "r": "VAR",
+      "role": "Sędzia VAR",
+      "name": "Neil Davies"
+     }
+    ]
    },
    {
     "id": "PL-2026-27-R9-MCI-BHA",
@@ -2560,10 +2597,10 @@
      ]
     },
     "odds": {
-     "src": "Oddsportal 1X2 (stan na 30.10); O/U – rg.org (Tonybet/22Bet, 28.10); BTTS – rg.org (Tonybet, 28.10); O/U 2,5 i podwójna szansa – SportyTrader (28.10)",
-     "1": 1.65,
-     "X": 4.6,
-     "2": 4.75,
+     "src": "Oddsportal 1X2 (stan na 31.10, rano); O/U – rg.org (Tonybet/22Bet, 28.10); BTTS – rg.org (Tonybet, 28.10); O/U 2,5 i podwójna szansa – SportyTrader (28.10)",
+     "1": 1.73,
+     "X": 4.4,
+     "2": 4.4,
      "1X": 1.23,
      "X2": 2.28,
      "12": 1.25,
@@ -2575,21 +2612,17 @@
     "info": {
      "injuries": {
       "home": [
-       "Antoine Semenyo (kolano, do połowy grudnia)",
-       "Mateo Kovačić (niepewny)",
-       "Matheus Nunes (niepewny)",
-       "Nico O'Reilly (plecy – niepewny)"
+       "Antoine Semenyo (kolano, do połowy grudnia)"
       ],
       "away": [
-       "Mats Wieffer (kolano – niepewny)",
-       "Kaoru Mitoma (ścięgno)",
+       "Kaoru Mitoma (ścięgno – do przerwy reprezentacyjnej)",
+       "Femi Azeez (ścięgno)",
+       "Pascal Struijk (ścięgno)",
        "Evan Ferguson (kostka)",
-       "Yankuba Minteh (noga)",
        "Stefanos Tzimas (kolano)",
-       "Struijk (niepewny)",
-       "Kadıoğlu (niepewny)",
-       "Osman (niepewny)",
-       "Azeez (brzuch)"
+       "Zadok Yohanna",
+       "Ferdi Kadıoğlu (biodro – niepewny, raczej dostępny)",
+       "Chema Andrés (biodro – niepewny)"
       ]
      },
      "restDays": {
@@ -2606,10 +2639,23 @@
      "decision": "NO BET",
      "reasons": [
       "Środowy mecz pucharowy (2:2) pokazał, że Brighton potrafi grać z City jak równy z równym; City wypoczęło kluczowych graczy, Brighton zostaje w Manchesterze – czynniki się znoszą.",
-      "Kurs 1,65 (61%) na City przy dobrze dysponowanym Brightonie (najlepszy bilans bramkowy ligi) nie daje przewagi.",
+      "Kurs 1,73 (58%) na City przy dobrze dysponowanym Brightonie (najwięcej goli w lidze – 2,88/mecz) nie daje przewagi.",
       "Over 2,5 po 1,47 (68%) – zbyt niski kurs na rynek z dużą zmiennością."
      ]
-    }
+    },
+    "officials": [
+     {
+      "r": "GŁ",
+      "role": "Sędzia główny",
+      "name": "Craig Pawson",
+      "nat": "ENG"
+     },
+     {
+      "r": "VAR",
+      "role": "Sędzia VAR",
+      "name": "John Brooks"
+     }
+    ]
    },
    {
     "id": "PL-2026-27-R9-TOT-CRY",
@@ -2638,10 +2684,10 @@
      ]
     },
     "odds": {
-     "src": "Oddsportal 1X2 (stan na 30.10); O/U – rg.org (Tonybet/22Bet, 28.10); BTTS – KickOff.co.uk (28.10)",
-     "1": 1.55,
-     "X": 4.75,
-     "2": 5.75,
+     "src": "Oddsportal 1X2 (stan na 31.10, rano); O/U – rg.org (Tonybet/22Bet, 28.10); BTTS – KickOff.co.uk (28.10)",
+     "1": 1.6,
+     "X": 4.33,
+     "2": 5.5,
      "o25": 1.58,
      "u25": 2.38,
      "bttsY": 1.67,
@@ -2650,43 +2696,41 @@
     "info": {
      "injuries": {
       "home": [
-       "Destiny Udogie",
-       "Xavi Simons",
-       "Sávio (mięsień)",
        "Lucas Bergvall (kolano)",
+       "Xavi Simons (kolano)",
        "Wilson Odobert (kolano)",
-       "Mychajło Mudryk (kostka)",
-       "James Maddison (niepewny)",
-       "Dejan Kulusevski (niepewny)",
-       "Pedro Porro (niepewny)",
-       "Robertson (niepewny)",
-       "Adarabioyo (niepewny)"
+       "Tosin Adarabioyo (łydka)",
+       "Sávio (mięsień)",
+       "Mychajło Mudryk (kostka)"
       ],
       "away": [
-       "Riad (kolano)",
+       "Ismaïla Sarr (pachwina)",
        "Takehiro Tomiyasu (łydka)",
-       "Cheick Doucouré",
-       "Lerma",
-       "Dean Henderson (niepewny)",
-       "Ismaïla Sarr (pachwina – niepewny)",
-       "Larsen (niepewny)",
-       "Timber (niepewny)"
+       "Chadi Riad (kolano)",
+       "Jørgen Strand Larsen (kostka – niepewny, trenuje z grupą)",
+       "Quinten Timber (ścięgno – niepewny, może zagrać kilka minut)"
       ]
      },
      "restDays": {
       "away": 3
      },
      "homeAway": "TOT u siebie 1W-1R-2P, bramki 5:6; CRY na wyjeździe najsłabsza obrona (19 straconych łącznie, 2,4/mecz)",
-     "stakes": "Spurs po dwóch wygranych (m.in. 2:0 na Stamford Bridge); Palace 17. z 3 porażkami w 4 meczach ligowych, w środę wygrało 1:0 w Fulham w Pucharze Ligi (Nketiah, dobre interwencje Hendersona).",
+     "stakes": "Spurs po dwóch wygranych (m.in. 2:0 na Stamford Bridge); Palace 17. z 3 porażkami w 4 meczach ligowych, w środę wygrało 1:0 w Fulham w Pucharze Ligi (Nketiah, dobre interwencje Hendersona). Maddison i Udogie znów dostępni.",
      "h2h": [
       "2026-03-05 TOT 1:3 CRY",
       "Bilans 28 meczów: 18 W TOT – 3 R – 7 W CRY"
-     ]
+     ],
+     "suspensions": {
+      "home": [
+       "Rodrigo Bentancur"
+      ],
+      "away": []
+     }
     },
     "tip": {
      "decision": "NO BET",
      "reasons": [
-      "Kurs 1,55 (65%) na Spurs jest zbyt niski względem ich bilansu domowego (1 wygrana w 4 meczach, 5:6) i długiej listy kontuzji.",
+      "Kurs 1,60 (63%) na Spurs jest zbyt niski względem ich bilansu domowego (1 wygrana w 4 meczach, 5:6), długiej listy kontuzji i pauzy Bentancura (choć wracają Maddison i Udogie).",
       "Palace traci najwięcej goli w lidze, ale ostatnie H2H na tym stadionie wygrało 3:1.",
       "Over 2,5 po 1,58 (63%): Spurs u siebie średnio 2,75 gola/mecz, Palace 3,5 – moja ocena ok. 58–60%, EV ujemne.",
       "BTTS tak po 1,67 (60%) – brak wyraźnej przewagi przy przewidywanych zmianach w obronie Palace."
@@ -2720,30 +2764,24 @@
      ]
     },
     "odds": {
-     "src": "Oddsportal 1X2 (stan na 30.10); O/U – rg.org (Tonybet/22Bet, 28.10)",
-     "1": 1.95,
-     "X": 3.8,
-     "2": 3.8,
+     "src": "Oddsportal 1X2 (stan na 31.10, rano); O/U – rg.org (Tonybet/22Bet, 28.10)",
+     "1": 2.0,
+     "X": 3.7,
+     "2": 3.7,
      "o25": 1.69,
      "u25": 2.17
     },
     "info": {
      "injuries": {
       "home": [
-       "Aaron Wan-Bissaka (mięsień)",
-       "Matteo Ruggeri (mięsień)",
        "Amadou Onana (kolano)",
-       "Manzambi (łydka – niepewny)",
-       "Cissé (biodro)",
-       "Hemmings (kolano – niepewny)",
-       "Ian Maatsen (kostka – niepewny)",
-       "Ross Barkley (niepewny)"
+       "Matteo Ruggeri (ścięgno)",
+       "Aaron Wan-Bissaka (ścięgno)",
+       "Johan Manzambi (niepewny – raczej zagra)",
+       "Nicolas Jackson (niepewny – raczej zagra)"
       ],
       "away": [
-       "Larsson (pachwina – niepewny)",
-       "Emile Smith Rowe (niepewny)",
-       "Tom Cairney (niepewny)",
-       "Antonee Robinson (niepewny)"
+       "David Affengruber (niepewny – ból po meczu z Coventry, raczej środek ostrożności)"
       ]
      },
      "suspensions": {
@@ -2756,7 +2794,7 @@
       "home": 3,
       "away": 3
      },
-     "stakes": "Villa po 2:1 z Man City (3 wygrane w 4 ligowych meczach), ale w środę przegrała 0:3 w Bournemouth w Pucharze Ligi; we wtorek/środę gra w Lidze Mistrzów – możliwa rotacja. Fulham dwie wygrane ligowe z rzędu, w środę 0:1 z Crystal Palace w Pucharze Ligi.",
+     "stakes": "Villa po 2:1 z Man City (3 wygrane w 4 ligowych meczach), ale w środę przegrała 0:3 w Bournemouth w Pucharze Ligi; we wtorek/środę gra w Lidze Mistrzów – możliwa rotacja. Fulham dwie wygrane ligowe z rzędu, w środę 0:1 z Crystal Palace w Pucharze Ligi. Arbeloa: Smith Rowe zdrowy, kadra w pełni sprawna poza pauzującym Sessegnonem.",
      "h2h": [
       "2026-04-25 FUL 1:0 AVL",
       "Bilans 25 meczów: 12 W AVL – 4 R – 9 W FUL"
@@ -2798,35 +2836,35 @@
      ]
     },
     "odds": {
-     "src": "Oddsportal 1X2 (stan na 30.10); O/U – rg.org (Tonybet/22Bet, 28.10); podwójna szansa – oddslot, BTTS – KickOff.co.uk (28.10)",
-     "1": 3.0,
-     "X": 3.5,
-     "2": 2.4,
+     "src": "Oddsportal 1X2 (stan na 31.10); O/U 2,5 – Bet365 via Stats Insider (31.10); podwójna szansa – oddslot, BTTS – KickOff.co.uk (28.10)",
+     "1": 2.95,
+     "X": 3.45,
+     "2": 2.45,
      "1X": 1.62,
      "X2": 1.36,
      "12": 1.3,
-     "o25": 1.81,
-     "u25": 1.97,
+     "o25": 1.91,
+     "u25": 1.91,
      "bttsY": 1.67,
      "bttsN": 2.1
     },
     "info": {
      "injuries": {
       "home": [
-       "Hugo Ekitike (ścięgno Achillesa – do końca grudnia)",
-       "Jeremie Frimpong (nowy uraz mięśniowy – do przerwy reprezentacyjnej)",
-       "Victor Muñoz (kolano – niepewny)",
+       "Hugo Ekitike (ścięgno Achillesa)",
+       "Jeremie Frimpong (ścięgno udowe)",
        "Conor Bradley (kolano)",
        "Giovanni Leoni (kolano)",
-       "Dominik Szoboszlai (ścięgno udowe – niepewny)"
+       "Dominik Szoboszlai (ścięgno udowe – niepewny, Iraola: „ma szansę”)",
+       "Victor Muñoz (kolano – niepewny)"
       ],
       "away": [
-       "Bukayo Saka (mięsień czworogłowy – 6–8 tygodni)",
-       "William Saliba (plecy – do przerwy reprezentacyjnej)",
-       "Christos Tzolis (ścięgno – końcówka rehabilitacji)",
-       "Noni Madueke (kostka – niepewny, opuścił mecz pucharowy)",
-       "Riccardo Calafiori (drobny uraz – niepewny)",
-       "Declan Rice (ścięgno – prawdopodobnie zagra)"
+       "Bukayo Saka (mięsień czworogłowy)",
+       "William Saliba (plecy)",
+       "Noni Madueke (kostka – niepewny, decyzja po sobotnim treningu)",
+       "Declan Rice (ścięgno – trenował w piątek, prawdopodobnie dostępny)",
+       "Riccardo Calafiori (biodro – trenował w piątek)",
+       "Christos Tzolis (ścięgno – trenował w piątek)"
       ]
      },
      "suspensions": {
@@ -2850,30 +2888,14 @@
      ]
     },
     "tip": {
-     "decision": "BET",
-     "market": "Poniżej 2,5 gola",
-     "odds": 1.97,
-     "prob": 0.54,
-     "ev": 0.0638,
-     "rating": 6,
-     "risk": "średnie",
+     "decision": "NO BET",
      "reasons": [
-      "Arsenal ma najszczelniejszą obronę wśród czołówki: 5 straconych goli w 8 meczach ligowych.",
-      "Liverpool bez Ekitike i Frimponga, z niepewnymi Szoboszlaiem i Muñozem – ofensywa poniżej poziomu (11 goli w 8 meczach ligowych).",
-      "Ostatnie dwa mecze bezpośrednie zakończyły się 0:0 i 1:0; mecze na szczycie zwykle są ostrożne taktycznie.",
-      "Modele bramkowe kilku serwisów dają łącznie ok. 2,1–2,2 oczekiwanego gola; przewidywania serwisów to głównie 1:1; Poisson dla λ≈2,25 daje ok. 58–60% na ≤2 gole.",
-      "W lidze 3 z 5 ostatnich meczów każdej z drużyn kończyło się Under 2,5 (LIV: 2:0, 2:1, 0:3, 1:0, 0:0; ARS: 2:0, 1:0, 2:1, 0:3, 2:0).",
-      "Liverpool 4 dni po 90 min + karnych w pucharze; Arsenal bez Saki, Dowmana (pauza) i z niepewnym Madueke – mniej jakości w ataku gości."
-     ],
-     "risks": [
-      "Brak Saliby osłabia obronę Arsenalu – realne ryzyko większej liczby goli.",
-      "Wirtz wrócił do gry (wszedł z ławki z Chelsea) – zwiększa potencjał ofensywny Liverpoolu; dlatego obniżam swoją ocenę do 54%.",
-      "Liverpool w pucharach gra bardzo bramkowo – we wszystkich rozgrywkach średnio ok. 3,4 gola na mecz.",
-      "Ceny Under zróżnicowane (1,95–2,06); przy kursie poniżej 1,90 przewaga praktycznie znika.",
-      "Konferencja Iraoli w piątek – aktualizacja stanu Szoboszlaia może zmienić wycenę."
-     ],
-     "value": "Kurs 1,97 wycenia Under 2,5 na ok. 51%; moja ocena to ok. 54% (konserwatywnie poniżej wyniku modelu Poissona), EV ≈ +6%.",
-     "stake": "1% bankrollu (typ umiarkowany, ocena 6/10)"
+      "Kurs na Under 2,5 spadł z 1,97 do 1,91 (Bet365: 1,91/1,91) – przy mojej ocenie ok. 54% EV ≈ +3%, poniżej progu sensownej przewagi (wcześniej zapowiadałem, że przy kursie ok. 1,90 przewaga znika).",
+      "Arsenal odzyskuje zawodników: Rice, Calafiori i Tzolis trenowali w piątek – więcej jakości po stronie gości; Wirtz wrócił w Liverpoolu.",
+      "Argumenty za niską liczbą goli pozostają (ARS 5 straconych w 8 meczach, ostatnie H2H 0:0 i 1:0, brak Ekitike i Frimponga), ale rynek już je wycenia.",
+      "Brak Saliby i niepewność wokół Szoboszlaia i Madueke – za dużo niewiadomych przy cienkiej przewadze.",
+      "1X2 (2,95 / 3,45 / 2,45) zgodne z modelami (np. Stats Insider: 35% / 25% / 40%) – brak value na żadnym wyniku."
+     ]
     },
     "officials": [
      {
@@ -2936,9 +2958,9 @@
      ]
     },
     "odds": {
-     "src": "Oddsportal 1X2 (stan na 30.10); O/U 2,5 – rg.org (22Bet, 28.10; DraftKings 1,71/2,10); BTTS – DraftKings via ESPN (30.10)",
-     "1": 2.3,
-     "X": 3.7,
+     "src": "Oddsportal 1X2 (stan na 31.10, rano); O/U 2,5 – rg.org (22Bet, 28.10; DraftKings 1,71/2,10); BTTS – DraftKings via ESPN (30.10)",
+     "1": 2.35,
+     "X": 3.6,
      "2": 3.0,
      "o25": 1.71,
      "u25": 2.14,
@@ -2948,11 +2970,15 @@
     "info": {
      "injuries": {
       "home": [
-       "Tino Livramento",
-       "Ewen Jaouen",
-       "Lewis Miley (pośladek – niepewny)"
+       "Ewen Jaouen (ścięgno)",
+       "Tino Livramento (kolano)",
+       "William Osula (kostka – niepewny, zszedł w przerwie meczu pucharowego)",
+       "Lewis Miley (mięsień – niepewny)",
+       "Matías Fernández-Pardo (choroba – niepewny)"
       ],
-      "away": []
+      "away": [
+       "Jarrad Branthwaite (wstrząśnienie mózgu – niepewny, raczej gotowy na poniedziałek)"
+      ]
      },
      "suspensions": {
       "home": [],
