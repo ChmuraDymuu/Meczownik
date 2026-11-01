@@ -1,9 +1,9 @@
 {
- "updated": "2026-10-31T05:40:00+01:00",
+ "updated": "2026-11-01T05:45:00+01:00",
  "season": "2026/27",
  "competition": "Premier League",
  "currentRound": 9,
- "note": "Źródła: Oddsportal (1X2, stan 31.10 rano), Bet365 via Stats Insider (LIV–ARS O/U 2,5 i model, 31.10), theScore (obsada sędziowska MW9: CHE–MUN, MCI–BHA, HUL–IPS, COV–SUN, BRE–NFO), premierleaguenewsnow.com (lista kontuzji MW9, 31.10), Fantasy Football Scout (konferencje 30.10); wcześniej: rg.org, DraftKings via ESPN, theScore/Reuters, Fan Banter, bets.co.za, onefpl, VAVEL, KickOff.co.uk, oddslot, SportyTrader, Sky Sports, ESPN, Opta. Godziny w czasie polskim (CET).",
+ "note": "Źródła (1.11): NBC Sports (tabela po 31.10), Sky Sports (CHE–MUN, TOT–CRY), the42.ie (BRE–NFO, BOU–LEE, COV–SUN, HUL–IPS), ESPN (COV–SUN statystyki; kursy DraftKings LIV–ARS), Khel Now (MCI–BHA), VAVEL (AVL–FUL), Racing Post (LIV–ARS składy, kursy Sky Bet/bet365), liverpoolfc.com (kadra), newcastleunited.com (sędziowie NEW–EVE), MightyTips (kursy NEW–EVE); wcześniej: Oddsportal, theScore, premierleaguenewsnow.com, Fantasy Football Scout, rg.org, SportyTrader, Opta. Godziny w czasie polskim (CET).",
  "teams": {
   "ARS": {
    "id": "ARS",
@@ -189,14 +189,14 @@
  "table": [
   {
    "team": "MCI",
-   "p": 8,
+   "p": 9,
    "w": 7,
    "d": 0,
-   "l": 1,
+   "l": 2,
    "gf": 20,
-   "ga": 9,
+   "ga": 10,
    "pts": 21,
-   "form": "WWWWL"
+   "form": "WWWLL"
   },
   {
    "team": "ARS",
@@ -211,14 +211,25 @@
   },
   {
    "team": "BHA",
-   "p": 8,
-   "w": 5,
+   "p": 9,
+   "w": 6,
    "d": 1,
    "l": 2,
-   "gf": 23,
+   "gf": 24,
    "ga": 7,
+   "pts": 19,
+   "form": "WWWLW"
+  },
+  {
+   "team": "CHE",
+   "p": 9,
+   "w": 5,
+   "d": 1,
+   "l": 3,
+   "gf": 19,
+   "ga": 15,
    "pts": 16,
-   "form": "WWWWL"
+   "form": "LWWLW"
   },
   {
    "team": "LIV",
@@ -232,37 +243,70 @@
    "form": "DWLWW"
   },
   {
-   "team": "CHE",
-   "p": 8,
-   "w": 4,
-   "d": 1,
-   "l": 3,
-   "gf": 17,
-   "ga": 15,
-   "pts": 13,
-   "form": "DLWWL"
-  },
-  {
    "team": "BRE",
-   "p": 8,
-   "w": 2,
+   "p": 9,
+   "w": 3,
    "d": 5,
    "l": 1,
-   "gf": 14,
+   "gf": 16,
    "ga": 9,
-   "pts": 11,
-   "form": "DWDLD"
+   "pts": 14,
+   "form": "WDLDW"
+  },
+  {
+   "team": "BOU",
+   "p": 9,
+   "w": 3,
+   "d": 3,
+   "l": 3,
+   "gf": 14,
+   "ga": 13,
+   "pts": 12,
+   "form": "LLWWW"
+  },
+  {
+   "team": "TOT",
+   "p": 9,
+   "w": 3,
+   "d": 3,
+   "l": 3,
+   "gf": 10,
+   "ga": 10,
+   "pts": 12,
+   "form": "LDWWW"
+  },
+  {
+   "team": "AVL",
+   "p": 9,
+   "w": 3,
+   "d": 3,
+   "l": 3,
+   "gf": 10,
+   "ga": 13,
+   "pts": 12,
+   "form": "WDWWD"
   },
   {
    "team": "LEE",
-   "p": 8,
+   "p": 9,
    "w": 2,
    "d": 5,
-   "l": 1,
+   "l": 2,
    "gf": 9,
-   "ga": 6,
+   "ga": 8,
    "pts": 11,
-   "form": "WDLDD"
+   "form": "DLDDL"
+  },
+  {
+   "team": "HUL",
+   "p": 9,
+   "w": 2,
+   "d": 5,
+   "l": 2,
+   "gf": 11,
+   "ga": 10,
+   "pts": 11,
+   "form": "LDLDD"
   },
   {
    "team": "NEW",
@@ -276,26 +320,15 @@
    "form": "LWLLW"
   },
   {
-   "team": "AVL",
-   "p": 8,
+   "team": "IPS",
+   "p": 9,
    "w": 3,
    "d": 2,
-   "l": 3,
-   "gf": 9,
-   "ga": 12,
+   "l": 4,
+   "gf": 14,
+   "ga": 18,
    "pts": 11,
-   "form": "LWDWW"
-  },
-  {
-   "team": "HUL",
-   "p": 8,
-   "w": 2,
-   "d": 4,
-   "l": 2,
-   "gf": 9,
-   "ga": 8,
-   "pts": 10,
-   "form": "DLDLD"
+   "form": "LWLDD"
   },
   {
    "team": "EVE",
@@ -309,106 +342,78 @@
    "form": "DWDLL"
   },
   {
-   "team": "IPS",
-   "p": 8,
-   "w": 3,
-   "d": 1,
-   "l": 4,
-   "gf": 12,
-   "ga": 16,
-   "pts": 10,
-   "form": "WLWLD"
-  },
-  {
-   "team": "BOU",
-   "p": 8,
-   "w": 2,
-   "d": 3,
-   "l": 3,
-   "gf": 12,
-   "ga": 13,
-   "pts": 9,
-   "form": "DLLWW"
-  },
-  {
-   "team": "TOT",
-   "p": 8,
-   "w": 2,
-   "d": 3,
-   "l": 3,
-   "gf": 8,
-   "ga": 10,
-   "pts": 9,
-   "form": "DLDWW"
-  },
-  {
    "team": "FUL",
-   "p": 8,
+   "p": 9,
    "w": 2,
-   "d": 2,
-   "l": 4,
-   "gf": 8,
-   "ga": 10,
-   "pts": 8,
-   "form": "DDLWW"
-  },
-  {
-   "team": "MUN",
-   "p": 8,
-   "w": 1,
-   "d": 4,
-   "l": 3,
-   "gf": 10,
-   "ga": 13,
-   "pts": 7,
-   "form": "LDDDL"
-  },
-  {
-   "team": "CRY",
-   "p": 8,
-   "w": 2,
-   "d": 1,
-   "l": 5,
-   "gf": 9,
-   "ga": 19,
-   "pts": 7,
-   "form": "LDWLL"
-  },
-  {
-   "team": "NFO",
-   "p": 8,
-   "w": 1,
    "d": 3,
    "l": 4,
-   "gf": 6,
-   "ga": 10,
-   "pts": 6,
-   "form": "WLLLD"
+   "gf": 9,
+   "ga": 11,
+   "pts": 9,
+   "form": "DLWWD"
   },
   {
    "team": "COV",
-   "p": 8,
-   "w": 2,
+   "p": 9,
+   "w": 3,
    "d": 0,
    "l": 6,
-   "gf": 6,
+   "gf": 9,
+   "ga": 16,
+   "pts": 9,
+   "form": "WWLLW"
+  },
+  {
+   "team": "MUN",
+   "p": 9,
+   "w": 1,
+   "d": 4,
+   "l": 4,
+   "gf": 10,
    "ga": 15,
+   "pts": 7,
+   "form": "DDDLL"
+  },
+  {
+   "team": "CRY",
+   "p": 9,
+   "w": 2,
+   "d": 1,
+   "l": 6,
+   "gf": 9,
+   "ga": 21,
+   "pts": 7,
+   "form": "DWLLL"
+  },
+  {
+   "team": "NFO",
+   "p": 9,
+   "w": 1,
+   "d": 3,
+   "l": 5,
+   "gf": 6,
+   "ga": 12,
    "pts": 6,
-   "form": "LWWLL"
+   "form": "LLLDL"
   },
   {
    "team": "SUN",
-   "p": 8,
+   "p": 9,
    "w": 1,
    "d": 2,
-   "l": 5,
-   "gf": 6,
-   "ga": 14,
+   "l": 6,
+   "gf": 7,
+   "ga": 17,
    "pts": 5,
-   "form": "LLLLD"
+   "form": "LLLDL"
   }
  ],
- "picks": [],
+ "picks": [
+  {
+   "match": "PL-2026-27-R9-LIV-ARS",
+   "rank": 1
+  }
+ ],
  "rounds": {
   "8": [
    {
@@ -2172,7 +2177,7 @@
     "time": "13:30",
     "home": "CHE",
     "away": "MUN",
-    "status": "ns",
+    "status": "ft",
     "venue": {
      "name": "Stamford Bridge",
      "city": "Londyn",
@@ -2258,7 +2263,43 @@
       "role": "Sędzia VAR",
       "name": "James Bell"
      }
-    ]
+    ],
+    "score": [
+     2,
+     0
+    ],
+    "events": [
+     {
+      "m": 50,
+      "t": "goal",
+      "s_": "h",
+      "who": "Morgan Rogers",
+      "how": "Lob nad bramkarzem"
+     },
+     {
+      "m": 63,
+      "t": "var",
+      "s_": "a",
+      "kind": "Czerwona kartka – kontrola",
+      "init": "Druga żółta",
+      "fin": "Decyzja podtrzymana"
+     },
+     {
+      "m": 63,
+      "t": "rc",
+      "s_": "a",
+      "who": "Lisandro Martínez",
+      "why": "Druga żółta kartka (uderzenie ręką w twarz Wesleya Fofany)"
+     },
+     {
+      "m": 64,
+      "t": "pen",
+      "s_": "h",
+      "who": "Cole Palmer",
+      "res": "Gol"
+     }
+    ],
+    "notes": "Gole: Rogers 50', Palmer 64' (k., 50. gol Palmera w PL dla Chelsea). Lisandro Martínez – pierwsza żółta za faul na Rogersie (minuta nieznana), druga w 63' po weryfikacji VAR; VAR anulował też gola Estêvão (spalony). United bez wygranej od 9 meczów we wszystkich rozgrywkach. Listy żółtych kartek niepełne."
    },
    {
     "id": "PL-2026-27-R9-BOU-LEE",
@@ -2266,7 +2307,7 @@
     "time": "16:00",
     "home": "BOU",
     "away": "LEE",
-    "status": "ns",
+    "status": "ft",
     "venue": {
      "name": "Vitality Stadium (Dean Court)",
      "city": "Bournemouth",
@@ -2326,7 +2367,35 @@
       "Leeds remisuje w 5 z 8 meczów i traci mało – mecz o wysokim prawdopodobieństwie remisu, ale 3,50 (29%) to rynkowa cena bez wyraźnej przewagi.",
       "Wiele niepewnych występów po obu stronach (Kluivert, Adli, Calvert-Lewin, Stach)."
      ]
-    }
+    },
+    "score": [
+     2,
+     0
+    ],
+    "events": [
+     {
+      "m": 11,
+      "t": "var",
+      "s_": "a",
+      "kind": "Bramka – zagranie ręką",
+      "init": "Gol (Calvert-Lewin)",
+      "fin": "Gol anulowany"
+     },
+     {
+      "m": 31,
+      "t": "goal",
+      "s_": "h",
+      "who": "Evanilson",
+      "as": "Justin Kluivert"
+     },
+     {
+      "m": 90,
+      "t": "goal",
+      "s_": "h",
+      "who": "Amine Adli"
+     }
+    ],
+    "notes": "Evanilson 31' po asyście Kluiverta i błędzie Trafforda; Adli (rezerwowy) w doliczonym czasie. Gol Calvert-Lewina z 11' anulowany po VAR (ręka). Kartki niepełne."
    },
    {
     "id": "PL-2026-27-R9-BRE-NFO",
@@ -2334,7 +2403,7 @@
     "time": "16:00",
     "home": "BRE",
     "away": "NFO",
-    "status": "ns",
+    "status": "ft",
     "venue": {
      "name": "Gtech Community Stadium",
      "city": "Londyn",
@@ -2409,7 +2478,12 @@
       "role": "Sędzia VAR",
       "name": "Andrew Kitchen"
      }
-    ]
+    ],
+    "score": [
+     2,
+     0
+    ],
+    "notes": "Gole: samobój Nikoli Milenkovicia (Forest) i Igor Thiago (2. połowa, 2. gol w sezonie) – minuty niepotwierdzone w dostępnych źródłach, dlatego bez osi zdarzeń."
    },
    {
     "id": "PL-2026-27-R9-COV-SUN",
@@ -2417,7 +2491,7 @@
     "time": "16:00",
     "home": "COV",
     "away": "SUN",
-    "status": "ns",
+    "status": "ft",
     "venue": {
      "name": "Coventry Building Society Arena",
      "city": "Coventry",
@@ -2494,6 +2568,88 @@
       "role": "Sędzia VAR",
       "name": "Constantine Hatzidakis"
      }
+    ],
+    "score": [
+     3,
+     1
+    ],
+    "events": [
+     {
+      "m": 17,
+      "t": "goal",
+      "s_": "h",
+      "who": "Tatsuhiro Sakamoto"
+     },
+     {
+      "m": 37,
+      "t": "goal",
+      "s_": "h",
+      "who": "Taiwo Awoniyi"
+     },
+     {
+      "m": 52,
+      "t": "goal",
+      "s_": "h",
+      "who": "Jack Rudoni"
+     },
+     {
+      "m": 66,
+      "t": "var",
+      "s_": "a",
+      "kind": "Rzut karny – zagranie ręką (Pinnock)",
+      "init": "Brak karnego",
+      "fin": "Rzut karny"
+     },
+     {
+      "m": 67,
+      "t": "pen",
+      "s_": "a",
+      "who": "Enzo Le Fée",
+      "res": "Gol"
+     },
+     {
+      "m": 90,
+      "s": "+4",
+      "t": "yc",
+      "s_": "a",
+      "who": "Omar Alderete"
+     },
+     {
+      "m": 90,
+      "s": "+9",
+      "t": "rc",
+      "s_": "a",
+      "who": "Omar Alderete",
+      "why": "Druga żółta kartka"
+     }
+    ],
+    "notes": "Karny dla Sunderlandu po VAR (ręka Pinnocka po strzale O'Niena). Alderete wyrzucony za drugą żółtą w doliczonym czasie. Statystyki wg ESPN.",
+    "teamStats": [
+     [
+      "Posiadanie %",
+      44,
+      56
+     ],
+     [
+      "xG",
+      0.71,
+      1.65
+     ],
+     [
+      "Celne",
+      4,
+      2
+     ],
+     [
+      "Rzuty rożne",
+      4,
+      4
+     ],
+     [
+      "Faule",
+      16,
+      9
+     ]
     ]
    },
    {
@@ -2502,7 +2658,7 @@
     "time": "16:00",
     "home": "HUL",
     "away": "IPS",
-    "status": "ns",
+    "status": "ft",
     "venue": {
      "name": "MKM Stadium",
      "city": "Kingston upon Hull",
@@ -2568,7 +2724,39 @@
       "role": "Sędzia VAR",
       "name": "Neil Davies"
      }
-    ]
+    ],
+    "score": [
+     2,
+     2
+    ],
+    "events": [
+     {
+      "m": 22,
+      "t": "goal",
+      "s_": "a",
+      "who": "Florentino Luís"
+     },
+     {
+      "m": 58,
+      "t": "goal",
+      "s_": "h",
+      "who": "Tim Iroegbunam"
+     },
+     {
+      "m": 68,
+      "t": "goal",
+      "s_": "h",
+      "who": "Oli McBurnie",
+      "how": "Rzut wolny"
+     },
+     {
+      "m": 74,
+      "t": "goal",
+      "s_": "a",
+      "who": "Julio Enciso"
+     }
+    ],
+    "notes": "Minuty goli McBurniego (rzut wolny) i Enciso przybliżone (ok. 68' i 74'). Gol Enciso z 37' anulowany za faul na McBurniem."
    },
    {
     "id": "PL-2026-27-R9-MCI-BHA",
@@ -2576,7 +2764,7 @@
     "time": "16:00",
     "home": "MCI",
     "away": "BHA",
-    "status": "ns",
+    "status": "ft",
     "venue": {
      "name": "Etihad Stadium",
      "city": "Manchester",
@@ -2655,7 +2843,35 @@
       "role": "Sędzia VAR",
       "name": "John Brooks"
      }
-    ]
+    ],
+    "score": [
+     0,
+     1
+    ],
+    "events": [
+     {
+      "m": 11,
+      "t": "goal",
+      "s_": "a",
+      "who": "Yasin Ayari",
+      "how": "Dobitka z bliska"
+     },
+     {
+      "m": 55,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Rayan Cherki",
+      "out": "Ayyoub Bouaddi"
+     },
+     {
+      "m": 79,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Allan",
+      "out": "Iliman Ndiaye"
+     }
+    ],
+    "notes": "Ayari 11' po nieudanym wybiciu Matheusa Nunesa (dośrodkowanie De Cuypera). City: 19 strzałów, 5 celnych, xG 1,72; Verbruggen 7 obron – zawodnik meczu. Pierwszy mecz Haalanda bez gola od dłuższego czasu."
    },
    {
     "id": "PL-2026-27-R9-TOT-CRY",
@@ -2663,7 +2879,7 @@
     "time": "18:30",
     "home": "TOT",
     "away": "CRY",
-    "status": "ns",
+    "status": "ft",
     "venue": {
      "name": "Tottenham Hotspur Stadium",
      "city": "Londyn",
@@ -2735,7 +2951,58 @@
       "Over 2,5 po 1,58 (63%): Spurs u siebie średnio 2,75 gola/mecz, Palace 3,5 – moja ocena ok. 58–60%, EV ujemne.",
       "BTTS tak po 1,67 (60%) – brak wyraźnej przewagi przy przewidywanych zmianach w obronie Palace."
      ]
-    }
+    },
+    "score": [
+     2,
+     0
+    ],
+    "events": [
+     {
+      "m": 13,
+      "t": "var",
+      "s_": "a",
+      "kind": "Czerwona kartka – OFR",
+      "init": "Żółta kartka",
+      "fin": "Czerwona kartka"
+     },
+     {
+      "m": 13,
+      "t": "rc",
+      "s_": "a",
+      "who": "Jean-Philippe Mateta",
+      "why": "Poważny rażący faul (wślizg na van de Venie)"
+     },
+     {
+      "m": 25,
+      "t": "goal",
+      "s_": "h",
+      "who": "Archie Gray",
+      "how": "Głowa po rzucie rożnym"
+     },
+     {
+      "m": 73,
+      "t": "goal",
+      "s_": "h",
+      "who": "Jan Paul van Hecke",
+      "how": "Dobitka"
+     }
+    ],
+    "notes": "Mateta: żółta zmieniona na czerwoną po VAR (13'), pauzuje 3 mecze. Tottenham 34 strzały (najwięcej od 02.2016), 79,4% posiadania; Palace 3. mecz z rzędu bez gola, w strefie spadkowej. Sędzia Michael Oliver.",
+    "teamStats": [
+     [
+      "Posiadanie %",
+      79,
+      21
+     ]
+    ],
+    "officials": [
+     {
+      "r": "GŁ",
+      "role": "Sędzia główny",
+      "name": "Michael Oliver",
+      "nat": "ENG"
+     }
+    ]
    },
    {
     "id": "PL-2026-27-R9-AVL-FUL",
@@ -2743,7 +3010,7 @@
     "time": "21:00",
     "home": "AVL",
     "away": "FUL",
-    "status": "ns",
+    "status": "ft",
     "venue": {
      "name": "Villa Park",
      "city": "Birmingham",
@@ -2807,7 +3074,39 @@
       "Fulham w dobrej passie, wygrał ostatnie H2H; zespół zmęczony meczem pucharowym – czynniki się równoważą.",
       "Over 2,5 po 1,69 (59%) – Villa traci mało (12 w 8), Fulham strzela mało (8 w 8); brak przewagi ani na Over, ani na Under 2,17."
      ]
-    }
+    },
+    "score": [
+     1,
+     1
+    ],
+    "events": [
+     {
+      "m": 30,
+      "t": "yc",
+      "s_": "a",
+      "who": "David Affengruber"
+     },
+     {
+      "m": 39,
+      "t": "goal",
+      "s_": "h",
+      "who": "Nicolas Jackson",
+      "how": "Prawa noga"
+     },
+     {
+      "m": 64,
+      "t": "og",
+      "s_": "a",
+      "who": "Zion Suzuki"
+     },
+     {
+      "m": 76,
+      "t": "yc",
+      "s_": "h",
+      "who": "Matty Cash"
+     }
+    ],
+    "notes": "Jackson 39'; wyrównanie po samobóju bramkarza Ziona Suzukiego (64'). Składy wg VAVEL – AVL (4-2-3-1): Suzuki; Cash, Lindelöf, Pau Torres, Maatsen; Kamara, Goretzka; Alysson, McGinn, Manzambi; Jackson. FUL: Leno; Castagne, Affengruber, Bassey, Robinson; Berge, Charles; Bobb, King, Iwobi; García."
    },
    {
     "id": "PL-2026-27-R9-LIV-ARS",
@@ -2836,35 +3135,35 @@
      ]
     },
     "odds": {
-     "src": "Oddsportal 1X2 (stan na 31.10); O/U 2,5 – Bet365 via Stats Insider (31.10); podwójna szansa – oddslot, BTTS – KickOff.co.uk (28.10)",
-     "1": 2.95,
+     "src": "DraftKings via ESPN (1.11): 1X2 2,90/3,45/2,40, O/U 2,5 1,83/1,95, BTTS 1,67/2,20; Sky Bet 1X2 2,88/3,40/2,30 i bet365 Under 2,5 2,00 via Racing Post; podwójna szansa – oddslot (28.10)",
+     "1": 2.9,
      "X": 3.45,
-     "2": 2.45,
+     "2": 2.4,
      "1X": 1.62,
      "X2": 1.36,
      "12": 1.3,
-     "o25": 1.91,
-     "u25": 1.91,
+     "o25": 1.83,
+     "u25": 1.95,
      "bttsY": 1.67,
-     "bttsN": 2.1
+     "bttsN": 2.2
     },
     "info": {
      "injuries": {
       "home": [
        "Hugo Ekitike (ścięgno Achillesa)",
-       "Jeremie Frimpong (ścięgno udowe)",
+       "Jeremie Frimpong (mięsień)",
        "Conor Bradley (kolano)",
        "Giovanni Leoni (kolano)",
-       "Dominik Szoboszlai (ścięgno udowe – niepewny, Iraola: „ma szansę”)",
-       "Victor Muñoz (kolano – niepewny)"
+       "Dominik Szoboszlai (niepewny – może usiąść na ławce)",
+       "Victor Muñoz (niepewny – może zagrać)"
       ],
       "away": [
        "Bukayo Saka (mięsień czworogłowy)",
        "William Saliba (plecy)",
-       "Noni Madueke (kostka – niepewny, decyzja po sobotnim treningu)",
-       "Declan Rice (ścięgno – trenował w piątek, prawdopodobnie dostępny)",
-       "Riccardo Calafiori (biodro – trenował w piątek)",
-       "Christos Tzolis (ścięgno – trenował w piątek)"
+       "Noni Madueke (kostka – test w ostatniej chwili)",
+       "Riccardo Calafiori (biodro – poważnie zagrożony wg Racing Post)",
+       "Christos Tzolis (blisko powrotu)",
+       "Declan Rice (trenował – przewidywany w składzie)"
       ]
      },
      "suspensions": {
@@ -2878,7 +3177,7 @@
       "away": 5
      },
      "homeAway": "LIV u siebie w lidze tylko 2 pkt w 3 pierwszych meczach (potem 2:0 z Brighton); ARS na wyjazdach 9+ pkt, w lidze tylko 5 straconych goli w 8 meczach",
-     "stakes": "Arsenal 2. (21 pkt) goni Man City; Liverpool 4. (15 pkt), bez porażki od 3:0 z City 11.10. Liverpool w środę 90 min + karne w Pucharze Ligi z Chelsea (1:1, 6:5 k.; Wirtz wszedł z ławki i strzelił karnego – wraca do gry). Arsenal we wtorek 27.10 odpadł z Pucharu Ligi z Fleetwood (1:1, 3:5 k.). Arsenal nie wygrał ligowego meczu na Anfield od 2.09.2012 (13 wizyt).",
+     "stakes": "Arsenal 2. (21 pkt, mecz zaległy względem City, które w sobotę przegrało 0:1 z Brighton) – wygrana daje samodzielne prowadzenie. Liverpool 5. (15 pkt) po zwycięstwie Chelsea – przegrał tylko 1 z 13 meczów w sezonie. Obie drużyny po meczach Pucharu Ligi z karnymi w środku tygodnia (LIV śr., ARS wt.). Arsenal nie wygrał na Anfield w lidze od 13 wizyt; wygrał tylko 1 z 4 ostatnich wyjazdów. 12 z 14 meczów Arsenalu w sezonie miało maks. 3 gole; BTTS tylko w 1 z 6 ostatnich ligowych meczów Liverpoolu.",
      "h2h": [
       "2026-01-08 ARS 0:0 LIV",
       "2025-08-31 LIV 1:0 ARS",
@@ -2888,14 +3187,28 @@
      ]
     },
     "tip": {
-     "decision": "NO BET",
+     "decision": "BET",
+     "market": "Poniżej 2,5 gola",
+     "odds": 1.95,
+     "prob": 0.54,
+     "ev": 0.053,
+     "rating": 6,
+     "risk": "średnie",
      "reasons": [
-      "Kurs na Under 2,5 spadł z 1,97 do 1,91 (Bet365: 1,91/1,91) – przy mojej ocenie ok. 54% EV ≈ +3%, poniżej progu sensownej przewagi (wcześniej zapowiadałem, że przy kursie ok. 1,90 przewaga znika).",
-      "Arsenal odzyskuje zawodników: Rice, Calafiori i Tzolis trenowali w piątek – więcej jakości po stronie gości; Wirtz wrócił w Liverpoolu.",
-      "Argumenty za niską liczbą goli pozostają (ARS 5 straconych w 8 meczach, ostatnie H2H 0:0 i 1:0, brak Ekitike i Frimponga), ale rynek już je wycenia.",
-      "Brak Saliby i niepewność wokół Szoboszlaia i Madueke – za dużo niewiadomych przy cienkiej przewadze.",
-      "1X2 (2,95 / 3,45 / 2,45) zgodne z modelami (np. Stats Insider: 35% / 25% / 40%) – brak value na żadnym wyniku."
-     ]
+      "Arsenal ma najlepszą obronę ligi – tylko 5 straconych goli w 8 meczach; bez Saliby, ale z Gabrielem i Konsą.",
+      "BTTS padło tylko w 1 z 6 ostatnich ligowych meczów Liverpoolu; 12 z 14 meczów Arsenalu w sezonie miało ≤3 gole.",
+      "Liverpool bez Ekitike i Frimponga, Szoboszlai w najlepszym razie na ławce – mniej jakości w ataku i na prawej flance.",
+      "Obie drużyny po 120 min/karnych w Pucharze Ligi w tym tygodniu – zmęczenie sprzyja ostrożnemu tempu w meczu o wysokiej stawce.",
+      "Ostatnie ligowe H2H: 0:0 (01.2026) i 1:0 (08.2025) – mecze taktyczne, bez ryzyka po obu stronach.",
+      "Arsenal bez Saki i (prawdopodobnie) Madueke traci dwóch najgroźniejszych skrzydłowych."
+     ],
+     "risks": [
+      "Rynek BTTS tak (1,67 ≈ 60%) sugeruje, że bukmacherzy oczekują goli obu stron – sprzeczny sygnał.",
+      "Liverpool u siebie z Isakiem, Wirtzem i Gakpo potrafi szybko otworzyć mecz; jeden wczesny gol zmienia przebieg.",
+      "Przewaga mała (kilka pkt proc.), a rynki na hit kolejki są bardzo efektywne."
+     ],
+     "value": "Kurs 1,95 (DraftKings; bet365 2,00) wycenia under na 51%, szacuję ok. 54% → EV ok. +5%. Przy kursie poniżej 1,90 przewaga znika.",
+     "stake": "1% bankrollu"
     },
     "officials": [
      {
@@ -2929,7 +3242,8 @@
       "role": "Asystent VAR",
       "name": "James Bell"
      }
-    ]
+    ],
+    "notes": "Przewidywane składy (Racing Post, 4-2-3-1) – LIV: Alisson; Araujo, Jacquet, Van Dijk, Kerkez; Gravenberch, Mac Allister; Barcola, Wirtz, Gakpo; Isak. ARS: Raya; White, Konsa, Gabriel, Lewis-Skelly; Rice, Guimarães; Madueke, Ødegaard, Eze; Havertz."
    },
    {
     "id": "PL-2026-27-R9-NEW-EVE",
@@ -2958,12 +3272,12 @@
      ]
     },
     "odds": {
-     "src": "Oddsportal 1X2 (stan na 31.10, rano); O/U 2,5 – rg.org (22Bet, 28.10; DraftKings 1,71/2,10); BTTS – DraftKings via ESPN (30.10)",
+     "src": "MightyTips – porównanie (Melbet/Megapari/20Bet 2,35/3,50/2,90; 22Bet 2,37/3,75/3,05), stan 31.10; BTTS – DraftKings via ESPN (30.10)",
      "1": 2.35,
-     "X": 3.6,
-     "2": 3.0,
-     "o25": 1.71,
-     "u25": 2.14,
+     "X": 3.5,
+     "2": 2.9,
+     "o25": 1.72,
+     "u25": 2.1,
      "bttsY": 1.56,
      "bttsN": 2.35
     },
@@ -2998,13 +3312,46 @@
     "tip": {
      "decision": "NO BET",
      "reasons": [
-      "Kursy 2,30 / 3,70 / 3,00 (43% / 27% / 33%) odpowiadają wyrównanemu meczowi dwóch drużyn środka tabeli o podobnym dorobku (11 i 10 pkt).",
-      "Świeży wynik pucharowy (3:1 dla Evertonu) to argument za gośćmi, ale opieranie się na jednym meczu jest zawodne; Newcastle u siebie i z możliwością zmian w składzie.",
-      "Niejasna sytuacja kadrowa: Grealish (dyscyplina), Miley (niepewny), rotacje po meczu pucharowym – składy nieprzewidywalne.",
-      "Over 2,5 po 1,71 (58%) i BTTS tak po 1,56 (64%) – Everton strzela mało (8 w 8), brak przewagi na rynkach bramkowych.",
-      "Zbyt duża niepewność – NO BET."
+      "Kursy 2,35 / 3,50 / 2,90 (43% / 29% / 34%) – wyrównany mecz drużyn z 11 i 10 pkt; brak argumentu, by wycenić którąś stronę wyżej niż rynek.",
+      "Newcastle przegrało 3 z 4 ostatnich meczów i 3 ostatnie z Evertonem (w tym 1:3 w Pucharze Ligi 29.10), ale opieranie się na serii i jednym meczu jest zawodne.",
+      "Everton nie strzelił gola w 2 ostatnich meczach ligowych i nie wygrał 4 wyjazdów z rzędu – to przemawia przeciw typowi na gości.",
+      "Under 2,5 po 2,10 (48%) – Everton strzela mało (8 w 8), ale Newcastle traci dużo (14 w 8); szacuję ok. 48–50%, EV bliskie zera.",
+      "Niepewne składy: Osula, Miley, Fernández-Pardo (NEW) i Branthwaite (EVE) – zbyt duża niepewność."
      ]
-    }
+    },
+    "officials": [
+     {
+      "r": "GŁ",
+      "role": "Sędzia główny",
+      "name": "John Brooks",
+      "nat": "ENG"
+     },
+     {
+      "r": "AS1",
+      "role": "Asystent 1",
+      "name": "Nick Greenhalgh"
+     },
+     {
+      "r": "AS2",
+      "role": "Asystent 2",
+      "name": "Steve Meredith"
+     },
+     {
+      "r": "4.",
+      "role": "Sędzia techniczny",
+      "name": "Bobby Madley"
+     },
+     {
+      "r": "VAR",
+      "role": "Sędzia VAR",
+      "name": "Paul Howard"
+     },
+     {
+      "r": "AVAR",
+      "role": "Asystent VAR",
+      "name": "Stuart Burt"
+     }
+    ]
    }
   ],
   "10": [

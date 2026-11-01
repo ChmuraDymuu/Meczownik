@@ -1,9 +1,9 @@
 {
- "updated": "2026-10-31T06:50:00+01:00",
+ "updated": "2026-11-01T06:45:00+01:00",
  "season": "2026/27",
  "competition": "Ligue 1",
  "currentRound": 9,
- "note": "Źródła: livefoot.fr, ESPN, Foot Mercato (Le Havre–PSG), Maxifoot, Stade Rennais Online, eurofootnews (Nice–Rennes), ESPN, Footeo (Lille–Lens), Rue des Joueurs (kursy i absencje Strasbourg–Auxerre, OM–Toulouse, 29–30.10), Sportsgambler (Troyes–Le Mans, AH, przewidywane składy); wcześniej: foot-sur7.fr (składy i absencje Le Havre–PSG, 29.10), lyonfoot.com (kadra OL, 29.10), Rue des Joueurs/BettingNews/RotoWire (kursy Lorient–Brest), ligue1.com (sędziowie J9), Rue des Joueurs (kursy i wiadomości J9, stan na 26–28.10), RotoWire/Betr (kurs Lyon–Angers), FootballPredictions (kadry, forma, xG, H2H), Foot-sur7/Footeo/Lensois (zmiany terminów J9), psg.fr, BettingNews; wcześniej: t-online.de (relacje 8. kolejki), Foot01, Soccerway, Foot Mercato, Wincomparator, Maxifoot, Eurosport, L'Équipe.",
+ "note": "Źródła: FotMob (Troyes–Le Mans: składy, zdarzenia, xG, oceny), ESPN (statystyki), Footeo, Foot01, Eurofootnews (relacje 31.10), Rue des Joueurs (kursy i absencje Strasbourg–Auxerre, Paris FC–Monaco, 30.10–01.11), Starting11 (OM–Toulouse, 01.11); wcześniej: livefoot.fr, ESPN, Foot Mercato, Maxifoot, Stade Rennais Online, eurofootnews, Footeo, Sportsgambler, foot-sur7.fr, lyonfoot.com, BettingNews, RotoWire, ligue1.com (sędziowie J9), FootballPredictions, psg.fr, t-online.de, Foot01, Soccerway, Wincomparator, Eurosport, L'Équipe.",
  "teams": {
   "ANG": {
    "id": "ANG",
@@ -324,15 +324,15 @@
    "form": "DWLLD"
   },
   {
-   "team": "LMA",
-   "p": 8,
-   "w": 1,
-   "d": 4,
-   "l": 3,
-   "gf": 11,
+   "team": "TRO",
+   "p": 9,
+   "w": 2,
+   "d": 2,
+   "l": 5,
+   "gf": 7,
    "ga": 16,
-   "pts": 7,
-   "form": "DWLLD"
+   "pts": 8,
+   "form": "LLLDW"
   },
   {
    "team": "STR",
@@ -346,15 +346,15 @@
    "form": "DLLLL"
   },
   {
-   "team": "TRO",
-   "p": 8,
+   "team": "LMA",
+   "p": 9,
    "w": 1,
-   "d": 2,
-   "l": 5,
-   "gf": 5,
-   "ga": 16,
-   "pts": 5,
-   "form": "LLLLD"
+   "d": 4,
+   "l": 4,
+   "gf": 11,
+   "ga": 18,
+   "pts": 7,
+   "form": "WLLDL"
   },
   {
    "team": "HAV",
@@ -5369,13 +5369,13 @@
     "time": "20:45",
     "home": "TRO",
     "away": "LMA",
-    "status": "ns",
+    "status": "ft",
     "venue": {
      "name": "Stade de l'Aube",
      "city": "Troyes",
      "capacity": 20400
     },
-    "notes": "Termin i sędziowie potwierdzeni przez LFP (ligue1.com, 27–28.10.2026). Przewidywane składy (Sportsgambler): Troyes 4-3-3 – Konate; Maronnier, Monfray, Diaz, Gozzi; Mille, Karim, Diop; Ifnaou, Le Douaron, Nkada. Le Mans 3-5-2 – Kocik; Boisse, Yohou, Torrente; Buades, Bretelle, Lauray, Vercruysse, Calodat; Mafouta, Diallo.",
+    "notes": "Pierwsze ligowe zwycięstwo Troyes u siebie po serii 21 meczów bez wygranej na Stade de l'Aube (najdłuższa taka seria w historii Ligue 1). Le Mans bez celnego strzału do przerwy mimo 56% posiadania; Kocik bronił m.in. strzały Diawary (70') i Diopa (73'). Minuty zmian i drugiego gola wg FotMob (inne źródła: gol Boury 71', zmiany Troyes 79'). Statystyki: ESPN (posiadanie, strzały, rożne, faule, spalone), FotMob (xG, oceny).",
     "officials": [
      {
       "r": "GŁ",
@@ -5417,8 +5417,17 @@
     },
     "info": {
      "injuries": {
-      "home": [],
-      "away": []
+      "home": [
+       "Yvann Titi (mięsień)",
+       "Anis Ouzenadji (kostka)"
+      ],
+      "away": [
+       "Djibril Sidibé",
+       "Théo Eyoum",
+       "Adil Bourabaa (kostka)",
+       "Martin Rossignol",
+       "Erwan Colas"
+      ]
      },
      "restDays": {
       "home": 5,
@@ -5437,6 +5446,480 @@
       "Brak informacji o kontuzjach i składach w sprawdzonych źródłach.",
       "Aktualizacja 31.10: BetMGM Le Mans AH +0,25 po 1,84 — przy ocenie 40/30/30 EV ≈ 0,30×1,84 + 0,30×1,42 − 1 ≈ −0,02; brak wartości."
      ]
+    },
+    "score": [
+     2,
+     0
+    ],
+    "formation": {
+     "home": "4-3-3",
+     "away": "3-1-4-2"
+    },
+    "staff": {
+     "home": [
+      [
+       "Trener",
+       "Stéphane Dumont"
+      ]
+     ],
+     "away": [
+      [
+       "Trener",
+       "Patrick Videira"
+      ]
+     ]
+    },
+    "players": {
+     "home": [
+      [
+       40,
+       "Hillel Konaté",
+       "BR",
+       "",
+       true
+      ],
+      [
+       2,
+       "Lucas Maronnier",
+       "PO",
+       "",
+       true
+      ],
+      [
+       6,
+       "Adrien Monfray",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       4,
+       "Michel Diaz",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       5,
+       "Paolo Gozzi",
+       "LO",
+       "",
+       true
+      ],
+      [
+       17,
+       "Antoine Mille",
+       "ŚP",
+       "",
+       true
+      ],
+      [
+       29,
+       "Dermane Karim",
+       "DP",
+       "",
+       true
+      ],
+      [
+       8,
+       "Mouhamed Diop",
+       "ŚP",
+       "",
+       true
+      ],
+      [
+       10,
+       "Merwan Ifnaou",
+       "PS",
+       "",
+       true
+      ],
+      [
+       20,
+       "Renaud Ripart",
+       "N",
+       "",
+       true
+      ],
+      [
+       23,
+       "Timothé Nkada",
+       "LS",
+       "",
+       true
+      ],
+      [
+       7,
+       "Kandet Diawara",
+       "N",
+       "",
+       false
+      ],
+      [
+       14,
+       "Ismaël Boura",
+       "LO",
+       "",
+       false
+      ],
+      [
+       11,
+       "Iron Gomis",
+       "ŚP",
+       "",
+       false
+      ],
+      [
+       9,
+       "Jérémy Le Douaron",
+       "N",
+       "",
+       false
+      ],
+      [
+       22,
+       "Hugo Picard",
+       "PS",
+       "",
+       false
+      ]
+     ],
+     "away": [
+      [
+       98,
+       "Nicolas Kocik",
+       "BR",
+       "",
+       true
+      ],
+      [
+       15,
+       "Noa Boissé",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       17,
+       "Samuel Yohou",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       16,
+       "Raúl Torrente",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       8,
+       "Alexandre Lauray",
+       "DP",
+       "",
+       true
+      ],
+      [
+       18,
+       "Lucas Buadés",
+       "PO",
+       "",
+       true
+      ],
+      [
+       9,
+       "Antoine Rabillard",
+       "ŚP",
+       "",
+       true
+      ],
+      [
+       29,
+       "Lucas Bretelle",
+       "ŚP",
+       "",
+       true
+      ],
+      [
+       22,
+       "Lucas Calodat",
+       "LO",
+       "",
+       true
+      ],
+      [
+       14,
+       "Louis Mafouta",
+       "N",
+       "",
+       true
+      ],
+      [
+       13,
+       "Habibou Mouhamadou Diallo",
+       "N",
+       "",
+       true
+      ],
+      [
+       7,
+       "Billal Brahimi",
+       "PS",
+       "",
+       false
+      ],
+      [
+       25,
+       "Dame Gueye",
+       "N",
+       "",
+       false
+      ],
+      [
+       10,
+       "Jean Vercruysse",
+       "ŚP",
+       "",
+       false
+      ],
+      [
+       76,
+       "Yasser Larouci",
+       "LO",
+       "",
+       false
+      ],
+      [
+       20,
+       "William Harhouz",
+       "N",
+       "",
+       false
+      ]
+     ]
+    },
+    "events": [
+     {
+      "m": 18,
+      "t": "yc",
+      "s_": "h",
+      "who": "Michel Diaz"
+     },
+     {
+      "m": 33,
+      "t": "goal",
+      "s_": "h",
+      "who": "Mouhamed Diop",
+      "as": "Timothé Nkada",
+      "how": "Prawa noga"
+     },
+     {
+      "m": 46,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Billal Brahimi",
+      "out": "Habibou Mouhamadou Diallo"
+     },
+     {
+      "m": 46,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Dame Gueye",
+      "out": "Antoine Rabillard"
+     },
+     {
+      "m": 46,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Kandet Diawara",
+      "out": "Timothé Nkada"
+     },
+     {
+      "m": 47,
+      "t": "yc",
+      "s_": "a",
+      "who": "Raúl Torrente"
+     },
+     {
+      "m": 52,
+      "t": "yc",
+      "s_": "h",
+      "who": "Paolo Gozzi"
+     },
+     {
+      "m": 60,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Jean Vercruysse",
+      "out": "Alexandre Lauray"
+     },
+     {
+      "m": 60,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Ismaël Boura",
+      "out": "Paolo Gozzi"
+     },
+     {
+      "m": 66,
+      "t": "var",
+      "s_": "h",
+      "kind": "Kartka – kontrola (Kandet Diawara)",
+      "init": "Żółta kartka",
+      "fin": "Kartka anulowana"
+     },
+     {
+      "m": 67,
+      "t": "yc",
+      "s_": "a",
+      "who": "Nicolas Kocik"
+     },
+     {
+      "m": 67,
+      "t": "yc",
+      "s_": "h",
+      "who": "Ismaël Boura"
+     },
+     {
+      "m": 69,
+      "t": "goal",
+      "s_": "h",
+      "who": "Ismaël Boura",
+      "how": "Z bliska po rzucie rożnym"
+     },
+     {
+      "m": 74,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Yasser Larouci",
+      "out": "Lucas Calodat"
+     },
+     {
+      "m": 74,
+      "t": "sub",
+      "s_": "a",
+      "inn": "William Harhouz",
+      "out": "Louis Mafouta"
+     },
+     {
+      "m": 74,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Jérémy Le Douaron",
+      "out": "Renaud Ripart"
+     },
+     {
+      "m": 74,
+      "t": "yc",
+      "s_": "a",
+      "who": "Noa Boissé"
+     },
+     {
+      "m": 79,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Iron Gomis",
+      "out": "Mouhamed Diop"
+     },
+     {
+      "m": 79,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Hugo Picard",
+      "out": "Merwan Ifnaou"
+     },
+     {
+      "m": 90,
+      "s": "+6",
+      "t": "yc",
+      "s_": "a",
+      "who": "Samuel Yohou"
+     }
+    ],
+    "teamStats": [
+     [
+      "Posiadanie %",
+      39,
+      61
+     ],
+     [
+      "xG",
+      1.7,
+      0.28
+     ],
+     [
+      "Strzały",
+      14,
+      3
+     ],
+     [
+      "Celne",
+      8,
+      1
+     ],
+     [
+      "Rzuty rożne",
+      4,
+      2
+     ],
+     [
+      "Faule",
+      15,
+      16
+     ],
+     [
+      "Spalone",
+      2,
+      1
+     ]
+    ],
+    "ind": {
+     "Mouhamed Diop": {
+      "r": 8.6
+     },
+     "Adrien Monfray": {
+      "r": 8.3
+     },
+     "Dermane Karim": {
+      "r": 8.2
+     },
+     "Antoine Mille": {
+      "r": 7.8
+     },
+     "Michel Diaz": {
+      "r": 7.6
+     },
+     "Merwan Ifnaou": {
+      "r": 7.6
+     },
+     "Hillel Konaté": {
+      "r": 7.4
+     },
+     "Lucas Maronnier": {
+      "r": 7.4
+     },
+     "Samuel Yohou": {
+      "r": 7.4
+     },
+     "Nicolas Kocik": {
+      "r": 7.3
+     },
+     "Lucas Buadés": {
+      "r": 7.3
+     },
+     "Noa Boissé": {
+      "r": 6.0
+     },
+     "Alexandre Lauray": {
+      "r": 5.9
+     },
+     "Habibou Mouhamadou Diallo": {
+      "r": 5.7
+     }
+    },
+    "weather": {
+     "temp": 8
     }
    },
    {
@@ -5486,10 +5969,10 @@
      }
     ],
     "odds": {
-     "src": "Rue des Joueurs – najlepsze kursy (Unibet 1/2, Winamax X), stan na 30.10.2026 18:20",
-     "1": 1.77,
-     "X": 4.1,
-     "2": 4.0,
+     "src": "Rue des Joueurs – najlepsze kursy (Winamax 1/X, Unibet 2), stan na 31.10–01.11.2026; BTTS bez wskazanego bukmachera",
+     "1": 1.78,
+     "X": 4.0,
+     "2": 4.2,
      "bttsY": 1.46
     },
     "info": {
@@ -5497,7 +5980,7 @@
       "home": [
        "Joaquín Panichelli (kolano)",
        "Félix Baldé (noga)",
-       "Washington – jeszcze niedostępny",
+       "Washington",
        "Samuel Amo-Ameyaw – niepewny"
       ],
       "away": [
@@ -5517,7 +6000,7 @@
       "away": 7
      },
      "homeAway": "Strasbourg: 4 porażki ligowe z rzędu (Paris FC 1:2, Nice 1:2, PSG 1:3, Rennes 0:3), 16. miejsce, 18 straconych goli w 8 meczach. Auxerre: 3 wygrane w 5 ostatnich, ostatnio 1:1 z Le Mans. Ostatnie 10 meczów: xG/xGA Strasbourg 1,40/1,82, Auxerre 1,46/1,60; BTTS 70% u obu.",
-     "stakes": "Mecz drużyn z dolnej połowy: Strasbourg (7 pkt) tuż nad strefą spadkową, Auxerre (10 pkt) chce się od niej oddalić. Do składu Strasbourga wracają Doukouré i Nanasi.",
+     "stakes": "Mecz drużyn z dolnej połowy: Strasbourg (7 pkt) tuż nad strefą spadkową, Auxerre (10 pkt) chce się od niej oddalić. Do składu Strasbourga wracają Doukouré i Nanasi. Przewidywane składy (Rue des Joueurs): Strasbourg 4-2-3-1 z Harderem w ataku; Auxerre 3-4-3 z Archerem (5 goli w 6 meczach), Namaso i Faivre. Siwe i Senaya bliscy powrotu w Auxerre.",
      "h2h": [
       "2026-03-07 AUX 0:0 STR",
       "2025-10-29 STR 3:0 AUX",
@@ -5528,11 +6011,11 @@
     "tip": {
      "decision": "NO BET",
      "reasons": [
-      "Kursy 1,77 / 4,10 / 4,00 po marży ≈ 54% / 23% / 23%. xG/xGA z 10 meczów (1,40/1,82 vs 1,46/1,60) sugerują wyrównany mecz, ale rynek wycenia wyższą jakość kadry Strasbourga.",
-      "Auxerre 2 (4,00) daje dodatnie EV tylko przy p ≥ 25% — moja ocena ok. 25–27%, przewaga marginalna i niepewna (rating <6).",
-      "BTTS 1,46 (implik. 68%) przy ocenie ok. 62–65% — ujemne EV mimo 70% BTTS u obu w 10 meczach.",
-      "Strasbourg 4 porażki z rzędu, ale wracają Doukouré i Nanasi; Auxerre bez 4 graczy i z trzema niepewnymi — sygnały sprzeczne.",
-      "Brak kursów O/U i DNB w sprawdzonych źródłach."
+      "Kursy 1,78 / 4,00 / 4,20 po marży ≈ 54% / 24% / 23%; moja ocena ok. 52% / 23% / 25%.",
+      "Auxerre 2 po 4,20 przy p ≈ 25% daje EV ≈ +0,05 — przewaga minimalna, oparta na formie (3W w 5 meczach) przy słabszej kadrze i 4 kontuzjach; rating <6.",
+      "BTTS tak 1,46 (implik. 68%) vs moja ocena 62–65% — ujemne EV, mimo że oba zespoły mają najgorsze obrony ligi (po 18 straconych).",
+      "Strasbourg 4 porażki z rzędu, ale wracają Doukouré i Nanasi — sygnały sprzeczne.",
+      "Brak kursów O/U i DNB z wiarygodnego źródła."
      ]
     }
    },
@@ -5661,10 +6144,10 @@
      }
     ],
     "odds": {
-     "src": "Rue des Joueurs – najlepsze kursy (Unibet 1, Winamax X, Betclic 2), stan na 26.10.2026; X2, BTTS i u2,5 wg FootballPredictions (kursy US przeliczone)",
-     "1": 2.25,
-     "X": 3.55,
-     "2": 2.92,
+     "src": "Rue des Joueurs – najlepsze kursy (Winamax 1/X, Unibet 2), stan na 30.10.2026 18:00; X2, BTTS i u2,5 wg FootballPredictions (kursy US przeliczone, wcześniej)",
+     "1": 2.4,
+     "X": 3.5,
+     "2": 2.9,
      "X2": 1.67,
      "u25": 2.0,
      "bttsY": 1.67
@@ -5672,12 +6155,16 @@
     "info": {
      "injuries": {
       "home": [
+       "Nhoa Sangui (mięsień)",
+       "Tom Koleosho",
        "Jonathan Ikoné (udo)",
-       "Nhoa Sangui (mięsień)"
+       "Chergui – niepewny",
+       "Camara – niepewny"
       ],
       "away": [
-       "Eric Dier (mięsień)",
-       "Simon Idumbo (pachwina)"
+       "Simon Idumbo (pachwina)",
+       "Ansu Fati (do grudnia)",
+       "Eric Dier – niepewny (mięsień)"
       ]
      },
      "suspensions": {
@@ -5688,7 +6175,7 @@
       "home": 8,
       "away": 7
      },
-     "homeAway": "Paris FC u siebie w 10 ostatnich meczach: 3W-1D (2,25 gola/mecz, 1,00 straconych); Monaco na wyjeździe: 2W-1D-1L. xG/xGA (10 m.): Paris FC 1,31/1,26, Monaco 1,42/1,39.",
+     "homeAway": "Paris FC u siebie w 10 ostatnich meczach: 3W-1D (2,25 gola/mecz, 1,00 straconych); Monaco na wyjeździe: 2W-1D-1L. xG/xGA (10 m.): Paris FC 1,31/1,26, Monaco 1,42/1,39. Paris FC bez wygranej na wyjazdach, ale u siebie 3W-1D w tym sezonie (3. bilans domowy ligi); Monaco bez ligowego zwycięstwa w październiku (2:2 Toulouse, 0:1 Lorient, 1:1 Lille), wygrywa w Lidze Konferencji.",
      "stakes": "Bezpośredni rywale w czołówce: Monaco 4. (15 pkt), Paris FC 6. (14 pkt). Paris FC przegrał ostatnio 1:2 w Lens, Monaco zremisowało 1:1 z Lille.",
      "h2h": [
       "2026-04-10 PFC 4:1 MON",
@@ -5698,11 +6185,11 @@
     "tip": {
      "decision": "NO BET",
      "reasons": [
-      "Kursy 2,25 / 3,55 / 2,92 po marży ≈ 42% / 26% / 32%; moja ocena ok. 38% / 27% / 35% — ani 1, ani 2 nie daje przewagi ≥5%.",
-      "X2 po 1,67 przy mojej ocenie ok. 62% daje EV tylko ≈ +0,03 — za mało przy tej niepewności.",
-      "BTTS tak 1,67 (60%) i u2,5 po 2,00 (50%) bliskie statystyk obu drużyn — brak sygnału.",
-      "Kursy na rynki dodatkowe pochodzą z agregatora bez wskazanego bukmachera — mniejsza wiarygodność.",
-      "H2H (2 wygrane Paris FC) to za mała próba, by na nim opierać typ."
+      "Kursy 2,40 / 3,50 / 2,90 po marży ≈ 40% / 27% / 33%; moja ocena ok. 39% / 27% / 34% — różnice w granicach błędu.",
+      "Monaco 2 po 2,90 przy p ≈ 34% → EV ≈ −0,01; Paris FC 1 po 2,40 przy p ≈ 39% → EV ≈ −0,06.",
+      "X2 po 1,67 przy ocenie ok. 61% → EV ≈ +0,02 — za mało, a kurs pochodzi z agregatora bez wskazanego bukmachera.",
+      "Paris FC mocny u siebie, Monaco ma lepszą kadrę, ale słabą ligową formę i grę w pucharach — sygnały się znoszą.",
+      "H2H (2 wygrane Paris FC) to zbyt mała próba."
      ]
     }
    },
@@ -5753,7 +6240,7 @@
      }
     ],
     "odds": {
-     "src": "Rue des Joueurs – najlepsze kursy (Unibet 1/2, Winamax X), stan na 29.10.2026; X2 Unibet",
+     "src": "Rue des Joueurs – najlepsze kursy (Unibet 1/2, Winamax X), stan na 29.10.2026; X2 Unibet; Starting11 (średnia, 01.11.2026): 1,85 / 3,80 / 3,50",
      "1": 1.88,
      "X": 4.1,
      "2": 3.65,
@@ -5763,11 +6250,13 @@
      "injuries": {
       "home": [
        "Cornelius (biodro)",
-       "Abdallah – niepewny (decyzja taktyczna)"
+       "Moumbagna",
+       "Mbondo – niepewny (choroba)"
       ],
       "away": [
-       "Messali (koniec sezonu 2026)",
-       "Francis – niepewny"
+       "Messali (udo)",
+       "Francis – niepewny",
+       "Oppong i Niflore – rozbieżne informacje (Starting11: niedostępni; Rue des Joueurs: wracają)"
       ]
      },
      "suspensions": {
@@ -5794,7 +6283,8 @@
       "OM wygrywa w lidze, ale u siebie traci dużo goli (xGA 2,08 w meczach domowych) — niestabilna defensywa.",
       "Toulouse dobrze punktuje na wyjazdach (DDDW), a H2H to 2 remisy w ostatnich 3 meczach — remis realny, ale kurs 3,95 tego nie przecenia wyraźnie.",
       "Mecze OM w tym sezonie są bramkostrzelne (31 goli w 8), lecz kursów na gole nie znaleziono.",
-      "Aktualizacja 31.10: X2 po 1,68 (implik. 59,5%) vs moja ocena ok. 50% — ujemne EV; 1 po 1,88 bez przewagi przy słabej defensywie OM u siebie."
+      "Aktualizacja 31.10: X2 po 1,68 (implik. 59,5%) vs moja ocena ok. 50% — ujemne EV; 1 po 1,88 bez przewagi przy słabej defensywie OM u siebie.",
+      "Aktualizacja 01.11: średnie kursy 1,85 / 3,80 / 3,50 (≈ 52% / 25% / 27% po marży) — nadal zgodne z moją oceną; sprzeczne informacje o dostępności Oppong i Niflore zwiększają niepewność."
      ]
     }
    },

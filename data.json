@@ -1,9 +1,9 @@
 {
- "updated": "2026-10-31T06:55:00+01:00",
+ "updated": "2026-11-01T06:58:00+01:00",
  "season": "2026/27",
  "competition": "Ekstraklasa",
  "currentRound": 13,
- "note": "Źródła: ekstraklasa.org / sportowefakty.wp.pl (terminarz, obsada sędziowska), weszlo.com i krknews.pl (Cracovia–Motor 1:2), gornikzabrze.pl / tylkoslask.pl / interia.pl (Górnik–Legia 0:0: składy, zmiany, kartki, frekwencja, statystyki strzałów), lechpoznan.pl (obsada Lech–Wisła), Oddsportal (kursy 1X2, 31.10 rano), weszlo.com / flashscore.pl (Superbet). Tabela po piątkowych meczach 13. kolejki (LPO, POG, JAG, WPL z zaległymi meczami; WPL–LPO 17.12). Forma: ostatnie 5 meczów ligowych. Godziny w czasie zimowym (CET).",
+ "note": "Źródła: ekstraklasa.org (terminarz, protokół Wieczysta–Jagiellonia), sportowefakty.wp.pl (wyniki, tabela), polsatsport.pl (Płock–Piast, GKS–Widzew: składy, zmiany), mecze24.pl / eska.pl (Lech–Wisła), interia.pl, weszlo.com, tylkoslask.pl; kursy: Oddsportal (31.10), LV BET, Superbet. Tabela po sobotnich meczach 13. kolejki (Zagłębie, Korona, Radomiak, Śląsk, Raków, Pogoń grają 2.11; LPO, POG, JAG, WPL z zaległymi meczami). Kolejność przy równej liczbie punktów wg różnicy bramek. Forma: ostatnie 5 meczów ligowych. Godziny w czasie zimowym (CET).",
  "teams": {
   "LEG": {
    "id": "LEG",
@@ -2066,7 +2066,7 @@
     "time": "12:15",
     "home": "WPL",
     "away": "PIA",
-    "status": "ns",
+    "status": "ft",
     "odds": {
      "src": "Oddsportal 1X2 (stan na 31.10 ~06:50)",
      "1": 2.1,
@@ -2080,7 +2080,7 @@
      },
      "stakes": "11. Wisła Płock (14 pkt, mecz zaległy) vs 6. Piast (20 pkt)"
     },
-    "notes": "Wisła Płock wygrała 28.10 w Niepołomicach z Puszczą 2:1 po dogrywce (Hanulić 30', Akere 109'; Hiszpański nie wykorzystał karnego) — 120 minut gry na 3 dni przed meczem o 12:15. Piast odpadł 27.10 z Górnikiem Zabrze po 120 minutach i karnych.",
+    "notes": "Wisła Płock wygrała 28.10 w Niepołomicach z Puszczą 2:1 po dogrywce (Hanulić 30', Akere 109'; Hiszpański nie wykorzystał karnego) — 120 minut gry na 3 dni przed meczem o 12:15. Piast odpadł 27.10 z Górnikiem Zabrze po 120 minutach i karnych. | PO MECZU: 2:2 (0:2). Piast prowadził po golach Katsantonisa (24') i Leśniaka (37', pierwszy gol w Ekstraklasie; kapitan pod nieobecność pauzującego za kartki Boisgarda), Wisła odrobiła straty po przerwie (Kobacki 46', Sekulski 68'). Składy wyjściowe — Wisła Płock: Leszczyński – Haglind-Sangre, Kamiński, Silva – Rogelj, Prsir, Akere, Hiszpański, Gallapeni – Kobacki, Sekulski. Piast: Gril – Twumasi, Rivas, Sierralta, Lewicki – Lima, Leśniak, Łabojko, Vallejo – Katsantonis, Sanca. Kartki: brak danych z minutami. Źródła: polsatsport.pl, weszlo.com.",
     "tip": {
      "decision": "NO BET",
      "reasons": [
@@ -2095,6 +2095,103 @@
       "nat": "POL",
       "city": "Warszawa"
      }
+    ],
+    "score": [
+     2,
+     2
+    ],
+    "events": [
+     {
+      "m": 24,
+      "t": "goal",
+      "s_": "a",
+      "who": "Andreas Katsantonis",
+      "as": "Ivan Lima"
+     },
+     {
+      "m": 37,
+      "t": "goal",
+      "s_": "a",
+      "who": "Oskar Leśniak",
+      "as": "Hugo Vallejo"
+     },
+     {
+      "m": 46,
+      "t": "goal",
+      "s_": "h",
+      "who": "Olaf Kobacki",
+      "as": "Żan Rogelj"
+     },
+     {
+      "m": 61,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Said Hamulić",
+      "out": "Olaf Kobacki"
+     },
+     {
+      "m": 63,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Samuel Ntamack",
+      "out": "Andreas Katsantonis"
+     },
+     {
+      "m": 67,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Filip Borowski",
+      "out": "Emmanuel Twumasi"
+     },
+     {
+      "m": 68,
+      "t": "goal",
+      "s_": "h",
+      "who": "Łukasz Sekulski",
+      "as": "Afonso Silva"
+     },
+     {
+      "m": 71,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Krystian Pomorski",
+      "out": "Łukasz Sekulski"
+     },
+     {
+      "m": 72,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Deni Jurić",
+      "out": "Fabian Hiszpański"
+     },
+     {
+      "m": 77,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Szczepan Mucha",
+      "out": "Ivan Lima"
+     },
+     {
+      "m": 88,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Oliwier Maziarz",
+      "out": "Jakub Łabojko"
+     },
+     {
+      "m": 88,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Jorge Felix",
+      "out": "Leandro Sanca"
+     },
+     {
+      "m": 89,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Gleb Kuczko",
+      "out": "Samuel Akere"
+     }
     ]
    },
    {
@@ -2103,7 +2200,7 @@
     "time": "14:45",
     "home": "WIE",
     "away": "JAG",
-    "status": "ns",
+    "status": "ft",
     "odds": {
      "src": "Oddsportal 1X2 (stan na 31.10 ~06:50)",
      "1": 2.25,
@@ -2117,7 +2214,7 @@
      },
      "stakes": "16. Wieczysta (8 pkt) walczy o wyjście ze strefy spadkowej; 10. Jagiellonia (15 pkt, mecz zaległy)"
     },
-    "notes": "Jagiellonia wygrała 28.10 (20:30) w Gdańsku z Lechią w 1/16 Pucharu Polski wysoko — co najmniej 5:0 w 61. min (Prelec, Sow ×3, Imaz); na mecz w Krakowie ma niecałe 3 dni odpoczynku i podróż. Wieczysta nie grała w tej rundzie pucharu.",
+    "notes": "Jagiellonia wygrała 28.10 (20:30) w Gdańsku z Lechią w 1/16 Pucharu Polski wysoko — co najmniej 5:0 w 61. min (Prelec, Sow ×3, Imaz); na mecz w Krakowie ma niecałe 3 dni odpoczynku i podróż. Wieczysta nie grała w tej rundzie pucharu. | PO MECZU: 1:3 (0:1). Rzut karny za zagranie ręką Lucasa Piazona — Imaz (8', jego 100. gol dla Jagiellonii); Semedo trafił w poprzeczkę przed przerwą; Milić zszedł z urazem (36'), Wieteska nieobecny. Wieczysta wyrównała po rożnym (Dujmović 72'), Jagiellonia rozstrzygnęła w końcówce (Prelec 80', Vital 84'). 4. porażka Wieczystej z rzędu. Składy wyjściowe — Wieczysta: Kochalski, Djermanovic, Milić, Pestka, Fila, Piazon, Maigaard, Pušić, Koulouris, Semedo, Villar. Jagiellonia: Abramowicz, Wdowik, Vital, Stojinović, Conceição, Kozłowski, Imaz, Szmyt, Lozano, Rallis, Sow. Żółta kartka 45+1' dla zawodnika Jagiellonii (nazwisko niepodane). Źródła: ekstraklasa.org, interia.pl.",
     "tip": {
      "decision": "NO BET",
      "reasons": [
@@ -2132,7 +2229,153 @@
       "nat": "POL",
       "city": "Wrocław"
      }
-    ]
+    ],
+    "score": [
+     1,
+     3
+    ],
+    "events": [
+     {
+      "m": 8,
+      "t": "pen",
+      "s_": "a",
+      "who": "Jesús Imaz",
+      "res": "Gol"
+     },
+     {
+      "m": 36,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Duje Dujmović",
+      "out": "Antonio Milić"
+     },
+     {
+      "m": 46,
+      "t": "sub",
+      "s_": "a",
+      "inn": "T. Romanczuk",
+      "out": "E. Kozłowski"
+     },
+     {
+      "m": 55,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Tobias Christensen",
+      "out": "Miki Villar"
+     },
+     {
+      "m": 55,
+      "t": "sub",
+      "s_": "h",
+      "inn": "B. Lederman",
+      "out": "P. Pušić"
+     },
+     {
+      "m": 59,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Nik Prelec",
+      "out": "D. Rallis"
+     },
+     {
+      "m": 60,
+      "t": "sub",
+      "s_": "a",
+      "inn": "A. Klynge",
+      "out": "Sergio Lozano"
+     },
+     {
+      "m": 66,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Guilherme Montóia",
+      "out": "B. Wdowik"
+     },
+     {
+      "m": 72,
+      "t": "goal",
+      "s_": "h",
+      "who": "Duje Dujmović",
+      "as": "Tobias Christensen",
+      "how": "Głowa"
+     },
+     {
+      "m": 75,
+      "t": "yc",
+      "s_": "h",
+      "who": "K. Fila"
+     },
+     {
+      "m": 77,
+      "t": "sub",
+      "s_": "a",
+      "inn": "J. Agbonifo",
+      "out": "O. Sow"
+     },
+     {
+      "m": 80,
+      "t": "goal",
+      "s_": "a",
+      "who": "Nik Prelec"
+     },
+     {
+      "m": 81,
+      "t": "sub",
+      "s_": "h",
+      "inn": "M. Vojtko",
+      "out": "K. Pestka"
+     },
+     {
+      "m": 81,
+      "t": "sub",
+      "s_": "h",
+      "inn": "B. Białek",
+      "out": "E. Koulouris"
+     },
+     {
+      "m": 84,
+      "t": "goal",
+      "s_": "a",
+      "who": "Bernardo Vital",
+      "as": "Guilherme Montóia"
+     }
+    ],
+    "teamStats": [
+     [
+      "Posiadanie %",
+      46,
+      54
+     ],
+     [
+      "Strzały",
+      21,
+      18
+     ],
+     [
+      "Celne",
+      7,
+      9
+     ],
+     [
+      "Niecelne",
+      8,
+      3
+     ],
+     [
+      "Zablokowane",
+      6,
+      6
+     ]
+    ],
+    "staff": {
+     "home": [
+      [
+       "Trener",
+       "Żeljko Kopić"
+      ]
+     ],
+     "away": []
+    }
    },
    {
     "id": "2026-27-R13-LPO-WIS",
@@ -2140,7 +2383,7 @@
     "time": "17:30",
     "home": "LPO",
     "away": "WIS",
-    "status": "ns",
+    "status": "ft",
     "odds": {
      "src": "Oddsportal 1X2 (stan na 31.10 ~06:50)",
      "1": 1.73,
@@ -2164,7 +2407,7 @@
       "away": []
      }
     },
-    "notes": "Lech przegrał 28.10 w Tarnobrzegu z III-ligową Siarką 0:1 (gol Arkadiusza Kasi, 64') i odpadł z Pucharu Polski; od końca 1. połowy grał w dziesiątkę po 2. żółtej kartce Yannicka Agnero (kara pucharowa). Frederiksen rotował składem i mówił o „sporej liczbie kontuzji”. Wisła Kraków nie grała w tej rundzie pucharu (7 dni odpoczynku). Ostatni mecz Lech–Wisła w Poznaniu: 5:0. Obsada wg lechpoznan.pl; sędzia techniczny pominięty, bo podany tam Marcin Szczerbowicz został przesunięty na mecz Górnik–Legia.",
+    "notes": "Lech przegrał 28.10 w Tarnobrzegu z III-ligową Siarką 0:1 (gol Arkadiusza Kasi, 64') i odpadł z Pucharu Polski; od końca 1. połowy grał w dziesiątkę po 2. żółtej kartce Yannicka Agnero (kara pucharowa). Frederiksen rotował składem i mówił o „sporej liczbie kontuzji”. Wisła Kraków nie grała w tej rundzie pucharu (7 dni odpoczynku). Ostatni mecz Lech–Wisła w Poznaniu: 5:0. Obsada wg lechpoznan.pl; sędzia techniczny pominięty, bo podany tam Marcin Szczerbowicz został przesunięty na mecz Górnik–Legia. | PO MECZU: 3:1 (0:0), 36 229 widzów. Trzy gole Lecha w 10 minut (Kozubal 54', Walemark 57', Agnero 64'), dla Wisły Krzyżanowski głową (56'). Po analizie VAR karny dla Wisły — Rodado przestrzelił nad poprzeczką (eska.pl: 81'; faul wg mecze24.pl w 76'). James Igbekeme zszedł z urazem ok. 70' (za niego Victor Meseguer). Lech zrobił 5 zmian w składzie (m.in. Lis, Gurgul, Kozubal, Rodriguez, Walemark, Pereira, Skrzypczak, Murawski); Wisła wyszła tą samą jedenastką co z Rakowem. 5. ligowe zwycięstwo Lecha z rzędu. Źródła: mecze24.pl, eska.pl.",
     "tip": {
      "decision": "NO BET",
      "reasons": [
@@ -2192,6 +2435,13 @@
       "nat": "POL"
      },
      {
+      "r": "4.",
+      "role": "Sędzia techniczny",
+      "name": "Marcin Szczerbowicz",
+      "nat": "POL",
+      "city": "Olsztyn"
+     },
+     {
       "r": "VAR",
       "role": "Sędzia VAR",
       "name": "Piotr Lasyk",
@@ -2203,6 +2453,68 @@
       "name": "Tomasz Listkiewicz",
       "nat": "POL"
      }
+    ],
+    "score": [
+     3,
+     1
+    ],
+    "attendance": 36229,
+    "staff": {
+     "home": [
+      [
+       "Trener",
+       "Niels Frederiksen"
+      ]
+     ],
+     "away": [
+      [
+       "Trener",
+       "Mariusz Jop"
+      ]
+     ]
+    },
+    "events": [
+     {
+      "m": 54,
+      "t": "goal",
+      "s_": "h",
+      "who": "Antoni Kozubal"
+     },
+     {
+      "m": 56,
+      "t": "goal",
+      "s_": "a",
+      "who": "Jakub Krzyżanowski",
+      "as": "Frederico Duarte",
+      "how": "Głowa"
+     },
+     {
+      "m": 57,
+      "t": "goal",
+      "s_": "h",
+      "who": "Patrik Walemark"
+     },
+     {
+      "m": 64,
+      "t": "goal",
+      "s_": "h",
+      "who": "Yannick Agnero"
+     },
+     {
+      "m": 76,
+      "t": "var",
+      "s_": "a",
+      "kind": "Rzut karny – OFR (faul Kozubala na Krzyżanowskim)",
+      "init": "Brak karnego",
+      "fin": "Rzut karny"
+     },
+     {
+      "m": 81,
+      "t": "pen",
+      "s_": "a",
+      "who": "Angel Rodado",
+      "res": "Niecelny"
+     }
     ]
    },
    {
@@ -2211,7 +2523,7 @@
     "time": "20:15",
     "home": "GKS",
     "away": "WID",
-    "status": "ns",
+    "status": "ft",
     "odds": {
      "src": "Oddsportal 1X2 (stan na 31.10 ~06:50); poniżej 2,5: Superbet (flashscore.pl)",
      "1": 2.1,
@@ -2226,7 +2538,7 @@
      },
      "stakes": "8. GKS (18 pkt) vs 14. Widzew (11 pkt, 8 remisów w 12 meczach)"
     },
-    "notes": "GKS Katowice odpadł 27.10 z Pucharu Polski po porażce 0:1 z Górnikiem Łęczna. Widzew nie gra w tej rundzie pucharu.",
+    "notes": "GKS Katowice odpadł 27.10 z Pucharu Polski po porażce 0:1 z Górnikiem Łęczna. Widzew nie gra w tej rundzie pucharu. | PO MECZU: 3:2 (1:0), hat-trick Bartosza Nowaka (33', 59' — strzał z rykoszetem od obrońcy Widzewa, 65'); Widzew odpowiedział golami Kapuadiego (70', po rożnym) i Świderskiego (74'). Gol Malesa w 13' nieuznany (spalony), Galán trafił w słupek (29'). Składy wyjściowe — GKS: Kobylak – Czerwiński, Klemenz, Resta, Wasielewski – Łukasiak, Kowalczyk, Galán, Wędrychowski, Shkurin, Nowak. Widzew: Drągowski – Gazibegović, Wiśniewski, Visus, Kapuadi – Papanikolaou, Males, Kornvig, Shehu, Biuk, Świderski. Żółte kartki (bez minut): Łukasiak, Milewski (GKS); Cheng, Vermesan, Alvarez (Widzew). Sędzia: Wojciech Myć. Źródła: polsatsport.pl, tylkoslask.pl.",
     "tip": {
      "decision": "NO BET",
      "reasons": [
@@ -2240,6 +2552,122 @@
       "name": "Wojciech Myć",
       "nat": "POL",
       "city": "Włodawa"
+     }
+    ],
+    "score": [
+     3,
+     2
+    ],
+    "staff": {
+     "home": [
+      [
+       "Trener",
+       "Rafał Górak"
+      ]
+     ],
+     "away": [
+      [
+       "Trener",
+       "Mateusz Stolarski"
+      ]
+     ]
+    },
+    "events": [
+     {
+      "m": 33,
+      "t": "goal",
+      "s_": "h",
+      "who": "Bartosz Nowak"
+     },
+     {
+      "m": 46,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Christopher Cheng",
+      "out": "Ricardo Visus"
+     },
+     {
+      "m": 59,
+      "t": "goal",
+      "s_": "h",
+      "who": "Bartosz Nowak",
+      "how": "Strzał rykoszetem od obrońcy"
+     },
+     {
+      "m": 63,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Mateusz Wdowiak",
+      "out": "Alan Czerwiński"
+     },
+     {
+      "m": 63,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Sebastian Milewski",
+      "out": "Kacper Łukasiak"
+     },
+     {
+      "m": 63,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Sebastian Bergier",
+      "out": "Darian Males"
+     },
+     {
+      "m": 63,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Francisco Alvarez",
+      "out": "Juljan Shehu"
+     },
+     {
+      "m": 65,
+      "t": "goal",
+      "s_": "h",
+      "who": "Bartosz Nowak"
+     },
+     {
+      "m": 70,
+      "t": "goal",
+      "s_": "a",
+      "who": "Steve Kapuadi",
+      "how": "Po rzucie rożnym"
+     },
+     {
+      "m": 74,
+      "t": "goal",
+      "s_": "a",
+      "who": "Karol Świderski"
+     },
+     {
+      "m": 76,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Ioan Vermesan",
+      "out": "Emil Kornvig"
+     },
+     {
+      "m": 78,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Eman Markovic",
+      "out": "Marcel Wędrychowski"
+     },
+     {
+      "m": 86,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Lindon Selahi",
+      "out": "Giannis Papanikolaou"
+     },
+     {
+      "m": 90,
+      "s": "+2",
+      "t": "sub",
+      "s_": "h",
+      "inn": "Arkadiusz Jędrych",
+      "out": "Borja Galan"
      }
     ]
    },
@@ -2269,12 +2697,19 @@
     "notes": "Obie drużyny odpadły w 1/16 Pucharu Polski po dogrywkach: Radomiak przegrał z Avią Świdnik 1:2, Śląsk z Odrą Opole 1:2.",
     "info": {
      "homeAway": "Radomiak przegrał 5 ostatnich meczów ligowych (LLLLL), 28 straconych goli w 12 meczach; Śląsk 4 porażki i ostatnio zwycięstwo 2:0 z Wieczystą (LLLLW)",
-     "stakes": "17. Radomiak (8 pkt) vs 15. Śląsk (9 pkt) — bezpośredni mecz o utrzymanie"
+     "stakes": "17. Radomiak (8 pkt) vs 15. Śląsk (9 pkt) — bezpośredni mecz o utrzymanie",
+     "h2h": [
+      "2025-02-08 RAD 1:1 SLA",
+      "2024-12-14 SLA 1:2 RAD",
+      "2024-10-29 RAD 0:3 SLA",
+      "2024-05-18 SLA 2:0 RAD",
+      "2023-11-27 RAD 0:1 SLA"
+     ]
     },
     "tip": {
      "decision": "NO BET",
      "reasons": [
-      "Kursy 2,15 / 3,65 / 3,00 (ok. 45% / 26% / 31% po marży) — dwie słabe drużyny po pucharowych dogrywkach i porażkach, Radomiak bez punktu od 5 kolejek. Brak wiarygodnych danych o składach i kontuzjach, tylko rynek 1X2 — bez przewagi."
+      "Kursy bez zmian (2,15 / 3,60–3,65 / 3,00; ok. 45% / 27% / 31% po marży). Dwie słabe drużyny po pucharowych porażkach po dogrywkach, brak informacji o kontuzjach i składach, tylko 1X2 i 1X — brak przewagi."
      ]
     }
    },
@@ -2304,12 +2739,19 @@
     "notes": "Korona odpadła w 1/16 Pucharu Polski po porażce 1:2 z Polonią Warszawa.",
     "info": {
      "homeAway": "Zagłębie: forma WLLWD, bilans bramek 15:15; Korona: WWLLW, 14:18",
-     "stakes": "7. Zagłębie (19 pkt) vs 9. Korona (18 pkt) — środek tabeli"
+     "stakes": "7. Zagłębie (19 pkt) vs 9. Korona (18 pkt) — środek tabeli",
+     "h2h": [
+      "2026-02-06 KOR 1:2 ZAG",
+      "2025-08-01 ZAG 1:1 KOR",
+      "2025-03-16 ZAG 1:1 KOR",
+      "2024-09-15 KOR 2:0 ZAG",
+      "2024-03-03 ZAG 1:0 KOR"
+     ]
     },
     "tip": {
      "decision": "NO BET",
      "reasons": [
-      "Kursy 2,50 / 3,35 / 2,70 oddają wyrównany mecz sąsiadów w tabeli; BTTS tak 1,70 (Superbet) przy wycenie ok. 55–57% — EV ≤ 0. Brak przewagi."
+      "Kursy stabilne (2,50 / 3,30–3,35 / 2,70) — wyrównany mecz sąsiadów w tabeli; BTTS tak 1,70 przy mojej wycenie ok. 55–57% daje EV ≤ 0. H2H 2–1–2, nic nie przechyla szali."
      ]
     }
    },
@@ -2321,10 +2763,12 @@
     "away": "POG",
     "status": "ns",
     "odds": {
-     "src": "Oddsportal 1X2 (stan na 31.10 ~06:50)",
+     "src": "Oddsportal 1X2 (31.10 ~06:50); 1X/X2: LV BET (blog.lvbet.pl, 1.11)",
      "1": 2.25,
      "X": 3.7,
-     "2": 2.8
+     "2": 2.8,
+     "1X": 1.45,
+     "X2": 1.7
     },
     "officials": [
      {
@@ -2341,12 +2785,19 @@
       "home": 6
      },
      "homeAway": "Raków ostatni w tabeli (2-0-10, 16:28); Pogoń 5 zwycięstw z rzędu (WWWWW), ostatnio 4:3 z Radomiakiem",
-     "stakes": "18. Raków (6 pkt) vs 3. Pogoń (24 pkt, mecz zaległy)"
+     "stakes": "18. Raków (6 pkt) vs 3. Pogoń (24 pkt, mecz zaległy)",
+     "h2h": [
+      "2026-03-08 RAK 2:0 POG",
+      "2025-08-31 POG 2:0 RAK",
+      "2025-04-19 POG 1:0 RAK",
+      "2024-10-20 RAK 1:0 POG",
+      "2024-05-11 RAK 2:1 POG"
+     ]
     },
     "tip": {
      "decision": "NO BET",
      "reasons": [
-      "Rynek mimo tabeli faworyzuje Raków (2,25 / 3,70 / 2,80; Pogoń ok. 36% po marży). Tabela przemawia za Pogonią, ale kursy wskazują, że bukmacherzy wyceniają potencjał kadry Rakowa wyżej niż jego wyniki — bez xG i informacji o składach nie potrafię wiarygodnie ocenić, kto ma rację. Zbyt duża niepewność."
+      "X2 1,70 (LV BET) ≈ 59% z kursu; Pogoń ma lepszą formę (5 wygranych z rzędu), ale rynek konsekwentnie faworyzuje Raków (2,25–2,30), a H2H 3–2 dla Rakowa. Bez xG, potwierdzonych składów i wiarygodnych kursów na rynki bramkowe (dostępne oferty niespójne) nie widzę przewagi ≥5%."
      ]
     }
    }
@@ -2429,14 +2880,14 @@
  "table": [
   {
    "team": "LPO",
-   "p": 11,
-   "w": 9,
+   "p": 12,
+   "w": 10,
    "d": 1,
    "l": 1,
-   "gf": 29,
-   "ga": 10,
-   "pts": 28,
-   "form": "LWWWW"
+   "gf": 32,
+   "ga": 11,
+   "pts": 31,
+   "form": "WWWWW"
   },
   {
    "team": "GZA",
@@ -2472,26 +2923,37 @@
    "form": "WWWWW"
   },
   {
-   "team": "WIS",
-   "p": 12,
-   "w": 6,
-   "d": 3,
-   "l": 3,
-   "gf": 19,
-   "ga": 15,
+   "team": "GKS",
+   "p": 13,
+   "w": 7,
+   "d": 0,
+   "l": 6,
+   "gf": 25,
+   "ga": 19,
    "pts": 21,
-   "form": "WWLDW"
+   "form": "WWLLW"
   },
   {
    "team": "PIA",
-   "p": 12,
+   "p": 13,
    "w": 6,
-   "d": 2,
+   "d": 3,
    "l": 4,
-   "gf": 22,
+   "gf": 24,
+   "ga": 20,
+   "pts": 21,
+   "form": "LWDWD"
+  },
+  {
+   "team": "WIS",
+   "p": 13,
+   "w": 6,
+   "d": 3,
+   "l": 4,
+   "gf": 20,
    "ga": 18,
-   "pts": 20,
-   "form": "WLWDW"
+   "pts": 21,
+   "form": "WLDWL"
   },
   {
    "team": "ZAG",
@@ -2505,15 +2967,15 @@
    "form": "WLLWD"
   },
   {
-   "team": "GKS",
+   "team": "JAG",
    "p": 12,
    "w": 6,
    "d": 0,
    "l": 6,
-   "gf": 22,
-   "ga": 17,
+   "gf": 17,
+   "ga": 18,
    "pts": 18,
-   "form": "WWWLL"
+   "form": "LLLWW"
   },
   {
    "team": "KOR",
@@ -2538,26 +3000,15 @@
    "form": "DWWDW"
   },
   {
-   "team": "JAG",
-   "p": 11,
-   "w": 5,
-   "d": 0,
-   "l": 6,
-   "gf": 14,
-   "ga": 17,
-   "pts": 15,
-   "form": "LLLLW"
-  },
-  {
    "team": "WPL",
-   "p": 11,
+   "p": 12,
    "w": 4,
-   "d": 2,
+   "d": 3,
    "l": 5,
-   "gf": 10,
-   "ga": 16,
-   "pts": 14,
-   "form": "WWLWL"
+   "gf": 12,
+   "ga": 18,
+   "pts": 15,
+   "form": "WLWLD"
   },
   {
    "team": "CRA",
@@ -2572,14 +3023,14 @@
   },
   {
    "team": "WID",
-   "p": 12,
+   "p": 13,
    "w": 1,
    "d": 8,
-   "l": 3,
-   "gf": 15,
-   "ga": 16,
+   "l": 4,
+   "gf": 17,
+   "ga": 19,
    "pts": 11,
-   "form": "DDLDD"
+   "form": "DLDDL"
   },
   {
    "team": "SLA",
@@ -2594,14 +3045,14 @@
   },
   {
    "team": "WIE",
-   "p": 12,
+   "p": 13,
    "w": 2,
    "d": 2,
-   "l": 8,
-   "gf": 16,
-   "ga": 23,
+   "l": 9,
+   "gf": 17,
+   "ga": 26,
    "pts": 8,
-   "form": "DWLLL"
+   "form": "WLLLL"
   },
   {
    "team": "RAD",

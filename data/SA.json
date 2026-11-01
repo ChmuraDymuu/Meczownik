@@ -1,9 +1,9 @@
 {
- "updated": "2026-10-31T06:30:00+01:00",
+ "updated": "2026-11-01T06:15:00+01:00",
  "season": "2026/27",
  "competition": "Serie A",
  "currentRound": 10,
- "note": "Źródła: TuttoMercatoWeb, Gianluca Di Marzio, Corriere dello Sport (sędziowie 10. kolejki, 30.10), TuttoMercatoWeb (przewidywane składy, kontuzje i pauzy, 30.10), Goal.com Italia, Fantacalcio.it (zawieszeni), Oddsportal (kursy 1X2, 31.10), RG.org i Sportsgambler (kursy bramkowe, 29.10); wcześniejsze dane: Virgilio Sport, ANSA, Calcio e Finanza, oddslot/BC.Game, footballpredictions.com, Football Italia, OA Sport, LaPresse, Fanpage, ESPN, Sky Sport, Wikipedia.",
+ "note": "Źródła: ESPN i acmilan.com (Milan–Inter 31.10), Virgilio Sport i ANSA (Bologna–Monza 31.10), futboltotal (Udinese–Roma 31.10), oddscalendar/oddslot/footballpredictions (kursy 01.11); wcześniej: TuttoMercatoWeb, Gianluca Di Marzio, Corriere dello Sport, Goal.com Italia, Fantacalcio.it, Oddsportal, RG.org, Sportsgambler, Virgilio Sport, ANSA, Football Italia, Sky Sport, Wikipedia.",
  "teams": {
   "ATA": {
    "id": "ATA",
@@ -188,17 +188,6 @@
  },
  "table": [
   {
-   "team": "INT",
-   "p": 9,
-   "w": 8,
-   "d": 1,
-   "l": 0,
-   "gf": 25,
-   "ga": 10,
-   "pts": 25,
-   "form": "DWWWW"
-  },
-  {
    "team": "LAZ",
    "p": 9,
    "w": 8,
@@ -210,15 +199,37 @@
    "form": "WWWWW"
   },
   {
+   "team": "INT",
+   "p": 10,
+   "w": 8,
+   "d": 1,
+   "l": 1,
+   "gf": 26,
+   "ga": 13,
+   "pts": 25,
+   "form": "WWWWL"
+  },
+  {
    "team": "ROM",
-   "p": 9,
-   "w": 6,
+   "p": 10,
+   "w": 7,
    "d": 3,
    "l": 0,
-   "gf": 23,
-   "ga": 8,
+   "gf": 28,
+   "ga": 10,
+   "pts": 24,
+   "form": "DWDWW"
+  },
+  {
+   "team": "MIL",
+   "p": 10,
+   "w": 6,
+   "d": 3,
+   "l": 1,
+   "gf": 21,
+   "ga": 12,
    "pts": 21,
-   "form": "DDWDW"
+   "form": "DWWLW"
   },
   {
    "team": "COM",
@@ -230,17 +241,6 @@
    "ga": 8,
    "pts": 20,
    "form": "LDWWW"
-  },
-  {
-   "team": "MIL",
-   "p": 9,
-   "w": 5,
-   "d": 3,
-   "l": 1,
-   "gf": 18,
-   "ga": 11,
-   "pts": 18,
-   "form": "WDWWL"
   },
   {
    "team": "FRO",
@@ -263,6 +263,17 @@
    "ga": 11,
    "pts": 14,
    "form": "DWLDW"
+  },
+  {
+   "team": "BOL",
+   "p": 10,
+   "w": 4,
+   "d": 2,
+   "l": 4,
+   "gf": 14,
+   "ga": 13,
+   "pts": 14,
+   "form": "WLWWW"
   },
   {
    "team": "JUV",
@@ -296,17 +307,6 @@
    "ga": 13,
    "pts": 13,
    "form": "WDLLL"
-  },
-  {
-   "team": "BOL",
-   "p": 9,
-   "w": 3,
-   "d": 2,
-   "l": 4,
-   "gf": 12,
-   "ga": 12,
-   "pts": 11,
-   "form": "DWLWW"
   },
   {
    "team": "ATA",
@@ -354,25 +354,14 @@
   },
   {
    "team": "MON",
-   "p": 9,
+   "p": 10,
    "w": 2,
    "d": 1,
-   "l": 6,
-   "gf": 16,
-   "ga": 22,
+   "l": 7,
+   "gf": 17,
+   "ga": 24,
    "pts": 7,
-   "form": "WLWLL"
-  },
-  {
-   "team": "UDI",
-   "p": 9,
-   "w": 1,
-   "d": 2,
-   "l": 6,
-   "gf": 9,
-   "ga": 18,
-   "pts": 5,
-   "form": "LLLLD"
+   "form": "LWLLL"
   },
   {
    "team": "FIO",
@@ -395,6 +384,17 @@
    "ga": 15,
    "pts": 5,
    "form": "WLLLD"
+  },
+  {
+   "team": "UDI",
+   "p": 10,
+   "w": 1,
+   "d": 2,
+   "l": 7,
+   "gf": 11,
+   "ga": 23,
+   "pts": 5,
+   "form": "LLLDL"
   },
   {
    "team": "VEN",
@@ -2629,7 +2629,7 @@
     "time": "15:00",
     "home": "BOL",
     "away": "MON",
-    "status": "ns",
+    "status": "ft",
     "venue": {
      "name": "Stadio Renato Dall'Ara",
      "city": "Bolonia",
@@ -2681,7 +2681,7 @@
      {
       "r": "GŁ",
       "role": "Sędzia główny",
-      "name": "Zanotti",
+      "name": "Andrea Zanotti",
       "nat": "ITA"
      },
      {
@@ -2695,17 +2695,47 @@
      "home": [
       [
        "Trener",
-       "Raffaele Palladino"
+       "Palladino"
       ]
      ],
-     "away": [
-      [
-       "Trener",
-       "Ivan Jurić"
-      ]
-     ]
+     "away": []
     },
-    "notes": "Przewidywane składy (TuttoMercatoWeb, 30.10): Bologna (3-4-2-1): Skorupski; Vitík, Casale, Theate; Darmian, Moro, Pobega, Miranda; Bernardeschi, Cambiaghi; Dovbyk. Monza (3-4-2-1): Törnqvist; Goglichidze, Lucchesi, Carboni; Birindelli, Akinsanmiro, Foé Ondoa, Mangas; Mota, Robinson; Varela."
+    "notes": "Bologna odrobiła stratę: Varela z karnego (6'), Pobega wolejem po rożnym Mirandy (33'), Bernardeschi z karnego (59'); Skorupski obronił karny Cutrone (81'). Pierwsza domowa wygrana Bologny w sezonie, trzecia z rzędu pod wodzą Palladino. Przewidywane składy (TuttoMercatoWeb, 30.10): Bologna (3-4-2-1): Skorupski; Vitík, Casale, Theate; Darmian, Moro, Pobega, Miranda; Bernardeschi, Cambiaghi; Dovbyk. Monza (3-4-2-1): Törnqvist; Goglichidze, Lucchesi, Carboni; Birindelli, Akinsanmiro, Foé Ondoa, Mangas; Mota, Robinson; Varela.",
+    "score": [
+     2,
+     1
+    ],
+    "events": [
+     {
+      "m": 6,
+      "t": "pen",
+      "s_": "a",
+      "who": "Gustavo Varela",
+      "res": "Gol"
+     },
+     {
+      "m": 33,
+      "t": "goal",
+      "s_": "h",
+      "who": "Tommaso Pobega",
+      "as": "Juan Miranda",
+      "how": "Wolej (po rzucie rożnym)"
+     },
+     {
+      "m": 59,
+      "t": "pen",
+      "s_": "h",
+      "who": "Federico Bernardeschi",
+      "res": "Gol"
+     },
+     {
+      "m": 81,
+      "t": "pen",
+      "s_": "a",
+      "who": "Patrick Cutrone",
+      "res": "Obroniony"
+     }
+    ]
    },
    {
     "id": "SA-2026-27-R10-UDI-ROM",
@@ -2713,7 +2743,7 @@
     "time": "18:00",
     "home": "UDI",
     "away": "ROM",
-    "status": "ns",
+    "status": "ft",
     "venue": {
      "name": "Bluenergy Stadium",
      "city": "Udine",
@@ -2765,7 +2795,7 @@
      {
       "r": "GŁ",
       "role": "Sędzia główny",
-      "name": "Maresca",
+      "name": "Fabio Maresca",
       "nat": "ITA"
      },
      {
@@ -2779,7 +2809,7 @@
      "home": [
       [
        "Trener",
-       "Kosta Runjaić"
+       "Kosta Runjaic"
       ]
      ],
      "away": [
@@ -2789,7 +2819,122 @@
       ]
      ]
     },
-    "notes": "Przewidywane składy (TuttoMercatoWeb, 30.10): Udinese (3-4-2-1): Okoye; Abankwah, Kabasele, Palma; Vojvoda, Piotrowski, Karlström, Kamara; Zaniolo, Ekkelenkamp; Davis. Roma (3-4-2-1): Gollini; Ghilardi, Ndicka, Hermoso; Lulli, Cristante, de Roon, Wesley; Soulé, Mora; Malen."
+    "notes": "Roma prowadziła 4:0 po 37 minutach. Zmiany (bez pełnych danych o schodzących): Udinese – Unai Gómez, Chakvetadze (56'), Piotrowski (67'), L. Jovanović, Arizala (82'); Roma – Pisilli, S. Castro (59'), Rensch, Mancini (79'), Koulierakis (84'). Przewidywane składy (TuttoMercatoWeb, 30.10): Udinese (3-4-2-1): Okoye; Abankwah, Kabasele, Palma; Vojvoda, Piotrowski, Karlström, Kamara; Zaniolo, Ekkelenkamp; Davis. Roma (3-4-2-1): Gollini; Ghilardi, Ndicka, Hermoso; Lulli, Cristante, de Roon, Wesley; Soulé, Mora; Malen.",
+    "score": [
+     2,
+     5
+    ],
+    "formation": {
+     "home": "3-4-2-1",
+     "away": "3-4-2-1"
+    },
+    "events": [
+     {
+      "m": 10,
+      "t": "goal",
+      "s_": "a",
+      "who": "Bryan Cristante"
+     },
+     {
+      "m": 23,
+      "t": "yc",
+      "s_": "h",
+      "who": "Lennon Miller"
+     },
+     {
+      "m": 31,
+      "t": "goal",
+      "s_": "a",
+      "who": "Rodrigo Mora"
+     },
+     {
+      "m": 33,
+      "t": "goal",
+      "s_": "a",
+      "who": "Donyell Malen"
+     },
+     {
+      "m": 37,
+      "t": "goal",
+      "s_": "a",
+      "who": "Evan Ndicka"
+     },
+     {
+      "m": 50,
+      "t": "goal",
+      "s_": "h",
+      "who": "Nicolò Zaniolo"
+     },
+     {
+      "m": 60,
+      "t": "yc",
+      "s_": "a",
+      "who": "Bryan Cristante"
+     },
+     {
+      "m": 78,
+      "t": "goal",
+      "s_": "h",
+      "who": "Matteo Palma"
+     },
+     {
+      "m": 90,
+      "s": "+2",
+      "t": "goal",
+      "s_": "a",
+      "who": "Daniele Ghilardi"
+     }
+    ],
+    "teamStats": [
+     [
+      "Posiadanie %",
+      46,
+      54
+     ],
+     [
+      "xG",
+      1.89,
+      2.7
+     ],
+     [
+      "Strzały",
+      15,
+      14
+     ],
+     [
+      "Celne",
+      7,
+      9
+     ],
+     [
+      "Rzuty rożne",
+      7,
+      4
+     ],
+     [
+      "Faule",
+      11,
+      8
+     ],
+     [
+      "Podania",
+      437,
+      529
+     ],
+     [
+      "Obrony bramkarza",
+      4,
+      5
+     ]
+    ],
+    "ind": {
+     "Nicolò Zaniolo": {
+      "r": 7.6
+     },
+     "Bryan Cristante": {
+      "r": 8.7
+     }
+    }
    },
    {
     "id": "SA-2026-27-R10-MIL-INT",
@@ -2797,7 +2942,7 @@
     "time": "20:45",
     "home": "MIL",
     "away": "INT",
-    "status": "ns",
+    "status": "ft",
     "venue": {
      "name": "San Siro",
      "city": "Mediolan",
@@ -2854,7 +2999,7 @@
      {
       "r": "GŁ",
       "role": "Sędzia główny",
-      "name": "Guida",
+      "name": "Marco Guida",
       "nat": "ITA"
      },
      {
@@ -2878,7 +3023,136 @@
       ]
      ]
     },
-    "notes": "Przewidywane składy (TuttoMercatoWeb, 30.10): Milan (4-2-3-1): Maignan; Gila, De Winter, Pavlović, Estupiñán; Modrić, Rabiot; Hutchinson, Pulisic, Moreira; G. Ramos. Inter (3-5-2): J. Martínez; Bisseck, Akanji, Bastoni; Diouf, Barella, Çalhanoğlu, Zieliński, Dimarco; Thuram, Pio Esposito."
+    "notes": "Składy (acmilan.com): Milan (4-4-1-1): Maignan; Gila, De Winter, Pavlović, Diawara; Moreira, Musah, Modrić, Pulisic; Rabiot; Ramos. Inter (3-5-1-1): J. Martínez; Bisseck, Akanji, Bastoni; Spence, Barella, Çalhanoğlu, Sučić, Carlos Augusto; Diouf; Thuram. Moreira – gol i 2 asysty. VAR anulował rzut karny za rękę Gili (piłka trafiła w klatkę piersiową).",
+    "score": [
+     3,
+     1
+    ],
+    "formation": {
+     "home": "4-4-1-1",
+     "away": "3-5-1-1"
+    },
+    "events": [
+     {
+      "m": 4,
+      "t": "goal",
+      "s_": "h",
+      "who": "Christian Pulisic",
+      "as": "Diego Moreira",
+      "how": "Głowa"
+     },
+     {
+      "m": 10,
+      "t": "goal",
+      "s_": "h",
+      "who": "Adrien Rabiot",
+      "as": "Diego Moreira",
+      "how": "Po rzucie rożnym"
+     },
+     {
+      "m": 22,
+      "t": "goal",
+      "s_": "a",
+      "who": "Alessandro Bastoni",
+      "as": "Manuel Akanji",
+      "how": "Głowa"
+     },
+     {
+      "m": 43,
+      "t": "goal",
+      "s_": "h",
+      "who": "Diego Moreira",
+      "how": "Rzut wolny, lewa noga"
+     },
+     {
+      "m": 49,
+      "t": "yc",
+      "s_": "h",
+      "who": "Koni De Winter"
+     },
+     {
+      "m": 52,
+      "t": "yc",
+      "s_": "h",
+      "who": "Diego Moreira"
+     },
+     {
+      "m": 72,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Piotr Zieliński",
+      "out": "Hakan Çalhanoğlu"
+     },
+     {
+      "m": 72,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Henrikh Mkhitaryan",
+      "out": "Andy Diouf"
+     },
+     {
+      "m": 81,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Federico Dimarco",
+      "out": "Alessandro Bastoni"
+     },
+     {
+      "m": 82,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Ardon Jashari",
+      "out": "Yunus Musah"
+     },
+     {
+      "m": 82,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Alphadjo Cissè",
+      "out": "Christian Pulisic"
+     },
+     {
+      "m": 82,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Ange-Yoan Bonny",
+      "out": "Yann Bisseck"
+     },
+     {
+      "m": 82,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Francesco Pio Esposito",
+      "out": "Nicolò Barella"
+     },
+     {
+      "m": 83,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Davide Bartesaghi",
+      "out": "Diawara"
+     },
+     {
+      "m": 89,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Samuel Hutchinson",
+      "out": "Diego Moreira"
+     },
+     {
+      "m": 89,
+      "t": "sub",
+      "s_": "h",
+      "inn": "F. Terracciano",
+      "out": "G. Ramos"
+     },
+     {
+      "m": 90,
+      "t": "yc",
+      "s_": "a",
+      "who": "Carlos Augusto"
+     }
+    ]
    },
    {
     "id": "SA-2026-27-R10-COM-VEN",
@@ -3279,7 +3553,8 @@
       "Kurs Juventusu wydłużył się z 1,80 do 2,30 (43%) – szacunek ok. 40–42% przy 9 nieobecnych (m.in. Yıldız, K. Thuram, Locatelli)",
       "Napoli 3,40 (29%) bez Lobotki, Buongiorno, Neresa i Spinazzoli",
       "Powyżej 2,5 po 1,95 (51%) – szacunek ok. 48–50%",
-      "Brak rynku z przewagą"
+      "Brak rynku z przewagą",
+      "Aktualizacja 01.11: powyżej 2,5 ok. 2,00 i BTTS tak ok. 1,75 (footballpredictions) – szacunek BTTS ok. 54–56% przy osłabionych obronach, EV ≈ 0"
      ]
     },
     "officials": [
@@ -3330,7 +3605,8 @@
       "Powyżej 2,5 po 1,63 (61%) – mecze Sassuolo 4,0 gola/mecz, Fiorentiny 3,6, szacunek ok. 62–64%: EV ok. +2–4%, za mało",
       "Fiorentina 2,35 (43%) – szacunek ok. 40–43%",
       "Sassuolo bez zawieszonego Thorstvedta oraz Koné, Leysena i Boloki",
-      "Brak rynku z dodatnim EV powyżej progu"
+      "Brak rynku z dodatnim EV powyżej progu",
+      "Aktualizacja 01.11: Megapari 1X2 3,09 / 3,60 / 2,41 (oddscalendar) – bez istotnej zmiany wyceny"
      ]
     },
     "odds": {
@@ -3416,7 +3692,8 @@
       "Atalanta 1,50 (67%) bez 9 zawodników (m.in. Hien, Kossounou, Raspadori, Scamacca, Kessié) i 4 meczów bez wygranej – szacunek ok. 63–66%, EV ujemne",
       "Parma strzela 0,56 gola/mecz, ale brak kursu na BTTS nie lub gole Parmy poniżej 0,5",
       "Atalanta -1,25 po 1,92 – szacunek zbyt niepewny",
-      "Brak rynku z dodatnim EV"
+      "Brak rynku z dodatnim EV",
+      "Aktualizacja 01.11: BTTS tak 1,90, powyżej 2,5 ok. 1,75 (oddslot) – szacunki zbliżone do kursów, brak przewagi"
      ]
     },
     "odds": {
