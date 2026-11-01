@@ -1,19 +1,10 @@
 {
  "sport": "tennis",
- "updated": "2026-10-31T07:15:00+01:00",
+ "updated": "2026-11-01T07:20:00+01:00",
  "season": "2026",
  "competition": "Tenis",
- "note": "Źródła: atptour.com (wyniki Wiedeń/Bazylea), protennislive (plan gier Bazylea), wtatennis.com, ESPN, infonews/Canadian Press, Reuters (kfgo, malaymail), thesportsencounter, Last Word on Sports, Dimers (kursy). Godziny w czasie polskim. Finały 1.11 (Tokio, Wiedeń, Bazylea) i Paris Masters (od 2.11, m.in. Musetti – Hurkacz) dodam po ustaleniu par i planu gier. Brak Pinnacle i kursów polskich bukmacherów – brak typów BET.",
+ "note": "Źródła: atptour.com (wyniki i plany gier Wiedeń/Bazylea/Paryż), wtatennis.com, ESPN, tennismajors, tennis.com, Yardbarker/Reuters, Last Word On Sports, The Stats Zone, Dimers (kursy DraftKings), Gambling911. Godziny w czasie polskim. Paris Masters (od 2.11, m.in. Musetti – Hurkacz, Djoković – Vacherot) dodam po publikacji planu gier. Brak Pinnacle i kursów polskich bukmacherów – brak typów BET.",
  "teams": {
-  "DJOKOVIC": {
-   "id": "DJOKOVIC",
-   "short": "DJO",
-   "name": "Novak Djokovic",
-   "city": "Serbia",
-   "col": "#8c1d2c",
-   "tour": "ATP",
-   "rank": 12
-  },
   "FRITZ": {
    "id": "FRITZ",
    "short": "FRI",
@@ -22,15 +13,6 @@
    "col": "#1c2f5e",
    "tour": "ATP",
    "rank": 13
-  },
-  "SHAPOVALOV": {
-   "id": "SHAPOVALOV",
-   "short": "SHA",
-   "name": "Denis Shapovalov",
-   "city": "Kanada",
-   "col": "#a3122a",
-   "tour": "ATP",
-   "rank": 52
   },
   "STRUFF": {
    "id": "STRUFF",
@@ -41,22 +23,6 @@
    "tour": "ATP",
    "rank": 47
   },
-  "BORGES": {
-   "id": "BORGES",
-   "short": "BOR",
-   "name": "Nuno Borges",
-   "city": "Portugalia",
-   "col": "#0b5e2f",
-   "tour": "ATP"
-  },
-  "RUNE": {
-   "id": "RUNE",
-   "short": "RUN",
-   "name": "Holger Rune",
-   "city": "Dania",
-   "col": "#a8102e",
-   "tour": "ATP"
-  },
   "VACHEROT": {
    "id": "VACHEROT",
    "short": "VAC",
@@ -64,42 +30,6 @@
    "city": "Monako",
    "col": "#9a1428",
    "tour": "ATP"
-  },
-  "JODAR": {
-   "id": "JODAR",
-   "short": "JOD",
-   "name": "Rafael Jodar",
-   "city": "Hiszpania",
-   "col": "#9e1b1b",
-   "tour": "ATP",
-   "rank": 11
-  },
-  "MICHELSEN": {
-   "id": "MICHELSEN",
-   "short": "MIC",
-   "name": "Alex Michelsen",
-   "city": "USA",
-   "col": "#1c2f5e",
-   "tour": "ATP",
-   "rank": 34
-  },
-  "FILS": {
-   "id": "FILS",
-   "short": "FIL",
-   "name": "Arthur Fils",
-   "city": "Francja",
-   "col": "#1f3a7a",
-   "tour": "ATP",
-   "rank": 10
-  },
-  "ALTMAIER": {
-   "id": "ALTMAIER",
-   "short": "ALT",
-   "name": "Daniel Altmaier",
-   "city": "Niemcy",
-   "col": "#2b2b2b",
-   "tour": "ATP",
-   "rank": 60
   },
   "LEHECKA": {
    "id": "LEHECKA",
@@ -110,24 +40,6 @@
    "tour": "ATP",
    "rank": 21
   },
-  "SHELTON": {
-   "id": "SHELTON",
-   "short": "SHE",
-   "name": "Ben Shelton",
-   "city": "USA",
-   "col": "#1c2f5e",
-   "tour": "ATP",
-   "rank": 4
-  },
-  "KYM": {
-   "id": "KYM",
-   "short": "KYM",
-   "name": "Jerome Kym",
-   "city": "Szwajcaria",
-   "col": "#b3121e",
-   "tour": "ATP",
-   "rank": 222
-  },
   "DE_MINAUR": {
    "id": "DE_MINAUR",
    "short": "DEM",
@@ -135,15 +47,6 @@
    "city": "Australia",
    "col": "#0f4d2e",
    "tour": "ATP"
-  },
-  "MANNARINO": {
-   "id": "MANNARINO",
-   "short": "MAN",
-   "name": "Adrian Mannarino",
-   "city": "Francja",
-   "col": "#1f3a7a",
-   "tour": "ATP",
-   "rank": 73
   },
   "MEDVEDEV": {
    "id": "MEDVEDEV",
@@ -153,40 +56,6 @@
    "col": "#3a4a6b",
    "tour": "ATP",
    "rank": 5
-  },
-  "MUSETTI": {
-   "id": "MUSETTI",
-   "short": "MUS",
-   "name": "Lorenzo Musetti",
-   "city": "Włochy",
-   "col": "#0d5a36",
-   "tour": "ATP"
-  },
-  "BASILASHVILI": {
-   "id": "BASILASHVILI",
-   "short": "BAS",
-   "name": "Nikoloz Basilashvili",
-   "city": "Gruzja",
-   "col": "#7a1520",
-   "tour": "ATP"
-  },
-  "GRIEKSPOOR": {
-   "id": "GRIEKSPOOR",
-   "short": "GRI",
-   "name": "Tallon Griekspoor",
-   "city": "Holandia",
-   "col": "#b8541a",
-   "tour": "ATP",
-   "rank": 50
-  },
-  "NORRIE": {
-   "id": "NORRIE",
-   "short": "NOR",
-   "name": "Cameron Norrie",
-   "city": "Wielka Brytania",
-   "col": "#1b2f66",
-   "tour": "ATP",
-   "rank": 41
   },
   "ALCARAZ": {
    "id": "ALCARAZ",
@@ -206,51 +75,6 @@
    "tour": "ATP",
    "rank": 2
   },
-  "COBOLLI": {
-   "id": "COBOLLI",
-   "short": "COB",
-   "name": "Flavio Cobolli",
-   "city": "Włochy",
-   "col": "#0d5a36",
-   "tour": "ATP",
-   "rank": 6
-  },
-  "BERRETTINI": {
-   "id": "BERRETTINI",
-   "short": "BRT",
-   "name": "Matteo Berrettini",
-   "city": "Włochy",
-   "col": "#0d5a36",
-   "tour": "ATP",
-   "rank": 48
-  },
-  "PAUL": {
-   "id": "PAUL",
-   "short": "PAU",
-   "name": "Tommy Paul",
-   "city": "USA",
-   "col": "#1c2f5e",
-   "tour": "ATP",
-   "rank": 14
-  },
-  "DARDERI": {
-   "id": "DARDERI",
-   "short": "DAR",
-   "name": "Luciano Darderi",
-   "city": "Włochy",
-   "col": "#0d5a36",
-   "tour": "ATP",
-   "rank": 23
-  },
-  "FERY": {
-   "id": "FERY",
-   "short": "FRY",
-   "name": "Arthur Fery",
-   "city": "Wielka Brytania",
-   "col": "#1b2f66",
-   "tour": "ATP",
-   "rank": 35
-  },
   "RAKHIMOVA": {
    "id": "RAKHIMOVA",
    "short": "RAK",
@@ -259,14 +83,6 @@
    "col": "#1a5e8a",
    "tour": "WTA",
    "rank": 66
-  },
-  "JOINT": {
-   "id": "JOINT",
-   "short": "JOI",
-   "name": "Maya Joint",
-   "city": "Australia",
-   "col": "#0f4d2e",
-   "tour": "WTA"
   },
   "SHNAIDER": {
    "id": "SHNAIDER",
@@ -277,33 +93,6 @@
    "tour": "WTA",
    "rank": 13
   },
-  "EALA": {
-   "id": "EALA",
-   "short": "EAL",
-   "name": "Alexandra Eala",
-   "city": "Filipiny",
-   "col": "#1c3a8a",
-   "tour": "WTA",
-   "rank": 19
-  },
-  "PARKS": {
-   "id": "PARKS",
-   "short": "PAR",
-   "name": "Alycia Parks",
-   "city": "USA",
-   "col": "#1c2f5e",
-   "tour": "WTA",
-   "rank": 65
-  },
-  "BIRRELL": {
-   "id": "BIRRELL",
-   "short": "BIR",
-   "name": "Kimberly Birrell",
-   "city": "Australia",
-   "col": "#0f4d2e",
-   "tour": "WTA",
-   "rank": 41
-  },
   "FERNANDEZ": {
    "id": "FERNANDEZ",
    "short": "FER",
@@ -311,24 +100,7 @@
    "city": "Kanada",
    "col": "#a3122a",
    "tour": "WTA",
-   "rank": 25
-  },
-  "MERTENS": {
-   "id": "MERTENS",
-   "short": "MRT",
-   "name": "Elise Mertens",
-   "city": "Belgia",
-   "col": "#3a3a1a",
-   "tour": "WTA"
-  },
-  "OSAKA": {
-   "id": "OSAKA",
-   "short": "OSA",
-   "name": "Naomi Osaka",
-   "city": "Japonia",
-   "col": "#a3122a",
-   "tour": "WTA",
-   "rank": 18
+   "rank": 23
   },
   "POHANKOVA": {
    "id": "POHANKOVA",
@@ -338,585 +110,10 @@
    "col": "#24447a",
    "tour": "WTA",
    "rank": 144
-  },
-  "RYBAKINA": {
-   "id": "RYBAKINA",
-   "short": "RYB",
-   "name": "Elena Rybakina",
-   "city": "Kazachstan",
-   "col": "#0a6a8a",
-   "tour": "WTA",
-   "rank": 1
-  },
-  "PUTINTSEVA": {
-   "id": "PUTINTSEVA",
-   "short": "PUT",
-   "name": "Yulia Putintseva",
-   "city": "Kazachstan",
-   "col": "#0a6a8a",
-   "tour": "WTA"
-  },
-  "LINETTE": {
-   "id": "LINETTE",
-   "short": "LIN",
-   "name": "Magda Linette",
-   "city": "Polska",
-   "col": "#b0122d",
-   "tour": "WTA",
-   "rank": 71
-  },
-  "TAGGER": {
-   "id": "TAGGER",
-   "short": "TAG",
-   "name": "Lilli Tagger",
-   "city": "Austria",
-   "col": "#9b1b26",
-   "tour": "WTA",
-   "rank": 53
   }
  },
  "picks": [],
  "days": {
-  "2026-10-30": [
-   {
-    "id": "TEN-2026-10-30-RAKHIMOVA-JOINT",
-    "date": "2026-10-30",
-    "time": "02:35",
-    "home": "RAKHIMOVA",
-    "away": "JOINT",
-    "status": "ft",
-    "comp": "WTA 500 Tokio",
-    "stage": "Ćwierćfinał",
-    "surface": "twarda",
-    "bestOf": 3,
-    "odds": {
-     "src": "tennisexplorer, stan na 29.10 rano",
-     "ml1": 2.09,
-     "ml2": 1.73
-    },
-    "info": {
-     "h2h": [
-      "Pierwszy pojedynek"
-     ],
-     "fatigue": "Obie grały w środę trzysetowe mecze."
-    },
-    "tip": {
-     "decision": "NO BET",
-     "reasons": [
-      "Plan gier nieopublikowany, kursy z jednego źródła bez Pinnacle.",
-      "Model Dimers (Joint 52%) nie odbiega od rynku na korzyść żadnej strony – brak value.",
-      "Obie zawodniczki po 3-setowych meczach – brak jednostronnego czynnika."
-     ]
-    },
-    "notes": "Czas gry nieco ponad 2 h. Rakhimova odrobiła 2-4 w 1. secie (5 gemów z rzędu), w 3. secie prowadziła 5-1. W półfinale zagra ze zwyciężczynią meczu Rybakina – Fernandez.",
-    "sets": [
-     [
-      7,
-      5
-     ],
-     [
-      5,
-      7
-     ],
-     [
-      6,
-      1
-     ]
-    ],
-    "score": [
-     2,
-     1
-    ]
-   },
-   {
-    "id": "TEN-2026-10-30-POHANKOVA-PARKS",
-    "date": "2026-10-30",
-    "time": "05:15",
-    "home": "POHANKOVA",
-    "away": "PARKS",
-    "status": "ft",
-    "comp": "WTA 500 Tokio",
-    "stage": "Ćwierćfinał",
-    "surface": "twarda",
-    "bestOf": 3,
-    "court": "Centre Court",
-    "odds": {
-     "src": "tennisexplorer, stan na 30.10 06:00",
-     "ml1": 1.45,
-     "ml2": 2.73
-    },
-    "info": {
-     "h2h": [
-      "Pierwszy pojedynek"
-     ],
-     "stakes": "Pohankova (WC, WTA 144) po wygranej z Osaką; Parks z kwalifikacji – 5 wygranych z rzędu przed ćwierćfinałem."
-    },
-    "notes": "Pohanková (WC, WTA 144) wygrała 7-6(3) 6-3 i awansowała do półfinału, gdzie zagra z Dianą Shnaider.",
-    "tip": {
-     "decision": "NO BET",
-     "reasons": [
-      "Mecz rozpoczął się przed aktualizacją – brak sensu wyceny przedmeczowej.",
-      "Nie udało się ustalić pełnych kursów (obie strony z jednego źródła) ani Pinnacle – brak punktu wyjścia do wyceny rynku bez marży."
-     ]
-    },
-    "score": [
-     2,
-     0
-    ],
-    "sets": [
-     [
-      7,
-      6,
-      3
-     ],
-     [
-      6,
-      3
-     ]
-    ]
-   },
-   {
-    "id": "TEN-2026-10-30-RYBAKINA-FERNANDEZ",
-    "date": "2026-10-30",
-    "time": "06:45",
-    "home": "RYBAKINA",
-    "away": "FERNANDEZ",
-    "status": "wo",
-    "comp": "WTA 500 Tokio",
-    "stage": "Ćwierćfinał",
-    "surface": "twarda",
-    "bestOf": 3,
-    "court": "Centre Court",
-    "odds": {
-     "src": "tennisexplorer, stan na 30.10 06:00",
-     "ml1": 1.28,
-     "ml2": 3.68
-    },
-    "info": {
-     "h2h": [
-      "Bilans 4-2 dla RYBAKINY"
-     ],
-     "stakes": "Zwyciężczyni zagra w półfinale z Kamillą Rakhimovą."
-    },
-    "notes": "Rybakina (nr 1 WTA) wycofała się przed ćwierćfinałem z powodu niesprecyzowanego „drobnego urazu” – Fernandez awansowała walkowerem.",
-    "tip": {
-     "decision": "NO BET",
-     "reasons": [
-      "Mecz rozpoczyna się/trwa w momencie aktualizacji.",
-      "Kurs 1,28 na faworytkę – po marży i podatku 12% brak dodatniego EV; brak Pinnacle."
-     ]
-    }
-   },
-   {
-    "id": "TEN-2026-10-30-EALA-SHNAIDER",
-    "date": "2026-10-30",
-    "time": "09:00",
-    "home": "EALA",
-    "away": "SHNAIDER",
-    "status": "ft",
-    "comp": "WTA 500 Tokio",
-    "stage": "Ćwierćfinał",
-    "surface": "twarda",
-    "bestOf": 3,
-    "odds": {
-     "src": "tennisexplorer, stan na 30.10 06:00",
-     "ml1": 2.0,
-     "ml2": 1.79
-    },
-    "info": {
-     "h2h": [
-      "2026 Ningbo (twarda) SHNAIDER 2:0 EALA (7-5 6-4)"
-     ],
-     "fatigue": "Obie grały w środę 3 sety (Eala 1:53; Shnaider z 63-minutowym 2. setem) – w piątek dzień przerwy.",
-     "stakes": "Shnaider walczy o miejsce rezerwowej w WTA Finals (Indian Wells)."
-    },
-    "tip": {
-     "decision": "NO BET",
-     "reasons": [
-      "Kursy tylko z jednego źródła (tennisexplorer) bez Pinnacle; po zdjęciu marży Shnaider ok. 53% – w zgodzie z modelem tennis.com (59%) w granicach szumu.",
-      "Wygrana Shnaider w Ningbo i jej motywacja (miejsce rezerwowej w WTA Finals) są publicznie znane i w kursie.",
-      "Brak informacji spoza rynku (kontuzja, ekstremalne zmęczenie) – obie miały w czwartek dzień przerwy."
-     ]
-    },
-    "notes": "Shnaider wygrała 2-6 7-6(5) 6-4 w 2 h 52 min – drugi raz w dwa tygodnie pokonała Ealę. Eala obroniła pierwsze 8 break pointów; łącznie 88 winnerów z głębi kortu (Eala 45, Shnaider 43). Shnaider zakończyła mecz asem.",
-    "court": "Centre Court",
-    "score": [
-     1,
-     2
-    ],
-    "sets": [
-     [
-      6,
-      2
-     ],
-     [
-      6,
-      7,
-      5
-     ],
-     [
-      4,
-      6
-     ]
-    ]
-   },
-   {
-    "id": "TEN-2026-10-30-MANNARINO-MEDVEDEV",
-    "date": "2026-10-30",
-    "time": "13:30",
-    "home": "MANNARINO",
-    "away": "MEDVEDEV",
-    "status": "ft",
-    "comp": "ATP 500 Wiedeń",
-    "stage": "Ćwierćfinał",
-    "surface": "twarda (hala)",
-    "bestOf": 3,
-    "court": "Centre Court",
-    "info": {
-     "form": {
-      "away": "WWWWWWWWWL"
-     },
-     "fatigue": "Medvedev w czwartek 2:31 z obronioną piłką meczową; Mannarino w czwartek odpoczywał – to jego 6. mecz w 7 dni (z kwalifikacji).",
-     "stakes": "Medvedev walczy o pozycję w Race to Turin."
-    },
-    "notes": "Medvedev wygrał 6-2 6-3 w 1:35 (piłka meczowa przy serwisie Mannarino) i zapewnił sobie awans do ATP Finals w Turynie.",
-    "tip": {
-     "decision": "NO BET",
-     "reasons": [
-      "Nie udało się ustalić pełnych kursów (obie strony z jednego źródła) ani Pinnacle – brak punktu wyjścia do wyceny rynku bez marży.",
-      "Zmęczenie dotyczy obu stron (Medvedev 2:31 dzień wcześniej, Mannarino 6. mecz w tydzień) – brak jednostronnego czynnika, którego rynek by nie znał."
-     ]
-    },
-    "score": [
-     0,
-     2
-    ],
-    "sets": [
-     [
-      2,
-      6
-     ],
-     [
-      3,
-      6
-     ]
-    ]
-   },
-   {
-    "id": "TEN-2026-10-30-RUNE-VACHEROT",
-    "date": "2026-10-30",
-    "time": "14:00",
-    "home": "RUNE",
-    "away": "VACHEROT",
-    "status": "ft",
-    "comp": "ATP 500 Bazylea",
-    "stage": "Ćwierćfinał",
-    "surface": "twarda (hala)",
-    "bestOf": 3,
-    "court": "Center Court",
-    "info": {
-     "h2h": [
-      "Bilans 1-0 dla VACHEROTA"
-     ],
-     "fatigue": "Vacherot w czwartek 2:31 (3 sety z Jodarem); Rune w czwartek odpoczywał (środa 1:59)."
-    },
-    "notes": "Vacherot wygrał 6-3 3-6 6-3 w 2:03. Rune wraca do gry po zerwaniu ścięgna Achillesa.",
-    "tip": {
-     "decision": "NO BET",
-     "reasons": [
-      "Nie udało się ustalić pełnych kursów (obie strony z jednego źródła) ani Pinnacle – brak punktu wyjścia do wyceny rynku bez marży.",
-      "Różnica w odpoczynku (Vacherot 2:31 dzień wcześniej) jest znana publicznie i najpewniej w cenie."
-     ]
-    },
-    "score": [
-     1,
-     2
-    ],
-    "sets": [
-     [
-      3,
-      6
-     ],
-     [
-      6,
-      3
-     ],
-     [
-      3,
-      6
-     ]
-    ]
-   },
-   {
-    "id": "TEN-2026-10-30-PAUL-ALCARAZ",
-    "date": "2026-10-30",
-    "time": "15:00",
-    "home": "PAUL",
-    "away": "ALCARAZ",
-    "status": "ft",
-    "comp": "ATP 500 Wiedeń",
-    "stage": "Ćwierćfinał",
-    "surface": "twarda (hala)",
-    "bestOf": 3,
-    "court": "Centre Court",
-    "info": {
-     "h2h": [
-      "Bilans 7-2 dla ALCARAZA",
-      "2026 US Open (twarda) ALCARAZ 3:0",
-      "2026 Australian Open (twarda) ALCARAZ 3:0"
-     ],
-     "fatigue": "Alcaraz w czwartek 1:41; Paul w czwartek tylko 0:49.",
-     "stakes": "Paul walczy o awans do ATP Finals."
-    },
-    "notes": "Alcaraz wygrał 6-4 7-6(2) w 1:50; obronił wszystkie 5 break pointów, jedyne przełamanie w 7. gemie 1. seta. W turniejach rangi 500 w tym sezonie 14-0.",
-    "tip": {
-     "decision": "NO BET",
-     "reasons": [
-      "Nie udało się ustalić pełnych kursów (obie strony z jednego źródła) ani Pinnacle – brak punktu wyjścia do wyceny rynku bez marży.",
-      "Jedyne znalezione kursy (handicapy u różnych bukmacherów, np. 1xbet) nie pozwalają zdjąć marży z pary z jednego źródła – regulamin zabrania łączenia źródeł.",
-      "Bilans H2H i forma są w kursie – nie są powodem korekty."
-     ]
-    },
-    "score": [
-     0,
-     2
-    ],
-    "sets": [
-     [
-      4,
-      6
-     ],
-     [
-      6,
-      7,
-      2
-     ]
-    ],
-    "stats": [
-     [
-      "Break pointy wykorzystane",
-      0,
-      1
-     ],
-     [
-      "Break pointy obronione",
-      0,
-      5
-     ]
-    ]
-   },
-   {
-    "id": "TEN-2026-10-30-FRITZ-FILS",
-    "date": "2026-10-30",
-    "time": "16:00",
-    "home": "FRITZ",
-    "away": "FILS",
-    "status": "ret",
-    "comp": "ATP 500 Bazylea",
-    "stage": "Ćwierćfinał",
-    "surface": "twarda (hala)",
-    "bestOf": 3,
-    "court": "Center Court",
-    "info": {
-     "h2h": [
-      "Bilans 1-0 dla FILSA"
-     ],
-     "fatigue": "Fils w czwartek 2:20; Fritz 1:18.",
-     "stakes": "Obaj walczą o miejsca w Race to Turin."
-    },
-    "notes": "Fils skreczował przy 2-6 0-2 po 45 min – ból nogi od początku meczu, wcześniej problemy z plecami. Występ w Paryżu niepewny.",
-    "tip": {
-     "decision": "NO BET",
-     "reasons": [
-      "Nie udało się ustalić pełnych kursów (obie strony z jednego źródła) ani Pinnacle – brak punktu wyjścia do wyceny rynku bez marży.",
-      "H2H i forma są w kursie – brak przewagi informacyjnej."
-     ]
-    },
-    "score": [
-     1,
-     0
-    ],
-    "sets": [
-     [
-      6,
-      2
-     ],
-     [
-      2,
-      0
-     ]
-    ]
-   },
-   {
-    "id": "TEN-2026-10-30-ZVEREV-FERY",
-    "date": "2026-10-30",
-    "time": "17:30",
-    "home": "ZVEREV",
-    "away": "FERY",
-    "status": "ft",
-    "comp": "ATP 500 Wiedeń",
-    "stage": "Ćwierćfinał",
-    "surface": "twarda (hala)",
-    "bestOf": 3,
-    "court": "Centre Court",
-    "info": {
-     "h2h": [
-      "2026 Wimbledon (trawiasta) ZVEREV wygrał"
-     ],
-     "fatigue": "Fery w czwartek 2:45 (3 sety z Musettim); Zverev 1:36.",
-     "stakes": "Zverev wg Wikipedii zapewnił sobie pozycję nr 1 po turnieju."
-    },
-    "notes": "Zverev wygrał 6-0 6-2 w 59 min. Od 2 listopada będzie nr 1 rankingu ATP.",
-    "tip": {
-     "decision": "NO BET",
-     "reasons": [
-      "Nie udało się ustalić pełnych kursów (obie strony z jednego źródła) ani Pinnacle – brak punktu wyjścia do wyceny rynku bez marży.",
-      "Zmęczenie Fery’ego (2:45 dzień wcześniej) jest publicznie znane i nie jest ekstremalne w rozumieniu regulaminu."
-     ]
-    },
-    "score": [
-     2,
-     0
-    ],
-    "sets": [
-     [
-      6,
-      0
-     ],
-     [
-      6,
-      2
-     ]
-    ]
-   },
-   {
-    "id": "TEN-2026-10-30-STRUFF-BORGES",
-    "date": "2026-10-30",
-    "time": "18:00",
-    "home": "STRUFF",
-    "away": "BORGES",
-    "status": "ft",
-    "comp": "ATP 500 Bazylea",
-    "stage": "Ćwierćfinał",
-    "surface": "twarda (hala)",
-    "bestOf": 3,
-    "court": "Center Court",
-    "info": {
-     "h2h": [
-      "2026 BORGES wygrał (bilans 1-0)"
-     ],
-     "fatigue": "Struff (36 lat) w czwartek 2:36 z Djokoviciem; Borges w czwartek odpoczywał (środa 1:48)."
-    },
-    "notes": "Struff (36 lat, special exempt) wygrał 6-2 6-3.",
-    "tip": {
-     "decision": "NO BET",
-     "reasons": [
-      "Nie udało się ustalić pełnych kursów (obie strony z jednego źródła) ani Pinnacle – brak punktu wyjścia do wyceny rynku bez marży.",
-      "Zmęczenie Struffa jest publicznie znane; bez kursów nie da się ocenić, czy rynek je uwzględnił."
-     ]
-    },
-    "score": [
-     2,
-     0
-    ],
-    "sets": [
-     [
-      6,
-      2
-     ],
-     [
-      6,
-      3
-     ]
-    ]
-   },
-   {
-    "id": "TEN-2026-10-30-BERRETTINI-DE_MINAUR",
-    "date": "2026-10-30",
-    "time": "20:00",
-    "home": "BERRETTINI",
-    "away": "DE_MINAUR",
-    "status": "ft",
-    "comp": "ATP 500 Wiedeń",
-    "stage": "Ćwierćfinał",
-    "surface": "twarda (hala)",
-    "bestOf": 3,
-    "court": "Centre Court",
-    "info": {
-     "h2h": [
-      "Bilans 3-3 (wg Last Word on Sports)",
-      "2025 Wiedeń (hala) DE MINAUR 2:0"
-     ],
-     "fatigue": "Berrettini w czwartek tylko 40 min (krecz Cobolliego); de Minaur odpoczywał w czwartek.",
-     "stakes": "De Minaur walczy o awans do ATP Finals."
-    },
-    "notes": "De Minaur wygrał 7-6(4) 6-2 w 1:46.",
-    "tip": {
-     "decision": "NO BET",
-     "reasons": [
-      "Nie udało się ustalić pełnych kursów (obie strony z jednego źródła) ani Pinnacle – brak punktu wyjścia do wyceny rynku bez marży.",
-      "Obaj zawodnicy wypoczęci – brak informacji spoza rynku uzasadniającej korektę."
-     ]
-    },
-    "score": [
-     0,
-     2
-    ],
-    "sets": [
-     [
-      6,
-      7,
-      4
-     ],
-     [
-      2,
-      6
-     ]
-    ]
-   },
-   {
-    "id": "TEN-2026-10-30-KYM-LEHECKA",
-    "date": "2026-10-30",
-    "time": "20:00",
-    "home": "KYM",
-    "away": "LEHECKA",
-    "status": "ft",
-    "comp": "ATP 500 Bazylea",
-    "stage": "Ćwierćfinał",
-    "surface": "twarda (hala)",
-    "bestOf": 3,
-    "court": "Center Court",
-    "info": {
-     "h2h": [
-      "Pierwszy pojedynek"
-     ],
-     "fatigue": "Kym w czwartek 2:21 z Sheltonem; Lehecka 1:43.",
-     "stakes": "Kym (WC) gra przed własną publicznością."
-    },
-    "notes": "Lehecka wygrał 6-4 6-2 w 1:24. Kym w czwartek wyeliminował Sheltona.",
-    "tip": {
-     "decision": "NO BET",
-     "reasons": [
-      "Nie udało się ustalić pełnych kursów (obie strony z jednego źródła) ani Pinnacle – brak punktu wyjścia do wyceny rynku bez marży.",
-      "Brak informacji spoza rynku uzasadniającej korektę."
-     ]
-    },
-    "score": [
-     0,
-     2
-    ],
-    "sets": [
-     [
-      4,
-      6
-     ],
-     [
-      2,
-      6
-     ]
-    ]
-   }
-  ],
   "2026-10-31": [
    {
     "id": "TEN-2026-10-31-FERNANDEZ-RAKHIMOVA",
@@ -955,13 +152,13 @@
     "time": "05:30",
     "home": "SHNAIDER",
     "away": "POHANKOVA",
-    "status": "ns",
+    "status": "ft",
     "comp": "WTA 500 Tokio",
     "stage": "Półfinał",
     "surface": "twarda",
     "bestOf": 3,
     "court": "Court 1",
-    "notes": "Drugi półfinał po meczu Fernandez – Rakhimova (godzina przybliżona). W chwili aktualizacji mecz prawdopodobnie trwa – wynik uzupełnię jutro. Zwyciężczyni zagra w finale z Leylah Fernandez.",
+    "notes": "Shnaider wygrała 6-4 7-6(7) w 1 h 46 min (tie-break 9-7; Pohanková prowadziła 6-5 w tie-breaku). Shnaider: 72% pierwszego serwisu, 80% wygranych punktów po 1. serwisie, 2 przełamania. Pierwszy finał Shnaider w 2026 r.",
     "info": {
      "h2h": [
       "Pierwszy pojedynek"
@@ -979,7 +176,22 @@
       "Mecz rozpoczął się przed aktualizacją – brak sensu wyceny przedmeczowej.",
       "Nie znaleziono kursów na zwycięzcę z jednego źródła ani Pinnacle."
      ]
-    }
+    },
+    "score": [
+     2,
+     0
+    ],
+    "sets": [
+     [
+      6,
+      4
+     ],
+     [
+      7,
+      6,
+      7
+     ]
+    ]
    },
    {
     "id": "TEN-2026-10-31-VACHEROT-FRITZ",
@@ -987,13 +199,13 @@
     "time": "15:00",
     "home": "VACHEROT",
     "away": "FRITZ",
-    "status": "ns",
+    "status": "ft",
     "comp": "ATP 500 Bazylea",
     "stage": "Półfinał",
     "surface": "twarda (hala)",
     "bestOf": 3,
     "court": "Center Court",
-    "notes": "Mecz „nie przed 15:00” (po deblu od 13:00).",
+    "notes": "Vacherot wygrał 7-6(5) 6-3 w 1 h 27 min i zagra w finale z Lehecką. Porażka komplikuje Fritzowi walkę o ATP Finals.",
     "odds": {
      "src": "Dimers (DraftKings), stan na 30.10 wieczorem",
      "ml1": 3.55,
@@ -1013,7 +225,22 @@
       "Po zdjęciu marży Fritz ok. 73% – model Dimers 72%, zgodny z rynkiem; brak przewagi.",
       "Różnica w odpoczynku (Fritz 45 min w piątek) jest publicznie znana i w cenie."
      ]
-    }
+    },
+    "score": [
+     2,
+     0
+    ],
+    "sets": [
+     [
+      7,
+      6,
+      5
+     ],
+     [
+      6,
+      3
+     ]
+    ]
    },
    {
     "id": "TEN-2026-10-31-MEDVEDEV-ALCARAZ",
@@ -1021,13 +248,13 @@
     "time": "15:00",
     "home": "MEDVEDEV",
     "away": "ALCARAZ",
-    "status": "ns",
+    "status": "ft",
     "comp": "ATP 500 Wiedeń",
     "stage": "Półfinał",
     "surface": "twarda (hala)",
     "bestOf": 3,
     "court": "Centre Court",
-    "notes": "Mecz „nie przed 15:00” (godzina wg thesportsencounter/Last Word on Sports).",
+    "notes": "Alcaraz wygrał 6-4 7-6(2) w 1 h 36 min, bez straty seta w turnieju; 25. z rzędu zwycięstwo w turniejach ATP 500.",
     "odds": {
      "src": "Dimers, stan na 30.10 wieczorem",
      "ml1": 3.0,
@@ -1056,7 +283,22 @@
       "Po zdjęciu marży Alcaraz ok. 68% – model Dimers 65%, różnica w granicach szumu i bez Pinnacle nie da się jej potwierdzić.",
       "H2H (w tym zwycięstwo Medvedeva w Indian Wells 2026) i forma są w kursie – nie są powodem korekty."
      ]
-    }
+    },
+    "score": [
+     0,
+     2
+    ],
+    "sets": [
+     [
+      4,
+      6
+     ],
+     [
+      6,
+      7,
+      2
+     ]
+    ]
    },
    {
     "id": "TEN-2026-10-31-ZVEREV-DE_MINAUR",
@@ -1064,13 +306,13 @@
     "time": "16:30",
     "home": "ZVEREV",
     "away": "DE_MINAUR",
-    "status": "ns",
+    "status": "ft",
     "comp": "ATP 500 Wiedeń",
     "stage": "Półfinał",
     "surface": "twarda (hala)",
     "bestOf": 3,
     "court": "Centre Court",
-    "notes": "Mecz „nie przed 16:30” (godzina wg thesportsencounter i Dimers).",
+    "notes": "De Minaur wygrał 6-4 1-6 7-6(4) w 2 h 31 min. Zverev mimo porażki od 2.11 obejmuje prowadzenie w rankingu.",
     "odds": {
      "src": "Dimers, stan na 30.10 wieczorem",
      "ml1": 1.43,
@@ -1095,7 +337,26 @@
       "Po zdjęciu marży Zverev ok. 69% – model Dimers 75%, ale modele niezależne nie są powodem korekty wg regulaminu.",
       "Brak świeżych informacji spoza rynku (kontuzja, ekstremalne zmęczenie)."
      ]
-    }
+    },
+    "score": [
+     1,
+     2
+    ],
+    "sets": [
+     [
+      4,
+      6
+     ],
+     [
+      6,
+      1
+     ],
+     [
+      6,
+      7,
+      4
+     ]
+    ]
    },
    {
     "id": "TEN-2026-10-31-LEHECKA-STRUFF",
@@ -1103,13 +364,13 @@
     "time": "17:00",
     "home": "LEHECKA",
     "away": "STRUFF",
-    "status": "ns",
+    "status": "ft",
     "comp": "ATP 500 Bazylea",
     "stage": "Półfinał",
     "surface": "twarda (hala)",
     "bestOf": 3,
     "court": "Center Court",
-    "notes": "Mecz „nie przed 17:00”.",
+    "notes": "Lehecka wygrał 3-6 7-5 6-4 w 2 h 01 min, broniąc piłki meczowej.",
     "info": {
      "h2h": [
       "Bilans 3-0 dla LEHECKI"
@@ -1122,6 +383,134 @@
      "reasons": [
       "Nie znaleziono kursów na zwycięzcę z jednego źródła ani Pinnacle – brak punktu wyjścia do wyceny.",
       "H2H 3-0 i forma są publicznie znane i w cenie."
+     ]
+    },
+    "score": [
+     2,
+     1
+    ],
+    "sets": [
+     [
+      3,
+      6
+     ],
+     [
+      7,
+      5
+     ],
+     [
+      6,
+      4
+     ]
+    ]
+   }
+  ],
+  "2026-11-01": [
+   {
+    "id": "TEN-2026-11-01-FERNANDEZ-SHNAIDER",
+    "date": "2026-11-01",
+    "time": "04:00",
+    "home": "FERNANDEZ",
+    "away": "SHNAIDER",
+    "status": "ns",
+    "comp": "WTA 500 Tokio",
+    "stage": "Finał",
+    "surface": "twarda",
+    "bestOf": 3,
+    "court": "Center Court",
+    "notes": "Początek 12:00 czasu lokalnego (04:00 w Polsce). W chwili aktualizacji źródła nie podawały jeszcze wyniku – uzupełnię jutro.",
+    "info": {
+     "h2h": [
+      "2026 Charleston (ziemna) SHNAIDER 2:0 (6-3 6-0)",
+      "2026 Adelaide (twarda) SHNAIDER 2:0 (7-5 6-3)",
+      "2024 Hongkong (twarda) SHNAIDER 2:0 (6-4 6-2)",
+      "2024 Wuhan (twarda) FERNANDEZ 2:1 (6-7 6-3 6-3)",
+      "2024 Cincinnati (twarda) FERNANDEZ 2:0 (6-1 6-4)"
+     ],
+     "fatigue": "Shnaider: ćwierćfinał z Ealą w trzech setach (2 h 52 min), półfinał 1 h 46 min. Fernandez: walkower w ćwierćfinale (Rybakina), półfinał 1 h 54 min.",
+     "injuries": {
+      "home": [],
+      "away": []
+     },
+     "stakes": "Trzeci finał Fernandez w sezonie, pierwszy finał Shnaider w 2026 r."
+    },
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Mecz rozpoczął się przed aktualizacją – brak wyceny przedmeczowej.",
+      "Nie znaleziono kursów z jednego źródła ani Pinnacle."
+     ]
+    }
+   },
+   {
+    "id": "TEN-2026-11-01-DE_MINAUR-ALCARAZ",
+    "date": "2026-11-01",
+    "time": "14:00",
+    "home": "DE_MINAUR",
+    "away": "ALCARAZ",
+    "status": "ns",
+    "comp": "ATP 500 Wiedeń",
+    "stage": "Finał",
+    "surface": "twarda (hala)",
+    "bestOf": 3,
+    "court": "Centre Court",
+    "notes": "Mecz „nie przed 14:00” (po finale debla od 11:30).",
+    "odds": {
+     "src": "Dimers (DraftKings), stan na 31.10 wieczorem",
+     "ml1": 4.7,
+     "ml2": 1.21
+    },
+    "info": {
+     "h2h": [
+      "Bilans 6-0 dla ALCARAZA (de Minaur wygrał łącznie 2 sety)",
+      "2026 Australian Open (twarda) ALCARAZ 3:0 (7-5 6-2 6-1)",
+      "2025 Rotterdam (hala) ALCARAZ – finał"
+     ],
+     "fatigue": "De Minaur w sobotę 2 h 31 min z Zverevem (późniejszy mecz dnia); Alcaraz 1 h 36 min z Medvedevem.",
+     "injuries": {
+      "home": [],
+      "away": [
+       "Wraca po urazie nadgarstka – drugi serwis wciąż niepewny (wg Last Word On Sports)"
+      ]
+     },
+     "stakes": "De Minaur (9. w Race to Turin) walczy o ATP Finals, gdzie miejsce otworzyła kontuzja Sinnera; Alcaraz bez straty seta w turnieju, 25 zwycięstw z rzędu w turniejach 500."
+    },
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Kursy tylko z jednego źródła (DraftKings wg Dimers), bez Pinnacle i bez kursów polskich bukmacherów – brak wiarygodnego punktu wyjścia.",
+      "Po zdjęciu marży Alcaraz ok. 80% – model Dimers 77%, zgodny z rynkiem; brak przewagi.",
+      "Zmęczenie de Minaura (2 h 31 min dzień wcześniej) jest publicznie znane i w cenie – nie jest to ekstremalne obciążenie uzasadniające korektę.",
+      "H2H 6-0 i forma są już w kursach."
+     ]
+    }
+   },
+   {
+    "id": "TEN-2026-11-01-LEHECKA-VACHEROT",
+    "date": "2026-11-01",
+    "time": "15:30",
+    "home": "LEHECKA",
+    "away": "VACHEROT",
+    "status": "ns",
+    "comp": "ATP 500 Bazylea",
+    "stage": "Finał",
+    "surface": "twarda (hala)",
+    "bestOf": 3,
+    "court": "Center Court",
+    "notes": "Mecz „nie przed 15:30” (po finale debla od 13:00).",
+    "info": {
+     "h2h": [
+      "2026 Tokio (twarda) LEHECKA 2:0 (6-4 6-2)",
+      "2025 Paryż (hala) VACHEROT wygrał"
+     ],
+     "fatigue": "Lehecka w sobotę 2 h 01 min ze Struffem (obroniona piłka meczowa); Vacherot 1 h 27 min z Fritzem, dzień wcześniej 2 h 03 min z Rune.",
+     "stakes": "Lehecka gra o 3. tytuł w karierze, Vacherot o 2. Obaj startują w Paryżu (Vacherot z Djokoviciem, Lehecka z Michelsenem)."
+    },
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Znaleziono tylko jednostronny kurs (Lehecka ok. 1,47) – brak pary kursów z jednego źródła i brak Pinnacle.",
+      "Różnica w odpoczynku i H2H 1-1 są publicznie znane i w cenie."
      ]
     }
    }
