@@ -1,9 +1,9 @@
 {
- "updated": "2026-11-01T06:15:00+01:00",
+ "updated": "2026-11-02T06:10:00+01:00",
  "season": "2026/27",
  "competition": "Serie A",
  "currentRound": 10,
- "note": "Źródła: ESPN i acmilan.com (Milan–Inter 31.10), Virgilio Sport i ANSA (Bologna–Monza 31.10), futboltotal (Udinese–Roma 31.10), oddscalendar/oddslot/footballpredictions (kursy 01.11); wcześniej: TuttoMercatoWeb, Gianluca Di Marzio, Corriere dello Sport, Goal.com Italia, Fantacalcio.it, Oddsportal, RG.org, Sportsgambler, Virgilio Sport, ANSA, Football Italia, Sky Sport, Wikipedia.",
+ "note": "Źródła: Fantacalcio.it (wyniki 10. kolejki, Juventus–Napoli), t-online (Como–Venezia, Lecce–Genoa), Sporza (Lazio–Cagliari, Frosinone–Torino), voetbalkrant.com, livetipsportal (kursy 02.11); wcześniej: ESPN, acmilan.com, Virgilio Sport, ANSA, futboltotal, oddscalendar, oddslot, footballpredictions, TuttoMercatoWeb, Corriere dello Sport, Oddsportal, RG.org, Football Italia, Sky Sport, Wikipedia. Tabela przy równej liczbie punktów sortowana wg różnicy bramek.",
  "teams": {
   "ATA": {
    "id": "ATA",
@@ -189,13 +189,13 @@
  "table": [
   {
    "team": "LAZ",
-   "p": 9,
-   "w": 8,
+   "p": 10,
+   "w": 9,
    "d": 1,
    "l": 0,
-   "gf": 22,
-   "ga": 7,
-   "pts": 25,
+   "gf": 24,
+   "ga": 8,
+   "pts": 28,
    "form": "WWWWW"
   },
   {
@@ -221,6 +221,17 @@
    "form": "DWDWW"
   },
   {
+   "team": "COM",
+   "p": 10,
+   "w": 7,
+   "d": 2,
+   "l": 1,
+   "gf": 18,
+   "ga": 8,
+   "pts": 23,
+   "form": "DWWWW"
+  },
+  {
    "team": "MIL",
    "p": 10,
    "w": 6,
@@ -232,37 +243,37 @@
    "form": "DWWLW"
   },
   {
-   "team": "COM",
-   "p": 9,
+   "team": "FRO",
+   "p": 10,
    "w": 6,
    "d": 2,
-   "l": 1,
-   "gf": 17,
-   "ga": 8,
+   "l": 2,
+   "gf": 24,
+   "ga": 14,
    "pts": 20,
-   "form": "LDWWW"
+   "form": "LWDWW"
   },
   {
-   "team": "FRO",
-   "p": 9,
+   "team": "JUV",
+   "p": 10,
    "w": 5,
    "d": 2,
-   "l": 2,
-   "gf": 22,
-   "ga": 14,
+   "l": 3,
+   "gf": 13,
+   "ga": 10,
    "pts": 17,
-   "form": "WLWDW"
+   "form": "DLWLW"
   },
   {
    "team": "NAP",
-   "p": 9,
+   "p": 10,
    "w": 4,
    "d": 2,
-   "l": 3,
+   "l": 4,
    "gf": 17,
-   "ga": 11,
+   "ga": 13,
    "pts": 14,
-   "form": "DWLDW"
+   "form": "WLDWL"
   },
   {
    "team": "BOL",
@@ -276,37 +287,37 @@
    "form": "WLWWW"
   },
   {
-   "team": "JUV",
-   "p": 9,
-   "w": 4,
-   "d": 2,
-   "l": 3,
-   "gf": 11,
-   "ga": 10,
-   "pts": 14,
-   "form": "WDLWL"
-  },
-  {
    "team": "TOR",
-   "p": 9,
+   "p": 10,
    "w": 4,
    "d": 1,
-   "l": 4,
+   "l": 5,
    "gf": 14,
+   "ga": 16,
+   "pts": 13,
+   "form": "WWWLL"
+  },
+  {
+   "team": "GEN",
+   "p": 10,
+   "w": 4,
+   "d": 1,
+   "l": 5,
+   "gf": 10,
    "ga": 14,
    "pts": 13,
-   "form": "DWWWL"
+   "form": "WLWWW"
   },
   {
    "team": "CAG",
-   "p": 9,
+   "p": 10,
    "w": 4,
    "d": 1,
-   "l": 4,
-   "gf": 8,
-   "ga": 13,
+   "l": 5,
+   "gf": 9,
+   "ga": 15,
    "pts": 13,
-   "form": "WDLLL"
+   "form": "DLLLL"
   },
   {
    "team": "ATA",
@@ -320,26 +331,15 @@
    "form": "LWLDD"
   },
   {
-   "team": "GEN",
-   "p": 9,
-   "w": 3,
-   "d": 1,
-   "l": 5,
-   "gf": 8,
-   "ga": 13,
-   "pts": 10,
-   "form": "LWLWW"
-  },
-  {
    "team": "LEC",
-   "p": 9,
+   "p": 10,
    "w": 3,
    "d": 0,
-   "l": 6,
-   "gf": 10,
-   "ga": 19,
+   "l": 7,
+   "gf": 11,
+   "ga": 21,
    "pts": 9,
-   "form": "LLWLL"
+   "form": "LWLLL"
   },
   {
    "team": "SAS",
@@ -398,14 +398,14 @@
   },
   {
    "team": "VEN",
-   "p": 9,
+   "p": 10,
    "w": 1,
    "d": 0,
-   "l": 8,
+   "l": 9,
    "gf": 6,
-   "ga": 19,
+   "ga": 20,
    "pts": 3,
-   "form": "LLWLL"
+   "form": "LWLLL"
   }
  ],
  "picks": [],
@@ -3160,7 +3160,7 @@
     "time": "12:30",
     "home": "COM",
     "away": "VEN",
-    "status": "ns",
+    "status": "ft",
     "venue": {
      "name": "Stadio Giuseppe Sinigaglia",
      "city": "Como",
@@ -3213,7 +3213,7 @@
      {
       "r": "GŁ",
       "role": "Sędzia główny",
-      "name": "Ferrieri Caputi",
+      "name": "Maria Sole Ferrieri Caputi",
       "nat": "ITA"
      },
      {
@@ -3237,7 +3237,159 @@
       ]
      ]
     },
-    "notes": "Przewidywane składy (TuttoMercatoWeb, 30.10): Como (4-2-3-1): Butez; Couto, Ramón, Kempf, Kaiki; Milla, Perrone; Caqueret, Nico Paz, Baturina; Douvikas. Venezia (3-5-2): Stanković; Halhal, Moreno, Juan Jesus; Hainaut, Kike Pérez, Sohm, Bašić, Mazzocchi; Lauberbach, Adams."
+    "notes": "Jedyny gol z rzutu karnego Lucasa da Cunhi (43'). W 28' VAR nie przyznał karnego Venezii. Źródło: t-online (liveticker).",
+    "score": [
+     1,
+     0
+    ],
+    "formation": {
+     "home": "4-2-3-1",
+     "away": "3-5-2"
+    },
+    "events": [
+     {
+      "m": 28,
+      "t": "var",
+      "s_": "a",
+      "kind": "Rzut karny – kontrola",
+      "init": "Brak karnego",
+      "fin": "Brak karnego"
+     },
+     {
+      "m": 39,
+      "t": "yc",
+      "s_": "a",
+      "who": "Simon Sohm",
+      "why": "Niebezpieczny atak"
+     },
+     {
+      "m": 41,
+      "t": "yc",
+      "s_": "a",
+      "who": "Juan Jesus",
+      "why": "Zbyt ostry atak"
+     },
+     {
+      "m": 43,
+      "t": "pen",
+      "s_": "h",
+      "who": "Lucas da Cunha",
+      "res": "Gol"
+     },
+     {
+      "m": 55,
+      "t": "sub",
+      "s_": "a",
+      "inn": "John Yeboah",
+      "out": "Lion Lauberbach"
+     },
+     {
+      "m": 55,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Kike Pérez",
+      "out": "Gianluca Busio"
+     },
+     {
+      "m": 62,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Richie Sagrado",
+      "out": "Antoine Hainaut"
+     },
+     {
+      "m": 62,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Toma Bašić",
+      "out": "Simon Sohm"
+     },
+     {
+      "m": 73,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Mattia Liberali",
+      "out": "Lucas da Cunha"
+     },
+     {
+      "m": 73,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Maxence Caqueret",
+      "out": "Nico Paz"
+     },
+     {
+      "m": 74,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Máximo Perrone",
+      "out": "Samuele Ricci"
+     },
+     {
+      "m": 78,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Albion Rrahmani",
+      "out": "Thórir Helgason"
+     },
+     {
+      "m": 82,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Ivan Smolčić",
+      "out": "Yan Couto"
+     },
+     {
+      "m": 84,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Álex Valle",
+      "out": "Martin Baturina"
+     },
+     {
+      "m": 86,
+      "t": "yc",
+      "s_": "h",
+      "who": "Kaiki"
+     }
+    ],
+    "teamStats": [
+     [
+      "Posiadanie %",
+      65.8,
+      34.2
+     ],
+     [
+      "Strzały",
+      19,
+      7
+     ],
+     [
+      "Celne",
+      4,
+      1
+     ],
+     [
+      "Rzuty rożne",
+      8,
+      1
+     ],
+     [
+      "Faule",
+      5,
+      9
+     ],
+     [
+      "Spalone",
+      1,
+      3
+     ],
+     [
+      "Celność podań %",
+      91.1,
+      82.8
+     ]
+    ]
    },
    {
     "id": "SA-2026-27-R10-FRO-TOR",
@@ -3245,7 +3397,7 @@
     "time": "15:00",
     "home": "FRO",
     "away": "TOR",
-    "status": "ns",
+    "status": "ft",
     "venue": {
      "name": "Stadio Benito Stirpe",
      "city": "Frosinone",
@@ -3292,7 +3444,7 @@
      {
       "r": "GŁ",
       "role": "Sędzia główny",
-      "name": "Mucera",
+      "name": "Giuseppe Mucera",
       "nat": "ITA"
      },
      {
@@ -3316,7 +3468,52 @@
       ]
      ]
     },
-    "notes": "Przewidywane składy (TuttoMercatoWeb, 30.10): Frosinone (4-2-3-1): Palmisani; Oyono, Calvani, Cittadini, Terzić; Masini, Calò; Ghedjemis, Schmid, Kvernadze; Raimondo. Torino (3-4-1-2): Perri; Coco, Ismajli, Comuzzo; Belghali, Bragança, Fitz-Jim, Patterson; Vlašić; Simeone, Adams."
+    "notes": "Źródła: voetbalkrant.com, Sporza. Składy i statystyki niedostępne w sprawdzonych źródłach.",
+    "score": [
+     2,
+     0
+    ],
+    "events": [
+     {
+      "m": 27,
+      "t": "yc",
+      "s_": "a",
+      "who": "Zakaria Aboukhlal"
+     },
+     {
+      "m": 33,
+      "t": "yc",
+      "s_": "a",
+      "who": "Gvidas Gineitis"
+     },
+     {
+      "m": 48,
+      "t": "goal",
+      "s_": "h",
+      "who": "Farès Ghedjemis",
+      "as": "Giorgi Kvernadze"
+     },
+     {
+      "m": 62,
+      "t": "yc",
+      "s_": "h",
+      "who": "Patrizio Masini"
+     },
+     {
+      "m": 66,
+      "t": "yc",
+      "s_": "a",
+      "who": "Saúl Coco"
+     },
+     {
+      "m": 90,
+      "t": "goal",
+      "s_": "h",
+      "who": "Giacomo Calò",
+      "as": "Wisdom Amey",
+      "s": "+3"
+     }
+    ]
    },
    {
     "id": "SA-2026-27-R10-LAZ-CAG",
@@ -3324,7 +3521,7 @@
     "time": "15:00",
     "home": "LAZ",
     "away": "CAG",
-    "status": "ns",
+    "status": "ft",
     "venue": {
      "name": "Stadio Olimpico",
      "city": "Rzym",
@@ -3381,7 +3578,7 @@
      {
       "r": "GŁ",
       "role": "Sędzia główny",
-      "name": "Colombo",
+      "name": "Andrea Colombo",
       "nat": "ITA"
      },
      {
@@ -3405,7 +3602,57 @@
       ]
      ]
     },
-    "notes": "Przewidywane składy (TuttoMercatoWeb, 30.10): Lazio (4-3-3): Mandas; Floriani Mussolini, Šutalo, Provstgaard, Nuno Tavares; Frattesi, Belahyane, Taylor; Isaksen, Noslin, Zaccagni. Cagliari (4-3-3): Caprile; Zé Pedro, Mina, Rodríguez, Obert; Romano, Deiola, Adopo; Maldini, Nzola, Mendy."
+    "notes": "Lazio odwróciło wynik po golu Nzoli; Cagliari kończyło w dziesiątkę. Źródło: Sporza.",
+    "score": [
+     2,
+     1
+    ],
+    "events": [
+     {
+      "m": 20,
+      "t": "goal",
+      "s_": "a",
+      "who": "M'Bala Nzola"
+     },
+     {
+      "m": 36,
+      "t": "goal",
+      "s_": "h",
+      "who": "Gustav Isaksen"
+     },
+     {
+      "m": 59,
+      "t": "yc",
+      "s_": "a",
+      "who": "Jacopo Fazzini"
+     },
+     {
+      "m": 66,
+      "t": "yc",
+      "s_": "a",
+      "who": "Juan Rodríguez"
+     },
+     {
+      "m": 77,
+      "t": "yc",
+      "s_": "a",
+      "who": "Adam Obert"
+     },
+     {
+      "m": 83,
+      "t": "goal",
+      "s_": "h",
+      "who": "Andrea Pinamonti"
+     },
+     {
+      "m": 90,
+      "s": "+1",
+      "t": "rc",
+      "s_": "a",
+      "who": "Adam Obert",
+      "why": "Druga żółta kartka"
+     }
+    ]
    },
    {
     "id": "SA-2026-27-R10-LEC-GEN",
@@ -3413,7 +3660,7 @@
     "time": "18:00",
     "home": "LEC",
     "away": "GEN",
-    "status": "ns",
+    "status": "ft",
     "venue": {
      "name": "Stadio Via del Mare",
      "city": "Lecce",
@@ -3468,7 +3715,7 @@
      {
       "r": "GŁ",
       "role": "Sędzia główny",
-      "name": "Marchetti",
+      "name": "Matteo Marchetti",
       "nat": "ITA"
      },
      {
@@ -3492,7 +3739,153 @@
       ]
      ]
     },
-    "notes": "Przewidywane składy (TuttoMercatoWeb, 30.10): Lecce (4-3-3): Falcone; Veiga, Tiago Gabriel, Siebert, Gallo; Gorter, Ngom, Maleh; Fatah, Esteban, Monteiro. Genoa (3-4-2-1): Bijlow; Marcandalli, Østigård, Vásquez; Ehizibue, Traoré, Frendrup, Mitaj; Baldanzi, El Shaarawy; Ostojić."
+    "notes": "Genoa prowadziła 2:0 po pół godzinie; Maleh odpowiedział z rzutu wolnego, gol Stulicia w doliczonym czasie 1. połowy anulowany po VAR. Minuty goli wg t-online. Źródło: t-online (liveticker).",
+    "score": [
+     1,
+     2
+    ],
+    "formation": {
+     "home": "4-3-3",
+     "away": "3-4-2-1"
+    },
+    "events": [
+     {
+      "m": 11,
+      "t": "goal",
+      "s_": "a",
+      "who": "Milutin Osmajić",
+      "as": "Junior Messias",
+      "how": "Prawa noga"
+     },
+     {
+      "m": 28,
+      "t": "goal",
+      "s_": "a",
+      "who": "Junior Messias",
+      "as": "Stephan El Shaarawy",
+      "how": "Lewa noga"
+     },
+     {
+      "m": 40,
+      "t": "goal",
+      "s_": "h",
+      "who": "Youssef Maleh",
+      "how": "Rzut wolny, lewa noga"
+     },
+     {
+      "m": 45,
+      "s": "+1",
+      "t": "var",
+      "s_": "h",
+      "kind": "Bramka – kontrola",
+      "init": "Gol (Stulić)",
+      "fin": "Gol anulowany"
+     },
+     {
+      "m": 56,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Mohamed Kaba",
+      "out": "Olaf Gorter"
+     },
+     {
+      "m": 59,
+      "t": "yc",
+      "s_": "h",
+      "who": "Mohamed Kaba",
+      "why": "Nierozważny atak"
+     },
+     {
+      "m": 59,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Amar Fatah",
+      "out": "Joël Monteiro",
+      "why": "Uraz"
+     },
+     {
+      "m": 60,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Vitinha",
+      "out": "Stephan El Shaarawy"
+     },
+     {
+      "m": 60,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Kingsley Ehizibue",
+      "out": "Samuel Wiafe"
+     },
+     {
+      "m": 62,
+      "t": "yc",
+      "s_": "a",
+      "who": "Hamed Traoré",
+      "why": "Nierozważny atak"
+     },
+     {
+      "m": 70,
+      "t": "yc",
+      "s_": "h",
+      "who": "Jamil Siebert",
+      "why": "Nierozważny atak"
+     },
+     {
+      "m": 75,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Paco Esteban",
+      "out": "Konan N'Dri"
+     },
+     {
+      "m": 75,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Ali Dembélé",
+      "out": "Nikola Stulić"
+     },
+     {
+      "m": 75,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Omri Gandelman",
+      "out": "Youssef Maleh"
+     },
+     {
+      "m": 80,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Djibril Sow",
+      "out": "Hamed Traoré"
+     },
+     {
+      "m": 86,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Ethan Meichtry",
+      "out": "Junior Messias"
+     },
+     {
+      "m": 86,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Lorenzo Colombo",
+      "out": "Milutin Osmajić"
+     }
+    ],
+    "teamStats": [
+     [
+      "Rzuty rożne",
+      6,
+      3
+     ],
+     [
+      "Spalone",
+      1,
+      3
+     ]
+    ]
    },
    {
     "id": "SA-2026-27-R10-JUV-NAP",
@@ -3500,7 +3893,7 @@
     "time": "20:45",
     "home": "JUV",
     "away": "NAP",
-    "status": "ns",
+    "status": "ft",
     "venue": {
      "name": "Allianz Stadium",
      "city": "Turyn",
@@ -3585,7 +3978,29 @@
       ]
      ]
     },
-    "notes": "Przewidywane składy (TuttoMercatoWeb, 30.10): Juventus (3-5-2): Vicario; Gatti, Bremer, Lucumí; Kalulu, Koopmeiners, Douglas Luiz, McKennie, Cambiaso; Woltemade, Kolo Muani. Napoli (4-3-3): Meret; Di Lorenzo, Rrahmani, R. Marín, Olivera; McTominay, De Bruyne, Anguissa; Politano, Højlund, Lang."
+    "notes": "Gole Alajbegovicia (70') i Bogi (87'). Szczegółowe zdarzenia (kartki, zmiany) niepotwierdzone jednoznacznie – pominięte. Źródło: Fantacalcio.it.",
+    "score": [
+     2,
+     0
+    ],
+    "formation": {
+     "home": "4-3-2-1",
+     "away": "4-3-3"
+    },
+    "events": [
+     {
+      "m": 70,
+      "t": "goal",
+      "s_": "h",
+      "who": "Edin Alajbegović"
+     },
+     {
+      "m": 87,
+      "t": "goal",
+      "s_": "h",
+      "who": "Jérémie Boga"
+     }
+    ]
    },
    {
     "id": "SA-2026-27-R10-SAS-FIO",
@@ -3606,7 +4021,8 @@
       "Fiorentina 2,35 (43%) – szacunek ok. 40–43%",
       "Sassuolo bez zawieszonego Thorstvedta oraz Koné, Leysena i Boloki",
       "Brak rynku z dodatnim EV powyżej progu",
-      "Aktualizacja 01.11: Megapari 1X2 3,09 / 3,60 / 2,41 (oddscalendar) – bez istotnej zmiany wyceny"
+      "Aktualizacja 01.11: Megapari 1X2 3,09 / 3,60 / 2,41 (oddscalendar) – bez istotnej zmiany wyceny",
+      "Aktualizacja 02.11: brak nowych kursów wyraźnie odbiegających od wcześniejszych – wycena bez zmian, NO BET"
      ]
     },
     "odds": {
@@ -3693,16 +4109,19 @@
       "Parma strzela 0,56 gola/mecz, ale brak kursu na BTTS nie lub gole Parmy poniżej 0,5",
       "Atalanta -1,25 po 1,92 – szacunek zbyt niepewny",
       "Brak rynku z dodatnim EV",
-      "Aktualizacja 01.11: BTTS tak 1,90, powyżej 2,5 ok. 1,75 (oddslot) – szacunki zbliżone do kursów, brak przewagi"
+      "Aktualizacja 01.11: BTTS tak 1,90, powyżej 2,5 ok. 1,75 (oddslot) – szacunki zbliżone do kursów, brak przewagi",
+      "Aktualizacja 02.11: BTTS tak 1,91 / nie 2,00, remis 4,50, Parma 6,00 (livetipsportal); Parma przegrała wszystkie 4 mecze wyjazdowe – szacunki nadal bliskie kursom, brak przewagi"
      ]
     },
     "odds": {
-     "src": "Oddsportal 1X2 (stan na 31.10.2026, rano); powyżej/poniżej 2,5 – BetRivers wg RG.org (29.10.2026)",
+     "src": "Oddsportal 1X2 (stan na 31.10.2026, rano); powyżej/poniżej 2,5 – BetRivers wg RG.org (29.10.2026); BTTS – Betfair/Bet365 wg livetipsportal (02.11.2026)",
      "1": 1.5,
      "X": 4.6,
      "2": 6.25,
      "o25": 1.72,
-     "u25": 2.08
+     "u25": 2.08,
+     "bttsY": 1.91,
+     "bttsN": 2.0
     },
     "info": {
      "restDays": {

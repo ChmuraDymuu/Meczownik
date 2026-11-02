@@ -1,9 +1,9 @@
 {
- "updated": "2026-11-01T06:45:00+01:00",
+ "updated": "2026-11-02T06:24:06+01:00",
  "season": "2026/27",
  "competition": "Ligue 1",
  "currentRound": 9,
- "note": "Źródła: FotMob (Troyes–Le Mans: składy, zdarzenia, xG, oceny), ESPN (statystyki), Footeo, Foot01, Eurofootnews (relacje 31.10), Rue des Joueurs (kursy i absencje Strasbourg–Auxerre, Paris FC–Monaco, 30.10–01.11), Starting11 (OM–Toulouse, 01.11); wcześniej: livefoot.fr, ESPN, Foot Mercato, Maxifoot, Stade Rennais Online, eurofootnews, Footeo, Sportsgambler, foot-sur7.fr, lyonfoot.com, BettingNews, RotoWire, ligue1.com (sędziowie J9), FootballPredictions, psg.fr, t-online.de, Foot01, Soccerway, Wincomparator, Eurosport, L'Équipe.",
+ "note": "Źródła: livefoot.fr i futboltotal/API-Sports (Strasbourg–Auxerre), Footeo, Orange Sports, Foot Mercato (Lyon–Angers, Paris FC–Monaco), Footeo, franceinfo, Le Méridional (OM–Toulouse), Maxifoot (tabela, wyniki), Mediapronos, TopMercato, Rue des Joueurs, Jeu Legal France (Lorient–Brest, kursy i absencje, 28–30.10); wcześniej: FotMob, ESPN, Eurofootnews, Starting11, ligue1.com (sędziowie J9), RotoWire, BettingNews, L'Équipe i inne.",
  "teams": {
   "ANG": {
    "id": "ANG",
@@ -192,6 +192,28 @@
    "form": "LWDDW"
   },
   {
+   "team": "LYO",
+   "p": 9,
+   "w": 5,
+   "d": 2,
+   "l": 2,
+   "gf": 15,
+   "ga": 7,
+   "pts": 17,
+   "form": "WLWLW"
+  },
+  {
+   "team": "PFC",
+   "p": 9,
+   "w": 5,
+   "d": 2,
+   "l": 2,
+   "gf": 16,
+   "ga": 10,
+   "pts": 17,
+   "form": "WLWLW"
+  },
+  {
    "team": "REN",
    "p": 9,
    "w": 5,
@@ -203,37 +225,26 @@
    "form": "LWLWL"
   },
   {
+   "team": "OLM",
+   "p": 9,
+   "w": 5,
+   "d": 0,
+   "l": 4,
+   "gf": 20,
+   "ga": 13,
+   "pts": 15,
+   "form": "LWWWW"
+  },
+  {
    "team": "MON",
-   "p": 8,
+   "p": 9,
    "w": 4,
    "d": 3,
-   "l": 1,
-   "gf": 11,
-   "ga": 7,
+   "l": 2,
+   "gf": 12,
+   "ga": 10,
    "pts": 15,
-   "form": "DWDLD"
-  },
-  {
-   "team": "LYO",
-   "p": 8,
-   "w": 4,
-   "d": 2,
-   "l": 2,
-   "gf": 13,
-   "ga": 7,
-   "pts": 14,
-   "form": "DWLWL"
-  },
-  {
-   "team": "PFC",
-   "p": 8,
-   "w": 4,
-   "d": 2,
-   "l": 2,
-   "gf": 13,
-   "ga": 9,
-   "pts": 14,
-   "form": "DWLWL"
+   "form": "WDLDL"
   },
   {
    "team": "NIC",
@@ -258,17 +269,6 @@
    "form": "LWWWL"
   },
   {
-   "team": "OLM",
-   "p": 8,
-   "w": 4,
-   "d": 0,
-   "l": 4,
-   "gf": 18,
-   "ga": 13,
-   "pts": 12,
-   "form": "LLWWW"
-  },
-  {
    "team": "LOR",
    "p": 8,
    "w": 3,
@@ -281,25 +281,36 @@
   },
   {
    "team": "TOU",
-   "p": 8,
+   "p": 9,
    "w": 2,
    "d": 4,
-   "l": 2,
+   "l": 3,
    "gf": 12,
-   "ga": 11,
+   "ga": 13,
    "pts": 10,
-   "form": "DWDWD"
+   "form": "WDWDL"
+  },
+  {
+   "team": "STR",
+   "p": 9,
+   "w": 3,
+   "d": 1,
+   "l": 5,
+   "gf": 17,
+   "ga": 19,
+   "pts": 10,
+   "form": "LLLLW"
   },
   {
    "team": "AUX",
-   "p": 8,
+   "p": 9,
    "w": 3,
    "d": 1,
-   "l": 4,
-   "gf": 12,
-   "ga": 18,
+   "l": 5,
+   "gf": 13,
+   "ga": 23,
    "pts": 10,
-   "form": "WWLWD"
+   "form": "WLWDL"
   },
   {
    "team": "BRE",
@@ -314,14 +325,14 @@
   },
   {
    "team": "ANG",
-   "p": 8,
+   "p": 9,
    "w": 2,
    "d": 2,
-   "l": 4,
+   "l": 5,
    "gf": 9,
-   "ga": 15,
+   "ga": 17,
    "pts": 8,
-   "form": "DWLLD"
+   "form": "WLLDL"
   },
   {
    "team": "TRO",
@@ -333,17 +344,6 @@
    "ga": 16,
    "pts": 8,
    "form": "LLLDW"
-  },
-  {
-   "team": "STR",
-   "p": 8,
-   "w": 2,
-   "d": 1,
-   "l": 5,
-   "gf": 12,
-   "ga": 18,
-   "pts": 7,
-   "form": "DLLLL"
   },
   {
    "team": "LMA",
@@ -5928,13 +5928,13 @@
     "time": "15:00",
     "home": "STR",
     "away": "AUX",
-    "status": "ns",
+    "status": "ft",
     "venue": {
      "name": "Stade de la Meinau",
      "city": "Strasburg",
      "capacity": 29230
     },
-    "notes": "Termin i sędziowie potwierdzeni przez LFP (ligue1.com, 27–28.10.2026). Przewidywane składy (Rue des Joueurs, 30.10): Strasbourg 4-2-3-1 – Jörgensen; Antwi, Mitchell, Coulibaly, Oso; Diop, Essugo; Yassine, El Mourabet, Reyna; Harder. Auxerre 3-4-3 – Nardi; Diomandé, Piedfort, Legros; Sy, Ahamada, Danois, Oppegard; Faivre, Archer, Namaso.",
+    "notes": "Do przerwy 1:0. Gol Godo z 24' nieuznany. Strasbourg przerwał serię 4 porażek ligowych. Wyjściowe składy (livefoot.fr, futboltotal): Strasbourg 4-3-3 – Jørgensen; Doukouré, Høgsberg, Coulibaly, Oso; Reyna, Essugo, El Mourabet; Godo, Harder, Yassine. Auxerre 3-4-2-1 – Nardi; Tuanzebe, Makosso, Akpa; Danois, Ahamada, Oppegård, Sy; Archer, Namaso, Faivre. Numery na koszulkach w źródłach rozbieżne, dlatego pominięte. Statystyki: futboltotal (API-Sports); livefoot podaje faule 11/18. Sędzia: Guillaume Paradis.",
     "officials": [
      {
       "r": "GŁ",
@@ -6017,7 +6017,225 @@
       "Strasbourg 4 porażki z rzędu, ale wracają Doukouré i Nanasi — sygnały sprzeczne.",
       "Brak kursów O/U i DNB z wiarygodnego źródła."
      ]
-    }
+    },
+    "score": [
+     5,
+     1
+    ],
+    "formation": {
+     "home": "4-3-3",
+     "away": "3-4-2-1"
+    },
+    "staff": {
+     "home": [
+      [
+       "Trener",
+       "Hugo Oliveira"
+      ]
+     ],
+     "away": [
+      [
+       "Trener",
+       "Will Still"
+      ]
+     ]
+    },
+    "events": [
+     {
+      "m": 39,
+      "t": "yc",
+      "s_": "a",
+      "who": "Lamine Sy"
+     },
+     {
+      "m": 41,
+      "t": "goal",
+      "s_": "h",
+      "who": "Dário Essugo",
+      "as": "Oso"
+     },
+     {
+      "m": 44,
+      "t": "yc",
+      "s_": "h",
+      "who": "Hugo Oliveira",
+      "why": "Trener"
+     },
+     {
+      "m": 51,
+      "t": "yc",
+      "s_": "a",
+      "who": "Will Still",
+      "why": "Trener"
+     },
+     {
+      "m": 55,
+      "t": "goal",
+      "s_": "h",
+      "who": "Martial Godo",
+      "as": "Gessime Yassine"
+     },
+     {
+      "m": 59,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Sebastian Nanasi",
+      "out": "Martial Godo"
+     },
+     {
+      "m": 60,
+      "t": "yc",
+      "s_": "a",
+      "who": "Christ Makosso"
+     },
+     {
+      "m": 62,
+      "t": "pen",
+      "s_": "h",
+      "who": "Conrad Harder",
+      "res": "Gol"
+     },
+     {
+      "m": 63,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Marvin Senaya",
+      "out": "Christ Makosso"
+     },
+     {
+      "m": 63,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Arthur Piedfort",
+      "out": "Danny Namaso"
+     },
+     {
+      "m": 63,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Lamfia Dioubaté",
+      "out": "Kévin Danois"
+     },
+     {
+      "m": 63,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Rayan Mandengue",
+      "out": "Lamine Sy"
+     },
+     {
+      "m": 66,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Diogo Sousa",
+      "out": "Giovanni Reyna"
+     },
+     {
+      "m": 66,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Jeyland Mitchell",
+      "out": "Ismaël Doukouré"
+     },
+     {
+      "m": 68,
+      "t": "goal",
+      "s_": "a",
+      "who": "Cameron Archer",
+      "as": "Romain Faivre"
+     },
+     {
+      "m": 72,
+      "t": "yc",
+      "s_": "a",
+      "who": "Paul Nardi"
+     },
+     {
+      "m": 73,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Youssef Khoudda",
+      "out": "Naouirou Ahamada"
+     },
+     {
+      "m": 74,
+      "t": "rc",
+      "s_": "a",
+      "who": "Lamfia Dioubaté",
+      "why": "Bezpośrednia czerwona kartka"
+     },
+     {
+      "m": 77,
+      "t": "goal",
+      "s_": "h",
+      "who": "Gessime Yassine",
+      "as": "Sebastian Nanasi"
+     },
+     {
+      "m": 78,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Pape Demba Diop",
+      "out": "Dário Essugo"
+     },
+     {
+      "m": 78,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Jacobo Ortega",
+      "out": "Conrad Harder"
+     },
+     {
+      "m": 85,
+      "t": "goal",
+      "s_": "h",
+      "who": "Gessime Yassine",
+      "as": "Oso"
+     },
+     {
+      "m": 87,
+      "t": "yc",
+      "s_": "a",
+      "who": "Romain Faivre"
+     }
+    ],
+    "teamStats": [
+     [
+      "Posiadanie %",
+      64,
+      36
+     ],
+     [
+      "xG",
+      3.01,
+      0.5
+     ],
+     [
+      "Strzały",
+      19,
+      6
+     ],
+     [
+      "Celne",
+      6,
+      2
+     ],
+     [
+      "Rzuty rożne",
+      5,
+      0
+     ],
+     [
+      "Faule",
+      10,
+      18
+     ],
+     [
+      "Spalone",
+      3,
+      0
+     ]
+    ]
    },
    {
     "id": "L1-2026-27-R9-LYO-ANG",
@@ -6025,13 +6243,13 @@
     "time": "17:15",
     "home": "LYO",
     "away": "ANG",
-    "status": "ns",
+    "status": "ft",
     "venue": {
      "name": "Groupama Stadium",
      "city": "Lyon",
      "capacity": 59186
     },
-    "notes": "Mecz przeniesiony z soboty 20:45 na niedzielę 17:15 na wniosek prefektury Rodanu. Sędziowie wg LFP.",
+    "notes": "Mecz przeniesiony z soboty na niedzielę 17:15 na wniosek prefektury Rodanu. W pierwszym kwadransie sędzia podyktował karny dla Lyonu za faul na Athekame, ale po analizie VAR decyzję anulowano. Peter (Angers) trafił w słupek. Wyjściowe składy (Foot Mercato): Lyon – Greif; Athekame, Niakhaté, Bacher, Abner; Tessmann, Bidstrup, Tolisso; Nuamah, Nakamura, Duranville. Angers – Lopes; Kalulu, Camara, Arcus, Lefort, Raolisoa; van den Boomen, Belkhdim, Belkebla; Peter, Sbaï. Brak w źródłach: kartki, zmiany, frekwencja, statystyki.",
     "officials": [
      {
       "r": "GŁ",
@@ -6095,7 +6313,41 @@
       "Trzech środkowych pomocników Lyonu niepewnych (Morton, Tolisso, Bidstrup) — możliwe osłabienie drugiej linii; brak informacji o absencjach Angers.",
       "Lyon traci mało (7 goli w 8 meczach), ale strzela przeciętnie — wyższe handicapy byłyby ryzykowne."
      ]
-    }
+    },
+    "score": [
+     2,
+     0
+    ],
+    "staff": {
+     "home": [
+      [
+       "Trener",
+       "Paulo Fonseca"
+      ]
+     ],
+     "away": [
+      [
+       "Trener",
+       "Stéphane Gilli"
+      ]
+     ]
+    },
+    "events": [
+     {
+      "m": 38,
+      "t": "goal",
+      "s_": "h",
+      "who": "Ernest Nuamah",
+      "how": "Prawa noga"
+     },
+     {
+      "m": 86,
+      "t": "goal",
+      "s_": "h",
+      "who": "Corentin Tolisso",
+      "how": "Głowa"
+     }
+    ]
    },
    {
     "id": "L1-2026-27-R9-PFC-MON",
@@ -6103,13 +6355,13 @@
     "time": "17:15",
     "home": "PFC",
     "away": "MON",
-    "status": "ns",
+    "status": "ft",
     "venue": {
      "name": "Stade Jean-Bouin",
      "city": "Paryż",
      "capacity": 20000
     },
-    "notes": "Termin i sędziowie potwierdzeni przez LFP (ligue1.com, 27–28.10.2026).",
+    "notes": "Lees-Melou trafił w słupek (13'), po strzale Sané piłka odbiła się od poprzeczki. Sinayoko (8 goli, lider klasyfikacji strzelców) zszedł z urazem uda. Monaco 4. mecz ligowy z rzędu bez zwycięstwa. Drugi gol Sinayoko: 44' wg Orange, 43' wg Footeo; asysta przy golu Pagisa wg Footeo. Brak w źródłach: składy, kartki, frekwencja, statystyki.",
     "officials": [
      {
       "r": "GŁ",
@@ -6191,7 +6443,62 @@
       "Paris FC mocny u siebie, Monaco ma lepszą kadrę, ale słabą ligową formę i grę w pucharach — sygnały się znoszą.",
       "H2H (2 wygrane Paris FC) to zbyt mała próba."
      ]
-    }
+    },
+    "score": [
+     3,
+     1
+    ],
+    "staff": {
+     "home": [
+      [
+       "Trener",
+       "Liam Rosenior"
+      ]
+     ],
+     "away": [
+      [
+       "Trener",
+       "Filipe Luís"
+      ]
+     ]
+    },
+    "events": [
+     {
+      "m": 38,
+      "t": "goal",
+      "s_": "h",
+      "who": "Lassine Sinayoko",
+      "as": "Maxime Lopez"
+     },
+     {
+      "m": 44,
+      "t": "goal",
+      "s_": "h",
+      "who": "Lassine Sinayoko",
+      "as": "Simon"
+     },
+     {
+      "m": 46,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Folarin Balogun",
+      "out": "Paris Brunner"
+     },
+     {
+      "m": 65,
+      "t": "goal",
+      "s_": "a",
+      "who": "Folarin Balogun",
+      "as": "Vanderson"
+     },
+     {
+      "m": 74,
+      "t": "goal",
+      "s_": "h",
+      "who": "Pablo Pagis",
+      "as": "Lassine Sinayoko"
+     }
+    ]
    },
    {
     "id": "L1-2026-27-R9-OLM-TOU",
@@ -6199,13 +6506,13 @@
     "time": "20:45",
     "home": "OLM",
     "away": "TOU",
-    "status": "ns",
+    "status": "ft",
     "venue": {
      "name": "Stade Vélodrome",
      "city": "Marsylia",
      "capacity": 67394
     },
-    "notes": "Termin i sędziowie potwierdzeni przez LFP (ligue1.com, 27–28.10.2026).",
+    "notes": "4. ligowe zwycięstwo OM z rzędu. Gol Gouiriego po zgraniu głową przez Paixão. Toulouse miało 2 gole nieuznane: Tengstedt 69' (spalony po VAR) i Hidalgo 78' (spalony – chorągiewka asystenta). Paixão trafił w słupek (60'); De Lange obronił m.in. strzały Russell-Rowe'a (49') i Jorgensena (65'). Footeo w widżecie podaje 2:1, ale relacje (Footeo, franceinfo, Le Méridional) – 2:0. Brak w źródłach: składy, kartki, frekwencja, statystyki.",
     "officials": [
      {
       "r": "GŁ",
@@ -6286,7 +6593,57 @@
       "Aktualizacja 31.10: X2 po 1,68 (implik. 59,5%) vs moja ocena ok. 50% — ujemne EV; 1 po 1,88 bez przewagi przy słabej defensywie OM u siebie.",
       "Aktualizacja 01.11: średnie kursy 1,85 / 3,80 / 3,50 (≈ 52% / 25% / 27% po marży) — nadal zgodne z moją oceną; sprzeczne informacje o dostępności Oppong i Niflore zwiększają niepewność."
      ]
-    }
+    },
+    "score": [
+     2,
+     0
+    ],
+    "staff": {
+     "home": [
+      [
+       "Trener",
+       "Bruno Genesio"
+      ]
+     ],
+     "away": [
+      [
+       "Trener",
+       "Jens Berthel Askou"
+      ]
+     ]
+    },
+    "events": [
+     {
+      "m": 2,
+      "t": "goal",
+      "s_": "h",
+      "who": "Amine Harit",
+      "as": "Amine Gouiri"
+     },
+     {
+      "m": 19,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Ulisses Garcia",
+      "out": "Emerson",
+      "why": "Uraz"
+     },
+     {
+      "m": 26,
+      "t": "goal",
+      "s_": "h",
+      "who": "Amine Gouiri",
+      "as": "Igor Paixão"
+     },
+     {
+      "m": 69,
+      "t": "var",
+      "s_": "a",
+      "kind": "Bramka – spalony",
+      "init": "Gol (Tengstedt)",
+      "fin": "Gol anulowany"
+     }
+    ]
    },
    {
     "id": "L1-2026-27-R9-LOR-BRE",
@@ -6335,27 +6692,60 @@
      }
     ],
     "odds": {
-     "src": "Rue des Joueurs – najlepsze kursy (Winamax 1/X, Unibet 2), stan na 27.10.2026; BettingNews (6 bukmacherów US) 2,45–2,52 / 3,30–3,32 / 2,85–2,97; RotoWire/Betr 2,41 / 3,14 / 2,80",
-     "1": 2.4,
+     "src": "Mediapronos – kursy referencyjne, stan na 30.10.2026 06:20 (1X2 2,52/3,36/2,98); 1 – Unibet 2,45 (TopMercato); X/2 – Unibet 3,25/2,95 (Rue des Joueurs, 30.10); u2,5 bet365 1,74 (TopMercato), PMU 1,67",
+     "1": 2.45,
      "X": 3.3,
-     "2": 2.95
+     "2": 2.95,
+     "o25": 2.07,
+     "u25": 1.83,
+     "bttsY": 1.81,
+     "bttsN": 2.05
     },
     "info": {
+     "injuries": {
+      "home": [
+       "Panos Katseris (pachwina)",
+       "Noah Mbamba (udo) – niepewny",
+       "Bandiougou Fadiga (udo) – niepewny",
+       "Mohamed Bamba – niepewny",
+       "Isak Jensen – niepewny",
+       "Kamara (2. bramkarz, choroba) – niepewny"
+      ],
+      "away": [
+       "Raphaël Le Guen",
+       "Brendan Chardonnet (łydka)",
+       "Giovani Versini (kolano) – niepewny"
+      ]
+     },
+     "suspensions": {
+      "home": [],
+      "away": []
+     },
      "restDays": {
       "home": 8,
       "away": 10
      },
-     "homeAway": "Lorient 9. (12 pkt, 7:6) – druga najlepsza obrona ligi, ostatnio 0:0 w Angers (forma DLWWD). Brest 13. (9 pkt, 14:12), forma LLWDL, ostatnio 1:2 z Nice u siebie.",
-     "stakes": "Derby Bretanii. Lorient może dogonić górną połowę tabeli, Brest chce oddalić się od strefy spadkowej. Mecz przeniesiony na poniedziałek 20:45 na wniosek prefektury Morbihan."
+     "homeAway": "Lorient 10. (12 pkt, 7:6), 3 mecze bez straty gola (1:0 Paris FC, 1:0 Monaco, 0:0 Angers), 5 czystych kont w 8 meczach; u siebie 2W-1D-1L, over 2,5 w 3 z 8 meczów. Brest 14. (9 pkt, 14:12), bez czystego konta w sezonie, over 2,5 w 6 z 8; na wyjeździe 1W-2D-1L. xG (5 ost.): Lorient 1,01 / xGA 0,80; Brest 1,70 / xGA 1,21.",
+     "stakes": "Derby Bretanii. Lorient może wskoczyć do górnej połowy tabeli, Brest (2 pkt nad strefą spadkową) chce się od niej oddalić. Przewidywane składy: Lorient 3-4-2-1 – Mvogo; Adjei, Touré/Georgen, Talbi; Sylla, Avom, Cadiou, Kouassi; Makengo, Bernardeau; Baldé. Brest 4-2-3-1 – Selvik; Lala, Tousart, Lloris, Locko; Chotard, Magnetti; Baldé, Doumbia, Mboup; Ajorque.",
+     "h2h": [
+      "2026-02-07 BRE 2:0 LOR",
+      "2025-10-19 LOR 3:3 BRE",
+      "Brest bez porażki w 4 ostatnich meczach (3W-1D); ostatnia ligowa wygrana Lorient: 2023-05-07 (2:1)"
+     ]
     },
     "tip": {
      "decision": "NO BET",
      "reasons": [
-      "Kursy 2,40 / 3,30 / 2,95 po marży ≈ 39% / 29% / 32%; moja ocena ok. 40% / 30% / 30% — brak dodatniego EV na żadnym wyniku 1X2.",
-      "Lorient traci bardzo mało (6 goli w 8 meczach), ale też mało strzela (7) — typ na under byłby logiczny, lecz kursów O/U nie znaleziono.",
-      "Brak potwierdzonych informacji o kontuzjach i przewidywanych składach obu drużyn.",
-      "Derby i długa przerwa (8 i 10 dni) zwiększają nieprzewidywalność."
+      "1X2 2,45 / 3,30 / 2,95 po marży ≈ 39% / 29% / 32%; moja ocena ok. 40% / 29% / 31% — EV na Lorient ≈ −0,02, na Brest ≈ −0,09.",
+      "Under 2,5: oczekiwane gole ok. 2,3–2,45 (xG Lorient 1,01 vs xGA Brest 1,21; xG Brest 1,70 vs xGA Lorient 0,80) → p ≈ 56–59%. Przy 1,83 EV ≈ +0,04, przy realnie dostępnych 1,67–1,74 EV ≈ −0,03…0,00 — za mało.",
+      "Sygnały na gole sprzeczne: Lorient 3 mecze bez straty gola i over tylko w 3/8, Brest over w 6/8 i zawsze traci gola; H2H to średnio 3 gole/mecz (ostatnio 3:3 i 0:2).",
+      "BTTS tak 1,81 (impl. 55%) vs moja ocena ok. 52% — ujemne EV.",
+      "Wiele niepewnych absencji w Lorient (Katseris, Mbamba, Fadiga, Bamba) — skład nie jest potwierdzony; deszcz może obniżyć tempo, ale to za słaby argument."
      ]
+    },
+    "weather": {
+     "temp": 8,
+     "rain": "Deszcz (prognoza)"
     }
    }
   ],

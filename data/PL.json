@@ -1,9 +1,9 @@
 {
- "updated": "2026-11-01T05:45:00+01:00",
+ "updated": "2026-11-02T05:30:00+01:00",
  "season": "2026/27",
  "competition": "Premier League",
  "currentRound": 9,
- "note": "Źródła (1.11): NBC Sports (tabela po 31.10), Sky Sports (CHE–MUN, TOT–CRY), the42.ie (BRE–NFO, BOU–LEE, COV–SUN, HUL–IPS), ESPN (COV–SUN statystyki; kursy DraftKings LIV–ARS), Khel Now (MCI–BHA), VAVEL (AVL–FUL), Racing Post (LIV–ARS składy, kursy Sky Bet/bet365), liverpoolfc.com (kadra), newcastleunited.com (sędziowie NEW–EVE), MightyTips (kursy NEW–EVE); wcześniej: Oddsportal, theScore, premierleaguenewsnow.com, Fantasy Football Scout, rg.org, SportyTrader, Opta. Godziny w czasie polskim (CET).",
+ "note": "Źródła (2.11): theScore, ESPN, GOAL (oceny ARS), The Tribune (LIV–ARS); oddslot i RotoWire/OddsJam (kursy i kadry NEW–EVE). Wcześniej: NBC Sports, Sky Sports, the42.ie, Khel Now, VAVEL, Racing Post, newcastleunited.com, MightyTips, Oddsportal, Opta. Godziny w czasie polskim (CET).",
  "teams": {
   "ARS": {
    "id": "ARS",
@@ -188,6 +188,17 @@
  },
  "table": [
   {
+   "team": "ARS",
+   "p": 9,
+   "w": 8,
+   "d": 0,
+   "l": 1,
+   "gf": 14,
+   "ga": 5,
+   "pts": 24,
+   "form": "LWWWW"
+  },
+  {
    "team": "MCI",
    "p": 9,
    "w": 7,
@@ -197,17 +208,6 @@
    "ga": 10,
    "pts": 21,
    "form": "WWWLL"
-  },
-  {
-   "team": "ARS",
-   "p": 8,
-   "w": 7,
-   "d": 0,
-   "l": 1,
-   "gf": 13,
-   "ga": 5,
-   "pts": 21,
-   "form": "WLWWW"
   },
   {
    "team": "BHA",
@@ -233,14 +233,14 @@
   },
   {
    "team": "LIV",
-   "p": 8,
+   "p": 9,
    "w": 4,
    "d": 3,
-   "l": 1,
+   "l": 2,
    "gf": 11,
-   "ga": 8,
+   "ga": 9,
    "pts": 15,
-   "form": "DWLWW"
+   "form": "WLWWL"
   },
   {
    "team": "BRE",
@@ -287,17 +287,6 @@
    "form": "WDWWD"
   },
   {
-   "team": "LEE",
-   "p": 9,
-   "w": 2,
-   "d": 5,
-   "l": 2,
-   "gf": 9,
-   "ga": 8,
-   "pts": 11,
-   "form": "DLDDL"
-  },
-  {
    "team": "HUL",
    "p": 9,
    "w": 2,
@@ -307,6 +296,17 @@
    "ga": 10,
    "pts": 11,
    "form": "LDLDD"
+  },
+  {
+   "team": "LEE",
+   "p": 9,
+   "w": 2,
+   "d": 5,
+   "l": 2,
+   "gf": 9,
+   "ga": 8,
+   "pts": 11,
+   "form": "DLDDL"
   },
   {
    "team": "NEW",
@@ -408,12 +408,7 @@
    "form": "LLLDL"
   }
  ],
- "picks": [
-  {
-   "match": "PL-2026-27-R9-LIV-ARS",
-   "rank": 1
-  }
- ],
+ "picks": [],
  "rounds": {
   "8": [
    {
@@ -3114,7 +3109,7 @@
     "time": "17:30",
     "home": "LIV",
     "away": "ARS",
-    "status": "ns",
+    "status": "ft",
     "venue": {
      "name": "Anfield",
      "city": "Liverpool",
@@ -3243,7 +3238,122 @@
       "name": "James Bell"
      }
     ],
-    "notes": "Przewidywane składy (Racing Post, 4-2-3-1) – LIV: Alisson; Araujo, Jacquet, Van Dijk, Kerkez; Gravenberch, Mac Allister; Barcola, Wirtz, Gakpo; Isak. ARS: Raya; White, Konsa, Gabriel, Lewis-Skelly; Rice, Guimarães; Madueke, Ødegaard, Eze; Havertz."
+    "notes": "Arsenal wygrał na Anfield w lidze po raz pierwszy od 14 lat (300. wyjazdowe zwycięstwo w PL) i jest liderem z przewagą 3 pkt; koniec serii 5 wygranych Liverpoolu. Gol: Ødegaard wymusił pressingiem niecelne podanie Alissona, Rice dośrodkował płasko, Havertz dobił przy dalszym słupku (16'). Skład ARS (GOAL, oceny 0–10): Raya 7; Timber 7, Konsa 8, Gabriel 7, Calafiori 7; Rice 8, Guimarães 7, Ødegaard 7; Madueke 7, Tzolis 7, Havertz 8. Liverpool: 56% posiadania i 17 strzałów (GOAL); celne – źródła rozbieżne (GOAL: 1, Barcola w doliczonym czasie; theScore/Tribune: brak celnego strzału, pierwszy taki mecz LIV na Anfield w PL od 2002/03). Wirtz trafił w poprzeczkę z rzutu wolnego, Mac Allister główkował nad bramką. Żółta kartka m.in. dla Van Dijka (minuta niepotwierdzona). Liverpool domagał się karnego za szarpanie Isaka przez Timbera – VAR bez zmiany decyzji. Pełny skład LIV i statystyki strzałów niedostępne w sprawdzonych źródłach. Typ Under 2,5 (sprzed meczu) – trafiony.",
+    "score": [
+     0,
+     1
+    ],
+    "formation": {
+     "away": "4-3-3"
+    },
+    "events": [
+     {
+      "m": 16,
+      "t": "goal",
+      "s_": "a",
+      "who": "Kai Havertz",
+      "as": "Declan Rice",
+      "how": "Z bliska, przy dalszym słupku"
+     },
+     {
+      "m": 55,
+      "t": "yc",
+      "s_": "a",
+      "who": "Noni Madueke"
+     },
+     {
+      "m": 62,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Myles Lewis-Skelly",
+      "out": "Bruno Guimarães"
+     },
+     {
+      "m": 72,
+      "t": "yc",
+      "s_": "a",
+      "who": "Myles Lewis-Skelly"
+     },
+     {
+      "m": 80,
+      "t": "yc",
+      "s_": "a",
+      "who": "Jurriën Timber"
+     },
+     {
+      "m": 84,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Viktor Gyökeres",
+      "out": "Kai Havertz"
+     },
+     {
+      "m": 84,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Piero Hincapié",
+      "out": "Christos Tzolis"
+     },
+     {
+      "m": 88,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Mikel Merino",
+      "out": "Martin Ødegaard"
+     },
+     {
+      "m": 90,
+      "t": "yc",
+      "s_": "a",
+      "who": "David Raya",
+      "why": "Gra na czas"
+     }
+    ],
+    "teamStats": [
+     [
+      "Posiadanie %",
+      56,
+      44
+     ]
+    ],
+    "ind": {
+     "Kai Havertz": {
+      "r": 8
+     },
+     "Declan Rice": {
+      "r": 8
+     },
+     "Ezri Konsa": {
+      "r": 8
+     },
+     "David Raya": {
+      "r": 7
+     },
+     "Jurriën Timber": {
+      "r": 7
+     },
+     "Gabriel Magalhães": {
+      "r": 7
+     },
+     "Riccardo Calafiori": {
+      "r": 7
+     },
+     "Bruno Guimarães": {
+      "r": 7
+     },
+     "Martin Ødegaard": {
+      "r": 7
+     },
+     "Noni Madueke": {
+      "r": 7
+     },
+     "Christos Tzolis": {
+      "r": 7
+     },
+     "Myles Lewis-Skelly": {
+      "r": 6
+     }
+    }
    },
    {
     "id": "PL-2026-27-R9-NEW-EVE",
@@ -3272,26 +3382,33 @@
      ]
     },
     "odds": {
-     "src": "MightyTips – porównanie (Melbet/Megapari/20Bet 2,35/3,50/2,90; 22Bet 2,37/3,75/3,05), stan 31.10; BTTS – DraftKings via ESPN (30.10)",
+     "src": "MightyTips – porównanie (Melbet/Megapari/20Bet 2,35/3,50/2,90; 22Bet 2,37/3,75/3,05), stan 31.10; BTTS – DraftKings via ESPN (30.10); potwierdzone 02.11: oddslot 2,35/3,50/2,90, 1X 1,40, X2 1,57, 12 1,28; bet365 via RotoWire 2,30/3,50/3,00",
      "1": 2.35,
      "X": 3.5,
      "2": 2.9,
      "o25": 1.72,
      "u25": 2.1,
      "bttsY": 1.56,
-     "bttsN": 2.35
+     "bttsN": 2.35,
+     "1X": 1.4,
+     "X2": 1.57,
+     "12": 1.28
     },
     "info": {
      "injuries": {
       "home": [
-       "Ewen Jaouen (ścięgno)",
        "Tino Livramento (kolano)",
-       "William Osula (kostka – niepewny, zszedł w przerwie meczu pucharowego)",
-       "Lewis Miley (mięsień – niepewny)",
-       "Matías Fernández-Pardo (choroba – niepewny)"
+       "Ewen Jaouen (ścięgno)",
+       "William Osula (kostka – wątpliwy, wg trenera „za wcześnie”)",
+       "Lewis Miley (ścięgno – niepewny)",
+       "Matías Fernández-Pardo (choroba – niepewny)",
+       "Anthony Elanga (ścięgno – ograniczone minuty)",
+       "Joelinton (udo – wszedł w przerwie meczu pucharowego)"
       ],
       "away": [
-       "Jarrad Branthwaite (wstrząśnienie mózgu – niepewny, raczej gotowy na poniedziałek)"
+       "Christian Nørgaard (pachwina – do przerwy reprezentacyjnej)",
+       "Jarrad Branthwaite (po wstrząśnieniu mózgu – oczekiwany powrót)",
+       "Jack Grealish (decyzja dyscyplinarna klubu – status na poniedziałek nieznany)"
       ]
      },
      "suspensions": {
@@ -3316,7 +3433,8 @@
       "Newcastle przegrało 3 z 4 ostatnich meczów i 3 ostatnie z Evertonem (w tym 1:3 w Pucharze Ligi 29.10), ale opieranie się na serii i jednym meczu jest zawodne.",
       "Everton nie strzelił gola w 2 ostatnich meczach ligowych i nie wygrał 4 wyjazdów z rzędu – to przemawia przeciw typowi na gości.",
       "Under 2,5 po 2,10 (48%) – Everton strzela mało (8 w 8), ale Newcastle traci dużo (14 w 8); szacuję ok. 48–50%, EV bliskie zera.",
-      "Niepewne składy: Osula, Miley, Fernández-Pardo (NEW) i Branthwaite (EVE) – zbyt duża niepewność."
+      "Niepewne składy: Osula, Miley, Fernández-Pardo (NEW) i Branthwaite (EVE) – zbyt duża niepewność.",
+      "Aktualizacja 02.11: kursy bez istotnego ruchu (bet365 2,30/3,50/3,00); Newcastle z długą listą niepewnych zawodników, status Grealisha nieznany – nadal brak przewagi."
      ]
     },
     "officials": [
@@ -3351,7 +3469,12 @@
       "role": "Asystent VAR",
       "name": "Stuart Burt"
      }
-    ]
+    ],
+    "formation": {
+     "home": "4-2-3-1",
+     "away": "4-2-3-1"
+    },
+    "notes": "Przewidywane składy (RotoWire, 4-2-3-1) – NEW: Hornicek; Dedic, Burn, Schär, Hall; Joelinton, González; Murphy, Willock, Barnes; Wissa. EVE: Pickford; Röhl, Branthwaite, Tarkowski, Mykolenko; Armstrong, Garner; Johnson, Dewsbury-Hall, George; Barry. Początek 21:00 czasu polskiego."
    }
   ],
   "10": [

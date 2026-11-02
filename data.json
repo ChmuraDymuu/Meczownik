@@ -1,9 +1,9 @@
 {
- "updated": "2026-11-01T06:58:00+01:00",
+ "updated": "2026-11-02T06:55:00+01:00",
  "season": "2026/27",
  "competition": "Ekstraklasa",
  "currentRound": 13,
- "note": "Źródła: ekstraklasa.org (terminarz, protokół Wieczysta–Jagiellonia), sportowefakty.wp.pl (wyniki, tabela), polsatsport.pl (Płock–Piast, GKS–Widzew: składy, zmiany), mecze24.pl / eska.pl (Lech–Wisła), interia.pl, weszlo.com, tylkoslask.pl; kursy: Oddsportal (31.10), LV BET, Superbet. Tabela po sobotnich meczach 13. kolejki (Zagłębie, Korona, Radomiak, Śląsk, Raków, Pogoń grają 2.11; LPO, POG, JAG, WPL z zaległymi meczami). Kolejność przy równej liczbie punktów wg różnicy bramek. Forma: ostatnie 5 meczów ligowych. Godziny w czasie zimowym (CET).",
+ "note": "Źródła: ekstraklasa.org i 90minut.pl (terminarz, obsada sędziowska), pzpn.pl (zmiany w obsadzie 13. kolejki), sportowefakty.wp.pl (wyniki, tabela), polsatsport.pl, mecze24.pl, eska.pl, interia.pl, weszlo.com; zapowiedzi: flashscore.pl, wkielcach.info, sport1.pl, blog.etoto.pl; kursy: podkarpacielive.pl (Superbet, LV Bet, Admiralbet), taksiegra.pl (porównanie), stan na 2.11 rano. Tabela po sobotnich meczach 13. kolejki (Zagłębie, Korona, Radomiak, Śląsk, Raków, Pogoń grają 2.11; LPO, POG, JAG, WPL z zaległymi meczami). Kolejność przy równej liczbie punktów wg różnicy bramek. Forma: ostatnie 5 meczów ligowych. Godziny w czasie zimowym (CET).",
  "teams": {
   "LEG": {
    "id": "LEG",
@@ -2407,7 +2407,7 @@
       "away": []
      }
     },
-    "notes": "Lech przegrał 28.10 w Tarnobrzegu z III-ligową Siarką 0:1 (gol Arkadiusza Kasi, 64') i odpadł z Pucharu Polski; od końca 1. połowy grał w dziesiątkę po 2. żółtej kartce Yannicka Agnero (kara pucharowa). Frederiksen rotował składem i mówił o „sporej liczbie kontuzji”. Wisła Kraków nie grała w tej rundzie pucharu (7 dni odpoczynku). Ostatni mecz Lech–Wisła w Poznaniu: 5:0. Obsada wg lechpoznan.pl; sędzia techniczny pominięty, bo podany tam Marcin Szczerbowicz został przesunięty na mecz Górnik–Legia. | PO MECZU: 3:1 (0:0), 36 229 widzów. Trzy gole Lecha w 10 minut (Kozubal 54', Walemark 57', Agnero 64'), dla Wisły Krzyżanowski głową (56'). Po analizie VAR karny dla Wisły — Rodado przestrzelił nad poprzeczką (eska.pl: 81'; faul wg mecze24.pl w 76'). James Igbekeme zszedł z urazem ok. 70' (za niego Victor Meseguer). Lech zrobił 5 zmian w składzie (m.in. Lis, Gurgul, Kozubal, Rodriguez, Walemark, Pereira, Skrzypczak, Murawski); Wisła wyszła tą samą jedenastką co z Rakowem. 5. ligowe zwycięstwo Lecha z rzędu. Źródła: mecze24.pl, eska.pl.",
+    "notes": "Lech przegrał 28.10 w Tarnobrzegu z III-ligową Siarką 0:1 (gol Arkadiusza Kasi, 64') i odpadł z Pucharu Polski; od końca 1. połowy grał w dziesiątkę po 2. żółtej kartce Yannicka Agnero (kara pucharowa). Frederiksen rotował składem i mówił o „sporej liczbie kontuzji”. Wisła Kraków nie grała w tej rundzie pucharu (7 dni odpoczynku). Ostatni mecz Lech–Wisła w Poznaniu: 5:0. Obsada wg lechpoznan.pl; sędzia techniczny wg komunikatu PZPN (29.10): Piotr Rzucidło zastąpił Marcina Szczerbowicza, przesuniętego na mecz Górnik–Legia. | PO MECZU: 3:1 (0:0), 36 229 widzów. Trzy gole Lecha w 10 minut (Kozubal 54', Walemark 57', Agnero 64'), dla Wisły Krzyżanowski głową (56'). Po analizie VAR karny dla Wisły — Rodado przestrzelił nad poprzeczką (eska.pl: 81'; faul wg mecze24.pl w 76'). James Igbekeme zszedł z urazem ok. 70' (za niego Victor Meseguer). Lech zrobił 5 zmian w składzie (m.in. Lis, Gurgul, Kozubal, Rodriguez, Walemark, Pereira, Skrzypczak, Murawski); Wisła wyszła tą samą jedenastką co z Rakowem. 5. ligowe zwycięstwo Lecha z rzędu. Źródła: mecze24.pl, eska.pl.",
     "tip": {
      "decision": "NO BET",
      "reasons": [
@@ -2437,9 +2437,8 @@
      {
       "r": "4.",
       "role": "Sędzia techniczny",
-      "name": "Marcin Szczerbowicz",
-      "nat": "POL",
-      "city": "Olsztyn"
+      "name": "Piotr Rzucidło",
+      "nat": "POL"
      },
      {
       "r": "VAR",
@@ -2679,11 +2678,17 @@
     "away": "SLA",
     "status": "ns",
     "odds": {
-     "src": "Oddsportal 1X2 (stan na 31.10 ~06:50); 1X: Superbet (flashscore.pl)",
-     "1": 2.15,
+     "src": "podkarpacielive.pl, stan na 2.11 rano: 1X2, podwójna szansa i o2,5 – Superbet; u2,5 – LV Bet; BTTS – Admiralbet",
+     "1": 2.22,
      "X": 3.65,
-     "2": 3.0,
-     "1X": 1.44
+     "2": 3.05,
+     "1X": 1.38,
+     "X2": 1.67,
+     "12": 1.29,
+     "o25": 1.58,
+     "u25": 2.5,
+     "bttsY": 1.51,
+     "bttsN": 2.58
     },
     "officials": [
      {
@@ -2691,12 +2696,12 @@
       "role": "Sędzia główny",
       "name": "Damian Kos",
       "nat": "POL",
-      "city": "Wejherowo"
+      "city": "Gdańsk"
      }
     ],
     "notes": "Obie drużyny odpadły w 1/16 Pucharu Polski po dogrywkach: Radomiak przegrał z Avią Świdnik 1:2, Śląsk z Odrą Opole 1:2.",
     "info": {
-     "homeAway": "Radomiak przegrał 5 ostatnich meczów ligowych (LLLLL), 28 straconych goli w 12 meczach; Śląsk 4 porażki i ostatnio zwycięstwo 2:0 z Wieczystą (LLLLW)",
+     "homeAway": "Radomiak przegrał 5 ostatnich meczów ligowych (LLLLL), 28 straconych goli w 12 meczach; Śląsk zdobył tylko 1 pkt w 6 meczach wyjazdowych (12 straconych goli), ostatnio przerwał serię porażek wygraną 2:0 z Wieczystą",
      "stakes": "17. Radomiak (8 pkt) vs 15. Śląsk (9 pkt) — bezpośredni mecz o utrzymanie",
      "h2h": [
       "2025-02-08 RAD 1:1 SLA",
@@ -2709,7 +2714,7 @@
     "tip": {
      "decision": "NO BET",
      "reasons": [
-      "Kursy bez zmian (2,15 / 3,60–3,65 / 3,00; ok. 45% / 27% / 31% po marży). Dwie słabe drużyny po pucharowych porażkach po dogrywkach, brak informacji o kontuzjach i składach, tylko 1X2 i 1X — brak przewagi."
+      "Rynek wycenia sporo goli (o2,5 1,58 ≈ 63%, BTTS tak 1,51 ≈ 66%) — model bramkowy daje ok. 62% i 64%, więc EV ≤ 0. Model z tabeli faworyzuje Śląsk (ok. 44% vs 33% z kursu 3,05), ale przeczy temu bilans wyjazdowy Śląska (1 pkt w 6 meczach). Brak wiadomości o kontuzjach i składach — sprzeczne sygnały, zbyt duża niepewność."
      ]
     }
    },
@@ -2721,11 +2726,17 @@
     "away": "KOR",
     "status": "ns",
     "odds": {
-     "src": "Oddsportal 1X2 (stan na 31.10 ~06:50); BTTS: Superbet (flashscore.pl)",
-     "1": 2.5,
+     "src": "podkarpacielive.pl, stan na 2.11 rano: 1X2, podwójna szansa, o2,5 i BTTS tak – Superbet; u2,5 – LV Bet; BTTS nie – Admiralbet",
+     "1": 2.57,
      "X": 3.35,
-     "2": 2.7,
-     "bttsY": 1.7
+     "2": 2.77,
+     "1X": 1.45,
+     "X2": 1.51,
+     "12": 1.33,
+     "o25": 1.97,
+     "u25": 1.88,
+     "bttsY": 1.76,
+     "bttsN": 2.09
     },
     "officials": [
      {
@@ -2736,9 +2747,9 @@
       "city": "Bytom"
      }
     ],
-    "notes": "Korona odpadła w 1/16 Pucharu Polski po porażce 1:2 z Polonią Warszawa.",
+    "notes": "Korona odpadła w 1/16 Pucharu Polski po porażce 1:2 z Polonią Warszawa; niedawno zmieniła trenera. 12 z 14 ligowych goli Korony zdobyli Stępiński, Mena i Fassbender. W trzech ostatnich meczach H2H obie drużyny strzelały.",
     "info": {
-     "homeAway": "Zagłębie: forma WLLWD, bilans bramek 15:15; Korona: WWLLW, 14:18",
+     "homeAway": "Zagłębie: 13 pkt w 6 ostatnich meczach domowych, 5 straconych goli i 4 czyste konta w 8 poprzednich meczach u siebie; Korona: 9 pkt na wyjazdach, forma WWLLW, bilans bramek 14:18",
      "stakes": "7. Zagłębie (19 pkt) vs 9. Korona (18 pkt) — środek tabeli",
      "h2h": [
       "2026-02-06 KOR 1:2 ZAG",
@@ -2746,12 +2757,19 @@
       "2025-03-16 ZAG 1:1 KOR",
       "2024-09-15 KOR 2:0 ZAG",
       "2024-03-03 ZAG 1:0 KOR"
-     ]
+     ],
+     "injuries": {
+      "home": [],
+      "away": [
+       "Patrik Hellebrand (drobne urazy – występ niepewny)"
+      ]
+     }
     },
     "tip": {
      "decision": "NO BET",
      "reasons": [
-      "Kursy stabilne (2,50 / 3,30–3,35 / 2,70) — wyrównany mecz sąsiadów w tabeli; BTTS tak 1,70 przy mojej wycenie ok. 55–57% daje EV ≤ 0. H2H 2–1–2, nic nie przechyla szali."
+      "Model z tabeli (oczekiwane gole ok. 1,47–0,98) daje u2,5 ok. 56% i BTTS nie ok. 52% wobec 53% i 48% z kursów (1,88 / 2,09) — po urealnieniu w stronę wyceny rynku przewaga spada do ok. 0–4%, poniżej progu 5%.",
+      "Mocny dom Zagłębia przemawia za gospodarzami, ale w trzech ostatnich H2H obie drużyny strzelały, a 1X 1,45 (≈69%) nie daje wartości. Brak potwierdzonych składów i xG."
      ]
     }
    },
@@ -2763,12 +2781,17 @@
     "away": "POG",
     "status": "ns",
     "odds": {
-     "src": "Oddsportal 1X2 (31.10 ~06:50); 1X/X2: LV BET (blog.lvbet.pl, 1.11)",
-     "1": 2.25,
-     "X": 3.7,
-     "2": 2.8,
-     "1X": 1.45,
-     "X2": 1.7
+     "src": "podkarpacielive.pl, stan na 2.11 rano: 1X2, podwójna szansa i o2,5 – Superbet; u2,5 – LV Bet; BTTS – Admiralbet",
+     "1": 2.3,
+     "X": 3.75,
+     "2": 2.87,
+     "1X": 1.42,
+     "X2": 1.62,
+     "12": 1.28,
+     "o25": 1.57,
+     "u25": 2.42,
+     "bttsY": 1.51,
+     "bttsN": 2.59
     },
     "officials": [
      {
@@ -2779,26 +2802,54 @@
       "city": "Płock"
      }
     ],
-    "notes": "Raków awansował do 1/8 Pucharu Polski: 27.10 w Lublinie 1:1 z Motorem po dogrywce, karne 3–1.",
+    "notes": "Raków awansował do 1/8 Pucharu Polski: 27.10 w Lublinie 1:1 z Motorem po dogrywce, karne 3–1. Dawid Szwarga wrócił na ławkę Rakowa (w lidze na start 1:2 z Wisłą Kraków). Patryk Makuch 6 goli w sezonie, Lamine Diaby-Fadiga 4 gole w 3 ostatnich meczach. Zagrożeni pauzą za kartki: Racovitan, Struski (RAK), Keramitsis (POG). Przewidywane składy (flashscore.pl) — RAK: Trelowski; Tudor, Racovitan, Svarnas; Silva, Repka, Bulat, Otieno; Diaby, Makuch, Pieńko. POG: Cojocaru; Riccio, Keramitsis, Szalai, Willen; Acosta, Biegański; Churlinov, Wojciechowski, Mukairu; Sanchez.",
     "info": {
      "restDays": {
       "home": 6
      },
-     "homeAway": "Raków ostatni w tabeli (2-0-10, 16:28); Pogoń 5 zwycięstw z rzędu (WWWWW), ostatnio 4:3 z Radomiakiem",
-     "stakes": "18. Raków (6 pkt) vs 3. Pogoń (24 pkt, mecz zaległy)",
+     "homeAway": "Raków ostatni w tabeli (2-0-10, 16:28), bez czystego konta w sezonie; Pogoń 5 zwycięstw z rzędu (WWWWW), najlepsza obrona ligi (9 straconych w 11 meczach), ale nie wygrała 4 ostatnich meczów w Częstochowie",
+     "stakes": "18. Raków (6 pkt) vs 4. Pogoń (24 pkt, mecz zaległy)",
      "h2h": [
       "2026-03-08 RAK 2:0 POG",
       "2025-08-31 POG 2:0 RAK",
       "2025-04-19 POG 1:0 RAK",
       "2024-10-20 RAK 1:0 POG",
       "2024-05-11 RAK 2:1 POG"
-     ]
+     ],
+     "injuries": {
+      "home": [
+       "Fran Tudor (uraz z meczu z Wisłą – występ niepewny)"
+      ],
+      "away": [
+       "Benjamin Mendy (mięsień czworogłowy)",
+       "Linus Wahlqvist (łydka)",
+       "José Pozo (zerwane ścięgno Achillesa)",
+       "Ali Hussein (wraca do treningów, raczej nie na pełny mecz)"
+      ]
+     },
+     "suspensions": {
+      "home": [],
+      "away": [
+       "Patryk Dziczek (limit żółtych kartek)"
+      ]
+     }
     },
     "tip": {
      "decision": "NO BET",
      "reasons": [
-      "X2 1,70 (LV BET) ≈ 59% z kursu; Pogoń ma lepszą formę (5 wygranych z rzędu), ale rynek konsekwentnie faworyzuje Raków (2,25–2,30), a H2H 3–2 dla Rakowa. Bez xG, potwierdzonych składów i wiarygodnych kursów na rynki bramkowe (dostępne oferty niespójne) nie widzę przewagi ≥5%."
+      "Skrajny rozjazd: model z tabeli daje Pogoni ok. 62%, a rynek (2,87) tylko ok. 33% — rynek wycenia potencjał kadry Rakowa i zmianę trenera; taki konflikt to sygnał niepewności, nie value.",
+      "Pogoń bez pauzującego Dziczka oraz kontuzjowanych Mendy'ego, Wahlqvista i Pozo; nie wygrała 4 ostatnich meczów w Częstochowie. X2 1,62 (≈62%) po uwzględnieniu absencji nie daje przewagi ≥5%.",
+      "Rynki bramkowe (o2,5 1,57, BTTS tak 1,51) zgodne z modelem (ok. 61% i 56%) — EV ujemne."
      ]
+    },
+    "staff": {
+     "home": [
+      [
+       "Trener",
+       "Dawid Szwarga"
+      ]
+     ],
+     "away": []
     }
    }
   ],
