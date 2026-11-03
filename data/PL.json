@@ -1,9 +1,9 @@
 {
- "updated": "2026-11-02T05:30:00+01:00",
+ "updated": "2026-11-03T05:40:00+01:00",
  "season": "2026/27",
  "competition": "Premier League",
- "currentRound": 9,
- "note": "Źródła (2.11): theScore, ESPN, GOAL (oceny ARS), The Tribune (LIV–ARS); oddslot i RotoWire/OddsJam (kursy i kadry NEW–EVE). Wcześniej: NBC Sports, Sky Sports, the42.ie, Khel Now, VAVEL, Racing Post, newcastleunited.com, MightyTips, Oddsportal, Opta. Godziny w czasie polskim (CET).",
+ "currentRound": 10,
+ "note": "Źródła (3.11): theScore i futboltotal (NEW–EVE: wynik, kartki, zmiany, statystyki), oddslot (kursy EVE–COV, BC.Game), starting11 i footballdream (kadry EVE–COV). Wcześniej: ESPN, GOAL, NBC Sports, Sky Sports, Racing Post, Oddsportal, Opta, RotoWire. Godziny w czasie polskim (CET).",
  "teams": {
   "ARS": {
    "id": "ARS",
@@ -254,6 +254,17 @@
    "form": "WDLDW"
   },
   {
+   "team": "EVE",
+   "p": 9,
+   "w": 3,
+   "d": 4,
+   "l": 2,
+   "gf": 9,
+   "ga": 9,
+   "pts": 13,
+   "form": "WDLLW"
+  },
+  {
    "team": "BOU",
    "p": 9,
    "w": 3,
@@ -310,14 +321,14 @@
   },
   {
    "team": "NEW",
-   "p": 8,
+   "p": 9,
    "w": 3,
    "d": 2,
-   "l": 3,
+   "l": 4,
    "gf": 12,
-   "ga": 14,
+   "ga": 15,
    "pts": 11,
-   "form": "LWLLW"
+   "form": "WLLWL"
   },
   {
    "team": "IPS",
@@ -329,17 +340,6 @@
    "ga": 18,
    "pts": 11,
    "form": "LWLDD"
-  },
-  {
-   "team": "EVE",
-   "p": 8,
-   "w": 2,
-   "d": 4,
-   "l": 2,
-   "gf": 8,
-   "ga": 9,
-   "pts": 10,
-   "form": "DWDLL"
   },
   {
    "team": "FUL",
@@ -3361,7 +3361,7 @@
     "time": "21:00",
     "home": "NEW",
     "away": "EVE",
-    "status": "ns",
+    "status": "ft",
     "venue": {
      "name": "St James' Park",
      "city": "Newcastle upon Tyne",
@@ -3474,7 +3474,155 @@
      "home": "4-2-3-1",
      "away": "4-2-3-1"
     },
-    "notes": "Przewidywane składy (RotoWire, 4-2-3-1) – NEW: Hornicek; Dedic, Burn, Schär, Hall; Joelinton, González; Murphy, Willock, Barnes; Wissa. EVE: Pickford; Röhl, Branthwaite, Tarkowski, Mykolenko; Armstrong, Garner; Johnson, Dewsbury-Hall, George; Barry. Początek 21:00 czasu polskiego."
+    "notes": "Everton wygrał 1:0 po golu Thierno Barry'ego (49', 8. gol w sezonie wg Evertonu; VAR potwierdził bramkę). Wyjściowe składy (4-2-3-1) – NEW: Horníček; Hall, Burn, Schär, Dedić; Nico González, Joelinton; Barnes, Willock, Elanga; Osula. EVE: Pickford; Mykolenko, Branthwaite, Tarkowski, O'Brien; Armstrong, Garner; Dewsbury-Hall, Röhl, Tyrique George; Barry. W doliczonym czasie czerwona kartka dla rezerwowego Jacoba Ramseya (NEW) – źródła różnią się co do przebiegu (futboltotal: żółta 90+6', czerwona 90+8'). Żółtą kartkę otrzymał też trener Evertonu David Moyes (73'). Sędzia John Brooks, VAR Paul Howard. Pełne numery zawodników niedostępne w źródłach.",
+    "score": [
+     0,
+     1
+    ],
+    "attendance": 52279,
+    "events": [
+     {
+      "m": 32,
+      "t": "yc",
+      "s_": "h",
+      "who": "Dan Burn"
+     },
+     {
+      "m": 49,
+      "t": "goal",
+      "s_": "a",
+      "who": "Thierno Barry"
+     },
+     {
+      "m": 51,
+      "t": "var",
+      "s_": "a",
+      "kind": "Bramka – kontrola",
+      "init": "Gol",
+      "fin": "Gol uznany"
+     },
+     {
+      "m": 52,
+      "t": "yc",
+      "s_": "a",
+      "who": "Tyrique George"
+     },
+     {
+      "m": 64,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Steur",
+      "out": "Nico González"
+     },
+     {
+      "m": 64,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Yoane Wissa",
+      "out": "Joe Willock"
+     },
+     {
+      "m": 75,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Jacob Ramsey",
+      "out": "Joelinton"
+     },
+     {
+      "m": 76,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Jacob Murphy",
+      "out": "Anthony Elanga"
+     },
+     {
+      "m": 80,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Johnson",
+      "out": "Thierno Barry"
+     },
+     {
+      "m": 82,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Michael Keane",
+      "out": "Jarrad Branthwaite"
+     },
+     {
+      "m": 87,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Touré",
+      "out": "Dedić"
+     },
+     {
+      "m": 90,
+      "s": "+2",
+      "t": "sub",
+      "s_": "a",
+      "inn": "Hackney",
+      "out": "Tyrique George"
+     },
+     {
+      "m": 90,
+      "s": "+6",
+      "t": "yc",
+      "s_": "h",
+      "who": "Jacob Ramsey"
+     },
+     {
+      "m": 90,
+      "s": "+8",
+      "t": "rc",
+      "s_": "h",
+      "who": "Jacob Ramsey"
+     },
+     {
+      "m": 90,
+      "s": "+9",
+      "t": "yc",
+      "s_": "h",
+      "who": "Fabian Schär"
+     }
+    ],
+    "teamStats": [
+     [
+      "Posiadanie %",
+      52,
+      48
+     ],
+     [
+      "xG",
+      1.51,
+      2.18
+     ],
+     [
+      "Strzały",
+      17,
+      16
+     ],
+     [
+      "Celne",
+      2,
+      5
+     ],
+     [
+      "Rzuty rożne",
+      4,
+      5
+     ],
+     [
+      "Faule",
+      13,
+      9
+     ],
+     [
+      "Spalone",
+      0,
+      2
+     ]
+    ]
    }
   ],
   "10": [
@@ -3486,10 +3634,48 @@
     "away": "COV",
     "status": "ns",
     "odds": {
-     "src": "Oddsportal 1X2 (stan na 28.10)",
+     "src": "oddslot – BC.Game (stan na 3.11); wcześniej Oddsportal 1,70/4,00/4,75 (28.10)",
      "1": 1.7,
-     "X": 4.0,
-     "2": 4.75
+     "X": 3.9,
+     "2": 4.33,
+     "1X": 1.2,
+     "X2": 2.1,
+     "12": 1.25
+    },
+    "info": {
+     "injuries": {
+      "home": [
+       "Jack Grealish (niepewny – decyzja trenera/kwestia dyscyplinarna)"
+      ],
+      "away": [
+       "Amenda (łydka – brak terminu powrotu)",
+       "Woolfenden (wykluczony)",
+       "Eccles (wykluczony)",
+       "Wright (wykluczony)",
+       "Bobby Thomas (łydka – niepewny)"
+      ]
+     },
+     "suspensions": {
+      "home": [],
+      "away": []
+     },
+     "restDays": {
+      "home": 4,
+      "away": 6
+     },
+     "homeAway": "EVE wygrał 1:0 w Newcastle (2.11) po dwóch porażkach z rzędu; COV wygrał 3:1 z Sunderlandem (31.10), wcześniej 0:1 z Fulham u siebie",
+     "stakes": "Everton 7. (13 pkt, 9:9 w bramkach), Coventry 16. (9 pkt, 9:16). Piątkowy mecz otwiera 10. kolejkę; Everton ma o 2 dni krótszy odpoczynek po meczu w poniedziałek."
+    },
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Kurs 1,70 na Everton = ok. 59% (bez marży ok. 56%); szacuję szansę gospodarzy na 54–58% – EV bliskie zera lub ujemne.",
+      "Everton strzela mało (9 goli w 9 meczach) – zwycięstwa nie są zwykle wysokie, więc handicap −1 odpada.",
+      "Coventry w dobrej formie ofensywnej w ostatnich 5 meczach (3 wygrane, 9 goli), ale bilans bramkowy 9:16 i braki kadrowe w obronie (Amenda, Woolfenden, niepewny Thomas).",
+      "Everton grał w poniedziałek (4 dni przerwy vs 6 dni Coventry), a status Grealisha jest nieznany.",
+      "Brak dostępnych kursów na gole i BTTS z wiarygodnego porównania – nie da się ocenić przewagi na tych rynkach.",
+      "Zbyt mała przewaga nad rynkiem – NO BET."
+     ]
     }
    },
    {
@@ -3532,6 +3718,18 @@
      "1": 2.2,
      "X": 3.7,
      "2": 3.1
+    },
+    "info": {
+     "suspensions": {
+      "home": [],
+      "away": [
+       "Jacob Ramsey (czerwona kartka w meczu z Evertonem 2.11 – długość kary do potwierdzenia)"
+      ]
+     },
+     "restDays": {
+      "home": 7,
+      "away": 4
+     }
     }
    },
    {

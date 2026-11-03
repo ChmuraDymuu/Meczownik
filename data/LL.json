@@ -1,9 +1,9 @@
 {
- "updated": "2026-11-02T05:50:00+01:00",
+ "updated": "2026-11-03T05:33:14+01:00",
  "season": "2026/27",
  "competition": "LaLiga",
- "currentRound": 11,
- "note": "Źródła: laliga.com (terminarz), futboltotal.futbol (protokoły RAC–RMA, ELC–VAL, ATH–RSO oraz wcześniejsze z 11. kol.), FOX Sports (GET–SEV), Mundiario, Vavel, El Español, iusport (obsada sędziowska), Oddsportal (1X2, 31.10), Stats Insider/bet365 (kursy, do 2.11), comuniate/jornadaperfecta/futbolfantasy (kontuzje, składy). Tabela wyliczona po meczach 1.11 (DEP–OSA 2.11 o 21:00). Brak statystyk drużynowych GET–SEV; sędzia DEP–OSA nieogłoszony. Godziny w czasie polskim.",
+ "currentRound": 12,
+ "note": "Źródła: laliga.com (terminarz), riazor.org, Infobae/EFE, Mundiario, comuniate (DEP–OSA), futboltotal.futbol i oddscalendar (terminarz 12. kol., model prawdopodobieństw), jornadaperfecta (kontuzje J12), futboltotal.futbol (protokoły 11. kol.), FOX Sports, Vavel, El Español, iusport (obsada sędziowska), Oddsportal / Stats Insider (kursy 10.–11. kol.).",
  "teams": {
   "ALA": {
    "id": "ALA",
@@ -245,6 +245,17 @@
    "form": "DDLWW"
   },
   {
+   "team": "DEP",
+   "p": 11,
+   "w": 3,
+   "d": 5,
+   "l": 3,
+   "gf": 15,
+   "ga": 14,
+   "pts": 14,
+   "form": "DLDLW"
+  },
+  {
    "team": "VIL",
    "p": 11,
    "w": 3,
@@ -300,17 +311,6 @@
    "form": "WLDLW"
   },
   {
-   "team": "DEP",
-   "p": 10,
-   "w": 2,
-   "d": 5,
-   "l": 3,
-   "gf": 13,
-   "ga": 13,
-   "pts": 11,
-   "form": "LDLDL"
-  },
-  {
    "team": "ESP",
    "p": 11,
    "w": 3,
@@ -323,14 +323,14 @@
   },
   {
    "team": "OSA",
-   "p": 10,
+   "p": 11,
    "w": 3,
    "d": 2,
-   "l": 5,
-   "gf": 10,
-   "ga": 20,
+   "l": 6,
+   "gf": 11,
+   "ga": 22,
    "pts": 11,
-   "form": "LDLWL"
+   "form": "DLWLL"
   },
   {
    "team": "RAC",
@@ -10778,12 +10778,12 @@
     "time": "21:00",
     "home": "DEP",
     "away": "OSA",
-    "status": "ns",
+    "status": "ft",
     "venue": {
-     "name": "Riazor",
+     "name": "Abanca-Riazor",
      "city": "A Coruña"
     },
-    "notes": "Termin potwierdzony przez LaLiga: pon. 2.11, 21:00. Zamyka 11. kolejkę. Sędzia nieogłoszony w dostępnych źródłach (stan 2.11 rano).",
+    "notes": "Deportivo odwrócił wynik i wygrał pierwszy mecz ligowy od 6 kolejek. 0:1 po błędzie Leo Romána w wyprowadzeniu piłki (8. gol Budimira w lidze). Soriano wyrównał z rzutu wolnego pośredniego, Luismi Cruz trafił z wolnego w poprzeczkę. W 87. min po rajdzie i dośrodkowaniu Adamy Traoré Herrera obronił strzał głową Aubameyanga (powrót po urazie łąkotki), dobitkę wykorzystał Nsongo. Żółte kartki (minuty niepodane): Moi Gómez, Catena, Bretones, Kike Barja (Osasuna). Minuta wejścia Aubameyanga niepodana w protokole riazor.org – lista zmian Deportivo może być niepełna. Statystyki drużynowe niedostępne.",
     "odds": {
      "src": "bet365 via Stats Insider, stan na 2.11.2026",
      "1": 2.15,
@@ -10830,7 +10830,337 @@
       "Osasuna bez Oroza, Herrando i Del Castillo; Deportivo bez Casadó, Ede i Zakarii – osłabienia się znoszą.",
       "Sędzia i składy nieznane, brak kursów na DNB/BTTS → NO BET."
      ]
-    }
+    },
+    "score": [
+     2,
+     1
+    ],
+    "attendance": 26831,
+    "officials": [
+     {
+      "r": "GŁ",
+      "role": "Sędzia główny",
+      "name": "Jon Ander González Esteban"
+     },
+     {
+      "r": "VAR",
+      "role": "Sędzia VAR",
+      "name": "Raúl Martín González Francés"
+     }
+    ],
+    "staff": {
+     "home": [
+      [
+       "Trener",
+       "Antonio Hidalgo"
+      ]
+     ],
+     "away": [
+      [
+       "Trener",
+       "Jagoba Arrasate"
+      ]
+     ]
+    },
+    "formation": {
+     "home": "4-2-3-1",
+     "away": "4-3-3"
+    },
+    "players": {
+     "home": [
+      [
+       13,
+       "Leo Román",
+       "BR",
+       "",
+       true
+      ],
+      [
+       2,
+       "Altimira",
+       "PO",
+       "",
+       true
+      ],
+      [
+       15,
+       "Loureiro",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       20,
+       "José María Giménez",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       12,
+       "Giacomo Quagliata",
+       "LO",
+       "",
+       true
+      ],
+      [
+       16,
+       "Lorenzo Amatucci",
+       "DP",
+       "",
+       true
+      ],
+      [
+       21,
+       "Soriano",
+       "ŚP",
+       "",
+       true
+      ],
+      [
+       11,
+       "David Mella",
+       "PS",
+       "",
+       true
+      ],
+      [
+       "",
+       "Luismi Cruz",
+       "OP",
+       "",
+       true
+      ],
+      [
+       10,
+       "Yeremay Hernández",
+       "LS",
+       "",
+       true
+      ],
+      [
+       32,
+       "Bil Nsongo",
+       "N",
+       "",
+       true
+      ],
+      [
+       "",
+       "Adama Traoré",
+       "PS",
+       "",
+       false
+      ],
+      [
+       23,
+       "Joaquín Navarro",
+       "PO",
+       "",
+       false
+      ],
+      [
+       "",
+       "Riki Rodríguez",
+       "ŚP",
+       "",
+       false
+      ],
+      [
+       "",
+       "Pierre-Emerick Aubameyang",
+       "N",
+       "",
+       false
+      ]
+     ],
+     "away": [
+      [
+       1,
+       "Sergio Herrera",
+       "BR",
+       "",
+       true
+      ],
+      [
+       19,
+       "Valentin Rosier",
+       "PO",
+       "",
+       true
+      ],
+      [
+       22,
+       "Flavien Boyomo",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       24,
+       "Alejandro Catena",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       23,
+       "Abel Bretones",
+       "LO",
+       "",
+       true
+      ],
+      [
+       7,
+       "Jon Moncayola",
+       "ŚP",
+       "",
+       true
+      ],
+      [
+       8,
+       "Iker Muñoz",
+       "DP",
+       "",
+       true
+      ],
+      [
+       16,
+       "Moi Gómez",
+       "ŚP",
+       "",
+       true
+      ],
+      [
+       18,
+       "Raúl Moro",
+       "PS",
+       "",
+       true
+      ],
+      [
+       17,
+       "Ante Budimir",
+       "N",
+       "",
+       true
+      ],
+      [
+       21,
+       "Jonathan Dubasin",
+       "LS",
+       "",
+       true
+      ],
+      [
+       29,
+       "Asier Osambela",
+       "ŚP",
+       "",
+       false
+      ],
+      [
+       14,
+       "Rubén García",
+       "PS",
+       "",
+       false
+      ],
+      [
+       27,
+       "Arguibide",
+       "PO",
+       "",
+       false
+      ],
+      [
+       9,
+       "Raúl García",
+       "N",
+       "",
+       false
+      ],
+      [
+       11,
+       "Kike Barja",
+       "LS",
+       "",
+       false
+      ]
+     ]
+    },
+    "events": [
+     {
+      "m": 32,
+      "t": "goal",
+      "s_": "a",
+      "who": "Ante Budimir",
+      "as": "Moi Gómez"
+     },
+     {
+      "m": 56,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Adama Traoré",
+      "out": "Giacomo Quagliata"
+     },
+     {
+      "m": 64,
+      "t": "goal",
+      "s_": "h",
+      "who": "Soriano",
+      "how": "Rzut wolny pośredni"
+     },
+     {
+      "m": 69,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Asier Osambela",
+      "out": "Jonathan Dubasin"
+     },
+     {
+      "m": 69,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Rubén García",
+      "out": "Raúl Moro"
+     },
+     {
+      "m": 78,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Arguibide",
+      "out": "Jon Moncayola"
+     },
+     {
+      "m": 78,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Raúl García",
+      "out": "Ante Budimir"
+     },
+     {
+      "m": 87,
+      "t": "goal",
+      "s_": "h",
+      "who": "Bil Nsongo",
+      "how": "Dobitka po obronie strzału głową Aubameyanga"
+     },
+     {
+      "m": 90,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Joaquín Navarro",
+      "out": "Soriano"
+     },
+     {
+      "m": 90,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Riki Rodríguez",
+      "out": "David Mella"
+     }
+    ]
    }
   ],
   "12": [
@@ -10840,7 +11170,50 @@
     "time": "21:00",
     "home": "SEV",
     "away": "ALA",
-    "status": "ns"
+    "status": "ns",
+    "venue": {
+     "name": "Ramón Sánchez-Pizjuán",
+     "city": "Sewilla"
+    },
+    "notes": "Otwiera 12. kolejkę (pt. 6.11, 21:00). Sędzia nieogłoszony (stan 3.11 rano).",
+    "info": {
+     "injuries": {
+      "home": [
+       "Marcão (uraz mięśniowy, powrót w listopadzie)",
+       "Miguel Sierra (bark, do stycznia)",
+       "Isaac Romero (niepewny, kolano)",
+       "Fofana (niepewny, drobny uraz)"
+      ],
+      "away": [
+       "Facundo Garcés (długotrwała)",
+       "Mikel Rodríguez (długotrwała)"
+      ]
+     },
+     "suspensions": {
+      "home": [
+       "Manu Bueno (czerwona kartka)"
+      ],
+      "away": []
+     },
+     "restDays": {
+      "home": 5,
+      "away": 6
+     },
+     "homeAway": "Sewilla – ostatnie 5: 2W 1R 2P (m.in. 1:3 w Getafe, 2:0 z Osasuną, 1:4 z Realem); Alavés – ostatnie 5: 0W 2R 3P (m.in. 1:6 w Barcelonie, 1:1 z Málagą).",
+     "stakes": "6. Sewilla (17 pkt) vs 10. Alavés (12 pkt). Sewilla ma w ostatnich tygodniach serię czerwonych kartek; Alavés bez wygranej od 5 meczów.",
+     "h2h": [
+      "2026-02-14 SEV 1:1 ALA"
+     ]
+    },
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Brak kursów bukmacherskich w dostępnych źródłach (stan 3.11 rano) – regulamin: bez kursów → NO BET.",
+      "Model futboltotal: 49% / 28% / 22% – do porównania po pojawieniu się kursów.",
+      "Niepewny skład Sewilli (Romero, Fofana) i zawieszenie Manu Bueno; sędzia nieznany.",
+      "Do ponownej oceny w kolejnych aktualizacjach (mecz w piątek)."
+     ]
+    }
    },
    {
     "id": "LL-2026-27-R12-MAL-RAC",
@@ -10901,7 +11274,7 @@
    {
     "id": "LL-2026-27-R12-VIL-GET",
     "date": "2026-11-08",
-    "time": "—",
+    "time": "18:30",
     "home": "VIL",
     "away": "GET",
     "status": "ns",

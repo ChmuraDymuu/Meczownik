@@ -1,9 +1,9 @@
 {
- "updated": "2026-11-02T06:10:00+01:00",
+ "updated": "2026-11-03T06:30:00+01:00",
  "season": "2026/27",
  "competition": "Serie A",
- "currentRound": 10,
- "note": "Źródła: Fantacalcio.it (wyniki 10. kolejki, Juventus–Napoli), t-online (Como–Venezia, Lecce–Genoa), Sporza (Lazio–Cagliari, Frosinone–Torino), voetbalkrant.com, livetipsportal (kursy 02.11); wcześniej: ESPN, acmilan.com, Virgilio Sport, ANSA, futboltotal, oddscalendar, oddslot, footballpredictions, TuttoMercatoWeb, Corriere dello Sport, Oddsportal, RG.org, Football Italia, Sky Sport, Wikipedia. Tabela przy równej liczbie punktów sortowana wg różnicy bramek.",
+ "currentRound": 11,
+ "note": "Źródła: Sky Sport Italia (tabela 02.11), Virgilio Sport (Atalanta–Parma), Fantacalcio.it i GidStats (Sassuolo–Fiorentina, terminarz 11. kolejki), Fantamaster (terminarz 12. kolejki), RotoWire (kursy Venezia–Udinese); wcześniej: t-online, Sporza, livetipsportal, ESPN, acmilan.com, ANSA, Oddsportal, RG.org, Corriere dello Sport, Football Italia. Kolejność drużyn z równą liczbą punktów wg Sky Sport.",
  "teams": {
   "ATA": {
    "id": "ATA",
@@ -321,14 +321,14 @@
   },
   {
    "team": "ATA",
-   "p": 9,
+   "p": 10,
    "w": 3,
    "d": 2,
-   "l": 4,
+   "l": 5,
    "gf": 16,
-   "ga": 17,
+   "ga": 20,
    "pts": 11,
-   "form": "LWLDD"
+   "form": "WLDDL"
   },
   {
    "team": "LEC",
@@ -342,15 +342,37 @@
    "form": "LWLLL"
   },
   {
-   "team": "SAS",
-   "p": 9,
+   "team": "PAR",
+   "p": 10,
    "w": 2,
    "d": 2,
-   "l": 5,
-   "gf": 14,
-   "ga": 22,
+   "l": 6,
+   "gf": 8,
+   "ga": 15,
    "pts": 8,
-   "form": "LDLLL"
+   "form": "LLLDW"
+  },
+  {
+   "team": "FIO",
+   "p": 10,
+   "w": 2,
+   "d": 2,
+   "l": 6,
+   "gf": 15,
+   "ga": 23,
+   "pts": 8,
+   "form": "LLLDW"
+  },
+  {
+   "team": "SAS",
+   "p": 10,
+   "w": 2,
+   "d": 2,
+   "l": 6,
+   "gf": 16,
+   "ga": 26,
+   "pts": 8,
+   "form": "DLLLL"
   },
   {
    "team": "MON",
@@ -362,28 +384,6 @@
    "ga": 24,
    "pts": 7,
    "form": "LWLLL"
-  },
-  {
-   "team": "FIO",
-   "p": 9,
-   "w": 1,
-   "d": 2,
-   "l": 6,
-   "gf": 11,
-   "ga": 21,
-   "pts": 5,
-   "form": "DLLLD"
-  },
-  {
-   "team": "PAR",
-   "p": 9,
-   "w": 1,
-   "d": 2,
-   "l": 6,
-   "gf": 5,
-   "ga": 15,
-   "pts": 5,
-   "form": "WLLLD"
   },
   {
    "team": "UDI",
@@ -410,2218 +410,6 @@
  ],
  "picks": [],
  "rounds": {
-  "9": [
-   {
-    "id": "SA-2026-27-R9-SAS-LAZ",
-    "date": "2026-10-27",
-    "time": "18:30",
-    "home": "SAS",
-    "away": "LAZ",
-    "status": "ft",
-    "odds": {
-     "src": "Betfred/William Hill/Matchbook wg thefootballfaithful (26.10, 20:44); X2/12 – Snai wg commentierecensioni; over 2,5 – Tuttosport (1,65)",
-     "1": 3.1,
-     "X": 3.5,
-     "2": 2.2,
-     "12": 1.3,
-     "dnb2": 1.5,
-     "o25": 1.65,
-     "u25": 2.15,
-     "bttsY": 1.6
-    },
-    "venue": {
-     "name": "Mapei Stadium – Città del Tricolore",
-     "city": "Sassuolo",
-     "capacity": 21515
-    },
-    "staff": {
-     "home": [
-      [
-       "Trener",
-       "Alberto Aquilani"
-      ]
-     ],
-     "away": [
-      [
-       "Trener",
-       "Gennaro Gattuso"
-      ]
-     ]
-    },
-    "tip": {
-     "decision": "NO BET",
-     "reasons": [
-      "Powyżej 2,5 po 1,65–1,75 (ok. 57–61% z kursu): mecze Sassuolo są bramkowe (3,75 gola/mecz), ale Lazio traci tylko 0,6 gola/mecz – szacunek ok. 58–62%, EV ≈ 0",
-      "BTTS tak 1,57–1,64 (ok. 62%) – Sassuolo strzela regularnie, lecz obrona Lazio najlepsza w lidze; brak przewagi",
-      "Lazio 2,20 / DNB 1,50 – Lazio punktuje ponad xG i oddaje mało celnych strzałów (4,6/mecz), a gra niecałe 70 h po meczu z Parmą (rotacja)",
-      "Sprzeczne sygnały między formą a jakością gry – zbyt duża niepewność"
-     ]
-    },
-    "info": {
-     "restDays": {
-      "home": 3,
-      "away": 2
-     },
-     "stakes": "Lazio 2. (22 pkt jak Inter, gorszy bilans bramek; 4 wygrane z rzędu, 3-0-0 na wyjazdach, 5 straconych w 8 meczach); Sassuolo (8 pkt) straciło gola w każdej z 8 kolejek, 6 z 8 meczów powyżej 2,5 gola.",
-     "injuries": {
-      "home": [
-       "Koné",
-       "Leysen (więzadło krzyżowe)",
-       "Boloca",
-       "Candé"
-      ],
-      "away": [
-       "Gudmundsson (bark)",
-       "Rovella",
-       "Gigot",
-       "L. Pellegrini",
-       "Patric",
-       "Furlanetto"
-      ]
-     }
-    },
-    "officials": [
-     {
-      "r": "GŁ",
-      "role": "Sędzia główny",
-      "name": "Luca Zufferli",
-      "nat": "ITA"
-     },
-     {
-      "r": "AS1",
-      "role": "Asystent 1",
-      "name": "Di Gioia",
-      "nat": "ITA"
-     },
-     {
-      "r": "AS2",
-      "role": "Asystent 2",
-      "name": "Miniutti",
-      "nat": "ITA"
-     },
-     {
-      "r": "4.",
-      "role": "Sędzia techniczny",
-      "name": "Tremolada",
-      "nat": "ITA"
-     },
-     {
-      "r": "VAR",
-      "role": "Sędzia VAR",
-      "name": "Cosso",
-      "nat": "ITA"
-     },
-     {
-      "r": "AVAR",
-      "role": "Asystent VAR",
-      "name": "Aureliano",
-      "nat": "ITA"
-     }
-    ],
-    "score": [
-     2,
-     6
-    ],
-    "events": [
-     {
-      "m": 2,
-      "t": "goal",
-      "s_": "a",
-      "who": "Kenneth Taylor"
-     },
-     {
-      "m": 7,
-      "t": "og",
-      "s_": "h",
-      "who": "Josip Šutalo"
-     },
-     {
-      "m": 13,
-      "t": "goal",
-      "s_": "a",
-      "who": "Gustav Isaksen",
-      "as": "Mattia Zaccagni",
-      "how": "Lewa noga"
-     },
-     {
-      "m": 16,
-      "t": "var",
-      "s_": "a",
-      "kind": "Bramka – możliwy spalony",
-      "init": "Gol anulowany",
-      "fin": "Gol uznany"
-     },
-     {
-      "m": 16,
-      "t": "goal",
-      "s_": "a",
-      "who": "Romano Floriani Mussolini",
-      "as": "Kenneth Taylor"
-     },
-     {
-      "m": 31,
-      "t": "rc",
-      "s_": "h",
-      "who": "Kristian Thorstvedt",
-      "why": "Brutalny faul na Zaccagnim"
-     },
-     {
-      "m": 43,
-      "t": "goal",
-      "s_": "h",
-      "who": "Sebastiano Esposito"
-     },
-     {
-      "m": 45,
-      "s": "+1",
-      "t": "goal",
-      "s_": "a",
-      "who": "Mattia Zaccagni",
-      "how": "Głowa"
-     },
-     {
-      "m": 50,
-      "t": "pen",
-      "s_": "a",
-      "who": "Mattia Zaccagni",
-      "res": "Obroniony"
-     },
-     {
-      "m": 55,
-      "t": "goal",
-      "s_": "a",
-      "who": "Tijjani Noslin",
-      "how": "Strzał zza pola karnego"
-     },
-     {
-      "m": 60,
-      "t": "pen",
-      "s_": "a",
-      "who": "Davide Frattesi",
-      "res": "Obroniony"
-     },
-     {
-      "m": 65,
-      "t": "goal",
-      "s_": "a",
-      "who": "Tijjani Noslin"
-     }
-    ],
-    "notes": "Gol na 1:1 (7') to samobój Šutalo po strzale Thorstvedta (asysta Doig). Gol Florianiego najpierw anulowany za spalonego, uznany po VAR. Sassuolo od 31' w dziesiątkę. Turati obronił dwa karne (Zaccagni – ręka Cinquegrano; Frattesi – faul Čalety-Cara na Isaksenie). Lazio liderem z 25 pkt. Brak pełnych składów i statystyk w dostępnych źródłach."
-   },
-   {
-    "id": "SA-2026-27-R9-ROM-CAG",
-    "date": "2026-10-27",
-    "time": "20:45",
-    "home": "ROM",
-    "away": "CAG",
-    "status": "ft",
-    "odds": {
-     "src": "Snai/kursy wg commentierecensioni.com (1X2, podwójna szansa) + rynki bramkowe wg footballpredictions.com / Betfred, William Hill (thefootballfaithful) – stan na 26–27.10.2026",
-     "1": 1.33,
-     "12": 1.17
-    },
-    "venue": {
-     "name": "Stadio Olimpico",
-     "city": "Rzym",
-     "capacity": 70634
-    },
-    "staff": {
-     "home": [
-      [
-       "Trener",
-       "Gian Piero Gasperini"
-      ]
-     ],
-     "away": [
-      [
-       "Trener",
-       "Fabio Pisacane"
-      ]
-     ]
-    },
-    "tip": {
-     "decision": "NO BET",
-     "reasons": [
-      "Roma 1,33 (ok. 75% z kursu) – szacunek ok. 70–74%, EV ujemne lub zerowe",
-      "Roma bez Svilara i Konégo, po intensywnym 3:3 w Neapolu – możliwa rotacja",
-      "Brak wiarygodnych kursów na rynkach bramkowych"
-     ]
-    },
-    "info": {
-     "injuries": {
-      "home": [
-       "Svilar (do 10.11)",
-       "Koné (do 8.11)",
-       "Dybala (do 2.11)",
-       "L. Pellegrini"
-      ],
-      "away": [
-       "Felici (do 9.02)",
-       "Idrissi (do 30.10)",
-       "Trepy"
-      ]
-     },
-     "restDays": {
-      "home": 3,
-      "away": 3
-     },
-     "stakes": "Roma (18 pkt) po 3:3 w Neapolu straciła 3 gole – tyle, co w 7 poprzednich kolejkach łącznie; Cagliari (13 pkt) po dwóch porażkach z rzędu (0:4 z Monzą, 0:2 z Bologną)."
-    },
-    "officials": [
-     {
-      "r": "GŁ",
-      "role": "Sędzia główny",
-      "name": "Ermanno Feliciani",
-      "nat": "ITA"
-     }
-    ],
-    "score": [
-     4,
-     2
-    ],
-    "events": [
-     {
-      "m": 10,
-      "t": "pen",
-      "s_": "a",
-      "who": "M'Bala Nzola",
-      "res": "Gol"
-     },
-     {
-      "m": 15,
-      "t": "goal",
-      "s_": "h",
-      "who": "Emanuele Lulli"
-     },
-     {
-      "m": 21,
-      "t": "goal",
-      "s_": "h",
-      "who": "Niccolò Pisilli"
-     },
-     {
-      "m": 81,
-      "t": "goal",
-      "s_": "a",
-      "who": "Daniel Maldini",
-      "as": "Adam Obert"
-     },
-     {
-      "m": 83,
-      "t": "sub",
-      "s_": "h",
-      "inn": "Daniele Ghilardi",
-      "out": "Gianluca Mancini"
-     },
-     {
-      "m": 85,
-      "t": "goal",
-      "s_": "h",
-      "who": "Rodrigo Mora",
-      "how": "Głowa"
-     },
-     {
-      "m": 87,
-      "t": "goal",
-      "s_": "h",
-      "who": "Donyell Malen"
-     }
-    ],
-    "notes": "Karny dla Cagliari za zagranie ręką Pisillego. Roma odwróciła wynik w 11 minut, Maldini wyrównał na 2:2 w 81', a Mora i Malen dali wygraną w końcówce. Lista zmian i kartek niepełna."
-   },
-   {
-    "id": "SA-2026-27-R9-TOR-COM",
-    "date": "2026-10-27",
-    "time": "20:45",
-    "home": "TOR",
-    "away": "COM",
-    "status": "ft",
-    "odds": {
-     "src": "Snai/kursy wg commentierecensioni.com (1X2, podwójna szansa) + rynki bramkowe wg footballpredictions.com / Betfred, William Hill (thefootballfaithful) – stan na 26–27.10.2026",
-     "2": 1.75,
-     "X2": 1.2,
-     "dnb2": 1.3,
-     "o25": 1.67,
-     "bttsY": 1.61
-    },
-    "venue": {
-     "name": "Stadio Olimpico Grande Torino",
-     "city": "Turyn",
-     "capacity": 28177
-    },
-    "staff": {
-     "home": [
-      [
-       "Trener",
-       "Ignazio Abate"
-      ]
-     ],
-     "away": [
-      [
-       "Trener",
-       "Cesc Fàbregas"
-      ]
-     ]
-    },
-    "tip": {
-     "decision": "NO BET",
-     "reasons": [
-      "Como 1,75 (57% z kursu): xG Como 2,00 vs xGA Torino 1,63 przemawia za Como, ale trzeci mecz w tygodniu i rotacja Fàbregasa – szacunek ok. 54–56%, EV ≈ −3%",
-      "DNB Como ok. 1,30 – przy ok. 72% szansy na brak porażki EV ujemne",
-      "Powyżej 2,5 po ok. 1,67 (60%) – Torino ma niskie xG (1,22), szacunek ok. 55–58%",
-      "Torino w formie (3 wygrane z rzędu) – brak rynku z przewagą"
-     ]
-    },
-    "info": {
-     "injuries": {
-      "home": [],
-      "away": [
-       "Chalobah (do 3.11)",
-       "Liberali",
-       "Diao (do 8.11)",
-       "J. Rodríguez (do 21.12)"
-      ]
-     },
-     "restDays": {
-      "home": 4,
-      "away": 3
-     },
-     "stakes": "Torino (13 pkt, 3 wygrane z rzędu) vs Como (17 pkt, 3 wygrane z rzędu, 2:0 z Sassuolo przy rotacji – Nico Paz odpoczywał)."
-    },
-    "officials": [
-     {
-      "r": "GŁ",
-      "role": "Sędzia główny",
-      "name": "Giuseppe Collu",
-      "nat": "ITA"
-     }
-    ],
-    "score": [
-     1,
-     3
-    ],
-    "events": [
-     {
-      "m": 24,
-      "t": "goal",
-      "s_": "h",
-      "who": "Che Adams",
-      "as": "Kaye Fitz-Jim"
-     },
-     {
-      "m": 81,
-      "t": "goal",
-      "s_": "a",
-      "who": "Jacobo Ramón",
-      "as": "Nico Paz"
-     },
-     {
-      "m": 87,
-      "t": "goal",
-      "s_": "a",
-      "who": "Nico Paz",
-      "as": "Yan Couto",
-      "how": "Głowa"
-     },
-     {
-      "m": 90,
-      "s": "+2",
-      "t": "goal",
-      "s_": "a",
-      "who": "Martin Baturina"
-     }
-    ],
-    "notes": "Gol Douvikasa w 5' anulowany (spalony). Como odwróciło wynik w ostatnich 10 minutach; trzeci gol po błędzie Vlašicia. Brak składów i kartek w dostępnych źródłach."
-   },
-   {
-    "id": "SA-2026-27-R9-MIL-BOL",
-    "date": "2026-10-28",
-    "time": "18:30",
-    "home": "MIL",
-    "away": "BOL",
-    "status": "ft",
-    "odds": {
-     "src": "BC.Game wg oddslot (1X2, podwójna szansa, stan 28.10); powyżej 2,5 – oddslot (1,83); poniżej 2,5 i BTTS nie – footballpredictions.com (+100, bukmacher nieokreślony)",
-     "1": 1.62,
-     "X": 3.75,
-     "2": 6.0,
-     "1X": 1.12,
-     "12": 1.25,
-     "X2": 2.25,
-     "o25": 1.83,
-     "u25": 2.0,
-     "bttsN": 2.0
-    },
-    "venue": {
-     "name": "San Siro",
-     "city": "Mediolan",
-     "capacity": 75710
-    },
-    "staff": {
-     "home": [
-      [
-       "Trener",
-       "Rúben Amorim"
-      ]
-     ],
-     "away": [
-      [
-       "Trener",
-       "Raffaele Palladino"
-      ]
-     ]
-    },
-    "info": {
-     "injuries": {
-      "home": [
-       "P. Terracciano",
-       "Gabbia (do 13.01)",
-       "Chukwueze",
-       "Loftus-Cheek",
-       "Saelemaekers (do 8.02)"
-      ],
-      "away": [
-       "Holm (do 29.01)",
-       "Orsolini (do 3.11)",
-       "Piccoli (do 7.11)"
-      ]
-     },
-     "restDays": {
-      "home": 3,
-      "away": 4
-     },
-     "stakes": "Milan gra w niedzielę wieczorem w Udine, w środę o 18:30 z Bologną; Bologna po pierwszej wygranej za Palladino (2:0 w Cagliari).",
-     "homeAway": "Milan u siebie (ost. 10, wszystkie rozgr.): 2,0 strzel./1,0 strac., BTTS 25%, xG 1,54/xGA 1,07. Bologna na wyjeździe: 0,8 strzel./0,8 strac., średnio 1,6 gola/mecz, BTTS 20%, nie strzeliła w 60% meczów.",
-     "h2h": [
-      "2026-02-03 BOL 0:3 MIL"
-     ]
-    },
-    "tip": {
-     "decision": "BET",
-     "market": "Poniżej 2,5 gola",
-     "odds": 2.0,
-     "prob": 0.54,
-     "ev": 0.08,
-     "rating": 6,
-     "risk": "średnie",
-     "reasons": [
-      "Bologna na wyjazdach (ost. 10): średnio 1,6 gola w meczu, BTTS tylko 20%, brak gola w 60% spotkań",
-      "Milan u siebie: BTTS 25%, 50% czystych kont, xGA 1,07 – mecze kontrolowane",
-      "Bologna bez Piccolego, Orsoliniego i Holma – najgroźniejsze opcje ofensywne poza składem",
-      "Bologna w lidze: 8 goli strzelonych w 8 meczach (1,0/mecz)",
-      "Model Poissona z tabeli (regresja do średniej) daje ok. 52% na ≤2 gole; dane dom/wyjazd przesuwają szacunek do ok. 54% wobec 50% z kursu 2,00",
-      "Milan gra trzeci mecz w 7 dni – możliwa rotacja i niższe tempo"
-     ],
-     "risks": [
-      "Milan strzela u siebie 2,0 gola/mecz – 3:0 wystarczy, by typ przegrał",
-      "Kurs na under z jednego, nieokreślonego źródła (over 1,83 w oddslot jest z nim spójny)",
-      "H2H: powyżej 2,5 w 54% meczów",
-      "Przewaga niewielka – mała próbka sezonu"
-     ],
-     "value": "Kurs 2,00 wycenia under na 50%, mój szacunek ok. 54% – EV ok. +8%, typ umiarkowany.",
-     "stake": "0,5–1% bankrollu"
-    },
-    "officials": [
-     {
-      "r": "GŁ",
-      "role": "Sędzia główny",
-      "name": "Sacchi",
-      "nat": "ITA"
-     }
-    ],
-    "score": [
-     2,
-     4
-    ],
-    "events": [
-     {
-      "m": 8,
-      "t": "goal",
-      "s_": "a",
-      "who": "Samuel Mbangula",
-      "as": "Nadir Zortea"
-     },
-     {
-      "m": 14,
-      "t": "goal",
-      "s_": "h",
-      "who": "Alphadjo Cissé"
-     },
-     {
-      "m": 27,
-      "t": "goal",
-      "s_": "h",
-      "who": "Alphadjo Cissé"
-     },
-     {
-      "m": 60,
-      "t": "og",
-      "s_": "a",
-      "who": "Davide Bartesaghi"
-     },
-     {
-      "m": 61,
-      "t": "goal",
-      "s_": "a",
-      "who": "Samuel Mbangula",
-      "as": "Juan Miranda"
-     },
-     {
-      "m": 86,
-      "t": "goal",
-      "s_": "a",
-      "who": "Samuel Mbangula",
-      "as": "Jens Odgaard"
-     }
-    ],
-    "notes": "Hat-trick Mbanguli; Bologna odrobiła straty z 1:2 po przerwie. Samobój Bartesaghiego po rzucie wolnym rezerwowego Juana Mirandy, który asystował też przy drugim golu Mbanguli. Pierwsza ligowa porażka Milanu w sezonie."
-   },
-   {
-    "id": "SA-2026-27-R9-PAR-UDI",
-    "date": "2026-10-28",
-    "time": "18:30",
-    "home": "PAR",
-    "away": "UDI",
-    "status": "ft",
-    "odds": {
-     "src": "Snai/kursy wg commentierecensioni.com (1X2, podwójna szansa) + rynki bramkowe wg footballpredictions.com / Betfred, William Hill (thefootballfaithful) – stan na 26–27.10.2026; under 2,5, BTTS, 1X – footballpredictions.com (28.10)",
-     "2": 2.5,
-     "X2": 1.33,
-     "u25": 1.67,
-     "bttsY": 1.9,
-     "1X": 1.5
-    },
-    "venue": {
-     "name": "Stadio Ennio Tardini",
-     "city": "Parma",
-     "capacity": 22352
-    },
-    "staff": {
-     "home": [
-      [
-       "Trener",
-       "Alberto Gilardino"
-      ]
-     ],
-     "away": [
-      [
-       "Trener",
-       "Kosta Runjaić"
-      ]
-     ]
-    },
-    "info": {
-     "injuries": {
-      "home": [
-       "Nicolussi Caviglia (do 2.11)",
-       "Almqvist (do 30.10)"
-      ],
-      "away": [
-       "Alaba (do 22.11)",
-       "Bayo",
-       "Gueye (do 5.01)"
-      ]
-     },
-     "restDays": {
-      "home": 4,
-      "away": 3
-     },
-     "stakes": "Mecz dołu tabeli: Parma 4 pkt (19. miejsce), Udinese 4 pkt przed niedzielnym meczem z Milanem (5 porażek z rzędu).",
-     "homeAway": "Parma (ost. 10): 0,6 strzel./1,8 strac., nie strzeliła w 50% meczów; Udinese 6 porażek z rzędu, na wyjazdach strzela w każdym meczu (2,0/mecz)."
-    },
-    "tip": {
-     "decision": "NO BET",
-     "reasons": [
-      "Udinese w serii porażek (0:2 z Milanem, 4 pkt), Parma 6 porażek w 8 meczach (4 pkt) – brak podstaw do wyboru strony",
-      "Udinese faworytem na wyjeździe mimo fatalnej formy – rynek niejasny",
-      "Brak wiarygodnych kursów na rynkach bramkowych",
-      "Under 2,5 po 1,67 (60%) vs model ok. 50% i 5 kolejnych meczów Parmy z over 2,5 – brak przewagi"
-     ]
-    },
-    "officials": [
-     {
-      "r": "GŁ",
-      "role": "Sędzia główny",
-      "name": "Massa",
-      "nat": "ITA"
-     }
-    ],
-    "score": [
-     0,
-     0
-    ],
-    "events": [],
-    "notes": "Bezbramkowy remis w meczu dołu tabeli."
-   },
-   {
-    "id": "SA-2026-27-R9-VEN-INT",
-    "date": "2026-10-28",
-    "time": "18:30",
-    "home": "VEN",
-    "away": "INT",
-    "status": "ft",
-    "odds": {
-     "src": "Snai/kursy wg commentierecensioni.com (1X2, podwójna szansa) + rynki bramkowe wg footballpredictions.com / Betfred, William Hill (thefootballfaithful) – stan na 26–27.10.2026; over 2,5 i BTTS – footballpredictions.com (28.10)",
-     "2": 1.33,
-     "12": 1.14,
-     "o25": 1.36,
-     "bttsY": 1.57
-    },
-    "venue": {
-     "name": "Stadio Pier Luigi Penzo",
-     "city": "Wenecja",
-     "capacity": 12048
-    },
-    "staff": {
-     "away": [
-      [
-       "Trener",
-       "Cristian Chivu"
-      ]
-     ]
-    },
-    "info": {
-     "injuries": {
-      "home": [
-       "Bella-Kotchap",
-       "Correia",
-       "Franjić (do 10.12)",
-       "Moreno",
-       "Sverko (do 31.10)",
-       "Busio (do 27.10)",
-       "Adorante"
-      ],
-      "away": [
-       "Pavard (do 5.11)",
-       "Stones",
-       "Jones (do 29.10)",
-       "Luis Henrique",
-       "Lautaro Martínez (do 22.11)"
-      ]
-     },
-     "restDays": {
-      "home": 3,
-      "away": 3
-     },
-     "stakes": "Inter gra w niedzielę o 12:30 z Fiorentiną; Venezia ostatnia, ale pokonała Napoli 1:0 u siebie."
-    },
-    "tip": {
-     "decision": "NO BET",
-     "reasons": [
-      "Inter 1,33 (ok. 75%) – bez Lautaro, Pavarda i Jonesa, trzeci mecz w tygodniu; z Fiorentiną wygrał dopiero w doliczonym czasie",
-      "Venezia ostatnia (3 pkt), ale u siebie pokonała Napoli – kurs nie daje wartości",
-      "Brak rynku z przewagą",
-      "BTTS tak 1,57 (64%) i over 2,5 po 1,36 (74%) – Venezia nie strzeliła w 40% meczów, kursy bez wartości"
-     ]
-    },
-    "officials": [
-     {
-      "r": "GŁ",
-      "role": "Sędzia główny",
-      "name": "Luca Pairetto",
-      "nat": "ITA"
-     },
-     {
-      "r": "AS1",
-      "role": "Asystent 1",
-      "name": "Meli",
-      "nat": "ITA"
-     },
-     {
-      "r": "AS2",
-      "role": "Asystent 2",
-      "name": "Ceccon",
-      "nat": "ITA"
-     },
-     {
-      "r": "4.",
-      "role": "Sędzia techniczny",
-      "name": "Fourneau",
-      "nat": "ITA"
-     },
-     {
-      "r": "VAR",
-      "role": "Sędzia VAR",
-      "name": "Camplone",
-      "nat": "ITA"
-     },
-     {
-      "r": "AVAR",
-      "role": "Asystent VAR",
-      "name": "Volpi",
-      "nat": "ITA"
-     }
-    ],
-    "score": [
-     0,
-     2
-    ],
-    "events": [
-     {
-      "m": 28,
-      "t": "yc",
-      "s_": "a",
-      "who": "Alessandro Bastoni"
-     },
-     {
-      "m": 56,
-      "t": "yc",
-      "s_": "a",
-      "who": "Nicolò Barella"
-     },
-     {
-      "m": 61,
-      "t": "sub",
-      "s_": "h",
-      "inn": "Gianluca Busio",
-      "out": "Kike Pérez"
-     },
-     {
-      "m": 65,
-      "t": "sub",
-      "s_": "a",
-      "inn": "Francesco Pio Esposito",
-      "out": "Ange-Yoan Bonny"
-     },
-     {
-      "m": 68,
-      "t": "sub",
-      "s_": "h",
-      "inn": "Toma Bašić",
-      "out": "Thórir Helgason"
-     },
-     {
-      "m": 68,
-      "t": "sub",
-      "s_": "h",
-      "inn": "John Yeboah",
-      "out": "Lion Lauberbach"
-     },
-     {
-      "m": 71,
-      "t": "var",
-      "s_": "h",
-      "kind": "Bramka – spalony",
-      "init": "Gol (Akor Adams)",
-      "fin": "Gol anulowany"
-     },
-     {
-      "m": 76,
-      "t": "sub",
-      "s_": "h",
-      "inn": "Ridgeciano Haps",
-      "out": "Pasquale Mazzocchi"
-     },
-     {
-      "m": 79,
-      "t": "og",
-      "s_": "a",
-      "who": "Matías Moreno"
-     },
-     {
-      "m": 82,
-      "t": "og",
-      "s_": "a",
-      "who": "Redouane Halhal"
-     },
-     {
-      "m": 86,
-      "t": "sub",
-      "s_": "a",
-      "inn": "Djed Spence",
-      "out": "Marcus Thuram"
-     }
-    ],
-    "notes": "Dwa samobóje Venezii w końcówce (Moreno, Halhal po główce Carlosa Augusto z rożnego Calhanoglu). Venezii anulowano dwa gole ze spalonego (Lauberbach po VAR, Adams w 71.). W przerwie Inter wprowadził Calhanoglu, Barellę i Akanjiego. Inter zrównał się punktami z Lazio."
-   },
-   {
-    "id": "SA-2026-27-R9-GEN-JUV",
-    "date": "2026-10-28",
-    "time": "20:45",
-    "home": "GEN",
-    "away": "JUV",
-    "status": "ft",
-    "odds": {
-     "src": "Snai/kursy wg commentierecensioni.com (1X2, podwójna szansa) + rynki bramkowe wg footballpredictions.com / Betfred, William Hill (thefootballfaithful) – stan na 26–27.10.2026; under 2,5, BTTS nie, DNB 2 – footballpredictions.com (28.10)",
-     "2": 1.72,
-     "X2": 1.17,
-     "u25": 1.72,
-     "bttsN": 1.8,
-     "dnb2": 1.25
-    },
-    "venue": {
-     "name": "Stadio Luigi Ferraris",
-     "city": "Genua",
-     "capacity": 33205
-    },
-    "staff": {
-     "home": [
-      [
-       "Trener",
-       "Daniele De Rossi"
-      ]
-     ],
-     "away": [
-      [
-       "Trener",
-       "Luciano Spalletti"
-      ]
-     ]
-    },
-    "info": {
-     "injuries": {
-      "home": [
-       "Amorim",
-       "Ehizibue",
-       "Sow (do 2.11)",
-       "Venturino (do 30.10)",
-       "Colombo (do 1.11)"
-      ],
-      "away": [
-       "Grabara",
-       "Çelik (do 18.11)",
-       "F. Conceição (do 22.11)",
-       "Locatelli (do 8.02)",
-       "K. Thuram (do 1.01)",
-       "Ekhator (do 2.11)",
-       "N. González",
-       "Yıldız (do 26.11)"
-      ]
-     },
-     "restDays": {
-      "home": 3,
-      "away": 3
-     },
-     "stakes": "Obie drużyny grają w niedzielę (Genoa z Venezią, Juventus w Lecce). Juventus przed 8. kolejką po 0:3 z Lazio i 2:2 z Rennes w LE.",
-     "h2h": [
-      "2026-04-06 JUV 2:0 GEN",
-      "2025-08-31 GEN 0:1 JUV",
-      "2025-03-29 JUV 1:0 GEN",
-      "2024-09-28 GEN 0:3 JUV",
-      "2024-03-17 JUV 0:0 GEN"
-     ],
-     "homeAway": "Genoa u siebie (ost. 10): 1,0 strzel./1,33 strac.; Juventus na wyjeździe: 1,75 strzel./1,25 strac., BTTS 75%, xG 2,08."
-    },
-    "tip": {
-     "decision": "NO BET",
-     "reasons": [
-      "Poniżej 2,5 po 1,72 (58%): model z tabeli ok. 62%, ale Juventus na wyjazdach średnio 3,0 gola/mecz i BTTS 75% – szacunek ok. 58–60%, EV ≈ 0–3%",
-      "Juventus 1,72 (58%) bez Yıldıza, K. Thurama, Conceição i Locatellego – szacunek ok. 52–55%, EV ujemne",
-      "Genoa strzela 0,7 gola/mecz – BTTS nie 1,80 (56%) blisko uczciwej wyceny",
-      "Brak rynku z wyraźną przewagą"
-     ]
-    },
-    "officials": [
-     {
-      "r": "GŁ",
-      "role": "Sędzia główny",
-      "name": "Doveri",
-      "nat": "ITA"
-     }
-    ],
-    "score": [
-     2,
-     0
-    ],
-    "events": [
-     {
-      "m": 12,
-      "t": "goal",
-      "s_": "h",
-      "who": "Kingsley Ehizibue",
-      "as": "Tommaso Baldanzi"
-     },
-     {
-      "m": 28,
-      "t": "goal",
-      "s_": "h",
-      "who": "Tommaso Baldanzi"
-     },
-     {
-      "m": 41,
-      "t": "sub",
-      "s_": "h",
-      "inn": "Mario Mitaj",
-      "out": "Mikael Egill Ellertsson"
-     },
-     {
-      "m": 46,
-      "t": "sub",
-      "s_": "a",
-      "inn": "Nick Woltemade",
-      "out": "Kerim Alajbegović"
-     },
-     {
-      "m": 46,
-      "t": "sub",
-      "s_": "a",
-      "inn": "Edon Zhegrova",
-      "out": "Federico Gatti"
-     },
-     {
-      "m": 59,
-      "t": "sub",
-      "s_": "a",
-      "inn": "Jeremie Boga",
-      "out": "Pape Matar Sarr"
-     },
-     {
-      "m": 59,
-      "t": "sub",
-      "s_": "a",
-      "inn": "Juan Cabal",
-      "out": "Andrea Cambiaso"
-     },
-     {
-      "m": 69,
-      "t": "sub",
-      "s_": "h",
-      "inn": "Franz-Ethan Meichtry",
-      "out": "Tommaso Baldanzi"
-     },
-     {
-      "m": 69,
-      "t": "sub",
-      "s_": "h",
-      "inn": "Junior Messias",
-      "out": "Vitinha"
-     },
-     {
-      "m": 70,
-      "t": "yc",
-      "s_": "a",
-      "who": "Edon Zhegrova"
-     },
-     {
-      "m": 77,
-      "t": "sub",
-      "s_": "a",
-      "inn": "Teun Koopmeiners",
-      "out": "Douglas Luiz"
-     },
-     {
-      "m": 82,
-      "t": "sub",
-      "s_": "h",
-      "inn": "Lorenzo Colombo",
-      "out": "Milutin Osmajić"
-     },
-     {
-      "m": 82,
-      "t": "sub",
-      "s_": "h",
-      "inn": "Samuel Wiafe",
-      "out": "Amorim"
-     }
-    ],
-    "notes": "Obie bramki przed przerwą; Baldanzi gol + asysta. Trzecia porażka Juventusu w 9 kolejkach. Wyjściowe składy wg Football Italia – Genoa: Bijlow; Marcandalli, Vásquez, Ehizibue, Østigård; Amorim, Frendrup, Baldanzi; Ellertsson, Osmajić, Vitinha. Juventus: Vicario; Cambiaso, Bremer, Gatti, Lucumí, Kalulu; Douglas Luiz, Sarr, McKennie; Alajbegović, Kolo Muani."
-   },
-   {
-    "id": "SA-2026-27-R9-MON-NAP",
-    "date": "2026-10-28",
-    "time": "20:45",
-    "home": "MON",
-    "away": "NAP",
-    "status": "ft",
-    "odds": {
-     "src": "BC.Game wg oddslot (1X2, podwójna szansa, 28.10); over 2,5, BTTS, DNB – footballpredictions.com (28.10, bukmacher nieokreślony)",
-     "1": 4.5,
-     "X": 3.9,
-     "2": 1.75,
-     "1X": 2.0,
-     "12": 1.22,
-     "X2": 1.18,
-     "o25": 1.72,
-     "bttsY": 1.7,
-     "dnb2": 1.33
-    },
-    "venue": {
-     "name": "Stadio Brianteo",
-     "city": "Monza",
-     "capacity": 17102
-    },
-    "staff": {
-     "away": [
-      [
-       "Trener (zastępca, Allegri zawieszony)",
-       "Marco Landucci"
-      ]
-     ]
-    },
-    "info": {
-     "injuries": {
-      "home": [],
-      "away": [
-       "Buongiorno (do 31.10)",
-       "Favasuli (do 30.11)",
-       "Neres (do 10.11)",
-       "Alisson Santos",
-       "Badiashile (uraz z meczu z Romą)"
-      ]
-     },
-     "restDays": {
-      "home": 5,
-      "away": 4
-     },
-     "stakes": "Allegri zawieszony – ogląda mecz z trybun. Mecze Monzy: 33 gole w 8 kolejkach (4,1/mecz); Napoli bez wygranej w 4 ostatnich meczach wyjazdowych.",
-     "homeAway": "Monza u siebie (ost. 10): 2,75 strzel./1,0 strac., ani razu bez gola w 10 meczach; Napoli na wyjeździe: 1,0 strzel./2,0 strac., 0 czystych kont, BTTS 75%."
-    },
-    "tip": {
-     "decision": "NO BET",
-     "reasons": [
-      "BTTS tak po 1,70 (59% z kursu): Monza strzelała w każdym z 10 ostatnich meczów, Napoli na wyjazdach bez czystego konta – szacunek ok. 61–63%, EV ok. +4–7% – na granicy, poniżej progu przy dużej niepewności",
-      "Powyżej 2,5 po 1,72 (58%): model daje więcej, ale Napoli w lidze traci tylko 1,25 gola/mecz – szacunek ok. 60%, EV ok. +3%",
-      "Napoli 1,75 bez Allegriego na ławce, Buongiorna i Badiashile – brak podstaw do gry na faworyta",
-      "H2H niskobramkowe (BTTS 1/6) dokłada niepewności – lepiej odpuścić"
-     ]
-    },
-    "officials": [
-     {
-      "r": "GŁ",
-      "role": "Sędzia główny",
-      "name": "Ayroldi",
-      "nat": "ITA"
-     }
-    ],
-    "score": [
-     1,
-     4
-    ],
-    "events": [
-     {
-      "m": 10,
-      "t": "goal",
-      "s_": "a",
-      "who": "Rasmus Højlund",
-      "as": "Giovanni Di Lorenzo"
-     },
-     {
-      "m": 17,
-      "t": "sub",
-      "s_": "a",
-      "inn": "Billy Gilmour",
-      "out": "Stanislav Lobotka",
-      "why": "Uraz kostki"
-     },
-     {
-      "m": 43,
-      "t": "goal",
-      "s_": "h",
-      "who": "Varela",
-      "as": "Robinson",
-      "how": "Głowa"
-     },
-     {
-      "m": 74,
-      "t": "sub",
-      "s_": "h",
-      "inn": "Antov",
-      "out": "Lucchesi"
-     },
-     {
-      "m": 82,
-      "t": "sub",
-      "s_": "a",
-      "inn": "Lorenzo Lucca",
-      "out": "Rasmus Højlund"
-     },
-     {
-      "m": 88,
-      "t": "yc",
-      "s_": "h",
-      "who": "Colombo",
-      "why": "Faul na McTominayu"
-     }
-    ],
-    "notes": "Po przerwie gole Politano (ok. 48.), Rafy Marína (głową po rożnym Politano) i De Bruyne (as. Lang) – źródła podają rozbieżne minuty dwóch ostatnich goli, dlatego nie ma ich na osi czasu. Lobotka zniesiony na noszach w 17. min (kostka, po starciu z Mangasem). Allegri oglądał mecz z trybun."
-   },
-   {
-    "id": "SA-2026-27-R9-FRO-LEC",
-    "date": "2026-10-29",
-    "time": "18:30",
-    "home": "FRO",
-    "away": "LEC",
-    "status": "ft",
-    "odds": {
-     "src": "Snai/kursy wg commentierecensioni (1, 12); DNB, over 2,5, BTTS – footballpredictions.com; stan na 26–27.10.2026",
-     "1": 1.67,
-     "12": 1.22,
-     "dnb1": 1.4,
-     "o25": 1.53,
-     "bttsY": 1.5
-    },
-    "venue": {
-     "name": "Stadio Benito Stirpe",
-     "city": "Frosinone",
-     "capacity": 16227
-    },
-    "staff": {
-     "home": [
-      [
-       "Trener",
-       "Massimiliano Alvini"
-      ]
-     ],
-     "away": [
-      [
-       "Trener",
-       "Eusebio Di Francesco"
-      ]
-     ]
-    },
-    "officials": [
-     {
-      "r": "GŁ",
-      "role": "Sędzia główny",
-      "name": "Rosario Abisso",
-      "nat": "ITA"
-     },
-     {
-      "r": "VAR",
-      "role": "Sędzia VAR",
-      "name": "Marco Piccinini",
-      "nat": "ITA"
-     }
-    ],
-    "info": {
-     "injuries": {
-      "home": [],
-      "away": [
-       "Coulibaly",
-       "Berisha",
-       "Ilić"
-      ]
-     },
-     "suspensions": {
-      "home": [],
-      "away": [
-       "Gaspar (czerwona kartka z Juventusem)"
-      ]
-     },
-     "restDays": {
-      "home": 4,
-      "away": 4
-     },
-     "homeAway": "Frosinone u siebie 2,2 gola strzelonego/mecz (ostatnie mecze, wszystkie rozgrywki); Lecce strzela 1,0/mecz, BTTS tylko 20% w ostatnich 10.",
-     "stakes": "Frosinone (14 pkt) po 4:4 w Bergamo; Lecce (9 pkt) po 0:2 z Juventusem.",
-     "h2h": [
-      "2024-03-03 FRO 1:1 LEC",
-      "2023-12-16 LEC 2:1 FRO",
-      "2022-04-02 LEC 1:0 FRO",
-      "2021-11-20 FRO 0:0 LEC",
-      "2021-03-20 FRO 0:3 LEC"
-     ]
-    },
-    "tip": {
-     "decision": "NO BET",
-     "reasons": [
-      "Frosinone 1,67 (60%) / DNB 1,40 (71%) – szacunek ok. 55% na wygraną i ok. 75% bez porażki: EV ok. −5% / +0%",
-      "Powyżej 2,5 po 1,53 (65%) – Lecce strzela mało (9 goli w 8 meczach), szacunek ok. 55%",
-      "BTTS tak 1,50 (67%) – w ostatnich 10 meczach Lecce obie strzelały tylko w 20%",
-      "Brak rynku z dodatnim EV"
-     ]
-    },
-    "score": [
-     5,
-     1
-    ],
-    "formation": {
-     "home": "4-2-3-1",
-     "away": "3-5-2"
-    },
-    "players": {
-     "home": [
-      [
-       22,
-       "Palmisani",
-       "BR",
-       "",
-       true
-      ],
-      [
-       20,
-       "Oyono",
-       "PO",
-       "",
-       true
-      ],
-      [
-       3,
-       "Calvani",
-       "ŚO",
-       "",
-       true
-      ],
-      [
-       30,
-       "Monterisi",
-       "ŚO",
-       "",
-       true
-      ],
-      [
-       71,
-       "Terzic",
-       "LO",
-       "",
-       true
-      ],
-      [
-       14,
-       "Calò",
-       "DP",
-       "",
-       true
-      ],
-      [
-       16,
-       "Cichella",
-       "DP",
-       "",
-       true
-      ],
-      [
-       7,
-       "Ghedjemis",
-       "PS",
-       "",
-       true
-      ],
-      [
-       10,
-       "Schmid",
-       "OP",
-       "",
-       true
-      ],
-      [
-       17,
-       "Kvernadze",
-       "LS",
-       "",
-       true
-      ],
-      [
-       9,
-       "Raimondo",
-       "N",
-       "",
-       true
-      ],
-      [
-       91,
-       "Desplanches",
-       "BR",
-       "",
-       false
-      ],
-      [
-       12,
-       "Pisseri",
-       "BR",
-       "",
-       false
-      ],
-      [
-       90,
-       "Tchato",
-       "ŚO",
-       "",
-       false
-      ],
-      [
-       5,
-       "Amey",
-       "ŚO",
-       "",
-       false
-      ],
-      [
-       25,
-       "Akpoguma",
-       "ŚO",
-       "",
-       false
-      ],
-      [
-       2,
-       "Cittadini",
-       "ŚO",
-       "",
-       false
-      ],
-      [
-       70,
-       "Hasa",
-       "OP",
-       "",
-       false
-      ],
-      [
-       89,
-       "Bobcek",
-       "N",
-       "",
-       false
-      ],
-      [
-       11,
-       "Bîrligea",
-       "N",
-       "",
-       false
-      ],
-      [
-       34,
-       "El Azzouzi",
-       "ŚP",
-       "",
-       false
-      ],
-      [
-       73,
-       "Masini",
-       "ŚP",
-       "",
-       false
-      ],
-      [
-       79,
-       "Bracaglia",
-       "LO",
-       "",
-       false
-      ],
-      [
-       40,
-       "Fini",
-       "PS",
-       "",
-       false
-      ],
-      [
-       74,
-       "Fayed",
-       "ŚO",
-       "",
-       false
-      ],
-      [
-       24,
-       "Zerbin",
-       "LS",
-       "",
-       false
-      ]
-     ],
-     "away": [
-      [
-       30,
-       "Falcone",
-       "BR",
-       "",
-       true
-      ],
-      [
-       5,
-       "Siebert",
-       "ŚO",
-       "",
-       true
-      ],
-      [
-       44,
-       "Tiago Gabriel",
-       "ŚO",
-       "",
-       true
-      ],
-      [
-       3,
-       "Ndaba",
-       "ŚO",
-       "",
-       true
-      ],
-      [
-       17,
-       "Veiga",
-       "PO",
-       "",
-       true
-      ],
-      [
-       14,
-       "Maleh",
-       "ŚP",
-       "",
-       true
-      ],
-      [
-       79,
-       "Ngom",
-       "DP",
-       "",
-       true
-      ],
-      [
-       16,
-       "Gandelman",
-       "ŚP",
-       "",
-       true
-      ],
-      [
-       25,
-       "Gallo",
-       "LO",
-       "",
-       true
-      ],
-      [
-       99,
-       "Monteiro",
-       "N",
-       "",
-       true
-      ],
-      [
-       22,
-       "Paco Esteban",
-       "N",
-       "",
-       true
-      ],
-      [
-       32,
-       "Borbei",
-       "BR",
-       "",
-       false
-      ],
-      [
-       1,
-       "Bleve",
-       "BR",
-       "",
-       false
-      ],
-      [
-       31,
-       "Scott",
-       "ŚO",
-       "",
-       false
-      ],
-      [
-       2,
-       "Dembélé",
-       "PO",
-       "",
-       false
-      ],
-      [
-       18,
-       "Jean",
-       "ŚO",
-       "",
-       false
-      ],
-      [
-       7,
-       "Fatah",
-       "LS",
-       "",
-       false
-      ],
-      [
-       28,
-       "Gorter",
-       "ŚP",
-       "",
-       false
-      ],
-      [
-       8,
-       "Fofana",
-       "ŚP",
-       "",
-       false
-      ],
-      [
-       77,
-       "Kaba",
-       "ŚP",
-       "",
-       false
-      ],
-      [
-       9,
-       "Stulic",
-       "N",
-       "",
-       false
-      ],
-      [
-       11,
-       "N'Dri",
-       "PS",
-       "",
-       false
-      ]
-     ]
-    },
-    "events": [
-     {
-      "m": 25,
-      "t": "goal",
-      "s_": "h",
-      "who": "Cichella",
-      "as": "Ghedjemis",
-      "how": "Strzał po dośrodkowaniu z prawej"
-     },
-     {
-      "m": 38,
-      "t": "yc",
-      "s_": "a",
-      "who": "Tiago Gabriel"
-     },
-     {
-      "m": 45,
-      "s": "+1",
-      "t": "pen",
-      "s_": "h",
-      "who": "Calò",
-      "res": "Gol"
-     },
-     {
-      "m": 46,
-      "t": "sub",
-      "s_": "a",
-      "inn": "Fatah",
-      "out": "Ndaba"
-     },
-     {
-      "m": 51,
-      "t": "yc",
-      "s_": "a",
-      "who": "Ngom"
-     },
-     {
-      "m": 57,
-      "t": "sub",
-      "s_": "a",
-      "inn": "Stulic",
-      "out": "Paco Esteban"
-     },
-     {
-      "m": 57,
-      "t": "sub",
-      "s_": "a",
-      "inn": "Gorter",
-      "out": "Maleh"
-     },
-     {
-      "m": 58,
-      "t": "sub",
-      "s_": "a",
-      "inn": "N'Dri",
-      "out": "Gandelman"
-     },
-     {
-      "m": 59,
-      "t": "goal",
-      "s_": "h",
-      "who": "Raimondo",
-      "as": "Kvernadze"
-     },
-     {
-      "m": 70,
-      "t": "sub",
-      "s_": "h",
-      "inn": "Fini",
-      "out": "Ghedjemis"
-     },
-     {
-      "m": 70,
-      "t": "sub",
-      "s_": "h",
-      "inn": "Bîrligea",
-      "out": "Raimondo"
-     },
-     {
-      "m": 72,
-      "t": "goal",
-      "s_": "h",
-      "who": "Bîrligea",
-      "as": "Schmid",
-      "how": "Wewnętrzną częścią stopy"
-     },
-     {
-      "m": 77,
-      "t": "sub",
-      "s_": "h",
-      "inn": "El Azzouzi",
-      "out": "Calò"
-     },
-     {
-      "m": 77,
-      "t": "sub",
-      "s_": "h",
-      "inn": "Hasa",
-      "out": "Schmid"
-     },
-     {
-      "m": 79,
-      "t": "yc",
-      "s_": "a",
-      "who": "Siebert",
-      "why": "Zagranie ręką"
-     },
-     {
-      "m": 80,
-      "t": "sub",
-      "s_": "h",
-      "inn": "Fayed",
-      "out": "Calvani"
-     },
-     {
-      "m": 82,
-      "t": "goal",
-      "s_": "a",
-      "who": "Monteiro",
-      "as": "Gorter",
-      "how": "Prawa noga, strzał podkręcony"
-     },
-     {
-      "m": 83,
-      "t": "sub",
-      "s_": "a",
-      "inn": "Kaba",
-      "out": "Monteiro"
-     },
-     {
-      "m": 90,
-      "s": "+4",
-      "t": "goal",
-      "s_": "h",
-      "who": "Bîrligea",
-      "as": "Kvernadze"
-     }
-    ],
-    "notes": "Karny po faulu Sieberta na Kvernadze. Frosinone awansowało na 6. miejsce (17 pkt). Kartki Frosinone nieopisane w relacji – pominięte."
-   },
-   {
-    "id": "SA-2026-27-R9-FIO-ATA",
-    "date": "2026-10-29",
-    "time": "20:45",
-    "home": "FIO",
-    "away": "ATA",
-    "status": "ft",
-    "odds": {
-     "src": "Snai/kursy wg commentierecensioni (1, 1X); under 2,5, BTTS, X2 – footballpredictions.com; stan na 26–27.10.2026",
-     "1": 2.15,
-     "1X": 1.33,
-     "X2": 1.61,
-     "u25": 2.3,
-     "bttsY": 1.5
-    },
-    "venue": {
-     "name": "Stadio Artemio Franchi",
-     "city": "Florencja",
-     "capacity": 43118
-    },
-    "staff": {
-     "home": [
-      [
-       "Trener",
-       "Paolo Vanoli"
-      ]
-     ],
-     "away": [
-      [
-       "Trener",
-       "Maurizio Sarri"
-      ]
-     ]
-    },
-    "officials": [
-     {
-      "r": "GŁ",
-      "role": "Sędzia główny",
-      "name": "Federico La Penna",
-      "nat": "ITA"
-     },
-     {
-      "r": "VAR",
-      "role": "Sędzia VAR",
-      "name": "Matteo Gariglio",
-      "nat": "ITA"
-     }
-    ],
-    "info": {
-     "restDays": {
-      "home": 4,
-      "away": 4
-     },
-     "homeAway": "Fiorentina u siebie: 1,67 gola strzelonego i 1,67 straconego/mecz; Atalanta na wyjeździe 0,8 strzelonego i 1,8 straconego/mecz (ostatnie 10, wszystkie rozgrywki).",
-     "stakes": "Fiorentina (4 pkt, 18. miejsce) po 1:2 z Interem (gol stracony w 97. min); Atalanta (10 pkt) po 4:4 z Frosinone, bez zwycięstwa w ostatnich 2 meczach ligowych.",
-     "h2h": [
-      "2026-05-22 FIO 1:1 ATA",
-      "2025-11-30 ATA 2:0 FIO",
-      "2025-03-30 FIO 1:0 ATA",
-      "2024-09-15 ATA 3:2 FIO",
-      "2024-06-02 ATA 2:3 FIO"
-     ]
-    },
-    "tip": {
-     "decision": "NO BET",
-     "reasons": [
-      "BTTS tak 1,50 (67% z kursu): Fiorentina traci 2,4 gola/mecz w lidze, ale Atalanta na wyjazdach nie strzeliła w 40% meczów – szacunek ok. 58–62%, EV ujemne",
-      "Rynek bramkowy (under 2,5 po 2,30, czyli over ok. 1,60) – obie drużyny ok. 3,5 gola/mecz, ale już wycenione",
-      "Fiorentina 2,15 przy 4 pkt w tabeli i słabej obronie – brak podstaw",
-      "Brak kursów 1X2 z jednego źródła – zbyt duża niepewność"
-     ]
-    },
-    "score": [
-     2,
-     2
-    ],
-    "formation": {
-     "home": "4-3-2-1",
-     "away": "4-3-3"
-    },
-    "players": {
-     "home": [
-      [
-       43,
-       "De Gea",
-       "BR",
-       "",
-       true
-      ],
-      [
-       20,
-       "Jiménez",
-       "PO",
-       "",
-       true
-      ],
-      [
-       3,
-       "Dragusin",
-       "ŚO",
-       "",
-       true
-      ],
-      [
-       33,
-       "Viery",
-       "ŚO",
-       "",
-       true
-      ],
-      [
-       17,
-       "João Mário",
-       "LO",
-       "",
-       true
-      ],
-      [
-       27,
-       "Ndour",
-       "ŚP",
-       "",
-       true
-      ],
-      [
-       44,
-       "Fagioli",
-       "DP",
-       "",
-       true
-      ],
-      [
-       4,
-       "Brescianini",
-       "ŚP",
-       "",
-       true
-      ],
-      [
-       30,
-       "Mastantuono",
-       "PS",
-       "",
-       true
-      ],
-      [
-       25,
-       "Njie",
-       "LS",
-       "",
-       true
-      ],
-      [
-       32,
-       "Pellegrino",
-       "N",
-       "",
-       true
-      ],
-      [
-       72,
-       "Mazzeo",
-       "BR",
-       "",
-       false
-      ],
-      [
-       19,
-       "Lezzerini",
-       "BR",
-       "",
-       false
-      ],
-      [
-       75,
-       "Beldenti",
-       "ŚP",
-       "",
-       false
-      ],
-      [
-       73,
-       "Pirrò",
-       "ŚO",
-       "",
-       false
-      ],
-      [
-       21,
-       "Valde",
-       "LO",
-       "",
-       false
-      ],
-      [
-       42,
-       "Oulaï",
-       "ŚP",
-       "",
-       false
-      ],
-      [
-       29,
-       "Gnonto",
-       "LS",
-       "",
-       false
-      ],
-      [
-       23,
-       "Beto",
-       "N",
-       "",
-       false
-      ],
-      [
-       28,
-       "Pote",
-       "N",
-       "",
-       false
-      ],
-      [
-       53,
-       "Christensen",
-       "ŚP",
-       "",
-       false
-      ],
-      [
-       2,
-       "Dodô",
-       "PO",
-       "",
-       false
-      ]
-     ],
-     "away": [
-      [
-       29,
-       "Carnesecchi",
-       "BR",
-       "",
-       true
-      ],
-      [
-       77,
-       "Zappacosta",
-       "PO",
-       "",
-       true
-      ],
-      [
-       40,
-       "Obric",
-       "ŚO",
-       "",
-       true
-      ],
-      [
-       47,
-       "Bernasconi",
-       "ŚO",
-       "",
-       true
-      ],
-      [
-       31,
-       "Kristensen",
-       "LO",
-       "",
-       true
-      ],
-      [
-       99,
-       "Elmas",
-       "ŚP",
-       "",
-       true
-      ],
-      [
-       70,
-       "Gaetano",
-       "DP",
-       "",
-       true
-      ],
-      [
-       13,
-       "Éderson",
-       "ŚP",
-       "",
-       true
-      ],
-      [
-       17,
-       "De Ketelaere",
-       "PS",
-       "",
-       true
-      ],
-      [
-       90,
-       "Krstović",
-       "N",
-       "",
-       true
-      ],
-      [
-       59,
-       "Zalewski",
-       "LS",
-       "",
-       true
-      ],
-      [
-       41,
-       "Idele",
-       "BR",
-       "",
-       false
-      ],
-      [
-       57,
-       "Sportiello",
-       "BR",
-       "",
-       false
-      ],
-      [
-       51,
-       "Sonzogni",
-       "BR",
-       "",
-       false
-      ],
-      [
-       53,
-       "Plaia",
-       "ŚO",
-       "",
-       false
-      ],
-      [
-       42,
-       "Scalvini",
-       "ŚO",
-       "",
-       false
-      ],
-      [
-       7,
-       "Sulemana",
-       "PS",
-       "",
-       false
-      ],
-      [
-       11,
-       "Rowe",
-       "LS",
-       "",
-       false
-      ],
-      [
-       10,
-       "Samardzic",
-       "OP",
-       "",
-       false
-      ],
-      [
-       8,
-       "Pasalic",
-       "ŚP",
-       "",
-       false
-      ]
-     ]
-    },
-    "events": [
-     {
-      "m": 4,
-      "t": "sub",
-      "s_": "a",
-      "inn": "Scalvini",
-      "out": "Kristensen",
-      "why": "Uraz"
-     },
-     {
-      "m": 12,
-      "t": "yc",
-      "s_": "a",
-      "who": "Elmas",
-      "why": "Faul na João Mário"
-     },
-     {
-      "m": 30,
-      "t": "yc",
-      "s_": "h",
-      "who": "Viery",
-      "why": "Faul na Krstoviciu"
-     },
-     {
-      "m": 41,
-      "t": "goal",
-      "s_": "a",
-      "who": "De Ketelaere",
-      "as": "Zalewski",
-      "how": "Płaski strzał"
-     },
-     {
-      "m": 46,
-      "t": "sub",
-      "s_": "h",
-      "inn": "Oulaï",
-      "out": "Fagioli"
-     },
-     {
-      "m": 51,
-      "t": "yc",
-      "s_": "h",
-      "who": "Pellegrino"
-     },
-     {
-      "m": 53,
-      "t": "goal",
-      "s_": "h",
-      "who": "Njie",
-      "as": "Jiménez",
-      "how": "Głowa"
-     },
-     {
-      "m": 57,
-      "t": "sub",
-      "s_": "a",
-      "inn": "Pasalic",
-      "out": "Gaetano"
-     },
-     {
-      "m": 58,
-      "t": "sub",
-      "s_": "a",
-      "inn": "Rowe",
-      "out": "Elmas"
-     },
-     {
-      "m": 61,
-      "t": "goal",
-      "s_": "h",
-      "who": "João Mário",
-      "as": "Njie",
-      "how": "Strzał z linii pola karnego, rykoszet od Obricia"
-     },
-     {
-      "m": 69,
-      "t": "sub",
-      "s_": "h",
-      "inn": "Gnonto",
-      "out": "Njie"
-     },
-     {
-      "m": 74,
-      "t": "goal",
-      "s_": "a",
-      "who": "Zalewski",
-      "as": "De Ketelaere",
-      "how": "Lewa noga"
-     },
-     {
-      "m": 75,
-      "t": "yc",
-      "s_": "h",
-      "who": "Gnonto",
-      "why": "Faul na De Ketelaere"
-     },
-     {
-      "m": 83,
-      "t": "yc",
-      "s_": "a",
-      "who": "Obric",
-      "why": "Faul na Mastantuono"
-     },
-     {
-      "m": 84,
-      "t": "sub",
-      "s_": "a",
-      "inn": "Sulemana",
-      "out": "Zalewski"
-     },
-     {
-      "m": 90,
-      "s": "+1",
-      "t": "sub",
-      "s_": "h",
-      "inn": "Gonçalves",
-      "out": "Mastantuono"
-     },
-     {
-      "m": 90,
-      "s": "+1",
-      "t": "sub",
-      "s_": "h",
-      "inn": "Beto",
-      "out": "Pellegrino"
-     }
-    ],
-    "notes": "Sędzia La Penna zszedł w 47. min z urazem mięśniowym – zastąpił go sędzia techniczny Marinelli. Atalanta bez wygranej od 4 meczów, protest kibiców."
-   }
-  ],
   "10": [
    {
     "id": "SA-2026-27-R10-BOL-MON",
@@ -4008,7 +1796,7 @@
     "time": "18:30",
     "home": "SAS",
     "away": "FIO",
-    "status": "ns",
+    "status": "ft",
     "venue": {
      "name": "Mapei Stadium – Città del Tricolore",
      "city": "Sassuolo",
@@ -4088,7 +1876,87 @@
       ]
      ]
     },
-    "notes": "Przewidywane składy (TuttoMercatoWeb, 30.10): Sassuolo (4-3-3): Turati; Van der Brempt, Idzes, Ćaleta-Car, Doig; Sulemana, Matić, Adžić; Berardi, Esposito, Laurienté. Fiorentina (4-3-3): De Gea; Jiménez, Drăgușin, Viëri, João Mário; Ndour, Oulai, Brescianini; Mastantuono, Pellegrino, Njie."
+    "notes": "Laurienté strzelił dwa gole, ale Fiorentina odwróciła wynik po przerwie (Pellegrino, Njie, Mastantuono, Valdepeñas). Wyjściowa XI Sassuolo: Turati; Walukiewicz, Candè, Idzes, Doig; Sulemana, Matić, Adžić; Berardi, Seb. Esposito, Laurienté. Fiorentina: De Gea; Dragusin, Viery, A. Jiménez, João Mário; Fagioli, Brescianini, Ndour; Mastantuono, Pellegrino, Njie (kolejność linii wg źródła nieustalona). Brak danych o zmianach (pary), asystach i statystykach.",
+    "score": [
+     2,
+     4
+    ],
+    "formation": {
+     "home": "4-3-3",
+     "away": "4-3-3"
+    },
+    "events": [
+     {
+      "m": 25,
+      "t": "goal",
+      "s_": "h",
+      "who": "Armand Laurienté"
+     },
+     {
+      "m": 40,
+      "t": "yc",
+      "s_": "h",
+      "who": "Ibrahim Sulemana"
+     },
+     {
+      "m": 42,
+      "t": "yc",
+      "s_": "a",
+      "who": "Radu Drăgușin"
+     },
+     {
+      "m": 44,
+      "t": "yc",
+      "s_": "a",
+      "who": "Alieu Njie"
+     },
+     {
+      "m": 45,
+      "s": "+2",
+      "t": "goal",
+      "s_": "a",
+      "who": "Mateo Pellegrino"
+     },
+     {
+      "m": 50,
+      "t": "goal",
+      "s_": "a",
+      "who": "Alieu Njie"
+     },
+     {
+      "m": 65,
+      "t": "goal",
+      "s_": "h",
+      "who": "Armand Laurienté"
+     },
+     {
+      "m": 79,
+      "t": "goal",
+      "s_": "a",
+      "who": "Franco Mastantuono"
+     },
+     {
+      "m": 90,
+      "s": "+2",
+      "t": "yc",
+      "s_": "a",
+      "who": "Wilfried Gnonto"
+     },
+     {
+      "m": 90,
+      "s": "+3",
+      "t": "goal",
+      "s_": "a",
+      "who": "Víctor Valdepeñas"
+     },
+     {
+      "m": 90,
+      "s": "+5",
+      "t": "yc",
+      "s_": "h",
+      "who": "Gabriel Kulla"
+     }
+    ]
    },
    {
     "id": "SA-2026-27-R10-ATA-PAR",
@@ -4096,7 +1964,7 @@
     "time": "20:45",
     "home": "ATA",
     "away": "PAR",
-    "status": "ns",
+    "status": "ft",
     "venue": {
      "name": "New Balance Arena",
      "city": "Bergamo",
@@ -4155,13 +2023,13 @@
      {
       "r": "GŁ",
       "role": "Sędzia główny",
-      "name": "Crezzini",
+      "name": "Valerio Crezzini",
       "nat": "ITA"
      },
      {
       "r": "VAR",
       "role": "Sędzia VAR",
-      "name": "Prontera",
+      "name": "Alessandro Prontera",
       "nat": "ITA"
      }
     ],
@@ -4179,7 +2047,324 @@
       ]
      ]
     },
-    "notes": "Przewidywane składy (TuttoMercatoWeb, 30.10): Atalanta (4-2-3-1): Carnesecchi; Zappacosta, Scalvini, Obrić, Bernasconi; Pašalić, Ederson; De Ketelaere, Elmas, Zalewski; Krstović. Parma (3-5-2): Corvi; Diego Carlos, Troilo, Ndiaye; Delprato, Fabbian, Bernabé, Keita, Valeri; Romero, Touré."
+    "notes": "Duża niespodzianka: Parma (najsłabszy atak ligi) wygrała 3:0 w Bergamo. Atalanta nie wygrała od 5 meczów; dyrektor sportowy zapowiedział zgrupowanie do niedzieli. Brak danych o kartkach i statystykach meczu. Pierwszy gol Fabbiana po asyście z rzutu rożnego Sierro.",
+    "score": [
+     0,
+     3
+    ],
+    "formation": {
+     "home": "4-2-3-1",
+     "away": "3-5-2"
+    },
+    "players": {
+     "home": [
+      [
+       29,
+       "Marco Carnesecchi",
+       "BR",
+       "",
+       true
+      ],
+      [
+       77,
+       "Davide Zappacosta",
+       "PO",
+       "",
+       true
+      ],
+      [
+       42,
+       "Giorgio Scalvini",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       40,
+       "Obrić",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       47,
+       "Lorenzo Bernasconi",
+       "LO",
+       "",
+       true
+      ],
+      [
+       8,
+       "Mario Pašalić",
+       "DP",
+       "",
+       true
+      ],
+      [
+       13,
+       "Ederson",
+       "DP",
+       "",
+       true
+      ],
+      [
+       59,
+       "Nicola Zalewski",
+       "PS",
+       "",
+       true
+      ],
+      [
+       17,
+       "Charles De Ketelaere",
+       "OP",
+       "",
+       true
+      ],
+      [
+       11,
+       "Rowe",
+       "LS",
+       "",
+       true
+      ],
+      [
+       90,
+       "Nikola Krstović",
+       "N",
+       "",
+       true
+      ],
+      [
+       "–",
+       "Eljif Elmas",
+       "ŚP",
+       "",
+       false
+      ],
+      [
+       "–",
+       "Sulemana",
+       "PS",
+       "",
+       false
+      ],
+      [
+       "–",
+       "Lazar Samardžić",
+       "OP",
+       "",
+       false
+      ],
+      [
+       "–",
+       "Idele",
+       "PO",
+       "",
+       false
+      ]
+     ],
+     "away": [
+      [
+       30,
+       "Edoardo Daffara",
+       "BR",
+       "",
+       true
+      ],
+      [
+       15,
+       "Enrico Delprato",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       37,
+       "Troilo",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       72,
+       "Drobnič",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       27,
+       "Britschgi",
+       "PO",
+       "",
+       true
+      ],
+      [
+       80,
+       "Giovanni Fabbian",
+       "ŚP",
+       "",
+       true
+      ],
+      [
+       4,
+       "Sierro",
+       "ŚP",
+       "",
+       true
+      ],
+      [
+       16,
+       "Keita",
+       "ŚP",
+       "",
+       true
+      ],
+      [
+       14,
+       "Emanuele Valeri",
+       "LO",
+       "",
+       true
+      ],
+      [
+       76,
+       "Simone Lontani",
+       "N",
+       "",
+       true
+      ],
+      [
+       19,
+       "El Bilal Touré",
+       "N",
+       "",
+       true
+      ],
+      [
+       "–",
+       "Ndiaye",
+       "ŚO",
+       "",
+       false
+      ],
+      [
+       "–",
+       "Ordóñez",
+       "N",
+       "",
+       false
+      ],
+      [
+       "–",
+       "Frigan",
+       "N",
+       "",
+       false
+      ],
+      [
+       "–",
+       "Elphege",
+       "N",
+       "",
+       false
+      ],
+      [
+       "–",
+       "Nicolussi Caviglia",
+       "ŚP",
+       "",
+       false
+      ]
+     ]
+    },
+    "events": [
+     {
+      "m": 41,
+      "t": "goal",
+      "s_": "a",
+      "who": "Giovanni Fabbian",
+      "as": "Sierro",
+      "how": "Głowa (po rzucie rożnym)"
+     },
+     {
+      "m": 46,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Ndiaye",
+      "out": "Drobnič"
+     },
+     {
+      "m": 47,
+      "t": "og",
+      "s_": "a",
+      "who": "Davide Zappacosta"
+     },
+     {
+      "m": 58,
+      "t": "goal",
+      "s_": "a",
+      "who": "Simone Lontani",
+      "how": "Strzał zza pola karnego"
+     },
+     {
+      "m": 62,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Eljif Elmas",
+      "out": "Ederson"
+     },
+     {
+      "m": 67,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Sulemana",
+      "out": "Rowe"
+     },
+     {
+      "m": 67,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Ordóñez",
+      "out": "Simone Lontani"
+     },
+     {
+      "m": 74,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Frigan",
+      "out": "Giovanni Fabbian"
+     },
+     {
+      "m": 74,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Elphege",
+      "out": "El Bilal Touré"
+     },
+     {
+      "m": 76,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Lazar Samardžić",
+      "out": "Nicola Zalewski"
+     },
+     {
+      "m": 76,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Idele",
+      "out": "Davide Zappacosta"
+     },
+     {
+      "m": 89,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Nicolussi Caviglia",
+      "out": "Sierro"
+     }
+    ]
    }
   ],
   "11": [
@@ -4194,6 +2379,30 @@
      "name": "Stadio Pier Luigi Penzo",
      "city": "Wenecja",
      "capacity": 12048
+    },
+    "odds": {
+     "src": "Betr (moneyline) wg RotoWire, stan na 03.11.2026",
+     "1": 2.11,
+     "X": 3.49,
+     "2": 3.04
+    },
+    "info": {
+     "restDays": {
+      "home": 5,
+      "away": 6
+     },
+     "stakes": "Mecz dna tabeli: Venezia ostatnia (3 pkt, 6:20 w bramkach), Udinese 19. (5 pkt, 11:23).",
+     "homeAway": "Venezia przegrała 9 z 10 meczów i strzela 0,6 gola/mecz; Udinese ostatnio 2:5 z Romą u siebie (forma LLDLL)."
+    },
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Venezia 2,11 (ok. 45% po marży ~4%) – przy 1 wygranej w 10 meczach i najsłabszym ataku ligi (6 goli) brak podstaw do szacunku powyżej 47%",
+      "Udinese 3,04 (31%) – drużyna traci 2,3 gola/mecz, szacunek zbliżony do kursu",
+      "Remis 3,49 (27%) – mecz dwóch najsłabszych drużyn, ale brak danych uzasadniających wyższy szacunek",
+      "Brak dostępnych kursów na gole i BTTS do porównania",
+      "Brak potwierdzonych informacji o kontuzjach i składach – zbyt duża niepewność"
+     ]
     }
    },
    {
@@ -4311,6 +2520,138 @@
      "name": "Stadio Artemio Franchi",
      "city": "Florencja",
      "capacity": 43118
+    }
+   }
+  ],
+  "12": [
+   {
+    "id": "SA-2026-27-R12-COM-CAG",
+    "date": "2026-11-21",
+    "time": "15:00",
+    "home": "COM",
+    "away": "CAG",
+    "status": "ns",
+    "venue": {
+     "name": "Stadio Giuseppe Sinigaglia",
+     "city": "Como",
+     "capacity": 13602
+    }
+   },
+   {
+    "id": "SA-2026-27-R12-LAZ-LEC",
+    "date": "2026-11-21",
+    "time": "15:00",
+    "home": "LAZ",
+    "away": "LEC",
+    "status": "ns",
+    "venue": {
+     "name": "Stadio Olimpico",
+     "city": "Rzym",
+     "capacity": 70634
+    }
+   },
+   {
+    "id": "SA-2026-27-R12-PAR-ROM",
+    "date": "2026-11-21",
+    "time": "18:00",
+    "home": "PAR",
+    "away": "ROM",
+    "status": "ns",
+    "venue": {
+     "name": "Stadio Ennio Tardini",
+     "city": "Parma",
+     "capacity": 22352
+    }
+   },
+   {
+    "id": "SA-2026-27-R12-NAP-TOR",
+    "date": "2026-11-21",
+    "time": "20:45",
+    "home": "NAP",
+    "away": "TOR",
+    "status": "ns",
+    "venue": {
+     "name": "Stadio Diego Armando Maradona",
+     "city": "Neapol",
+     "capacity": 54732
+    }
+   },
+   {
+    "id": "SA-2026-27-R12-JUV-VEN",
+    "date": "2026-11-22",
+    "time": "12:30",
+    "home": "JUV",
+    "away": "VEN",
+    "status": "ns",
+    "venue": {
+     "name": "Allianz Stadium",
+     "city": "Turyn",
+     "capacity": 41507
+    }
+   },
+   {
+    "id": "SA-2026-27-R12-BOL-UDI",
+    "date": "2026-11-22",
+    "time": "15:00",
+    "home": "BOL",
+    "away": "UDI",
+    "status": "ns",
+    "venue": {
+     "name": "Stadio Renato Dall'Ara",
+     "city": "Bolonia",
+     "capacity": 38279
+    }
+   },
+   {
+    "id": "SA-2026-27-R12-SAS-GEN",
+    "date": "2026-11-22",
+    "time": "15:00",
+    "home": "SAS",
+    "away": "GEN",
+    "status": "ns",
+    "venue": {
+     "name": "Mapei Stadium – Città del Tricolore",
+     "city": "Sassuolo",
+     "capacity": 21515
+    }
+   },
+   {
+    "id": "SA-2026-27-R12-MIL-FRO",
+    "date": "2026-11-22",
+    "time": "18:00",
+    "home": "MIL",
+    "away": "FRO",
+    "status": "ns",
+    "venue": {
+     "name": "San Siro",
+     "city": "Mediolan",
+     "capacity": 75710
+    }
+   },
+   {
+    "id": "SA-2026-27-R12-ATA-INT",
+    "date": "2026-11-22",
+    "time": "20:45",
+    "home": "ATA",
+    "away": "INT",
+    "status": "ns",
+    "venue": {
+     "name": "New Balance Arena",
+     "city": "Bergamo",
+     "capacity": 23439
+    }
+   },
+   {
+    "id": "SA-2026-27-R12-MON-FIO",
+    "date": "2026-11-23",
+    "time": "20:45",
+    "home": "MON",
+    "away": "FIO",
+    "status": "ns",
+    "venue": {
+     "name": "Stadio Brianteo",
+     "city": "Monza",
+     "capacity": 17102
     }
    }
   ]

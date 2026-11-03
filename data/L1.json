@@ -1,9 +1,9 @@
 {
- "updated": "2026-11-02T06:24:06+01:00",
+ "updated": "2026-11-03T06:40:00+01:00",
  "season": "2026/27",
  "competition": "Ligue 1",
- "currentRound": 9,
- "note": "Źródła: livefoot.fr i futboltotal/API-Sports (Strasbourg–Auxerre), Footeo, Orange Sports, Foot Mercato (Lyon–Angers, Paris FC–Monaco), Footeo, franceinfo, Le Méridional (OM–Toulouse), Maxifoot (tabela, wyniki), Mediapronos, TopMercato, Rue des Joueurs, Jeu Legal France (Lorient–Brest, kursy i absencje, 28–30.10); wcześniej: FotMob, ESPN, Eurofootnews, Starting11, ligue1.com (sędziowie J9), RotoWire, BettingNews, L'Équipe i inne.",
+ "currentRound": 10,
+ "note": "Źródła: foot01, Morning Foot (Lorient–Brest 0:2, statystyki), Oddslot/BC.Game i X-TremLimit (Toulouse–Strasbourg), WhoScored (H2H); wcześniej: livefoot.fr, API-Sports, Footeo, Orange Sports, Foot Mercato, franceinfo, Maxifoot, Mediapronos, TopMercato, Rue des Joueurs, FotMob, ESPN, ligue1.com, L'Équipe i inne.",
  "teams": {
   "ANG": {
    "id": "ANG",
@@ -269,15 +269,26 @@
    "form": "LWWWL"
   },
   {
-   "team": "LOR",
-   "p": 8,
+   "team": "BRE",
+   "p": 9,
    "w": 3,
    "d": 3,
-   "l": 2,
-   "gf": 7,
-   "ga": 6,
+   "l": 3,
+   "gf": 16,
+   "ga": 12,
    "pts": 12,
-   "form": "DLWWD"
+   "form": "LWDLW"
+  },
+  {
+   "team": "LOR",
+   "p": 9,
+   "w": 3,
+   "d": 3,
+   "l": 3,
+   "gf": 7,
+   "ga": 8,
+   "pts": 12,
+   "form": "LWWDL"
   },
   {
    "team": "TOU",
@@ -311,17 +322,6 @@
    "ga": 23,
    "pts": 10,
    "form": "WLWDL"
-  },
-  {
-   "team": "BRE",
-   "p": 8,
-   "w": 2,
-   "d": 3,
-   "l": 3,
-   "gf": 14,
-   "ga": 12,
-   "pts": 9,
-   "form": "LLWDL"
   },
   {
    "team": "ANG",
@@ -6651,13 +6651,13 @@
     "time": "20:45",
     "home": "LOR",
     "away": "BRE",
-    "status": "ns",
+    "status": "ft",
     "venue": {
      "name": "Stade du Moustoir",
      "city": "Lorient",
      "capacity": 18890
     },
-    "notes": "Mecz przeniesiony z soboty na poniedziałek 20:45 na wniosek prefektury Morbihan. Sędziowie wg LFP.",
+    "notes": "Derby Bretanii: Brest wygrał 2:0 na Moustoir, obaj strzelcy/asystent Edjouma i Versini weszli z ławki. Brak w źródłach pełnych składów, kartek i zmian. Mecz przeniesiony z soboty na poniedziałek na wniosek prefektury Morbihan.",
     "officials": [
      {
       "r": "GŁ",
@@ -6746,7 +6746,55 @@
     "weather": {
      "temp": 8,
      "rain": "Deszcz (prognoza)"
-    }
+    },
+    "score": [
+     0,
+     2
+    ],
+    "events": [
+     {
+      "m": 69,
+      "t": "goal",
+      "s_": "a",
+      "who": "Ludovic Ajorque",
+      "how": "Prawa noga (dobitka po zablokowanym strzale Doumbii)"
+     },
+     {
+      "m": 90,
+      "s": "+2",
+      "t": "goal",
+      "s_": "a",
+      "who": "Noah Edjouma",
+      "as": "Giovani Versini"
+     }
+    ],
+    "teamStats": [
+     [
+      "Posiadanie %",
+      52,
+      48
+     ],
+     [
+      "xG",
+      1.63,
+      1.22
+     ],
+     [
+      "Strzały",
+      15,
+      12
+     ],
+     [
+      "Rzuty rożne",
+      8,
+      2
+     ],
+     [
+      "Podania",
+      508,
+      481
+     ]
+    ]
    }
   ],
   "10": [
@@ -6761,6 +6809,36 @@
      "name": "Stadium de Toulouse",
      "city": "Tuluza",
      "capacity": 33150
+    },
+    "odds": {
+     "src": "Oddslot (BC.Game), bez znacznika czasu, odczyt 03.11.2026",
+     "1": 2.0,
+     "X": 3.7,
+     "2": 3.25,
+     "1X": 1.33,
+     "X2": 1.8,
+     "12": 1.28
+    },
+    "info": {
+     "restDays": {
+      "home": 5,
+      "away": 5
+     },
+     "homeAway": "Toulouse 12. (10 pkt, 12:13), ostatnio 0:2 w Marsylii i 0:0 z Troyes; Strasbourg 13. (10 pkt, 17:19), po 4 porażkach z rzędu rozbił Auxerre 5:1.",
+     "stakes": "Środek tabeli — obie drużyny mają po 10 pkt; zwycięzca odskakuje od strefy spadkowej.",
+     "h2h": [
+      "2025-12-06 TOU 1:0 STR"
+     ]
+    },
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Kursy tylko z jednego bukmachera (BC.Game przez Oddslot) bez znacznika czasu i bez rynków goli — za mało do rzetelnej wyceny.",
+      "Kurs 2,00/3,70/3,25 po marży ≈ 46% / 25% / 29%; bez wiarygodnych danych o formie dom/wyjazd i xG nie widzę przewagi powyżej tej wyceny.",
+      "Sygnały sprzeczne: Toulouse bez gola w ostatnim meczu, Strasbourg po serii porażek wygrał 5:1 — jedna kolejka to za mało, by uznać zmianę formy.",
+      "Brak potwierdzonych informacji o kontuzjach i zawieszeniach na dzień analizy.",
+      "Analiza do odświeżenia w kolejnej aktualizacji, gdy pojawią się kursy referencyjne i wiadomości kadrowe."
+     ]
     }
    },
    {

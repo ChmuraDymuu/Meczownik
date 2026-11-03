@@ -1,9 +1,9 @@
 {
- "updated": "2026-11-02T06:55:00+01:00",
+ "updated": "2026-11-03T06:41:27+01:00",
  "season": "2026/27",
  "competition": "Ekstraklasa",
- "currentRound": 13,
- "note": "Źródła: ekstraklasa.org i 90minut.pl (terminarz, obsada sędziowska), pzpn.pl (zmiany w obsadzie 13. kolejki), sportowefakty.wp.pl (wyniki, tabela), polsatsport.pl, mecze24.pl, eska.pl, interia.pl, weszlo.com; zapowiedzi: flashscore.pl, wkielcach.info, sport1.pl, blog.etoto.pl; kursy: podkarpacielive.pl (Superbet, LV Bet, Admiralbet), taksiegra.pl (porównanie), stan na 2.11 rano. Tabela po sobotnich meczach 13. kolejki (Zagłębie, Korona, Radomiak, Śląsk, Raków, Pogoń grają 2.11; LPO, POG, JAG, WPL z zaległymi meczami). Kolejność przy równej liczbie punktów wg różnicy bramek. Forma: ostatnie 5 meczów ligowych. Godziny w czasie zimowym (CET).",
+ "currentRound": 14,
+ "note": "Źródła: ekstraklasa.org (terminarz 15. kolejki, relacja Zagłębie–Korona, tabela), interia.pl, tylkoslask.pl, pilkarskiswiat.com (Raków–Pogoń), twojradom.pl, mecze24.pl (Radomiak–Śląsk), weszlo.com (Zagłębie–Korona), podkarpacielive.pl (tabela), wcześniejsze aktualizacje. Tabela po 13. kolejce (LPO, POG, JAG, WPL z zaległymi meczami); forma: 5 ostatnich meczów ligowych. Obsada sędziowska 14. kolejki i kursy na piątkowe mecze nie były jeszcze dostępne (stan 3.11 rano). Godziny w czasie zimowym (CET).",
  "teams": {
   "LEG": {
    "id": "LEG",
@@ -169,1632 +169,6 @@
   }
  },
  "rounds": {
-  "12": [
-   {
-    "id": "2026-27-R12-MOT-ZAG",
-    "date": "2026-10-23",
-    "time": "18:00",
-    "home": "MOT",
-    "away": "ZAG",
-    "status": "ft",
-    "officials": [
-     {
-      "r": "GŁ",
-      "role": "Sędzia główny",
-      "name": "Mateusz Jenda",
-      "nat": "POL",
-      "city": "Warszawa"
-     },
-     {
-      "r": "VAR",
-      "role": "Sędzia VAR",
-      "name": "Szymon Marciniak",
-      "nat": "POL"
-     },
-     {
-      "r": "AVAR",
-      "role": "Asystent VAR",
-      "name": "Tomasz Marciniak",
-      "nat": "POL"
-     }
-    ],
-    "odds": {
-     "src": "Oddsportal 1X2 (23.10 ~06:45); 1X, ponad/poniżej 2,5: ETOTO (23.10); BTTS: Superbet wg flashscore.pl",
-     "1": 2.0,
-     "X": 3.6,
-     "2": 3.65,
-     "bttsY": 1.67,
-     "1X": 1.3,
-     "o25": 1.74,
-     "u25": 2.06
-    },
-    "info": {
-     "restDays": {
-      "home": 6,
-      "away": 5
-     },
-     "homeAway": "Motor u siebie 7 pkt w sezonie, wygrał 2 ostatnie mecze (3:2 ze Śląskiem po 0:1); Zagłębie: 13 pkt u siebie, 5 pkt na wyjeździe. Trener Misiura (21.10): sytuacja zdrowotna Motoru „nie jest idealna” (bez nazwisk)",
-     "stakes": "środek tabeli (12. vs 7. miejsce)",
-     "suspensions": {
-      "home": [],
-      "away": []
-     },
-     "h2h": [
-      "Motor bez porażki w 5 ostatnich meczach z Zagłębiem (4 W, 1 R, bramki 7:3)",
-      "2026-03-20 MOT 1:0 ZAG"
-     ]
-    },
-    "tip": {
-     "decision": "NO BET",
-     "reasons": [
-      "Motor lub remis 1,30 ≈ 77%, a po zdjęciu marży rynek daje ok. 74% — nawet przy słabej formie wyjazdowej Zagłębia (5 pkt) EV ok. 0. Na żadnym rynku przewaga nie przekracza 5%."
-     ]
-    },
-    "score": [
-     2,
-     2
-    ],
-    "attendance": 7618,
-    "formation": {
-     "home": "4-1-4-1",
-     "away": "4-2-3-1"
-    },
-    "events": [
-     {
-      "m": 25,
-      "t": "yc",
-      "s_": "h",
-      "who": "Yacine Bourhane"
-     },
-     {
-      "m": 28,
-      "t": "yc",
-      "s_": "a",
-      "who": "David Čolina"
-     },
-     {
-      "m": 34,
-      "t": "var",
-      "s_": "a",
-      "kind": "Rzut karny – kontrola",
-      "init": "Rzut karny (faul na Regule)",
-      "fin": "Karny anulowany"
-     },
-     {
-      "m": 45,
-      "s": "+1",
-      "t": "goal",
-      "s_": "a",
-      "who": "Sebastian Kerk",
-      "how": "Strzał po rykoszecie"
-     },
-     {
-      "m": 46,
-      "t": "sub",
-      "s_": "a",
-      "inn": "Damian Michalski",
-      "out": "David Čolina"
-     },
-     {
-      "m": 48,
-      "t": "goal",
-      "s_": "a",
-      "who": "Marcel Reguła",
-      "as": "Michał Nalepa",
-      "how": "Po stałym fragmencie, strzał z ok. 16 m"
-     },
-     {
-      "m": 56,
-      "t": "sub",
-      "s_": "h",
-      "inn": "Mateusz Łęgowski",
-      "out": "Yacine Bourhane"
-     },
-     {
-      "m": 56,
-      "t": "sub",
-      "s_": "h",
-      "inn": "Fábio Ronaldo",
-      "out": "Makan Aïko"
-     },
-     {
-      "m": 66,
-      "t": "sub",
-      "s_": "a",
-      "inn": "Jakub Sypek",
-      "out": "Mateusz Dziewiątowski"
-     },
-     {
-      "m": 66,
-      "t": "sub",
-      "s_": "a",
-      "inn": "Filip Szymczak",
-      "out": "Sebastian Kerk"
-     },
-     {
-      "m": 72,
-      "t": "sub",
-      "s_": "h",
-      "inn": "Thomas Santos",
-      "out": "Kamil Lukoszek"
-     },
-     {
-      "m": 72,
-      "t": "sub",
-      "s_": "h",
-      "inn": "Alioune Oumar Tall",
-      "out": "Christopher Simon"
-     },
-     {
-      "m": 74,
-      "t": "goal",
-      "s_": "h",
-      "who": "Mateusz Łęgowski",
-      "how": "Dobitka z bliska"
-     },
-     {
-      "m": 75,
-      "t": "sub",
-      "s_": "a",
-      "inn": "Mateusz Grzybek",
-      "out": "Marcel Reguła"
-     },
-     {
-      "m": 76,
-      "t": "yc",
-      "s_": "h",
-      "who": "Karol Czubak"
-     },
-     {
-      "m": 85,
-      "t": "sub",
-      "s_": "h",
-      "inn": "Mateusz Posmyk",
-      "out": "Filip Luberecki"
-     },
-     {
-      "m": 87,
-      "t": "goal",
-      "s_": "h",
-      "who": "Mbaye Ndiaye",
-      "how": "Dobitka głową po rzucie rożnym"
-     },
-     {
-      "m": 90,
-      "s": "+1",
-      "t": "yc",
-      "s_": "a",
-      "who": "Mateusz Grzybek"
-     },
-     {
-      "m": 90,
-      "s": "+5",
-      "t": "sub",
-      "s_": "a",
-      "inn": "Mihael Mlinarić",
-      "out": "Josip Ćorluka"
-     }
-    ],
-    "notes": "Składy wyjściowe — Motor: Tratnik; Lukoszek, Bereszyński, Plavotić, Luberecki; Bourhane, Simon, Rony Lopes; Ndiaye (k), Czubak, Aïko. Zagłębie: Alomerović; Ławniczak, Čolina (k), Dąbrowski, Nalepa, Yakuba, Ćorluka, Kocaba, Reguła, Kerk, Dziewiątowski. Motor odrobił straty 0:2 po golach w 74. i 87. min. VAR anulował rzut karny dla Zagłębia (34'). Asysta przy 1. golu Motoru i 0:1 nie jest jednoznacznie podana w źródłach."
-   },
-   {
-    "id": "2026-27-R12-WID-GZA",
-    "date": "2026-10-23",
-    "time": "20:30",
-    "home": "WID",
-    "away": "GZA",
-    "status": "ft",
-    "officials": [
-     {
-      "r": "GŁ",
-      "role": "Sędzia główny",
-      "name": "Karol Arys",
-      "nat": "POL",
-      "city": "Szczecin"
-     },
-     {
-      "r": "AS1",
-      "role": "Asystent 1",
-      "name": "Marek Arys",
-      "nat": "POL"
-     },
-     {
-      "r": "AS2",
-      "role": "Asystent 2",
-      "name": "Andrzej Zbytniewski",
-      "nat": "POL"
-     },
-     {
-      "r": "4.",
-      "role": "Sędzia techniczny",
-      "name": "Aleksander Borowiak",
-      "nat": "POL"
-     },
-     {
-      "r": "VAR",
-      "role": "Sędzia VAR",
-      "name": "Łukasz Kuźma",
-      "nat": "POL"
-     },
-     {
-      "r": "AVAR",
-      "role": "Asystent VAR",
-      "name": "Bartosz Heinig",
-      "nat": "POL"
-     }
-    ],
-    "odds": {
-     "src": "Oddsportal 1X2 (stan na 23.10 ~06:45); pozostałe rynki: LV BET (23.10)",
-     "1": 2.85,
-     "X": 3.45,
-     "2": 2.4,
-     "1X": 1.62,
-     "X2": 1.45,
-     "o25": 1.92,
-     "u25": 1.88,
-     "bttsY": 1.72,
-     "bttsN": 2.1
-    },
-    "info": {
-     "restDays": {
-      "home": 7,
-      "away": 5
-     },
-     "homeAway": "Górnik wygrał 4 z 5 ostatnich meczów wyjazdowych; Widzew bez zwycięstwa od 8 kolejek ligowych (10 meczów we wszystkich rozgrywkach); 3+ gole w 4 z 5 ostatnich meczów Widzewa",
-     "stakes": "Górnik broni pozycji lidera (1 pkt przed Lechem); Widzew 14. miejsce",
-     "h2h": [
-      "2026-03-22 WID 0:0 GZA",
-      "2025-09-21 GZA 3:2 WID",
-      "2025-04-27 GZA 0:0 WID",
-      "2024-10-27 WID 0:2 GZA",
-      "2024-02-25 WID 3:1 GZA"
-     ],
-     "suspensions": {
-      "home": [],
-      "away": []
-     }
-    },
-    "tip": {
-     "decision": "NO BET",
-     "reasons": [
-      "Najbliżej wartości jest X2 (1,45 ≈ 69%), ale po zdjęciu marży rynek daje ok. 67%, a moja ocena ~70% — EV ok. +1%, za mało. Widzew bardzo często remisuje, Górnik stracił gola w 3 meczach z rzędu."
-     ]
-    },
-    "score": [
-     1,
-     1
-    ],
-    "formation": {
-     "home": "4-1-4-1",
-     "away": "4-2-3-1"
-    },
-    "staff": {
-     "home": [
-      [
-       "Trener",
-       "Mateusz Stolarski"
-      ]
-     ],
-     "away": [
-      [
-       "Trener",
-       "Michal Gašparík"
-      ]
-     ]
-    },
-    "events": [
-     {
-      "m": 16,
-      "t": "goal",
-      "s_": "h",
-      "who": "Karol Świderski",
-      "as": "D. Males",
-      "how": "Głowa po rzucie rożnym"
-     },
-     {
-      "m": 22,
-      "t": "sub",
-      "s_": "h",
-      "inn": "S. Biuk",
-      "out": "Mariusz Fornalczyk"
-     },
-     {
-      "m": 29,
-      "t": "yc",
-      "s_": "a",
-      "who": "Malthe Højholt"
-     },
-     {
-      "m": 40,
-      "t": "goal",
-      "s_": "a",
-      "who": "Kacper Urbański",
-      "as": "Z. Inoussa",
-      "how": "Strzał z bliska"
-     },
-     {
-      "m": 60,
-      "t": "sub",
-      "s_": "h",
-      "inn": "S. Bergier",
-      "out": "Karol Świderski"
-     },
-     {
-      "m": 60,
-      "t": "sub",
-      "s_": "h",
-      "inn": "C. Cheng",
-      "out": "S. Kapuadi"
-     },
-     {
-      "m": 63,
-      "t": "sub",
-      "s_": "a",
-      "inn": "M. Khlan",
-      "out": "Z. Inoussa"
-     },
-     {
-      "m": 71,
-      "t": "yc",
-      "s_": "h",
-      "who": "Giannis Papanikolaou"
-     },
-     {
-      "m": 74,
-      "t": "sub",
-      "s_": "a",
-      "inn": "E. Prekop",
-      "out": "S. Liseth"
-     },
-     {
-      "m": 78,
-      "t": "sub",
-      "s_": "h",
-      "inn": "M. Krajewski",
-      "out": "J. Gazibegović"
-     },
-     {
-      "m": 78,
-      "t": "sub",
-      "s_": "h",
-      "inn": "Fran Álvarez",
-      "out": "D. Males"
-     }
-    ],
-    "teamStats": [
-     [
-      "Strzały",
-      4,
-      12
-     ],
-     [
-      "Rzuty rożne",
-      2,
-      5
-     ],
-     [
-      "Faule",
-      6,
-      10
-     ],
-     [
-      "Spalone",
-      0,
-      1
-     ]
-    ],
-    "notes": "Składy wyjściowe — Widzew: Drągowski (k); Gazibegović, Wiśniewski, Visus, Kapuadi; Papanikolaou; Fornalczyk, Shehu, Kornvig, Males; Świderski. Górnik: Schulze; Zmrzlý (k), Janicki, Josema, Janža; Højholt, Paulo Bernardo; P. González, Urbański, Liseth; Inoussa. Fornalczyk zszedł już w 22. min. Zdarzenia po 87. min mogą być niepełne. Statystyki wg mecze24.pl (niezweryfikowane drugim źródłem)."
-   },
-   {
-    "id": "2026-27-R12-PIA-CRA",
-    "date": "2026-10-24",
-    "time": "12:15",
-    "home": "PIA",
-    "away": "CRA",
-    "status": "ft",
-    "officials": [
-     {
-      "r": "GŁ",
-      "role": "Sędzia główny",
-      "name": "Paweł Malec",
-      "nat": "POL",
-      "city": "Łódź"
-     },
-     {
-      "r": "VAR",
-      "role": "Sędzia VAR",
-      "name": "Paweł Raczkowski",
-      "nat": "POL"
-     },
-     {
-      "r": "AVAR",
-      "role": "Asystent VAR",
-      "name": "Piotr Rzucidło",
-      "nat": "POL"
-     }
-    ],
-    "odds": {
-     "src": "Oddsportal 1X2 (stan na 22.10 ~18:00); poniżej 2,5: Superbet wg flashscore.pl",
-     "1": 2.6,
-     "X": 3.5,
-     "2": 2.55,
-     "u25": 2.05
-    },
-    "info": {
-     "restDays": {
-      "home": 6,
-      "away": 7
-     },
-     "homeAway": "Obie drużyny w 3 ostatnich meczach: remis, wygrana, porażka",
-     "stakes": "8. vs 11. miejsce",
-     "h2h": [
-      "7 z 10 ostatnich meczów bezpośrednich: poniżej 2,5 gola"
-     ],
-     "suspensions": {
-      "home": [],
-      "away": []
-     }
-    },
-    "tip": {
-     "decision": "NO BET",
-     "reasons": [
-      "Model bramkowy daje Piastowi znacznie więcej niż rynek — rozbieżność zbyt duża, by jej ufać bez danych o składach. Poniżej 2,5 gola przy kursie 2,05 ma ujemne EV wg modelu."
-     ]
-    },
-    "score": [
-     3,
-     1
-    ],
-    "attendance": 5100,
-    "staff": {
-     "home": [
-      [
-       "Trener",
-       "Daniel Myśliwiec"
-      ]
-     ],
-     "away": [
-      [
-       "Trener",
-       "Bartosz Grzelak"
-      ]
-     ]
-    },
-    "venue": {
-     "name": "Stadion Miejski im. Piotra Wieczorka",
-     "city": "Gliwice"
-    },
-    "events": [
-     {
-      "m": 7,
-      "t": "goal",
-      "s_": "h",
-      "who": "Jakub Czerwiński",
-      "as": "Q. Boisgard"
-     },
-     {
-      "m": 25,
-      "t": "goal",
-      "s_": "h",
-      "who": "Hugo Vallejo",
-      "as": "S. Mucha"
-     },
-     {
-      "m": 45,
-      "t": "yc",
-      "s_": "h",
-      "who": "S. Mucha"
-     },
-     {
-      "m": 46,
-      "t": "sub",
-      "s_": "h",
-      "inn": "O. Leśniak",
-      "out": "S. Mucha"
-     },
-     {
-      "m": 46,
-      "t": "sub",
-      "s_": "h",
-      "inn": "F. Sierralta",
-      "out": "Jakub Czerwiński"
-     },
-     {
-      "m": 46,
-      "t": "sub",
-      "s_": "a",
-      "inn": "M. Klich",
-      "out": "D. Kameri"
-     },
-     {
-      "m": 48,
-      "t": "yc",
-      "s_": "a",
-      "who": "O. Kakabadze"
-     },
-     {
-      "m": 56,
-      "t": "var",
-      "s_": "a",
-      "kind": "Kartka – kontrola",
-      "init": "Żółta kartka (Klich)",
-      "fin": "Kartka potwierdzona"
-     },
-     {
-      "m": 57,
-      "t": "yc",
-      "s_": "a",
-      "who": "M. Klich"
-     },
-     {
-      "m": 62,
-      "t": "goal",
-      "s_": "a",
-      "who": "K. Knap",
-      "as": "O. Kakabadze"
-     },
-     {
-      "m": 72,
-      "t": "sub",
-      "s_": "h",
-      "inn": "Ivan Lima",
-      "out": "J. Łabojko"
-     },
-     {
-      "m": 78,
-      "t": "sub",
-      "s_": "a",
-      "inn": "A. Hasić",
-      "out": "M. Berte"
-     },
-     {
-      "m": 78,
-      "t": "sub",
-      "s_": "a",
-      "inn": "K. Zahiroleslam",
-      "out": "Amir Al-Ammari"
-     },
-     {
-      "m": 83,
-      "t": "yc",
-      "s_": "h",
-      "who": "Ivan Lima"
-     },
-     {
-      "m": 85,
-      "t": "sub",
-      "s_": "h",
-      "inn": "M. Kucharski",
-      "out": "S. Ntamack"
-     },
-     {
-      "m": 90,
-      "t": "sub",
-      "s_": "a",
-      "inn": "K. Glik",
-      "out": "B. Traoré"
-     },
-     {
-      "m": 90,
-      "t": "sub",
-      "s_": "a",
-      "inn": "M. Perković",
-      "out": "V. Burlet"
-     },
-     {
-      "m": 90,
-      "t": "sub",
-      "s_": "h",
-      "inn": "Andreas Katsantonis",
-      "out": "Leandro Sanca"
-     },
-     {
-      "m": 90,
-      "s": "+4",
-      "t": "goal",
-      "s_": "h",
-      "who": "Andreas Katsantonis"
-     },
-     {
-      "m": 90,
-      "s": "+7",
-      "t": "yc",
-      "s_": "h",
-      "who": "Q. Boisgard"
-     }
-    ],
-    "notes": "Składy wyjściowe — Piast: Gril; Twumasi, Rivas, Czerwiński, Lewicki; Łabojko, Boisgard, Sanca; Vallejo, Mucha, Ntamack. Cracovia: Madejski; Kakabadze, Henriksson, Traoré, Burlet; Kameri, Al-Ammari, Knap, Minchev; Berte, Nordas. Imiona części zawodników wg skrótów w źródłach (ekstraklasa.org, tylkoslask.pl). Sędzia główny: Paweł Malec."
-   },
-   {
-    "id": "2026-27-R12-KOR-GKS",
-    "date": "2026-10-24",
-    "time": "14:45",
-    "home": "KOR",
-    "away": "GKS",
-    "status": "ft",
-    "officials": [
-     {
-      "r": "GŁ",
-      "role": "Sędzia główny",
-      "name": "Patryk Gryckiewicz",
-      "nat": "POL",
-      "city": "Toruń"
-     },
-     {
-      "r": "VAR",
-      "role": "Sędzia VAR",
-      "name": "Piotr Urban",
-      "nat": "POL"
-     },
-     {
-      "r": "AVAR",
-      "role": "Asystent VAR",
-      "name": "Albert Różycki",
-      "nat": "POL"
-     }
-    ],
-    "odds": {
-     "src": "Oddsportal 1X2 (23.10 ~06:45); pozostałe rynki: LV BET (23.10)",
-     "1": 2.1,
-     "X": 3.7,
-     "2": 3.1,
-     "1X": 1.38,
-     "X2": 1.77,
-     "o25": 1.65,
-     "u25": 2.25,
-     "bttsY": 1.55,
-     "bttsN": 2.42
-    },
-    "info": {
-     "restDays": {
-      "home": 6,
-      "away": 7
-     },
-     "homeAway": "Korona w 5 ostatnich meczach 1 W, 4 P (bramki 5:17, m.in. 1:6 w Poznaniu); GKS 2,0 gola strzelonego i 1,5 straconego na mecz",
-     "stakes": "9. vs 5. miejsce",
-     "suspensions": {
-      "home": [],
-      "away": []
-     },
-     "h2h": [
-      "2026-04-25 KOR 1:1 GKS",
-      "2025-10-25 GKS 1:0 KOR",
-      "2025-05-05 KOR 2:1 GKS",
-      "2024-11-04 GKS 1:2 KOR",
-      "2022-12-10 KOR 0:1 GKS"
-     ]
-    },
-    "tip": {
-     "decision": "NO BET",
-     "reasons": [
-      "Forma przemawia za GKS, ale X2 1,77 (rynek bez marży ≈ 56%) to wycena zbliżona do mojej. Ponad 2,5 gola 1,65 ≈ 61% — model daje ok. 55%. Brak przewagi."
-     ]
-    },
-    "score": [
-     1,
-     0
-    ],
-    "attendance": 11421,
-    "staff": {
-     "home": [
-      [
-       "Trener",
-       "Robert Kolendowicz"
-      ]
-     ],
-     "away": [
-      [
-       "Trener",
-       "Rafał Górak"
-      ]
-     ]
-    },
-    "formation": {
-     "home": "4-3-3",
-     "away": "3-4-3"
-    },
-    "events": [
-     {
-      "m": 36,
-      "t": "pen",
-      "s_": "a",
-      "who": "Bartosz Nowak",
-      "res": "Obroniony"
-     },
-     {
-      "m": 46,
-      "t": "sub",
-      "s_": "h",
-      "inn": "Simon Gustafson",
-      "out": "Martin Remacle"
-     },
-     {
-      "m": 63,
-      "t": "sub",
-      "s_": "h",
-      "inn": "Dawid Błanik",
-      "out": "Michael Ameyaw"
-     },
-     {
-      "m": 65,
-      "t": "sub",
-      "s_": "h",
-      "inn": "Morgan Fassbender",
-      "out": "Mariusz Stępiński"
-     },
-     {
-      "m": 65,
-      "t": "sub",
-      "s_": "a",
-      "inn": "Adam Zrelak",
-      "out": "Ilja Szkurin"
-     },
-     {
-      "m": 70,
-      "t": "goal",
-      "s_": "h",
-      "who": "Camilo Mena",
-      "how": "Strzał w długi róg po zejściu do środka"
-     },
-     {
-      "m": 71,
-      "t": "sub",
-      "s_": "a",
-      "inn": "Mateusz Wdowiak",
-      "out": "Borja Galan"
-     },
-     {
-      "m": 71,
-      "t": "sub",
-      "s_": "a",
-      "inn": "Szymon Bartlewicz",
-      "out": "Marcel Wędrychowski"
-     },
-     {
-      "m": 72,
-      "t": "sub",
-      "s_": "h",
-      "inn": "Konrad Matuszewski",
-      "out": "Marcel Pięczek"
-     },
-     {
-      "m": 82,
-      "t": "sub",
-      "s_": "a",
-      "inn": "Erik Jirka",
-      "out": "Marcin Wasielewski"
-     },
-     {
-      "m": 82,
-      "t": "sub",
-      "s_": "a",
-      "inn": "Arkadiusz Jędrych",
-      "out": "Kacper Łukasiak"
-     },
-     {
-      "m": 83,
-      "t": "sub",
-      "s_": "h",
-      "inn": "Bartłomiej Smolarczyk",
-      "out": "Camilo Mena"
-     }
-    ],
-    "notes": "Debiut Roberta Kolendowicza jako trenera Korony. W 36. min Xavier Dziekoński obronił karnego Bartosza Nowaka (faul Długosza na Klemenzu). Po przerwie VAR: brak karnego dla Korony (Galan–Mena). Gol Meny po podaniu Wiktora Długosza. Żółte kartki (minuty niepodane): Remacle, Długosz (Korona); M. Kowalczyk, Nowak, Łukasiak, Resta (GKS). Sędzia: Patryk Gryckiewicz (Toruń)."
-   },
-   {
-    "id": "2026-27-R12-POG-RAD",
-    "date": "2026-10-24",
-    "time": "17:30",
-    "home": "POG",
-    "away": "RAD",
-    "status": "ft",
-    "officials": [
-     {
-      "r": "GŁ",
-      "role": "Sędzia główny",
-      "name": "Bartosz Frankowski",
-      "nat": "POL",
-      "city": "Toruń"
-     },
-     {
-      "r": "VAR",
-      "role": "Sędzia VAR",
-      "name": "Paweł Pskit",
-      "nat": "POL"
-     },
-     {
-      "r": "AVAR",
-      "role": "Asystent VAR",
-      "name": "Michał Obukowicz",
-      "nat": "POL"
-     }
-    ],
-    "odds": {
-     "src": "ETOTO (blog ETOTO, 23–24.10); 1X2 Superbet wg zagranie.com: 1,76 / 4,00 / 4,30; Betclic 1,72 / 3,90 / 4,30",
-     "1": 1.8,
-     "X": 3.86,
-     "2": 4.25,
-     "1X": 1.23,
-     "12": 1.26,
-     "X2": 1.94,
-     "dnb1": 1.35,
-     "dnb2": 3.1,
-     "bttsY": 1.62,
-     "bttsN": 2.26
-    },
-    "info": {
-     "injuries": {
-      "home": [
-       "Pozo",
-       "Juwary",
-       "Wahlqvist",
-       "Ali (niedostępni wg zagranie.com, powód niepodany)"
-      ],
-      "away": [
-       "Cichocki",
-       "Donis (niedostępni wg zagranie.com; ETOTO przewiduje Donisa w składzie)"
-      ]
-     },
-     "restDays": {
-      "home": 7,
-      "away": 5
-     },
-     "homeAway": "Pogoń u siebie 3-2-1 (wg wyników sezonu); Radomiak 4 porażki z rzędu (11 straconych goli); Pogoń nie wygrała z Radomiakiem w 4 ostatnich meczach (ostatnia wygrana 16.02.2024)",
-     "stakes": "Pogoń (4.) goni czołówkę; Radomiak (16.) w strefie spadkowej",
-     "h2h": [
-      "2025-12-06 POG 2:2 RAD",
-      "2025-07-20 RAD 5:1 POG",
-      "2025-05-10 RAD 2:0 POG",
-      "2024-11-08 POG 0:1 RAD",
-      "2024-02-16 RAD 0:4 POG"
-     ],
-     "suspensions": {
-      "home": [],
-      "away": []
-     }
-    },
-    "tip": {
-     "decision": "BET",
-     "market": "Obie strzelą – nie",
-     "odds": 2.26,
-     "prob": 0.5,
-     "ev": 0.13,
-     "rating": 6,
-     "risk": "średnie",
-     "reasons": [
-      "Pogoń straciła tylko 6 goli w 10 meczach (0,6/mecz) i wygrała 4 ostatnie mecze ligowe, 3 z nich bez straty gola.",
-      "Radomiak strzela 0,8 gola na mecz (9 w 11) i nie zdobył bramki w 3 z 5 ostatnich meczów ligowych.",
-      "W ostatnich 5 meczach ligowych zarówno Pogoni, jak i Radomiaka obie drużyny strzeliły tylko 2 razy.",
-      "Radomiak przegrał 4 mecze z rzędu (11 straconych goli) — gra głównie o ograniczenie strat.",
-      "Pogoń jest wyraźnym faworytem (kurs 1,76), więc najbardziej prawdopodobne scenariusze to wygrana Pogoni do zera.",
-      "Pogoń ma kilku nieobecnych (Pozo, Juwary, Wahlqvist, Ali), ale przewidywana linia obrony (Mendy, Szalai, Keramitsis, Riccio) bez zmian."
-     ],
-     "risks": [
-      "H2H przemawia przeciw: Radomiak strzelił Pogoni gola w 4 z 5 ostatnich meczów (m.in. 5:1 i 2:2).",
-      "Radomiak w 10. kolejce strzelił 2 gole Motorowi — potrafi trafić z kontry.",
-      "Składy nieznane; kursy BTTS tylko od jednego bukmachera (LV BET).",
-      "Mały wycinek sezonu (10–11 meczów) zwiększa niepewność oszacowania.",
-      "Rozbieżność z rynkiem jest duża — kurs na gola Radomiaka (1,39) sugeruje, że bukmacherzy wyceniają atak gości wyżej niż statystyki sezonu."
-     ],
-     "value": "Kurs 2,26 (ETOTO) wycenia brak bramek obu drużyn na ok. 44% (ok. 42% po zdjęciu marży); moje szacunki (obrona Pogoni 0,6 straconego/mecz + atak Radomiaka 0,8/mecz, z regresją do średniej) dają ok. 50%.",
-     "stake": "konserwatywnie, 1% bankrollu"
-    },
-    "score": [
-     4,
-     3
-    ],
-    "staff": {
-     "home": [
-      [
-       "Trener",
-       "Oscar García"
-      ]
-     ],
-     "away": [
-      [
-       "Trener",
-       "John Carver"
-      ]
-     ]
-    },
-    "formation": {
-     "home": "4-2-3-1",
-     "away": "4-2-3-1"
-    },
-    "events": [
-     {
-      "m": 3,
-      "t": "yc",
-      "s_": "h",
-      "who": "Maciej Wojciechowski"
-     },
-     {
-      "m": 10,
-      "t": "pen",
-      "s_": "a",
-      "who": "Roberto Alves",
-      "res": "Gol"
-     },
-     {
-      "m": 17,
-      "t": "goal",
-      "s_": "h",
-      "who": "Dimitrios Keramitsis"
-     },
-     {
-      "m": 25,
-      "t": "goal",
-      "s_": "a",
-      "who": "Christos Donis"
-     },
-     {
-      "m": 37,
-      "t": "sub",
-      "s_": "h",
-      "inn": "L. Willen",
-      "out": "B. Mendy"
-     },
-     {
-      "m": 41,
-      "t": "yc",
-      "s_": "h",
-      "who": "Dimitrios Keramitsis"
-     },
-     {
-      "m": 45,
-      "s": "+3",
-      "t": "goal",
-      "s_": "h",
-      "who": "Alessandro Riccio"
-     },
-     {
-      "m": 46,
-      "t": "sub",
-      "s_": "h",
-      "inn": "Kamil Grosicki",
-      "out": "Jan Biegański"
-     },
-     {
-      "m": 49,
-      "t": "goal",
-      "s_": "h",
-      "who": "Kamil Grosicki",
-      "as": "Paul Mukairu"
-     },
-     {
-      "m": 55,
-      "t": "goal",
-      "s_": "h",
-      "who": "Kamil Grosicki"
-     },
-     {
-      "m": 60,
-      "t": "sub",
-      "s_": "a",
-      "inn": "Luquinhas",
-      "out": "Rafał Wolski"
-     },
-     {
-      "m": 60,
-      "t": "sub",
-      "s_": "a",
-      "inn": "Fernando Goure",
-      "out": "Guilherme"
-     },
-     {
-      "m": 64,
-      "t": "sub",
-      "s_": "h",
-      "inn": "K. Acosta",
-      "out": "Maciej Wojciechowski"
-     },
-     {
-      "m": 73,
-      "t": "sub",
-      "s_": "a",
-      "inn": "C. Nunnely",
-      "out": "Ronaldo Lumungo"
-     },
-     {
-      "m": 73,
-      "t": "sub",
-      "s_": "a",
-      "inn": "I. Camará",
-      "out": "Christos Donis"
-     },
-     {
-      "m": 74,
-      "t": "goal",
-      "s_": "a",
-      "who": "Jan Grzesik",
-      "as": "Fernando Goure"
-     },
-     {
-      "m": 78,
-      "t": "sub",
-      "s_": "h",
-      "inn": "I. Eichie",
-      "out": "Paul Mukairu"
-     },
-     {
-      "m": 79,
-      "t": "sub",
-      "s_": "h",
-      "inn": "N. Ława",
-      "out": "D. Churlinov"
-     },
-     {
-      "m": 89,
-      "t": "rc",
-      "s_": "a",
-      "who": "I. Camará",
-      "why": "Kopnięcie Keramitsisa"
-     }
-    ],
-    "notes": "Składy wyjściowe — Pogoń: Cojocaru; Mendy, Szalai, Keramitsis, Riccio; Biegański (k), Dziczek; Mukairu, Wojciechowski, Churlinov; Jordi Sánchez. Radomiak: Majchrowicz; Ouattara, Conrado, Donis, Kingue; Koperski, Grzesik; Alves, Guilherme (k), Wolski; Ronaldo Lumungo. Do przerwy 2:2. Dublet Kamila Grosickiego z ławki. W doliczonym czasie (12 min) VAR anulował gola Goure na 4:4. Minuta czerwonej kartki Camary wg mecze24.pl. Typ BTTS-nie nie wszedł."
-   },
-   {
-    "id": "2026-27-R12-WIS-RAK",
-    "date": "2026-10-24",
-    "time": "20:15",
-    "home": "WIS",
-    "away": "RAK",
-    "status": "ft",
-    "officials": [
-     {
-      "r": "GŁ",
-      "role": "Sędzia główny",
-      "name": "Tomasz Kwiatkowski",
-      "nat": "POL",
-      "city": "Warszawa"
-     },
-     {
-      "r": "VAR",
-      "role": "Sędzia VAR",
-      "name": "Mateusz Złotnicki",
-      "nat": "POL"
-     },
-     {
-      "r": "AVAR",
-      "role": "Asystent VAR",
-      "name": "Tomasz Listkiewicz",
-      "nat": "POL"
-     }
-    ],
-    "odds": {
-     "src": "Oddsportal 1X2 (23.10 ~06:45); pozostałe rynki: ETOTO (23.10)",
-     "1": 1.8,
-     "X": 4.0,
-     "2": 3.8,
-     "1X": 1.26,
-     "12": 1.25,
-     "X2": 1.9,
-     "dnb1": 1.39,
-     "dnb2": 2.9,
-     "bttsY": 1.55,
-     "bttsN": 2.41
-    },
-    "info": {
-     "restDays": {
-      "home": 8,
-      "away": 8
-     },
-     "homeAway": "Wisła u siebie 5-0-0 (10:3), ostatnio W W W P R; Raków w sezonie 2-0-9 (15:26)",
-     "stakes": "Raków ostatni (6 pkt); nowy trener Rakowa Dawid Szwarga (od 21.10). Wisła bez gola w 2 ostatnich meczach",
-     "suspensions": {
-      "home": [],
-      "away": []
-     }
-    },
-    "tip": {
-     "decision": "NO BET",
-     "reasons": [
-      "DNB Wisła 1,39 ≈ 72% przy rynkowej wycenie bez marży ok. 68% — EV bliskie zera. Raków ma nowego trenera (Dawid Szwarga od 21.10), czego nie da się wycenić."
-     ]
-    },
-    "score": [
-     2,
-     1
-    ],
-    "staff": {
-     "home": [
-      [
-       "Trener",
-       "Mariusz Jop"
-      ]
-     ],
-     "away": [
-      [
-       "Trener",
-       "Dawid Szwarga"
-      ]
-     ]
-    },
-    "events": [
-     {
-      "m": 8,
-      "t": "var",
-      "s_": "h",
-      "kind": "Rzut karny – OFR",
-      "init": "Rzut karny (ręka Racovițana)",
-      "fin": "Karny anulowany"
-     },
-     {
-      "m": 46,
-      "t": "sub",
-      "s_": "a",
-      "inn": "Karol Struski",
-      "out": "Fran Tudor"
-     },
-     {
-      "m": 46,
-      "t": "sub",
-      "s_": "a",
-      "inn": "Mahir Emreli",
-      "out": "Tomasz Pieńko"
-     },
-     {
-      "m": 53,
-      "t": "goal",
-      "s_": "h",
-      "who": "Julius Ertlthaler"
-     },
-     {
-      "m": 63,
-      "t": "sub",
-      "s_": "a",
-      "inn": "Jakub Jendryka",
-      "out": "Jean Carlos"
-     },
-     {
-      "m": 63,
-      "t": "sub",
-      "s_": "a",
-      "inn": "Władysław Koczerhin",
-      "out": "Marko Bulat"
-     },
-     {
-      "m": 66,
-      "t": "sub",
-      "s_": "h",
-      "inn": "Victor Meseguer",
-      "out": "James Igbekeme"
-     },
-     {
-      "m": 66,
-      "t": "sub",
-      "s_": "h",
-      "inn": "Elie Youan",
-      "out": "Frederico Duarte"
-     },
-     {
-      "m": 66,
-      "t": "sub",
-      "s_": "h",
-      "inn": "Marko Bozić",
-      "out": "Julian Lelieveld"
-     },
-     {
-      "m": 84,
-      "t": "pen",
-      "s_": "a",
-      "who": "Lamine Diaby-Fadiga",
-      "res": "Gol"
-     },
-     {
-      "m": 90,
-      "t": "sub",
-      "s_": "a",
-      "inn": "Nils Zatterström",
-      "out": "Erick Otieno",
-      "s": "+3"
-     },
-     {
-      "m": 90,
-      "s": "+10",
-      "t": "goal",
-      "s_": "h",
-      "who": "Kacper Duda",
-      "how": "Rzut wolny bezpośredni"
-     }
-    ],
-    "teamStats": [
-     [
-      "Posiadanie %",
-      55,
-      45
-     ],
-     [
-      "Strzały",
-      13,
-      13
-     ],
-     [
-      "Celne",
-      8,
-      2
-     ]
-    ],
-    "notes": "Składy wyjściowe — Wisła: Łubik; Giger, Uryga, Grujcić, Krzyżanowski; Duda, Igbekeme, Duarte, Ertlthaler, Lelieveld; Rodado. Raków: Trelowski; Tudor, Racovițan, Svarnas, Jean Carlos, Repka, Bulat, Otieno, Diaby-Fadiga, Pieńko, Makuch. VAR: gol Diaby-Fadigi po rzucie rożnym anulowany za spalonego (ok. 69.–72. min, ok. 4 min analizy); karny dla Rakowa po faulu na Emrelim. Żółte kartki: Diaby-Fadiga, Napieraj (poza boiskiem); minuty niepodane. Sędzia: Tomasz Kwiatkowski (Warszawa). Zwycięski gol w 100. minucie."
-   },
-   {
-    "id": "2026-27-R12-SLA-WIE",
-    "date": "2026-10-25",
-    "time": "12:15",
-    "home": "SLA",
-    "away": "WIE",
-    "status": "ft",
-    "officials": [
-     {
-      "r": "GŁ",
-      "role": "Sędzia główny",
-      "name": "Mateusz Piszczelok",
-      "nat": "POL",
-      "city": "Katowice"
-     },
-     {
-      "r": "VAR",
-      "role": "Sędzia VAR",
-      "name": "Wojciech Myć",
-      "nat": "POL"
-     },
-     {
-      "r": "AVAR",
-      "role": "Asystent VAR",
-      "name": "Mateusz Jenda",
-      "nat": "POL"
-     }
-    ],
-    "odds": {
-     "src": "Oddsportal 1X2 (stan na 22.10 ~18:00); ponad 2,5: Superbet wg flashscore.pl",
-     "1": 2.9,
-     "X": 3.7,
-     "2": 2.15,
-     "o25": 1.55
-    },
-    "info": {
-     "restDays": {
-      "home": 8,
-      "away": 9
-     },
-     "homeAway": "Śląsk 5 porażek z rzędu, 2+ stracone gole w 5 ostatnich meczach; Wieczysta 2 porażki z rzędu",
-     "stakes": "mecz dołu tabeli (17. vs 15. miejsce)",
-     "suspensions": {
-      "home": [
-       "Marc Llinares (4 żółte)"
-      ],
-      "away": []
-     }
-    },
-    "tip": {
-     "decision": "NO BET",
-     "reasons": [
-      "Ponad 2,5 gola wygląda logicznie, ale kurs 1,55 wycenia to na ok. 65% — tyle samo co model. Brak value."
-     ]
-    },
-    "score": [
-     2,
-     0
-    ],
-    "attendance": 12391,
-    "events": [
-     {
-      "m": 24,
-      "t": "goal",
-      "s_": "h",
-      "who": "Malaly Dembélé",
-      "as": "Piotr Samiec-Talar",
-      "how": "Po zagraniu piętką"
-     },
-     {
-      "m": 45,
-      "s": "+",
-      "t": "goal",
-      "s_": "h",
-      "who": "Przemysław Banaszak",
-      "as": "Piotr Samiec-Talar"
-     }
-    ],
-    "notes": "Drugi gol w doliczonym czasie 1. połowy (minuta doliczona niepodana). Bramkarze: Karol Niemczycki (Śląsk), Mateusz Kochalski (Wieczysta). Samiec-Talar: 2 asysty, w sezonie 4 gole i 7 asyst. Śląsk przerwał serię 9 meczów bez zwycięstwa. Kartki i pełne składy niepodane w źródłach."
-   },
-   {
-    "id": "2026-27-R12-JAG-WPL",
-    "date": "2026-10-25",
-    "time": "14:45",
-    "home": "JAG",
-    "away": "WPL",
-    "status": "ft",
-    "officials": [
-     {
-      "r": "GŁ",
-      "role": "Sędzia główny",
-      "name": "Damian Kos",
-      "nat": "POL",
-      "city": "Gdańsk"
-     },
-     {
-      "r": "AS1",
-      "role": "Asystent 1",
-      "name": "Bartosz Heinig",
-      "nat": "POL"
-     },
-     {
-      "r": "AS2",
-      "role": "Asystent 2",
-      "name": "Dariusz Bohonos",
-      "nat": "POL"
-     },
-     {
-      "r": "4.",
-      "role": "Sędzia techniczny",
-      "name": "Filip Kaliszewski",
-      "nat": "POL"
-     },
-     {
-      "r": "VAR",
-      "role": "Sędzia VAR",
-      "name": "Kornel Paszkiewicz",
-      "nat": "POL"
-     },
-     {
-      "r": "AVAR",
-      "role": "Asystent VAR",
-      "name": "Adam Kupsik",
-      "nat": "POL"
-     }
-    ],
-    "odds": {
-     "src": "Oddsportal 1X2 (stan na 23.10 ~06:45)",
-     "1": 2.0,
-     "X": 3.6,
-     "2": 3.4
-    },
-    "info": {
-     "restDays": {
-      "home": 3,
-      "away": 6
-     },
-     "homeAway": "Jagiellonia 4 porażki ligowe z rzędu; w czwartek 22.10 przegrała u siebie 0:3 z Anderlechtem w Lidze Europy (pełna podstawowa jedenastka, m.in. Prelec, Jóźwiak, Abramowicz)",
-     "stakes": "Jagiellonia (12.) przy natężonym terminarzu pucharowym; Wisła Płock 10.",
-     "h2h": [
-      "Ostatni mecz bezpośredni (w Białymstoku) wygrała Wisła Płock"
-     ],
-     "suspensions": {
-      "home": [],
-      "away": []
-     }
-    },
-    "tip": {
-     "decision": "NO BET",
-     "reasons": [
-      "Jagiellonia gra 3 dni po meczu Ligi Europy i przegrała 4 ligowe mecze z rzędu — rotacja i zmęczenie niemożliwe do wyceny."
-     ]
-    },
-    "score": [
-     1,
-     0
-    ],
-    "attendance": 17021,
-    "events": [
-     {
-      "m": 83,
-      "t": "goal",
-      "s_": "h",
-      "who": "Ousmane Sow",
-      "as": "Kajetan Szmyt",
-      "how": "Głowa"
-     }
-    ],
-    "notes": "77': sędzia Damian Kos podyktował rzut karny za zagranie ręką Juriki Prsira, po analizie VAR decyzję odwołano. Sow i Szmyt weszli z ławki. Bramkarze: Miłosz Perchel (Jagiellonia, w miejsce Sławomira Abramowicza), Rafał Leszczyński (Wisła Płock). Jagiellonia przerwała serię 4 porażek z rzędu. Kartki niepodane w źródłach."
-   },
-   {
-    "id": "2026-27-R12-LEG-LPO",
-    "date": "2026-10-25",
-    "time": "17:30",
-    "home": "LEG",
-    "away": "LPO",
-    "status": "ft",
-    "officials": [
-     {
-      "r": "GŁ",
-      "role": "Sędzia główny",
-      "name": "Szymon Marciniak",
-      "nat": "POL",
-      "city": "Płock"
-     },
-     {
-      "r": "AS1",
-      "role": "Asystent 1",
-      "name": "Dawid Golis",
-      "nat": "POL"
-     },
-     {
-      "r": "AS2",
-      "role": "Asystent 2",
-      "name": "Sebastian Mucha",
-      "nat": "POL"
-     },
-     {
-      "r": "4.",
-      "role": "Sędzia techniczny",
-      "name": "Tomasz Marciniak",
-      "nat": "POL"
-     },
-     {
-      "r": "VAR",
-      "role": "Sędzia VAR",
-      "name": "Jarosław Przybył",
-      "nat": "POL"
-     },
-     {
-      "r": "AVAR",
-      "role": "Asystent VAR",
-      "name": "Szymon Łężny",
-      "nat": "POL"
-     }
-    ],
-    "odds": {
-     "src": "Superbet wg zagranie.com (25.10 ~05:00); Betclic 2,50 / 3,50 / 2,60",
-     "1": 2.57,
-     "X": 3.5,
-     "2": 2.65,
-     "bttsY": 1.59
-    },
-    "info": {
-     "injuries": {
-      "home": [
-       "Vinagre",
-       "Żewłakow (nie zagrają wg zagranie.com)"
-      ],
-      "away": [
-       "Douglas",
-       "Gumny",
-       "Gholizadeh",
-       "Mońka",
-       "Sayyadmanesh (nie zagrają wg zagranie.com)"
-      ]
-     },
-     "homeAway": "Legia bez porażki w 15 meczach ligowych (od 0:4 z Lechem 26.04); Lech wygrał 3 ostatnie mecze ligowe (5:1, 4:1, 6:1), bez porażki w 5 ostatnich wizytach w Warszawie i bez straconego gola w 3 ostatnich ligowych meczach z Legią; w czwartek 22.10 Lech 1:1 z Sunderlandem w LE",
-     "stakes": "4. vs 2. miejsce — hit kolejki; Walemark (Lech) zagrożony pauzą za kartki; oczekiwany komplet ok. 27 tys. widzów",
-     "h2h": [
-      "2026-04-26 LPO 4:0 LEG",
-      "2025-10 LEG 0:0 LPO"
-     ],
-     "restDays": {
-      "home": 8,
-      "away": 3
-     },
-     "suspensions": {
-      "home": [],
-      "away": []
-     }
-    },
-    "tip": {
-     "decision": "NO BET",
-     "reasons": [
-      "Obie strzelą 1,59 ≈ 63% — moja ocena 59–63% (Lech bez straconego gola w 3 ostatnich meczach z Legią). Kursy 1X2 wyrównane; liczne braki Lecha i 3 dni odpoczynku po LE przeciw formie Lecha — bez przewagi na żadnym rynku."
-     ]
-    },
-    "score": [
-     1,
-     2
-    ],
-    "attendance": 27410,
-    "formation": {
-     "home": "3-4-3",
-     "away": "4-4-2"
-    },
-    "staff": {
-     "home": [
-      [
-       "Trener",
-       "Marek Papszun"
-      ]
-     ],
-     "away": [
-      [
-       "Trener",
-       "Niels Frederiksen"
-      ]
-     ]
-    },
-    "events": [
-     {
-      "m": 14,
-      "t": "sub",
-      "s_": "a",
-      "inn": "Yannick Agnero",
-      "out": "Mikael Ishak"
-     },
-     {
-      "m": 29,
-      "t": "sub",
-      "s_": "h",
-      "inn": "Mateusz Szczepaniak",
-      "out": "Rafał Adamski"
-     },
-     {
-      "m": 46,
-      "t": "sub",
-      "s_": "h",
-      "inn": "Ruben Vinagre",
-      "out": "Paweł Wszołek"
-     },
-     {
-      "m": 56,
-      "t": "goal",
-      "s_": "a",
-      "who": "Yannick Agnero",
-      "as": "Leo Bengtsson"
-     },
-     {
-      "m": 67,
-      "t": "sub",
-      "s_": "h",
-      "inn": "Fukuda",
-      "out": "Kacper Chodyna"
-     },
-     {
-      "m": 67,
-      "t": "sub",
-      "s_": "h",
-      "inn": "Bohdan Wjunnyk",
-      "out": "Sevcik"
-     },
-     {
-      "m": 67,
-      "t": "sub",
-      "s_": "a",
-      "inn": "Daniel Hakans",
-      "out": "Leo Bengtsson"
-     },
-     {
-      "m": 67,
-      "t": "sub",
-      "s_": "a",
-      "inn": "Filip Jagiełło",
-      "out": "Rodriguez"
-     },
-     {
-      "m": 68,
-      "t": "sub",
-      "s_": "a",
-      "inn": "Luis Palma",
-      "out": "Patrik Walemark"
-     },
-     {
-      "m": 74,
-      "t": "goal",
-      "s_": "h",
-      "who": "Bohdan Wjunnyk",
-      "as": "Rafał Augustyniak",
-      "how": "Głowa"
-     },
-     {
-      "m": 81,
-      "t": "sub",
-      "s_": "a",
-      "inn": "Berggren",
-      "out": "Antoni Kozubal"
-     },
-     {
-      "m": 86,
-      "t": "sub",
-      "s_": "h",
-      "inn": "Szymański",
-      "out": "Kacper Urbański"
-     },
-     {
-      "m": 87,
-      "t": "goal",
-      "s_": "a",
-      "who": "Luis Palma",
-      "as": "Daniel Hakans"
-     }
-    ],
-    "notes": "Składy wyjściowe — Legia (3-4-3): Hindrich – Piątkowski, Augustyniak, Deziel – Wszołek, Urbański, Kapustka, Chodyna – Ševčík, Zjawiński, Adamski. Lech (4-4-2): Lis – Pereira, Skrzypczak, Yegbe, Gurgul – Walemark, Murawski, Kozubal, Bengtsson – Rodriguez, Ishak. Żółte kartki: Wszołek, Kapustka (Legia), Yegbe, Bengtsson (Lech) — minuty niepodane. Ishak zszedł z urazem w 14', Adamski w 29'. Agnero i Palma weszli z ławki. Legia przegrała pierwszy raz po 15 meczach ligowych bez porażki; Lech nowym liderem. Minuty goli wg polsatsport.pl (źródła różnią się o 1 min)."
-   }
-  ],
   "13": [
    {
     "id": "2026-27-R13-CRA-MOT",
@@ -2676,7 +1050,7 @@
     "time": "18:00",
     "home": "RAD",
     "away": "SLA",
-    "status": "ns",
+    "status": "ft",
     "odds": {
      "src": "podkarpacielive.pl, stan na 2.11 rano: 1X2, podwójna szansa i o2,5 – Superbet; u2,5 – LV Bet; BTTS – Admiralbet",
      "1": 2.22,
@@ -2699,7 +1073,7 @@
       "city": "Gdańsk"
      }
     ],
-    "notes": "Obie drużyny odpadły w 1/16 Pucharu Polski po dogrywkach: Radomiak przegrał z Avią Świdnik 1:2, Śląsk z Odrą Opole 1:2.",
+    "notes": "Obie drużyny odpadły w 1/16 Pucharu Polski po dogrywkach: Radomiak przegrał z Avią Świdnik 1:2, Śląsk z Odrą Opole 1:2. | PO MECZU: 3:1 (1:1), dublet Jana Grzesika; pierwsza ligowa wygrana Radomiaka od sierpnia. Wyjściowy skład RAD: Majchrowicz – Ouattara, Kingue, Koperski, Conrado – Grzesik, Alves, Donis, Luquinhas, Lumungo, Tapsoba. Tapsoba (4. żółta kartka) pauzuje w następnym meczu. Sędzia: Damian Kos. Lista zdarzeń może być niepełna (brak zmian Śląska). Źródła: twojradom.pl, mecze24.pl.",
     "info": {
      "homeAway": "Radomiak przegrał 5 ostatnich meczów ligowych (LLLLL), 28 straconych goli w 12 meczach; Śląsk zdobył tylko 1 pkt w 6 meczach wyjazdowych (12 straconych goli), ostatnio przerwał serię porażek wygraną 2:0 z Wieczystą",
      "stakes": "17. Radomiak (8 pkt) vs 15. Śląsk (9 pkt) — bezpośredni mecz o utrzymanie",
@@ -2716,7 +1090,100 @@
      "reasons": [
       "Rynek wycenia sporo goli (o2,5 1,58 ≈ 63%, BTTS tak 1,51 ≈ 66%) — model bramkowy daje ok. 62% i 64%, więc EV ≤ 0. Model z tabeli faworyzuje Śląsk (ok. 44% vs 33% z kursu 3,05), ale przeczy temu bilans wyjazdowy Śląska (1 pkt w 6 meczach). Brak wiadomości o kontuzjach i składach — sprzeczne sygnały, zbyt duża niepewność."
      ]
-    }
+    },
+    "score": [
+     3,
+     1
+    ],
+    "attendance": 6696,
+    "events": [
+     {
+      "m": 5,
+      "t": "goal",
+      "s_": "h",
+      "who": "Christos Donis",
+      "how": "Strzał z dystansu"
+     },
+     {
+      "m": 6,
+      "t": "goal",
+      "s_": "a",
+      "who": "Przemysław Banaszak"
+     },
+     {
+      "m": 21,
+      "t": "yc",
+      "s_": "h",
+      "who": "Abdoul Tapsoba"
+     },
+     {
+      "m": 49,
+      "t": "goal",
+      "s_": "h",
+      "who": "Jan Grzesik"
+     },
+     {
+      "m": 50,
+      "t": "yc",
+      "s_": "h",
+      "who": "Jan Grzesik",
+      "why": "Zachowanie przy celebracji gola"
+     },
+     {
+      "m": 51,
+      "t": "yc",
+      "s_": "a",
+      "who": "Dominik Szala"
+     },
+     {
+      "m": 66,
+      "t": "yc",
+      "s_": "a",
+      "who": "Ieltsin Camões"
+     },
+     {
+      "m": 71,
+      "t": "goal",
+      "s_": "h",
+      "who": "Jan Grzesik",
+      "as": "Luquinhas"
+     },
+     {
+      "m": 74,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Rafał Wolski",
+      "out": "Luquinhas"
+     },
+     {
+      "m": 74,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Guilherme Luiz",
+      "out": "Abdoul Tapsoba"
+     },
+     {
+      "m": 83,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Che Nunnely",
+      "out": "Jan Grzesik"
+     },
+     {
+      "m": 90,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Fernand Goure",
+      "out": "Ronaldo Lumungo"
+     },
+     {
+      "m": 90,
+      "s": "+3",
+      "t": "yc",
+      "s_": "a",
+      "who": "Jorge Yriarte"
+     }
+    ]
    },
    {
     "id": "2026-27-R13-ZAG-KOR",
@@ -2724,7 +1191,7 @@
     "time": "18:00",
     "home": "ZAG",
     "away": "KOR",
-    "status": "ns",
+    "status": "ft",
     "odds": {
      "src": "podkarpacielive.pl, stan na 2.11 rano: 1X2, podwójna szansa, o2,5 i BTTS tak – Superbet; u2,5 – LV Bet; BTTS nie – Admiralbet",
      "1": 2.57,
@@ -2747,7 +1214,7 @@
       "city": "Bytom"
      }
     ],
-    "notes": "Korona odpadła w 1/16 Pucharu Polski po porażce 1:2 z Polonią Warszawa; niedawno zmieniła trenera. 12 z 14 ligowych goli Korony zdobyli Stępiński, Mena i Fassbender. W trzech ostatnich meczach H2H obie drużyny strzelały.",
+    "notes": "Korona odpadła w 1/16 Pucharu Polski po porażce 1:2 z Polonią Warszawa; niedawno zmieniła trenera. 12 z 14 ligowych goli Korony zdobyli Stępiński, Mena i Fassbender. W trzech ostatnich meczach H2H obie drużyny strzelały. | PO MECZU: 1:0 (1:0), gol samobójczy Ariela Mosóra w 4' (po strzale Marcela Reguły, uznany po weryfikacji VAR). Korona dominowała w posiadaniu, Zagłębie obroniło wynik. Sędzia: Piotr Lasyk. Źródła: ekstraklasa.org, weszlo.com, mecze24.pl.",
     "info": {
      "homeAway": "Zagłębie: 13 pkt w 6 ostatnich meczach domowych, 5 straconych goli i 4 czyste konta w 8 poprzednich meczach u siebie; Korona: 9 pkt na wyjazdach, forma WWLLW, bilans bramek 14:18",
      "stakes": "7. Zagłębie (19 pkt) vs 9. Korona (18 pkt) — środek tabeli",
@@ -2771,7 +1238,114 @@
       "Model z tabeli (oczekiwane gole ok. 1,47–0,98) daje u2,5 ok. 56% i BTTS nie ok. 52% wobec 53% i 48% z kursów (1,88 / 2,09) — po urealnieniu w stronę wyceny rynku przewaga spada do ok. 0–4%, poniżej progu 5%.",
       "Mocny dom Zagłębia przemawia za gospodarzami, ale w trzech ostatnich H2H obie drużyny strzelały, a 1X 1,45 (≈69%) nie daje wartości. Brak potwierdzonych składów i xG."
      ]
-    }
+    },
+    "score": [
+     1,
+     0
+    ],
+    "events": [
+     {
+      "m": 4,
+      "t": "og",
+      "s_": "h",
+      "who": "Ariel Mosór"
+     },
+     {
+      "m": 30,
+      "t": "yc",
+      "s_": "h",
+      "who": "Roman Yakuba"
+     },
+     {
+      "m": 39,
+      "t": "sub",
+      "s_": "h",
+      "inn": "D. Michalski",
+      "out": "M. Nalepa"
+     },
+     {
+      "m": 46,
+      "t": "sub",
+      "s_": "h",
+      "inn": "I. Orlikowski",
+      "out": "Roman Yakuba"
+     },
+     {
+      "m": 46,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Mateusz Stępiński",
+      "out": "D. Bąk"
+     },
+     {
+      "m": 50,
+      "t": "yc",
+      "s_": "a",
+      "who": "Slobodan Rubežić"
+     },
+     {
+      "m": 59,
+      "t": "sub",
+      "s_": "a",
+      "inn": "M. Fassbender",
+      "out": "M. Ameyaw"
+     },
+     {
+      "m": 59,
+      "t": "sub",
+      "s_": "a",
+      "inn": "M. Remacle",
+      "out": "S. Gustafson"
+     },
+     {
+      "m": 61,
+      "t": "sub",
+      "s_": "h",
+      "inn": "J. Sypek",
+      "out": "S. Kerk"
+     },
+     {
+      "m": 69,
+      "t": "sub",
+      "s_": "h",
+      "inn": "J. Kolan",
+      "out": "M. Dziewiatowski"
+     },
+     {
+      "m": 69,
+      "t": "sub",
+      "s_": "h",
+      "inn": "F. Szymczak",
+      "out": "A. Woźniak"
+     },
+     {
+      "m": 73,
+      "t": "yc",
+      "s_": "h",
+      "who": "Damian Dąbrowski"
+     },
+     {
+      "m": 80,
+      "t": "sub",
+      "s_": "a",
+      "inn": "S. Davidović",
+      "out": "K. Jakubczyk"
+     },
+     {
+      "m": 83,
+      "t": "sub",
+      "s_": "a",
+      "inn": "D. Błanik",
+      "out": "M. Pięczek"
+     },
+     {
+      "m": 90,
+      "s": "+1",
+      "t": "yc",
+      "s_": "h",
+      "who": "Marcel Reguła"
+     }
+    ]
    },
    {
     "id": "2026-27-R13-RAK-POG",
@@ -2779,7 +1353,7 @@
     "time": "20:30",
     "home": "RAK",
     "away": "POG",
-    "status": "ns",
+    "status": "ft",
     "odds": {
      "src": "podkarpacielive.pl, stan na 2.11 rano: 1X2, podwójna szansa i o2,5 – Superbet; u2,5 – LV Bet; BTTS – Admiralbet",
      "1": 2.3,
@@ -2802,7 +1376,7 @@
       "city": "Płock"
      }
     ],
-    "notes": "Raków awansował do 1/8 Pucharu Polski: 27.10 w Lublinie 1:1 z Motorem po dogrywce, karne 3–1. Dawid Szwarga wrócił na ławkę Rakowa (w lidze na start 1:2 z Wisłą Kraków). Patryk Makuch 6 goli w sezonie, Lamine Diaby-Fadiga 4 gole w 3 ostatnich meczach. Zagrożeni pauzą za kartki: Racovitan, Struski (RAK), Keramitsis (POG). Przewidywane składy (flashscore.pl) — RAK: Trelowski; Tudor, Racovitan, Svarnas; Silva, Repka, Bulat, Otieno; Diaby, Makuch, Pieńko. POG: Cojocaru; Riccio, Keramitsis, Szalai, Willen; Acosta, Biegański; Churlinov, Wojciechowski, Mukairu; Sanchez.",
+    "notes": "Raków awansował do 1/8 Pucharu Polski: 27.10 w Lublinie 1:1 z Motorem po dogrywce, karne 3–1. Dawid Szwarga wrócił na ławkę Rakowa (w lidze na start 1:2 z Wisłą Kraków). Patryk Makuch 6 goli w sezonie, Lamine Diaby-Fadiga 4 gole w 3 ostatnich meczach. Zagrożeni pauzą za kartki: Racovitan, Struski (RAK), Keramitsis (POG). Przewidywane składy (flashscore.pl) — RAK: Trelowski; Tudor, Racovitan, Svarnas; Silva, Repka, Bulat, Otieno; Diaby, Makuch, Pieńko. POG: Cojocaru; Riccio, Keramitsis, Szalai, Willen; Acosta, Biegański; Churlinov, Wojciechowski, Mukairu; Sanchez. | PO MECZU: 3:1 (0:1), pierwsza ligowa porażka Pogoni od lipca. Rzut karny Rakowa (faul Acosty na Kocherginie) zmarnował Diaby-Fadiga (nad poprzeczką). Po czerwonej kartce Cojocaru w bramce stanął obrońca Keramitsis. Wyjściowe składy — RAK: Karić – Tudor, Racovițan, Svarnas – Jean Carlos, Repka, Kochergin, Otieno – Diaby-Fadiga, Makuch – Emreli. POG: Cojocaru – Echie, Keramitsis, Szalai, Willen – Churlinov, Acosta, Biegański – Mukairu, Jordi Sánchez, Wojciechowski. Sędzia: Szymon Marciniak. Minuty niektórych zdarzeń różnią się między źródłami o 1–3 min. Źródła: interia.pl, tylkoslask.pl, pilkarskiswiat.com.",
     "info": {
      "restDays": {
       "home": 6
@@ -2850,7 +1424,185 @@
       ]
      ],
      "away": []
-    }
+    },
+    "score": [
+     3,
+     1
+    ],
+    "attendance": 5089,
+    "events": [
+     {
+      "m": 5,
+      "t": "goal",
+      "s_": "a",
+      "who": "Darko Churlinov",
+      "as": "Jan Biegański"
+     },
+     {
+      "m": 16,
+      "t": "yc",
+      "s_": "h",
+      "who": "Lamine Diaby-Fadiga"
+     },
+     {
+      "m": 38,
+      "t": "pen",
+      "s_": "h",
+      "who": "Lamine Diaby-Fadiga",
+      "res": "Niecelny"
+     },
+     {
+      "m": 47,
+      "t": "goal",
+      "s_": "h",
+      "who": "Patryk Makuch",
+      "as": "Mahir Emreli"
+     },
+     {
+      "m": 47,
+      "t": "yc",
+      "s_": "a",
+      "who": "Jordi Sánchez"
+     },
+     {
+      "m": 56,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Ali",
+      "out": "Echie"
+     },
+     {
+      "m": 59,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Bulat",
+      "out": "Vladyslav Kochergin"
+     },
+     {
+      "m": 60,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Tomasz Pieńko",
+      "out": "Lamine Diaby-Fadiga"
+     },
+     {
+      "m": 63,
+      "t": "yc",
+      "s_": "h",
+      "who": "Fran Tudor"
+     },
+     {
+      "m": 64,
+      "t": "yc",
+      "s_": "a",
+      "who": "Lukas Willen"
+     },
+     {
+      "m": 71,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Kwiatkowski",
+      "out": "Mahir Emreli"
+     },
+     {
+      "m": 71,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Nsame",
+      "out": "Mukairu"
+     },
+     {
+      "m": 71,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Kamil Grosicki",
+      "out": "Jordi Sánchez"
+     },
+     {
+      "m": 73,
+      "t": "goal",
+      "s_": "h",
+      "who": "Bogdan Racovițan",
+      "as": "Erick Otieno",
+      "how": "Głowa"
+     },
+     {
+      "m": 79,
+      "t": "yc",
+      "s_": "a",
+      "who": "Jan Biegański"
+     },
+     {
+      "m": 79,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Jendryka",
+      "out": "Jean Carlos"
+     },
+     {
+      "m": 79,
+      "t": "sub",
+      "s_": "h",
+      "inn": "A. Molnár",
+      "out": "Erick Otieno"
+     },
+     {
+      "m": 85,
+      "t": "sub",
+      "s_": "a",
+      "inn": "R. Molnár",
+      "out": "Kellyn Acosta"
+     },
+     {
+      "m": 90,
+      "t": "rc",
+      "s_": "a",
+      "who": "Lukas Willen",
+      "why": "Druga żółta kartka"
+     },
+     {
+      "m": 90,
+      "s": "+4",
+      "t": "rc",
+      "s_": "a",
+      "who": "Valentin Cojocaru",
+      "why": "Brutalny faul na Patryku Makuchu"
+     },
+     {
+      "m": 90,
+      "s": "+7",
+      "t": "goal",
+      "s_": "h",
+      "who": "Tomasz Pieńko"
+     }
+    ],
+    "teamStats": [
+     [
+      "Posiadanie %",
+      56,
+      44
+     ],
+     [
+      "Strzały",
+      19,
+      8
+     ],
+     [
+      "Celne",
+      6,
+      2
+     ],
+     [
+      "Niecelne",
+      10,
+      4
+     ],
+     [
+      "Zablokowane",
+      3,
+      2
+     ]
+    ]
    }
   ],
   "14": [
@@ -2860,7 +1612,16 @@
     "time": "18:00",
     "home": "MOT",
     "away": "WPL",
-    "status": "ns"
+    "status": "ns",
+    "info": {
+     "stakes": "11. Motor (16 pkt, forma DWWDW) vs 12. Wisła Płock (15 pkt, mecz zaległy)"
+    },
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Brak opublikowanych kursów bukmacherskich (stan 3.11 rano) — bez kursu nie da się policzyć EV. Analiza zostanie uzupełniona przy kolejnej aktualizacji."
+     ]
+    }
    },
    {
     "id": "2026-27-R14-WIS-CRA",
@@ -2868,7 +1629,17 @@
     "time": "20:30",
     "home": "WIS",
     "away": "CRA",
-    "status": "ns"
+    "status": "ns",
+    "info": {
+     "stakes": "Wielkie Derby Krakowa: 8. Wisła (21 pkt) vs 13. Cracovia (12 pkt); kibice Cracovii z pulą ok. 2000 biletów w sektorze gości"
+    },
+    "notes": "Pierwsze derby Krakowa w Ekstraklasie po powrocie Wisły do ligi (po 4 sezonach). Źródło: goal.pl.",
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Brak opublikowanych kursów bukmacherskich (stan 3.11 rano) — bez kursu nie da się policzyć EV. Analiza zostanie uzupełniona przy kolejnej aktualizacji."
+     ]
+    }
    },
    {
     "id": "2026-27-R14-KOR-RAD",
@@ -2876,7 +1647,15 @@
     "time": "12:15",
     "home": "KOR",
     "away": "RAD",
-    "status": "ns"
+    "status": "ns",
+    "info": {
+     "suspensions": {
+      "home": [],
+      "away": [
+       "Abdoul Tapsoba (4. żółta kartka)"
+      ]
+     }
+    }
    },
    {
     "id": "2026-27-R14-SLA-PIA",
@@ -2900,7 +1679,16 @@
     "time": "20:15",
     "home": "WID",
     "away": "POG",
-    "status": "ns"
+    "status": "ns",
+    "info": {
+     "suspensions": {
+      "home": [],
+      "away": [
+       "Valentin Cojocaru (czerwona kartka z Rakowem)",
+       "Lukas Willen (czerwona – 2. żółta z Rakowem)"
+      ]
+     }
+    }
    },
    {
     "id": "2026-27-R14-JAG-GKS",
@@ -2924,6 +1712,80 @@
     "time": "20:15",
     "home": "LPO",
     "away": "ZAG",
+    "status": "ns"
+   }
+  ],
+  "15": [
+   {
+    "id": "2026-27-R15-PIA-KOR",
+    "date": "2026-11-20",
+    "time": "18:00",
+    "home": "PIA",
+    "away": "KOR",
+    "status": "ns"
+   },
+   {
+    "id": "2026-27-R15-POG-SLA",
+    "date": "2026-11-20",
+    "time": "20:30",
+    "home": "POG",
+    "away": "SLA",
+    "status": "ns"
+   },
+   {
+    "id": "2026-27-R15-CRA-JAG",
+    "date": "2026-11-21",
+    "time": "14:45",
+    "home": "CRA",
+    "away": "JAG",
+    "status": "ns"
+   },
+   {
+    "id": "2026-27-R15-ZAG-GZA",
+    "date": "2026-11-21",
+    "time": "17:30",
+    "home": "ZAG",
+    "away": "GZA",
+    "status": "ns"
+   },
+   {
+    "id": "2026-27-R15-RAD-WIS",
+    "date": "2026-11-21",
+    "time": "20:15",
+    "home": "RAD",
+    "away": "WIS",
+    "status": "ns"
+   },
+   {
+    "id": "2026-27-R15-RAK-WID",
+    "date": "2026-11-22",
+    "time": "12:15",
+    "home": "RAK",
+    "away": "WID",
+    "status": "ns"
+   },
+   {
+    "id": "2026-27-R15-GKS-LPO",
+    "date": "2026-11-22",
+    "time": "14:45",
+    "home": "GKS",
+    "away": "LPO",
+    "status": "ns"
+   },
+   {
+    "id": "2026-27-R15-WPL-LEG",
+    "date": "2026-11-22",
+    "time": "17:30",
+    "home": "WPL",
+    "away": "LEG",
+    "status": "ns"
+   },
+   {
+    "id": "2026-27-R15-WIE-MOT",
+    "date": "2026-11-23",
+    "time": "19:00",
+    "home": "WIE",
+    "away": "MOT",
     "status": "ns"
    }
   ]
@@ -2964,14 +1826,25 @@
   },
   {
    "team": "POG",
-   "p": 11,
+   "p": 12,
    "w": 7,
    "d": 3,
-   "l": 1,
-   "gf": 19,
-   "ga": 9,
+   "l": 2,
+   "gf": 20,
+   "ga": 12,
    "pts": 24,
-   "form": "WWWWW"
+   "form": "WWWWL"
+  },
+  {
+   "team": "ZAG",
+   "p": 13,
+   "w": 6,
+   "d": 4,
+   "l": 3,
+   "gf": 16,
+   "ga": 15,
+   "pts": 22,
+   "form": "LLWDW"
   },
   {
    "team": "GKS",
@@ -3007,17 +1880,6 @@
    "form": "WLDWL"
   },
   {
-   "team": "ZAG",
-   "p": 12,
-   "w": 5,
-   "d": 4,
-   "l": 3,
-   "gf": 15,
-   "ga": 15,
-   "pts": 19,
-   "form": "WLLWD"
-  },
-  {
    "team": "JAG",
    "p": 12,
    "w": 6,
@@ -3030,14 +1892,14 @@
   },
   {
    "team": "KOR",
-   "p": 12,
+   "p": 13,
    "w": 5,
    "d": 3,
-   "l": 4,
+   "l": 5,
    "gf": 14,
-   "ga": 18,
+   "ga": 19,
    "pts": 18,
-   "form": "WWLLW"
+   "form": "WLLWL"
   },
   {
    "team": "MOT",
@@ -3084,15 +1946,37 @@
    "form": "DLDDL"
   },
   {
+   "team": "RAD",
+   "p": 13,
+   "w": 3,
+   "d": 2,
+   "l": 8,
+   "gf": 15,
+   "ga": 29,
+   "pts": 11,
+   "form": "LLLLW"
+  },
+  {
    "team": "SLA",
-   "p": 12,
+   "p": 13,
    "w": 2,
    "d": 3,
-   "l": 7,
-   "gf": 16,
-   "ga": 22,
+   "l": 8,
+   "gf": 17,
+   "ga": 25,
    "pts": 9,
-   "form": "LLLLW"
+   "form": "LLLWL"
+  },
+  {
+   "team": "RAK",
+   "p": 13,
+   "w": 3,
+   "d": 0,
+   "l": 10,
+   "gf": 19,
+   "ga": 29,
+   "pts": 9,
+   "form": "LLWLW"
   },
   {
    "team": "WIE",
@@ -3104,28 +1988,6 @@
    "ga": 26,
    "pts": 8,
    "form": "WLLLL"
-  },
-  {
-   "team": "RAD",
-   "p": 12,
-   "w": 2,
-   "d": 2,
-   "l": 8,
-   "gf": 12,
-   "ga": 28,
-   "pts": 8,
-   "form": "LLLLL"
-  },
-  {
-   "team": "RAK",
-   "p": 12,
-   "w": 2,
-   "d": 0,
-   "l": 10,
-   "gf": 16,
-   "ga": 28,
-   "pts": 6,
-   "form": "WLLWL"
   }
  ],
  "picks": []
