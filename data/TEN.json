@@ -1,9 +1,9 @@
 {
  "sport": "tennis",
- "updated": "2026-11-02T07:20:00+01:00",
+ "updated": "2026-11-03T07:20:00+01:00",
  "season": "2026",
  "competition": "Tenis",
- "note": "Źródła: atptour.com (plan gier Paryż 2.11, wyniki Bazylei), Tennis Majors (losowanie i harmonogram Paryża, finał Wiednia), ESPN/AP (finał Bazylei), Reuters/BusinessWorld i The Sports Encounter (finał Tokio), bets.com.au i Dimers (forma, H2H, kursy), ESPN (ranking ATP z 22.10 – przed zmianami po Wiedniu i Bazylei). Godziny w czasie polskim; mecze bez „nie przed” mają godziny przybliżone. Plan gier na wtorek 3.11 (m.in. Djoković – Vacherot, Paul – Rune, Michelsen – Lehecka, start Alcaraza i Zvereva w środę) dodam po publikacji. W tym tygodniu brak turniejów WTA 500+; WTA Finals od 8.11. Brak kursów Pinnacle i polskich bukmacherów – brak typów BET.",
+ "note": "Źródła: atptour.com (wyniki i plan gier Paryża), Tennis Majors (plan gier na wtorek, relacje, drabinka), The Sports Encounter, Tennisnerd (stan zdrowia Filsa i Cobollego, Race to Turin). Godziny w czasie polskim (Paryż = ten sam czas); mecze „po poprzednim” i środowe mają godziny przybliżone – plan gier na środę 4.11 zostanie ogłoszony we wtorek wieczorem. Mecze 2. rundy zależne od wtorkowych wyników dodam po ich rozegraniu. Wynik Humbert – van de Zandschulp niepotwierdzony. W tym tygodniu brak turniejów WTA 500+ (WTA Finals od 8.11). Rankingi nowych zawodników pominięte (brak aktualnej listy w źródłach). Brak kursów z jednej porównywarki/Pinnacle – brak typów BET.",
  "teams": {
   "VACHEROT": {
    "id": "VACHEROT",
@@ -21,41 +21,6 @@
    "col": "#1d3d78",
    "tour": "ATP",
    "rank": 21
-  },
-  "DE_MINAUR": {
-   "id": "DE_MINAUR",
-   "short": "DEM",
-   "name": "Alex de Minaur",
-   "city": "Australia",
-   "col": "#0f4d2e",
-   "tour": "ATP"
-  },
-  "ALCARAZ": {
-   "id": "ALCARAZ",
-   "short": "ALC",
-   "name": "Carlos Alcaraz",
-   "city": "Hiszpania",
-   "col": "#9e1b1b",
-   "tour": "ATP",
-   "rank": 3
-  },
-  "SHNAIDER": {
-   "id": "SHNAIDER",
-   "short": "SHN",
-   "name": "Diana Shnaider",
-   "city": "Rosja (neutralny)",
-   "col": "#3a4a6b",
-   "tour": "WTA",
-   "rank": 13
-  },
-  "FERNANDEZ": {
-   "id": "FERNANDEZ",
-   "short": "FER",
-   "name": "Leylah Fernandez",
-   "city": "Kanada",
-   "col": "#a3122a",
-   "tour": "WTA",
-   "rank": 23
   },
   "MUSETTI": {
    "id": "MUSETTI",
@@ -264,15 +229,6 @@
    "rank": 42,
    "tour": "ATP"
   },
-  "BLOCKX": {
-   "id": "BLOCKX",
-   "short": "BLO",
-   "name": "Alexander Blockx",
-   "city": "Belgia",
-   "col": "#7a5c00",
-   "rank": 27,
-   "tour": "ATP"
-  },
   "BELLUCCI": {
    "id": "BELLUCCI",
    "short": "BEL",
@@ -290,170 +246,211 @@
    "col": "#11663a",
    "rank": 91,
    "tour": "ATP"
+  },
+  "BAEZ": {
+   "id": "BAEZ",
+   "short": "BAE",
+   "name": "Sebastián Báez",
+   "city": "Argentyna",
+   "col": "#2a6fa8",
+   "tour": "ATP"
+  },
+  "RINDERKNECH": {
+   "id": "RINDERKNECH",
+   "short": "RIN",
+   "name": "Arthur Rinderknech",
+   "city": "Francja",
+   "col": "#22408f",
+   "tour": "ATP"
+  },
+  "CERUNDOLO_F": {
+   "id": "CERUNDOLO_F",
+   "short": "CER",
+   "name": "Francisco Cerundolo",
+   "city": "Argentyna",
+   "col": "#3a7fbf",
+   "tour": "ATP"
+  },
+  "DAVIDOVICH_FOKINA": {
+   "id": "DAVIDOVICH_FOKINA",
+   "short": "ADF",
+   "name": "Alejandro Davidovich Fokina",
+   "city": "Hiszpania",
+   "col": "#9e1b1b",
+   "tour": "ATP"
+  },
+  "KOUAME": {
+   "id": "KOUAME",
+   "short": "KOU",
+   "name": "Moïse Kouamé",
+   "city": "Francja",
+   "col": "#2b4795",
+   "tour": "ATP"
+  },
+  "DJOKOVIC": {
+   "id": "DJOKOVIC",
+   "short": "DJO",
+   "name": "Novak Djokovic",
+   "city": "Serbia",
+   "col": "#7a1f2b",
+   "tour": "ATP"
+  },
+  "SHELTON": {
+   "id": "SHELTON",
+   "short": "SHE",
+   "name": "Ben Shelton",
+   "city": "USA",
+   "col": "#1b2f6b",
+   "tour": "ATP"
+  },
+  "HALYS": {
+   "id": "HALYS",
+   "short": "HAL",
+   "name": "Quentin Halys",
+   "city": "Francja",
+   "col": "#26418c",
+   "tour": "ATP"
+  },
+  "FERY": {
+   "id": "FERY",
+   "short": "FRY",
+   "name": "Arthur Fery",
+   "city": "Wielka Brytania",
+   "col": "#1b2f6b",
+   "tour": "ATP"
+  },
+  "TSITSIPAS": {
+   "id": "TSITSIPAS",
+   "short": "TSI",
+   "name": "Stefanos Tsitsipas",
+   "city": "Grecja",
+   "col": "#174a8c",
+   "tour": "ATP"
+  },
+  "TIEN": {
+   "id": "TIEN",
+   "short": "TIE",
+   "name": "Learner Tien",
+   "city": "USA",
+   "col": "#203a75",
+   "tour": "ATP"
+  },
+  "PAUL": {
+   "id": "PAUL",
+   "short": "PAU",
+   "name": "Tommy Paul",
+   "city": "USA",
+   "col": "#1f3570",
+   "tour": "ATP"
+  },
+  "RUNE": {
+   "id": "RUNE",
+   "short": "RUN",
+   "name": "Holger Rune",
+   "city": "Dania",
+   "col": "#a3122a",
+   "tour": "ATP"
+  },
+  "BONZI": {
+   "id": "BONZI",
+   "short": "BON",
+   "name": "Benjamin Bonzi",
+   "city": "Francja",
+   "col": "#2d4a96",
+   "tour": "ATP"
+  },
+  "FRITZ": {
+   "id": "FRITZ",
+   "short": "FRI",
+   "name": "Taylor Fritz",
+   "city": "USA",
+   "col": "#162d66",
+   "tour": "ATP"
+  },
+  "STRUFF": {
+   "id": "STRUFF",
+   "short": "STR",
+   "name": "Jan-Lennard Struff",
+   "city": "Niemcy",
+   "col": "#3a3a3a",
+   "tour": "ATP"
+  },
+  "GEA": {
+   "id": "GEA",
+   "short": "GEA",
+   "name": "Arthur Gea",
+   "city": "Francja",
+   "col": "#2a4592",
+   "tour": "ATP"
+  },
+  "RUBLEV": {
+   "id": "RUBLEV",
+   "short": "RUB",
+   "name": "Andrey Rublev",
+   "city": "Rosja (neutralny)",
+   "col": "#2b3a8c",
+   "tour": "ATP"
+  },
+  "ETCHEVERRY": {
+   "id": "ETCHEVERRY",
+   "short": "ETC",
+   "name": "Tomás Martín Etcheverry",
+   "city": "Argentyna",
+   "col": "#3576b0",
+   "tour": "ATP"
+  },
+  "NAKASHIMA": {
+   "id": "NAKASHIMA",
+   "short": "NAK",
+   "name": "Brandon Nakashima",
+   "city": "USA",
+   "col": "#1d3468",
+   "tour": "ATP"
+  },
+  "BERRETTINI": {
+   "id": "BERRETTINI",
+   "short": "BRT",
+   "name": "Matteo Berrettini",
+   "city": "Włochy",
+   "col": "#0d6b35",
+   "tour": "ATP"
+  },
+  "MICHELSEN": {
+   "id": "MICHELSEN",
+   "short": "MIC",
+   "name": "Alex Michelsen",
+   "city": "USA",
+   "col": "#203a7a",
+   "tour": "ATP"
+  },
+  "ZVEREV": {
+   "id": "ZVEREV",
+   "short": "ZVE",
+   "name": "Alexander Zverev",
+   "city": "Niemcy",
+   "col": "#2f2f2f",
+   "tour": "ATP",
+   "rank": 1
+  },
+  "MEDVEDEV": {
+   "id": "MEDVEDEV",
+   "short": "MED",
+   "name": "Daniil Medvedev",
+   "city": "Rosja (neutralny)",
+   "col": "#24357f",
+   "tour": "ATP"
+  },
+  "FILS": {
+   "id": "FILS",
+   "short": "FIL",
+   "name": "Arthur Fils",
+   "city": "Francja",
+   "col": "#1f3a8a",
+   "tour": "ATP"
   }
  },
  "picks": [],
  "days": {
-  "2026-11-01": [
-   {
-    "id": "TEN-2026-11-01-FERNANDEZ-SHNAIDER",
-    "date": "2026-11-01",
-    "time": "04:00",
-    "home": "FERNANDEZ",
-    "away": "SHNAIDER",
-    "status": "ft",
-    "comp": "WTA 500 Tokio",
-    "stage": "Finał",
-    "surface": "twarda",
-    "bestOf": 3,
-    "court": "Center Court",
-    "notes": "Shnaider wygrała 6-4 5-7 6-2 w 2 h 18 min; w 3. secie obroniła trzy break pointy. Pierwszy tytuł Shnaider w 2026 r.",
-    "info": {
-     "h2h": [
-      "2026 Charleston (ziemna) SHNAIDER 2:0 (6-3 6-0)",
-      "2026 Adelaide (twarda) SHNAIDER 2:0 (7-5 6-3)",
-      "2024 Hongkong (twarda) SHNAIDER 2:0 (6-4 6-2)",
-      "2024 Wuhan (twarda) FERNANDEZ 2:1 (6-7 6-3 6-3)",
-      "2024 Cincinnati (twarda) FERNANDEZ 2:0 (6-1 6-4)"
-     ],
-     "fatigue": "Shnaider: ćwierćfinał z Ealą w trzech setach (2 h 52 min), półfinał 1 h 46 min. Fernandez: walkower w ćwierćfinale (Rybakina), półfinał 1 h 54 min.",
-     "injuries": {
-      "home": [],
-      "away": []
-     },
-     "stakes": "Trzeci finał Fernandez w sezonie, pierwszy finał Shnaider w 2026 r."
-    },
-    "tip": {
-     "decision": "NO BET",
-     "reasons": [
-      "Mecz rozpoczął się przed aktualizacją – brak wyceny przedmeczowej.",
-      "Nie znaleziono kursów z jednego źródła ani Pinnacle."
-     ]
-    },
-    "score": [
-     1,
-     2
-    ],
-    "sets": [
-     [
-      4,
-      6
-     ],
-     [
-      7,
-      5
-     ],
-     [
-      2,
-      6
-     ]
-    ]
-   },
-   {
-    "id": "TEN-2026-11-01-DE_MINAUR-ALCARAZ",
-    "date": "2026-11-01",
-    "time": "14:00",
-    "home": "DE_MINAUR",
-    "away": "ALCARAZ",
-    "status": "ft",
-    "comp": "ATP 500 Wiedeń",
-    "stage": "Finał",
-    "surface": "twarda (hala)",
-    "bestOf": 3,
-    "court": "Centre Court",
-    "notes": "Alcaraz wygrał 6-1 6-4 w 1 h 27 min, bez straty seta w całym turnieju.",
-    "odds": {
-     "src": "Dimers (DraftKings), stan na 31.10 wieczorem",
-     "ml1": 4.7,
-     "ml2": 1.21
-    },
-    "info": {
-     "h2h": [
-      "Bilans 6-0 dla ALCARAZA (de Minaur wygrał łącznie 2 sety)",
-      "2026 Australian Open (twarda) ALCARAZ 3:0 (7-5 6-2 6-1)",
-      "2025 Rotterdam (hala) ALCARAZ – finał"
-     ],
-     "fatigue": "De Minaur w sobotę 2 h 31 min z Zverevem (późniejszy mecz dnia); Alcaraz 1 h 36 min z Medvedevem.",
-     "injuries": {
-      "home": [],
-      "away": [
-       "Wraca po urazie nadgarstka – drugi serwis wciąż niepewny (wg Last Word On Sports)"
-      ]
-     },
-     "stakes": "De Minaur (9. w Race to Turin) walczy o ATP Finals, gdzie miejsce otworzyła kontuzja Sinnera; Alcaraz bez straty seta w turnieju, 25 zwycięstw z rzędu w turniejach 500."
-    },
-    "tip": {
-     "decision": "NO BET",
-     "reasons": [
-      "Kursy tylko z jednego źródła (DraftKings wg Dimers), bez Pinnacle i bez kursów polskich bukmacherów – brak wiarygodnego punktu wyjścia.",
-      "Po zdjęciu marży Alcaraz ok. 80% – model Dimers 77%, zgodny z rynkiem; brak przewagi.",
-      "Zmęczenie de Minaura (2 h 31 min dzień wcześniej) jest publicznie znane i w cenie – nie jest to ekstremalne obciążenie uzasadniające korektę.",
-      "H2H 6-0 i forma są już w kursach."
-     ]
-    },
-    "score": [
-     0,
-     2
-    ],
-    "sets": [
-     [
-      1,
-      6
-     ],
-     [
-      4,
-      6
-     ]
-    ]
-   },
-   {
-    "id": "TEN-2026-11-01-LEHECKA-VACHEROT",
-    "date": "2026-11-01",
-    "time": "15:30",
-    "home": "LEHECKA",
-    "away": "VACHEROT",
-    "status": "ft",
-    "comp": "ATP 500 Bazylea",
-    "stage": "Finał",
-    "surface": "twarda (hala)",
-    "bestOf": 3,
-    "court": "Center Court",
-    "notes": "Vacherot odwrócił mecz: 2-6 6-3 6-3 w 1 h 54 min; Lehecka stracił podanie przy 2-1 w 2. secie. Drugi tytuł Vacherota w karierze (bilans H2H 2-1 dla Vacherota).",
-    "info": {
-     "h2h": [
-      "2026 Tokio (twarda) LEHECKA 2:0 (6-4 6-2)",
-      "2025 Paryż (hala) VACHEROT wygrał"
-     ],
-     "fatigue": "Lehecka w sobotę 2 h 01 min ze Struffem (obroniona piłka meczowa); Vacherot 1 h 27 min z Fritzem, dzień wcześniej 2 h 03 min z Rune.",
-     "stakes": "Lehecka gra o 3. tytuł w karierze, Vacherot o 2. Obaj startują w Paryżu (Vacherot z Djokoviciem, Lehecka z Michelsenem)."
-    },
-    "tip": {
-     "decision": "NO BET",
-     "reasons": [
-      "Znaleziono tylko jednostronny kurs (Lehecka ok. 1,47) – brak pary kursów z jednego źródła i brak Pinnacle.",
-      "Różnica w odpoczynku i H2H 1-1 są publicznie znane i w cenie."
-     ]
-    },
-    "score": [
-     1,
-     2
-    ],
-    "sets": [
-     [
-      6,
-      2
-     ],
-     [
-      3,
-      6
-     ],
-     [
-      3,
-      6
-     ]
-    ]
-   }
-  ],
   "2026-11-02": [
    {
     "id": "TEN-2026-11-02-MUSETTI-HURKACZ",
@@ -461,13 +458,13 @@
     "time": "11:00",
     "home": "MUSETTI",
     "away": "HURKACZ",
-    "status": "ns",
+    "status": "ft",
     "comp": "ATP Masters 1000 Paryż",
     "stage": "1/64 finału",
     "surface": "twarda (hala)",
     "bestOf": 3,
     "court": "Court Central",
-    "notes": "Pierwszy mecz dnia na korcie centralnym (11:00). Zwycięzca zagra w 2. rundzie z Alexandrem Zverevem (nr 1).",
+    "notes": "Musetti wygrał 7-6(3), 7-6(10) w 1 h 44 min; wykorzystał czwartą piłkę meczową (Hurkacz obronił trzy). Bez przełamań – Musetti obronił jedynego break pointa meczu. Winnery 15–31, niewymuszone błędy 13–26. W 2. rundzie Musetti zagra z Alexandrem Zverevem.",
     "odds": {
      "src": "Dimers – najlepsze dostępne kursy w USA, stan na 1.11",
      "best": {
@@ -504,7 +501,40 @@
       "Brak kursów Pinnacle i polskich bukmacherów z jednego źródła – nie da się rzetelnie policzyć EV.",
       "Forma Hurkacza (16-4) i dobre warunki halowe są publicznie znane i już w kursach; brak świeżej informacji uzasadniającej korektę."
      ]
-    }
+    },
+    "score": [
+     2,
+     0
+    ],
+    "sets": [
+     [
+      7,
+      6,
+      3
+     ],
+     [
+      7,
+      6,
+      10
+     ]
+    ],
+    "stats": [
+     [
+      "Break pointy wykorzystane",
+      0,
+      0
+     ],
+     [
+      "Wygrane pkt po 1. serwisie %",
+      80,
+      92
+     ],
+     [
+      "Wygrane punkty",
+      76,
+      76
+     ]
+    ]
    },
    {
     "id": "TEN-2026-11-02-TABILO-JODAR",
@@ -512,13 +542,13 @@
     "time": "13:00",
     "home": "TABILO",
     "away": "JODAR",
-    "status": "ns",
+    "status": "ft",
     "comp": "ATP Masters 1000 Paryż",
     "stage": "1/64 finału",
     "surface": "twarda (hala)",
     "bestOf": 3,
     "court": "Court Central",
-    "notes": "Drugi mecz na korcie centralnym – godzina przybliżona (po meczu Musetti – Hurkacz). Jodar (9) walczy o ostatnie miejsce w ATP Finals.",
+    "notes": "Jodar wygrał 6-2, 6-3 w 1 h 17 min. W 2. rundzie (wtorek wieczorem) zagra z Casperem Ruudem.",
     "odds": {
      "src": "Dimers – najlepsze dostępne kursy w USA, stan na 1.11",
      "best": {
@@ -535,7 +565,21 @@
       "Rynek: Jodar ok. 75% (po zdjęciu marży), model Dimers 74% – zgodność, brak przewagi.",
       "Brak kursów Pinnacle i polskich bukmacherów."
      ]
-    }
+    },
+    "score": [
+     0,
+     2
+    ],
+    "sets": [
+     [
+      2,
+      6
+     ],
+     [
+      3,
+      6
+     ]
+    ]
    },
    {
     "id": "TEN-2026-11-02-RUUD-CERUNDOLO_JM",
@@ -543,13 +587,27 @@
     "time": "15:00",
     "home": "RUUD",
     "away": "CERUNDOLO_JM",
-    "status": "ns",
+    "status": "ft",
     "comp": "ATP Masters 1000 Paryż",
     "stage": "1/64 finału",
     "surface": "twarda (hala)",
     "bestOf": 3,
     "court": "Court Central",
-    "notes": "Trzeci mecz na korcie centralnym – godzina przybliżona. Cerundolo z kwalifikacji."
+    "notes": "Ruud wygrał 6-3, 6-2 w 1 h 00 min.",
+    "score": [
+     2,
+     0
+    ],
+    "sets": [
+     [
+      6,
+      3
+     ],
+     [
+      6,
+      2
+     ]
+    ]
    },
    {
     "id": "TEN-2026-11-02-SHAPOVALOV-KHACHANOV",
@@ -557,13 +615,13 @@
     "time": "19:00",
     "home": "SHAPOVALOV",
     "away": "KHACHANOV",
-    "status": "ns",
+    "status": "ret",
     "comp": "ATP Masters 1000 Paryż",
     "stage": "1/64 finału",
     "surface": "twarda (hala)",
     "bestOf": 3,
     "court": "Court Central",
-    "notes": "Sesja wieczorna – nie przed 19:00.",
+    "notes": "Krecz Shapovalova przy stanie 1-4 w 3. secie (Chaczanow wygrał 1. seta 6-3, Shapovalov 2. seta w tie-breaku). Czas gry 2 h 11 min. Wynik setów wg atptour.com.",
     "odds": {
      "src": "Dimers – najlepsze dostępne kursy w USA, stan na 1.11",
      "best": {
@@ -577,7 +635,26 @@
       "Rynek: Khachanov ok. 61%, model Dimers 60% – brak istotnej rozbieżności.",
       "Kursy to najlepsze ceny z USA (mogą łączyć różnych bukmacherów) – bez Pinnacle i bez polskich bukmacherów nie wolno liczyć EV."
      ]
-    }
+    },
+    "score": [
+     1,
+     1
+    ],
+    "sets": [
+     [
+      3,
+      6
+     ],
+     [
+      7,
+      6,
+      6
+     ],
+     [
+      1,
+      4
+     ]
+    ]
    },
    {
     "id": "TEN-2026-11-02-HUMBERT-VAN_DE_ZANDSCHULP",
@@ -585,13 +662,25 @@
     "time": "20:30",
     "home": "HUMBERT",
     "away": "VAN_DE_ZANDSCHULP",
-    "status": "ns",
+    "status": "live",
     "comp": "ATP Masters 1000 Paryż",
     "stage": "1/64 finału",
     "surface": "twarda (hala)",
     "bestOf": 3,
     "court": "Court Central",
-    "notes": "Nie przed 20:30 (po meczu Shapovalov – Khachanov)."
+    "notes": "Mecz sesji wieczornej; w źródłach dostępnych w chwili aktualizacji widoczny tylko stan w trakcie gry (1. set 7-6 dla Humberta). Wynik końcowy niepotwierdzony – uzupełnię przy następnej aktualizacji.",
+    "set": 2,
+    "score": [
+     1,
+     0
+    ],
+    "sets": [
+     [
+      7,
+      6,
+      5
+     ]
+    ]
    },
    {
     "id": "TEN-2026-11-02-DARDERI-HIJIKATA",
@@ -599,13 +688,27 @@
     "time": "11:00",
     "home": "DARDERI",
     "away": "HIJIKATA",
-    "status": "ns",
+    "status": "ft",
     "comp": "ATP Masters 1000 Paryż",
     "stage": "1/64 finału",
     "surface": "twarda (hala)",
     "bestOf": 3,
     "court": "Court 1",
-    "notes": "Hijikata z kwalifikacji."
+    "notes": "Kwalifikant Hijikata wygrał 6-2, 6-2 w 1 h 04 min.",
+    "score": [
+     0,
+     2
+    ],
+    "sets": [
+     [
+      2,
+      6
+     ],
+     [
+      2,
+      6
+     ]
+    ]
    },
    {
     "id": "TEN-2026-11-02-VAN_ASSCHE-NAVONE",
@@ -613,13 +716,27 @@
     "time": "12:30",
     "home": "VAN_ASSCHE",
     "away": "NAVONE",
-    "status": "ns",
+    "status": "ft",
     "comp": "ATP Masters 1000 Paryż",
     "stage": "1/64 finału",
     "surface": "twarda (hala)",
     "bestOf": 3,
     "court": "Court 1",
-    "notes": "Drugi mecz na korcie nr 1 – godzina przybliżona."
+    "notes": "Van Assche wygrał 6-3, 7-5 w 1 h 54 min.",
+    "score": [
+     2,
+     0
+    ],
+    "sets": [
+     [
+      6,
+      3
+     ],
+     [
+      7,
+      5
+     ]
+    ]
    },
    {
     "id": "TEN-2026-11-02-NORRIE-ARNALDI",
@@ -627,13 +744,31 @@
     "time": "14:00",
     "home": "NORRIE",
     "away": "ARNALDI",
-    "status": "ns",
+    "status": "ft",
     "comp": "ATP Masters 1000 Paryż",
     "stage": "1/64 finału",
     "surface": "twarda (hala)",
     "bestOf": 3,
     "court": "Court 1",
-    "notes": "Trzeci mecz na korcie nr 1 – godzina przybliżona."
+    "notes": "Norrie wygrał 6-4, 1-6, 6-3 w 1 h 41 min. We wtorek o 19:00 zagra z Benem Sheltonem.",
+    "score": [
+     2,
+     1
+    ],
+    "sets": [
+     [
+      6,
+      4
+     ],
+     [
+      1,
+      6
+     ],
+     [
+      6,
+      3
+     ]
+    ]
    },
    {
     "id": "TEN-2026-11-02-JACQUET-MACHAC",
@@ -641,13 +776,28 @@
     "time": "15:30",
     "home": "JACQUET",
     "away": "MACHAC",
-    "status": "ns",
+    "status": "ft",
     "comp": "ATP Masters 1000 Paryż",
     "stage": "1/64 finału",
     "surface": "twarda (hala)",
     "bestOf": 3,
     "court": "Court 1",
-    "notes": "Nie przed 15:30. Jacquet z dziką kartą, Machac z kwalifikacji."
+    "notes": "Kwalifikant Machac wygrał 7-6(7), 6-1 w 1 h 22 min. W 2. rundzie zagra z Arthurem Filsem.",
+    "score": [
+     0,
+     2
+    ],
+    "sets": [
+     [
+      6,
+      7,
+      7
+     ],
+     [
+      1,
+      6
+     ]
+    ]
    },
    {
     "id": "TEN-2026-11-02-MOLCAN-DROGUET",
@@ -655,13 +805,31 @@
     "time": "17:30",
     "home": "MOLCAN",
     "away": "DROGUET",
-    "status": "ns",
+    "status": "ft",
     "comp": "ATP Masters 1000 Paryż",
     "stage": "1/64 finału",
     "surface": "twarda (hala)",
     "bestOf": 3,
     "court": "Court 1",
-    "notes": "Po meczu Jacquet – Machac – godzina przybliżona. Molcan z kwalifikacji, Droguet z dziką kartą."
+    "notes": "Kwalifikant Molcan odrobił stratę seta i wygrał 4-6, 6-4, 6-4 w 2 h 15 min.",
+    "score": [
+     2,
+     1
+    ],
+    "sets": [
+     [
+      4,
+      6
+     ],
+     [
+      6,
+      4
+     ],
+     [
+      6,
+      4
+     ]
+    ]
    },
    {
     "id": "TEN-2026-11-02-BUSE-BERGS",
@@ -669,26 +837,55 @@
     "time": "11:00",
     "home": "BUSE",
     "away": "BERGS",
-    "status": "ns",
-    "comp": "ATP Masters 1000 Paryż",
-    "stage": "1/64 finału",
-    "surface": "twarda (hala)",
-    "bestOf": 3,
-    "court": "Court 2"
-   },
-   {
-    "id": "TEN-2026-11-02-MERIDA-BLOCKX",
-    "date": "2026-11-02",
-    "time": "14:30",
-    "home": "MERIDA",
-    "away": "BLOCKX",
-    "status": "ns",
+    "status": "ft",
     "comp": "ATP Masters 1000 Paryż",
     "stage": "1/64 finału",
     "surface": "twarda (hala)",
     "bestOf": 3,
     "court": "Court 2",
-    "notes": "Trzeci mecz na korcie nr 2 (po meczu debla) – godzina przybliżona."
+    "score": [
+     2,
+     0
+    ],
+    "sets": [
+     [
+      6,
+      2
+     ],
+     [
+      6,
+      4
+     ]
+    ],
+    "notes": "Buse wygrał 6-2, 6-4 w 1 h 19 min. W 2. rundzie zagra z Daniiłem Miedwiediewem."
+   },
+   {
+    "id": "TEN-2026-11-02-MERIDA-BAEZ",
+    "date": "2026-11-02",
+    "time": "14:30",
+    "home": "MERIDA",
+    "away": "BAEZ",
+    "status": "ft",
+    "comp": "ATP Masters 1000 Paryż",
+    "stage": "1/64 finału",
+    "surface": "twarda (hala)",
+    "bestOf": 3,
+    "court": "Court 2",
+    "notes": "Alexander Blockx nie wystąpił; zastąpił go lucky loser Sebastián Báez. Merida wygrał 6-4, 6-2 w 1 h 17 min.",
+    "score": [
+     2,
+     0
+    ],
+    "sets": [
+     [
+      6,
+      4
+     ],
+     [
+      6,
+      2
+     ]
+    ]
    },
    {
     "id": "TEN-2026-11-02-BELLUCCI-SONEGO",
@@ -696,13 +893,349 @@
     "time": "16:00",
     "home": "BELLUCCI",
     "away": "SONEGO",
-    "status": "ns",
+    "status": "ft",
     "comp": "ATP Masters 1000 Paryż",
     "stage": "1/64 finału",
     "surface": "twarda (hala)",
     "bestOf": 3,
     "court": "Court 2",
-    "notes": "Czwarty mecz na korcie nr 2 – godzina przybliżona. Obaj z kwalifikacji."
+    "notes": "Kwalifikant Bellucci wygrał 6-4, 6-3 (1 h 17 min) – pierwsze zwycięstwo w turnieju głównym w Paryżu.",
+    "score": [
+     2,
+     0
+    ],
+    "sets": [
+     [
+      6,
+      4
+     ],
+     [
+      6,
+      3
+     ]
+    ]
+   }
+  ],
+  "2026-11-03": [
+   {
+    "id": "TEN-2026-11-03-RINDERKNECH-CERUNDOLO_F",
+    "date": "2026-11-03",
+    "time": "11:00",
+    "home": "RINDERKNECH",
+    "away": "CERUNDOLO_F",
+    "status": "ns",
+    "comp": "ATP Masters 1000 Paryż",
+    "stage": "1/32 finału",
+    "surface": "twarda (hala)",
+    "bestOf": 3,
+    "court": "Court Central",
+    "notes": "Pierwszy mecz dnia na korcie centralnym. Zwycięzca zagra z kwalifikantem Matteo Bellucci."
+   },
+   {
+    "id": "TEN-2026-11-03-DAVIDOVICH_FOKINA-KOUAME",
+    "date": "2026-11-03",
+    "time": "12:45",
+    "home": "DAVIDOVICH_FOKINA",
+    "away": "KOUAME",
+    "status": "ns",
+    "comp": "ATP Masters 1000 Paryż",
+    "stage": "1/32 finału",
+    "surface": "twarda (hala)",
+    "bestOf": 3,
+    "court": "Court Central",
+    "notes": "Godzina przybliżona (mecz „po poprzednim” na korcie). Kouamé z dziką kartą. Zwycięzca zagra z Karenem Chaczanowem."
+   },
+   {
+    "id": "TEN-2026-11-03-DJOKOVIC-VACHEROT",
+    "date": "2026-11-03",
+    "time": "14:30",
+    "home": "DJOKOVIC",
+    "away": "VACHEROT",
+    "status": "ns",
+    "comp": "ATP Masters 1000 Paryż",
+    "stage": "1/32 finału",
+    "surface": "twarda (hala)",
+    "bestOf": 3,
+    "court": "Court Central",
+    "notes": "Godzina przybliżona (mecz „po poprzednim” na korcie). Djokovic rozstawiony z nr 10; zwycięzca zagra z kwalifikantem Rinkym Hijikatą.",
+    "info": {
+     "fatigue": "Djokovic w Bazylei przegrał z Janem-Lennardem Struffem 7-6(4), 5-7, 6-7(5); Vacherot grał w niedzielę finał w Bazylei z Jiřím Lehečką.",
+     "stakes": "Djokovic jest 11. w rankingu Race to Turin – walczy o awans do ATP Finals."
+    },
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Brak kursów z jednej porównywarki (obie strony z tego samego źródła) ani kursów Pinnacle w chwili aktualizacji – nie da się policzyć prawdopodobieństwa rynku ani EV.",
+      "Bez wyceny rynku regulamin nie pozwala na typ."
+     ]
+    }
+   },
+   {
+    "id": "TEN-2026-11-03-SHELTON-NORRIE",
+    "date": "2026-11-03",
+    "time": "19:00",
+    "home": "SHELTON",
+    "away": "NORRIE",
+    "status": "ns",
+    "comp": "ATP Masters 1000 Paryż",
+    "stage": "1/16 finału",
+    "surface": "twarda (hala)",
+    "bestOf": 3,
+    "court": "Court Central",
+    "notes": "Sesja wieczorna, „nie przed 19:00”. Shelton rozstawiony z nr 3 (wolny los w 1. rundzie); Norrie w poniedziałek grał 3 sety (1 h 41 min).",
+    "info": {
+     "fatigue": "Norrie grał w poniedziałek 3 sety z Arnaldim (1 h 41 min); Shelton zaczyna turniej."
+    },
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Brak kursów z jednej porównywarki (obie strony z tego samego źródła) ani kursów Pinnacle w chwili aktualizacji – nie da się policzyć prawdopodobieństwa rynku ani EV.",
+      "Bez wyceny rynku regulamin nie pozwala na typ."
+     ]
+    }
+   },
+   {
+    "id": "TEN-2026-11-03-RUUD-JODAR",
+    "date": "2026-11-03",
+    "time": "20:30",
+    "home": "RUUD",
+    "away": "JODAR",
+    "status": "ns",
+    "comp": "ATP Masters 1000 Paryż",
+    "stage": "1/16 finału",
+    "surface": "twarda (hala)",
+    "bestOf": 3,
+    "court": "Court Central",
+    "notes": "„Nie przed 20:30”. Obaj wygrali w poniedziałek w dwóch setach (Ruud 1 h 00 min, Jodar 1 h 17 min).",
+    "info": {
+     "fatigue": "Obaj grali w poniedziałek krótkie mecze (Ruud 1 h, Jodar 1 h 17 min).",
+     "stakes": "Jodar jest 9. w Race to Turin – walczy o utrzymanie miejsca w ATP Finals."
+    },
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Brak kursów z jednej porównywarki (obie strony z tego samego źródła) ani kursów Pinnacle w chwili aktualizacji – nie da się policzyć prawdopodobieństwa rynku ani EV.",
+      "Bez wyceny rynku regulamin nie pozwala na typ."
+     ]
+    }
+   },
+   {
+    "id": "TEN-2026-11-03-HALYS-FERY",
+    "date": "2026-11-03",
+    "time": "11:00",
+    "home": "HALYS",
+    "away": "FERY",
+    "status": "ns",
+    "comp": "ATP Masters 1000 Paryż",
+    "stage": "1/32 finału",
+    "surface": "twarda (hala)",
+    "bestOf": 3,
+    "court": "Court 1",
+    "notes": "Pierwszy mecz dnia na korcie 1. Zwycięzca zagra z Francesem Tiafoe (nr 7)."
+   },
+   {
+    "id": "TEN-2026-11-03-TSITSIPAS-TIEN",
+    "date": "2026-11-03",
+    "time": "12:30",
+    "home": "TSITSIPAS",
+    "away": "TIEN",
+    "status": "ns",
+    "comp": "ATP Masters 1000 Paryż",
+    "stage": "1/32 finału",
+    "surface": "twarda (hala)",
+    "bestOf": 3,
+    "court": "Court 1",
+    "notes": "Godzina przybliżona (mecz „po poprzednim” na korcie). Tien rozstawiony z nr 15. Zwycięzca zagra z Lucą Van Assche."
+   },
+   {
+    "id": "TEN-2026-11-03-PAUL-RUNE",
+    "date": "2026-11-03",
+    "time": "14:00",
+    "home": "PAUL",
+    "away": "RUNE",
+    "status": "ns",
+    "comp": "ATP Masters 1000 Paryż",
+    "stage": "1/32 finału",
+    "surface": "twarda (hala)",
+    "bestOf": 3,
+    "court": "Court 1",
+    "notes": "Godzina przybliżona (mecz „po poprzednim” na korcie). Paul rozstawiony z nr 12; Rune gra z rankingiem chronionym. Zwycięzca zagra z Danielem Meridą.",
+    "info": {
+     "fatigue": "Rune w Bazylei pokonał m.in. Huberta Hurkacza po tie-breaku w 3. secie."
+    },
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Brak kursów z jednej porównywarki (obie strony z tego samego źródła) ani kursów Pinnacle w chwili aktualizacji – nie da się policzyć prawdopodobieństwa rynku ani EV.",
+      "Bez wyceny rynku regulamin nie pozwala na typ."
+     ]
+    }
+   },
+   {
+    "id": "TEN-2026-11-03-BONZI-FRITZ",
+    "date": "2026-11-03",
+    "time": "15:30",
+    "home": "BONZI",
+    "away": "FRITZ",
+    "status": "ns",
+    "comp": "ATP Masters 1000 Paryż",
+    "stage": "1/32 finału",
+    "surface": "twarda (hala)",
+    "bestOf": 3,
+    "court": "Court 1",
+    "notes": "„Nie przed 15:30”. Bonzi z kwalifikacji (dwa mecze 3-setowe w weekend). Fritz rozstawiony z nr 11; zwycięzca zagra z Aleksem Molcanem.",
+    "info": {
+     "fatigue": "Bonzi rozegrał w kwalifikacjach dwa trzysetowe mecze (2 h 10 min i 1 h 54 min)."
+    },
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Brak kursów z jednej porównywarki (obie strony z tego samego źródła) ani kursów Pinnacle w chwili aktualizacji – nie da się policzyć prawdopodobieństwa rynku ani EV.",
+      "Bez wyceny rynku regulamin nie pozwala na typ."
+     ]
+    }
+   },
+   {
+    "id": "TEN-2026-11-03-STRUFF-GEA",
+    "date": "2026-11-03",
+    "time": "17:30",
+    "home": "STRUFF",
+    "away": "GEA",
+    "status": "ns",
+    "comp": "ATP Masters 1000 Paryż",
+    "stage": "1/32 finału",
+    "surface": "twarda (hala)",
+    "bestOf": 3,
+    "court": "Court 1",
+    "notes": "Godzina przybliżona (mecz „po poprzednim” na korcie). Gea z dziką kartą. Zwycięzca zagra z Flaviem Cobollim (nr 5)."
+   },
+   {
+    "id": "TEN-2026-11-03-RUBLEV-ETCHEVERRY",
+    "date": "2026-11-03",
+    "time": "11:00",
+    "home": "RUBLEV",
+    "away": "ETCHEVERRY",
+    "status": "ns",
+    "comp": "ATP Masters 1000 Paryż",
+    "stage": "1/32 finału",
+    "surface": "twarda (hala)",
+    "bestOf": 3,
+    "court": "Court 2",
+    "notes": "Pierwszy mecz dnia na korcie 2. Zwycięzca zagra z Alexem de Minaurem (nr 8)."
+   },
+   {
+    "id": "TEN-2026-11-03-NAKASHIMA-BERRETTINI",
+    "date": "2026-11-03",
+    "time": "12:45",
+    "home": "NAKASHIMA",
+    "away": "BERRETTINI",
+    "status": "ns",
+    "comp": "ATP Masters 1000 Paryż",
+    "stage": "1/32 finału",
+    "surface": "twarda (hala)",
+    "bestOf": 3,
+    "court": "Court 2",
+    "notes": "Godzina przybliżona (mecz „po poprzednim” na korcie). Nakashima rozstawiony z nr 14. Zwycięzca zagra ze zwycięzcą meczu Humbert – van de Zandschulp."
+   },
+   {
+    "id": "TEN-2026-11-03-MICHELSEN-LEHECKA",
+    "date": "2026-11-03",
+    "time": "15:00",
+    "home": "MICHELSEN",
+    "away": "LEHECKA",
+    "status": "ns",
+    "comp": "ATP Masters 1000 Paryż",
+    "stage": "1/32 finału",
+    "surface": "twarda (hala)",
+    "bestOf": 3,
+    "court": "Court 2",
+    "notes": "„Nie przed 15:00”. Lehečka grał w niedzielę finał w Bazylei. Zwycięzca zagra z Carlosem Alcarazem (nr 2).",
+    "info": {
+     "fatigue": "Lehečka grał w niedzielę finał ATP 500 w Bazylei (przegrany z Vacherotem)."
+    },
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Brak kursów z jednej porównywarki (obie strony z tego samego źródła) ani kursów Pinnacle w chwili aktualizacji – nie da się policzyć prawdopodobieństwa rynku ani EV.",
+      "Bez wyceny rynku regulamin nie pozwala na typ."
+     ]
+    }
+   }
+  ],
+  "2026-11-04": [
+   {
+    "id": "TEN-2026-11-04-ZVEREV-MUSETTI",
+    "date": "2026-11-04",
+    "time": "12:00",
+    "home": "ZVEREV",
+    "away": "MUSETTI",
+    "status": "ns",
+    "comp": "ATP Masters 1000 Paryż",
+    "stage": "1/16 finału",
+    "surface": "twarda (hala)",
+    "bestOf": 3,
+    "court": "Court Central",
+    "notes": "Plan gier na środę nie został jeszcze ogłoszony – godzina orientacyjna. Zverev (nr 1 turnieju) broni tytułu i zaczyna od wolnego losu; Musetti w poniedziałek grał 1 h 44 min z Hurkaczem.",
+    "info": {
+     "fatigue": "Musetti grał w poniedziałek dwa tie-breaki z Hurkaczem (1 h 44 min); Zverev zaczyna turniej."
+    },
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Brak kursów z jednej porównywarki (obie strony z tego samego źródła) ani kursów Pinnacle w chwili aktualizacji – nie da się policzyć prawdopodobieństwa rynku ani EV.",
+      "Bez wyceny rynku regulamin nie pozwala na typ."
+     ]
+    }
+   },
+   {
+    "id": "TEN-2026-11-04-MEDVEDEV-BUSE",
+    "date": "2026-11-04",
+    "time": "14:00",
+    "home": "MEDVEDEV",
+    "away": "BUSE",
+    "status": "ns",
+    "comp": "ATP Masters 1000 Paryż",
+    "stage": "1/16 finału",
+    "surface": "twarda (hala)",
+    "bestOf": 3,
+    "court": "Court Central",
+    "notes": "Plan gier na środę nie został jeszcze ogłoszony – godzina orientacyjna. Miedwiediew (nr 4) zaczyna od wolnego losu; Buse wygrał w poniedziałek z Bergsem 6-2, 6-4.",
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Brak kursów z jednej porównywarki (obie strony z tego samego źródła) ani kursów Pinnacle w chwili aktualizacji – nie da się policzyć prawdopodobieństwa rynku ani EV.",
+      "Bez wyceny rynku regulamin nie pozwala na typ."
+     ]
+    }
+   },
+   {
+    "id": "TEN-2026-11-04-FILS-MACHAC",
+    "date": "2026-11-04",
+    "time": "16:00",
+    "home": "FILS",
+    "away": "MACHAC",
+    "status": "ns",
+    "comp": "ATP Masters 1000 Paryż",
+    "stage": "1/16 finału",
+    "surface": "twarda (hala)",
+    "bestOf": 3,
+    "court": "Court Central",
+    "notes": "Plan gier na środę nie został jeszcze ogłoszony – godzina orientacyjna. Fils (nr 6) – występ niepewny: w Bazylei skreczował w meczu z Fritzem z powodu bólu pleców.",
+    "info": {
+     "injuries": {
+      "home": [
+       "Ból pleców – krecz w Bazylei z Taylorem Fritzem; występ w Paryżu pod znakiem zapytania"
+      ],
+      "away": []
+     }
+    },
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Podwyższone ryzyko kreczu/wycofania Filsa (problemy z plecami) – regulamin wyklucza typ.",
+      "Brak kursów rynkowych z jednego źródła."
+     ]
+    }
    }
   ]
  }
