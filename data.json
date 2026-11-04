@@ -1,9 +1,9 @@
 {
- "updated": "2026-11-03T06:41:27+01:00",
+ "updated": "2026-11-04T06:55:00+01:00",
  "season": "2026/27",
  "competition": "Ekstraklasa",
  "currentRound": 14,
- "note": "Źródła: ekstraklasa.org (terminarz 15. kolejki, relacja Zagłębie–Korona, tabela), interia.pl, tylkoslask.pl, pilkarskiswiat.com (Raków–Pogoń), twojradom.pl, mecze24.pl (Radomiak–Śląsk), weszlo.com (Zagłębie–Korona), podkarpacielive.pl (tabela), wcześniejsze aktualizacje. Tabela po 13. kolejce (LPO, POG, JAG, WPL z zaległymi meczami); forma: 5 ostatnich meczów ligowych. Obsada sędziowska 14. kolejki i kursy na piątkowe mecze nie były jeszcze dostępne (stan 3.11 rano). Godziny w czasie zimowym (CET).",
+ "note": "Źródła: ekstraklasa.org i betexplorer (terminarz 14. kolejki), blog LV BET (kursy 1X2 na piątkowe mecze, 4.11), kanalsportowy.pl i polskiezf.pl (kontuzje Wisły Kraków), goal.pl, wcześniejsze aktualizacje (wyniki i tabela po 13. kolejce). Tabela po 13. kolejce (LPO, POG, JAG, WPL z zaległymi meczami); forma: 5 ostatnich meczów ligowych. Obsada sędziowska 14. kolejki niepotwierdzona, kursy na mecze sobotnie niedostępne (stan 4.11 rano). Godziny w czasie zimowym (CET).",
  "teams": {
   "LEG": {
    "id": "LEG",
@@ -1614,13 +1614,29 @@
     "away": "WPL",
     "status": "ns",
     "info": {
-     "stakes": "11. Motor (16 pkt, forma DWWDW) vs 12. Wisła Płock (15 pkt, mecz zaległy)"
+     "stakes": "11. Motor (16 pkt, forma DWWDW) vs 12. Wisła Płock (15 pkt, mecz zaległy)",
+     "homeAway": "MOT w sezonie 19:22 w bramkach (13 m.), WPL 12:18 (12 m.)",
+     "h2h": [
+      "2026-05-10 WPL 0:4 MOT",
+      "2025-11-08 MOT 1:1 WPL",
+      "2025-07-11 MOT 2:2 WPL",
+      "2025-01-10 MOT 2:1 WPL",
+      "2024-05-05 WPL 1:0 MOT"
+     ]
     },
     "tip": {
      "decision": "NO BET",
      "reasons": [
-      "Brak opublikowanych kursów bukmacherskich (stan 3.11 rano) — bez kursu nie da się policzyć EV. Analiza zostanie uzupełniona przy kolejnej aktualizacji."
+      "Dostępny tylko kurs 1X2 jednego bukmachera: Motor 1,95 (≈51% z kursu, ≈48% po zdjęciu marży ~6,5%).",
+      "Własna ocena szans Motoru ok. 45–48% (dobra seria, ale defensywa 22 stracone gole w 13 meczach) — EV ujemne (≈ −0,10).",
+      "Brak kursów na gole/BTTS i brak potwierdzonych informacji o absencjach — za mało danych na inny rynek."
      ]
+    },
+    "odds": {
+     "src": "LV BET (blog.lvbet.pl), stan na 4.11 rano – tylko 1X2",
+     "1": 1.95,
+     "X": 3.75,
+     "2": 3.5
     }
    },
    {
@@ -1631,14 +1647,46 @@
     "away": "CRA",
     "status": "ns",
     "info": {
-     "stakes": "Wielkie Derby Krakowa: 8. Wisła (21 pkt) vs 13. Cracovia (12 pkt); kibice Cracovii z pulą ok. 2000 biletów w sektorze gości"
+     "injuries": {
+      "home": [
+       "James Igbekeme (przywodziciel – wykluczony z derbów)",
+       "Maciej Kuziemka (uraz)",
+       "Élie Youan (uraz)",
+       "Jérémy Guillemenot (uraz)",
+       "Patryk Letkiewicz (uraz)"
+      ],
+      "away": []
+     },
+     "stakes": "Wielkie Derby Krakowa: 8. Wisła (21 pkt) vs 13. Cracovia (12 pkt); kibice Cracovii z pulą ok. 2000 biletów w sektorze gości",
+     "homeAway": "WIS w sezonie 20:18 w bramkach, CRA 15:21 (po 13 m.)",
+     "h2h": [
+      "2022-05-01 CRA 0:0 WIS",
+      "2021-11-07 WIS 1:0 CRA",
+      "2021-04-24 WIS 0:0 CRA",
+      "2020-12-04 CRA 1:1 WIS",
+      "2020-03-03 CRA 0:2 WIS"
+     ]
     },
     "notes": "Pierwsze derby Krakowa w Ekstraklasie po powrocie Wisły do ligi (po 4 sezonach). Źródło: goal.pl.",
     "tip": {
      "decision": "NO BET",
      "reasons": [
-      "Brak opublikowanych kursów bukmacherskich (stan 3.11 rano) — bez kursu nie da się policzyć EV. Analiza zostanie uzupełniona przy kolejnej aktualizacji."
+      "Kurs 1,80 na Wisłę wycenia ją na ≈56% (≈52% bez marży); przy wąskiej kadrze (5 kontuzjowanych, m.in. Igbekeme) i nieprzewidywalności derbów oceniam ok. 50% — EV ≈ −0,10.",
+      "Cracovia słaba (1 wygrana w 5 ostatnich), ale wycena rynku już to uwzględnia — brak value na 1X2.",
+      "Brak kursów na gole/BTTS/kartki; H2H (5 goli w 5 meczach) jest stare (2020–2022) i nie może być podstawą typu."
      ]
+    },
+    "odds": {
+     "src": "LV BET (blog.lvbet.pl), stan na 4.11 rano – tylko 1X2",
+     "1": 1.8,
+     "X": 3.9,
+     "2": 4.0
+    },
+    "weather": {
+     "temp": 4,
+     "rain": "Brak (prognoza)",
+     "wind": "5 km/h",
+     "hum": 92
     }
    },
    {
@@ -1655,6 +1703,12 @@
        "Abdoul Tapsoba (4. żółta kartka)"
       ]
      }
+    },
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Brak opublikowanych kursów bukmacherskich (stan 4.11 rano) — bez kursu nie da się policzyć EV. Analiza zostanie uzupełniona przy kolejnej aktualizacji."
+     ]
     }
    },
    {
@@ -1663,7 +1717,13 @@
     "time": "14:45",
     "home": "SLA",
     "away": "PIA",
-    "status": "ns"
+    "status": "ns",
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Brak opublikowanych kursów bukmacherskich (stan 4.11 rano) — bez kursu nie da się policzyć EV. Analiza zostanie uzupełniona przy kolejnej aktualizacji."
+     ]
+    }
    },
    {
     "id": "2026-27-R14-GZA-WIE",
@@ -1671,7 +1731,13 @@
     "time": "17:30",
     "home": "GZA",
     "away": "WIE",
-    "status": "ns"
+    "status": "ns",
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Brak opublikowanych kursów bukmacherskich (stan 4.11 rano) — bez kursu nie da się policzyć EV. Analiza zostanie uzupełniona przy kolejnej aktualizacji."
+     ]
+    }
    },
    {
     "id": "2026-27-R14-WID-POG",
@@ -1688,6 +1754,12 @@
        "Lukas Willen (czerwona – 2. żółta z Rakowem)"
       ]
      }
+    },
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Brak opublikowanych kursów bukmacherskich (stan 4.11 rano) — bez kursu nie da się policzyć EV. Analiza zostanie uzupełniona przy kolejnej aktualizacji."
+     ]
     }
    },
    {

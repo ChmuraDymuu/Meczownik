@@ -1,9 +1,9 @@
 {
- "updated": "2026-11-03T06:30:00+01:00",
+ "updated": "2026-11-04T06:15:00+01:00",
  "season": "2026/27",
  "competition": "Serie A",
  "currentRound": 11,
- "note": "Źródła: Sky Sport Italia (tabela 02.11), Virgilio Sport (Atalanta–Parma), Fantacalcio.it i GidStats (Sassuolo–Fiorentina, terminarz 11. kolejki), Fantamaster (terminarz 12. kolejki), RotoWire (kursy Venezia–Udinese); wcześniej: t-online, Sporza, livetipsportal, ESPN, acmilan.com, ANSA, Oddsportal, RG.org, Corriere dello Sport, Football Italia. Kolejność drużyn z równą liczbą punktów wg Sky Sport.",
+ "note": "Źródła: Agimeg (kursy i absencje Venezia–Udinese, 03.11), Cassandra Pronostici, Webpronostici (H2H), GidStats (rynki predykcyjne Cagliari–Frosinone), Fantacalcio.it (terminarz 11. kolejki); tabela po 10. kolejce: Sky Sport Italia; wcześniej: Virgilio Sport, Fantamaster, RotoWire, t-online, ESPN, ANSA, Oddsportal.",
  "teams": {
   "ATA": {
    "id": "ATA",
@@ -2377,31 +2377,57 @@
     "status": "ns",
     "venue": {
      "name": "Stadio Pier Luigi Penzo",
-     "city": "Wenecja",
-     "capacity": 12048
+     "city": "Wenecja"
     },
     "odds": {
-     "src": "Betr (moneyline) wg RotoWire, stan na 03.11.2026",
-     "1": 2.11,
-     "X": 3.49,
-     "2": 3.04
+     "src": "Agimeg – 7 bukmacherów (AdmiralBet, Marathonbet, Goldbet, Betsson, Bwin i in.), typowa wartość, stan na 03.11 15:07",
+     "1": 2.2,
+     "X": 3.5,
+     "2": 3.1,
+     "o25": 1.67,
+     "u25": 2.1,
+     "bttsY": 1.58,
+     "bttsN": 2.25
     },
     "info": {
+     "injuries": {
+      "home": [
+       "Franjić (operacja barku, powrót ok. połowy grudnia)",
+       "Thierry Correia (uraz mięśnia zginacza)",
+       "Sverko (po operacji biodra, powrót ok. połowy listopada)",
+       "Adorante (po operacji pleców)"
+      ],
+      "away": [
+       "Alaba (powrót ok. połowy listopada)",
+       "Bayo (powrót ok. połowy listopada)",
+       "Gueye (powrót koniec stycznia)",
+       "Zanoli (nawrót urazu 24.10)",
+       "Solet – niepewny (uraz mięśniowy)"
+      ]
+     },
+     "suspensions": {
+      "home": [],
+      "away": []
+     },
      "restDays": {
       "home": 5,
       "away": 6
      },
-     "stakes": "Mecz dna tabeli: Venezia ostatnia (3 pkt, 6:20 w bramkach), Udinese 19. (5 pkt, 11:23).",
-     "homeAway": "Venezia przegrała 9 z 10 meczów i strzela 0,6 gola/mecz; Udinese ostatnio 2:5 z Romą u siebie (forma LLDLL)."
+     "homeAway": "Venezia: 1 zwycięstwo w 5 meczach domowych, 6 goli strzelonych w 10 meczach; Udinese: 1 pkt/mecz na wyjeździe w przybliżeniu, 23 gole stracone",
+     "stakes": "Mecz ostatniej (VEN, 3 pkt) z przedostatnią (UDI, 5 pkt) drużyną tabeli; obie po zmianie trenera (Nicola w Venezii, Zanetti w Udinese)",
+     "h2h": [
+      "2026-09-02 UDI 2:1 VEN (Puchar Włoch)",
+      "2025-02-01 UDI 3:2 VEN",
+      "2024-10-30 VEN 3:2 UDI"
+     ]
     },
     "tip": {
      "decision": "NO BET",
      "reasons": [
-      "Venezia 2,11 (ok. 45% po marży ~4%) – przy 1 wygranej w 10 meczach i najsłabszym ataku ligi (6 goli) brak podstaw do szacunku powyżej 47%",
-      "Udinese 3,04 (31%) – drużyna traci 2,3 gola/mecz, szacunek zbliżony do kursu",
-      "Remis 3,49 (27%) – mecz dwóch najsłabszych drużyn, ale brak danych uzasadniających wyższy szacunek",
-      "Brak dostępnych kursów na gole i BTTS do porównania",
-      "Brak potwierdzonych informacji o kontuzjach i składach – zbyt duża niepewność"
+      "Kursy 1X2 (2,20 / 3,50 / 3,10) zbliżone do realnych szans – brak wyraźnej różnicy między słabymi drużynami.",
+      "Venezia strzela najmniej w lidze (6 goli), ale Udinese traci najwięcej (23) – sprzeczne sygnały dla rynku goli; Under 2,5 @2,10 i BTTS bez wyraźnej przewagi.",
+      "Obie drużyny po zmianach trenerów – mała próbka pod nowymi szkoleniowcami zwiększa niepewność.",
+      "Liczne absencje po obu stronach, Solet niepewny – składy do potwierdzenia."
      ]
     }
    },
@@ -2416,6 +2442,13 @@
      "name": "Unipol Domus",
      "city": "Cagliari",
      "capacity": 16416
+    },
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Brak wiarygodnych kursów bukmacherskich na dzień aktualizacji (dostępne tylko rynki predykcyjne: CAG ~35%, X ~26%, FRO ~39%).",
+      "Cagliari bez zwycięstwa w 5 meczach (4 porażki), Frosinone w formie (3 W w 5) – kurs na gości prawdopodobnie już to uwzględnia; ocena po pojawieniu się kursów."
+     ]
     }
    },
    {
@@ -2429,6 +2462,12 @@
      "name": "Stadio Olimpico Grande Torino",
      "city": "Turyn",
      "capacity": 28177
+    },
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Brak kursów bukmacherskich na dzień aktualizacji – zgodnie z regulaminem NO BET."
+     ]
     }
    },
    {
@@ -2442,6 +2481,12 @@
      "name": "Stadio Ennio Tardini",
      "city": "Parma",
      "capacity": 22352
+    },
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Brak kursów bukmacherskich na dzień aktualizacji – zgodnie z regulaminem NO BET."
+     ]
     }
    },
    {
@@ -2455,6 +2500,13 @@
      "name": "Stadio Olimpico",
      "city": "Rzym",
      "capacity": 70634
+    },
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Brak kursów bukmacherskich na dzień aktualizacji – zgodnie z regulaminem NO BET.",
+      "Ewentualne obciążenie Romy grą w środku tygodnia do weryfikacji przy kolejnej aktualizacji."
+     ]
     }
    },
    {

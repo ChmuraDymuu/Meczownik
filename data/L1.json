@@ -1,9 +1,9 @@
 {
- "updated": "2026-11-03T06:40:00+01:00",
+ "updated": "2026-11-04T06:23:48+01:00",
  "season": "2026/27",
  "competition": "Ligue 1",
  "currentRound": 10,
- "note": "Źródła: foot01, Morning Foot (Lorient–Brest 0:2, statystyki), Oddslot/BC.Game i X-TremLimit (Toulouse–Strasbourg), WhoScored (H2H); wcześniej: livefoot.fr, API-Sports, Footeo, Orange Sports, Foot Mercato, franceinfo, Maxifoot, Mediapronos, TopMercato, Rue des Joueurs, FotMob, ESPN, ligue1.com, L'Équipe i inne.",
+ "note": "Źródła: ligue1.com (obsada sędziowska 10. kolejki), Sports Mole, BettingNews, RotoWire, Foot Mercato, Beticious, VAVEL, ParisFans, The Stats Zone; wcześniej: foot01, Morning Foot, WhoScored, livefoot.fr, API-Sports, FotMob, ESPN, L'Équipe i inne.",
  "teams": {
   "ANG": {
    "id": "ANG",
@@ -6811,21 +6811,35 @@
      "capacity": 33150
     },
     "odds": {
-     "src": "Oddslot (BC.Game), bez znacznika czasu, odczyt 03.11.2026",
-     "1": 2.0,
-     "X": 3.7,
-     "2": 3.25,
-     "1X": 1.33,
-     "X2": 1.8,
-     "12": 1.28
+     "src": "BettingNews – najlepsze z 6 bukmacherów (BetUS/BetOnline), stan na 04.11.2026",
+     "1": 2.11,
+     "X": 3.79,
+     "2": 3.4
     },
     "info": {
+     "injuries": {
+      "home": [
+       "Rafik Messali (noga) – niepewny",
+       "Abu Francis (udo) – niepewny"
+      ],
+      "away": [
+       "Joaquín Panichelli (więzadło krzyżowe)",
+       "Félix Baldé – niepewny",
+       "Hermann Malonga, Deivid Washington, Maxi Oyedele – niepewni"
+      ]
+     },
+     "suspensions": {
+      "home": [
+       "Aron Dønnum"
+      ],
+      "away": []
+     },
      "restDays": {
       "home": 5,
-      "away": 5
+      "away": 4
      },
-     "homeAway": "Toulouse 12. (10 pkt, 12:13), ostatnio 0:2 w Marsylii i 0:0 z Troyes; Strasbourg 13. (10 pkt, 17:19), po 4 porażkach z rzędu rozbił Auxerre 5:1.",
-     "stakes": "Środek tabeli — obie drużyny mają po 10 pkt; zwycięzca odskakuje od strefy spadkowej.",
+     "homeAway": "Toulouse 12. (10 pkt, 12:13): w 6 ostatnich ligowych 2W 3R 1P, ostatnio 0:0 z Troyes i 0:2 w Marsylii. Strasbourg 13. (10 pkt, 17:19, 2,11 straconego gola/mecz): po 4 porażkach z rzędu rozbił Auxerre 5:1 (xG 3,01:0,50).",
+     "stakes": "Środek tabeli — obie drużyny po 10 pkt, zwycięzca odskakuje od strefy spadkowej. Ostatni mecz przed przerwą reprezentacyjną. Przewidywane składy (Sports Mole): Toulouse 4-4-2 z Tengstedtem i Russell-Rowe; Strasbourg 4-3-3 z Harderem, Godo i Yassine.",
      "h2h": [
       "2025-12-06 TOU 1:0 STR"
      ]
@@ -6833,13 +6847,46 @@
     "tip": {
      "decision": "NO BET",
      "reasons": [
-      "Kursy tylko z jednego bukmachera (BC.Game przez Oddslot) bez znacznika czasu i bez rynków goli — za mało do rzetelnej wyceny.",
-      "Kurs 2,00/3,70/3,25 po marży ≈ 46% / 25% / 29%; bez wiarygodnych danych o formie dom/wyjazd i xG nie widzę przewagi powyżej tej wyceny.",
-      "Sygnały sprzeczne: Toulouse bez gola w ostatnim meczu, Strasbourg po serii porażek wygrał 5:1 — jedna kolejka to za mało, by uznać zmianę formy.",
-      "Brak potwierdzonych informacji o kontuzjach i zawieszeniach na dzień analizy.",
-      "Analiza do odświeżenia w kolejnej aktualizacji, gdy pojawią się kursy referencyjne i wiadomości kadrowe."
+      "Kursy 2,11 / 3,79 / 3,40 po marży ≈ 46% / 26% / 28%; mój model bramkowy (tabela, regresja do średniej) daje ok. 48% / 22% / 30%.",
+      "Toulouse 1 po 2,11: EV ≈ 0,48 × 2,11 − 1 ≈ +0,01 — praktycznie zerowa przewaga, poniżej progu.",
+      "Toulouse bez zawieszonego Dønnuma i prawdopodobnie bez Messalego — osłabienie skrzydeł przemawia przeciw gospodarzom.",
+      "Strasbourg: jedna wysoka wygrana po 4 porażkach — za mało, by uznać trwałą zmianę formy; sygnały sprzeczne.",
+      "Brak wiarygodnych kursów O/U i BTTS, choć mecz dwóch nieszczelnych obron (32 stracone gole łącznie) mógłby tam dawać wartość."
      ]
-    }
+    },
+    "officials": [
+     {
+      "r": "GŁ",
+      "role": "Sędzia główny",
+      "name": "Mathieu Vernice",
+      "nat": "FRA"
+     },
+     {
+      "r": "AS1",
+      "role": "Asystent 1",
+      "name": "Steven Torregrossa"
+     },
+     {
+      "r": "AS2",
+      "role": "Asystent 2",
+      "name": "Florian Goncalves de Araujo"
+     },
+     {
+      "r": "4.",
+      "role": "Sędzia techniczny",
+      "name": "Florent Batta"
+     },
+     {
+      "r": "VAR",
+      "role": "Sędzia VAR",
+      "name": "Hamid Guenaoui"
+     },
+     {
+      "r": "AVAR",
+      "role": "Asystent VAR",
+      "name": "Yann Flament"
+     }
+    ]
    },
    {
     "id": "L1-2026-27-R10-AUX-PFC",
@@ -6852,6 +6899,81 @@
      "name": "Stade de l'Abbé-Deschamps",
      "city": "Auxerre",
      "capacity": 21379
+    },
+    "officials": [
+     {
+      "r": "GŁ",
+      "role": "Sędzia główny",
+      "name": "Marc Bollengier",
+      "nat": "FRA"
+     },
+     {
+      "r": "AS1",
+      "role": "Asystent 1",
+      "name": "Thomas Luczynski"
+     },
+     {
+      "r": "AS2",
+      "role": "Asystent 2",
+      "name": "Nicolas Rodrigues"
+     },
+     {
+      "r": "4.",
+      "role": "Sędzia techniczny",
+      "name": "Rémi Landry"
+     },
+     {
+      "r": "VAR",
+      "role": "Sędzia VAR",
+      "name": "Guillaume Paradis"
+     },
+     {
+      "r": "AVAR",
+      "role": "Asystent VAR",
+      "name": "Jérémie Pignard"
+     }
+    ],
+    "odds": {
+     "src": "RotoWire (Betr i in.), stan na 04.11.2026",
+     "1": 4.12,
+     "X": 3.83,
+     "2": 1.71
+    },
+    "info": {
+     "injuries": {
+      "home": [
+       "Telli Siwe, Marvin Senaya (udo) – wracają po urazach",
+       "Assane Dioussé, Sékou Fofana, Rudy Labeau-Lascary, Okoh – wcześniej poza grą"
+      ],
+      "away": [
+       "Adama Camara (udo)",
+       "Jonathan Ikoné (udo)",
+       "Luca Koleosho (ok. 10 dni)",
+       "Lassine Sinayoko – zszedł z urazem z meczu z Monaco, niepewny"
+      ]
+     },
+     "suspensions": {
+      "home": [
+       "Lamfia Dioubaté (czerwona kartka z meczu ze Strasbourgiem)"
+      ],
+      "away": []
+     },
+     "restDays": {
+      "home": 6,
+      "away": 6
+     },
+     "homeAway": "Auxerre 14. (10 pkt, 13:23 — najwięcej straconych w lidze), ostatnio 1:5 w Strasbourgu. Paris FC 4. (17 pkt, 16:10), ostatnio 3:1 z Monaco (Sinayoko 2 gole).",
+     "stakes": "Paris FC walczy o czołową czwórkę, Auxerre chce oddalić się od strefy spadkowej (3 pkt przewagi). Ostatni mecz przed przerwą reprezentacyjną."
+    },
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Paris FC 2 po 1,71 (≈ 54% po marży) — mój model daje ok. 56–57%, więc EV ≈ −0,02 do −0,03.",
+      "Auxerre 1 po 4,12 przy mojej ocenie ok. 20% — ujemne EV.",
+      "Dużą niewiadomą jest uraz Sinayoko (2 gole w ostatnim meczu) oraz brak Camary, Ikoné i Koleosho w Paris FC.",
+      "Model wskazuje mecz z dużą liczbą goli (najgorsza obrona ligi u gospodarzy), ale nie znalazłem kursów O/U ani BTTS z wiarygodnego źródła.",
+      "Bez przewagi na rynku 1X2 — brak typu."
+     ]
     }
    },
    {
@@ -6865,6 +6987,83 @@
      "name": "Parc des Princes",
      "city": "Paryż",
      "capacity": 47926
+    },
+    "officials": [
+     {
+      "r": "GŁ",
+      "role": "Sędzia główny",
+      "name": "Ruddy Buquet",
+      "nat": "FRA"
+     },
+     {
+      "r": "AS1",
+      "role": "Asystent 1",
+      "name": "Gwenaël Pasqualotti"
+     },
+     {
+      "r": "AS2",
+      "role": "Asystent 2",
+      "name": "Valentin Evrard"
+     },
+     {
+      "r": "4.",
+      "role": "Sędzia techniczny",
+      "name": "Faouzi Benchabane"
+     },
+     {
+      "r": "VAR",
+      "role": "Sędzia VAR",
+      "name": "Yohann Rouinsard"
+     },
+     {
+      "r": "AVAR",
+      "role": "Asystent VAR",
+      "name": "Nicolas Rainville"
+     }
+    ],
+    "odds": {
+     "src": "Foot Mercato (1X2); Beticious – najlepsze kursy (Betway/Golden Bull/Bwin), stan na 04.11.2026",
+     "1": 1.14,
+     "X": 8.01,
+     "2": 17.01
+    },
+    "info": {
+     "injuries": {
+      "home": [
+       "Ousmane Dembélé (udo)",
+       "Marquinhos (udo)",
+       "Nuno Mendes (udo)",
+       "Chwicza Kwaracchelia (więzadło krzyżowe)",
+       "Lucas Chevalier (kolano)",
+       "Alessandro Longoni (noga)"
+      ],
+      "away": [
+       "Yacouba Koné (więzadło krzyżowe)",
+       "Ismaël Boura (biodro)",
+       "Anis Ouzenadji",
+       "Yasser Titi"
+      ]
+     },
+     "suspensions": {
+      "home": [],
+      "away": []
+     },
+     "restDays": {
+      "home": 3,
+      "away": 6
+     },
+     "homeAway": "PSG lider (20 pkt, 21:10), 5 wygranych ligowych z rzędu, w środku tygodnia 6:0 w Villarreal (LM). Troyes 15. (8 pkt, 7:16 — najmniej goli w lidze po Lorient), ostatnio 2:0 z Le Mans.",
+     "stakes": "PSG gra trzeci mecz w 8 dni, przed przerwą reprezentacyjną — możliwa rotacja. Troyes broni się przed strefą spadkową. Inne rynki: PSG powyżej 2,5 gola drużyny 1,55; PSG wygra obie połowy 1,92."
+    },
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Wygrana PSG po 1,14 (implik. ≈ 88%) — mój szacunek ok. 85%, EV ujemne.",
+      "PSG powyżej 2,5 gola drużyny po 1,55 (implik. ≈ 65%) — przy oczekiwanych ok. 2,8–3,0 golach PSG Poisson daje 53–58%; EV ujemne.",
+      "PSG wygra obie połowy po 1,92 (≈ 52%) — zbyt zależne od rotacji po meczu LM we wtorek.",
+      "Długa lista kontuzji PSG (Dembélé, Kwaracchelia, Marquinhos, Nuno Mendes) i 3 dni odpoczynku zwiększają niepewność.",
+      "Faworyt jest w pełni wyceniony — brak wartości na dostępnych rynkach."
+     ]
     }
    },
    {
@@ -6878,7 +7077,40 @@
      "name": "Roazhon Park",
      "city": "Rennes",
      "capacity": 29778
-    }
+    },
+    "officials": [
+     {
+      "r": "GŁ",
+      "role": "Sędzia główny",
+      "name": "Clément Turpin",
+      "nat": "FRA"
+     },
+     {
+      "r": "AS1",
+      "role": "Asystent 1",
+      "name": "Nicolas Danos"
+     },
+     {
+      "r": "AS2",
+      "role": "Asystent 2",
+      "name": "Benjamin Pagès"
+     },
+     {
+      "r": "4.",
+      "role": "Sędzia techniczny",
+      "name": "Azzedine Souifi"
+     },
+     {
+      "r": "VAR",
+      "role": "Sędzia VAR",
+      "name": "Jérémie Pignard"
+     },
+     {
+      "r": "AVAR",
+      "role": "Asystent VAR",
+      "name": "Hakim Ben El Hadj"
+     }
+    ]
    },
    {
     "id": "L1-2026-27-R10-BRE-LYO",
@@ -6891,7 +7123,40 @@
      "name": "Stade Francis-Le Blé",
      "city": "Brest",
      "capacity": 15931
-    }
+    },
+    "officials": [
+     {
+      "r": "GŁ",
+      "role": "Sędzia główny",
+      "name": "Jérémy Stinat",
+      "nat": "FRA"
+     },
+     {
+      "r": "AS1",
+      "role": "Asystent 1",
+      "name": "Christophe Mouysset"
+     },
+     {
+      "r": "AS2",
+      "role": "Asystent 2",
+      "name": "Bastien Courbet"
+     },
+     {
+      "r": "4.",
+      "role": "Sędzia techniczny",
+      "name": "Thomas Vincent"
+     },
+     {
+      "r": "VAR",
+      "role": "Sędzia VAR",
+      "name": "Cyril Gringore"
+     },
+     {
+      "r": "AVAR",
+      "role": "Asystent VAR",
+      "name": "Hamid Guenaoui"
+     }
+    ]
    },
    {
     "id": "L1-2026-27-R10-LMA-MON",
@@ -6904,7 +7169,40 @@
      "name": "Stade Marie-Marvingt",
      "city": "Le Mans",
      "capacity": 25000
-    }
+    },
+    "officials": [
+     {
+      "r": "GŁ",
+      "role": "Sędzia główny",
+      "name": "Bastien Dechepy",
+      "nat": "FRA"
+     },
+     {
+      "r": "AS1",
+      "role": "Asystent 1",
+      "name": "Brice Parinet Le Tellier"
+     },
+     {
+      "r": "AS2",
+      "role": "Asystent 2",
+      "name": "Julien Haulbert"
+     },
+     {
+      "r": "4.",
+      "role": "Sędzia techniczny",
+      "name": "Soulaimane Chamel"
+     },
+     {
+      "r": "VAR",
+      "role": "Sędzia VAR",
+      "name": "Nicolas Rainville"
+     },
+     {
+      "r": "AVAR",
+      "role": "Asystent VAR",
+      "name": "Thierry Bouille"
+     }
+    ]
    },
    {
     "id": "L1-2026-27-R10-ANG-NIC",
@@ -6917,7 +7215,40 @@
      "name": "Stade Raymond-Kopa",
      "city": "Angers",
      "capacity": 18752
-    }
+    },
+    "officials": [
+     {
+      "r": "GŁ",
+      "role": "Sędzia główny",
+      "name": "Geoffrey Kubler",
+      "nat": "FRA"
+     },
+     {
+      "r": "AS1",
+      "role": "Asystent 1",
+      "name": "Huseyin Ocak"
+     },
+     {
+      "r": "AS2",
+      "role": "Asystent 2",
+      "name": "Florent Marmion"
+     },
+     {
+      "r": "4.",
+      "role": "Sędzia techniczny",
+      "name": "François Letexier"
+     },
+     {
+      "r": "VAR",
+      "role": "Sędzia VAR",
+      "name": "Julien Schmitt"
+     },
+     {
+      "r": "AVAR",
+      "role": "Asystent VAR",
+      "name": "Ludovic Zmyslony"
+     }
+    ]
    },
    {
     "id": "L1-2026-27-R10-HAV-LOR",
@@ -6930,7 +7261,40 @@
      "name": "Stade Océane",
      "city": "Hawr",
      "capacity": 25178
-    }
+    },
+    "officials": [
+     {
+      "r": "GŁ",
+      "role": "Sędzia główny",
+      "name": "Aurélien Petit",
+      "nat": "FRA"
+     },
+     {
+      "r": "AS1",
+      "role": "Asystent 1",
+      "name": "Vianney Rozand"
+     },
+     {
+      "r": "AS2",
+      "role": "Asystent 2",
+      "name": "Julien Aube"
+     },
+     {
+      "r": "4.",
+      "role": "Sędzia techniczny",
+      "name": "Jérôme Brisard"
+     },
+     {
+      "r": "VAR",
+      "role": "Sędzia VAR",
+      "name": "Guillaume Paradis"
+     },
+     {
+      "r": "AVAR",
+      "role": "Asystent VAR",
+      "name": "William Lavis"
+     }
+    ]
    },
    {
     "id": "L1-2026-27-R10-LEN-OLM",
@@ -6943,7 +7307,40 @@
      "name": "Stade Bollaert-Delelis",
      "city": "Lens",
      "capacity": 37705
-    }
+    },
+    "officials": [
+     {
+      "r": "GŁ",
+      "role": "Sędzia główny",
+      "name": "Willy Delajod",
+      "nat": "FRA"
+     },
+     {
+      "r": "AS1",
+      "role": "Asystent 1",
+      "name": "Erwan Finjean"
+     },
+     {
+      "r": "AS2",
+      "role": "Asystent 2",
+      "name": "Alexis Auger"
+     },
+     {
+      "r": "4.",
+      "role": "Sędzia techniczny",
+      "name": "Mickaël Leleu"
+     },
+     {
+      "r": "VAR",
+      "role": "Sędzia VAR",
+      "name": "Éric Wattellier"
+     },
+     {
+      "r": "AVAR",
+      "role": "Asystent VAR",
+      "name": "Mehdi Mokhtari"
+     }
+    ]
    }
   ]
  }
