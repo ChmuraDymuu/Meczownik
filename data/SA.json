@@ -1,9 +1,9 @@
 {
- "updated": "2026-11-04T06:15:00+01:00",
+ "updated": "2026-11-05T06:30:00+01:00",
  "season": "2026/27",
  "competition": "Serie A",
  "currentRound": 11,
- "note": "Źródła: Agimeg (kursy i absencje Venezia–Udinese, 03.11), Cassandra Pronostici, Webpronostici (H2H), GidStats (rynki predykcyjne Cagliari–Frosinone), Fantacalcio.it (terminarz 11. kolejki); tabela po 10. kolejce: Sky Sport Italia; wcześniej: Virgilio Sport, Fantamaster, RotoWire, t-online, ESPN, ANSA, Oddsportal.",
+ "note": "Źródła: RG.org (kursy FanDuel/DraftKings/BetRivers/LetsBetMD dla 11. kolejki, stan na 03.11), Agimeg (Venezia–Udinese), Assopoker (Napoli–Lazio, 04.11), Sportwetten24 (Inter–Como), GidStats, Cassandra Pronostici, Sky Sport Italia (Man Utd–Roma 3:2), FotMob (Feyenoord–Inter 0:3), Spettacolomusicasport (Lens–Como 1:9, Porto–Napoli 4:1); tabela po 10. kolejce: Sky Sport Italia; wcześniej: Virgilio Sport, Fantamaster, RotoWire, ESPN, ANSA, Oddsportal.",
  "teams": {
   "ATA": {
    "id": "ATA",
@@ -408,7 +408,16 @@
    "form": "LWLLL"
   }
  ],
- "picks": [],
+ "picks": [
+  {
+   "match": "SA-2026-27-R11-VEN-UDI",
+   "rank": 1
+  },
+  {
+   "match": "SA-2026-27-R11-NAP-LAZ",
+   "rank": 2
+  }
+ ],
  "rounds": {
   "10": [
    {
@@ -2380,7 +2389,7 @@
      "city": "Wenecja"
     },
     "odds": {
-     "src": "Agimeg – 7 bukmacherów (AdmiralBet, Marathonbet, Goldbet, Betsson, Bwin i in.), typowa wartość, stan na 03.11 15:07",
+     "src": "Agimeg – 7 bukmacherów (AdmiralBet, Marathonbet, Goldbet, Betsson, Bwin i in.), typowa wartość, stan na 03.11 15:07; BetRivers (03.11): 1 2,14 / X 3,55 / 2 3,10, u2,5 2,15",
      "1": 2.2,
      "X": 3.5,
      "2": 3.1,
@@ -2422,13 +2431,28 @@
      ]
     },
     "tip": {
-     "decision": "NO BET",
+     "decision": "BET",
+     "market": "Poniżej 2,5 gola",
+     "odds": 2.1,
+     "prob": 0.55,
+     "ev": 0.155,
+     "rating": 6,
+     "risk": "średnie",
      "reasons": [
-      "Kursy 1X2 (2,20 / 3,50 / 3,10) zbliżone do realnych szans – brak wyraźnej różnicy między słabymi drużynami.",
-      "Venezia strzela najmniej w lidze (6 goli), ale Udinese traci najwięcej (23) – sprzeczne sygnały dla rynku goli; Under 2,5 @2,10 i BTTS bez wyraźnej przewagi.",
-      "Obie drużyny po zmianach trenerów – mała próbka pod nowymi szkoleniowcami zwiększa niepewność.",
-      "Liczne absencje po obu stronach, Solet niepewny – składy do potwierdzenia."
-     ]
+      "Venezia ma najsłabszy atak ligi: 6 goli w 10 meczach i trzy kolejne mecze bez gola.",
+      "Venezia bez Adorante (po operacji pleców) – brak głównej opcji w ataku.",
+      "Udinese strzeliło tylko ok. 3 gole w ostatnich 5 meczach; poza Alabą i Bayo brakuje też Zanolego.",
+      "Model Poissona z bilansu bramek (atak × obrona, przewaga boiska) daje ok. 2,5 gola łącznie → ok. 54–55% na under 2,5.",
+      "Kurs 2,10–2,15 wycenia under tylko na ok. 47%.",
+      "Mecz dwóch ostatnich drużyn tabeli (3 i 5 pkt) – duża stawka sprzyja ostrożnej grze."
+     ],
+     "risks": [
+      "Obie obrony słabe (VEN 20, UDI 23 stracone gole; Udinese straciło 5 z Romą).",
+      "Trzy ostatnie mecze bezpośrednie kończyły się 3+ golami.",
+      "Nowi trenerzy po obu stronach (Nicola, Zanetti) – efekt zmiany trenera trudny do przewidzenia."
+     ],
+     "value": "Kurs 2,10 = 47,6% implikowane; moja ocena 55% → EV ok. +15%.",
+     "stake": "1% bankrollu"
     }
    },
    {
@@ -2446,9 +2470,25 @@
     "tip": {
      "decision": "NO BET",
      "reasons": [
-      "Brak wiarygodnych kursów bukmacherskich na dzień aktualizacji (dostępne tylko rynki predykcyjne: CAG ~35%, X ~26%, FRO ~39%).",
-      "Cagliari bez zwycięstwa w 5 meczach (4 porażki), Frosinone w formie (3 W w 5) – kurs na gości prawdopodobnie już to uwzględnia; ocena po pojawieniu się kursów."
+      "Kursy (2,60 / 3,50 / 2,35) i over 2,5 @1,56 zgodne z moim modelem (ok. 3,3 gola oczekiwanych; Frosinone 24 gole, 15 w ostatnich 5).",
+      "Cagliari 4 porażki z rzędu, ale rynek już wycenia Frosinone jako faworyta – brak przewagi."
      ]
+    },
+    "odds": {
+     "src": "RG.org – kursy bukmacherów USA (typowo DraftKings/FanDuel; O/U BetRivers), stan na 03.11",
+     "1": 2.6,
+     "X": 3.5,
+     "2": 2.35,
+     "o25": 1.56,
+     "u25": 2.38
+    },
+    "info": {
+     "restDays": {
+      "home": 5,
+      "away": 5
+     },
+     "homeAway": "Cagliari tylko 9 goli w 10 meczach; Frosinone ma Raimondo (8 goli)",
+     "stakes": "CAG 12. (13 pkt) vs FRO 6. (20 pkt)"
     }
    },
    {
@@ -2466,8 +2506,25 @@
     "tip": {
      "decision": "NO BET",
      "reasons": [
-      "Brak kursów bukmacherskich na dzień aktualizacji – zgodnie z regulaminem NO BET."
+      "Torino 1,77 ≈ 56% – zbliżone do mojej oceny (ok. 55%); Torino przegrało 2 ostatnie mecze.",
+      "Brak rynku z dodatnim EV."
      ]
+    },
+    "odds": {
+     "src": "RG.org – kursy bukmacherów USA (typowo DraftKings/FanDuel; O/U BetRivers), stan na 03.11",
+     "1": 1.77,
+     "X": 3.45,
+     "2": 4.2,
+     "o25": 1.94,
+     "u25": 1.82
+    },
+    "info": {
+     "restDays": {
+      "home": 5,
+      "away": 5
+     },
+     "homeAway": "Lecce przegrało 4 z 5 ostatnich meczów, 21 straconych goli",
+     "stakes": "TOR 10. (13 pkt) vs LEC 14. (9 pkt)"
     }
    },
    {
@@ -2485,8 +2542,24 @@
     "tip": {
      "decision": "NO BET",
      "reasons": [
-      "Brak kursów bukmacherskich na dzień aktualizacji – zgodnie z regulaminem NO BET."
+      "Under 2,5 @1,70 – model daje ok. 61% (implikowane 59%), przewaga zbyt mała.",
+      "Bologna 1,80 (≈56%) – uczciwie wyceniona przy formie 4 W w 5 meczach i słabym ataku Parmy (8 goli)."
      ]
+    },
+    "odds": {
+     "src": "RG.org – kursy bukmacherów USA (typowo DraftKings/FanDuel; O/U BetRivers), stan na 03.11",
+     "1": 4.2,
+     "X": 3.35,
+     "2": 1.8,
+     "o25": 2.1,
+     "u25": 1.7
+    },
+    "info": {
+     "restDays": {
+      "home": 4,
+      "away": 6
+     },
+     "stakes": "PAR 15. (8 pkt) vs BOL 9. (14 pkt); Bologna nie gra w pucharach"
     }
    },
    {
@@ -2504,8 +2577,35 @@
     "tip": {
      "decision": "NO BET",
      "reasons": [
-      "Brak kursów bukmacherskich na dzień aktualizacji – zgodnie z regulaminem NO BET.",
-      "Ewentualne obciążenie Romy grą w środku tygodnia do weryfikacji przy kolejnej aktualizacji."
+      "Roma @1,28 wymaga ok. 78%; oceniam ok. 72% – kurs za niski.",
+      "Roma grała we wtorek w Manchesterze (2:3 po prowadzeniu 2:0), kontuzje Svilara i Renscha, problem Golliniego – ryzyko rotacji.",
+      "Rynki handicapu i over 3,5 (2,00) bez dodatniego EV wg modelu (ok. 3,3 gola oczekiwane)."
+     ]
+    },
+    "odds": {
+     "src": "RG.org – kursy bukmacherów USA (typowo DraftKings/FanDuel; O/U BetRivers), stan na 03.11",
+     "1": 1.28,
+     "X": 5.5,
+     "2": 8.0
+    },
+    "info": {
+     "injuries": {
+      "home": [
+       "Svilar",
+       "Rensch (uraz mięśniowy 3.11)",
+       "Gollini – niepewny (ból pleców)"
+      ],
+      "away": []
+     },
+     "restDays": {
+      "home": 3,
+      "away": 4
+     },
+     "homeAway": "Roma u siebie 15:8 w 5 meczach; Sassuolo na wyjazdach 0-1-4, 6:12",
+     "stakes": "ROM 3. (24 pkt) vs SAS 17. (8 pkt) – najsłabsza obrona ligi (26 straconych)",
+     "h2h": [
+      "2026-01 ROM 2:0 SAS",
+      "2025-10 SAS 0:1 ROM"
      ]
     }
    },
@@ -2520,6 +2620,61 @@
      "name": "Stadio Diego Armando Maradona",
      "city": "Neapol",
      "capacity": 54732
+    },
+    "odds": {
+     "src": "RG.org – kursy bukmacherów USA (typowo DraftKings/FanDuel; O/U BetRivers), stan na 03.11",
+     "1": 2.15,
+     "X": 3.5,
+     "2": 2.95,
+     "o25": 1.78,
+     "u25": 2.0
+    },
+    "info": {
+     "injuries": {
+      "home": [
+       "Długa lista urazów (źródła nie wymieniają wszystkich) – w Porto na ławce dwóch zawodników Primavery"
+      ],
+      "away": []
+     },
+     "suspensions": {
+      "home": [
+       "Marianucci"
+      ],
+      "away": []
+     },
+     "restDays": {
+      "home": 3,
+      "away": 6
+     },
+     "homeAway": "Napoli bez zwycięstwa u siebie od miesiąca; Lazio niepokonane na wyjazdach (3 stracone gole w 5 meczach wyjazdowych, 14 strzelonych)",
+     "stakes": "Lazio (1., 28 pkt, 5 zwycięstw z rzędu) vs Napoli (8., 14 pkt). Napoli w środę 4.11 przegrało 1:4 w Porto w LM; Lazio nie gra w pucharach. Powrót Hojlunda i Rrahmaniego.",
+     "h2h": [
+      "Lazio wygrało 4 ostatnie mecze na Maradonie, 3 z nich bez straty gola"
+     ]
+    },
+    "tip": {
+     "decision": "BET",
+     "market": "Lazio +0,25 (handicap azjatycki)",
+     "odds": 1.85,
+     "prob": 0.64,
+     "ev": 0.069,
+     "rating": 6,
+     "risk": "wysokie",
+     "reasons": [
+      "Lazio: 9 zwycięstw i remis w 10 meczach, 5 wygranych z rzędu, 24:8 w golach.",
+      "Napoli grało w środę w Porto (1:4) z mocno przetrzebioną kadrą – tylko 3 dni przerwy przed niedzielnym meczem o 12:30.",
+      "Lazio odpoczywa od 1.11 i nie gra w pucharach.",
+      "Napoli: tylko 2 zwycięstwa w 5 ostatnich meczach ligowych i 10 straconych goli w tym okresie; porażka 0:2 z Juventusem.",
+      "Kursy z 3.11 (sprzed meczu w Porto) dają Napoli ok. 43% – moim zdaniem za dużo przy zmęczeniu i absencjach.",
+      "Handicap +0,25 daje częściowy zwrot przy remisie (połowa stawki wygrywa, połowa wraca)."
+     ],
+     "risks": [
+      "Napoli ma w kadrze bardzo jakościowych graczy (De Bruyne, McTominay, Hojlund) i gra u siebie.",
+      "Pełna lista kontuzji Napoli niepotwierdzona; kurs mógł się już zmienić po środzie.",
+      "Seria Lazio może się skończyć – na wyjazdach regresja skuteczności (konwersja ok. 17% vs ok. 14% średnio w lidze)."
+     ],
+     "value": "Rozkład: Lazio 37% / remis 27% / Napoli 36%. Przy kursie 1,85 (LetsBetMD, −118) EV = 0,37×0,85 + 0,27×0,425 − 0,36 ≈ +7%. Pole 'prob' = szansa, że Lazio nie przegra (przy remisie wygrywa tylko połowa stawki).",
+     "stake": "0,5–1% bankrollu"
     }
    },
    {
@@ -2533,6 +2688,24 @@
      "name": "Stadio Luigi Ferraris",
      "city": "Genua",
      "capacity": 33205
+    },
+    "odds": {
+     "src": "RG.org – kursy bukmacherów USA (typowo DraftKings/FanDuel; O/U BetRivers), stan na 03.11",
+     "1": 4.3,
+     "X": 3.4,
+     "2": 1.77,
+     "o25": 2.02,
+     "u25": 1.76
+    },
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Milan 1,77 – w fazie ligowej Ligi Europy, Genoa wygrała 4 z 5 ostatnich meczów; sygnały przeciwstawne.",
+      "Brak potwierdzonych informacji o składzie i obciążeniu Milanu – zbyt duża niepewność."
+     ]
+    },
+    "info": {
+     "stakes": "GEN 11. (13 pkt) vs MIL 5. (21 pkt); Milan gra w tym tygodniu w Lidze Europy"
     }
    },
    {
@@ -2546,6 +2719,24 @@
      "name": "Stadio Brianteo",
      "city": "Monza",
      "capacity": 17102
+    },
+    "odds": {
+     "src": "RG.org – kursy bukmacherów USA (typowo DraftKings/FanDuel; O/U BetRivers), stan na 03.11",
+     "1": 3.15,
+     "X": 3.65,
+     "2": 2.0,
+     "o25": 1.56,
+     "u25": 2.35
+    },
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Atalanta @2,00 po porażce 0:3 z Parmą u siebie i z obciążeniem Ligą Konferencji – kurs nie daje przewagi.",
+      "Over 2,5 @1,56 zgodny z rynkiem (Monza straciła 24 gole, Varela – 9 goli)."
+     ]
+    },
+    "info": {
+     "stakes": "MON 18. (7 pkt) vs ATA 13. (11 pkt)"
     }
    },
    {
@@ -2559,6 +2750,43 @@
      "name": "Stadio Giuseppe Meazza",
      "city": "Mediolan",
      "capacity": 75710
+    },
+    "odds": {
+     "src": "RG.org – kursy bukmacherów USA (typowo DraftKings/FanDuel; O/U BetRivers), stan na 03.11",
+     "1": 1.77,
+     "X": 4.0,
+     "2": 3.9
+    },
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Kursy (1,77 / 4,00 / 3,90) odzwierciedlają formę: Inter 3:0 w Rotterdamie, Como 9:1 w Lens i 4 ligowe zwycięstwa z rzędu.",
+      "Obie drużyny grały w LM w tym tygodniu; niepewny stan Lautaro i Pavarda, Como bez Diao i Jesúsa Rodrígueza – brak przewagi."
+     ]
+    },
+    "info": {
+     "injuries": {
+      "home": [
+       "Dimarco",
+       "Luis Henrique",
+       "Pavard – niepewny",
+       "Lautaro Martínez – niepewny (udo)"
+      ],
+      "away": [
+       "Assane Diao – niepewny",
+       "Jesús Rodríguez – niepewny",
+       "Addai i Chalobah – drobne urazy"
+      ]
+     },
+     "restDays": {
+      "home": 4,
+      "away": 3
+     },
+     "stakes": "INT 2. (25 pkt) vs COM 4. (23 pkt) – mecz o czołówkę",
+     "h2h": [
+      "2026-04 INT 3:2 COM (Puchar Włoch)",
+      "Inter wygrał 5 z 6 ostatnich meczów, 1 remis"
+     ]
     }
    },
    {
@@ -2572,6 +2800,24 @@
      "name": "Stadio Artemio Franchi",
      "city": "Florencja",
      "capacity": 43118
+    },
+    "odds": {
+     "src": "RG.org – kursy bukmacherów USA (typowo DraftKings/FanDuel; O/U BetRivers), stan na 03.11",
+     "1": 3.3,
+     "X": 3.45,
+     "2": 2.0,
+     "o25": 1.75,
+     "u25": 2.04
+    },
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Juventus @2,00 po meczu w Lidze Europy i dwóch meczach bez gola w ostatnich 5 – kurs uczciwy.",
+      "Fiorentina słaba (2-2-6, 23 stracone), ale wygrała 4:2 w Sassuolo – brak wyraźnej przewagi na żadnym rynku."
+     ]
+    },
+    "info": {
+     "stakes": "FIO 16. (8 pkt) vs JUV 7. (17 pkt)"
     }
    }
   ],

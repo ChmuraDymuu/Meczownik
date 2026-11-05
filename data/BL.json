@@ -1,9 +1,9 @@
 {
- "updated": "2026-11-04T06:30:00+01:00",
+ "updated": "2026-11-05T06:40:00+01:00",
  "season": "2026/27",
  "competition": "Bundesliga",
  "currentRound": 9,
- "note": "Źródła: wettfreunde.net (kursy 1X2 9. kolejki, stan 2.11.2026; rynki bramkowe 3.11.2026), sportwetten24.com (kursy i absencje Stuttgart–Werder, Leipzig–Augsburg, Paderborn–Eintracht, HSV–Gladbach), nurdieraute.de (kadra HSV, 3.11), thefalse9.com (absencje Mainz–Bayern, 3.11), uefa.com (Liga Mistrzów 3–4.11), hessenschau.de (terminarz 10. kolejki); wcześniej: futboltotal, DFB Datencenter, bundesliga.com, kicker, flashscore. Stan 4.11.2026 rano. 7. kolejka usunięta (limit 3 kolejek). Mecze 8.11 poza 3-dniowym oknem typowania.",
+ "note": "Źródła: wettfreunde.net (kursy 1X2 9. kolejki 2.11; HSV–BMG 4.11 18:25; rynki bramkowe 3.11), footballpredictions.com (rynki dodatkowe i absencje meczów 8.11, stan 4.11), ig-schiedsrichter.de (sędziowie: Zwayer – Rheinderby, Schröder – Mainz–Bayern), bundesliga.com i futboltotal (wyniki LM 4.11, zapowiedzi LE), scfreiburg.com (terminarz LK), sportwetten24.com, thefalse9.com, nurdieraute.de; wcześniej: DFB Datencenter, kicker, flashscore. Stan 5.11.2026 rano. Pełna obsada sędziowska 9. kolejki jeszcze nieopublikowana.",
  "teams": {
   "BAY": {
    "id": "BAY",
@@ -3101,10 +3101,10 @@
      "capacity": 57000
     },
     "odds": {
-     "src": "sportwetten24.com – najlepsze kursy porównywarki (7Abet / Coldbet / BetLabel / Golazzo), stan na 3.11.2026; X 3.75 wg wettfreunde.net (2.11)",
-     "1": 2.4,
-     "X": 3.75,
-     "2": 2.8,
+     "src": "wettfreunde.net – najlepsze kursy (Betano/Bwin), stan na 4.11.2026 18:25; DNB 2 wg sportwetten24.com (3.11)",
+     "1": 2.47,
+     "X": 3.7,
+     "2": 2.75,
      "dnb2": 1.95
     },
     "staff": {
@@ -3144,7 +3144,7 @@
     "tip": {
      "decision": "NO BET",
      "reasons": [
-      "Kursy 2.40 / 3.74 / 2.80 to najlepsze ceny z różnych bukmacherów (suma prawdopodobieństw ok. 104%) – po zdjęciu marży ok. 40% / 26% / 34%.",
+      "Kursy 2.47 / 3.70 / 2.75 (najlepsze z kilku bukmacherów, 4.11) – suma prawdopodobieństw ok. 104%, po zdjęciu marży ok. 39% / 26% / 35%.",
       "HSV bez Remberga, Vieiry, Nadira i najpewniej Poulsena (Capaldo raczej też nie), wraca tylko Bornauw; najsłabszy bilans bramek w lidze poza Unionem (7:19) – ale rynek już to wycenia, gospodarze nie są wyraźnym faworytem.",
       "Gladbach pod Blessinem poprawił się (3 mecze bez porażki), lecz to mała próbka; DNB Gladbach 1.95 wymaga ok. 51% szans na wygraną wśród rozstrzygnięć – moja ocena ok. 46–48%, więc EV ujemne.",
       "Brak wiarygodnych kursów na gole, BTTS, kartki i rożne dla tego meczu z jednego sprawdzonego źródła – nie wyceniam ich na siłę.",
@@ -3209,7 +3209,15 @@
       "Kurs 2.25 na ponad 1,5 gola Mainz wymagałby ok. 44% – przy 8 golach straconych przez Bayern w 8 meczach to za dużo.",
       "Brak wiarygodnych kursów na handicap, BTTS i gole łącznie z jednego źródła – nie wyceniam na siłę."
      ]
-    }
+    },
+    "officials": [
+     {
+      "r": "GŁ",
+      "role": "Sędzia główny",
+      "name": "Robert Schröder",
+      "nat": "GER"
+     }
+    ]
    },
    {
     "id": "BL-2026-27-R9-BVB-ELV",
@@ -3233,7 +3241,7 @@
      "restDays": {
       "home": 3
      },
-     "homeAway": "BVB: niepokonany (5-3-0), najlepsza obrona ligi (6 straconych), ale tylko 14 goli; w środę 4.11 gra z Realem Betis w Lidze Mistrzów. Elversberg: 7. miejsce, 16:16, ostatnio 4:1 z Mainz, wcześniej 0:4 w Lipsku.",
+     "homeAway": "BVB: niepokonany w lidze (5-3-0), najlepsza obrona (6 straconych), ale tylko 14 goli; w środę 4.11 wygrał 2:1 z Realem Betis w LM (Fábio Silva 49', Karetsas 72'). Elversberg: 7. miejsce, 16:16, ostatnio 4:1 z Mainz, wcześniej 0:4 w Lipsku.",
      "stakes": "BVB (18 pkt) w walce o pierwsze miejsce z Bayernem; beniaminek Elversberg (13 pkt) w środku tabeli."
     },
     "tip": {
@@ -3241,7 +3249,7 @@
      "reasons": [
       "Kurs 1.31 na BVB = ok. 76% – moja ocena podobna (73–77%), brak przewagi.",
       "BVB strzela mało (14 goli w 8 meczach), więc handicap -1,5 byłby ryzykowny; brak sprawdzonych kursów na ten rynek.",
-      "Mecz 3 dni po spotkaniu z Betisem w LM – możliwa rotacja, składy nieznane.",
+      "Mecz 3 dni po wygranej 2:1 z Betisem w LM – możliwa rotacja, składy nieznane.",
       "Elversberg zdobył 16 goli w 8 meczach – nie ma podstaw, by grać na czyste konto BVB bez kursu."
      ]
     }
@@ -3315,7 +3323,7 @@
      "restDays": {
       "home": 3
      },
-     "homeAway": "Lipsk: 4 wygrane u siebie, 18:0 w bramkach; ostatnio 2:0 na Schalke. W środę 4.11 gra z Manchesterem City w LM. Augsburg: 6 meczów ligowych bez wygranej, ostatnio 1:2 z Freiburgiem; strzela sporo (18 goli), ale traci 15.",
+     "homeAway": "Lipsk: 4 wygrane u siebie, 18:0 w bramkach; ostatnio 2:0 na Schalke. W środę 4.11 przegrał 2:3 z Manchesterem City w LM (gole Baku, Nusa; Baumgartner pierwszy raz w wyjściowym składzie po urazie). Augsburg: 6 meczów ligowych bez wygranej, ostatnio 1:2 z Freiburgiem; strzela sporo (18 goli), ale traci 15.",
      "stakes": "Lipsk (15 pkt) walczy o czołową czwórkę; Augsburg (9 pkt) w serii bez zwycięstwa.",
      "h2h": [
       "Lipsk niepokonany w 17 meczach ligowych z Augsburgiem",
@@ -3328,7 +3336,7 @@
      "reasons": [
       "Kurs 1.50 na Lipsk = ok. 67% (po marży ok. 64%); moja ocena ok. 65–67% – EV ok. 0.",
       "Handicap -1,5 po 2.03 wymaga ok. 49% szans na wygraną 2+ golami – szacuję ok. 44–47% (Augsburg strzelił 18 goli w 8 meczach), EV ujemne.",
-      "Mecz 3 dni po LM z Manchesterem City – ryzyko rotacji i zmęczenia; Lipsk bez Ouédraogo i Guiu.",
+      "Mecz 3 dni po intensywnym meczu LM z Manchesterem City (2:3) – ryzyko rotacji i zmęczenia; Lipsk bez Ouédraogo i Guiu.",
       "Silne argumenty za Lipskiem (18:0 u siebie, 17 meczów bez porażki z Augsburgiem) są już w pełni w kursie; nie opieram typu na H2H."
      ]
     }
@@ -3394,10 +3402,72 @@
      "capacity": 49698
     },
     "odds": {
-     "src": "Wettfreunde.net – najlepszy kurs z 7 bukmacherów, stan na 2.11.2026",
+     "src": "Wettfreunde.net – najlepszy kurs (1X2, 2.11.2026); 1X, BTTS, under 2,5 – footballpredictions.com (4.11.2026)",
      "1": 4.35,
      "X": 4.3,
-     "2": 1.73
+     "2": 1.73,
+     "1X": 2.05,
+     "bttsY": 1.44,
+     "u25": 3.0
+    },
+    "officials": [
+     {
+      "r": "GŁ",
+      "role": "Sędzia główny",
+      "name": "Felix Zwayer",
+      "nat": "GER"
+     }
+    ],
+    "staff": {
+     "away": [
+      [
+       "Trener",
+       "Carles Martínez"
+      ]
+     ]
+    },
+    "info": {
+     "injuries": {
+      "home": [
+       "Ragnar Ache (udo)",
+       "Tim Dallinga (kolano)",
+       "Timo Hübers (kolano)",
+       "Imad Rondić (uraz)",
+       "Ellyes Skhiri (kostka)",
+       "Rav van den Berg (mięsień) – wg footballpredictions.com"
+      ],
+      "away": [
+       "Eliesse Ben Seghir (mięsień, po przerwie reprezentacyjnej)",
+       "Moussa Diaby (ścięgno podkolanowe)",
+       "Martin Terrier (mięsień)",
+       "Kennet Eichhorn (po przerwie reprezentacyjnej)",
+       "Niepewni: Christian Kofane (udo), Guéla Doué, Nathan Tella, Loïc Badé (wraca po urazie głowy)"
+      ]
+     },
+     "suspensions": {
+      "home": [],
+      "away": []
+     },
+     "restDays": {
+      "home": 7,
+      "away": 3
+     },
+     "homeAway": "Köln u siebie 2,2 pkt/mecz w ostatnich meczach (W-D-W-D-W), na wyjazdach 0,4; ostatnio 1:1 w Berlinie z Unionem. Leverkusen: dwie porażki ligowe z rzędu (0:3 z Hoffenheim, 2:4 ze Stuttgartem), ale komplet zwycięstw w LE (3 mecze, 0 straconych); w czwartek 5.11 gra u siebie z Marsylią w LE. Mecze Bayeru w lidze: 34 gole w 8 kolejkach.",
+     "stakes": "Derby Nadrenii: Leverkusen 6. (13 pkt) chce wrócić do czołówki, Köln 13. (9 pkt) chce odskoczyć od strefy spadkowej.",
+     "h2h": [
+      "2026-04-25 KOE 1:2 LEV (Bundesliga)",
+      "Bilans 29 meczów: Köln 7 – remisy 5 – Leverkusen 17 (wg footballpredictions.com)"
+     ]
+    },
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Kurs 1.73 na Leverkusen = ok. 58% (po marży ok. 55%); przy 3 dniach odpoczynku po LE, wielu absencjach w ataku (Terrier, Diaby, Ben Seghir, niepewny Kofane) i dwóch porażkach ligowych z rzędu nie widzę wartości po stronie faworyta.",
+      "Podwójna szansa 1X po 2.05 wymaga ok. 49% – moja ocena szans Kölnu na co najmniej remis ok. 46–49%, EV w okolicach zera.",
+      "Under 2,5 po 3.00 (ok. 33%) – szacunek ok. 36–39%, ale to niskie prawdopodobieństwo, a kurs pochodzi z jednego, niezweryfikowanego źródła; mecze Bayeru są bardzo bramkostrzelne (34 gole w 8 meczach).",
+      "BTTS Tak po 1.44 (ok. 69%) – szacuję ok. 62–66%, EV ujemne.",
+      "Kluczowe niewiadome (skład Leverkusen po czwartkowym meczu z Marsylią) – zbyt duża niepewność."
+     ]
     }
    },
    {
@@ -3413,10 +3483,56 @@
      "capacity": 34700
     },
     "odds": {
-     "src": "Wettfreunde.net – najlepszy kurs z 7 bukmacherów, stan na 2.11.2026",
+     "src": "Wettfreunde.net – najlepszy kurs (1X2, 2.11.2026); under 2,5: NEO.bet wg wettfreunde.net (3.11); 1X, DNB, BTTS Nie – footballpredictions.com (4.11)",
      "1": 1.53,
      "X": 4.6,
-     "2": 6.1
+     "2": 6.1,
+     "1X": 1.2,
+     "dnb1": 1.18,
+     "u25": 2.3,
+     "bttsN": 2.05
+    },
+    "info": {
+     "injuries": {
+      "home": [
+       "Philipp Treu (kostka)",
+       "Bekir Yılmaz (brak formy meczowej)"
+      ],
+      "away": [
+       "Ilić (choroba)",
+       "Markgraf (kolano)",
+       "Nsoki (mięsień)",
+       "Robert Skov (uraz)"
+      ]
+     },
+     "suspensions": {
+      "home": [],
+      "away": [
+       "Felix Uduokhai (2. mecz z dwumeczowego zawieszenia)"
+      ]
+     },
+     "restDays": {
+      "home": 3,
+      "away": 7
+     },
+     "homeAway": "Freiburg: 3. miejsce (16 pkt), rekordowe 18 goli po 8 kolejkach; u siebie 2,5 pkt/mecz w ostatnich meczach; ostatnio 2:1 w Augsburgu po odrobieniu strat. W czwartek 5.11 gra w Lidze Konferencji w Trabzonie (18:45) – daleka podróż. Union: 16. miejsce (7 pkt), 7:19 w bramkach, ale 4 mecze bez porażki (1-3-0, bramki 3:2); ostatnio 1:1 z Kölnem.",
+     "stakes": "Freiburg broni 3. miejsca; Union chce wyjść ze strefy spadkowej.",
+     "h2h": [
+      "2026-03-15 SCF 0:1 UNI",
+      "2025-11-01 UNI 0:0 SCF",
+      "2025-03-30 SCF 1:2 UNI",
+      "Bilans 17 meczów: Union 9 – remisy 5 – Freiburg 3"
+     ]
+    },
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Kurs 1.53 na Freiburg = ok. 65% (po marży ok. 62%); Freiburg w czwartek gra w Trabzonie, a Union nie przegrał 4 meczów – nie widzę przewagi po stronie gospodarzy.",
+      "Under 2,5 po 2.30 (ok. 43%) jest kuszący (4 ostatnie mecze Unionu ≤2 gole, Freiburg strzelił tylko 2 gole w 6 ostatnich H2H), ale sezonowe dane mówią przeciw: mecze Freiburga średnio 3,5 gola, Union stracił 19 goli w 8 kolejkach.",
+      "Moja ocena under 2,5 to ok. 42–47% – EV między −3% a +8%, zbyt szeroki przedział i prawdopodobieństwo poniżej 50%.",
+      "Kurs DNB 1.18 i 1X 1.20 z footballpredictions.com nie zgadza się z rynkiem 1X2 (1.53) – nie traktuję go jako wiarygodnej ceny.",
+      "Niepewność co do rotacji Freiburga po pucharach – zbyt duża, by grać."
+     ]
     }
    },
    {
@@ -3432,10 +3548,59 @@
      "capacity": 30150
     },
     "odds": {
-     "src": "Wettfreunde.net – najlepszy kurs z 7 bukmacherów, stan na 2.11.2026",
+     "src": "Wettfreunde.net – najlepszy kurs (1X2, 2.11.2026); pozostałe – footballpredictions.com (4.11.2026)",
      "1": 1.67,
      "X": 4.4,
-     "2": 4.8
+     "2": 4.8,
+     "12": 1.2,
+     "dnb1": 1.25,
+     "bttsY": 1.53,
+     "o25": 1.5
+    },
+    "info": {
+     "injuries": {
+      "home": [
+       "B. Conte",
+       "N. De Cat",
+       "L. Engelns",
+       "Valentin Gendrey",
+       "Albian Hajdari",
+       "Robin Hranáč",
+       "Patrick Wimmer",
+       "Niepewny: Vladimír Coufal"
+      ],
+      "away": [
+       "J. Bachmann",
+       "Soufiane El-Faouzi",
+       "Anthony Gantenbein",
+       "Robin Gosens",
+       "M. Sylla",
+       "L. Vozár (choroba)",
+       "Maximilian Wöber"
+      ]
+     },
+     "suspensions": {
+      "home": [],
+      "away": []
+     },
+     "restDays": {
+      "home": 3,
+      "away": 8
+     },
+     "homeAway": "Hoffenheim: 12. miejsce (9 pkt), 14:16; w ostatnich tygodniach odpadł z DFB-Pokal po karnych z Holstein Kiel i przegrał 0:2 w Bremie; w czwartek 5.11 gra w Londynie z Crystal Palace w LE. Wraca Prass po zawieszeniu. Schalke: 17. miejsce (6 pkt), tylko 4 gole w 8 kolejkach (4:9); ostatnio 0:2 z Lipskiem. Edin Džeko znów zdrowy.",
+     "stakes": "Mecz w dolnej części tabeli – Schalke w strefie spadkowej, Hoffenheim 3 pkt nad nią.",
+     "h2h": [
+      "Bilans 30 meczów: Hoffenheim 14 – remisy 7 – Schalke 9; BTTS w 60%, ponad 2,5 gola w 57% (wg footballpredictions.com)"
+     ]
+    },
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Kurs 1.67 na Hoffenheim = ok. 60% (po marży ok. 57%); TSG w słabej formie (porażki z Kiel w pucharze i w Bremie) i 3 dni po meczu w Londynie – rynek nie zostawia przewagi.",
+      "Schalke strzeliło tylko 4 gole w 8 meczach ligowych, więc BTTS Tak po 1.53 (ok. 65%) i ponad 2,5 po 1.50 (ok. 67%) wyglądają na przeszacowane – ale brak ceny na BTTS Nie / under 2,5 z wiarygodnego źródła.",
+      "Bilans goli Hoffenheim (mecze średnio ok. 3,75 gola) przeczy niskim wynikom Schalke – sprzeczne sygnały.",
+      "Długa lista absencji po obu stronach i niepewny skład TSG po pucharach – zbyt duża niepewność."
+     ]
     }
    }
   ],

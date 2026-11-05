@@ -1,9 +1,9 @@
 {
- "updated": "2026-11-04T06:55:00+01:00",
+ "updated": "2026-11-05T06:55:00+01:00",
  "season": "2026/27",
  "competition": "Ekstraklasa",
  "currentRound": 14,
- "note": "Źródła: ekstraklasa.org i betexplorer (terminarz 14. kolejki), blog LV BET (kursy 1X2 na piątkowe mecze, 4.11), kanalsportowy.pl i polskiezf.pl (kontuzje Wisły Kraków), goal.pl, wcześniejsze aktualizacje (wyniki i tabela po 13. kolejce). Tabela po 13. kolejce (LPO, POG, JAG, WPL z zaległymi meczami); forma: 5 ostatnich meczów ligowych. Obsada sędziowska 14. kolejki niepotwierdzona, kursy na mecze sobotnie niedostępne (stan 4.11 rano). Godziny w czasie zimowym (CET).",
+ "note": "Źródła: ekstraklasa.org i kkslech.com (wyniki i tabela po 13. kolejce), blog LV BET (kursy na mecze piątkowe i sobotnie, stan 5.11), kickoff.co.uk (kursy Bet365 Górnik–Wieczysta), pogonsportnet.pl (zawieszenie Cojocaru), sts.pl i gramgrubo.pl (czwartkowe mecze pucharowe Lecha i Jagiellonii), goal.pl. Tabela po 13. kolejce (LPO, POG, JAG, WPL z zaległymi meczami); forma: 5 ostatnich meczów ligowych. Obsada sędziowska 14. kolejki niepotwierdzona (stan 5.11 rano); kursy na mecze niedzielne niedostępne. Godziny w czasie zimowym (CET).",
  "teams": {
   "LEG": {
    "id": "LEG",
@@ -1633,7 +1633,7 @@
      ]
     },
     "odds": {
-     "src": "LV BET (blog.lvbet.pl), stan na 4.11 rano – tylko 1X2",
+     "src": "LV BET (blog.lvbet.pl), stan na 5.11 rano (bez zmian) – tylko 1X2",
      "1": 1.95,
      "X": 3.75,
      "2": 3.5
@@ -1677,7 +1677,7 @@
      ]
     },
     "odds": {
-     "src": "LV BET (blog.lvbet.pl), stan na 4.11 rano – tylko 1X2",
+     "src": "LV BET (blog.lvbet.pl), stan na 5.11 rano (bez zmian) – tylko 1X2",
      "1": 1.8,
      "X": 3.9,
      "2": 4.0
@@ -1702,13 +1702,35 @@
       "away": [
        "Abdoul Tapsoba (4. żółta kartka)"
       ]
-     }
+     },
+     "homeAway": "KOR w sezonie 5-3-5, bramki 14:19; RAD 3-2-8, 15:29 (po 13 m.)",
+     "stakes": "10. Korona (18 pkt) vs 15. Radomiak (11 pkt) – Radomiak w strefie spadkowej",
+     "h2h": [
+      "2026-02-13 RAD 0:2 KOR",
+      "2025-08-08 KOR 3:0 RAD",
+      "2025-03-30 KOR 1:3 RAD",
+      "2024-09-20 RAD 4:0 KOR"
+     ]
     },
     "tip": {
      "decision": "NO BET",
      "reasons": [
-      "Brak opublikowanych kursów bukmacherskich (stan 4.11 rano) — bez kursu nie da się policzyć EV. Analiza zostanie uzupełniona przy kolejnej aktualizacji."
+      "Kurs 1,67–1,73 na Koronę wycenia ją na 58–60% (ok. 55% bez marży); przy słabym ataku Korony (14 goli w 13 m.) oceniam ok. 50% — EV ujemne (≈ −0,15).",
+      "Radomiak traci najwięcej goli w lidze (29), ale ostatnio wygrał 3:1 ze Śląskiem; absencja Tapsoby to zbyt mało, by przesunąć wycenę.",
+      "Rynki goli (o2,5 1,70 / BTTS 1,70) blisko mojej wyceny — brak przewagi; brak danych xG i dom/wyjazd."
      ]
+    },
+    "odds": {
+     "src": "LV BET (blog.lvbet.pl), stan na 5.11 rano – tabela kursów (nagłówek strony: 1,73 / 3,90 / 4,50)",
+     "1": 1.67,
+     "X": 4.2,
+     "2": 4.8,
+     "1X": 1.2,
+     "X2": 2.25,
+     "o25": 1.7,
+     "u25": 2.15,
+     "bttsY": 1.7,
+     "bttsN": 2.12
     }
    },
    {
@@ -1721,7 +1743,26 @@
     "tip": {
      "decision": "NO BET",
      "reasons": [
-      "Brak opublikowanych kursów bukmacherskich (stan 4.11 rano) — bez kursu nie da się policzyć EV. Analiza zostanie uzupełniona przy kolejnej aktualizacji."
+      "Rynek wycenia obie drużyny równo (2,55 / 2,55) mimo 12 pkt różnicy w tabeli — moja ocena Piasta ok. 39–40% daje EV ≈ 0 (0,40 × 2,55 − 1 = +0,02), poniżej progu.",
+      "Brak kursu DNB/podwójnej szansy i rynków goli — nie da się wybrać bezpieczniejszego rynku.",
+      "Brak informacji o absencjach i danych dom/wyjazd; H2H z lat 2023–2025 nie jest podstawą typu."
+     ]
+    },
+    "odds": {
+     "src": "LV BET (blog.lvbet.pl), stan na 5.11 rano – tylko 1X2",
+     "1": 2.55,
+     "X": 3.6,
+     "2": 2.55
+    },
+    "info": {
+     "homeAway": "SLA w sezonie 2-3-8, bramki 17:25; PIA 6-3-4, 24:20 (po 13 m.)",
+     "stakes": "16. Śląsk (9 pkt) broni się przed spadkiem; 7. Piast (21 pkt) bez porażki w 5 ostatnich meczach ligowych",
+     "h2h": [
+      "2025-02-03 SLA 1:3 PIA",
+      "2024-12-03 SLA 1:1 PIA",
+      "2024-07-28 PIA 2:0 SLA",
+      "2024-03-30 PIA 2:2 SLA",
+      "2023-09-23 SLA 1:0 PIA"
      ]
     }
    },
@@ -1735,8 +1776,29 @@
     "tip": {
      "decision": "NO BET",
      "reasons": [
-      "Brak opublikowanych kursów bukmacherskich (stan 4.11 rano) — bez kursu nie da się policzyć EV. Analiza zostanie uzupełniona przy kolejnej aktualizacji."
+      "Kurs 1,60 na Górnika = ok. 62% (≈ 59% bez marży); własna ocena ok. 56–58% — Górnik zremisował 4 ostatnie mecze ligowe i strzela mało (21 goli w 13 m.). EV ≈ −0,08.",
+      "DNB 1,25 (80%) i 1X 1,18 (85%) wyceniają Górnika wyżej, niż wskazuje jego forma — brak wartości przy niskim kursie.",
+      "Over 2,5 @1,62 (62%) i BTTS @1,67 (60%) zbliżone do mojej wyceny (średnio 2,5 gola w meczach Górnika) — brak przewagi."
      ]
+    },
+    "odds": {
+     "src": "Bet365 (przez kickoff.co.uk), stan na 5.11 rano; LV BET: 1,60 / 4,30 / 5,45",
+     "1": 1.6,
+     "X": 3.9,
+     "2": 4.75,
+     "1X": 1.18,
+     "X2": 2.3,
+     "12": 1.25,
+     "dnb1": 1.25,
+     "dnb2": 3.75,
+     "o25": 1.62,
+     "u25": 2.25,
+     "bttsY": 1.67,
+     "bttsN": 2.1
+    },
+    "info": {
+     "homeAway": "GZA w sezonie 8-4-1, bramki 21:11; WIE 2-2-9, 17:26 (po 13 m.)",
+     "stakes": "2. Górnik (28 pkt, 4 remisy z rzędu) goni lidera; 18. Wieczysta (8 pkt) zamyka tabelę"
     }
    },
    {
@@ -1750,16 +1812,53 @@
      "suspensions": {
       "home": [],
       "away": [
-       "Valentin Cojocaru (czerwona kartka z Rakowem)",
+       "Valentin Cojocaru (bramkarz; zawieszony na 1 mecz po czerwonej kartce z Rakowem)",
        "Lukas Willen (czerwona – 2. żółta z Rakowem)"
       ]
-     }
+     },
+     "homeAway": "WID w sezonie 1-8-4, bramki 17:19 (13 m.); POG 7-3-2, 20:12 (12 m.)",
+     "stakes": "4. Pogoń (24 pkt, mecz zaległy) w walce o podium; 14. Widzew (11 pkt) tuż nad strefą spadkową",
+     "h2h": [
+      "2026-02-28 POG 1:0 WID",
+      "2025-12-02 POG 0:1 WID",
+      "2025-08-22 WID 1:2 POG",
+      "2025-02-22 WID 0:4 POG",
+      "2024-08-17 POG 2:0 WID"
+     ]
     },
     "tip": {
-     "decision": "NO BET",
+     "decision": "BET",
+     "market": "Podwójna szansa X2 (remis lub Pogoń)",
+     "odds": 1.75,
+     "prob": 0.6,
+     "ev": 0.05,
+     "rating": 6,
+     "risk": "średnie",
      "reasons": [
-      "Brak opublikowanych kursów bukmacherskich (stan 4.11 rano) — bez kursu nie da się policzyć EV. Analiza zostanie uzupełniona przy kolejnej aktualizacji."
-     ]
+      "Duża różnica jakości w lidze: Pogoń 2,0 pkt/mecz i bilans bramek +8, Widzew 0,85 pkt/mecz i −2 — rynek mimo to robi faworytem Widzew (2,20).",
+      "Widzew to drużyna remisowa: 8 remisów i tylko 1 zwycięstwo w 13 meczach — remis jest częścią tego rynku.",
+      "Widzew bez zwycięstwa w 5 ostatnich meczach ligowych (3 remisy, 2 porażki).",
+      "Pogoń przed porażką 1:3 w Częstochowie wygrała 4 kolejne mecze ligowe.",
+      "Moja wycena: Widzew ok. 40%, remis ok. 30%, Pogoń ok. 30% → X2 ok. 60% wobec ok. 57% z kursu."
+     ],
+     "risks": [
+      "Pogoń bez podstawowego bramkarza Cojocaru i Willena (obaj czerwone kartki z Rakowem) — rezerwowy bramkarz to realne osłabienie.",
+      "Rynek mocno faworyzuje Widzew, co może odzwierciedlać informacje niewidoczne w tabeli (np. jakość gry, kadra).",
+      "Kursy tylko z jednego bukmachera, a strona podaje dwie wersje kursów — wycena niepewna.",
+      "Brak danych xG oraz bilansu u siebie/na wyjeździe."
+     ],
+     "value": "Kurs 1,75 wycenia X2 na ok. 57% (ok. 54% bez marży), a forma i tabela sugerują ok. 60%. Przewaga niewielka (EV ok. +5%) — typ umiarkowany, nie mocny.",
+     "stake": "maks. 1% bankrollu"
+    },
+    "odds": {
+     "src": "LV BET (blog.lvbet.pl), stan na 5.11 rano (w widżecie strony: X 3,60, 2 3,00)",
+     "1": 2.2,
+     "X": 3.85,
+     "2": 3.05,
+     "1X": 1.42,
+     "X2": 1.75,
+     "bttsY": 1.67,
+     "bttsN": 2.15
     }
    },
    {
@@ -1768,7 +1867,19 @@
     "time": "14:45",
     "home": "JAG",
     "away": "GKS",
-    "status": "ns"
+    "status": "ns",
+    "info": {
+     "stakes": "9. Jagiellonia (18 pkt, mecz zaległy) vs 6. GKS (21 pkt); Jagiellonia gra w czwartek 5.11 z Levski Sofia w europejskich pucharach (3 dni przerwy)",
+     "restDays": {
+      "home": 3
+     }
+    },
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Brak opublikowanych kursów bukmacherskich (stan 5.11 rano) — bez kursu nie da się policzyć EV. Analiza zostanie uzupełniona przy kolejnej aktualizacji."
+     ]
+    }
    },
    {
     "id": "2026-27-R14-LEG-RAK",
@@ -1776,7 +1887,16 @@
     "time": "17:30",
     "home": "LEG",
     "away": "RAK",
-    "status": "ns"
+    "status": "ns",
+    "info": {
+     "stakes": "3. Legia (24 pkt) vs 17. Raków (9 pkt, wygrał 3:1 z Pogonią)"
+    },
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Brak opublikowanych kursów bukmacherskich (stan 5.11 rano) — bez kursu nie da się policzyć EV. Analiza zostanie uzupełniona przy kolejnej aktualizacji."
+     ]
+    }
    },
    {
     "id": "2026-27-R14-LPO-ZAG",
@@ -1784,7 +1904,19 @@
     "time": "20:15",
     "home": "LPO",
     "away": "ZAG",
-    "status": "ns"
+    "status": "ns",
+    "info": {
+     "stakes": "1. Lech (31 pkt) vs 5. Zagłębie (22 pkt); Lech gra w czwartek 5.11 z Benficą w Lidze Europy (3 dni przerwy)",
+     "restDays": {
+      "home": 3
+     }
+    },
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Brak opublikowanych kursów bukmacherskich (stan 5.11 rano) — bez kursu nie da się policzyć EV. Analiza zostanie uzupełniona przy kolejnej aktualizacji."
+     ]
+    }
    }
   ],
   "15": [
@@ -2062,5 +2194,10 @@
    "form": "WLLLL"
   }
  ],
- "picks": []
+ "picks": [
+  {
+   "match": "2026-27-R14-WID-POG",
+   "rank": 1
+  }
+ ]
 }

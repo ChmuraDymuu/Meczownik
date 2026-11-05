@@ -1,9 +1,9 @@
 {
- "updated": "2026-11-04T05:40:00+01:00",
+ "updated": "2026-11-05T05:45:00+01:00",
  "season": "2026/27",
  "competition": "Premier League",
  "currentRound": 10,
- "note": "Źródła (4.11): brentfordfc.com (BRE–NFO: minuty goli, zmiany, składy, frekwencja), premierleague.com i Yahoo/Goodison News (obsada 10. kolejki), Oddsportal i Bets.co.za (1X2, 3.11), DraftKings przez ESPN (gole/BTTS), oddslot (BC.Game), Fantasy Football Scout i Fantasy Football Hub (kontuzje, 3.11), fifplay i soccergraph (terminarz 11. kolejki), UEFA (terminarz LM). Wcześniej: ESPN, theScore, Sky Sports, Racing Post, Opta. Godziny w czasie polskim (CET).",
+ "note": "Źródła (5.11): Oddsportal (1X2), rg.org – BetRivers/LetsBet/FanDuel/DraftKings (gole, AH, 3.11), soccergraph i premierleague.com (obsada 10. kolejki), Fantasy Football Scout (2–4.11) i Fantasy Football Hub (kontuzje, pauzy), oddslot (BC.Game – DC), gainblers (H2H), bettingnews, beIN Sports, Sky Sports, ESPN, avfc.co.uk, ontourfootball (wyniki LM 3–4.11). Wcześniej: brentfordfc.com, ESPN, Opta. Godziny w czasie polskim (CET).",
  "teams": {
   "ARS": {
    "id": "ARS",
@@ -410,12 +410,16 @@
  ],
  "picks": [
   {
-   "match": "PL-2026-27-R10-ARS-HUL",
+   "match": "PL-2026-27-R10-CRY-LIV",
    "rank": 1
   },
   {
-   "match": "PL-2026-27-R10-LEE-TOT",
+   "match": "PL-2026-27-R10-ARS-HUL",
    "rank": 2
+  },
+  {
+   "match": "PL-2026-27-R10-LEE-TOT",
+   "rank": 3
   }
  ],
  "rounds": {
@@ -1965,10 +1969,10 @@
     "away": "COV",
     "status": "ns",
     "odds": {
-     "src": "Oddsportal (4.11); DC – BC.Game/oddslot (3.11)",
+     "src": "Oddsportal (5.11); DC – BC.Game/oddslot (3.11)",
      "1": 1.71,
      "X": 4.0,
-     "2": 4.75,
+     "2": 4.8,
      "1X": 1.2,
      "X2": 2.1,
      "12": 1.25
@@ -1980,8 +1984,9 @@
        "Amenda (łydka)",
        "Eccles (kostka)",
        "Woolfenden (kolano)",
-       "Wright (udo)",
-       "Bobby Thomas (łydka – 50%)"
+       "Haji Wright (udo – wrócił na boisko treningowe)",
+       "Bobby Thomas (łydka – 50%)",
+       "Frank Onyeka (pachwina – opuścił ostatni mecz)"
       ]
      },
      "suspensions": {
@@ -2048,8 +2053,8 @@
     "away": "TOT",
     "status": "ns",
     "odds": {
-     "src": "Oddsportal 1X2 (4.11); gole/BTTS – DraftKings przez ESPN (4.11)",
-     "1": 2.6,
+     "src": "Oddsportal 1X2 (5.11); gole/BTTS – DraftKings przez ESPN (4.11)",
+     "1": 2.63,
      "X": 3.4,
      "2": 2.75,
      "o25": 1.91,
@@ -2115,10 +2120,10 @@
     "away": "HUL",
     "status": "ns",
     "odds": {
-     "src": "Oddsportal 1X2 (4.11); handicap/gole/BTTS – DraftKings przez ESPN (4.11)",
-     "1": 1.15,
+     "src": "Oddsportal 1X2 (5.11); handicap/gole/BTTS – DraftKings przez ESPN (4.11)",
+     "1": 1.17,
      "X": 8.0,
-     "2": 19.0,
+     "2": 17.0,
      "bttsY": 2.3,
      "bttsN": 1.57
     },
@@ -2126,7 +2131,7 @@
      "injuries": {
       "home": [
        "Bukayo Saka (udo/czworogłowy)",
-       "William Saliba (plecy – wrócił do treningów 3.11)"
+       "William Saliba (plecy – wg Artety 'fit to play', 75% wg FPL)"
       ],
       "away": []
      },
@@ -2141,7 +2146,7 @@
       "away": 7
      },
      "homeAway": "Arsenal: 14:5 w bramkach w 9 meczach (2,1 gola na mecz łącznie), ostatnio 2:0 z Evertonem i 1:0 w Liverpoolu. Hull: 11:10 (2,3 gola/mecz), 2:2 z Ipswich (31.10).",
-     "stakes": "Arsenal lider (24 pkt) gra w środę 4.11 w Pradze ze Slavią w LM – możliwa rotacja. Hull (beniaminek) 11. z 11 pkt. Handicap Arsenal −2,5 po 2,20; ponad 3,5 gola 2,25 / poniżej 3,5 1,62."
+     "stakes": "Arsenal lider (24 pkt) wygrał w środę 4.11 2:1 ze Slavią w Pradze (LM; gole Madueke i Gyökeres) – 2 dni odpoczynku mniej niż rywal, możliwa rotacja. Hull (beniaminek) 11. z 11 pkt. Handicap Arsenal −2,5 po 2,20; ponad 3,5 gola 2,25 / poniżej 3,5 1,62 (DraftKings), BetRivers 3.11: ponad 3,5 2,17 / poniżej 1,67."
     },
     "tip": {
      "decision": "BET",
@@ -2175,10 +2180,10 @@
     "away": "NEW",
     "status": "ns",
     "odds": {
-     "src": "Oddsportal 1X2 (4.11); DC – BC.Game/oddslot",
-     "1": 2.05,
-     "X": 3.7,
-     "2": 3.4,
+     "src": "Oddsportal 1X2 (5.11); DC – BC.Game/oddslot",
+     "1": 2.1,
+     "X": 3.65,
+     "2": 3.5,
      "1X": 1.36,
      "X2": 1.7,
      "12": 1.28
@@ -2208,9 +2213,9 @@
     "away": "MCI",
     "status": "ns",
     "odds": {
-     "src": "Oddsportal 1X2 (4.11); gole/BTTS – DraftKings przez ESPN (4.11)",
-     "1": 4.6,
-     "X": 4.0,
+     "src": "Oddsportal 1X2 (5.11); gole/BTTS – DraftKings przez ESPN (4.11)",
+     "1": 4.75,
+     "X": 4.1,
      "2": 1.74,
      "o25": 1.59,
      "u25": 2.25,
@@ -2232,7 +2237,7 @@
       "away": 2
      },
      "homeAway": "Forest: 6:12 w bramkach, 0:2 w Brentford (31.10). City: dwie porażki z rzędu (1:2 w Villa, 0:1 z Brighton).",
-     "stakes": "Forest 19. (6 pkt) – walka o utrzymanie. City 2. (21 pkt) gra w środę 4.11 w Lipsku (LM) – 2 dni odpoczynku mniej niż rywal."
+     "stakes": "Forest 19. (6 pkt) – walka o utrzymanie. City 2. (21 pkt) wygrało w środę 4.11 3:2 w Lipsku (LM, decydujący gol Haalanda) – 2 dni odpoczynku mniej niż rywal."
     },
     "tip": {
      "decision": "NO BET",
@@ -2251,10 +2256,87 @@
     "away": "BRE",
     "status": "ns",
     "odds": {
-     "src": "Oddsportal 1X2 (stan na 28.10)",
-     "1": 1.86,
-     "X": 3.9,
-     "2": 3.8
+     "src": "Oddsportal 1X2 (5.11); DC – BC.Game/oddslot; gole – BetRivers przez rg.org (3.11)",
+     "1": 1.93,
+     "X": 4.0,
+     "2": 3.8,
+     "1X": 1.25,
+     "X2": 1.91,
+     "12": 1.25,
+     "o25": 1.57,
+     "u25": 2.35
+    },
+    "officials": [
+     {
+      "r": "GŁ",
+      "role": "Sędzia główny",
+      "name": "Michael Oliver",
+      "nat": "ENG"
+     },
+     {
+      "r": "AS1",
+      "role": "Asystent 1",
+      "name": "Stuart Burt"
+     },
+     {
+      "r": "AS2",
+      "role": "Asystent 2",
+      "name": "James Mainwaring"
+     },
+     {
+      "r": "4.",
+      "role": "Sędzia techniczny",
+      "name": "Steve Martin"
+     },
+     {
+      "r": "VAR",
+      "role": "Sędzia VAR",
+      "name": "Stuart Attwell"
+     },
+     {
+      "r": "AVAR",
+      "role": "Asystent VAR",
+      "name": "Will Finnie"
+     }
+    ],
+    "info": {
+     "injuries": {
+      "home": [
+       "Mitoma (ścięgno – ok. 22.11)",
+       "Ferguson (kostka)",
+       "Tzimas (kolano)",
+       "Yokhana (ok. 22.11)",
+       "Kadıoğlu (biodro – 75%)",
+       "Azeez i Struijk (ścięgno – planowany powrót 8.11)"
+      ],
+      "away": [
+       "Fábio Carvalho (ok. 23.11)",
+       "Dasilva (ścięgno)",
+       "Furo",
+       "Henry (biodro)",
+       "Milambo (kolano)"
+      ]
+     },
+     "suspensions": {
+      "home": [],
+      "away": []
+     },
+     "restDays": {
+      "home": 7,
+      "away": 7
+     },
+     "homeAway": "Brighton u siebie 10 pkt w 4 meczach, bilans sezonu 24:7 (najlepsza różnica bramek w lidze, m.in. 5:0 z Palace); ostatnio 1:0 w Manchesterze z City. Brentford na wyjazdach 4 pkt w 4 meczach, tylko 1 porażka w sezonie (5 remisów), 16:9; ostatnio 2:0 z Forest.",
+     "stakes": "Brighton 3. (19 pkt), Brentford 6. (14 pkt). Oba zespoły grały ostatnio w sobotę 31.10."
+    },
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Kurs 1,93 na Brighton = ok. 52% (bez marży ok. 50%); szacuję szansę gospodarzy na 52–54% – EV ok. +2–4%, za mało przy ryzyku.",
+      "Brentford przegrał w lidze tylko raz i zremisował 5 z 9 meczów – remis realny, a nie ma kursu DNB do porównania.",
+      "Ponad 2,5 gola po 1,57 (ok. 61% bez marży) – Poisson z bilansów daje ok. 55–58%, brak wartości; under 2,35 ma minimalne EV przy p < 50%.",
+      "Brighton bez Mitomy, Fergusona i Tzimasa; Kadıoğlu niepewny.",
+      "Brak wyraźnej przewagi na żadnym rynku – NO BET."
+     ]
     }
    },
    {
@@ -2265,10 +2347,98 @@
     "away": "LIV",
     "status": "ns",
     "odds": {
-     "src": "Oddsportal 1X2 (stan na 28.10)",
-     "1": 4.3,
-     "X": 4.1,
-     "2": 1.76
+     "src": "Oddsportal 1X2 (5.11); gole i handicap – BetRivers/LetsBet przez rg.org (3.11)",
+     "1": 5.4,
+     "X": 4.33,
+     "2": 1.6,
+     "o35": 2.35,
+     "u35": 1.57
+    },
+    "officials": [
+     {
+      "r": "GŁ",
+      "role": "Sędzia główny",
+      "name": "Tony Harrington",
+      "nat": "ENG"
+     },
+     {
+      "r": "AS1",
+      "role": "Asystent 1",
+      "name": "Mat Wilkes"
+     },
+     {
+      "r": "AS2",
+      "role": "Asystent 2",
+      "name": "Steve Meredith"
+     },
+     {
+      "r": "4.",
+      "role": "Sędzia techniczny",
+      "name": "Tom Kirk"
+     },
+     {
+      "r": "VAR",
+      "role": "Sędzia VAR",
+      "name": "Michael Salisbury"
+     },
+     {
+      "r": "AVAR",
+      "role": "Asystent VAR",
+      "name": "Constantine Hatzidakis"
+     }
+    ],
+    "info": {
+     "injuries": {
+      "home": [
+       "Ismaïla Sarr (pachwina)",
+       "Takehiro Tomiyasu (łydka)",
+       "Chadi Riad (kolano)",
+       "Quinten Timber i Jørgen Strand Larsen (wracają po urazach – 75%)"
+      ],
+      "away": [
+       "Hugo Ekitike (Achilles)",
+       "Conor Bradley (kolano)",
+       "Jeremie Frimpong (ścięgno)",
+       "Giovanni Leoni (kolano)",
+       "Ryan Gravenberch (pęknięcie pięty – niepewny)"
+      ]
+     },
+     "suspensions": {
+      "home": [
+       "Jean-Philippe Mateta (czerwona kartka w Tottenhamie – pauza w 10.–12. kolejce, odwołanie odrzucone)"
+      ],
+      "away": []
+     },
+     "restDays": {
+      "home": 2,
+      "away": 3
+     },
+     "homeAway": "Palace: 3 porażki z rzędu bez strzelonego gola (0:5 w Brighton, 0:2 z Newcastle, 0:2 w Tottenhamie), u siebie 3 pkt w 4 meczach, 9:21 – najwięcej straconych w lidze. Liverpool: na wyjazdach 10 pkt w 4 meczach, 11:9 w sezonie; w środę 4.11 przegrał 2:3 w Stambule z Fenerbahçe (LM) przy 5 zmianach w składzie (Wirtz, Isak, Gakpo na ławce).",
+     "stakes": "Palace 18. (7 pkt) gra w czwartek 5.11 w Lidze Europy z Hoffenheim – tylko 2 dni przerwy przed niedzielą. Liverpool 5. (15 pkt) po porażce z Arsenalem 0:1 i w LM chce odpowiedzieć."
+    },
+    "tip": {
+     "decision": "BET",
+     "market": "Poniżej 3,5 gola",
+     "odds": 1.57,
+     "prob": 0.69,
+     "ev": 0.083,
+     "rating": 7,
+     "risk": "średnie",
+     "reasons": [
+      "Palace nie strzelił gola w 3 ostatnich meczach (0:5, 0:2, 0:2), a bez zawieszonego Mateti (pauza 10.–12. kolejka) traci głównego napastnika.",
+      "Mecze Liverpoolu: 20 goli w 9 kolejkach (2,2/mecz); Liverpool strzela 1,2 gola na mecz – nie wygrywa wysoko.",
+      "Palace gra w czwartek w Lidze Europy (Hoffenheim) – 2 dni odpoczynku, możliwa rotacja i niższe tempo.",
+      "Kurs 1,57 = ok. 64% (bez marży ok. 61%); Poisson przy łącznie ok. 2,6–2,8 oczekiwanych gola daje ok. 70–74%, ostrożnie przyjmuję 69%.",
+      "Rynek 1X2 (Liverpool 1,60) i handicap −1 (1,92) bez wartości – Liverpool wygrywa skromnie, a w środę przegrał 2:3 w Stambule.",
+      "Wybrany rynek goli zamiast zwycięzcy – mniejsza zależność od formy Liverpoolu po porażkach."
+     ],
+     "risks": [
+      "Palace traci dużo (21 goli w 9 meczach, 0:5 w Brighton) – Liverpool może strzelić 3–4.",
+      "Mecz Liverpoolu w Stambule zakończył się 5 golami; problemy w obronie przy stałych fragmentach (słowa Iraoli).",
+      "Kursy na gole z jednego źródła (BetRivers, 3.11) – przed meczem sprawdzić aktualny kurs."
+     ],
+     "value": "Kurs 1,57 → 64% z kursu vs moje 69%; EV ≈ +8%.",
+     "stake": "1–2% bankrollu"
     }
    },
    {
@@ -2279,10 +2449,75 @@
     "away": "BOU",
     "status": "ns",
     "odds": {
-     "src": "Oddsportal 1X2 (stan na 28.10)",
-     "1": 3.75,
-     "X": 3.8,
-     "2": 1.95
+     "src": "Oddsportal 1X2 (5.11); gole – BetRivers przez rg.org (3.11)",
+     "1": 3.8,
+     "X": 3.75,
+     "2": 1.95,
+     "o25": 1.66,
+     "u25": 2.2
+    },
+    "officials": [
+     {
+      "r": "GŁ",
+      "role": "Sędzia główny",
+      "name": "Simon Hooper",
+      "nat": "ENG"
+     },
+     {
+      "r": "AS1",
+      "role": "Asystent 1",
+      "name": "Edward Smart"
+     },
+     {
+      "r": "AS2",
+      "role": "Asystent 2",
+      "name": "Alistair Nelson"
+     },
+     {
+      "r": "4.",
+      "role": "Sędzia techniczny",
+      "name": "Farai Hallam"
+     },
+     {
+      "r": "VAR",
+      "role": "Sędzia VAR",
+      "name": "Peter Bankes"
+     },
+     {
+      "r": "AVAR",
+      "role": "Asystent VAR",
+      "name": "James Bell"
+     }
+    ],
+    "info": {
+     "injuries": {
+      "home": [],
+      "away": [
+       "Julián Araujo (udo)",
+       "Alex Scott (udo – ok. 21.11)",
+       "Tóth (ścięgno)",
+       "Milosavljević (udo)"
+      ]
+     },
+     "restDays": {
+      "home": 7,
+      "away": 7
+     },
+     "homeAway": "Ipswich w 5 ostatnich 1W-3R-1P (8:8): 2:2 w Hull, 1:1 z Forest, 2:3 w City, 2:1 z Fulham. Bournemouth: 3 wygrane z rzędu bez straconego gola (2:0 z Sunderlandem, 3:0 w Manchesterze z United, 2:0 z Leeds).",
+     "stakes": "Ipswich 14. (11 pkt, 14:18), Bournemouth 8. (12 pkt, 14:13).",
+     "h2h": [
+      "2025-04-02 BOU 1:2 IPS",
+      "2024-12-08 IPS 1:2 BOU"
+     ]
+    },
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Kurs 1,95 na Bournemouth = ok. 51% (bez marży ok. 49%); moja ocena 46–50% – brak przewagi.",
+      "Ponad 2,5 gola po 1,66 (ok. 57% bez marży) – Poisson z bilansów (mecze Ipswich 3,6 gola, Bournemouth 3,0) daje ok. 56–58%: wycena rynkowa trafna.",
+      "Seria Bournemouth (3 czyste konta) kontra Ipswich, który strzelał w każdym z 5 ostatnich meczów – sprzeczne sygnały.",
+      "Brak informacji o kontuzjach Ipswich – niepełne dane."
+     ]
     }
    },
    {
@@ -2293,10 +2528,86 @@
     "away": "CHE",
     "status": "ns",
     "odds": {
-     "src": "Oddsportal 1X2 (stan na 28.10)",
-     "1": 3.4,
-     "X": 3.5,
-     "2": 2.15
+     "src": "Oddsportal 1X2 (5.11); gole – LetsBet/BetRivers przez rg.org (3.11)",
+     "1": 3.6,
+     "X": 3.65,
+     "2": 2.05,
+     "o25": 1.83,
+     "u25": 1.93
+    },
+    "officials": [
+     {
+      "r": "GŁ",
+      "role": "Sędzia główny",
+      "name": "Jarred Gillett",
+      "nat": "ENG"
+     },
+     {
+      "r": "AS1",
+      "role": "Asystent 1",
+      "name": "Neil Davies"
+     },
+     {
+      "r": "AS2",
+      "role": "Asystent 2",
+      "name": "Nick Greenhalgh"
+     },
+     {
+      "r": "4.",
+      "role": "Sędzia techniczny",
+      "name": "John Busby"
+     },
+     {
+      "r": "VAR",
+      "role": "Sędzia VAR",
+      "name": "Nick Hopton"
+     },
+     {
+      "r": "AVAR",
+      "role": "Asystent VAR",
+      "name": "Wade Smith"
+     }
+    ],
+    "info": {
+     "injuries": {
+      "home": [
+       "Habib Diarra (mięsień – do połowy grudnia)",
+       "Dan Ballard (ścięgno)",
+       "Romaine Mundle (kolano)",
+       "Juan Angulo (uraz)",
+       "Nordi Mukiele (protokół wstrząśnienia – nadzieja na grę)"
+      ],
+      "away": [
+       "João Pedro (udo)",
+       "Reece James (kolano)",
+       "Jamie Gittens (kostka)",
+       "Hato",
+       "Lacroix (ścięgno)",
+       "Anselmino",
+       "Martinez (głowa)",
+       "Henderson (choroba – 75%)"
+      ]
+     },
+     "suspensions": {
+      "home": [
+       "Omar Alderete (pauza w lidze)"
+      ],
+      "away": []
+     },
+     "restDays": {
+      "home": 2
+     },
+     "homeAway": "Sunderland ostatni (5 pkt, 7:17), w lidze 1 wygrana w 9 meczach; 1:3 w Coventry (31.10). Chelsea 4. (16 pkt, 19:15), 2:0 z Man Utd (31.10).",
+     "stakes": "Sunderland gra w czwartek 5.11 u siebie z Dinamem Zagrzeb w Lidze Europy – 2 dni przerwy. Chelsea bez João Pedro (5 goli w lidze)."
+    },
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Kurs 2,05 na Chelsea = ok. 49% (bez marży ok. 46%); bilanse bramkowe sugerują więcej, ale Chelsea bez João Pedro, Jamesa i Gittensa – szacuję 48–50%, EV bliskie zera.",
+      "Nie udało się potwierdzić, czy Chelsea gra w tym tygodniu w pucharach – niepewna rotacja.",
+      "Ponad 2,5 gola po 1,83 (ok. 52% bez marży) – model daje ok. 55–57%, przewaga zbyt mała.",
+      "Sunderland po meczu LE w czwartek, ale gra u siebie – zbyt wiele niewiadomych."
+     ]
     }
    },
    {
@@ -2307,10 +2618,82 @@
     "away": "AVL",
     "status": "ns",
     "odds": {
-     "src": "Oddsportal 1X2 (stan na 28.10)",
+     "src": "Oddsportal 1X2 (5.11); linia goli 3,0 i AH – LetsBet przez rg.org (3.11)",
      "1": 2.2,
-     "X": 3.8,
-     "2": 3.0
+     "X": 3.7,
+     "2": 3.2
+    },
+    "officials": [
+     {
+      "r": "GŁ",
+      "role": "Sędzia główny",
+      "name": "Chris Kavanagh",
+      "nat": "ENG"
+     },
+     {
+      "r": "AS1",
+      "role": "Asystent 1",
+      "name": "Dan Cook"
+     },
+     {
+      "r": "AS2",
+      "role": "Asystent 2",
+      "name": "Ian Hussin"
+     },
+     {
+      "r": "4.",
+      "role": "Sędzia techniczny",
+      "name": "Rob Jones"
+     },
+     {
+      "r": "VAR",
+      "role": "Sędzia VAR",
+      "name": "Craig Pawson"
+     },
+     {
+      "r": "AVAR",
+      "role": "Asystent VAR",
+      "name": "Josh Smith"
+     }
+    ],
+    "info": {
+     "injuries": {
+      "home": [
+       "Benjamin Šeško (łydka)",
+       "Manuel Ugarte (kolano)",
+       "Luke Shaw",
+       "Marcus Rashford (biodro – niepewny)",
+       "Patrick Dorgu (ścięgno – wrócił do treningów)"
+      ],
+      "away": [
+       "Amadou Onana (kolano)",
+       "Matteo Ruggeri (ścięgno)",
+       "Aaron Wan-Bissaka (ścięgno – możliwy powrót)"
+      ]
+     },
+     "suspensions": {
+      "home": [
+       "Lisandro Martínez"
+      ],
+      "away": [
+       "Matty Cash"
+      ]
+     },
+     "restDays": {
+      "home": 4,
+      "away": 4
+     },
+     "homeAway": "Man Utd 17. (7 pkt, 10:15), 2 ostatnie mecze ligowe przegrane bez gola (0:3 z Bournemouth, 0:2 w Chelsea), ale we wtorek 3.11 wygrał 3:2 z Romą w LM. Aston Villa bez porażki w 5 meczach ligowych (ostatnio 1:1 z Fulham), we wtorek 0:3 w Barcelonie (LM).",
+     "stakes": "Obie drużyny po wtorkowych meczach Ligi Mistrzów. Villa 10. (12 pkt). Linia goli 3,0: ponad 1,95 / poniżej 1,80; Villa +0,25 AH 1,80."
+    },
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Kurs 2,20 na Man Utd (ok. 43% bez marży) – United w kryzysie ligowym (2 porażki bez gola), Villa bez porażki w 5 meczach: brak podstaw do wyższej oceny.",
+      "Villa +0,25 AH po 1,80 – przy mojej ocenie (Villa ok. 30%, remis ok. 27%) EV ujemne.",
+      "Poniżej 3 goli (1,80) ma umiarkowanie dodatnie EV w modelu, ale to linia jednego bukmachera ze zwrotem przy 3 golach – zbyt mała pewność.",
+      "Obie drużyny po meczach LM we wtorek; braki w obronie (Martínez, Cash) mogą otworzyć mecz."
+     ]
     }
    }
   ],

@@ -1,9 +1,9 @@
 {
- "updated": "2026-11-04T05:50:00+01:00",
+ "updated": "2026-11-05T05:55:00+01:00",
  "season": "2026/27",
  "competition": "LaLiga",
  "currentRound": 12,
- "note": "Źródła: laliga.com / lagrada.org (terminarz 12.–13. kol.), futboltotal.futbol, Oddsportal, CheckBestOdds i xgscore.io (kursy, stan 4.11), comuniate (przewidywane składy J12), laligaexpert (kontuzje i zawieszenia, stan 29.10), Infobae/EFE, FOX Sports, Vavel, iusport (protokoły 11. kol.). Mecz Rayo–Athletic z 8. kolejki (przerwany) zostanie dokończony 9.12.2026 o 20:00 bez publiczności – dlatego obie drużyny mają 10 meczów. Sędziowie 12. kolejki jeszcze nieogłoszeni.",
+ "note": "Źródła: laliga.com / lagrada.org (terminarz 12.–13. kol.), futboltotal.futbol (prognozy, forma, H2H, przewidywane składy J12), Oddsportal, CheckBestOdds, xgscore.io, oddscalendar (Megapari), oddslot, Dimers (kursy i modele, stan 4–5.11), comuniate (kontuzje ATM–BAR), footballpredictions.com, laligaexpert (kontuzje i zawieszenia), Infobae/EFE, FOX Sports, Vavel, iusport (protokoły 11. kol.). Mecz Rayo–Athletic z 8. kolejki (przerwany) zostanie dokończony 9.12.2026 o 20:00 bez publiczności – dlatego obie drużyny mają 10 meczów. Sędziowie 12. kolejki jeszcze nieogłoszeni (stan 5.11 rano).",
  "teams": {
   "ALA": {
    "id": "ALA",
@@ -5656,6 +5656,22 @@
      "1": 3.2,
      "X": 3.75,
      "2": 2.15
+    },
+    "info": {
+     "homeAway": "Elche – ostatnie 5 (wszystkie rozgr.): 2W 2R 1P, m.in. 0:1 z Valencią (1.11) i 3:0 z Rayo; Betis – 3W 1R 1P, m.in. 2:1 z Málagą (31.10) i 0:0 w Vigo.",
+     "stakes": "17. Elche (10 pkt) vs 4. Betis (23 pkt). Betis gra równolegle w Lidze Mistrzów – ryzyko rotacji.",
+     "h2h": [
+      "2026-05-12 BET 2:1 ELC"
+     ]
+    },
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Betis 2.15 (~46,5% implikowane) vs modele ~44% (futboltotal) – EV ≈ −0,05.",
+      "Elche w domu solidne (dwa 0:0 z Villarrealem i Celtą), Betis z obciążeniem Ligi Mistrzów.",
+      "Brak kursów na rynki bramkowe w źródłach.",
+      "Brak rynku z dodatnim EV → NO BET."
+     ]
     }
    },
    {
@@ -5666,10 +5682,28 @@
     "away": "RAY",
     "status": "ns",
     "odds": {
-     "src": "Oddsportal / CheckBestOdds (najlepsze kursy), stan na 4.11 rano",
+     "src": "Oddsportal / CheckBestOdds (4.11), oddscalendar – Megapari 1.72/4.30/4.92 (5.11)",
      "1": 1.68,
      "X": 4.2,
      "2": 4.75
+    },
+    "info": {
+     "homeAway": "Real Sociedad – ostatnie 5: 3W 1R 1P (1:2 z Athletic 1.11, 2:1 z Levante); Rayo – 3:0 z Celtą (31.10), wcześniej 0:3 z Elche.",
+     "stakes": "5. Real Sociedad (19 pkt) vs 12. Rayo (12 pkt, 10 meczów). Obie drużyny grają w pucharach europejskich w tygodniu.",
+     "h2h": [
+      "2026-04-26 RAY 3:3 RSO",
+      "2025-10-05 RSO 0:1 RAY",
+      "2025-03-16 RAY 2:2 RSO"
+     ]
+    },
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Real Sociedad 1.68–1.72 (~59% implikowane) vs model futboltotal 56% – EV ujemne.",
+      "Real Sociedad traci dużo (20 goli w 11 meczach) – nie uzasadnia niskiego kursu.",
+      "H2H wyrównane (1W RSO, 2W RAY, 3R w ostatnich 6) – bez wyraźnej przewagi.",
+      "Brak kursów na rynki bramkowe → NO BET."
+     ]
     }
    },
    {
@@ -5684,6 +5718,22 @@
      "1": 1.83,
      "X": 3.8,
      "2": 4.33
+    },
+    "info": {
+     "homeAway": "Celta – ostatnie 5: 2W 1R 2P (0:3 w Vallecas 31.10); Levante – 1W 2R 2P (0:2 z Atlético 31.10).",
+     "stakes": "10. Celta (12 pkt) vs 18. Levante (10 pkt). Celta gra w Lidze Europy w tygodniu.",
+     "h2h": [
+      "2026-05-12 CEL 2:3 LEV"
+     ]
+    },
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Celta 1.83 (~55% implikowane) vs model futboltotal 53% – brak value.",
+      "Celta strzela mało (10 goli w 11) i ma 6 remisów – słaba podstawa do typu na gospodarza.",
+      "Levante wygrał ostatni mecz w Vigo (3:2).",
+      "Brak rynku z dodatnim EV."
+     ]
     }
    },
    {
@@ -5695,10 +5745,31 @@
     "status": "ns",
     "notes": "Godzina nieustalona w komunikacie LaLiga (EFE, 12.10.2026).",
     "odds": {
-     "src": "Oddsportal / CheckBestOdds (najlepsze kursy), stan na 4.11 rano",
+     "src": "Oddsportal / CheckBestOdds (4.11); podwójna szansa – oddslot (5.11)",
      "1": 1.46,
      "X": 4.5,
-     "2": 7.0
+     "2": 7.0,
+     "1X": 1.1,
+     "X2": 2.75,
+     "12": 1.2
+    },
+    "info": {
+     "homeAway": "Villarreal – ostatnie 5: 2W 3P (0:6 z PSG 3.11, 0:1 z Espanyolem 30.10); Getafe – 2W 1R 2P (3:1 z Sevillą 1.11).",
+     "stakes": "9. Villarreal (12 pkt) vs 13. Getafe (12 pkt, 8 strzelonych goli). Villarreal po ciężkiej porażce w Lidze Mistrzów.",
+     "h2h": [
+      "2026-02-14 GET 2:1 VIL",
+      "2025-12-06 VIL 2:0 GET",
+      "2025-03-30 GET 1:2 VIL"
+     ]
+    },
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Villarreal 1.40–1.46 (~69–71% implikowane) vs modele 61% (Dimers) i 66% (futboltotal) – EV wyraźnie ujemne.",
+      "Villarreal w słabej formie (3 porażki w 5, 0:6 z PSG), obciążenie Ligą Mistrzów.",
+      "Under 2,5 rozważany (Getafe 2,2 gola/mecz łącznie), ale brak wiarygodnego kursu bukmacherskiego w źródłach.",
+      "Brak rynku z potwierdzonym dodatnim EV → NO BET."
+     ]
     }
    },
    {
@@ -5713,6 +5784,38 @@
      "1": 3.6,
      "X": 4.2,
      "2": 1.86
+    },
+    "info": {
+     "injuries": {
+      "home": [
+       "Cristian Romero (uraz mięśniowy)",
+       "Johnny Cardoso (udo, niepewny/wykluczony)"
+      ],
+      "away": [
+       "Jules Koundé (skręcenie kostki)",
+       "Dani Olmo (dwugłowy uda, do poł. listopada)",
+       "Xavi Espart (kostka, do poł. grudnia)",
+       "Roony Bardghji (ACL, do kwietnia)",
+       "Rodri Hernández (dwugłowy uda, do końca listopada)",
+       "Andreas Christensen (niepewny)",
+       "Eric García (niepewny)"
+      ]
+     },
+     "homeAway": "Atlético – 9W 1R 1P w lidze, 8 straconych goli (najmniej), ostatnio 0:2 z Bayernem w LM (3.11); Barcelona – 46 goli w 11 meczach, porażki z Realem i PSG w ostatnich tygodniach.",
+     "stakes": "Mecz na szczycie: 2. Atlético (28 pkt) vs 1. Barcelona (30 pkt). Obie drużyny po meczach Ligi Mistrzów w tygodniu.",
+     "h2h": [
+      "2026-04-14 ATM 1:2 BAR (LM)"
+     ]
+    },
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Barcelona 1.86 (~54% implikowane) vs modele ~51% (Dimers 50,8%, futboltotal 51%) – EV ujemne.",
+      "Atlético 3.60 (~28%) vs modele 27–27,5% – brak przewagi.",
+      "Barcelona z licznymi brakami w obronie (Koundé, Christensen i E. García niepewni), Atlético z najlepszą defensywą ligi – sprzeczne sygnały.",
+      "Rynki bramkowe bez wiarygodnych kursów w źródłach.",
+      "Mecz o dużej zmienności (szlagier) → NO BET."
+     ]
     }
    }
   ],
