@@ -1,9 +1,9 @@
 {
- "updated": "2026-11-05T06:30:00+01:00",
+ "updated": "2026-11-06T05:51:18+01:00",
  "season": "2026/27",
  "competition": "Serie A",
  "currentRound": 11,
- "note": "Źródła: RG.org (kursy FanDuel/DraftKings/BetRivers/LetsBetMD dla 11. kolejki, stan na 03.11), Agimeg (Venezia–Udinese), Assopoker (Napoli–Lazio, 04.11), Sportwetten24 (Inter–Como), GidStats, Cassandra Pronostici, Sky Sport Italia (Man Utd–Roma 3:2), FotMob (Feyenoord–Inter 0:3), Spettacolomusicasport (Lens–Como 1:9, Porto–Napoli 4:1); tabela po 10. kolejce: Sky Sport Italia; wcześniej: Virgilio Sport, Fantamaster, RotoWire, ESPN, ANSA, Oddsportal.",
+ "note": "Źródła: Lega Serie A via Le Bombe di Vlad/ANSA (obsady sędziowskie 11. kolejki, 04.11), Goal.com i TuttoUdinese (przewidywane składy, 06.11), Betflag Sportnews (Venezia–Udinese), LiveScore i WorldSportsBetting (absencje i kursy, 05.11), Assopoker, Cassandra Pronostici, Sky TG24 i UEFA (wyniki pucharów 5.11), Agimeg i RG.org (kursy 03.11); tabela po 10. kolejce: Sky Sport Italia; wcześniej: Virgilio Sport, Fantamaster, RotoWire, ESPN, ANSA, Oddsportal, FotMob.",
  "teams": {
   "ATA": {
    "id": "ATA",
@@ -412,10 +412,6 @@
   {
    "match": "SA-2026-27-R11-VEN-UDI",
    "rank": 1
-  },
-  {
-   "match": "SA-2026-27-R11-NAP-LAZ",
-   "rank": 2
   }
  ],
  "rounds": {
@@ -2389,29 +2385,31 @@
      "city": "Wenecja"
     },
     "odds": {
-     "src": "Agimeg – 7 bukmacherów (AdmiralBet, Marathonbet, Goldbet, Betsson, Bwin i in.), typowa wartość, stan na 03.11 15:07; BetRivers (03.11): 1 2,14 / X 3,55 / 2 3,10, u2,5 2,15",
-     "1": 2.2,
-     "X": 3.5,
-     "2": 3.1,
+     "src": "Agimeg – 7 bukmacherów, stan na 03.11 (1X2, U/O, BTTS); Betflag 06.11: 1 2,25 / X 3,40 / 2 3,05, X2 1,62; LiveScore: BTTS tak 1,55",
+     "1": 2.25,
+     "X": 3.4,
+     "2": 3.05,
      "o25": 1.67,
      "u25": 2.1,
      "bttsY": 1.58,
-     "bttsN": 2.25
+     "bttsN": 2.25,
+     "X2": 1.62
     },
     "info": {
      "injuries": {
       "home": [
        "Franjić (operacja barku, powrót ok. połowy grudnia)",
+       "Adorante (po operacji pleców)",
        "Thierry Correia (uraz mięśnia zginacza)",
-       "Sverko (po operacji biodra, powrót ok. połowy listopada)",
-       "Adorante (po operacji pleców)"
+       "Sverko (po operacji biodra)"
       ],
       "away": [
-       "Alaba (powrót ok. połowy listopada)",
-       "Bayo (powrót ok. połowy listopada)",
-       "Gueye (powrót koniec stycznia)",
+       "Alaba",
+       "Gueye (powrót w przyszłym roku)",
        "Zanoli (nawrót urazu 24.10)",
-       "Solet – niepewny (uraz mięśniowy)"
+       "Solet – wraca do kadry, raczej ławka",
+       "Bayo – dostępny, raczej ławka",
+       "Davis – niepełna sprawność, start niepewny"
       ]
      },
      "suspensions": {
@@ -2423,7 +2421,7 @@
       "away": 6
      },
      "homeAway": "Venezia: 1 zwycięstwo w 5 meczach domowych, 6 goli strzelonych w 10 meczach; Udinese: 1 pkt/mecz na wyjeździe w przybliżeniu, 23 gole stracone",
-     "stakes": "Mecz ostatniej (VEN, 3 pkt) z przedostatnią (UDI, 5 pkt) drużyną tabeli; obie po zmianie trenera (Nicola w Venezii, Zanetti w Udinese)",
+     "stakes": "Mecz ostatniej (VEN, 3 pkt) z przedostatnią (UDI, 5 pkt) drużyną; debiut Zanettiego na ławce Udinese; Venezia za Nicoli: 1:0 z Napoli, potem 3 porażki (Genoa, Inter, Como)",
      "h2h": [
       "2026-09-02 UDI 2:1 VEN (Puchar Włoch)",
       "2025-02-01 UDI 3:2 VEN",
@@ -2439,21 +2437,59 @@
      "rating": 6,
      "risk": "średnie",
      "reasons": [
-      "Venezia ma najsłabszy atak ligi: 6 goli w 10 meczach i trzy kolejne mecze bez gola.",
+      "Venezia ma najsłabszy atak ligi: 6 goli w 10 meczach, tylko 2 w ostatnich 6.",
       "Venezia bez Adorante (po operacji pleców) – brak głównej opcji w ataku.",
-      "Udinese strzeliło tylko ok. 3 gole w ostatnich 5 meczach; poza Alabą i Bayo brakuje też Zanolego.",
+      "Udinese: 1 pkt w ostatnich 8 meczach; Davis (bez gola w lidze) niepełnosprawny, Bayo i Solet dopiero wracają, nadal brak Alaby i Zanolego.",
       "Model Poissona z bilansu bramek (atak × obrona, przewaga boiska) daje ok. 2,5 gola łącznie → ok. 54–55% na under 2,5.",
-      "Kurs 2,10–2,15 wycenia under tylko na ok. 47%.",
-      "Mecz dwóch ostatnich drużyn tabeli (3 i 5 pkt) – duża stawka sprzyja ostrożnej grze."
+      "Kurs 2,10 wycenia under tylko na ok. 47%.",
+      "Mecz dwóch ostatnich drużyn tabeli (3 i 5 pkt) – stawka sprzyja ostrożnej grze, debiut nowego trenera Udinese."
      ],
      "risks": [
       "Obie obrony słabe (VEN 20, UDI 23 stracone gole; Udinese straciło 5 z Romą).",
       "Trzy ostatnie mecze bezpośrednie kończyły się 3+ golami.",
-      "Nowi trenerzy po obu stronach (Nicola, Zanetti) – efekt zmiany trenera trudny do przewidzenia."
+      "Rynek (BTTS tak ok. 1,55) zakłada otwarty mecz; kurs na under pochodzi z 03.11 – sprawdź aktualny (poniżej ok. 1,95 EV znika)."
      ],
-     "value": "Kurs 2,10 = 47,6% implikowane; moja ocena 55% → EV ok. +15%.",
+     "value": "Kurs 2,10 = 47,6% implikowane; moja ocena 55% → EV = 0,55×2,10 − 1 ≈ +15,5%.",
      "stake": "1% bankrollu"
-    }
+    },
+    "officials": [
+     {
+      "r": "GŁ",
+      "role": "Sędzia główny",
+      "name": "Juan Luca Sacchi",
+      "nat": "ITA"
+     },
+     {
+      "r": "AS1",
+      "role": "Asystent 1",
+      "name": "Imperiale"
+     },
+     {
+      "r": "AS2",
+      "role": "Asystent 2",
+      "name": "Mondin"
+     },
+     {
+      "r": "4.",
+      "role": "Sędzia techniczny",
+      "name": "Bonacina"
+     },
+     {
+      "r": "VAR",
+      "role": "Sędzia VAR",
+      "name": "Gariglio"
+     },
+     {
+      "r": "AVAR",
+      "role": "Asystent VAR",
+      "name": "Pezzuto"
+     }
+    ],
+    "formation": {
+     "home": "3-5-2",
+     "away": "3-5-2"
+    },
+    "notes": "Przewidywane składy (Goal.com/TuttoUdinese, 06.11): Venezia 3-5-2 – Stankovic; Halhal, Moreno, Juan Jesus; Hainaut, Kike Pérez, Sohm, Busio, Mazzocchi; Yeboah/Lauberbach, Adams. Udinese 3-5-2/3-4-2-1 – Okoye; Abankwah, Kabasele, Palma; Vojvoda, Karlström, Miller/Piotrowski, Ekkelenkamp, Kamara; Zaniolo, Davis."
    },
    {
     "id": "SA-2026-27-R11-CAG-FRO",
@@ -2475,7 +2511,7 @@
      ]
     },
     "odds": {
-     "src": "RG.org – kursy bukmacherów USA (typowo DraftKings/FanDuel; O/U BetRivers), stan na 03.11",
+     "src": "RG.org – kursy bukmacherów USA (typowo DraftKings/FanDuel; O/U BetRivers), stan na 03.11; LiveScore: Frosinone 2,20 (6/5)",
      "1": 2.6,
      "X": 3.5,
      "2": 2.35,
@@ -2488,8 +2524,56 @@
       "away": 5
      },
      "homeAway": "Cagliari tylko 9 goli w 10 meczach; Frosinone ma Raimondo (8 goli)",
-     "stakes": "CAG 12. (13 pkt) vs FRO 6. (20 pkt)"
-    }
+     "stakes": "CAG 12. (13 pkt) vs FRO 6. (20 pkt)",
+     "injuries": {
+      "home": [
+       "Felici – przewidywana absencja",
+       "Winks – niepewny"
+      ],
+      "away": [
+       "Grillitsch"
+      ]
+     },
+     "suspensions": {
+      "home": [
+       "Obert (czerwona kartka w ostatnim meczu)"
+      ],
+      "away": []
+     }
+    },
+    "officials": [
+     {
+      "r": "GŁ",
+      "role": "Sędzia główny",
+      "name": "Giovanni Ayroldi",
+      "nat": "ITA"
+     },
+     {
+      "r": "AS1",
+      "role": "Asystent 1",
+      "name": "Moro"
+     },
+     {
+      "r": "AS2",
+      "role": "Asystent 2",
+      "name": "Colaianni"
+     },
+     {
+      "r": "4.",
+      "role": "Sędzia techniczny",
+      "name": "Perri"
+     },
+     {
+      "r": "VAR",
+      "role": "Sędzia VAR",
+      "name": "Marini"
+     },
+     {
+      "r": "AVAR",
+      "role": "Asystent VAR",
+      "name": "Prontera"
+     }
+    ]
    },
    {
     "id": "SA-2026-27-R11-TOR-LEC",
@@ -2506,15 +2590,16 @@
     "tip": {
      "decision": "NO BET",
      "reasons": [
-      "Torino 1,77 ≈ 56% – zbliżone do mojej oceny (ok. 55%); Torino przegrało 2 ostatnie mecze.",
+      "Torino 1,83 ≈ 55% – zbliżone do mojej oceny (ok. 55%) mimo długiej listy absencji Lecce; Torino przegrało 2 ostatnie mecze (1:3 z Como, 0:2 we Frosinone).",
+      "Under 2,5 @1,82 (4 z 5 H2H poniżej) – model daje ok. 55%, brak przewagi.",
       "Brak rynku z dodatnim EV."
      ]
     },
     "odds": {
-     "src": "RG.org – kursy bukmacherów USA (typowo DraftKings/FanDuel; O/U BetRivers), stan na 03.11",
-     "1": 1.77,
-     "X": 3.45,
-     "2": 4.2,
+     "src": "WorldSportsBetting (stan na 05.11): 1,83 / 3,75 / 4,50; O/U: RG.org 03.11",
+     "1": 1.83,
+     "X": 3.75,
+     "2": 4.5,
      "o25": 1.94,
      "u25": 1.82
     },
@@ -2524,8 +2609,56 @@
       "away": 5
      },
      "homeAway": "Lecce przegrało 4 z 5 ostatnich meczów, 21 straconych goli",
-     "stakes": "TOR 10. (13 pkt) vs LEC 14. (9 pkt)"
-    }
+     "stakes": "TOR 10. (13 pkt) vs LEC 14. (9 pkt)",
+     "injuries": {
+      "home": [
+       "Fortini, Mandragora, Israel – nie grali z Frosinone, status niepewny"
+      ],
+      "away": [
+       "Berisha",
+       "Pierotti",
+       "Coulibaly",
+       "Ilić",
+       "Geubbels"
+      ]
+     },
+     "h2h": [
+      "Ostatnie 5 meczów: 2 W Torino, 1 remis, 2 W Lecce; 4 z 5 poniżej 2,5 gola"
+     ]
+    },
+    "officials": [
+     {
+      "r": "GŁ",
+      "role": "Sędzia główny",
+      "name": "Ermanno Feliciani",
+      "nat": "ITA"
+     },
+     {
+      "r": "AS1",
+      "role": "Asystent 1",
+      "name": "Costanzo"
+     },
+     {
+      "r": "AS2",
+      "role": "Asystent 2",
+      "name": "Garzelli"
+     },
+     {
+      "r": "4.",
+      "role": "Sędzia techniczny",
+      "name": "Calzavara"
+     },
+     {
+      "r": "VAR",
+      "role": "Sędzia VAR",
+      "name": "Mazzoleni"
+     },
+     {
+      "r": "AVAR",
+      "role": "Asystent VAR",
+      "name": "Camplone"
+     }
+    ]
    },
    {
     "id": "SA-2026-27-R11-PAR-BOL",
@@ -2547,7 +2680,7 @@
      ]
     },
     "odds": {
-     "src": "RG.org – kursy bukmacherów USA (typowo DraftKings/FanDuel; O/U BetRivers), stan na 03.11",
+     "src": "RG.org – kursy bukmacherów USA (typowo DraftKings/FanDuel; O/U BetRivers), stan na 03.11; LiveScore: Bologna 1,75 (3/4)",
      "1": 4.2,
      "X": 3.35,
      "2": 1.8,
@@ -2559,8 +2692,47 @@
       "home": 4,
       "away": 6
      },
-     "stakes": "PAR 15. (8 pkt) vs BOL 9. (14 pkt); Bologna nie gra w pucharach"
-    }
+     "stakes": "PAR 15. (8 pkt) vs BOL 9. (14 pkt); Bologna nie gra w pucharach",
+     "injuries": {
+      "home": [],
+      "away": [
+       "Holm, Enem, Piccoli – nie grali w ostatniej kolejce, status niepewny"
+      ]
+     }
+    },
+    "officials": [
+     {
+      "r": "GŁ",
+      "role": "Sędzia główny",
+      "name": "Luca Zufferli",
+      "nat": "ITA"
+     },
+     {
+      "r": "AS1",
+      "role": "Asystent 1",
+      "name": "Trinchieri"
+     },
+     {
+      "r": "AS2",
+      "role": "Asystent 2",
+      "name": "Chiavaroli"
+     },
+     {
+      "r": "4.",
+      "role": "Sędzia techniczny",
+      "name": "Arena"
+     },
+     {
+      "r": "VAR",
+      "role": "Sędzia VAR",
+      "name": "Meraviglia"
+     },
+     {
+      "r": "AVAR",
+      "role": "Asystent VAR",
+      "name": "Ghersini"
+     }
+    ]
    },
    {
     "id": "SA-2026-27-R11-ROM-SAS",
@@ -2578,12 +2750,12 @@
      "decision": "NO BET",
      "reasons": [
       "Roma @1,28 wymaga ok. 78%; oceniam ok. 72% – kurs za niski.",
-      "Roma grała we wtorek w Manchesterze (2:3 po prowadzeniu 2:0), kontuzje Svilara i Renscha, problem Golliniego – ryzyko rotacji.",
-      "Rynki handicapu i over 3,5 (2,00) bez dodatniego EV wg modelu (ok. 3,3 gola oczekiwane)."
+      "Roma grała we wtorek w Manchesterze (2:3), bez Svilara, Dybali, Pellegriniego i Koné – ryzyko rotacji.",
+      "Over 3,5 @1,91 (≈52%) – model z ok. 3,3 gola oczekiwanymi daje ok. 42%; brak value."
      ]
     },
     "odds": {
-     "src": "RG.org – kursy bukmacherów USA (typowo DraftKings/FanDuel; O/U BetRivers), stan na 03.11",
+     "src": "RG.org – kursy bukmacherów USA (typowo DraftKings/FanDuel; O/U BetRivers), stan na 03.11; LiveScore: over 3,5 1,91 (10/11)",
      "1": 1.28,
      "X": 5.5,
      "2": 8.0
@@ -2592,10 +2764,16 @@
      "injuries": {
       "home": [
        "Svilar",
+       "Dybala",
+       "Pellegrini",
+       "Koné",
        "Rensch (uraz mięśniowy 3.11)",
        "Gollini – niepewny (ból pleców)"
       ],
-      "away": []
+      "away": [
+       "Leysen",
+       "I. Koné"
+      ]
      },
      "restDays": {
       "home": 3,
@@ -2607,7 +2785,40 @@
       "2026-01 ROM 2:0 SAS",
       "2025-10 SAS 0:1 ROM"
      ]
-    }
+    },
+    "officials": [
+     {
+      "r": "GŁ",
+      "role": "Sędzia główny",
+      "name": "Marco Di Bello",
+      "nat": "ITA"
+     },
+     {
+      "r": "AS1",
+      "role": "Asystent 1",
+      "name": "Peretti"
+     },
+     {
+      "r": "AS2",
+      "role": "Asystent 2",
+      "name": "Scatragli"
+     },
+     {
+      "r": "4.",
+      "role": "Sędzia techniczny",
+      "name": "Abisso"
+     },
+     {
+      "r": "VAR",
+      "role": "Sędzia VAR",
+      "name": "Pezzuto"
+     },
+     {
+      "r": "AVAR",
+      "role": "Asystent VAR",
+      "name": "Guida"
+     }
+    ]
    },
    {
     "id": "SA-2026-27-R11-NAP-LAZ",
@@ -2622,23 +2833,28 @@
      "capacity": 54732
     },
     "odds": {
-     "src": "RG.org – kursy bukmacherów USA (typowo DraftKings/FanDuel; O/U BetRivers), stan na 03.11",
-     "1": 2.15,
-     "X": 3.5,
-     "2": 2.95,
+     "src": "1X2: WorldSportsBetting (stan na 05.11): 2,30 / 3,65 / 3,15; over 3,5 2,75; LiveScore: Lazio 2,85 (37/20); wcześniej RG.org 03.11: 2,15/3,50/2,95, o2,5 1,78, u2,5 2,00",
+     "1": 2.3,
+     "X": 3.65,
+     "2": 3.15,
      "o25": 1.78,
      "u25": 2.0
     },
     "info": {
      "injuries": {
       "home": [
-       "Długa lista urazów (źródła nie wymieniają wszystkich) – w Porto na ławce dwóch zawodników Primavery"
+       "Długa lista urazów (źródła nie podają pełnej listy) – „emergenza” w kadrze Allegriego"
       ],
-      "away": []
+      "away": [
+       "Zaccagni",
+       "Gudmundsson – przewidywana absencja",
+       "Rovella – przewidywana absencja",
+       "Marusic – przewidywana absencja"
+      ]
      },
      "suspensions": {
       "home": [
-       "Marianucci"
+       "Marianucci (czerwona kartka z Juventusem)"
       ],
       "away": []
      },
@@ -2647,35 +2863,54 @@
       "away": 6
      },
      "homeAway": "Napoli bez zwycięstwa u siebie od miesiąca; Lazio niepokonane na wyjazdach (3 stracone gole w 5 meczach wyjazdowych, 14 strzelonych)",
-     "stakes": "Lazio (1., 28 pkt, 5 zwycięstw z rzędu) vs Napoli (8., 14 pkt). Napoli w środę 4.11 przegrało 1:4 w Porto w LM; Lazio nie gra w pucharach. Powrót Hojlunda i Rrahmaniego.",
+     "stakes": "Lazio (1., 28 pkt, 5 zwycięstw z rzędu, 5/5 na wyjazdach) vs Napoli (8., 14 pkt, 2 porażki z rzędu: 0:2 z Juventusem, 1:4 w Porto w LM 4.11). Wracają Højlund i Rrahmani; Rafa Marín dostępny mimo czerwonej kartki w LM. Lazio nie gra w pucharach.",
      "h2h": [
       "Lazio wygrało 4 ostatnie mecze na Maradonie, 3 z nich bez straty gola"
      ]
     },
     "tip": {
-     "decision": "BET",
-     "market": "Lazio +0,25 (handicap azjatycki)",
-     "odds": 1.85,
-     "prob": 0.64,
-     "ev": 0.069,
-     "rating": 6,
-     "risk": "wysokie",
+     "decision": "NO BET",
      "reasons": [
-      "Lazio: 9 zwycięstw i remis w 10 meczach, 5 wygranych z rzędu, 24:8 w golach.",
-      "Napoli grało w środę w Porto (1:4) z mocno przetrzebioną kadrą – tylko 3 dni przerwy przed niedzielnym meczem o 12:30.",
-      "Lazio odpoczywa od 1.11 i nie gra w pucharach.",
-      "Napoli: tylko 2 zwycięstwa w 5 ostatnich meczach ligowych i 10 straconych goli w tym okresie; porażka 0:2 z Juventusem.",
-      "Kursy z 3.11 (sprzed meczu w Porto) dają Napoli ok. 43% – moim zdaniem za dużo przy zmęczeniu i absencjach.",
-      "Handicap +0,25 daje częściowy zwrot przy remisie (połowa stawki wygrywa, połowa wraca)."
-     ],
-     "risks": [
-      "Napoli ma w kadrze bardzo jakościowych graczy (De Bruyne, McTominay, Hojlund) i gra u siebie.",
-      "Pełna lista kontuzji Napoli niepotwierdzona; kurs mógł się już zmienić po środzie.",
-      "Seria Lazio może się skończyć – na wyjazdach regresja skuteczności (konwersja ok. 17% vs ok. 14% średnio w lidze)."
-     ],
-     "value": "Rozkład: Lazio 37% / remis 27% / Napoli 36%. Przy kursie 1,85 (LetsBetMD, −118) EV = 0,37×0,85 + 0,27×0,425 − 0,36 ≈ +7%. Pole 'prob' = szansa, że Lazio nie przegra (przy remisie wygrywa tylko połowa stawki).",
-     "stake": "0,5–1% bankrollu"
-    }
+      "Nowe informacje: Lazio bez Zaccagniego, a według LiveScore także bez Gudmundssona, Rovelli i Marusicia – osłabia to argument za Lazio.",
+      "Moja ocena po absencjach: Lazio ok. 35% / remis 27% / Napoli ok. 38%; Lazio +0,25 @1,85 daje już tylko ok. +3% EV – za mało przy dużej niepewności.",
+      "Kurs na Lazio wzrósł do 2,85–3,15, ale p ≈ 35% to nie jest „wysokie prawdopodobieństwo” wymagane regulaminem.",
+      "Brak aktualnego kursu na handicap azjatycki – poprzedni typ (Lazio +0,25) wycofany."
+     ]
+    },
+    "officials": [
+     {
+      "r": "GŁ",
+      "role": "Sędzia główny",
+      "name": "Luca Pairetto",
+      "nat": "ITA"
+     },
+     {
+      "r": "AS1",
+      "role": "Asystent 1",
+      "name": "Tegoni"
+     },
+     {
+      "r": "AS2",
+      "role": "Asystent 2",
+      "name": "Perrotti"
+     },
+     {
+      "r": "4.",
+      "role": "Sędzia techniczny",
+      "name": "Marinelli"
+     },
+     {
+      "r": "VAR",
+      "role": "Sędzia VAR",
+      "name": "Aureliano"
+     },
+     {
+      "r": "AVAR",
+      "role": "Asystent VAR",
+      "name": "Mazzoleni"
+     }
+    ],
+    "notes": "Przewidywane składy (Goal.com, 06.11): Napoli 3-5-2 – Meret; Beukema, Rrahmani, Rafa Marín; Politano, Anguissa, Gilmour/De Bruyne, McTominay, Lang; Giovane, Højlund. Lazio 4-3-3 – Mandas; Floriani, Sutalo, Provstgaard, Nuno Tavares; Frattesi, Belahyane, Taylor; Isaksen, Noslin/Pinamonti, Cancellieri."
    },
    {
     "id": "SA-2026-27-R11-GEN-MIL",
@@ -2690,7 +2925,7 @@
      "capacity": 33205
     },
     "odds": {
-     "src": "RG.org – kursy bukmacherów USA (typowo DraftKings/FanDuel; O/U BetRivers), stan na 03.11",
+     "src": "RG.org – kursy bukmacherów USA (typowo DraftKings/FanDuel; O/U BetRivers), stan na 03.11; LiveScore: 1X Genoa 1,90 (9/10)",
      "1": 4.3,
      "X": 3.4,
      "2": 1.77,
@@ -2700,13 +2935,64 @@
     "tip": {
      "decision": "NO BET",
      "reasons": [
-      "Milan 1,77 – w fazie ligowej Ligi Europy, Genoa wygrała 4 z 5 ostatnich meczów; sygnały przeciwstawne.",
-      "Brak potwierdzonych informacji o składzie i obciążeniu Milanu – zbyt duża niepewność."
+      "Milan po porażce 0:2 z Ferencvárosem, 3 dni odpoczynku i 5 absencji; Genoa wygrała 4 z 5 ostatnich – sygnały na korzyść Genoi.",
+      "Ale 1X Genoa @1,90 (≈53%) jest bliska mojej ocenie (ok. 50%), a Milan 1,77 – za nisko na value po stronie Milanu.",
+      "Za mało pewnych danych o składzie Milanu – zbyt duża niepewność."
      ]
     },
     "info": {
-     "stakes": "GEN 11. (13 pkt) vs MIL 5. (21 pkt); Milan gra w tym tygodniu w Lidze Europy"
-    }
+     "stakes": "GEN 11. (13 pkt, 4 W w 5 meczach) vs MIL 5. (21 pkt). Milan przegrał w czwartek 0:2 u siebie z Ferencvárosem w Lidze Europy (Modrić, Pulisic weszli z ławki).",
+     "injuries": {
+      "home": [
+       "Havel – niepewny",
+       "Venturino – niepewny"
+      ],
+      "away": [
+       "Tomori",
+       "Gabbia",
+       "Saelemaekers",
+       "Loftus-Cheek",
+       "Chukwueze (wszyscy poza kadrą na mecz LE 5.11)"
+      ]
+     },
+     "restDays": {
+      "home": 7,
+      "away": 3
+     }
+    },
+    "officials": [
+     {
+      "r": "GŁ",
+      "role": "Sędzia główny",
+      "name": "Davide Massa",
+      "nat": "ITA"
+     },
+     {
+      "r": "AS1",
+      "role": "Asystent 1",
+      "name": "Alassio"
+     },
+     {
+      "r": "AS2",
+      "role": "Asystent 2",
+      "name": "L. Rossi"
+     },
+     {
+      "r": "4.",
+      "role": "Sędzia techniczny",
+      "name": "Doveri"
+     },
+     {
+      "r": "VAR",
+      "role": "Sędzia VAR",
+      "name": "Camplone"
+     },
+     {
+      "r": "AVAR",
+      "role": "Asystent VAR",
+      "name": "Marini"
+     }
+    ]
    },
    {
     "id": "SA-2026-27-R11-MON-ATA",
@@ -2721,7 +3007,7 @@
      "capacity": 17102
     },
     "odds": {
-     "src": "RG.org – kursy bukmacherów USA (typowo DraftKings/FanDuel; O/U BetRivers), stan na 03.11",
+     "src": "RG.org – kursy bukmacherów USA (typowo DraftKings/FanDuel; O/U BetRivers), stan na 03.11; LiveScore: over 3,5 2,30 (13/10)",
      "1": 3.15,
      "X": 3.65,
      "2": 2.0,
@@ -2731,13 +3017,63 @@
     "tip": {
      "decision": "NO BET",
      "reasons": [
-      "Atalanta @2,00 po porażce 0:3 z Parmą u siebie i z obciążeniem Ligą Konferencji – kurs nie daje przewagi.",
-      "Over 2,5 @1,56 zgodny z rynkiem (Monza straciła 24 gole, Varela – 9 goli)."
+      "Atalanta @2,00 po 0:3 z Parmą, 1:1 z Kairatem w czwartek i z 9 nazwiskami na liście urazów – kurs nie daje przewagi.",
+      "Over 2,5 @1,56 i over 3,5 @2,30 zgodne z modelem (Monza straciła 24 gole) – brak value."
      ]
     },
     "info": {
-     "stakes": "MON 18. (7 pkt) vs ATA 13. (11 pkt)"
-    }
+     "stakes": "MON 18. (7 pkt) vs ATA 13. (11 pkt). Atalanta zremisowała w czwartek 1:1 z Kairatem w Lidze Konferencji (gol Krstovicia w 82.).",
+     "injuries": {
+      "home": [
+       "Ziółkowski – raczej nie zagra",
+       "Pessina – raczej nie zagra"
+      ],
+      "away": [
+       "Kolašinac",
+       "Bellanova",
+       "Hien",
+       "Kessié",
+       "Scamacca (wg LiveScore; grał w LK 5.11) – łącznie 9 nazwisk na liście urazów"
+      ]
+     },
+     "restDays": {
+      "home": 7,
+      "away": 3
+     }
+    },
+    "officials": [
+     {
+      "r": "GŁ",
+      "role": "Sędzia główny",
+      "name": "Allegretta",
+      "nat": "ITA"
+     },
+     {
+      "r": "AS1",
+      "role": "Asystent 1",
+      "name": "Vecchi"
+     },
+     {
+      "r": "AS2",
+      "role": "Asystent 2",
+      "name": "Barone"
+     },
+     {
+      "r": "4.",
+      "role": "Sędzia techniczny",
+      "name": "Sozza"
+     },
+     {
+      "r": "VAR",
+      "role": "Sędzia VAR",
+      "name": "La Penna"
+     },
+     {
+      "r": "AVAR",
+      "role": "Asystent VAR",
+      "name": "Abbri"
+     }
+    ]
    },
    {
     "id": "SA-2026-27-R11-INT-COM",
@@ -2752,30 +3088,32 @@
      "capacity": 75710
     },
     "odds": {
-     "src": "RG.org – kursy bukmacherów USA (typowo DraftKings/FanDuel; O/U BetRivers), stan na 03.11",
-     "1": 1.77,
-     "X": 4.0,
-     "2": 3.9
+     "src": "WorldSportsBetting (stan na 05.11): 1,91 / 4,25 / 3,75; wcześniej RG.org 03.11: 1,77 / 4,00 / 3,90",
+     "1": 1.91,
+     "X": 4.25,
+     "2": 3.75
     },
     "tip": {
      "decision": "NO BET",
      "reasons": [
-      "Kursy (1,77 / 4,00 / 3,90) odzwierciedlają formę: Inter 3:0 w Rotterdamie, Como 9:1 w Lens i 4 ligowe zwycięstwa z rzędu.",
-      "Obie drużyny grały w LM w tym tygodniu; niepewny stan Lautaro i Pavarda, Como bez Diao i Jesúsa Rodrígueza – brak przewagi."
+      "Kursy (1,91 / 4,25 / 3,75) odzwierciedlają formę: Inter 3:0 w Rotterdamie, ale 1:3 w derbach; Como 9:1 w Lens i 4 ligowe zwycięstwa z rzędu.",
+      "Inter bez Lautaro, Como bez Keana i Diao – absencje się równoważą; brak przewagi na żadnym rynku."
      ]
     },
     "info": {
      "injuries": {
       "home": [
-       "Dimarco",
+       "Lautaro Martínez",
+       "Curtis Jones",
+       "Stones",
        "Luis Henrique",
-       "Pavard – niepewny",
-       "Lautaro Martínez – niepewny (udo)"
+       "Pavard – niepewny"
       ],
       "away": [
-       "Assane Diao – niepewny",
-       "Jesús Rodríguez – niepewny",
-       "Addai i Chalobah – drobne urazy"
+       "Kean",
+       "Assane Diao",
+       "Chalobah",
+       "Jesús Rodríguez – niepewny"
       ]
      },
      "restDays": {
@@ -2784,10 +3122,44 @@
      },
      "stakes": "INT 2. (25 pkt) vs COM 4. (23 pkt) – mecz o czołówkę",
      "h2h": [
+      "2026-04 COM 3:4 INT",
       "2026-04 INT 3:2 COM (Puchar Włoch)",
-      "Inter wygrał 5 z 6 ostatnich meczów, 1 remis"
+      "Inter wygrał 4 z 5 ostatnich meczów, 1 remis; 4 z 5 powyżej 2,5 gola"
      ]
-    }
+    },
+    "officials": [
+     {
+      "r": "GŁ",
+      "role": "Sędzia główny",
+      "name": "Daniele Chiffi",
+      "nat": "ITA"
+     },
+     {
+      "r": "AS1",
+      "role": "Asystent 1",
+      "name": "Colarossi"
+     },
+     {
+      "r": "AS2",
+      "role": "Asystent 2",
+      "name": "Bahri"
+     },
+     {
+      "r": "4.",
+      "role": "Sędzia techniczny",
+      "name": "Marcenaro"
+     },
+     {
+      "r": "VAR",
+      "role": "Sędzia VAR",
+      "name": "Paterna"
+     },
+     {
+      "r": "AVAR",
+      "role": "Asystent VAR",
+      "name": "Gariglio"
+     }
+    ]
    },
    {
     "id": "SA-2026-27-R11-FIO-JUV",
@@ -2802,7 +3174,7 @@
      "capacity": 43118
     },
     "odds": {
-     "src": "RG.org – kursy bukmacherów USA (typowo DraftKings/FanDuel; O/U BetRivers), stan na 03.11",
+     "src": "RG.org – kursy bukmacherów USA (typowo DraftKings/FanDuel; O/U BetRivers), stan na 03.11; LiveScore: Juventus wygra i BTTS 3,50 (5/2)",
      "1": 3.3,
      "X": 3.45,
      "2": 2.0,
@@ -2812,13 +3184,64 @@
     "tip": {
      "decision": "NO BET",
      "reasons": [
-      "Juventus @2,00 po meczu w Lidze Europy i dwóch meczach bez gola w ostatnich 5 – kurs uczciwy.",
-      "Fiorentina słaba (2-2-6, 23 stracone), ale wygrała 4:2 w Sassuolo – brak wyraźnej przewagi na żadnym rynku."
+      "Juventus @2,00 bez Yıldıza, Locatellego i Conceição, 3 dni po meczu w Alkmaar – kurs uczciwy, nie zaniżony.",
+      "Fiorentina słaba (2-2-6, 23 stracone), ale wygrała 4:2 w Sassuolo; brak wyraźnej przewagi na żadnym rynku."
      ]
     },
     "info": {
-     "stakes": "FIO 16. (8 pkt) vs JUV 7. (17 pkt)"
-    }
+     "stakes": "FIO 16. (8 pkt) vs JUV 7. (17 pkt). Juventus wygrała w czwartek 2:1 w Alkmaar (LE, gol m.in. Koopmeinersa).",
+     "injuries": {
+      "home": [
+       "Pongračić",
+       "Atta",
+       "Ranieri (nie grali w Sassuolo, status niepewny)"
+      ],
+      "away": [
+       "Locatelli",
+       "Yıldız",
+       "Francisco Conceição",
+       "Grabara",
+       "McKennie – niepewny"
+      ]
+     },
+     "restDays": {
+      "home": 7,
+      "away": 3
+     }
+    },
+    "officials": [
+     {
+      "r": "GŁ",
+      "role": "Sędzia główny",
+      "name": "Andrea Colombo",
+      "nat": "ITA"
+     },
+     {
+      "r": "AS1",
+      "role": "Asystent 1",
+      "name": "Baccini"
+     },
+     {
+      "r": "AS2",
+      "role": "Asystent 2",
+      "name": "Ceccon"
+     },
+     {
+      "r": "4.",
+      "role": "Sędzia techniczny",
+      "name": "Maresca"
+     },
+     {
+      "r": "VAR",
+      "role": "Sędzia VAR",
+      "name": "Di Paolo"
+     },
+     {
+      "r": "AVAR",
+      "role": "Asystent VAR",
+      "name": "Meraviglia"
+     }
+    ]
    }
   ],
   "12": [

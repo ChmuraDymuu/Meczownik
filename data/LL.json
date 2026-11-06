@@ -1,9 +1,9 @@
 {
- "updated": "2026-11-05T05:55:00+01:00",
+ "updated": "2026-11-06T05:50:00+01:00",
  "season": "2026/27",
  "competition": "LaLiga",
  "currentRound": 12,
- "note": "Źródła: laliga.com / lagrada.org (terminarz 12.–13. kol.), futboltotal.futbol (prognozy, forma, H2H, przewidywane składy J12), Oddsportal, CheckBestOdds, xgscore.io, oddscalendar (Megapari), oddslot, Dimers (kursy i modele, stan 4–5.11), comuniate (kontuzje ATM–BAR), footballpredictions.com, laligaexpert (kontuzje i zawieszenia), Infobae/EFE, FOX Sports, Vavel, iusport (protokoły 11. kol.). Mecz Rayo–Athletic z 8. kolejki (przerwany) zostanie dokończony 9.12.2026 o 20:00 bez publiczności – dlatego obie drużyny mają 10 meczów. Sędziowie 12. kolejki jeszcze nieogłoszeni (stan 5.11 rano).",
+ "note": "Źródła: laliga.com / lagrada.org (terminarz 12.–13. kol.), futboltotal.futbol (prognozy, forma, H2H, przewidywane składy J12), Oddsportal, CheckBestOdds, xgscore.io, oddscalendar (Megapari), oddslot, Dimers (kursy i modele, stan 4–5.11), comuniate (kontuzje ATM–BAR), footballpredictions.com, laligaexpert (kontuzje i zawieszenia), Infobae/EFE, FOX Sports, Vavel, iusport (protokoły 11. kol.). Mecz Rayo–Athletic z 8. kolejki (przerwany) zostanie dokończony 9.12.2026 o 20:00 bez publiczności – dlatego obie drużyny mają 10 meczów. Kursy 1X2 meczów z 6–7.11 i ATM–BAR zaktualizowane 6.11 (oddscalendar/Megapari); pozostałe z 4–5.11. Sędziowie: ogłoszony tylko SEV–ALA (CTA/iusport 5.11); obsady na 7–8.11 publikowane dzień przed meczem. Dodatkowo: Infobae/EFE (Vinícius), UEFA.com (LE 4. kolejka), comuniate (5.11), footballpredictions.com, Dimers.",
  "teams": {
   "ALA": {
    "id": "ALA",
@@ -5431,14 +5431,14 @@
      "name": "Ramón Sánchez-Pizjuán",
      "city": "Sewilla"
     },
-    "notes": "Otwiera 12. kolejkę (pt. 6.11, 21:00). Sędzia nieogłoszony (stan 4.11 rano).",
+    "notes": "Otwiera 12. kolejkę (pt. 6.11, 21:00). Obsada sędziowska wg CTA/iusport (5.11).",
     "info": {
      "injuries": {
       "home": [
-       "Marcão (uraz mięśniowy, powrót w listopadzie)",
-       "Miguel Sierra (bark, do stycznia)",
-       "Isaac Romero (niepewny, kolano)",
-       "Fofana (niepewny, drobny uraz)"
+       "Marcão (uraz mięśniowy)",
+       "Peque (ścięgno podkolanowe)",
+       "Miguel Sierra (bark, niepewny)",
+       "Isaac Romero (kolano – wg comuniate trudny do zdążenia, wg footballpredictions wraca)"
       ],
       "away": [
        "Facundo García (ACL, do czerwca)",
@@ -5464,24 +5464,57 @@
     "tip": {
      "decision": "NO BET",
      "reasons": [
-      "Kurs na Sewillę 1.95–2.05 → implikowane ~49–51%; własna ocena ~47% (xgscore 44%, futboltotal 49%) – EV ujemne (≈ −0.04 przy 2.05).",
-      "Sewilla traci średnio ~2.0 xG na mecz – słaba podstawa do typu na gospodarza.",
-      "Zawieszony Manu Bueno, niepewni Isaac Romero i Fofana.",
-      "BTTS TAK 1.95 (~51%) vs model 55% – przewaga zbyt mała i niepewna.",
-      "Brak rynku z wyraźnie dodatnim EV → NO BET."
+      "Sewilla 1.98 (~50,5% implikowane, marża ~1,5%) vs modele 44–49% (Dimers 48,8%, xgscore 44%, futboltotal 49%) – EV ≈ −0,03 do −0,13.",
+      "Alavés 4.40 (~22,7%) vs Dimers 25,1% – EV ≈ +0,10 na papierze, ale Alavés bez wygranej w 5 meczach i najsłabszy na wyjazdach (0.40 pkt/mecz w ostatnich) – forma nie potwierdza.",
+      "Sewilla traci ~1,7 gola/mecz, bez zawieszonego Manu Bueno, Marcão i Peque.",
+      "Brak wiarygodnych, przypisanych do bukmachera kursów na gole/BTTS z dnia meczu.",
+      "Zbyt duża niepewność → NO BET."
      ]
     },
     "odds": {
-     "src": "xgscore.io (Pinnacle/1xBet), Oddsportal, CheckBestOdds – stan na 4.11 rano",
-     "1": 1.95,
-     "X": 3.4,
-     "2": 4.2,
+     "src": "1X2: oddscalendar.com – Megapari, stan na 6.11, 05:30; pozostałe rynki: xgscore.io/Oddsportal/CheckBestOdds (4.11)",
+     "1": 1.98,
+     "X": 3.53,
+     "2": 4.4,
      "1X": 1.25,
      "12": 1.33,
      "X2": 1.86,
      "bttsY": 1.95,
      "bttsN": 1.76
-    }
+    },
+    "officials": [
+     {
+      "r": "GŁ",
+      "role": "Sędzia główny",
+      "name": "Luis Bestard Servera",
+      "nat": "ESP"
+     },
+     {
+      "r": "AS1",
+      "role": "Asystent 1",
+      "name": "Álvaro Granel"
+     },
+     {
+      "r": "AS2",
+      "role": "Asystent 2",
+      "name": "Carlos Martínez"
+     },
+     {
+      "r": "4.",
+      "role": "Sędzia techniczny",
+      "name": "Manuel Camacho"
+     },
+     {
+      "r": "VAR",
+      "role": "Sędzia VAR",
+      "name": "José Antonio López"
+     },
+     {
+      "r": "AVAR",
+      "role": "Asystent VAR",
+      "name": "Iván Caparrós"
+     }
+    ]
    },
    {
     "id": "LL-2026-27-R12-MAL-RAC",
@@ -5491,10 +5524,10 @@
     "away": "RAC",
     "status": "ns",
     "odds": {
-     "src": "xgscore.io (Pinnacle), Oddsportal – stan na 4.11 rano",
-     "1": 2.46,
-     "X": 3.57,
-     "2": 2.91,
+     "src": "1X2: oddscalendar.com – Megapari, stan na 6.11, 05:30; pozostałe rynki: xgscore.io (Pinnacle), stan 4.11",
+     "1": 2.48,
+     "X": 3.72,
+     "2": 2.92,
      "dnb1": 1.79,
      "dnb2": 2.12,
      "bttsY": 1.54,
@@ -5530,10 +5563,10 @@
     "away": "DEP",
     "status": "ns",
     "odds": {
-     "src": "Oddsportal / CheckBestOdds (najlepsze kursy), stan na 4.11 rano",
-     "1": 2.3,
-     "X": 3.3,
-     "2": 3.2
+     "src": "1X2: oddscalendar.com – Megapari, stan na 6.11, 05:30",
+     "1": 2.37,
+     "X": 3.35,
+     "2": 3.05
     },
     "info": {
      "injuries": {
@@ -5552,7 +5585,7 @@
     "tip": {
      "decision": "NO BET",
      "reasons": [
-      "Kursy 2.30/3.30/3.20 odpowiadają wyrównanemu meczowi; brak przesłanek do istotnej rozbieżności.",
+      "Kursy 2.37/3.35/3.05 odpowiadają wyrównanemu meczowi; brak przesłanek do istotnej rozbieżności.",
       "Espanyol bez Kike Garcíi, Deportivo z brakami (Casadó) i krótszym odpoczynkiem – czynniki się znoszą.",
       "Brak kursów na rynki bramkowe w źródłach."
      ]
@@ -5566,10 +5599,10 @@
     "away": "ATH",
     "status": "ns",
     "odds": {
-     "src": "Oddsportal / CheckBestOdds (najlepsze kursy), stan na 4.11 rano",
-     "1": 3.6,
-     "X": 3.45,
-     "2": 2.15
+     "src": "1X2: oddscalendar.com – Megapari, stan na 6.11, 05:30",
+     "1": 3.65,
+     "X": 3.54,
+     "2": 2.18
     },
     "info": {
      "injuries": {
@@ -5590,7 +5623,7 @@
     "tip": {
      "decision": "NO BET",
      "reasons": [
-      "Athletic 2.12–2.15 (~46%) – własna ocena ~47%, EV ≈ 0.",
+      "Athletic 2.18 (~45,9% implikowane) – własna ocena ~47%, EV ≈ +0,02, w granicach błędu.",
       "Osasuna słaba (22 stracone gole), ale Athletic bez Guruzety i Galarrety, możliwa rotacja po meczu europejskim.",
       "Niepewność składu bramkarza Osasuny.",
       "Przewaga zbyt mała → NO BET."
@@ -5605,10 +5638,10 @@
     "away": "RMA",
     "status": "ns",
     "odds": {
-     "src": "Oddsportal / CheckBestOdds (najlepsze kursy), stan na 4.11 rano",
-     "1": 8.25,
-     "X": 6.0,
-     "2": 1.31
+     "src": "1X2: oddscalendar.com – Megapari, stan na 6.11, 05:30",
+     "1": 9.0,
+     "X": 5.85,
+     "2": 1.36
     },
     "info": {
      "injuries": {
@@ -5625,22 +5658,33 @@
      "suspensions": {
       "home": [],
       "away": [
-       "Vinícius Júnior (zawieszenie na 11.–12. kolejkę wg laligaexpert)"
+       "Vinícius Júnior (ostatni, 4. mecz zawieszenia za czerwoną kartkę z Villarrealem – Infobae/EFE 5.11)"
       ]
      },
      "homeAway": "Valencia – 8 goli w 11 meczach, 19. miejsce; Real – 9 zwycięstw w 11, 3:0 w Santanderze w 11. kolejce.",
-     "stakes": "19. Valencia (9 pkt) vs 3. Real Madryt (27 pkt). Real gra w tygodniu w Lidze Mistrzów.",
+     "stakes": "19. Valencia (9 pkt) vs 3. Real Madryt (27 pkt). Real wygrał w LM z AEK Ateny (4.11) – 2 dni odpoczynku mniej niż Valencia.",
      "h2h": [
       "2026-02-08 VAL 0:2 RMA"
-     ]
+     ],
+     "restDays": {
+      "away": 2
+     }
     },
     "tip": {
      "decision": "NO BET",
      "reasons": [
-      "Real 1.31–1.33 (~75% implikowane); własna ocena ~72–74% – EV ujemne/zerowe.",
-      "Brak Viníciusa (zawieszenie) i występ w Lidze Mistrzów w tygodniu – możliwa rotacja.",
-      "Valencia strzela mało (8 goli w 11), ale brak kursów na gole drużyny/handicap w źródłach.",
-      "Niski kurs nie jest powodem do typu."
+      "Real 1.36 (~73,5% implikowane) vs własna ocena ~72% – EV ≈ −0,02.",
+      "Brak Viníciusa (zawieszenie) i mecz LM 4.11 – możliwa rotacja Mourinho.",
+      "Valencia strzela bardzo mało (8 goli w 11), ale brak kursów na gole drużyny/handicap/czyste konto w źródłach.",
+      "Niski kurs nie jest powodem do typu → NO BET."
+     ]
+    },
+    "staff": {
+     "away": [
+      [
+       "Trener",
+       "José Mourinho"
+      ]
      ]
     }
    },
@@ -5689,17 +5733,21 @@
     },
     "info": {
      "homeAway": "Real Sociedad – ostatnie 5: 3W 1R 1P (1:2 z Athletic 1.11, 2:1 z Levante); Rayo – 3:0 z Celtą (31.10), wcześniej 0:3 z Elche.",
-     "stakes": "5. Real Sociedad (19 pkt) vs 12. Rayo (12 pkt, 10 meczów). Obie drużyny grają w pucharach europejskich w tygodniu.",
+     "stakes": "5. Real Sociedad (19 pkt) vs 12. Rayo (12 pkt, 10 meczów). Obie drużyny grają w pucharach europejskich w tygodniu. Real Sociedad zremisował 1:1 z Olympique Lyon w 4. kolejce Ligi Europy (5.11).",
      "h2h": [
       "2026-04-26 RAY 3:3 RSO",
       "2025-10-05 RSO 0:1 RAY",
       "2025-03-16 RAY 2:2 RSO"
-     ]
+     ],
+     "restDays": {
+      "home": 2
+     }
     },
     "tip": {
      "decision": "NO BET",
      "reasons": [
       "Real Sociedad 1.68–1.72 (~59% implikowane) vs model futboltotal 56% – EV ujemne.",
+      "Real Sociedad po meczu LE w czwartek (1:1 z Lyonem) – tylko 2 dni przerwy.",
       "Real Sociedad traci dużo (20 goli w 11 meczach) – nie uzasadnia niskiego kursu.",
       "H2H wyrównane (1W RSO, 2W RAY, 3R w ostatnich 6) – bez wyraźnej przewagi.",
       "Brak kursów na rynki bramkowe → NO BET."
@@ -5721,7 +5769,7 @@
     },
     "info": {
      "homeAway": "Celta – ostatnie 5: 2W 1R 2P (0:3 w Vallecas 31.10); Levante – 1W 2R 2P (0:2 z Atlético 31.10).",
-     "stakes": "10. Celta (12 pkt) vs 18. Levante (10 pkt). Celta gra w Lidze Europy w tygodniu.",
+     "stakes": "10. Celta (12 pkt) vs 18. Levante (10 pkt). Celta gra w Lidze Europy w tygodniu. W 4. kolejce LE Celta przegrała 1:2 z Union SG.",
      "h2h": [
       "2026-05-12 CEL 2:3 LEV"
      ]
@@ -5731,6 +5779,7 @@
      "reasons": [
       "Celta 1.83 (~55% implikowane) vs model futboltotal 53% – brak value.",
       "Celta strzela mało (10 goli w 11) i ma 6 remisów – słaba podstawa do typu na gospodarza.",
+      "Celta po porażce 1:2 z Union SG w Lidze Europy – obciążenie i słaba forma.",
       "Levante wygrał ostatni mecz w Vigo (3:2).",
       "Brak rynku z dodatnim EV."
      ]
@@ -5780,10 +5829,10 @@
     "away": "BAR",
     "status": "ns",
     "odds": {
-     "src": "Oddsportal / CheckBestOdds (najlepsze kursy), stan na 4.11 rano",
-     "1": 3.6,
-     "X": 4.2,
-     "2": 1.86
+     "src": "1X2: oddscalendar.com – Megapari, stan na 6.11, 05:30",
+     "1": 3.81,
+     "X": 4.41,
+     "2": 1.9
     },
     "info": {
      "injuries": {
@@ -5804,17 +5853,22 @@
      "homeAway": "Atlético – 9W 1R 1P w lidze, 8 straconych goli (najmniej), ostatnio 0:2 z Bayernem w LM (3.11); Barcelona – 46 goli w 11 meczach, porażki z Realem i PSG w ostatnich tygodniach.",
      "stakes": "Mecz na szczycie: 2. Atlético (28 pkt) vs 1. Barcelona (30 pkt). Obie drużyny po meczach Ligi Mistrzów w tygodniu.",
      "h2h": [
-      "2026-04-14 ATM 1:2 BAR (LM)"
+      "2026-04-14 ATM 1:2 BAR (LM)",
+      "2026-04-08 BAR 0:2 ATM (LM)",
+      "2026-04-04 ATM 1:2 BAR",
+      "2026-03-03 BAR 3:0 ATM (Puchar Króla)",
+      "2026-02-12 ATM 4:0 BAR (Puchar Króla)",
+      "2025-12-02 BAR 3:1 ATM"
      ]
     },
     "tip": {
      "decision": "NO BET",
      "reasons": [
-      "Barcelona 1.86 (~54% implikowane) vs modele ~51% (Dimers 50,8%, futboltotal 51%) – EV ujemne.",
-      "Atlético 3.60 (~28%) vs modele 27–27,5% – brak przewagi.",
-      "Barcelona z licznymi brakami w obronie (Koundé, Christensen i E. García niepewni), Atlético z najlepszą defensywą ligi – sprzeczne sygnały.",
-      "Rynki bramkowe bez wiarygodnych kursów w źródłach.",
-      "Mecz o dużej zmienności (szlagier) → NO BET."
+      "Barcelona 1.90 (~52,6% implikowane) vs modele ~51% (futboltotal 51%, Dimers 50,8%) – EV ≈ −0,03.",
+      "Atlético 3.81 (~26%) vs modele 27% – EV ≈ +0,03, w granicach błędu modelu; Atlético przegrało 0:2 z Bayernem w LM (3.11).",
+      "Barcelona bez Koundé, Olmo, Rodriego (wg comuniate), Christensen i E. García niepewni; Atlético bez Cristiana Romero.",
+      "H2H z ostatnich 6: 4 wygrane Barcelony, 2 Atlético – bez stabilnego wzorca.",
+      "Rynki bramkowe bez wiarygodnych kursów → NO BET."
      ]
     }
    }

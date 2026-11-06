@@ -1,9 +1,9 @@
 {
- "updated": "2026-11-05T06:55:00+01:00",
+ "updated": "2026-11-06T06:55:00+01:00",
  "season": "2026/27",
  "competition": "Ekstraklasa",
  "currentRound": 14,
- "note": "Źródła: ekstraklasa.org i kkslech.com (wyniki i tabela po 13. kolejce), blog LV BET (kursy na mecze piątkowe i sobotnie, stan 5.11), kickoff.co.uk (kursy Bet365 Górnik–Wieczysta), pogonsportnet.pl (zawieszenie Cojocaru), sts.pl i gramgrubo.pl (czwartkowe mecze pucharowe Lecha i Jagiellonii), goal.pl. Tabela po 13. kolejce (LPO, POG, JAG, WPL z zaległymi meczami); forma: 5 ostatnich meczów ligowych. Obsada sędziowska 14. kolejki niepotwierdzona (stan 5.11 rano); kursy na mecze niedzielne niedostępne. Godziny w czasie zimowym (CET).",
+ "note": "Źródła: ekstraklasa.org i kkslech.com (wyniki i tabela po 13. kolejce), kickoff.co.uk (kursy Bet365 na wszystkie mecze 14. kolejki, stan 6.11 rano; statystyki dom/wyjazd), pilkanozna.pl (sędziowie główni 14. kolejki, 5.11), sportowefakty.wp.pl (pauzy za kartki), kutno.net.pl, sport1.pl i lodzplus.pl (Pogoń bez Cojocaru), weszlo.com i mecze24.pl (czwartkowe mecze Lecha i Jagiellonii w LE), sport.interia.pl, goal.pl, blog LV BET (wcześniejsze kursy). Tabela po 13. kolejce (LPO, POG, JAG, WPL z zaległymi meczami); forma: 5 ostatnich meczów ligowych. Asystenci i VAR 14. kolejki nieznani. Godziny w czasie zimowym (CET).",
  "teams": {
   "LEG": {
    "id": "LEG",
@@ -1615,29 +1615,50 @@
     "status": "ns",
     "info": {
      "stakes": "11. Motor (16 pkt, forma DWWDW) vs 12. Wisła Płock (15 pkt, mecz zaległy)",
-     "homeAway": "MOT w sezonie 19:22 w bramkach (13 m.), WPL 12:18 (12 m.)",
+     "homeAway": "MOT u siebie 2-2-3 (bramki 9:11); WPL na wyjeździe bez zwycięstwa – 4 porażki, bramki 6:13 (wg kickoff.co.uk). Sezon: MOT 19:22, WPL 12:18",
      "h2h": [
       "2026-05-10 WPL 0:4 MOT",
       "2025-11-08 MOT 1:1 WPL",
       "2025-07-11 MOT 2:2 WPL",
       "2025-01-10 MOT 2:1 WPL",
       "2024-05-05 WPL 1:0 MOT"
-     ]
+     ],
+     "restDays": {
+      "home": 7,
+      "away": 6
+     }
     },
     "tip": {
      "decision": "NO BET",
      "reasons": [
-      "Dostępny tylko kurs 1X2 jednego bukmachera: Motor 1,95 (≈51% z kursu, ≈48% po zdjęciu marży ~6,5%).",
-      "Własna ocena szans Motoru ok. 45–48% (dobra seria, ale defensywa 22 stracone gole w 13 meczach) — EV ujemne (≈ −0,10).",
-      "Brak kursów na gole/BTTS i brak potwierdzonych informacji o absencjach — za mało danych na inny rynek."
+      "Bet365: Motor 1,90 (≈53% z kursu); własna ocena wygranej Motoru ok. 46–48% (u siebie tylko 2-2-3, 22 stracone gole) — EV ≈ −0,10.",
+      "DNB Motor 1,44 (≈69%): przy ok. 47% wygranej i 26% remisu EV ≈ −0,06. WPL na wyjeździe słaba (4 porażki), ale rynek to już wycenia.",
+      "Over 2,5 @1,65 i BTTS @1,57 blisko mojej wyceny (WPL strzela ok. 1 gola/mecz) — brak przewagi."
      ]
     },
     "odds": {
-     "src": "LV BET (blog.lvbet.pl), stan na 5.11 rano (bez zmian) – tylko 1X2",
-     "1": 1.95,
-     "X": 3.75,
-     "2": 3.5
-    }
+     "src": "Bet365 (przez kickoff.co.uk), stan na 6.11 rano (konwersja z ułamkowych); LV BET 5.11: 1,95 / 3,75 / 3,50",
+     "1": 1.9,
+     "X": 3.6,
+     "2": 3.5,
+     "1X": 1.29,
+     "X2": 1.91,
+     "12": 1.29,
+     "dnb1": 1.44,
+     "dnb2": 2.63,
+     "o25": 1.65,
+     "u25": 2.2,
+     "bttsY": 1.57,
+     "bttsN": 2.25
+    },
+    "officials": [
+     {
+      "r": "GŁ",
+      "role": "Sędzia główny",
+      "name": "Marcin Kochanek",
+      "nat": "POL"
+     }
+    ]
    },
    {
     "id": "2026-27-R14-WIS-CRA",
@@ -1658,36 +1679,57 @@
       "away": []
      },
      "stakes": "Wielkie Derby Krakowa: 8. Wisła (21 pkt) vs 13. Cracovia (12 pkt); kibice Cracovii z pulą ok. 2000 biletów w sektorze gości",
-     "homeAway": "WIS w sezonie 20:18 w bramkach, CRA 15:21 (po 13 m.)",
+     "homeAway": "WIS wygrała wszystkie 6 meczów u siebie; CRA przegrała 4 ostatnie mecze wyjazdowe (wg kickoff.co.uk). Sezon: WIS 20:18, CRA 15:21",
      "h2h": [
       "2022-05-01 CRA 0:0 WIS",
       "2021-11-07 WIS 1:0 CRA",
       "2021-04-24 WIS 0:0 CRA",
       "2020-12-04 CRA 1:1 WIS",
       "2020-03-03 CRA 0:2 WIS"
-     ]
+     ],
+     "restDays": {
+      "home": 6,
+      "away": 7
+     }
     },
     "notes": "Pierwsze derby Krakowa w Ekstraklasie po powrocie Wisły do ligi (po 4 sezonach). Źródło: goal.pl.",
     "tip": {
      "decision": "NO BET",
      "reasons": [
-      "Kurs 1,80 na Wisłę wycenia ją na ≈56% (≈52% bez marży); przy wąskiej kadrze (5 kontuzjowanych, m.in. Igbekeme) i nieprzewidywalności derbów oceniam ok. 50% — EV ≈ −0,10.",
-      "Cracovia słaba (1 wygrana w 5 ostatnich), ale wycena rynku już to uwzględnia — brak value na 1X2.",
-      "Brak kursów na gole/BTTS/kartki; H2H (5 goli w 5 meczach) jest stare (2020–2022) i nie może być podstawą typu."
+      "Wisła 1,75 (≈57%): wygrała 6/6 u siebie, Cracovia przegrała 4 wyjazdy z rzędu, ale Wisła ma 5 kontuzjowanych (m.in. Igbekeme), a derby są nieprzewidywalne — oceniam ok. 55%, EV ≈ −0,04.",
+      "DNB Wisła 1,33 (≈75%) przy ok. 55% / 25% remisu daje EV ≈ −0,02 — za mało.",
+      "Rynki goli (o2,5 1,67, BTTS 1,67) zgodne z moją wyceną; seria czystych kont Wisły w derbach pochodzi z lat 2020–2022."
      ]
     },
     "odds": {
-     "src": "LV BET (blog.lvbet.pl), stan na 5.11 rano (bez zmian) – tylko 1X2",
-     "1": 1.8,
-     "X": 3.9,
-     "2": 4.0
+     "src": "Bet365 (przez kickoff.co.uk), stan na 6.11 rano (konwersja z ułamkowych); LV BET 5.11: 1,80 / 3,90 / 4,00",
+     "1": 1.75,
+     "X": 3.6,
+     "2": 4.0,
+     "1X": 1.2,
+     "X2": 1.91,
+     "12": 1.25,
+     "dnb1": 1.33,
+     "dnb2": 3.25,
+     "o25": 1.67,
+     "u25": 2.15,
+     "bttsY": 1.67,
+     "bttsN": 2.1
     },
     "weather": {
      "temp": 4,
      "rain": "Brak (prognoza)",
      "wind": "5 km/h",
      "hum": 92
-    }
+    },
+    "officials": [
+     {
+      "r": "GŁ",
+      "role": "Sędzia główny",
+      "name": "Szymon Marciniak",
+      "nat": "POL"
+     }
+    ]
    },
    {
     "id": "2026-27-R14-KOR-RAD",
@@ -1698,9 +1740,12 @@
     "status": "ns",
     "info": {
      "suspensions": {
-      "home": [],
+      "home": [
+       "Rubezić (4. żółta kartka)"
+      ],
       "away": [
-       "Abdoul Tapsoba (4. żółta kartka)"
+       "Abdoul Tapsoba (4. żółta kartka)",
+       "Camara (zawieszenie)"
       ]
      },
      "homeAway": "KOR w sezonie 5-3-5, bramki 14:19; RAD 3-2-8, 15:29 (po 13 m.)",
@@ -1710,28 +1755,43 @@
       "2025-08-08 KOR 3:0 RAD",
       "2025-03-30 KOR 1:3 RAD",
       "2024-09-20 RAD 4:0 KOR"
-     ]
+     ],
+     "restDays": {
+      "home": 5,
+      "away": 5
+     }
     },
     "tip": {
      "decision": "NO BET",
      "reasons": [
-      "Kurs 1,67–1,73 na Koronę wycenia ją na 58–60% (ok. 55% bez marży); przy słabym ataku Korony (14 goli w 13 m.) oceniam ok. 50% — EV ujemne (≈ −0,15).",
-      "Radomiak traci najwięcej goli w lidze (29), ale ostatnio wygrał 3:1 ze Śląskiem; absencja Tapsoby to zbyt mało, by przesunąć wycenę.",
-      "Rynki goli (o2,5 1,70 / BTTS 1,70) blisko mojej wyceny — brak przewagi; brak danych xG i dom/wyjazd."
+      "Korona 1,65 (≈61%); Radomiak bez Tapsoby i Camary, ale Korona bez Rubezicia i ze słabym atakiem (14 goli w 13 m.) — oceniam ok. 52–55%, EV ujemne.",
+      "1X 1,18 i DNB 1,29 — zbyt niski kurs względem ryzyka; o2,5 1,70 / BTTS 1,70 bez przewagi.",
+      "Radomiak traci najwięcej goli w lidze (29), co rynek już uwzględnia."
      ]
     },
     "odds": {
-     "src": "LV BET (blog.lvbet.pl), stan na 5.11 rano – tabela kursów (nagłówek strony: 1,73 / 3,90 / 4,50)",
-     "1": 1.67,
-     "X": 4.2,
-     "2": 4.8,
-     "1X": 1.2,
-     "X2": 2.25,
+     "src": "Bet365 (przez kickoff.co.uk), stan na 6.11 rano (konwersja z ułamkowych); LV BET 5.11: 1,67 / 4,20 / 4,80",
+     "1": 1.65,
+     "X": 3.75,
+     "2": 4.5,
+     "1X": 1.18,
+     "X2": 2.2,
+     "12": 1.25,
+     "dnb1": 1.29,
+     "dnb2": 3.5,
      "o25": 1.7,
-     "u25": 2.15,
+     "u25": 2.1,
      "bttsY": 1.7,
-     "bttsN": 2.12
-    }
+     "bttsN": 2.05
+    },
+    "officials": [
+     {
+      "r": "GŁ",
+      "role": "Sędzia główny",
+      "name": "Tomasz Kwiatkowski",
+      "nat": "POL"
+     }
+    ]
    },
    {
     "id": "2026-27-R14-SLA-PIA",
@@ -1743,19 +1803,28 @@
     "tip": {
      "decision": "NO BET",
      "reasons": [
-      "Rynek wycenia obie drużyny równo (2,55 / 2,55) mimo 12 pkt różnicy w tabeli — moja ocena Piasta ok. 39–40% daje EV ≈ 0 (0,40 × 2,55 − 1 = +0,02), poniżej progu.",
-      "Brak kursu DNB/podwójnej szansy i rynków goli — nie da się wybrać bezpieczniejszego rynku.",
-      "Brak informacji o absencjach i danych dom/wyjazd; H2H z lat 2023–2025 nie jest podstawą typu."
+      "Rynek przesunął się na Piasta (2,25; było 2,55) — przewaga z wczoraj zniknęła. Oceniam Piasta ok. 42%, remis 27% → wygrana EV ≈ −0,05, DNB 1,73 EV ≈ 0,00, X2 1,44 EV ≈ −0,01.",
+      "Piast bez Lewickiego (4 żółte); Śląsk strzela w 9 meczach z rzędu, ale bez zwycięstwa z drużynami wyżej w tabeli.",
+      "Over 2,5 1,57 i BTTS 1,50 bez wartości."
      ]
     },
     "odds": {
-     "src": "LV BET (blog.lvbet.pl), stan na 5.11 rano – tylko 1X2",
-     "1": 2.55,
+     "src": "Bet365 (przez kickoff.co.uk), stan na 6.11 rano (konwersja z ułamkowych); LV BET 5.11: 2,55 / 3,60 / 2,55",
+     "1": 2.7,
      "X": 3.6,
-     "2": 2.55
+     "2": 2.25,
+     "1X": 1.62,
+     "X2": 1.44,
+     "12": 1.29,
+     "dnb1": 2.0,
+     "dnb2": 1.73,
+     "o25": 1.57,
+     "u25": 2.35,
+     "bttsY": 1.5,
+     "bttsN": 2.5
     },
     "info": {
-     "homeAway": "SLA w sezonie 2-3-8, bramki 17:25; PIA 6-3-4, 24:20 (po 13 m.)",
+     "homeAway": "SLA u siebie 2-2-2 (9:10), bez zwycięstwa z drużynami wyżej w tabeli; PIA na wyjeździe 2-2-2 (wg kickoff.co.uk). Sezon: SLA 17:25, PIA 24:20",
      "stakes": "16. Śląsk (9 pkt) broni się przed spadkiem; 7. Piast (21 pkt) bez porażki w 5 ostatnich meczach ligowych",
      "h2h": [
       "2025-02-03 SLA 1:3 PIA",
@@ -1763,8 +1832,26 @@
       "2024-07-28 PIA 2:0 SLA",
       "2024-03-30 PIA 2:2 SLA",
       "2023-09-23 SLA 1:0 PIA"
-     ]
-    }
+     ],
+     "suspensions": {
+      "home": [],
+      "away": [
+       "Lewicki (4. żółta kartka)"
+      ]
+     },
+     "restDays": {
+      "home": 5,
+      "away": 7
+     }
+    },
+    "officials": [
+     {
+      "r": "GŁ",
+      "role": "Sędzia główny",
+      "name": "Bartosz Frankowski",
+      "nat": "POL"
+     }
+    ]
    },
    {
     "id": "2026-27-R14-GZA-WIE",
@@ -1776,13 +1863,12 @@
     "tip": {
      "decision": "NO BET",
      "reasons": [
-      "Kurs 1,60 na Górnika = ok. 62% (≈ 59% bez marży); własna ocena ok. 56–58% — Górnik zremisował 4 ostatnie mecze ligowe i strzela mało (21 goli w 13 m.). EV ≈ −0,08.",
-      "DNB 1,25 (80%) i 1X 1,18 (85%) wyceniają Górnika wyżej, niż wskazuje jego forma — brak wartości przy niskim kursie.",
-      "Over 2,5 @1,62 (62%) i BTTS @1,67 (60%) zbliżone do mojej wyceny (średnio 2,5 gola w meczach Górnika) — brak przewagi."
+      "Górnik 1,60 (≈62%) przy 4 remisach z rzędu i braku Janickiego (4 żółte) — oceniam ok. 56–58%, EV ≈ −0,08.",
+      "DNB 1,25 i 1X 1,18 — niski kurs bez wartości; o2,5 1,62 i BTTS 1,67 blisko mojej wyceny."
      ]
     },
     "odds": {
-     "src": "Bet365 (przez kickoff.co.uk), stan na 5.11 rano; LV BET: 1,60 / 4,30 / 5,45",
+     "src": "Bet365 (przez kickoff.co.uk), stan na 6.11 rano; LV BET: 1,60 / 4,30 / 5,45",
      "1": 1.6,
      "X": 3.9,
      "2": 4.75,
@@ -1798,8 +1884,26 @@
     },
     "info": {
      "homeAway": "GZA w sezonie 8-4-1, bramki 21:11; WIE 2-2-9, 17:26 (po 13 m.)",
-     "stakes": "2. Górnik (28 pkt, 4 remisy z rzędu) goni lidera; 18. Wieczysta (8 pkt) zamyka tabelę"
-    }
+     "stakes": "2. Górnik (28 pkt, 4 remisy z rzędu) goni lidera; 18. Wieczysta (8 pkt) zamyka tabelę",
+     "suspensions": {
+      "home": [
+       "Janicki (4. żółta kartka)"
+      ],
+      "away": []
+     },
+     "restDays": {
+      "home": 8,
+      "away": 7
+     }
+    },
+    "officials": [
+     {
+      "r": "GŁ",
+      "role": "Sędzia główny",
+      "name": "Wojciech Myć",
+      "nat": "POL"
+     }
+    ]
    },
    {
     "id": "2026-27-R14-WID-POG",
@@ -1812,11 +1916,10 @@
      "suspensions": {
       "home": [],
       "away": [
-       "Valentin Cojocaru (bramkarz; zawieszony na 1 mecz po czerwonej kartce z Rakowem)",
-       "Lukas Willen (czerwona – 2. żółta z Rakowem)"
+       "Valentin Cojocaru (bramkarz; czerwona kartka z Rakowem – 1 mecz)"
       ]
      },
-     "homeAway": "WID w sezonie 1-8-4, bramki 17:19 (13 m.); POG 7-3-2, 20:12 (12 m.)",
+     "homeAway": "WID bez wygranej u siebie w sezonie (4 remisy z rzędu u siebie), ostatnie zwycięstwo ligowe 9.08; POG wygrała 3 z 5 meczów wyjazdowych (wg kickoff.co.uk). Sezon: WID 1-8-4, 17:19; POG 7-3-2, 20:12",
      "stakes": "4. Pogoń (24 pkt, mecz zaległy) w walce o podium; 14. Widzew (11 pkt) tuż nad strefą spadkową",
      "h2h": [
       "2026-02-28 POG 1:0 WID",
@@ -1824,41 +1927,52 @@
       "2025-08-22 WID 1:2 POG",
       "2025-02-22 WID 0:4 POG",
       "2024-08-17 POG 2:0 WID"
-     ]
+     ],
+     "restDays": {
+      "home": 7,
+      "away": 5
+     }
     },
     "tip": {
-     "decision": "BET",
-     "market": "Podwójna szansa X2 (remis lub Pogoń)",
-     "odds": 1.75,
-     "prob": 0.6,
-     "ev": 0.05,
-     "rating": 6,
-     "risk": "średnie",
+     "decision": "NO BET",
      "reasons": [
-      "Duża różnica jakości w lidze: Pogoń 2,0 pkt/mecz i bilans bramek +8, Widzew 0,85 pkt/mecz i −2 — rynek mimo to robi faworytem Widzew (2,20).",
-      "Widzew to drużyna remisowa: 8 remisów i tylko 1 zwycięstwo w 13 meczach — remis jest częścią tego rynku.",
-      "Widzew bez zwycięstwa w 5 ostatnich meczach ligowych (3 remisy, 2 porażki).",
-      "Pogoń przed porażką 1:3 w Częstochowie wygrała 4 kolejne mecze ligowe.",
-      "Moja wycena: Widzew ok. 40%, remis ok. 30%, Pogoń ok. 30% → X2 ok. 60% wobec ok. 57% z kursu."
-     ],
-     "risks": [
-      "Pogoń bez podstawowego bramkarza Cojocaru i Willena (obaj czerwone kartki z Rakowem) — rezerwowy bramkarz to realne osłabienie.",
-      "Rynek mocno faworyzuje Widzew, co może odzwierciedlać informacje niewidoczne w tabeli (np. jakość gry, kadra).",
-      "Kursy tylko z jednego bukmachera, a strona podaje dwie wersje kursów — wycena niepewna.",
-      "Brak danych xG oraz bilansu u siebie/na wyjeździe."
-     ],
-     "value": "Kurs 1,75 wycenia X2 na ok. 57% (ok. 54% bez marży), a forma i tabela sugerują ok. 60%. Przewaga niewielka (EV ok. +5%) — typ umiarkowany, nie mocny.",
-     "stake": "maks. 1% bankrollu"
+      "Wycofuję wczorajszy typ X2: LV BET 1,75 nie udało się potwierdzić, a Bet365 daje X2 1,62 (≈62%) — przy mojej wycenie ok. 60% EV ≈ −0,03.",
+      "Nowa informacja przeciw Pogoni: w bramce debiutant w Ekstraklasie (Dąbrowski lub Botis) zamiast Cojocaru.",
+      "DNB Pogoń 2,25 przy ok. 31% wygranej i 30% remisu daje EV ≈ 0,00; Widzew bez wygranej u siebie, ale remisuje (4 remisy z rzędu u siebie) — brak przewagi na żadnym rynku."
+     ]
     },
     "odds": {
-     "src": "LV BET (blog.lvbet.pl), stan na 5.11 rano (w widżecie strony: X 3,60, 2 3,00)",
-     "1": 2.2,
-     "X": 3.85,
-     "2": 3.05,
-     "1X": 1.42,
-     "X2": 1.75,
-     "bttsY": 1.67,
-     "bttsN": 2.15
+     "src": "Bet365 (przez kickoff.co.uk), stan na 6.11 rano (konwersja z ułamkowych); LV BET 5.11: 2,20 / 3,85 / 3,05, X2 1,75 (niepotwierdzone 6.11)",
+     "1": 2.1,
+     "X": 3.5,
+     "2": 3.0,
+     "1X": 1.33,
+     "X2": 1.62,
+     "12": 1.25,
+     "dnb1": 1.57,
+     "dnb2": 2.25,
+     "o25": 1.7,
+     "u25": 2.1,
+     "bttsY": 1.62,
+     "bttsN": 2.2
+    },
+    "officials": [
+     {
+      "r": "GŁ",
+      "role": "Sędzia główny",
+      "name": "Piotr Lasyk",
+      "nat": "POL"
+     }
+    ],
+    "notes": "W bramce Pogoni zadebiutuje w Ekstraklasie Kevin Dąbrowski lub Nikos Botis (sport1.pl). Lukas Willen (czerwona po 2. żółtej z Rakowem) wg kutno.net.pl nie pauzuje – brak go na liście zawieszonych sportowefakty.wp.pl.",
+    "staff": {
+     "home": [
+      [
+       "Trener",
+       "Mateusz Stolarski"
+      ]
+     ],
+     "away": []
     }
    },
    {
@@ -1869,16 +1983,59 @@
     "away": "GKS",
     "status": "ns",
     "info": {
-     "stakes": "9. Jagiellonia (18 pkt, mecz zaległy) vs 6. GKS (21 pkt); Jagiellonia gra w czwartek 5.11 z Levski Sofia w europejskich pucharach (3 dni przerwy)",
+     "stakes": "9. Jagiellonia (18 pkt, mecz zaległy) vs 6. GKS (21 pkt); Jagiellonia w czwartek przegrała 0:1 w Sofii z Levski (gol w 83. min) w Lidze Europy – 3 dni przerwy i podróż",
      "restDays": {
-      "home": 3
-     }
+      "home": 3,
+      "away": 8
+     },
+     "injuries": {
+      "home": [
+       "Serginho (uraz w meczu z Levskim, zszedł w przerwie – stopień nieznany)"
+      ],
+      "away": []
+     },
+     "homeAway": "Żadna z drużyn nie zremisowała w lidze w tym sezonie (JAG 6-0-6, GKS 7-0-6); GKS stracił gola w 8 kolejnych meczach ligowych (wg kickoff.co.uk). Sezon: JAG 17:18, GKS 25:19"
     },
     "tip": {
      "decision": "NO BET",
      "reasons": [
-      "Brak opublikowanych kursów bukmacherskich (stan 5.11 rano) — bez kursu nie da się policzyć EV. Analiza zostanie uzupełniona przy kolejnej aktualizacji."
+      "Kursy Bet365: 2,15 / 3,70 / 2,88. Jagiellonia po czwartkowej porażce w Sofii (3 dni przerwy, podróż, uraz Serginho); GKS wypoczęty (8 dni) — oceniam GKS ok. 35%, remis 25%: DNB GKS 2,20 EV ≈ +0,02 — poniżej progu.",
+      "BTTS tak 1,44 (≈69%): GKS stracił gola w 8 meczach z rzędu, ale moja wycena ok. 68% daje EV ≈ −0,02. Over 2,5 1,48 też bez wartości.",
+      "Obie drużyny bez remisu w sezonie — to ciekawostka, nie podstawa typu."
      ]
+    },
+    "officials": [
+     {
+      "r": "GŁ",
+      "role": "Sędzia główny",
+      "name": "Daniel Stefański",
+      "nat": "POL"
+     }
+    ],
+    "odds": {
+     "src": "Bet365 (przez kickoff.co.uk), stan na 6.11 rano",
+     "1": 2.15,
+     "X": 3.7,
+     "2": 2.88,
+     "1X": 1.4,
+     "X2": 1.67,
+     "12": 1.29,
+     "dnb1": 1.62,
+     "dnb2": 2.2,
+     "o25": 1.48,
+     "u25": 2.6,
+     "bttsY": 1.44,
+     "bttsN": 2.63
+    },
+    "notes": "Jagiellonia 5.11 przegrała 0:1 z Levski Sofia w LE (Stoyanchov 83'); Serginho zszedł z urazem w przerwie (mecze24.pl).",
+    "staff": {
+     "home": [
+      [
+       "Trener",
+       "Julio Velázquez"
+      ]
+     ],
+     "away": []
     }
    },
    {
@@ -1889,12 +2046,62 @@
     "away": "RAK",
     "status": "ns",
     "info": {
-     "stakes": "3. Legia (24 pkt) vs 17. Raków (9 pkt, wygrał 3:1 z Pogonią)"
+     "stakes": "3. Legia (24 pkt) vs 17. Raków (9 pkt, wygrał 3:1 z Pogonią); Marek Papszun przeciwko byłemu klubowi",
+     "suspensions": {
+      "home": [
+       "Bartosz Kapustka (4. żółta kartka)"
+      ],
+      "away": []
+     },
+     "restDays": {
+      "home": 9,
+      "away": 6
+     },
+     "homeAway": "LEG 6-6-1, bramki 23:11, 4 czyste konta; RAK 3-0-10, 19:29, bez czystego konta (wg kickoff.co.uk). Legia strzeliła tylko 2 gole w 3 ostatnich meczach (meczyki.pl)"
     },
     "tip": {
      "decision": "NO BET",
      "reasons": [
-      "Brak opublikowanych kursów bukmacherskich (stan 5.11 rano) — bez kursu nie da się policzyć EV. Analiza zostanie uzupełniona przy kolejnej aktualizacji."
+      "Legia 1,83 (≈55%): Legia remisowa (6 remisów) i strzeliła 2 gole w 3 ostatnich meczach; bez Kapustki (4 żółte). Oceniam wygraną ok. 55%, remis 25% → DNB 1,40 EV ≈ +0,02, wygrana EV ≈ 0,00.",
+      "BTTS tak 1,62 (≈62%): Raków bez czystego konta, ale Legia ma 4 czyste konta i traci 0,8 gola/mecz — moja wycena ok. 58%, EV ≈ −0,05. Over 2,5 1,67 podobnie.",
+      "Brak rynku z przewagą ≥5%."
+     ]
+    },
+    "officials": [
+     {
+      "r": "GŁ",
+      "role": "Sędzia główny",
+      "name": "Jarosław Przybył",
+      "nat": "POL"
+     }
+    ],
+    "odds": {
+     "src": "Bet365 (przez kickoff.co.uk), stan na 6.11 rano; Betclic (meczyki.pl): 1,90 / 3,90 / 3,90",
+     "1": 1.83,
+     "X": 3.7,
+     "2": 3.6,
+     "1X": 1.29,
+     "X2": 1.91,
+     "12": 1.29,
+     "dnb1": 1.4,
+     "dnb2": 2.75,
+     "o25": 1.67,
+     "u25": 2.15,
+     "bttsY": 1.62,
+     "bttsN": 2.2
+    },
+    "staff": {
+     "home": [
+      [
+       "Trener",
+       "Marek Papszun"
+      ]
+     ],
+     "away": [
+      [
+       "Trener",
+       "Dawid Szwagra"
+      ]
      ]
     }
    },
@@ -1906,16 +2113,59 @@
     "away": "ZAG",
     "status": "ns",
     "info": {
-     "stakes": "1. Lech (31 pkt) vs 5. Zagłębie (22 pkt); Lech gra w czwartek 5.11 z Benficą w Lidze Europy (3 dni przerwy)",
+     "stakes": "1. Lech (31 pkt, mecz zaległy) vs 5. Zagłębie (22 pkt); Lech w czwartek przegrał 1:3 z Benficą w Lizbonie (Liga Europy) – 3 dni przerwy i podróż",
      "restDays": {
-      "home": 3
-     }
+      "home": 3,
+      "away": 6
+     },
+     "injuries": {
+      "home": [
+       "Pablo Rodriguez (skręcona kostka w meczu z Benficą – wg trenera raczej nie zdąży)"
+      ],
+      "away": []
+     },
+     "homeAway": "LPO 10-1-1 (32:11), 2+ gole w 5 kolejnych meczach ligowych; ZAG 6-4-3 (16:15), 5 czystych kont (wg kickoff.co.uk)"
     },
     "tip": {
      "decision": "NO BET",
      "reasons": [
-      "Brak opublikowanych kursów bukmacherskich (stan 5.11 rano) — bez kursu nie da się policzyć EV. Analiza zostanie uzupełniona przy kolejnej aktualizacji."
+      "Lech 1,45 (≈69%) po porażce 1:3 w Lizbonie (3 dni przerwy, uraz Pablo Rodrigueza, seria urazów mięśniowych); Zagłębie 5. z 5 czystymi kontami — oceniam wygraną Lecha ok. 62%, EV ≈ −0,10.",
+      "Over 2,5 1,53 (≈65%): oczekiwane ok. 2,9 gola daje ok. 55% — EV ≈ −0,15.",
+      "BTTS 1,67 i DNB 1,17 bez wartości."
      ]
+    },
+    "officials": [
+     {
+      "r": "GŁ",
+      "role": "Sędzia główny",
+      "name": "Karol Arys",
+      "nat": "POL"
+     }
+    ],
+    "odds": {
+     "src": "Bet365 (przez kickoff.co.uk), stan na 6.11 rano",
+     "1": 1.45,
+     "X": 4.1,
+     "2": 5.75,
+     "1X": 1.13,
+     "X2": 2.5,
+     "12": 1.2,
+     "dnb1": 1.17,
+     "dnb2": 5.0,
+     "o25": 1.53,
+     "u25": 2.4,
+     "bttsY": 1.67,
+     "bttsN": 2.1
+    },
+    "notes": "Lech 5.11 przegrał 1:3 z Benficą w LE (gol Bengtssona); Pablo Rodriguez skręcił kostkę (weszlo.com). Media piszą o serii urazów mięśniowych w Lechu.",
+    "staff": {
+     "home": [
+      [
+       "Trener",
+       "Niels Frederiksen"
+      ]
+     ],
+     "away": []
     }
    }
   ],
@@ -2194,10 +2444,5 @@
    "form": "WLLLL"
   }
  ],
- "picks": [
-  {
-   "match": "2026-27-R14-WID-POG",
-   "rank": 1
-  }
- ]
+ "picks": []
 }
