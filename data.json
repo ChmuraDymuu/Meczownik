@@ -1,9 +1,9 @@
 {
- "updated": "2026-11-06T06:55:00+01:00",
+ "updated": "2026-11-07T06:55:00+01:00",
  "season": "2026/27",
  "competition": "Ekstraklasa",
  "currentRound": 14,
- "note": "Źródła: ekstraklasa.org i kkslech.com (wyniki i tabela po 13. kolejce), kickoff.co.uk (kursy Bet365 na wszystkie mecze 14. kolejki, stan 6.11 rano; statystyki dom/wyjazd), pilkanozna.pl (sędziowie główni 14. kolejki, 5.11), sportowefakty.wp.pl (pauzy za kartki), kutno.net.pl, sport1.pl i lodzplus.pl (Pogoń bez Cojocaru), weszlo.com i mecze24.pl (czwartkowe mecze Lecha i Jagiellonii w LE), sport.interia.pl, goal.pl, blog LV BET (wcześniejsze kursy). Tabela po 13. kolejce (LPO, POG, JAG, WPL z zaległymi meczami); forma: 5 ostatnich meczów ligowych. Asystenci i VAR 14. kolejki nieznani. Godziny w czasie zimowym (CET).",
+ "note": "Źródła: ekstraklasa.org, mecze24.pl, eska.pl, pilkanozna.pl (piątkowe mecze 14. kolejki: Motor–Wisła Płock 3:2, Wisła Kraków–Cracovia 2:1), kickoff.co.uk (kursy Bet365, stan 6.11 rano – nowszych nie potwierdzono), pilkanozna.pl (sędziowie główni), sportowefakty.wp.pl, sport1.pl, weszlo.com, mecze24.pl (absencje). Tabela po piątkowych meczach 14. kolejki (LPO, POG, JAG, WPL z zaległymi meczami; przy równej liczbie punktów kolejność wg bilansu bramek); forma: 5 ostatnich meczów ligowych. Asystenci i VAR 14. kolejki nieznani. Godziny CET.",
  "teams": {
   "LEG": {
    "id": "LEG",
@@ -1612,7 +1612,7 @@
     "time": "18:00",
     "home": "MOT",
     "away": "WPL",
-    "status": "ns",
+    "status": "ft",
     "info": {
      "stakes": "11. Motor (16 pkt, forma DWWDW) vs 12. Wisła Płock (15 pkt, mecz zaległy)",
      "homeAway": "MOT u siebie 2-2-3 (bramki 9:11); WPL na wyjeździe bez zwycięstwa – 4 porażki, bramki 6:13 (wg kickoff.co.uk). Sezon: MOT 19:22, WPL 12:18",
@@ -1658,7 +1658,213 @@
       "name": "Marcin Kochanek",
       "nat": "POL"
      }
-    ]
+    ],
+    "score": [
+     3,
+     2
+    ],
+    "staff": {
+     "home": [
+      [
+       "Trener",
+       "Mariusz Misiura"
+      ]
+     ],
+     "away": []
+    },
+    "events": [
+     {
+      "m": 2,
+      "t": "goal",
+      "s_": "h",
+      "who": "Bartosz Bereszyński",
+      "as": "Fábio Ronaldo",
+      "how": "Głowa (po rzucie rożnym)"
+     },
+     {
+      "m": 16,
+      "t": "yc",
+      "s_": "a",
+      "who": "Samuel Akere"
+     },
+     {
+      "m": 31,
+      "t": "goal",
+      "s_": "a",
+      "who": "Afonso Silva",
+      "as": "Samuel Akere",
+      "how": "Po rzucie rożnym"
+     },
+     {
+      "m": 33,
+      "t": "goal",
+      "s_": "a",
+      "who": "Olaf Kobacki",
+      "as": "Samuel Akere"
+     },
+     {
+      "m": 35,
+      "t": "yc",
+      "s_": "h",
+      "who": "Yacine Bourhane"
+     },
+     {
+      "m": 54,
+      "t": "goal",
+      "s_": "h",
+      "who": "Mbaye N'Diaye",
+      "as": "Fábio Ronaldo"
+     },
+     {
+      "m": 56,
+      "t": "yc",
+      "s_": "h",
+      "who": "Thomas Santos"
+     },
+     {
+      "m": 63,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Kamil Lukoszek",
+      "out": "Thomas Santos"
+     },
+     {
+      "m": 63,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Alioune Tall",
+      "out": "Yacine Bourhane"
+     },
+     {
+      "m": 71,
+      "t": "sub",
+      "s_": "a",
+      "inn": "J. Pršir",
+      "out": "Samuel Akere"
+     },
+     {
+      "m": 71,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Fabian Hiszpański",
+      "out": "Olaf Kobacki"
+     },
+     {
+      "m": 76,
+      "t": "yc",
+      "s_": "a",
+      "who": "Marcus Haglind-Sangré"
+     },
+     {
+      "m": 77,
+      "t": "yc",
+      "s_": "a",
+      "who": "Łukasz Sekulski"
+     },
+     {
+      "m": 80,
+      "t": "sub",
+      "s_": "h",
+      "inn": "P. Meyer",
+      "out": "C. Simon"
+     },
+     {
+      "m": 80,
+      "t": "sub",
+      "s_": "h",
+      "inn": "M. Aïko",
+      "out": "Fábio Ronaldo"
+     },
+     {
+      "m": 80,
+      "t": "sub",
+      "s_": "h",
+      "inn": "M. Bartoš",
+      "out": "Bartosz Bereszyński"
+     },
+     {
+      "m": 81,
+      "t": "rc",
+      "s_": "a",
+      "who": "Marcus Haglind-Sangré",
+      "why": "Druga żółta kartka"
+     },
+     {
+      "m": 83,
+      "t": "sub",
+      "s_": "a",
+      "inn": "K. Pomorski",
+      "out": "A. Radwański"
+     },
+     {
+      "m": 90,
+      "s": "+1",
+      "t": "yc",
+      "s_": "h",
+      "who": "Alioune Tall"
+     },
+     {
+      "m": 90,
+      "s": "+5",
+      "t": "yc",
+      "s_": "h",
+      "who": "Filip Luberecki"
+     },
+     {
+      "m": 90,
+      "s": "+7",
+      "t": "goal",
+      "s_": "h",
+      "who": "Karol Czubak"
+     },
+     {
+      "m": 90,
+      "s": "+10",
+      "t": "yc",
+      "s_": "h",
+      "who": "Mbaye N'Diaye"
+     },
+     {
+      "m": 90,
+      "s": "+11",
+      "t": "yc",
+      "s_": "a",
+      "who": "Fabian Hiszpański"
+     }
+    ],
+    "teamStats": [
+     [
+      "Strzały",
+      13,
+      4
+     ],
+     [
+      "Zablokowane strzały",
+      4,
+      0
+     ],
+     [
+      "Obrony bramkarza",
+      1,
+      3
+     ],
+     [
+      "Rzuty rożne",
+      3,
+      2
+     ],
+     [
+      "Faule",
+      7,
+      5
+     ],
+     [
+      "Spalone",
+      0,
+      1
+     ]
+    ],
+    "notes": "PO MECZU: Motor wygrał 3:2 golem Karola Czubaka w 8. minucie doliczonego czasu. Bereszyński głową po rożnym (2'), Wisła odwróciła wynik w 2 minuty (Afonso Silva 31', Kobacki 33' – obie asysty Akere), N'Diaye wyrównał po przerwie. Wisła od 81' w dziesiątkę (Haglind-Sangré, 2. żółta). Motor przed przerwą trafił w słupek i miał piłkę wybitą z linii. Zmiana Hamulić/Sekulski (63') pominięta – sprzeczne dane. Składy, frekwencja i posiadanie nieznane. Źródła: ekstraklasa.org, mecze24.pl, eska.pl."
    },
    {
     "id": "2026-27-R14-WIS-CRA",
@@ -1666,7 +1872,7 @@
     "time": "20:30",
     "home": "WIS",
     "away": "CRA",
-    "status": "ns",
+    "status": "ft",
     "info": {
      "injuries": {
       "home": [
@@ -1692,7 +1898,7 @@
       "away": 7
      }
     },
-    "notes": "Pierwsze derby Krakowa w Ekstraklasie po powrocie Wisły do ligi (po 4 sezonach). Źródło: goal.pl.",
+    "notes": "Pierwsze derby Krakowa w Ekstraklasie po powrocie Wisły do ligi (po 4 sezonach). Źródło: goal.pl. | PO MECZU: Wisła wygrała derby 2:1 (7. zwycięstwo u siebie z rzędu). Carbó 9' (rykoszet od Henrikssona), Hasić 20' dobił obroniony przez Łubika karny (Marciniak zmienił decyzję z żółtej kartki za symulację Kakabadze na karnego), Božić 45+2'. Gra dwukrotnie przerywana z powodu dymu z rac (24' i 33'), 12 minut doliczone do 1. połowy. Klich czerwona w doliczonym czasie. Frekwencja, składy i posiadanie nieznane. Źródła: ekstraklasa.org, pilkanozna.pl, mecze24.pl.",
     "tip": {
      "decision": "NO BET",
      "reasons": [
@@ -1729,6 +1935,206 @@
       "name": "Szymon Marciniak",
       "nat": "POL"
      }
+    ],
+    "score": [
+     2,
+     1
+    ],
+    "staff": {
+     "home": [
+      [
+       "Trener",
+       "Mariusz Jop"
+      ]
+     ],
+     "away": []
+    },
+    "events": [
+     {
+      "m": 9,
+      "t": "goal",
+      "s_": "h",
+      "who": "Marc Carbó",
+      "as": "J. Ertlthaler",
+      "how": "Strzał zza pola karnego (rykoszet od Henrikssona)"
+     },
+     {
+      "m": 12,
+      "t": "yc",
+      "s_": "a",
+      "who": "Martin Minchev"
+     },
+     {
+      "m": 17,
+      "t": "var",
+      "s_": "a",
+      "kind": "Rzut karny – przyznanie",
+      "init": "Żółta kartka dla Kakabadze (symulacja)",
+      "fin": "Rzut karny dla Cracovii"
+     },
+     {
+      "m": 20,
+      "t": "pen",
+      "s_": "a",
+      "who": "Ajdin Hasić",
+      "res": "Obroniony"
+     },
+     {
+      "m": 20,
+      "t": "goal",
+      "s_": "a",
+      "who": "Ajdin Hasić",
+      "how": "Dobitka po obronionym karnym"
+     },
+     {
+      "m": 45,
+      "s": "+2",
+      "t": "goal",
+      "s_": "h",
+      "who": "Marko Božić",
+      "how": "Strzał przy dalszym słupku"
+     },
+     {
+      "m": 45,
+      "s": "+8",
+      "t": "yc",
+      "s_": "a",
+      "who": "Lasse Nordås"
+     },
+     {
+      "m": 60,
+      "t": "sub",
+      "s_": "a",
+      "inn": "M. Berte",
+      "out": "Lasse Nordås"
+     },
+     {
+      "m": 61,
+      "t": "sub",
+      "s_": "a",
+      "inn": "S. Ltaief",
+      "out": "Martin Minchev"
+     },
+     {
+      "m": 70,
+      "t": "yc",
+      "s_": "a",
+      "who": "Otar Kakabadze"
+     },
+     {
+      "m": 75,
+      "t": "yc",
+      "s_": "a",
+      "who": "Karol Knap"
+     },
+     {
+      "m": 75,
+      "t": "yc",
+      "s_": "h",
+      "who": "Marko Božić"
+     },
+     {
+      "m": 79,
+      "t": "sub",
+      "s_": "h",
+      "inn": "J. Lelieveld",
+      "out": "Marko Božić"
+     },
+     {
+      "m": 79,
+      "t": "sub",
+      "s_": "h",
+      "inn": "M. Maisonneuve",
+      "out": "D. Grujčić"
+     },
+     {
+      "m": 84,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Kahveh Zahiroleslam",
+      "out": "Amir Al Ammari"
+     },
+     {
+      "m": 84,
+      "t": "sub",
+      "s_": "a",
+      "inn": "D. Baumgartner",
+      "out": "Gustav Henriksson"
+     },
+     {
+      "m": 86,
+      "t": "yc",
+      "s_": "a",
+      "who": "Vincent Burlet"
+     },
+     {
+      "m": 90,
+      "t": "sub",
+      "s_": "a",
+      "inn": "D. Piła",
+      "out": "Karol Knap"
+     },
+     {
+      "m": 90,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Jérémy Guillemenot",
+      "out": "Ángel Rodado"
+     },
+     {
+      "m": 90,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Víctor Meseguer",
+      "out": "Marc Carbó"
+     },
+     {
+      "m": 90,
+      "s": "+3",
+      "t": "rc",
+      "s_": "a",
+      "who": "Mateusz Klich",
+      "why": "Kopnięcie rywala"
+     },
+     {
+      "m": 90,
+      "s": "+4",
+      "t": "yc",
+      "s_": "a",
+      "who": "Kahveh Zahiroleslam"
+     }
+    ],
+    "teamStats": [
+     [
+      "Strzały",
+      5,
+      9
+     ],
+     [
+      "Zablokowane strzały",
+      1,
+      5
+     ],
+     [
+      "Obrony bramkarza",
+      4,
+      2
+     ],
+     [
+      "Rzuty rożne",
+      2,
+      2
+     ],
+     [
+      "Faule",
+      10,
+      11
+     ],
+     [
+      "Spalone",
+      1,
+      0
+     ]
     ]
    },
    {
@@ -2290,6 +2696,17 @@
    "form": "WWWWL"
   },
   {
+   "team": "WIS",
+   "p": 14,
+   "w": 7,
+   "d": 3,
+   "l": 4,
+   "gf": 22,
+   "ga": 19,
+   "pts": 24,
+   "form": "LDWLW"
+  },
+  {
    "team": "ZAG",
    "p": 13,
    "w": 6,
@@ -2323,15 +2740,15 @@
    "form": "LWDWD"
   },
   {
-   "team": "WIS",
-   "p": 13,
-   "w": 6,
-   "d": 3,
-   "l": 4,
-   "gf": 20,
-   "ga": 18,
-   "pts": 21,
-   "form": "WLDWL"
+   "team": "MOT",
+   "p": 14,
+   "w": 5,
+   "d": 4,
+   "l": 5,
+   "gf": 22,
+   "ga": 24,
+   "pts": 19,
+   "form": "WWDWW"
   },
   {
    "team": "JAG",
@@ -2356,37 +2773,26 @@
    "form": "WLLWL"
   },
   {
-   "team": "MOT",
+   "team": "WPL",
    "p": 13,
    "w": 4,
-   "d": 4,
-   "l": 5,
-   "gf": 19,
-   "ga": 22,
-   "pts": 16,
-   "form": "DWWDW"
-  },
-  {
-   "team": "WPL",
-   "p": 12,
-   "w": 4,
    "d": 3,
-   "l": 5,
-   "gf": 12,
-   "ga": 18,
+   "l": 6,
+   "gf": 14,
+   "ga": 21,
    "pts": 15,
-   "form": "WLWLD"
+   "form": "LWLDL"
   },
   {
    "team": "CRA",
-   "p": 13,
+   "p": 14,
    "w": 3,
    "d": 3,
-   "l": 7,
-   "gf": 15,
-   "ga": 21,
+   "l": 8,
+   "gf": 16,
+   "ga": 23,
    "pts": 12,
-   "form": "LWDLL"
+   "form": "WDLLL"
   },
   {
    "team": "WID",

@@ -1,9 +1,9 @@
 {
- "updated": "2026-11-06T06:55:00+01:00",
+ "updated": "2026-11-07T06:45:00+01:00",
  "season": "2026/27",
  "competition": "Ligue 1",
  "currentRound": 10,
- "note": "Źródła: ligue1.com (terminarz, obsada sędziowska J10), matchs.tv (zmiana godzin AUX–PFC i PSG–TRO), compare-bet.fr (najlepsze kursy 1X2 Betclic/Winamax/Bet365/PMU, 06.11.2026), Oddslot (BC.Game), footballpredictions.com, Gidstats (Kalshi/Polymarket), lyonfoot.com, ICI, footeo (wyniki LE 5.11); wcześniej: Sports Mole, BettingNews, RotoWire, Foot Mercato, WhoScored, FotMob, ESPN, L'Équipe i inne.",
+ "note": "Źródła: rcstrasbourgalsace.fr i Maxifoot (raport i noty TOU–STR), ESPN (statystyki TOU–STR), footeo; ligue1.com (terminarz, obsada sędziowska J10); compare-bet.fr (najlepsze kursy 1X2, 06.11.2026), Betclic przez Flashscore (07.11), Unibet przez Goal.com, ButFootballClub, ViPSG (przewidywane składy); wcześniej: Sports Mole, Oddslot, Gidstats, FotMob, L'Équipe i inne.",
  "teams": {
   "ANG": {
    "id": "ANG",
@@ -269,6 +269,17 @@
    "form": "LWWWL"
   },
   {
+   "team": "TOU",
+   "p": 10,
+   "w": 3,
+   "d": 4,
+   "l": 3,
+   "gf": 15,
+   "ga": 14,
+   "pts": 13,
+   "form": "DWDLW"
+  },
+  {
    "team": "BRE",
    "p": 9,
    "w": 3,
@@ -291,26 +302,15 @@
    "form": "LWWDL"
   },
   {
-   "team": "TOU",
-   "p": 9,
-   "w": 2,
-   "d": 4,
-   "l": 3,
-   "gf": 12,
-   "ga": 13,
-   "pts": 10,
-   "form": "WDWDL"
-  },
-  {
    "team": "STR",
-   "p": 9,
+   "p": 10,
    "w": 3,
    "d": 1,
-   "l": 5,
-   "gf": 17,
-   "ga": 19,
+   "l": 6,
+   "gf": 18,
+   "ga": 22,
    "pts": 10,
-   "form": "LLLLW"
+   "form": "LLLWL"
   },
   {
    "team": "AUX",
@@ -3281,7 +3281,7 @@
     "time": "20:45",
     "home": "TOU",
     "away": "STR",
-    "status": "ns",
+    "status": "ft",
     "venue": {
      "name": "Stadium de Toulouse",
      "city": "Tuluza",
@@ -3367,7 +3367,185 @@
       "role": "Asystent VAR",
       "name": "Yann Flament"
      }
-    ]
+    ],
+    "score": [
+     3,
+     1
+    ],
+    "staff": {
+     "home": [
+      [
+       "Trener",
+       "Jens Berthel Askou"
+      ]
+     ],
+     "away": [
+      [
+       "Trener",
+       "Hugo Oliveira"
+      ]
+     ]
+    },
+    "events": [
+     {
+      "m": 27,
+      "t": "yc",
+      "s_": "a",
+      "who": "Karim Coulibaly"
+     },
+     {
+      "m": 38,
+      "t": "yc",
+      "s_": "h",
+      "who": "Christ Tapé"
+     },
+     {
+      "m": 38,
+      "t": "yc",
+      "s_": "a",
+      "who": "Gessime Yassine"
+     },
+     {
+      "m": 40,
+      "t": "yc",
+      "s_": "h",
+      "who": "Thomas Jørgensen"
+     },
+     {
+      "m": 45,
+      "s": "+1",
+      "t": "goal",
+      "s_": "h",
+      "who": "Santiago Hidalgo",
+      "as": "Sion Oppong"
+     },
+     {
+      "m": 56,
+      "t": "goal",
+      "s_": "h",
+      "who": "Mark McKenzie",
+      "as": "Cristian Cásseres",
+      "how": "Głowa"
+     },
+     {
+      "m": 60,
+      "t": "yc",
+      "s_": "h",
+      "who": "Niko Sigur"
+     },
+     {
+      "m": 62,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Sebastian Nanasi",
+      "out": "Gessime Yassine"
+     },
+     {
+      "m": 62,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Samuel Amo-Ameyaw",
+      "out": "Godo"
+     },
+     {
+      "m": 62,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Jacobo Ortega",
+      "out": "Harder"
+     },
+     {
+      "m": 67,
+      "t": "goal",
+      "s_": "a",
+      "who": "Giovanni Reyna"
+     },
+     {
+      "m": 67,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Jacen Russell-Rowe",
+      "out": "Santiago Hidalgo"
+     },
+     {
+      "m": 70,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Diogo Sousa",
+      "out": "Giovanni Reyna"
+     },
+     {
+      "m": 72,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Ilyas Azizi",
+      "out": "Sion Oppong"
+     },
+     {
+      "m": 76,
+      "t": "goal",
+      "s_": "h",
+      "who": "Thomas Jørgensen",
+      "how": "Wolej"
+     },
+     {
+      "m": 77,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Pape Diop",
+      "out": "Essugo"
+     },
+     {
+      "m": 88,
+      "t": "yc",
+      "s_": "a",
+      "who": "Jacobo Ortega"
+     },
+     {
+      "m": 90,
+      "s": "+2",
+      "t": "sub",
+      "s_": "h",
+      "inn": "Alexis Vossah",
+      "out": "Diallo"
+     },
+     {
+      "m": 90,
+      "s": "+2",
+      "t": "sub",
+      "s_": "h",
+      "inn": "Aymen Amaaouch",
+      "out": "Thomas Jørgensen"
+     }
+    ],
+    "teamStats": [
+     [
+      "Posiadanie %",
+      47,
+      53
+     ],
+     [
+      "xG",
+      1.03,
+      0.55
+     ],
+     [
+      "Celne",
+      5,
+      4
+     ],
+     [
+      "Rzuty rożne",
+      7,
+      1
+     ],
+     [
+      "Faule",
+      16,
+      15
+     ]
+    ],
+    "notes": "Do przerwy 1:0. Toulouse strzelił dwa gole po rzutach rożnych (McKenzie głową po rogu Cásseresa; Jørgensen z woleja po wybitym rogu). Składy (raport klubowy, bez numerów): Toulouse – Restes; Diallo, McKenzie, Nicolaisen, Tapé; Jørgensen, Cásseres, Sigur, Oppong; Hidalgo, Tengstedt. Strasbourg – Jörgensen; Høgsberg, Doukouré, Coulibaly, Oso; Essugo, El Mourabet, Reyna; Yassine, Godo; Harder. Noty Maxifoot: McKenzie 7 (zawodnik meczu), Cásseres 7, Hidalgo 7; Reyna 6 najlepszy w Strasbourgu. Sędzia: Mathieu Vernice."
    },
    {
     "id": "L1-2026-27-R10-AUX-PFC",
@@ -3423,14 +3601,14 @@
     "info": {
      "injuries": {
       "home": [
-       "Telli Siwe, Marvin Senaya (udo) – wracają po urazach",
-       "Assane Dioussé, Sékou Fofana, Rudy Labeau-Lascary, Okoh – wcześniej poza grą"
+       "Okoh, Assane Dioussé, Sékou Fofana, Zaddy – poza grą",
+       "Tuanzebe – niepewny",
+       "Telli Siwe, Marvin Senaya – wracają po urazach"
       ],
       "away": [
-       "Adama Camara (udo)",
-       "Jonathan Ikoné (udo)",
-       "Luca Koleosho (ok. 10 dni)",
-       "Lassine Sinayoko – zszedł z urazem z meczu z Monaco, niepewny"
+       "Sangui – poza grą",
+       "Adama Camara, Jonathan Ikoné, Luca Koleosho – po urazach / niepewni",
+       "Lassine Sinayoko – niepewny (uraz z meczu z Monaco), w przewidywanym składzie ButFootballClub"
       ]
      },
      "suspensions": {
@@ -3444,7 +3622,11 @@
       "away": 6
      },
      "homeAway": "Auxerre 14. (10 pkt, 13:23 — najwięcej straconych w lidze), ostatnio 1:5 w Strasbourgu. Paris FC 4. (17 pkt, 16:10), ostatnio 3:1 z Monaco (Sinayoko 2 gole).",
-     "stakes": "Paris FC walczy o czołową czwórkę, Auxerre chce oddalić się od strefy spadkowej (3 pkt przewagi). Ostatni mecz przed przerwą reprezentacyjną."
+     "stakes": "Paris FC walczy o czołową czwórkę, Auxerre chce oddalić się od strefy spadkowej (3 pkt przewagi). Ostatni mecz przed przerwą reprezentacyjną.",
+     "h2h": [
+      "2026-02-08 AUX 0:0 PFC",
+      "2025-11-29 PFC 1:1 AUX"
+     ]
     },
     "tip": {
      "decision": "NO BET",
@@ -3452,7 +3634,8 @@
       "Paris FC 2 po 1,71 (najlepszy kurs, ≈ 55% po marży) — mój model ok. 56%, EV ≈ −0,04.",
       "Auxerre 1 po 4,13 przy mojej ocenie ok. 20% — EV ≈ −0,17.",
       "Dużą niewiadomą jest uraz Sinayoko (2 gole w ostatnim meczu) oraz brak Camary, Ikoné i Koleosho w Paris FC.",
-      "Model wskazuje mecz z dużą liczbą goli (najgorsza obrona ligi u gospodarzy), ale nie znalazłem kursów O/U ani BTTS z wiarygodnego źródła.",
+      "Model wskazuje mecz z większą liczbą goli (najgorsza obrona ligi u gospodarzy), ale H2H to dwa remisy (0:0, 1:1) i nadal brak wiarygodnych kursów O/U i BTTS.",
+      "Aktualizacja 07.11: kursy bez istotnych zmian (ok. 4,10 / 3,65 / 1,70); status Sinayoko wciąż niepewny.",
       "Bez przewagi na rynku 1X2 — brak typu."
      ]
     },
@@ -3504,7 +3687,7 @@
      }
     ],
     "odds": {
-     "src": "compare-bet.fr – najlepsze kursy (Betclic/Winamax/Bet365/PMU/Daznbet), stan na 06.11.2026",
+     "src": "compare-bet.fr – najlepsze kursy (Betclic/Winamax/Bet365/PMU/Daznbet), stan na 06.11.2026; Betclic 07.11: 1,07 / 8,00 / 16,50",
      "1": 1.11,
      "X": 9.0,
      "2": 17.0
@@ -3515,15 +3698,15 @@
        "Ousmane Dembélé (udo)",
        "Marquinhos (udo)",
        "Nuno Mendes (udo)",
-       "Chwicza Kwaracchelia (więzadło krzyżowe)",
+       "Chwicza Kwaracchelia",
+       "Maghnes Akliouche (łydka)",
        "Lucas Chevalier (kolano)",
-       "Alessandro Longoni (noga)"
+       "Achraf Hakimi – odpoczywa do przerwy reprezentacyjnej"
       ],
       "away": [
        "Yacouba Koné (więzadło krzyżowe)",
-       "Ismaël Boura (biodro)",
        "Anis Ouzenadji",
-       "Yasser Titi"
+       "Timothé Nkada – niepewny"
       ]
      },
      "suspensions": {
@@ -3535,7 +3718,7 @@
       "away": 6
      },
      "homeAway": "PSG lider (20 pkt, 21:10), 5 wygranych ligowych z rzędu, w środku tygodnia 6:0 w Villarreal (LM). Troyes 15. (8 pkt, 7:16 — najmniej goli w lidze po Lorient), ostatnio 2:0 z Le Mans.",
-     "stakes": "PSG gra trzeci mecz w 8 dni, przed przerwą reprezentacyjną — możliwa rotacja. Troyes broni się przed strefą spadkową. Inne rynki: PSG powyżej 2,5 gola drużyny 1,55; PSG wygra obie połowy 1,92."
+     "stakes": "PSG gra trzeci mecz w 8 dni, przed przerwą reprezentacyjną — przewidywany mocno zrotowany skład (Flashscore/ViPSG: Safonov; Zaïre-Emery, Zabarnyi, L. Hernández, Digne; F. Ruiz, Beraldo, Dro Fernández; F. Torres, Mayulu, Godts). Troyes broni się przed strefą spadkową. Inne rynki (06.11): PSG powyżej 2,5 gola drużyny 1,55; PSG wygra obie połowy 1,92."
     },
     "tip": {
      "decision": "NO BET",
@@ -3543,7 +3726,7 @@
       "Wygrana PSG po 1,14 (implik. ≈ 88%) — mój szacunek ok. 85%, EV ujemne.",
       "PSG powyżej 2,5 gola drużyny po 1,55 (implik. ≈ 65%) — przy oczekiwanych ok. 2,8–3,0 golach PSG Poisson daje 53–58%; EV ujemne.",
       "PSG wygra obie połowy po 1,92 (≈ 52%) — zbyt zależne od rotacji po meczu LM we wtorek.",
-      "Długa lista kontuzji PSG (Dembélé, Kwaracchelia, Marquinhos, Nuno Mendes) i 3 dni odpoczynku zwiększają niepewność.",
+      "Długa lista nieobecnych PSG (Dembélé, Kwaracchelia, Marquinhos, Nuno Mendes, Akliouche, odpoczywający Hakimi) i przewidywana szeroka rotacja zwiększają niepewność rynków bramkowych.",
       "Faworyt jest w pełni wyceniony — brak wartości na dostępnych rynkach."
      ]
     },
@@ -3595,7 +3778,7 @@
      }
     ],
     "odds": {
-     "src": "compare-bet.fr – najlepsze kursy (Betclic/Winamax/Bet365/PMU/Daznbet), stan na 06.11.2026; podwójna szansa: Oddslot – BC.Game",
+     "src": "compare-bet.fr – najlepsze kursy (Betclic/Winamax/Bet365/PMU/Daznbet), stan na 06.11.2026; podwójna szansa: Oddslot – BC.Game; Betclic 07.11: 2,02 / 3,45 / 2,98",
      "1X": 1.36,
      "12": 1.28,
      "X2": 1.7,
@@ -3605,8 +3788,13 @@
     },
     "info": {
      "injuries": {
-      "home": [],
-      "away": []
+      "home": [
+       "Estéban Lepaul (skręcenie kostki) – prawdopodobnie poza grą"
+      ],
+      "away": [
+       "Ayase Ueda – brak rytmu, raczej nie pojedzie",
+       "Hamza Igamane – powrót w grudniu"
+      ]
      },
      "restDays": {
       "home": 2,
@@ -3625,7 +3813,8 @@
       "Najlepsze kursy 2,05 / 3,55 / 3,15 po marży ≈ 45% / 26% / 29% — zgodne z rynkami predykcyjnymi (45/25/30).",
       "Mój szacunek: Rennes ok. 42%, remis 28%, Lille 30% — mocny atak Rennes vs najlepsza obrona ligi, ale Rennes gra w czwartek w LE.",
       "Lille X2 po 1,70: p ≈ 0,58 → EV ≈ −0,01; Rennes 1 po 2,05: p ≈ 0,42 → EV ≈ −0,14. Rennes w czwartek 0:0 w LE — zmęczenie, ale bez nowych urazów w źródłach.",
-      "Brak wiarygodnych informacji o kontuzjach i przewidywanych składach na dzień analizy; brak kursów O/U 2,5 i BTTS.",
+      "Rennes prawdopodobnie bez Lepaula (kostka), Lille bez Uedy i Igamane — absencje po obu stronach; brak kursów O/U 2,5 i BTTS.",
+      "Brak Lepaula lekko podnosi szanse Lille (X2 ok. 0,60 → EV ≈ +0,02 przy 1,70) — przewaga zbyt mała przy tej niepewności.",
       "Brak przewagi — NO BET."
      ]
     }
@@ -3676,7 +3865,7 @@
      }
     ],
     "odds": {
-     "src": "compare-bet.fr – najlepsze kursy (Betclic/Winamax/Bet365/PMU/Daznbet), stan na 06.11.2026; podwójna szansa: Oddslot – BC.Game",
+     "src": "compare-bet.fr – najlepsze kursy (Betclic/Winamax/Bet365/PMU/Daznbet), stan na 06.11.2026; podwójna szansa: Oddslot – BC.Game; Unibet (przez Goal.com, 07.11): 1X 1,44, Lyon 2,15",
      "1X": 1.57,
      "12": 1.28,
      "X2": 1.4,
@@ -3688,16 +3877,15 @@
      "injuries": {
       "home": [],
       "away": [
-       "Moussa Niakhaté – uraz, nie zagrał w LE",
-       "Ernest Nuamah – uraz, nie zagrał w LE",
-       "Dominik Greif, Khalis Merah – sprawdzani po starciach w LE"
+       "Loïs Openda, Pavel Šulc – kontuzje (Goal.com)",
+       "Ernest Nuamah, Moussa Niakhaté – niepewni"
       ]
      },
      "restDays": {
       "home": 5,
       "away": 2
      },
-     "homeAway": "Brest 10. (12 pkt, 16:12), ostatnio 2:0 w Lorient (derby Bretanii). Lyon 3. (17 pkt, 15:7), ostatnio 2:0 z Angers; na wyjazdach w 5 ostatnich 1W 1R 3P (3:8).",
+     "homeAway": "Brest 10. (12 pkt, 16:12), ostatnio 2:0 w Lorient (derby Bretanii). Lyon 3. (17 pkt, 15:7), ostatnio 2:0 z Angers; na wyjazdach w 5 ostatnich 1W 1R 3P (3:8). Brest strzelił przed przerwą w 7 z 9 kolejek i stracił gola w każdym meczu u siebie; Lyon nie wygrał na Francis-Le Blé od grudnia 2022.",
      "stakes": "Lyon w czwartek 5.11 zremisował 1:1 w San Sebastián z Realem Sociedad (Tolisso 54'), Brest wypoczęty po poniedziałkowym meczu. Rynek predykcyjny: 34% / 27% / 38%.",
      "h2h": [
       "2026-01-18 LYO 2:1 BRE",
@@ -3709,7 +3897,7 @@
      "reasons": [
       "Najlepsze kursy 2,67 / 3,40 / 2,42 po marży ≈ 35% / 28% / 38%; rynki predykcyjne 34/27/38.",
       "Mój szacunek: Brest ok. 35%, remis 28%, Lyon 37% — Lyon lepszy w tabeli, ale słaby na wyjazdach i po czwartkowym meczu LE.",
-      "Brest 1X po 1,57: p ≈ 0,64 → EV ≈ +0,005; Brest 1 po 2,67: p ≈ 0,36 → EV ≈ −0,04; Lyon 2 po 2,42: p ≈ 0,36 → EV ≈ −0,13.",
+      "Brest 1X: najlepsza cena spadła z 1,57 do ok. 1,44 (Unibet) — przy p ≈ 0,64 EV ≈ −0,08; Brest 1 po 2,67: p ≈ 0,36 → EV ≈ −0,04; Lyon 2 po 2,42: p ≈ 0,36 → EV ≈ −0,13.",
       "Lyon bez Niakhaté i Nuamaha, Greif i Merah z urazami po LE — przemawia za Brestem, ale stopień rotacji nieznany; przewaga za mała.",
       "Brak przewagi — NO BET."
      ]

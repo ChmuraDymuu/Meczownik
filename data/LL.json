@@ -1,9 +1,9 @@
 {
- "updated": "2026-11-06T05:50:00+01:00",
+ "updated": "2026-11-07T05:50:00+01:00",
  "season": "2026/27",
  "competition": "LaLiga",
  "currentRound": 12,
- "note": "Źródła: laliga.com / lagrada.org (terminarz 12.–13. kol.), futboltotal.futbol (prognozy, forma, H2H, przewidywane składy J12), Oddsportal, CheckBestOdds, xgscore.io, oddscalendar (Megapari), oddslot, Dimers (kursy i modele, stan 4–5.11), comuniate (kontuzje ATM–BAR), footballpredictions.com, laligaexpert (kontuzje i zawieszenia), Infobae/EFE, FOX Sports, Vavel, iusport (protokoły 11. kol.). Mecz Rayo–Athletic z 8. kolejki (przerwany) zostanie dokończony 9.12.2026 o 20:00 bez publiczności – dlatego obie drużyny mają 10 meczów. Kursy 1X2 meczów z 6–7.11 i ATM–BAR zaktualizowane 6.11 (oddscalendar/Megapari); pozostałe z 4–5.11. Sędziowie: ogłoszony tylko SEV–ALA (CTA/iusport 5.11); obsady na 7–8.11 publikowane dzień przed meczem. Dodatkowo: Infobae/EFE (Vinícius), UEFA.com (LE 4. kolejka), comuniate (5.11), footballpredictions.com, Dimers.",
+ "note": "Źródła: laliga.com, comuniate.com, Infobae/EFE (6.11 – sędziowie i składy na sobotę), defensacentral.com (VAR Valencia–Real), VAVEL, ESPN, sevillaactualidad.com, elgoldigital.com, thesportsencounter.com (Sevilla–Alavés), futboltotal.futbol, oddscalendar (Megapari), Oddsportal, CheckBestOdds, xgscore.io, Dimers, oddslot – stan na 7.11.2026 rano.",
  "teams": {
   "ALA": {
    "id": "ALA",
@@ -224,14 +224,14 @@
   },
   {
    "team": "SEV",
-   "p": 11,
+   "p": 12,
    "w": 5,
-   "d": 2,
+   "d": 3,
    "l": 4,
    "gf": 17,
    "ga": 19,
-   "pts": 17,
-   "form": "LDLWL"
+   "pts": 18,
+   "form": "DLWLD"
   },
   {
    "team": "ATH",
@@ -256,6 +256,17 @@
    "form": "DLDLW"
   },
   {
+   "team": "ALA",
+   "p": 12,
+   "w": 3,
+   "d": 4,
+   "l": 5,
+   "gf": 15,
+   "ga": 17,
+   "pts": 13,
+   "form": "LLDLD"
+  },
+  {
    "team": "VIL",
    "p": 11,
    "w": 3,
@@ -276,17 +287,6 @@
    "ga": 10,
    "pts": 12,
    "form": "WDWDL"
-  },
-  {
-   "team": "ALA",
-   "p": 11,
-   "w": 3,
-   "d": 3,
-   "l": 5,
-   "gf": 15,
-   "ga": 17,
-   "pts": 12,
-   "form": "DLLDL"
   },
   {
    "team": "RAY",
@@ -5426,12 +5426,12 @@
     "time": "21:00",
     "home": "SEV",
     "away": "ALA",
-    "status": "ns",
+    "status": "ft",
     "venue": {
      "name": "Ramón Sánchez-Pizjuán",
      "city": "Sewilla"
     },
-    "notes": "Otwiera 12. kolejkę (pt. 6.11, 21:00). Obsada sędziowska wg CTA/iusport (5.11).",
+    "notes": "0:0. W 32. min Sivera obronił rzut karny Rubéna Vargasa (faul Ángela Péreza na Félixie Correi). Wyjściowa XI Sevilli: Vlachodimos; Juan Iglesias, Sangante, Kike Salas, Suazo; Fofana, Agoumé; Vargas, Isaac Romero, Félix Correia; Stassin. Alavés m.in.: Sivera; Tenaglia, Koski, Valentini; Ángel Pérez, Guevara, Blanco, Ibáñez; Toni Martínez, Boyé (źródła niezgodne co do pełnej XI Alavés i numerów – składy pominięte). Zdarzenia niepełne: źródła podają 1 żółtą Sevilli i 3 Alavés (przypisano tylko potwierdzone), część zmian Alavés bez minut (wchodzili m.in. Rebbach, Protesoni). Statystyki: ESPN (posiadanie, xG, celne, rożne, faule), thesportsencounter (strzały, spalone). Frekwencja wg thesportsencounter.",
     "info": {
      "injuries": {
       "home": [
@@ -5514,6 +5514,122 @@
       "role": "Asystent VAR",
       "name": "Iván Caparrós"
      }
+    ],
+    "score": [
+     0,
+     0
+    ],
+    "attendance": 38803,
+    "formation": {
+     "home": "4-2-3-1",
+     "away": "3-5-2"
+    },
+    "staff": {
+     "home": [
+      [
+       "Trener",
+       "Luis García Plaza"
+      ]
+     ],
+     "away": [
+      [
+       "Trener",
+       "Quique Sánchez Flores"
+      ]
+     ]
+    },
+    "events": [
+     {
+      "m": 30,
+      "t": "yc",
+      "s_": "a",
+      "who": "Pablo Ibáñez"
+     },
+     {
+      "m": 32,
+      "t": "pen",
+      "s_": "h",
+      "who": "Rubén Vargas",
+      "res": "Obroniony"
+     },
+     {
+      "m": 47,
+      "t": "yc",
+      "s_": "h",
+      "who": "Arouna Sangante"
+     },
+     {
+      "m": 59,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Chidera Ejuke",
+      "out": "Rubén Vargas"
+     },
+     {
+      "m": 74,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Andrés Castrín",
+      "out": "Arouna Sangante"
+     },
+     {
+      "m": 74,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Robbie Ure",
+      "out": "Isaac Romero"
+     },
+     {
+      "m": 74,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Mariano Díaz",
+      "out": "Toni Martínez"
+     },
+     {
+      "m": 85,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Alfon González",
+      "out": "Félix Correia"
+     }
+    ],
+    "teamStats": [
+     [
+      "Posiadanie %",
+      60,
+      40
+     ],
+     [
+      "xG",
+      1.54,
+      0.54
+     ],
+     [
+      "Strzały",
+      13,
+      9
+     ],
+     [
+      "Celne",
+      3,
+      2
+     ],
+     [
+      "Rzuty rożne",
+      5,
+      4
+     ],
+     [
+      "Faule",
+      14,
+      18
+     ],
+     [
+      "Spalone",
+      3,
+      2
+     ]
     ]
    },
    {
@@ -5538,9 +5654,13 @@
       "home": [
        "Joaquín Muñoz (łydka, powrót w listopadzie)",
        "Julen Lobete (ACL, do maja)",
-       "Aarón Ochoa (kolano, niepewny)"
+       "Aarón Ochoa (kolano, niepewny)",
+       "Carlos Puga (dyskomfort kolana, niepewny – EFE 6.11)"
       ],
-      "away": []
+      "away": [
+       "Álvaro Mantilla",
+       "Andrés Martín"
+      ]
      },
      "homeAway": "Málaga – 0 zwycięstw w 11 meczach (5R 6P), 8 goli strzelonych; Racing – 29 straconych goli (najwięcej w lidze).",
      "stakes": "20. Málaga (5 pkt) vs 16. Racing (11 pkt) – mecz o utrzymanie."
@@ -5553,7 +5673,15 @@
       "Obie drużyny w słabej formie, wysoka losowość meczu o utrzymanie.",
       "Brak rynku z wyraźnym dodatnim EV."
      ]
-    }
+    },
+    "officials": [
+     {
+      "r": "GŁ",
+      "role": "Sędzia główny",
+      "name": "Díaz de Mera Escuderos",
+      "nat": "ESP"
+     }
+    ]
    },
    {
     "id": "LL-2026-27-R12-ESP-DEP",
@@ -5576,11 +5704,18 @@
       ],
       "away": [
        "Marc Casadó (obojczyk, do grudnia)",
-       "Aubameyang (kolano, niepewny – w przewidywanym składzie comuniate jako alternatywa)",
+       "Aubameyang (wyleczony, wg EFE może zacząć na ławce)",
        "Bright Ede (udo, powrót w listopadzie)"
       ]
      },
-     "stakes": "14. Espanyol (11 pkt) vs 8. Deportivo (14 pkt). Deportivo wygrał 2:1 z Osasuną 2.11 (tylko 4 dni odpoczynku)."
+     "stakes": "14. Espanyol (11 pkt) vs 8. Deportivo (14 pkt). Deportivo wygrał 2:1 z Osasuną 2.11 (tylko 4 dni odpoczynku).",
+     "suspensions": {
+      "home": [
+       "Roger Hinojo",
+       "trener Éder Sarabia (na trybunach)"
+      ],
+      "away": []
+     }
     },
     "tip": {
      "decision": "NO BET",
@@ -5589,7 +5724,15 @@
       "Espanyol bez Kike Garcíi, Deportivo z brakami (Casadó) i krótszym odpoczynkiem – czynniki się znoszą.",
       "Brak kursów na rynki bramkowe w źródłach."
      ]
-    }
+    },
+    "officials": [
+     {
+      "r": "GŁ",
+      "role": "Sędzia główny",
+      "name": "Quintero González",
+      "nat": "ESP"
+     }
+    ]
    },
    {
     "id": "LL-2026-27-R12-OSA-ATH",
@@ -5613,12 +5756,13 @@
        "Sergio Herrera (niepewny, 60%)"
       ],
       "away": [
-       "Iñigo Ruiz de Galarreta (udo)",
+       "Iñigo Ruiz de Galarreta (wg EFE 6.11 może wrócić do składu)",
        "Unai Egiluz (ACL, do stycznia)",
        "Gorka Guruzeta (ACL, do czerwca)"
       ]
      },
-     "stakes": "15. Osasuna (11 pkt, 22 stracone gole) vs 7. Athletic (15 pkt, 10 meczów – mecz z Rayo z 8. kolejki dokończony 9.12)."
+     "stakes": "15. Osasuna (11 pkt, 22 stracone gole) vs 7. Athletic (15 pkt, 10 meczów – mecz z Rayo z 8. kolejki dokończony 9.12).",
+     "homeAway": "Wg EFE: do składu Athletic mogą wrócić Dani Vivian, Galarreta i Oihan Sancet; Budimir (8 goli) liderem ataku Osasuny."
     },
     "tip": {
      "decision": "NO BET",
@@ -5628,7 +5772,15 @@
       "Niepewność składu bramkarza Osasuny.",
       "Przewaga zbyt mała → NO BET."
      ]
-    }
+    },
+    "officials": [
+     {
+      "r": "GŁ",
+      "role": "Sędzia główny",
+      "name": "Sesma Espinosa",
+      "nat": "ESP"
+     }
+    ]
    },
    {
     "id": "LL-2026-27-R12-VAL-RMA",
@@ -5652,7 +5804,8 @@
       ],
       "away": [
        "Rodrygo (ACL, do grudnia)",
-       "Raúl Asencio (złamanie nogi, do stycznia)"
+       "Raúl Asencio (złamanie nogi, do stycznia)",
+       "Ferland Mendy (dwugłowy uda, do grudnia – comuniate)"
       ]
      },
      "suspensions": {
@@ -5686,6 +5839,23 @@
        "José Mourinho"
       ]
      ]
+    },
+    "officials": [
+     {
+      "r": "GŁ",
+      "role": "Sędzia główny",
+      "name": "Francisco José Hernández Maeso",
+      "nat": "ESP"
+     },
+     {
+      "r": "VAR",
+      "role": "Sędzia VAR",
+      "name": "Raúl Martín González Francés"
+     }
+    ],
+    "venue": {
+     "name": "Mestalla",
+     "city": "Walencja"
     }
    },
    {

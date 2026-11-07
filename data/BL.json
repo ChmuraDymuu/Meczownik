@@ -1,9 +1,9 @@
 {
- "updated": "2026-11-06T06:07:32+01:00",
+ "updated": "2026-11-07T06:25:00+01:00",
  "season": "2026/27",
  "competition": "Bundesliga",
  "currentRound": 9,
- "note": "Źródła: ig-schiedsrichter.de (pełna obsada sędziowska i VAR 9. kolejki), wettfreunde.net (kursy HSV–BMG 5.11 07:40; typy z kursami 5.11; 1X2 9. kolejki 2.11), wettbasis.com (kursy rynków dodatkowych 5.11), footballpredictions.com (4.11), 90min.de i gladbachtotal.de (absencje HSV/Gladbach), sportschau.de, nwzonline.de, zdfheute.de (wyniki LE/LK 5.11: Leverkusen–Marsylia 0:1, Crystal Palace–Hoffenheim 1:1, Trabzonspor–Freiburg 0:1), sportwetten24.com; wcześniej: DFB Datencenter, kicker, flashscore, bundesliga.com. Stan 6.11.2026 rano. Tabela bez zmian od 8. kolejki.",
+ "note": "Źródła: sportschau.de, ESPN, moinvolkspark.de (HSV–Gladbach 3:1, 6.11), hessenschau.de (tabela po 8. kolejce, terminarz), buli-tipphilfe.de (Mainz–Bayern, 4.11), wettfreunde.net (kursy over/under 5.11; 1X2 2.11), wettbasis.com (5.11), ig-schiedsrichter.de (obsady sędziowskie), footballpredictions.com, 90min.de, gladbachtotal.de; wcześniej: DFB Datencenter, kicker, flashscore, bundesliga.com. Stan 7.11.2026 rano.",
  "teams": {
   "BAY": {
    "id": "BAY",
@@ -247,6 +247,17 @@
    "form": "DLWLW"
   },
   {
+   "team": "HSV",
+   "p": 9,
+   "w": 4,
+   "d": 0,
+   "l": 5,
+   "gf": 10,
+   "ga": 20,
+   "pts": 12,
+   "form": "WWLLW"
+  },
+  {
    "team": "EIN",
    "p": 8,
    "w": 3,
@@ -324,17 +335,6 @@
    "form": "WLDWD"
   },
   {
-   "team": "HSV",
-   "p": 8,
-   "w": 3,
-   "d": 0,
-   "l": 5,
-   "gf": 7,
-   "ga": 19,
-   "pts": 9,
-   "form": "WWWLL"
-  },
-  {
    "team": "UNI",
    "p": 8,
    "w": 1,
@@ -358,14 +358,14 @@
   },
   {
    "team": "BMG",
-   "p": 8,
+   "p": 9,
    "w": 1,
    "d": 1,
-   "l": 6,
-   "gf": 11,
-   "ga": 22,
+   "l": 7,
+   "gf": 12,
+   "ga": 25,
    "pts": 4,
-   "form": "LLLWD"
+   "form": "LLWDL"
   }
  ],
  "picks": [],
@@ -3094,7 +3094,7 @@
     "time": "20:30",
     "home": "HSV",
     "away": "BMG",
-    "status": "ns",
+    "status": "ft",
     "venue": {
      "name": "Volksparkstadion",
      "city": "Hamburg",
@@ -3160,17 +3160,363 @@
      {
       "r": "GŁ",
       "role": "Sędzia główny",
-      "name": "Sven Jablonski",
-      "nat": "GER"
-     },
-     {
-      "r": "VAR",
-      "role": "Sędzia VAR",
       "name": "Günter Perl",
       "nat": "GER"
      }
     ],
-    "notes": "Sędzia: Sven Jablonski, VAR: Günter Perl (ig-schiedsrichter.de)."
+    "notes": "Do przerwy 1:1. Gladbach od 49. minuty w dziesiątkę (żółto-czerwona Itakury). HSV awansował z 15. na 8. miejsce; Gladbach nadal ostatni z 4 pkt. Pozostałe żółte kartki i frekwencja – brak potwierdzonych danych. Statystyki wg ESPN; minuty zmian wg ESPN (moinvolkspark.de podaje część minut inaczej).",
+    "score": [
+     3,
+     1
+    ],
+    "formation": {
+     "home": "3-5-2",
+     "away": "3-4-2-1"
+    },
+    "players": {
+     "home": [
+      [
+       1,
+       "Daniel Heuer Fernandes",
+       "BR",
+       "",
+       true
+      ],
+      [
+       43,
+       "Shafiq Nandja",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       33,
+       "Sebastiaan Bornauw",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       17,
+       "Warmed Omari",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       7,
+       "Zakaria El Ouahdi",
+       "PS",
+       "",
+       true
+      ],
+      [
+       6,
+       "Albert Sambi Lokonga",
+       "ŚP",
+       "",
+       true
+      ],
+      [
+       5,
+       "Martin Adeline",
+       "ŚP",
+       "",
+       true
+      ],
+      [
+       28,
+       "Miro Muheim",
+       "ŚP",
+       "",
+       true
+      ],
+      [
+       3,
+       "David Møller Wolfe",
+       "LS",
+       "",
+       true
+      ],
+      [
+       27,
+       "Patson Daka",
+       "N",
+       "",
+       true
+      ],
+      [
+       11,
+       "Albert Grønbæk",
+       "N",
+       "",
+       true
+      ],
+      [
+       9,
+       "Terem Moffi",
+       "N",
+       "",
+       false
+      ],
+      [
+       38,
+       "Alexander Røssing-Lelesiit",
+       "PS",
+       "",
+       false
+      ],
+      [
+       22,
+       "Amoako",
+       "ŚP",
+       "",
+       false
+      ],
+      [
+       15,
+       "Yussuf Poulsen",
+       "N",
+       "",
+       false
+      ],
+      [
+       48,
+       "Jason Bissi Mouelle",
+       "ŚO",
+       "",
+       false
+      ]
+     ],
+     "away": [
+      [
+       33,
+       "Daniel Batz",
+       "BR",
+       "",
+       true
+      ],
+      [
+       6,
+       "Kō Itakura",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       16,
+       "Philipp Sander",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       2,
+       "Fabio Chiarodia",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       29,
+       "Joe Scally",
+       "PS",
+       "",
+       true
+      ],
+      [
+       47,
+       "Zento Uno",
+       "ŚP",
+       "",
+       true
+      ],
+      [
+       10,
+       "Florian Neuhaus",
+       "ŚP",
+       "",
+       true
+      ],
+      [
+       26,
+       "Lukas Ullrich",
+       "LS",
+       "",
+       true
+      ],
+      [
+       25,
+       "Robin Hack",
+       "OP",
+       "",
+       true
+      ],
+      [
+       36,
+       "Wael Mohya",
+       "OP",
+       "",
+       true
+      ],
+      [
+       18,
+       "Shuto Machino",
+       "N",
+       "",
+       true
+      ],
+      [
+       4,
+       "Kevin Diks",
+       "ŚO",
+       "",
+       false
+      ],
+      [
+       17,
+       "Jens Castrop",
+       "ŚP",
+       "",
+       false
+      ],
+      [
+       9,
+       "Franck Honorat",
+       "PS",
+       "",
+       false
+      ],
+      [
+       3,
+       "Lidberg",
+       "N",
+       "",
+       false
+      ]
+     ]
+    },
+    "events": [
+     {
+      "m": 11,
+      "t": "goal",
+      "s_": "h",
+      "who": "Miro Muheim",
+      "how": "Strzał z ok. 30 m po samodzielnym rajdzie"
+     },
+     {
+      "m": 44,
+      "t": "goal",
+      "s_": "a",
+      "who": "Joe Scally",
+      "how": "Strzał rykoszetem od Robina Hacka"
+     },
+     {
+      "m": 49,
+      "t": "rc",
+      "s_": "a",
+      "who": "Kō Itakura",
+      "why": "Druga żółta kartka (faul na Grønbæku przy linii bocznej)"
+     },
+     {
+      "m": 56,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Kevin Diks",
+      "out": "Robin Hack"
+     },
+     {
+      "m": 60,
+      "t": "goal",
+      "s_": "h",
+      "who": "Shafiq Nandja",
+      "as": "Albert Grønbæk",
+      "how": "Pierwszy gol w Bundeslidze; akcję otworzył Lokonga"
+     },
+     {
+      "m": 63,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Terem Moffi",
+      "out": "Martin Adeline"
+     },
+     {
+      "m": 63,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Alexander Røssing-Lelesiit",
+      "out": "Shafiq Nandja"
+     },
+     {
+      "m": 70,
+      "t": "goal",
+      "s_": "h",
+      "who": "Albert Grønbæk",
+      "how": "Strzał z ok. 25 m w okienko"
+     },
+     {
+      "m": 80,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Amoako",
+      "out": "Albert Sambi Lokonga"
+     },
+     {
+      "m": 81,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Jens Castrop",
+      "out": "Zento Uno"
+     },
+     {
+      "m": 81,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Franck Honorat",
+      "out": "Lukas Ullrich"
+     },
+     {
+      "m": 81,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Lidberg",
+      "out": "Shuto Machino"
+     },
+     {
+      "m": 89,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Jason Bissi Mouelle",
+      "out": "Sebastiaan Bornauw"
+     }
+    ],
+    "teamStats": [
+     [
+      "Posiadanie %",
+      62,
+      38
+     ],
+     [
+      "Celne",
+      9,
+      6
+     ],
+     [
+      "Rzuty rożne",
+      5,
+      3
+     ],
+     [
+      "Faule",
+      6,
+      16
+     ],
+     [
+      "Obrony bramkarza",
+      4,
+      6
+     ]
+    ]
    },
    {
     "id": "BL-2026-27-R9-MAI-BAY",
@@ -3187,14 +3533,16 @@
     "info": {
      "injuries": {
       "home": [
-       "Dominik Kohr (kostka)",
-       "Silas (złamanie nogi)"
+       "Dominik Kohr (po operacji)",
+       "Silas (złamanie nogi)",
+       "Niepewni do składu: Gruber, Lee, Tietz"
       ],
       "away": [
-       "Luis Díaz (uraz mięśniowy)",
-       "Serge Gnabry (ścięgno podkolanowe)",
-       "Ismael Saibari (kostka, po operacji)",
-       "Niepewny: Jamal Musiala (ścięgno podkolanowe)"
+       "Luis Díaz (rehabilitacja)",
+       "Jamal Musiala (rehabilitacja – niedostępny wg buli-tipphilfe.de, 4.11)",
+       "Serge Gnabry (udo)",
+       "Ismael Saibari (zerwanie więzozrostu)",
+       "Bara Sapoko Ndiaye (operacja wyrostka)"
       ]
      },
      "suspensions": {
@@ -3208,18 +3556,19 @@
       "home": 7,
       "away": 3
      },
-     "homeAway": "Bayern: 5-3-0 w lidze, 27:8, we wtorek 2:0 w Madrycie z Atlético (gole Karl, Laimer). Mainz: 9. miejsce, 17:17, ostatnio 1:4 w Elversbergu; gra 3-5-2, Tietz 5 goli. Kompany chory – Bayern na ławce prowadzi Aaron Danks; Kane jedynym zdrowym nominalnym napastnikiem.",
+     "homeAway": "Bayern: 5-3-0 w lidze, 27:8, we wtorek 2:0 w Madrycie z Atlético (gole Karl, Laimer). Mainz: 9. miejsce, 17:17, ostatnio 1:4 w Elversbergu; gra 3-5-2, Tietz 5 goli. Kompany chory – Bayern na ławce prowadzi Aaron Danks; Kane jedynym zdrowym nominalnym napastnikiem. Mainz nie wygrał jeszcze u siebie w tym sezonie (10 goli straconych w 4 meczach domowych); forma Mainz w ostatnich 5 meczach (wszystkie rozgrywki): P W P P P.",
      "stakes": "Bayern (18 pkt) walczy o fotel lidera z BVB (też 18 pkt); Mainz 9. (10 pkt).",
      "h2h": [
       "Mainz strzelał min. 2 gole w 3 z 4 ostatnich ligowych meczów z Bayernem (wg wettfreunde.net)"
      ]
     },
     "odds": {
-     "src": "Wettfreunde.net – najlepszy kurs 1X2 z 7 bukmacherów, stan na 2.11.2026; ponad 3,5 gola: Betano 1.65 (wettbasis.com, 5.11)",
+     "src": "Wettfreunde.net – najlepszy kurs 1X2 z 7 bukmacherów, stan na 2.11.2026; ponad 3,5 gola: Betano 1.65 (wettbasis.com, 5.11); buli-tipphilfe.de (4.11) podaje ok. 6.50/6.50/1.33 oraz Bayern wygra i ponad 3,5 gola 1.85; Mainz ponad 1,5 gola: Interwetten 2.55 (wettfreunde.net, 5.11)",
      "1": 5.5,
      "X": 6.0,
      "2": 1.47,
-     "o35": 1.65
+     "o35": 1.65,
+     "mai_o15": 2.55
     },
     "tip": {
      "decision": "NO BET",
@@ -3228,7 +3577,8 @@
       "Bayern osłabiony w ofensywie (Díaz, Gnabry, Saibari, niepewny Musiala), trener Kompany chory, a 3 dni po meczu w Madrycie możliwa rotacja.",
       "Mainz też bez Poscha, Mwene, Kohra i Silasa – osłabienia po obu stronach się znoszą.",
       "Ponad 3,5 gola po 1.65 (ok. 61%) – przy osłabionym ataku Bayernu (Díaz, Gnabry, Saibari, niepewny Musiala) i 8 golach straconych przez Bayern w 8 meczach szacuję ok. 50–55%, EV ujemne.",
-      "Brak wiarygodnych kursów na handicap, BTTS i gole łącznie z jednego źródła – nie wyceniam na siłę."
+      "Brak wiarygodnych kursów na handicap, BTTS i gole łącznie z jednego źródła – nie wyceniam na siłę.",
+      "Mainz ponad 1,5 gola po 2.55 (ok. 39%) – Bayern traci 1 gola na mecz, Mainz bez wygranej u siebie; szacuję ok. 30–35%, EV ujemne."
      ]
     },
     "officials": [
@@ -3430,12 +3780,13 @@
      "capacity": 60058
     },
     "odds": {
-     "src": "Wettfreunde.net – najlepszy kurs 1X2 (2.11.2026); X2: bet-at-home 2.10 (wettfreunde.net, 5.11); under 3,5: bet-at-home 2.00 (wettbasis.com, 5.11)",
+     "src": "Wettfreunde.net – najlepszy kurs 1X2 (2.11.2026); X2: bet-at-home 2.10 (wettfreunde.net, 5.11); under 3,5: bet-at-home 2.00 (wettbasis.com, 5.11); ponad 3,5 gola: Oddset 1.75 (wettfreunde.net, 5.11)",
      "1": 1.55,
      "X": 5.0,
      "2": 5.3,
      "X2": 2.1,
-     "u35": 2.0
+     "u35": 2.0,
+     "o35": 1.75
     },
     "info": {
      "injuries": {
@@ -3463,7 +3814,8 @@
       "Rynek wycenia Stuttgart na ok. 62–64% (1.55), mimo że Werder jest wyżej w tabeli i 7 meczów bez porażki – rozbieżność widzę, ale nie potrafię jej uczciwie zmierzyć.",
       "Wygrana Werderu po 5.30 może mieć wartość, lecz prawdopodobieństwo (ok. 20–25%) jest za niskie wg regulaminu, a wycena zbyt niepewna.",
       "Stuttgart bez Stillera (grał wszystkie 12 meczów) i po meczu LM w Stambule; Werder bez pucharów, ale status Weisera nieznany.",
-      "X2 po 2.10 (ok. 48%) – Werder 7 meczów bez porażki, Stuttgart przegrał 2 z 3 meczów domowych; rynek 1X2 (1.55/5.00/5.30) daje X2 tylko ok. 36% – rozjazd źródeł zbyt duży, by uczciwie ocenić EV. Under 3,5 po 2.00 (50%) – brak przewagi przy wcześniejszych bramkostrzelnych H2H."
+      "X2 po 2.10 (ok. 48%) – Werder 7 meczów bez porażki, Stuttgart przegrał 2 z 3 meczów domowych; rynek 1X2 (1.55/5.00/5.30) daje X2 tylko ok. 36% – rozjazd źródeł zbyt duży, by uczciwie ocenić EV. Under 3,5 po 2.00 (50%) – brak przewagi przy wcześniejszych bramkostrzelnych H2H.",
+      "Ponad 3,5 gola po 1.75 (ok. 57%) – Werder strzelał min. 2 gole w 6 ostatnich meczach, ale linia 3,5 wpada zwykle w ok. 30–40% meczów Bundesligi; szacuję ok. 42–47%, EV ujemne."
      ]
     },
     "officials": [

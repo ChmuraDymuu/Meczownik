@@ -1,9 +1,9 @@
 {
- "updated": "2026-11-06T05:45:00+01:00",
+ "updated": "2026-11-07T05:40:00+01:00",
  "season": "2026/27",
  "competition": "Premier League",
  "currentRound": 10,
- "note": "Źródła (6.11): Oddsportal (1X2), soccergraph/premierleague.com (obsada 10. kolejki), cpfc.co.uk i Sky Sports (wyniki LE 5.11), dave.sport (Palace–Liverpool), AOL/Football.London (Arsenal–Hull), insidefutbol (Leeds), Arseblog. Wcześniej (3–5.11): rg.org – BetRivers/LetsBet/FanDuel/DraftKings (gole, AH), Fantasy Football Scout i Fantasy Football Hub (kontuzje, pauzy), oddslot (BC.Game – DC), gainblers (H2H), bettingnews, beIN Sports, ESPN, avfc.co.uk, ontourfootball, brentfordfc.com, Opta. Godziny w czasie polskim (CET).",
+ "note": "Źródła (7.11): FotMob i Sky Sports (Everton–Coventry 3:1: gole, zmiany, kartki, składy, statystyki, oceny), ToffeeWeb (składy i rezerwowi), Yahoo Sports, Oddsportal (1X2, stan 6.11 wieczór). Wcześniej (3–6.11): rg.org – BetRivers/LetsBet/FanDuel/DraftKings (gole, AH), Fantasy Football Scout i Fantasy Football Hub (kontuzje, pauzy), oddslot (BC.Game – DC), gainblers (H2H), soccergraph/premierleague.com (obsada sędziowska), ESPN, Opta. Godziny w czasie polskim (CET).",
  "teams": {
   "ARS": {
    "id": "ARS",
@@ -232,6 +232,17 @@
    "form": "LWWLW"
   },
   {
+   "team": "EVE",
+   "p": 10,
+   "w": 4,
+   "d": 4,
+   "l": 2,
+   "gf": 12,
+   "ga": 10,
+   "pts": 16,
+   "form": "DLLWW"
+  },
+  {
    "team": "LIV",
    "p": 9,
    "w": 4,
@@ -252,17 +263,6 @@
    "ga": 9,
    "pts": 14,
    "form": "WDLDW"
-  },
-  {
-   "team": "EVE",
-   "p": 9,
-   "w": 3,
-   "d": 4,
-   "l": 2,
-   "gf": 9,
-   "ga": 9,
-   "pts": 13,
-   "form": "WDLLW"
   },
   {
    "team": "BOU",
@@ -354,14 +354,14 @@
   },
   {
    "team": "COV",
-   "p": 9,
+   "p": 10,
    "w": 3,
    "d": 0,
-   "l": 6,
-   "gf": 9,
-   "ga": 16,
+   "l": 7,
+   "gf": 10,
+   "ga": 19,
    "pts": 9,
-   "form": "WWLLW"
+   "form": "WLLWL"
   },
   {
    "team": "MUN",
@@ -1967,7 +1967,7 @@
     "time": "21:00",
     "home": "EVE",
     "away": "COV",
-    "status": "ns",
+    "status": "ft",
     "odds": {
      "src": "Oddsportal (6.11); DC – BC.Game/oddslot (3.11)",
      "1": 1.71,
@@ -2043,7 +2043,418 @@
       "role": "Asystent VAR",
       "name": "Gary Beswick"
      }
-    ]
+    ],
+    "score": [
+     3,
+     1
+    ],
+    "attendance": 52395,
+    "venue": {
+     "name": "Hill Dickinson Stadium",
+     "city": "Liverpool",
+     "capacity": 52769
+    },
+    "staff": {
+     "home": [
+      [
+       "Trener",
+       "David Moyes"
+      ]
+     ],
+     "away": [
+      [
+       "Trener",
+       "Frank Lampard"
+      ]
+     ]
+    },
+    "formation": {
+     "home": "4-2-3-1",
+     "away": "4-2-3-1"
+    },
+    "players": {
+     "home": [
+      [
+       1,
+       "Jordan Pickford",
+       "BR",
+       "",
+       true
+      ],
+      [
+       34,
+       "Merlin Röhl",
+       "PO",
+       "",
+       true
+      ],
+      [
+       6,
+       "James Tarkowski",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       4,
+       "Jarrad Branthwaite",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       16,
+       "Vitaliy Mykolenko",
+       "LO",
+       "",
+       true
+      ],
+      [
+       37,
+       "James Garner",
+       "DP",
+       "",
+       true
+      ],
+      [
+       45,
+       "Harrison Armstrong",
+       "DP",
+       "",
+       true
+      ],
+      [
+       20,
+       "Tyler Dibling",
+       "PS",
+       "",
+       true
+      ],
+      [
+       8,
+       "Kiernan Dewsbury-Hall",
+       "OP",
+       "",
+       true
+      ],
+      [
+       19,
+       "Tyrique George",
+       "LS",
+       "",
+       true
+      ],
+      [
+       11,
+       "Thierno Barry",
+       "N",
+       "",
+       true
+      ]
+     ],
+     "away": [
+      [
+       19,
+       "Carl Rushworth",
+       "BR",
+       "",
+       true
+      ],
+      [
+       27,
+       "Milan van Ewijk",
+       "PO",
+       "",
+       true
+      ],
+      [
+       12,
+       "Stephen Mfuni",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       2,
+       "Ethan Pinnock",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       3,
+       "Jay Dasilva",
+       "LO",
+       "",
+       true
+      ],
+      [
+       29,
+       "Victor Torp",
+       "DP",
+       "",
+       true
+      ],
+      [
+       8,
+       "Caleb Yirenkyi",
+       "DP",
+       "",
+       true
+      ],
+      [
+       7,
+       "Tatsuhiro Sakamoto",
+       "PS",
+       "",
+       true
+      ],
+      [
+       5,
+       "Jack Rudoni",
+       "OP",
+       "",
+       true
+      ],
+      [
+       34,
+       "Yann Gboho",
+       "LS",
+       "",
+       true
+      ],
+      [
+       14,
+       "Taiwo Awoniyi",
+       "N",
+       "",
+       true
+      ]
+     ]
+    },
+    "events": [
+     {
+      "m": 39,
+      "t": "var",
+      "s_": "a",
+      "kind": "Rzut karny – kontrola (Tarkowski za włosy Yirenkyiego)",
+      "init": "Brak karnego",
+      "fin": "Brak karnego, bez czerwonej kartki"
+     },
+     {
+      "m": 49,
+      "t": "var",
+      "s_": "a",
+      "kind": "Rzut karny – kontrola (Mykolenko – Awoniyi)",
+      "init": "Brak karnego",
+      "fin": "Faul poza polem karnym"
+     },
+     {
+      "m": 52,
+      "t": "goal",
+      "s_": "a",
+      "who": "Yann Gboho",
+      "how": "Po rzucie wolnym, rykoszet"
+     },
+     {
+      "m": 56,
+      "t": "goal",
+      "s_": "h",
+      "who": "Thierno Barry",
+      "as": "Vitaliy Mykolenko",
+      "how": "Głowa"
+     },
+     {
+      "m": 61,
+      "t": "goal",
+      "s_": "h",
+      "who": "Thierno Barry"
+     },
+     {
+      "m": 61,
+      "t": "var",
+      "s_": "h",
+      "kind": "Bramka – możliwe zagranie ręką",
+      "init": "Gol",
+      "fin": "Gol uznany"
+     },
+     {
+      "m": 61,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Jake O'Brien",
+      "out": "Merlin Röhl"
+     },
+     {
+      "m": 73,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Hayden Hackney",
+      "out": "Harrison Armstrong"
+     },
+     {
+      "m": 73,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Brennan Johnson",
+      "out": "Tyler Dibling"
+     },
+     {
+      "m": 73,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Brandon Thomas-Asante",
+      "out": "Yann Gboho"
+     },
+     {
+      "m": 81,
+      "t": "goal",
+      "s_": "h",
+      "who": "Kiernan Dewsbury-Hall",
+      "as": "Thierno Barry"
+     },
+     {
+      "m": 86,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Matt Grimes",
+      "out": "Victor Torp"
+     },
+     {
+      "m": 86,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Gustavo Hamer",
+      "out": "Jack Rudoni"
+     },
+     {
+      "m": 86,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Loum Tchaouna",
+      "out": "Tatsuhiro Sakamoto"
+     },
+     {
+      "m": 87,
+      "t": "yc",
+      "s_": "h",
+      "who": "Jarrad Branthwaite",
+      "why": "Faul"
+     },
+     {
+      "m": 87,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Sidiki Cherif",
+      "out": "Taiwo Awoniyi"
+     },
+     {
+      "m": 88,
+      "t": "yc",
+      "s_": "a",
+      "who": "Caleb Yirenkyi"
+     },
+     {
+      "m": 89,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Michael Keane",
+      "out": "Jarrad Branthwaite"
+     },
+     {
+      "m": 90,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Charly Alcaraz",
+      "out": "Tyrique George"
+     }
+    ],
+    "teamStats": [
+     [
+      "Posiadanie %",
+      50,
+      50
+     ],
+     [
+      "xG",
+      2.25,
+      1.4
+     ],
+     [
+      "Strzały",
+      16,
+      15
+     ]
+    ],
+    "ind": {
+     "Thierno Barry": {
+      "r": 9.4
+     },
+     "Vitaliy Mykolenko": {
+      "r": 8.5
+     },
+     "Kiernan Dewsbury-Hall": {
+      "r": 8.0
+     },
+     "Tyrique George": {
+      "r": 8.0
+     },
+     "Merlin Röhl": {
+      "r": 7.8
+     },
+     "Jarrad Branthwaite": {
+      "r": 7.8
+     },
+     "James Garner": {
+      "r": 7.3
+     },
+     "Jordan Pickford": {
+      "r": 7.2
+     },
+     "Harrison Armstrong": {
+      "r": 7.2
+     },
+     "Tyler Dibling": {
+      "r": 7.1
+     },
+     "James Tarkowski": {
+      "r": 6.8
+     },
+     "Yann Gboho": {
+      "r": 7.8
+     },
+     "Victor Torp": {
+      "r": 7.4
+     },
+     "Jack Rudoni": {
+      "r": 7.4
+     },
+     "Tatsuhiro Sakamoto": {
+      "r": 7.1
+     },
+     "Taiwo Awoniyi": {
+      "r": 6.6
+     },
+     "Milan van Ewijk": {
+      "r": 6.5
+     },
+     "Caleb Yirenkyi": {
+      "r": 6.3
+     },
+     "Carl Rushworth": {
+      "r": 6.0
+     },
+     "Ethan Pinnock": {
+      "r": 5.9
+     },
+     "Jay Dasilva": {
+      "r": 5.9
+     },
+     "Stephen Mfuni": {
+      "r": 5.7
+     }
+    },
+    "notes": "Everton odwrócił wynik po golu Gboho (52'). Thierno Barry – 2 gole i asysta (ocena FotMob 9,4, zawodnik meczu). Rezerwowi Evertonu: Travers, Maitland-Niles, Keane, O'Brien, Johnson, Nørgaard, Alcaraz, Hackney, Graham; Coventry: Bentley, Grimes, Tchaouna, Latibeaudiere, Kesler-Hayden, Thomas-Asante, Hamer, Simms, Cherif (numery niepodane w źródłach). Oceny: FotMob."
    },
    {
     "id": "PL-2026-27-R10-LEE-TOT",
@@ -2053,10 +2464,10 @@
     "away": "TOT",
     "status": "ns",
     "odds": {
-     "src": "Oddsportal 1X2 (6.11); gole/BTTS – DraftKings przez ESPN (4.11)",
-     "1": 2.75,
+     "src": "Oddsportal 1X2 (6.11 wieczór); gole/BTTS – DraftKings przez ESPN (4.11)",
+     "1": 2.88,
      "X": 3.4,
-     "2": 2.65,
+     "2": 2.6,
      "o25": 1.91,
      "u25": 1.87,
      "bttsY": 1.65,
@@ -2155,8 +2566,8 @@
     "away": "HUL",
     "status": "ns",
     "odds": {
-     "src": "Oddsportal 1X2 (6.11); handicap/gole/BTTS – DraftKings przez ESPN (4.11)",
-     "1": 1.17,
+     "src": "Oddsportal 1X2 (6.11 wieczór); handicap/gole/BTTS – DraftKings przez ESPN (4.11)",
+     "1": 1.18,
      "X": 8.0,
      "2": 17.0,
      "bttsY": 2.3,
@@ -2257,10 +2668,10 @@
     "away": "NEW",
     "status": "ns",
     "odds": {
-     "src": "Oddsportal 1X2 (6.11); DC – BC.Game/oddslot",
-     "1": 2.1,
-     "X": 3.65,
-     "2": 3.5,
+     "src": "Oddsportal 1X2 (6.11 wieczór); DC – BC.Game/oddslot",
+     "1": 2.0,
+     "X": 3.7,
+     "2": 3.7,
      "1X": 1.36,
      "X2": 1.7,
      "12": 1.28
@@ -2323,10 +2734,10 @@
     "away": "MCI",
     "status": "ns",
     "odds": {
-     "src": "Oddsportal 1X2 (6.11); gole/BTTS – DraftKings przez ESPN (4.11)",
-     "1": 4.75,
-     "X": 4.1,
-     "2": 1.74,
+     "src": "Oddsportal 1X2 (6.11 wieczór); gole/BTTS – DraftKings przez ESPN (4.11)",
+     "1": 4.5,
+     "X": 4.0,
+     "2": 1.76,
      "o25": 1.59,
      "u25": 2.25,
      "bttsY": 1.59,
@@ -2399,10 +2810,10 @@
     "away": "BRE",
     "status": "ns",
     "odds": {
-     "src": "Oddsportal 1X2 (6.11); DC – BC.Game/oddslot; gole – BetRivers przez rg.org (3.11)",
-     "1": 1.95,
+     "src": "Oddsportal 1X2 (6.11 wieczór); DC – BC.Game/oddslot; gole – BetRivers przez rg.org (3.11)",
+     "1": 1.93,
      "X": 4.0,
-     "2": 3.7,
+     "2": 3.9,
      "1X": 1.25,
      "X2": 1.91,
      "12": 1.25,
@@ -2490,10 +2901,10 @@
     "away": "LIV",
     "status": "ns",
     "odds": {
-     "src": "Oddsportal 1X2 (6.11); gole i handicap – BetRivers/LetsBet przez rg.org (3.11)",
-     "1": 5.3,
+     "src": "Oddsportal 1X2 (6.11 wieczór); gole i handicap – BetRivers/LetsBet przez rg.org (3.11)",
+     "1": 5.9,
      "X": 4.4,
-     "2": 1.6,
+     "2": 1.58,
      "o35": 2.35,
      "u35": 1.57
     },
@@ -2591,10 +3002,10 @@
     "away": "BOU",
     "status": "ns",
     "odds": {
-     "src": "Oddsportal 1X2 (6.11); gole – BetRivers przez rg.org (3.11)",
-     "1": 3.8,
+     "src": "Oddsportal 1X2 (6.11 wieczór); gole – BetRivers przez rg.org (3.11)",
+     "1": 4.0,
      "X": 3.75,
-     "2": 1.95,
+     "2": 1.93,
      "o25": 1.66,
      "u25": 2.2
     },
@@ -2670,10 +3081,10 @@
     "away": "CHE",
     "status": "ns",
     "odds": {
-     "src": "Oddsportal 1X2 (6.11); gole – LetsBet/BetRivers przez rg.org (3.11)",
+     "src": "Oddsportal 1X2 (6.11 wieczór); gole – LetsBet/BetRivers przez rg.org (3.11)",
      "1": 3.75,
-     "X": 3.7,
-     "2": 2.05,
+     "X": 3.65,
+     "2": 2.0,
      "o25": 1.83,
      "u25": 1.93
     },
@@ -2760,10 +3171,10 @@
     "away": "AVL",
     "status": "ns",
     "odds": {
-     "src": "Oddsportal 1X2 (6.11); linia goli 3,0 i AH – LetsBet przez rg.org (3.11)",
+     "src": "Oddsportal 1X2 (6.11 wieczór); linia goli 3,0 i AH – LetsBet przez rg.org (3.11)",
      "1": 2.2,
      "X": 3.7,
-     "2": 3.2
+     "2": 3.3
     },
     "officials": [
      {
@@ -2853,8 +3264,8 @@
      "capacity": 61038
     },
     "odds": {
-     "src": "Oddsportal 1X2 (wczesne, 4.11)",
-     "1": 1.44,
+     "src": "Oddsportal 1X2 (6.11 wieczór)",
+     "1": 1.42,
      "X": 5.0,
      "2": 6.5
     }
@@ -2872,10 +3283,10 @@
      "capacity": 12357
     },
     "odds": {
-     "src": "Oddsportal 1X2 (wczesne, 4.11)",
-     "1": 1.83,
-     "X": 3.8,
-     "2": 4.1
+     "src": "Oddsportal 1X2 (6.11 wieczór)",
+     "1": 2.0,
+     "X": 3.6,
+     "2": 3.6
     }
    },
    {
@@ -2891,10 +3302,10 @@
      "capacity": 36887
     },
     "odds": {
-     "src": "Oddsportal 1X2 (wczesne, 4.11)",
-     "1": 1.95,
-     "X": 3.6,
-     "2": 3.9
+     "src": "Oddsportal 1X2 (6.11 wieczór)",
+     "1": 1.76,
+     "X": 3.85,
+     "2": 4.75
     }
    },
    {
@@ -2910,10 +3321,10 @@
      "capacity": 40044
     },
     "odds": {
-     "src": "Oddsportal 1X2 (wczesne, 4.11)",
-     "1": 1.76,
+     "src": "Oddsportal 1X2 (6.11 wieczór)",
+     "1": 1.83,
      "X": 3.8,
-     "2": 4.3
+     "2": 4.1
     }
    },
    {
@@ -2929,9 +3340,9 @@
      "capacity": 32609
     },
     "odds": {
-     "src": "Oddsportal 1X2 (wczesne, 4.11)",
-     "1": 2.3,
-     "X": 3.5,
+     "src": "Oddsportal 1X2 (6.11 wieczór)",
+     "1": 2.35,
+     "X": 3.6,
      "2": 3.0
     }
    },
@@ -2948,10 +3359,10 @@
      "capacity": 62850
     },
     "odds": {
-     "src": "Oddsportal 1X2 (wczesne, 4.11)",
-     "1": 1.57,
-     "X": 4.3,
-     "2": 5.5
+     "src": "Oddsportal 1X2 (6.11 wieczór)",
+     "1": 1.48,
+     "X": 4.75,
+     "2": 6.25
     }
    },
    {
@@ -2967,9 +3378,9 @@
      "capacity": 52729
     },
     "odds": {
-     "src": "Oddsportal 1X2 (wczesne, 4.11)",
-     "1": 5.25,
-     "X": 4.3,
+     "src": "Oddsportal 1X2 (6.11 wieczór)",
+     "1": 5.5,
+     "X": 4.1,
      "2": 1.58
     }
    },
@@ -2986,10 +3397,10 @@
      "capacity": 24983
     },
     "odds": {
-     "src": "Oddsportal 1X2 (wczesne, 4.11)",
-     "1": 6.0,
-     "X": 4.5,
-     "2": 1.5
+     "src": "Oddsportal 1X2 (6.11 wieczór)",
+     "1": 5.75,
+     "X": 4.3,
+     "2": 1.55
     }
    },
    {
@@ -3005,8 +3416,8 @@
      "capacity": 61276
     },
     "odds": {
-     "src": "Oddsportal 1X2 (wczesne, 4.11)",
-     "1": 1.8,
+     "src": "Oddsportal 1X2 (6.11 wieczór)",
+     "1": 1.83,
      "X": 4.0,
      "2": 4.4
     }
@@ -3024,10 +3435,10 @@
      "capacity": 17250
     },
     "odds": {
-     "src": "Oddsportal 1X2 (wczesne, 4.11)",
-     "1": 1.86,
-     "X": 3.7,
-     "2": 4.0
+     "src": "Oddsportal 1X2 (6.11 wieczór)",
+     "1": 1.93,
+     "X": 3.8,
+     "2": 3.8
     }
    }
   ]
