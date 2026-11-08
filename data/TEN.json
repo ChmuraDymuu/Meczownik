@@ -1,9 +1,9 @@
 {
  "sport": "tennis",
- "updated": "2026-11-07T07:00:02+01:00",
+ "updated": "2026-11-08T07:15:00+01:00",
  "season": "2026",
  "competition": "Tenis",
- "note": "Źródła: atptour.com i Tennis Majors (wyniki ćwierćfinałów w Paryżu), Tenngrand (H2H, forma, kolano Ruuda), Dimers (kursy Shelton–Van Assche), Tennis Majors i Fubo (Chennai), wtatennis.com (plan WTA Finals dni 1–2, H2H). Godziny w czasie polskim; mecze „po poprzednim” mają godziny przybliżone. Finał w Paryżu (niedziela 8.11) dodam po półfinałach. Turnieje ATP 250 tygodnia 9.11 – brak potwierdzonego planu gier, pominięte. Porównywarki kursów i Pinnacle niedostępne – brak typów BET.",
+ "note": "Źródła: atptour.com (półfinały i godzina finału w Paryżu), Tennis Majors (Linette–Zakharova, statystyki), sport1.pl (godzina finału Chennai, rankingi), wtatennis.com (plan WTA Finals dni 1–2, H2H), SportsBettingDime (kursy Kalshi/bet365 finał Paryż), rg.org (kursy LetsBetMD WTA Finals, forma). Godziny w czasie polskim; mecze „po poprzednim” mają godziny przybliżone. Plan WTA Finals na 10.11 nieogłoszony; w tygodniu 9–14.11 brak turniejów ATP 250 (Metz i Ateny poza kalendarzem 2026). Brak dostępu do porównywarek i kursów Pinnacle – wszystkie mecze NO BET.",
  "teams": {
   "RUUD": {
    "id": "RUUD",
@@ -12,15 +12,6 @@
    "city": "Norwegia",
    "col": "#8a1c2b",
    "rank": 25,
-   "tour": "ATP"
-  },
-  "HIJIKATA": {
-   "id": "HIJIKATA",
-   "short": "HIJ",
-   "name": "Rinky Hijikata",
-   "city": "Australia",
-   "col": "#0f4c2f",
-   "rank": 85,
    "tour": "ATP"
   },
   "VAN_ASSCHE": {
@@ -38,23 +29,8 @@
    "name": "Ben Shelton",
    "city": "USA",
    "col": "#1b2f6b",
-   "tour": "ATP"
-  },
-  "PAUL": {
-   "id": "PAUL",
-   "short": "PAU",
-   "name": "Tommy Paul",
-   "city": "USA",
-   "col": "#1f3570",
-   "tour": "ATP"
-  },
-  "FRITZ": {
-   "id": "FRITZ",
-   "short": "FRI",
-   "name": "Taylor Fritz",
-   "city": "USA",
-   "col": "#162d66",
-   "tour": "ATP"
+   "tour": "ATP",
+   "rank": 4
   },
   "ALCARAZ": {
    "id": "ALCARAZ",
@@ -62,15 +38,8 @@
    "name": "Carlos Alcaraz",
    "city": "Hiszpania",
    "col": "#9e1b1b",
-   "tour": "ATP"
-  },
-  "BORGES": {
-   "id": "BORGES",
-   "short": "BOR",
-   "name": "Nuno Borges",
-   "city": "Portugalia",
-   "col": "#0b6b2e",
-   "tour": "ATP"
+   "tour": "ATP",
+   "rank": 3
   },
   "LINETTE": {
    "id": "LINETTE",
@@ -80,14 +49,6 @@
    "col": "#b0102a",
    "tour": "WTA",
    "rank": 68
-  },
-  "HONTAMA": {
-   "id": "HONTAMA",
-   "short": "HON",
-   "name": "Mai Hontama",
-   "city": "Japonia",
-   "col": "#9c0f2a",
-   "tour": "WTA"
   },
   "RYBAKINA": {
    "id": "RYBAKINA",
@@ -162,260 +123,19 @@
    "city": "Ukraina",
    "col": "#1f4fa0",
    "tour": "WTA"
+  },
+  "TJEN": {
+   "id": "TJEN",
+   "short": "TJE",
+   "name": "Janice Tjen",
+   "city": "Indonezja",
+   "col": "#a3121f",
+   "rank": 75,
+   "tour": "WTA"
   }
  },
  "picks": [],
  "days": {
-  "2026-11-06": [
-   {
-    "id": "TEN-2026-11-06-HONTAMA-LINETTE",
-    "date": "2026-11-06",
-    "time": "13:30",
-    "home": "HONTAMA",
-    "away": "LINETTE",
-    "status": "ft",
-    "comp": "WTA 250 Chennai",
-    "stage": "Ćwierćfinał",
-    "surface": "twarda",
-    "bestOf": 3,
-    "notes": "Trzeci mecz dnia (ok. 7:30 czasu wschodnioamerykańskiego) – godzina przybliżona. Linette rozstawiona z nr 3. Czas gry 2 h 37 min. Linette odrabiała stratę przełamania w 2. i 3. secie; przełamała 4 razy, Hontama obroniła 7 z 11 break pointów.",
-    "info": {
-     "fatigue": "Linette w 1/8 pokonała Uchijimę 7-6, 6-0."
-    },
-    "tip": {
-     "decision": "NO BET",
-     "reasons": [
-      "Brak dwustronnych kursów z jednej porównywarki (oddsportal niedostępny) i brak kursów Pinnacle – nie da się wyznaczyć prawdopodobieństwa rynku bez marży ani EV wg regulaminu.",
-      "Brak kursów dla meczu w dostępnych źródłach."
-     ]
-    },
-    "score": [
-     1,
-     2
-    ],
-    "sets": [
-     [
-      6,
-      4
-     ],
-     [
-      5,
-      7
-     ],
-     [
-      4,
-      6
-     ]
-    ],
-    "stats": [
-     [
-      "Asy",
-      0,
-      6
-     ],
-     [
-      "Wygrane pkt po 1. serwisie %",
-      61,
-      71
-     ]
-    ]
-   },
-   {
-    "id": "TEN-2026-11-06-SHELTON-PAUL",
-    "time": "14:00",
-    "home": "SHELTON",
-    "away": "PAUL",
-    "comp": "ATP Masters 1000 Paryż",
-    "stage": "Ćwierćfinał",
-    "surface": "twarda (hala)",
-    "bestOf": 3,
-    "court": "Court Central",
-    "status": "ft",
-    "date": "2026-11-06",
-    "info": {
-     "h2h": [
-      "H2H: 2-2"
-     ],
-     "stakes": "Paul musi wygrać ćwierćfinał i półfinał, by zachować szanse na ATP Finals.",
-     "fatigue": "Shelton w 1/8 grał trzy sety z Rinderknechem (3-6, 6-4, 7-6); Paul wygrał z Halysem w dwóch setach."
-    },
-    "tip": {
-     "decision": "NO BET",
-     "reasons": [
-      "Brak dwustronnych kursów z jednej porównywarki (oddsportal niedostępny) i brak kursów Pinnacle – nie da się wyznaczyć prawdopodobieństwa rynku bez marży ani EV wg regulaminu.",
-      "Pojedyncze kursy z zapowiedzi (Paul 1,75 u Interwetten, Shelton +2,5 gema 1,60) to jedna strona rynku u różnych bukmacherów – niezgodne z regulaminem.",
-      "Wyrównany mecz (H2H 2-2) bez czynnika, którego rynek mógłby nie uwzględniać."
-     ]
-    },
-    "score": [
-     2,
-     1
-    ],
-    "sets": [
-     [
-      6,
-      4
-     ],
-     [
-      4,
-      6
-     ],
-     [
-      6,
-      3
-     ]
-    ],
-    "notes": "Czas gry 1 h 46 min. Shelton pierwszy raz w półfinale w Paryżu."
-   },
-   {
-    "id": "TEN-2026-11-06-VAN_ASSCHE-HIJIKATA",
-    "time": "16:00",
-    "home": "VAN_ASSCHE",
-    "away": "HIJIKATA",
-    "notes": "Drugi mecz na korcie po Shelton–Paul (start 14:00) – godzina przybliżona. Czas gry 2 h 45 min. Van Assche pierwszy raz w półfinale Masters 1000.",
-    "comp": "ATP Masters 1000 Paryż",
-    "stage": "Ćwierćfinał",
-    "surface": "twarda (hala)",
-    "bestOf": 3,
-    "court": "Court Central",
-    "status": "ft",
-    "date": "2026-11-06",
-    "info": {
-     "fatigue": "Hijikata (kwalifikant) gra 6. mecz w Paryżu (2 w kwalifikacjach); w 1/8 trzy sety z Etcheverrym (2-6, 6-3, 7-5), wcześniej pokonał Djokovicia w trzech setach. Van Assche w 1/8 trzy sety z Musettim.",
-     "stakes": "Pierwszy ćwierćfinał Masters 1000 dla obu; Van Assche gra przed własną publicznością."
-    },
-    "tip": {
-     "decision": "NO BET",
-     "reasons": [
-      "Brak dwustronnych kursów z jednej porównywarki (oddsportal niedostępny) i brak kursów Pinnacle – nie da się wyznaczyć prawdopodobieństwa rynku bez marży ani EV wg regulaminu.",
-      "Kurs Van Assche 1,61 (Unibet) znaleziony tylko dla jednej strony.",
-      "Zmęczenie Hijikaty jest znane i zapewne już w cenie – bez kursów rynku nie da się ocenić przewagi."
-     ]
-    },
-    "score": [
-     2,
-     1
-    ],
-    "sets": [
-     [
-      6,
-      4
-     ],
-     [
-      6,
-      7,
-      4
-     ],
-     [
-      7,
-      5
-     ]
-    ]
-   },
-   {
-    "id": "TEN-2026-11-06-ALCARAZ-FRITZ",
-    "time": "19:00",
-    "home": "ALCARAZ",
-    "away": "FRITZ",
-    "notes": "Sesja wieczorna, „nie przed 19:00”. Czas gry 2 h 44 min. Fritz wygrał tie-break 12-10 (obronił 3 piłki setowe); Alcaraz obronił 2 piłki meczowe przy 4-5 w 2. secie i wygrał 4 gemy z rzędu. Pierwszy półfinał Alcaraza w Paryżu.",
-    "comp": "ATP Masters 1000 Paryż",
-    "stage": "Ćwierćfinał",
-    "surface": "twarda (hala)",
-    "bestOf": 3,
-    "court": "Court Central",
-    "status": "ft",
-    "date": "2026-11-06",
-    "odds": {
-     "src": "Dimers (kursy amerykańskie −295/+240, bukmacher USA), stan na 6.11 ok. 06:20",
-     "ml1": 1.34,
-     "ml2": 3.4
-    },
-    "info": {
-     "h2h": [
-      "H2H: Alcaraz prowadzi 6-1 (wg ATP)"
-     ],
-     "stakes": "Fritz jest 11. w Race to Turin, 184 pkt za 9. Jodarem – potrzebuje wygranych, by awansować do ATP Finals. Alcaraz ma awans zapewniony.",
-     "fatigue": "Alcaraz wypoczęty (walkower Berrettiniego w 1/8); Fritz wygrał z Filsem 6-3, 6-4 w 1 h 11 min.",
-     "injuries": {
-      "home": [],
-      "away": []
-     }
-    },
-    "tip": {
-     "decision": "NO BET",
-     "reasons": [
-      "Rynek bez marży (Dimers, −295/+240): Alcaraz ok. 72%, Fritz ok. 28% – brak kursów Pinnacle i średniej z porównywarki.",
-      "Nie udało się sprawdzić kursów u legalnych w Polsce bukmacherów.",
-      "Brak konkretnego powodu do korekty prawdopodobieństwa (forma, H2H i stawka są w kursach) – bez korekty EV ≤ 0 po marży.",
-      "Typ nie byłby opłacalny także z uwzględnieniem 12% podatku."
-     ]
-    },
-    "score": [
-     2,
-     1
-    ],
-    "sets": [
-     [
-      6,
-      7,
-      10
-     ],
-     [
-      7,
-      5
-     ],
-     [
-      6,
-      3
-     ]
-    ]
-   },
-   {
-    "id": "TEN-2026-11-06-BORGES-RUUD",
-    "time": "20:30",
-    "home": "BORGES",
-    "away": "RUUD",
-    "notes": "Sesja wieczorna, „nie przed 20:30”. Czas gry 1 h 33 min. Pod koniec meczu Ruud miał wyglądać na niezupełnie sprawnego (kolano – wg zapowiedzi Tenngrand).",
-    "comp": "ATP Masters 1000 Paryż",
-    "stage": "Ćwierćfinał",
-    "surface": "twarda (hala)",
-    "bestOf": 3,
-    "court": "Court Central",
-    "status": "ft",
-    "date": "2026-11-06",
-    "info": {
-     "h2h": [
-      "H2H: 2-2",
-      "2026 Bazylea (hala, 1/8) BORGES 2:1 RUUD (1-6, 6-3, 6-4)"
-     ],
-     "fatigue": "Borges (lucky loser) wygrał 1/8 z Buse 6-0, 6-2; Ruud pokonał Struffa 6-3, 6-3 w 1 h 4 min.",
-     "stakes": "Ruud awansuje w rankingu na żywo z 22. na 19. miejsce."
-    },
-    "tip": {
-     "decision": "NO BET",
-     "reasons": [
-      "Brak dwustronnych kursów z jednej porównywarki (oddsportal niedostępny) i brak kursów Pinnacle – nie da się wyznaczyć prawdopodobieństwa rynku bez marży ani EV wg regulaminu.",
-      "Kursy z zapowiedzi (Ruud −1,5 gema 1,65, Borges +1,5 seta 1,58, ponad 2,5 seta 2,28) pochodzą od różnych bukmacherów – niezgodne z regulaminem.",
-      "Wyrównany bilans H2H, brak przewagi informacyjnej."
-     ]
-    },
-    "score": [
-     0,
-     2
-    ],
-    "sets": [
-     [
-      6,
-      7,
-      5
-     ],
-     [
-      4,
-      6
-     ]
-    ]
-   }
-  ],
   "2026-11-07": [
    {
     "id": "TEN-2026-11-07-SHELTON-VAN_ASSCHE",
@@ -423,13 +143,13 @@
     "time": "14:30",
     "home": "SHELTON",
     "away": "VAN_ASSCHE",
-    "status": "ns",
+    "status": "ft",
     "comp": "ATP Masters 1000 Paryż",
     "stage": "Półfinał",
     "surface": "twarda (hala)",
     "bestOf": 3,
     "court": "Court Central",
-    "notes": "Pierwszy półfinał dnia, ok. 14:30 (8:30 ET wg Dimers) – godzina przybliżona.",
+    "notes": "Czas gry 2 h 16 min. Van Assche przełamał w 11. gemie 1. seta i na 3-1 w trzecim; Shelton wygrał 5 z 6 ostatnich gemów. Szósty finał Sheltona w sezonie, trzeci w Masters 1000. Godzina rozpoczęcia przybliżona. Shelton wygrał 83% (53/64) punktów po 1. serwisie.",
     "odds": {
      "src": "Dimers (kursy amerykańskie −330/+280, bukmacher USA), stan na 7.11 rano",
      "ml1": 1.3,
@@ -450,7 +170,32 @@
       "Nie udało się sprawdzić kursów u legalnych w Polsce bukmacherów.",
       "Zmęczenie Van Assche i doping publiczności są znane i zapewne w cenie – brak powodu do korekty prawdopodobieństwa; bez korekty EV ≤ 0 (także z podatkiem 12%)."
      ]
-    }
+    },
+    "score": [
+     2,
+     1
+    ],
+    "sets": [
+     [
+      5,
+      7
+     ],
+     [
+      6,
+      3
+     ],
+     [
+      6,
+      4
+     ]
+    ],
+    "stats": [
+     [
+      "Przełamania",
+      3,
+      2
+     ]
+    ]
    },
    {
     "id": "TEN-2026-11-07-LINETTE-ZAKHAROVA",
@@ -458,13 +203,13 @@
     "time": "15:30",
     "home": "LINETTE",
     "away": "ZAKHAROVA",
-    "status": "ns",
+    "status": "ft",
     "comp": "WTA 250 Chennai",
     "stage": "Półfinał",
     "surface": "twarda",
     "bestOf": 3,
     "court": "SDAT Tennis Stadium",
-    "notes": "Półfinały od 13:30 czasu polskiego (7:30 ET); Linette gra po meczu Tjen–Montgomery – godzina przybliżona. Linette rozstawiona z nr 3, Zakharova z nr 7.",
+    "notes": "Czas gry 1 h 56 min. Linette w finale z Janice Tjen (obrończyni tytułu). Godzina rozpoczęcia przybliżona. Break pointy: Linette 5/10, Zakharova 4/10.",
     "info": {
      "fatigue": "Linette w ćwierćfinale 2 h 37 min z Hontamą, wcześniej 3 h 33 min z Falei (najdłuższy mecz WTA 2026); Zakharova awansowała po kreczu Stefanini przy 6-2, 5-2."
     },
@@ -474,7 +219,62 @@
       "Nie udało się pobrać kursów z porównywarki (oddsportal niedostępny) ani kursów Pinnacle – brak prawdopodobieństwa rynku bez marży, więc EV wg regulaminu nie da się policzyć.",
       "Brak kursów dla meczu w dostępnych źródłach."
      ]
-    }
+    },
+    "score": [
+     2,
+     1
+    ],
+    "sets": [
+     [
+      2,
+      6
+     ],
+     [
+      6,
+      2
+     ],
+     [
+      6,
+      3
+     ]
+    ],
+    "stats": [
+     [
+      "Asy",
+      3,
+      1
+     ],
+     [
+      "Podwójne błędy",
+      1,
+      4
+     ],
+     [
+      "1. serwis %",
+      63,
+      74
+     ],
+     [
+      "Wygrane pkt po 1. serwisie %",
+      67,
+      54
+     ],
+     [
+      "Wygrane pkt po 2. serwisie %",
+      44,
+      40
+     ],
+     [
+      "Break pointy wykorzystane",
+      5,
+      4
+     ],
+     [
+      "Wygrane punkty",
+      81,
+      69
+     ]
+    ]
    },
    {
     "id": "TEN-2026-11-07-ALCARAZ-RUUD",
@@ -482,13 +282,13 @@
     "time": "16:30",
     "home": "ALCARAZ",
     "away": "RUUD",
-    "status": "ns",
+    "status": "ft",
     "comp": "ATP Masters 1000 Paryż",
     "stage": "Półfinał",
     "surface": "twarda (hala)",
     "bestOf": 3,
     "court": "Court Central",
-    "notes": "Drugi półfinał po meczu Shelton–Van Assche – godzina przybliżona.",
+    "notes": "Czas gry 86 min. Alcaraz nie musiał bronić break pointa, stracił tylko 9 punktów przy własnym serwisie; po jednym przełamaniu w każdym secie. 8. wygrana z rzędu (po tytule w Wiedniu). Godzina rozpoczęcia przybliżona.",
     "info": {
      "h2h": [
       "Alcaraz prowadzi 6-1",
@@ -511,10 +311,112 @@
       "Brak jakichkolwiek dwustronnych kursów w dostępnych źródłach.",
       "Możliwy problem z kolanem Ruuda = podwyższone ryzyko kreczu (różne zasady rozliczeń u bukmacherów) – zgodnie z regulaminem NO BET."
      ]
-    }
+    },
+    "score": [
+     2,
+     0
+    ],
+    "sets": [
+     [
+      6,
+      4
+     ],
+     [
+      6,
+      4
+     ]
+    ],
+    "stats": [
+     [
+      "Break pointy wykorzystane",
+      2,
+      0
+     ]
+    ]
    }
   ],
   "2026-11-08": [
+   {
+    "id": "TEN-2026-11-08-LINETTE-TJEN",
+    "date": "2026-11-08",
+    "time": "14:00",
+    "home": "LINETTE",
+    "away": "TJEN",
+    "status": "ns",
+    "comp": "WTA 250 Chennai",
+    "stage": "Finał",
+    "surface": "twarda",
+    "bestOf": 3,
+    "court": "Kort centralny (SDAT Tennis Stadium)",
+    "notes": "Drugi mecz dnia na korcie centralnym, po finale debla (11:30). Linette (68. WTA) może awansować co najmniej na 56. miejsce; Tjen (75. WTA, rozstawiona z nr 1) broni tytułu z 2025.",
+    "info": {
+     "h2h": [
+      "Pierwsze spotkanie"
+     ],
+     "fatigue": "Linette: półfinał 1 h 56 min (Zakharova), ćwierćfinał 2 h 37 min, wcześniej 3 h 33 min z Falei – trzeci z rzędu mecz trzysetowy. Tjen w ćwierćfinale odwróciła mecz z P. Kudiermietową.",
+     "stakes": "Finał WTA 250; Tjen broni tytułu w Chennai."
+    },
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Brak dwustronnych kursów na zwycięzcę, handicap i sumę gemów w dostępnych źródłach (znaleziony tylko jednostronny kurs typera: ponad 21,5 gema 1,90) – nie da się wyznaczyć prawdopodobieństwa rynku bez marży.",
+      "Nie udało się sprawdzić kursów u legalnych w Polsce bukmacherów ani kursów Pinnacle (porównywarki niedostępne) – brak wiarygodnego punktu odniesienia do liczenia EV.",
+      "Zmęczenie Linette po trzech długich meczach jest publicznie znane i zapewne uwzględnione w kursach – nie stanowi samodzielnego powodu korekty.",
+      "Bez przewagi EV ≤ 0, tym bardziej z podatkiem 12%."
+     ]
+    }
+   },
+   {
+    "id": "TEN-2026-11-08-ALCARAZ-SHELTON",
+    "date": "2026-11-08",
+    "time": "15:00",
+    "home": "ALCARAZ",
+    "away": "SHELTON",
+    "status": "ns",
+    "comp": "ATP Masters 1000 Paryż",
+    "stage": "Finał",
+    "surface": "twarda (hala)",
+    "bestOf": 3,
+    "court": "Court Central",
+    "notes": "Finał nie przed 15:00 (Paryż = czas polski).",
+    "odds": {
+     "src": "SportsBettingDime: zwycięzca – Kalshi (−335/+317), handicap i suma – bet365; stan na 7.11 ok. 23:20",
+     "ml1": 1.3,
+     "ml2": 4.17,
+     "hcp": -3.5,
+     "hc1": 1.83,
+     "hc2": 1.83,
+     "tot": 22.5,
+     "over": 1.78,
+     "under": 1.89
+    },
+    "info": {
+     "h2h": [
+      "Alcaraz prowadzi 3-1",
+      "2026 US Open ĆF SHELTON 3:2 ALCARAZ (6-7, 6-1, 6-3, 1-6, 7-6)",
+      "2025 Roland Garros ALCARAZ 3:1 SHELTON",
+      "2024 Laver Cup Berlin (hala) ALCARAZ 2:0 SHELTON",
+      "2023 Toronto ALCARAZ 2:0 SHELTON"
+     ],
+     "fatigue": "Alcaraz: półfinał 86 min (Ruud), ćwierćfinał 2 h 44 min (Fritz). Shelton: półfinał 2 h 16 min (Van Assche).",
+     "stakes": "Pierwszy finał Alcaraza w Paryżu, seria 8 wygranych; Shelton – szósty finał sezonu, zakwalifikowany już do ATP Finals.",
+     "injuries": {
+      "home": [
+       "Wrócił po czteromiesięcznej przerwie (nadgarstek)"
+      ],
+      "away": []
+     }
+    },
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Rynek bez marży: Alcaraz ok. 76%, Shelton ok. 24% (Kalshi); handicap −3,5 gema 50/50, ponad 22,5 gema ok. 51,5% (bet365).",
+      "Kursy tylko z rynków USA (Kalshi/bet365) – brak średniej z porównywarki i Pinnacle; Nie udało się sprawdzić kursów u legalnych w Polsce bukmacherów ani kursów Pinnacle (porównywarki niedostępne) – brak wiarygodnego punktu odniesienia do liczenia EV.",
+      "Ranking, forma (8 wygranych z rzędu) i H2H są już w kursach – brak konkretnego powodu do korekty prawdopodobieństwa.",
+      "Bez korekty EV < 0 na każdym rynku – nieopłacalne bez podatku i z podatkiem 12%."
+     ]
+    }
+   },
    {
     "id": "TEN-2026-11-08-RYBAKINA-NOSKOVA",
     "time": "21:00",
@@ -530,6 +432,27 @@
     "info": {
      "h2h": [
       "Rybakina prowadzi 3-0"
+     ],
+     "injuries": {
+      "home": [],
+      "away": [
+       "Wycofała się z Wuhan z powodu urazu lewej łydki"
+      ]
+     },
+     "stakes": "Mecz otwarcia WTA Finals; Rybakina – nr 1 i obrończyni tytułu (bilans sezonu 54-14, 4 tytuły). Nosková 35-15."
+    },
+    "odds": {
+     "src": "rg.org – LetsBetMD (−238/+170), stan na 4.11",
+     "ml1": 1.42,
+     "ml2": 2.7
+    },
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Rynek bez marży (jeden bukmacher z USA, kurs z 4.11): Rybakina ok. 65,5%, Nosková ok. 34,5%.",
+      "Nie udało się sprawdzić kursów u legalnych w Polsce bukmacherów ani kursów Pinnacle (porównywarki niedostępne) – brak wiarygodnego punktu odniesienia do liczenia EV.",
+      "Uraz łydki Noskovej jest znany od Wuhan i był w cenie już przy publikacji kursów – brak nowej informacji uzasadniającej korektę; ryzyko kreczu przemawia przeciw zakładom.",
+      "Brak przewagi – EV ≤ 0 także z podatkiem 12%."
      ]
     }
    },
@@ -548,7 +471,24 @@
     "info": {
      "h2h": [
       "H2H: 5-5",
-      "Gauff wygrała oba mecze w 2026"
+      "2026 Wimbledon ĆF GAUFF",
+      "2026 Cincinnati finał GAUFF"
+     ],
+     "stakes": "Gauff 47-15 w sezonie, Pegula 50-14, ale przegrała trzy ostatnie finały i rozegrała tylko jeden mecz po US Open.",
+     "fatigue": "Pegula po długiej przerwie meczowej (jeden mecz od US Open)."
+    },
+    "odds": {
+     "src": "rg.org – LetsBetMD (−143/+107), stan na 4.11",
+     "ml1": 1.7,
+     "ml2": 2.07
+    },
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Rynek bez marży (jeden bukmacher z USA, 4.11): Gauff ok. 55%, Pegula ok. 45%.",
+      "Nie udało się sprawdzić kursów u legalnych w Polsce bukmacherów ani kursów Pinnacle (porównywarki niedostępne) – brak wiarygodnego punktu odniesienia do liczenia EV.",
+      "Brak meczów Peguli od US Open to fakt znany rynkowi – brak powodu do korekty.",
+      "Brak przewagi – EV ≤ 0 także z podatkiem 12%."
      ]
     }
    }
@@ -569,7 +509,21 @@
     "info": {
      "h2h": [
       "Muchová prowadzi 3-2",
-      "2026 Brisbane SABALENKA wygrana"
+      "2026 Brisbane SABALENKA"
+     ],
+     "stakes": "Sabalenka 47-10, 3 tytuły, ale 1-2 w Azji; Muchová – finał Wimbledonu, tytuły w Dosze i Bad Homburgu."
+    },
+    "odds": {
+     "src": "rg.org – LetsBetMD (−175/+127), stan na 4.11",
+     "ml1": 1.57,
+     "ml2": 2.27
+    },
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Rynek bez marży (jeden bukmacher z USA, 4.11): Sabalenka ok. 59%, Muchová ok. 41%.",
+      "Nie udało się sprawdzić kursów u legalnych w Polsce bukmacherów ani kursów Pinnacle (porównywarki niedostępne) – brak wiarygodnego punktu odniesienia do liczenia EV.",
+      "Forma i H2H są w kursach – brak powodu do korekty; EV ≤ 0 także z podatkiem 12%."
      ]
     }
    },
@@ -588,7 +542,21 @@
     "info": {
      "h2h": [
       "H2H: 1-1",
-      "2026 Australian Open SVITOLINA wygrana"
+      "2026 Australian Open SVITOLINA"
+     ],
+     "stakes": "Andreeva 50-16, mistrzyni Roland Garros; Svitolina 48-15, tytuły w Auckland i Rzymie."
+    },
+    "odds": {
+     "src": "rg.org – LetsBetMD (−182/+132), stan na 4.11",
+     "ml1": 1.55,
+     "ml2": 2.32
+    },
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Rynek bez marży (jeden bukmacher z USA, 4.11): Andreeva ok. 60%, Svitolina ok. 40%.",
+      "Nie udało się sprawdzić kursów u legalnych w Polsce bukmacherów ani kursów Pinnacle (porównywarki niedostępne) – brak wiarygodnego punktu odniesienia do liczenia EV.",
+      "Brak informacji spoza kursów uzasadniającej korektę; EV ≤ 0 także z podatkiem 12%."
      ]
     }
    }
