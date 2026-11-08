@@ -1,9 +1,9 @@
 {
- "updated": "2026-11-07T06:55:00+01:00",
+ "updated": "2026-11-08T06:43:35+01:00",
  "season": "2026/27",
  "competition": "Ekstraklasa",
  "currentRound": 14,
- "note": "Źródła: ekstraklasa.org, mecze24.pl, eska.pl, pilkanozna.pl (piątkowe mecze 14. kolejki: Motor–Wisła Płock 3:2, Wisła Kraków–Cracovia 2:1), kickoff.co.uk (kursy Bet365, stan 6.11 rano – nowszych nie potwierdzono), pilkanozna.pl (sędziowie główni), sportowefakty.wp.pl, sport1.pl, weszlo.com, mecze24.pl (absencje). Tabela po piątkowych meczach 14. kolejki (LPO, POG, JAG, WPL z zaległymi meczami; przy równej liczbie punktów kolejność wg bilansu bramek); forma: 5 ostatnich meczów ligowych. Asystenci i VAR 14. kolejki nieznani. Godziny CET.",
+ "note": "Źródła: ekstraklasa.org (tabela, relacje), polsatsport.pl, piast.gliwice.pl, twojradom.pl, sportowefakty.wp.pl, sport1.pl, mecze24.pl (częściowo), weszlo.com / podkarpacielive.pl / flashscore.pl (kursy LV BET i Superbet z 8.11 rano, absencje), kkslech.com (absencje, VAR), sportowefakty.wp.pl (sędziowie). Tabela po sobotnich meczach 14. kolejki (LPO, LEG, ZAG, GKS, JAG, WPL, RAK z mniejszą liczbą meczów); forma: 5 ostatnich meczów ligowych. Godziny CET.",
  "teams": {
   "LEG": {
    "id": "LEG",
@@ -2143,7 +2143,7 @@
     "time": "12:15",
     "home": "KOR",
     "away": "RAD",
-    "status": "ns",
+    "status": "ft",
     "info": {
      "suspensions": {
       "home": [
@@ -2195,9 +2195,108 @@
       "r": "GŁ",
       "role": "Sędzia główny",
       "name": "Tomasz Kwiatkowski",
-      "nat": "POL"
+      "nat": "POL",
+      "city": "Warszawa"
      }
-    ]
+    ],
+    "score": [
+     0,
+     2
+    ],
+    "events": [
+     {
+      "m": 11,
+      "t": "yc",
+      "s_": "h",
+      "who": "Patrik Hellebrand"
+     },
+     {
+      "m": 27,
+      "t": "yc",
+      "s_": "h",
+      "who": "Martin Remacle"
+     },
+     {
+      "m": 39,
+      "t": "yc",
+      "s_": "a",
+      "who": "Roberto Alves"
+     },
+     {
+      "m": 42,
+      "t": "yc",
+      "s_": "a",
+      "who": "Conrado"
+     },
+     {
+      "m": 46,
+      "t": "yc",
+      "s_": "h",
+      "who": "Morgan Fassbender"
+     },
+     {
+      "m": 46,
+      "t": "yc",
+      "s_": "a",
+      "who": "Zié Ouattara"
+     },
+     {
+      "m": 59,
+      "t": "yc",
+      "s_": "a",
+      "who": "Filip Koperski"
+     },
+     {
+      "m": 69,
+      "t": "goal",
+      "s_": "a",
+      "who": "Filip Koperski",
+      "how": "Z bliska po dośrodkowaniu przedłużonym przez Donisa"
+     },
+     {
+      "m": 69,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Che Nunnely",
+      "out": "Ronaldo Lumungo"
+     },
+     {
+      "m": 75,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Guilherme Luiz",
+      "out": "Fernand Goure"
+     },
+     {
+      "m": 80,
+      "t": "yc",
+      "s_": "h",
+      "who": "Bartłomiej Smolarczyk"
+     },
+     {
+      "m": 82,
+      "t": "goal",
+      "s_": "a",
+      "who": "Jan Grzesik",
+      "as": "Luquinhas",
+      "how": "Po dośrodkowaniu"
+     },
+     {
+      "m": 85,
+      "t": "rc",
+      "s_": "a",
+      "who": "Zié Ouattara",
+      "why": "Druga żółta kartka"
+     },
+     {
+      "m": 89,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Kacper Karasek",
+      "out": "Luquinhas"
+     }
+    ],
+    "notes": "PO MECZU: Radomiak wygrał Świętą Wojnę w Kielcach 2:0 (do przerwy 0:0). Koperski 69', Grzesik 82' (asysta Luquinhas); Ouattara z czerwoną (2. żółta) w 85'. Skład Radomiaka: Majchrowicz – Ouattara, Kingue, Koperski, Conrado, Grzesik, Alves, Donis, Luquinhas, Lumungo, Goure. Skład i zmiany Korony, sędziowie asystenci, frekwencja – nieznane. Minuty żółtych kartek wg mecze24.pl (jedno źródło). Źródła: twojradom.pl, mecze24.pl, sportowy24.pl."
    },
    {
     "id": "2026-27-R14-SLA-PIA",
@@ -2205,7 +2304,7 @@
     "time": "14:45",
     "home": "SLA",
     "away": "PIA",
-    "status": "ns",
+    "status": "ft",
     "tip": {
      "decision": "NO BET",
      "reasons": [
@@ -2255,9 +2354,201 @@
       "r": "GŁ",
       "role": "Sędzia główny",
       "name": "Bartosz Frankowski",
+      "nat": "POL",
+      "city": "Toruń"
+     },
+     {
+      "r": "AS1",
+      "role": "Asystent 1",
+      "name": "Jakub Winkler",
+      "nat": "POL"
+     },
+     {
+      "r": "AS2",
+      "role": "Asystent 2",
+      "name": "Dawid Błażejczyk",
+      "nat": "POL"
+     },
+     {
+      "r": "4.",
+      "role": "Sędzia techniczny",
+      "name": "Paweł Wrzeszczyński",
+      "nat": "POL"
+     },
+     {
+      "r": "VAR",
+      "role": "Sędzia VAR",
+      "name": "Marcin Szczerbowicz",
+      "nat": "POL"
+     },
+     {
+      "r": "AVAR",
+      "role": "Asystent VAR",
+      "name": "Paweł Malec",
       "nat": "POL"
      }
-    ]
+    ],
+    "score": [
+     0,
+     0
+    ],
+    "attendance": 9031,
+    "venue": {
+     "name": "Tarczyński Arena",
+     "city": "Wrocław"
+    },
+    "staff": {
+     "home": [
+      [
+       "Trener",
+       "Toni Golem"
+      ]
+     ],
+     "away": [
+      [
+       "Trener",
+       "Daniel Myśliwiec"
+      ]
+     ]
+    },
+    "events": [
+     {
+      "m": 7,
+      "t": "pen",
+      "s_": "h",
+      "who": "Przemysław Banaszak",
+      "res": "Obroniony"
+     },
+     {
+      "m": 38,
+      "t": "yc",
+      "s_": "h",
+      "who": "Przemysław Banaszak"
+     },
+     {
+      "m": 59,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Szczepan Mucha",
+      "out": "Ivan Lima"
+     },
+     {
+      "m": 60,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Samuel Ntamack",
+      "out": "Andreas Katsantonis"
+     },
+     {
+      "m": 61,
+      "t": "yc",
+      "s_": "a",
+      "who": "Emmanuel Twumasi"
+     },
+     {
+      "m": 61,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Malaly Dembélé",
+      "out": "Przemysław Banaszak"
+     },
+     {
+      "m": 61,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Jorge Yriarte",
+      "out": "Karol Linetty"
+     },
+     {
+      "m": 73,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Luka Marjanac",
+      "out": "Shabani"
+     },
+     {
+      "m": 73,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Mariusz Malec",
+      "out": "Ba"
+     },
+     {
+      "m": 78,
+      "t": "yc",
+      "s_": "a",
+      "who": "Francisco Sierralta"
+     },
+     {
+      "m": 81,
+      "t": "yc",
+      "s_": "h",
+      "who": "Alex Timossi Andersson"
+     },
+     {
+      "m": 83,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Adam Ciućka",
+      "out": "Tomasiewicz"
+     },
+     {
+      "m": 85,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Jakub Łabojko",
+      "out": "Leśniak"
+     },
+     {
+      "m": 86,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Jorge Félix",
+      "out": "Leandro Sanca"
+     },
+     {
+      "m": 87,
+      "t": "yc",
+      "s_": "a",
+      "who": "Quentin Boisgard"
+     },
+     {
+      "m": 90,
+      "s": "+3",
+      "t": "sub",
+      "s_": "a",
+      "inn": "Maciej Kucharski",
+      "out": "Hugo Vallejo"
+     }
+    ],
+    "teamStats": [
+     [
+      "Strzały",
+      7,
+      8
+     ],
+     [
+      "Obrony bramkarza",
+      1,
+      1
+     ],
+     [
+      "Rzuty rożne",
+      3,
+      1
+     ],
+     [
+      "Faule",
+      7,
+      5
+     ],
+     [
+      "Spalone",
+      0,
+      1
+     ]
+    ],
+    "notes": "PO MECZU: 0:0. W 7' Domen Gril obronił karnego Banaszaka (faul Vallejo). Śląsk: Niemczycki – Timossi Andersson, Szala, Ba, Dijakovic, Jurčec – Shabani, Linetty, Tomasiewicz – Samiec-Talar, Banaszak. Piast: Gril – Twumasi, Juande Rivas, Sierralta, Borowski – Lima, Boisgard, Leśniak, Vallejo – Sanca, Katsantonis. Numery nieznane. Źródła: piast.gliwice.pl, ekstraklasa.org; statystyki: pilkarskiswiat.com."
    },
    {
     "id": "2026-27-R14-GZA-WIE",
@@ -2265,7 +2556,7 @@
     "time": "17:30",
     "home": "GZA",
     "away": "WIE",
-    "status": "ns",
+    "status": "ft",
     "tip": {
      "decision": "NO BET",
      "reasons": [
@@ -2307,9 +2598,126 @@
       "r": "GŁ",
       "role": "Sędzia główny",
       "name": "Wojciech Myć",
-      "nat": "POL"
+      "nat": "POL",
+      "city": "Włodawa"
      }
-    ]
+    ],
+    "score": [
+     2,
+     1
+    ],
+    "events": [
+     {
+      "m": 31,
+      "t": "goal",
+      "s_": "a",
+      "who": "Lucas Piazón",
+      "as": "Lisandro Semedo"
+     },
+     {
+      "m": 33,
+      "t": "goal",
+      "s_": "h",
+      "who": "Ondřej Zmrzlý",
+      "as": "Maksym Khlan"
+     },
+     {
+      "m": 43,
+      "t": "yc",
+      "s_": "a",
+      "who": "Lisandro Semedo"
+     },
+     {
+      "m": 47,
+      "t": "yc",
+      "s_": "h",
+      "who": "Malthe Højholt"
+     },
+     {
+      "m": 61,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Janis Antiste",
+      "out": "Erik Prekop"
+     },
+     {
+      "m": 61,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Sondre Liseth",
+      "out": "Kacper Urbański"
+     },
+     {
+      "m": 64,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Petar Pušić",
+      "out": "Miki Villar"
+     },
+     {
+      "m": 78,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Jarosław Kubicki",
+      "out": "Paulo Bernardo"
+     },
+     {
+      "m": 79,
+      "t": "yc",
+      "s_": "a",
+      "who": "Kamil Pestka"
+     },
+     {
+      "m": 79,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Ben Lederman",
+      "out": "Efthymis Koulouris"
+     },
+     {
+      "m": 84,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Yvan Ikia Dimi",
+      "out": "P. González"
+     },
+     {
+      "m": 87,
+      "t": "yc",
+      "s_": "a",
+      "who": "Petar Pušić"
+     },
+     {
+      "m": 89,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Christopher Lungoyi",
+      "out": "Lisandro Semedo"
+     },
+     {
+      "m": 89,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Bartosz Białek",
+      "out": "Tobias Christensen"
+     },
+     {
+      "m": 90,
+      "s": "+1",
+      "t": "goal",
+      "s_": "h",
+      "who": "Erik Janža",
+      "how": "Rzut wolny"
+     },
+     {
+      "m": 90,
+      "s": "+1",
+      "t": "yc",
+      "s_": "h",
+      "who": "Erik Janža"
+     }
+    ],
+    "notes": "PO MECZU: Górnik wygrał 2:1 golem Janży z rzutu wolnego w doliczonym czasie i zrównał się punktami z Lechem (31). Górnik (wyjściowo): Schulze (1), Janža (64), Josema (20), Urbański (82), Højholt (6), Dietz (66), Zmrzlý (21), Paulo Bernardo (8), Prekop (11), Khlan (33), Federico (19). Wieczysta: Kochalski (77), Djermanović (15), Dujmović (55), Pestka (33), Fila (4), Piazón (12), Maigaard (20), Christensen (10), Koulouris (9), Semedo (7), Villar (23). Pozycje/formacje nieznane. mecze24.pl podaje czerwoną dla Semedo (69'), ale ekstraklasa.org notuje jego zejście w 89' – czerwonej nie wpisano. Źródła: ekstraklasa.org, sportowefakty.wp.pl."
    },
    {
     "id": "2026-27-R14-WID-POG",
@@ -2317,7 +2725,7 @@
     "time": "20:15",
     "home": "WID",
     "away": "POG",
-    "status": "ns",
+    "status": "ft",
     "info": {
      "suspensions": {
       "home": [],
@@ -2367,10 +2775,11 @@
       "r": "GŁ",
       "role": "Sędzia główny",
       "name": "Piotr Lasyk",
-      "nat": "POL"
+      "nat": "POL",
+      "city": "Bytom"
      }
     ],
-    "notes": "W bramce Pogoni zadebiutuje w Ekstraklasie Kevin Dąbrowski lub Nikos Botis (sport1.pl). Lukas Willen (czerwona po 2. żółtej z Rakowem) wg kutno.net.pl nie pauzuje – brak go na liście zawieszonych sportowefakty.wp.pl.",
+    "notes": "PO MECZU: Widzew przełamał się 3:0 (1:0) – pierwsze ligowe zwycięstwo od sierpnia. Świderski 33', Kapuadi 63', rezerwowy Wiśniewski 80'. Widzew: Drągowski – Gazibegović, Kapuadi, Visus, Cheng – Świderski, Papanikolaou, Shehu, Fran Alvarez, Males – Bergier. Pogoń: Botis – Acosta, Keramitsis, Szalai, Willen – Czurlinow, Biegański, Dziczek, Wojciechowski – Mukairu, Jordi Sanchez. W bramce Pogoni zagrał Nikolaos Botis (Cojocaru pauzował). Minuta kartki Dziczka wg mecze24.pl. Źródła: polsatsport.pl, sport1.pl.",
     "staff": {
      "home": [
       [
@@ -2378,8 +2787,117 @@
        "Mateusz Stolarski"
       ]
      ],
-     "away": []
-    }
+     "away": [
+      [
+       "Trener",
+       "Oscar Garcia"
+      ]
+     ]
+    },
+    "score": [
+     3,
+     0
+    ],
+    "attendance": 16010,
+    "events": [
+     {
+      "m": 33,
+      "t": "goal",
+      "s_": "h",
+      "who": "Karol Świderski",
+      "how": "Indywidualna akcja, rykoszet od Willena"
+     },
+     {
+      "m": 46,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Lindon Selahi",
+      "out": "Giannis Papanikolaou"
+     },
+     {
+      "m": 46,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Rajmund Molnar",
+      "out": "Jan Biegański"
+     },
+     {
+      "m": 63,
+      "t": "goal",
+      "s_": "h",
+      "who": "Steve Kapuadi",
+      "how": "Dobitka po strzale głową Visusa w poprzeczkę"
+     },
+     {
+      "m": 64,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Stipe Biuk",
+      "out": "Darian Males"
+     },
+     {
+      "m": 64,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Ioan Vermesan",
+      "out": "Sebastian Bergier"
+     },
+     {
+      "m": 68,
+      "t": "yc",
+      "s_": "a",
+      "who": "Patryk Dziczek"
+     },
+     {
+      "m": 73,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Hussein Ali",
+      "out": "Kellyn Acosta"
+     },
+     {
+      "m": 76,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Przemysław Wiśniewski",
+      "out": "Ricardo Visus"
+     },
+     {
+      "m": 80,
+      "t": "goal",
+      "s_": "h",
+      "who": "Przemysław Wiśniewski",
+      "how": "Po rzucie rożnym"
+     },
+     {
+      "m": 83,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Emil Kornvig",
+      "out": "Juljan Shehu"
+     },
+     {
+      "m": 86,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Jacek Czapliński",
+      "out": "Darko Czurlinow"
+     },
+     {
+      "m": 86,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Natan Ława",
+      "out": "Paul Mukairu"
+     },
+     {
+      "m": 86,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Filip Cuić",
+      "out": "Jordi Sanchez"
+     }
+    ]
    },
    {
     "id": "2026-27-R14-JAG-GKS",
@@ -2400,14 +2918,21 @@
       ],
       "away": []
      },
-     "homeAway": "Żadna z drużyn nie zremisowała w lidze w tym sezonie (JAG 6-0-6, GKS 7-0-6); GKS stracił gola w 8 kolejnych meczach ligowych (wg kickoff.co.uk). Sezon: JAG 17:18, GKS 25:19"
+     "homeAway": "Żadna z drużyn nie zremisowała w lidze w tym sezonie (JAG 6-0-6, GKS 7-0-6); GKS stracił gola w 11 meczach z rzędu (wszystkie rozgrywki) i przegrał 4 z 5 ostatnich wyjazdów (na wyjeździe 2-0-5) (weszlo.com). Sezon: JAG 17:18, GKS 25:19",
+     "h2h": [
+      "2026-05-17 GKS 2:2 JAG",
+      "2026-03-17 JAG 2:1 GKS",
+      "2025-12-04 GKS 3:1 JAG",
+      "2025-03-02 JAG 1:0 GKS",
+      "2024-08-25 GKS 3:1 JAG"
+     ]
     },
     "tip": {
      "decision": "NO BET",
      "reasons": [
-      "Kursy Bet365: 2,15 / 3,70 / 2,88. Jagiellonia po czwartkowej porażce w Sofii (3 dni przerwy, podróż, uraz Serginho); GKS wypoczęty (8 dni) — oceniam GKS ok. 35%, remis 25%: DNB GKS 2,20 EV ≈ +0,02 — poniżej progu.",
-      "BTTS tak 1,44 (≈69%): GKS stracił gola w 8 meczach z rzędu, ale moja wycena ok. 68% daje EV ≈ −0,02. Over 2,5 1,48 też bez wartości.",
-      "Obie drużyny bez remisu w sezonie — to ciekawostka, nie podstawa typu."
+      "LV BET 2,22 / 4,00 / 2,90 (≈45/25/34%). Jagiellonia 3 dni po porażce w Sofii i z urazem Serginho, GKS wypoczęty, ale słaby na wyjazdach (2-0-5) — oceniam ok. 41/24/35%.",
+      "X2 1,72 przy ok. 59% → EV ≈ +0,01; wygrana GKS 2,90 → EV ≈ +0,02 — poniżej progu i przy dużej niepewności.",
+      "BTTS tak 1,42 (≈70%) i over 2,5 1,45 (≈69%): GKS traci gola 11 meczów z rzędu, ale moja wycena ok. 67–68% daje EV ujemne."
      ]
     },
     "officials": [
@@ -2415,23 +2940,21 @@
       "r": "GŁ",
       "role": "Sędzia główny",
       "name": "Daniel Stefański",
-      "nat": "POL"
+      "nat": "POL",
+      "city": "Bydgoszcz"
      }
     ],
     "odds": {
-     "src": "Bet365 (przez kickoff.co.uk), stan na 6.11 rano",
-     "1": 2.15,
-     "X": 3.7,
-     "2": 2.88,
-     "1X": 1.4,
-     "X2": 1.67,
-     "12": 1.29,
-     "dnb1": 1.62,
-     "dnb2": 2.2,
-     "o25": 1.48,
-     "u25": 2.6,
-     "bttsY": 1.44,
-     "bttsN": 2.63
+     "src": "LV BET (weszlo.com), stan na 8.11 rano",
+     "1": 2.22,
+     "X": 4.0,
+     "2": 2.9,
+     "1X": 1.45,
+     "X2": 1.72,
+     "o25": 1.45,
+     "u25": 2.75,
+     "bttsY": 1.42,
+     "bttsN": 2.85
     },
     "notes": "Jagiellonia 5.11 przegrała 0:1 z Levski Sofia w LE (Stoyanchov 83'); Serginho zszedł z urazem w przerwie (mecze24.pl).",
     "staff": {
@@ -2463,14 +2986,21 @@
       "home": 9,
       "away": 6
      },
-     "homeAway": "LEG 6-6-1, bramki 23:11, 4 czyste konta; RAK 3-0-10, 19:29, bez czystego konta (wg kickoff.co.uk). Legia strzeliła tylko 2 gole w 3 ostatnich meczach (meczyki.pl)"
+     "homeAway": "LEG 6-6-1, bramki 23:11, bez wygranej w 3 ostatnich meczach; jedyna porażka u siebie z Lechem. RAK 3-0-10, 19:29, stracił gola w 15 meczach z rzędu, BTTS w 9 ostatnich meczach Rakowa; Legia nie pokonała Rakowa w 6 ostatnich meczach (weszlo.com)",
+     "h2h": [
+      "2026-03-22 LEG 1:1 RAK",
+      "2025-09-20 RAK 1:1 LEG",
+      "2025-03-16 RAK 3:2 LEG",
+      "2024-09-15 LEG 0:1 RAK",
+      "2024-04-13 RAK 1:1 LEG"
+     ]
     },
     "tip": {
      "decision": "NO BET",
      "reasons": [
-      "Legia 1,83 (≈55%): Legia remisowa (6 remisów) i strzeliła 2 gole w 3 ostatnich meczach; bez Kapustki (4 żółte). Oceniam wygraną ok. 55%, remis 25% → DNB 1,40 EV ≈ +0,02, wygrana EV ≈ 0,00.",
-      "BTTS tak 1,62 (≈62%): Raków bez czystego konta, ale Legia ma 4 czyste konta i traci 0,8 gola/mecz — moja wycena ok. 58%, EV ≈ −0,05. Over 2,5 1,67 podobnie.",
-      "Brak rynku z przewagą ≥5%."
+      "Legia 1,90 (≈53%): przy oczekiwanych golach ok. 1,7 : 0,95 oceniam wygraną ok. 54%, remis 24% → EV ≈ +0,03; bez Kapustki i bez wygranej w 3 meczach — przewaga za mała.",
+      "BTTS tak 1,62 (≈62%): Raków traci gola 15 meczów z rzędu, ale Legia traci tylko 0,85 gola/mecz (4 czyste konta) — moja wycena ok. 55%, EV ≈ −0,11.",
+      "Over 2,5 1,65 przy ok. 50% i X2 1,85 przy ok. 46% — EV ujemne. Seria H2H (6 meczów bez wygranej Legii) to nie podstawa typu."
      ]
     },
     "officials": [
@@ -2478,23 +3008,21 @@
       "r": "GŁ",
       "role": "Sędzia główny",
       "name": "Jarosław Przybył",
-      "nat": "POL"
+      "nat": "POL",
+      "city": "Kluczbork"
      }
     ],
     "odds": {
-     "src": "Bet365 (przez kickoff.co.uk), stan na 6.11 rano; Betclic (meczyki.pl): 1,90 / 3,90 / 3,90",
-     "1": 1.83,
-     "X": 3.7,
-     "2": 3.6,
-     "1X": 1.29,
-     "X2": 1.91,
-     "12": 1.29,
-     "dnb1": 1.4,
-     "dnb2": 2.75,
-     "o25": 1.67,
-     "u25": 2.15,
+     "src": "LV BET (weszlo.com), stan na 8.11 rano; Bet365 6.11: 1,83 / 3,70 / 3,60",
+     "1": 1.9,
+     "X": 3.9,
+     "2": 3.9,
+     "1X": 1.22,
+     "X2": 1.85,
+     "o25": 1.65,
+     "u25": 2.22,
      "bttsY": 1.62,
-     "bttsN": 2.2
+     "bttsN": 2.27
     },
     "staff": {
      "home": [
@@ -2526,18 +3054,35 @@
      },
      "injuries": {
       "home": [
-       "Pablo Rodriguez (skręcona kostka w meczu z Benficą – wg trenera raczej nie zdąży)"
+       "Pablo Rodriguez (kostka – raczej nie zagra)",
+       "Mikael Ishak (uraz)",
+       "Ali Gholizadeh (uraz)",
+       "Alex Douglas (uraz)",
+       "João Moutinho (uraz)",
+       "Allahyar Sayyadmanesh (uraz)",
+       "Wojciech Mońka (uraz)"
       ],
-      "away": []
+      "away": [
+       "Jasmin Burić (uraz)",
+       "Michalis Kosidis (uraz)",
+       "Michał Nalepa (uraz z meczu z Koroną – niepewny)"
+      ]
      },
-     "homeAway": "LPO 10-1-1 (32:11), 2+ gole w 5 kolejnych meczach ligowych; ZAG 6-4-3 (16:15), 5 czystych kont (wg kickoff.co.uk)"
+     "homeAway": "LPO 10-1-1 (32:11), 14 meczów ligowych u siebie bez porażki, 5 wygranych z rzędu z 20 golami; ZAG 6-4-3 (16:15), na wyjeździe 1-3-2 (8:11), jedyny zespół bez straconego gola w 1. kwadransie (kkslech.com, flashscore.pl)",
+     "h2h": [
+      "2026-03-15 ZAG 0:1 LPO",
+      "2025-09-12 LPO 1:2 ZAG",
+      "2025-02-23 LPO 3:1 ZAG",
+      "2024-08-17 ZAG 0:1 LPO",
+      "2024-02-10 LPO 2:0 ZAG"
+     ]
     },
     "tip": {
      "decision": "NO BET",
      "reasons": [
-      "Lech 1,45 (≈69%) po porażce 1:3 w Lizbonie (3 dni przerwy, uraz Pablo Rodrigueza, seria urazów mięśniowych); Zagłębie 5. z 5 czystymi kontami — oceniam wygraną Lecha ok. 62%, EV ≈ −0,10.",
-      "Over 2,5 1,53 (≈65%): oczekiwane ok. 2,9 gola daje ok. 55% — EV ≈ −0,15.",
-      "BTTS 1,67 i DNB 1,17 bez wartości."
+      "Lech 1,52 (≈66%) — 3 dni po 1:3 w Lizbonie, bez Rodrigueza (współlider strzelców) i Ishaka; oceniam wygraną ok. 61%, EV ≈ −0,07.",
+      "Under 2,5 2,55 sprawdzony jako kontra: 4 z 5 ostatnich H2H poniżej 2,5 i w 8 z 11 domowych meczów z Zagłębiem Lech strzelił maks. 1 gola, ale Lech strzelił 20 goli w 5 ostatnich meczach ligowych — wycena ok. 39–40%, EV ≈ 0,00.",
+      "Over 2,5 1,52, BTTS 1,65 i X2 2,60 — brak przewagi na żadnym rynku."
      ]
     },
     "officials": [
@@ -2545,23 +3090,28 @@
       "r": "GŁ",
       "role": "Sędzia główny",
       "name": "Karol Arys",
+      "nat": "POL",
+      "city": "Szczecin"
+     },
+     {
+      "r": "VAR",
+      "role": "Sędzia VAR",
+      "name": "Patryk Gryckiewicz",
       "nat": "POL"
      }
     ],
     "odds": {
-     "src": "Bet365 (przez kickoff.co.uk), stan na 6.11 rano",
-     "1": 1.45,
-     "X": 4.1,
-     "2": 5.75,
-     "1X": 1.13,
-     "X2": 2.5,
+     "src": "LV BET (weszlo.com / podkarpacielive.pl), stan na 8.11 rano; Superbet 1,49 / 4,60 / 6,10, BTTS tak 1,66, X2 2,62",
+     "1": 1.52,
+     "X": 4.75,
+     "2": 5.8,
+     "1X": 1.15,
+     "X2": 2.6,
      "12": 1.2,
-     "dnb1": 1.17,
-     "dnb2": 5.0,
-     "o25": 1.53,
-     "u25": 2.4,
-     "bttsY": 1.67,
-     "bttsN": 2.1
+     "o25": 1.52,
+     "u25": 2.55,
+     "bttsY": 1.65,
+     "bttsN": 2.2
     },
     "notes": "Lech 5.11 przegrał 1:3 z Benficą w LE (gol Bengtssona); Pablo Rodriguez skręcił kostkę (weszlo.com). Media piszą o serii urazów mięśniowych w Lechu.",
     "staff": {
@@ -2571,7 +3121,12 @@
        "Niels Frederiksen"
       ]
      ],
-     "away": []
+     "away": [
+      [
+       "Trener",
+       "Leszek Ojrzyński"
+      ]
+     ]
     }
    }
   ],
@@ -2664,14 +3219,14 @@
   },
   {
    "team": "GZA",
-   "p": 13,
-   "w": 8,
+   "p": 14,
+   "w": 9,
    "d": 4,
    "l": 1,
-   "gf": 21,
-   "ga": 11,
-   "pts": 28,
-   "form": "DWDDD"
+   "gf": 23,
+   "ga": 12,
+   "pts": 31,
+   "form": "WDDDW"
   },
   {
    "team": "LEG",
@@ -2686,14 +3241,14 @@
   },
   {
    "team": "POG",
-   "p": 12,
+   "p": 13,
    "w": 7,
    "d": 3,
-   "l": 2,
+   "l": 3,
    "gf": 20,
-   "ga": 12,
+   "ga": 15,
    "pts": 24,
-   "form": "WWWWL"
+   "form": "WWWLL"
   },
   {
    "team": "WIS",
@@ -2705,6 +3260,17 @@
    "ga": 19,
    "pts": 24,
    "form": "LDWLW"
+  },
+  {
+   "team": "PIA",
+   "p": 14,
+   "w": 6,
+   "d": 4,
+   "l": 4,
+   "gf": 24,
+   "ga": 20,
+   "pts": 22,
+   "form": "WDWDD"
   },
   {
    "team": "ZAG",
@@ -2727,17 +3293,6 @@
    "ga": 19,
    "pts": 21,
    "form": "WWLLW"
-  },
-  {
-   "team": "PIA",
-   "p": 13,
-   "w": 6,
-   "d": 3,
-   "l": 4,
-   "gf": 24,
-   "ga": 20,
-   "pts": 21,
-   "form": "LWDWD"
   },
   {
    "team": "MOT",
@@ -2763,14 +3318,14 @@
   },
   {
    "team": "KOR",
-   "p": 13,
+   "p": 14,
    "w": 5,
    "d": 3,
-   "l": 5,
+   "l": 6,
    "gf": 14,
-   "ga": 19,
+   "ga": 21,
    "pts": 18,
-   "form": "WLLWL"
+   "form": "LLWLL"
   },
   {
    "team": "WPL",
@@ -2784,6 +3339,28 @@
    "form": "LWLDL"
   },
   {
+   "team": "WID",
+   "p": 14,
+   "w": 2,
+   "d": 8,
+   "l": 4,
+   "gf": 20,
+   "ga": 19,
+   "pts": 14,
+   "form": "LDDLW"
+  },
+  {
+   "team": "RAD",
+   "p": 14,
+   "w": 4,
+   "d": 2,
+   "l": 8,
+   "gf": 17,
+   "ga": 29,
+   "pts": 14,
+   "form": "LLLWW"
+  },
+  {
    "team": "CRA",
    "p": 14,
    "w": 3,
@@ -2795,37 +3372,15 @@
    "form": "WDLLL"
   },
   {
-   "team": "WID",
-   "p": 13,
-   "w": 1,
-   "d": 8,
-   "l": 4,
-   "gf": 17,
-   "ga": 19,
-   "pts": 11,
-   "form": "DLDDL"
-  },
-  {
-   "team": "RAD",
-   "p": 13,
-   "w": 3,
-   "d": 2,
-   "l": 8,
-   "gf": 15,
-   "ga": 29,
-   "pts": 11,
-   "form": "LLLLW"
-  },
-  {
    "team": "SLA",
-   "p": 13,
+   "p": 14,
    "w": 2,
-   "d": 3,
+   "d": 4,
    "l": 8,
    "gf": 17,
    "ga": 25,
-   "pts": 9,
-   "form": "LLLWL"
+   "pts": 10,
+   "form": "LLWLD"
   },
   {
    "team": "RAK",
@@ -2840,14 +3395,14 @@
   },
   {
    "team": "WIE",
-   "p": 13,
+   "p": 14,
    "w": 2,
    "d": 2,
-   "l": 9,
-   "gf": 17,
-   "ga": 26,
+   "l": 10,
+   "gf": 18,
+   "ga": 28,
    "pts": 8,
-   "form": "WLLLL"
+   "form": "LLLLL"
   }
  ],
  "picks": []

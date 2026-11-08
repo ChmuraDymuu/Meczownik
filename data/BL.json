@@ -1,9 +1,9 @@
 {
- "updated": "2026-11-07T06:25:00+01:00",
+ "updated": "2026-11-08T06:40:00+01:00",
  "season": "2026/27",
  "competition": "Bundesliga",
  "currentRound": 9,
- "note": "Źródła: sportschau.de, ESPN, moinvolkspark.de (HSV–Gladbach 3:1, 6.11), hessenschau.de (tabela po 8. kolejce, terminarz), buli-tipphilfe.de (Mainz–Bayern, 4.11), wettfreunde.net (kursy over/under 5.11; 1X2 2.11), wettbasis.com (5.11), ig-schiedsrichter.de (obsady sędziowskie), footballpredictions.com, 90min.de, gladbachtotal.de; wcześniej: DFB Datencenter, kicker, flashscore, bundesliga.com. Stan 7.11.2026 rano.",
+ "note": "Źródła: hessenschau.de (terminarz, tabela po 8. kolejce), t-online.de (BVB–Elversberg, obsady), bundesliga.com (Mainz–Bayern, Lipsk–Augsburg), sportschau.de (Paderborn–Eintracht), deichstube.de i absolutfussball.com (Stuttgart–Werder), ESPN (składy Stuttgart–Werder), livetipsportal.com (kursy Köln–Leverkusen, 8.11), buli-tipphilfe.de, wettfreunde.net, wettbasis.com, footballpredictions.com (kursy i absencje), ig-schiedsrichter.de (sędziowie). Tabela przeliczona po meczach 6–7.11; mecze 8.11 jeszcze nierozegrane.",
  "teams": {
   "BAY": {
    "id": "BAY",
@@ -171,25 +171,36 @@
  "table": [
   {
    "team": "BAY",
-   "p": 8,
-   "w": 5,
+   "p": 9,
+   "w": 6,
    "d": 3,
    "l": 0,
-   "gf": 27,
-   "ga": 8,
-   "pts": 18,
-   "form": "WDWWD"
+   "gf": 29,
+   "ga": 9,
+   "pts": 21,
+   "form": "DWWDW"
   },
   {
    "team": "BVB",
-   "p": 8,
-   "w": 5,
+   "p": 9,
+   "w": 6,
    "d": 3,
    "l": 0,
-   "gf": 14,
-   "ga": 6,
+   "gf": 16,
+   "ga": 7,
+   "pts": 21,
+   "form": "DDWDW"
+  },
+  {
+   "team": "RBL",
+   "p": 9,
+   "w": 6,
+   "d": 0,
+   "l": 3,
+   "gf": 27,
+   "ga": 13,
    "pts": 18,
-   "form": "WDDWD"
+   "form": "WLWWW"
   },
   {
    "team": "SCF",
@@ -203,26 +214,15 @@
    "form": "DWLLW"
   },
   {
-   "team": "RBL",
-   "p": 8,
-   "w": 5,
-   "d": 0,
-   "l": 3,
-   "gf": 22,
-   "ga": 11,
-   "pts": 15,
-   "form": "LWLWW"
-  },
-  {
    "team": "BRE",
-   "p": 8,
+   "p": 9,
    "w": 4,
    "d": 3,
-   "l": 1,
+   "l": 2,
    "gf": 17,
-   "ga": 14,
+   "ga": 15,
    "pts": 15,
-   "form": "WDDWW"
+   "form": "DDWWL"
   },
   {
    "team": "LEV",
@@ -237,14 +237,36 @@
   },
   {
    "team": "ELV",
-   "p": 8,
+   "p": 9,
    "w": 4,
    "d": 1,
-   "l": 3,
-   "gf": 16,
-   "ga": 16,
+   "l": 4,
+   "gf": 17,
+   "ga": 18,
    "pts": 13,
-   "form": "DLWLW"
+   "form": "LWLWL"
+  },
+  {
+   "team": "STU",
+   "p": 9,
+   "w": 4,
+   "d": 0,
+   "l": 5,
+   "gf": 15,
+   "ga": 15,
+   "pts": 12,
+   "form": "WLLWW"
+  },
+  {
+   "team": "EIN",
+   "p": 9,
+   "w": 3,
+   "d": 3,
+   "l": 3,
+   "gf": 15,
+   "ga": 20,
+   "pts": 12,
+   "form": "LWLWD"
   },
   {
    "team": "HSV",
@@ -258,48 +280,37 @@
    "form": "WWLLW"
   },
   {
-   "team": "EIN",
-   "p": 8,
-   "w": 3,
-   "d": 2,
-   "l": 3,
-   "gf": 13,
-   "ga": 18,
-   "pts": 11,
-   "form": "DLWLW"
-  },
-  {
    "team": "MAI",
-   "p": 8,
+   "p": 9,
    "w": 3,
    "d": 1,
-   "l": 4,
-   "gf": 17,
-   "ga": 17,
+   "l": 5,
+   "gf": 18,
+   "ga": 19,
    "pts": 10,
-   "form": "WLWLL"
+   "form": "LWLLL"
+  },
+  {
+   "team": "PAD",
+   "p": 9,
+   "w": 2,
+   "d": 4,
+   "l": 3,
+   "gf": 8,
+   "ga": 11,
+   "pts": 10,
+   "form": "LDWDD"
   },
   {
    "team": "AUG",
-   "p": 8,
+   "p": 9,
    "w": 2,
    "d": 3,
-   "l": 3,
-   "gf": 18,
-   "ga": 15,
+   "l": 4,
+   "gf": 20,
+   "ga": 20,
    "pts": 9,
-   "form": "LDLDL"
-  },
-  {
-   "team": "STU",
-   "p": 8,
-   "w": 3,
-   "d": 0,
-   "l": 5,
-   "gf": 14,
-   "ga": 15,
-   "pts": 9,
-   "form": "LWLLW"
+   "form": "DLDLL"
   },
   {
    "team": "HOF",
@@ -322,17 +333,6 @@
    "ga": 12,
    "pts": 9,
    "form": "LWLDD"
-  },
-  {
-   "team": "PAD",
-   "p": 8,
-   "w": 2,
-   "d": 3,
-   "l": 3,
-   "gf": 6,
-   "ga": 9,
-   "pts": 9,
-   "form": "WLDWD"
   },
   {
    "team": "UNI",
@@ -3524,7 +3524,7 @@
     "time": "15:30",
     "home": "MAI",
     "away": "BAY",
-    "status": "ns",
+    "status": "ft",
     "venue": {
      "name": "MEWA Arena",
      "city": "Moguncja",
@@ -3594,7 +3594,45 @@
       "name": "Johann Pfeifer",
       "nat": "GER"
      }
-    ]
+    ],
+    "score": [
+     1,
+     2
+    ],
+    "events": [
+     {
+      "m": 14,
+      "t": "goal",
+      "s_": "a",
+      "who": "Joshua Kimmich",
+      "as": "Harry Kane",
+      "how": "Strzał z okolic 16 m w okienko"
+     },
+     {
+      "m": 57,
+      "t": "goal",
+      "s_": "a",
+      "who": "Lennart Karl",
+      "as": "Harry Kane"
+     },
+     {
+      "m": 90,
+      "s": "+3",
+      "t": "goal",
+      "s_": "h",
+      "who": "Phillip Tietz",
+      "as": "Benedict Hollerbach",
+      "how": "Głowa"
+     }
+    ],
+    "teamStats": [
+     [
+      "xG",
+      0.82,
+      3.25
+     ]
+    ],
+    "notes": "Gole: Kimmich 14' (po odbiorze Kane'a), Karl 57', Tietz 90+3'. Kane z dwiema asystami. Mainz miał gola nieuznanego; w tej akcji kontuzji doznał Manuel Neuer, którego zastąpił Jonas Urbig (minuta niepodana). Bayern w xG 3,25 – 0,82. Kartki, składy i frekwencja – brak potwierdzonych danych. Źródło: bundesliga.com."
    },
    {
     "id": "BL-2026-27-R9-BVB-ELV",
@@ -3602,7 +3640,7 @@
     "time": "15:30",
     "home": "BVB",
     "away": "ELV",
-    "status": "ns",
+    "status": "ft",
     "venue": {
      "name": "Signal Iduna Park",
      "city": "Dortmund",
@@ -3646,7 +3684,180 @@
       "name": "Patrick Hanslbauer",
       "nat": "GER"
      }
-    ]
+    ],
+    "score": [
+     2,
+     1
+    ],
+    "staff": {
+     "home": [
+      [
+       "Trener",
+       "Niko Kovač"
+      ]
+     ],
+     "away": [
+      [
+       "Trener",
+       "Vincent Wagner"
+      ]
+     ]
+    },
+    "formation": {
+     "away": "4-2-3-1"
+    },
+    "events": [
+     {
+      "m": 22,
+      "t": "yc",
+      "s_": "h",
+      "who": "Felix Nmecha"
+     },
+     {
+      "m": 34,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Maximilian Beier",
+      "out": "Carney Chukwuemeka",
+      "why": "Uraz"
+     },
+     {
+      "m": 37,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Florian Le Joncour",
+      "out": "Lukas Pinckert",
+      "why": "Uraz"
+     },
+     {
+      "m": 55,
+      "t": "goal",
+      "s_": "h",
+      "who": "Felix Nmecha",
+      "as": "Fábio Silva"
+     },
+     {
+      "m": 60,
+      "t": "yc",
+      "s_": "h",
+      "who": "Fábio Silva"
+     },
+     {
+      "m": 65,
+      "t": "yc",
+      "s_": "a",
+      "who": "Lasse Günther"
+     },
+     {
+      "m": 67,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Julian Ryerson",
+      "out": "Konstantinos Karetsas"
+     },
+     {
+      "m": 67,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Ramy Bensebaini",
+      "out": "Joane Gadou"
+     },
+     {
+      "m": 67,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Cole Campbell",
+      "out": "Francis Onyeka"
+     },
+     {
+      "m": 71,
+      "t": "goal",
+      "s_": "h",
+      "who": "Felix Nmecha",
+      "as": "Maximilian Beier"
+     },
+     {
+      "m": 76,
+      "t": "yc",
+      "s_": "h",
+      "who": "Waldemar Anton"
+     },
+     {
+      "m": 78,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Nicholas Mickelson",
+      "out": "Luca Sirch"
+     },
+     {
+      "m": 78,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Noel Futkeu",
+      "out": "Maurice Krattenmacher"
+     },
+     {
+      "m": 78,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Raif Adam",
+      "out": "Lasse Günther"
+     },
+     {
+      "m": 81,
+      "t": "goal",
+      "s_": "a",
+      "who": "Noel Futkeu",
+      "as": "Florian Le Joncour"
+     },
+     {
+      "m": 86,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Marcel Sabitzer",
+      "out": "Jobe Bellingham"
+     },
+     {
+      "m": 86,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Ethan Nwaneri",
+      "out": "Fábio Silva"
+     }
+    ],
+    "teamStats": [
+     [
+      "Posiadanie %",
+      51,
+      49
+     ],
+     [
+      "Strzały",
+      19,
+      16
+     ],
+     [
+      "Celne",
+      6,
+      7
+     ],
+     [
+      "Rzuty rożne",
+      6,
+      6
+     ],
+     [
+      "Faule",
+      14,
+      11
+     ],
+     [
+      "Spalone",
+      2,
+      4
+     ]
+    ],
+    "notes": "Wyjściowe składy – BVB: Kobel; Gadou, Anton, Schlotterbeck, Svensson; Bellingham, Veerman; Karetsas, Nmecha, Chukwuemeka; Fábio Silva. Elversberg: Kristof; Sirch, Pinckert, Rohr, Günther; Keidel, Poręba; Petkov, Onyeka, Krattenmacher; Mokwa. Dwa gole Nmechy; Chukwuemeka i Pinckert zeszli z urazami w 1. połowie. Numery koszulek i frekwencja – brak potwierdzonych danych. Źródło: t-online.de."
    },
    {
     "id": "BL-2026-27-R9-PAD-EIN",
@@ -3654,7 +3865,7 @@
     "time": "15:30",
     "home": "PAD",
     "away": "EIN",
-    "status": "ns",
+    "status": "ft",
     "venue": {
      "name": "Home Deluxe Arena",
      "city": "Paderborn",
@@ -3694,7 +3905,49 @@
       "name": "Daniel Siebert",
       "nat": "GER"
      }
-    ]
+    ],
+    "score": [
+     2,
+     2
+    ],
+    "events": [
+     {
+      "m": 23,
+      "t": "goal",
+      "s_": "a",
+      "who": "Jonathan Burkardt",
+      "as": "Fares Chaibi"
+     },
+     {
+      "m": 45,
+      "t": "goal",
+      "s_": "h",
+      "who": "Raphael Obermaier"
+     },
+     {
+      "m": 73,
+      "t": "pen",
+      "s_": "h",
+      "who": "Marvin Pieringer",
+      "res": "Gol"
+     },
+     {
+      "m": 75,
+      "t": "rc",
+      "s_": "a",
+      "who": "Elias Baum",
+      "why": "Druga żółta kartka (faul na Curdzie)"
+     },
+     {
+      "m": 90,
+      "s": "+3",
+      "t": "goal",
+      "s_": "a",
+      "who": "Jonathan Burkardt",
+      "how": "Piętą, po rożnym"
+     }
+    ],
+    "notes": "Do przerwy 1:1. Karny po faulu Brassiera na Pieringerze (rezerwowy). Eintracht od 75. min w dziesiątkę, mimo to wyrównał w doliczonym czasie. Przed meczem kibic Eintrachtu spadł z trybuny gości i w stanie krytycznym trafił do szpitala – kibice obu drużyn zrezygnowali z dopingu. Składy, kartki żółte i frekwencja – brak potwierdzonych danych. Źródło: sportschau.de."
    },
    {
     "id": "BL-2026-27-R9-RBL-AUG",
@@ -3702,7 +3955,7 @@
     "time": "15:30",
     "home": "RBL",
     "away": "AUG",
-    "status": "ns",
+    "status": "ft",
     "venue": {
      "name": "Red Bull Arena",
      "city": "Lipsk",
@@ -3765,7 +4018,70 @@
       "name": "Pascal Müller",
       "nat": "GER"
      }
-    ]
+    ],
+    "score": [
+     5,
+     2
+    ],
+    "events": [
+     {
+      "m": 1,
+      "t": "goal",
+      "s_": "a",
+      "who": "Anton Kade",
+      "how": "Dobitka po strzale Ibrahimovicia"
+     },
+     {
+      "m": 34,
+      "t": "goal",
+      "s_": "h",
+      "who": "Ezechiel Banzuzi"
+     },
+     {
+      "m": 35,
+      "t": "goal",
+      "s_": "h",
+      "who": "Christopher Nkunku",
+      "as": "Brajan Gruda"
+     },
+     {
+      "m": 45,
+      "s": "+1",
+      "t": "goal",
+      "s_": "h",
+      "who": "David Raum",
+      "how": "Bezpośredni rzut wolny"
+     },
+     {
+      "m": 60,
+      "t": "goal",
+      "s_": "h",
+      "who": "Rômulo"
+     },
+     {
+      "m": 66,
+      "t": "goal",
+      "s_": "h",
+      "who": "Christoph Baumgartner",
+      "as": "Antonio Nusa"
+     },
+     {
+      "m": 90,
+      "s": "+3",
+      "t": "goal",
+      "s_": "a",
+      "who": "Uchenna Ogundu",
+      "as": "Fabian Rieder"
+     }
+    ],
+    "teamStats": [
+     [
+      "xG",
+      2.53,
+      1.98
+     ]
+    ],
+    "notes": "Do przerwy 3:1. Zawodnik meczu: Brajan Gruda (udział przy golach na 1:1 i 2:1). Zmiany Lipska: Nusa, Baumgartner, Henrichs za Grudę, Rômulo i Baku (minuty niepodane). Lipsk awansował na 3. miejsce. Kartki, składy i frekwencja – brak potwierdzonych danych. Źródło: bundesliga.com."
    },
    {
     "id": "BL-2026-27-R9-STU-BRE",
@@ -3773,7 +4089,7 @@
     "time": "18:30",
     "home": "STU",
     "away": "BRE",
-    "status": "ns",
+    "status": "ft",
     "venue": {
      "name": "MHPArena",
      "city": "Stuttgart",
@@ -3831,7 +4147,369 @@
       "name": "Timo Gerach",
       "nat": "GER"
      }
-    ]
+    ],
+    "score": [
+     1,
+     0
+    ],
+    "formation": {
+     "home": "3-4-2-1",
+     "away": "4-3-3"
+    },
+    "players": {
+     "home": [
+      [
+       41,
+       "Dennis Seimen",
+       "BR",
+       "",
+       true
+      ],
+      [
+       14,
+       "Jaquez",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       24,
+       "Jeff Chabot",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       3,
+       "Hendriks",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       18,
+       "Jamie Leweling",
+       "PO",
+       "",
+       true
+      ],
+      [
+       47,
+       "Spalt",
+       "ŚP",
+       "",
+       true
+      ],
+      [
+       21,
+       "Grischa Prömel",
+       "ŚP",
+       "",
+       true
+      ],
+      [
+       7,
+       "Maximilian Mittelstädt",
+       "LO",
+       "",
+       true
+      ],
+      [
+       11,
+       "El Khannouss",
+       "OP",
+       "",
+       true
+      ],
+      [
+       10,
+       "Chris Führich",
+       "OP",
+       "",
+       true
+      ],
+      [
+       26,
+       "Deniz Undav",
+       "N",
+       "",
+       true
+      ],
+      [
+       1,
+       "Fabian Bredlow",
+       "BR",
+       "",
+       false
+      ],
+      [
+       9,
+       "Ermedin Demirović",
+       "N",
+       "",
+       false
+      ],
+      [
+       28,
+       "Nartey",
+       "ŚP",
+       "",
+       false
+      ],
+      [
+       29,
+       "Jeltsch",
+       "ŚO",
+       "",
+       false
+      ],
+      [
+       17,
+       "Pejčinović",
+       "N",
+       "",
+       false
+      ],
+      [
+       8,
+       "Tiago Tomás",
+       "N",
+       "",
+       false
+      ],
+      [
+       22,
+       "Assignon",
+       "PO",
+       "",
+       false
+      ],
+      [
+       2,
+       "Al Dakhil",
+       "ŚO",
+       "",
+       false
+      ],
+      [
+       16,
+       "Atakan Karazor",
+       "DP",
+       "",
+       false
+      ]
+     ],
+     "away": [
+      [
+       1,
+       "Hein",
+       "BR",
+       "",
+       true
+      ],
+      [
+       13,
+       "Arthur",
+       "PO",
+       "",
+       true
+      ],
+      [
+       5,
+       "Pieper",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       32,
+       "Marco Friedl",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       2,
+       "Deman",
+       "LO",
+       "",
+       true
+      ],
+      [
+       15,
+       "Reis",
+       "ŚP",
+       "",
+       true
+      ],
+      [
+       44,
+       "Youri Regeer",
+       "ŚP",
+       "",
+       true
+      ],
+      [
+       14,
+       "Lynen",
+       "ŚP",
+       "",
+       true
+      ],
+      [
+       18,
+       "Dinkci",
+       "PS",
+       "",
+       true
+      ],
+      [
+       10,
+       "Niclas Füllkrug",
+       "N",
+       "",
+       true
+      ],
+      [
+       17,
+       "Marco Grüll",
+       "LS",
+       "",
+       true
+      ],
+      [
+       20,
+       "Chuki",
+       "",
+       "",
+       false
+      ],
+      [
+       30,
+       "Schlager",
+       "",
+       "",
+       false
+      ],
+      [
+       4,
+       "Stark",
+       "",
+       "",
+       false
+      ],
+      [
+       26,
+       "Itten",
+       "",
+       "",
+       false
+      ],
+      [
+       33,
+       "Schmetgens",
+       "",
+       "",
+       false
+      ],
+      [
+       23,
+       "Stalmach",
+       "",
+       "",
+       false
+      ],
+      [
+       3,
+       "Wójcik",
+       "",
+       "",
+       false
+      ],
+      [
+       19,
+       "Quetant",
+       "",
+       "",
+       false
+      ],
+      [
+       11,
+       "Njinmah",
+       "",
+       "",
+       false
+      ]
+     ]
+    },
+    "events": [
+     {
+      "m": 7,
+      "t": "goal",
+      "s_": "h",
+      "who": "Maximilian Mittelstädt",
+      "as": "Grischa Prömel",
+      "how": "Strzał z lewej strony po podaniu wzdłuż pola karnego"
+     },
+     {
+      "m": 24,
+      "t": "yc",
+      "s_": "a",
+      "who": "Niclas Füllkrug",
+      "why": "Ręka na twarzy Chabota"
+     },
+     {
+      "m": 45,
+      "t": "yc",
+      "s_": "a",
+      "who": "Deman",
+      "why": "Faul na Leweling"
+     },
+     {
+      "m": 53,
+      "t": "yc",
+      "s_": "a",
+      "who": "Marco Grüll",
+      "why": "Szarpanie za koszulkę"
+     },
+     {
+      "m": 55,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Jeltsch",
+      "out": "Jaquez"
+     },
+     {
+      "m": 65,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Nartey",
+      "out": "El Khannouss"
+     },
+     {
+      "m": 65,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Tiago Tomás",
+      "out": "Jamie Leweling"
+     },
+     {
+      "m": 66,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Chuki",
+      "out": "Marco Grüll",
+      "why": "Uraz"
+     },
+     {
+      "m": 66,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Njinmah",
+      "out": "Lynen"
+     }
+    ],
+    "notes": "Gol Mittelstädta w 7. min zakończył serię 7 meczów ligowych Werderu bez porażki. W 2. połowie Werder oddał 12 strzałów, ale Seimen zachował czyste konto; Füllkrug bez gola po raz pierwszy od 1. kolejki. Zdarzenia po 71. minucie (ew. kolejne zmiany i kartki) i frekwencja – brak potwierdzonych danych. Źródła: deichstube.de (ticker), absolutfussball.com, ESPN (numery)."
    },
    {
     "id": "BL-2026-27-R9-KOE-LEV",
@@ -3846,13 +4524,12 @@
      "capacity": 49698
     },
     "odds": {
-     "src": "Wettfreunde.net – 1X2 (2.11.2026); 1X: Betano 2.10 (wettbasis.com, 5.11); BTTS, under 2,5 – footballpredictions.com (4.11.2026)",
-     "1": 4.35,
-     "X": 4.3,
-     "2": 1.73,
-     "1X": 2.1,
-     "bttsY": 1.44,
-     "u25": 3.0
+     "src": "livetipsportal.com (8.11.2026): 1 – Tipico 4.00, X – NEO.bet 4.20, 2 – bet365 1.90, BTTS Tak – Betway 1.43, BTTS Nie – ADMIRALBET 2.85",
+     "1": 4.0,
+     "X": 4.2,
+     "2": 1.9,
+     "bttsY": 1.43,
+     "bttsN": 2.85
     },
     "officials": [
      {
@@ -3910,11 +4587,11 @@
     "tip": {
      "decision": "NO BET",
      "reasons": [
-      "1X Köln po 2.10 (Betano) = ok. 48%; z rynku 1X2 (4.00–4.35 / 4.30 / 1.73–1.76) po zdjęciu marży wychodzi ok. 45–46%.",
-      "Za Kölnem: 7 dni odpoczynku vs 2–3 dni Bayeru po czwartkowej porażce 0:1 z Marsylią, trzy porażki Leverkusen z rzędu we wszystkich rozgrywkach, braki w ataku gości (Diaby, Kofane, Terrier, Ben Seghir), dobra forma Kölnu u siebie.",
-      "Przeciw: Leverkusen wygrał 5 ostatnich meczów z Kölnem, Köln bez Dallingi i Skhiriego, niepewny Ache; mecze Bayeru bardzo bramkostrzelne (34 gole w 8 kolejkach).",
-      "Moja ocena 1X ok. 48–50% – EV od 0% do +5%, prawdopodobieństwo poniżej 50%; przewaga zbyt cienka i zbyt zależna od niepotwierdzonej rotacji Bayeru.",
-      "BTTS Tak 1.44 (ok. 69%) i under 2,5 3.00 – bez wyraźnej wartości."
+      "Kurs na Leverkusen wydłużył się z 1.73 do 1.90 – rynek uwzględnia już zmęczenie po czwartkowym 0:1 z Marsylią i trzy porażki z rzędu; po zdjęciu marży: 25% / 23% / 52%.",
+      "Wygrana Bayeru po 1.90 wymaga ok. 53% – moja ocena 48–52% (braki: Diaby, Kofane, Terrier, Ben Seghir; 3 dni odpoczynku vs 7 Kölnu), EV ujemne.",
+      "1X Köln – brak aktualnego kursu na ten rynek; z 1X2 wychodzi ok. 48% (kurs fair ok. 2.08), moja ocena podobna – brak przewagi.",
+      "BTTS Tak po 1.43 (ok. 70%) – mecze Bayeru bramkostrzelne, ale Köln strzelił tylko 9 goli w 8 kolejkach; szacuję 62–66%, EV ujemne. BTTS Nie po 2.85 (35%) – szacunek 34–38%, przewaga zbyt cienka.",
+      "Leverkusen wygrał 5 ostatnich meczów z Kölnem, lecz H2H nie może być podstawą typu przy obecnej formie obu drużyn."
      ]
     }
    },
@@ -4010,7 +4687,7 @@
      "capacity": 30150
     },
     "odds": {
-     "src": "Wettfreunde.net – 1X2 (2.11.2026); BTTS Tak: bet-at-home 1.50 (wettbasis.com, 5.11); 12, DNB, ponad 2,5 – footballpredictions.com (4.11.2026)",
+     "src": "Wettfreunde.net – 1X2 (2.11.2026); BTTS Tak: bet-at-home 1.50 (wettbasis.com, 5.11); 12, DNB, ponad 2,5 – footballpredictions.com (4.11.2026); buli-tipphilfe.de (11.2026): 1 – 1.60",
      "1": 1.67,
      "X": 4.4,
      "2": 4.8,
@@ -4059,7 +4736,7 @@
     "tip": {
      "decision": "NO BET",
      "reasons": [
-      "Kurs 1.67 na Hoffenheim = ok. 60% (po marży ok. 57%); TSG 2–3 dni po meczu w Londynie, z długą listą kontuzji (m.in. Hložek) – brak przewagi po stronie faworyta.",
+      "Kurs na Hoffenheim spadł do ok. 1.60–1.67 (ok. 60–62%, po marży ok. 57–59%); TSG 2–3 dni po meczu w Londynie, z długą listą kontuzji (m.in. Hložek) – moja ocena ok. 55–58%, brak przewagi po stronie faworyta.",
       "Schalke nie strzeliło gola w 6 z 8 meczów, więc BTTS Tak po 1.50 (ok. 67%) wygląda na przeszacowane – ale brak wiarygodnej ceny na BTTS Nie.",
       "'Hoffenheim wygra do zera' po 3.25 (Merkur Bets, wettfreunde.net) – mój model daje ok. 32–40% (Hoffenheim traci 2 gole/mecz), a więc przedział zbyt szeroki i niskie prawdopodobieństwo.",
       "Sprzeczne sygnały bramkowe (mecze TSG średnio 3,75 gola vs najsłabszy atak ligi) – zbyt duża niepewność."

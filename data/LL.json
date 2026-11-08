@@ -1,9 +1,9 @@
 {
- "updated": "2026-11-07T05:50:00+01:00",
+ "updated": "2026-11-08T05:55:00+01:00",
  "season": "2026/27",
  "competition": "LaLiga",
  "currentRound": 12,
- "note": "Źródła: laliga.com, comuniate.com, Infobae/EFE (6.11 – sędziowie i składy na sobotę), defensacentral.com (VAR Valencia–Real), VAVEL, ESPN, sevillaactualidad.com, elgoldigital.com, thesportsencounter.com (Sevilla–Alavés), futboltotal.futbol, oddscalendar (Megapari), Oddsportal, CheckBestOdds, xgscore.io, Dimers, oddslot – stan na 7.11.2026 rano.",
+ "note": "Źródła: laliga.com, Unitel/EFE (wyniki i tabela po sobocie 7.11), FotMob (Valencia–Real), ESPN i okdiario Navarra (Osasuna–Athletic), La Nación/EFE i El Español (Málaga–Racing), riazor.org (Espanyol–Deportivo), iusport (sędziowie niedzieli), SI.com (Atlético–Barcelona), livetipsportal, oddslot (BC.Game), webapuestas, gidstats, Dimers, Sports Mole, oddscalendar (Megapari), wcześniej: comuniate, VAVEL, Oddsportal, CheckBestOdds, xgscore",
  "teams": {
   "ALA": {
    "id": "ALA",
@@ -179,6 +179,17 @@
    "form": "WWWLW"
   },
   {
+   "team": "RMA",
+   "p": 12,
+   "w": 10,
+   "d": 0,
+   "l": 2,
+   "gf": 31,
+   "ga": 10,
+   "pts": 30,
+   "form": "WWWWW"
+  },
+  {
    "team": "ATM",
    "p": 11,
    "w": 9,
@@ -188,17 +199,6 @@
    "ga": 8,
    "pts": 28,
    "form": "WWWWW"
-  },
-  {
-   "team": "RMA",
-   "p": 11,
-   "w": 9,
-   "d": 0,
-   "l": 2,
-   "gf": 28,
-   "ga": 10,
-   "pts": 27,
-   "form": "LWWWW"
   },
   {
    "team": "BET",
@@ -235,25 +235,36 @@
   },
   {
    "team": "ATH",
-   "p": 10,
+   "p": 11,
    "w": 4,
-   "d": 3,
+   "d": 4,
    "l": 3,
-   "gf": 14,
-   "ga": 10,
-   "pts": 15,
-   "form": "DDLWW"
+   "gf": 15,
+   "ga": 11,
+   "pts": 16,
+   "form": "DLWWD"
   },
   {
    "team": "DEP",
-   "p": 11,
+   "p": 12,
    "w": 3,
-   "d": 5,
+   "d": 6,
    "l": 3,
    "gf": 15,
    "ga": 14,
+   "pts": 15,
+   "form": "LDLWD"
+  },
+  {
+   "team": "RAC",
+   "p": 12,
+   "w": 4,
+   "d": 2,
+   "l": 6,
+   "gf": 17,
+   "ga": 30,
    "pts": 14,
-   "form": "DLDLW"
+   "form": "DLWLW"
   },
   {
    "team": "ALA",
@@ -289,6 +300,17 @@
    "form": "WDWDL"
   },
   {
+   "team": "ESP",
+   "p": 12,
+   "w": 3,
+   "d": 3,
+   "l": 6,
+   "gf": 13,
+   "ga": 14,
+   "pts": 12,
+   "form": "DLLWD"
+  },
+  {
    "team": "RAY",
    "p": 10,
    "w": 3,
@@ -311,37 +333,15 @@
    "form": "WLDLW"
   },
   {
-   "team": "ESP",
-   "p": 11,
-   "w": 3,
-   "d": 2,
-   "l": 6,
-   "gf": 13,
-   "ga": 14,
-   "pts": 11,
-   "form": "LDLLW"
-  },
-  {
    "team": "OSA",
-   "p": 11,
+   "p": 12,
    "w": 3,
-   "d": 2,
+   "d": 3,
    "l": 6,
-   "gf": 11,
-   "ga": 22,
-   "pts": 11,
-   "form": "DLWLL"
-  },
-  {
-   "team": "RAC",
-   "p": 11,
-   "w": 3,
-   "d": 2,
-   "l": 6,
-   "gf": 15,
-   "ga": 29,
-   "pts": 11,
-   "form": "LDLWL"
+   "gf": 12,
+   "ga": 23,
+   "pts": 12,
+   "form": "LWLLD"
   },
   {
    "team": "ELC",
@@ -367,25 +367,25 @@
   },
   {
    "team": "VAL",
-   "p": 11,
+   "p": 12,
    "w": 2,
    "d": 3,
-   "l": 6,
+   "l": 7,
    "gf": 8,
-   "ga": 17,
+   "ga": 20,
    "pts": 9,
-   "form": "LDDLW"
+   "form": "DDLWL"
   },
   {
    "team": "MAL",
-   "p": 11,
+   "p": 12,
    "w": 0,
    "d": 5,
-   "l": 6,
-   "gf": 8,
-   "ga": 21,
+   "l": 7,
+   "gf": 9,
+   "ga": 23,
    "pts": 5,
-   "form": "LDLDL"
+   "form": "DLDLL"
   }
  ],
  "picks": [],
@@ -5638,7 +5638,7 @@
     "time": "14:00",
     "home": "MAL",
     "away": "RAC",
-    "status": "ns",
+    "status": "ft",
     "odds": {
      "src": "1X2: oddscalendar.com – Megapari, stan na 6.11, 05:30; pozostałe rynki: xgscore.io (Pinnacle), stan 4.11",
      "1": 2.48,
@@ -5678,10 +5678,94 @@
      {
       "r": "GŁ",
       "role": "Sędzia główny",
-      "name": "Díaz de Mera Escuderos",
+      "name": "Isidro Díaz de Mera Escuderos",
       "nat": "ESP"
      }
-    ]
+    ],
+    "score": [
+     1,
+     2
+    ],
+    "venue": {
+     "name": "La Rosaleda",
+     "city": "Málaga"
+    },
+    "formation": {
+     "home": "5-3-2",
+     "away": "4-2-3-1"
+    },
+    "events": [
+     {
+      "m": 28,
+      "t": "goal",
+      "s_": "h",
+      "who": "Carlos Dotor"
+     },
+     {
+      "m": 32,
+      "t": "yc",
+      "s_": "a",
+      "who": "Agirrezabala"
+     },
+     {
+      "m": 39,
+      "t": "yc",
+      "s_": "h",
+      "who": "Adam Aznou"
+     },
+     {
+      "m": 50,
+      "t": "goal",
+      "s_": "a",
+      "who": "Iker Luque",
+      "as": "Pablo Ramón"
+     },
+     {
+      "m": 60,
+      "t": "goal",
+      "s_": "a",
+      "who": "Yassir Zabiri"
+     },
+     {
+      "m": 63,
+      "t": "rc",
+      "s_": "h",
+      "who": "Adam Aznou",
+      "why": "Druga żółta kartka"
+     },
+     {
+      "m": 73,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Domingos André Ribeiro Almeida",
+      "out": "Sergio Canales"
+     },
+     {
+      "m": 73,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Giorgi Guliashvili",
+      "out": "Íñigo Vicente"
+     }
+    ],
+    "teamStats": [
+     [
+      "Posiadanie %",
+      46.4,
+      53.6
+     ],
+     [
+      "Strzały",
+      16,
+      21
+     ],
+     [
+      "Celne",
+      8,
+      7
+     ]
+    ],
+    "notes": "1:2. Dotor dał prowadzenie w 28. min (gol sprawdzany pod kątem spalonego; asysta wg źródeł niezgodna – Adrián Niño wg EFE, dośrodkowanie Larrubii wg El Español). Po przerwie Luque i Zabiri odwrócili wynik, a w 63. min Aznou wyleciał za drugą żółtą. W 1. połowie kontuzjowany Rafita (wszedł Larrubia, ok. 21.–24. min); żółta także dla Einara (bez minuty). W 82. min weszli Joaquín Muñoz i Pablo Martínez (źródło nie podaje za kogo). Składy wyjściowe niepodane w źródłach."
    },
    {
     "id": "LL-2026-27-R12-ESP-DEP",
@@ -5689,7 +5773,7 @@
     "time": "16:15",
     "home": "ESP",
     "away": "DEP",
-    "status": "ns",
+    "status": "ft",
     "odds": {
      "src": "1X2: oddscalendar.com – Megapari, stan na 6.11, 05:30",
      "1": 2.37,
@@ -5732,7 +5816,16 @@
       "name": "Quintero González",
       "nat": "ESP"
      }
-    ]
+    ],
+    "score": [
+     0,
+     0
+    ],
+    "venue": {
+     "name": "RCDE Stadium",
+     "city": "Cornellà de Llobregat"
+    },
+    "notes": "0:0. Debiut trenera Édera Sarabii w Espanyolu (oglądał mecz z trybun – zawieszenie z czasów Elche). XI Espanyolu: Fortuño; El Hilali, Cabrera, Quilindschy; Santiago, Edu Expósito, Pol Lozano, Pere Milla, Dolan; Cala, Roberto. XI Deportivo: Leo Román; Alti, Giménez, Loureiro, Quagliata; Amatucci, Mario Soriano; Mella, Luismi, Yeremay, Nsongo Bil (Casadó na ławce po kontuzji). Kartki i zmiany niepodane w dostępnych źródłach. Przed meczem hołd dla Jesúsa De Miguela."
    },
    {
     "id": "LL-2026-27-R12-OSA-ATH",
@@ -5740,7 +5833,7 @@
     "time": "18:30",
     "home": "OSA",
     "away": "ATH",
-    "status": "ns",
+    "status": "ft",
     "odds": {
      "src": "1X2: oddscalendar.com – Megapari, stan na 6.11, 05:30",
      "1": 3.65,
@@ -5777,10 +5870,307 @@
      {
       "r": "GŁ",
       "role": "Sędzia główny",
-      "name": "Sesma Espinosa",
+      "name": "Miguel Sesma Espinosa",
       "nat": "ESP"
+     },
+     {
+      "r": "VAR",
+      "role": "Sędzia VAR",
+      "name": "Jorge Figueroa Vázquez"
      }
-    ]
+    ],
+    "score": [
+     1,
+     1
+    ],
+    "attendance": 20768,
+    "venue": {
+     "name": "El Sadar",
+     "city": "Pampeluna"
+    },
+    "formation": {
+     "home": "4-3-3",
+     "away": "4-2-3-1"
+    },
+    "players": {
+     "home": [
+      [
+       13,
+       "Aitor Fernández",
+       "BR",
+       "",
+       true
+      ],
+      [
+       19,
+       "Valentin Rosier",
+       "PO",
+       "",
+       true
+      ],
+      [
+       22,
+       "Enzo Boyomo",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       24,
+       "Alejandro Catena",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       23,
+       "Abel Bretones",
+       "LO",
+       "",
+       true
+      ],
+      [
+       7,
+       "Jon Moncayola",
+       "ŚP",
+       "",
+       true
+      ],
+      [
+       6,
+       "Lucas Torró",
+       "DP",
+       "",
+       true
+      ],
+      [
+       16,
+       "Moi Gómez",
+       "ŚP",
+       "",
+       true
+      ],
+      [
+       18,
+       "Raúl Moro",
+       "PS",
+       "",
+       true
+      ],
+      [
+       17,
+       "Ante Budimir",
+       "N",
+       "",
+       true
+      ],
+      [
+       14,
+       "Rubén García",
+       "LS",
+       "",
+       true
+      ]
+     ],
+     "away": [
+      [
+       1,
+       "Unai Simón",
+       "BR",
+       "",
+       true
+      ],
+      [
+       15,
+       "Hugo Rincón",
+       "PO",
+       "",
+       true
+      ],
+      [
+       3,
+       "Dani Vivian",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       14,
+       "Aymeric Laporte",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       17,
+       "Yuri Berchiche",
+       "LO",
+       "",
+       true
+      ],
+      [
+       28,
+       "Canales",
+       "DP",
+       "",
+       true
+      ],
+      [
+       24,
+       "Gerenabarrena",
+       "DP",
+       "",
+       true
+      ],
+      [
+       7,
+       "Álex Berenguer",
+       "PS",
+       "",
+       true
+      ],
+      [
+       23,
+       "Robert Navarro",
+       "OP",
+       "",
+       true
+      ],
+      [
+       10,
+       "Nico Williams",
+       "LS",
+       "",
+       true
+      ],
+      [
+       9,
+       "Iñaki Williams",
+       "N",
+       "",
+       true
+      ]
+     ]
+    },
+    "events": [
+     {
+      "m": 45,
+      "t": "yc",
+      "s_": "h",
+      "who": "Jon Moncayola"
+     },
+     {
+      "m": 54,
+      "t": "yc",
+      "s_": "h",
+      "who": "Ante Budimir"
+     },
+     {
+      "m": 65,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Iñigo Ruiz de Galarreta",
+      "out": "Gerenabarrena"
+     },
+     {
+      "m": 65,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Oihan Sancet",
+      "out": "Robert Navarro"
+     },
+     {
+      "m": 68,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Dubasin",
+      "out": "Raúl Moro"
+     },
+     {
+      "m": 68,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Asier Osambela",
+      "out": "Jon Moncayola"
+     },
+     {
+      "m": 74,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Iker Muñoz",
+      "out": "Moi Gómez"
+     },
+     {
+      "m": 80,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Kike Barja",
+      "out": "Ante Budimir"
+     },
+     {
+      "m": 80,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Raúl García",
+      "out": "Rubén García"
+     },
+     {
+      "m": 84,
+      "t": "goal",
+      "s_": "a",
+      "who": "Nico Williams",
+      "as": "Iñaki Williams",
+      "how": "Kontratak"
+     },
+     {
+      "m": 86,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Prados",
+      "out": "Canales"
+     },
+     {
+      "m": 89,
+      "t": "goal",
+      "s_": "h",
+      "who": "Alejandro Catena"
+     },
+     {
+      "m": 90,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Yeray",
+      "out": "Álex Berenguer"
+     }
+    ],
+    "teamStats": [
+     [
+      "Posiadanie %",
+      39,
+      61
+     ],
+     [
+      "xG",
+      0.65,
+      2.26
+     ],
+     [
+      "Celne",
+      5,
+      4
+     ],
+     [
+      "Rzuty rożne",
+      6,
+      4
+     ],
+     [
+      "Faule",
+      19,
+      10
+     ]
+    ],
+    "notes": "1:1. Nico Williams (84., po kontrze i podaniu Iñakiego) dał prowadzenie Athletic, Catena wyrównał w 89. min (ESPN: 90.) po błędzie Unaia Simóna przy dośrodkowaniu. Gole anulowane za spalone: Rosier (56., spalony Budimira) i Sancet (77., spalony Galarrety). Berenguer trafił w słupek. Zmiany Osasuny w 80. wg ESPN (okdiario: 79.). W 86. min w Athletic weszła jeszcze jedna zmiana (nazwisko niepewne w źródle). Rezerwowi bez numerów – pominięci. Pozycje skrzydłowych przypisane wg ustawienia, bez potwierdzenia stron."
    },
    {
     "id": "LL-2026-27-R12-VAL-RMA",
@@ -5788,7 +6178,7 @@
     "time": "21:00",
     "home": "VAL",
     "away": "RMA",
-    "status": "ns",
+    "status": "ft",
     "odds": {
      "src": "1X2: oddscalendar.com – Megapari, stan na 6.11, 05:30",
      "1": 9.0,
@@ -5833,6 +6223,12 @@
      ]
     },
     "staff": {
+     "home": [
+      [
+       "Trener",
+       "Javier Aguirre"
+      ]
+     ],
      "away": [
       [
        "Trener",
@@ -5856,7 +6252,67 @@
     "venue": {
      "name": "Mestalla",
      "city": "Walencja"
-    }
+    },
+    "score": [
+     0,
+     3
+    ],
+    "attendance": 47914,
+    "formation": {
+     "home": "5-3-2",
+     "away": "4-2-3-1"
+    },
+    "events": [
+     {
+      "m": 28,
+      "t": "goal",
+      "s_": "a",
+      "who": "Federico Valverde"
+     },
+     {
+      "m": 36,
+      "t": "goal",
+      "s_": "a",
+      "who": "Arda Güler"
+     },
+     {
+      "m": 75,
+      "t": "goal",
+      "s_": "a",
+      "who": "Kylian Mbappé",
+      "as": "Arda Güler"
+     },
+     {
+      "m": 79,
+      "t": "rc",
+      "s_": "h",
+      "who": "José Luis Gayà",
+      "why": "Poważny rażący faul"
+     }
+    ],
+    "teamStats": [
+     [
+      "Posiadanie %",
+      32,
+      68
+     ],
+     [
+      "xG",
+      0.18,
+      2.34
+     ],
+     [
+      "Strzały",
+      4,
+      19
+     ]
+    ],
+    "ind": {
+     "Arda Güler": {
+      "r": 8.9
+     }
+    },
+    "notes": "0:3. Valverde (28.), Güler (36.) i Mbappé (75., asysta Gülera). Gayà z czerwoną kartką w 79. min (poważny rażący faul). Żółte kartki (bez minut w źródle): Maffeo, Guido Rodríguez, Rioja, Diomande, Pepelu (Valencia), Mbappé (Real) oraz trener Aguirre. Real zrównał się punktami z Barceloną (30). Piłkarz meczu wg FotMob: Arda Güler (8,9). Składy z numerami niedostępne w źródłach – pominięte."
    },
    {
     "id": "LL-2026-27-R12-ELC-BET",
@@ -5866,13 +6322,15 @@
     "away": "BET",
     "status": "ns",
     "odds": {
-     "src": "Oddsportal / CheckBestOdds (najlepsze kursy), stan na 4.11 rano",
-     "1": 3.2,
-     "X": 3.75,
-     "2": 2.15
+     "src": "livetipsportal – najlepsze kursy (Betsala/Betfair/1xBet/Betway), stan na 7.11",
+     "1": 3.4,
+     "X": 3.8,
+     "2": 2.19,
+     "bttsY": 1.6,
+     "bttsN": 2.4
     },
     "info": {
-     "homeAway": "Elche – ostatnie 5 (wszystkie rozgr.): 2W 2R 1P, m.in. 0:1 z Valencią (1.11) i 3:0 z Rayo; Betis – 3W 1R 1P, m.in. 2:1 z Málagą (31.10) i 0:0 w Vigo.",
+     "homeAway": "Elche bez zwycięstwa u siebie w tym sezonie (1R 4P wg livetipsportal), ostatnio 0:1 z Valencią; Betis 2W 2R 1P na wyjazdach, w środku tygodnia 1:2 z Borussią Dortmund w LM.",
      "stakes": "17. Elche (10 pkt) vs 4. Betis (23 pkt). Betis gra równolegle w Lidze Mistrzów – ryzyko rotacji.",
      "h2h": [
       "2026-05-12 BET 2:1 ELC"
@@ -5881,11 +6339,29 @@
     "tip": {
      "decision": "NO BET",
      "reasons": [
-      "Betis 2.15 (~46,5% implikowane) vs modele ~44% (futboltotal) – EV ≈ −0,05.",
-      "Elche w domu solidne (dwa 0:0 z Villarrealem i Celtą), Betis z obciążeniem Ligi Mistrzów.",
-      "Brak kursów na rynki bramkowe w źródłach.",
+      "Betis 2.19 (~45,7% implikowane) – szacunek ~45–46% (modele 44%), EV ≈ 0 lub ujemne.",
+      "BTTS TAK 1.60 (62,5% implikowane) – obie drużyny tracą sporo (18 i 15 goli), ale szacunek ~57–60% nie daje przewagi.",
+      "Betis po porażce 1:2 z Dortmundem w LM – ryzyko rotacji i zmęczenia.",
+      "Elche słabe u siebie, ale bez potwierdzonych informacji o składach.",
       "Brak rynku z dodatnim EV → NO BET."
      ]
+    },
+    "officials": [
+     {
+      "r": "GŁ",
+      "role": "Sędzia główny",
+      "name": "César Soto Grado",
+      "nat": "ESP"
+     },
+     {
+      "r": "VAR",
+      "role": "Sędzia VAR",
+      "name": "Carlos del Cerro Grande"
+     }
+    ],
+    "venue": {
+     "name": "Martínez Valero",
+     "city": "Elche"
     }
    },
    {
@@ -5917,11 +6393,29 @@
      "decision": "NO BET",
      "reasons": [
       "Real Sociedad 1.68–1.72 (~59% implikowane) vs model futboltotal 56% – EV ujemne.",
+      "Prawdopodobieństwa rynkowe bez marży (gidstats): 54,3% / 23,3% / 22,4% – kurs 1.68 (59,5%) wyraźnie poniżej wartości.",
       "Real Sociedad po meczu LE w czwartek (1:1 z Lyonem) – tylko 2 dni przerwy.",
       "Real Sociedad traci dużo (20 goli w 11 meczach) – nie uzasadnia niskiego kursu.",
       "H2H wyrównane (1W RSO, 2W RAY, 3R w ostatnich 6) – bez wyraźnej przewagi.",
       "Brak kursów na rynki bramkowe → NO BET."
      ]
+    },
+    "officials": [
+     {
+      "r": "GŁ",
+      "role": "Sędzia główny",
+      "name": "Juan Martínez Munuera",
+      "nat": "ESP"
+     },
+     {
+      "r": "VAR",
+      "role": "Sędzia VAR",
+      "name": "Iván Caparrós Hernández"
+     }
+    ],
+    "venue": {
+     "name": "Reale Arena",
+     "city": "San Sebastián"
     }
    },
    {
@@ -5948,11 +6442,29 @@
      "decision": "NO BET",
      "reasons": [
       "Celta 1.83 (~55% implikowane) vs model futboltotal 53% – brak value.",
+      "Model Sports Mole: 40,9% / 26,9% / 32,3%, under 2,5 52,7% – sugeruje wartość na Levante, ale to pojedynczy model statystyczny bez potwierdzenia w innych źródłach i bez świeżych kursów; nie wystarcza do typu.",
       "Celta strzela mało (10 goli w 11) i ma 6 remisów – słaba podstawa do typu na gospodarza.",
       "Celta po porażce 1:2 z Union SG w Lidze Europy – obciążenie i słaba forma.",
       "Levante wygrał ostatni mecz w Vigo (3:2).",
       "Brak rynku z dodatnim EV."
      ]
+    },
+    "officials": [
+     {
+      "r": "GŁ",
+      "role": "Sędzia główny",
+      "name": "Miguel Ángel Ortiz Arias",
+      "nat": "ESP"
+     },
+     {
+      "r": "VAR",
+      "role": "Sędzia VAR",
+      "name": "Valentín Pizarro Gómez"
+     }
+    ],
+    "venue": {
+     "name": "Abanca-Balaídos",
+     "city": "Vigo"
     }
    },
    {
@@ -5962,15 +6474,14 @@
     "home": "VIL",
     "away": "GET",
     "status": "ns",
-    "notes": "Godzina nieustalona w komunikacie LaLiga (EFE, 12.10.2026).",
     "odds": {
-     "src": "Oddsportal / CheckBestOdds (4.11); podwójna szansa – oddslot (5.11)",
-     "1": 1.46,
+     "src": "oddslot – BC.Game, stan na 7/8.11",
+     "1": 1.42,
      "X": 4.5,
-     "2": 7.0,
-     "1X": 1.1,
+     "2": 8.0,
+     "1X": 1.08,
      "X2": 2.75,
-     "12": 1.2
+     "12": 1.18
     },
     "info": {
      "homeAway": "Villarreal – ostatnie 5: 2W 3P (0:6 z PSG 3.11, 0:1 z Espanyolem 30.10); Getafe – 2W 1R 2P (3:1 z Sevillą 1.11).",
@@ -5984,11 +6495,29 @@
     "tip": {
      "decision": "NO BET",
      "reasons": [
-      "Villarreal 1.40–1.46 (~69–71% implikowane) vs modele 61% (Dimers) i 66% (futboltotal) – EV wyraźnie ujemne.",
-      "Villarreal w słabej formie (3 porażki w 5, 0:6 z PSG), obciążenie Ligą Mistrzów.",
-      "Under 2,5 rozważany (Getafe 2,2 gola/mecz łącznie), ale brak wiarygodnego kursu bukmacherskiego w źródłach.",
+      "Villarreal 1.42 (~70,4% implikowane) vs prawdopodobieństwo rynkowe bez marży 66,1% (gidstats) i modele 60,5% (Dimers) – EV wyraźnie ujemne.",
+      "Villarreal w słabej formie (2W 3P w 5 ostatnich, 0:6 z PSG), obciążenie Ligą Mistrzów.",
+      "Getafe słabe na wyjazdach (1W 4P, 3:11 w bramkach), ale to już w cenie.",
+      "Under 2,5 logiczny (Getafe 8 goli strzelonych w 11), lecz brak wiarygodnego kursu w źródłach.",
       "Brak rynku z potwierdzonym dodatnim EV → NO BET."
      ]
+    },
+    "officials": [
+     {
+      "r": "GŁ",
+      "role": "Sędzia główny",
+      "name": "Carlos Muñiz Ruiz",
+      "nat": "ESP"
+     },
+     {
+      "r": "VAR",
+      "role": "Sędzia VAR",
+      "name": "Daniel Jesús Trujillo Suárez"
+     }
+    ],
+    "venue": {
+     "name": "Estadio de la Cerámica",
+     "city": "Villarreal"
     }
    },
    {
@@ -6007,20 +6536,19 @@
     "info": {
      "injuries": {
       "home": [
-       "Cristian Romero (uraz mięśniowy)",
-       "Johnny Cardoso (udo, niepewny/wykluczony)"
+       "Cristian Romero (nie trenuje z grupą)"
       ],
       "away": [
-       "Jules Koundé (skręcenie kostki)",
-       "Dani Olmo (dwugłowy uda, do poł. listopada)",
-       "Xavi Espart (kostka, do poł. grudnia)",
-       "Roony Bardghji (ACL, do kwietnia)",
-       "Rodri Hernández (dwugłowy uda, do końca listopada)",
-       "Andreas Christensen (niepewny)",
+       "Dani Olmo (dwugłowy uda)",
+       "Xavi Espart (kostka)",
+       "Andreas Christensen",
+       "Roony Bardghji (ACL)",
+       "Rodri Hernández (dwugłowy uda)",
+       "Jules Koundé (niepewny)",
        "Eric García (niepewny)"
       ]
      },
-     "homeAway": "Atlético – 9W 1R 1P w lidze, 8 straconych goli (najmniej), ostatnio 0:2 z Bayernem w LM (3.11); Barcelona – 46 goli w 11 meczach, porażki z Realem i PSG w ostatnich tygodniach.",
+     "homeAway": "Atlético – 7 kolejnych zwycięstw w lidze, 8 straconych goli (najmniej); Johnny Cardoso wrócił do treningów, Hjulmand dostępny po pauzie w LM. Barcelona – 46 goli w 11 meczach, w tygodniu 3:0 z Aston Villą w LM.",
      "stakes": "Mecz na szczycie: 2. Atlético (28 pkt) vs 1. Barcelona (30 pkt). Obie drużyny po meczach Ligi Mistrzów w tygodniu.",
      "h2h": [
       "2026-04-14 ATM 1:2 BAR (LM)",
@@ -6034,12 +6562,34 @@
     "tip": {
      "decision": "NO BET",
      "reasons": [
-      "Barcelona 1.90 (~52,6% implikowane) vs modele ~51% (futboltotal 51%, Dimers 50,8%) – EV ≈ −0,03.",
+      "Barcelona 1.80–1.90 (52,6–55,6% implikowane; Megapari 1.90, Bwin 1.80) vs modele ~51% – EV ≈ −0,03 lub gorzej.",
       "Atlético 3.81 (~26%) vs modele 27% – EV ≈ +0,03, w granicach błędu modelu; Atlético przegrało 0:2 z Bayernem w LM (3.11).",
       "Barcelona bez Koundé, Olmo, Rodriego (wg comuniate), Christensen i E. García niepewni; Atlético bez Cristiana Romero.",
       "H2H z ostatnich 6: 4 wygrane Barcelony, 2 Atlético – bez stabilnego wzorca.",
       "Rynki bramkowe bez wiarygodnych kursów → NO BET."
      ]
+    },
+    "officials": [
+     {
+      "r": "GŁ",
+      "role": "Sędzia główny",
+      "name": "Javier Alberola Rojas",
+      "nat": "ESP"
+     },
+     {
+      "r": "VAR",
+      "role": "Sędzia VAR",
+      "name": "Javier Iglesias Villanueva"
+     },
+     {
+      "r": "AVAR",
+      "role": "Asystent VAR",
+      "name": "Guillermo Cuadra Fernández"
+     }
+    ],
+    "venue": {
+     "name": "Riyadh Air Metropolitano",
+     "city": "Madryt"
     }
    }
   ],

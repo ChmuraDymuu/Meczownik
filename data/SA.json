@@ -1,9 +1,9 @@
 {
-"updated": "2026-11-07T06:10:00+01:00",
+"updated": "2026-11-08T06:05:00+01:00",
 "season": "2026/27",
 "competition": "Serie A",
 "currentRound": 11,
-"note": "Źródła: FotMob, ANSA, Virgilio Sport, VeneziaToday (Venezia–Udinese 2:1, 06.11: składy, zdarzenia, statystyki, frekwencja); Betsson via Jamma.it (kursy 11. kolejki, 06.11); SportItalia (przewidywane składy i absencje, 06.11); Lega Serie A via Le Bombe di Vlad/ANSA (obsady sędziowskie 11. kolejki); tabela: po 10. kolejce Sky Sport Italia + wynik VEN–UDI; wcześniej: Goal.com, LiveScore, WorldSportsBetting, RG.org, Agimeg, Virgilio Sport, Fantamaster, RotoWire, ESPN, Oddsportal.",
+"note": "Źródła: FotMob (CAG–FRO, TOR–LEC, PAR–BOL, ROM–SAS 07.11: składy, zdarzenia, statystyki, oceny, frekwencja), OA Sport, Football Italia, NapoliMagazine (wyniki i tabela 07.11); kursy 8.11: Betsson via Jamma.it (06.11), FC Inter 1908 (PokerStars/Bwin/Eurobet, 05.11); przewidywane składy: Football Magazine (07.11); wcześniej: ANSA, Virgilio Sport, SportItalia, Lega Serie A, Sky Sport, Goal.com, ESPN, Oddsportal.",
 "teams": {
 "ATA": {
 "id": "ATA",
@@ -199,6 +199,17 @@
 "form": "WWWWW"
 },
 {
+"team": "ROM",
+"p": 11,
+"w": 8,
+"d": 3,
+"l": 0,
+"gf": 31,
+"ga": 10,
+"pts": 27,
+"form": "WDWWW"
+},
+{
 "team": "INT",
 "p": 10,
 "w": 8,
@@ -208,17 +219,6 @@
 "ga": 13,
 "pts": 25,
 "form": "WWWWL"
-},
-{
-"team": "ROM",
-"p": 10,
-"w": 7,
-"d": 3,
-"l": 0,
-"gf": 28,
-"ga": 10,
-"pts": 24,
-"form": "DWDWW"
 },
 {
 "team": "COM",
@@ -244,14 +244,14 @@
 },
 {
 "team": "FRO",
-"p": 10,
+"p": 11,
 "w": 6,
 "d": 2,
-"l": 2,
+"l": 3,
 "gf": 24,
-"ga": 14,
+"ga": 15,
 "pts": 20,
-"form": "LWDWW"
+"form": "WDWWL"
 },
 {
 "team": "JUV",
@@ -265,6 +265,28 @@
 "form": "DLWLW"
 },
 {
+"team": "BOL",
+"p": 11,
+"w": 5,
+"d": 2,
+"l": 4,
+"gf": 16,
+"ga": 14,
+"pts": 17,
+"form": "LWWWW"
+},
+{
+"team": "CAG",
+"p": 11,
+"w": 5,
+"d": 1,
+"l": 5,
+"gf": 10,
+"ga": 15,
+"pts": 16,
+"form": "LLLLW"
+},
+{
 "team": "NAP",
 "p": 10,
 "w": 4,
@@ -276,26 +298,15 @@
 "form": "WLDWL"
 },
 {
-"team": "BOL",
-"p": 10,
+"team": "TOR",
+"p": 11,
 "w": 4,
 "d": 2,
-"l": 4,
-"gf": 14,
-"ga": 13,
-"pts": 14,
-"form": "WLWWW"
-},
-{
-"team": "TOR",
-"p": 10,
-"w": 4,
-"d": 1,
 "l": 5,
-"gf": 14,
-"ga": 16,
-"pts": 13,
-"form": "WWWLL"
+"gf": 15,
+"ga": 17,
+"pts": 14,
+"form": "WWLLD"
 },
 {
 "team": "GEN",
@@ -307,17 +318,6 @@
 "ga": 14,
 "pts": 13,
 "form": "WLWWW"
-},
-{
-"team": "CAG",
-"p": 10,
-"w": 4,
-"d": 1,
-"l": 5,
-"gf": 9,
-"ga": 15,
-"pts": 13,
-"form": "DLLLL"
 },
 {
 "team": "ATA",
@@ -332,25 +332,14 @@
 },
 {
 "team": "LEC",
-"p": 10,
+"p": 11,
 "w": 3,
-"d": 0,
+"d": 1,
 "l": 7,
-"gf": 11,
-"ga": 21,
-"pts": 9,
-"form": "LWLLL"
-},
-{
-"team": "PAR",
-"p": 10,
-"w": 2,
-"d": 2,
-"l": 6,
-"gf": 8,
-"ga": 15,
-"pts": 8,
-"form": "LLLDW"
+"gf": 12,
+"ga": 22,
+"pts": 10,
+"form": "WLLLD"
 },
 {
 "team": "FIO",
@@ -364,15 +353,26 @@
 "form": "LLLDW"
 },
 {
-"team": "SAS",
-"p": 10,
+"team": "PAR",
+"p": 11,
 "w": 2,
 "d": 2,
-"l": 6,
-"gf": 16,
-"ga": 26,
+"l": 7,
+"gf": 9,
+"ga": 17,
 "pts": 8,
-"form": "DLLLL"
+"form": "LLDWL"
+},
+{
+"team": "SAS",
+"p": 11,
+"w": 2,
+"d": 2,
+"l": 7,
+"gf": 16,
+"ga": 29,
+"pts": 8,
+"form": "LLLLL"
 },
 {
 "team": "MON",
@@ -2988,7 +2988,7 @@ false
 "time": "15:00",
 "home": "CAG",
 "away": "FRO",
-"status": "ns",
+"status": "ft",
 "venue": {
 "name": "Unipol Domus",
 "city": "Cagliari",
@@ -3073,7 +3073,466 @@ false
 "role": "Asystent VAR",
 "name": "Prontera"
 }
+],
+"score": [
+1,
+0
+],
+"formation": {
+"home": "4-3-3",
+"away": "4-2-3-1"
+},
+"staff": {
+"home": [
+[
+"Trener",
+"Fabio Pisacane"
 ]
+],
+"away": [
+[
+"Trener",
+"Massimiliano Alvini"
+]
+]
+},
+"players": {
+"home": [
+[
+1,
+"Elia Caprile",
+"BR",
+"",
+1
+],
+[
+2,
+"Zé Pedro",
+"PO",
+"",
+1
+],
+[
+22,
+"Raphael Kofler",
+"ŚO",
+"",
+1
+],
+[
+15,
+"Juan Rodríguez",
+"ŚO",
+"",
+1
+],
+[
+36,
+"Nicola Grandu",
+"LO",
+"",
+1
+],
+[
+8,
+"Michel Adopo",
+"ŚP",
+"",
+1
+],
+[
+4,
+"Alessandro Romano",
+"DP",
+"",
+1
+],
+[
+14,
+"Alessandro Deiola",
+"ŚP",
+"",
+1
+],
+[
+19,
+"Yael Trepy",
+"PS",
+"",
+1
+],
+[
+31,
+"Paul Mendy",
+"N",
+"",
+1
+],
+[
+70,
+"Daniel Maldini",
+"LS",
+"",
+1
+],
+[
+35,
+"Alessandro Sugamele",
+"N",
+"",
+0
+],
+[
+10,
+"Jacopo Fazzini",
+"ŚP",
+"",
+0
+],
+[
+9,
+"Kevin Carlos",
+"N",
+"",
+0
+],
+[
+27,
+"Joseph Liteta",
+"ŚP",
+"",
+0
+],
+[
+20,
+"Riccardo Ciervo",
+"PS",
+"",
+0
+]
+],
+"away": [
+[
+22,
+"Lorenzo Palmisani",
+"BR",
+"",
+1
+],
+[
+20,
+"Anthony Oyono",
+"PO",
+"",
+1
+],
+[
+3,
+"Gabriele Calvani",
+"ŚO",
+"",
+1
+],
+[
+30,
+"Ilario Monterisi",
+"ŚO",
+"",
+1
+],
+[
+79,
+"Gabriele Bracaglia",
+"LO",
+"",
+1
+],
+[
+16,
+"Matteo Cichella",
+"DP",
+"",
+1
+],
+[
+14,
+"Giacomo Calò",
+"DP",
+"",
+1
+],
+[
+7,
+"Farès Ghedjemis",
+"PS",
+"",
+1
+],
+[
+10,
+"Romano Schmid",
+"OP",
+"",
+1
+],
+[
+17,
+"Giorgi Kvernadze",
+"LS",
+"",
+1
+],
+[
+11,
+"Daniel Bîrligea",
+"N",
+"",
+1
+],
+[
+90,
+"Enzo Tchato",
+"PO",
+"",
+0
+],
+[
+24,
+"Alessio Zerbin",
+"LS",
+"",
+0
+],
+[
+70,
+"Luis Hasa",
+"OP",
+"",
+0
+],
+[
+89,
+"Tomás Bobček",
+"N",
+"",
+0
+],
+[
+40,
+"Seydou Fini",
+"PS",
+"",
+0
+]
+]
+},
+"events": [
+{
+"m": 13,
+"t": "yc",
+"s_": "a",
+"who": "Gabriele Bracaglia",
+"why": "Faul"
+},
+{
+"m": 38,
+"t": "goal",
+"s_": "h",
+"who": "Michel Adopo",
+"as": "Paul Mendy"
+},
+{
+"m": 60,
+"t": "yc",
+"s_": "a",
+"who": "Anthony Oyono",
+"why": "Faul"
+},
+{
+"m": 67,
+"t": "yc",
+"s_": "h",
+"who": "Jacopo Fazzini",
+"why": "Faul"
+},
+{
+"m": 69,
+"t": "yc",
+"s_": "h",
+"who": "Nicola Grandu",
+"why": "Faul"
+},
+{
+"m": 85,
+"t": "yc",
+"s_": "a",
+"who": "Ilario Monterisi",
+"why": "Faul"
+},
+{
+"m": 86,
+"t": "yc",
+"s_": "h",
+"who": "Zé Pedro",
+"why": "Faul"
+},
+{
+"m": 28,
+"t": "sub",
+"s_": "h",
+"inn": "Alessandro Sugamele",
+"out": "Yael Trepy"
+},
+{
+"m": 46,
+"t": "sub",
+"s_": "a",
+"inn": "Enzo Tchato",
+"out": "Gabriele Bracaglia"
+},
+{
+"m": 64,
+"t": "sub",
+"s_": "h",
+"inn": "Kevin Carlos",
+"out": "Paul Mendy"
+},
+{
+"m": 64,
+"t": "sub",
+"s_": "h",
+"inn": "Jacopo Fazzini",
+"out": "Daniel Maldini"
+},
+{
+"m": 65,
+"t": "sub",
+"s_": "a",
+"inn": "Alessio Zerbin",
+"out": "Giorgi Kvernadze"
+},
+{
+"m": 65,
+"t": "sub",
+"s_": "a",
+"inn": "Luis Hasa",
+"out": "Romano Schmid"
+},
+{
+"m": 71,
+"t": "sub",
+"s_": "a",
+"inn": "Tomás Bobček",
+"out": "Anthony Oyono"
+},
+{
+"m": 78,
+"t": "sub",
+"s_": "h",
+"inn": "Riccardo Ciervo",
+"out": "Alessandro Romano"
+},
+{
+"m": 78,
+"t": "sub",
+"s_": "h",
+"inn": "Joseph Liteta",
+"out": "Nicola Grandu"
+},
+{
+"m": 81,
+"t": "sub",
+"s_": "a",
+"inn": "Seydou Fini",
+"out": "Matteo Cichella"
+}
+],
+"teamStats": [
+[
+"Posiadanie %",
+36,
+64
+],
+[
+"xG",
+0.98,
+2.1
+],
+[
+"Strzały",
+14,
+29
+]
+],
+"ind": {
+"Elia Caprile": {
+"r": 9.5
+},
+"Paul Mendy": {
+"r": 7.9
+},
+"Michel Adopo": {
+"r": 7.8
+},
+"Alessandro Romano": {
+"r": 7.7
+},
+"Juan Rodríguez": {
+"r": 7.5
+},
+"Zé Pedro": {
+"r": 7.4
+},
+"Daniel Maldini": {
+"r": 7.1
+},
+"Raphael Kofler": {
+"r": 6.9
+},
+"Alessandro Deiola": {
+"r": 6.8
+},
+"Yael Trepy": {
+"r": 6.7
+},
+"Nicola Grandu": {
+"r": 6.4
+},
+"Giacomo Calò": {
+"r": 8.5
+},
+"Anthony Oyono": {
+"r": 7.8
+},
+"Gabriele Calvani": {
+"r": 7.7
+},
+"Ilario Monterisi": {
+"r": 7.7
+},
+"Farès Ghedjemis": {
+"r": 7.4
+},
+"Romano Schmid": {
+"r": 7.3
+},
+"Lorenzo Palmisani": {
+"r": 7.2
+},
+"Matteo Cichella": {
+"r": 7.2
+},
+"Daniel Bîrligea": {
+"r": 6.9
+},
+"Gabriele Bracaglia": {
+"r": 6.5
+},
+"Giorgi Kvernadze": {
+"r": 6.2
+}
+},
+"notes": "Cagliari przerywa serię 4 porażek. Gol Adopo po podaniu Mendy'ego (38' wg OA Sport i nagłówka FotMob; oś czasu FotMob podaje 28'). Frosinone przeważało (64% posiadania, 29 strzałów, xG 2,10), ale Caprile (ocena 9,5) obronił wszystko. Minuty kartek Fazziniego i Zé Pedro przybliżone (FotMob nie podaje dokładnie). Typ: NO BET."
 },
 {
 "id": "SA-2026-27-R11-TOR-LEC",
@@ -3081,7 +3540,7 @@ false
 "time": "15:00",
 "home": "TOR",
 "away": "LEC",
-"status": "ns",
+"status": "ft",
 "venue": {
 "name": "Stadio Olimpico Grande Torino",
 "city": "Turyn",
@@ -3162,7 +3621,448 @@ false
 "role": "Asystent VAR",
 "name": "Camplone"
 }
+],
+"score": [
+1,
+1
+],
+"attendance": 27958,
+"weather": {
+"temp": 11
+},
+"formation": {
+"home": "3-5-2",
+"away": "3-5-2"
+},
+"staff": {
+"home": [
+[
+"Trener",
+"Ignazio Abate"
 ]
+],
+"away": [
+[
+"Trener",
+"Eusebio Di Francesco"
+]
+]
+},
+"players": {
+"home": [
+[
+20,
+"Lucas Perri",
+"BR",
+"",
+1
+],
+[
+23,
+"Saúl Coco",
+"ŚO",
+"",
+1
+],
+[
+44,
+"Ardian Ismajli",
+"ŚO",
+"",
+1
+],
+[
+15,
+"Pietro Comuzzo",
+"ŚO",
+"",
+1
+],
+[
+45,
+"Rafik Belghali",
+"PS",
+"",
+1
+],
+[
+10,
+"Nikola Vlašić",
+"ŚP",
+"",
+1
+],
+[
+21,
+"Daniel Bragança",
+"DP",
+"",
+1
+],
+[
+28,
+"Kian Fitz-Jim",
+"ŚP",
+"",
+1
+],
+[
+77,
+"Alessio Cacciamani",
+"LS",
+"",
+1
+],
+[
+17,
+"Sandro Kulenović",
+"N",
+"",
+1
+],
+[
+18,
+"Giovanni Simeone",
+"N",
+"",
+1
+],
+[
+"–",
+"Ché Adams",
+"N",
+"",
+0
+],
+[
+"–",
+"Gvidas Gineitis",
+"ŚP",
+"",
+0
+],
+[
+"–",
+"Zakaria Aboukhlal",
+"PS",
+"",
+0
+],
+[
+"–",
+"Cesare Casadei",
+"ŚP",
+"",
+0
+],
+[
+"–",
+"Emirhan İlkhan",
+"ŚP",
+"",
+0
+]
+],
+"away": [
+[
+30,
+"Wladimiro Falcone",
+"BR",
+"",
+1
+],
+[
+17,
+"Danilo Veiga",
+"ŚO",
+"",
+1
+],
+[
+4,
+"Kialonda Gaspar",
+"ŚO",
+"",
+1
+],
+[
+44,
+"Tiago Gabriel",
+"ŚO",
+"",
+1
+],
+[
+2,
+"Ali Dembélé",
+"PS",
+"",
+1
+],
+[
+77,
+"Mohamed Kaba",
+"ŚP",
+"",
+1
+],
+[
+79,
+"Oumar Ngom",
+"DP",
+"",
+1
+],
+[
+14,
+"Youssef Maleh",
+"ŚP",
+"",
+1
+],
+[
+25,
+"Antonino Gallo",
+"LS",
+"",
+1
+],
+[
+9,
+"Nikola Štulić",
+"N",
+"",
+1
+],
+[
+7,
+"Amar Fatah",
+"N",
+"",
+1
+],
+[
+"–",
+"Konan N'Dri",
+"PS",
+"",
+0
+],
+[
+"–",
+"Willem Geubbels",
+"N",
+"",
+0
+],
+[
+"–",
+"Lassana Coulibaly",
+"ŚP",
+"",
+0
+],
+[
+"–",
+"Jamil Siebert",
+"ŚO",
+"",
+0
+],
+[
+"–",
+"Sadik Fofana",
+"ŚP",
+"",
+0
+]
+]
+},
+"events": [
+{
+"m": 45,
+"s": "+3",
+"t": "yc",
+"s_": "a",
+"who": "Youssef Maleh",
+"why": "Faul"
+},
+{
+"m": 60,
+"t": "og",
+"s_": "h",
+"who": "Kialonda Gaspar"
+},
+{
+"m": 73,
+"t": "og",
+"s_": "a",
+"who": "Daniel Bragança"
+},
+{
+"m": 84,
+"t": "yc",
+"s_": "a",
+"who": "Amar Fatah",
+"why": "Faul"
+},
+{
+"m": 46,
+"t": "sub",
+"s_": "h",
+"inn": "Ché Adams",
+"out": "Sandro Kulenović"
+},
+{
+"m": 61,
+"t": "sub",
+"s_": "h",
+"inn": "Gvidas Gineitis",
+"out": "Kian Fitz-Jim"
+},
+{
+"m": 72,
+"t": "sub",
+"s_": "a",
+"inn": "Konan N'Dri",
+"out": "Ali Dembélé"
+},
+{
+"m": 72,
+"t": "sub",
+"s_": "a",
+"inn": "Willem Geubbels",
+"out": "Nikola Štulić"
+},
+{
+"m": 72,
+"t": "sub",
+"s_": "a",
+"inn": "Lassana Coulibaly",
+"out": "Mohamed Kaba"
+},
+{
+"m": 78,
+"t": "sub",
+"s_": "h",
+"inn": "Zakaria Aboukhlal",
+"out": "Alessio Cacciamani"
+},
+{
+"m": 82,
+"t": "sub",
+"s_": "h",
+"inn": "Cesare Casadei",
+"out": "Daniel Bragança"
+},
+{
+"m": 82,
+"t": "sub",
+"s_": "h",
+"inn": "Emirhan İlkhan",
+"out": "Nikola Vlašić"
+},
+{
+"m": 87,
+"t": "sub",
+"s_": "a",
+"inn": "Jamil Siebert",
+"out": "Amar Fatah"
+},
+{
+"m": 88,
+"t": "sub",
+"s_": "a",
+"inn": "Sadik Fofana",
+"out": "Youssef Maleh"
+}
+],
+"teamStats": [
+[
+"Posiadanie %",
+64,
+36
+],
+[
+"xG",
+0.86,
+0.25
+],
+[
+"Strzały",
+9,
+6
+]
+],
+"ind": {
+"Wladimiro Falcone": {
+"r": 7.8
+},
+"Danilo Veiga": {
+"r": 7.7
+},
+"Ardian Ismajli": {
+"r": 7.7
+},
+"Pietro Comuzzo": {
+"r": 7.7
+},
+"Saúl Coco": {
+"r": 7.5
+},
+"Tiago Gabriel": {
+"r": 7.3
+},
+"Youssef Maleh": {
+"r": 7.3
+},
+"Rafik Belghali": {
+"r": 7.0
+},
+"Nikola Vlašić": {
+"r": 7.0
+},
+"Antonino Gallo": {
+"r": 6.9
+},
+"Lucas Perri": {
+"r": 6.8
+},
+"Oumar Ngom": {
+"r": 6.8
+},
+"Mohamed Kaba": {
+"r": 6.7
+},
+"Amar Fatah": {
+"r": 6.7
+},
+"Kian Fitz-Jim": {
+"r": 6.6
+},
+"Daniel Bragança": {
+"r": 6.5
+},
+"Kialonda Gaspar": {
+"r": 6.4
+},
+"Alessio Cacciamani": {
+"r": 6.4
+},
+"Giovanni Simeone": {
+"r": 6.4
+},
+"Sandro Kulenović": {
+"r": 6.3
+},
+"Ali Dembélé": {
+"r": 6.2
+},
+"Nikola Štulić": {
+"r": 6.1
+}
+},
+"notes": "Oba gole samobójcze: Gaspar (60') i Bragança (73'). Przypisanie trenerów i zmian do drużyn – na podstawie składów FotMob; numery rezerwowych niepodane. Typ: NO BET."
 },
 {
 "id": "SA-2026-27-R11-PAR-BOL",
@@ -3170,11 +4070,11 @@ false
 "time": "18:00",
 "home": "PAR",
 "away": "BOL",
-"status": "ns",
+"status": "ft",
 "venue": {
 "name": "Stadio Ennio Tardini",
 "city": "Parma",
-"capacity": 22352
+"capacity": 22885
 },
 "tip": {
 "decision": "NO BET",
@@ -3244,7 +4144,479 @@ false
 "role": "Asystent VAR",
 "name": "Ghersini"
 }
+],
+"score": [
+1,
+2
+],
+"formation": {
+"home": "3-5-2",
+"away": "3-4-3"
+},
+"staff": {
+"away": [
+[
+"Trener",
+"Raffaele Palladino"
 ]
+],
+"home": []
+},
+"players": {
+"home": [
+[
+30,
+"Daffara",
+"BR",
+"",
+1
+],
+[
+15,
+"Enrico Del Prato",
+"ŚO",
+"",
+1
+],
+[
+37,
+"Mariano Troilo",
+"ŚO",
+"",
+1
+],
+[
+3,
+"Abdoulaye Ndiaye",
+"ŚO",
+"",
+1
+],
+[
+8,
+"Benjamín Cremaschi",
+"PS",
+"",
+1
+],
+[
+80,
+"Giovanni Fabbian",
+"ŚP",
+"",
+1
+],
+[
+4,
+"Vincent Sierro",
+"DP",
+"",
+1
+],
+[
+16,
+"Mandela Keita",
+"ŚP",
+"",
+1
+],
+[
+14,
+"Emanuele Valeri",
+"LS",
+"",
+1
+],
+[
+76,
+"Simone Lontani",
+"N",
+"",
+1
+],
+[
+9,
+"David Romero",
+"N",
+"",
+1
+],
+[
+19,
+"El Bilal Touré",
+"N",
+"",
+0
+],
+[
+27,
+"Sascha Britschgi",
+"PS",
+"",
+0
+],
+[
+23,
+"Nesta Elphege",
+"N",
+"",
+0
+],
+[
+11,
+"Pontus Almqvist",
+"PS",
+"",
+0
+],
+[
+32,
+"Christian Ordóñez",
+"ŚP",
+"",
+0
+]
+],
+"away": [
+[
+1,
+"Łukasz Skorupski",
+"BR",
+"",
+1
+],
+[
+36,
+"Matteo Darmian",
+"ŚO",
+"",
+1
+],
+[
+16,
+"Nicolò Casale",
+"ŚO",
+"",
+1
+],
+[
+3,
+"Arthur Theate",
+"ŚO",
+"",
+1
+],
+[
+20,
+"Nadir Zortea",
+"PS",
+"",
+1
+],
+[
+19,
+"Lewis Ferguson",
+"ŚP",
+"",
+1
+],
+[
+4,
+"Tommaso Pobega",
+"ŚP",
+"",
+1
+],
+[
+33,
+"Juan Miranda",
+"LS",
+"",
+1
+],
+[
+10,
+"Federico Bernardeschi",
+"PS",
+"",
+1
+],
+[
+21,
+"Jens Odgaard",
+"N",
+"",
+1
+],
+[
+28,
+"Nicolò Cambiaghi",
+"LS",
+"",
+1
+],
+[
+11,
+"Samuel Mbangula",
+"LS",
+"",
+0
+],
+[
+7,
+"Riccardo Orsolini",
+"PS",
+"",
+0
+],
+[
+5,
+"Eivind Helland",
+"ŚO",
+"",
+0
+],
+[
+91,
+"Roberto Piccoli",
+"N",
+"",
+0
+],
+[
+41,
+"Martin Vitík",
+"ŚO",
+"",
+0
+]
+]
+},
+"events": [
+{
+"m": 9,
+"t": "rc",
+"s_": "h",
+"who": "Abdoulaye Ndiaye",
+"why": "Faul"
+},
+{
+"m": 14,
+"t": "yc",
+"s_": "h",
+"who": "David Romero",
+"why": "Faul"
+},
+{
+"m": 21,
+"t": "yc",
+"s_": "a",
+"who": "Nicolò Casale",
+"why": "Faul"
+},
+{
+"m": 42,
+"t": "yc",
+"s_": "h",
+"who": "Mariano Troilo",
+"why": "Faul"
+},
+{
+"m": 53,
+"t": "goal",
+"s_": "a",
+"who": "Arthur Theate",
+"as": "Nicolò Cambiaghi",
+"how": "Głowa"
+},
+{
+"m": 72,
+"t": "pen",
+"s_": "a",
+"who": "Riccardo Orsolini",
+"res": "Gol"
+},
+{
+"m": 72,
+"t": "yc",
+"s_": "h",
+"who": "Enrico Del Prato",
+"why": "Dyskusja z sędzią"
+},
+{
+"m": 80,
+"t": "yc",
+"s_": "a",
+"who": "Martin Vitík",
+"why": "Faul"
+},
+{
+"m": 81,
+"t": "pen",
+"s_": "h",
+"who": "Vincent Sierro",
+"res": "Gol"
+},
+{
+"m": 22,
+"t": "sub",
+"s_": "h",
+"inn": "El Bilal Touré",
+"out": "David Romero"
+},
+{
+"m": 26,
+"t": "sub",
+"s_": "a",
+"inn": "Samuel Mbangula",
+"out": "Juan Miranda"
+},
+{
+"m": 46,
+"t": "sub",
+"s_": "a",
+"inn": "Riccardo Orsolini",
+"out": "Nadir Zortea"
+},
+{
+"m": 46,
+"t": "sub",
+"s_": "h",
+"inn": "Sascha Britschgi",
+"out": "Benjamín Cremaschi"
+},
+{
+"m": 46,
+"t": "sub",
+"s_": "h",
+"inn": "Nesta Elphege",
+"out": "Simone Lontani"
+},
+{
+"m": 59,
+"t": "sub",
+"s_": "a",
+"inn": "Eivind Helland",
+"out": "Nicolò Casale"
+},
+{
+"m": 60,
+"t": "sub",
+"s_": "a",
+"inn": "Roberto Piccoli",
+"out": "Jens Odgaard"
+},
+{
+"m": 75,
+"t": "sub",
+"s_": "a",
+"inn": "Martin Vitík",
+"out": "Nicolò Cambiaghi"
+},
+{
+"m": 81,
+"t": "sub",
+"s_": "h",
+"inn": "Pontus Almqvist",
+"out": "Giovanni Fabbian"
+},
+{
+"m": 82,
+"t": "sub",
+"s_": "h",
+"inn": "Christian Ordóñez",
+"out": "Vincent Sierro"
+}
+],
+"teamStats": [
+[
+"Posiadanie %",
+32,
+68
+],
+[
+"xG",
+1.44,
+3.58
+],
+[
+"Strzały",
+11,
+33
+]
+],
+"ind": {
+"Nicolò Cambiaghi": {
+"r": 8.8
+},
+"Daffara": {
+"r": 8.4
+},
+"Arthur Theate": {
+"r": 8.3
+},
+"Federico Bernardeschi": {
+"r": 8.3
+},
+"Lewis Ferguson": {
+"r": 8.2
+},
+"Vincent Sierro": {
+"r": 7.6
+},
+"Nadir Zortea": {
+"r": 7.6
+},
+"Riccardo Orsolini": {
+"r": 7.6
+},
+"Matteo Darmian": {
+"r": 7.4
+},
+"Samuel Mbangula": {
+"r": 7.4
+},
+"Emanuele Valeri": {
+"r": 7.3
+},
+"Mariano Troilo": {
+"r": 7.2
+},
+"Tommaso Pobega": {
+"r": 7.2
+},
+"Nicolò Casale": {
+"r": 7.1
+},
+"Mandela Keita": {
+"r": 6.9
+},
+"Jens Odgaard": {
+"r": 6.8
+},
+"Enrico Del Prato": {
+"r": 6.7
+},
+"Giovanni Fabbian": {
+"r": 6.7
+},
+"Łukasz Skorupski": {
+"r": 6.7
+},
+"Benjamín Cremaschi": {
+"r": 6.5
+},
+"Simone Lontani": {
+"r": 6.4
+},
+"Juan Miranda": {
+"r": 6.4
+},
+"David Romero": {
+"r": 5.9
+}
+},
+"notes": "Parma w dziesiątkę od 9. minuty (czerwona kartka Ndiaye). Bologna: 33 strzały, xG 3,58, czwarta wygrana z rzędu pod wodzą Palladino. Minuta kartki Casale przybliżona; przypisanie części zmian do drużyn na podstawie poprzednich składów. Typ: NO BET."
 },
 {
 "id": "SA-2026-27-R11-ROM-SAS",
@@ -3252,7 +4624,7 @@ false
 "time": "20:45",
 "home": "ROM",
 "away": "SAS",
-"status": "ns",
+"status": "ft",
 "venue": {
 "name": "Stadio Olimpico",
 "city": "Rzym",
@@ -3338,7 +4710,443 @@ false
 "role": "Asystent VAR",
 "name": "Guida"
 }
+],
+"score": [
+3,
+0
+],
+"attendance": 64674,
+"weather": {
+"temp": 12
+},
+"formation": {
+"home": "3-4-2-1",
+"away": "3-5-2"
+},
+"staff": {
+"home": [
+[
+"Trener",
+"Gian Piero Gasperini"
 ]
+],
+"away": [
+[
+"Trener",
+"Alberto Aquilani"
+]
+]
+},
+"players": {
+"home": [
+[
+32,
+"Devis Vásquez",
+"BR",
+"",
+1
+],
+[
+26,
+"Leonardo Balerdi",
+"ŚO",
+"",
+1
+],
+[
+5,
+"Evan N'Dicka",
+"ŚO",
+"",
+1
+],
+[
+22,
+"Mario Hermoso",
+"ŚO",
+"",
+1
+],
+[
+20,
+"Nahuel Molina",
+"PS",
+"",
+1
+],
+[
+4,
+"Bryan Cristante",
+"ŚP",
+"",
+1
+],
+[
+17,
+"Manu Koné",
+"ŚP",
+"",
+1
+],
+[
+43,
+"Wesley",
+"LS",
+"",
+1
+],
+[
+18,
+"Matías Soulé",
+"OP",
+"",
+1
+],
+[
+86,
+"Rodrigo Mora",
+"OP",
+"",
+1
+],
+[
+14,
+"Donyell Malen",
+"N",
+"",
+1
+],
+[
+15,
+"Marten de Roon",
+"ŚP",
+"",
+0
+],
+[
+61,
+"Niccolò Pisilli",
+"ŚP",
+"",
+0
+],
+[
+3,
+"Konstantinos Koulierakis",
+"ŚO",
+"",
+0
+],
+[
+9,
+"Santiago Castro",
+"N",
+"",
+0
+],
+[
+87,
+"Daniele Ghilardi",
+"ŚO",
+"",
+0
+]
+],
+"away": [
+[
+49,
+"Arijanet Murić",
+"BR",
+"",
+1
+],
+[
+6,
+"Sebastian Walukiewicz",
+"ŚO",
+"",
+1
+],
+[
+15,
+"Duje Ćaleta-Car",
+"ŚO",
+"",
+1
+],
+[
+21,
+"Jay Idzes",
+"ŚO",
+"",
+1
+],
+[
+46,
+"Simone Cinquegrano",
+"PS",
+"",
+1
+],
+[
+55,
+"Ibrahim Sulemana",
+"ŚP",
+"",
+1
+],
+[
+18,
+"Nemanja Matić",
+"DP",
+"",
+1
+],
+[
+42,
+"Kristian Thorstvedt",
+"ŚP",
+"",
+1
+],
+[
+3,
+"Josh Doig",
+"LS",
+"",
+1
+],
+[
+94,
+"Sebastiano Esposito",
+"N",
+"",
+1
+],
+[
+45,
+"Armand Laurienté",
+"N",
+"",
+1
+],
+[
+20,
+"Ignace Van Der Brempt",
+"PS",
+"",
+0
+],
+[
+9,
+"Kieron Bowie",
+"N",
+"",
+0
+],
+[
+35,
+"Luca Lipani",
+"ŚP",
+"",
+0
+],
+[
+17,
+"Vasilije Adžić",
+"OP",
+"",
+0
+],
+[
+5,
+"Fali Candé",
+"LS",
+"",
+0
+]
+]
+},
+"events": [
+{
+"m": 27,
+"t": "goal",
+"s_": "h",
+"who": "Mario Hermoso"
+},
+{
+"m": 30,
+"t": "og",
+"s_": "h",
+"who": "Sebastian Walukiewicz"
+},
+{
+"m": 58,
+"t": "goal",
+"s_": "h",
+"who": "Rodrigo Mora",
+"as": "Donyell Malen"
+},
+{
+"m": 46,
+"t": "sub",
+"s_": "a",
+"inn": "Ignace Van Der Brempt",
+"out": "Simone Cinquegrano"
+},
+{
+"m": 46,
+"t": "sub",
+"s_": "a",
+"inn": "Kieron Bowie",
+"out": "Nemanja Matić"
+},
+{
+"m": 66,
+"t": "sub",
+"s_": "h",
+"inn": "Niccolò Pisilli",
+"out": "Rodrigo Mora"
+},
+{
+"m": 66,
+"t": "sub",
+"s_": "h",
+"inn": "Marten de Roon",
+"out": "Manu Koné"
+},
+{
+"m": 69,
+"t": "sub",
+"s_": "a",
+"inn": "Luca Lipani",
+"out": "Kristian Thorstvedt"
+},
+{
+"m": 69,
+"t": "sub",
+"s_": "a",
+"inn": "Vasilije Adžić",
+"out": "Sebastiano Esposito"
+},
+{
+"m": 77,
+"t": "sub",
+"s_": "h",
+"inn": "Santiago Castro",
+"out": "Donyell Malen"
+},
+{
+"m": 77,
+"t": "sub",
+"s_": "h",
+"inn": "Konstantinos Koulierakis",
+"out": "Mario Hermoso"
+},
+{
+"m": 77,
+"t": "sub",
+"s_": "h",
+"inn": "Daniele Ghilardi",
+"out": "Leonardo Balerdi"
+},
+{
+"m": 90,
+"t": "sub",
+"s_": "a",
+"inn": "Fali Candé",
+"out": "Duje Ćaleta-Car"
+}
+],
+"teamStats": [
+[
+"Posiadanie %",
+65,
+35
+],
+[
+"xG",
+3.39,
+0.24
+],
+[
+"Strzały",
+28,
+6
+]
+],
+"ind": {
+"Mario Hermoso": {
+"r": 8.8
+},
+"Matías Soulé": {
+"r": 8.5
+},
+"Nahuel Molina": {
+"r": 8.1
+},
+"Bryan Cristante": {
+"r": 8.1
+},
+"Donyell Malen": {
+"r": 8.1
+},
+"Rodrigo Mora": {
+"r": 8.0
+},
+"Evan N'Dicka": {
+"r": 7.9
+},
+"Wesley": {
+"r": 7.9
+},
+"Leonardo Balerdi": {
+"r": 7.8
+},
+"Manu Koné": {
+"r": 7.7
+},
+"Devis Vásquez": {
+"r": 7.0
+},
+"Niccolò Pisilli": {
+"r": 7.2
+},
+"Duje Ćaleta-Car": {
+"r": 7.8
+},
+"Arijanet Murić": {
+"r": 7.2
+},
+"Jay Idzes": {
+"r": 6.8
+},
+"Kristian Thorstvedt": {
+"r": 6.6
+},
+"Josh Doig": {
+"r": 6.4
+},
+"Armand Laurienté": {
+"r": 6.2
+},
+"Sebastiano Esposito": {
+"r": 6.2
+},
+"Nemanja Matić": {
+"r": 5.9
+},
+"Ibrahim Sulemana": {
+"r": 5.8
+},
+"Simone Cinquegrano": {
+"r": 5.6
+},
+"Sebastian Walukiewicz": {
+"r": 4.8
+}
+},
+"notes": "Roma traci do Lazio już tylko punkt. Samobój Walukiewicza po podwójnym rykoszecie strzału Malena. 28 strzałów i xG 3,39 Romy. Kartek w źródle brak. Typ: NO BET."
 },
 {
 "id": "SA-2026-27-R11-NAP-LAZ",
@@ -3436,7 +5244,7 @@ false
 "name": "Mazzoleni"
 }
 ],
-"notes": "Przewidywane składy (Goal.com, 06.11): Napoli 3-5-2 – Meret; Beukema, Rrahmani, Rafa Marín; Politano, Anguissa, Gilmour/De Bruyne, McTominay, Lang; Giovane, Højlund. Lazio 4-3-3 – Mandas; Floriani, Sutalo, Provstgaard, Nuno Tavares; Frattesi, Belahyane, Taylor; Isaksen, Noslin/Pinamonti, Cancellieri."
+"notes": "Przewidywane składy (Goal.com, 06.11): Napoli 3-5-2 – Meret; Beukema, Rrahmani, Rafa Marín; Politano, Anguissa, Gilmour/De Bruyne, McTominay, Lang; Giovane, Højlund. Lazio 4-3-3 – Mandas; Floriani, Sutalo, Provstgaard, Nuno Tavares; Frattesi, Belahyane, Taylor; Isaksen, Noslin/Pinamonti, Cancellieri. Football Magazine (07.11): Napoli 3-5-1-1 z De Bruyne za Højlundem (trener Allegri); w Lazio (Gattuso) przewidziany Zaccagni mimo wcześniejszych doniesień o urazie. Kursy 05.11 na Napoli: 2,05–2,20."
 },
 {
 "id": "SA-2026-27-R11-GEN-MIL",
@@ -3521,7 +5329,8 @@ false
 "role": "Asystent VAR",
 "name": "Marini"
 }
-]
+],
+"notes": "Przewidywane składy (Football Magazine, 07.11): Genoa 3-4-2-1 – Bijlow; Marcandalli, Østigård, Vásquez; Ehizibue, Frendrup, Hamed Traorè, Ellertsson; Messias, El Shaarawy; Osmajić (trener De Rossi). Milan 4-4-1-1 – Maignan; Gila, De Winter, Pavlović, Diawara; Moreira, Musah, Modrić, Pulisic; Rabiot; Gonçalo Ramos (trener Amorim). Kursy 05.11: Genoa 4,40–4,50."
 },
 {
 "id": "SA-2026-27-R11-MON-ATA",
@@ -3610,7 +5419,8 @@ false
 "role": "Asystent VAR",
 "name": "Abbri"
 }
-]
+],
+"notes": "Przewidywane składy (Football Magazine, 07.11): Monza 3-4-2-1 – Törnqvist; Kouadio, Goglichidze, Lucchesi; Birindelli, Akinsanmiro, Foe Ondoa, Mangas; Mota, Zeballos; Gustavo Varela (trener Jurić). Atalanta 4-2-3-1 – Carnesecchi; Zappacosta, Scalvini, Obrić, Bernasconi; Pašalić, Ederson; Elmas, De Ketelaere, Rowe; Krstović (trener Sarri). Kursy 05.11 na Atalantę: 1,93–2,00."
 },
 {
 "id": "SA-2026-27-R11-INT-COM",
@@ -3703,7 +5513,8 @@ false
 "role": "Asystent VAR",
 "name": "Gariglio"
 }
-]
+],
+"notes": "Przewidywane składy (Football Magazine, 07.11): Inter 3-5-2 – Josep Martínez; Bisseck, Akanji, Bastoni; Diouf, Barella, Çalhanoğlu, Zieliński, Dimarco; F. P. Esposito, Thuram. Como 4-2-3-1 – Butez; Couto, Ramón, Kempf, Valle; Perrone, Da Cunha; Liberali, Nico Paz, Baturina; Douvikas."
 },
 {
 "id": "SA-2026-27-R11-FIO-JUV",
@@ -3790,7 +5601,8 @@ false
 "role": "Asystent VAR",
 "name": "Meraviglia"
 }
-]
+],
+"notes": "Przewidywane składy (Football Magazine, 07.11): Fiorentina 4-3-2-1 – De Gea; Jiménez, Dragusin, Viti, João Mário; Ndour, Fagioli, Brescianini; Mastantuono, Njie; Pellegrino. Juventus 4-4-2 – Vicario; Kalulu, Bremer, Lucumí, Cabal; McKennie, Koopmeiners, Douglas Luiz, Alajbegović; Woltemade, Kolo Muani."
 }
 ],
 "12": [

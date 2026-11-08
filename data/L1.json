@@ -1,9 +1,9 @@
 {
- "updated": "2026-11-07T06:45:00+01:00",
+ "updated": "2026-11-08T06:40:00+01:00",
  "season": "2026/27",
  "competition": "Ligue 1",
  "currentRound": 10,
- "note": "Źródła: rcstrasbourgalsace.fr i Maxifoot (raport i noty TOU–STR), ESPN (statystyki TOU–STR), footeo; ligue1.com (terminarz, obsada sędziowska J10); compare-bet.fr (najlepsze kursy 1X2, 06.11.2026), Betclic przez Flashscore (07.11), Unibet przez Goal.com, ButFootballClub, ViPSG (przewidywane składy); wcześniej: Sports Mole, Oddslot, Gidstats, FotMob, L'Équipe i inne.",
+ "note": "Źródła: Maxifoot (raport i noty PSG–TRO, 07.11), hommedumatch.fr (noty AUX–PFC), Foot01 (AUX–PFC, tabela); rcstrasbourgalsace.fr, Maxifoot, ESPN (TOU–STR); ligue1.com (terminarz, obsada sędziowska J10); compare-bet.fr (kursy 1X2, 06.11.2026), Betclic przez Flashscore (07.11), Unibet przez Goal.com; Fox Sports (statystyki sezonu PSG/TRO). Brak minut kartek i zmian w AUX–PFC oraz numerów zawodników w meczach z 07.11.",
  "teams": {
   "ANG": {
    "id": "ANG",
@@ -171,14 +171,25 @@
  "table": [
   {
    "team": "PSG",
-   "p": 9,
-   "w": 6,
+   "p": 10,
+   "w": 7,
    "d": 2,
    "l": 1,
-   "gf": 21,
+   "gf": 22,
+   "ga": 10,
+   "pts": 23,
+   "form": "WWWWW"
+  },
+  {
+   "team": "PFC",
+   "p": 10,
+   "w": 6,
+   "d": 2,
+   "l": 2,
+   "gf": 17,
    "ga": 10,
    "pts": 20,
-   "form": "WWWWW"
+   "form": "LWLWW"
   },
   {
    "team": "LIL",
@@ -199,17 +210,6 @@
    "l": 2,
    "gf": 15,
    "ga": 7,
-   "pts": 17,
-   "form": "WLWLW"
-  },
-  {
-   "team": "PFC",
-   "p": 9,
-   "w": 5,
-   "d": 2,
-   "l": 2,
-   "gf": 16,
-   "ga": 10,
    "pts": 17,
    "form": "WLWLW"
   },
@@ -314,14 +314,14 @@
   },
   {
    "team": "AUX",
-   "p": 9,
+   "p": 10,
    "w": 3,
    "d": 1,
-   "l": 5,
+   "l": 6,
    "gf": 13,
-   "ga": 23,
+   "ga": 24,
    "pts": 10,
-   "form": "WLWDL"
+   "form": "LWDLL"
   },
   {
    "team": "ANG",
@@ -336,14 +336,14 @@
   },
   {
    "team": "TRO",
-   "p": 9,
+   "p": 10,
    "w": 2,
    "d": 2,
-   "l": 5,
+   "l": 6,
    "gf": 7,
-   "ga": 16,
+   "ga": 17,
    "pts": 8,
-   "form": "LLLDW"
+   "form": "LLDWL"
   },
   {
    "team": "LMA",
@@ -3553,7 +3553,7 @@
     "time": "19:00",
     "home": "AUX",
     "away": "PFC",
-    "status": "ns",
+    "status": "ft",
     "venue": {
      "name": "Stade de l'Abbé-Deschamps",
      "city": "Auxerre",
@@ -3639,7 +3639,91 @@
       "Bez przewagi na rynku 1X2 — brak typu."
      ]
     },
-    "notes": "Mecz przeniesiony z 17:15 na 19:00 (LFP/Ligue 1+)."
+    "notes": "Jedyny gol: Lassine Sinayoko (63'), były zawodnik Auxerre — wyleczył uraz i zagrał od początku. Paris FC awansował na 2. miejsce. Wyjściowe — Auxerre (4-3-3): Nardi; Senaya, Tuanzebe, Diomandé, Siwe; Ahamada, Ekwah, Oppegård; Faivre, Archer, Namaso. Paris FC (3-4-2-1): Trapp; H. Traoré, Coppola, Otávio; Simon, Lopez, Lees-Melou, Kebbal; Pagis, Matondo; Sinayoko. Zmiany (minuty nieznane): AUX — Sy za Senayę, Akpa za Siwe, Danois za Ahamadę, Mandengue za Oppegårda, Labeau Lascary za Namaso; PFC — Koleosho za Simona, Zabi za Kebbala, Mbow za Pagisa, Sissoko za Sinayoko. Żółte kartki (minuty nieznane): Diomandé, Danois, Archer (AUX), Lees-Melou (PFC). Noty: hommedumatch.fr. Wydarzenia niepełne.",
+    "score": [
+     0,
+     1
+    ],
+    "formation": {
+     "home": "4-3-3",
+     "away": "3-4-2-1"
+    },
+    "events": [
+     {
+      "m": 63,
+      "t": "goal",
+      "s_": "a",
+      "who": "Lassine Sinayoko"
+     }
+    ],
+    "ind": {
+     "P. Nardi": {
+      "r": 4
+     },
+     "M. Senaya": {
+      "r": 7
+     },
+     "A. Tuanzebe": {
+      "r": 7
+     },
+     "S. Diomandé": {
+      "r": 6.5
+     },
+     "T. Siwe": {
+      "r": 6.5
+     },
+     "N. Ahamada": {
+      "r": 6
+     },
+     "P. Ekwah": {
+      "r": 6.5
+     },
+     "F. Oppegård": {
+      "r": 3
+     },
+     "R. Faivre": {
+      "r": 7
+     },
+     "C. Archer": {
+      "r": 6
+     },
+     "D. Namaso": {
+      "r": 6
+     },
+     "K. Trapp": {
+      "r": 7
+     },
+     "H. Traoré": {
+      "r": 7
+     },
+     "D. Coppola": {
+      "r": 7
+     },
+     "Otávio": {
+      "r": 6.5
+     },
+     "M. Simon": {
+      "r": 6
+     },
+     "M. Lopez": {
+      "r": 7
+     },
+     "P. Lees-Melou": {
+      "r": 7
+     },
+     "I. Kebbal": {
+      "r": 6.5
+     },
+     "P. Pagis": {
+      "r": 7.5
+     },
+     "R. Matondo": {
+      "r": 6
+     },
+     "L. Sinayoko": {
+      "r": 8
+     }
+    }
    },
    {
     "id": "L1-2026-27-R10-PSG-TRO",
@@ -3647,7 +3731,7 @@
     "time": "21:05",
     "home": "PSG",
     "away": "TRO",
-    "status": "ns",
+    "status": "ft",
     "venue": {
      "name": "Parc des Princes",
      "city": "Paryż",
@@ -3730,7 +3814,162 @@
       "Faworyt jest w pełni wyceniony — brak wartości na dostępnych rynkach."
      ]
     },
-    "notes": "Mecz przeniesiony z 20:45 na 21:05 na prośbę Ligue 1+."
+    "notes": "Gol Zabarnyiego głową po krótkim rożnym i dośrodkowaniu Mayulu (39'). Konaté 6 obron; Zaïre-Emery trafił w słupek; gol Maronniera (TRO) anulowany za spalonego. Wyjściowe — PSG: Safonov; Zabarnyi, Pacho; Zaïre-Emery, L. Hernández; Mayulu, Vitinha, Fabián Ruiz; Doué, Ferran Torres, Godts. Troyes: Konaté; Monfray, Michel Diaz; Maronnier, Boura; Karim; Ifnaoui, Mille, Diop, Diawara; Ripart. Minuta zmiany Fabiána Ruiza niespójna w źródle (86' lub 56'). Noty: Maxifoot (skala 0–10). 11. z rzędu zwycięstwo PSG we wszystkich rozgrywkach (Eurosport).",
+    "score": [
+     1,
+     0
+    ],
+    "events": [
+     {
+      "m": 34,
+      "t": "yc",
+      "s_": "h",
+      "who": "Illia Zabarnyi"
+     },
+     {
+      "m": 39,
+      "t": "goal",
+      "s_": "h",
+      "who": "Illia Zabarnyi",
+      "as": "Senny Mayulu",
+      "how": "Głowa"
+     },
+     {
+      "m": 62,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Hugo Picard",
+      "out": "Diawara"
+     },
+     {
+      "m": 62,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Jérémy Le Douaron",
+      "out": "Ripart"
+     },
+     {
+      "m": 70,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Quentin Ndjantou",
+      "out": "Ferran Torres"
+     },
+     {
+      "m": 70,
+      "t": "sub",
+      "s_": "h",
+      "inn": "João Neves",
+      "out": "Godts"
+     },
+     {
+      "m": 72,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Idrissa Soukouna",
+      "out": "Ifnaoui"
+     },
+     {
+      "m": 73,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Yvann Titi",
+      "out": "Boura"
+     },
+     {
+      "m": 79,
+      "t": "yc",
+      "s_": "a",
+      "who": "Jérémy Le Douaron"
+     },
+     {
+      "m": 85,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Timothée Nkada",
+      "out": "Diop"
+     },
+     {
+      "m": 86,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Dro Fernández",
+      "out": "Senny Mayulu"
+     },
+     {
+      "m": 86,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Lucas Beraldo",
+      "out": "Fabián Ruiz"
+     }
+    ],
+    "ind": {
+     "Warren Zaïre-Emery": {
+      "r": 8
+     },
+     "Senny Mayulu": {
+      "r": 7
+     },
+     "Matvey Safonov": {
+      "r": 6
+     },
+     "Illia Zabarnyi": {
+      "r": 6
+     },
+     "Willian Pacho": {
+      "r": 6
+     },
+     "Lucas Hernández": {
+      "r": 6
+     },
+     "Vitinha": {
+      "r": 6
+     },
+     "Désiré Doué": {
+      "r": 6
+     },
+     "Fabián Ruiz": {
+      "r": 5.5
+     },
+     "Ferran Torres": {
+      "r": 4
+     },
+     "Godts": {
+      "r": 4
+     },
+     "Konaté": {
+      "r": 7
+     },
+     "Karim": {
+      "r": 7
+     },
+     "Mille": {
+      "r": 6
+     },
+     "Boura": {
+      "r": 5.5
+     },
+     "Maronnier": {
+      "r": 5
+     },
+     "Monfray": {
+      "r": 5
+     },
+     "Diop": {
+      "r": 5
+     },
+     "Diawara": {
+      "r": 5
+     },
+     "Ifnaoui": {
+      "r": 4
+     },
+     "Ripart": {
+      "r": 3
+     }
+    },
+    "staff": {}
    },
    {
     "id": "L1-2026-27-R10-REN-LIL",
@@ -3815,6 +4054,7 @@
       "Lille X2 po 1,70: p ≈ 0,58 → EV ≈ −0,01; Rennes 1 po 2,05: p ≈ 0,42 → EV ≈ −0,14. Rennes w czwartek 0:0 w LE — zmęczenie, ale bez nowych urazów w źródłach.",
       "Rennes prawdopodobnie bez Lepaula (kostka), Lille bez Uedy i Igamane — absencje po obu stronach; brak kursów O/U 2,5 i BTTS.",
       "Brak Lepaula lekko podnosi szanse Lille (X2 ok. 0,60 → EV ≈ +0,02 przy 1,70) — przewaga zbyt mała przy tej niepewności.",
+      "Aktualizacja 08.11: brak nowych potwierdzonych informacji zmieniających ocenę — decyzja podtrzymana.",
       "Brak przewagi — NO BET."
      ]
     }
@@ -3899,6 +4139,7 @@
       "Mój szacunek: Brest ok. 35%, remis 28%, Lyon 37% — Lyon lepszy w tabeli, ale słaby na wyjazdach i po czwartkowym meczu LE.",
       "Brest 1X: najlepsza cena spadła z 1,57 do ok. 1,44 (Unibet) — przy p ≈ 0,64 EV ≈ −0,08; Brest 1 po 2,67: p ≈ 0,36 → EV ≈ −0,04; Lyon 2 po 2,42: p ≈ 0,36 → EV ≈ −0,13.",
       "Lyon bez Niakhaté i Nuamaha, Greif i Merah z urazami po LE — przemawia za Brestem, ale stopień rotacji nieznany; przewaga za mała.",
+      "Aktualizacja 08.11: brak nowych potwierdzonych informacji zmieniających ocenę — decyzja podtrzymana.",
       "Brak przewagi — NO BET."
      ]
     }
@@ -3976,6 +4217,7 @@
       "Mój szacunek: Monaco ok. 53% — przewaga jakości, ale 4 mecze bez wygranej i słabsza forma ofensywna (12 goli w 9 meczach).",
       "Monaco 2 po 1,70: EV ≈ 0,53 × 1,70 − 1 ≈ −0,10; X2 po 1,18: p ≈ 0,77 → EV ≈ −0,09.",
       "Brak kursów na gole i informacji o kontuzjach.",
+      "Aktualizacja 08.11: brak nowych potwierdzonych informacji zmieniających ocenę — decyzja podtrzymana.",
       "Brak przewagi — NO BET."
      ]
     }
@@ -4057,6 +4299,7 @@
       "Mój szacunek: Nice ok. 47% — dobra forma ligowa, ale słabe wyniki wyjazdowe.",
       "Nice 2 po 2,00: EV ≈ 0,47 × 2,00 − 1 ≈ −0,06; X2 po 1,33: p ≈ 0,73 → EV ≈ −0,03.",
       "Brak informacji o składach i kursów na rynki bramkowe.",
+      "Aktualizacja 08.11: brak nowych potwierdzonych informacji zmieniających ocenę — decyzja podtrzymana.",
       "Brak przewagi — NO BET."
      ]
     }
@@ -4138,6 +4381,7 @@
       "Mój szacunek: Le Havre ok. 32%, remis 31%, Lorient 37%.",
       "Lorient X2 po 1,40: p ≈ 0,68 → EV ≈ −0,05; Lorient 2 po 2,50: p ≈ 0,37 → EV ≈ −0,08.",
       "Naturalnym rynkiem byłoby poniżej 2,5 gola (Lorient: 15 goli w 9 meczach), ale nie znalazłem wiarygodnego kursu.",
+      "Aktualizacja 08.11: brak nowych potwierdzonych informacji zmieniających ocenę — decyzja podtrzymana.",
       "Brak przewagi — NO BET."
      ]
     }
@@ -4225,6 +4469,7 @@
       "Lens po 1:9 z Como i z długą listą kontuzji (Édouard, Sima, Ganiou, Chávez, Nawrocki) — kurs na gospodarzy wydaje się za niski.",
       "Mój szacunek: Lens ok. 40%, remis 25%, OM 35% → OM 2 po 3,00: EV ≈ +0,05; X2 po 1,70: p ≈ 0,60 → EV ≈ +0,02 — za mała przewaga przy tej niepewności.",
       "Przeciw OM: czwartkowy mecz LE w Leverkusen (wygrany 1:0), 2 dni odpoczynku i podróż; rotacja nieznana.",
+      "Aktualizacja 08.11: brak nowych potwierdzonych informacji zmieniających ocenę — decyzja podtrzymana.",
       "Zbyt duża niepewność (reakcja Lens po klęsce, zmęczenie OM) — NO BET."
      ]
     }
