@@ -1,9 +1,9 @@
 {
- "updated": "2026-11-08T06:40:00+01:00",
+ "updated": "2026-11-09T06:30:00+01:00",
  "season": "2026/27",
  "competition": "Bundesliga",
  "currentRound": 9,
- "note": "Źródła: hessenschau.de (terminarz, tabela po 8. kolejce), t-online.de (BVB–Elversberg, obsady), bundesliga.com (Mainz–Bayern, Lipsk–Augsburg), sportschau.de (Paderborn–Eintracht), deichstube.de i absolutfussball.com (Stuttgart–Werder), ESPN (składy Stuttgart–Werder), livetipsportal.com (kursy Köln–Leverkusen, 8.11), buli-tipphilfe.de, wettfreunde.net, wettbasis.com, footballpredictions.com (kursy i absencje), ig-schiedsrichter.de (sędziowie). Tabela przeliczona po meczach 6–7.11; mecze 8.11 jeszcze nierozegrane.",
+ "note": "Źródła: hessenschau.de, t-online.de, bundesliga.com, sportschau.de, deichstube.de, absolutfussball.com, ESPN, zdfheute.de, news.de, getfootballnewsgermany.com, livetipsportal.com, buli-tipphilfe.de, wettfreunde.net, wettbasis.com, footballpredictions.com, ig-schiedsrichter.de. Tabela po 9. kolejce (komplet). Przerwa reprezentacyjna – 10. kolejka od 20.11; typy na nią pojawią się na 3 dni przed meczami.",
  "teams": {
   "BAY": {
    "id": "BAY",
@@ -192,6 +192,17 @@
    "form": "DDWDW"
   },
   {
+   "team": "SCF",
+   "p": 9,
+   "w": 6,
+   "d": 1,
+   "l": 2,
+   "gf": 20,
+   "ga": 10,
+   "pts": 19,
+   "form": "WLLWW"
+  },
+  {
    "team": "RBL",
    "p": 9,
    "w": 6,
@@ -203,15 +214,15 @@
    "form": "WLWWW"
   },
   {
-   "team": "SCF",
-   "p": 8,
+   "team": "LEV",
+   "p": 9,
    "w": 5,
    "d": 1,
-   "l": 2,
-   "gf": 18,
-   "ga": 10,
+   "l": 3,
+   "gf": 20,
+   "ga": 17,
    "pts": 16,
-   "form": "DWLLW"
+   "form": "WWLLW"
   },
   {
    "team": "BRE",
@@ -223,17 +234,6 @@
    "ga": 15,
    "pts": 15,
    "form": "DDWWL"
-  },
-  {
-   "team": "LEV",
-   "p": 8,
-   "w": 4,
-   "d": 1,
-   "l": 3,
-   "gf": 18,
-   "ga": 16,
-   "pts": 13,
-   "form": "WWWLL"
   },
   {
    "team": "ELV",
@@ -256,6 +256,17 @@
    "ga": 15,
    "pts": 12,
    "form": "WLLWW"
+  },
+  {
+   "team": "HOF",
+   "p": 9,
+   "w": 4,
+   "d": 0,
+   "l": 5,
+   "gf": 16,
+   "ga": 17,
+   "pts": 12,
+   "form": "LWWLW"
   },
   {
    "team": "EIN",
@@ -313,48 +324,37 @@
    "form": "DLDLL"
   },
   {
-   "team": "HOF",
-   "p": 8,
-   "w": 3,
-   "d": 0,
-   "l": 5,
-   "gf": 14,
-   "ga": 16,
-   "pts": 9,
-   "form": "LLWWL"
-  },
-  {
    "team": "KOE",
-   "p": 8,
+   "p": 9,
    "w": 2,
    "d": 3,
-   "l": 3,
-   "gf": 9,
-   "ga": 12,
+   "l": 4,
+   "gf": 10,
+   "ga": 14,
    "pts": 9,
-   "form": "LWLDD"
+   "form": "WLDDL"
   },
   {
    "team": "UNI",
-   "p": 8,
+   "p": 9,
    "w": 1,
    "d": 4,
-   "l": 3,
+   "l": 4,
    "gf": 7,
-   "ga": 19,
+   "ga": 21,
    "pts": 7,
-   "form": "LWDDD"
+   "form": "WDDDL"
   },
   {
    "team": "SCH",
-   "p": 8,
+   "p": 9,
    "w": 1,
    "d": 3,
-   "l": 4,
-   "gf": 4,
-   "ga": 9,
+   "l": 5,
+   "gf": 5,
+   "ga": 11,
    "pts": 6,
-   "form": "DLLDL"
+   "form": "LLDLL"
   },
   {
    "team": "BMG",
@@ -4517,7 +4517,7 @@
     "time": "15:30",
     "home": "KOE",
     "away": "LEV",
-    "status": "ns",
+    "status": "ft",
     "venue": {
      "name": "RheinEnergieStadion",
      "city": "Kolonia",
@@ -4546,6 +4546,12 @@
      }
     ],
     "staff": {
+     "home": [
+      [
+       "Trener",
+       "René Wagner"
+      ]
+     ],
      "away": [
       [
        "Trener",
@@ -4593,7 +4599,437 @@
       "BTTS Tak po 1.43 (ok. 70%) – mecze Bayeru bramkostrzelne, ale Köln strzelił tylko 9 goli w 8 kolejkach; szacuję 62–66%, EV ujemne. BTTS Nie po 2.85 (35%) – szacunek 34–38%, przewaga zbyt cienka.",
       "Leverkusen wygrał 5 ostatnich meczów z Kölnem, lecz H2H nie może być podstawą typu przy obecnej formie obu drużyn."
      ]
-    }
+    },
+    "score": [
+     1,
+     2
+    ],
+    "players": {
+     "home": [
+      [
+       1,
+       "Marvin Schwäbe",
+       "BR",
+       "",
+       true
+      ],
+      [
+       28,
+       "Sebastian Sebulonsen",
+       "PO",
+       "",
+       true
+      ],
+      [
+       2,
+       "Joël Schmied",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       22,
+       "Jahmai Simpson-Pusey",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       3,
+       "Borna Sosa",
+       "LO",
+       "",
+       true
+      ],
+      [
+       5,
+       "Tom Krauß",
+       "DP",
+       "",
+       true
+      ],
+      [
+       23,
+       "Paul Okon-Engstler",
+       "ŚP",
+       "",
+       true
+      ],
+      [
+       37,
+       "Linton Maina",
+       "PS",
+       "",
+       true
+      ],
+      [
+       47,
+       "Mikey Moore",
+       "OP",
+       "",
+       true
+      ],
+      [
+       10,
+       "Said El Mala",
+       "LS",
+       "",
+       true
+      ],
+      [
+       30,
+       "Marius Bülter",
+       "N",
+       "",
+       true
+      ],
+      [
+       "",
+       "Ísak Jóhannesson",
+       "ŚP",
+       "",
+       false
+      ],
+      [
+       "",
+       "Malek El Mala",
+       "N",
+       "",
+       false
+      ],
+      [
+       "",
+       "Reigan Heskey",
+       "LS",
+       "",
+       false
+      ],
+      [
+       "",
+       "Alessio Castro-Montes",
+       "PO",
+       "",
+       false
+      ],
+      [
+       "",
+       "Luca Waldschmidt",
+       "N",
+       "",
+       false
+      ],
+      [
+       "",
+       "Ron-Robert Zieler",
+       "BR",
+       "",
+       false
+      ]
+     ],
+     "away": [
+      [
+       1,
+       "Mark Flekken",
+       "BR",
+       "",
+       true
+      ],
+      [
+       4,
+       "Jarell Quansah",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       12,
+       "Edmond Tapsoba",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       2,
+       "Facundo Medina",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       3,
+       "Miguel Gutiérrez",
+       "LO",
+       "",
+       true
+      ],
+      [
+       6,
+       "Ezequiel Fernández",
+       "DP",
+       "",
+       true
+      ],
+      [
+       24,
+       "Aleix García",
+       "ŚP",
+       "",
+       true
+      ],
+      [
+       9,
+       "Afonso Moreira",
+       "PS",
+       "",
+       true
+      ],
+      [
+       10,
+       "Malik Tillman",
+       "OP",
+       "",
+       true
+      ],
+      [
+       30,
+       "Ibrahim Maza",
+       "OP",
+       "",
+       true
+      ],
+      [
+       14,
+       "Patrik Schick",
+       "N",
+       "",
+       true
+      ],
+      [
+       "",
+       "Jonas Hofmann",
+       "OP",
+       "",
+       false
+      ],
+      [
+       "",
+       "Robert Andrich",
+       "DP",
+       "",
+       false
+      ],
+      [
+       "",
+       "Loïc Badé",
+       "ŚO",
+       "",
+       false
+      ],
+      [
+       "",
+       "Lucas Vázquez",
+       "PO",
+       "",
+       false
+      ],
+      [
+       "",
+       "Victor Boniface",
+       "N",
+       "",
+       false
+      ]
+     ]
+    },
+    "events": [
+     {
+      "m": 7,
+      "t": "goal",
+      "s_": "a",
+      "who": "Aleix García",
+      "how": "Rzut wolny bezpośredni"
+     },
+     {
+      "m": 34,
+      "t": "yc",
+      "s_": "a",
+      "who": "Facundo Medina"
+     },
+     {
+      "m": 40,
+      "t": "yc",
+      "s_": "h",
+      "who": "Tom Krauß"
+     },
+     {
+      "m": 46,
+      "t": "yc",
+      "s_": "h",
+      "who": "Mikey Moore"
+     },
+     {
+      "m": 52,
+      "t": "yc",
+      "s_": "h",
+      "who": "Linton Maina"
+     },
+     {
+      "m": 52,
+      "t": "yc",
+      "s_": "a",
+      "who": "Afonso Moreira"
+     },
+     {
+      "m": 53,
+      "t": "yc",
+      "s_": "a",
+      "who": "Edmond Tapsoba"
+     },
+     {
+      "m": 57,
+      "t": "yc",
+      "s_": "h",
+      "who": "Joël Schmied"
+     },
+     {
+      "m": 70,
+      "t": "yc",
+      "s_": "h",
+      "who": "Borna Sosa"
+     },
+     {
+      "m": 74,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Ísak Jóhannesson",
+      "out": "Tom Krauß"
+     },
+     {
+      "m": 75,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Malek El Mala",
+      "out": "Marius Bülter"
+     },
+     {
+      "m": 75,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Reigan Heskey",
+      "out": "Linton Maina"
+     },
+     {
+      "m": 76,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Jonas Hofmann",
+      "out": "Malik Tillman"
+     },
+     {
+      "m": 84,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Alessio Castro-Montes",
+      "out": "Sebastian Sebulonsen"
+     },
+     {
+      "m": 84,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Luca Waldschmidt",
+      "out": "Mikey Moore"
+     },
+     {
+      "m": 85,
+      "t": "goal",
+      "s_": "a",
+      "who": "Patrik Schick",
+      "as": "Ibrahim Maza",
+      "how": "Lewa noga"
+     },
+     {
+      "m": 88,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Robert Andrich",
+      "out": "Ibrahim Maza"
+     },
+     {
+      "m": 88,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Loïc Badé",
+      "out": "Facundo Medina"
+     },
+     {
+      "m": 90,
+      "s": "+2",
+      "t": "goal",
+      "s_": "h",
+      "who": "Said El Mala",
+      "as": "Malek El Mala",
+      "how": "Prawa noga"
+     },
+     {
+      "m": 90,
+      "s": "+5",
+      "t": "yc",
+      "s_": "a",
+      "who": "Aleix García"
+     },
+     {
+      "m": 90,
+      "s": "+5",
+      "t": "yc",
+      "s_": "h",
+      "who": "Jahmai Simpson-Pusey"
+     },
+     {
+      "m": 90,
+      "s": "+6",
+      "t": "yc",
+      "s_": "a",
+      "who": "Jonas Hofmann"
+     }
+    ],
+    "teamStats": [
+     [
+      "Posiadanie %",
+      41,
+      59
+     ],
+     [
+      "Strzały",
+      10,
+      15
+     ],
+     [
+      "Rzuty rożne",
+      2,
+      6
+     ],
+     [
+      "Faule",
+      12,
+      12
+     ],
+     [
+      "Spalone",
+      1,
+      0
+     ],
+     [
+      "Celność podań %",
+      86,
+      91
+     ],
+     [
+      "Dystans drużyny (km)",
+      119.3,
+      118.2
+     ]
+    ],
+    "notes": "Do przerwy 0:1. 82' – Zwayer nie uznał gola Schicka (zagranie ręką przed strzałem); odrzucone apele o karne dla Kolonii (49') i przy Medinie (51'). Stadion wyprzedany (ok. 5000 kibiców Bayeru). Ustawienia i pozycje zawodników orientacyjne – źródła nie podały formacji. Źródła: zdfheute.de (ticker), news.de."
    },
    {
     "id": "BL-2026-27-R9-SCF-UNI",
@@ -4601,7 +5037,7 @@
     "time": "17:30",
     "home": "SCF",
     "away": "UNI",
-    "status": "ns",
+    "status": "ft",
     "venue": {
      "name": "Europa-Park Stadion",
      "city": "Fryburg Bryzgowijski",
@@ -4672,7 +5108,518 @@
       "name": "Guido Winkmann",
       "nat": "GER"
      }
-    ]
+    ],
+    "score": [
+     2,
+     0
+    ],
+    "formation": {
+     "home": "4-2-3-1",
+     "away": "4-1-3-2"
+    },
+    "players": {
+     "home": [
+      [
+       1,
+       "Backhaus",
+       "BR",
+       "",
+       true
+      ],
+      [
+       29,
+       "Philipp Treu",
+       "PO",
+       "",
+       true
+      ],
+      [
+       28,
+       "Matthias Ginter",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       3,
+       "Philipp Lienhart",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       33,
+       "Jordy Makengo",
+       "LO",
+       "",
+       true
+      ],
+      [
+       8,
+       "Maximilian Eggestein",
+       "DP",
+       "",
+       true
+      ],
+      [
+       16,
+       "Engelhardt",
+       "ŚP",
+       "",
+       true
+      ],
+      [
+       19,
+       "Jan-Niklas Beste",
+       "PS",
+       "",
+       true
+      ],
+      [
+       14,
+       "Yuito Suzuki",
+       "OP",
+       "",
+       true
+      ],
+      [
+       7,
+       "Derry Scherhant",
+       "LS",
+       "",
+       true
+      ],
+      [
+       31,
+       "Igor Matanović",
+       "N",
+       "",
+       true
+      ],
+      [
+       "",
+       "Goto",
+       "N",
+       "",
+       false
+      ],
+      [
+       "",
+       "Vincenzo Grifo",
+       "LS",
+       "",
+       false
+      ],
+      [
+       "",
+       "Patrick Osterhage",
+       "ŚP",
+       "",
+       false
+      ],
+      [
+       "",
+       "Lucas Höler",
+       "N",
+       "",
+       false
+      ],
+      [
+       "",
+       "Lukas Kübler",
+       "PO",
+       "",
+       false
+      ],
+      [
+       21,
+       "Florian Müller",
+       "BR",
+       "",
+       false
+      ],
+      [
+       30,
+       "Christian Günter",
+       "LO",
+       "",
+       false
+      ],
+      [
+       37,
+       "Max Rosenfelder",
+       "ŚO",
+       "",
+       false
+      ],
+      [
+       22,
+       "Irié",
+       "N",
+       "",
+       false
+      ]
+     ],
+     "away": [
+      [
+       1,
+       "Frederik Rønnow",
+       "BR",
+       "",
+       true
+      ],
+      [
+       19,
+       "Janik Haberer",
+       "PO",
+       "",
+       true
+      ],
+      [
+       4,
+       "Van den Bosch",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       5,
+       "Friedrich",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       17,
+       "Derrick Köhn",
+       "LO",
+       "",
+       true
+      ],
+      [
+       8,
+       "Rani Khedira",
+       "DP",
+       "",
+       true
+      ],
+      [
+       13,
+       "András Schäfer",
+       "ŚP",
+       "",
+       true
+      ],
+      [
+       30,
+       "Imeri",
+       "OP",
+       "",
+       true
+      ],
+      [
+       20,
+       "Aebischer",
+       "ŚP",
+       "",
+       true
+      ],
+      [
+       21,
+       "Tim Skarke",
+       "N",
+       "",
+       true
+      ],
+      [
+       9,
+       "Livan Burcu",
+       "N",
+       "",
+       true
+      ],
+      [
+       "",
+       "Oliver Burke",
+       "N",
+       "",
+       false
+      ],
+      [
+       "",
+       "Jeong Woo-yeong",
+       "PS",
+       "",
+       false
+      ],
+      [
+       "",
+       "Andrej Ilić",
+       "N",
+       "",
+       false
+      ],
+      [
+       "",
+       "L. Güther",
+       "ŚP",
+       "",
+       false
+      ],
+      [
+       "",
+       "Tom Rothe",
+       "LO",
+       "",
+       false
+      ],
+      [
+       14,
+       "Leopold Querfeld",
+       "ŚO",
+       "",
+       false
+      ],
+      [
+       29,
+       "Emmanuel Latte Lath",
+       "N",
+       "",
+       false
+      ],
+      [
+       28,
+       "Christopher Trimmel",
+       "PO",
+       "",
+       false
+      ],
+      [
+       31,
+       "Matheo Raab",
+       "BR",
+       "",
+       false
+      ]
+     ]
+    },
+    "events": [
+     {
+      "m": 45,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Oliver Burke",
+      "out": "Tim Skarke"
+     },
+     {
+      "m": 45,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Jeong Woo-yeong",
+      "out": "Imeri"
+     },
+     {
+      "m": 55,
+      "t": "og",
+      "s_": "h",
+      "who": "Rani Khedira"
+     },
+     {
+      "m": 67,
+      "t": "goal",
+      "s_": "h",
+      "who": "Yuito Suzuki",
+      "as": "Derry Scherhant"
+     },
+     {
+      "m": 68,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Goto",
+      "out": "Igor Matanović"
+     },
+     {
+      "m": 68,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Vincenzo Grifo",
+      "out": "Derry Scherhant"
+     },
+     {
+      "m": 68,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Andrej Ilić",
+      "out": "Livan Burcu"
+     },
+     {
+      "m": 75,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Patrick Osterhage",
+      "out": "Engelhardt"
+     },
+     {
+      "m": 77,
+      "t": "sub",
+      "s_": "a",
+      "inn": "L. Güther",
+      "out": "Aebischer"
+     },
+     {
+      "m": 84,
+      "t": "pen",
+      "s_": "h",
+      "who": "Vincenzo Grifo",
+      "res": "Obroniony"
+     },
+     {
+      "m": 85,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Lucas Höler",
+      "out": "Yuito Suzuki"
+     },
+     {
+      "m": 85,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Lukas Kübler",
+      "out": "Philipp Treu"
+     },
+     {
+      "m": 85,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Tom Rothe",
+      "out": "Derrick Köhn"
+     }
+    ],
+    "teamStats": [
+     [
+      "Posiadanie %",
+      59,
+      41
+     ],
+     [
+      "xG",
+      2.28,
+      0.35
+     ],
+     [
+      "Celne",
+      9,
+      0
+     ],
+     [
+      "Rzuty rożne",
+      5,
+      1
+     ],
+     [
+      "Faule",
+      10,
+      17
+     ],
+     [
+      "Celność podań %",
+      87,
+      75
+     ]
+    ],
+    "ind": {
+     "Backhaus": {
+      "r": 6
+     },
+     "Philipp Treu": {
+      "r": 6
+     },
+     "Matthias Ginter": {
+      "r": 6
+     },
+     "Philipp Lienhart": {
+      "r": 6
+     },
+     "Jordy Makengo": {
+      "r": 6
+     },
+     "Maximilian Eggestein": {
+      "r": 5
+     },
+     "Engelhardt": {
+      "r": 7
+     },
+     "Jan-Niklas Beste": {
+      "r": 8
+     },
+     "Yuito Suzuki": {
+      "r": 9
+     },
+     "Derry Scherhant": {
+      "r": 6
+     },
+     "Igor Matanović": {
+      "r": 5
+     },
+     "Goto": {
+      "r": 5
+     },
+     "Vincenzo Grifo": {
+      "r": 5
+     },
+     "Patrick Osterhage": {
+      "r": 5
+     },
+     "Frederik Rønnow": {
+      "r": 6
+     },
+     "Janik Haberer": {
+      "r": 6
+     },
+     "Van den Bosch": {
+      "r": 5
+     },
+     "Friedrich": {
+      "r": 4
+     },
+     "Derrick Köhn": {
+      "r": 3
+     },
+     "Rani Khedira": {
+      "r": 4
+     },
+     "András Schäfer": {
+      "r": 5
+     },
+     "Aebischer": {
+      "r": 4
+     },
+     "Imeri": {
+      "r": 4
+     },
+     "Livan Burcu": {
+      "r": 4
+     },
+     "Tim Skarke": {
+      "r": 3
+     },
+     "Jeong Woo-yeong": {
+      "r": 4
+     },
+     "Oliver Burke": {
+      "r": 4
+     },
+     "Andrej Ilić": {
+      "r": 3
+     },
+     "L. Güther": {
+      "r": 4
+     },
+     "Tom Rothe": {
+      "r": 3
+     }
+    },
+    "notes": "Gol na 1:0 początkowo przypisywany Suzukiemu – ostatecznie samobój Khediry po strzale/dośrodkowaniu Bestego. 84' – Grifo nie wykorzystał karnego (Rønnow 8 obron). Oceny zawodników w skali 1–10 wg getfootballnewsgermany.com. Kartki, sędzia i frekwencja – brak danych w źródłach. Źródła: ESPN, getfootballnewsgermany.com."
    },
    {
     "id": "BL-2026-27-R9-HOF-SCH",
@@ -4680,7 +5627,7 @@
     "time": "19:30",
     "home": "HOF",
     "away": "SCH",
-    "status": "ns",
+    "status": "ft",
     "venue": {
      "name": "PreZero Arena",
      "city": "Sinsheim",
@@ -4750,12 +5697,420 @@
       "nat": "GER"
      },
      {
+      "r": "AS1",
+      "role": "Asystent 1",
+      "name": "Robert Wessel"
+     },
+     {
+      "r": "AS2",
+      "role": "Asystent 2",
+      "name": "Sascha Thielert"
+     },
+     {
+      "r": "4.",
+      "role": "Sędzia techniczny",
+      "name": "Justin Hasmann"
+     },
+     {
       "r": "VAR",
       "role": "Sędzia VAR",
-      "name": "Arne Aarnink",
-      "nat": "GER"
+      "name": "Arne Aarnink"
+     },
+     {
+      "r": "AVAR",
+      "role": "Asystent VAR",
+      "name": "Guido Kleve"
      }
-    ]
+    ],
+    "score": [
+     2,
+     1
+    ],
+    "formation": {
+     "home": "4-2-3-1",
+     "away": "4-2-3-1"
+    },
+    "staff": {
+     "home": [
+      [
+       "Trener",
+       "Christian Ilzer"
+      ]
+     ],
+     "away": [
+      [
+       "Trener",
+       "Miron Muslić"
+      ]
+     ]
+    },
+    "players": {
+     "home": [
+      [
+       1,
+       "Oliver Baumann",
+       "BR",
+       "",
+       true
+      ],
+      [
+       34,
+       "Vladimír Coufal",
+       "PO",
+       "",
+       true
+      ],
+      [
+       5,
+       "Ozan Kabak",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       28,
+       "Koki Machida",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       39,
+       "Mats Rots",
+       "LO",
+       "",
+       true
+      ],
+      [
+       7,
+       "Leon Avdullahu",
+       "DP",
+       "",
+       true
+      ],
+      [
+       18,
+       "Wouter Burger",
+       "ŚP",
+       "",
+       true
+      ],
+      [
+       27,
+       "Andrej Kramarić",
+       "PS",
+       "",
+       true
+      ],
+      [
+       22,
+       "Alexander Prass",
+       "OP",
+       "",
+       true
+      ],
+      [
+       19,
+       "Tim Lemperle",
+       "LS",
+       "",
+       true
+      ],
+      [
+       11,
+       "Fisnik Asllani",
+       "N",
+       "",
+       true
+      ],
+      [
+       "",
+       "Adam Hložek",
+       "N",
+       "",
+       false
+      ],
+      [
+       "",
+       "Adam Daghim",
+       "PS",
+       "",
+       false
+      ],
+      [
+       "",
+       "Bernardo",
+       "LO",
+       "",
+       false
+      ],
+      [
+       "",
+       "Max Moerstedt",
+       "N",
+       "",
+       false
+      ]
+     ],
+     "away": [
+      [
+       1,
+       "Loris Karius",
+       "BR",
+       "",
+       true
+      ],
+      [
+       43,
+       "Mertcan Ayhan",
+       "PO",
+       "",
+       true
+      ],
+      [
+       25,
+       "Nikola Katić",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       4,
+       "Hasan Kuruçay",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       8,
+       "Robin Gosens",
+       "LO",
+       "",
+       true
+      ],
+      [
+       13,
+       "Satoshi Tanaka",
+       "DP",
+       "",
+       true
+      ],
+      [
+       23,
+       "Soufiane El-Faouzi",
+       "ŚP",
+       "",
+       true
+      ],
+      [
+       21,
+       "Dejan Ljubičić",
+       "PS",
+       "",
+       true
+      ],
+      [
+       19,
+       "Kenan Karaman",
+       "OP",
+       "",
+       true
+      ],
+      [
+       24,
+       "Adil Aouchiche",
+       "LS",
+       "",
+       true
+      ],
+      [
+       7,
+       "Hwang Hee-chan",
+       "N",
+       "",
+       true
+      ],
+      [
+       "",
+       "Vitalie Becker",
+       "LO",
+       "",
+       false
+      ],
+      [
+       "",
+       "Kevin Müller",
+       "BR",
+       "",
+       false
+      ],
+      [
+       20,
+       "Junior Adamu",
+       "N",
+       "",
+       false
+      ],
+      [
+       "",
+       "Junior Dina Ebimbe",
+       "ŚP",
+       "",
+       false
+      ],
+      [
+       "",
+       "Edin Džeko",
+       "N",
+       "",
+       false
+      ]
+     ]
+    },
+    "events": [
+     {
+      "m": 10,
+      "t": "goal",
+      "s_": "h",
+      "who": "Fisnik Asllani",
+      "how": "Zablokowane wybicie Kariusa"
+     },
+     {
+      "m": 26,
+      "t": "goal",
+      "s_": "h",
+      "who": "Tim Lemperle",
+      "as": "Fisnik Asllani"
+     },
+     {
+      "m": 51,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Vitalie Becker",
+      "out": "Robin Gosens"
+     },
+     {
+      "m": 52,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Kevin Müller",
+      "out": "Loris Karius"
+     },
+     {
+      "m": 70,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Adam Hložek",
+      "out": "Andrej Kramarić"
+     },
+     {
+      "m": 70,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Junior Adamu",
+      "out": "Satoshi Tanaka"
+     },
+     {
+      "m": 70,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Junior Dina Ebimbe",
+      "out": "Mertcan Ayhan"
+     },
+     {
+      "m": 75,
+      "t": "yc",
+      "s_": "a",
+      "who": "Hwang Hee-chan"
+     },
+     {
+      "m": 78,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Adam Daghim",
+      "out": "Fisnik Asllani"
+     },
+     {
+      "m": 78,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Bernardo",
+      "out": "Mats Rots"
+     },
+     {
+      "m": 78,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Edin Džeko",
+      "out": "Dejan Ljubičić"
+     },
+     {
+      "m": 81,
+      "t": "goal",
+      "s_": "a",
+      "who": "Junior Adamu",
+      "how": "Dobitka po obronie Baumanna (główka Džeko)"
+     },
+     {
+      "m": 90,
+      "s": "+6",
+      "t": "sub",
+      "s_": "h",
+      "inn": "Max Moerstedt",
+      "out": "Tim Lemperle"
+     },
+     {
+      "m": 90,
+      "s": "+10",
+      "t": "yc",
+      "s_": "a",
+      "who": "Adil Aouchiche",
+      "why": "Po końcowym gwizdku"
+     }
+    ],
+    "teamStats": [
+     [
+      "Posiadanie %",
+      49,
+      51
+     ],
+     [
+      "xG",
+      2.28,
+      2.81
+     ],
+     [
+      "Strzały",
+      15,
+      23
+     ],
+     [
+      "Celne",
+      7,
+      6
+     ],
+     [
+      "Rzuty rożne",
+      6,
+      4
+     ],
+     [
+      "Faule",
+      10,
+      9
+     ],
+     [
+      "Spalone",
+      6,
+      2
+     ],
+     [
+      "Celność podań %",
+      80,
+      75
+     ]
+    ],
+    "notes": "Gosens i Karius zderzyli się na początku 2. połowy i obaj zeszli z urazami. Hoffenheim awansował na 9. miejsce. Rezerwowi niewchodzący – brak pewnych danych. Źródła: t-online.de (ticker, obsada), bundesliga.com (xG, raport)."
    }
   ],
   "10": [

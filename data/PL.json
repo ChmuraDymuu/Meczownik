@@ -1,9 +1,9 @@
 {
- "updated": "2026-11-08T05:40:00+01:00",
+ "updated": "2026-11-09T05:40:00+01:00",
  "season": "2026/27",
  "competition": "Premier League",
- "currentRound": 10,
- "note": "Źródła (8.11): Sky Sports, ESPN, FotMob, The Guardian (wyniki 7.11: Leeds–Tottenham 1:0, Arsenal–Hull 1:0, Fulham–Newcastle 1:1, Forest–City 3:1), Sports Mole, Football Whispers, Racing Post, SportsGambler/BetMGM, Dimers, SportsbookReview (zapowiedzi i kursy 6–7.11). Wcześniej: FotMob/ToffeeWeb (Everton–Coventry), Oddsportal, rg.org, Fantasy Football Scout, premierleague.com (sędziowie). Godziny w czasie polskim (CET).",
+ "currentRound": 11,
+ "note": "Źródła (9.11): ESPN, Sky Sports, VAVEL, NBC Sports, Suffolk News, Sports Mole (tabela) – wyniki 8.11: Brighton–Brentford 2:0, Palace–Liverpool 1:3, Ipswich–Bournemouth 1:2, Sunderland–Chelsea 1:0, Man Utd–Aston Villa 4:4. Przerwa reprezentacyjna – 11. kolejka od 21.11, typy pojawią się w ciągu 3 dni przed meczami. Wcześniej: Sky Sports, ESPN, FotMob, The Guardian (wyniki 7.11: Leeds–Tottenham 1:0, Arsenal–Hull 1:0, Fulham–Newcastle 1:1, Forest–City 3:1), Sports Mole, Football Whispers, Racing Post, SportsGambler/BetMGM, Dimers, SportsbookReview (zapowiedzi i kursy 6–7.11). Wcześniej: FotMob/ToffeeWeb (Everton–Coventry), Oddsportal, rg.org, Fantasy Football Scout, premierleague.com (sędziowie). Godziny w czasie polskim (CET).",
  "teams": {
   "ARS": {
    "id": "ARS",
@@ -199,6 +199,17 @@
    "form": "WWWWW"
   },
   {
+   "team": "BHA",
+   "p": 10,
+   "w": 7,
+   "d": 1,
+   "l": 2,
+   "gf": 26,
+   "ga": 7,
+   "pts": 22,
+   "form": "WWLWW"
+  },
+  {
    "team": "MCI",
    "p": 10,
    "w": 7,
@@ -210,26 +221,26 @@
    "form": "WWLLL"
   },
   {
-   "team": "BHA",
-   "p": 9,
-   "w": 6,
-   "d": 1,
+   "team": "LIV",
+   "p": 10,
+   "w": 5,
+   "d": 3,
    "l": 2,
-   "gf": 24,
-   "ga": 7,
-   "pts": 19,
-   "form": "WWWLW"
+   "gf": 14,
+   "ga": 10,
+   "pts": 18,
+   "form": "LWWLW"
   },
   {
    "team": "CHE",
-   "p": 9,
+   "p": 10,
    "w": 5,
    "d": 1,
-   "l": 3,
+   "l": 4,
    "gf": 19,
-   "ga": 15,
+   "ga": 16,
    "pts": 16,
-   "form": "LWWLW"
+   "form": "WWLWL"
   },
   {
    "team": "EVE",
@@ -243,26 +254,26 @@
    "form": "DLLWW"
   },
   {
-   "team": "LIV",
-   "p": 9,
+   "team": "BOU",
+   "p": 10,
    "w": 4,
    "d": 3,
-   "l": 2,
-   "gf": 11,
-   "ga": 9,
+   "l": 3,
+   "gf": 16,
+   "ga": 14,
    "pts": 15,
-   "form": "WLWWL"
+   "form": "LWWWW"
   },
   {
    "team": "BRE",
-   "p": 9,
+   "p": 10,
    "w": 3,
    "d": 5,
-   "l": 1,
+   "l": 2,
    "gf": 16,
-   "ga": 9,
+   "ga": 11,
    "pts": 14,
-   "form": "WDLDW"
+   "form": "DLDWL"
   },
   {
    "team": "LEE",
@@ -276,15 +287,15 @@
    "form": "LDDLW"
   },
   {
-   "team": "BOU",
-   "p": 9,
+   "team": "AVL",
+   "p": 10,
    "w": 3,
-   "d": 3,
+   "d": 4,
    "l": 3,
    "gf": 14,
-   "ga": 13,
-   "pts": 12,
-   "form": "LLWWW"
+   "ga": 17,
+   "pts": 13,
+   "form": "DWWDD"
   },
   {
    "team": "TOT",
@@ -309,17 +320,6 @@
    "form": "LLWLD"
   },
   {
-   "team": "AVL",
-   "p": 9,
-   "w": 3,
-   "d": 3,
-   "l": 3,
-   "gf": 10,
-   "ga": 13,
-   "pts": 12,
-   "form": "WDWWD"
-  },
-  {
    "team": "HUL",
    "p": 10,
    "w": 2,
@@ -332,14 +332,14 @@
   },
   {
    "team": "IPS",
-   "p": 9,
+   "p": 10,
    "w": 3,
    "d": 2,
-   "l": 4,
-   "gf": 14,
-   "ga": 18,
+   "l": 5,
+   "gf": 15,
+   "ga": 20,
    "pts": 11,
-   "form": "LWLDD"
+   "form": "WLDDL"
   },
   {
    "team": "FUL",
@@ -376,44 +376,39 @@
   },
   {
    "team": "MUN",
-   "p": 9,
+   "p": 10,
    "w": 1,
-   "d": 4,
+   "d": 5,
    "l": 4,
-   "gf": 10,
-   "ga": 15,
-   "pts": 7,
-   "form": "DDDLL"
-  },
-  {
-   "team": "CRY",
-   "p": 9,
-   "w": 2,
-   "d": 1,
-   "l": 6,
-   "gf": 9,
-   "ga": 21,
-   "pts": 7,
-   "form": "DWLLL"
+   "gf": 14,
+   "ga": 19,
+   "pts": 8,
+   "form": "DDLLD"
   },
   {
    "team": "SUN",
-   "p": 9,
-   "w": 1,
+   "p": 10,
+   "w": 2,
    "d": 2,
    "l": 6,
-   "gf": 7,
+   "gf": 8,
    "ga": 17,
-   "pts": 5,
-   "form": "LLLDL"
-  }
- ],
- "picks": [
+   "pts": 8,
+   "form": "LLDLW"
+  },
   {
-   "match": "PL-2026-27-R10-CRY-LIV",
-   "rank": 1
+   "team": "CRY",
+   "p": 10,
+   "w": 2,
+   "d": 1,
+   "l": 7,
+   "gf": 10,
+   "ga": 24,
+   "pts": 7,
+   "form": "WLLLL"
   }
  ],
+ "picks": [],
  "rounds": {
   "9": [
    {
@@ -2941,7 +2936,7 @@
     "time": "15:00",
     "home": "BHA",
     "away": "BRE",
-    "status": "ns",
+    "status": "ft",
     "odds": {
      "src": "Oddsportal 1X2 (6.11 wieczór); DC – BC.Game/oddslot; gole – BetRivers przez rg.org (3.11); Brighton 1,95 i BTTS tak 1,57 – Football Whispers (7.11)",
      "1": 1.93,
@@ -3022,7 +3017,120 @@
       "Brak wyraźnej przewagi na żadnym rynku – NO BET.",
       "Brighton grał w tygodniu w Lidze Konferencji (1:0 w Getafe), Brentford odpoczywał – dodatkowa niepewność co do świeżości gospodarzy."
      ]
-    }
+    },
+    "score": [
+     2,
+     0
+    ],
+    "staff": {
+     "home": [
+      [
+       "Trener",
+       "Fabian Hürzeler"
+      ]
+     ],
+     "away": [
+      [
+       "Trener",
+       "Keith Andrews"
+      ]
+     ]
+    },
+    "events": [
+     {
+      "m": 15,
+      "t": "goal",
+      "s_": "h",
+      "who": "Diego Gómez",
+      "how": "Lewa noga, zza pola karnego"
+     },
+     {
+      "m": 23,
+      "t": "var",
+      "s_": "a",
+      "kind": "Czerwona kartka – OFR",
+      "init": "Żółta kartka",
+      "fin": "Czerwona kartka"
+     },
+     {
+      "m": 23,
+      "t": "rc",
+      "s_": "a",
+      "who": "Igor Thiago",
+      "why": "Uderzenie łokciem/ręką w twarz (Chema Andrés)"
+     },
+     {
+      "m": 42,
+      "t": "pen",
+      "s_": "h",
+      "who": "Pascal Groß",
+      "res": "Gol"
+     },
+     {
+      "m": 45,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Mats Wieffer",
+      "out": "Chema Andrés"
+     },
+     {
+      "m": 46,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Collins",
+      "out": "Ouattara"
+     },
+     {
+      "m": 46,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Yarmoliuk",
+      "out": "Hickey"
+     },
+     {
+      "m": 60,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Malick Diouf",
+      "out": "Mamadou Sangaré"
+     },
+     {
+      "m": 60,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Mathias Jensen",
+      "out": "Keane Lewis-Potter"
+     },
+     {
+      "m": 75,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Hinshelwood",
+      "out": "Yasin Ayari"
+     },
+     {
+      "m": 75,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Yankuba Minteh",
+      "out": "Kostoulas"
+     },
+     {
+      "m": 75,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Rutter",
+      "out": "Maxim De Cuyper"
+     },
+     {
+      "m": 75,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Callum Wilson",
+      "out": "Sepp van den Berg"
+     }
+    ],
+    "notes": "Karny za szarpanie Vuškovicia przez Lewis-Pottera po rożnym. Żółte: Dunk (BHA), Schade (BRE) – minuty nieznane. Brighton awansował na 2. miejsce. Brak pełnych składów i statystyk w źródłach."
    },
    {
     "id": "PL-2026-27-R10-CRY-LIV",
@@ -3030,7 +3138,7 @@
     "time": "15:00",
     "home": "CRY",
     "away": "LIV",
-    "status": "ns",
+    "status": "ft",
     "odds": {
      "src": "Oddsportal 1X2 (6.11 wieczór); gole i handicap – BetRivers/LetsBet przez rg.org (3.11); Liverpool −170 / Palace +488, ponad 2,5 −163 (Dimers, 7.11)",
      "1": 5.9,
@@ -3125,7 +3233,245 @@
      ],
      "value": "Kurs 1,57 → 64% z kursu vs moje 67%; EV ≈ +5%.",
      "stake": "1% bankrollu"
-    }
+    },
+    "score": [
+     1,
+     3
+    ],
+    "staff": {
+     "home": [
+      [
+       "Trener",
+       "Pierre Sage"
+      ]
+     ]
+    },
+    "formation": {
+     "home": "3-4-2-1",
+     "away": "4-2-3-1"
+    },
+    "players": {
+     "home": [
+      [
+       "",
+       "Dean Henderson",
+       "BR",
+       "",
+       true
+      ],
+      [
+       "",
+       "Axel Disasi",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       "",
+       "Chris Richards",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       "",
+       "Jefferson Lerma",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       "",
+       "Óscar Mingueza",
+       "PS",
+       "",
+       true
+      ],
+      [
+       "",
+       "Adam Wharton",
+       "ŚP",
+       "",
+       true
+      ],
+      [
+       "",
+       "Quinten Timber",
+       "ŚP",
+       "",
+       true
+      ],
+      [
+       "",
+       "Tyrick Mitchell",
+       "LS",
+       "",
+       true
+      ],
+      [
+       "",
+       "Daichi Kamada",
+       "OP",
+       "",
+       true
+      ],
+      [
+       "",
+       "Yéremy Pino",
+       "OP",
+       "",
+       true
+      ],
+      [
+       "",
+       "Jørgen Strand Larsen",
+       "N",
+       "",
+       true
+      ],
+      [
+       "",
+       "Darío Osorio",
+       "PS",
+       "",
+       false
+      ],
+      [
+       "",
+       "Eddie Nketiah",
+       "N",
+       "",
+       false
+      ]
+     ],
+     "away": [
+      [
+       "",
+       "Alisson Becker",
+       "BR",
+       "",
+       true
+      ],
+      [
+       "",
+       "Ronald Araujo",
+       "PO",
+       "",
+       true
+      ],
+      [
+       "",
+       "Jérémy Jacquet",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       "",
+       "Virgil van Dijk",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       "",
+       "Milos Kerkez",
+       "LO",
+       "",
+       true
+      ],
+      [
+       "",
+       "Dominik Szoboszlai",
+       "DP",
+       "",
+       true
+      ],
+      [
+       "",
+       "Alexis Mac Allister",
+       "DP",
+       "",
+       true
+      ],
+      [
+       "",
+       "Bradley Barcola",
+       "PS",
+       "",
+       true
+      ],
+      [
+       "",
+       "Florian Wirtz",
+       "OP",
+       "",
+       true
+      ],
+      [
+       "",
+       "Cody Gakpo",
+       "LS",
+       "",
+       true
+      ],
+      [
+       "",
+       "Alexander Isak",
+       "N",
+       "",
+       true
+      ]
+     ]
+    },
+    "events": [
+     {
+      "m": 24,
+      "t": "yc",
+      "s_": "a",
+      "who": "Ronald Araujo"
+     },
+     {
+      "m": 33,
+      "t": "var",
+      "s_": "h",
+      "kind": "Bramka – spalony",
+      "init": "Gol (Strand Larsen)",
+      "fin": "Gol anulowany"
+     },
+     {
+      "m": 40,
+      "t": "goal",
+      "s_": "a",
+      "who": "Alexis Mac Allister",
+      "as": "Dominik Szoboszlai",
+      "how": "Głowa (rzut wolny)"
+     },
+     {
+      "m": 54,
+      "t": "goal",
+      "s_": "a",
+      "who": "Florian Wirtz",
+      "as": "Bradley Barcola",
+      "how": "Strzał przy słupku po dośrodkowaniu"
+     },
+     {
+      "m": 89,
+      "t": "goal",
+      "s_": "a",
+      "who": "Alexander Isak",
+      "how": "Z bliska, rykoszet"
+     },
+     {
+      "m": 90,
+      "s": "+5",
+      "t": "pen",
+      "s_": "h",
+      "who": "Eddie Nketiah",
+      "res": "Gol"
+     }
+    ],
+    "notes": "Pino trafił w poprzeczkę (18'). Osorio wszedł za Timbera; karny po zderzeniu Osorio z Kerkezem. Ustawienie wg VAVEL: Palace Henderson; Disasi, Richards, Lerma; Mingueza, Wharton, Timber, Mitchell; Pino, Kamada; Strand Larsen. Palace przedostatni."
    },
    {
     "id": "PL-2026-27-R10-IPS-BOU",
@@ -3133,7 +3479,7 @@
     "time": "15:00",
     "home": "IPS",
     "away": "BOU",
-    "status": "ns",
+    "status": "ft",
     "odds": {
      "src": "Oddsportal 1X2 (6.11 wieczór); gole – BetRivers przez rg.org (3.11)",
      "1": 4.0,
@@ -3204,7 +3550,389 @@
       "Seria Bournemouth (3 czyste konta) kontra Ipswich, który strzelał w każdym z 5 ostatnich meczów – sprzeczne sygnały.",
       "Brak informacji o kontuzjach Ipswich – niepełne dane."
      ]
-    }
+    },
+    "score": [
+     1,
+     2
+    ],
+    "attendance": 29396,
+    "staff": {
+     "home": [
+      [
+       "Trener",
+       "Gary O'Neil"
+      ]
+     ]
+    },
+    "formation": {
+     "home": "4-2-3-1",
+     "away": "4-2-3-1"
+    },
+    "players": {
+     "home": [
+      [
+       "",
+       "Christian Walton",
+       "BR",
+       "",
+       true
+      ],
+      [
+       "",
+       "Abdoul Ouattara",
+       "PO",
+       "",
+       true
+      ],
+      [
+       "",
+       "Issa Diop",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       "",
+       "Dara O'Shea",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       "",
+       "Leif Davis",
+       "LO",
+       "",
+       true
+      ],
+      [
+       "",
+       "Florentino",
+       "DP",
+       "",
+       true
+      ],
+      [
+       "",
+       "Palacios",
+       "DP",
+       "",
+       true
+      ],
+      [
+       "",
+       "Maeda",
+       "PS",
+       "",
+       true
+      ],
+      [
+       "",
+       "Julio Enciso",
+       "OP",
+       "",
+       true
+      ],
+      [
+       "",
+       "Jaden Philogene",
+       "LS",
+       "",
+       true
+      ],
+      [
+       "",
+       "Emersonn",
+       "N",
+       "",
+       true
+      ],
+      [
+       "",
+       "Jack Clarke",
+       "LS",
+       "",
+       false
+      ],
+      [
+       "",
+       "Zian Flemming",
+       "N",
+       "",
+       false
+      ],
+      [
+       "",
+       "Abdul Fatawu",
+       "PS",
+       "",
+       false
+      ],
+      [
+       "",
+       "Akpom",
+       "N",
+       "",
+       false
+      ],
+      [
+       "",
+       "Scherpen",
+       "BR",
+       "",
+       false
+      ],
+      [
+       "",
+       "Furlong",
+       "PO",
+       "",
+       false
+      ],
+      [
+       "",
+       "Matusiwa",
+       "DP",
+       "",
+       false
+      ],
+      [
+       "",
+       "Lukić",
+       "ŚP",
+       "",
+       false
+      ],
+      [
+       "",
+       "Greaves",
+       "ŚO",
+       "",
+       false
+      ]
+     ],
+     "away": [
+      [
+       "",
+       "Petrović",
+       "BR",
+       "",
+       true
+      ],
+      [
+       "",
+       "Adam Smith",
+       "PO",
+       "",
+       true
+      ],
+      [
+       "",
+       "Hill",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       "",
+       "Silva",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       "",
+       "Truffert",
+       "LO",
+       "",
+       true
+      ],
+      [
+       "",
+       "Adams",
+       "DP",
+       "",
+       true
+      ],
+      [
+       "",
+       "Ryan Christie",
+       "DP",
+       "",
+       true
+      ],
+      [
+       "",
+       "Rayan",
+       "PS",
+       "",
+       true
+      ],
+      [
+       "",
+       "Kluivert",
+       "OP",
+       "",
+       true
+      ],
+      [
+       "",
+       "Marcus Tavernier",
+       "LS",
+       "",
+       true
+      ],
+      [
+       "",
+       "Evanilson",
+       "N",
+       "",
+       true
+      ],
+      [
+       "",
+       "Lewis Cook",
+       "ŚP",
+       "",
+       false
+      ],
+      [
+       "",
+       "Kroupi",
+       "N",
+       "",
+       false
+      ],
+      [
+       "",
+       "Diakité",
+       "ŚO",
+       "",
+       false
+      ],
+      [
+       "",
+       "Adli",
+       "OP",
+       "",
+       false
+      ],
+      [
+       "",
+       "Rodríguez",
+       "N",
+       "",
+       false
+      ],
+      [
+       "",
+       "Di Gregorio",
+       "BR",
+       "",
+       false
+      ],
+      [
+       "",
+       "Soler",
+       "ŚP",
+       "",
+       false
+      ],
+      [
+       "",
+       "Scott",
+       "ŚP",
+       "",
+       false
+      ],
+      [
+       "",
+       "Gannon-Doak",
+       "PS",
+       "",
+       false
+      ]
+     ]
+    },
+    "events": [
+     {
+      "m": 5,
+      "t": "goal",
+      "s_": "a",
+      "who": "Evanilson",
+      "how": "Z bliska po błędzie Waltona"
+     },
+     {
+      "m": 46,
+      "t": "og",
+      "s_": "a",
+      "who": "Leif Davis"
+     },
+     {
+      "m": 54,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Jack Clarke",
+      "out": "Jaden Philogene"
+     },
+     {
+      "m": 54,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Zian Flemming",
+      "out": "Emersonn"
+     },
+     {
+      "m": 65,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Abdul Fatawu",
+      "out": "Maeda"
+     },
+     {
+      "m": 67,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Lewis Cook",
+      "out": "Ryan Christie"
+     },
+     {
+      "m": 67,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Kroupi",
+      "out": "Kluivert"
+     },
+     {
+      "m": 79,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Diakité",
+      "out": "Adam Smith"
+     },
+     {
+      "m": 85,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Akpom",
+      "out": "Florentino"
+     },
+     {
+      "m": 86,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Adli",
+      "out": "Rayan"
+     },
+     {
+      "m": 86,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Rodríguez",
+      "out": "Evanilson"
+     }
+    ],
+    "notes": "Gol Ipswich: Jack Clarke z rzutu karnego (faul w starciu Ouattara–Cook), druga połowa – minuta nieznana, więc nie ma go na osi czasu. Samobój Davisa 28 s po przerwie (strzał Christiego odbity od Diopa i Davisa). Żółte (minuty nieznane): Enciso, Flemming (IPS); Smith, Tavernier, Silva (BOU)."
    },
    {
     "id": "PL-2026-27-R10-SUN-CHE",
@@ -3212,7 +3940,7 @@
     "time": "15:00",
     "home": "SUN",
     "away": "CHE",
-    "status": "ns",
+    "status": "ft",
     "odds": {
      "src": "BetMGM przez SportsGambler (6.11); Paddy Power przez Racing Post",
      "1": 3.85,
@@ -3293,7 +4021,37 @@
       "Sunderland +0,5 AH (~1,87) – remis lub wygrana gospodarzy ok. 50–52% w mojej ocenie, EV bliskie zera.",
       "Zbyt duża niepewność – NO BET."
      ]
-    }
+    },
+    "score": [
+     1,
+     0
+    ],
+    "staff": {
+     "home": [
+      [
+       "Trener",
+       "Régis Le Bris"
+      ]
+     ]
+    },
+    "events": [
+     {
+      "m": 4,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Jules Ahoka",
+      "out": "Granit Xhaka",
+      "why": "Uraz"
+     },
+     {
+      "m": 36,
+      "t": "pen",
+      "s_": "h",
+      "who": "Enzo Le Fée",
+      "res": "Gol"
+     }
+    ],
+    "notes": "Karny po faulu Colwilla na Brobbeyu. Sunderland 8 zmian po porażce z Dinamem Zagrzeb w LE. Chelsea weszli m.in. Quenda i Estêvão (minuty nieznane). Brak pełnych składów i statystyk."
    },
    {
     "id": "PL-2026-27-R10-MUN-AVL",
@@ -3301,7 +4059,7 @@
     "time": "17:30",
     "home": "MUN",
     "away": "AVL",
-    "status": "ns",
+    "status": "ft",
     "odds": {
      "src": "BetMGM przez SportsGambler (6.11)",
      "1": 2.15,
@@ -3387,7 +4145,268 @@
       "Obie drużyny po meczach LM we wtorek; braki w obronie (Martínez, Cash) mogą otworzyć mecz.",
       "Ponad 2,5 gola po 1,62 (ok. 59% bez marży) – 8 z 10 ostatnich meczów United u siebie z ponad 2,5 gola, ale United strzelił 0 goli w 2 ostatnich meczach ligowych; mój szacunek ok. 58–60% – brak wartości."
      ]
-    }
+    },
+    "score": [
+     4,
+     4
+    ],
+    "staff": {
+     "home": [
+      [
+       "Trener",
+       "Michael Carrick"
+      ]
+     ],
+     "away": [
+      [
+       "Trener",
+       "Unai Emery"
+      ]
+     ]
+    },
+    "venue": {
+     "name": "Old Trafford",
+     "city": "Manchester",
+     "capacity": 74310
+    },
+    "players": {
+     "home": [
+      [
+       "",
+       "Senne Lammens",
+       "BR",
+       "",
+       true
+      ],
+      [
+       "",
+       "Diogo Dalot",
+       "PO",
+       "",
+       true
+      ],
+      [
+       "",
+       "Leny Yoro",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       "",
+       "Harry Maguire",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       "",
+       "Noussair Mazraoui",
+       "LO",
+       "",
+       true
+      ],
+      [
+       "",
+       "Kobbie Mainoo",
+       "DP",
+       "",
+       true
+      ],
+      [
+       "",
+       "Youri Tielemans",
+       "DP",
+       "",
+       true
+      ],
+      [
+       "",
+       "Amad Diallo",
+       "PS",
+       "",
+       true
+      ],
+      [
+       "",
+       "Bruno Fernandes",
+       "OP",
+       "",
+       true
+      ],
+      [
+       "",
+       "Bryan Mbeumo",
+       "LS",
+       "",
+       true
+      ],
+      [
+       "",
+       "Matheus Cunha",
+       "N",
+       "",
+       true
+      ],
+      [
+       "",
+       "Joshua Zirkzee",
+       "N",
+       "",
+       false
+      ],
+      [
+       "",
+       "Patrick Dorgu",
+       "LO",
+       "",
+       false
+      ]
+     ],
+     "away": [
+      [
+       "",
+       "Zion Suzuki",
+       "BR",
+       "",
+       true
+      ],
+      [
+       "",
+       "Victor Lindelöf",
+       "PO",
+       "",
+       true
+      ],
+      [
+       "",
+       "James Harwood-Bellis",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       "",
+       "Pau Torres",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       "",
+       "Ian Maatsen",
+       "LO",
+       "",
+       true
+      ],
+      [
+       "",
+       "Boubacar Kamara",
+       "DP",
+       "",
+       true
+      ],
+      [
+       "",
+       "Leon Goretzka",
+       "DP",
+       "",
+       true
+      ],
+      [
+       "",
+       "John McGinn",
+       "PS",
+       "",
+       true
+      ],
+      [
+       "",
+       "Samu Manzambi",
+       "OP",
+       "",
+       true
+      ],
+      [
+       "",
+       "Alysson",
+       "LS",
+       "",
+       true
+      ],
+      [
+       "",
+       "Nicolas Jackson",
+       "N",
+       "",
+       true
+      ]
+     ]
+    },
+    "formation": {
+     "home": "4-2-3-1",
+     "away": "4-2-3-1"
+    },
+    "events": [
+     {
+      "m": 1,
+      "t": "goal",
+      "s_": "a",
+      "who": "Alysson",
+      "how": "Strzał z ostrego kąta"
+     },
+     {
+      "m": 4,
+      "t": "goal",
+      "s_": "a",
+      "who": "Nicolas Jackson",
+      "how": "Dobitka po strzale Alyssona"
+     },
+     {
+      "m": 16,
+      "t": "pen",
+      "s_": "h",
+      "who": "Bruno Fernandes",
+      "res": "Gol"
+     },
+     {
+      "m": 44,
+      "t": "goal",
+      "s_": "h",
+      "who": "Youri Tielemans"
+     },
+     {
+      "m": 48,
+      "t": "pen",
+      "s_": "a",
+      "who": "John McGinn",
+      "res": "Gol"
+     },
+     {
+      "m": 53,
+      "t": "goal",
+      "s_": "a",
+      "who": "Leon Goretzka",
+      "how": "Z bliska po zamieszaniu"
+     },
+     {
+      "m": 90,
+      "s": "+2",
+      "t": "goal",
+      "s_": "h",
+      "who": "Joshua Zirkzee",
+      "how": "Z pola karnego"
+     },
+     {
+      "m": 90,
+      "s": "+6",
+      "t": "goal",
+      "s_": "h",
+      "who": "Patrick Dorgu",
+      "how": "Głowa po rożnym"
+     }
+    ],
+    "notes": "United dwukrotnie odrobili dwie bramki straty; Zirkzee i Dorgu weszli z ławki (minuty zmian nieznane). Karny dla United za faul Kamary na Cunhy, dla Villi za faul Dalota na Alyssonie. Kursy przedmeczowe DraftKings: MUN +120, X +275, AVL +210."
    }
   ],
   "11": [

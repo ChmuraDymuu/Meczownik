@@ -1,9 +1,9 @@
 {
- "updated": "2026-11-08T06:43:35+01:00",
+ "updated": "2026-11-09T06:41:26+01:00",
  "season": "2026/27",
  "competition": "Ekstraklasa",
  "currentRound": 14,
- "note": "Źródła: ekstraklasa.org (tabela, relacje), polsatsport.pl, piast.gliwice.pl, twojradom.pl, sportowefakty.wp.pl, sport1.pl, mecze24.pl (częściowo), weszlo.com / podkarpacielive.pl / flashscore.pl (kursy LV BET i Superbet z 8.11 rano, absencje), kkslech.com (absencje, VAR), sportowefakty.wp.pl (sędziowie). Tabela po sobotnich meczach 14. kolejki (LPO, LEG, ZAG, GKS, JAG, WPL, RAK z mniejszą liczbą meczów); forma: 5 ostatnich meczów ligowych. Godziny CET.",
+ "note": "Źródła: kkslech.com / legionisci.com (wyniki, tabela), polsatsport.pl, tylkoslask.pl, sport.interia.pl, mecze24.pl (relacje 8.11), wcześniej: ekstraklasa.org, weszlo.com, flashscore.pl (kursy). Tabela po 14. kolejce (LPO, POG, JAG, WPL z meczem zaległym); forma: 5 ostatnich meczów ligowych. 15. kolejka po przerwie reprezentacyjnej (20–23.11) – typy pojawią się bliżej terminu. Godziny CET.",
  "teams": {
   "LEG": {
    "id": "LEG",
@@ -2905,7 +2905,7 @@
     "time": "14:45",
     "home": "JAG",
     "away": "GKS",
-    "status": "ns",
+    "status": "ft",
     "info": {
      "stakes": "9. Jagiellonia (18 pkt, mecz zaległy) vs 6. GKS (21 pkt); Jagiellonia w czwartek przegrała 0:1 w Sofii z Levski (gol w 83. min) w Lidze Europy – 3 dni przerwy i podróż",
      "restDays": {
@@ -2956,7 +2956,7 @@
      "bttsY": 1.42,
      "bttsN": 2.85
     },
-    "notes": "Jagiellonia 5.11 przegrała 0:1 z Levski Sofia w LE (Stoyanchov 83'); Serginho zszedł z urazem w przerwie (mecze24.pl).",
+    "notes": "Jagiellonia 5.11 przegrała 0:1 z Levski Sofia w LE (Stoyanchov 83'); Serginho zszedł z urazem w przerwie (mecze24.pl). | Mecz bez dopingu, z minutą ciszy (żałoba narodowa po zamachu w Krakowie). Gol: samobój Szkurina po wolnym Lozano (69'; tylkoslask.pl podaje 68'). Żółte kartki także: Pau Resta, Mateusz Kowalczyk (minuty nieznane). Składy – JAG: Abramowicz – Conceição, Konstantopoulos, Kobayashi, Montoia – Romanczuk, Klynge – Jóźwiak, Imaz, Szmyt – Prelec. GKS: Kobylak – Czerwiński, Klemenz, Resta – Wasielewski, Łukasiak, Kowalczyk, Wdowiak – Wędrychowski, Szkurin, Nowak (polsatsport.pl).",
     "staff": {
      "home": [
       [
@@ -2965,7 +2965,95 @@
       ]
      ],
      "away": []
-    }
+    },
+    "score": [
+     1,
+     0
+    ],
+    "formation": {
+     "home": "4-2-3-1",
+     "away": "3-4-3"
+    },
+    "events": [
+     {
+      "m": 64,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Ousmane Sow",
+      "out": "Jesus Imaz"
+     },
+     {
+      "m": 64,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Sergio Lozano",
+      "out": "Kajetan Szmyt"
+     },
+     {
+      "m": 64,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Borja Galán",
+      "out": "Mateusz Wdowiak"
+     },
+     {
+      "m": 64,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Eman Marković",
+      "out": "Marcel Wędrychowski"
+     },
+     {
+      "m": 69,
+      "t": "og",
+      "s_": "h",
+      "who": "Ilja Szkurin"
+     },
+     {
+      "m": 78,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Bartosz Wolski",
+      "out": "Kacper Łukasiak"
+     },
+     {
+      "m": 78,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Sebastian Milewski",
+      "out": "Mateusz Kowalczyk"
+     },
+     {
+      "m": 82,
+      "t": "var",
+      "s_": "a",
+      "kind": "Rzut karny – weryfikacja VAR",
+      "init": "Rzut karny",
+      "fin": "Decyzja cofnięta, żółta kartka (symulacja)"
+     },
+     {
+      "m": 82,
+      "t": "yc",
+      "s_": "a",
+      "who": "Marcin Wasielewski",
+      "why": "Próba wymuszenia rzutu karnego"
+     },
+     {
+      "m": 85,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Erik Jirka",
+      "out": "Marcin Wasielewski"
+     },
+     {
+      "m": 90,
+      "s": "+3",
+      "t": "sub",
+      "s_": "h",
+      "inn": "Jakub Kucharski",
+      "out": "Kamil Jóźwiak"
+     }
+    ]
    },
    {
     "id": "2026-27-R14-LEG-RAK",
@@ -2973,7 +3061,7 @@
     "time": "17:30",
     "home": "LEG",
     "away": "RAK",
-    "status": "ns",
+    "status": "ft",
     "info": {
      "stakes": "3. Legia (24 pkt) vs 17. Raków (9 pkt, wygrał 3:1 z Pogonią); Marek Papszun przeciwko byłemu klubowi",
      "suspensions": {
@@ -3037,7 +3125,127 @@
        "Dawid Szwagra"
       ]
      ]
-    }
+    },
+    "score": [
+     2,
+     4
+    ],
+    "formation": {
+     "home": "3-4-2-1",
+     "away": "3-4-2-1"
+    },
+    "events": [
+     {
+      "m": 21,
+      "t": "goal",
+      "s_": "a",
+      "who": "Patryk Makuch",
+      "as": "Fran Tudor"
+     },
+     {
+      "m": 35,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Oliwier Kwiatkowski",
+      "out": "Lamine Diaby-Fadiga"
+     },
+     {
+      "m": 48,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Wahan Biczachczjan",
+      "out": "Filip Stępniewski"
+     },
+     {
+      "m": 56,
+      "t": "goal",
+      "s_": "h",
+      "who": "Kacper Chodyna"
+     },
+     {
+      "m": 59,
+      "t": "goal",
+      "s_": "a",
+      "who": "Erick Otieno"
+     },
+     {
+      "m": 62,
+      "t": "goal",
+      "s_": "a",
+      "who": "Oliwier Kwiatkowski",
+      "as": "Erick Otieno"
+     },
+     {
+      "m": 64,
+      "t": "goal",
+      "s_": "h",
+      "who": "Wahan Biczachczjan"
+     },
+     {
+      "m": 72,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Ruben Vinagre",
+      "out": "Paweł Wszołek"
+     },
+     {
+      "m": 73,
+      "t": "goal",
+      "s_": "a",
+      "who": "Oliwier Kwiatkowski",
+      "how": "Dobitka do pustej bramki"
+     },
+     {
+      "m": 74,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Henrique Arreiol",
+      "out": "Damian Szymański"
+     },
+     {
+      "m": 74,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Adin Molnár",
+      "out": "Mahir Emreli"
+     },
+     {
+      "m": 76,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Michal Ševčík",
+      "out": "Bohdan Wjunnyk"
+     },
+     {
+      "m": 87,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Antonio Čolak",
+      "out": "Robert Deziel Jr."
+     },
+     {
+      "m": 88,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Jakub Jendryka",
+      "out": "Tomasz Pieńko"
+     },
+     {
+      "m": 89,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Marko Bulat",
+      "out": "Władysław Koczerhin"
+     },
+     {
+      "m": 89,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Karol Struski",
+      "out": "Oliwier Kwiatkowski"
+     }
+    ],
+    "notes": "Minuty wg relacji Interii (tylkoslask.pl podaje gole 1–2 min wcześniej). Gol Deziela Jr. (ok. 66–69') nieuznany – Wjunnyk przeszkadzał bramkarzowi Kariciowi. Kartki – brak danych w źródłach. Składy – LEG: Hindrich – Piątkowski, Augustyniak, Deziel Jr. – Wszołek, Szymański, Urbański, Chodyna – Stępniewski, Wjunnyk – Zjawiński. RAK: Karić – Tudor, Racovițan, Svarnas – Pieńko, Repka, Koczerhin, Otieno – Diaby-Fadiga, Makuch – Emreli (tylkoslask.pl). Sędzia: Jarosław Przybył."
    },
    {
     "id": "2026-27-R14-LPO-ZAG",
@@ -3045,7 +3253,7 @@
     "time": "20:15",
     "home": "LPO",
     "away": "ZAG",
-    "status": "ns",
+    "status": "ft",
     "info": {
      "stakes": "1. Lech (31 pkt, mecz zaległy) vs 5. Zagłębie (22 pkt); Lech w czwartek przegrał 1:3 z Benficą w Lizbonie (Liga Europy) – 3 dni przerwy i podróż",
      "restDays": {
@@ -3113,7 +3321,7 @@
      "bttsY": 1.65,
      "bttsN": 2.2
     },
-    "notes": "Lech 5.11 przegrał 1:3 z Benficą w LE (gol Bengtssona); Pablo Rodriguez skręcił kostkę (weszlo.com). Media piszą o serii urazów mięśniowych w Lechu.",
+    "notes": "Lech 5.11 przegrał 1:3 z Benficą w LE (gol Bengtssona); Pablo Rodriguez skręcił kostkę (weszlo.com). Media piszą o serii urazów mięśniowych w Lechu. | Mecz: Zagłębie kończyło w dziesiątkę; Lech wyrównał w 4. min doliczonego czasu. Faul przy karnym – Filip Kocaba (wg mecze24.pl). Minuty goli wg Interii (mecze24.pl: 46' i 95').",
     "staff": {
      "home": [
       [
@@ -3127,7 +3335,106 @@
        "Leszek Ojrzyński"
       ]
      ]
-    }
+    },
+    "score": [
+     2,
+     2
+    ],
+    "attendance": 18302,
+    "events": [
+     {
+      "m": 45,
+      "s": "+1",
+      "t": "goal",
+      "s_": "a",
+      "who": "Marcel Reguła",
+      "how": "Lob nad bramkarzem"
+     },
+     {
+      "m": 46,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Damian Michalski",
+      "out": "Filip Szymczak"
+     },
+     {
+      "m": 46,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Sebastian Kerk",
+      "out": "Aleks Ławniczak"
+     },
+     {
+      "m": 46,
+      "t": "yc",
+      "s_": "a",
+      "who": "Roman Jakuba"
+     },
+     {
+      "m": 52,
+      "t": "pen",
+      "s_": "h",
+      "who": "Patrik Wålemark",
+      "res": "Gol"
+     },
+     {
+      "m": 56,
+      "t": "goal",
+      "s_": "a",
+      "who": "Marcel Reguła",
+      "as": "Mateusz Dziewiątkowski"
+     },
+     {
+      "m": 67,
+      "t": "yc",
+      "s_": "h",
+      "who": "Terry Yegbe"
+     },
+     {
+      "m": 70,
+      "t": "yc",
+      "s_": "a",
+      "who": "Jakub Sypek"
+     },
+     {
+      "m": 82,
+      "t": "rc",
+      "s_": "a",
+      "who": "Damian Michalski",
+      "why": "Pozbawienie oczywistej szansy bramkowej (faul na Agnero)"
+     },
+     {
+      "m": 90,
+      "s": "+4",
+      "t": "goal",
+      "s_": "h",
+      "who": "Michał Gurgul",
+      "as": "Luis Palma",
+      "how": "Głowa"
+     }
+    ],
+    "teamStats": [
+     [
+      "Strzały",
+      20,
+      5
+     ],
+     [
+      "Rzuty rożne",
+      6,
+      1
+     ],
+     [
+      "Faule",
+      5,
+      10
+     ],
+     [
+      "Spalone",
+      1,
+      3
+     ]
+    ]
    }
   ],
   "15": [
@@ -3208,14 +3515,14 @@
  "table": [
   {
    "team": "LPO",
-   "p": 12,
+   "p": 13,
    "w": 10,
-   "d": 1,
+   "d": 2,
    "l": 1,
-   "gf": 32,
-   "ga": 11,
-   "pts": 31,
-   "form": "WWWWW"
+   "gf": 34,
+   "ga": 13,
+   "pts": 32,
+   "form": "WWWWD"
   },
   {
    "team": "GZA",
@@ -3230,14 +3537,14 @@
   },
   {
    "team": "LEG",
-   "p": 13,
+   "p": 14,
    "w": 6,
    "d": 6,
-   "l": 1,
-   "gf": 23,
-   "ga": 11,
+   "l": 2,
+   "gf": 25,
+   "ga": 15,
    "pts": 24,
-   "form": "WWDLD"
+   "form": "WDLDL"
   },
   {
    "team": "POG",
@@ -3262,6 +3569,17 @@
    "form": "LDWLW"
   },
   {
+   "team": "ZAG",
+   "p": 14,
+   "w": 6,
+   "d": 5,
+   "l": 3,
+   "gf": 18,
+   "ga": 17,
+   "pts": 23,
+   "form": "LWDWD"
+  },
+  {
    "team": "PIA",
    "p": 14,
    "w": 6,
@@ -3273,26 +3591,26 @@
    "form": "WDWDD"
   },
   {
-   "team": "ZAG",
-   "p": 13,
-   "w": 6,
-   "d": 4,
-   "l": 3,
-   "gf": 16,
-   "ga": 15,
-   "pts": 22,
-   "form": "LLWDW"
+   "team": "GKS",
+   "p": 14,
+   "w": 7,
+   "d": 0,
+   "l": 7,
+   "gf": 25,
+   "ga": 20,
+   "pts": 21,
+   "form": "WLLWL"
   },
   {
-   "team": "GKS",
+   "team": "JAG",
    "p": 13,
    "w": 7,
    "d": 0,
    "l": 6,
-   "gf": 25,
-   "ga": 19,
+   "gf": 18,
+   "ga": 18,
    "pts": 21,
-   "form": "WWLLW"
+   "form": "LLWWW"
   },
   {
    "team": "MOT",
@@ -3304,17 +3622,6 @@
    "ga": 24,
    "pts": 19,
    "form": "WWDWW"
-  },
-  {
-   "team": "JAG",
-   "p": 12,
-   "w": 6,
-   "d": 0,
-   "l": 6,
-   "gf": 17,
-   "ga": 18,
-   "pts": 18,
-   "form": "LLLWW"
   },
   {
    "team": "KOR",
@@ -3372,6 +3679,17 @@
    "form": "WDLLL"
   },
   {
+   "team": "RAK",
+   "p": 14,
+   "w": 4,
+   "d": 0,
+   "l": 10,
+   "gf": 23,
+   "ga": 31,
+   "pts": 12,
+   "form": "LWLWW"
+  },
+  {
    "team": "SLA",
    "p": 14,
    "w": 2,
@@ -3381,17 +3699,6 @@
    "ga": 25,
    "pts": 10,
    "form": "LLWLD"
-  },
-  {
-   "team": "RAK",
-   "p": 13,
-   "w": 3,
-   "d": 0,
-   "l": 10,
-   "gf": 19,
-   "ga": 29,
-   "pts": 9,
-   "form": "LLWLW"
   },
   {
    "team": "WIE",

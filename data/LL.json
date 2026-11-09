@@ -1,9 +1,9 @@
 {
- "updated": "2026-11-08T05:55:00+01:00",
+ "updated": "2026-11-09T05:50:00+01:00",
  "season": "2026/27",
  "competition": "LaLiga",
  "currentRound": 12,
- "note": "Źródła: laliga.com, Unitel/EFE (wyniki i tabela po sobocie 7.11), FotMob (Valencia–Real), ESPN i okdiario Navarra (Osasuna–Athletic), La Nación/EFE i El Español (Málaga–Racing), riazor.org (Espanyol–Deportivo), iusport (sędziowie niedzieli), SI.com (Atlético–Barcelona), livetipsportal, oddslot (BC.Game), webapuestas, gidstats, Dimers, Sports Mole, oddscalendar (Megapari), wcześniej: comuniate, VAVEL, Oddsportal, CheckBestOdds, xgscore",
+ "note": "Źródła: laliga.com, sportschau.de (wyniki 12. kolejki), El Debate (tabela po 12. kolejce), fcbarcelona.es i Metro Ecuador/EFE (Atlético–Barcelona), ESPN, kirolakeitb i El Gol Digital (Real Sociedad–Rayo), 101tv (Elche–Betis), rccelta.es (Celta–Levante), latingoles/EFE (Villarreal–Getafe); wcześniej: Unitel/EFE, FotMob, okdiario, riazor.org, iusport, SI.com, livetipsportal, oddslot, gidstats, Dimers, Sports Mole, oddscalendar, comuniate, Oddsportal. 13. kolejka po przerwie reprezentacyjnej (od 20.11) – typy przy kolejnych aktualizacjach.",
  "teams": {
   "ALA": {
    "id": "ALA",
@@ -169,14 +169,14 @@
  "table": [
   {
    "team": "BAR",
-   "p": 11,
-   "w": 10,
+   "p": 12,
+   "w": 11,
    "d": 0,
    "l": 1,
-   "gf": 46,
-   "ga": 12,
-   "pts": 30,
-   "form": "WWWLW"
+   "gf": 48,
+   "ga": 13,
+   "pts": 33,
+   "form": "WWLWW"
   },
   {
    "team": "RMA",
@@ -191,36 +191,36 @@
   },
   {
    "team": "ATM",
-   "p": 11,
+   "p": 12,
    "w": 9,
    "d": 1,
-   "l": 1,
-   "gf": 22,
-   "ga": 8,
+   "l": 2,
+   "gf": 23,
+   "ga": 10,
    "pts": 28,
-   "form": "WWWWW"
+   "form": "WWWWL"
   },
   {
    "team": "BET",
-   "p": 11,
-   "w": 7,
+   "p": 12,
+   "w": 8,
    "d": 2,
    "l": 2,
-   "gf": 18,
+   "gf": 20,
    "ga": 15,
-   "pts": 23,
-   "form": "DWLDW"
+   "pts": 26,
+   "form": "WLDWW"
   },
   {
    "team": "RSO",
-   "p": 11,
-   "w": 6,
+   "p": 12,
+   "w": 7,
    "d": 1,
    "l": 4,
-   "gf": 20,
+   "gf": 21,
    "ga": 20,
-   "pts": 19,
-   "form": "WWWWL"
+   "pts": 22,
+   "form": "WWWLW"
   },
   {
    "team": "SEV",
@@ -245,6 +245,17 @@
    "form": "DLWWD"
   },
   {
+   "team": "VIL",
+   "p": 12,
+   "w": 4,
+   "d": 3,
+   "l": 5,
+   "gf": 17,
+   "ga": 15,
+   "pts": 15,
+   "form": "LDWLW"
+  },
+  {
    "team": "DEP",
    "p": 12,
    "w": 3,
@@ -267,6 +278,17 @@
    "form": "DLWLW"
   },
   {
+   "team": "CEL",
+   "p": 12,
+   "w": 2,
+   "d": 7,
+   "l": 3,
+   "gf": 10,
+   "ga": 10,
+   "pts": 13,
+   "form": "DWDLD"
+  },
+  {
    "team": "ALA",
    "p": 12,
    "w": 3,
@@ -276,28 +298,6 @@
    "ga": 17,
    "pts": 13,
    "form": "LLDLD"
-  },
-  {
-   "team": "VIL",
-   "p": 11,
-   "w": 3,
-   "d": 3,
-   "l": 5,
-   "gf": 15,
-   "ga": 15,
-   "pts": 12,
-   "form": "WLDWL"
-  },
-  {
-   "team": "CEL",
-   "p": 11,
-   "w": 2,
-   "d": 6,
-   "l": 3,
-   "gf": 10,
-   "ga": 10,
-   "pts": 12,
-   "form": "WDWDL"
   },
   {
    "team": "ESP",
@@ -312,25 +312,25 @@
   },
   {
    "team": "RAY",
-   "p": 10,
-   "w": 3,
-   "d": 3,
-   "l": 4,
-   "gf": 15,
-   "ga": 20,
-   "pts": 12,
-   "form": "WDDLW"
-  },
-  {
-   "team": "GET",
    "p": 11,
    "w": 3,
    "d": 3,
    "l": 5,
-   "gf": 8,
-   "ga": 16,
+   "gf": 15,
+   "ga": 21,
    "pts": 12,
-   "form": "WLDLW"
+   "form": "DDLWL"
+  },
+  {
+   "team": "GET",
+   "p": 12,
+   "w": 3,
+   "d": 3,
+   "l": 6,
+   "gf": 8,
+   "ga": 18,
+   "pts": 12,
+   "form": "LDLWL"
   },
   {
    "team": "OSA",
@@ -344,24 +344,24 @@
    "form": "LWLLD"
   },
   {
-   "team": "ELC",
-   "p": 11,
-   "w": 2,
-   "d": 4,
-   "l": 5,
-   "gf": 14,
-   "ga": 18,
-   "pts": 10,
-   "form": "WDDWL"
-  },
-  {
    "team": "LEV",
-   "p": 11,
+   "p": 12,
    "w": 2,
-   "d": 4,
+   "d": 5,
    "l": 5,
    "gf": 16,
    "ga": 21,
+   "pts": 11,
+   "form": "DWLLD"
+  },
+  {
+   "team": "ELC",
+   "p": 12,
+   "w": 2,
+   "d": 4,
+   "l": 6,
+   "gf": 14,
+   "ga": 20,
    "pts": 10,
    "form": "DDWLL"
   },
@@ -6320,7 +6320,7 @@
     "time": "14:00",
     "home": "ELC",
     "away": "BET",
-    "status": "ns",
+    "status": "ft",
     "odds": {
      "src": "livetipsportal – najlepsze kursy (Betsala/Betfair/1xBet/Betway), stan na 7.11",
      "1": 3.4,
@@ -6362,6 +6362,138 @@
     "venue": {
      "name": "Martínez Valero",
      "city": "Elche"
+    },
+    "score": [
+     0,
+     2
+    ],
+    "attendance": 26884,
+    "events": [
+     {
+      "m": 59,
+      "t": "yc",
+      "s_": "h",
+      "who": "Redondo"
+     },
+     {
+      "m": 46,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Diangana",
+      "out": "Houary"
+     },
+     {
+      "m": 68,
+      "t": "yc",
+      "s_": "h",
+      "who": "Diangana"
+     },
+     {
+      "m": 69,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Morente",
+      "out": "Valera"
+     },
+     {
+      "m": 69,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Osorio",
+      "out": "Niño"
+     },
+     {
+      "m": 70,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Buonanotte",
+      "out": "Cepeda"
+     },
+     {
+      "m": 77,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Bigas",
+      "out": "Revivo"
+     },
+     {
+      "m": 69,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Dani Ceballos",
+      "out": "Fornals"
+     },
+     {
+      "m": 69,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Aitor Ruibal",
+      "out": "Antony"
+     },
+     {
+      "m": 78,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Rodrigo Riquelme",
+      "out": "Abde"
+     },
+     {
+      "m": 78,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Morante",
+      "out": "Parrott"
+     },
+     {
+      "m": 81,
+      "t": "goal",
+      "s_": "a",
+      "who": "Rodrigo Riquelme"
+     },
+     {
+      "m": 82,
+      "t": "yc",
+      "s_": "h",
+      "who": "Neto"
+     },
+     {
+      "m": 83,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Deossa",
+      "out": "Isco"
+     },
+     {
+      "m": 84,
+      "t": "yc",
+      "s_": "h",
+      "who": "Morcillo"
+     },
+     {
+      "m": 89,
+      "t": "goal",
+      "s_": "a",
+      "who": "Marc Bartra",
+      "as": "Dani Ceballos",
+      "how": "Po rzucie rożnym"
+     },
+     {
+      "m": 54,
+      "t": "var",
+      "s_": "a",
+      "kind": "Kontrola – starcie z udziałem Bellerína",
+      "init": "Brak przewinienia",
+      "fin": "Decyzja podtrzymana"
+     }
+    ],
+    "notes": "Składy (101tv): Elche – Dituro; Rubén Sánchez, Redondo, Víctor Chust, Revivo; Houary, Morcillo, Neto; Cepeda, Valera, Niño. Betis – Valles; Bellerín, Bartra, Natan, Fran García; Marc Roca, Fornals, Isco; Antony, Abde, Parrott. Żółta kartka dla trenera Elche Martína Anselmiego (59'). Betis rozstrzygnął mecz w końcówce po wejściu rezerwowych (Riquelme 81', Bartra 89' po rożnym Ceballosa).",
+    "staff": {
+     "home": [
+      [
+       "Trener",
+       "Martín Anselmi"
+      ]
+     ]
     }
    },
    {
@@ -6370,7 +6502,7 @@
     "time": "16:15",
     "home": "RSO",
     "away": "RAY",
-    "status": "ns",
+    "status": "ft",
     "odds": {
      "src": "Oddsportal / CheckBestOdds (4.11), oddscalendar – Megapari 1.72/4.30/4.92 (5.11)",
      "1": 1.68,
@@ -6416,7 +6548,290 @@
     "venue": {
      "name": "Reale Arena",
      "city": "San Sebastián"
-    }
+    },
+    "score": [
+     1,
+     0
+    ],
+    "formation": {
+     "home": "4-2-3-1",
+     "away": "4-2-3-1"
+    },
+    "players": {
+     "home": [
+      [
+       1,
+       "Álex Remiro",
+       "BR",
+       "",
+       true
+      ],
+      [
+       2,
+       "Jon Aramburu",
+       "PO",
+       "",
+       true
+      ],
+      [
+       5,
+       "Igor Zubeldia",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       6,
+       "Jon Martín",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       3,
+       "Aihen Muñoz",
+       "LO",
+       "",
+       true
+      ],
+      [
+       8,
+       "Beñat Turrientes",
+       "DP",
+       "",
+       true
+      ],
+      [
+       18,
+       "Carlos Soler",
+       "ŚP",
+       "",
+       true
+      ],
+      [
+       14,
+       "Takefusa Kubo",
+       "PS",
+       "",
+       true
+      ],
+      [
+       24,
+       "Luka Sučić",
+       "OP",
+       "",
+       true
+      ],
+      [
+       7,
+       "Ander Barrenetxea",
+       "LS",
+       "",
+       true
+      ],
+      [
+       9,
+       "Orri Óskarsson",
+       "N",
+       "",
+       true
+      ],
+      [
+       13,
+       "Unai Marrero",
+       "BR",
+       "",
+       false
+      ],
+      [
+       16,
+       "Jon Pacheco",
+       "ŚO",
+       "",
+       false
+      ],
+      [
+       21,
+       "Yangel Herrera",
+       "ŚP",
+       "",
+       false
+      ],
+      [
+       23,
+       "Arsen Zakharyan",
+       "OP",
+       "",
+       false
+      ]
+     ],
+     "away": [
+      [
+       25,
+       "Emil Audero",
+       "BR",
+       "",
+       true
+      ],
+      [
+       2,
+       "Andrei Rațiu",
+       "PO",
+       "",
+       true
+      ],
+      [
+       24,
+       "Florian Lejeune",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       15,
+       "Mujaid Sadick",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       17,
+       "Adrià Pedrosa",
+       "LO",
+       "",
+       true
+      ],
+      [
+       6,
+       "Pathé Ciss",
+       "DP",
+       "",
+       true
+      ],
+      [
+       8,
+       "Unai López",
+       "ŚP",
+       "",
+       true
+      ],
+      [
+       19,
+       "Jorge de Frutos",
+       "PS",
+       "",
+       true
+      ],
+      [
+       4,
+       "Pedro Díaz",
+       "OP",
+       "",
+       true
+      ],
+      [
+       14,
+       "Giorgi Tsitaishvili",
+       "LS",
+       "",
+       true
+      ],
+      [
+       10,
+       "Sergio Camello",
+       "N",
+       "",
+       true
+      ],
+      [
+       1,
+       "Daniel Cárdenas",
+       "BR",
+       "",
+       false
+      ],
+      [
+       20,
+       "Iván Balliu",
+       "PO",
+       "",
+       false
+      ]
+     ]
+    },
+    "events": [
+     {
+      "m": 62,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Héctor Fort",
+      "out": "Jon Aramburu"
+     },
+     {
+      "m": 62,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Gonçalo Guedes",
+      "out": "Takefusa Kubo"
+     },
+     {
+      "m": 67,
+      "t": "goal",
+      "s_": "h",
+      "who": "Orri Óskarsson",
+      "as": "Ander Barrenetxea",
+      "how": "Prawa noga"
+     },
+     {
+      "m": 71,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Job Ochieng",
+      "out": "Ander Barrenetxea"
+     },
+     {
+      "m": 72,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Jon Gorrotxategi",
+      "out": "Beñat Turrientes"
+     },
+     {
+      "m": 84,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Sergio Gómez",
+      "out": "Aihen Muñoz"
+     }
+    ],
+    "teamStats": [
+     [
+      "Posiadanie %",
+      51,
+      49
+     ],
+     [
+      "xG",
+      1.42,
+      1.35
+     ],
+     [
+      "Celne",
+      3,
+      3
+     ],
+     [
+      "Rzuty rożne",
+      7,
+      6
+     ],
+     [
+      "Faule",
+      11,
+      8
+     ]
+    ],
+    "notes": "Gol Óskarssona po kontrze i prostopadłym podaniu Barrenetxei. Barrenetxea zszedł z urazem uda, Aihen Muñoz zszedł z urazem (84'). Rayo przeprowadziło 4 zmiany w 79–80' (m.in. Isi Palazón, Randy Nteka) – pełna lista niepotwierdzona; zdarzenia niekompletne (brak danych o kartkach). Powrót Beñata San José na Anoeta jako trenera Rayo."
    },
    {
     "id": "LL-2026-27-R12-CEL-LEV",
@@ -6424,7 +6839,7 @@
     "time": "18:30",
     "home": "CEL",
     "away": "LEV",
-    "status": "ns",
+    "status": "ft",
     "odds": {
      "src": "Oddsportal / CheckBestOdds (najlepsze kursy), stan na 4.11 rano",
      "1": 1.83,
@@ -6465,7 +6880,102 @@
     "venue": {
      "name": "Abanca-Balaídos",
      "city": "Vigo"
-    }
+    },
+    "score": [
+     0,
+     0
+    ],
+    "events": [
+     {
+      "m": 32,
+      "t": "yc",
+      "s_": "a",
+      "who": "Dani Requena"
+     },
+     {
+      "m": 46,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Hugo Álvarez",
+      "out": "Javi Rodríguez"
+     },
+     {
+      "m": 46,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Javi Galán",
+      "out": "Javi Rueda"
+     },
+     {
+      "m": 46,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Adrián de la Fuente",
+      "out": "Ndukwe"
+     },
+     {
+      "m": 46,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Oriol Rey",
+      "out": "Hugo Sotelo"
+     },
+     {
+      "m": 46,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Iván Romero",
+      "out": "Etta Eyong"
+     },
+     {
+      "m": 56,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Víctor García",
+      "out": "Thiago Fernández"
+     },
+     {
+      "m": 63,
+      "t": "yc",
+      "s_": "a",
+      "who": "Adrián de la Fuente"
+     },
+     {
+      "m": 64,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Hugo Burcio",
+      "out": "Andrés Antañón"
+     },
+     {
+      "m": 76,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Hugo González",
+      "out": "Iago Aspas"
+     },
+     {
+      "m": 76,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Williot Swedberg",
+      "out": "Couhaib Driouech"
+     },
+     {
+      "m": 77,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Marc Santos",
+      "out": "Nacho Pérez"
+     },
+     {
+      "m": 88,
+      "t": "yc",
+      "s_": "h",
+      "who": "Javi Galán"
+     }
+    ],
+    "notes": "Składy (rccelta.es): Celta – Radu; Javi Rodríguez, Sebastián Cáceres, Marcos Alonso; Javi Rueda, Andrés Antañón, Ilaix Moriba, Sergio Carreira; Iago Aspas, Couhaib Driouech, Pablo Durán. Levante – Ryan; Toljan, Mandi, Ndukwe, Nacho Pérez; Requena, Hugo Sotelo, Olasagasti; Brugué, Etta Eyong, Thiago Fernández. Celta miała dwa gole anulowane za spalonego (dobitka Javiego Ruedy i Pablo Durán), trafiła też w obramowanie; Ryan bronił kilka razy."
    },
    {
     "id": "LL-2026-27-R12-VIL-GET",
@@ -6473,7 +6983,7 @@
     "time": "18:30",
     "home": "VIL",
     "away": "GET",
-    "status": "ns",
+    "status": "ft",
     "odds": {
      "src": "oddslot – BC.Game, stan na 7/8.11",
      "1": 1.42,
@@ -6506,7 +7016,7 @@
      {
       "r": "GŁ",
       "role": "Sędzia główny",
-      "name": "Carlos Muñiz Ruiz",
+      "name": "Carlos Muñiz Muñoz",
       "nat": "ESP"
      },
      {
@@ -6518,7 +7028,118 @@
     "venue": {
      "name": "Estadio de la Cerámica",
      "city": "Villarreal"
-    }
+    },
+    "score": [
+     2,
+     0
+    ],
+    "attendance": 17102,
+    "events": [
+     {
+      "m": 32,
+      "t": "yc",
+      "s_": "a",
+      "who": "Mario Martín"
+     },
+     {
+      "m": 46,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Ramón Terrats",
+      "out": "Mario Martín"
+     },
+     {
+      "m": 62,
+      "t": "yc",
+      "s_": "a",
+      "who": "Nemanja Gudelj"
+     },
+     {
+      "m": 63,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Ayoze Pérez",
+      "out": "Alberto Moleiro"
+     },
+     {
+      "m": 64,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Alex Freeman",
+      "out": "Mouriño"
+     },
+     {
+      "m": 64,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Santi Comesaña",
+      "out": "Carlos Maciá"
+     },
+     {
+      "m": 67,
+      "t": "yc",
+      "s_": "h",
+      "who": "Santi Comesaña"
+     },
+     {
+      "m": 76,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Nicolas Pépé",
+      "out": "Oluwaseyi"
+     },
+     {
+      "m": 76,
+      "t": "yc",
+      "s_": "h",
+      "who": "Renato Veiga"
+     },
+     {
+      "m": 80,
+      "t": "goal",
+      "s_": "h",
+      "who": "Tajon Buchanan",
+      "as": "Nicolas Pépé",
+      "how": "Wolej (od słupka)"
+     },
+     {
+      "m": 81,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Iván Azón",
+      "out": "Orel Mangala"
+     },
+     {
+      "m": 81,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Kiko Femenía",
+      "out": "Andrés García"
+     },
+     {
+      "m": 81,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Francho",
+      "out": "Enes Ünal"
+     },
+     {
+      "m": 84,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Saliba",
+      "out": "Georges Mikautadze"
+     },
+     {
+      "m": 90,
+      "s": "+1",
+      "t": "goal",
+      "s_": "h",
+      "who": "Carlos Romero",
+      "as": "Ayoze Pérez"
+     }
+    ],
+    "notes": "Składy (latingoles/EFE): Villarreal – Gulácsi; Mouriño, Costa, Renato Veiga, Carlos Romero; Buchanan, Maciá, Gueye, Moleiro; Mikautadze, Oluwaseyi. Getafe – Soria; Carvajal, Djené, Boselli, Mojica; Gudelj, Mangala, Andrés García, Satriano, Mario Martín, Enes Ünal. Getafe wciąż bez punktu na wyjazdach."
    },
    {
     "id": "LL-2026-27-R12-ATM-BAR",
@@ -6526,7 +7147,7 @@
     "time": "21:00",
     "home": "ATM",
     "away": "BAR",
-    "status": "ns",
+    "status": "ft",
     "odds": {
      "src": "1X2: oddscalendar.com – Megapari, stan na 6.11, 05:30",
      "1": 3.81,
@@ -6577,11 +7198,6 @@
       "nat": "ESP"
      },
      {
-      "r": "VAR",
-      "role": "Sędzia VAR",
-      "name": "Javier Iglesias Villanueva"
-     },
-     {
       "r": "AVAR",
       "role": "Asystent VAR",
       "name": "Guillermo Cuadra Fernández"
@@ -6590,7 +7206,35 @@
     "venue": {
      "name": "Riyadh Air Metropolitano",
      "city": "Madryt"
-    }
+    },
+    "score": [
+     1,
+     2
+    ],
+    "attendance": 69788,
+    "events": [
+     {
+      "m": 10,
+      "t": "goal",
+      "s_": "h",
+      "who": "Giuliano Simeone",
+      "as": "Julián Álvarez"
+     },
+     {
+      "m": 45,
+      "t": "goal",
+      "s_": "a",
+      "who": "Fermín López"
+     },
+     {
+      "m": 66,
+      "t": "goal",
+      "s_": "a",
+      "who": "Fermín López",
+      "as": "Lamine Yamal"
+     }
+    ],
+    "notes": "Barcelona odwróciła wynik dubletem Fermína Lópeza (45', 66' po podaniu Lamine Yamala) i przerwała serię 7 ligowych zwycięstw Atlético. Zdarzenia niekompletne – brak potwierdzonych danych o kartkach i zmianach."
    }
   ],
   "13": [
