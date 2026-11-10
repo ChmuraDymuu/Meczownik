@@ -1,9 +1,9 @@
 {
- "updated": "2026-11-09T06:30:00+01:00",
+ "updated": "2026-11-10T06:20:00+01:00",
  "season": "2026/27",
  "competition": "Bundesliga",
  "currentRound": 9,
- "note": "Źródła: hessenschau.de, t-online.de, bundesliga.com, sportschau.de, deichstube.de, absolutfussball.com, ESPN, zdfheute.de, news.de, getfootballnewsgermany.com, livetipsportal.com, buli-tipphilfe.de, wettfreunde.net, wettbasis.com, footballpredictions.com, ig-schiedsrichter.de. Tabela po 9. kolejce (komplet). Przerwa reprezentacyjna – 10. kolejka od 20.11; typy na nią pojawią się na 3 dni przed meczami.",
+ "note": "Źródła: hessenschau.de, t-online.de, bundesliga.com, sportschau.de, deichstube.de, absolutfussball.com, ESPN, zdfheute.de, news.de, getfootballnewsgermany.com, livetipsportal.com, buli-tipphilfe.de, wettfreunde.net, wettbasis.com, footballpredictions.com, ig-schiedsrichter.de, volksstimme.de. Tabela po 9. kolejce (komplet). Przerwa reprezentacyjna – 10. kolejka od 20.11; typy na nią pojawią się na 3 dni przed meczami.",
  "teams": {
   "BAY": {
    "id": "BAY",
@@ -3632,7 +3632,8 @@
       3.25
      ]
     ],
-    "notes": "Gole: Kimmich 14' (po odbiorze Kane'a), Karl 57', Tietz 90+3'. Kane z dwiema asystami. Mainz miał gola nieuznanego; w tej akcji kontuzji doznał Manuel Neuer, którego zastąpił Jonas Urbig (minuta niepodana). Bayern w xG 3,25 – 0,82. Kartki, składy i frekwencja – brak potwierdzonych danych. Źródło: bundesliga.com."
+    "notes": "Gole: Kimmich 14' (po odbiorze Kane'a), Karl 57', Tietz 90+3'. Kane z dwiema asystami. Do przerwy 0:1. Tuż przed przerwą gol Jae-sunga Lee (głową po wolnym Amiriego i rykoszecie od Taha) anulowany po VAR – minimalny spalony; w tej akcji kontuzji prawej stopy doznał Manuel Neuer, którego zastąpił Jonas Urbig. Mainz bez kontuzjowanego Kohra i zawieszonych Poscha i Mwene; trener Urs Fischer wprowadził Tietza, Nebela i Hollerbacha (minuty niepodane). Bayern w xG 3,25 – 0,82. Komplet widzów (33 305). Kartki i pełne składy – brak potwierdzonych danych. Źródła: bundesliga.com, volksstimme.de.",
+    "attendance": 33305
    },
    {
     "id": "BL-2026-27-R9-BVB-ELV",

@@ -1,9 +1,9 @@
 {
- "updated": "2026-11-09T06:30:00+01:00",
+ "updated": "2026-11-10T06:10:00+01:00",
  "season": "2026/27",
  "competition": "Serie A",
  "currentRound": 11,
- "note": "Źródła: theScore (statystyki, sędziowie, zdarzenia FIO–JUV, GEN–MIL, INT–COM, NAP–LAZ 08.11), Fox Sports (NAP–LAZ: zdarzenia, numery), PianetaMilan i Fantacalcio.it (GEN–MIL: tabellino), FC Inter 1908 (INT–COM: składy, sędziowie), QS Quotidiano Sportivo (INT–COM, MON–ATA: przebieg), Virgilio (ATA: skład, sędziowie), Football Italia, Radio Bruno (wyniki 08.11); wcześniejsze dane: FotMob, OA Sport, Football Italia, Betsson via Jamma.it. Tabela wyliczona z wyników (zgodna z QS: Lazio 29, Inter 28, Roma 27). 12. kolejka po przerwie reprezentacyjnej (21–23.11) – typy zostaną dodane w tygodniu meczowym. Typy to analiza, nie gwarancja; 18+.",
+ "note": "Źródła: Italpress i Goal.com Italia (NAP–LAZ, MON–ATA: składy, zmiany z minutami, oceny – akt. 10.11), theScore (statystyki, sędziowie, zdarzenia FIO–JUV, GEN–MIL, INT–COM, NAP–LAZ), Fox Sports, PianetaMilan, Fantacalcio.it, FC Inter 1908, QS Quotidiano Sportivo, Virgilio, Football Italia, Radio Bruno; wcześniejsze dane: FotMob, OA Sport, Betsson via Jamma.it. Tabela wyliczona z wyników (zgodna z QS: Lazio 29, Inter 28, Roma 27). Przerwa reprezentacyjna – 12. kolejka 21–23.11; typy zostaną dodane w tygodniu meczowym (brak meczów w ciągu 3 dni → brak typów). Typy to analiza, nie gwarancja; 18+.",
  "teams": {
   "ATA": {
    "id": "ATA",
@@ -5224,7 +5224,7 @@
       "name": "Gianluca Aureliano"
      }
     ],
-    "notes": "Do przerwy 0:1. Wyrównanie w 48. min – gol samobójczy Pedrazy (po akcji McTominaya). Bramkarze: Mandas 6 obron, Milinković-Savić 5 obron. Źródła podają rozbieżne minuty kartek Gilmoura/Vergary (65' vs 68'/73'). Szczegółowe składy z pozycjami niedostępne w darmowych źródłach.",
+    "notes": "Do przerwy 0:1. Wyrównanie w 48. min – gol samobójczy Pedrazy (po akcji McTominaya). Bramkarze: Mandas 6 obron, Milinković-Savić 5 obron. Żółte kartki (minuty rozbieżne w źródłach): Lang, Gilmour, Vergara (NAP), Pedraza (LAZ). Kontuzje w meczu: Šutalo i Nuno Tavares. Składy i oceny (skala włoska 1–10) wg Italpress; numery koszulek niepodane. Doliczony czas: 1' i 4'.",
     "score": [
      1,
      1
@@ -5244,7 +5244,7 @@
      ]
     },
     "formation": {
-     "home": "3-4-2-1",
+     "home": "3-5-1-1",
      "away": "4-3-3"
     },
     "events": [
@@ -5260,7 +5260,7 @@
       "t": "sub",
       "s_": "a",
       "inn": "Diogo Leite",
-      "out": "Sutalo"
+      "out": "Josip Šutalo"
      },
      {
       "m": 44,
@@ -5293,7 +5293,7 @@
       "t": "sub",
       "s_": "a",
       "inn": "Manuel Lazzari",
-      "out": "Mussolini"
+      "out": "Romano Floriani Mussolini"
      },
      {
       "m": 65,
@@ -5376,7 +5376,437 @@
       0
      ]
     ],
-    "ind": {}
+    "ind": {
+     "Vanja Milinković-Savić": {
+      "r": 6
+     },
+     "Sam Beukema": {
+      "r": 6
+     },
+     "Amir Rrahmani": {
+      "r": 6
+     },
+     "Rafa Marín": {
+      "r": 5.5
+     },
+     "Antonio Vergara": {
+      "r": 6
+     },
+     "Kevin De Bruyne": {
+      "r": 6
+     },
+     "Billy Gilmour": {
+      "r": 5.5
+     },
+     "Scott McTominay": {
+      "r": 6.5
+     },
+     "Mathías Olivera": {
+      "r": 6
+     },
+     "Noa Lang": {
+      "r": 6.5
+     },
+     "Rasmus Højlund": {
+      "r": 5.5
+     },
+     "Frank Anguissa": {
+      "r": 5.5
+     },
+     "Matteo Politano": {
+      "r": 6
+     },
+     "Lorenzo Lucca": {
+      "r": 5.5
+     },
+     "Christos Mandas": {
+      "r": 6.5
+     },
+     "Romano Floriani Mussolini": {
+      "r": 6
+     },
+     "Josip Šutalo": {
+      "r": 6.5
+     },
+     "Oliver Provstgaard": {
+      "r": 6
+     },
+     "Nuno Tavares": {
+      "r": 6.5
+     },
+     "Davide Frattesi": {
+      "r": 6.5
+     },
+     "Reda Belahyane": {
+      "r": 6.5
+     },
+     "Kenneth Taylor": {
+      "r": 6
+     },
+     "Gustav Isaksen": {
+      "r": 6.5
+     },
+     "Andrea Pinamonti": {
+      "r": 5.5
+     },
+     "Tijjani Noslin": {
+      "r": 6.5
+     },
+     "Diogo Leite": {
+      "r": 6
+     },
+     "Alfonso Pedraza": {
+      "r": 5
+     },
+     "Manuel Lazzari": {
+      "r": 6
+     },
+     "Fisayo Dele-Bashiru": {
+      "r": 6
+     }
+    },
+    "players": {
+     "home": [
+      [
+       "",
+       "Vanja Milinković-Savić",
+       "BR",
+       "",
+       true
+      ],
+      [
+       "",
+       "Sam Beukema",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       "",
+       "Amir Rrahmani",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       "",
+       "Rafa Marín",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       "",
+       "Antonio Vergara",
+       "PO",
+       "",
+       true
+      ],
+      [
+       "",
+       "Kevin De Bruyne",
+       "ŚP",
+       "",
+       true
+      ],
+      [
+       "",
+       "Billy Gilmour",
+       "DP",
+       "",
+       true
+      ],
+      [
+       "",
+       "Scott McTominay",
+       "ŚP",
+       "",
+       true
+      ],
+      [
+       "",
+       "Mathías Olivera",
+       "LO",
+       "",
+       true
+      ],
+      [
+       "",
+       "Noa Lang",
+       "OP",
+       "",
+       true
+      ],
+      [
+       "",
+       "Rasmus Højlund",
+       "N",
+       "",
+       true
+      ],
+      [
+       "",
+       "Frank Anguissa",
+       "ŚP",
+       "",
+       false
+      ],
+      [
+       "",
+       "Matteo Politano",
+       "PS",
+       "",
+       false
+      ],
+      [
+       "",
+       "Lorenzo Lucca",
+       "N",
+       "",
+       false
+      ],
+      [
+       "",
+       "Giovane",
+       "N",
+       "",
+       false
+      ],
+      [
+       "",
+       "Alex Meret",
+       "BR",
+       "",
+       false
+      ],
+      [
+       "",
+       "Contini",
+       "BR",
+       "",
+       false
+      ],
+      [
+       "",
+       "Pereyra",
+       "",
+       "",
+       false
+      ],
+      [
+       "",
+       "Barido",
+       "",
+       "",
+       false
+      ],
+      [
+       "",
+       "Chiummariello",
+       "",
+       "",
+       false
+      ],
+      [
+       "",
+       "Melnyk",
+       "",
+       "",
+       false
+      ],
+      [
+       "",
+       "Lieto",
+       "",
+       "",
+       false
+      ]
+     ],
+     "away": [
+      [
+       "",
+       "Christos Mandas",
+       "BR",
+       "",
+       true
+      ],
+      [
+       "",
+       "Romano Floriani Mussolini",
+       "PO",
+       "",
+       true
+      ],
+      [
+       "",
+       "Josip Šutalo",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       "",
+       "Oliver Provstgaard",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       "",
+       "Nuno Tavares",
+       "LO",
+       "",
+       true
+      ],
+      [
+       "",
+       "Davide Frattesi",
+       "ŚP",
+       "",
+       true
+      ],
+      [
+       "",
+       "Reda Belahyane",
+       "DP",
+       "",
+       true
+      ],
+      [
+       "",
+       "Kenneth Taylor",
+       "ŚP",
+       "",
+       true
+      ],
+      [
+       "",
+       "Gustav Isaksen",
+       "PS",
+       "",
+       true
+      ],
+      [
+       "",
+       "Andrea Pinamonti",
+       "N",
+       "",
+       true
+      ],
+      [
+       "",
+       "Tijjani Noslin",
+       "LS",
+       "",
+       true
+      ],
+      [
+       "",
+       "Diogo Leite",
+       "ŚO",
+       "",
+       false
+      ],
+      [
+       "",
+       "Alfonso Pedraza",
+       "LO",
+       "",
+       false
+      ],
+      [
+       "",
+       "Manuel Lazzari",
+       "PO",
+       "",
+       false
+      ],
+      [
+       "",
+       "Fisayo Dele-Bashiru",
+       "ŚP",
+       "",
+       false
+      ],
+      [
+       "",
+       "Matteo Cancellieri",
+       "PS",
+       "",
+       false
+      ],
+      [
+       "",
+       "Motta",
+       "BR",
+       "",
+       false
+      ],
+      [
+       "",
+       "Renzetti",
+       "",
+       "",
+       false
+      ],
+      [
+       "",
+       "Pellegrini",
+       "",
+       "",
+       false
+      ],
+      [
+       "",
+       "Doekhi",
+       "ŚO",
+       "",
+       false
+      ],
+      [
+       "",
+       "Nicolò Rovella",
+       "DP",
+       "",
+       false
+      ],
+      [
+       "",
+       "Przyborek",
+       "",
+       "",
+       false
+      ],
+      [
+       "",
+       "Danilo Cataldi",
+       "DP",
+       "",
+       false
+      ],
+      [
+       "",
+       "Serra",
+       "",
+       "",
+       false
+      ],
+      [
+       "",
+       "Farcomeni",
+       "",
+       "",
+       false
+      ],
+      [
+       "",
+       "Adam Marušić",
+       "PO",
+       "",
+       false
+      ]
+     ]
+    }
    },
    {
     "id": "SA-2026-27-R11-GEN-MIL",
@@ -5942,7 +6372,7 @@
       "name": "Federico La Penna"
      }
     ],
-    "notes": "Jedyny gol: Krstović na początku 2. połowy (po dośrodkowaniu Bernasconiego i rykoszecie od Törnqvista; dokładna minuta niepodana w dostępnych źródłach). Do przerwy 0:0, Carnesecchi obronił 4 sytuacje Monzy. Zmiany ATA: Rowe za Elmasa, Obric za Kolašinaca, Kessié za Krstovicia; MON: Zeballos za Robinsona, Carboni za Kouadio, Mota i Bakoune za Akisanmiro i Touré, później Colpani. Żółte: Kouadio, Colombo, Carboni, Colpani (MON), Éderson, De Ketelaere (ATA). Trener Jurić i asystent Sarriego (Ianni) odesłani na trybuny. Atalanta przerwała serię 4 meczów bez zwycięstwa; Monza 4. porażka z rzędu.",
+    "notes": "Do przerwy 0:0, Carnesecchi obronił 4 sytuacje Monzy. Gol: 49' Krstović dobił piłkę po obronie Törnqvista (dośrodkowanie Bernasconiego). Żółte kartki (bez minut w źródłach): Kouadio, Colombo, Carboni, Colpani (MON), Éderson, De Ketelaere (ATA). Trener Jurić odesłany na trybuny w 90+4'. Doliczony czas: 1' i 4'. Atalanta przerwała serię 4 meczów bez zwycięstwa; Monza 4. porażka z rzędu. Składy i oceny (skala włoska) wg Italpress/Goal.com; numery koszulek niepodane.",
     "score": [
      0,
      1
@@ -5963,10 +6393,193 @@
     },
     "formation": {
      "home": "3-4-2-1",
-     "away": "4-2-3-1"
+     "away": "4-3-3"
     },
     "players": {
-     "home": [],
+     "home": [
+      [
+       "",
+       "Törnqvist",
+       "BR",
+       "",
+       true
+      ],
+      [
+       "",
+       "Kouadio",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       "",
+       "Lucchesi",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       "",
+       "Goglichidze",
+       "ŚO",
+       "",
+       true
+      ],
+      [
+       "",
+       "Touré",
+       "PO",
+       "",
+       true
+      ],
+      [
+       "",
+       "Akinsanmiro",
+       "ŚP",
+       "",
+       true
+      ],
+      [
+       "",
+       "Colombo",
+       "ŚP",
+       "",
+       true
+      ],
+      [
+       "",
+       "Mangas",
+       "LO",
+       "",
+       true
+      ],
+      [
+       "",
+       "Mout",
+       "OP",
+       "",
+       true
+      ],
+      [
+       "",
+       "Robinson",
+       "OP",
+       "",
+       true
+      ],
+      [
+       "",
+       "Varela",
+       "N",
+       "",
+       true
+      ],
+      [
+       "",
+       "Carboni",
+       "ŚO",
+       "",
+       false
+      ],
+      [
+       "",
+       "Zeballos",
+       "PS",
+       "",
+       false
+      ],
+      [
+       "",
+       "Bakoune",
+       "PO",
+       "",
+       false
+      ],
+      [
+       "",
+       "Dany Mota",
+       "N",
+       "",
+       false
+      ],
+      [
+       "",
+       "Colpani",
+       "OP",
+       "",
+       false
+      ],
+      [
+       "",
+       "Thiam",
+       "BR",
+       "",
+       false
+      ],
+      [
+       "",
+       "Strajnar",
+       "",
+       "",
+       false
+      ],
+      [
+       "",
+       "Ziolkowski",
+       "",
+       "",
+       false
+      ],
+      [
+       "",
+       "Antov",
+       "ŚO",
+       "",
+       false
+      ],
+      [
+       "",
+       "Foe Ondoa",
+       "",
+       "",
+       false
+      ],
+      [
+       "",
+       "Cutrone",
+       "N",
+       "",
+       false
+      ],
+      [
+       "",
+       "Forson",
+       "",
+       "",
+       false
+      ],
+      [
+       "",
+       "Ngonge",
+       "PS",
+       "",
+       false
+      ],
+      [
+       "",
+       "Ciurria",
+       "",
+       "",
+       false
+      ],
+      [
+       "",
+       "Pessina",
+       "ŚP",
+       "",
+       false
+      ]
+     ],
      "away": [
       [
        "",
@@ -6089,7 +6702,161 @@
       ]
      ]
     },
-    "events": []
+    "events": [
+     {
+      "m": 49,
+      "t": "goal",
+      "s_": "a",
+      "who": "Nikola Krstović",
+      "how": "Dobitka po obronie Törnqvista (dośrodkowanie Bernasconiego)"
+     },
+     {
+      "m": 60,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Carboni",
+      "out": "Kouadio"
+     },
+     {
+      "m": 61,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Zeballos",
+      "out": "Robinson"
+     },
+     {
+      "m": 73,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Bakoune",
+      "out": "Touré"
+     },
+     {
+      "m": 73,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Dany Mota",
+      "out": "Akinsanmiro"
+     },
+     {
+      "m": 75,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Rowe",
+      "out": "Eljif Elmas"
+     },
+     {
+      "m": 80,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Colpani",
+      "out": "Mout"
+     },
+     {
+      "m": 80,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Obric",
+      "out": "Sead Kolašinac"
+     },
+     {
+      "m": 83,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Franck Kessié",
+      "out": "Nikola Krstović"
+     }
+    ],
+    "ind": {
+     "Törnqvist": {
+      "r": 5.5
+     },
+     "Kouadio": {
+      "r": 5.5
+     },
+     "Lucchesi": {
+      "r": 6
+     },
+     "Goglichidze": {
+      "r": 6
+     },
+     "Touré": {
+      "r": 6
+     },
+     "Akinsanmiro": {
+      "r": 6
+     },
+     "Colombo": {
+      "r": 5.5
+     },
+     "Mangas": {
+      "r": 6.5
+     },
+     "Mout": {
+      "r": 6
+     },
+     "Robinson": {
+      "r": 6
+     },
+     "Varela": {
+      "r": 5.5
+     },
+     "Carboni": {
+      "r": 6
+     },
+     "Zeballos": {
+      "r": 6
+     },
+     "Bakoune": {
+      "r": 6
+     },
+     "Dany Mota": {
+      "r": 6
+     },
+     "Marco Carnesecchi": {
+      "r": 7
+     },
+     "Davide Zappacosta": {
+      "r": 6
+     },
+     "Giorgio Scalvini": {
+      "r": 6.5
+     },
+     "Sead Kolašinac": {
+      "r": 6
+     },
+     "Lorenzo Bernasconi": {
+      "r": 6.5
+     },
+     "Mario Pašalić": {
+      "r": 6
+     },
+     "Éderson": {
+      "r": 6.5
+     },
+     "Eljif Elmas": {
+      "r": 6.5
+     },
+     "Charles De Ketelaere": {
+      "r": 6
+     },
+     "Nikola Krstović": {
+      "r": 7
+     },
+     "Nicola Zalewski": {
+      "r": 6
+     },
+     "Rowe": {
+      "r": 6
+     }
+    },
+    "teamStats": [
+     [
+      "Rzuty rożne",
+      2,
+      7
+     ]
+    ]
    },
    {
     "id": "SA-2026-27-R11-INT-COM",
@@ -6284,6 +7051,41 @@
        "N",
        "",
        true
+      ],
+      [
+       "",
+       "Henrikh Mkhitaryan",
+       "ŚP",
+       "",
+       false
+      ],
+      [
+       "",
+       "Ange-Yoan Bonny",
+       "N",
+       "",
+       false
+      ],
+      [
+       "",
+       "Sucic",
+       "ŚP",
+       "",
+       false
+      ],
+      [
+       "",
+       "Andy Diouf",
+       "ŚP",
+       "",
+       false
+      ],
+      [
+       "",
+       "Benjamin Pavard",
+       "ŚO",
+       "",
+       false
       ]
      ],
      "away": [
@@ -6363,6 +7165,41 @@
        "N",
        "",
        true
+      ],
+      [
+       "",
+       "Smolcic",
+       "",
+       "",
+       false
+      ],
+      [
+       "",
+       "Ricci",
+       "",
+       "",
+       false
+      ],
+      [
+       "",
+       "Liberali",
+       "",
+       "",
+       false
+      ],
+      [
+       "",
+       "Caqueret",
+       "ŚP",
+       "",
+       false
+      ],
+      [
+       "",
+       "Kaiki",
+       "",
+       "",
+       false
       ]
      ]
     },

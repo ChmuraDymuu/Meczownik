@@ -1,9 +1,9 @@
 {
- "updated": "2026-11-09T05:40:00+01:00",
+ "updated": "2026-11-10T05:35:00+01:00",
  "season": "2026/27",
  "competition": "Premier League",
  "currentRound": 11,
- "note": "Źródła (9.11): ESPN, Sky Sports, VAVEL, NBC Sports, Suffolk News, Sports Mole (tabela) – wyniki 8.11: Brighton–Brentford 2:0, Palace–Liverpool 1:3, Ipswich–Bournemouth 1:2, Sunderland–Chelsea 1:0, Man Utd–Aston Villa 4:4. Przerwa reprezentacyjna – 11. kolejka od 21.11, typy pojawią się w ciągu 3 dni przed meczami. Wcześniej: Sky Sports, ESPN, FotMob, The Guardian (wyniki 7.11: Leeds–Tottenham 1:0, Arsenal–Hull 1:0, Fulham–Newcastle 1:1, Forest–City 3:1), Sports Mole, Football Whispers, Racing Post, SportsGambler/BetMGM, Dimers, SportsbookReview (zapowiedzi i kursy 6–7.11). Wcześniej: FotMob/ToffeeWeb (Everton–Coventry), Oddsportal, rg.org, Fantasy Football Scout, premierleague.com (sędziowie). Godziny w czasie polskim (CET).",
+ "note": "Źródła (10.11): fifplay (terminarz 11. kolejki potwierdzony), The Analyst (Arsenal–Hull: xG 1,08–0,34, strzały 21–7), VAVEL; wcześniej ESPN, Sky Sports, NBC Sports, Sports Mole (tabela). Przerwa reprezentacyjna – 11. kolejka od 21.11, typy pojawią się w ciągu 3 dni przed meczami",
  "teams": {
   "ARS": {
    "id": "ARS",
@@ -2695,7 +2695,33 @@
       "how": "Dobitka po obronie strzału Madueke"
      }
     ],
-    "notes": "Ødegaard dobił strzał Madueke obroniony przez Tzolakisa. Arsenal: 7. czyste konto w 10 meczach, 444 min bez straconego gola w lidze; 34. wygrana 1:0 w lidze za Artety. Źródła: Sky Sports, ESPN. Merino i Eze weszli w 69'."
+    "notes": "Ødegaard dobił strzał Madueke obroniony przez Tzolakisa. Arsenal: 7. czyste konto w 10 meczach, 444 min bez straconego gola w lidze; 34. wygrana 1:0 w lidze za Artety. Źródła: Sky Sports, ESPN. Merino i Eze weszli w 69'.",
+    "teamStats": [
+     [
+      "xG",
+      1.08,
+      0.34
+     ],
+     [
+      "Strzały",
+      21,
+      7
+     ]
+    ],
+    "staff": {
+     "home": [
+      [
+       "Trener",
+       "Mikel Arteta"
+      ]
+     ],
+     "away": [
+      [
+       "Trener",
+       "Sergej Jakirović"
+      ]
+     ]
+    }
    },
    {
     "id": "PL-2026-27-R10-FUL-NEW",
