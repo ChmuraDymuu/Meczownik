@@ -1,9 +1,9 @@
 {
- "updated": "2026-11-10T06:10:00+01:00",
+ "updated": "2026-11-11T05:55:00+01:00",
  "season": "2026/27",
  "competition": "Serie A",
- "currentRound": 11,
- "note": "Źródła: Italpress i Goal.com Italia (NAP–LAZ, MON–ATA: składy, zmiany z minutami, oceny – akt. 10.11), theScore (statystyki, sędziowie, zdarzenia FIO–JUV, GEN–MIL, INT–COM, NAP–LAZ), Fox Sports, PianetaMilan, Fantacalcio.it, FC Inter 1908, QS Quotidiano Sportivo, Virgilio, Football Italia, Radio Bruno; wcześniejsze dane: FotMob, OA Sport, Betsson via Jamma.it. Tabela wyliczona z wyników (zgodna z QS: Lazio 29, Inter 28, Roma 27). Przerwa reprezentacyjna – 12. kolejka 21–23.11; typy zostaną dodane w tygodniu meczowym (brak meczów w ciągu 3 dni → brak typów). Typy to analiza, nie gwarancja; 18+.",
+ "currentRound": 12,
+ "note": "Źródła: Italpress i Goal.com Italia (NAP–LAZ, MON–ATA: składy, zmiany z minutami, oceny – akt. 10.11), theScore (statystyki, sędziowie, zdarzenia FIO–JUV, GEN–MIL, INT–COM, NAP–LAZ), Fox Sports, PianetaMilan, Fantacalcio.it, FC Inter 1908, QS Quotidiano Sportivo, Virgilio, Football Italia, Radio Bruno; wcześniejsze dane: FotMob, OA Sport, Betsson via Jamma.it. Tabela wyliczona z wyników (zgodna z QS: Lazio 29, Inter 28, Roma 27). Przerwa reprezentacyjna – 12. kolejka 21–23.11; typy zostaną dodane w tygodniu meczowym (brak meczów w ciągu 3 dni → brak typów). Typy to analiza, nie gwarancja; 18+. · Terminarz 12. kolejki potwierdzony 11.11 (Fantamaster/Lega Serie A) – przerwa reprezentacyjna, brak meczów do 21.11.",
  "teams": {
   "ATA": {
    "id": "ATA",

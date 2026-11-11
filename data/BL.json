@@ -1,9 +1,9 @@
 {
- "updated": "2026-11-10T06:20:00+01:00",
+ "updated": "2026-11-11T06:15:00+01:00",
  "season": "2026/27",
  "competition": "Bundesliga",
  "currentRound": 9,
- "note": "Źródła: hessenschau.de, t-online.de, bundesliga.com, sportschau.de, deichstube.de, absolutfussball.com, ESPN, zdfheute.de, news.de, getfootballnewsgermany.com, livetipsportal.com, buli-tipphilfe.de, wettfreunde.net, wettbasis.com, footballpredictions.com, ig-schiedsrichter.de, volksstimme.de. Tabela po 9. kolejce (komplet). Przerwa reprezentacyjna – 10. kolejka od 20.11; typy na nią pojawią się na 3 dni przed meczami.",
+ "note": "Źródła: hessenschau.de, t-online.de, bundesliga.com, sportschau.de, deichstube.de, absolutfussball.com, ESPN, zdfheute.de, news.de, getfootballnewsgermany.com, livetipsportal.com, buli-tipphilfe.de, wettfreunde.net, wettbasis.com, footballpredictions.com, ig-schiedsrichter.de, volksstimme.de. Tabela po 9. kolejce (komplet). Terminarz 10. kolejki potwierdzony (hessenschau.de, 11.11). Przerwa reprezentacyjna – 10. kolejka od 20.11; typy na nią pojawią się na 3 dni przed meczami.",
  "teams": {
   "BAY": {
    "id": "BAY",
@@ -6121,7 +6121,15 @@
     "time": "20:30",
     "home": "BAY",
     "away": "KOE",
-    "status": "ns"
+    "status": "ns",
+    "info": {
+     "injuries": {
+      "home": [
+       "Manuel Neuer (uraz w meczu z Mainz 7.11 – zmieniony przez Urbiga; status przed 20.11 niepewny)"
+      ],
+      "away": []
+     }
+    }
    },
    {
     "id": "BL-2026-27-R10-LEV-PAD",

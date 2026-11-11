@@ -1,9 +1,9 @@
 {
- "updated": "2026-11-10T05:35:00+01:00",
+ "updated": "2026-11-11T05:25:00+01:00",
  "season": "2026/27",
  "competition": "Premier League",
  "currentRound": 11,
- "note": "Źródła (10.11): fifplay (terminarz 11. kolejki potwierdzony), The Analyst (Arsenal–Hull: xG 1,08–0,34, strzały 21–7), VAVEL; wcześniej ESPN, Sky Sports, NBC Sports, Sports Mole (tabela). Przerwa reprezentacyjna – 11. kolejka od 21.11, typy pojawią się w ciągu 3 dni przed meczami",
+ "note": "Źródła (11.11): fifplay, footballwebpages, legz (terminarz 11. kolejki bez zmian); wcześniej The Analyst, VAVEL, ESPN, Sky Sports, NBC Sports, Sports Mole (tabela). Przerwa reprezentacyjna – 11. kolejka od 21.11, typy pojawią się w ciągu 3 dni przed meczami",
  "teams": {
   "ARS": {
    "id": "ARS",

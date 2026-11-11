@@ -1,9 +1,9 @@
 {
- "updated": "2026-11-10T06:45:00+01:00",
+ "updated": "2026-11-11T06:50:00+01:00",
  "season": "2026/27",
  "competition": "Ekstraklasa",
  "currentRound": 14,
- "note": "Źródła: kkslech.com / legionisci.com (wyniki, tabela), polsatsport.pl, tylkoslask.pl, sport.interia.pl, mecze24.pl (relacje 8.11), wcześniej: ekstraklasa.org, weszlo.com, flashscore.pl (kursy). Tabela po 14. kolejce (LPO, POG, JAG, WPL z meczem zaległym); forma: 5 ostatnich meczów ligowych. Przerwa reprezentacyjna – brak meczów do 20.11; 15. kolejka 20–23.11, typy pojawią się na 3 dni przed meczami. Zaległe mecze 4. kolejki – połowa grudnia (flashscore.pl). Godziny CET.",
+ "note": "Źródła: kkslech.com / legionisci.com (wyniki, tabela), polsatsport.pl, tylkoslask.pl, sport.interia.pl, mecze24.pl (relacje 8.11), wcześniej: ekstraklasa.org, weszlo.com, flashscore.pl (kursy). Tabela po 14. kolejce (LPO, POG, JAG, WPL z meczem zaległym); forma: 5 ostatnich meczów ligowych. Terminarz 15. i 16. kolejki potwierdzony 11.11 (betexplorer.com). Przerwa reprezentacyjna – brak meczów do 20.11; 15. kolejka 20–23.11, typy pojawią się na 3 dni przed meczami. Zaległe mecze 4. kolejki – połowa grudnia (flashscore.pl). Godziny CET.",
  "teams": {
   "LEG": {
    "id": "LEG",
@@ -3122,7 +3122,7 @@
      "away": [
       [
        "Trener",
-       "Dawid Szwagra"
+       "Dawid Szwarga"
       ]
      ]
     },
