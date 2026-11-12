@@ -1,9 +1,9 @@
 {
- "updated": "2026-11-11T05:50:00+01:00",
+ "updated": "2026-11-12T05:45:00+01:00",
  "season": "2026/27",
  "competition": "LaLiga",
- "currentRound": 12,
- "note": "Źródła: laliga.com (terminarz 13. kolejki), FotMob (Espanyol–Deportivo: składy, zmiany, kartki, xG, oceny), FOX Sports (Atlético–Barcelona: składy, kartki, zmiany), Infobae/EFE; wcześniej: sportschau.de, El Debate (tabela po 12. kolejce), fcbarcelona.es, ESPN, kirolakeitb, El Gol Digital, 101tv, rccelta.es, latingoles/EFE, Unitel/EFE, okdiario, riazor.org, iusport, SI.com, Sports Mole, oddscalendar, comuniate, Oddsportal. Zaległy mecz 8. kolejki Rayo–Athletic (przerwany w 25. min przy 0:0) ma być dokończony 9.12 przy pustych trybunach (bilbaohiria.com). Przerwa reprezentacyjna – 13. kolejka od 20.11 (Athletic–Espanyol 21:00); typy przy aktualizacjach na ≤3 dni przed meczami.",
+ "currentRound": 13,
+ "note": "Źródła: laliga.com (terminarz 13. kolejki), comuniate.com (wznowienie Rayo–Athletic z 8. kolejki: śr. 9.12.2026 20:00, bez publiczności), Al Jazeera (Valencia–Real: zmiany), FotMob, FOX Sports, Infobae/EFE, sportschau.de, El Debate, fcbarcelona.es, ESPN. Przerwa reprezentacyjna – 13. kolejka od 20.11; typy pojawią się na 3 dni przed meczami. Athletic i Rayo mają mecz mniej (przerwany mecz 8. kolejki).",
  "teams": {
   "ALA": {
    "id": "ALA",
@@ -6759,6 +6759,27 @@
       "who": "Arda Güler"
      },
      {
+      "m": 60,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Aimar Blázquez",
+      "out": "Umar Sadiq"
+     },
+     {
+      "m": 63,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Filip Ugrinic",
+      "out": "Guido Rodríguez"
+     },
+     {
+      "m": 63,
+      "t": "sub",
+      "s_": "h",
+      "inn": "Arnau Martínez",
+      "out": "Pablo Maffeo"
+     },
+     {
       "m": 75,
       "t": "goal",
       "s_": "a",
@@ -6771,6 +6792,55 @@
       "s_": "h",
       "who": "José Luis Gayà",
       "why": "Poważny rażący faul"
+     },
+     {
+      "m": 82,
+      "t": "yc",
+      "s_": "a",
+      "who": "Kylian Mbappé"
+     },
+     {
+      "m": 82,
+      "t": "yc",
+      "s_": "h",
+      "who": "Pepelu"
+     },
+     {
+      "m": 84,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Brahim Díaz",
+      "out": "Arda Güler"
+     },
+     {
+      "m": 84,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Eduardo Camavinga",
+      "out": "Diomande"
+     },
+     {
+      "m": 84,
+      "t": "sub",
+      "s_": "a",
+      "inn": "Endrick",
+      "out": "Bernardo Silva"
+     },
+     {
+      "m": 90,
+      "s": "+1",
+      "t": "sub",
+      "s_": "a",
+      "inn": "Thiago Pitarch",
+      "out": "Jude Bellingham"
+     },
+     {
+      "m": 90,
+      "s": "+1",
+      "t": "sub",
+      "s_": "a",
+      "inn": "Carlos Espí",
+      "out": "Kylian Mbappé"
      }
     ],
     "teamStats": [
@@ -6795,7 +6865,7 @@
       "r": 8.9
      }
     },
-    "notes": "0:3. Valverde (28.), Güler (36.) i Mbappé (75., asysta Gülera). Gayà z czerwoną kartką w 79. min (poważny rażący faul). Żółte kartki (bez minut w źródle): Maffeo, Guido Rodríguez, Rioja, Diomande, Pepelu (Valencia), Mbappé (Real) oraz trener Aguirre. Real zrównał się punktami z Barceloną (30). Piłkarz meczu wg FotMob: Arda Güler (8,9). Składy z numerami niedostępne w źródłach – pominięte."
+    "notes": "0:3. Valverde (28.), Güler (36.) i Mbappé (75., asysta Gülera). Gayà z czerwoną kartką w 79. min (poważny rażący faul). Żółte kartki (bez minut w źródle): Maffeo, Guido Rodríguez, Rioja, Diomande, Pepelu (Valencia), Mbappé (Real) oraz trener Aguirre. Real zrównał się punktami z Barceloną (30). Piłkarz meczu wg FotMob: Arda Güler (8,9). Składy z numerami niedostępne w źródłach – pominięte. Zmiany i minuty kartek Mbappégo/Pepelu (ok. 82.) wg relacji Al Jazeery (liczba strzałów różni się między źródłami: 4–19 vs 3–16)."
    },
    {
     "id": "LL-2026-27-R12-ELC-BET",
