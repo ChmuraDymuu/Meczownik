@@ -1,9 +1,9 @@
 {
  "sport": "tennis",
- "updated": "2026-11-13T07:20:00+01:00",
+ "updated": "2026-11-14T07:25:00+01:00",
  "season": "2026",
  "competition": "Tenis",
- "note": "Źródła: ATP Tour (wyniki Sztokholmu), Tennis Majors, ESPN, Yahoo Sports, WTA (wtatennis.com), RAW CHILI (plan 13.11), Bleacher Nation (godziny półfinałów Sztokholmu), Last Word on Sports, Tenngrand, bets.com.au. Godziny w czasie polskim; godziny meczów „po poprzednim” przybliżone. W tym tygodniu: WTA Finals (Indian Wells; półfinały 14.11, finał 15.11) i ATP 250 Sztokholm (tylko mecze z udziałem TOP 30). ATP Finals w Turynie startują 15.11 (grupy: McEnroe – Zverev, Shelton, Fils, Jodar; Lendl – Alcaraz, Medvedev, Cobolli, Tiafoe), ale plan gier na niedzielę nie był jeszcze opublikowany. Finał Sztokholmu (14.11) i drugi półfinał WTA Finals dodam po wyłonieniu par. Brak Polaków w turniejach głównych tygodnia. Brak par kursów z porównywarek, Pinnacle i polskich bukmacherów – wszystkie mecze NO BET.",
+ "note": "Źródła: WTA (wtatennis.com – plan półfinałów i finału), ESPN, Sky Sports, ATP Tour (plan ATP Finals 15–16.11), Tennis Majors, Last Word on Sports, VSiN, Tenngrand. Godziny w czasie polskim; godziny meczów „po poprzednim” przybliżone. Finał WTA Finals 15.11 o 21:00 (pary po półfinałach) dodam przy następnej aktualizacji. Muchová wycofała się z WTA Finals (choroba) – zastąpiła ją Shnaider. Brak Polaków w turniejach głównych. Brak par kursów z porównywarek, Pinnacle i polskich bukmacherów – wszystkie mecze NO BET.",
  "teams": {
   "NOSKOVA": {
    "id": "NOSKOVA",
@@ -13,15 +13,6 @@
    "col": "#1d3d78",
    "tour": "WTA",
    "rank": 8
-  },
-  "GAUFF": {
-   "id": "GAUFF",
-   "short": "GAU",
-   "name": "Coco Gauff",
-   "city": "USA",
-   "col": "#1b2f6b",
-   "tour": "WTA",
-   "rank": 4
   },
   "PEGULA": {
    "id": "PEGULA",
@@ -41,15 +32,6 @@
    "tour": "WTA",
    "rank": 2
   },
-  "MUCHOVA": {
-   "id": "MUCHOVA",
-   "short": "MUC",
-   "name": "Karolína Muchová",
-   "city": "Czechy",
-   "col": "#1d3d78",
-   "tour": "WTA",
-   "rank": 7
-  },
   "ANDREEVA": {
    "id": "ANDREEVA",
    "short": "AND",
@@ -67,15 +49,6 @@
    "col": "#1f4fa0",
    "tour": "WTA",
    "rank": 6
-  },
-  "KOSTYUK": {
-   "id": "KOSTYUK",
-   "short": "KOS",
-   "name": "Marta Kostyuk",
-   "city": "Ukraina",
-   "col": "#1f4fa0",
-   "tour": "WTA",
-   "rank": 10
   },
   "FRITZ": {
    "id": "FRITZ",
@@ -95,227 +68,89 @@
    "tour": "ATP",
    "rank": 25
   },
-  "RUNE": {
-   "id": "RUNE",
-   "short": "RUN",
-   "name": "Holger Rune",
-   "city": "Dania",
-   "col": "#a3122a",
-   "tour": "ATP",
-   "rank": 406
+  "TIRANTE": {
+   "id": "TIRANTE",
+   "short": "TIR",
+   "name": "Thiago Agustín Tirante",
+   "city": "Argentyna",
+   "col": "#2b5d9c",
+   "tour": "ATP"
   },
-  "HUMBERT": {
-   "id": "HUMBERT",
-   "short": "HUM",
-   "name": "Ugo Humbert",
+  "SHNAIDER": {
+   "id": "SHNAIDER",
+   "short": "SHN",
+   "name": "Diana Shnaider",
+   "city": "Rosja (neutralna)",
+   "col": "#24357f",
+   "tour": "WTA"
+  },
+  "ZVEREV": {
+   "id": "ZVEREV",
+   "short": "ZVE",
+   "name": "Alexander Zverev",
+   "city": "Niemcy",
+   "col": "#222222",
+   "tour": "ATP"
+  },
+  "JODAR": {
+   "id": "JODAR",
+   "short": "JOD",
+   "name": "Rafael Jodar",
+   "city": "Hiszpania",
+   "col": "#a3121a",
+   "tour": "ATP"
+  },
+  "SHELTON": {
+   "id": "SHELTON",
+   "short": "SHE",
+   "name": "Ben Shelton",
+   "city": "USA",
+   "col": "#1b2f6b",
+   "tour": "ATP"
+  },
+  "FILS": {
+   "id": "FILS",
+   "short": "FIL",
+   "name": "Arthur Fils",
    "city": "Francja",
    "col": "#1b3a8a",
+   "tour": "ATP"
+  },
+  "ALCARAZ": {
+   "id": "ALCARAZ",
+   "short": "ALC",
+   "name": "Carlos Alcaraz",
+   "city": "Hiszpania",
+   "col": "#a3121a",
+   "tour": "ATP"
+  },
+  "TIAFOE": {
+   "id": "TIAFOE",
+   "short": "TIA",
+   "name": "Frances Tiafoe",
+   "city": "USA",
+   "col": "#1b2f6b",
+   "tour": "ATP"
+  },
+  "MEDVEDEV": {
+   "id": "MEDVEDEV",
+   "short": "MED",
+   "name": "Daniil Medvedev",
+   "city": "Rosja (neutralny)",
+   "col": "#24357f",
+   "tour": "ATP"
+  },
+  "COBOLLI": {
+   "id": "COBOLLI",
+   "short": "COB",
+   "name": "Flavio Cobolli",
+   "city": "Włochy",
+   "col": "#0b5d2e",
    "tour": "ATP"
   }
  },
  "picks": [],
  "days": {
-  "2026-11-12": [
-   {
-    "id": "TEN-2026-11-12-MUSETTI-HUMBERT",
-    "date": "2026-11-12",
-    "time": "14:30",
-    "home": "MUSETTI",
-    "away": "HUMBERT",
-    "status": "ft",
-    "comp": "ATP 250 Sztokholm",
-    "stage": "Ćwierćfinał",
-    "surface": "twarda (hala)",
-    "bestOf": 3,
-    "notes": "Musetti wygrał 7-6(5), 3-6, 6-4 po 2 godz. 29 min. Godzina rozpoczęcia przybliżona. Pierwsze spotkanie tych zawodników.",
-    "info": {
-     "h2h": [
-      "Pierwsze spotkanie"
-     ],
-     "fatigue": "Musetti: 6-1, 6-4 z Samuelem (10.11); Humbert: 6-2, 6-4 z Gojo (11.11).",
-     "injuries": {
-      "home": [
-       "Kontuzje w sezonie – opuścił ATP Finals głównie z ich powodu; brak informacji o obecnym urazie"
-      ],
-      "away": []
-     },
-     "stakes": "Humbert był finalistą Sztokholmu w 2025 r."
-    },
-    "tip": {
-     "decision": "NO BET",
-     "reasons": [
-      "Brak pary kursów z jednej porównywarki, kursów Pinnacle i polskich bukmacherów.",
-      "Brak konkretnej, nieuwzględnionej przez rynek informacji uzasadniającej korektę."
-     ]
-    },
-    "score": [
-     2,
-     1
-    ],
-    "sets": [
-     [
-      7,
-      6,
-      5
-     ],
-     [
-      3,
-      6
-     ],
-     [
-      6,
-      4
-     ]
-    ]
-   },
-   {
-    "id": "TEN-2026-11-12-FRITZ-RUNE",
-    "date": "2026-11-12",
-    "time": "18:30",
-    "home": "FRITZ",
-    "away": "RUNE",
-    "status": "wo",
-    "comp": "ATP 250 Sztokholm",
-    "stage": "Ćwierćfinał",
-    "surface": "twarda (hala)",
-    "bestOf": 3,
-    "court": "Center Court",
-    "notes": "Walkower – Rune wycofał się kilka minut przed meczem z powodu lekkiego urazu ścięgna podkolanowego (prawa noga), którego nabawił się w meczu z Kecmanoviciem. Fritz awansował do półfinału bez gry.",
-    "info": {
-     "h2h": [
-      "Fritz prowadzi 2-1",
-      "2024 Szanghaj (twarda) FRITZ 2:0 RUNE (6-1, 6-2)",
-      "2024 Indian Wells (twarda) RUNE 2:1 FRITZ (2-6, 7-6, 6-3)",
-      "2023 Miami (twarda) FRITZ 2:0 RUNE (6-3, 6-4)"
-     ],
-     "surface": {
-      "home": "hala: 10 z 13 ostatnich meczów wygranych (finał Lyon, półfinał Bazylea, ćwierćfinał Paryż)"
-     },
-     "fatigue": "Fritz: 7-5, 6-3 z Norriem (11.11); Rune: trzysetowy mecz z Kecmanoviciem wieczorem 11.11.",
-     "injuries": {
-      "home": [
-       "Zapalenie ścięgna kolana przez dużą część sezonu 2026 – brak informacji o bieżącym urazie"
-      ],
-      "away": [
-       "Powrót po zerwaniu ścięgna Achillesa (Sztokholm 2025, ok. 11 miesięcy przerwy); 406. ATP"
-      ]
-     },
-     "stakes": "Rune – mistrz Sztokholmu 2022, bilans 9-2 w tym turnieju; Fritz 44-22 w sezonie."
-    },
-    "tip": {
-     "decision": "NO BET",
-     "reasons": [
-      "Znaleziono tylko jednostronny kurs (Rune 2,90 w Dabble) i jedną stronę sumy gemów (Ponad 23,5 po 2,00) – brak par rynkowych.",
-      "Brak kursów Pinnacle i polskich bukmacherów – nie da się policzyć EV.",
-      "Podwyższona niepewność zdrowotna po obu stronach (kolano Fritza, powrót Rune'a po Achillesie) – ryzyko kreczu."
-     ]
-    }
-   },
-   {
-    "id": "TEN-2026-11-12-GAUFF-KOSTYUK",
-    "date": "2026-11-12",
-    "time": "21:00",
-    "home": "GAUFF",
-    "away": "KOSTYUK",
-    "status": "ft",
-    "comp": "WTA Finals Indian Wells",
-    "stage": "Grupa 1 – 3. kolejka",
-    "surface": "twarda",
-    "bestOf": 3,
-    "court": "Stadium 1",
-    "notes": "Gauff wygrała 6-4, 7-5 – w 2. secie przegrywała 1:5 i wygrała sześć gemów z rzędu; w 1. secie prowadziła 5:2. Gauff popełniła 9 podwójnych błędów, była masowana przez fizjoterapeutę z powodu sztywności pleców. Kostyuk grała z bólem nadgarstka (rozważała krecz). Mimo wygranej Gauff odpadła po zwycięstwie Peguli nad Noskovą.",
-    "info": {
-     "stakes": "Gauff walczy z Pegulą o 2. miejsce w grupie (Nosková 2-0 już w półfinale); Kostyuk gra o honor i punkty.",
-     "h2h": [
-      "Gauff prowadzi 4-2",
-      "2026 Cincinnati (twarda) ĆF GAUFF 2:0 KOSTYUK (6-2, 6-2)"
-     ],
-     "injuries": {
-      "home": [],
-      "away": [
-       "Uraz prawego nadgarstka (ból ok. 3 miesięcy, niedawno ustąpił)"
-      ]
-     },
-     "fatigue": "Gauff: porażka 0:2 z Noskovą w 75 min (10.11); Kostyuk: porażka 0:2 z Pegulą (10.11). Obie z dniem przerwy."
-    },
-    "tip": {
-     "decision": "NO BET",
-     "reasons": [
-      "Jedyna para kursów (Gauff 1,32 / Kostyuk 3,50) pochodzi z agregatu bez nazwy bukmachera – brak Pinnacle i kursów legalnych w Polsce bukmacherów.",
-      "Prawdopodobieństwo rynkowe Gauff ok. 73% po usunięciu marży; brak świeżej informacji, której rynek mógłby nie uwzględniać.",
-      "Motywacja (Gauff gra o półfinał, Kostyuk już odpadła) jest publiczna i wliczona w kurs."
-     ]
-    },
-    "odds": {
-     "src": "Dimers (kursy amerykańskie −310/+250 przeliczone na dziesiętne, bez nazwy bukmachera), stan na 11.11",
-     "ml1": 1.32,
-     "ml2": 3.5
-    },
-    "score": [
-     2,
-     0
-    ],
-    "sets": [
-     [
-      6,
-      4
-     ],
-     [
-      7,
-      5
-     ]
-    ]
-   },
-   {
-    "id": "TEN-2026-11-12-PEGULA-NOSKOVA",
-    "date": "2026-11-12",
-    "time": "22:30",
-    "home": "PEGULA",
-    "away": "NOSKOVA",
-    "status": "ft",
-    "comp": "WTA Finals Indian Wells",
-    "stage": "Grupa 1 – 3. kolejka",
-    "surface": "twarda",
-    "bestOf": 3,
-    "court": "Stadium 1",
-    "notes": "Pegula wygrała 7-6(2), 4-6, 7-5, posyłając 16 asów (rekord kariery) i broniąc piłki meczowej przy stanie 4:5 w 3. secie; potem przełamała Noskovą i zakończyła mecz przy pierwszym meczbolu. Godzina rozpoczęcia przybliżona. Pegula awansowała do półfinału (rywalka: Mirra Andreeva); Nosková wygrała Grupę 1, Gauff odpadła.",
-    "info": {
-     "stakes": "Pegula gra o półfinał; Nosková – o 1. miejsce w grupie.",
-     "h2h": [
-      "Nosková prowadzi 3-1",
-      "2026 Berlin (trawiasta) F NOSKOVA 2:1 PEGULA (6-4, 4-6, 6-3)"
-     ],
-     "fatigue": "Pegula: 2:0 z Kostyuk (10.11); Nosková: 2:0 z Gauff w 75 min (10.11). Obie z dniem przerwy."
-    },
-    "tip": {
-     "decision": "NO BET",
-     "reasons": [
-      "Znaleziono tylko jednostronny kurs (Pegula 1,99 w 1xBet) – brak pary rynkowej z jednej porównywarki.",
-      "Brak kursów Pinnacle i legalnych w Polsce bukmacherów – brak punktu odniesienia do liczenia EV.",
-      "Ryzyko, że zakwalifikowana już Nosková obniży zaangażowanie, jest trudne do wyceny – zbyt duża niepewność."
-     ]
-    },
-    "score": [
-     2,
-     1
-    ],
-    "sets": [
-     [
-      7,
-      6,
-      2
-     ],
-     [
-      4,
-      6
-     ],
-     [
-      7,
-      5
-     ]
-    ]
-   }
-  ],
   "2026-11-13": [
    {
     "id": "TEN-2026-11-13-FRITZ-MUSETTI",
@@ -323,17 +158,17 @@
     "time": "17:00",
     "home": "FRITZ",
     "away": "MUSETTI",
-    "status": "ns",
+    "status": "ft",
     "comp": "ATP 250 Sztokholm",
     "stage": "Półfinał",
     "surface": "twarda (hala)",
     "bestOf": 3,
-    "notes": "Drugi półfinał dnia (11:00 ET = 17:00 w Polsce, po meczu Tabilo–Tirante od 14:00) – godzina przybliżona. Drugi półfinał Tabilo–Tirante pominięty (brak zawodników z TOP 30). Finał w sobotę 14.11.",
+    "notes": "Fritz wygrał 6-4, 6-2 w 63 min, wykorzystując 3 z 4 break pointów; rewanż za porażkę w finale Lyonu. Szósty finał Fritza w sezonie 2026 i 15. wygrana w hali. Musetti nadal prowadzi w H2H 5-4. Godzina rozpoczęcia przybliżona.",
     "info": {
      "h2h": [
-      "Musetti prowadzi 5-3",
-      "2026 Lyon (twarda, hala) F MUSETTI 2:0 FRITZ (6-3, 6-4)",
-      "Fritz wygrał 2 z 3 meczów na kortach twardych w hali"
+      "Musetti prowadzi 5-4",
+      "2026 Sztokholm (twarda, hala) PF FRITZ 2:0 MUSETTI (6-4, 6-2)",
+      "2026 Lyon (twarda, hala) F MUSETTI 2:0 FRITZ (6-3, 6-4)"
      ],
      "surface": {
       "away": "hala 2026: 10-2"
@@ -356,35 +191,59 @@
       "H2H, forma w hali i zmęczenie Musettiego po 2,5 h meczu to informacje publiczne – nie są podstawą do korekty względem rynku.",
       "Bez kursu nie ma możliwości sprawdzenia, czy typ byłby opłacalny z podatkiem 12%."
      ]
-    }
+    },
+    "score": [
+     2,
+     0
+    ],
+    "sets": [
+     [
+      6,
+      4
+     ],
+     [
+      6,
+      2
+     ]
+    ]
    },
    {
-    "id": "TEN-2026-11-13-ANDREEVA-MUCHOVA",
+    "id": "TEN-2026-11-13-ANDREEVA-SHNAIDER",
     "date": "2026-11-13",
     "time": "21:00",
     "home": "ANDREEVA",
-    "away": "MUCHOVA",
-    "status": "ns",
+    "away": "SHNAIDER",
+    "status": "ft",
     "comp": "WTA Finals Indian Wells",
     "surface": "twarda",
     "bestOf": 3,
     "court": "Stadium 1",
     "stage": "Grupa 2 – 3. kolejka",
-    "notes": "Pierwszy mecz sesji (12:00 PT = 21:00 w Polsce). Mecz bez wpływu na awans: Andreeva (2-0) wygrała już Grupę 2 i w półfinale zagra z Pegulą; Muchová (0-2) odpadła.",
+    "notes": "Karolína Muchová wycofała się z turnieju z powodu choroby żołądkowo-jelitowej; zastąpiła ją druga rezerwowa Diana Shnaider. Andreeva wygrała 6-2, 6-1 w 55 min – od 0:2 w 1. secie wygrała 12 z 13 ostatnich gemów, 71% punktów po 1. serwisie, wykorzystała 6 z 7 break pointów. Shnaider popełniła 32 błędy. Andreeva zakończyła grupę z bilansem 3-0 (36 z 47 gemów).",
     "info": {
-     "stakes": "Andreeva ma już 1. miejsce w grupie; Muchová gra o honor i punkty.",
-     "h2h": [
-      "Andreeva prowadzi 1-0",
-      "2024 Ningbo (twarda) ANDREEVA – krecz Muchovej"
-     ]
+     "stakes": "Andreeva miała już 1. miejsce w Grupie 2; Shnaider (rezerwowa) grała o punkty i premię."
     },
     "tip": {
      "decision": "NO BET",
      "reasons": [
-      "Mecz o nic – Andreeva ma już 1. miejsce w grupie, Muchová odpadła; motywacja obu trudna do wyceny (możliwe oszczędzanie sił przed półfinałem).",
-      "Brak pary kursów z porównywarki, Pinnacle i polskich bukmacherów – brak podstawy do liczenia EV."
+      "Zmiana rywalki w ostatniej chwili (wycofanie Muchovej) – brak wiarygodnej pary kursów.",
+      "Mecz bez stawki dla Andrei – motywacja trudna do wyceny."
      ]
-    }
+    },
+    "score": [
+     2,
+     0
+    ],
+    "sets": [
+     [
+      6,
+      2
+     ],
+     [
+      6,
+      1
+     ]
+    ]
    },
    {
     "id": "TEN-2026-11-13-SABALENKA-SVITOLINA",
@@ -392,13 +251,13 @@
     "time": "23:00",
     "home": "SABALENKA",
     "away": "SVITOLINA",
-    "status": "ns",
+    "status": "ft",
     "comp": "WTA Finals Indian Wells",
     "surface": "twarda",
     "bestOf": 3,
     "court": "Stadium 1",
     "stage": "Grupa 2 – 3. kolejka",
-    "notes": "Drugi mecz sesji po Andreeva–Muchová – godzina przybliżona (bets.com.au: ok. 9:00 AEDT 14.11 ≈ 23:00 w Polsce). Mecz o półfinał: zwyciężczyni awansuje z 2. miejsca w Grupie 2 i zagra w sobotę z Lindą Noskovą.",
+    "notes": "Svitolina wygrała 6-3, 3-6, 6-1 (przy czwartej piłce meczowej) i awansowała do półfinału z 2. miejsca w Grupie 2; Sabalenka odpadła. Svitolina: 21 winnerów, 24 błędy, 6/8 wykorzystanych break pointów; Sabalenka: 35 błędów. Godzina rozpoczęcia przybliżona.",
     "info": {
      "stakes": "Bezpośredni mecz o półfinał (obie 1-1). Bilans sezonu 2026: Sabalenka 48-12, Svitolina 51-18.",
      "injuries": {
@@ -424,10 +283,62 @@
       "Uraz biodra Svitoliny z meczu 11.11 jest już publiczny i przed dniem przerwy – nie wiadomo, czy wpływa na grę; za mało danych do korekty prawdopodobieństwa.",
       "Bez kursów nie da się wykazać EV ≥ +4% ani opłacalności z podatkiem 12%."
      ]
-    }
+    },
+    "score": [
+     1,
+     2
+    ],
+    "sets": [
+     [
+      3,
+      6
+     ],
+     [
+      6,
+      3
+     ],
+     [
+      1,
+      6
+     ]
+    ]
    }
   ],
   "2026-11-14": [
+   {
+    "id": "TEN-2026-11-14-FRITZ-TIRANTE",
+    "date": "2026-11-14",
+    "time": "13:00",
+    "home": "FRITZ",
+    "away": "TIRANTE",
+    "status": "ns",
+    "comp": "ATP 250 Sztokholm",
+    "stage": "Finał",
+    "surface": "twarda (hala)",
+    "bestOf": 3,
+    "notes": "Godzina przybliżona (Last Word on Sports: 7:00 EST). Fritz (rozstawiony z 1) gra szósty finał sezonu; Tirante – pierwszy finał ATP w karierze (w półfinale 7-5, 7-6(1) z Tabilo).",
+    "odds": {
+     "src": "Last Word on Sports – Interwetten, jednostronne kursy, stan na 13.11"
+    },
+    "info": {
+     "fatigue": "Fritz: 63 min z Musettim 13.11, w ćwierćfinale walkower (Rune). Tirante: dwa sety (7-5, 7-6) z Tabilo 13.11.",
+     "stakes": "Fritz – alternate ATP Finals (start 15.11 w Turynie); Tirante przed turniejem tuż za TOP 50, tytuł dałby mu miejsce w TOP 40 na koniec sezonu.",
+     "injuries": {
+      "home": [
+       "Zapalenie ścięgna kolana przez dużą część sezonu 2026 – brak informacji o bieżącym urazie"
+      ],
+      "away": []
+     }
+    },
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Znaleziono tylko jednostronne kursy (Fritz −1,5 seta 1,60 i Tirante +4,5 gema 1,65 w Interwetten) – brak pary rynkowej z jednej porównywarki, kursów Pinnacle i legalnych w Polsce bukmacherów.",
+      "Bez prawdopodobieństwa rynkowego nie da się policzyć EV ani sprawdzić opłacalności z podatkiem 12%.",
+      "Ostatni mecz sezonu przed ewentualnym startem Fritza jako rezerwowego w Turynie – możliwe zarządzanie siłami, trudne do wyceny."
+     ]
+    }
+   },
    {
     "id": "TEN-2026-11-14-ANDREEVA-PEGULA",
     "date": "2026-11-14",
@@ -440,11 +351,139 @@
     "surface": "twarda",
     "bestOf": 3,
     "court": "Stadium 1",
-    "notes": "Półfinały od 12:00 PT (21:00 w Polsce); kolejność meczów nieogłoszona – godzina przybliżona. Drugi półfinał: Linda Nosková – zwyciężczyni meczu Sabalenka/Svitolina. Finał 15.11.",
+    "notes": "Pierwszy mecz sesji (12:00 PT = 21:00 w Polsce). Drugi półfinał: Elina Svitolina – Linda Nosková. Finał 15.11 o 12:00 PT (21:00 w Polsce).",
+    "odds": {
+     "src": "VSiN – jednostronny kurs (Andreeva −3,5 gema −125), bez nazwy bukmachera, stan na 13.11"
+    },
     "info": {
-     "fatigue": "Pegula: 3 sety i obroniony meczbol z Noskovą 12.11, dzień przerwy 13.11. Andreeva: mecz z Muchovą 13.11 (bez stawki).",
-     "stakes": "Andreeva wygrała Grupę 2 (pokonała m.in. Sabalenkę 6-4, 6-0 i Svitolinę 6-4, 6-0); Pegula awansowała z 2. miejsca w Grupie 1."
+     "h2h": [
+      "Pierwsze spotkanie"
+     ],
+     "fatigue": "Andreeva: 6-2, 6-1 z Shnaider w 55 min (13.11); w grupie straciła 11 gemów w 6 setach. Pegula: dwa trzysetowe mecze w grupie, ostatni 12.11 (obroniony meczbol z Noskovą), dzień przerwy 13.11.",
+     "stakes": "Andreeva – debiut w turnieju singlowym Finals, mistrzyni Indian Wells 2025; Pegula – finalistka WTA Finals 2022, walczy o pierwszy tytuł."
+    },
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Znaleziono tylko jedną stronę rynku (Andreeva −3,5 gema po −125 ≈ 1,80, bez nazwy bukmachera) – brak pary kursów, Pinnacle i kursów polskich bukmacherów.",
+      "Forma Andrei w grupie i warunki w Indian Wells to informacje publiczne, już uwzględnione w kursach – brak podstawy do korekty.",
+      "Bez kursów nie da się wykazać EV ≥ +4% ani opłacalności z podatkiem 12%."
+     ]
     }
+   },
+   {
+    "id": "TEN-2026-11-14-SVITOLINA-NOSKOVA",
+    "date": "2026-11-14",
+    "time": "23:00",
+    "home": "SVITOLINA",
+    "away": "NOSKOVA",
+    "status": "ns",
+    "comp": "WTA Finals Indian Wells",
+    "stage": "Półfinał",
+    "surface": "twarda",
+    "bestOf": 3,
+    "court": "Stadium 1",
+    "notes": "Drugi mecz sesji po Andreeva–Pegula – godzina przybliżona.",
+    "odds": {
+     "src": "VSiN – jednostronny kurs (Nosková −156), bez nazwy bukmachera, stan na 13.11"
+    },
+    "info": {
+     "h2h": [
+      "Nosková prowadzi 2-1 (wg WTA)",
+      "2026 Stuttgart (ziemna, hala) ĆF – wygrana SVITOLINA",
+      "2024 – Nosková wygrała oba mecze na kortach twardych"
+     ],
+     "fatigue": "Svitolina: trzysetowe mecze z Muchovą (11.11) i Sabalenką (13.11), bez dnia przerwy przed półfinałem. Nosková: ostatni mecz 12.11 (porażka 1:2 z Pegulą), dzień przerwy 13.11.",
+     "injuries": {
+      "home": [
+       "Przerwa medyczna z powodu prawego biodra w meczu z Muchovą (11.11) – potem wygrała z Sabalenką"
+      ],
+      "away": []
+     },
+     "stakes": "Svitolina – mistrzyni 2018, pierwszy półfinał od 2019; Nosková – debiut w Finals, wygrała Grupę 1."
+    },
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Znaleziono tylko jedną stronę rynku (Nosková −156 ≈ 1,64, bez nazwy bukmachera) – brak pary kursów, Pinnacle i kursów polskich bukmacherów.",
+      "Zmęczenie Svitoliny (dwa trzysetowe mecze, brak dnia przerwy) jest znane publicznie – nie wiadomo, czy rynek go nie uwzględnił.",
+      "Bez kursów nie da się policzyć EV ani opłacalności z podatkiem 12%."
+     ]
+    }
+   }
+  ],
+  "2026-11-15": [
+   {
+    "id": "TEN-2026-11-15-ZVEREV-JODAR",
+    "date": "2026-11-15",
+    "time": "14:00",
+    "home": "ZVEREV",
+    "away": "JODAR",
+    "status": "ns",
+    "comp": "ATP Finals Turyn",
+    "stage": "Grupa McEnroe – 1. kolejka",
+    "surface": "twarda (hala)",
+    "bestOf": 3,
+    "court": "Inalpi Arena",
+    "notes": "Pierwszy mecz singlowy turnieju, „nie przed” 14:00. Sinner nie gra (kontuzja kolana).",
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Nie znaleziono pary kursów z porównywarki, kursów Pinnacle ani legalnych w Polsce bukmacherów – brak podstawy do liczenia EV.",
+      "Brak konkretnej informacji, której rynek mógłby nie uwzględniać."
+     ]
+    }
+   },
+   {
+    "id": "TEN-2026-11-15-SHELTON-FILS",
+    "date": "2026-11-15",
+    "time": "20:30",
+    "home": "SHELTON",
+    "away": "FILS",
+    "status": "ns",
+    "comp": "ATP Finals Turyn",
+    "stage": "Grupa McEnroe – 1. kolejka",
+    "surface": "twarda (hala)",
+    "bestOf": 3,
+    "court": "Inalpi Arena",
+    "notes": "Sesja wieczorna, „nie przed” 20:30.",
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Nie znaleziono pary kursów z porównywarki, kursów Pinnacle ani legalnych w Polsce bukmacherów – brak podstawy do liczenia EV.",
+      "Brak konkretnej informacji, której rynek mógłby nie uwzględniać."
+     ]
+    }
+   }
+  ],
+  "2026-11-16": [
+   {
+    "id": "TEN-2026-11-16-ALCARAZ-TIAFOE",
+    "date": "2026-11-16",
+    "time": "14:00",
+    "home": "ALCARAZ",
+    "away": "TIAFOE",
+    "status": "ns",
+    "comp": "ATP Finals Turyn",
+    "stage": "Grupa Lendl – 1. kolejka",
+    "surface": "twarda (hala)",
+    "bestOf": 3,
+    "court": "Inalpi Arena",
+    "notes": "„Nie przed” 14:00."
+   },
+   {
+    "id": "TEN-2026-11-16-MEDVEDEV-COBOLLI",
+    "date": "2026-11-16",
+    "time": "20:30",
+    "home": "MEDVEDEV",
+    "away": "COBOLLI",
+    "status": "ns",
+    "comp": "ATP Finals Turyn",
+    "stage": "Grupa Lendl – 1. kolejka",
+    "surface": "twarda (hala)",
+    "bestOf": 3,
+    "court": "Inalpi Arena",
+    "notes": "Sesja wieczorna, „nie przed” 20:30."
    }
   ]
  }
