@@ -1,9 +1,9 @@
 {
- "updated": "2026-11-14T06:20:00+01:00",
+ "updated": "2026-11-15T06:10:00+01:00",
  "season": "2026/27",
  "competition": "Bundesliga",
  "currentRound": 10,
- "note": "Źródła: hessenschau.de, t-online.de, bundesliga.com, sportschau.de, deichstube.de, absolutfussball.com, ESPN, zdfheute.de, news.de, getfootballnewsgermany.com, livetipsportal.com, buli-tipphilfe.de, wettfreunde.net, wettbasis.com, footballpredictions.com, ig-schiedsrichter.de, sport.sky.de, volksstimme.de. Tabela po 9. kolejce (komplet). Terminarz 10. kolejki potwierdzony (hessenschau.de, anstosszeiten.de, 12.11). Przerwa reprezentacyjna – 10. kolejka od 20.11; typy na nią pojawią się na 3 dni przed meczami",
+ "note": "Źródła: hessenschau.de, t-online.de, bundesliga.com, sportschau.de, deichstube.de, absolutfussball.com, ESPN, zdfheute.de, news.de, getfootballnewsgermany.com, livetipsportal.com, buli-tipphilfe.de, wettfreunde.net, wettbasis.com, footballpredictions.com, ig-schiedsrichter.de, sport.sky.de, volksstimme.de., anstosszeiten.de. Tabela po 9. kolejce (komplet). Terminarz 10. i 11. kolejki potwierdzony (anstosszeiten.de, 15.11). Przerwa reprezentacyjna – 10. kolejka od 20.11 (Bayern – Köln); typy na nią pojawią się na 3 dni przed meczami.",
  "teams": {
   "BAY": {
    "id": "BAY",

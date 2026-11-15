@@ -1,9 +1,9 @@
 {
- "updated": "2026-11-14T06:25:00+01:00",
+ "updated": "2026-11-15T06:30:00+01:00",
  "season": "2026/27",
  "competition": "Ligue 1",
  "currentRound": 10,
- "note": "Źródła: Maxifoot (raporty i noty 9.–10. kolejki: składy, kartki i zmiany REN–LIL, BRE–LYO, LEN–OLM, AUX–PFC; statystyki LMA–MON, ANG–NIC; noty PSG–TRO), hommedumatch.fr, Foot01, Planetsport (HAV–LOR); rcstrasbourgalsace.fr, ESPN (TOU–STR); ligue1.com (terminarz J11 potwierdzony 11.11, obsada sędziowska J10); tabela po 10. kolejce: Footmercato i ski-nordique.net (zgodne); compare-bet.fr, Betclic przez Flashscore, Unibet przez Goal.com (kursy sprzed J10). Fox Sports (składy z numerami PSG–TRO, uzup. 12.11). Brak numerów koszulek i części składów w pozostałych meczach z 07–08.11. Przerwa reprezentacyjna — 11. kolejka 20–22.11 (terminarz bez zmian, stan 12.11), typy pojawią się bliżej terminu. Aktualizacja 14.11: przerwa reprezentacyjna — brak meczów w ostatnich i najbliższych 3 dniach; terminarz J11 (20–22.11) ponownie potwierdzony na ligue1.com.",
+ "note": "Źródła: Maxifoot (raporty i noty 9.–10. kolejki: składy, kartki i zmiany REN–LIL, BRE–LYO, LEN–OLM, AUX–PFC; statystyki LMA–MON, ANG–NIC; noty PSG–TRO), hommedumatch.fr, Foot01, Planetsport (HAV–LOR); rcstrasbourgalsace.fr, ESPN (TOU–STR); ligue1.com (terminarz J11 potwierdzony 11.11, obsada sędziowska J10); tabela po 10. kolejce: Footmercato i ski-nordique.net (zgodne); compare-bet.fr, Betclic przez Flashscore, Unibet przez Goal.com (kursy sprzed J10). Fox Sports (składy z numerami PSG–TRO, uzup. 12.11). Brak numerów koszulek i części składów w pozostałych meczach z 07–08.11. Przerwa reprezentacyjna — 11. kolejka 20–22.11 (terminarz bez zmian, stan 12.11), typy pojawią się bliżej terminu. Aktualizacja 15.11: przerwa reprezentacyjna — brak meczów w ostatnich i najbliższych 3 dniach; terminarz J11 (20–22.11) ponownie potwierdzony na ligue1.com, typy na J11 od 17.11.",
  "teams": {
   "ANG": {
    "id": "ANG",
