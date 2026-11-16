@@ -1,28 +1,10 @@
 {
  "sport": "tennis",
- "updated": "2026-11-15T06:54:32+01:00",
+ "updated": "2026-11-16T07:05:00+01:00",
  "season": "2026",
  "competition": "Tenis",
- "note": "Źródła: ATP Tour / nittoatpfinals.com (plan 15–16.11), Tennis Majors (finał w Sztokholmie), AP/News4Jax (półfinały WTA Finals), Last Word on Sports, Dimers (kursy USA). Godziny w czasie polskim; „nie przed” = najwcześniejsza godzina. Pary ATP Finals na 17.11 zależą od wyników 15.11 – dodam je przy następnej aktualizacji. Brak Polaków w turniejach głównych. Brak kursów Pinnacle i polskich bukmacherów – wszystkie analizowane mecze NO BET.",
+ "note": "Źródła: ATP Tour (Shelton–Fils), NBC Sports / Sky Sports (Zverev–Jodar), Tennis Majors (finał WTA Finals, grupy ATP Finals), bets.com.au i Sporting Life (H2H, forma, urazy), Pickswise (kursy FanDuel/Novig/Polymarket), Dimers. Godziny w czasie polskim; „nie przed” = najwcześniejsza godzina. 17.11 grupa McEnroe (2. kolejka) i 18.11 grupa Lendl – kolejność i godziny jeszcze nieogłoszone, mecze dodam przy następnej aktualizacji. Brak Polaków w turniejach głównych. Brak kursów Pinnacle i polskich bukmacherów – wszystkie analizowane mecze NO BET.",
  "teams": {
-  "NOSKOVA": {
-   "id": "NOSKOVA",
-   "short": "NOS",
-   "name": "Linda Nosková",
-   "city": "Czechy",
-   "col": "#1d3d78",
-   "tour": "WTA",
-   "rank": 8
-  },
-  "PEGULA": {
-   "id": "PEGULA",
-   "short": "PEG",
-   "name": "Jessica Pegula",
-   "city": "USA",
-   "col": "#203a75",
-   "tour": "WTA",
-   "rank": 5
-  },
   "ANDREEVA": {
    "id": "ANDREEVA",
    "short": "AND",
@@ -40,23 +22,6 @@
    "col": "#1f4fa0",
    "tour": "WTA",
    "rank": 6
-  },
-  "FRITZ": {
-   "id": "FRITZ",
-   "short": "FRI",
-   "name": "Taylor Fritz",
-   "city": "USA",
-   "col": "#1b2f6b",
-   "tour": "ATP",
-   "rank": 10
-  },
-  "TIRANTE": {
-   "id": "TIRANTE",
-   "short": "TIR",
-   "name": "Thiago Agustín Tirante",
-   "city": "Argentyna",
-   "col": "#2b5d9c",
-   "tour": "ATP"
   },
   "ZVEREV": {
    "id": "ZVEREV",
@@ -97,7 +62,8 @@
    "name": "Carlos Alcaraz",
    "city": "Hiszpania",
    "col": "#a3121a",
-   "tour": "ATP"
+   "tour": "ATP",
+   "rank": 3
   },
   "TIAFOE": {
    "id": "TIAFOE",
@@ -105,7 +71,8 @@
    "name": "Frances Tiafoe",
    "city": "USA",
    "col": "#1b2f6b",
-   "tour": "ATP"
+   "tour": "ATP",
+   "rank": 8
   },
   "MEDVEDEV": {
    "id": "MEDVEDEV",
@@ -113,7 +80,8 @@
    "name": "Daniil Medvedev",
    "city": "Rosja (neutralny)",
    "col": "#24357f",
-   "tour": "ATP"
+   "tour": "ATP",
+   "rank": 5
   },
   "COBOLLI": {
    "id": "COBOLLI",
@@ -121,173 +89,12 @@
    "name": "Flavio Cobolli",
    "city": "Włochy",
    "col": "#0b5d2e",
-   "tour": "ATP"
+   "tour": "ATP",
+   "rank": 6
   }
  },
  "picks": [],
  "days": {
-  "2026-11-14": [
-   {
-    "id": "TEN-2026-11-14-FRITZ-TIRANTE",
-    "date": "2026-11-14",
-    "time": "13:00",
-    "home": "FRITZ",
-    "away": "TIRANTE",
-    "status": "ft",
-    "comp": "ATP 250 Sztokholm",
-    "stage": "Finał",
-    "surface": "twarda (hala)",
-    "bestOf": 3,
-    "notes": "Czas gry 2:12. Fritz wygrał pierwszy tytuł w hali w karierze (tie-break w 3. secie). Winnery: Fritz 22, Tirante 35; niewymuszone błędy: Fritz 21, Tirante 36. W 3. secie bez przełamań. Fritz jedzie do Turynu jako drugi rezerwowy ATP Finals.",
-    "odds": {
-     "src": "Last Word on Sports – Interwetten, jednostronne kursy, stan na 13.11"
-    },
-    "info": {
-     "fatigue": "Fritz: 63 min z Musettim 13.11, w ćwierćfinale walkower (Rune). Tirante: dwa sety (7-5, 7-6) z Tabilo 13.11.",
-     "stakes": "Fritz – alternate ATP Finals (start 15.11 w Turynie); Tirante przed turniejem tuż za TOP 50, tytuł dałby mu miejsce w TOP 40 na koniec sezonu.",
-     "injuries": {
-      "home": [
-       "Zapalenie ścięgna kolana przez dużą część sezonu 2026 – brak informacji o bieżącym urazie"
-      ],
-      "away": []
-     }
-    },
-    "tip": {
-     "decision": "NO BET",
-     "reasons": [
-      "Znaleziono tylko jednostronne kursy (Fritz −1,5 seta 1,60 i Tirante +4,5 gema 1,65 w Interwetten) – brak pary rynkowej z jednej porównywarki, kursów Pinnacle i legalnych w Polsce bukmacherów.",
-      "Bez prawdopodobieństwa rynkowego nie da się policzyć EV ani sprawdzić opłacalności z podatkiem 12%.",
-      "Ostatni mecz sezonu przed ewentualnym startem Fritza jako rezerwowego w Turynie – możliwe zarządzanie siłami, trudne do wyceny."
-     ]
-    },
-    "score": [
-     2,
-     1
-    ],
-    "sets": [
-     [
-      6,
-      2
-     ],
-     [
-      4,
-      6
-     ],
-     [
-      7,
-      6,
-      3
-     ]
-    ],
-    "stats": [
-     [
-      "Asy",
-      7,
-      10
-     ]
-    ]
-   },
-   {
-    "id": "TEN-2026-11-14-ANDREEVA-PEGULA",
-    "date": "2026-11-14",
-    "time": "21:00",
-    "home": "ANDREEVA",
-    "away": "PEGULA",
-    "status": "ft",
-    "comp": "WTA Finals Indian Wells",
-    "stage": "Półfinał",
-    "surface": "twarda",
-    "bestOf": 3,
-    "court": "Stadium 1",
-    "notes": "Andreeva: 58% pierwszego serwisu, 6 podwójnych błędów, 4/9 wykorzystanych break pointów. Pegula: 0 asów, 31 niewymuszonych błędów; prowadziła 3:1 w 2. secie, potem przegrała 5 z 6 ostatnich gemów.",
-    "odds": {
-     "src": "VSiN – jednostronny kurs (Andreeva −3,5 gema −125), bez nazwy bukmachera, stan na 13.11"
-    },
-    "info": {
-     "h2h": [
-      "Pierwsze spotkanie"
-     ],
-     "fatigue": "Andreeva: 6-2, 6-1 z Shnaider w 55 min (13.11); w grupie straciła 11 gemów w 6 setach. Pegula: dwa trzysetowe mecze w grupie, ostatni 12.11 (obroniony meczbol z Noskovą), dzień przerwy 13.11.",
-     "stakes": "Andreeva – debiut w turnieju singlowym Finals, mistrzyni Indian Wells 2025; Pegula – finalistka WTA Finals 2022, walczy o pierwszy tytuł."
-    },
-    "tip": {
-     "decision": "NO BET",
-     "reasons": [
-      "Znaleziono tylko jedną stronę rynku (Andreeva −3,5 gema po −125 ≈ 1,80, bez nazwy bukmachera) – brak pary kursów, Pinnacle i kursów polskich bukmacherów.",
-      "Forma Andrei w grupie i warunki w Indian Wells to informacje publiczne, już uwzględnione w kursach – brak podstawy do korekty.",
-      "Bez kursów nie da się wykazać EV ≥ +4% ani opłacalności z podatkiem 12%."
-     ]
-    },
-    "score": [
-     2,
-     0
-    ],
-    "sets": [
-     [
-      6,
-      3
-     ],
-     [
-      6,
-      4
-     ]
-    ]
-   },
-   {
-    "id": "TEN-2026-11-14-SVITOLINA-NOSKOVA",
-    "date": "2026-11-14",
-    "time": "23:00",
-    "home": "SVITOLINA",
-    "away": "NOSKOVA",
-    "status": "ft",
-    "comp": "WTA Finals Indian Wells",
-    "stage": "Półfinał",
-    "surface": "twarda",
-    "bestOf": 3,
-    "court": "Stadium 1",
-    "notes": "Czas gry 65 min. Nosková: 11 podwójnych błędów i 27 niewymuszonych błędów.",
-    "odds": {
-     "src": "VSiN – jednostronny kurs (Nosková −156), bez nazwy bukmachera, stan na 13.11"
-    },
-    "info": {
-     "h2h": [
-      "Nosková prowadzi 2-1 (wg WTA)",
-      "2026 Stuttgart (ziemna, hala) ĆF – wygrana SVITOLINA",
-      "2024 – Nosková wygrała oba mecze na kortach twardych"
-     ],
-     "fatigue": "Svitolina: trzysetowe mecze z Muchovą (11.11) i Sabalenką (13.11), bez dnia przerwy przed półfinałem. Nosková: ostatni mecz 12.11 (porażka 1:2 z Pegulą), dzień przerwy 13.11.",
-     "injuries": {
-      "home": [
-       "Przerwa medyczna z powodu prawego biodra w meczu z Muchovą (11.11) – potem wygrała z Sabalenką"
-      ],
-      "away": []
-     },
-     "stakes": "Svitolina – mistrzyni 2018, pierwszy półfinał od 2019; Nosková – debiut w Finals, wygrała Grupę 1."
-    },
-    "tip": {
-     "decision": "NO BET",
-     "reasons": [
-      "Znaleziono tylko jedną stronę rynku (Nosková −156 ≈ 1,64, bez nazwy bukmachera) – brak pary kursów, Pinnacle i kursów polskich bukmacherów.",
-      "Zmęczenie Svitoliny (dwa trzysetowe mecze, brak dnia przerwy) jest znane publicznie – nie wiadomo, czy rynek go nie uwzględnił.",
-      "Bez kursów nie da się policzyć EV ani opłacalności z podatkiem 12%."
-     ]
-    },
-    "score": [
-     2,
-     0
-    ],
-    "sets": [
-     [
-      6,
-      2
-     ],
-     [
-      6,
-      1
-     ]
-    ]
-   }
-  ],
   "2026-11-15": [
    {
     "id": "TEN-2026-11-15-ZVEREV-JODAR",
@@ -295,13 +102,13 @@
     "time": "14:00",
     "home": "ZVEREV",
     "away": "JODAR",
-    "status": "ns",
+    "status": "ft",
     "comp": "ATP Finals Turyn",
     "stage": "Grupa McEnroe – 1. kolejka",
     "surface": "twarda (hala)",
     "bestOf": 3,
     "court": "Inalpi Arena",
-    "notes": "„Nie przed” 14:00, pierwszy mecz singlowy turnieju. Grupa McEnroe: Zverev, Jodar, Shelton, Fils. Sinner nie gra (kontuzja kolana).",
+    "notes": "„Nie przed” 14:00, pierwszy mecz singlowy turnieju. Grupa McEnroe: Zverev, Jodar, Shelton, Fils. Sinner nie gra (kontuzja kolana). Zverev 10 asów; przy 5-4 w 1. secie obronił dwa break pointy (as, serwis wygrywający, as).",
     "tip": {
      "decision": "NO BET",
      "reasons": [
@@ -325,7 +132,21 @@
       "home": [],
       "away": []
      }
-    }
+    },
+    "score": [
+     2,
+     0
+    ],
+    "sets": [
+     [
+      6,
+      4
+     ],
+     [
+      6,
+      4
+     ]
+    ]
    },
    {
     "id": "TEN-2026-11-15-SHELTON-FILS",
@@ -333,13 +154,13 @@
     "time": "20:30",
     "home": "SHELTON",
     "away": "FILS",
-    "status": "ns",
+    "status": "ft",
     "comp": "ATP Finals Turyn",
     "stage": "Grupa McEnroe – 1. kolejka",
     "surface": "twarda (hala)",
     "bestOf": 3,
     "court": "Inalpi Arena",
-    "notes": "Sesja wieczorna, „nie przed” 20:30. Grupa McEnroe. Fils – pierwszy Francuz w Finals od Monfilsa (2016).",
+    "notes": "Sesja wieczorna, „nie przed” 20:30. Grupa McEnroe. Fils – pierwszy Francuz w Finals od Monfilsa (2016). Czas gry 1:58. Shelton w 1. secie bez break pointa; w 3. secie przełamanie na 2-0 (4. BP), przy 5-3 obronił BP dwoma asami. H2H 3-1 dla Sheltona.",
     "tip": {
      "decision": "NO BET",
      "reasons": [
@@ -366,7 +187,25 @@
        "Sezon zaczął dopiero w lutym po kontuzji – brak informacji o bieżącym urazie"
       ]
      }
-    }
+    },
+    "score": [
+     2,
+     1
+    ],
+    "sets": [
+     [
+      6,
+      2
+     ],
+     [
+      3,
+      6
+     ],
+     [
+      6,
+      3
+     ]
+    ]
    },
    {
     "id": "TEN-2026-11-15-ANDREEVA-SVITOLINA",
@@ -374,13 +213,13 @@
     "time": "21:00",
     "home": "ANDREEVA",
     "away": "SVITOLINA",
-    "status": "ns",
+    "status": "ft",
     "comp": "WTA Finals Indian Wells",
     "stage": "Finał",
     "surface": "twarda",
     "bestOf": 3,
     "court": "Stadium 1",
-    "notes": "Finał o 12:00 czasu lokalnego (21:00 w Polsce). Andreeva nie straciła seta w czterech meczach w Indian Wells.",
+    "notes": "Finał o 12:00 czasu lokalnego (21:00 w Polsce). Andreeva nie straciła seta w czterech meczach w Indian Wells. Andreeva mistrzynią WTA Finals w debiucie bez straty seta (10 setów). Break pointy: Andreeva 6/16, Svitolina 3/12; 9 przełamań w 21 gemach.",
     "info": {
      "h2h": [
       "Andreeva prowadzi 2-1 (wg AP)",
@@ -401,7 +240,33 @@
       "Nie znaleziono pary kursów z porównywarki, Pinnacle ani polskich bukmacherów – brak podstawy do liczenia EV.",
       "Wynik meczu grupowego (6-4, 6-0) i forma Andreevej są publiczne, więc już w kursach – nie są powodem korekty."
      ]
-    }
+    },
+    "score": [
+     2,
+     0
+    ],
+    "sets": [
+     [
+      7,
+      5
+     ],
+     [
+      6,
+      3
+     ]
+    ],
+    "stats": [
+     [
+      "Break pointy wykorzystane",
+      6,
+      3
+     ],
+     [
+      "Wygrane punkty",
+      82,
+      67
+     ]
+    ]
    }
   ],
   "2026-11-16": [
@@ -421,8 +286,31 @@
     "tip": {
      "decision": "NO BET",
      "reasons": [
-      "Brak pary kursów z porównywarki, Pinnacle i polskich bukmacherów w chwili aktualizacji – analiza po pojawieniu się kursów."
+      "Rynek bez marży (średnia 1,11/8,29): Alcaraz ok. 88%, Tiafoe ok. 12%.",
+      "Brak kursów Pinnacle i legalnych w Polsce bukmacherów; brak par kursów na handicap i sumę gemów.",
+      "Ochraniacz kolana Alcaraza jest informacją publiczną – brak twardego powodu do korekty, więc prob = pm i EV ujemne nawet bez podatku 12%.",
+      "Kurs ok. 1,11 nie daje przestrzeni na wartość."
      ]
+    },
+    "odds": {
+     "src": "Pickswise – średnia z FanDuel, Novig, Polymarket, stan na 16.11 ok. 06:55",
+     "ml1": 1.11,
+     "ml2": 8.29
+    },
+    "info": {
+     "form": {},
+     "h2h": [
+      "2024 Wimbledon (trawiasta) 1/16 – ALCARAZ 3:2",
+      "2022 US Open (twarda) półfinał – ALCARAZ 3:2",
+      "2021 Barcelona (ziemna) 1/32 – TIAFOE 2:0"
+     ],
+     "stakes": "Alcaraz (rozst. 2, nr 3 ATP) – tytuły w Tokio, Wiedniu i Paris Masters, seria 10 wygranych, 2026: 42-5; Tiafoe (rozst. 7, nr 8 ATP) – debiut w Finals, 2026: 44-21, przegrał 5 z ostatnich 7 meczów.",
+     "injuries": {
+      "home": [
+       "Trenuje z ochraniaczem kolana (Sporting Life); wcześniej w sezonie ok. 4 mies. przerwy z powodu nadgarstka"
+      ],
+      "away": []
+     }
     }
    },
    {
@@ -441,8 +329,33 @@
     "tip": {
      "decision": "NO BET",
      "reasons": [
-      "Brak pary kursów z porównywarki, Pinnacle i polskich bukmacherów w chwili aktualizacji – analiza po pojawieniu się kursów."
+      "Rynek bez marży (średnia 1,29/3,95): Medvedev ok. 75%, Cobolli ok. 25%.",
+      "Brak kursów Pinnacle i polskich bukmacherów oraz par na handicap/sumę gemów.",
+      "Niejasny uraz Cobollego zwiększa ryzyko kreczu (różne zasady rozliczania u bukmacherów) – dodatkowy powód do NO BET.",
+      "Bez informacji spoza rynku prob = pm → EV ujemne, także bez podatku 12%."
      ]
+    },
+    "odds": {
+     "src": "Pickswise – średnia z FanDuel, Novig, Polymarket, stan na 16.11 ok. 06:55",
+     "ml1": 1.29,
+     "ml2": 3.95
+    },
+    "info": {
+     "h2h": [
+      "2026 Madryt (ziemna) 1/8 – COBOLLI 2:1",
+      "2024 Pekin (twarda) ćwierćfinał – MEDVEDEV 2:0",
+      "2024 US Open (twarda) 1/16 – MEDVEDEV 3:0"
+     ],
+     "surface": {
+      "home": "twarda 2026: 41-13"
+     },
+     "stakes": "Medvedev (rozst. 4, nr 5 ATP) – mistrz 2021, tytuły w Hangzhou i Ałmaty, 2026: 52-20; Cobolli (rozst. 5, nr 6 ATP) – debiut w Finals, finalista Roland Garros, 2026: 36-24, 6 porażek w ostatnich 9 meczach.",
+     "injuries": {
+      "home": [],
+      "away": [
+       "Według bets.com.au skreczował w Wiedniu i przyjeżdża do Turynu z niejasnym urazem"
+      ]
+     }
     }
    }
   ]
