@@ -1,9 +1,9 @@
 {
  "sport": "basketball",
- "updated": "2026-11-15T07:45:00+01:00",
+ "updated": "2026-11-16T07:55:00+01:00",
  "season": "2026/27",
  "competition": "NBA",
- "note": "Źródła: ESPN (wyniki, kwarty i sędziowie DEN–NOP, DAL–CLE, CHI–MIN), CBS News Miami (DET–MIA), 92.9 ESPN Memphis / Yahoo (BKN–MEM), Sports Media Watch (terminarz 15–16.11), SportBusy (kursy, bukmacher nie podany), PickDawgz (IND–PHI), FanDuel Research (NYK–TOR), Bang The Book (HOU–WAS), Dimers, Covers i DraftKings Network (raport kontuzji 15.11), CBS Sports (ATL–MIL). Tabela: stan z 14.11 uzupełniony o wyniki z 14/15.11 (ostatnie 10 usunięte, gdy nie da się go wiarygodnie przeliczyć). Godziny w czasie polskim. Brak box score zawodników dla meczów z 15.11 (nocy) oraz kwart DET–MIA i BKN–MEM; brak kursów na 17.11. Typy: brak – NO BET na wszystkie mecze 15–16.11.",
+ "note": "Źródła: ESPN (LAL–PHX kwarty i sędziowie, linie wyników), AP via ABC News / Boston.com / CFJC Today / TSN / KTIK (relacje), Sunday Guardian (IND–PHI), Yardbarker (CHA–LAC), Plaintext Sports (tabela na 16.11 01:02 ET), Land of Basketball i SportBusy (terminarz), Bang The Book, PickDawgz, SportBusy (kursy i kontuzje). Godziny w czasie polskim. Box score zawodników niedostępny w dostępnych źródłach.",
  "teams": {
   "ATL": {
    "id": "ATL",
@@ -247,657 +247,6 @@
   }
  },
  "days": {
-  "2026-11-14": [
-   {
-    "id": "NBA-2026-11-14-NYK-IND",
-    "date": "2026-11-14",
-    "time": "01:00",
-    "home": "IND",
-    "away": "NYK",
-    "status": "ft",
-    "arena": {
-     "name": "Gainbridge Fieldhouse",
-     "city": "Indianapolis"
-    },
-    "info": {
-     "restDays": {
-      "home": 1,
-      "away": 1
-     },
-     "b2b": {
-      "home": false,
-      "away": false
-     },
-     "injuries": {
-      "home": [
-       "Tyrese Haliburton (ścięgno podkolanowe, out)",
-       "Ben Sheppard (kolano, out)",
-       "Johnny Furphy (kolano, out)",
-       "Aaron Nesmith (kolano, day-to-day)"
-      ],
-      "away": [
-       "Josh Hart (opuścił 3 ostatnie mecze – status niepotwierdzony)"
-      ]
-     },
-     "homeAway": "IND u siebie 1-5, NYK na wyjeździe 2-2",
-     "stakes": "NBA Cup (faza grupowa). NYK: 110,3 pkt zdobyte / 103,5 stracone; IND: 111,6 / 114,0"
-    },
-    "tip": {
-     "decision": "NO BET",
-     "reasons": [
-      "Linia NYK -6,5 zgadza się z różnicą bilansów punktowych (NYK +6,8, IND -2,4) skorygowaną o atut parkietu – brak przewagi.",
-      "Moneyline 1,41 bez wartości przy ok. 68% implikowanej szansy.",
-      "Niepewny status Harta i Nesmitha.",
-      "Total 221,5 blisko średnich obu drużyn – brak sygnału."
-     ]
-    },
-    "odds": {
-     "src": "DraftKings via Bang The Book, stan na 12.11 23:01 UTC",
-     "ml1": 2.99,
-     "ml2": 1.415,
-     "spread": 6.5,
-     "sp1": 1.926,
-     "sp2": 1.893,
-     "total": 221.5,
-     "over": 1.909,
-     "under": 1.909
-    },
-    "score": [
-     106,
-     104
-    ],
-    "quarters": {
-     "home": [
-      26,
-      32,
-      27,
-      21
-     ],
-     "away": [
-      27,
-      22,
-      35,
-      20
-     ]
-    },
-    "officials": [
-     "Ed Malloy",
-     "Justin Van Duyne",
-     "Intae Hwang"
-    ],
-    "teamStats": [
-     [
-      "Z gry %",
-      43.3,
-      42.9
-     ],
-     [
-      "Za 3 %",
-      34.5,
-      34.8
-     ],
-     [
-      "Wolne %",
-      72.0,
-      76.9
-     ],
-     [
-      "Zbiórki",
-      50,
-      43
-     ],
-     [
-      "Straty",
-      17,
-      17
-     ]
-    ],
-    "notes": "NBA Cup (Grupa B Wschodu). Pacers – pierwsza wygrana w fazie grupowej (1-1), obrońcy tytułu Knicks 0-2. Jalen Brunson 33 pkt i 11 as., Karl-Anthony Towns 15 zb. (spudłował rzut na prowadzenie w ostatniej akcji). IND: Pascal Siakam 19 pkt, Aaron Nesmith 18 pkt, Ivica Zubac 13 zb., T.J. McConnell 7 as.; wszyscy starterzy Pacers z dwucyfrowym dorobkiem."
-   },
-   {
-    "id": "NBA-2026-11-14-MIL-ORL",
-    "date": "2026-11-14",
-    "time": "01:00",
-    "home": "ORL",
-    "away": "MIL",
-    "status": "ft",
-    "arena": {
-     "name": "Kia Center",
-     "city": "Orlando"
-    },
-    "info": {
-     "restDays": {
-      "home": 1,
-      "away": 1
-     },
-     "b2b": {
-      "home": false,
-      "away": false
-     },
-     "injuries": {
-      "home": [
-       "Paolo Banchero (out)",
-       "Jalen Suggs (out)",
-       "Jonathan Isaac (out)",
-       "Noah Penda (out)",
-       "Izaiyah Nelson (out)",
-       "Tristan da Silva (day-to-day)",
-       "Jamal Cain (day-to-day)"
-      ],
-      "away": [
-       "Myles Turner (day-to-day)",
-       "Ryan Rollins (day-to-day)"
-      ]
-     },
-     "homeAway": "ORL u siebie 0-4, MIL na wyjeździe 0-5",
-     "stakes": "MIL 8 porażek z rzędu (bilans pkt -14,5); ORL 2 wygrane z rzędu, ale bez Banchero i Suggsa"
-    },
-    "tip": {
-     "decision": "NO BET",
-     "reasons": [
-      "Orlando 0-4 u siebie i bez dwóch kluczowych graczy – trudno zaufać handicapowi -9,5.",
-      "Bucks fatalni (-14,5 pkt/mecz), ale niepewni Turner i Rollins zmieniają wycenę.",
-      "Źródło kursów nie podaje bukmachera – kursy orientacyjne.",
-      "Brak rynku z wyraźnie dodatnim EV."
-     ]
-    },
-    "odds": {
-     "src": "SportBusy (kursy US przeliczone na dziesiętne, bukmacher nie podany), stan na 13.11 rano",
-     "ml1": 1.299,
-     "ml2": 4.34,
-     "spread": -9.5,
-     "sp1": 2.04,
-     "sp2": 1.962,
-     "total": 224.5,
-     "over": 2.04,
-     "under": 1.962
-    },
-    "score": [
-     107,
-     99
-    ],
-    "quarters": {
-     "home": [
-      23,
-      29,
-      32,
-      23
-     ],
-     "away": [
-      15,
-      22,
-      35,
-      27
-     ]
-    },
-    "officials": [
-     "Jacyn Goble",
-     "Phenizee Ransom",
-     "Mitchell Ervin"
-    ],
-    "teamStats": [
-     [
-      "Z gry %",
-      44.8,
-      39.0
-     ],
-     [
-      "Za 3 %",
-      30.0,
-      38.6
-     ],
-     [
-      "Wolne %",
-      100.0,
-      58.1
-     ],
-     [
-      "Zbiórki",
-      45,
-      45
-     ],
-     [
-      "Straty",
-      14,
-      16
-     ]
-    ],
-    "notes": "NBA Cup (Grupa A Wschodu). Franz Wagner 35 pkt, 9 zb., 12 as. (13/22 z gry) – zabrakło zbiórki do triple-double; Desmond Bane 21 pkt, Myles Turner 11 zb. MIL: Jaime Jaquez Jr. 22 pkt. Bucks – 9. porażka z rzędu."
-   },
-   {
-    "id": "NBA-2026-11-14-CLE-MIA",
-    "date": "2026-11-14",
-    "time": "02:00",
-    "home": "MIA",
-    "away": "CLE",
-    "status": "ft",
-    "arena": {
-     "name": "Kaseya Center",
-     "city": "Miami"
-    },
-    "info": {
-     "restDays": {
-      "home": 2,
-      "away": 1
-     },
-     "b2b": {
-      "home": false,
-      "away": false
-     },
-     "injuries": {
-      "home": [],
-      "away": [
-       "Sam Merrill (out)"
-      ]
-     },
-     "homeAway": "MIA u siebie 1-3, CLE na wyjeździe 2-4",
-     "stakes": "NBA Cup. MIA traci 120,0 pkt/mecz; CLE bilans pkt +2,1, MIA -4,3"
-    },
-    "tip": {
-     "decision": "NO BET",
-     "reasons": [
-      "Wyrównany mecz – MIA faworytem tylko dzięki parkietowi, mimo słabszego bilansu punktowego i 1-3 u siebie.",
-      "Ewentualna wartość po stronie CLE +2,5 zbyt mała, by przejść filtr.",
-      "Kursy bez wskazanego bukmachera; total 235 spadł z 236,5 – brak przewagi."
-     ]
-    },
-    "odds": {
-     "src": "SportBusy (kursy US przeliczone na dziesiętne, bukmacher nie podany), stan na 13.11 rano",
-     "ml1": 1.794,
-     "ml2": 2.26,
-     "spread": -2.5,
-     "sp1": 2.0,
-     "sp2": 2.0,
-     "total": 235,
-     "over": 1.952,
-     "under": 2.05
-    },
-    "score": [
-     133,
-     121
-    ],
-    "quarters": {
-     "home": [
-      29,
-      25,
-      38,
-      41
-     ],
-     "away": [
-      27,
-      30,
-      34,
-      30
-     ]
-    },
-    "officials": [
-     "John Goble",
-     "Mark Lindsay",
-     "JD Ralls"
-    ],
-    "notes": "NBA Cup (Grupa B Wschodu) – Heat 2-0 i liderem grupy. Bam Adebayo 37 pkt i 14 zb., Giannis Antetokounmpo 37 pkt, Davion Mitchell 22 pkt i 17 as., Ryan Conwell 20 pkt z ławki. CLE: Donovan Mitchell 25, Tyrese Proctor 22, James Harden 20, Jaylon Tyson 16. Bez Klaya Thompsona i Pelle Larssona (MIA) oraz Evana Mobleya (CLE, palec stopy). Trzecia wygrana Heat z rzędu."
-   },
-   {
-    "id": "NBA-2026-11-14-ATL-CHI",
-    "date": "2026-11-14",
-    "time": "02:00",
-    "home": "CHI",
-    "away": "ATL",
-    "status": "ft",
-    "arena": {
-     "name": "United Center",
-     "city": "Chicago"
-    },
-    "info": {
-     "restDays": {
-      "home": 1,
-      "away": 3
-     },
-     "b2b": {
-      "home": false,
-      "away": false
-     },
-     "injuries": {
-      "home": [
-       "Caleb Wilson (ręka, out 4–6 tygodni)"
-      ],
-      "away": []
-     },
-     "homeAway": "CHI u siebie 0-4, ATL na wyjeździe 4-2",
-     "stakes": "NBA Cup. CHI 8 porażek z rzędu, najsłabsza obrona ligi; ATL po porażce 114:124 z Lakers"
-    },
-    "tip": {
-     "decision": "NO BET",
-     "reasons": [
-      "Brak pełnych kursów (ceny, moneyline) – zgodnie z regulaminem NO BET."
-     ]
-    },
-    "odds": {
-     "src": "Picks and Parlays (tylko linie, bez cen), stan na 13.11",
-     "spread": 6.5,
-     "total": 246.5
-    },
-    "score": [
-     125,
-     117
-    ],
-    "quarters": {
-     "home": [
-      33,
-      27,
-      24,
-      26,
-      15
-     ],
-     "away": [
-      24,
-      29,
-      30,
-      27,
-      7
-     ]
-    },
-    "officials": [
-     "Tony Brothers",
-     "Bill Kennedy",
-     "J.T. Orr"
-    ],
-    "notes": "Po dogrywce (110:110 po 4 kwartach). Bulls przerwali serię 8 porażek i wygrali pierwszy mecz u siebie w sezonie. Norman Powell 33 pkt, Josh Giddey 15 pkt, 10 zb., 14 as. ATL: Jalen Johnson triple-double 27 pkt, 11 zb., 10 as. Buddy Hield wyprzedził Kyle'a Lowry'ego na 14. miejscu listy wszech czasów w trafionych trójkach."
-   },
-   {
-    "id": "NBA-2026-11-14-MEM-NOP",
-    "date": "2026-11-14",
-    "time": "02:00",
-    "home": "NOP",
-    "away": "MEM",
-    "status": "ft",
-    "arena": {
-     "name": "Smoothie King Center",
-     "city": "New Orleans"
-    },
-    "info": {
-     "restDays": {
-      "home": 1,
-      "away": 1
-     },
-     "b2b": {
-      "home": false,
-      "away": false
-     },
-     "injuries": {
-      "home": [
-       "Yves Missi (out)",
-       "Trey Murphy III (day-to-day)",
-       "Bennedict Mathurin (day-to-day)",
-       "Trendon Watford (day-to-day)"
-      ],
-      "away": [
-       "Scotty Pippen Jr. (out)",
-       "Richie Saunders (out)",
-       "Quinten Post (day-to-day)"
-      ]
-     },
-     "homeAway": "NOP u siebie 3-4, MEM na wyjeździe 5-0",
-     "stakes": "NBA Cup. NOP 4 porażki z rzędu, traci 124,3 pkt/mecz; MEM bilans pkt +6,0"
-    },
-    "tip": {
-     "decision": "NO BET",
-     "reasons": [
-      "Linia spadła z -5 do -3,5 dla MEM – rynek już zareagował, wartość mniejsza.",
-      "Trzech graczy NOP day-to-day (w tym Murphy III) – za duża niepewność składu.",
-      "Kursy bez wskazanego bukmachera."
-     ]
-    },
-    "odds": {
-     "src": "SportBusy (kursy US przeliczone na dziesiętne, bukmacher nie podany), stan na 13.11 rano",
-     "ml1": 2.52,
-     "ml2": 1.658,
-     "spread": 3.5,
-     "sp1": 2.02,
-     "sp2": 1.98,
-     "total": 235.5,
-     "over": 2.0,
-     "under": 2.0
-    },
-    "score": [
-     111,
-     142
-    ],
-    "notes": "Grizzlies rozbili Pelicans – 10 graczy Memphis z dwucyfrowym dorobkiem (pierwszy raz w historii klubu). Jerami Grant 22 pkt, Ty Jerome 17, Cameron Boozer 12 pkt i 10 zb. NOP – 5. porażka z rzędu; Dejounte Murray poprosił o transfer."
-   },
-   {
-    "id": "NBA-2026-11-14-UTA-HOU",
-    "date": "2026-11-14",
-    "time": "02:30",
-    "home": "HOU",
-    "away": "UTA",
-    "status": "ft",
-    "arena": {
-     "name": "Toyota Center",
-     "city": "Houston"
-    },
-    "info": {
-     "restDays": {
-      "home": 1,
-      "away": 1
-     },
-     "b2b": {
-      "home": false,
-      "away": false
-     },
-     "injuries": {
-      "home": [
-       "Clint Capela (out)",
-       "Steven Adams (out)"
-      ],
-      "away": [
-       "Lauri Markkanen (out)",
-       "Jaren Jackson Jr. (out)",
-       "Jusuf Nurkić (out)",
-       "Trey Alexander (out)"
-      ]
-     },
-     "homeAway": "HOU u siebie 6-1, UTA na wyjeździe 0-5",
-     "stakes": "NBA Cup. UTA 10 porażek z rzędu (bilans pkt -11,5); HOU bez obu centrów"
-    },
-    "tip": {
-     "decision": "NO BET",
-     "reasons": [
-      "Handicap -16,5 to bardzo wysoka linia – przy dużej przewadze rotacja ławki w końcówce zwiększa ryzyko.",
-      "Moneyline bez wartości.",
-      "HOU bez Capeli i Adamsa – osłabienie strefy podkoszowej.",
-      "Kursy bez wskazanego bukmachera."
-     ]
-    },
-    "odds": {
-     "src": "SportBusy (kursy US przeliczone na dziesiętne, bukmacher nie podany), stan na 13.11 rano",
-     "ml1": 1.085,
-     "ml2": 12.82,
-     "spread": -16.5,
-     "sp1": 1.952,
-     "sp2": 2.05,
-     "total": 219.5,
-     "over": 1.98,
-     "under": 2.02
-    },
-    "score": [
-     125,
-     118
-    ],
-    "notes": "NBA Cup (Grupa A Zachodu). Alperen Şengün 43 pkt (70% z gry), 12 zb., 5 as.; Kevin Durant 22 pkt i 6 as. UTA: Darryn Peterson 28 pkt (rekord kariery). Jazz – 11. porażka z rzędu."
-   },
-   {
-    "id": "NBA-2026-11-14-GSW-SAS",
-    "date": "2026-11-14",
-    "time": "03:30",
-    "home": "SAS",
-    "away": "GSW",
-    "status": "ft",
-    "arena": {
-     "name": "Frost Bank Center",
-     "city": "San Antonio"
-    },
-    "info": {
-     "restDays": {
-      "home": 1,
-      "away": 1
-     },
-     "b2b": {
-      "home": false,
-      "away": false
-     },
-     "injuries": {
-      "home": [
-       "Tobias Harris (out)",
-       "Jayden Quaintance (out)",
-       "Devin Vassell (day-to-day)"
-      ],
-      "away": [
-       "Stephen Curry (out)",
-       "Jimmy Butler III (out)",
-       "Kristaps Porziņģis (out)",
-       "Moses Moody (out)",
-       "Brandon Williams (out)",
-       "Gary Payton II (day-to-day)"
-      ]
-     },
-     "homeAway": "SAS u siebie 4-2, GSW na wyjeździe 2-3",
-     "stakes": "NBA Cup. SAS 10 wygranych z rzędu; GSW bez Curry'ego, Butlera i Porzingisa"
-    },
-    "tip": {
-     "decision": "NO BET",
-     "reasons": [
-      "Absencje GSW są ogromne, ale linia już urosła z -11 do -12,5 – rynek to wycenił.",
-      "SAS u siebie tylko 4-2 (wszystkie 6 meczów wyjazdowych wygrane) – handicap -12,5 to duża liczba.",
-      "Kursy bez wskazanego bukmachera; brak wyraźnego EV."
-     ]
-    },
-    "odds": {
-     "src": "SportBusy (kursy US przeliczone na dziesiętne, bukmacher nie podany), stan na 13.11 rano",
-     "ml1": 1.163,
-     "ml2": 7.12,
-     "spread": -12.5,
-     "sp1": 2.0,
-     "sp2": 2.0,
-     "total": 220,
-     "over": 1.99,
-     "under": 2.01
-    },
-    "score": [
-     123,
-     85
-    ],
-    "officials": [
-     "James Williams",
-     "Eric Dalen",
-     "Evan Scott"
-    ],
-    "notes": "NBA Cup (Grupa C Zachodu) – Spurs 2-0. Prowadzenie od początku do końca, maks. 43 pkt przewagi. Stephon Castle 32 pkt (5 trójek), Victor Wembanyama 12 pkt, 12 zb., 6 as. w 20 min, Keldon Johnson 18. 11. wygrana Spurs z rzędu. Stephen Curry (mięsień skośny) pauzuje ok. 2 tygodni."
-   },
-   {
-    "id": "NBA-2026-11-14-POR-SAC",
-    "date": "2026-11-14",
-    "time": "04:00",
-    "home": "SAC",
-    "away": "POR",
-    "status": "ft",
-    "arena": {
-     "name": "Golden 1 Center",
-     "city": "Sacramento"
-    },
-    "info": {
-     "restDays": {
-      "home": 2,
-      "away": 1
-     },
-     "b2b": {
-      "home": false,
-      "away": false
-     },
-     "homeAway": "SAC u siebie 0-6, POR na wyjeździe 5-1",
-     "stakes": "SAC 6 porażek z rzędu u siebie; POR 7-4 ATS"
-    },
-    "tip": {
-     "decision": "NO BET",
-     "reasons": [
-      "Model numberFire daje POR 73,9%, a kurs 1,18 implikuje ok. 85% – brak wartości na faworycie.",
-      "Wartość na SAC wynikałaby wyłącznie z cudzego modelu przy bilansie 1-10 – szukanie value na siłę.",
-      "Brak cen handicapu i totalu."
-     ]
-    },
-    "odds": {
-     "src": "FanDuel Research, stan na 13.11 (bez cen handicapu/totalu)",
-     "ml1": 5.2,
-     "ml2": 1.179,
-     "spread": 10.5,
-     "total": 230.5
-    },
-    "score": [
-     107,
-     120
-    ],
-    "notes": "NBA Cup (Grupa C Zachodu). Deni Avdija 34 pkt, 6 zb., 4 as.; Damian Lillard 29 pkt (6 trójek); Donovan Clingan 13 pkt i 11 zb. Kings – 7. porażka u siebie w sezonie (0-7)."
-   },
-   {
-    "id": "NBA-2026-11-14-OKC-LAC",
-    "date": "2026-11-14",
-    "time": "04:30",
-    "home": "LAC",
-    "away": "OKC",
-    "status": "ft",
-    "arena": {
-     "name": "Intuit Dome",
-     "city": "Inglewood"
-    },
-    "info": {
-     "restDays": {
-      "home": 2,
-      "away": 1
-     },
-     "b2b": {
-      "home": false,
-      "away": false
-     },
-     "injuries": {
-      "home": [],
-      "away": [
-       "Chet Holmgren (out)",
-       "Jalen Williams (out)",
-       "Cason Wallace (out)",
-       "Jaylin Williams (out)",
-       "Thomas Sorber (out)",
-       "Ajay Mitchell (day-to-day)"
-      ]
-     },
-     "homeAway": "LAC u siebie 2-3, OKC na wyjeździe 3-4",
-     "stakes": "OKC 2 porażki z rzędu i duże braki kadrowe; LAC 2-8"
-    },
-    "tip": {
-     "decision": "NO BET",
-     "reasons": [
-      "OKC bez Holmgrena, J. Williamsa i Wallace'a – trudno ocenić siłę rotacji.",
-      "Lista kontuzji LAC w źródle pusta (prawdopodobnie niekompletna).",
-      "Kursy bez wskazanego bukmachera – brak podstaw do typu."
-     ]
-    },
-    "odds": {
-     "src": "SportBusy (kursy US przeliczone na dziesiętne, bukmacher nie podany), stan na 13.11 rano",
-     "ml1": 3.48,
-     "ml2": 1.403,
-     "spread": 7.5,
-     "sp1": 1.962,
-     "sp2": 2.04,
-     "total": 222.5,
-     "over": 2.0,
-     "under": 2.0
-    },
-    "score": [
-     113,
-     112
-    ],
-    "notes": "NBA Cup (Grupa B Zachodu). Brook Lopez 26 pkt, Darius Garland 24 (akcja 2+1 na prowadzenie w końcówce). OKC: Shai Gilgeous-Alexander 40 pkt, Jared McCain 7 trójek (rekord kariery). Thunder grali 3. mecz w 4 noce – 3. porażka z rzędu."
-   }
-  ],
   "2026-11-15": [
    {
     "id": "NBA-2026-11-15-DEN-NOP",
@@ -1274,7 +623,7 @@
     "time": "19:00",
     "home": "PHI",
     "away": "IND",
-    "status": "ns",
+    "status": "ft",
     "arena": {
      "name": "Xfinity Mobile Arena",
      "city": "Philadelphia"
@@ -1324,7 +673,12 @@
      "total": 224.5,
      "over": 1.909,
      "under": 1.909
-    }
+    },
+    "score": [
+     131,
+     124
+    ],
+    "notes": "Jaylen Brown 31 pkt (12/18 z gry, 3 trójki), Tyrese Maxey 27 pkt i 6 as., LeBron James 15 pkt, 7 zb., 11 as.; Dean Wade i Anfernee Simons po 12 pkt z ławki. PHI trafili 55% z gry i 18/42 za 3. IND: Pascal Siakam 31 pkt (19 w 4. kwarcie), Kelly Oubre Jr. 16, Quenton Jackson 15 pkt i 8 as. Joel Embiid nie grał (zarządzanie obciążeniem, rozcięgno podeszwowe). Box score zawodników niedostępny w źródłach."
    },
    {
     "id": "NBA-2026-11-15-LAL-PHX",
@@ -1332,7 +686,7 @@
     "time": "22:00",
     "home": "PHX",
     "away": "LAL",
-    "status": "ns",
+    "status": "ft",
     "arena": {
      "name": "Mortgage Matchup Center",
      "city": "Phoenix"
@@ -1376,7 +730,31 @@
      "total": 226.5,
      "over": 2.01,
      "under": 1.99
-    }
+    },
+    "score": [
+     123,
+     131
+    ],
+    "notes": "Lakers prowadzili po 3 kwartach 104:80, Suns wygrali 4. kwartę 43:27. LAL – 8. wygrana z rzędu (12-2), 7-1 na wyjeździe. Statystyki zawodników niedostępne w źródłach.",
+    "quarters": {
+     "home": [
+      24,
+      30,
+      26,
+      43
+     ],
+     "away": [
+      33,
+      31,
+      40,
+      27
+     ]
+    },
+    "officials": [
+     "James Williams",
+     "John Butler",
+     "Sha'Rae Mitchell"
+    ]
    },
    {
     "id": "NBA-2026-11-15-CHA-LAC",
@@ -1384,7 +762,7 @@
     "time": "22:30",
     "home": "LAC",
     "away": "CHA",
-    "status": "ns",
+    "status": "ft",
     "arena": {
      "name": "Intuit Dome",
      "city": "Inglewood"
@@ -1430,7 +808,12 @@
      "total": 215.5,
      "over": 2.01,
      "under": 1.99
-    }
+    },
+    "score": [
+     113,
+     105
+    ],
+    "notes": "Darius Garland 27 pkt; Clippers rozstrzygnęli mecz w drugiej połowie – trzecia z rzędu wygrana u siebie. Hornets – 2. porażka z rzędu. Box score niedostępny w źródłach."
    },
    {
     "id": "NBA-2026-11-15-SAS-UTA",
@@ -1438,7 +821,7 @@
     "time": "23:00",
     "home": "UTA",
     "away": "SAS",
-    "status": "ns",
+    "status": "ft",
     "arena": {
      "name": "Delta Center",
      "city": "Salt Lake City"
@@ -1484,7 +867,12 @@
      "total": 223.5,
      "over": 2.0,
      "under": 2.0
-    }
+    },
+    "score": [
+     102,
+     110
+    ],
+    "notes": "Dylan Harper 31 pkt i 9 zb., Victor Wembanyama 26 pkt, 11 zb., 6 as., 5 bloków, Stephon Castle 20 pkt i 9 as., Keldon Johnson 11 pkt i 10 zb. UTA: Mo Bamba 26 pkt (6/6 za 3), Darryn Peterson 17, Brice Sensabaugh 14 pkt i 7 zb., Keyonte George 13 pkt i 8 as. Jazz prowadzili 33:23 w 1. kwarcie. Spurs – 12. wygrana z rzędu, Jazz – 12. porażka z rzędu."
    }
   ],
   "2026-11-16": [
@@ -1494,7 +882,7 @@
     "time": "00:00",
     "home": "BOS",
     "away": "DAL",
-    "status": "ns",
+    "status": "ft",
     "arena": {
      "name": "TD Garden",
      "city": "Boston"
@@ -1535,7 +923,12 @@
       "Model Dimers wskazuje wartość na DAL +13,5 – sprzeczny sygnał wobec formy.",
       "Moneyline BOS ~1,15 bez wartości."
      ]
-    }
+    },
+    "score": [
+     131,
+     94
+    ],
+    "notes": "Jayson Tatum 32 pkt w 30 min (21 w 3. kwarcie), Derrick White 16, Jordan Walsh 11. BOS prowadził po 1. kwarcie 42:9 – największe prowadzenie po 1. kwarcie w historii Celtics; BOS 59% z gry. DAL: Zaccharie Risacher 18 pkt, Cooper Flagg 17 pkt (5/15). Kyrie Irving nie grał (zarządzanie kolanem). Celtics – 6. wygrana z rzędu, Mavericks – 3. porażka z rzędu."
    },
    {
     "id": "NBA-2026-11-16-NYK-TOR",
@@ -1543,7 +936,7 @@
     "time": "00:00",
     "home": "TOR",
     "away": "NYK",
-    "status": "ns",
+    "status": "ft",
     "arena": {
      "name": "Scotiabank Arena",
      "city": "Toronto"
@@ -1579,7 +972,12 @@
       "NYK -3,5/-4,5 zgodne z różnicą formy; brak przewagi.",
       "Dimers widzi niewielką wartość na NYK ML, ale poniżej progu 5% EV przy tej niepewności."
      ]
-    }
+    },
+    "score": [
+     108,
+     112
+    ],
+    "notes": "Po dogrywce (regulaminowy czas 95:95). Karl-Anthony Towns 28 pkt i 17 zb. (15 pkt w 4. kwarcie), Jalen Brunson 28 pkt i 9 as., w tym trójka na 109:106 na 33,4 s przed końcem dogrywki. TOR: Scottie Barnes 30 pkt, 9 zb. w powrocie po kontuzji pachwiny (trójka na dogrywkę 13,6 s przed końcem), Jamal Shead 19, Immanuel Quickley 17. TOR 11/35 za 3 i 11/19 z wolnych. 14. z rzędu wygrana NYK z TOR; Raptors – 4. porażka z rzędu."
    },
    {
     "id": "NBA-2026-11-16-HOU-WAS",
@@ -1587,7 +985,7 @@
     "time": "01:00",
     "home": "WAS",
     "away": "HOU",
-    "status": "ns",
+    "status": "ft",
     "arena": {
      "name": "Capital One Arena",
      "city": "Washington"
@@ -1637,7 +1035,12 @@
       "Niepewny status Sarra i Tre Johnsona po stronie WAS.",
       "Brak rynku z EV ≥ 5% przy akceptowalnej niepewności."
      ]
-    }
+    },
+    "score": [
+     119,
+     147
+    ],
+    "notes": "Rockets prowadzili do przerwy 73:54 (1. kwarta 36:31, 2. kwarta 37:23), przewaga sięgnęła 37 pkt. WAS: Alex Sarr 25 pkt, 9 zb., 3 bloki (9/13), AJ Dybantsa 16, Anthony Davis i Will Riley po 14; WAS 44% z gry, 15/37 za 3. HOU – 4. wygrana z rzędu, WAS – 7. porażka z rzędu."
    },
    {
     "id": "NBA-2026-11-16-ATL-MIL",
@@ -1645,7 +1048,7 @@
     "time": "02:00",
     "home": "MIL",
     "away": "ATL",
-    "status": "ns",
+    "status": "ft",
     "arena": {
      "name": "Fiserv Forum",
      "city": "Milwaukee"
@@ -1689,7 +1092,12 @@
       "Hawks bez Flemingsa i po dwóch porażkach – forma nie potwierdza.",
       "Moneyline ATL ~1,38 bez wartości."
      ]
-    }
+    },
+    "score": [
+     106,
+     113
+    ],
+    "notes": "Bucks wygrali 1. kwartę 37:18 (prowadzenie do 22 pkt), Hawks odpowiedzieli 37:16 w 2. kwarcie – do przerwy 55:53 dla ATL. ATL: Nickeil Alexander-Walker 20, CJ McCollum 20, Onyeka Okongwu 16 pkt i 11 zb., Jalen Johnson 14 pkt i 11 zb. MIL: Kasparas Jakučionis 25 pkt z ławki, Gary Trent Jr. 18, Kyle Kuzma 14. Bucks – 10. porażka z rzędu."
    },
    {
     "id": "NBA-2026-11-16-OKC-SAC",
@@ -1697,7 +1105,7 @@
     "time": "03:00",
     "home": "SAC",
     "away": "OKC",
-    "status": "ns",
+    "status": "ft",
     "arena": {
      "name": "Golden 1 Center",
      "city": "Sacramento"
@@ -1740,7 +1148,12 @@
       "Model Dimers widzi wartość na SAC, ale Kings 1-11 – sprzeczne sygnały.",
       "Brak wyraźnej przewagi na żadnym rynku."
      ]
-    }
+    },
+    "score": [
+     103,
+     125
+    ],
+    "notes": "Shai Gilgeous-Alexander 37 pkt w 29 min (13/20, 4/5 za 3, 7/7 wolne), nie grał w 4. kwarcie; Aday Mara 16 pkt i 12 zb., Ajay Mitchell 14, Isaiah Hartenstein 11 zb. Do przerwy 62:50 dla OKC. SAC: Darius Acuff Jr. 26 pkt i 6 zb.; Zach LaVine nie grał (choroba). Thunder przerwali serię 3 porażek, Kings – 6. porażka z rzędu (0-8 u siebie)."
    }
   ],
   "2026-11-17": [
@@ -1759,7 +1172,44 @@
      "b2b": {
       "home": true,
       "away": false
-     }
+     },
+     "injuries": {
+      "home": [],
+      "away": [
+       "Ty Jerome (out)",
+       "Scotty Pippen Jr. (out)",
+       "GG Jackson (out)",
+       "Zach Edey (questionable)",
+       "Isaiah Stewart (questionable)",
+       "Quinten Post (questionable)"
+      ]
+     },
+     "restDays": {
+      "home": 0,
+      "away": 1
+     },
+     "homeAway": "WAS u siebie 2-4, MEM na wyjeździe 6-0",
+     "stakes": "WAS 4-10, 7 porażek z rzędu, wczoraj 119:147 z HOU; MEM 9-4, w sobotę 129:110 z BKN, dwie ostatnie wygrane łącznie +50."
+    },
+    "odds": {
+     "src": "PickDawgz (bukmacher nie podany), stan na 16.11",
+     "ml1": 2.46,
+     "ml2": 1.578,
+     "spread": 3.5,
+     "sp1": 1.952,
+     "sp2": 1.87,
+     "total": 229.5,
+     "over": 1.893,
+     "under": 1.926
+    },
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Przewaga MEM (6-0 na wyjeździe, WAS na back-to-back) jest widoczna, ale linia -3,5 jest podejrzanie niska.",
+      "Trzech wysokich MEM (Edey, Stewart, Post) questionable – status kluczowy dla wyceny, nieznany przed meczem.",
+      "Moneyline MEM ~1,58: szacunek ~62–64% daje EV bliskie zera.",
+      "Zbyt duża niepewność składu – czekać na raport kontuzji nie da się w porannej aktualizacji."
+     ]
     }
    },
    {
@@ -1777,7 +1227,46 @@
      "b2b": {
       "home": false,
       "away": false
-     }
+     },
+     "injuries": {
+      "home": [
+       "Evan Mobley (out)",
+       "Sam Merrill (out)",
+       "Jaylon Tyson (questionable)",
+       "Peyton Watson (questionable)"
+      ],
+      "away": [
+       "Caleb Wilson (out)",
+       "Tobe Awaka (out)",
+       "Jalen Smith (questionable)"
+      ]
+     },
+     "restDays": {
+      "home": 1,
+      "away": 1
+     },
+     "homeAway": "CLE u siebie 5-2, CHI na wyjeździe 2-5",
+     "stakes": "CLE 7-7, przegrał 5 z 8 ostatnich, w sobotę 127:117 z DAL (triple-double Proctora); CHI 3-9, dwie wygrane z rzędu."
+    },
+    "odds": {
+     "src": "PickDawgz (bukmacher nie podany), stan na 16.11",
+     "ml1": 1.253,
+     "ml2": 4.12,
+     "spread": -9.5,
+     "sp1": 1.909,
+     "sp2": 1.909,
+     "total": 243.5,
+     "over": 1.952,
+     "under": 1.87
+    },
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "CLE bez Mobleya i Merrilla, dwóch graczy questionable – handicap -9,5 trudny do oceny.",
+      "Bulls wygrali dwa ostatnie, ale 2-8 w ostatnich 10 – sprzeczne sygnały.",
+      "Total 243,5 bardzo wysoki; brak danych o tempie i ratingach, by go podważyć.",
+      "Moneyline CLE ~1,25 bez wartości."
+     ]
     }
    },
    {
@@ -1793,9 +1282,41 @@
     },
     "info": {
      "b2b": {
-      "home": true,
-      "away": false
-     }
+      "home": true
+     },
+     "injuries": {
+      "home": [],
+      "away": [
+       "Paolo Banchero (kostka, out)",
+       "Jonathan Isaac (kolano, out)",
+       "Noah Penda (ścięgno podkolanowe, out)",
+       "Izaiyah Nelson (kostka, out)"
+      ]
+     },
+     "restDays": {
+      "home": 0
+     },
+     "homeAway": "BOS u siebie 6-0, ORL na wyjeździe 4-3",
+     "stakes": "BOS 11-2, seria 6 wygranych, wczoraj 131:94 z DAL (Tatum 30 min); ORL 5-7, seria 3 wygranych, bez Banchero. BOS traci 102,4 pkt/mecz."
+    },
+    "odds": {
+     "src": "Bang The Book (bukmacher nie podany), stan na 16.11 02:01 UTC",
+     "ml1": 1.235,
+     "ml2": 4.33,
+     "spread": -9.5,
+     "sp1": 1.952,
+     "sp2": 1.87,
+     "total": 211.5,
+     "over": 1.952,
+     "under": 1.87
+    },
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Handicap -9,5 i moneyline BOS ~1,23 już wyceniają brak Banchero i formę Celtics.",
+      "BOS gra back-to-back – ryzyko krótszych minut liderów mimo wczorajszego blowoutu.",
+      "Total 211,5 to niska linia; dwie defensywne drużyny, ale brak danych o tempie, by szukać przewagi."
+     ]
     }
    },
    {
@@ -1813,7 +1334,43 @@
      "b2b": {
       "home": false,
       "away": true
-     }
+     },
+     "injuries": {
+      "home": [
+       "Pelle Larsson (day-to-day)"
+      ],
+      "away": [
+       "Fred VanVleet (out)",
+       "Steven Adams (out)",
+       "Clint Capela (out)",
+       "Marcus Smart (zawieszenie)"
+      ]
+     },
+     "restDays": {
+      "home": 1,
+      "away": 0
+     },
+     "homeAway": "MIA u siebie 3-3, HOU na wyjeździe 4-2",
+     "stakes": "HOU 11-3, 4 wygrane z rzędu, wczoraj 147:119 w Waszyngtonie (back-to-back). MIA 7-6, 4 wygrane z rzędu, 118,7 pkt zdobytych i 119,8 straconych na mecz."
+    },
+    "odds": {
+     "src": "SportBusy (bukmacher nie podany), stan na 16.11 rano",
+     "ml1": 2.28,
+     "ml2": 1.781,
+     "spread": 2.5,
+     "sp1": 2.0,
+     "sp2": 2.0,
+     "total": 230.5,
+     "over": 2.04,
+     "under": 1.962
+    },
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Linia HOU -2,5 uwzględnia back-to-back i braki VanVleeta, Adamsa, Capeli oraz zawieszenie Smarta.",
+      "Obie drużyny w seriach wygranych – brak przewagi formy.",
+      "Wczorajszy blowout HOU ograniczył minuty starterów, co częściowo neutralizuje zmęczenie – trudne do wyceny."
+     ]
     }
    },
    {
@@ -1831,7 +1388,41 @@
      "b2b": {
       "home": false,
       "away": true
-     }
+     },
+     "injuries": {
+      "home": [],
+      "away": [
+       "Adem Bona (out)",
+       "Dominick Barlow (out)",
+       "Joel Embiid (status niepewny – pauzował w niedzielę)",
+       "LeBron James (możliwy odpoczynek na back-to-back)"
+      ]
+     },
+     "restDays": {
+      "home": 1,
+      "away": 0
+     },
+     "homeAway": "BKN u siebie 1-3, PHI na wyjeździe 5-1",
+     "stakes": "PHI 11-3, wczoraj 131:124 z IND; BKN 3-9, w sobotę 110:129 w Memphis."
+    },
+    "odds": {
+     "src": "PickDawgz (bukmacher nie podany), stan na 16.11",
+     "ml1": 2.91,
+     "ml2": 1.435,
+     "spread": 5.5,
+     "sp1": 1.952,
+     "sp2": 1.87,
+     "total": 224.5,
+     "over": 1.87,
+     "under": 1.952
+    },
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "PHI na back-to-back z niepewnym statusem Embiida i możliwym odpoczynkiem LeBrona.",
+      "Handicap -5,5 jest umiarkowany, ale skład PHI może się istotnie zmienić tuż przed meczem.",
+      "Źródło podaje rozbieżne linie (-5,5 vs -6,5)."
+     ]
     }
    },
    {
@@ -1849,7 +1440,48 @@
      "b2b": {
       "home": false,
       "away": false
-     }
+     },
+     "injuries": {
+      "home": [
+       "Dejounte Murray (kostka, out)",
+       "Trey Murphy III (kolano, out)",
+       "Bennedict Mathurin (stopa, out)",
+       "Bryce McGowens (łokieć, out)",
+       "Trendon Watford (kostka, out)"
+      ],
+      "away": [
+       "Stephen Curry (brzuch, out)",
+       "Kristaps Porziņģis (choroba, out)",
+       "Moses Moody (kolano, out)",
+       "Brandon Williams (ścięgno podkolanowe, out)",
+       "Gui Santos (kostka, day-to-day)"
+      ]
+     },
+     "restDays": {
+      "home": 1,
+      "away": 2
+     },
+     "homeAway": "NOP u siebie 3-6, GSW na wyjeździe 2-4",
+     "stakes": "NOP 4-10, 6 porażek z rzędu, traci 124,9 pkt/mecz; GSW 8-5, dwie porażki z rzędu (85:123 w San Antonio). H2H w sezonie: GSW wygrał 138:87."
+    },
+    "odds": {
+     "src": "Bang The Book (bukmacher nie podany), stan na 16.11 02:01 UTC",
+     "ml1": 2.11,
+     "ml2": 1.763,
+     "spread": 2.5,
+     "sp1": 1.909,
+     "sp2": 1.909,
+     "total": 226.5,
+     "over": 1.909,
+     "under": 1.909
+    },
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "GSW bez Curry'ego, Porzingisa i Moody'ego – wynik H2H 138:87 nie jest miarodajny dla tego składu.",
+      "NOP fatalnie broni (124,9 pkt straconych), ale GSW 2-4 na wyjeździe.",
+      "Linia -2,5 / ML 1,76 bez wyraźnej wartości przy tylu absencjach po obu stronach."
+     ]
     }
    },
    {
@@ -1867,7 +1499,45 @@
      "b2b": {
       "home": false,
       "away": false
-     }
+     },
+     "injuries": {
+      "home": [
+       "Anthony Edwards (out)",
+       "Donte DiVincenzo (out)",
+       "Jaylen Clark (day-to-day)"
+      ],
+      "away": [
+       "Ja Morant (out)",
+       "Shaedon Sharpe (out)",
+       "Vít Krejčí (out)",
+       "Chris Youngblood (day-to-day)"
+      ]
+     },
+     "restDays": {
+      "home": 1,
+      "away": 2
+     },
+     "homeAway": "MIN u siebie 5-2, POR na wyjeździe 6-1",
+     "stakes": "POR 9-3, 3 wygrane z rzędu (+7,8 pkt/mecz); MIN 9-4 (+11,5 pkt/mecz), bez Edwardsa."
+    },
+    "odds": {
+     "src": "SportBusy (bukmacher nie podany), stan na 16.11 rano",
+     "ml1": 1.794,
+     "ml2": 2.26,
+     "spread": -2.5,
+     "sp1": 2.0,
+     "sp2": 2.0,
+     "total": 228.5,
+     "over": 2.0,
+     "under": 2.0
+    },
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Brak Edwardsa po stronie MIN i Morant/Sharpe po stronie POR – trudno ocenić siłę obu składów.",
+      "Linia -2,5 i total 228,5 po 2,00 – rynek wyrównany, brak rozbieżności z własną oceną.",
+      "POR 6-1 na wyjeździe przemawia za gośćmi, ale MIN ma lepszy bilans punktowy – sygnały sprzeczne."
+     ]
     }
    },
    {
@@ -1885,7 +1555,103 @@
      "b2b": {
       "home": false,
       "away": true
-     }
+     },
+     "injuries": {
+      "home": [
+       "Julian Strawther (out)"
+      ],
+      "away": [
+       "Mark Williams (out)",
+       "Drew Timme (day-to-day)"
+      ]
+     },
+     "restDays": {
+      "home": 1,
+      "away": 0
+     },
+     "homeAway": "DEN u siebie 2-2, PHX na wyjeździe 0-3",
+     "stakes": "DEN 7-4, 2 wygrane z rzędu (114,6 zdobytych / 112,8 straconych); PHX 5-7 na back-to-back po porażce 123:131 z LAL."
+    },
+    "odds": {
+     "src": "SportBusy (bukmacher nie podany), stan na 16.11 rano",
+     "ml1": 1.253,
+     "ml2": 4.95,
+     "spread": -10.5,
+     "sp1": 2.04,
+     "sp2": 1.962,
+     "total": 228.5,
+     "over": 2.0,
+     "under": 2.0
+    },
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Handicap -10,5 odpowiada różnicy bilansów punktowych (DEN +1,8, PHX -4,4), przewadze parkietu i back-to-back Suns.",
+      "DEN -10,5 po 2,04 to tylko lekka korekta ceny – brak wystarczającej przewagi przy tak dużym handicapie.",
+      "Moneyline DEN ~1,25 bez wartości; DEN tylko 2-2 u siebie."
+     ]
+    }
+   }
+  ],
+  "2026-11-18": [
+   {
+    "id": "NBA-2026-11-18-NYK-TOR",
+    "date": "2026-11-18",
+    "time": "01:30",
+    "home": "TOR",
+    "away": "NYK",
+    "status": "ns",
+    "arena": {
+     "name": "Scotiabank Arena",
+     "city": "Toronto"
+    }
+   },
+   {
+    "id": "NBA-2026-11-18-POR-MIN",
+    "date": "2026-11-18",
+    "time": "02:00",
+    "home": "MIN",
+    "away": "POR",
+    "status": "ns",
+    "arena": {
+     "name": "Target Center",
+     "city": "Minneapolis"
+    }
+   },
+   {
+    "id": "NBA-2026-11-18-DET-SAS",
+    "date": "2026-11-18",
+    "time": "02:00",
+    "home": "SAS",
+    "away": "DET",
+    "status": "ns",
+    "arena": {
+     "name": "Frost Bank Center",
+     "city": "San Antonio"
+    }
+   },
+   {
+    "id": "NBA-2026-11-18-CHA-LAL",
+    "date": "2026-11-18",
+    "time": "04:00",
+    "home": "LAL",
+    "away": "CHA",
+    "status": "ns",
+    "arena": {
+     "name": "Crypto.com Arena",
+     "city": "Los Angeles"
+    }
+   },
+   {
+    "id": "NBA-2026-11-18-UTA-LAC",
+    "date": "2026-11-18",
+    "time": "05:00",
+    "home": "LAC",
+    "away": "UTA",
+    "status": "ns",
+    "arena": {
+     "name": "Intuit Dome",
+     "city": "Inglewood"
     }
    }
   ]
@@ -1894,282 +1660,305 @@
   "E": [
    {
     "team": "BOS",
-    "w": 10,
+    "w": 11,
     "l": 2,
     "gb": "—",
-    "home": "5-0",
+    "home": "6-0",
     "away": "5-2",
-    "strk": "W5",
-    "l10": "9-1"
+    "l10": "9-1",
+    "strk": "W6"
    },
    {
     "team": "PHI",
-    "w": 10,
+    "w": 11,
     "l": 3,
     "gb": "0.5",
-    "home": "5-2",
+    "home": "6-2",
     "away": "5-1",
-    "strk": "W1",
-    "l10": "7-3"
+    "l10": "8-2",
+    "strk": "W2"
    },
    {
     "team": "DET",
     "w": 8,
     "l": 4,
-    "gb": "2",
+    "gb": "2.5",
     "home": "3-2",
     "away": "5-2",
+    "l10": "6-4",
     "strk": "L1"
    },
    {
     "team": "ATL",
-    "w": 7,
+    "w": 8,
     "l": 6,
     "gb": "3.5",
     "home": "3-3",
-    "away": "4-3",
-    "strk": "L2"
+    "away": "5-3",
+    "l10": "6-4",
+    "strk": "W1"
    },
    {
     "team": "MIA",
     "w": 7,
     "l": 6,
-    "gb": "3.5",
+    "gb": "4",
     "home": "3-3",
     "away": "4-3",
+    "l10": "7-3",
     "strk": "W4"
+   },
+   {
+    "team": "NYK",
+    "w": 7,
+    "l": 6,
+    "gb": "4",
+    "home": "4-3",
+    "away": "3-3",
+    "l10": "7-3",
+    "strk": "W1"
    },
    {
     "team": "CLE",
     "w": 7,
     "l": 7,
-    "gb": "4",
+    "gb": "4.5",
     "home": "5-2",
     "away": "2-5",
+    "l10": "4-6",
     "strk": "W1"
-   },
-   {
-    "team": "NYK",
-    "w": 6,
-    "l": 6,
-    "gb": "4",
-    "home": "4-3",
-    "away": "2-3",
-    "strk": "L2"
-   },
-   {
-    "team": "TOR",
-    "w": 5,
-    "l": 7,
-    "gb": "5",
-    "home": "2-3",
-    "away": "3-4",
-    "strk": "L3",
-    "l10": "3-7"
    },
    {
     "team": "ORL",
     "w": 5,
     "l": 7,
-    "gb": "5",
+    "gb": "5.5",
     "home": "1-4",
     "away": "4-3",
+    "l10": "5-5",
     "strk": "W3"
+   },
+   {
+    "team": "TOR",
+    "w": 5,
+    "l": 8,
+    "gb": "6",
+    "home": "2-4",
+    "away": "3-4",
+    "l10": "3-7",
+    "strk": "L4"
    },
    {
     "team": "IND",
     "w": 5,
-    "l": 8,
-    "gb": "5.5",
+    "l": 9,
+    "gb": "6.5",
     "home": "2-5",
-    "away": "3-3",
-    "strk": "W2"
+    "away": "3-4",
+    "l10": "3-7",
+    "strk": "L1"
    },
    {
     "team": "CHA",
     "w": 4,
-    "l": 8,
-    "gb": "6",
+    "l": 9,
+    "gb": "7",
     "home": "3-4",
-    "away": "1-4",
-    "strk": "L1",
-    "l10": "3-7"
+    "away": "1-5",
+    "l10": "2-8",
+    "strk": "L2"
    },
    {
     "team": "WAS",
     "w": 4,
-    "l": 9,
-    "gb": "6.5",
-    "home": "2-3",
+    "l": 10,
+    "gb": "7.5",
+    "home": "2-4",
     "away": "2-6",
-    "strk": "L6",
-    "l10": "2-8"
+    "l10": "2-8",
+    "strk": "L7"
    },
    {
     "team": "BKN",
     "w": 3,
     "l": 9,
-    "gb": "7",
+    "gb": "7.5",
     "home": "1-3",
     "away": "2-6",
+    "l10": "3-7",
     "strk": "L1"
    },
    {
     "team": "CHI",
     "w": 3,
     "l": 9,
-    "gb": "7",
+    "gb": "7.5",
     "home": "1-4",
     "away": "2-5",
+    "l10": "2-8",
     "strk": "W2"
    },
    {
     "team": "MIL",
     "w": 1,
-    "l": 12,
-    "gb": "9.5",
-    "home": "1-6",
+    "l": 13,
+    "gb": "10.5",
+    "home": "1-7",
     "away": "0-6",
-    "strk": "L9"
+    "l10": "0-10",
+    "strk": "L10"
    }
   ],
   "W": [
    {
-    "team": "LAL",
-    "w": 11,
-    "l": 2,
-    "gb": "—",
-    "home": "5-1",
-    "away": "6-1",
-    "strk": "W7",
-    "l10": "8-2"
-   },
-   {
     "team": "SAS",
-    "w": 11,
+    "w": 12,
     "l": 2,
     "gb": "—",
     "home": "5-2",
-    "away": "6-0",
-    "strk": "W11"
+    "away": "7-0",
+    "l10": "10-0",
+    "strk": "W12"
+   },
+   {
+    "team": "LAL",
+    "w": 12,
+    "l": 2,
+    "gb": "—",
+    "home": "5-1",
+    "away": "7-1",
+    "l10": "9-1",
+    "strk": "W8"
    },
    {
     "team": "HOU",
-    "w": 10,
+    "w": 11,
     "l": 3,
     "gb": "1",
     "home": "7-1",
-    "away": "3-2",
-    "strk": "W3"
+    "away": "4-2",
+    "l10": "7-3",
+    "strk": "W4"
    },
    {
     "team": "POR",
     "w": 9,
     "l": 3,
-    "gb": "1.5",
+    "gb": "2",
     "home": "3-2",
     "away": "6-1",
+    "l10": "7-3",
     "strk": "W3"
    },
    {
     "team": "MIN",
     "w": 9,
     "l": 4,
-    "gb": "2",
+    "gb": "2.5",
     "home": "5-2",
     "away": "4-2",
+    "l10": "6-4",
     "strk": "L1"
    },
    {
     "team": "MEM",
     "w": 9,
     "l": 4,
-    "gb": "2",
+    "gb": "2.5",
     "home": "3-4",
     "away": "6-0",
+    "l10": "6-4",
     "strk": "W2"
+   },
+   {
+    "team": "OKC",
+    "w": 9,
+    "l": 5,
+    "gb": "3",
+    "home": "5-0",
+    "away": "4-5",
+    "l10": "5-5",
+    "strk": "W1"
    },
    {
     "team": "DEN",
     "w": 7,
     "l": 4,
-    "gb": "3",
+    "gb": "3.5",
     "home": "2-2",
     "away": "5-2",
+    "l10": "7-3",
     "strk": "W2"
-   },
-   {
-    "team": "OKC",
-    "w": 8,
-    "l": 5,
-    "gb": "3",
-    "home": "5-0",
-    "away": "3-5",
-    "strk": "L3"
    },
    {
     "team": "GSW",
     "w": 8,
     "l": 5,
-    "gb": "3",
+    "gb": "3.5",
     "home": "6-1",
     "away": "2-4",
+    "l10": "8-2",
     "strk": "L2"
    },
    {
     "team": "DAL",
     "w": 7,
-    "l": 6,
-    "gb": "4",
+    "l": 7,
+    "gb": "5",
     "home": "5-2",
-    "away": "2-4",
-    "strk": "L2"
+    "away": "2-5",
+    "l10": "5-5",
+    "strk": "L3"
    },
    {
     "team": "PHX",
     "w": 5,
-    "l": 6,
-    "gb": "5",
-    "home": "5-3",
+    "l": 7,
+    "gb": "6",
+    "home": "5-4",
     "away": "0-3",
-    "strk": "W2",
-    "l10": "5-5"
+    "l10": "4-6",
+    "strk": "L1"
+   },
+   {
+    "team": "LAC",
+    "w": 4,
+    "l": 8,
+    "gb": "7",
+    "home": "4-3",
+    "away": "0-5",
+    "l10": "3-7",
+    "strk": "W2"
    },
    {
     "team": "NOP",
     "w": 4,
     "l": 10,
-    "gb": "7.5",
+    "gb": "8",
     "home": "3-6",
     "away": "1-4",
+    "l10": "4-6",
     "strk": "L6"
-   },
-   {
-    "team": "LAC",
-    "w": 3,
-    "l": 8,
-    "gb": "7",
-    "home": "3-3",
-    "away": "0-5",
-    "strk": "W1"
    },
    {
     "team": "SAC",
     "w": 1,
-    "l": 11,
-    "gb": "9.5",
-    "home": "0-7",
+    "l": 12,
+    "gb": "10.5",
+    "home": "0-8",
     "away": "1-4",
-    "strk": "L5"
+    "l10": "1-9",
+    "strk": "L6"
    },
    {
     "team": "UTA",
     "w": 1,
-    "l": 12,
-    "gb": "10",
-    "home": "1-6",
+    "l": 13,
+    "gb": "11",
+    "home": "1-7",
     "away": "0-6",
-    "strk": "L11"
+    "l10": "0-10",
+    "strk": "L12"
    }
   ]
  },
