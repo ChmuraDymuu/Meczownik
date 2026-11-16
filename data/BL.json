@@ -1,9 +1,9 @@
 {
- "updated": "2026-11-15T06:10:00+01:00",
+ "updated": "2026-11-16T06:15:00+01:00",
  "season": "2026/27",
  "competition": "Bundesliga",
  "currentRound": 10,
- "note": "Źródła: hessenschau.de, t-online.de, bundesliga.com, sportschau.de, deichstube.de, absolutfussball.com, ESPN, zdfheute.de, news.de, getfootballnewsgermany.com, livetipsportal.com, buli-tipphilfe.de, wettfreunde.net, wettbasis.com, footballpredictions.com, ig-schiedsrichter.de, sport.sky.de, volksstimme.de., anstosszeiten.de. Tabela po 9. kolejce (komplet). Terminarz 10. i 11. kolejki potwierdzony (anstosszeiten.de, 15.11). Przerwa reprezentacyjna – 10. kolejka od 20.11 (Bayern – Köln); typy na nią pojawią się na 3 dni przed meczami.",
+ "note": "Źródła: hessenschau.de, t-online.de, bundesliga.com, sportschau.de, deichstube.de, absolutfussball.com, ESPN, zdfheute.de, news.de, getfootballnewsgermany.com, livetipsportal.com, buli-tipphilfe.de, wettfreunde.net, wettbasis.com, footballpredictions.com, ig-schiedsrichter.de, sport.sky.de, volksstimme.de., anstosszeiten.de. Tabela po 9. kolejce (komplet). Terminarz 10. i 11. kolejki potwierdzony (anstosszeiten.de, 15.11). Aktualizacja 16.11: bez nowych meczów (przerwa reprezentacyjna) – uzupełniono szczegóły PAD–EIN. Przerwa reprezentacyjna – 10. kolejka od 20.11 (Bayern – Köln); typy na nią pojawią się na 3 dni przed meczami.",
  "teams": {
   "BAY": {
    "id": "BAY",
@@ -1856,13 +1856,14 @@
       "t": "goal",
       "s_": "a",
       "who": "Jonathan Burkardt",
-      "as": "Fares Chaibi"
+      "as": "Farès Chaïbi"
      },
      {
       "m": 45,
       "t": "goal",
       "s_": "h",
-      "who": "Raphael Obermaier"
+      "who": "Raphael Obermair",
+      "as": "Ruben Müller"
      },
      {
       "m": 73,
@@ -1884,10 +1885,15 @@
       "t": "goal",
       "s_": "a",
       "who": "Jonathan Burkardt",
-      "how": "Piętą, po rożnym"
+      "how": "Piętą, po rożnym",
+      "as": "Noah Atubolu"
      }
     ],
-    "notes": "Do przerwy 1:1. Karny po faulu Brassiera na Pieringerze (rezerwowy). Eintracht od 75. min w dziesiątkę, mimo to wyrównał w doliczonym czasie. Przed meczem kibic Eintrachtu spadł z trybuny gości i w stanie krytycznym trafił do szpitala – kibice obu drużyn zrezygnowali z dopingu. Składy, kartki żółte i frekwencja – brak potwierdzonych danych. Źródło: sportschau.de."
+    "notes": "Do przerwy 1:1. Karny po faulu Brassiera na Pieringerze (rezerwowy). Eintracht od 75. min w dziesiątkę, mimo to wyrównał w doliczonym czasie. Przed meczem kibic Eintrachtu spadł z trybuny gości i w stanie krytycznym trafił do szpitala – kibice obu drużyn zrezygnowali z dopingu. Składy, kartki żółte i frekwencja – brak potwierdzonych danych. Poprzeczka Marino (PAD), słupek Chaïbiego (EIN). Źródła: sportschau.de, bundesliga.com.",
+    "formation": {
+     "home": "3-4-2-1",
+     "away": "4-2-3-1"
+    }
    },
    {
     "id": "BL-2026-27-R9-RBL-AUG",

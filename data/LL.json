@@ -1,9 +1,9 @@
 {
- "updated": "2026-11-15T05:40:00+01:00",
+ "updated": "2026-11-16T05:35:00+01:00",
  "season": "2026/27",
  "competition": "LaLiga",
  "currentRound": 13,
- "note": "Źródła: laliga.com (terminarz 13. kolejki; Espanyol–Getafe 14. kol.), futbolweb.net i ElDesmarque (godziny 14. kolejki, czas hiszpański = polski), comuniate.com (wznowienie Rayo–Athletic z 8. kolejki: śr. 9.12.2026 20:00, bez publiczności), FotMob, ESPN. Przerwa reprezentacyjna – 13. kolejka od 20.11; brak meczów w ciągu najbliższych 3 dni, więc bez analizy typów. Tabela bez zmian od 12. kolejki. Aktualizacja 15.11: przerwa reprezentacyjna trwa, terminarz bez zmian (13. kolejka od pt. 20.11), brak meczów w ciągu 3 dni.",
+ "note": "Źródła: laliga.com (terminarz 13. kolejki; Espanyol–Getafe 14. kol.), futbolweb.net i ElDesmarque (godziny 14. kolejki, czas hiszpański = polski), comuniate.com (wznowienie Rayo–Athletic z 8. kolejki: śr. 9.12.2026 20:00, bez publiczności), FotMob, ESPN. Przerwa reprezentacyjna – 13. kolejka od 20.11; brak meczów w ciągu najbliższych 3 dni, więc bez analizy typów. Tabela bez zmian od 12. kolejki. Aktualizacja 15.11: przerwa reprezentacyjna trwa, terminarz bez zmian (13. kolejka od pt. 20.11), brak meczów w ciągu 3 dni. Aktualizacja 16.11: przerwa reprezentacyjna – brak meczów w ostatnich 3 dniach i w najbliższych 3 dniach; dane bez zmian, typy dla 13. kolejki pojawią się w kolejnych aktualizacjach.",
  "teams": {
   "ALA": {
    "id": "ALA",
