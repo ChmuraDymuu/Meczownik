@@ -1,28 +1,10 @@
 {
  "sport": "tennis",
- "updated": "2026-11-16T07:05:00+01:00",
+ "updated": "2026-11-17T07:20:00+01:00",
  "season": "2026",
  "competition": "Tenis",
- "note": "Źródła: ATP Tour (Shelton–Fils), NBC Sports / Sky Sports (Zverev–Jodar), Tennis Majors (finał WTA Finals, grupy ATP Finals), bets.com.au i Sporting Life (H2H, forma, urazy), Pickswise (kursy FanDuel/Novig/Polymarket), Dimers. Godziny w czasie polskim; „nie przed” = najwcześniejsza godzina. 17.11 grupa McEnroe (2. kolejka) i 18.11 grupa Lendl – kolejność i godziny jeszcze nieogłoszone, mecze dodam przy następnej aktualizacji. Brak Polaków w turniejach głównych. Brak kursów Pinnacle i polskich bukmacherów – wszystkie analizowane mecze NO BET.",
+ "note": "Źródła: ATP Tour (plan gier 16–17.11, zapowiedź dnia 3), Tennis Majors i Sofascore (Medvedev–Cobolli), NBC Sports / AP (Alcaraz–Tiafoe), bets.com.au, Sporting Life, Last Word on Sports (H2H, forma, kursy cząstkowe). Godziny w czasie polskim; „nie przed” = najwcześniejsza godzina. 18.11 grupa Lendl (Alcaraz–Medvedev, Cobolli–Tiafoe) i 19.11 grupa McEnroe (3. kolejka) – kolejność i godziny jeszcze nieogłoszone, dodam przy następnej aktualizacji. Sezon WTA zakończony; Puchar Davisa (Final 8) od 24.11. Brak Polaków w turniejach głównych. Brak spójnych kursów z jednej porównywarki, Pinnacle i polskich bukmacherów – wszystkie mecze NO BET.",
  "teams": {
-  "ANDREEVA": {
-   "id": "ANDREEVA",
-   "short": "AND",
-   "name": "Mirra Andreeva",
-   "city": "Rosja (neutralna)",
-   "col": "#24357f",
-   "tour": "WTA",
-   "rank": 3
-  },
-  "SVITOLINA": {
-   "id": "SVITOLINA",
-   "short": "SVI",
-   "name": "Elina Svitolina",
-   "city": "Ukraina",
-   "col": "#1f4fa0",
-   "tour": "WTA",
-   "rank": 6
-  },
   "ZVEREV": {
    "id": "ZVEREV",
    "short": "ZVE",
@@ -38,7 +20,8 @@
    "name": "Rafael Jodar",
    "city": "Hiszpania",
    "col": "#a3121a",
-   "tour": "ATP"
+   "tour": "ATP",
+   "rank": 10
   },
   "SHELTON": {
    "id": "SHELTON",
@@ -46,7 +29,8 @@
    "name": "Ben Shelton",
    "city": "USA",
    "col": "#1b2f6b",
-   "tour": "ATP"
+   "tour": "ATP",
+   "rank": 4
   },
   "FILS": {
    "id": "FILS",
@@ -54,7 +38,8 @@
    "name": "Arthur Fils",
    "city": "Francja",
    "col": "#1b3a8a",
-   "tour": "ATP"
+   "tour": "ATP",
+   "rank": 7
   },
   "ALCARAZ": {
    "id": "ALCARAZ",
@@ -95,180 +80,6 @@
  },
  "picks": [],
  "days": {
-  "2026-11-15": [
-   {
-    "id": "TEN-2026-11-15-ZVEREV-JODAR",
-    "date": "2026-11-15",
-    "time": "14:00",
-    "home": "ZVEREV",
-    "away": "JODAR",
-    "status": "ft",
-    "comp": "ATP Finals Turyn",
-    "stage": "Grupa McEnroe – 1. kolejka",
-    "surface": "twarda (hala)",
-    "bestOf": 3,
-    "court": "Inalpi Arena",
-    "notes": "„Nie przed” 14:00, pierwszy mecz singlowy turnieju. Grupa McEnroe: Zverev, Jodar, Shelton, Fils. Sinner nie gra (kontuzja kolana). Zverev 10 asów; przy 5-4 w 1. secie obronił dwa break pointy (as, serwis wygrywający, as).",
-    "tip": {
-     "decision": "NO BET",
-     "reasons": [
-      "Rynek bez marży (Dimers, para kursów zwycięzcy 1,43/3,00): Zverev ok. 67,8%, Jodar ok. 32,2%.",
-      "Brak kursów Pinnacle i legalnych w Polsce bukmacherów – nie da się wskazać kursu typu.",
-      "Brak konkretnej informacji, której rynek mógłby nie uwzględniać (forma, H2H i ranking są już w kursach) → prob = pm, więc przy kursie rynkowym EV < 0 nawet bez podatku 12%.",
-      "Na rynkach handicapu i sumy gemów znaleziono tylko jednostronne kursy – brak pary do wyceny."
-     ]
-    },
-    "odds": {
-     "src": "Dimers – kursy USA (bez nazwy bukmachera), stan na 14.11 09:01",
-     "ml1": 1.43,
-     "ml2": 3.0
-    },
-    "info": {
-     "h2h": [
-      "2026 Roland Garros (ziemna) ĆF – wygrana ZVEREV"
-     ],
-     "stakes": "Zverev – nr 1 rankingu, dwukrotny mistrz turnieju (2018, 2021), 31. mecz w Finals; Jodar – debiut w Finals po przełomowym pierwszym sezonie w tourze.",
-     "injuries": {
-      "home": [],
-      "away": []
-     }
-    },
-    "score": [
-     2,
-     0
-    ],
-    "sets": [
-     [
-      6,
-      4
-     ],
-     [
-      6,
-      4
-     ]
-    ]
-   },
-   {
-    "id": "TEN-2026-11-15-SHELTON-FILS",
-    "date": "2026-11-15",
-    "time": "20:30",
-    "home": "SHELTON",
-    "away": "FILS",
-    "status": "ft",
-    "comp": "ATP Finals Turyn",
-    "stage": "Grupa McEnroe – 1. kolejka",
-    "surface": "twarda (hala)",
-    "bestOf": 3,
-    "court": "Inalpi Arena",
-    "notes": "Sesja wieczorna, „nie przed” 20:30. Grupa McEnroe. Fils – pierwszy Francuz w Finals od Monfilsa (2016). Czas gry 1:58. Shelton w 1. secie bez break pointa; w 3. secie przełamanie na 2-0 (4. BP), przy 5-3 obronił BP dwoma asami. H2H 3-1 dla Sheltona.",
-    "tip": {
-     "decision": "NO BET",
-     "reasons": [
-      "Rynek bez marży (Dimers, 1,53/2,60): Shelton ok. 63%, Fils ok. 37%.",
-      "Brak kursów Pinnacle i polskich bukmacherów; sumy gemów tylko jednostronnie (poniżej 25,5 po −120 w DraftKings).",
-      "Brak informacji spoza rynku → prob = pm, EV przy kursie rynkowym ujemne (także bez podatku 12%)."
-     ]
-    },
-    "odds": {
-     "src": "Dimers – kursy USA (bez nazwy bukmachera), stan na 14.11 16:53",
-     "ml1": 1.53,
-     "ml2": 2.6
-    },
-    "info": {
-     "h2h": [
-      "2024 Bazylea (twarda, hala) SF – wygrana SHELTON",
-      "2024 Tokio (twarda) ĆF – wygrana FILS",
-      "2023 Laver Cup (twarda, hala) – wygrana SHELTON"
-     ],
-     "stakes": "Shelton (rozstawiony z 3) – finalista Rolex Paris Masters; Fils – debiut w Finals.",
-     "injuries": {
-      "home": [],
-      "away": [
-       "Sezon zaczął dopiero w lutym po kontuzji – brak informacji o bieżącym urazie"
-      ]
-     }
-    },
-    "score": [
-     2,
-     1
-    ],
-    "sets": [
-     [
-      6,
-      2
-     ],
-     [
-      3,
-      6
-     ],
-     [
-      6,
-      3
-     ]
-    ]
-   },
-   {
-    "id": "TEN-2026-11-15-ANDREEVA-SVITOLINA",
-    "date": "2026-11-15",
-    "time": "21:00",
-    "home": "ANDREEVA",
-    "away": "SVITOLINA",
-    "status": "ft",
-    "comp": "WTA Finals Indian Wells",
-    "stage": "Finał",
-    "surface": "twarda",
-    "bestOf": 3,
-    "court": "Stadium 1",
-    "notes": "Finał o 12:00 czasu lokalnego (21:00 w Polsce). Andreeva nie straciła seta w czterech meczach w Indian Wells. Andreeva mistrzynią WTA Finals w debiucie bez straty seta (10 setów). Break pointy: Andreeva 6/16, Svitolina 3/12; 9 przełamań w 21 gemach.",
-    "info": {
-     "h2h": [
-      "Andreeva prowadzi 2-1 (wg AP)",
-      "2026 WTA Finals Indian Wells (twarda) grupa – ANDREEVA 2:0 SVITOLINA (6-4, 6-0)"
-     ],
-     "fatigue": "Obie wygrały półfinały 14.11 w dwóch setach (Svitolina 6-2, 6-1 w 65 min; Andreeva 6-3, 6-4). Svitolina wcześniej trzy sety z Muchovą (11.11) i Sabalenką (13.11).",
-     "injuries": {
-      "home": [],
-      "away": [
-       "Przerwa medyczna (prawe biodro) w meczu z Muchovą 11.11 – później bez zgłoszonych problemów"
-      ]
-     },
-     "stakes": "Andreeva – debiut i pierwszy finał WTA Finals; Svitolina – mistrzyni 2018."
-    },
-    "tip": {
-     "decision": "NO BET",
-     "reasons": [
-      "Nie znaleziono pary kursów z porównywarki, Pinnacle ani polskich bukmacherów – brak podstawy do liczenia EV.",
-      "Wynik meczu grupowego (6-4, 6-0) i forma Andreevej są publiczne, więc już w kursach – nie są powodem korekty."
-     ]
-    },
-    "score": [
-     2,
-     0
-    ],
-    "sets": [
-     [
-      7,
-      5
-     ],
-     [
-      6,
-      3
-     ]
-    ],
-    "stats": [
-     [
-      "Break pointy wykorzystane",
-      6,
-      3
-     ],
-     [
-      "Wygrane punkty",
-      82,
-      67
-     ]
-    ]
-   }
-  ],
   "2026-11-16": [
    {
     "id": "TEN-2026-11-16-ALCARAZ-TIAFOE",
@@ -276,13 +87,13 @@
     "time": "14:00",
     "home": "ALCARAZ",
     "away": "TIAFOE",
-    "status": "ns",
+    "status": "ft",
     "comp": "ATP Finals Turyn",
     "stage": "Grupa Lendl – 1. kolejka",
     "surface": "twarda (hala)",
     "bestOf": 3,
     "court": "Inalpi Arena",
-    "notes": "„Nie przed” 14:00, Grupa Lendl (Alcaraz, Tiafoe, Medvedev, Cobolli).",
+    "notes": "„Nie przed” 14:00, Grupa Lendl. Alcaraz wygrał 6:2, 6:2 (1. set 28 min); 21 winnerów wobec 12 Tiafoe, wygrał wszystkie 12 punktów przy drugim serwisie rywala. Seria zwycięstw wydłużona do 10 meczów (AP). Grał z taśmą na prawym kolanie, bez oznak dyskomfortu. Następny mecz: 18.11 z Medvedevem (godzina nieogłoszona).",
     "tip": {
      "decision": "NO BET",
      "reasons": [
@@ -304,14 +115,28 @@
       "2022 US Open (twarda) półfinał – ALCARAZ 3:2",
       "2021 Barcelona (ziemna) 1/32 – TIAFOE 2:0"
      ],
-     "stakes": "Alcaraz (rozst. 2, nr 3 ATP) – tytuły w Tokio, Wiedniu i Paris Masters, seria 10 wygranych, 2026: 42-5; Tiafoe (rozst. 7, nr 8 ATP) – debiut w Finals, 2026: 44-21, przegrał 5 z ostatnich 7 meczów.",
+     "stakes": "Alcaraz (rozst. 2, nr 3 ATP) – tytuły w Tokio, Wiedniu i Paris Masters, 2026: 42-5; Tiafoe (rozst. 7, nr 8 ATP) – debiut w Finals, 2026: 44-21, przegrał 5 z ostatnich 7 meczów.",
      "injuries": {
       "home": [
        "Trenuje z ochraniaczem kolana (Sporting Life); wcześniej w sezonie ok. 4 mies. przerwy z powodu nadgarstka"
       ],
       "away": []
      }
-    }
+    },
+    "score": [
+     2,
+     0
+    ],
+    "sets": [
+     [
+      6,
+      2
+     ],
+     [
+      6,
+      2
+     ]
+    ]
    },
    {
     "id": "TEN-2026-11-16-MEDVEDEV-COBOLLI",
@@ -319,13 +144,13 @@
     "time": "20:30",
     "home": "MEDVEDEV",
     "away": "COBOLLI",
-    "status": "ns",
+    "status": "ft",
     "comp": "ATP Finals Turyn",
     "stage": "Grupa Lendl – 1. kolejka",
     "surface": "twarda (hala)",
     "bestOf": 3,
     "court": "Inalpi Arena",
-    "notes": "Sesja wieczorna, „nie przed” 20:30, Grupa Lendl.",
+    "notes": "Sesja wieczorna, „nie przed” 20:30, Grupa Lendl. Medvedev wygrał 7:6(4), 6:3 w 1 h 27 min; nie stracił podania (obronione wszystkie break pointy z 1. seta), wykorzystał 2 z 8 break pointów; 83% wygranych punktów po 1. serwisie, 17 winnerów / 18 niewymuszonych błędów (Cobolli 14/20). 18.11: Medvedev – Alcaraz, Cobolli – Tiafoe.",
     "tip": {
      "decision": "NO BET",
      "reasons": [
@@ -349,13 +174,123 @@
      "surface": {
       "home": "twarda 2026: 41-13"
      },
-     "stakes": "Medvedev (rozst. 4, nr 5 ATP) – mistrz 2021, tytuły w Hangzhou i Ałmaty, 2026: 52-20; Cobolli (rozst. 5, nr 6 ATP) – debiut w Finals, finalista Roland Garros, 2026: 36-24, 6 porażek w ostatnich 9 meczach.",
+     "stakes": "Medvedev (rozst. 4, nr 5 ATP) – mistrz 2020, tytuły w Hangzhou i Ałmaty, 2026: 52-20; Cobolli (rozst. 5, nr 6 ATP) – debiut w Finals, finalista Roland Garros, 2026: 36-24, 6 porażek w ostatnich 9 meczach.",
      "injuries": {
       "home": [],
       "away": [
        "Według bets.com.au skreczował w Wiedniu i przyjeżdża do Turynu z niejasnym urazem"
       ]
      }
+    },
+    "score": [
+     2,
+     0
+    ],
+    "sets": [
+     [
+      7,
+      6,
+      4
+     ],
+     [
+      6,
+      3
+     ]
+    ],
+    "stats": [
+     [
+      "Asy",
+      9,
+      6
+     ],
+     [
+      "Break pointy wykorzystane",
+      2,
+      0
+     ],
+     [
+      "Wygrane punkty",
+      70,
+      55
+     ]
+    ]
+   }
+  ],
+  "2026-11-17": [
+   {
+    "id": "TEN-2026-11-17-FILS-JODAR",
+    "date": "2026-11-17",
+    "time": "14:00",
+    "home": "FILS",
+    "away": "JODAR",
+    "status": "ns",
+    "comp": "ATP Finals Turyn",
+    "stage": "Grupa McEnroe – 2. kolejka",
+    "surface": "twarda (hala)",
+    "bestOf": 3,
+    "court": "Inalpi Arena",
+    "notes": "„Nie przed” 14:00 (po deblu od 11:30). Obaj przegrali w 1. kolejce – porażka praktycznie zamyka drogę do półfinału. Kursy cząstkowe (różne źródła, nie tworzą pary): Jodar 1,90 (CrownBet), 1,94 (1xbet), 19/20 ≈ 1,95; bukmacherzy wyceniają mecz na ok. 50:50 (Sporting Life).",
+    "info": {
+     "form": {},
+     "surface": {},
+     "stakes": "Fils (rozst. 6, nr 7 ATP) – 2026: 39-17, tytuł Masters w Cincinnati, w 1. kolejce 2:6, 6:3, 3:6 z Sheltonem; Jodar (nr 10 ATP, 20 lat, debiutancki sezon) – 2026: 45-20, w 1. kolejce 4:6, 4:6 z Zverevem. Przegrany ma bilans 0-2 i niemal brak szans na półfinał.",
+     "injuries": {
+      "home": [],
+      "away": []
+     },
+     "fatigue": "Obaj grali w niedzielę (15.11), dzień przerwy; Fils grał 3 sety.",
+     "h2h": [
+      "2026 Montreal (twarda) ćwierćfinał – JODAR 2:0 (7:6, 6:3)",
+      "2026 Waszyngton (twarda) 1/16 – JODAR 2:0 (7:6, 6:3)",
+      "2026 Barcelona (ziemna) półfinał – FILS 2:1"
+     ]
+    },
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Brak spójnej pary kursów z jednego źródła (dostępne tylko pojedyncze kursy na Jodara 1,90–1,95) i brak kursów Pinnacle/polskich bukmacherów – nie da się rzetelnie policzyć pm.",
+      "Rynek wycenia mecz na ok. 50:50; H2H na twardej (2-0 Jodar) jest już w kursach i nie uzasadnia korekty.",
+      "Brak informacji spoza rynku (kontuzja, zmęczenie) → prob = pm, brak przewagi; przy podatku 12% EV byłoby wyraźnie ujemne."
+     ]
+    }
+   },
+   {
+    "id": "TEN-2026-11-17-ZVEREV-SHELTON",
+    "date": "2026-11-17",
+    "time": "20:30",
+    "home": "ZVEREV",
+    "away": "SHELTON",
+    "status": "ns",
+    "comp": "ATP Finals Turyn",
+    "stage": "Grupa McEnroe – 2. kolejka",
+    "surface": "twarda (hala)",
+    "bestOf": 3,
+    "court": "Inalpi Arena",
+    "notes": "Sesja wieczorna, „nie przed” 20:30. Starcie liderów grupy (obaj 1-0) – zwycięzca będzie bliski półfinału. Kursy cząstkowe: Zverev 1,53 (Dabble), Zverev −1,5 gema 1,75 (1xbet), Shelton +1,5 seta 1,63 (Unibet). Sheltona po raz pierwszy prowadzi w Turynie Juan Carlos Ferrero.",
+    "info": {
+     "form": {},
+     "stakes": "Zverev (rozst. 1, nr 1 ATP) – 2026: 66-18, mistrz US Open, w Finals 19-12 (tytuły 2018, 2021), w 1. kolejce 6:4, 6:4 z Jodarem (84% 1. serwisu, 86% wygranych punktów po nim); Shelton (rozst. 3, nr 4 ATP) – 2026: 46-19, w Finals 2-3 po wygranej 6:2, 3:6, 6:3 z Filsem.",
+     "injuries": {
+      "home": [],
+      "away": []
+     },
+     "fatigue": "Obaj grali w niedzielę; Shelton 3 sety, Zverev 2 sety.",
+     "h2h": [
+      "2026 US Open (twarda) finał – ZVEREV 3:1",
+      "2025 ATP Finals Turyn (hala) – ZVEREV 2:0 (6:3, 7:6)",
+      "2025 Cincinnati (twarda) ćwierćfinał – ZVEREV 2:0",
+      "2025 Stuttgart (trawiasta) półfinał – ZVEREV 2:0",
+      "2025 Monachium (ziemna) finał – ZVEREV 2:0",
+      "2024 Cincinnati (twarda) ćwierćfinał – ZVEREV 2:1"
+     ]
+    },
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "Brak pary kursów z jednego źródła (znany tylko kurs na Zvereva 1,53 ≈ 65% z marżą) oraz brak kursów Pinnacle i polskich bukmacherów.",
+      "Bilans 6-0 i forma Zvereva są w pełni uwzględnione w kursach – nie są powodem korekty.",
+      "Brak informacji spoza rynku → prob = pm, brak dodatniej wartości; z podatkiem 12% typ na faworyta po ok. 1,5 jest wyraźnie nieopłacalny."
+     ]
     }
    }
   ]
