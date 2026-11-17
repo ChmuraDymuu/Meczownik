@@ -1,9 +1,9 @@
 {
- "updated": "2026-11-16T05:55:00+01:00",
+ "updated": "2026-11-17T05:55:00+01:00",
  "season": "2026/27",
  "competition": "Serie A",
  "currentRound": 12,
- "note": "Przerwa reprezentacyjna (12–20.11) – brak meczów Serie A w najbliższych 3 dniach (najbliższe: 21.11) → brak typów; typy i sędziowie przy aktualizacjach od 18–19.11. Terminarz 12. kolejki (21–23.11) i 13. kolejki (27–30.11) potwierdzony: Lega Serie A / Fantamaster, Diretta.it, Calcio e Finanza. Wyniki i tabela po 11. kolejce: Lega Serie A, Flashscore, Sofascore.",
+ "note": "Przerwa reprezentacyjna (12–20.11) – brak meczów Serie A w najbliższych 3 dniach (najbliższe: 21.11) → brak typów; typy i sędziowie przy aktualizacjach od 18–19.11 (stan na 17.11: bez zmian w terminarzu). Terminarz 12. kolejki (21–23.11) i 13. kolejki (27–30.11) potwierdzony: Lega Serie A / Fantamaster, Diretta.it, Calcio e Finanza. Wyniki i tabela po 11. kolejce: Lega Serie A, Flashscore, Sofascore.",
  "teams": {
   "ATA": {
    "id": "ATA",

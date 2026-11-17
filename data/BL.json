@@ -1,9 +1,9 @@
 {
- "updated": "2026-11-16T06:15:00+01:00",
+ "updated": "2026-11-17T06:30:00+01:00",
  "season": "2026/27",
  "competition": "Bundesliga",
  "currentRound": 10,
- "note": "Źródła: hessenschau.de, t-online.de, bundesliga.com, sportschau.de, deichstube.de, absolutfussball.com, ESPN, zdfheute.de, news.de, getfootballnewsgermany.com, livetipsportal.com, buli-tipphilfe.de, wettfreunde.net, wettbasis.com, footballpredictions.com, ig-schiedsrichter.de, sport.sky.de, volksstimme.de., anstosszeiten.de. Tabela po 9. kolejce (komplet). Terminarz 10. i 11. kolejki potwierdzony (anstosszeiten.de, 15.11). Aktualizacja 16.11: bez nowych meczów (przerwa reprezentacyjna) – uzupełniono szczegóły PAD–EIN. Przerwa reprezentacyjna – 10. kolejka od 20.11 (Bayern – Köln); typy na nią pojawią się na 3 dni przed meczami.",
+ "note": "Źródła: hessenschau.de, t-online.de, bundesliga.com, sportschau.de, deichstube.de, absolutfussball.com, ESPN, zdfheute.de, news.de, getfootballnewsgermany.com, livetipsportal.com, buli-tipphilfe.de, wettfreunde.net, wettbasis.com, footballpredictions.com, ig-schiedsrichter.de, sport.sky.de, volksstimme.de, anstosszeiten.de, sportsmole.co.uk, oddscalendar.com, gidstats.com, wetttippsheute.net, tipsterio.de, nst.com.my, ms-aktuell.de. Tabela po 9. kolejce (komplet). Terminarz 10. i 11. kolejki potwierdzony. Aktualizacja 17.11: przerwa reprezentacyjna – bez nowych meczów; dodano kursy, absencje i analizę dla Bayern – Köln (20.11, 20:30). Typy na mecze 21–22.11 pojawią się w kolejnych aktualizacjach.",
  "teams": {
   "BAY": {
    "id": "BAY",
@@ -4070,10 +4070,51 @@
     "info": {
      "injuries": {
       "home": [
-       "Manuel Neuer (uraz w meczu z Mainz 7.11 – zmieniony przez Urbiga; status przed 20.11 niepewny)"
+       "Manuel Neuer (częściowe zerwanie ścięgna w stopie – wypada na dłużej, potwierdzone przez klub)",
+       "Luis Díaz (uraz mięśniowy od 22.10, przewidywana przerwa 4–6 tygodni)"
       ],
+      "away": [
+       "Ellyes Skhiri (dłuższa kontuzja)",
+       "Ragnar Ache (niepewny – uraz uda, nie grał z Leverkusen)"
+      ]
+     },
+     "suspensions": {
+      "home": [],
       "away": []
-     }
+     },
+     "restDays": {
+      "home": 12,
+      "away": 11
+     },
+     "homeAway": "Bayern u siebie: 5 ostatnich meczów 3W 2R, bramki 22:5; Köln na wyjeździe w lidze: 0W 1R 4P (ok. 3:8 w lidze, 4:13 we wszystkich rozgrywkach)",
+     "stakes": "Bayern (1., 21 pkt) walczy o fotel lidera z Borussią Dortmund (21 pkt); Köln (15., 9 pkt) blisko strefy spadkowej",
+     "h2h": [
+      "2026-05-16 BAY 5:1 KOE",
+      "2026-01-14 KOE 1:3 BAY"
+     ]
+    },
+    "venue": {
+     "name": "Allianz Arena",
+     "city": "Monachium",
+     "capacity": 75000
+    },
+    "odds": {
+     "src": "wetttippsheute.net – mediana rynku (stan na 11–12.11.2026); BTTS: tipsterio.de/22bet (16.11.2026)",
+     "1": 1.1,
+     "X": 11.0,
+     "2": 20.0,
+     "bttsY": 1.84,
+     "bttsN": 1.88
+    },
+    "tip": {
+     "decision": "NO BET",
+     "reasons": [
+      "1X2 i podwójna szansa: kurs 1,10 na Bayern nie daje wartości (rynek wycenia ok. 90%).",
+      "Handicap Bayern −2,5 (ok. 1,69–1,76, implikowane ~58%) – model Poissona (λ ok. 3,0 : 0,9) daje ok. 35–48% → ujemne EV.",
+      "Under 4,5 (1,71) – model ok. 61–67%, ale 4 z 6 ostatnich meczów Bayernu u siebie miały 5+ goli (22:5 w 5 meczach domowych) – sprzeczne sygnały.",
+      "BTTS tak (1,84, ~54%) – model ok. 53–59%; przewaga zbyt mała i niepewna (Köln strzela mało na wyjazdach, 2 gole w 4 ost. meczach ligowych).",
+      "Pierwszy mecz po przerwie reprezentacyjnej, brak Neuera i Díaza, sędzia jeszcze nieogłoszony; kursy z mediany sprzed tygodnia, bez potwierdzonego bukmachera – zbyt duża niepewność."
+     ]
     }
    },
    {
